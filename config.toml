@@ -1,0 +1,240 @@
+# ------------------------------------- #
+# ---- General Settings --------------- #
+# ------------------------------------- #
+baseURL = "https://www.pseudoyu.com/"
+title = "Pseudoyu"
+theme = "hugo-theme-den"
+enableRobotsTXT = true      # generate robots.txt
+enableEmoji = true           # use emoji support
+hasCJKLanguage = true        # detect CJK languages for word count etc.
+preserveTaxonomyNames = true # do not make tag names lowercase
+# uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
+rssLimit = 20                # limit number of entries in RSS feeds
+page_view_conter = true
+
+# Copyright, appears in the footer
+# copyright = ""             # default: author.name
+
+# Pagination
+# number of entries per page for archives, tags and categories
+# since we don't have list view, recommend a large value
+paginate = 20
+paginatePath = "page"
+
+# Syntax Hightlight
+PygmentsCodeFences = true
+PygmentsUseClasses = true    # required for shhighlight shortcode
+
+# service plugins
+disqusShortname = ""         # disqus_shortname
+googleAnalytics = ""         # UA-XXXXXXXX-X
+
+# language support # en / zh / other... translations present in i18n/
+defaultContentLanguage = "zh"           # Default language to use
+defaultContentLanguageInSubdir = true
+
+# Links format
+[permalinks]
+  posts = "/:year/:month/:day/:filename/"
+  categories = "/category/:slug/"      # required
+  tags = "/tag/:slug/"                # required
+  pages = "/:slug/"
+
+[author]                     # required
+  name = "Arthur"
+
+[sitemap]                    # required
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# ------------------------------------- #
+# ---- Other Params ------------------- #
+# ------------------------------------- #
+
+[params]
+  since = "2020"             # Site creation time
+  rssFullContent = true      # set true to use full content instead of summary
+
+  # site info (optional)
+  keywords = ["hugo","blockchain","programming"]
+  description = "Blockchain | Programming | Photography"
+  logoTitle = "Pseudoyu" # shown on top-left, default: title
+  siteLogoImage = "images/fly.png"     # shown besides logoTitle
+  # headerTitle = "Pseudoyu"                   # default: title
+  headerImage = "images/background.jpg"
+  showAuthorCard = true # Whether to show author information below the article
+
+  showMenuLanguages = true
+
+  autoLoadComments = false # auto load comment when scrolling down
+
+  # paginate style, default use numbered pagination links
+  # if true, use original "Previous" and "Next" links.
+  paginateOriginalStyle = true
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
+  google_verification = ""  # Google_Verification
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []             # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
+
+# ------------------------------------- #
+# ---- Related Articles --------------- #
+# ------------------------------------- #
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 50
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = true
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = true
+
+[[related.indices]]
+  name = "categories"
+  weight = 200
+
+[[related.indices]]
+  name = "keywords"
+  weight = 150
+
+[[related.indices]]
+  name = "tags"
+  weight = 100
+
+[languages.en]
+  languageCode = "en"
+  languageName = "English"
+  contentDir = "content/en"
+  weight = 2
+
+  [[languages.en.menu.main]]
+    name = "Ideas"
+    weight = 10
+    identifier = "ideas"
+    url = "category/ideas/"
+  [[languages.en.menu.main]]
+    name = "Develop"
+    weight = 20
+    identifier = "develop"
+    url = "category/develop/"
+  [[languages.en.menu.main]]
+    name = "LeetCode"
+    weight = 30
+    identifier = "leetcode"
+    url = "category/leetcode/"
+  [[languages.en.menu.main]]
+    name = "Notes"
+    weight = 40
+    identifier = "notes"
+    url = "category/notes/"
+  [[languages.en.menu.main]]
+    name = "Projects"
+    weight = 50
+    identifier = "projects"
+    url = "category/projects/"
+
+  [[languages.en.menu.social]]
+    name = "Facebook"
+    weight = 10
+    identifier = "facebook"
+    url = "https://www.facebook.com/pseudoyuzhang"
+  [[languages.en.menu.social]]
+    name = "Instagram"
+    weight = 20
+    identifier = "instagram"
+    url = "https://www.instagram.com/pseudo.yu/"
+  [[languages.en.menu.social]]
+    name = "BiliBili"
+    weight = 30
+    identifier = "bilibili"
+    url = "https://space.bilibili.com/5374948/"
+
+  [[languages.en.menu.links]]
+    name = "LinkedIn"
+    weight = 10
+    identifier = "linkedin"
+    url = "https://www.linkedin.com/in/pseudoyu/"
+  [[languages.en.menu.links]]
+    name = "GitHub"
+    weight = 20
+    identifier = "github"
+    url = "https://github.com/pseudoyu"
+  [[languages.en.menu.links]]
+    name = "Coursera"
+    weight = 30
+    identifier = "coursera"
+    url = "https://www.coursera.org/user/ffe947f087d1f63b161c3fcb310a6578"
+
+  [languages.zh]
+  languageCode = "zh"
+  languageName = "中文"
+  contentDir = "content/zh"
+  weight = 1
+
+  [languages.zh.params]
+    description = "Blockchain | Programming | Photography"
+
+  [[languages.zh.menu.main]]
+    name = "思考"
+    weight = 10
+    identifier = "ideas"
+    url = "category/ideas/"
+  [[languages.zh.menu.main]]
+    name = "编程"
+    weight = 20
+    identifier = "develop"
+    url = "category/develop/"
+  [[languages.zh.menu.main]]
+    name = "算法"
+    weight = 30
+    identifier = "leetcode"
+    url = "category/leetcode/"
+  [[languages.zh.menu.main]]
+    name = "笔记"
+    weight = 40
+    identifier = "notes"
+    url = "category/notes/"
+  [[languages.zh.menu.main]]
+    name = "项目"
+    weight = 50
+    identifier = "projects"
+    url = "category/projects/"
+
+  [[languages.zh.menu.social]]
+    name = "Facebook"
+    weight = 10
+    identifier = "facebook"
+    url = "https://www.facebook.com/pseudoyuzhang"
+  [[languages.zh.menu.social]]
+    name = "Instagram"
+    weight = 20
+    identifier = "instagram"
+    url = "https://www.instagram.com/pseudo.yu/"
+  [[languages.zh.menu.social]]
+    name = "BiliBili"
+    weight = 30
+    identifier = "bilibili"
+    url = "https://space.bilibili.com/5374948/"
+
+  [[languages.zh.menu.links]]
+    name = "LinkedIn"
+    weight = 10
+    identifier = "linkedin"
+    url = "https://www.linkedin.com/in/pseudoyu/"
+  [[languages.zh.menu.links]]
+    name = "GitHub"
+    weight = 20
+    identifier = "github"
+    url = "https://github.com/pseudoyu"
+  [[languages.zh.menu.links]]
+    name = "Coursera"
+    weight = 30
+    identifier = "coursera"
+    url = "https://www.coursera.org/user/ffe947f087d1f63b161c3fcb310a6578"

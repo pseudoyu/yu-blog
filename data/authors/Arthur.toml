@@ -1,0 +1,13 @@
+url = "https://www.pseudoyu.com"
+
+[name]
+display = "Arthur"
+
+[image]
+url = "images/author.jpeg"
+
+[zh]
+description = "区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾Notion等效率工具。 [在GitHub关注我](https://github.com/pseudoyu)"
+
+[en]
+description = "Blockchain (Golang) Developer, MSc Student in Department of Computer Science @ The University of Hong Kong (HKU). Love to learn and build things. [Follow me on GitHub](https://github.com/pseudoyu)"
