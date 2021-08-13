@@ -7,7 +7,7 @@ weight: 100
 
 ## Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
 
-区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾Notion等效率工具。[在GitHub关注我](https://github.com/pseudoyu)
+区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾Notion等效率工具。[GitHub关注我](https://github.com/pseudoyu)
 
 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。
 
