@@ -33,5 +33,3 @@ I named **Pseudoyu** as my blog name quite by chance. I'm stuck for the choice o
 The name **Pseudoyu** also tells myself that I should never constantly struggle with what meaning is anymore. Instead, I will continue to learn, experience and challenge new things. And I can finally accept other's judgement or complain about me like "**You changed**" with pressure.
 
 I hope I can acquire more inputs like new knowledge and ideas, and write more short articles as outputs.
-
-Test.
