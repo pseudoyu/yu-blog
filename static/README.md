@@ -3,6 +3,8 @@
  <h2 align="center">Profile</h2>
 </p>
 
+[![GitHub Actions](https://github.com/pseudoyu/pseudoyu.github.io/workflows/build/badge.svg)](https://github.com/pseudoyu/pseudoyu.github.io/actions)
+
 ### <img src='https://qpluspicture.oss-cn-beijing.aliyuncs.com/6LjjQA/Hi.gif' alt='Hi' width="24"/> Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
 
 <a href="https://github.com/pseudoyu">
