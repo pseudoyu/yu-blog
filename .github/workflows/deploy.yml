@@ -1,0 +1,28 @@
+name: Yu Blog Update
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+      
+      - name: Build
+        run: hugo
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          EXTERNAL_REPOSITORY: pseudoyu/pseudoyu.github.io
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public
+          commit_message: ${{ github.event.head_commit.message }}
