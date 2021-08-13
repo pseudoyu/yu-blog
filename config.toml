@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = true
 
   # site info (optional)
   keywords = ["hugo","blockchain","programming"]
-  description = "Blockchain | Programming | Photography"
+  description = "Blockchain | Programming | Photography | Misty"
   logoTitle = "Pseudoyu" # shown on top-left, default: title
   siteLogoImage = "images/fly.png"     # shown besides logoTitle
   # headerTitle = "Pseudoyu"                   # default: title
@@ -179,7 +179,7 @@ defaultContentLanguageInSubdir = true
   weight = 1
 
   [languages.zh.params]
-    description = "Blockchain | Programming | Photography"
+    description = "Blockchain | Programming | Photography | Misty"
 
   [[languages.zh.menu.main]]
     name = "思考"
