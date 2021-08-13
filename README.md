@@ -1,7 +1,4 @@
-<p align="center">
- <img width="100px" src="https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/profile_logo.svg" align="center" alt="Github Readme Stats" />
- <h2 align="center">Profile</h2>
-</p>
+[![GitHub Actions](https://github.com/pseudoyu/yu_blog/workflows/build/badge.svg)](https://github.com/pseudoyu/yu_blog/actions)
 
 ### <img src='https://qpluspicture.oss-cn-beijing.aliyuncs.com/6LjjQA/Hi.gif' alt='Hi' width="24"/> Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
 
