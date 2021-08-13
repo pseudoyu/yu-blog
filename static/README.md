@@ -1,3 +1,5 @@
+[![Yu Blog Update](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml)
+
 <p align="center">
  <img width="100px" src="https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/profile_logo.svg" align="center" alt="Github Readme Stats" />
  <h2 align="center">Profile</h2>
