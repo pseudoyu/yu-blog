@@ -67,7 +67,7 @@
   <!-- Related Articles -->
   {{ $currentPagePermalink := .Permalink }}
   {{ $tags := .Params.tags }}
-    <h2>{{ i18n "related" }}</h4>
+    <h2>{{ i18n "related" }}</h2>
     <dl class="row">
   {{ range .Site.Pages }}
     {{ $isMatchTags := intersect $tags .Params.tags | len | lt 1 }}
