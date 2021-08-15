@@ -45,11 +45,11 @@ authors:
 
 **SWOT Analysis**
 
-![ecommerce_swot_analysis](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ecommerce_swot_analysis.png)
+![ecommerce_swot_analysis](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ecommerce_swot_analysis.png)
 
 **E-Commerce Presence Map**
 
-![ecommerce_presence](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ecommerce_presence.png)
+![ecommerce_presence](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ecommerce_presence.png)
 
 **Building an E-Commerce Site: A Systematic Approach**
 * Challenges

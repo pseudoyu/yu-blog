@@ -35,12 +35,12 @@ authors:
 * Smart Phone
 * mm-scale sensors
 
-![evolution_of_computers](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/evolution_of_computers.png)
+![evolution_of_computers](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/evolution_of_computers.png)
 
 **Semiconductors in Computers**
 * Transistor: a semiconductor device used to amplify or switch electronic signals and electrical power.
 
-![semiconductor](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/semiconductor.png)
+![semiconductor](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/semiconductor.png)
 
 * IC: a set of electronic circuits on a small flat piece ("chip") of semiconductor. Makes extensive use of transistors.
 
@@ -56,7 +56,7 @@ authors:
 * Design
 * Fabrication (fabrication plants/factories, "foundries" or "fabs")
 
-![fabrication_process](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/fabrication_process.png)
+![fabrication_process](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/fabrication_process.png)
 
 **"Fabless" Chipmakers**
 * Design and sells chips but outsources the fabrication

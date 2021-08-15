@@ -52,7 +52,7 @@ authors:
 
 **Land Deeds - A Blockchain Analogy**
 
-![land_deeds](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/land_deeds.png)
+![land_deeds](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/land_deeds.png)
 
 * A "chain of title" (a sequence of deeds leading from the original owner to the present owner)
 * Deeds are recorded in the Land Registry
@@ -153,8 +153,8 @@ authors:
 
 **Retail Money Key Attributes**
 
-![retail_money](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/retail_money.png)
+![retail_money](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/retail_money.png)
 
 **Different Degrees of Responsibilities for the Central Bank**
 
-![central_bank](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/central_bank.png)
+![central_bank](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/central_bank.png)

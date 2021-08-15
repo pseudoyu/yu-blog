@@ -22,7 +22,7 @@ authors:
 4. Testing
 5. Implementation
 
-![website_life_cycle](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/website_life_cycle.png)
+![website_life_cycle](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/website_life_cycle.png)
 
 **Quality Consideration**
 * Navigation
@@ -59,13 +59,13 @@ authors:
 * Web server
 * Database server
 
-![two_tier_architecture](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/two_tier_architecture.png)
+![two_tier_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/two_tier_architecture.png)
 
 ***Three-tier***
 * Web application servers
 * Backend, legacy databases
 
-![three_tier_architecture](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/three_tier_architecture.png)
+![three_tier_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/three_tier_architecture.png)
 
 **Web Server Software**
 * Appache

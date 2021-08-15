@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-上一篇《[IPFS分布式文件存储原理](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)》对于IPFS系统的设计理念、功能、工作原理及IPNS做了详细的介绍，那么，如何在本地搭建一个IPFS节点呢？
+上一篇《[IPFS分布式文件存储原理](https://www.pseudoyu.com/zh/2021/03/25/blockchain_ipfs_structure/)》对于IPFS系统的设计理念、功能、工作原理及IPNS做了详细的介绍，那么，如何在本地搭建一个IPFS节点呢？
 
 本文在`macOS 11.2.3`系统上搭建了一个IPFS节点（命令行版本），并对文件上传、下载、网络同步、`pin`、`GC`、`IPNS`等进行了实际操作，以加深对IPFS工作原理的理解。
 
@@ -58,7 +58,7 @@ ipfs get QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH -o ipfsTest.png
 ipfs get QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH -Cao ipfsTest.png
 ```
 
-![ipfs_init_readme](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ipfs_init_readme.png)
+![ipfs_init_readme](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ipfs_init_readme.png)
 
 ### 开启/加入服务
 
@@ -75,7 +75,7 @@ ipfs daemon
 
 API服务，默认在5001端口，可以通过 http://localhost:5001/webui 进行访问
 
-![ipfs_webui](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ipfs_webui.png)
+![ipfs_webui](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ipfs_webui.png)
 
 网关服务，默认在8080端口，在浏览器里访问文件需要借助于IPFS提供的网关服务，由浏览器先访问到网关，网关去获取IPFS网络杀过了的文件。通过 http://localhost:8080/ipfs/[File Hash] 来访问上传到ipfs的文件
 

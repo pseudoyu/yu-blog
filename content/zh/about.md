@@ -11,7 +11,7 @@ weight: 100
 
 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。
 
-![picture](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/dino.gif)
+![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/dino.gif)
 
 ### 个人希望
 ***生活方面***，希望能够和现在的挚友一直相互支持走下去，和家人保持现在这样亦亲亦友的关系，和在意的人一起面对人生的挑战，同时也能认识更多有趣的人。

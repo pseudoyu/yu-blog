@@ -46,7 +46,7 @@ IPFS想把全世界所有部署了相同文件系统的计算设备链接在一�
 
 文件上传时有两个值得注意的情况：1.文件特别小，如果文件小于1KB的话就不浪费一个block了，会直接和Hash一起上传到IPFS。2.文件特别大，比如之前上传了一个1G的视频，之后又加了几KB的字幕文件，这种情况下未变化的1G部分是不会重新分配新的空间的，而只会为追加的字母文件部分分配新的block，再重新上传Hash。
 
-因此，很好理解的是，即使是不同文件的相同部分也只会存储一份（同一节点），很多文件的索引会指向同一个block，所形成的结构就是MerkleDAG数据结构。
+因此，很好理解的是，即使是不同文件的相同部分也只会存储一份，很多文件的索引会指向同一个block，所形成的结构就是MerkleDAG数据结构。
 
 值得注意的是，当节点执行add操作时，会保留到本地blockstore中，但不会立刻主动上传到IPFS网络中，也就是说，与其连接的节点并不会存储这个文件，除非有某个节点请求过该block数据！因此，它并不是一个自动备份数据的分布式数据库。IPFS这种设计是出于网络带宽、可靠性等方面的考虑。
 
@@ -58,11 +58,11 @@ IPFS想把全世界所有部署了相同文件系统的计算设备链接在一�
 
 这就关系到上文所提到的IPFS索引结构是`DHT`（分布式哈希表），通过对`DHT`进行访问可以很快访问得到数据。
 
-![ipfs_dht](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ipfs_dht.png)
+![ipfs_dht](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ipfs_dht.png)
 
 > 那如果想要查找一个本地没有的数据呢？
 
-![ipfs_get](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ipfs_get.gif)
+![ipfs_get](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ipfs_get.gif)
 
 在IPFS系统中，所有和当前节点连接的节点会构成一个swarm网络，当节点发送一个文件请求(即`get`)时，首先会在本地的blockstore里查找请求的数据，如果没找到的话，就会向swarm网络发出一个请求，通过网络中的`DHT Routing`找到拥有该数据的节点。
 
@@ -74,7 +74,7 @@ IPFS想把全世界所有部署了相同文件系统的计算设备链接在一�
 
 > 在项目中，上传的文件可以通过`ipfs.io`网关直接获取到文件，类似于`https://ipfs.io/ipfs/Qm.....`这样的网站地址，这个是什么原理呢？
 
-![ipfs_io_get](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/ipfs_io_get.gif)
+![ipfs_io_get](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ipfs_io_get.gif)
 
 `ipfs.io`网关实际上就是一个IPFS节点，当我们打开上述这个网络链接的时候，实际上就是向这个节点发送了一次请求，因此`ipfs.io`网关会帮我们去向拥有这个数据的节点请求这个block（如果这个文件是自己刚在本地节点通过`add`命令添加的话就会通过这种方式被上传到IPFS网络上），在`swarm`网络中通过`DHT Routing`获取到数据后，网关会自己先缓存一份，然后将数据通过HTTP协议发给我们，因此，就可以在浏览器直接看到这个文件啦！
 

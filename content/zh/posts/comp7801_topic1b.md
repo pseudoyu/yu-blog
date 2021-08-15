@@ -21,7 +21,7 @@ authors:
   - Ordered indices:  search keys are stored in sorted order
   - Hash indices:  search keys are distributed across "buckets" using a "hash function"
 
-![indexing_example](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/indexing_example.png)
+![indexing_example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/indexing_example.png)
 
 ### Good Index
 
@@ -42,7 +42,7 @@ authors:
   - an index whose search key specifies an order different from the sequential order of the file
   - Also called non-clustered index
 
-![classification_of_indexing](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/classification_of_indexing.png)
+![classification_of_indexing](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/classification_of_indexing.png)
 
 - Dense index
   - Index record appears for every search-key value in the file
@@ -53,7 +53,7 @@ authors:
   - Generally slower than dense index for locating records
   - Good tradeoff: sparse index with an index entry for every block in file, corresponding to least search-key value in the block
 
-![classification_of_indexing_2](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/classification_of_indexing_2.png)
+![classification_of_indexing_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/classification_of_indexing_2.png)
 
 #### Primary and Secondary Indices
 
@@ -75,7 +75,7 @@ authors:
   - inner index – the 1st-level index file
 - If even outer index is too large to fit in main memory, yet another level of index can be created, and so on
 
-![multilevel_index_example](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/multilevel_index_example.png)
+![multilevel_index_example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/multilevel_index_example.png)
 
 ### B+-Tree Index Files
 
@@ -102,7 +102,7 @@ authors:
   - the entries of a directory node define the separators between domain intervals
   - leaf nodes store index entries and pointers to the relation file
 
-![B_Plus_Tree_Example](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/B_Plus_Tree_Example.png)
+![B_Plus_Tree_Example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/B_Plus_Tree_Example.png)
 
 #### Non-Leaf Nodes in B+-Trees
 
@@ -112,7 +112,7 @@ authors:
   - All the search-keys in the subtree to which P1 points are less than K1
   - For 2 <= i <= n – 1, all the search-keys in the subtree to which Pi points have values greater than or equal to Ki–1 and smaller than Km–1
 
-![B_Plus_Tree_Non_Leaf_Node](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/B_Plus_Tree_Non_Leaf_Node.png)
+![B_Plus_Tree_Non_Leaf_Node](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/B_Plus_Tree_Non_Leaf_Node.png)
 
 #### Leaf Node in a B+-Tree
 
@@ -161,7 +161,7 @@ authors:
   - If the node reached by following the pointer above is not a leaf node, repeat the above procedure on the node, and follow the corresponding pointer
   - Eventually reach a leaf node.  If for some i, k <= Ki <= m follow pointer Pi  to the desired record. Continue with next entry Ki+1, while Ki+1 <= m. If at end of leaf node follow pointer to next node, until Ki >m or end of index
 
-![B_Plus_Tree_Range_Query](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/B_Plus_Tree_Range_Query.png)
+![B_Plus_Tree_Range_Query](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/B_Plus_Tree_Range_Query.png)
 
 #### Insertion
 
@@ -171,7 +171,7 @@ authors:
   - If there is room in the leaf node, insert (key-value, pointer) pair in the leaf node
   - Otherwise, split the node (along with the new (key-value, pointer) entry) as discussed in the next slides
 
-![B_Plus_Tree_Insertion](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/B_Plus_Tree_Insertion.png)
+![B_Plus_Tree_Insertion](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/B_Plus_Tree_Insertion.png)
 
 #### Splitting
 
@@ -185,7 +185,7 @@ authors:
   - Move last n/2 key values and n/2+1 pointers to new node
   - insert (middle key value, pointer to new node) to parent node
 
-![B_Plus_Tree_splitting](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/B_Plus_Tree_splitting.png)
+![B_Plus_Tree_splitting](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/B_Plus_Tree_splitting.png)
 
 #### Deletion
 
@@ -199,7 +199,7 @@ authors:
   - Update the corresponding search-key value in the parent of the node
 - The node deletions may cascade upwards until a node which has n/2 or more pointers is found.  If the root node has only one pointer after deletion, it is deleted and the sole child becomes the root
 
-![B_Plus_Tree_deletion](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/B_Plus_Tree_deletion.png)
+![B_Plus_Tree_deletion](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/B_Plus_Tree_deletion.png)
 
 ### Static Hashing
 
@@ -209,7 +209,7 @@ authors:
 - Hash function is used to locate records for access, insertion as well as deletion
 - Records with different search-key values may be mapped to the same bucket; thus entire bucket has to be searched sequentially to locate a record. (Collision)
 
-![indexing_hashing](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/indexing_hashing.png)
+![indexing_hashing](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/indexing_hashing.png)
 
 #### Hash Function
 
@@ -234,7 +234,7 @@ authors:
 - Hashing can be used not only for file organization, but also for index-structure creation
 - A hash index organizes the search keys, with their associated record pointers, into a hash file structure
 
-![Hash_Index](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/Hash_Index.png)
+![Hash_Index](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/Hash_Index.png)
 
 #### Deficiencies of Static Hashing
 

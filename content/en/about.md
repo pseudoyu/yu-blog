@@ -11,7 +11,7 @@ Blockchain (Golang) Developer, MSc Student in Department of Computer Science @ T
 
 I want to learn things and become a better person. I enjoy reading, thinking and writing in my leisure time.
 
-![picture](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/dino.gif)
+![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/dino.gif)
 
 ### My Goals
 ***About my life***, I hope I can establish a life-long friendship with my best friends, keep close relationship with my families, and face future challenges with my beloved. Also, I hope to meet interesting friends of diverse background.

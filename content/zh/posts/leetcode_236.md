@@ -16,7 +16,7 @@ authors:
 
 示例 1：
 
-![leetcode_236](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/leetcode_236.png)
+![leetcode_236](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/leetcode_236.png)
 
     输入：root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
     输出：3
@@ -24,7 +24,7 @@ authors:
 
 示例 2：
 
-![leetcode_236](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/leetcode_236.png)
+![leetcode_236](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/leetcode_236.png)
 
     输入：root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
     输出：5

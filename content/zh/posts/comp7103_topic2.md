@@ -26,13 +26,13 @@ Support for itemset I (s(I)) = the number of baskets containing all items in I
 
 Given a support threshold s, sets of items that appear in at least s baskets are called frequent itemsets
 
-![frequent_itemsets](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/frequent_itemsets.png)
+![frequent_itemsets](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/frequent_itemsets.png)
 
 #### Monotonicity
 
 For any sets of items I and any set of items J, it holds that
 
-![association_rules_monotonicity](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/association_rules_monotonicity.png)
+![association_rules_monotonicity](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/association_rules_monotonicity.png)
 
 ### Applications
 
@@ -52,9 +52,9 @@ If-then rules I → j about the contents of baskets, I is a set of items and j i
 
 The probability of j given I
 
-![association_rules_confidence](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/association_rules_confidence.png)
+![association_rules_confidence](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/association_rules_confidence.png)
 
-![association_rules_confidence_example](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/association_rules_confidence_example.png)
+![association_rules_confidence_example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/association_rules_confidence_example.png)
 
 #### Finding Association Rules
 
@@ -92,7 +92,7 @@ find all association rules with support ≥ s and confidence ≥ c
       - To count number of item pairs use a hash function
       - Requires memory proportional to square of frequent items only, plus a list of the frequent items, plus space for hashing
 
-![APriori_Algorithm](https://raw.githubusercontent.com/pseudoyu/image_hosting/master/hugo_images/APriori_Algorithm.png)
+![APriori_Algorithm](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/APriori_Algorithm.png)
 
 - One pass for each k
 - Needs room in main memory to count each candidate k -set
