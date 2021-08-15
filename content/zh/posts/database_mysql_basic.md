@@ -69,7 +69,7 @@ authors:
 域完整性则是通过对表中列做一些额外限制，如限制数据类型、检查约束、设置默认值、是否允许空值以及值域范围等。
 
 ```sql
-#在创建表时对字段进行唯一性的约束
+--- 在创建表时对字段进行唯一性的约束
 create table person (
     id int not null auto_increment primary key,
     name varchar(30),
@@ -170,39 +170,39 @@ status;
 #### DDL操作
 
 ```sql
-#创建数据库
+--- 创建数据库
 create database learn_test;
 
-#显示所有数据库
+--- 显示所有数据库
 show databases;
 
-#删除数据库
+--- 删除数据库
 drop database mydb;
 ```
 
 ![mysql_ddl](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_ddl.png)
 
 ```sql
-#进入某个数据库
+--- 进入某个数据库
 use learn_test;
 
-#创建一个简单的数据表
+--- 创建一个简单的数据表
 create table contacts (
     id int not null auto_increment primary key,
     name varchar(30),
     phone varchar(20)
 );
 
-#添加字段
+--- 添加字段
 alter table contacts add sex varchar(1);
 
-#修改字段
+--- 修改字段
 alter table contacts modify sex tinyint;
 
-#删除字段
+--- 删除字段
 alter table contacts drop column sex;
 
-#删除全表
+--- 删除全表
 drop table contacts;
 ```
 
@@ -213,13 +213,13 @@ drop table contacts;
 #### DML操作
 
 ```sql
-#插入多条数据
+--- 插入多条数据
 insert into contacts (name, phone, sex) values('张三', '13100000000', 1), ('李四', '13100000001', 1), ('王五', '13100000002', 2);
 
-#修改数据内容
+--- 修改数据内容
 update contacts set sex = 1 where name = '王五';
 
-#删除数据内容
+--- 删除数据内容
 delete * from contacts where id = 3;
 ```
 
@@ -228,14 +228,14 @@ delete * from contacts where id = 3;
 MySQL可以通过`select`命令来对表进行查询，最常用的查看全表命令为
 
 ```sql
-#查看表的全部数据
+--- 查看表的全部数据
 select * from contacts;
 ```
 
 还可以通过`where`关键字来进行条件查询、以及多个条件的组合查询
 
 ```sql
-#组合条件进行查询
+--- 组合条件进行查询
 select * from contacts where id = 1 or name = "李四";
 ```
 
@@ -246,7 +246,7 @@ select * from contacts where id = 1 or name = "李四";
 `IN`可以帮助我们过滤某个字段的多个值
 
 ```sql
-#查询id在(1,3)中的数据
+--- 查询id在(1,3)中的数据
 select * from contacts where id in(1,3);
 ```
 
@@ -255,14 +255,14 @@ select * from contacts where id in(1,3);
 同时，`IN`和`EXISTS`也可以用于子查询
 
 ```sql
-#子查询 IN
+--- 子查询 IN
 select A.*
 from student A
 where A.stu_no in(
         select B.stu_no from score B
 );
 
-#子查询 EXISTS
+--- 子查询 EXISTS
 select A.*
 from student A
 where exists(
@@ -274,14 +274,14 @@ where exists(
 `LIKE`可以帮助我们进行一些包含关系的模糊搜索，`%`可以匹配任一个字符，`_`可以匹配单个字符
 
 ```sql
-#查询所有姓张的联系人
+--- 查询所有姓张的联系人
 select * from contacts where name like '张%';
 ```
 
 ![mysql_contacts_dql_like_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql_like_2.png)
 
 ```sql
-#查询所有名字以四结尾且为两个字的的联系人
+--- 查询所有名字以四结尾且为两个字的的联系人
 select * from contacts where name like '_四';
 ```
 
@@ -291,7 +291,7 @@ select * from contacts where name like '_四';
 实际应用中，往往数据表的数据量非常庞大，会对数据根据相应条件进行分组，这就要用到`GROUP BY`关键字，以及`HAVING`用于进一步筛选条件。`GROUP BY`需要配合聚合函数进行使用。
 
 ```sql
-#统计男联系人数量
+--- 统计男联系人数量
 select case sex
             when 1 then "男" 
             when 2 then "女" 
@@ -307,7 +307,7 @@ having sex = 1;
 而也可以通过`GROUP_CONCAT`来结合一些具体的数据
 
 ```sql
-#按性别显示不同性别联系人的列表及总数
+--- 按性别显示不同性别联系人的列表及总数
 select case sex
             when 1 then "男" 
             when 2 then "女" 
@@ -323,7 +323,7 @@ group by sex;
 有时候我们只需要返回唯一值，而需要去掉重复数据，则可以使用`DISTINCT`关键字
 
 ```sql
-#在查询时对字段进行去重
+--- 在查询时对字段进行去重
 select distinc sex from contacts;
 ```
 
@@ -350,7 +350,7 @@ MySQL也有很多常见的内置函数，可以帮助用户更方便处理各种
 MySQL有一种类似于编程语言中的if else或switch的流程控制语句，以实现复杂的应用逻辑
 
 ```sql
-#选取数据并且把性别以中文标识
+--- 选取数据并且把性别以中文标识
 select name, phone, case sex
                         when 1 then "男"
                         when 2 then "女"
@@ -370,7 +370,7 @@ from contacts;
 而自连接是一种特殊的连接方式，通过在逻辑上生成多张表以实现复杂的层次结构，常应用于区域表、菜单表和商品分类表等，语法如下
 
 ```sql
-#自连接语法
+--- 自连接语法
 select A.cloumn, B.column
 from table A, table B
 where A.column = B.column;
