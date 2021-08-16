@@ -125,10 +125,10 @@ defaultContentLanguageInSubdir = true
     identifier = "develop"
     url = "category/develop/"
   [[languages.en.menu.main]]
-    name = "LeetCode"
+    name = "Tools"
     weight = 30
-    identifier = "leetcode"
-    url = "category/leetcode/"
+    identifier = "tools"
+    url = "category/tools/"
   [[languages.en.menu.main]]
     name = "Notes"
     weight = 40
@@ -192,10 +192,10 @@ defaultContentLanguageInSubdir = true
     identifier = "develop"
     url = "category/develop/"
   [[languages.zh.menu.main]]
-    name = "算法"
+    name = "工具"
     weight = 30
-    identifier = "leetcode"
-    url = "category/leetcode/"
+    identifier = "tools"
+    url = "category/tools/"
   [[languages.zh.menu.main]]
     name = "笔记"
     weight = 40

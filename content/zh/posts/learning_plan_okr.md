@@ -2,8 +2,8 @@
 title: "用OKR的方式梳理自己的学习计划"
 date: 2021-02-11T00:00:00+08:00
 draft: false
-tags: ["ideas","plan","review","okr"]
-categories: ["Ideas"]
+tags: ["tools","plan","review","okr"]
+categories: ["Tools"]
 authors:
 - "Arthur"
 ---
