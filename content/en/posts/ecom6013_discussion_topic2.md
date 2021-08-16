@@ -10,7 +10,7 @@ authors:
 
 # E-Commerce Presence Look Around
 
-## New iPad Air 4 (2020) Presence by Apple Inc.
+## New iPad Air 4 (2020) Presence by Apple Inc
 
 [**Website Link**](https://www.apple.com/hk/en/ipad-air/)
 

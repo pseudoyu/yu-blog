@@ -13,9 +13,9 @@ authors:
 ### Structure of Relational Databases
 
 #### Basic structure
-- Given sets D1, D2, …. Dn
-- A relation r is a subset of D1 x  D2  x … x Dn
-- A relation is a set of n-tuples (a1, a2, …, an) where each ai  <belong to> Di
+- Given sets D1, D2, ..., Dn
+- A relation r is a subset of D1 x  D2  x ..., x Dn
+- A relation is a set of n-tuples (a1, a2, ..., an) where each ai  <belong to> Di
 
 **Example**
 - if
@@ -30,8 +30,8 @@ authors:
 - The set of allowed values for each attribute is called the domain of the attribute
 
 #### Relation Schema
-- A1, A2, …, An are attributes
-- R = (A1, A2, …, An ) is a relation schema
+- A1, A2, ..., An are attributes
+- R = (A1, A2, ..., An ) is a relation schema
   - E.g. `Account-schema = (account-number, branch-name, balance)`
 - r(R) is a relation on the relation schema R
   - E.g. `customer(Customer-schema)`

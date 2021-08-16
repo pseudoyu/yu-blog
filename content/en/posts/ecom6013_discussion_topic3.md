@@ -10,7 +10,7 @@ authors:
 
 # Mobile Payment Systems
 
-## Why has China been an ideal environment to support mobile payment systems?
+## Why has China been an ideal environment to support mobile payment systems
 
 Politically, payment licenses are controlled by government (relative financial institutions) and under strict regulation. So, tech giants like Alibaba who are qualified can increasingly develop their payment business in the early age. Plus, in the early stage of mobile payment, laws and rules are not so completed. Payment platform can utilize smart market strategies (like very high return rate) to attract more new potential users and enhance existing users’ engagement, which is effective in market expanding stage.
 

@@ -263,7 +263,7 @@ authors:
 
 ### Hierarchical Path Materialization
 
-* Idea: Partition graph G into G_1,G_2,G_3,… based on connectivity and proximity of nodes
+* Idea: Partition graph G into G_1,G_2,G_3,... based on connectivity and proximity of nodes
 * Every edge of G goes to exactly one G_i
 * Border nodes belong to more than one G_i’s
 * For each G_i compute and materialize SPs between every pair of nodes in G_i (matrix M_i)

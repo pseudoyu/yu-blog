@@ -145,9 +145,11 @@ epsilon: smallest path cost
 
 [***Use deque in Python3***](https://docs.python.org/3.8/library/collections.html#collections.deque)
 
+```sh
     class collections.deque([iterable[, maxlen]])
     Returns a new deque object initialized left-to-right (using append()) with data from iterable.
     If iterable is not specified, the new deque is empty.
+```
 
 ```python
 >>> import collections
@@ -167,12 +169,14 @@ When it applies DFS/UCS, only need to change the **data type of the frontier** v
 
 ***pseudo code***
 
+```sh
     function TSA(problem) returns solution
         initialize frontier using initial state of problem
         while frontier is not empty
             choose a node and remove it from frontier
             if node contains a goal state then return corresponding solution
             explore the node, adding the resulting nodes to the frontier
+```
 
 ***actual python code***
 
@@ -192,6 +196,7 @@ def bfsTsa(stateSpaceGraph, startState, goalState):
 
 ***pseudo code***
 
+```sh
     function GSA (problem) returns solution
         initialize frontier using initial state of problem
         initialize explored set to be empty
@@ -201,6 +206,7 @@ def bfsTsa(stateSpaceGraph, startState, goalState):
             If node is not in explored set
                 add node to explored set
                 explore the node, adding the resulting nodes to the frontier
+```
 
 ***actual python code***
 

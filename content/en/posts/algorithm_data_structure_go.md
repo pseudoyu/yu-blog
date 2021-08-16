@@ -1,5 +1,5 @@
 ---
-title: "LeetCode刷题常用数据结构（Go篇）"
+title: "LeetCode 刷题常用数据结构（Go 篇）"
 date: 2021-05-29T00:12:17+08:00
 draft: false
 tags: ["develop","go","algorithm", "leetcode"]
@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-最近重新开始用Go刷LeetCode算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。
+最近重新开始用 Go 刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。
 
 ## 数据结构
 
@@ -260,5 +260,5 @@ str := strconv.Itoa()
 
 ## 参考资料
 
-> 1. [LeetCode官网](https://leetcode.com)
-> 2. [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern)，*GitHub*
+> 1. [LeetCode 官网](https://leetcode.com)
+> 2. [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern)

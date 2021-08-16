@@ -315,11 +315,11 @@ The distance between a query object q and an R-tree node MBR lower-bounds the di
   - Characteristic of all depth-first search algorithms
   - Recall that the range search algorithm is also DF
 - However, does not visit the least possible number of nodes
-- Also, not incremental – more on this later…
+- Also, not incremental – more on this later...
 
 ![DFNNS_example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/DFNNS_example.png)
 
-```
+```sh
 1. visit root
 dist(q,M1)<dist(q,oNN)
 must visit node M1
@@ -389,12 +389,12 @@ Thus the best (i.e., closest) entry is always visited first.
 - The algorithm can be used for k-NN search
   - use a second heap to organize the NN found so far (same can be done for DF-NN)
   - no need if we just use the inc. version of the algorithm
-- … but: The heap can grow very large until the algorithm terminates
+- ... but: The heap can grow very large until the algorithm terminates
 
 
 ![BFNNS_example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/BFNNS_example.png)
 
-```
+```sh
 Step 1: put all entries of root on heap Q
 Q = M1(1), M2(sqrt(2)), M3(sqrt(8))
 
@@ -427,7 +427,7 @@ m1(sqrt(5)). Since sqrt(5) >= dist(q,oNN)= sqrt(2), search stops and oNN is retu
     - also R-tree may not be available for large cities only
   - Solution 2:
     - incrementally find NN and check if the large city requirement is satisfied; if not get the next NN
-- Example 2: find the nearest hotel; see if you like it; if not get the next one; see if you like it; …
+- Example 2: find the nearest hotel; see if you like it; if not get the next one; see if you like it; ...
 
 ### Spatial Joins
 

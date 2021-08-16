@@ -109,6 +109,5 @@ authors:
   * Each player maximizes its own component
   * Gives rise to cooperation and competition dynamically
 
-**[A Reference Note1](https://zhuanlan.zhihu.com/p/46706438)**
-
-**[A Reference Note2](https://kartikkukreja.wordpress.com/2015/07/04/adversarial-search/)**
+>1. [A Reference Note1](https://zhuanlan.zhihu.com/p/46706438)
+>2. [A Reference Note2](https://kartikkukreja.wordpress.com/2015/07/04/adversarial-search/)

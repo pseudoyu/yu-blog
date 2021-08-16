@@ -193,7 +193,7 @@ Use many clusters, find parts of clusters, but need to put together
 - Do not have to assume any particular number of clusters
   - Any desired number of clusters can be obtained by ‘cutting’ the dendogram at the proper level
 - They may correspond to meaningful taxonomies
-  - Example in biological sciences (e.g., animal kingdom, phylogeny reconstruction, …)
+  - Example in biological sciences (e.g., animal kingdom, phylogeny reconstruction, ...)
 
 #### Two main types of hierarchical clustering
 

@@ -31,11 +31,13 @@ authors:
 
 **Local Search Algorithm**
 
+```sh
 	Randomly initialize currentState
 	If cost of currentState == 0 return currentState
 	If min(cost(getNeighbors(currentState))) > cost(currentState)
 		goto step 1 (we have reached a local minimum)
 	Select cheapest neighbor as currentState and goto step2
+```
 
 **Example: 8-Queens**
 * States

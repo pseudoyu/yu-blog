@@ -1,5 +1,5 @@
 ---
-title: "MySQL基础知识与相关操作"
+title: "MySQL 基础知识与相关操作"
 date: 2021-03-29T00:12:17+08:00
 draft: false
 tags: ["develop","database","mysql"]
@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-数据库不论在基础知识学习还是真实企业业务场景中都很常用，也有很多调侃说日常工作总是离不开CRUD，熟练主流关系型与数据库的使用是一个开发者基本的操作。本文将在MacOS系统下对MySQL这个流行的关系性数据库的基础知识与相关操作进行整理，以便于查阅。
+数据库不论在基础知识学习还是真实企业业务场景中都很常用，也有很多调侃说日常工作总是离不开 CRUD，熟练主流关系型与数据库的使用是一个开发者基本的操作。本文将在 MacOS 系统下对 MySQL 这个流行的关系性数据库的基础知识与相关操作进行整理，以便于查阅。
 
 ## 数据与数据库概述
 
@@ -28,7 +28,7 @@ authors:
 - 独立性高
 - 易于拓展
 
-很好理解的是，按照不同关系/结构组织起来的数据具备不同的特征，同时也适用于不同的应用场景，目前主要分为层次数据库、网状数据库和关系数据库三种，而我们要着重介绍的MySQL就数据关系数据库。
+很好理解的是，按照不同关系/结构组织起来的数据具备不同的特征，同时也适用于不同的应用场景，目前主要分为层次数据库、网状数据库和关系数据库三种，而我们要着重介绍的 MySQL 就数据关系数据库。
 
 ### 数据库管理系统(DBMS)
 
@@ -38,9 +38,9 @@ authors:
 
 ### 主要特征
 
-关系性数据库主要以数据表的形式呈现，每一行为一条记录，每一列则为记录名称所对应的数据域(Field)。许多行列组成一张单表，而若干单表则组成数据库。用户/系统通过SQL(结构化查询语言对数据库进行查询。
+关系性数据库主要以数据表的形式呈现，每一行为一条记录，每一列则为记录名称所对应的数据域(Field)。许多行列组成一张单表，而若干单表则组成数据库。用户/系统通过 SQL(结构化查询语言对数据库进行查询。
 
-有些关系型数据库的操作具有事务性，即ACID规则
+有些关系型数据库的操作具有事务性，即 ACID 规则
 
 - 原子性(Atomicity)
 - 一致性(Consistency)
@@ -81,7 +81,7 @@ create table person (
 
 而用户自定义完整性则是根据具体应用场景和涉及到数据来对数据进行一些语义方面的限制，如余额不能为负数等，一般用设定规则、存储过程和触发器等来进行约束和限制。
 
-### 主流RDBMS
+### 主流 RDBMS
 
 目前主流的关系型数据库有以下几种
 
@@ -91,15 +91,15 @@ create table person (
 - Oracle
 - MySQL
 
-企业和个人用得比较多的是Oracle和MySQL两种，接下来也会以MySQL为例进行详细的操作讲解。
+企业和个人用得比较多的是 Oracle 和 MySQL 两种，接下来也会以 MySQL 为例进行详细的操作讲解。
 
 ## MySQL
 
 ### 安装与启动
 
-MySQL是由Sun公司（后被Oracle公司收购）开发维护的一种很流行的小型数据库系统，由于体积很小且运行数据快，被很多中小型企业/网站采用，也具备较完整的开发和维护生态。
+MySQL 是由 Sun 公司（后被 Oracle 公司收购）开发维护的一种很流行的小型数据库系统，由于体积很小且运行数据快，被很多中小型企业/网站采用，也具备较完整的开发和维护生态。
 
-作为个人用户学习使用，可以下载社区版（开源）进行使用本地搭建环境，可以根据不同的系统选择不同的版本，也具备较便捷的图形界面供大家进行服务的开启、关闭、重启以及进行相关的配置等。本文以MacOS系统下的`MySQL 8.0.21`为例，在安装及进行基本设置后，就可以对本机MySQL服务进行管理，版本可能会略有差别，但核心功能差别不大。
+作为个人用户学习使用，可以下载社区版（开源）进行使用本地搭建环境，可以根据不同的系统选择不同的版本，也具备较便捷的图形界面供大家进行服务的开启、关闭、重启以及进行相关的配置等。本文以 MacOS 系统下的`MySQL 8.0.21`为例，在安装及进行基本设置后，就可以对本机 MySQL 服务进行管理，版本可能会略有差别，但核心功能差别不大。
 
 #### 图形界面
 
@@ -107,11 +107,11 @@ MySQL是由Sun公司（后被Oracle公司收购）开发维护的一种很流行
 
 ![mac_mysql_manage](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mac_mysql_manage.png)
 
-点击MySQL图标即可进入详细管理界面
+点击 MySQL 图标即可进入详细管理界面
 
 ![mac_mysql_service](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mac_mysql_service.png)
 
-在这个管理界面可以很方便地进行MySQL服务的开启与关闭，也可以将其设置为开机自启等操作，`Configuration`中也可以进行进一步的设置，但更建议在命令行进行。
+在这个管理界面可以很方便地进行 MySQL 服务的开启与关闭，也可以将其设置为开机自启等操作，`Configuration`中也可以进行进一步的设置，但更建议在命令行进行。
 
 #### 命令行界面
 
@@ -129,11 +129,11 @@ sudo /usr/local/mysql/support-files/mysql.server stop
 
 ![mac_mysql_cli](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mac_mysql_cli.png)
 
-当然也可以通过设置一些alias来简化命令，但是既然有比较方便的管理界面了，也就不折腾了，如果在一些没有图形界面的linux环境下进行操作，则需要命令行操作。
+当然也可以通过设置一些 alias 来简化命令，但是既然有比较方便的管理界面了，也就不折腾了，如果在一些没有图形界面的 linux 环境下进行操作，则需要命令行操作。
 
-### 连接MySQL
+### 连接 MySQL
 
-安装和启动完成后 即可通过命令行连接MySQL并进行一些基本操作了
+安装和启动完成后 即可通过命令行连接 MySQL 并进行一些基本操作了
 
 ```sh
 mysql -h localhost -u root -p
@@ -146,28 +146,28 @@ status;
 
 ![mysql_connect](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_connect.png)
 
-而除了通过命令行连接外，MacOS平台上也有一个很好用的客户端`Sequel Pro`，提供了大多数需要的功能，而由于正式版存在崩溃问题且已经不再维护，建议下载测试版 [Sequel Pro测试版](https://sequelpro.com/test-builds)，可以很方便地连接至本地/远程服务器MySQL服务
+而除了通过命令行连接外，MacOS 平台上也有一个很好用的客户端`Sequel Pro`，提供了大多数需要的功能，而由于正式版存在崩溃问题且已经不再维护，建议下载测试版 [Sequel Pro 测试版](https://sequelpro.com/test-builds)，可以很方便地连接至本地/远程服务器 MySQL 服务
 
 ![sequel_pro_connect](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/sequel_pro_connect.png)
 
-并查询数据库的结构、内容及执行SQL命令
+并查询数据库的结构、内容及执行 SQL 命令
 
 ![sequel_pro_manage](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/sequel_pro_manage.png)
 
 这是目前我使用下来非常强大且轻量级的一个客户端，建议大家使用！
 
-### SQL命令
+### SQL 命令
 
-经过了本地MySQL配置与连接后，我们就可以对数据库进行一些操作了，SQL语言主要分为以下四类
+经过了本地 MySQL 配置与连接后，我们就可以对数据库进行一些操作了，SQL 语言主要分为以下四类
 
-- DDL数据定义语言（Data Definition Language）
-- DML数据操纵语言（Data Manipulation Language）
-- DQL数据查询语言（Data Query Language）
-- DCL数据控制语言（Data Control Language）
+- DDL 数据定义语言（Data Definition Language）
+- DML 数据操纵语言（Data Manipulation Language）
+- DQL 数据查询语言（Data Query Language）
+- DCL 数据控制语言（Data Control Language）
 
 接下来我们将通过实战完成一系列操作
 
-#### DDL操作
+#### DDL 操作
 
 ```sql
 --- 创建数据库
@@ -210,7 +210,7 @@ drop table contacts;
 
 ![mysql_learn_test_ddl](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_learn_test_ddl.png)
 
-#### DML操作
+#### DML 操作
 
 ```sql
 --- 插入多条数据
@@ -223,9 +223,9 @@ update contacts set sex = 1 where name = '王五';
 delete * from contacts where id = 3;
 ```
 
-#### DQL操作
+#### DQL 操作
 
-MySQL可以通过`select`命令来对表进行查询，最常用的查看全表命令为
+MySQL 可以通过`select`命令来对表进行查询，最常用的查看全表命令为
 
 ```sql
 --- 查看表的全部数据
@@ -339,7 +339,7 @@ select * from contacts order by id desc limit 5;
 
 ### 内置函数
 
-MySQL也有很多常见的内置函数，可以帮助用户更方便处理各种数据，简化操作，大多数功能都很直观，不作一一说明了
+MySQL 也有很多常见的内置函数，可以帮助用户更方便处理各种数据，简化操作，大多数功能都很直观，不作一一说明了
 
 ![mysql_functions](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_functions.png)
 
@@ -347,7 +347,7 @@ MySQL也有很多常见的内置函数，可以帮助用户更方便处理各种
 
 ### 流程控制
 
-MySQL有一种类似于编程语言中的if else或switch的流程控制语句，以实现复杂的应用逻辑
+MySQL 有一种类似于编程语言中的 if else 或 switch 的流程控制语句，以实现复杂的应用逻辑
 
 ```sql
 --- 选取数据并且把性别以中文标识
@@ -378,9 +378,9 @@ where A.column = B.column;
 
 ## 总结
 
-学完了关系型数据库，那非关系型数据库又是怎样的呢？后续将会对Redis这一使用广泛的非关系性数据库进行整理，敬请期待！
+学完了关系型数据库，那非关系型数据库又是怎样的呢？后续将会对 Redis 这一使用广泛的非关系性数据库进行整理，敬请期待！
 
 ## 参考资料
 
-> 1. [MySQL官网](https://www.mysql.com)
-> 2. [Sequel Pro官网](https://sequelpro.com)
+> 1. [MySQL 官网](https://www.mysql.com)
+> 2. [Sequel Pro 官网](https://sequelpro.com)

@@ -1,5 +1,5 @@
 ---
-title: "LeetCode刷题常用数据结构（Java篇）"
+title: "LeetCode 刷题常用数据结构（Java 篇）"
 date: 2021-01-01T00:12:17+08:00
 draft: false
 tags: ["develop","java","algorithm", "leetcode"]
@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-最近开始刷LeetCode算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。
+最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。
 
 ## 数据结构
 
@@ -81,7 +81,7 @@ if (s1.equals(s2)) {
 String s3 = s1 + "!";
 ```
 
-#### 通过StringBuilder进行频繁的字符串拼接以提高效率
+#### 通过 StringBuilder 进行频繁的字符串拼接以提高效率
 
 ```java
 StringBuilder sb = new StringBuilder();
@@ -255,5 +255,5 @@ E pop()
 
 ## 参考资料
 
-> 1. [LeetCode官网](https://leetcode.com)
-> 2. [labuladong的算法小抄](https://github.com/labuladong/fucking-algorithm)，*GitHub*
+> 1. [LeetCode 官网](https://leetcode.com)
+> 2. [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)

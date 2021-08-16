@@ -7,7 +7,7 @@ weight: 100
 
 ## Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
 
-区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾Notion等效率工具。[在GitHub关注我](https://github.com/pseudoyu)
+区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾 Notion 等效率工具。[在 GitHub 关注我](https://github.com/pseudoyu)
 
 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。
 
@@ -24,11 +24,11 @@ weight: 100
 
 ## 关于网站
 
-**Pseudoyu** 是我的第一个网站，主要用来记录生活、学习与零碎的一些想法。最早基于WordPress并放在自己的个人服务器上，后又迁移至同名微信公众号，最后出于稳定性和自由度考虑还是决定用Hugo生成自己的静态网页，托管于GitHub并绑定 [pseudoyu.com](https://www.pseudoyu.com/zh/) 域名。
+**Pseudoyu** 是我的第一个网站，主要用来记录生活、学习与零碎的一些想法。最早基于 WordPress 并放在自己的个人服务器上，后又迁移至同名微信公众号，最后出于稳定性和自由度考虑还是决定用 Hugo 生成自己的静态网页，托管于 GitHub 并绑定 [pseudoyu.com](https://www.pseudoyu.com/zh/) 域名。
 
-**Pseudoyu** 的命名很巧合，在HKU入学注册时因为自己名字过于常见而很难抉择使用什么uid，后取用了一个前缀「[pseudo](https://www.oxfordlearnersdictionaries.com/definition/english/pseudo)」，[pseudonym](https://www.oxfordlearnersdictionaries.com/definition/english/pseudonym) 有「笔名、假名」的含义，编程里常用到的 [pseudocode](https://www.lexico.com/definition/pseudocode) 是「伪码」的含义，而很喜欢的日漫 [*物语系列 - 伪物语*](https://zh.wikipedia.org/wiki/偽物語) 中也不乏对「真物」与「伪物」的探究，那为什么不能有一个 pseudo 的 yu（我）呢？
+**Pseudoyu** 的命名很巧合，在 HKU 入学注册时因为自己名字过于常见而很难抉择使用什么 uid，后取用了一个前缀「[pseudo](https://www.oxfordlearnersdictionaries.com/definition/english/pseudo)」，[pseudonym](https://www.oxfordlearnersdictionaries.com/definition/english/pseudonym) 有「笔名、假名」的含义，编程里常用到的 [pseudocode](https://www.lexico.com/definition/pseudocode) 是「伪码」的含义，而很喜欢的日漫 [*物语系列 - 伪物语*](https://zh.wikipedia.org/wiki/偽物語) 中也不乏对「真物」与「伪物」的探究，那为什么不能有一个 pseudo 的 yu（我）呢？
 
-我常辗转于自我怀疑之中，在与挚友聊天时谈及「初心」或是「意义」时总是选择逃避，即使取得一些世俗的小成就也很难从心底感受到喜悦或满足，总觉得一切都如同「伪物」一样毫无意义。而随着年岁与经历的增长，我在另一篇文章 [*23岁的自白：去追寻意义*](https://www.pseudoyu.com/zh/2020/06/06/23岁的自白去追寻意义/) 中写道，「*也许思考本身就是建构意义的过程，让我不再期待某个瞬间能够顿悟，只是希望继续向前，体验和追寻着自己的人生.*」
+我常辗转于自我怀疑之中，在与挚友聊天时谈及「初心」或是「意义」时总是选择逃避，即使取得一些世俗的小成就也很难从心底感受到喜悦或满足，总觉得一切都如同「伪物」一样毫无意义。而随着年岁与经历的增长，我在另一篇文章 [*23 岁的自白：去追寻意义*](https://www.pseudoyu.com/zh/2020/06/06/23岁的自白去追寻意义/) 中写道，「*也许思考本身就是建构意义的过程，让我不再期待某个瞬间能够顿悟，只是希望继续向前，体验和追寻着自己的人生.*」
 
 **Pseudoyu** 这个名字也是寓意自己不应该再时常纠结意义，而是要不断去学习、体验与挑战新的事物，即使被评价「变了」、「不像自己」也能欣然接受。
 

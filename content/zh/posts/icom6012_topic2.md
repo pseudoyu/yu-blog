@@ -182,14 +182,18 @@ authors:
 
 ![packet_switch](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/packet_switch.png)
 
+```sh
 	Packet transmission delay = L (bits) / R (bits/sec)
+```
 
 * End-end delay
 
 ![store_and_forward](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/store_and_forward.png)
 
+```sh
 	End-end delay = 2L (bits) / R (bits/sec)
 	(Assuming zero propagation delay)
+```
 
 * Store and forward: entire packet must arrive at router before it can be transmitted on next link
 
@@ -255,10 +259,13 @@ authors:
 
 ![packet_delay](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/packet_delay.png)
 
+```sh
 	d(nodal) = d(proc) + d(queue) + d(trans) + d(prop)
+```
 
 **Example**
 
+```sh
 	Number of hops = M
 	Per-hop processing delay = d(proc)
 	Link propagation delay = d(prop)
@@ -267,6 +274,7 @@ authors:
 
 	End-to-end Delay (ignoring queueing delay)
 	= M * d(prop) + N * d(trans) + (M-1) * d(trans) + (M-1) * d(proc)
+```
 
 ![timing_diagram](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/timing_diagram.png)
 

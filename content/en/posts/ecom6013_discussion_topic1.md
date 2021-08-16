@@ -67,7 +67,7 @@ Reason
 * Starbucks
 * Bibo Mart
 
-## Discussion Topic #1 Why did Puma build a single centralized website rather than continue with multiple websites serving different countries and regions?
+## Discussion Topic #1 Why did Puma build a single centralized website rather than continue with multiple websites serving different countries and regions
 
 Puma has been developing for more than 70 years. It’s one of the largest sportswear manufacturers in the world. How to manage such a large scale business and tremendous amount of data has become a major challenge in its development.
 
