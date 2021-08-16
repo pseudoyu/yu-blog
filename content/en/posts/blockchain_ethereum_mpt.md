@@ -46,6 +46,12 @@ authors:
 - AVL 存储的结点信息更多（平衡因子与高度），因此占存储空间更大
 - 读操作多、写操作少的时候用 AVL 更合适，多用于数据库；当写操作较多时一般使用红黑树，简洁好实现，多用于各类高级语言的库中，如 map、set 等
 
+#### 代码实现
+
+因为红黑树较为复杂，实现代码上传至 GitHub 供学习查看。
+
+[pseudoyu/Red_Black_Tree_Java - GitHub](https://github.com/pseudoyu/Red_Black_Tree_Java)
+
 ### Trie - 字典树
 
 Trie 被称为字典树，又称单词查找树或键树，常用于统计和排序大量的字符串，如搜索引擎的文本磁盘统计等。
@@ -59,12 +65,6 @@ Trie 被称为字典树，又称单词查找树或键树，常用于统计和排
 2. 从根结点到某一结点，路径上经过的字符连接起来为该结点对应的字符串
 3. 每个结点的所有子结点路径代表的字符都不相同
 4. 结点可以存储额外信息，如词频等
-
-#### 代码实现
-
-因为红黑树较为复杂，实现代码上传至 GitHub 供学习查看。
-
-[pseudoyu/Red_Black_Tree_Java - GitHub](https://github.com/pseudoyu/Red_Black_Tree_Java)
 
 #### 结点内部实现
 
