@@ -1,5 +1,5 @@
 ---
-title: "Research on Cloud Computing Processing and Optimization of Distributed Computer (区块链网络存储与优化)"
+title: "基于 CNFS 的区块链网络存储与优化"
 date: 2021-06-22T09:30:25+08:00
 draft: false
 tags: ["projects","blockchain","ipfs","cnfs","distributed"]
@@ -8,10 +8,10 @@ authors:
 - "Arthur"
 ---
 
-# Research on Cloud Computing Processing and Optimization of Distributed Compute
+# Research on Cloud Computing Processing and Optimization of Distributed Computer
 ## 前言
 
-经过在 HKU 一年区块链相关的学习，对分布式存储这一领域产生了兴趣，毕业项目也和 IPFS 相关，详见「[Uright - 区块链音乐版权管理ÐApp](https://www.pseudoyu.com/zh/2021/05/10/uright_case_study/)」，回内地后恰有机会和 CNFS Protocol Lab 的孙野院长合作撰写了本篇「Research on Cloud Computing Processing and Optimization of Distributed Computer (区块链的网络存储与优化)」，对分布式网络存储、计算有了更深的理解，特此记录。
+经过在 HKU 一年区块链相关的学习，对分布式存储这一领域产生了兴趣，毕业项目也和 IPFS 相关，详见「[Uright - 区块链音乐版权管理ÐApp](https://www.pseudoyu.com/zh/2021/05/10/uright_case_study/)」，回内地后恰有机会和 CNFS Protocol Lab 的孙野院长合作撰写了本篇「Research on Cloud Computing Processing and Optimization of Distributed Computer（基于 CNFS 区块链的网络存储与优化）」，对分布式网络存储、计算有了更深的理解，特此记录。
 
 本文被 ICCEA(2021 International Conference on Electronic, Electrical and Computer) 所收录。
 
