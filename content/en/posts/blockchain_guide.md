@@ -41,27 +41,28 @@ authors:
 
 ### 区块链基础
 
-1. [区块链基础知识与关键技术](https://www.pseudoyu.com/zh/2021/02/12/blockchain_basic/)
+1. [区块链基础知识与关键技术](https://www.pseudoyu.com/en/2021/02/12/blockchain_basic/)
 
 ### 比特币
 
-1. [比特币核心技术解读](https://www.pseudoyu.com/zh/2021/02/17/blockchain_bitcoin_basic/)
+1. [比特币核心技术解读](https://www.pseudoyu.com/en/2021/02/17/blockchain_bitcoin_basic/)
 2. [官网](https://bitcoin.org/en/)
 3. [白皮书](https://bitcoin.org/bitcoin.pdf) ([中译](https://bitcoin.org/files/bitcoin-paper/bitcoin_zh_cn.pdf))
 4. [源码](https://github.com/bitcoin/bitcoin)
 
 ### 以太坊
 
-1. [Ethereum 核心技术解读](https://www.pseudoyu.com/zh/2021/02/20/blockchain_ethereum_basic/)
-2. [官网](https://ethereum.org/en/)
-3. [白皮书](https://ethereum.org/en/whitepaper/)
-4. [文档](https://ethereum.org/en/developers/docs/)
-5. [源码](https://github.com/ethereum/go-ethereum)
+1. [Ethereum 核心技术解读](https://www.pseudoyu.com/en/2021/02/20/blockchain_ethereum_basic/)
+2. [Ethereum MPT(Merkle Patricia Tries) 详解](https://www.pseudoyu.com/zh/2021/08/16/blockchain_ethereum_mpt/)
+3. [官网](https://ethereum.org/en/)
+4. [白皮书](https://ethereum.org/en/whitepaper/)
+5. [文档](https://ethereum.org/en/developers/docs/)
+6. [源码](https://github.com/ethereum/go-ethereum)
 
 ### Hyperledger Fabric
 
-1. [Hyperledger Fabric 系统架构详解](https://www.pseudoyu.com/zh/2021/03/20/blockchain_hyperledger_fabric_structure/)
-2. [Hyperledger Fabric 网络与安全体系浅析](https://www.pseudoyu.com/zh/2021/03/23/blockchain_hyperledger_fabric_network/)
+1. [Hyperledger Fabric 系统架构详解](https://www.pseudoyu.com/en/2021/03/20/blockchain_hyperledger_fabric_structure/)
+2. [Hyperledger Fabric 网络与安全体系浅析](https://www.pseudoyu.com/en/2021/03/23/blockchain_hyperledger_fabric_network/)
 3. [官网](https://www.hyperledger.org/use/fabric)
 4. [文档](https://hyperledger-fabric.readthedocs.io/en/release-2.2/)
 5. [源码](https://github.com/hyperledger/fabric#releases)
@@ -70,8 +71,8 @@ authors:
 
 ### IPFS
 
-1. [IPFS 分布式存储协议分析与思考](https://www.pseudoyu.com/zh/2021/03/25/blockchain_ipfs_structure/)
-2. [IPFS 本地节点搭建（命令行）](https://www.pseudoyu.com/zh/2021/03/27/blockchain_ipfs_practice/)
+1. [IPFS 分布式存储协议分析与思考](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)
+2. [IPFS 本地节点搭建（命令行）](https://www.pseudoyu.com/en/2021/03/27/blockchain_ipfs_practice/)
 3. [官网](https://ipfs.io)
 4. [白皮书](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
 5. [文档](https://docs.ipfs.io)
@@ -94,7 +95,7 @@ authors:
 
 ### 个人项目
 
-1. [x] Uright ([文档](https://www.pseudoyu.com/zh/2021/05/10/uright_case_study/) | [GitHub](https://github.com/pseudoyu/Uright)) - 一款基于以太坊区块链的音乐版权管理应用（ÐApp）
+1. [x] Uright ([文档](https://www.pseudoyu.com/en/2021/05/10/uright_case_study/) | [GitHub](https://github.com/pseudoyu/Uright)) - 一款基于以太坊区块链的音乐版权管理应用（ÐApp）
 
 ---
 
@@ -102,6 +103,6 @@ authors:
 
 ### 关于我
 
-个人网站：[Pseudoyu](https://www.pseudoyu.com)
+个人网站：[Pseudoyu](https://www.pseudoyu.com/en)
 
 个人公众号："**Pseudoyu**"

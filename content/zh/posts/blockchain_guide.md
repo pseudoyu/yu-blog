@@ -53,10 +53,11 @@ authors:
 ### 以太坊
 
 1. [Ethereum 核心技术解读](https://www.pseudoyu.com/zh/2021/02/20/blockchain_ethereum_basic/)
-2. [官网](https://ethereum.org/en/)
-3. [白皮书](https://ethereum.org/en/whitepaper/)
-4. [文档](https://ethereum.org/en/developers/docs/)
-5. [源码](https://github.com/ethereum/go-ethereum)
+2. [Ethereum MPT(Merkle Patricia Tries) 详解](https://www.pseudoyu.com/zh/2021/08/16/blockchain_ethereum_mpt/)
+3. [官网](https://ethereum.org/en/)
+4. [白皮书](https://ethereum.org/en/whitepaper/)
+5. [文档](https://ethereum.org/en/developers/docs/)
+6. [源码](https://github.com/ethereum/go-ethereum)
 
 ### Hyperledger Fabric
 

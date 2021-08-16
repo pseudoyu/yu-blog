@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-上一篇《[IPFS 分布式文件存储原理](https://www.pseudoyu.com/zh/2021/03/25/blockchain_ipfs_structure/)》对于 IPFS 系统的设计理念、功能、工作原理及 IPNS 做了详细的介绍，那么，如何在本地搭建一个 IPFS 节点呢？
+上一篇《[IPFS 分布式文件存储原理](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)》对于 IPFS 系统的设计理念、功能、工作原理及 IPNS 做了详细的介绍，那么，如何在本地搭建一个 IPFS 节点呢？
 
 本文在`macOS 11.2.3`系统上搭建了一个 IPFS 节点（命令行版本），并对文件上传、下载、网络同步、`pin`、`GC`、`IPNS`等进行了实际操作，以加深对 IPFS 工作原理的理解。
 

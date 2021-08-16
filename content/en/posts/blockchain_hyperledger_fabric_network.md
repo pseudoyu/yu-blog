@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-上一篇文章《[Hyperledger Fabric 架构详解](https://www.pseudoyu.com/zh/2021/03/20/blockchain_hyperledger_fabric_structure/)》对`Fabric`的架构和工作原理进行了详细的解读与分析，那作为一个企业级的区块链系统，它是如何根据复杂的业务需求搭建网络，在运行过程中存在哪些安全问题，以及`Fabric`是如何从机制上进行预防的呢？
+上一篇文章《[Hyperledger Fabric 架构详解](https://www.pseudoyu.com/en/2021/03/20/blockchain_hyperledger_fabric_structure/)》对`Fabric`的架构和工作原理进行了详细的解读与分析，那作为一个企业级的区块链系统，它是如何根据复杂的业务需求搭建网络，在运行过程中存在哪些安全问题，以及`Fabric`是如何从机制上进行预防的呢？
 
 本文将通过实例阐释一个简化版的企业`Fabric`网络是如何构建的，并对其网络与安全体系进行分析，如有错漏，欢迎交流指正。
 
