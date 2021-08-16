@@ -45,39 +45,39 @@ authors:
 
 ### 比特币
 
-1. [比特币核心技术解读](https://www.pseudoyu.com/zh/2021/02/17/blockchain_bitcoin_basic/)
-2. [官网](https://bitcoin.org/en/)
-3. [白皮书](https://bitcoin.org/bitcoin.pdf) ([中译](https://bitcoin.org/files/bitcoin-paper/bitcoin_zh_cn.pdf))
-4. [源码](https://github.com/bitcoin/bitcoin)
+1. [官网](https://bitcoin.org/en/)
+2. [白皮书](https://bitcoin.org/bitcoin.pdf) ([中译](https://bitcoin.org/files/bitcoin-paper/bitcoin_zh_cn.pdf))
+3. [源码](https://github.com/bitcoin/bitcoin)
+4. [比特币核心技术解读](https://www.pseudoyu.com/zh/2021/02/17/blockchain_bitcoin_basic/)
 
 ### 以太坊
 
-1. [Ethereum 核心技术解读](https://www.pseudoyu.com/zh/2021/02/20/blockchain_ethereum_basic/)
-2. [Ethereum MPT(Merkle Patricia Tries) 详解](https://www.pseudoyu.com/zh/2021/08/16/blockchain_ethereum_mpt/)
-3. [官网](https://ethereum.org/en/)
-4. [白皮书](https://ethereum.org/en/whitepaper/)
-5. [文档](https://ethereum.org/en/developers/docs/)
-6. [源码](https://github.com/ethereum/go-ethereum)
+1. [官网](https://ethereum.org/en/)
+2. [白皮书](https://ethereum.org/en/whitepaper/)
+3. [文档](https://ethereum.org/en/developers/docs/)
+4. [源码](https://github.com/ethereum/go-ethereum)
+5. [Ethereum 核心技术解读](https://www.pseudoyu.com/zh/2021/02/20/blockchain_ethereum_basic/)
+6. [Ethereum MPT(Merkle Patricia Tries) 详解](https://www.pseudoyu.com/zh/2021/08/16/blockchain_ethereum_mpt/)
 
 ### Hyperledger Fabric
 
-1. [Hyperledger Fabric 系统架构详解](https://www.pseudoyu.com/zh/2021/03/20/blockchain_hyperledger_fabric_structure/)
-2. [Hyperledger Fabric 网络与安全体系浅析](https://www.pseudoyu.com/zh/2021/03/23/blockchain_hyperledger_fabric_network/)
-3. [官网](https://www.hyperledger.org/use/fabric)
-4. [文档](https://hyperledger-fabric.readthedocs.io/en/release-2.2/)
-5. [源码](https://github.com/hyperledger/fabric#releases)
+1. [官网](https://www.hyperledger.org/use/fabric)
+2. [文档](https://hyperledger-fabric.readthedocs.io/en/release-2.2/)
+3. [源码](https://github.com/hyperledger/fabric#releases)
+4. [Hyperledger Fabric 系统架构详解](https://www.pseudoyu.com/zh/2021/03/20/blockchain_hyperledger_fabric_structure/)
+5. [Hyperledger Fabric 网络与安全体系浅析](https://www.pseudoyu.com/zh/2021/03/23/blockchain_hyperledger_fabric_network/)
 
 ## 热门技术
 
 ### IPFS
 
-1. [IPFS 分布式存储协议分析与思考](https://www.pseudoyu.com/zh/2021/03/25/blockchain_ipfs_structure/)
-2. [IPFS 本地节点搭建（命令行）](https://www.pseudoyu.com/zh/2021/03/27/blockchain_ipfs_practice/)
-3. [基于 CNFS 的区块链网络存储与优化](https://www.pseudoyu.com/zh/2021/06/22/blockchain_paper_cnfs/)
-4. [官网](https://ipfs.io)
-5. [白皮书](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
-6. [文档](https://docs.ipfs.io)
-7. [源码](https://github.com/ipfs/ipfs)
+1. [官网](https://ipfs.io)
+2. [白皮书](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
+3. [文档](https://docs.ipfs.io)
+4. [源码](https://github.com/ipfs/ipfs)
+5. [IPFS 分布式存储协议分析与思考](https://www.pseudoyu.com/zh/2021/03/25/blockchain_ipfs_structure/)
+6. [IPFS 本地节点搭建（命令行）](https://www.pseudoyu.com/zh/2021/03/27/blockchain_ipfs_practice/)
+7. [基于 CNFS 的区块链网络存储与优化](https://www.pseudoyu.com/zh/2021/06/22/blockchain_paper_cnfs/)
 
 ## 开发实战
 
