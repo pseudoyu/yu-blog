@@ -120,15 +120,15 @@ defaultContentLanguageInSubdir = true
     identifier = "ideas"
     url = "category/ideas/"
   [[languages.en.menu.main]]
-    name = "Develop"
-    weight = 20
-    identifier = "develop"
-    url = "category/develop/"
-  [[languages.en.menu.main]]
     name = "Tools"
-    weight = 30
+    weight = 20
     identifier = "tools"
     url = "category/tools/"
+  [[languages.en.menu.main]]
+    name = "Develop"
+    weight = 30
+    identifier = "develop"
+    url = "category/develop/"
   [[languages.en.menu.main]]
     name = "Notes"
     weight = 40
@@ -187,15 +187,15 @@ defaultContentLanguageInSubdir = true
     identifier = "ideas"
     url = "category/ideas/"
   [[languages.zh.menu.main]]
-    name = "编程"
-    weight = 20
-    identifier = "develop"
-    url = "category/develop/"
-  [[languages.zh.menu.main]]
     name = "工具"
-    weight = 30
+    weight = 20
     identifier = "tools"
     url = "category/tools/"
+  [[languages.zh.menu.main]]
+    name = "编程"
+    weight = 30
+    identifier = "develop"
+    url = "category/develop/"
   [[languages.zh.menu.main]]
     name = "笔记"
     weight = 40
