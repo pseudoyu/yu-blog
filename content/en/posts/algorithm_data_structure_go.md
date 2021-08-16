@@ -2,8 +2,8 @@
 title: "LeetCode刷题常用数据结构（Go篇）"
 date: 2021-05-29T00:12:17+08:00
 draft: false
-tags: ["leetcode","go","algorithm"]
-categories: ["LeetCode"]
+tags: ["develop","go","algorithm", "leetcode"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

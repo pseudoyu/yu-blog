@@ -2,8 +2,8 @@
 title: "LeetCode刷题常用数据结构（Java篇）"
 date: 2021-01-01T00:12:17+08:00
 draft: false
-tags: ["leetcode","java","algorithm"]
-categories: ["LeetCode"]
+tags: ["develop","java","algorithm", "leetcode"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
