@@ -73,10 +73,11 @@ authors:
 
 1. [IPFS 分布式存储协议分析与思考](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)
 2. [IPFS 本地节点搭建（命令行）](https://www.pseudoyu.com/en/2021/03/27/blockchain_ipfs_practice/)
-3. [官网](https://ipfs.io)
-4. [白皮书](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
-5. [文档](https://docs.ipfs.io)
-6. [源码](https://github.com/ipfs/ipfs)
+3. [基于 CNFS 的区块链网络存储与优化](https://www.pseudoyu.com/en/2021/06/22/blockchain_paper_cnfs/)
+4. [官网](https://ipfs.io)
+5. [白皮书](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
+6. [文档](https://docs.ipfs.io)
+7. [源码](https://github.com/ipfs/ipfs)
 
 ## 开发实战
 
