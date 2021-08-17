@@ -36,7 +36,7 @@
 <div>
 <p>
 
-区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾Notion等效率工具。 [在GitHub关注我](https://github.com/pseudoyu)
+区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾 Notion 等效率工具。 [在 GitHub 关注我](https://github.com/pseudoyu)
 
 </h4>
 </div>
@@ -44,11 +44,3 @@
 <br />
 
 ![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/dino.gif)
-
-<br />
-
-<div align="center">
-
-![Yu Zhang's github stats](https://github-readme-stats.vercel.app/api?username=pseudoyu&show_icons=true)
-
-</div>
