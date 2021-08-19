@@ -12,7 +12,7 @@ authors:
 
 > 一个不断更新的区块链核心知识库
 
-[源项目地址](https://github.com/pseudoyu/BlockchainGuide) | [在线阅读](https://www.pseudoyu.com/BlockchainGuide/)
+[源项目地址](https://github.com/pseudoyu/blockchain-guide) | [在线阅读](https://www.pseudoyu.com/blockchain-guide/)
 
 **目录**
 
@@ -96,7 +96,7 @@ authors:
 
 ### 个人项目
 
-1. [x] Uright ([文档](https://www.pseudoyu.com/en/2021/05/10/uright_case_study/) | [GitHub](https://github.com/pseudoyu/Uright)) - 一款基于以太坊区块链的音乐版权管理应用（ÐApp）
+1. [x] Uright ([文档](https://www.pseudoyu.com/en/2021/05/10/uright_case_study/) | [GitHub](https://github.com/pseudoyu/uright)) - 一款基于以太坊区块链的音乐版权管理应用（ÐApp）
 
 ---
 

@@ -11,7 +11,7 @@ authors:
 # 微信小程序云开发项目: 吃什么吖
 
 ![mini_program_logo](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mini_program_logo.png)
-[项目 GitHub](https://github.com/pseudoyu/chumu_food)
+[项目 GitHub](https://github.com/pseudoyu/chumu-food)
 
 ## 开发细节
 

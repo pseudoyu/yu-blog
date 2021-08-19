@@ -28,7 +28,7 @@ Uright 去中心化应用允许音乐人（内容所有者）将他们的作品�
 
 （开发中...）通过 NFT 技术对音乐人作品进行代币化。
 
-项目地址：[GitHub](https://github.com/pseudoyu/Uright)
+项目地址：[GitHub](https://github.com/pseudoyu/uright)
 
 ### 架构
 
@@ -138,4 +138,4 @@ Uright ÐApp 通过 Web 客户端对音乐人和用户提供音乐版权管理�
 - 版权库：查找链上所有已注册作品
 - 详细信息：单击“详细信息”查看详细信息，包括所有已上传证据
 
-![uright_music_library](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images//uright_music_library.png)
+![uright_music_library](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/uright_music_library.png)
