@@ -1,4 +1,4 @@
-name: Yu Blog Update
+name: Update
 on:
   push:
     branches:
