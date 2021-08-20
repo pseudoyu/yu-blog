@@ -32,8 +32,8 @@
   <img align="left" alt="Yu's YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/youtube.svg"/>
 </a>
 
-[![Yu Blog Update](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml)
 [![Misty-520](https://img.shields.io/badge/Misty-520-pink)](https://www.m1sty.com)
+[![Yu Blog Update](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml)
 
 <br />
 
