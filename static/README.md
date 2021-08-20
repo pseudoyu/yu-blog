@@ -33,7 +33,7 @@
 </a>
 
 [![Misty-520](https://img.shields.io/badge/Misty-520-pink)](https://www.m1sty.com)
-[![Yu Blog Update](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/pseudoyu/yu_blog/actions/workflows/deploy.yml)
+[![Update](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml))
 
 <br />
 
