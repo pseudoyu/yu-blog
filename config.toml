@@ -9,7 +9,7 @@ enableEmoji = true           # use emoji support
 hasCJKLanguage = true        # detect CJK languages for word count etc.
 preserveTaxonomyNames = true # do not make tag names lowercase
 # uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
-rssLimit = 20                # limit number of entries in RSS feeds
+rssLimit = 100                # limit number of entries in RSS feeds
 page_view_conter = true
 
 # Copyright, appears in the footer
