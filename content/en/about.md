@@ -34,6 +34,16 @@ The name **Pseudoyu** also tells myself that I should never constantly struggle 
 
 I hope I can acquire more inputs like new knowledge and ideas, and write more short articles as outputs.
 
+#### 🎧 Recently I Input
+
+<!-- douban starts -->
+* <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
+* <a href='http://movie.douban.com/subject/1296339/' target='_blank'>看过爱在黎明破晓前</a> - 2020-05-14
+* <a href='http://movie.douban.com/subject/1306987/' target='_blank'>想看高尔夫球场的疑云</a> - 2020-05-14
+* <a href='https://book.douban.com/subject/2378214/' target='_blank'>想读耳语之人</a> - 2020-05-14
+* <a href='https://book.douban.com/subject/21371175/' target='_blank'>想读罗杰疑案</a> - 2020-05-14
+<!-- douban ends -->
+
 #### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
@@ -46,20 +56,6 @@ VimL       13 mins        ▊░░░░░░░░░░░░░░░░░
 ```
 
 <!-- code_time ends -->
-
-#### 🎧 Recently I Enjoy
-
-<!-- douban starts -->
-* <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
-* <a href='http://movie.douban.com/subject/1296339/' target='_blank'>看过爱在黎明破晓前</a> - 2020-05-14
-* <a href='http://movie.douban.com/subject/1306987/' target='_blank'>想看高尔夫球场的疑云</a> - 2020-05-14
-* <a href='https://book.douban.com/subject/2378214/' target='_blank'>想读耳语之人</a> - 2020-05-14
-* <a href='https://book.douban.com/subject/21371175/' target='_blank'>想读罗杰疑案</a> - 2020-05-14
-<!-- douban ends -->
-
-#### 📈 My Github Stats
-
-<p align="center"> <img src="https://yu-readme.vercel.app/api?username=pseudoyu&show_icons=true" alt="pseudoyu" />
 
 #### 💻 Recent Releases
 
