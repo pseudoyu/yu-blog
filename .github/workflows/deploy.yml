@@ -1,9 +1,10 @@
 name: Update
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - master
+  workflow_dispatch:
+  schedule:
+    # Runs everyday 12 hour
+    - cron: "0 */12 * * *"
 jobs:
   build:
     runs-on: ubuntu-18.04

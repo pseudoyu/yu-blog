@@ -61,7 +61,7 @@ VimL       13 mins        ▊░░░░░░░░░░░░░░░░░
 
 <p align="center"> <img src="https://yu-readme.vercel.app/api?username=pseudoyu&show_icons=true&theme=gotham" alt="pseudoyu" />
 
-#### 💻 <a href="https://github.com/pseudoyu/pseudoyu/blob/master/releases.md" target="_blank">最近项目</a>
+#### 💻 最近发布项目
 
 <!-- recent_releases starts -->
 * <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>

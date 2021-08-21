@@ -33,3 +33,24 @@ I always fall into self-doubt. Whenever I'm talking with my best friend, if the 
 The name **Pseudoyu** also tells myself that I should never constantly struggle with what meaning is anymore. Instead, I will continue to learn, experience and challenge new things. And I can finally accept other's judgement or complain about me like "**You changed**" with pressure.
 
 I hope I can acquire more inputs like new knowledge and ideas, and write more short articles as outputs.
+
+#### 👨🏻‍💻 This Week I Code With
+<!-- code_time starts -->
+
+<!-- code_time ends -->
+
+#### 🎧 Recently I Enjoy
+
+<!-- douban starts -->
+
+<!-- douban ends -->
+
+#### 📈 My Github Stats
+
+<p align="center"> <img src="https://yu-readme.vercel.app/api?username=pseudoyu&show_icons=true&theme=gotham" alt="pseudoyu" />
+
+#### 💻 Recent Releases
+
+<!-- recent_releases starts -->
+
+<!-- recent_releases ends -->

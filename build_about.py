@@ -124,7 +124,8 @@ def fetch_blog_entries():
 
 
 if __name__ == "__main__":
-    about = root / "content/zh/about.md"
+    about_zh = root / "content/zh/about.md"
+    about_en = root / "content/en/about.md"
     project_releases = root / "releases.md"
     releases = fetch_releases(TOKEN)
     releases.sort(key=lambda r: r["published_at"], reverse=True)
@@ -135,8 +136,11 @@ if __name__ == "__main__":
             for release in releases[:10]
         ]
     )
-    about_contents = about.open().read()
-    rewritten = replace_chunk(about_contents, "recent_releases", md)
+    about_zh_contents = about_zh.open().read()
+    rewritten_zh = replace_chunk(about_zh_contents, "recent_releases", md)
+
+    about_en_contents = about_en.open().read()
+    rewritten_en = replace_chunk(about_en_contents, "recent_releases", md)
 
     # Write out full project-releases.md file
     project_releases_md = "\n".join(
@@ -160,7 +164,8 @@ if __name__ == "__main__":
 
     code_time_text = "\n```text\n"+fetch_code_time().text+"\n```\n"
 
-    rewritten = replace_chunk(rewritten, "code_time", code_time_text)
+    rewritten_zh = replace_chunk(rewritten_zh, "code_time", code_time_text)
+    rewritten_en = replace_chunk(rewritten_en, "code_time", code_time_text)
 
     doubans = fetch_douban()[:5]
 
@@ -168,13 +173,16 @@ if __name__ == "__main__":
         ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
     )
 
-    rewritten = replace_chunk(rewritten, "douban", doubans_md)
+    rewritten_zh = replace_chunk(rewritten_zh, "douban", doubans_md)
+    rewritten_en = replace_chunk(rewritten_en, "douban", doubans_md)
 
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
         # ["* <a href={url} target='_blank'>{title}</a> - {published}".format(**entry) for entry in entries]
         ["* <a href={url} target='_blank'>{title}</a>".format(**entry) for entry in entries]
     )
-    rewritten = replace_chunk(rewritten, "blog", entries_md)
+    rewritten_zh = replace_chunk(rewritten_zh, "blog", entries_md)
+    about_zh.open("w").write(rewritten_zh)
 
-    about.open("w").write(rewritten)
+    rewritten_en = replace_chunk(rewritten_en, "blog", entries_md)
+    about_en.open("w").write(rewritten_en)
