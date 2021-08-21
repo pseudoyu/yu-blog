@@ -59,7 +59,7 @@ VimL       13 mins        ▊░░░░░░░░░░░░░░░░░
 
 #### 📈 My Github Stats
 
-<p align="center"> <img src="https://yu-readme.vercel.app/api?username=pseudoyu&show_icons=true&theme=gotham" alt="pseudoyu" />
+<p align="center"> <img src="https://yu-readme.vercel.app/api?username=pseudoyu&show_icons=true" alt="pseudoyu" />
 
 #### 💻 Recent Releases
 
