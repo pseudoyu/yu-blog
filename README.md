@@ -1,6 +1,6 @@
 <p align="center">
  <img width="100px" src="https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/profile_logo.svg" align="center" alt="Github Readme Stats" />
- <h2 align="center">Yu</h2>
+ <h3 align="center">👨🏻‍💻 Learning 👨🏻‍💻</h3>
 </p>
 
 ### Hey there <img src='https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hey.gif' alt='Hi' width="24"/> 
