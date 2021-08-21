@@ -83,6 +83,11 @@ defaultContentLanguageInSubdir = true
   customCSS = []             # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
+  [markup]
+      [markup.goldmark]
+        [markup.goldmark.renderer]
+          unsafe = true
+
 # ------------------------------------- #
 # ---- Related Articles --------------- #
 # ------------------------------------- #
