@@ -5,7 +5,7 @@ menu: "main"
 weight: 100
 ---
 
-## Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
+## ✋ Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
 
 区块链（Golang）开发工程师，香港大学计算机系硕士在读。喜欢探索学习新科技，空闲时也折腾 Notion 等效率工具。[在 GitHub 关注我](https://github.com/pseudoyu)
 
@@ -13,7 +13,8 @@ weight: 100
 
 ![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/dino.gif)
 
-### 个人希望
+### 🎓 个人希望
+
 ***生活方面***，希望能够和现在的挚友一直相互支持走下去，和家人保持现在这样亦亲亦友的关系，和在意的人一起面对人生的挑战，同时也能认识更多有趣的人。
 
 ***专业方面***，希望一直有所进步，能够在开源世界留下一些痕迹。
@@ -22,7 +23,7 @@ weight: 100
 
 ***社会方面***，希望有机会做参与一些公益活动或其他形式的善举，为世界带来一些微小的改变。
 
-## 关于网站
+### ⌛️ 关于网站
 
 **Pseudoyu** 是我的第一个网站，主要用来记录生活、学习与零碎的一些想法。最早基于 WordPress 并放在自己的个人服务器上，后又迁移至同名微信公众号，最后出于稳定性和自由度考虑还是决定用 Hugo 生成自己的静态网页，托管于 GitHub 并绑定 [pseudoyu.com](https://www.pseudoyu.com/zh/) 域名。
 
@@ -34,7 +35,7 @@ weight: 100
 
 希望自己能多输入一些新的知识和想法，多写一些小文章。
 
-#### 🎧 最近阅读观影
+### 🎧 最近阅读观影
 
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
@@ -44,7 +45,7 @@ weight: 100
 * <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
 <!-- douban ends -->
 
-#### 👨🏻‍💻 最近编程记录
+### 👨🏻‍💻 最近编程记录
 <!-- code_time starts -->
 
 ```text
@@ -57,7 +58,7 @@ VimL       13 mins        ▊░░░░░░░░░░░░░░░░░
 
 <!-- code_time ends -->
 
-#### 💻 最近发布项目
+### 💻 最近发布项目
 
 <!-- recent_releases starts -->
 * <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>

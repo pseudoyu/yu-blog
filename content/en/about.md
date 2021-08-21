@@ -5,7 +5,7 @@ menu: "main"
 weight: 100
 ---
 
-## Hi, I am [Yu Zhang](https://www.pseudoyu.com)
+## ✋ Hi, I'm [Yu Zhang](https://www.pseudoyu.com)
 
 Blockchain (Golang) Developer, MSc Student in Department of Computer Science @ The University of Hong Kong (HKU). Love to learn and build things. [Follow me on GitHub](https://github.com/pseudoyu)
 
@@ -13,7 +13,7 @@ I want to learn things and become a better person. I enjoy reading, thinking and
 
 ![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/dino.gif)
 
-### My Goals
+### 🎓 My Goals
 ***About my life***, I hope I can establish a life-long friendship with my best friends, keep close relationship with my families, and face future challenges with my beloved. Also, I hope to meet interesting friends of diverse background.
 
 ***About my career***, I hope I could always be learning and growing during my life and play an active role in the open source software movement.
@@ -22,7 +22,7 @@ I want to learn things and become a better person. I enjoy reading, thinking and
 
 ***About the society***, I hope to have the opportunity to participate in some public welfare or other form of kindness to contribute to the world.
 
-## About Pseudoyu
+### ⌛️ About Pseudoyu
 
 **Pseudoyu** is my first website. I mainly write about my daily life, study and thoughts here. This blog was initially created on my personal web server using WordPress, and I moved to WeChat Official Account (the same name). Due to the consideration of stability and customization need, I decided to build a new site on GitHub Page with the domain name [pseudoyu.com](https://www.pseudoyu.com/en) and use a static site generator (Hugo) to generate the content.
 
@@ -34,7 +34,7 @@ The name **Pseudoyu** also tells myself that I should never constantly struggle 
 
 I hope I can acquire more inputs like new knowledge and ideas, and write more short articles as outputs.
 
-#### 🎧 Recently I Enjoy
+### 🎧 Recently I Enjoy
 
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
@@ -44,7 +44,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 * <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
 <!-- douban ends -->
 
-#### 👨🏻‍💻 This Week I Code With
+### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
@@ -57,7 +57,7 @@ VimL       13 mins        ▊░░░░░░░░░░░░░░░░░
 
 <!-- code_time ends -->
 
-#### 💻 Recent Releases
+### 💻 Recent Releases
 
 <!-- recent_releases starts -->
 * <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>
