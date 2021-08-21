@@ -34,7 +34,7 @@ The name **Pseudoyu** also tells myself that I should never constantly struggle 
 
 I hope I can acquire more inputs like new knowledge and ideas, and write more short articles as outputs.
 
-#### 🎧 Recently I Input
+#### 🎧 Recently I Enjoy
 
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
