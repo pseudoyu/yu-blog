@@ -32,8 +32,8 @@
   <img align="left" alt="Yu's YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/youtube.svg"/>
 </a>
 
-[![Misty-520](https://img.shields.io/badge/Misty-520-pink)](https://www.m1sty.com)
-[![Update](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml)
+[![misty-520](https://img.shields.io/badge/misty-520-pink)](https://www.m1sty.com)
+[![deploy](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml)
 
 <br />
 
