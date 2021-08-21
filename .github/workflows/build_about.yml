@@ -29,7 +29,7 @@ jobs:
         python -m pip install -r requirements.txt
     - name: Update ABOUT
       env:
-        GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
       run: |-
         python build_about.py
         cat content/zh/about.md
