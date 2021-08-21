@@ -57,7 +57,3 @@ I want to learn things and become a better person. I enjoy reading, thinking and
 
 - 💼 Love open-source, want to do interesting projects together? If you do, [email me](mailto:pseudoyu@connect.hku.hk) ✉️
 - 💬 Ask me about anything, I am happy to help
-
-#### 📈 my github stats
-
-<p align="center"> <img src="https://yu-readme.vercel.app/api?username=pseudoyu&show_icons=true&theme=gotham" alt="pseudoyu" />
