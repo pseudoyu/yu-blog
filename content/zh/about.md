@@ -40,14 +40,24 @@ weight: 100
 #### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
+```text
+Markdown   2 hrs 24 mins  ████████░░░░░░░░░░░░░  38.1%
+sh         1 hr 42 mins   █████▋░░░░░░░░░░░░░░░  27.1%
+Python     51 mins        ██▊░░░░░░░░░░░░░░░░░░  13.7%
+YAML       44 mins        ██▍░░░░░░░░░░░░░░░░░░  11.7%
+VimL       13 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
+```
 
 <!-- code_time ends -->
 
 #### 🎧 Recently I Enjoy
 
 <!-- douban starts -->
-
-
+* <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
+* <a href='http://movie.douban.com/subject/1296339/' target='_blank'>看过爱在黎明破晓前</a> - 2020-05-14
+* <a href='http://movie.douban.com/subject/1306987/' target='_blank'>想看高尔夫球场的疑云</a> - 2020-05-14
+* <a href='https://book.douban.com/subject/2378214/' target='_blank'>想读耳语之人</a> - 2020-05-14
+* <a href='https://book.douban.com/subject/21371175/' target='_blank'>想读罗杰疑案</a> - 2020-05-14
 <!-- douban ends -->
 
 #### 📈 My Github Stats
