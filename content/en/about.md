@@ -37,11 +37,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 #### 🎧 Recently I Enjoy
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
-* <a href='http://movie.douban.com/subject/1296339/' target='_blank'>看过爱在黎明破晓前</a> - 2020-05-14
-* <a href='http://movie.douban.com/subject/1306987/' target='_blank'>想看高尔夫球场的疑云</a> - 2020-05-14
-* <a href='https://book.douban.com/subject/2378214/' target='_blank'>想读耳语之人</a> - 2020-05-14
-* <a href='https://book.douban.com/subject/21371175/' target='_blank'>想读罗杰疑案</a> - 2020-05-14
+* <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/30316475/' target='_blank'>想读漫长的告别</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/26912631/' target='_blank'>读过道林·格雷的画像</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/30438790/' target='_blank'>读过罪与罚</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
 <!-- douban ends -->
 
 #### 👨🏻‍💻 This Week I Code With
