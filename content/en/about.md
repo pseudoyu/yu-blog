@@ -37,12 +37,24 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 #### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
+```text
+Markdown   2 hrs 24 mins  ████████░░░░░░░░░░░░░  38.1%
+sh         1 hr 42 mins   █████▋░░░░░░░░░░░░░░░  27.1%
+Python     51 mins        ██▊░░░░░░░░░░░░░░░░░░  13.7%
+YAML       44 mins        ██▍░░░░░░░░░░░░░░░░░░  11.7%
+VimL       13 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
+```
+
 <!-- code_time ends -->
 
 #### 🎧 Recently I Enjoy
 
 <!-- douban starts -->
-
+* <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
+* <a href='http://movie.douban.com/subject/1296339/' target='_blank'>看过爱在黎明破晓前</a> - 2020-05-14
+* <a href='http://movie.douban.com/subject/1306987/' target='_blank'>想看高尔夫球场的疑云</a> - 2020-05-14
+* <a href='https://book.douban.com/subject/2378214/' target='_blank'>想读耳语之人</a> - 2020-05-14
+* <a href='https://book.douban.com/subject/21371175/' target='_blank'>想读罗杰疑案</a> - 2020-05-14
 <!-- douban ends -->
 
 #### 📈 My Github Stats
@@ -52,5 +64,14 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 #### 💻 Recent Releases
 
 <!-- recent_releases starts -->
-
+* <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>
+* <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food 微信小程序：吃什么呀</a>
+* <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
+* <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
+* <a href=https://github.com/pseudoyu/bitcoin-and-cryptocurrency-technologies/releases/tag/v0.0.1 target='_blank'>bitcoin-and-cryptocurrency-technologies Coursera 比特币课程代码</a>
+* <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain 从零实现一个区块链</a>
+* <a href=https://github.com/pseudoyu/yu-timus/releases/tag/v0.0.1 target='_blank'>yu-timus Timus OJ 代码</a>
+* <a href=https://github.com/pseudoyu/alfred-workflow/releases/tag/v0.0.1 target='_blank'>alfred-workflow 个人 Alfred 脚本</a>
+* <a href=https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems/releases/tag/v1.0.0 target='_blank'>xDeepFM_for_Recommender_Systems xDeepFM for Recommender Systems 推荐系统</a>
+* <a href=https://github.com/pseudoyu/udemy-java/releases/tag/v0.0.1 target='_blank'>udemy-java Udemy Java 课程代码</a>
 <!-- recent_releases ends -->
