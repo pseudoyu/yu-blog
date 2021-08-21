@@ -34,7 +34,7 @@ weight: 100
 
 希望自己能多输入一些新的知识和想法，多写一些小文章。
 
-#### 🎧 本周阅读观影
+#### 🎧 最近阅读观影
 
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/1291822/' target='_blank'>看过卢旺达饭店</a> - 2020-05-23
@@ -44,7 +44,7 @@ weight: 100
 * <a href='https://book.douban.com/subject/21371175/' target='_blank'>想读罗杰疑案</a> - 2020-05-14
 <!-- douban ends -->
 
-#### 👨🏻‍💻 本周编程记录
+#### 👨🏻‍💻 最近编程记录
 <!-- code_time starts -->
 
 ```text
