@@ -34,7 +34,7 @@ The name **Pseudoyu** also tells myself that I should never constantly struggle 
 
 I hope I can acquire more inputs like new knowledge and ideas, and write more short articles as outputs.
 
-### 🎧 Recently I Enjoy
+### 🎧 Recent Digests
 
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
