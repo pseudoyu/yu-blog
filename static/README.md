@@ -35,7 +35,7 @@
 [![followers](https://img.shields.io/github/followers/pseudoyu?label=Follow)](https://github.com/pseudoyu)
 [![@Pseudoyu](https://img.shields.io/badge/weibo-%40Pseudoyu-critical)](https://weibo.com/3675416370/profile)
 [![yu-blog](https://img.shields.io/badge/blog-yu-9cf)](https://www.pseudoyu.com)
-[![misty-520](https://img.shields.io/badge/misty-520-pink)](https://www.m1sty.com)
+[![kitty-misty](https://img.shields.io/badge/kitty-misty-pink)](https://www.m1sty.com)
 [![deploy](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml)
 
 
