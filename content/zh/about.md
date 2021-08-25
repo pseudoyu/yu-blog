@@ -35,6 +35,15 @@ weight: 100
 
 希望自己能多输入一些新的知识和想法，多写一些小文章。
 
+### 🎧 最近阅读观影
+
+<!-- douban starts -->
+* <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/30316475/' target='_blank'>想读漫长的告别</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/26912631/' target='_blank'>读过道林·格雷的画像</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/30438790/' target='_blank'>读过罪与罚</a> - 2021-08-21
+* <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
+<!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
 <!-- code_time starts -->
@@ -48,25 +57,6 @@ Python     1 hr 54 mins   ██░░░░░░░░░░░░░░░░
 ```
 
 <!-- code_time ends -->
-
-### 🚀 最近项目管理
-
-<!-- TODO-IST:START -->
-🏆  686 Karma Points           
-🌸  Completed 1 tasks today           
-✅  Completed 1 tasks so far           
-⏳  Longest streak is 0 days
-<!-- TODO-IST:END -->
-
-### 🎧 最近阅读观影
-
-<!-- douban starts -->
-* <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/30316475/' target='_blank'>想读漫长的告别</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/26912631/' target='_blank'>读过道林·格雷的画像</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/30438790/' target='_blank'>读过罪与罚</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
-<!-- douban ends -->
 
 ### 💻 最近发布项目
 
