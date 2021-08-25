@@ -50,7 +50,7 @@ authors:
 
 因为红黑树较为复杂，实现代码上传至 GitHub 供学习查看。
 
-[pseudoyu/Red_Black_Tree_Java - GitHub](https://github.com/pseudoyu/RedBlackTree-java)
+[pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java)
 
 ### Trie - 字典树
 
@@ -169,6 +169,6 @@ class Trie {
 
 > 1. [30 张图带你彻底理解红黑树](https://www.jianshu.com/p/e136ec79235c)
 > 2. [LeetCode 实现 Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode-ti500/)
-> 3. [pseudoyu/Red_Black_Tree_Java](https://github.com/pseudoyu/RedBlackTree-java) 
+> 3. [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java) 
 > 4. [以太坊源码分析 -- MPT 树](https://segmentfault.com/a/1190000016050921)
 > 5. [ethereum/ethereumj](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie)
