@@ -44,12 +44,6 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 * <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
 <!-- douban ends -->
 
-### 🎧 Recent Digests
-
-<!-- douban starts -->
-
-<!-- douban ends -->
-
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
