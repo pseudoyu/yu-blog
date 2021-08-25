@@ -60,11 +60,7 @@ Python     1 hr 54 mins   ██░░░░░░░░░░░░░░░░
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/30316475/' target='_blank'>想读漫长的告别</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/26912631/' target='_blank'>读过道林·格雷的画像</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/30438790/' target='_blank'>读过罪与罚</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
+
 <!-- douban ends -->
 
 ### 💻 Recent Releases
