@@ -45,6 +45,12 @@ weight: 100
 * <a href='https://book.douban.com/subject/3697494/' target='_blank'>读过洞穴奇案</a> - 2021-08-21
 <!-- douban ends -->
 
+### 🎧 最近阅读观影
+
+<!-- douban starts -->
+
+<!-- douban ends -->
+
 ### 👨🏻‍💻 最近编程记录
 <!-- code_time starts -->
 
