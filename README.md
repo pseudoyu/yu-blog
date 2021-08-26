@@ -32,11 +32,11 @@
   <img align="left" alt="Yu's YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/youtube.svg"/>
 </a>
 
+[![visitors](https://visitor-badge.glitch.me/badge?page_id=pseudoyu.pseudoyu)](https://github.com/pseudoyu)
 [![followers](https://img.shields.io/github/followers/pseudoyu?label=Follow)](https://github.com/pseudoyu)
 [![@Pseudoyu](https://img.shields.io/badge/weibo-%40Pseudoyu-critical)](https://weibo.com/3675416370/profile)
 [![yu-blog](https://img.shields.io/badge/blog-yu-9cf)](https://www.pseudoyu.com)
 [![kitty-misty](https://img.shields.io/badge/kitty-misty-pink)](https://www.m1sty.com)
-[![deploy](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/pseudoyu/yu-blog/actions/workflows/deploy.yml)
 
 
 <br />
