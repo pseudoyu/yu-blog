@@ -38,11 +38,11 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/26835090/' target='_blank'>最近在读软技能</a> - 2021-08-25
+* <a href='https://book.douban.com/subject/26369699/' target='_blank'>读过被讨厌的勇气</a> - 2021-08-26
+* <a href='https://book.douban.com/subject/30485869/' target='_blank'>最近在读Hyperledger Fabric源代码分析</a> - 2021-08-26
+* <a href='https://book.douban.com/subject/30177480/' target='_blank'>最近在读区块链技术进阶与实战</a> - 2021-08-26
+* <a href='https://book.douban.com/subject/26835090/' target='_blank'>读过软技能</a> - 2021-08-26
 * <a href='http://movie.douban.com/subject/30337388/' target='_blank'>想看失控玩家</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/30316475/' target='_blank'>想读漫长的告别</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/26912631/' target='_blank'>读过道林·格雷的画像</a> - 2021-08-21
-* <a href='https://book.douban.com/subject/30438790/' target='_blank'>读过罪与罚</a> - 2021-08-21
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
