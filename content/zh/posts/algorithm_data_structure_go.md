@@ -72,6 +72,15 @@ s2[0] = 'H'
 s3 := string(s2)
 ```
 
+#### 查询字符是否属于特定字符集
+
+```go
+    // 判断字符串s的i索引位置字符是否是元音
+    if strings.Contains("aeiouAEIOU", string(s[i])) {
+        // ...
+    }
+```
+
 #### 判断字符串大小
 
 ```go
