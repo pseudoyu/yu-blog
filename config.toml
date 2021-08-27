@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = true
   logoTitle = "Pseudoyu" # shown on top-left, default: title
   siteLogoImage = "images/fly.png"     # shown besides logoTitle
   # headerTitle = "Pseudoyu"                   # default: title
-  headerImage = "images/background.jpg"
+  headerImage = "images/background.webp"
   showAuthorCard = true # Whether to show author information below the article
 
   showMenuLanguages = true
