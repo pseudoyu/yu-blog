@@ -5,7 +5,7 @@ draft: false
 tags: []
 categories: []
 authors:
-- "pseudoyu"
+- "Arthur"
 ---
 
 This is a simple preview for styles in Den.
