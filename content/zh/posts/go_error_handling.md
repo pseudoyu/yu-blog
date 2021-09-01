@@ -1,5 +1,5 @@
 ---
-title: "Go 错误处理"
+title: "Go 错误处理总结与实践"
 date: 2021-08-29T00:19:42+08:00
 draft: false
 tags: ["develop", "go", "error"]
