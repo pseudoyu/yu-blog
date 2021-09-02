@@ -2,7 +2,7 @@
 title: "ECOM6013 Topic 8 Blockchain and Cybercurrency"
 date: 2020-10-09T11:01:28+08:00
 draft: false
-tags: ["notes","e-commerce","hku","ecom","ecom6013"]
+tags: ["e-commerce", "hku", "ecom6013"]
 categories: ["Notes"]
 authors:
 - "Arthur"

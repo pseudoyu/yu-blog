@@ -2,7 +2,7 @@
 title: "Uright - 区块链音乐版权管理ÐApp"
 date: 2021-05-10T19:30:25+08:00
 draft: false
-tags: ["projects", "blockchain", "ethereum", "ipfs", "hku"]
+tags: ["blockchain", "ethereum", "ipfs", "hku"]
 categories: ["Projects"]
 authors:
 - "Arthur"

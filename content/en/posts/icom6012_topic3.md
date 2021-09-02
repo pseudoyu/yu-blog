@@ -2,7 +2,7 @@
 title: "ICOM6012 Topic 3 Application Layer"
 date: 2020-10-19T17:50:44+08:00
 draft: false
-tags: ["notes","internet","hku","icom","icom6012"]
+tags: ["hku","internet","icom6012"]
 categories: ["Notes"]
 authors:
 - "Arthur"

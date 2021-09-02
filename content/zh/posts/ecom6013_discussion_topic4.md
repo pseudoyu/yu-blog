@@ -2,7 +2,7 @@
 title: "A Look at Tik-Tok"
 date: 2020-10-16T09:19:19+08:00
 draft: false
-tags: ["notes","e-commerce","hku","ecom","ecom6013"]
+tags: ["e-commerce", "hku", "ecom6013"]
 categories: ["Notes"]
 authors:
 - "Arthur"

@@ -2,7 +2,7 @@
 title: "BlockchainGuide - 区块链核心知识库"
 date: 2021-04-03T12:12:17+08:00
 draft: false
-tags: ["projects", "blockchain", "structure"]
+tags: ["blockchain", "structure", "tutorial"]
 categories: ["Projects"]
 authors:
 - "Arthur"

@@ -2,7 +2,7 @@
 title: "ICOM6012 Topic 4 Transport Layer"
 date: 2020-10-20T09:37:44+08:00
 draft: false
-tags: ["notes","internet","hku","icom","icom6012"]
+tags: ["hku","internet","icom6012"]
 categories: ["Notes"]
 authors:
 - "Arthur"

@@ -2,7 +2,7 @@
 title: "Ethereum MPT(Merkle Patricia Tries) 详解"
 date: 2021-08-16T12:12:17+08:00
 draft: false 
-tags: ["develop", "blockchain", "ethereum"]
+tags: ["blockchain", "ethereum"]
 categories: ["Develop"]
 authors:
 - "Arthur"
@@ -65,6 +65,7 @@ Trie 被称为字典树，又称单词查找树或键树，常用于统计和排
 2. 从根结点到某一结点，路径上经过的字符连接起来为该结点对应的字符串
 3. 每个结点的所有子结点路径代表的字符都不相同
 4. 结点可以存储额外信息，如词频等
+
 
 #### 结点内部实现
 
@@ -168,6 +169,6 @@ class Trie {
 
 > 1. [30 张图带你彻底理解红黑树](https://www.jianshu.com/p/e136ec79235c)
 > 2. [LeetCode 实现 Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode-ti500/)
-> 3. [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java)  
+> 3. [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java) 
 > 4. [以太坊源码分析 -- MPT 树](https://segmentfault.com/a/1190000016050921)
 > 5. [ethereum/ethereumj](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie)

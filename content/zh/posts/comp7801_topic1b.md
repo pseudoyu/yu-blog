@@ -2,7 +2,7 @@
 title: "COMP7801 Topic 1b Database Indexing"
 date: 2021-01-30T01:18:17+08:00
 draft: false
-tags: ["notes","database","hku","comp","comp7801"]
+tags: ["hku", "database", "comp7801"]
 categories: ["Notes"]
 authors:
 - "Arthur"

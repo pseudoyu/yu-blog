@@ -2,7 +2,7 @@
 title: "COMP7103 Topic 2 Association Rules"
 date: 2021-02-25T01:18:17+08:00
 draft: false
-tags: ["notes","data-mining","hku","comp","comp7103"]
+tags: ["hku", "data mining", "comp7103"]
 categories: ["Notes"]
 authors:
 - "Arthur"

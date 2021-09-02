@@ -2,7 +2,7 @@
 title: "Hyperledger Fabric 网络与安全体系浅析"
 date: 2021-03-23T12:12:17+08:00
 draft: false
-tags: ["develop", "blockchain", "hyperledger", "fabric"]
+tags: ["blockchain", "hyperledger fabric", "security"]
 categories: ["Develop"]
 authors:
 - "Arthur"

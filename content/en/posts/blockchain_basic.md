@@ -2,7 +2,7 @@
 title: "区块链基础知识与关键技术"
 date: 2021-02-12T12:12:17+08:00
 draft: false
-tags: ["develop", "blockchain"]
+tags: ["blockchain", "guide", "knowledge"]
 categories: ["Develop"]
 authors:
 - "Arthur"

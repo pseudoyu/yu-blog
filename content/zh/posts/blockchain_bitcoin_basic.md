@@ -2,7 +2,7 @@
 title: "比特币核心技术解读"
 date: 2021-02-17T12:12:17+08:00
 draft: false
-tags: ["develop", "blockchain", "bitcoin"]
+tags: ["blockchain", "bitcoin"]
 categories: ["Develop"]
 authors:
 - "Arthur"

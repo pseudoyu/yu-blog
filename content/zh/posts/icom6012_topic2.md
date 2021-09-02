@@ -2,7 +2,7 @@
 title: "ICOM6012 Topic 2 The Big Picture"
 date: 2020-10-05T09:06:09+08:00
 draft: false
-tags: ["notes","internet","hku","icom","icom6012"]
+tags: ["hku","internet","icom6012"]
 categories: ["Notes"]
 authors:
 - "Arthur"

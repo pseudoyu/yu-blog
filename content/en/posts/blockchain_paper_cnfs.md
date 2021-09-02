@@ -2,7 +2,7 @@
 title: "基于 CNFS 的区块链网络存储与优化"
 date: 2021-08-20T09:30:25+08:00
 draft: false
-tags: ["projects","blockchain","ipfs","cnfs","distributed"]
+tags: ["blockchain", "ipfs", "cnfs", "storage"]
 categories: ["Projects"]
 authors:
 - "Arthur"

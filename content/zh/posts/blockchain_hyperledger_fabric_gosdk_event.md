@@ -2,7 +2,7 @@
 title: "Hyperledger Fabric Go SDK 事件分析"
 date: 2021-09-01T17:21:58+08:00
 draft: false
-tags: ["develop", "blockchain", "hyperledger", "fabric", "go", "gosdk"]
+tags: ["blockchain", "hyperledger fabric", "go", "gosdk"]
 categories: ["Develop"]
 authors:
 - "Arthur"

@@ -2,7 +2,7 @@
 title: "IPFS 分布式存储协议分析与思考"
 date: 2021-03-25T16:30:17+08:00
 draft: false
-tags: ["develop", "blockchain", "ipfs"]
+tags: ["blockchain", "ipfs", "storage"]
 categories: ["Develop"]
 authors:
 - "Arthur"

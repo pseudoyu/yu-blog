@@ -2,7 +2,7 @@
 title: "COMP7801 Topic 2 Spatial Data Management"
 date: 2021-02-06T01:18:17+08:00
 draft: false
-tags: ["notes","database","hku","comp","comp7801"]
+tags: ["hku", "database", "comp7801"]
 categories: ["Notes"]
 authors:
 - "Arthur"

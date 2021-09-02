@@ -2,7 +2,7 @@
 title: "IPFS 本地节点搭建（命令行）"
 date: 2021-03-27T18:46:17+08:00
 draft: false
-tags: ["develop", "blockchain", "ipfs"]
+tags: ["blockchain", "ipfs", "storage"]
 categories: ["Develop"]
 authors:
 - "Arthur"

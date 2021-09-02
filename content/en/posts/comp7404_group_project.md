@@ -2,7 +2,7 @@
 title: "xDeepFM for Recommender Systems - 推荐系统"
 date: 2020-11-11T16:30:25+08:00
 draft: false
-tags: ["projects","python","machine learning","hku","comp","comp7404"]
+tags: ["hku", "machine learning", "comp7404"]
 categories: ["Projects"]
 authors:
 - "Arthur"

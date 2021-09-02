@@ -2,7 +2,7 @@
 title: "COMP7404 Topic 3 Adversarial Search"
 date: 2020-10-05T00:30:11+08:00
 draft: false
-tags: ["notes","python","machine learning","hku","comp","comp7404"]
+tags: ["hku", "machine learning", "comp7404"]
 categories: ["Notes"]
 authors:
 - "Arthur"

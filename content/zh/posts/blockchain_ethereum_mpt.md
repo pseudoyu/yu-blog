@@ -2,7 +2,7 @@
 title: "Ethereum MPT(Merkle Patricia Tries) 详解"
 date: 2021-08-16T12:12:17+08:00
 draft: false 
-tags: ["develop", "blockchain", "ethereum"]
+tags: ["blockchain", "ethereum"]
 categories: ["Develop"]
 authors:
 - "Arthur"

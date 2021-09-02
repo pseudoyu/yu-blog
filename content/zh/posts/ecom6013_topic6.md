@@ -2,7 +2,7 @@
 title: "ECOM6013 Topic 6 E-Commerce Security"
 date: 2020-09-26T15:46:28+08:00
 draft: false
-tags: ["notes","e-commerce","hku","ecom","ecom6013"]
+tags: ["e-commerce", "hku", "ecom6013"]
 categories: ["Notes"]
 authors:
 - "Arthur"

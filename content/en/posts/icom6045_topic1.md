@@ -2,7 +2,7 @@
 title: "ICOM6045 Topic 1 Cryptography"
 date: 2020-10-21T19:53:17+08:00
 draft: false
-tags: ["notes","internet","security","hku","icom","icmo6045"]
+tags: ["internet","security","hku","icmo6045"]
 categories: ["Notes"]
 authors:
 - "Arthur"

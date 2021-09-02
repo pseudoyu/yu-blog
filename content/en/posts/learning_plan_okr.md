@@ -2,7 +2,7 @@
 title: "用 OKR 的方式梳理自己的学习计划"
 date: 2021-02-11T00:00:00+08:00
 draft: false
-tags: ["tools","plan","review","okr"]
+tags: ["plan","review","okr"]
 categories: ["Tools"]
 authors:
 - "Arthur"

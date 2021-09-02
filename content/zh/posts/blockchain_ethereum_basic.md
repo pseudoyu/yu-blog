@@ -2,7 +2,7 @@
 title: "Ethereum 核心技术解读"
 date: 2021-02-20T12:12:17+08:00
 draft: false
-tags: ["develop", "blockchain", "ethereum"]
+tags: ["blockchain", "ethereum"]
 categories: ["Develop"]
 authors:
 - "Arthur"
