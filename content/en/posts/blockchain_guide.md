@@ -66,6 +66,7 @@ authors:
 3. [源码](https://github.com/hyperledger/fabric#releases)
 4. [Hyperledger Fabric 系统架构详解](https://www.pseudoyu.com/en/2021/03/20/blockchain_hyperledger_fabric_structure/)
 5. [Hyperledger Fabric 网络与安全体系浅析](https://www.pseudoyu.com/en/2021/03/23/blockchain_hyperledger_fabric_network/)
+6. [Hyperledger Fabric Go SDK 事件分析](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
 
 ## 热门技术
 
