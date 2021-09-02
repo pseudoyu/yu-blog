@@ -2,7 +2,7 @@
 title: "MySQL 基础知识与相关操作"
 date: 2021-03-29T00:12:17+08:00
 draft: false
-tags: ["database", "mysql"]
+tags: ["database", "mysql", "programming"]
 categories: ["Develop"]
 authors:
 - "Arthur"
