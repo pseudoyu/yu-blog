@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/11525673/' target='_blank'>看过布达佩斯大饭店</a> - 2021-09-01
+* <a href='http://movie.douban.com/subject/26895171/' target='_blank'>看过四重奏</a> - 2021-09-01
+* <a href='https://book.douban.com/subject/27127839/' target='_blank'>最近在读区块链原理、设计与应用</a> - 2021-09-01
 * <a href='http://movie.douban.com/subject/30337388/' target='_blank'>看过失控玩家</a> - 2021-08-29
 * <a href='https://book.douban.com/subject/26369699/' target='_blank'>读过被讨厌的勇气</a> - 2021-08-26
-* <a href='https://book.douban.com/subject/30485869/' target='_blank'>最近在读Hyperledger Fabric源代码分析</a> - 2021-08-26
-* <a href='https://book.douban.com/subject/30177480/' target='_blank'>最近在读区块链技术进阶与实战</a> - 2021-08-26
-* <a href='https://book.douban.com/subject/26835090/' target='_blank'>读过软技能</a> - 2021-08-26
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         13 hrs 22 mins ██████████▏░░░░░░░░░░  48.3%
-YAML       5 hrs 30 mins  ████▏░░░░░░░░░░░░░░░░  19.9%
-sh         4 hrs 18 mins  ███▎░░░░░░░░░░░░░░░░░  15.5%
-Markdown   2 hrs 3 mins   █▌░░░░░░░░░░░░░░░░░░░   7.4%
-Other      1 hr 35 mins   █▏░░░░░░░░░░░░░░░░░░░   5.8%
+Go         13 hrs 14 mins █████████▉░░░░░░░░░░░  47.4%
+YAML       5 hrs 9 mins   ███▉░░░░░░░░░░░░░░░░░  18.5%
+sh         4 hrs 7 mins   ███░░░░░░░░░░░░░░░░░░  14.8%
+Markdown   3 hrs 2 mins   ██▎░░░░░░░░░░░░░░░░░░  10.9%
+Other      1 hr 32 mins   █▏░░░░░░░░░░░░░░░░░░░   5.5%
 ```
 
 <!-- code_time ends -->
