@@ -172,7 +172,7 @@ case <-ctxt.Done():
 }
 ```
 
-## 参考资料
+## 文章信息 
 
 > 1. [原文地址](https://blog.chuie.io/posts/synconce/)
 > 2. [本文永久链接](https://github.com/gocn/translator/blob/master/2021/w34_the_underutilized_usefulness_of_sync_Once.md)
