@@ -14,10 +14,13 @@ authors:
 
 ## Fabric 事件
 
-### 事件类型
 ![hyperledger_fabric_application_interact](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_application_interact.png)
 
-事件是客户端与 Fabric 网络进行交互的一种方式，如上图所示，事件主要由 Ledger 和存有链码合约的容器触发。Fabric 共支持四种事件形式：
+事件是客户端与 Fabric 网络进行交互的一种方式，如上图所示，Fabric 网络中执行一个交易后，因为是异步进行的，所以客户端无法获取提交的交易状态（是否被接受），因此，Fabric 的 Peer 节点提供了事件机制，客户端可以通过 gRPC 接口来监听区块事件。从 fabric v1.1 开始，时间的注册发生在通道级别而不是 Peer 节点，因此可以进行更精细的控制
+
+### 事件类型
+
+事件主要由 Ledger 和存有链码合约的容器触发。Fabric 共支持四种事件形式：
 
 1. BlockEvent 监控新增到 fabric 上的块时使用
 2. ChaincodeEvent 监控链码中发布的事件时使用，也就是用户自定义事件
@@ -32,6 +35,58 @@ authors:
 4. `func (c *Client) RegisterTxStatusEvent(txID string) (fab.Registration, <-chan *fab.TxStatusEvent, error)`
 
 而当监听完成后需要通过 `func (c *Client) Unregister(reg fab.Registration)` 来取消注册并移除事件通道
+
+### gRPC 通信
+
+SDK 与 Peer 节点通过 gRPC 进行通讯，源码见 [fabric-protos/peer/events.proto](https://github.com/hyperledger/fabric-protos/blob/main/peer/events.proto)
+
+其中，定义了以下几种 message：
+
+1. FilteredBlock，给 FilteredBlockEvent 使用
+2. FilteredTransaction 和 FilteredTransaction，给 FilteredTransactionEvent 使用
+3. FilteredChaincodeAction，给 ChaincodeEvent 使用
+4. BlockAndPrivateData，给私有数据使用
+
+Response 如下：
+
+```go
+// DeliverResponse
+message DeliverResponse {
+    oneof Type {
+        common.Status status = 1;
+        common.Block block = 2;
+        FilteredBlock filtered_block = 3;
+        BlockAndPrivateData block_and_private_data = 4;
+    }
+}
+```
+
+以及三个 gRPC 通信接口：
+
+```go
+service Deliver {
+    // Deliver first requires an Envelope of type ab.DELIVER_SEEK_INFO with
+    // Payload data as a marshaled orderer.SeekInfo message,
+    // then a stream of block replies is received
+    rpc Deliver (stream common.Envelope) returns (stream DeliverResponse) {
+    }
+    // DeliverFiltered first requires an Envelope of type ab.DELIVER_SEEK_INFO with
+    // Payload data as a marshaled orderer.SeekInfo message,
+    // then a stream of **filtered** block replies is received
+    rpc DeliverFiltered (stream common.Envelope) returns (stream DeliverResponse) {
+    }
+    // DeliverWithPrivateData first requires an Envelope of type ab.DELIVER_SEEK_INFO with
+    // Payload data as a marshaled orderer.SeekInfo message,
+    // then a stream of block and private data replies is received
+    rpc DeliverWithPrivateData (stream common.Envelope) returns (stream DeliverResponse) {
+    }
+}
+```
+
+![fabric_events](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/fabric_events.jpg)
+
+整个流程如上图所示，Go SDK 中通过实现一个 Dispatcher 将应用中的事件注册请求转换为事件订阅请求并通过 DeliverClient 发送给 Peer 节点，Peer 节点中的 DeliverServer 接收订阅请求，调用 deliverBlocks 进入循环，从 Ledger 读取区块并生成事件，最后发送给客户端，客户端中的 Dispatcher 又将其转换为应用订阅的事件响应。
+
 
 ### 事件实现过程
 
@@ -98,6 +153,8 @@ defer eventClient.Unregister(reg)
 
 > 1. [hyperledger/fabric-sdk-go](https://github.com/hyperledger/fabric-sdk-go)
 > 2. [Hyperledger Fabric Packages for Go Chaincode](https://pkg.go.dev/github.com/hyperledger/fabric-chaincode-go)
-> 3. [fabric 支持的事件](https://www.jianshu.com/p/aecaae8aa3da)
-> 4. [Fabric 1.4 源码解读 3：事件(Event)原理解读](https://lessisbetter.site/2019/09/20/fabric-event-source/)
-> 5. [如何监听 Fabric 链码的事件](http://blog.hubwiz.com/2019/07/07/Hyperledger-fabric-chaincode-event/)
+> 3. [基于通道的 Peer 节点事件服务](https://hyperledger-fabric.readthedocs.io/zh_CN/latest/peer_event_services.html)
+> 4. [fabric-protos/peer/events.proto](https://github.com/hyperledger/fabric-protos/blob/main/peer/event)
+> 5. [Fabric 1.4 源码解读 3：事件(Event)原理解读](https://lessisbetter.site/2019/09/20/fabric-event-source/)
+> 6. [fabric 支持的事件](https://www.jianshu.com/p/aecaae8aa3da)
+> 7. [如何监听 Fabric 链码的事件](http://blog.hubwiz.com/2019/07/07/Hyperledger-fabric-chaincode-event/)
