@@ -2,7 +2,7 @@
 title: "跨链技术原理与实战"
 date: 2021-09-06T15:34:40+08:00
 draft: false
-tags: ["blockchain", "hyperledger fabric", "cross chain"]
+tags: ["blockchain", "cross chain"]
 categories: ["Develop"]
 authors:
 - "Arthur"
