@@ -1,6 +1,6 @@
 ---
 title: "区块链服务平台 (BaaS) 简介及架构"
-date: 2021-08-25T18:18:52+08:00
+date: 2021-09-07T10:00:52+08:00
 draft: false
 tags: ["blockchain", "hyperledger fabric", "baas"]
 categories: ["Develop"]
