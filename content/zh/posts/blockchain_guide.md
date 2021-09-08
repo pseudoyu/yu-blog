@@ -28,6 +28,7 @@ authors:
     - [Hyperledger Fabric](#hyperledger-fabric)
   - [热门技术](#热门技术)
     - [IPFS](#ipfs)
+    - [跨链](#跨链)
     - [BaaS 平台](#baas-平台)
   - [开发实战](#开发实战)
     - [编程语言](#编程语言)
@@ -80,6 +81,8 @@ authors:
 5. [IPFS 分布式存储协议分析与思考](https://www.pseudoyu.com/zh/2021/03/25/blockchain_ipfs_structure/)
 6. [IPFS 本地节点搭建（命令行）](https://www.pseudoyu.com/zh/2021/03/27/blockchain_ipfs_practice/)
 7. [基于 CNFS 的区块链网络存储与优化](https://www.pseudoyu.com/zh/2021/06/22/blockchain_paper_cnfs/)
+
+### 跨链
 
 1. [跨链技术原理与实战](https://www.pseudoyu.com/zh/2021/09/06/blockchain_crosschain/)
 
