@@ -12,7 +12,7 @@ authors:
 
 之前提到过趣链科技的 BitXHub 跨链平台是业界较为完善的跨链开源解决方案，主要通过中继链、网关和插件机制对跨链流程中的功能、安全性和灵活性等进行了优化。
 
-目前公司团队在做一个 BaaS 平台的跨链模块，我在其中负责跨链适配器部分，对应 BitXHub 平台就是监听模块和应用链插件模块。适配器将对应用链上的跨链事件作监听，并将响应参数传给网关作跨链相关的业务逻辑需求。
+目前公司团队在做一个 BaaS 平台的跨链模块，我在其中负责跨链适配器部分，对应 BitXHub 平台就是监听模块和应用链插件模块。适配器将对应用链上的跨链事件作监听，并将相应参数传给网关作跨链相关的业务逻辑需求。
 
 因此，打算对 BitXHub 的 [meshplus/pier-client-fabric](https://github.com/meshplus/pier-client-fabric) 插件源码作深入解读，学习其优秀的代码结构和功能模块，以便更好地实现自己的适配器功能。
 
@@ -79,7 +79,7 @@ if err != nil {
 c.registration = registration
 ```
 
-订阅事件的方法是调用了 `fabric-sdk-go` 的 `RegisterChaincodeEvent` 方法，需要注意的是，当不需要监听事件时，需要调用 `Unregister` 方法来取消订阅。
+订阅事件的方法是调用了 `fabric-sdk-go` 的 `RegisterChaincodeEvent()` 方法，需要注意的是，当不需要监听事件时，需要调用 `Unregister()` 方法来取消订阅。
 
 方法中的 `ccID` 是需要监听的链码 ID，`eventFilter` 是需要监听的链码时间，而这个方法会返回一个 channel 接收数据（当取消订阅时，channel 会关闭）。
 
@@ -166,7 +166,7 @@ func (c *Consumer) Shutdown() error {
 }
 ```
 
-再深一层看，取消订阅事件是调用了 `fabric-sdk-go` 的 `Unregister` 方法，会取消该事件的订阅并关闭相应通道。
+再深一层看，取消订阅事件是调用了 `fabric-sdk-go` 的 `Unregister()` 方法，会取消该事件的订阅并关闭相应通道。
 
 ```go
 func (c *Client) Unregister(reg fab.Registration) {
@@ -263,7 +263,7 @@ func (c *Client) GetChainID() (string, string) {
 
 跨链合约是怎样将跨链事件抛出给插件的呢？
 
-在跨链合约的 `Invoke` 方法中，跨链合约首先通过 `GetFunctionAndParameters()` 方法获取了合约调用者（也就是业务合约）的调用方法和相应参数，然后通过对方法名进行判断，从而调用不同的合约。
+在跨链合约的 `Invoke()` 方法中，跨链合约首先通过 `GetFunctionAndParameters()` 方法获取了合约调用者（也就是业务合约）的调用方法和相应参数，然后通过对方法名进行判断，从而调用不同的合约。
 
 ```go
 func (broker *Broker) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
@@ -286,7 +286,7 @@ func (broker *Broker) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 }
 ```
 
-我们着重来分析一下当调用了 `EmitInterchainEvent` 时，跨链合约做了什么，相应说明见注释。
+我们着重来分析一下当调用了 `EmitInterchainEvent()` 时，跨链合约做了什么，相应说明见注释。
 
 ```go
 func (broker *Broker) EmitInterchainEvent(stub shim.ChaincodeStubInterface, args []string) pb.Response {
