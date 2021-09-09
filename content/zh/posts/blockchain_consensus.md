@@ -1,6 +1,6 @@
 ---
 title: "分布式系统与区块链共识机制"
-date: 2021-09-09T11:03:55+08:00
+date: 2021-09-08T11:03:55+08:00
 draft: false
 tags: ["blockchain", "consensus", "distributed system"]
 categories: ["Develop"]
