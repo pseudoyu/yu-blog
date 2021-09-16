@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-最近对在上 HKU 的`<COMP7408 Distributed Ledger and Blockchain Technology>`课程，对区块链的基础概念有了更系统的认知，结合之前上过的北京大学肖臻老师《[区块链技术与应用](https://www.bilibili.com/video/BV1Vt411X7JF)》公开课，深知区块链知识体系之庞大，打算更新系列文章对区块链、比特币、以太坊等进行系统的知识梳理，如有错漏，欢迎交流指正。
+最近在上 HKU 的`<COMP7408 Distributed Ledger and Blockchain Technology>`课程，对区块链的基础概念有了更系统的认知，结合之前上过的北京大学肖臻老师《[区块链技术与应用](https://www.bilibili.com/video/BV1Vt411X7JF)》公开课，深知区块链知识体系之庞大，打算更新系列文章对区块链、比特币、以太坊等进行系统的知识梳理，如有错漏，欢迎交流指正。
 
 ## 区块链中的密码学原理
 

@@ -369,7 +369,7 @@ func (broker *Broker) EmitInterchainEvent(stub shim.ChaincodeStubInterface, args
 }
 ```
 
-以上就是调用跨链合约时锁做的，本质上其实只是在跨链合约中通过 `SetEvent()` 设置了一个触发一个事件，再在插件中通过 `RegisterChaincodeEvent()` 进行订阅监听。
+以上就是调用跨链合约时所做的，本质上其实只是在跨链合约中通过 `SetEvent()` 设置了一个触发一个事件，再在插件中通过 `RegisterChaincodeEvent()` 进行订阅监听。
 
 ```go
 SetEvent(name string, payload []byte) error
