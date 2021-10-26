@@ -18,7 +18,7 @@ authors:
 
 ## 跨链交易流程
 
-![xinghuo_adapter](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/xinghuo_adapter.svg)
+![cross_chain_plugin](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/cross_chain_plugin.svg)
 
 根据跨链业务需求，典型的跨链调用流程如上图所示。
 
