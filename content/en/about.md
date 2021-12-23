@@ -48,11 +48,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-sh         55 mins        █████████░░░░░░░░░░░░  43.1%
-PlantUM... 34 mins        █████▋░░░░░░░░░░░░░░░  27.1%
-YAML       21 mins        ███▍░░░░░░░░░░░░░░░░░  16.5%
-JavaScript 4 mins         ▋░░░░░░░░░░░░░░░░░░░░   3.3%
-Solidity   3 mins         ▌░░░░░░░░░░░░░░░░░░░░   2.8%
+PlantUM... 2 hrs 31 mins  █████████▍░░░░░░░░░░░  44.8%
+sh         1 hr 20 mins   █████░░░░░░░░░░░░░░░░  23.9%
+YAML       55 mins        ███▍░░░░░░░░░░░░░░░░░  16.6%
+TOML       18 mins        █▏░░░░░░░░░░░░░░░░░░░   5.5%
+Markdown   8 mins         ▌░░░░░░░░░░░░░░░░░░░░   2.7%
 ```
 
 <!-- code_time ends -->
