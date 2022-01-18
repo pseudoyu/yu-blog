@@ -1,6 +1,6 @@
 # Released projects
 
-All <!-- release_count starts -->19<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
+All <!-- release_count starts -->18<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
 * **[py4e-assignments](https://github.com/pseudoyu/py4e-assignments)**: [Coursera Python 课程代码](https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0)
@@ -39,6 +39,4 @@ All <!-- release_count starts -->19<!-- release_count ends --> of my released pr
 <br>Yu's Blog CI
 * **[RedBlackTree-java](https://github.com/pseudoyu/RedBlackTree-java)**: [红黑树数据结构 Java 实现及测试](https://github.com/pseudoyu/RedBlackTree-java/releases/tag/v1.0.0)
 <br>Red Black Tree Implementation in Java
-* **[yu-leetcode](https://github.com/pseudoyu/yu-leetcode)**: [个人刷题记录](https://github.com/pseudoyu/yu-leetcode/releases/tag/v0.0.1)
-<br>Pseudoyu LeetCode Solution
 <!-- recent_releases ends -->
