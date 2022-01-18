@@ -48,11 +48,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-sh         1 hr 18 mins   ███████▌░░░░░░░░░░░░░  35.8%
-YAML       49 mins        ████▊░░░░░░░░░░░░░░░░  22.7%
-Go         29 mins        ██▊░░░░░░░░░░░░░░░░░░  13.3%
-Bash       15 mins        █▍░░░░░░░░░░░░░░░░░░░   7.1%
-Text       12 mins        █▏░░░░░░░░░░░░░░░░░░░   5.9%
+sh         1 hr 14 mins   ███████▍░░░░░░░░░░░░░  35.6%
+YAML       49 mins        ████▉░░░░░░░░░░░░░░░░  23.7%
+Go         29 mins        ██▉░░░░░░░░░░░░░░░░░░  13.9%
+Text       12 mins        █▎░░░░░░░░░░░░░░░░░░░   6.2%
+GitIgno... 12 mins        █▏░░░░░░░░░░░░░░░░░░░   5.8%
 ```
 
 <!-- code_time ends -->
