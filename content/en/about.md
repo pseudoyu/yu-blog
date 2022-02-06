@@ -37,11 +37,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/2150220/' target='_blank'>在看白色巨塔</a> - 2022-02-06
-* <a href='http://movie.douban.com/subject/5300054/' target='_blank'>看过波西米亚狂想曲</a> - 2022-02-06
-* <a href='http://movie.douban.com/subject/10808442/' target='_blank'>看过爱在午夜降临前</a> - 2022-02-06
-* <a href='http://movie.douban.com/subject/1291990/' target='_blank'>看过爱在日落黄昏时</a> - 2022-02-06
-* <a href='http://movie.douban.com/subject/26302614/' target='_blank'>看过请回答1988</a> - 2022-02-06
+* <a href='http://movie.douban.com/subject/35068653/' target='_blank'>看过误杀2</a> - 2022-02-06
+* <a href='http://movie.douban.com/subject/35312437/' target='_blank'>看过奇迹·笨小孩</a> - 2022-02-06
+* <a href='http://movie.douban.com/subject/11516684/' target='_blank'>想看请回答1997</a> - 2022-02-06
+* <a href='http://movie.douban.com/subject/26387813/' target='_blank'>看过疑犯追踪 第五季</a> - 2022-02-06
+* <a href='http://movie.douban.com/subject/25837185/' target='_blank'>看过疑犯追踪 第四季</a> - 2022-02-06
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
