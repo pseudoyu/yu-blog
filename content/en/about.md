@@ -37,11 +37,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/33424766/' target='_blank'>最近在读精通以太坊：开发智能合约和去中心化应用</a> - 2022-02-10
+* <a href='https://book.douban.com/subject/35571980/' target='_blank'>最近在读区块链架构与实现</a> - 2022-02-10
+* <a href='http://movie.douban.com/subject/25895901/' target='_blank'>看过海街日记</a> - 2022-02-10
 * <a href='http://movie.douban.com/subject/27179039/' target='_blank'>看过朱迪</a> - 2022-02-09
 * <a href='http://movie.douban.com/subject/2150220/' target='_blank'>看过白色巨塔</a> - 2022-02-08
-* <a href='http://movie.douban.com/subject/26947951/' target='_blank'>在看王国 第一季</a> - 2022-02-07
-* <a href='http://movie.douban.com/subject/35068653/' target='_blank'>看过误杀2</a> - 2022-02-06
-* <a href='http://movie.douban.com/subject/35312437/' target='_blank'>看过奇迹·笨小孩</a> - 2022-02-06
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
@@ -60,6 +60,7 @@ JSON       2 mins         ▏░░░░░░░░░░░░░░░░░
 ### 💻 Recent Releases
 
 <!-- recent_releases starts -->
+* <a href=https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0 target='_blank'>learn-solidity Solidity 智能合约开发学习</a>
 * <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>
 * <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food 微信小程序：吃什么呀</a>
 * <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
@@ -69,5 +70,4 @@ JSON       2 mins         ▏░░░░░░░░░░░░░░░░░
 * <a href=https://github.com/pseudoyu/yu-timus/releases/tag/v0.0.1 target='_blank'>yu-timus Timus OJ 代码</a>
 * <a href=https://github.com/pseudoyu/alfred-workflow/releases/tag/v0.0.1 target='_blank'>alfred-workflow 个人 Alfred 脚本</a>
 * <a href=https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems/releases/tag/v1.0.0 target='_blank'>xDeepFM_for_Recommender_Systems xDeepFM for Recommender Systems 推荐系统</a>
-* <a href=https://github.com/pseudoyu/udemy-java/releases/tag/v0.0.1 target='_blank'>udemy-java Udemy Java 课程代码</a>
 <!-- recent_releases ends -->
