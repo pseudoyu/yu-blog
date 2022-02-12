@@ -38,11 +38,11 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/30306401/' target='_blank'>看过王国 第二季</a> - 2022-02-13
+* <a href='https://book.douban.com/subject/34815132/' target='_blank'>最近在读圆圈正义</a> - 2022-02-12
 * <a href='http://movie.douban.com/subject/26947951/' target='_blank'>看过王国 第一季</a> - 2022-02-12
 * <a href='https://book.douban.com/subject/33424766/' target='_blank'>最近在读精通以太坊：开发智能合约和去中心化应用</a> - 2022-02-10
 * <a href='https://book.douban.com/subject/35571980/' target='_blank'>最近在读区块链架构与实现</a> - 2022-02-10
-* <a href='http://movie.douban.com/subject/25895901/' target='_blank'>看过海街日记</a> - 2022-02-10
-* <a href='http://movie.douban.com/subject/27179039/' target='_blank'>看过朱迪</a> - 2022-02-09
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
