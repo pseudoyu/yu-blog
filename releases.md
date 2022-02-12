@@ -1,6 +1,6 @@
 # Released projects
 
-All <!-- release_count starts -->20<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
+All <!-- release_count starts -->18<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
 * **[learn-solidity](https://github.com/pseudoyu/learn-solidity)**: [Solidity 智能合约开发学习](https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0)
@@ -15,12 +15,8 @@ All <!-- release_count starts -->20<!-- release_count ends --> of my released pr
 <br>UC Berkeley —— CS61B Data Structures Spring 2014
 * **[comp7404-assignments](https://github.com/pseudoyu/comp7404-assignments)**: [HKU COMP7404 课程代码](https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0)
 <br>The University of Hong Kong —— COMP7404A Computational Intelligence and Machine Learning
-* **[bitcoin-and-cryptocurrency-technologies](https://github.com/pseudoyu/bitcoin-and-cryptocurrency-technologies)**: [Coursera 比特币课程代码](https://github.com/pseudoyu/bitcoin-and-cryptocurrency-technologies/releases/tag/v0.0.1)
-<br>Princeton University —— Bitcoin and Cryptocurrency Technologies
 * **[yu-blockchain](https://github.com/pseudoyu/yu-blockchain)**: [从零实现一个区块链](https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0)
 <br>从零开始实现一个区块链
-* **[yu-timus](https://github.com/pseudoyu/yu-timus)**: [Timus OJ 代码](https://github.com/pseudoyu/yu-timus/releases/tag/v0.0.1)
-<br>My Timus Solutions
 * **[alfred-workflow](https://github.com/pseudoyu/alfred-workflow)**: [个人 Alfred 脚本](https://github.com/pseudoyu/alfred-workflow/releases/tag/v0.0.1)
 <br>My Alfred Workflow
 * **[xDeepFM_for_Recommender_Systems](https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems)**: [xDeepFM for Recommender Systems 推荐系统](https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems/releases/tag/v1.0.0)
