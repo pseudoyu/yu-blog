@@ -37,7 +37,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/27140017/' target='_blank'>在看非自然死亡</a> - 2022-02-13
+* <a href='http://movie.douban.com/subject/27140017/' target='_blank'>看过非自然死亡</a> - 2022-02-13
 * <a href='https://book.douban.com/subject/34815132/' target='_blank'>读过圆圈正义</a> - 2022-02-13
 * <a href='http://movie.douban.com/subject/30306401/' target='_blank'>看过王国 第二季</a> - 2022-02-13
 * <a href='http://movie.douban.com/subject/26947951/' target='_blank'>看过王国 第一季</a> - 2022-02-12
