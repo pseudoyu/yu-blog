@@ -37,8 +37,8 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/34815132/' target='_blank'>读过圆圈正义</a> - 2022-02-13
 * <a href='http://movie.douban.com/subject/30306401/' target='_blank'>看过王国 第二季</a> - 2022-02-13
-* <a href='https://book.douban.com/subject/34815132/' target='_blank'>最近在读圆圈正义</a> - 2022-02-12
 * <a href='http://movie.douban.com/subject/26947951/' target='_blank'>看过王国 第一季</a> - 2022-02-12
 * <a href='https://book.douban.com/subject/33424766/' target='_blank'>最近在读精通以太坊：开发智能合约和去中心化应用</a> - 2022-02-10
 * <a href='https://book.douban.com/subject/35571980/' target='_blank'>最近在读区块链架构与实现</a> - 2022-02-10
@@ -48,11 +48,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Python     8 hrs 6 mins   ██████████░░░░░░░░░░░  47.7%
-sh         4 hrs 39 mins  █████▊░░░░░░░░░░░░░░░  27.4%
-Solidity   2 hrs 27 mins  ███░░░░░░░░░░░░░░░░░░  14.4%
-Bash       52 mins        █░░░░░░░░░░░░░░░░░░░░   5.1%
-YAML       40 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.9%
+Python     8 hrs 6 mins   █████████▎░░░░░░░░░░░  44.5%
+sh         4 hrs 56 mins  █████▋░░░░░░░░░░░░░░░  27.2%
+Solidity   2 hrs 27 mins  ██▊░░░░░░░░░░░░░░░░░░  13.5%
+Bash       1 hr 4 mins    █▏░░░░░░░░░░░░░░░░░░░   5.9%
+YAML       40 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
 ```
 
 <!-- code_time ends -->
