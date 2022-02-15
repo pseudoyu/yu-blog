@@ -3,6 +3,8 @@
 All <!-- release_count starts -->18<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
+* **[pseudoyu](https://github.com/pseudoyu/pseudoyu)**: [首页信息流展示](https://github.com/pseudoyu/pseudoyu/releases/tag/v1.1.0)
+<br>Yu's GitHub Profile CI
 * **[learn-solidity](https://github.com/pseudoyu/learn-solidity)**: [Solidity 智能合约开发学习](https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0)
 <br>Solidity, Blockchain, and Smart Contract Course
 * **[lottery-solidity](https://github.com/pseudoyu/lottery-solidity)**: [用 Solidity 编写的彩票智能合约 Demo](https://github.com/pseudoyu/lottery-solidity/releases/tag/v1.0.0)
@@ -29,8 +31,6 @@ All <!-- release_count starts -->18<!-- release_count ends --> of my released pr
 <br>一个正在更新中的区块链核心知识库
 * **[liantoubao](https://github.com/pseudoyu/liantoubao)**: [数字货币实时监控系统](https://github.com/pseudoyu/liantoubao/releases/tag/v1.0.0)
 <br>初沐 - 数字货币实时监控系统
-* **[pseudoyu](https://github.com/pseudoyu/pseudoyu)**: [首页信息流优化完成](https://github.com/pseudoyu/pseudoyu/releases/tag/v1.0.0)
-<br>Yu's GitHub Profile CI
 * **[blockchain-forum](https://github.com/pseudoyu/blockchain-forum)**: [区块链学习论坛](https://github.com/pseudoyu/blockchain-forum/releases/tag/v0.0.1)
 <br>一个基于 gin 框架和 vue 框架搭建的前后端分离区块链论坛
 * **[dotfiles](https://github.com/pseudoyu/dotfiles)**: [个人开发环境配置](https://github.com/pseudoyu/dotfiles/releases/tag/v1.0.0)
