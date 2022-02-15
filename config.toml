@@ -41,7 +41,7 @@ defaultContentLanguageInSubdir = true
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Arthur"
+  name = "Yu Zhang"
 
 [sitemap]                    # required
   changefreq = "weekly"
