@@ -43,9 +43,7 @@ authors:
 
 在 Go 语言中，中间件 Handler 是封装另一个 `http.Handler` 以对请求进行预处理或后续处理的 `http.Handler`。它介于 Go Web 服务器与实际的处理程序之间，因此被称为“中间件”。
 
-[Middleware Handlers]: ../static/images/2022/w07_building_middlewares_with_golang/middleware_handlers.png
-![Middleware Handlers][Middleware Handlers]
-<center style="font-size:14px;color:#C0C0C0;text-decoration">中间件 Handler</center> 
+![go_middleware_handlers](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/go_middleware_handlers.png)
 
 下面是一个基本的中间件 Handler：
 
