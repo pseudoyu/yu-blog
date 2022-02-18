@@ -38,7 +38,7 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/30316475/' target='_blank'>最近在读漫长的告别</a> - 2022-02-14
+* <a href='https://book.douban.com/subject/30316475/' target='_blank'>读过漫长的告别</a> - 2022-02-18
 * <a href='http://movie.douban.com/subject/27140017/' target='_blank'>看过非自然死亡</a> - 2022-02-13
 * <a href='https://book.douban.com/subject/34815132/' target='_blank'>读过圆圈正义</a> - 2022-02-13
 * <a href='http://movie.douban.com/subject/30306401/' target='_blank'>看过王国 第二季</a> - 2022-02-13
