@@ -49,11 +49,11 @@ weight: 100
 <!-- code_time starts -->
 
 ```text
-sh         6 hrs 55 mins  ███████▊░░░░░░░░░░░░░  37.3%
-Python     2 hrs 21 mins  ██▋░░░░░░░░░░░░░░░░░░  12.7%
-YAML       2 hrs 7 mins   ██▍░░░░░░░░░░░░░░░░░░  11.5%
-Go         2 hrs 5 mins   ██▎░░░░░░░░░░░░░░░░░░  11.3%
-Markdown   1 hr 39 mins   █▊░░░░░░░░░░░░░░░░░░░   8.9%
+sh         6 hrs 44 mins  ████████▎░░░░░░░░░░░░  39.8%
+Python     2 hrs 19 mins  ██▉░░░░░░░░░░░░░░░░░░  13.7%
+Go         1 hr 52 mins   ██▎░░░░░░░░░░░░░░░░░░  11.1%
+Markdown   1 hr 35 mins   █▉░░░░░░░░░░░░░░░░░░░   9.4%
+YAML       1 hr 32 mins   █▉░░░░░░░░░░░░░░░░░░░   9.1%
 ```
 
 <!-- code_time ends -->
