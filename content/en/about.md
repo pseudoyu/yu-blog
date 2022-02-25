@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/27054340/' target='_blank'>最近在读一个叫欧维的男人决定去死</a> - 2022-02-25
 * <a href='https://book.douban.com/subject/3642340/' target='_blank'>最近在读京华烟云</a> - 2022-02-20
 * <a href='https://book.douban.com/subject/30316475/' target='_blank'>读过漫长的告别</a> - 2022-02-18
 * <a href='http://movie.douban.com/subject/27140017/' target='_blank'>看过非自然死亡</a> - 2022-02-13
 * <a href='https://book.douban.com/subject/34815132/' target='_blank'>读过圆圈正义</a> - 2022-02-13
-* <a href='http://movie.douban.com/subject/30306401/' target='_blank'>看过王国 第二季</a> - 2022-02-13
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-PlantUM... 2 hrs 44 mins  ███████▎░░░░░░░░░░░░░  34.9%
-sh         2 hrs 15 mins  ██████░░░░░░░░░░░░░░░  28.9%
-Python     57 mins        ██▌░░░░░░░░░░░░░░░░░░  12.3%
-YAML       40 mins        █▊░░░░░░░░░░░░░░░░░░░   8.7%
-Kconfig    21 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.5%
+PlantUM... 2 hrs 53 mins  ████████▏░░░░░░░░░░░░  39.0%
+sh         1 hr 53 mins   █████▎░░░░░░░░░░░░░░░  25.6%
+YAML       1 hr 13 mins   ███▍░░░░░░░░░░░░░░░░░  16.6%
+Kconfig    20 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.6%
+Makefile   16 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
 ```
 
 <!-- code_time ends -->
