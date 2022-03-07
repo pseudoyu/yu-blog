@@ -37,7 +37,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/34874432/' target='_blank'>想看花束般的恋爱</a> - 2022-02-28
+* <a href='http://movie.douban.com/subject/34874432/' target='_blank'>看过花束般的恋爱</a> - 2022-03-07
 * <a href='https://book.douban.com/subject/27054340/' target='_blank'>最近在读一个叫欧维的男人决定去死</a> - 2022-02-25
 * <a href='https://book.douban.com/subject/3642340/' target='_blank'>最近在读京华烟云</a> - 2022-02-20
 * <a href='https://book.douban.com/subject/30316475/' target='_blank'>读过漫长的告别</a> - 2022-02-18
