@@ -40,13 +40,13 @@ authors:
 - The current values (relation instance) of a relation are specified by a table
 - An element t of r is a tuple, represented by a row in a table
 
-![relation_instance](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/relation_instance.png)
+![relation_instance](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/relation_instance.png)
 
 ### Database
 - A database consists of multiple relations which are inter-related
 - Information about an enterprise is broken up into parts, with each relation storing one part of the information
 
-![database_overview](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/database_overview.png)
+![database_overview](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/database_overview.png)
 
 #### Query language
 
@@ -137,7 +137,7 @@ Language in which user requests information from the database
 - Tertiary storage: lowest level in hierarchy, non-volatile, slow access time
   - Also called off-line storage, E.g. magnetic tape, optical storage
 
-![memory_hierarchy](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/memory_hierarchy.png)
+![memory_hierarchy](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/memory_hierarchy.png)
 
 #### Magnetic Disks
 - Read-write head 
@@ -157,7 +157,7 @@ Language in which user requests information from the database
   - one head per platter, mounted on a common arm.
 - Cylinder i consists of ith track of all the platters 
 
-![magnetic_hard_disk](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/magnetic_hard_disk.png)
+![magnetic_hard_disk](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/magnetic_hard_disk.png)
 
 #### Performance Measures of Disks
 - Access time – the time it takes from when a read or write request is issued to when data transfer begins
@@ -189,7 +189,7 @@ Language in which user requests information from the database
 - Buffer manager
   - subsystem responsible for allocating buffer space in main memory.
 
-![storage_access](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/storage_access.png)
+![storage_access](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/storage_access.png)
 
 #### Buffer manager
 

@@ -58,7 +58,7 @@ authors:
 
 **E-Commere Payment Systems**
 
-![online_credit_transaction](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/online_credit_transaction.png)
+![online_credit_transaction](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/online_credit_transaction.png)
 
 * Credit cards
 * Debit cards

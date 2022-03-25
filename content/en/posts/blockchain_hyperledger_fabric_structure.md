@@ -24,7 +24,7 @@ authors:
 
 ### 设计理念
 
-![hyperledger_design_philosophy](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_design_philosophy.png)
+![hyperledger_design_philosophy](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_design_philosophy.png)
 
 `Hyperledger`有如下几个核心设计理念：
 
@@ -34,7 +34,7 @@ authors:
 4. 企业应用的安全性是重中之重，尤其是许多应用场景牵扯到高价值交易或敏感数据，因此提供了很多机制来保障安全性（如`Fabric`的通道机制等）
 5. 除了与现有的系统交互外，企业未来的区块链应用中还可能会和很多不同的区块链网络进行交互，因此大部分智能合约/应用应该具备跨区块链网络的可移植性，以形成更复杂和强大的网络。
 
-![hyperledger_family](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_family.png)
+![hyperledger_family](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_family.png)
 
 #### 框架
 
@@ -57,17 +57,17 @@ authors:
 
 ### 架构
 
-![ethereum_architecture_simple](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ethereum_architecture_simple.png)
+![ethereum_architecture_simple](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ethereum_architecture_simple.png)
 
 在大部分公链中，架构为`Order - Execute - Validate - Update State`。如比特币区块链中，如果有一个新交易，会先采用 PoW 机制对 Block 进行排序，然后比特币网络中的每个节点逐个进行验证，最后更新状态。因为需要依序进行验证，这种方式决定了其执行效率相对较低。
 
 而`Fabric`采用了`Execute - Order - Validate - Update State`架构。
 
-![hyperledger_fabric_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_architecture.png)
+![hyperledger_fabric_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_architecture.png)
 
 收到一笔新的交易后，首先提交至背书节点本地模拟交易执行（并背书），再将已背书交易排序并广播，各个节点对交易进行验证后更新状态。
 
-![hyperledger_fabric_architecture_complete](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_architecture_complete.png)
+![hyperledger_fabric_architecture_complete](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_architecture_complete.png)
 
 正如上述联盟链特性中所述，`Fabric`网络的加入需要得到许可（身份验证），`Fabric`网路中的每个节点都有自己的身份。
 
@@ -79,11 +79,11 @@ authors:
 
 `Fabric`有一个 MSP(Membership Service Provider)成员管理提供商，它主要用来管理 CA 证书来验证哪些成员是可信任的。`Fabric CA`模块是独立的，可以管理证书服务，也可以允许第三方 CA 的接入，大大拓展的系统的应用范围。
 
-![hyperledger_fabric_ca_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_ca_structure.png)
+![hyperledger_fabric_ca_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_ca_structure.png)
 
 如上图所示，`Fabric CA`提供了客户端和 SDK 两种方式来和 CA 进行交互，每个`Fabric CA`都有一个根 CA 或中间 CA，为了进一步提高 CA 的安全性，可以采用集群来搭建中间 CA。
 
-![hyperledger_fabric_ca_hierarchy](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_ca_hierarchy.png)
+![hyperledger_fabric_ca_hierarchy](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_ca_hierarchy.png)
 
 更具体一点看 CA 的层级体系，一般是采用根 CA、业务 CA 和用户 CA 三层树结构，所有的下层 CA 会继承上层 CA 的信任体系。根 CA 用来签发业务 CA，业务 CA 用来签发具体的用户 CA（身份认证 CA、交易签名、安全通讯 CA 等）
 
@@ -148,7 +148,7 @@ Clients 客户端主要给交易签名，提交交易 Proposal 给背书节点�
 
 ### Fabric 应用开发及交互
 
-![hyperledger_fabric_application_interact](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_application_interact.png)
+![hyperledger_fabric_application_interact](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_application_interact.png)
 
 上图就是作为一个区块链开发者在应用`Fabric`区块链中的开发和交互流程。
 
@@ -156,7 +156,7 @@ Clients 客户端主要给交易签名，提交交易 Proposal 给背书节点�
 
 ### Fabric 工作流程
 
-![hyperledger_fabric_transaction_flow](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_transaction_flow.png)
+![hyperledger_fabric_transaction_flow](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_transaction_flow.png)
 
 接下来通过一个完整的交易流来梳理一下`Fabric`网络的工作原理
 
@@ -167,7 +167,7 @@ Clients 客户端主要给交易签名，提交交易 Proposal 给背书节点�
 4. 排序节点将交易打包成 blocks，排序（不执行或验证交易正确性）并广播至所有节点
 5. 所有节点对新 blocks 进行验证并提交至账本
 
-![hyperledger_fabric_processes](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_processes.png)
+![hyperledger_fabric_processes](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_processes.png)
 
 接下来对每个环节进行一些详细的拆解
 

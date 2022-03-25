@@ -180,7 +180,7 @@ authors:
 
 * Packet transmission delay
 
-![packet_switch](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/packet_switch.png)
+![packet_switch](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/packet_switch.png)
 
 ```sh
 	Packet transmission delay = L (bits) / R (bits/sec)
@@ -188,7 +188,7 @@ authors:
 
 * End-end delay
 
-![store_and_forward](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/store_and_forward.png)
+![store_and_forward](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/store_and_forward.png)
 
 ```sh
 	End-end delay = 2L (bits) / R (bits/sec)
@@ -212,15 +212,15 @@ authors:
 * Circuit switching
   * End-end resources allocated to, reserved for "call" between source&dest
 
-![circuit_switching](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/circuit_switching.png)
+![circuit_switching](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/circuit_switching.png)
 
 * Frequency Division Multiplexing (FDM)
 
-![fdm](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/fdm.png)
+![fdm](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/fdm.png)
 
 * Time Division Multiplexing (TDM)
 
-![tdm](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/tdm.png)
+![tdm](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/tdm.png)
 
 **Packet Switching vs. Circuit Switching**
 * Packet switching is great for bursty data
@@ -234,7 +234,7 @@ authors:
 * Access ISPs (Internet Service Providers)
   * To ensure every two hosts can send packets to each other, access ISPs must be interconnected
 
-![isp_tiers](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/isp_tiers.png)
+![isp_tiers](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/isp_tiers.png)
 
 * Tier-1 ISP
   * Sprint, AT&T, NTT
@@ -246,7 +246,7 @@ authors:
 **Delay and Loss**
 * Nodal processing
 * Queueing delay
-* ![queueing_delay](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/queueing_delay.png)
+* ![queueing_delay](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/queueing_delay.png)
   * R: link bandwidth (bps)
   * L: packet length (bits)
   * a: average packet arrival rate
@@ -257,7 +257,7 @@ authors:
 * Propagation delay
   * d (length of physical link) / s (propagation speed)
 
-![packet_delay](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/packet_delay.png)
+![packet_delay](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/packet_delay.png)
 
 ```sh
 	d(nodal) = d(proc) + d(queue) + d(trans) + d(prop)
@@ -276,7 +276,7 @@ authors:
 	= M * d(prop) + N * d(trans) + (M-1) * d(trans) + (M-1) * d(proc)
 ```
 
-![timing_diagram](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/timing_diagram.png)
+![timing_diagram](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/timing_diagram.png)
 
 **"Real" Internet delays and routes: traceroute [YouTube](https://www.youtube.com) (macOS)**
 
@@ -303,7 +303,7 @@ traceroute to youtube.com (216.58.197.110), 64 hops max, 52 byte packets
 * Packet arriving to full queue dropped (lost)
 * Lost packet may be retransmitted by previous node, end system or not at all
 
-![packet_loss](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/packet_loss.png)
+![packet_loss](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/packet_loss.png)
 
 **Throughput**
 * Rate (bits/time) at which bits transferred from sender to receiver
@@ -311,7 +311,7 @@ traceroute to youtube.com (216.58.197.110), 64 hops max, 52 byte packets
   * Average: rate over longer period of time
 * Bottleneck link
   * link on end-end path that constrains end-end throughput
-  * ![throughput](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/throughput.png)
+  * ![throughput](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/throughput.png)
   * Per-connection end-end throughput
     * min(Rc, Rs, R/10)
     * In practice, Rc or Rs is often bottleneck
@@ -345,7 +345,7 @@ traceroute to youtube.com (216.58.197.110), 64 hops max, 52 byte packets
 
 **Encapsulation**
 
-![encapsulation](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/encapsulation.png)
+![encapsulation](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/encapsulation.png)
 
 **Network Security**
 * Fields of network security
@@ -372,12 +372,12 @@ traceroute to youtube.com (216.58.197.110), 64 hops max, 52 byte packets
     3. Send packets to target from compromised hosts 
 * Packet interception
   * Packet "sniffing"
-  * ![packet_sniffing](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/packet_sniffing.png)
+  * ![packet_sniffing](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/packet_sniffing.png)
     * Broadcast media (shared ethernet, wireless)
     * Promiscuous network interface reads/records all packets
 * Fake identity
   * IP spoofing: send packet with false source address
-  * ![ip_spoffing](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/ip_spoffing.png)
+  * ![ip_spoffing](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ip_spoffing.png)
 
 **Use's View Of Internet**
 * Single large (global) network
@@ -385,7 +385,7 @@ traceroute to youtube.com (216.58.197.110), 64 hops max, 52 byte packets
 * User's computers all attach directly
 * No other structure visible
 
-![user_view_internet](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/user_view_internet.png)
+![user_view_internet](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/user_view_internet.png)
 **Internet History**
 * Early packet-switching principles (1961-1972)
 * Internetworking, new and proprietary nets (1972-1980)

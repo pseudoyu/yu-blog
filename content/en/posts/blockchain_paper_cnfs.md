@@ -39,19 +39,19 @@ CNFS provides a new distributed Internet infrastructure. On the infrastructure, 
 
 K-nearest neighbor (KNN) is a typical ranking classification algorithm. After one judgment, the sorting algorithm can output documents belonging to multiple categories. Through KNN, we can calculate the similarity of each text in the training sample set, which can find k most similar training texts. At the same time, we can select a threshold, which can be sorted according to the score. The similarity between k nearest neighbor training samples and the test sample is shown in Formula 1. K neighbors calculate the weight of each class, as shown in formula 2.
 
-![cnfs_knn_formula](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/cnfs_knn_formula.png)
+![cnfs_knn_formula](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cnfs_knn_formula.png)
 
 ### 3.2 CDC architecture
 
 CDC can provide elastic resources on demand, which is a collection of services. The architecture of CDC can be divided into three levels: core service, service management and user access interface, as shown in Figure 1.
 
-![cnfs_cdc_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/cnfs_cdc_architecture.png)
+![cnfs_cdc_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cnfs_cdc_architecture.png)
 
 ### 3.3 File storage verification scheme
 
 File storage verification scheme is the basis for service providers to prove the integrity of their stored data to service consumers. After each service, the service information will be written into the blockchain. Therefore, CDC has become an important computing and storage mode of blockchain. The file storage method is shown in Figure 2.
 
-![cnfs_block_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/cnfs_block_structure.png)
+![cnfs_block_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cnfs_block_structure.png)
 
 ## 4. Important technologies of CDC
 

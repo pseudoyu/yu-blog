@@ -58,11 +58,11 @@ authors:
 ### Top-k Query Variants
 
 * Apply on single table, or ranked lists of tuples ordered by individual attributes
-  ![Top_k_Query_Variants_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/Top_k_Query_Variants_1.jpg)
+  ![Top_k_Query_Variants_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/Top_k_Query_Variants_1.jpg)
 * Ranked inputs in the same or different servers (centralized or distributed data)
-  ![Top_k_Query_Variants_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/Top_k_Query_Variants_2.jpg)
+  ![Top_k_Query_Variants_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/Top_k_Query_Variants_2.jpg)
 * Standalone query or operator in a more complex query plan
-  ![Top_k_Query_Variants_3](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/Top_k_Query_Variants_3.jpg)
+  ![Top_k_Query_Variants_3](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/Top_k_Query_Variants_3.jpg)
 
 * Incremental retrieval of objects with highest scores (k is not predefined)
 
@@ -97,7 +97,7 @@ LIMIT 5
 * Assume that there is a total ranking of theobjects for each attributethat can be used in top-kqueries
 * These sorted inputs canbe accessed sequentiallyand/or by random accesses
 
-![Rank_Aggregation](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/Rank_Aggregation.jpg)
+![Rank_Aggregation](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/Rank_Aggregation.jpg)
 
 ### Advantages and Drawbacks
 
@@ -126,21 +126,21 @@ LIMIT 5
     * T=sum(0.9,0.9,0.9)=2.7
     * T>top-1, we proceed to another round of accesses
 
-![TA_Step_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/TA_Step_1.jpg)
+![TA_Step_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/TA_Step_1.jpg)
 
 * **STEP 2**
     * top-1 is b, with score 2.2
     * T=sum(0.8,0.8,0.9)=2.5
     * T>top-1, we proceed to another round of accesses
 
-![TA_Step_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/TA_Step_2.jpg)
+![TA_Step_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/TA_Step_2.jpg)
 
 * **STEP 3**
     * top-1 is b, with score 2.2
     * T=sum(0.6,0.6,0.8)=2.0
     * T≤top-1, terminate and output (b,2.2)
 
-![TA_Step_3](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/TA_Step_3.jpg)
+![TA_Step_3](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/TA_Step_3.jpg)
 
 #### Properties of TA
 
@@ -165,19 +165,19 @@ LIMIT 5
 
 * **STEP 1**
 
-![NRA_Step_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/NRA_Step_1.jpg)
+![NRA_Step_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/NRA_Step_1.jpg)
 
 * **STEP 2**
 
-![NRA_Step_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/NRA_Step_2.jpg)
+![NRA_Step_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/NRA_Step_2.jpg)
 
 * **STEP 3**
 
-![NRA_Step_3](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/NRA_Step_3.jpg)
+![NRA_Step_3](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/NRA_Step_3.jpg)
 
 * **STEP 4**
 
-![NRA_Step_4](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/NRA_Step_4.jpg)
+![NRA_Step_4](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/NRA_Step_4.jpg)
 
 #### NRA Properties
 * More generic than TA, since it does not depend on random accesses

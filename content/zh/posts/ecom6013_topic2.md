@@ -95,7 +95,7 @@ Internet growth has boomed without disruption because of
 * Client/server computing mode
 * Hourglass, layered architecture
 
-![hourglass_model](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hourglass_model.png)
+![hourglass_model](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hourglass_model.png)
     
 * Applications
 * Middleware Services
@@ -104,11 +104,11 @@ Internet growth has boomed without disruption because of
 
 **Internet Network Architecture**
 
-![internet_network_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/internet_network_architecture.png)
+![internet_network_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/internet_network_architecture.png)
 
 **[Three Tiers Internet](https://www.thousandeyes.com/learning/techtorials/isp-tiers)**
 
-![three_tiers_internet](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/three_tiers_internet.png)
+![three_tiers_internet](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/three_tiers_internet.png)
 
 **The Internet Backbone**
 

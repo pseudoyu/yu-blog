@@ -30,20 +30,20 @@ authors:
 
 **Tic-Tac-Toe Game Tree**
 
-![tic_tac_toe_game_tree](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/tic_tac_toe_game_tree.png)
+![tic_tac_toe_game_tree](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/tic_tac_toe_game_tree.png)
 
 **Minimax Search**
 * A state-space search tree
 * Players alternate turns
 * Compute each node’s minimax value
   * the best achievable utility against a rational (optimal) adversary
-  * ![minimax](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/minimax.png)
+  * ![minimax](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/minimax.png)
 * Will lead to optimal strategy
   * Best achievable payoff against best play
 * Example
-  * ![minimax_example](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/minimax_example.png)
+  * ![minimax_example](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/minimax_example.png)
 * Implementation
-  * ![minimax_implementation](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/minimax_implementation.png)
+  * ![minimax_implementation](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/minimax_implementation.png)
 * Properties
   * Complete - Yes, if tree is finite
   * Optimal - In general no, yes against an optimal opponent
@@ -66,7 +66,7 @@ authors:
 
 **𝛼-𝛽 Pruning Algorithm**
 
-![pruning_algorithm](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/pruning_algorithm.png)
+![pruning_algorithm](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/pruning_algorithm.png)
 
 * Min version
   * Consider Min’s value at some node n
@@ -89,7 +89,7 @@ authors:
 
 **Expectimax Search**
 
-![expectimax_search](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/expectimax_search.png)
+![expectimax_search](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/expectimax_search.png)
 
 * Values reflect average case outcomes, not worst case outcomes
 * Expectimax search computes the expected score under optimal play 
@@ -102,7 +102,7 @@ authors:
 
 **Multi-Agent Utilities**
 
-![multi_agent](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/multi_agent.png)
+![multi_agent](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/multi_agent.png)
 
 * Generalisation of minimax
   * Terminals and nodes have utility vectors

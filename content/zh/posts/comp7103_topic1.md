@@ -51,7 +51,7 @@ authors:
 
 **Data Mining**
 
-![data_mining_system](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/data_mining_system.png)
+![data_mining_system](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/data_mining_system.png)
 
 **Databases**
 * Bottom layer of the architecture
@@ -93,7 +93,7 @@ authors:
 
 **The KDD Process**
 
-![kdd_process](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/kdd_process.png)
+![kdd_process](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/kdd_process.png)
 
 * Step 1: Goal Setting
   * Understand your application domain
@@ -169,7 +169,7 @@ authors:
   * Minimize the inter-cluster similarity
 * Objects in one cluster are more similiar to one another
 
-![illustrating_cluster](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/illustrating_cluster.png)
+![illustrating_cluster](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/illustrating_cluster.png)
 
 *Example*
 * Document Clustering

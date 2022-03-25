@@ -14,7 +14,7 @@ authors:
 
 ## Fabric 事件
 
-![hyperledger_fabric_application_interact](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hyperledger_fabric_application_interact.png)
+![hyperledger_fabric_application_interact](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hyperledger_fabric_application_interact.png)
 
 事件是客户端与 Fabric 网络进行交互的一种方式，如上图所示，Fabric 网络中执行一个交易后，因为是异步进行的，所以客户端无法获取提交的交易状态（是否被接受），因此，Fabric 的 Peer 节点提供了事件机制，客户端可以通过 gRPC 接口来监听区块事件。从 fabric v1.1 开始，时间的注册发生在通道级别而不是 Peer 节点，因此可以进行更精细的控制
 
@@ -83,7 +83,7 @@ service Deliver {
 }
 ```
 
-![fabric_events](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/fabric_events.svg)
+![fabric_events](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/fabric_events.svg)
 
 整个流程如上图所示，Go SDK 中通过实现一个 Dispatcher 将应用中的事件注册请求转换为事件订阅请求并通过 DeliverClient 发送给 Peer 节点，Peer 节点中的 DeliverServer 接收订阅请求，调用 deliverBlocks 进入循环，从 Ledger 读取区块并生成事件，最后发送给客户端，客户端中的 Dispatcher 又将其转换为应用订阅的事件响应。
 

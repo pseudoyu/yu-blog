@@ -77,8 +77,8 @@ python main.py
 
 ## Running Results
 
-![comp7404_screenshot1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/comp7404_screenshot1.png)
+![comp7404_screenshot1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/comp7404_screenshot1.png)
 
 **...**
 
-![comp7404_screenshot2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/comp7404_screenshot2.png)
+![comp7404_screenshot2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/comp7404_screenshot2.png)

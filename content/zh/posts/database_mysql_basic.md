@@ -105,11 +105,11 @@ MySQL 是由 Sun 公司（后被 Oracle 公司收购）开发维护的一种很�
 
 打开系统偏好设置，可以看到如下界面
 
-![mac_mysql_manage](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mac_mysql_manage.png)
+![mac_mysql_manage](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mac_mysql_manage.png)
 
 点击 MySQL 图标即可进入详细管理界面
 
-![mac_mysql_service](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mac_mysql_service.png)
+![mac_mysql_service](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mac_mysql_service.png)
 
 在这个管理界面可以很方便地进行 MySQL 服务的开启与关闭，也可以将其设置为开机自启等操作，`Configuration`中也可以进行进一步的设置，但更建议在命令行进行。
 
@@ -127,7 +127,7 @@ sudo /usr/local/mysql/support-files/mysql.server stop
 
 效果如下
 
-![mac_mysql_cli](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mac_mysql_cli.png)
+![mac_mysql_cli](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mac_mysql_cli.png)
 
 当然也可以通过设置一些 alias 来简化命令，但是既然有比较方便的管理界面了，也就不折腾了，如果在一些没有图形界面的 linux 环境下进行操作，则需要命令行操作。
 
@@ -144,15 +144,15 @@ mysql -h localhost -u root -p
 status;
 ```
 
-![mysql_connect](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_connect.png)
+![mysql_connect](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_connect.png)
 
 而除了通过命令行连接外，MacOS 平台上也有一个很好用的客户端`Sequel Pro`，提供了大多数需要的功能，而由于正式版存在崩溃问题且已经不再维护，建议下载测试版 [Sequel Pro 测试版](https://sequelpro.com/test-builds)，可以很方便地连接至本地/远程服务器 MySQL 服务
 
-![sequel_pro_connect](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/sequel_pro_connect.png)
+![sequel_pro_connect](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/sequel_pro_connect.png)
 
 并查询数据库的结构、内容及执行 SQL 命令
 
-![sequel_pro_manage](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/sequel_pro_manage.png)
+![sequel_pro_manage](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/sequel_pro_manage.png)
 
 这是目前我使用下来非常强大且轻量级的一个客户端，建议大家使用！
 
@@ -180,7 +180,7 @@ show databases;
 drop database mydb;
 ```
 
-![mysql_ddl](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_ddl.png)
+![mysql_ddl](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_ddl.png)
 
 ```sql
 --- 进入某个数据库
@@ -208,7 +208,7 @@ drop table contacts;
 
 为了方便演示，这些操作都将在`Sequel Pro`客户端中进行，操作后我们的表结构如下
 
-![mysql_learn_test_ddl](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_learn_test_ddl.png)
+![mysql_learn_test_ddl](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_learn_test_ddl.png)
 
 #### DML 操作
 
@@ -239,7 +239,7 @@ select * from contacts;
 select * from contacts where id = 1 or name = "李四";
 ```
 
-![mysql_contacts_dql](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql.png)
+![mysql_contacts_dql](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_dql.png)
 
 `IN`和`LIKE`也是两个可以很灵活用于查询的关键字。
 
@@ -250,7 +250,7 @@ select * from contacts where id = 1 or name = "李四";
 select * from contacts where id in(1,3);
 ```
 
-![mysql_contacts_dql_in](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql_in.png)
+![mysql_contacts_dql_in](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_dql_in.png)
 
 同时，`IN`和`EXISTS`也可以用于子查询
 
@@ -278,14 +278,14 @@ where exists(
 select * from contacts where name like '张%';
 ```
 
-![mysql_contacts_dql_like_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql_like_2.png)
+![mysql_contacts_dql_like_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_dql_like_2.png)
 
 ```sql
 --- 查询所有名字以四结尾且为两个字的的联系人
 select * from contacts where name like '_四';
 ```
 
-![mysql_contacts_dql_like](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql_like.png)
+![mysql_contacts_dql_like](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_dql_like.png)
 
 
 实际应用中，往往数据表的数据量非常庞大，会对数据根据相应条件进行分组，这就要用到`GROUP BY`关键字，以及`HAVING`用于进一步筛选条件。`GROUP BY`需要配合聚合函数进行使用。
@@ -302,7 +302,7 @@ group by sex
 having sex = 1;
 ```
 
-![mysql_contacts_dql_group_by](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql_group_by.png)
+![mysql_contacts_dql_group_by](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_dql_group_by.png)
 
 而也可以通过`GROUP_CONCAT`来结合一些具体的数据
 
@@ -318,7 +318,7 @@ from contacts
 group by sex;
 ```
 
-![mysql_contacts_dql_group_concat](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_dql_group_concat.png)
+![mysql_contacts_dql_group_concat](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_dql_group_concat.png)
 
 有时候我们只需要返回唯一值，而需要去掉重复数据，则可以使用`DISTINCT`关键字
 
@@ -335,13 +335,13 @@ select distinc sex from contacts;
 select * from contacts order by id desc limit 5;
 ```
 
-![mysql_dql_order_by_limit](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_dql_order_by_limit.png)
+![mysql_dql_order_by_limit](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_dql_order_by_limit.png)
 
 ### 内置函数
 
 MySQL 也有很多常见的内置函数，可以帮助用户更方便处理各种数据，简化操作，大多数功能都很直观，不作一一说明了
 
-![mysql_functions](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_functions.png)
+![mysql_functions](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_functions.png)
 
 其中值得注意的是，聚合函数是对一组值进行计算并返回单个值。
 
@@ -359,13 +359,13 @@ select name, phone, case sex
 from contacts;
 ```
 
-![mysql_contacts_flow_control](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_contacts_flow_control.png)
+![mysql_contacts_flow_control](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_contacts_flow_control.png)
 
 ### 表的连接
 
 不同的表可以通过一定连接条件发生关联，主要有自连接、内连接和外连接三种，其中外连接又分为左外连接、右外连接和全外连接三种，他们的区别如下
 
-![mysql_table_join](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/mysql_table_join.png)
+![mysql_table_join](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mysql_table_join.png)
 
 而自连接是一种特殊的连接方式，通过在逻辑上生成多张表以实现复杂的层次结构，常应用于区域表、菜单表和商品分类表等，语法如下
 

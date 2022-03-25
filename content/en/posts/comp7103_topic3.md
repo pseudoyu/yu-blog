@@ -16,7 +16,7 @@ authors:
 
 Finding groups of objects such that the objects in a group will be similar (or related) to one another and different from (or unrelated to) the objects in other groups
 
-![cluster_analysis](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/cluster_analysis.png)
+![cluster_analysis](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cluster_analysis.png)
 
 #### Application
 
@@ -29,10 +29,10 @@ Finding groups of objects such that the objects in a group will be similar (or r
 
 - Partitional Clustering
   - A division data objects into non-overlapping subsets (clusters) such that each data object is in exactly one subset
-  ![partitional_clustering](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/partitional_clustering.png)
+  ![partitional_clustering](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/partitional_clustering.png)
 - Hierarchical clustering
   - A set of nested clusters organized as a hierarchical tree
-  ![hierarchical_clustering](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hierarchical_clustering.png)
+  ![hierarchical_clustering](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hierarchical_clustering.png)
 - Other Distinctions Between Sets of Clusters
   - Exclusive versus non-exclusive
     - In non-exclusive clusterings, points may belong to multiple clusters
@@ -50,7 +50,7 @@ Finding groups of objects such that the objects in a group will be similar (or r
 
 A cluster is a set of points such that any point in a cluster is closer (or more similar) to every other point in the cluster than to any point not in the cluster
 
-![wellseparated_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/wellseparated_clusters.png)
+![wellseparated_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/wellseparated_clusters.png)
 
 #### Center-based clusters
 
@@ -58,13 +58,13 @@ A cluster is a set of objects such that an object in a cluster is closer (more s
 
 The center of a cluster is often a centroid, the average of all the points in the cluster, or a medoid, the most “representative” point of a cluster
 
-![center_based_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/center_based_clusters.png)
+![center_based_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/center_based_clusters.png)
 
 #### Contiguity-Based clusters
 
 A cluster is a set of points such that a point in a cluster is closer (or more similar) to one or more other points in the cluster than to any point not in the cluster
 
-![contiguity_based_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/contiguity_based_clusters.png)
+![contiguity_based_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/contiguity_based_clusters.png)
 
 #### Density-based clusters
 
@@ -72,13 +72,13 @@ A cluster is a dense region of points, which is separated by low-density regions
 
 Used when the clusters are irregular or intertwined, and when noise and outliers are present
 
-![density_based_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/density_based_clusters.png)
+![density_based_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/density_based_clusters.png)
 
 #### Conceptual Clusters
 
 Finds clusters that share some common property or represent a particular concept
 
-![conceptual_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/conceptual_clusters.png)
+![conceptual_clusters](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/conceptual_clusters.png)
 
 ### K-means
 
@@ -100,11 +100,11 @@ Feature
 
 #### Importance of Choosing Initial Centroids
 
-![choosing_Initial_centroids](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/choosing_Initial_centroids.png)
+![choosing_Initial_centroids](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/choosing_Initial_centroids.png)
 
-![choosing_Initial_centroids_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/choosing_Initial_centroids_2.png)
+![choosing_Initial_centroids_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/choosing_Initial_centroids_2.png)
 
-![choosing_Initial_centroids_3](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/choosing_Initial_centroids_3.png)
+![choosing_Initial_centroids_3](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/choosing_Initial_centroids_3.png)
 
 #### Evaluating K-means Clusterings
 
@@ -166,27 +166,27 @@ Post-processing
 
 - K-means has problems when clusters are of differing
   - Sizes
-  ![kmeans_limitations](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/kmeans_limitations.png)
+  ![kmeans_limitations](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/kmeans_limitations.png)
   - Densities
-  ![kmeans_limitations_density](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/kmeans_limitations_density.png)
+  ![kmeans_limitations_density](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/kmeans_limitations_density.png)
   - Non-globular shapes
-  ![kmeans_limitations_globular](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/kmeans_limitations_globular.png)
+  ![kmeans_limitations_globular](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/kmeans_limitations_globular.png)
 - K-means has problems when the data contains outliers
 
 #### Overcoming K-means Limitations
 
 Use many clusters, find parts of clusters, but need to put together
 
-![overcome_kmeans_limitations_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/overcome_kmeans_limitations_1.png)
+![overcome_kmeans_limitations_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/overcome_kmeans_limitations_1.png)
 
-![overcome_kmeans_limitations_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/overcome_kmeans_limitations_2.png)
+![overcome_kmeans_limitations_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/overcome_kmeans_limitations_2.png)
 
 ### Hierarchical clustering
 
 - Produces a set of nested clusters organized as a hierarchical tree
 - Can be visualized as a dendrogram
   - A tree like diagram that records the sequences of merges or splits
-  ![hierarchical_clustering_dendrogram](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/hierarchical_clustering_dendrogram.png)
+  ![hierarchical_clustering_dendrogram](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hierarchical_clustering_dendrogram.png)
 
 #### Strengths of Hierarchical Clustering
 
@@ -221,24 +221,24 @@ Traditional hierarchical algorithms use a similarity or distance matrix
 Procedure
 
 1. Start with clusters of individual points and a distance matrix n x n
-   ![agglomerative_clustering_algorithm_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/agglomerative_clustering_algorithm_1.png)
+   ![agglomerative_clustering_algorithm_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/agglomerative_clustering_algorithm_1.png)
 2. After some merging steps, we have some clusters
-   ![agglomerative_clustering_algorithm_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/agglomerative_clustering_algorithm_2.png)
+   ![agglomerative_clustering_algorithm_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/agglomerative_clustering_algorithm_2.png)
 3. We want to merge the two closest clusters (C2 and C5) and update the distance matrix
-   ![agglomerative_clustering_algorithm_3](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/agglomerative_clustering_algorithm_3.png)
+   ![agglomerative_clustering_algorithm_3](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/agglomerative_clustering_algorithm_3.png)
 4. The question is “How do we update the distance matrix
-   ![agglomerative_clustering_algorithm_4](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/agglomerative_clustering_algorithm_4.png)
+   ![agglomerative_clustering_algorithm_4](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/agglomerative_clustering_algorithm_4.png)
 
 #### How to Define Inter-Cluster Similarity
 
 - MIN
-  ![inter_cluster_similarity_1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/inter_cluster_similarity_1.png)
+  ![inter_cluster_similarity_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/inter_cluster_similarity_1.png)
 - MAX
-  ![inter_cluster_similarity_2](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/inter_cluster_similarity_2.png)
+  ![inter_cluster_similarity_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/inter_cluster_similarity_2.png)
 - Group Average
-  ![inter_cluster_similarity_3](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/inter_cluster_similarity_3.png)
+  ![inter_cluster_similarity_3](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/inter_cluster_similarity_3.png)
 - Distance Between Centroids
-  ![inter_cluster_similarity_4](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/inter_cluster_similarity_4.png)
+  ![inter_cluster_similarity_4](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/inter_cluster_similarity_4.png)
 - Other methods driven by an objective function
   - Ward’s Method uses squared error
 
@@ -270,14 +270,14 @@ Numerical measures that are applied to judge various aspects of cluster validity
 - SSE is good for comparing two clusterings or two clusters (average SSE)
 - Can also be used to estimate the number of clusters
 
-![internal_measures_SSE](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/internal_measures_SSE.png)
+![internal_measures_SSE](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/internal_measures_SSE.png)
 
 #### External Measures of Cluster Validity: Entropy
 
 - Definition: Entropy
   - Entropy measure how uncertain is an event, the larger the entropy the more uncertain is the event
 
-![external_measures_of_cluster_validity_Entropy](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/external_measures_of_cluster_validity_Entropy.png)
+![external_measures_of_cluster_validity_Entropy](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/external_measures_of_cluster_validity_Entropy.png)
 
 *"The validation of clustering structures is the most difficult and frustrating part of cluster analysis. Without a strong effort in this direction, cluster analysis will remain a black art accessible only to those true believers who have experience and great courage."*
 
@@ -286,7 +286,7 @@ Numerical measures that are applied to judge various aspects of cluster validity
 - Initialize the centroids as in Algorithm 1
 - Run K-means algorithm to improve the clustering
 
-![kmeans_plus_plus_algorithm1](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/kmeans_plus_plus_algorithm1.png)
+![kmeans_plus_plus_algorithm1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/kmeans_plus_plus_algorithm1.png)
 
 #### Algorithm Comparison
 

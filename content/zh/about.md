@@ -11,7 +11,7 @@ weight: 100
 
 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。
 
-![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image_hosting@master/hugo_images/dino.gif)
+![picture](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/dino.gif)
 
 ### 🎓 个人希望
 
