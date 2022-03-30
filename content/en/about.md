@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/35048413/' target='_blank'>看过健听女孩</a> - 2022-03-30
+* <a href='http://movie.douban.com/subject/30428368/' target='_blank'>看过擅长捉弄的高木同学 第二季</a> - 2022-03-29
+* <a href='http://movie.douban.com/subject/27085551/' target='_blank'>看过擅长捉弄的高木同学</a> - 2022-03-29
+* <a href='http://movie.douban.com/subject/35587922/' target='_blank'>看过擅长捉弄的高木同学 第三季</a> - 2022-03-29
 * <a href='http://movie.douban.com/subject/1393859/' target='_blank'>在看老友记 第一季</a> - 2022-03-26
-* <a href='http://movie.douban.com/subject/35235502/' target='_blank'>看过驾驶我的车</a> - 2022-03-26
-* <a href='http://movie.douban.com/subject/35587922/' target='_blank'>在看擅长捉弄的高木同学 第三季</a> - 2022-03-26
-* <a href='http://movie.douban.com/subject/34874432/' target='_blank'>看过花束般的恋爱</a> - 2022-03-07
-* <a href='https://book.douban.com/subject/27054340/' target='_blank'>最近在读一个叫欧维的男人决定去死</a> - 2022-02-25
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-sh         8 hrs          ███████▉░░░░░░░░░░░░░  37.7%
-Go         5 hrs 23 mins  █████▎░░░░░░░░░░░░░░░  25.4%
-Markdown   3 hrs 40 mins  ███▋░░░░░░░░░░░░░░░░░  17.3%
-PlantUM... 1 hr 28 mins   █▍░░░░░░░░░░░░░░░░░░░   6.9%
-Text       52 mins        ▊░░░░░░░░░░░░░░░░░░░░   4.1%
+sh         9 hrs 29 mins  ███████▌░░░░░░░░░░░░░  36.2%
+Go         8 hrs 43 mins  ██████▉░░░░░░░░░░░░░░  33.3%
+Markdown   3 hrs 40 mins  ██▉░░░░░░░░░░░░░░░░░░  14.0%
+PlantUM... 1 hr 21 mins   █░░░░░░░░░░░░░░░░░░░░   5.2%
+Text       52 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.4%
 ```
 
 <!-- code_time ends -->
