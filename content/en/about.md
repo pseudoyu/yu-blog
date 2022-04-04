@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/3750104/' target='_blank'>看过朝圣之路</a> - 2022-04-03
+* <a href='https://book.douban.com/subject/10594787/' target='_blank'>读过霍乱时期的爱情</a> - 2022-04-03
+* <a href='http://movie.douban.com/subject/2974278/' target='_blank'>看过蓝色情人节</a> - 2022-04-03
+* <a href='http://movie.douban.com/subject/25850443/' target='_blank'>看过史蒂夫·乔布斯</a> - 2022-04-03
 * <a href='https://book.douban.com/subject/27054340/' target='_blank'>读过一个叫欧维的男人决定去死</a> - 2022-03-30
-* <a href='http://movie.douban.com/subject/35048413/' target='_blank'>看过健听女孩</a> - 2022-03-30
-* <a href='http://movie.douban.com/subject/30428368/' target='_blank'>看过擅长捉弄的高木同学 第二季</a> - 2022-03-29
-* <a href='http://movie.douban.com/subject/27085551/' target='_blank'>看过擅长捉弄的高木同学</a> - 2022-03-29
-* <a href='http://movie.douban.com/subject/35587922/' target='_blank'>看过擅长捉弄的高木同学 第三季</a> - 2022-03-29
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         19 hrs 28 mins ██████████▏░░░░░░░░░░  48.4%
-sh         14 hrs 1 min   ███████▎░░░░░░░░░░░░░  34.8%
-YAML       1 hr 30 mins   ▊░░░░░░░░░░░░░░░░░░░░   3.7%
-Text       1 hr 12 mins   ▋░░░░░░░░░░░░░░░░░░░░   3.0%
-Protoco... 57 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.4%
+Go         17 hrs 41 mins ██████████░░░░░░░░░░░  48.0%
+sh         13 hrs 33 mins ███████▋░░░░░░░░░░░░░  36.7%
+YAML       1 hr 7 mins    ▋░░░░░░░░░░░░░░░░░░░░   3.0%
+Protoco... 57 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
+Text       50 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.3%
 ```
 
 <!-- code_time ends -->
