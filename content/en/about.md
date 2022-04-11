@@ -37,20 +37,20 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/24733428/' target='_blank'>想看心灵奇旅</a> - 2022-04-09
+* <a href='http://movie.douban.com/subject/1393859/' target='_blank'>看过老友记 第一季</a> - 2022-04-11
+* <a href='http://movie.douban.com/subject/24733428/' target='_blank'>看过心灵奇旅</a> - 2022-04-10
+* <a href='http://movie.douban.com/subject/6129693/' target='_blank'>看过我可能不会爱你</a> - 2022-04-10
 * <a href='https://book.douban.com/subject/26879778/' target='_blank'>最近在读杀死一只知更鸟</a> - 2022-04-08
-* <a href='http://movie.douban.com/subject/6129693/' target='_blank'>在看我可能不会爱你</a> - 2022-04-05
 * <a href='http://movie.douban.com/subject/6424756/' target='_blank'>看过新蝙蝠侠</a> - 2022-04-05
-* <a href='http://movie.douban.com/subject/3750104/' target='_blank'>看过朝圣之路</a> - 2022-04-03
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         10 hrs 47 mins ██████████▊░░░░░░░░░░  51.3%
-sh         8 hrs 1 min    ████████░░░░░░░░░░░░░  38.1%
-Text       1 hr 20 mins   █▎░░░░░░░░░░░░░░░░░░░   6.3%
+Go         10 hrs 47 mins ██████████▊░░░░░░░░░░  51.6%
+sh         7 hrs 48 mins  ███████▊░░░░░░░░░░░░░  37.4%
+Text       1 hr 20 mins   █▎░░░░░░░░░░░░░░░░░░░   6.4%
 YAML       13 mins        ▏░░░░░░░░░░░░░░░░░░░░   1.1%
 Dockerfile 12 mins        ▏░░░░░░░░░░░░░░░░░░░░   1.0%
 ```
