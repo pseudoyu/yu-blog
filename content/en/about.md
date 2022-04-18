@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/26427152/' target='_blank'>想看王冠 第一季</a> - 2022-04-18
+* <a href='http://movie.douban.com/subject/26898192/' target='_blank'>想看黑镜 第四季</a> - 2022-04-18
+* <a href='http://movie.douban.com/subject/23011215/' target='_blank'>想看超感猎杀 第一季</a> - 2022-04-18
+* <a href='http://movie.douban.com/subject/32579283/' target='_blank'>想看后翼弃兵</a> - 2022-04-18
 * <a href='https://book.douban.com/subject/10560798/' target='_blank'>最近在读面纱</a> - 2022-04-15
-* <a href='http://movie.douban.com/subject/3286528/' target='_blank'>在看老友记 第二季</a> - 2022-04-15
-* <a href='https://book.douban.com/subject/26879778/' target='_blank'>读过杀死一只知更鸟</a> - 2022-04-15
-* <a href='http://movie.douban.com/subject/26359270/' target='_blank'>想看怪奇物语 第一季</a> - 2022-04-13
-* <a href='http://movie.douban.com/subject/30331432/' target='_blank'>在看洛基 第一季</a> - 2022-04-13
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         10 hrs 44 mins ████████▊░░░░░░░░░░░░  41.7%
-sh         7 hrs 37 mins  ██████▏░░░░░░░░░░░░░░  29.6%
-Bash       3 hrs 16 mins  ██▋░░░░░░░░░░░░░░░░░░  12.7%
-Other      1 hr 6 mins    ▉░░░░░░░░░░░░░░░░░░░░   4.3%
-Text       35 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.3%
+Go         15 hrs 16 mins ██████████▏░░░░░░░░░░  48.4%
+sh         8 hrs 39 mins  █████▊░░░░░░░░░░░░░░░  27.4%
+Bash       3 hrs 19 mins  ██▏░░░░░░░░░░░░░░░░░░  10.5%
+Other      1 hr 6 mins    ▋░░░░░░░░░░░░░░░░░░░░   3.5%
+Text       46 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.5%
 ```
 
 <!-- code_time ends -->
