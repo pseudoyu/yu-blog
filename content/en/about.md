@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/10560798/' target='_blank'>读过面纱</a> - 2022-04-21
-* <a href='https://book.douban.com/subject/33424766/' target='_blank'>读过精通以太坊：开发智能合约和去中心化应用</a> - 2022-04-21
-* <a href='https://book.douban.com/subject/30177480/' target='_blank'>读过区块链技术进阶与实战</a> - 2022-04-21
-* <a href='https://book.douban.com/subject/27127839/' target='_blank'>读过区块链原理、设计与应用</a> - 2022-04-21
-* <a href='http://movie.douban.com/subject/10577869/' target='_blank'>看过时空恋旅人</a> - 2022-04-21
+* <a href='http://movie.douban.com/subject/30161936/' target='_blank'>在看黑镜 第五季</a> - 2022-04-24
+* <a href='http://movie.douban.com/subject/25966044/' target='_blank'>看过黑镜 第三季</a> - 2022-04-24
+* <a href='http://movie.douban.com/subject/11502153/' target='_blank'>看过黑镜 第二季</a> - 2022-04-24
+* <a href='http://movie.douban.com/subject/7054120/' target='_blank'>看过黑镜 第一季</a> - 2022-04-24
+* <a href='http://movie.douban.com/subject/26898192/' target='_blank'>看过黑镜 第四季</a> - 2022-04-24
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         10 hrs 36 mins ███████████░░░░░░░░░░  52.7%
-sh         5 hrs 35 mins  █████▊░░░░░░░░░░░░░░░  27.8%
-Bash       1 hr 44 mins   █▊░░░░░░░░░░░░░░░░░░░   8.7%
-YAML       45 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.8%
-Text       25 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.1%
+Go         8 hrs 57 mins  ███████████░░░░░░░░░░  52.5%
+sh         5 hrs 48 mins  ███████▏░░░░░░░░░░░░░  34.0%
+YAML       46 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.5%
+Bash       39 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.9%
+Markdown   17 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.8%
 ```
 
 <!-- code_time ends -->
