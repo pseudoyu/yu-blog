@@ -37,7 +37,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/30161936/' target='_blank'>在看黑镜 第五季</a> - 2022-04-24
+* <a href='http://movie.douban.com/subject/30161936/' target='_blank'>看过黑镜 第五季</a> - 2022-04-25
 * <a href='http://movie.douban.com/subject/25966044/' target='_blank'>看过黑镜 第三季</a> - 2022-04-24
 * <a href='http://movie.douban.com/subject/11502153/' target='_blank'>看过黑镜 第二季</a> - 2022-04-24
 * <a href='http://movie.douban.com/subject/7054120/' target='_blank'>看过黑镜 第一季</a> - 2022-04-24
@@ -48,11 +48,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         8 hrs 17 mins  ██████████░░░░░░░░░░░  48.1%
-sh         6 hrs 14 mins  ███████▌░░░░░░░░░░░░░  36.2%
-YAML       46 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.5%
-Bash       38 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
-Markdown   18 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.8%
+Go         12 hrs 7 mins  ███████████▎░░░░░░░░░  53.7%
+sh         7 hrs 5 mins   ██████▌░░░░░░░░░░░░░░  31.5%
+Bash       55 mins        ▊░░░░░░░░░░░░░░░░░░░░   4.1%
+YAML       35 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
+JSON       26 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.0%
 ```
 
 <!-- code_time ends -->
