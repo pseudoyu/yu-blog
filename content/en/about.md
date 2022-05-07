@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/3286549/' target='_blank'>在看老友记  第九季</a> - 2022-05-05
+* <a href='http://movie.douban.com/subject/3761148/' target='_blank'>想看好汉两个半  第一季</a> - 2022-05-06
+* <a href='http://movie.douban.com/subject/34988710/' target='_blank'>想看9号秘事 第七季</a> - 2022-05-06
+* <a href='http://movie.douban.com/subject/3286552/' target='_blank'>在看老友记 第十季</a> - 2022-05-06
+* <a href='http://movie.douban.com/subject/3286549/' target='_blank'>看过老友记  第九季</a> - 2022-05-06
 * <a href='http://movie.douban.com/subject/3286548/' target='_blank'>看过老友记  第八季</a> - 2022-05-05
-* <a href='http://movie.douban.com/subject/3286547/' target='_blank'>看过老友记  第七季</a> - 2022-05-05
-* <a href='http://movie.douban.com/subject/3286543/' target='_blank'>看过老友记  第六季</a> - 2022-05-05
-* <a href='http://movie.douban.com/subject/3286538/' target='_blank'>看过老友记  第五季</a> - 2022-05-05
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         1 hr 44 mins   █████████▍░░░░░░░░░░░  45.1%
-sh         1 hr 22 mins   ███████▍░░░░░░░░░░░░░  35.4%
-Bash       14 mins        █▎░░░░░░░░░░░░░░░░░░░   6.4%
-YAML       12 mins        █▏░░░░░░░░░░░░░░░░░░░   5.4%
-VimL       9 mins         ▊░░░░░░░░░░░░░░░░░░░░   4.1%
+Groovy     28 mins        ███████▎░░░░░░░░░░░░░  34.9%
+Bash       14 mins        ███▊░░░░░░░░░░░░░░░░░  18.4%
+SQL        11 mins        ██▉░░░░░░░░░░░░░░░░░░  13.8%
+VimL       9 mins         ██▍░░░░░░░░░░░░░░░░░░  11.9%
+GitIgno... 5 mins         █▍░░░░░░░░░░░░░░░░░░░   6.9%
 ```
 
 <!-- code_time ends -->
