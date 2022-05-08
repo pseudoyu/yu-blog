@@ -38,7 +38,7 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/32579283/' target='_blank'>在看后翼弃兵</a> - 2022-05-07
+* <a href='http://movie.douban.com/subject/32579283/' target='_blank'>看过后翼弃兵</a> - 2022-05-08
 * <a href='http://movie.douban.com/subject/3286552/' target='_blank'>看过老友记 第十季</a> - 2022-05-07
 * <a href='http://movie.douban.com/subject/3761148/' target='_blank'>想看好汉两个半  第一季</a> - 2022-05-06
 * <a href='http://movie.douban.com/subject/34988710/' target='_blank'>想看9号秘事 第七季</a> - 2022-05-06
