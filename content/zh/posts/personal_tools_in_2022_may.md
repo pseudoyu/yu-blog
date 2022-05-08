@@ -177,7 +177,6 @@ authors:
 
 - 微信
 - QQ, 大学时常用，现少用
-- 钉钉
 - Telegram
 - Discord
 - 钉钉, 工作沟通用
