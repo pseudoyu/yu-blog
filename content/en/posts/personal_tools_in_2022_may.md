@@ -25,7 +25,7 @@ authors:
 - HHKB Professional Hybrid Type-S 双模静音版键盘，白色有刻
 - RealForce PFU 联名版 87 键，黑色
 - MM-Studio Class65 V2 客制化双模机械键盘，复古白
-- Apple Magic Keyboard 键盘，黑色
+- Apple Magic Keyboard 键盘，白色
 - Logitech MX Master 3 鼠标，灰色
 - Apple Magic Mouse 2 鼠标，白色
 - Apple Magic Trackpad 触控板，白色
