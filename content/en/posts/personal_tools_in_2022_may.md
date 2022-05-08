@@ -205,19 +205,26 @@ authors:
 - Disney+, 剧集/电影订阅
 - 爱奇艺
 
-### :spider_web: 网站
+### :spider_web: 网站工具
 
+- 社交网站: [Twitter](https://twitter.com/pseudo_yu)
+- 影音数据记录: [豆瓣](https://www.douban.com/people/pseudo-yu)
 - 浏览器: Safari, Chrome
   - AdGuard 去广告插件
   - Grammarly 语法检查插件
   - MetaMask 钱包插件
-- 社交网站: [Twitter](https://twitter.com/pseudo_yu)
-- 影音数据记录: [豆瓣](https://www.douban.com/people/pseudo-yu)
-- 个人信息: [个人博客](https://www.pseudoyu.com), [GitHub](https://github.com/pseudoyu), [Linkedin](https://www.linkedin.com/in/pseudoyu/)
+- 域名及个人网站
+  - GitHub Pages
+  - Cloudflare
+  - Vercel
+  - Cusdis
+  - Heroku
+  - Splitbee
+  - Google Console
 
 ## 总结
 
-以上就是我在 2022 年 5 月所自用的工具箱，希望能够对其他人有所参考。
+以上就是我在 2022 年 5 月所自用的工具箱，希望能够对大家有所参考。
 
 ## 参考资料
 
