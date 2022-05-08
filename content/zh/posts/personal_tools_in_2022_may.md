@@ -142,7 +142,7 @@ authors:
 ### 🌏 网络工具
 
 - Surge, 网络代理、调试工具
-- ClashX, 网络调试工具
+- ClashX, 网络代理工具
 - Tunnelblick, openvpn客户端，连接工作服务器使用
 
 ### 📝 记录工具
@@ -157,7 +157,7 @@ authors:
 ### 📁 文件管理
 
 - OneDrive, 5TB 空间
-- Google Drive, 1TB 空间（因学校从 Google 服务转向 MicroSoft 服务，正在弃用）
+- Google Drive, 1TB 空间（因学校从 Google 服务转向 Microsoft 服务，正在弃用）
 - 百度网盘，存储影音及备份工具（以前存储大量视频剪辑文件用，正在弃用）
 
 ### 📨 信息管理
@@ -174,7 +174,7 @@ authors:
 ### 💬 通讯社交
 
 - 微信
-- QQ, 大学时常，现少用
+- QQ, 大学时常用，现少用
 - 钉钉
 - Telegram
 - Discord
@@ -182,9 +182,9 @@ authors:
 
 ### 📹 视频剪辑
 
-- Final Cut Pro X
-- Compressor
-- HandBrake, 视频压制工具
+- Final Cut Pro X, 主力剪辑工具
+- Compressor, 主力压制工具
+- HandBrake, 备用开源视频压制工具
 - 大排档剪辑助手
 - 剪映专业版, 主要用来做字幕
 - Downie, 视频源下载工具
