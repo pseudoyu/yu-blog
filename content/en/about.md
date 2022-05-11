@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/26844438/' target='_blank'>在看怪奇物语 第二季</a> - 2022-05-10
+* <a href='http://movie.douban.com/subject/27119156/' target='_blank'>在看怪奇物语 第三季</a> - 2022-05-10
+* <a href='http://movie.douban.com/subject/26844438/' target='_blank'>看过怪奇物语 第二季</a> - 2022-05-10
 * <a href='http://movie.douban.com/subject/26359270/' target='_blank'>看过怪奇物语 第一季</a> - 2022-05-10
 * <a href='http://movie.douban.com/subject/32579283/' target='_blank'>看过后翼弃兵</a> - 2022-05-08
 * <a href='http://movie.douban.com/subject/3286552/' target='_blank'>看过老友记 第十季</a> - 2022-05-07
-* <a href='http://movie.douban.com/subject/3761148/' target='_blank'>想看好汉两个半  第一季</a> - 2022-05-06
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   3 hrs 28 mins  ██████████▌░░░░░░░░░░  50.3%
-Other      51 mins        ██▌░░░░░░░░░░░░░░░░░░  12.5%
-PlantUM... 49 mins        ██▌░░░░░░░░░░░░░░░░░░  12.0%
-Go         30 mins        █▌░░░░░░░░░░░░░░░░░░░   7.3%
-Groovy     28 mins        █▍░░░░░░░░░░░░░░░░░░░   6.8%
+Markdown   3 hrs 28 mins  ████████▉░░░░░░░░░░░░  42.8%
+Other      1 hr 28 mins   ███▊░░░░░░░░░░░░░░░░░  18.2%
+Go         55 mins        ██▎░░░░░░░░░░░░░░░░░░  11.3%
+PlantUM... 49 mins        ██▏░░░░░░░░░░░░░░░░░░  10.2%
+Groovy     28 mins        █▏░░░░░░░░░░░░░░░░░░░   5.8%
 ```
 
 <!-- code_time ends -->
