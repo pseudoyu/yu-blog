@@ -61,6 +61,7 @@ Groovy     28 mins        ▉░░░░░░░░░░░░░░░░░
 ### 💻 最近发布项目
 
 <!-- recent_releases starts -->
+* <a href=https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0 target='_blank'>top-blockchain-projects GitHub 区块链项目 star 排行榜</a>
 * <a href=https://github.com/pseudoyu/pseudoyu/releases/tag/v1.1.0 target='_blank'>pseudoyu 首页信息流展示</a>
 * <a href=https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0 target='_blank'>learn-solidity Solidity 智能合约开发学习</a>
 * <a href=https://github.com/pseudoyu/lottery-solidity/releases/tag/v1.0.0 target='_blank'>lottery-solidity 用 Solidity 编写的彩票智能合约 Demo</a>
@@ -70,5 +71,4 @@ Groovy     28 mins        ▉░░░░░░░░░░░░░░░░░
 * <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
 * <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain 从零实现一个区块链</a>
 * <a href=https://github.com/pseudoyu/alfred-workflow/releases/tag/v0.0.1 target='_blank'>alfred-workflow 个人 Alfred 脚本</a>
-* <a href=https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems/releases/tag/v1.0.0 target='_blank'>xDeepFM_for_Recommender_Systems xDeepFM for Recommender Systems 推荐系统</a>
 <!-- recent_releases ends -->
