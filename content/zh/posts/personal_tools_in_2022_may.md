@@ -120,7 +120,7 @@ authors:
   - git
     - git-cz
     - git-chglog
-  - Fork, git 客户端工具（已启用，改为命令行配合 alias）
+  - ~~Fork, git 客户端工具（已弃用，改为命令行配合 alias）~~
   - GitHub
   - GitLab
 - 终端
