@@ -26,7 +26,7 @@ authors:
 - 明基（BenQ）ScreenBar Halo 屏幕挂灯
 - HHKB Professional Hybrid Type-S 双模静音版键盘，白色有刻
 - RealForce PFU 联名版 87 键，黑色
-- MM-Studio Class65 V2 客制化双模机械键盘，复古白
+- ~~MM-Studio Class65 V2 客制化双模机械键盘，复古白（已转卖）~~
 - Apple Magic Keyboard 键盘，白色
 - Logitech MX Master 3 鼠标，灰色
 - Apple Magic Mouse 2 鼠标，白色
@@ -120,7 +120,7 @@ authors:
   - git
     - git-cz
     - git-chglog
-  - Fork, git 客户端工具
+  - Fork, git 客户端工具（已启用，改为命令行配合 alias）
   - GitHub
   - GitLab
 - 终端
@@ -146,7 +146,7 @@ authors:
 
 - Surge, 网络代理、调试工具
 - ClashX, 网络代理工具
-- Tunnelblick, openvpn客户端，连接工作服务器使用
+- Tunnelblick, openvpn 客户端，连接工作服务器使用
 
 ### 📝 记录工具
 
@@ -160,8 +160,9 @@ authors:
 ### 📁 文件管理
 
 - OneDrive, 5TB 空间
-- Google Drive, 1TB 空间（因学校从 Google 服务转向 Microsoft 服务，正在弃用）
-- 百度网盘，存储影音及备份工具（以前存储大量视频剪辑文件用，正在弃用）
+- iCloud, 200GB 空间
+- ~~Google Drive, 1TB 空间（因学校从 Google 服务转向 Microsoft 服务，已弃用）~~
+- ~~百度网盘，存储影音及备份工具（以前存储大量视频剪辑文件用，已弃用）~~
 
 ### 📨 信息管理
 
@@ -219,10 +220,6 @@ authors:
   - GitHub Pages
   - Cloudflare
   - Vercel
-  - Cusdis
-  - Heroku
-  - Splitbee
-  - Google Console
 
 ## 总结
 
@@ -230,4 +227,4 @@ authors:
 
 ## 参考资料
 
-> 1. [個人工具箱（2021十二月）](https://blog.gasolin.idv.tw/tools/tooling-in-2021-Dec)
+> 1. [個人工具箱（2021 十二月）](https://blog.gasolin.idv.tw/tools/tooling-in-2021-Dec)
