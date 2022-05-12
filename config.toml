@@ -146,10 +146,10 @@ defaultContentLanguageInSubdir = true
     url = "category/projects/"
 
   [[languages.en.menu.social]]
-    name = "Facebook"
+    name = "Twitter"
     weight = 10
-    identifier = "facebook"
-    url = "https://www.facebook.com/pseudoyuzhang"
+    identifier = "twitter"
+    url = "https://twitter.com/pseudo_yu"
   [[languages.en.menu.social]]
     name = "Instagram"
     weight = 20
@@ -162,20 +162,10 @@ defaultContentLanguageInSubdir = true
     url = "https://space.bilibili.com/5374948/"
 
   [[languages.en.menu.links]]
-    name = "LinkedIn"
+    name = "M1sty"
     weight = 10
-    identifier = "linkedin"
-    url = "https://www.linkedin.com/in/pseudoyu/"
-  [[languages.en.menu.links]]
-    name = "GitHub"
-    weight = 20
-    identifier = "github"
-    url = "https://github.com/pseudoyu"
-  [[languages.en.menu.links]]
-    name = "Coursera"
-    weight = 30
-    identifier = "coursera"
-    url = "https://www.coursera.org/user/ffe947f087d1f63b161c3fcb310a6578"
+    identifier = "m1sty"
+    url = "https://www.m1sty.com"
 
   [languages.zh]
   languageCode = "zh"
@@ -213,10 +203,10 @@ defaultContentLanguageInSubdir = true
     url = "category/projects/"
 
   [[languages.zh.menu.social]]
-    name = "Facebook"
+    name = "Twitter"
     weight = 10
-    identifier = "facebook"
-    url = "https://www.facebook.com/pseudoyuzhang"
+    identifier = "twitter"
+    url = "https://twitter.com/pseudo_yu"
   [[languages.zh.menu.social]]
     name = "Instagram"
     weight = 20
@@ -229,17 +219,7 @@ defaultContentLanguageInSubdir = true
     url = "https://space.bilibili.com/5374948/"
 
   [[languages.zh.menu.links]]
-    name = "LinkedIn"
+    name = "M1sty"
     weight = 10
-    identifier = "linkedin"
-    url = "https://www.linkedin.com/in/pseudoyu/"
-  [[languages.zh.menu.links]]
-    name = "GitHub"
-    weight = 20
-    identifier = "github"
-    url = "https://github.com/pseudoyu"
-  [[languages.zh.menu.links]]
-    name = "Coursera"
-    weight = 30
-    identifier = "coursera"
-    url = "https://www.coursera.org/user/ffe947f087d1f63b161c3fcb310a6578"
+    identifier = "m1sty"
+    url = "https://www.m1sty.com"
