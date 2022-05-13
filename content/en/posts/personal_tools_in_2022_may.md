@@ -90,8 +90,8 @@ authors:
 - PDF Squeezer, PDF 压缩工具
 - BetterZip, 压缩/解压工具
 - PicGo, 图床管理工具
-- TinyPNG4Mac, 图片压缩工具
-- Image Smith, 新尝试的图片压缩工具
+- Image Smith, 图片压缩工具
+- TinyPNG4Mac, 备用图片压缩工具
 
 ### 👨🏻‍💻 开发工具
 
@@ -213,10 +213,12 @@ authors:
 
 - 社交网站: [Twitter](https://twitter.com/pseudo_yu)
 - 影音数据记录: [豆瓣](https://www.douban.com/people/pseudo-yu)
-- 浏览器: Safari, Chrome
-  - AdGuard 去广告插件
-  - Grammarly 语法检查插件
-  - MetaMask 钱包插件
+- 浏览器
+  - Safari
+    - AdGuard 去广告插件
+  - Brave
+    - MetaMask 钱包插件
+  - ~~Chrome（迁移至 Brave，已弃用）~~
 - 域名及个人网站
   - GitHub Pages
   - Cloudflare
