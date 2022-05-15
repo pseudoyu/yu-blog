@@ -37,22 +37,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/27119156/' target='_blank'>看过怪奇物语 第三季</a> - 2022-05-11
-* <a href='http://movie.douban.com/subject/26844438/' target='_blank'>看过怪奇物语 第二季</a> - 2022-05-10
-* <a href='http://movie.douban.com/subject/26359270/' target='_blank'>看过怪奇物语 第一季</a> - 2022-05-10
-* <a href='http://movie.douban.com/subject/32579283/' target='_blank'>看过后翼弃兵</a> - 2022-05-08
-* <a href='http://movie.douban.com/subject/3286552/' target='_blank'>看过老友记 第十季</a> - 2022-05-07
+* <a href='http://movie.douban.com/subject/26592971/' target='_blank'>在看瑞克和莫蒂 第三季</a> - 2022-05-15
+* <a href='http://movie.douban.com/subject/25865470/' target='_blank'>看过瑞克和莫蒂 第二季</a> - 2022-05-15
+* <a href='http://movie.douban.com/subject/11537954/' target='_blank'>看过瑞克和莫蒂 第一季</a> - 2022-05-14
+* <a href='http://movie.douban.com/subject/35234382/' target='_blank'>在看辉夜大小姐想让我告白：天才们的恋爱头脑战 第三季</a> - 2022-05-14
+* <a href='http://movie.douban.com/subject/35258427/' target='_blank'>在看间谍过家家</a> - 2022-05-14
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   14 hrs 11 mins ██████████████▍░░░░░░  68.9%
-Other      2 hrs 12 mins  ██▎░░░░░░░░░░░░░░░░░░  10.7%
-Go         1 hr 32 mins   █▌░░░░░░░░░░░░░░░░░░░   7.5%
-PlantUM... 1 hr 20 mins   █▎░░░░░░░░░░░░░░░░░░░   6.5%
-sh         13 mins        ▏░░░░░░░░░░░░░░░░░░░░   1.1%
+Markdown   16 hrs 2 mins  ███████████████▍░░░░░  73.4%
+Other      2 hrs 19 mins  ██▏░░░░░░░░░░░░░░░░░░  10.7%
+Go         1 hr 11 mins   █▏░░░░░░░░░░░░░░░░░░░   5.5%
+sh         33 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.5%
+PlantUM... 31 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.4%
 ```
 
 <!-- code_time ends -->
