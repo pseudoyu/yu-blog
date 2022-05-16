@@ -2,7 +2,7 @@
 title: "个人工具箱（2022 年 5 月）"
 date: 2022-05-08T15:47:16+08:00
 draft: false
-tags: ["devices", "softwares", "macOS"]
+tags: ["devices","softwares","macOS"]
 categories: ["Tools"]
 authors:
 - "Arthur"
@@ -20,210 +20,216 @@ authors:
 
 ### :computer: 电脑及配件
 
-- Apple Mac Studio (2022), M1 Max, 64GB RAM, 1T SSD
-- Apple MacBook Pro (16-inch, 2019) 银色, 2.4 GHz 八核 Intel Core i9, 32GB RAM, 2T SSD
-- 明基（BenQ）EW3270U 4K 显示器
-- 明基（BenQ）ScreenBar Halo 屏幕挂灯
-- HHKB Professional Hybrid Type-S 双模静音版键盘，白色有刻
-- RealForce PFU 联名版 87 键，黑色
-- ~~MM-Studio Class65 V2 客制化双模机械键盘，复古白（已转卖）~~
-- Apple Magic Keyboard 键盘，白色
-- Logitech MX Master 3 鼠标，灰色
-- Apple Magic Mouse 2 鼠标，白色
-- Apple Magic Trackpad 触控板，白色
-- 闪极 100W Pro 氮化镓 GaN 充电器， 黄色
+- **Apple Mac Studio (2022)，M1 Max，64GB RAM，1T SSD**，家里主力电脑，疫情在家很提升工作学习幸福感
+- **Apple MacBook Pro (16-inch，2019) 银色，2.4 GHz 八核 Intel Core i9，32GB RAM，2T SSD**，高频使用，基本走哪都会背着，在公司外接显示屏使用
+- **明基（BenQ）EW3270U 4K 显示器**，配合 Mac Studio 使用，在这个价位的 4K 里已经很不错了
+- **明基（BenQ）ScreenBar Halo 屏幕挂灯**，有了这个后基本上家里没开过主光源了，可以无线控制调节，很有氛围感
+- **HHKB Professional Hybrid Type-S 双模静音版键盘，白色有刻**，目前最爱的键盘
+- **RealForce PFU 联名版 87 键，黑色**，备用键盘，也是静电容经典了，但是没有很习惯，可能后面玩游戏会用，毕竟 HHKB 键位特殊
+- ~~**MM-Studio Class65 V2 客制化双模机械键盘，复古白**（原本想通过这把入坑客制化，但是没心情折腾了，等了三个月发团，刚到手就原价转卖了）~~
+- **Apple Magic Keyboard 键盘，白色**，开始用 HHKB 后就基本上不用了
+- **Logitech MX Master 3 鼠标，灰色**，主力鼠标，手感和侧键功能都很棒，配合剪视频也很棒
+- **Apple Magic Mouse 2 鼠标，白色**，手感不太行，基本上不用了
+- **Apple Magic Trackpad 触控板，白色**，在家配合着鼠标使用，体验感不错
+- **闪极 100W Pro 氮化镓 GaN 充电器，黄色**，外出携带，终于不用随时背着苹果 96w 的大块头充电器出门了
 
 ### :iphone: 手机及平板
-- Apple iPhone 13 蓝色, 256GB
-- OnePlus 7 Pro, 6.67", Snapdragon 855, 256GB
-- Apple iPad Air (第三代), 256GB
+- **Apple iPhone 13 蓝色，256GB**，主力手机，配合苹果全家桶体验很好，不过手机基本上戒了，主要就用作沟通和看看资讯，应该很久都不会换了
+- **OnePlus 7 Pro，6.67"，Snapdragon 855，256GB**，之前在香港的时候刷机 Root 了，配合 Google 全家桶很适合留学用，而且拍照风格很自然，不过现在也很少用了
+- **Apple iPad Air (第三代)，256GB**，主要用来作拓展屏或者放视频了，很少作什么生产力工具使用，大部分电脑能做的都不会放到 iPad 上做
 
 ### :movie_camera: 相机及配件
-- Sony A7M3 微单相机，黑色
-- Sony 24-105mm F4 相机镜头
-- Sony 55mm F1.8 蔡司相机镜头
-- 罗德 Wireless Go 无线麦克风
+- **Sony A7M3 微单相机，黑色**，大学攒了好久才买的第一台微单，摄影和视频都很全能，跟着我好多年了，到现在依然很够用
+- **Sony 24-105mm F4 相机镜头**，跟相机一起买的，出门基本上这一只大师镜头就够了，虽然光圈只有 F4，但是品质真的高
+- **Sony 55mm F1.8 蔡司相机镜头**，收到的礼物，也是目前最喜欢的定焦镜头，主要用来拍人像，素质很高
+- **罗德 Wireless Go 无线麦克风**，之前录视频用得比较多，便携易用，声音也很不错，后面会考虑多录一些视频
 
 ### :headphones: 音箱及耳机
-- Apple Airpods Pro 降噪耳机
-- Apple HomePod mini 音箱
-- Divoom Ditoo 像素复古音箱
-- 小爱智能音箱
+- **Apple Airpods Pro 降噪耳机**，原本不太习惯入耳式，后来体验了降噪后就离不开了
+- **Apple HomePod mini 音箱**，家里电脑主要输出设备，家里 Mac Studio 和显示器自带音质都不太行
+- **Divoom Ditoo 像素复古音箱**，收到的礼物，现在放在桌面作装饰，基本上没放过音乐
+- **小爱智能音箱**，联动家里的各类智能家居
 
 ### :package: 存储设备
-- 三星 T5 SSD, 1TB
-- 希捷移动硬盘, 1TB
+- **三星 T5 SSD，1TB**，主要用来存储摄影和视频素材，很小，传输速度很快
+- **希捷移动硬盘，1TB**，Mac Studio 用来 Time Machine 备份使用的
 
 ### 🎮 休闲娱乐
-- Kindle Oasis 2 电子书阅读器
-- Nintendo Switch 主机, 动物森友会特别版
-- Nintendo Switch Pro 手柄, 任天堂明星大乱斗特别版
+- **Kindle Oasis 2 电子书阅读器**，以前看得比较多，现在基本上看实体书，以及通勤路上用 Apple Books 看了
+- **Nintendo Switch 主机，动物森友会特别版**，主要用来玩宝可梦，[从 18 年开始陆陆续续也买了不少游戏](https://pseudoyu.notion.site/f5f9e6e31b4744a7a1284eaf55451462?v=6e3be0ced2f44305b9ff3a8298e72de5)，很多都还没来得及玩，卡带收藏爱好者
+- **Nintendo Switch Pro 手柄，任天堂明星大乱斗特别版**，体验感比自带的 Joy-Con 好多了
 
 ## 软件工具
 
 ### 🛠 系统工具
 
-- Rime 鼠须管, 定制化输入法
-- ElPass, 密码管理工具
-- CleanMyMac X, 电脑管家
-- AppCleaner, 应用卸载
-- One Switch, 菜单栏快捷工具
-- Alfred 4, 快捷启动
-- Hammperspoon, macOS 拓展脚本
-- Bob, macOS 翻译
-- Bartender 4, 菜单栏管理工具
-- Menubar X, 菜单栏网页拓展
-- BetterTouchTool, 触控板及 Touchbar 管理
-- iStat Menus, 系统状态显示
-- DaisyDisk, 磁盘管理
-- Hook, 文件资源双向链接工具
-- Magnet, 分屏工具
-- AirBuddy, 耳机管理工具
-- Time Machine, 备份工具
-- HazeOver, 桌面效果工具
-- Plash, 动态桌面拓展
-- brew, Homebrew 安装工具
-- Logi Options+, 罗技配置工具
+- **Rime 鼠须管**，定制化输入法，体验很好且数据本地保存，安全稳定
+- **ElPass**，密码管理工具，界面很喜欢，OTP 以及 Server 管理功能很惊艳，现在所有帐号、密码、证件和银行卡都在这里管理了，用 iCloud 和 Dropbox 进行同步和备份
+- **CleanMyMac X**，电脑管家，主要用来清理缓存和软件卸载
+- **AppCleaner**，功能很单一的应用卸载工具
+- **One Switch**，菜单栏快捷工具，主要用来组织电脑休眠使用的
+- **Alfred 4**，快捷启动工具，配合一些 Workflow 功能很丰富，现在主要还用了它的剪贴板历史功能
+- **Hammperspoon**，macOS 拓展脚本，主要用来通过 `Option + hjkl` 组合键来弥补 HHKB 没有上下左右键的一些场景
+- **Bob**，划词/截图翻译工具，配合 [DeepL X 拓展插件](https://github.com/clubxdev/bob-plugin-deeplx)和 [zu1k](https://zu1k.com) 大佬发布的 [DeepL Free Api Docker 镜像](https://github.com/zu1k/deepl-api-rs)，完美体验，后面还更新了独立的 OCR 功能，更强大了
+- **Bartender 4**，菜单栏管理工具，主要隐藏一些软件服务菜单栏图标
+- **Menubar X**，菜单栏网页拓展，之前偶尔挂一些小工具，现在用得也少了
+- **BetterTouchTool**，触控板及 Touchbar 管理，主要给 Macbook Pro 配置触控版用的
+- **iStat Menus**，系统状态显示，主要显示 CPU、内存和网络等状态
+- **DaisyDisk**，磁盘管理，偶尔用来追踪大文件
+- **Hook**，文件资源双向链接工具，目前主要用来追踪本地的一些视频之类的大文件，可以以链接的形式嵌入到 Logseq 里
+- **Magnet**，分屏工具
+- **AirBuddy**，耳机管理工具，感觉连接耳机更顺滑了一些
+- **Time Machine**，备份工具，主要给 Mac Studio 作实时备份用
+- **HazeOver**，桌面效果工具，显示效果很不错
+- **Plash**，动态桌面拓展，在主屏幕放了一个简约的动态时间显示，也几乎不耗资源，比动态桌面好多了
+- **brew**，Homebrew 安装工具，基本上开发有关的都用 brew 装了，方便管理升级
+- **Logi Options+**，罗技配置工具，配置鼠标功能按键用的，不过基本上用的默认值
 
 ### 🧰 实用工具
 
-- PDF Expert, PDF 查看编辑工具
-- PDF Squeezer, PDF 压缩工具
-- BetterZip, 压缩/解压工具
-- PicGo, 图床管理工具
-- Image Smith, 图片压缩工具
-- TinyPNG4Mac, 备用图片压缩工具
+- **PDF Expert**，PDF 查看编辑工具，主要用来做一些合并和编辑，查看的话经常还是用自带的 Preview
+- **PDF Squeezer**，PDF 压缩工具，压缩效果很不错，使用也很方便
+- **BetterZip**，压缩/解压工具，基本上装机必备了，目前遇到的格式都支持了
+- **PicGo**，图床管理工具，主要写博客的时候上传图片到 GitHub 图床并且生成自定义的 Markdown 格式，可以直接嵌入文章
+- **Image Smith**，图片压缩工具，刚尝试的一个新工具，很不错，之后作主力压缩了
+- **TinyPNG4Mac**，之前博客图片上传前都会压一些，功能很简单，现在作为备用了
 
 ### 👨🏻‍💻 开发工具
 
 - 编辑器
-  - Jetbrains GoLand, 主力工作 IDE
-    - Material Theme UI
-    - Atom Material Icons
-    - GitHub Copilot
-    - GitToolBox
-    - IdeaVim
-    - PlantUML Integration
-    - WakaTime
-  - VS Code, 代码编辑工具，辅助开发
-    - GitHub Copilot
-    - Beancount
-    - PlantUML
-    - Markdown All in One
-    - Rainbow Brackets
-    - go
-    - solidity
-    - WakaTime
-  - Atom
-    - go-plus
-    - fabric-go
-    - wakatime
+  - **Jetbrains GoLand**，主力工作 IDE，太强大，目前用 Edu 身份订阅着全家桶，希望后面能通过开源项目续着
+    - **Material Theme UI + Atom Material Icons**，很美观的主题
+    - **GitHub Copilot**，代码 AI 补全，很智能
+    - **GitToolBox**，提示一些 Git 状态信息
+    - **IdeaVim**，配置 Vim 键位
+    - **PlantUML Integration**，用来画 UML 图，目前感觉写和预览体验最好的平台了
+    - **WakaTime**，用来记录编码项目、语言和所用时间
+  - **VS Code**，代码编辑工具，辅助开发
+    - **Serendipity**，新尝试的一个很喜欢的主题
+    - **GitHub Copilot**，代码 AI 补全，重度依赖
+    - **Beancount**，用来复式记账，配合 fava 工具作可视化
+    - **Markdown All in One**，用来增强对 Markdown 的支持，主要用来写博客
+    - **Rainbow Brackets**，给配对的括号加上颜色
+    - **go**，Go 语言环境支持
+    - **solidity**，智能合约编写支持
+    - **WakaTime**，用来记录编码项目、语言和所用时间
+  - **Atom**
+    - **go-plus**，Go 语言环境支持
+    - **fabric-go**，用来调试 fabric 1.4 版本的链码，可以自动通过镜像部署，很方便，这也是我 Atom 编辑器的唯一用途了
+    - **wakatime**，用来记录编码项目、语言和所用时间
 - 版本控制
-  - git
-    - git-cz
-    - git-chglog
-  - ~~Fork, git 客户端工具（已弃用，改为命令行配合 alias）~~
-  - GitHub
-  - GitLab
+  - **git**，版本管理工具
+    - [**git-cz**](https://github.com/commitizen/cz-cli)，交互式规范化提交信息
+    - [**git-chglog**](https://github.com/git-chglog/git-chglog)，用来自动生成格式化 CHANGELOG
+  - ~~Fork，git 客户端工具（已弃用，改为命令行配合 alias）~~
+  - **GitHub**，我的个人博客、图床以及开发项目都通过 GitHub 管理
+  - **GitLab**，工作项目用公司 GitLab 进行管理
 - 终端
-  - Warp
-  - iTerm2
+  - **Warp**，新尝试的 Rust 编写的终端，体验感很棒，完全作为主力终端了
+  - **iTerm2**，之前一直用，现在主要用来切多个服务器
 - 服务器管理
-  - ssh, 通过终端直接连接服务器
-  - Termius, 服务器管理工具
-  - ServerCat, 服务器状态监控
-  - Fetch, 远程文件传输
-  - Microsoft Remote Desktop, 远程桌面连接
+  - **ssh**，配合 Warp 和 iTerm2 的 Profile 来连接服务器用
+  - **Termius**，服务器管理工具，主要是可以云端同步配置，跟公司同事调试测试的时候都不需要自己再配本地环境，比较方便，然后也使用 SFTP 来传文件
+  - **ServerCat**，服务器状态监控，界面很不错
+  - **Fetch**，备用远程文件传输工具，很老牌了
 - 数据库管理
-  - Jetbrains DataGrip
-  - Sequel Ace
-- 接口调试: Paw
-- 文档查看: Dash
-- 容器: Docker Desktop
+  - **Sequel Ace**，主力数据库管理工具，是之前开源版本 Sequel Pro 的一个维护版本，界面简约但是功能很强大
+  - **Jetbrains DataGrip**，主要通过 Groovy 脚本来自动导出数据库的 Markdown 文件，很方便写文档
+- 接口调试
+  - **Paw**，主力接口调试工具，限免的时候注册的，速度很快，多环境以及分支管理很强大
+  - ~~**Postman**，以前用的接口调试工具，但是界面太繁杂了，而且反应有点慢，弃用了~~
+- 文档查看: **Dash**，配合 Alfred 查文档很方便
+- 容器: **Docker Desktop**，虽然占资源很高，但是确实方便
 - 绘图工具
-  - PlantUML
-  - Draw.io
+  - **PlantUML**，配合 GoLand 里插件通过语法画流程图，修改和版本维护很方便
+  - **Draw.io**，一些很复杂的架构图和部署图通过这个客户端画，有点简陋但是够用
 
 ### 🌏 网络工具
 
-- Surge, 网络代理、调试工具
-- ClashX, 网络代理工具
-- Tunnelblick, openvpn 客户端，连接工作服务器使用
+- **Surge**，网络代理、调试工具，家里的 Mac Studio 通过 Surge 来作为家里 Wifi 的 DHCP 服务器，接管家里的网络实现全网代理，主要给 iPad 访问外网以及 Switch 下载游戏加速用
+- **ClashX**，网络代理工具，买 Surge 前主力用的，现在留了一个备用线路
+- **OpenVPN Connect**，openvpn 客户端，连接公司内网服务器使用
+- ~~**Tunnelblick**，上一个项目在用，不过界面没有上面的好，已弃用~~
 
 ### 📝 记录工具
 
-- Logseq, 主要笔记与 GTD 工具
-- Notion, 生活记录
-- Typora, 主要 Markdown 编辑器
-- Microsoft Word, 主要文本编辑器
-- MarginNote 3, 阅读记录
-- XMind, 主要思维导图工具
+- **Logseq**，现在主力的生活记录、任务管理和笔记工具，基于双向链接打造了自己的信息管理系统，而且通过 Journal 以文本条目的形式记录没有心智负担，建议可以看一下 [Randy](https://lutaonan.com) 的 我如何使用 [Logseq 管理我的生活和笔记](https://www.bilibili.com/video/BV1X44y1K7X1)，很有启发
+- **Notion**，原本作笔记和任务管理，后来都迁移到了 Logseq，所以就只作为软件订阅管理、游戏记录的一些工具，数据库还是很强大的
+- **Office 365**，主要文档/PPT/表格处理工具，其实工作后已经主要都是 Markdown 写为主了，但是最后还是得通过 Word 来排版
+- **Typora**，主要 Markdown 编辑器，最完美的 Markdown 编辑器了，偶尔要转存一些文本的时候也会通过 Alfred 唤出来
+- **XMind**，主要思维导图工具，之前在学校的时候做笔记用的比较多，工作后反而系统性学习整理得少了，需要保持习惯
+- **MarginNote 3**，用来阅读一些论文、书籍的工具，用得不算很多
 
 ### 📁 文件管理
 
-- OneDrive, 5TB 空间
-- iCloud, 200GB 空间
-- ~~Google Drive, 1TB 空间（因学校从 Google 服务转向 Microsoft 服务，已弃用）~~
-- ~~百度网盘，存储影音及备份工具（以前存储大量视频剪辑文件用，已弃用）~~
+- **OneDrive**，5TB 空间，存储大部分个人数据，通过客户端挂载本地目录来同步，很顺滑，国内同步速度也还可以
+- **iCloud**，200GB 空间，主要用于照片备份与软件数据同步
+- **Dropbox**，2GB 空间，主要配合 Cryptomator 对敏感数据加密备份
+- ~~**Google Drive**，1TB 空间（因学校从 Google 服务转向 Microsoft 服务，已弃用）~~
+- ~~**百度网盘**，存储影音及备份工具（以前存储大量视频剪辑文件用，已弃用）~~
 
 ### 📨 信息管理
 
-- Spark, 电子邮件聚合工具
-  - Gmail, 主要邮箱
-  - iCloud, Apple 相关服务关联帐号
-  - Outlook
-  - QQ 邮箱
-  - 阿里企业邮箱, 工作用
-- NetNewsWire, RSS 订阅工具
-- TweetBot, Twitter 客户端
+- **Spark**，电子邮件聚合工具，多端同步也很快，现在所有邮箱都通过 Spark 来管理了
+- **NetNewsWire**，RSS 订阅工具，电脑端和移动端同步也很方便，也慢慢养成 RSS 为自己的主要信息输入了
+- **TweetBot**，在电脑端发和看 Twitter 的很好用的客户端，主要是可以通过时间轴来刷
 
 ### 💬 通讯社交
 
-- 微信
-- QQ, 大学时常用，现少用
-- Telegram
-- Discord
-- 钉钉, 工作沟通用
+- **微信**，生活和工作大部分都还是通过微信沟通了
+- ~~**QQ**，大学时常用，现弃用~~
+- **Telegram**，主要加了一些科技资讯、软件技巧的群，偶尔看看
+- **Discord**，主要参加一些项目获取资讯用的
+- **Gather**，有趣的线上交流/会议工具，正在推荐身边的朋友用，像宝可梦一样，能减轻疫情带来的距离感
+- **钉钉**，工作沟通以及偶尔处理我妹妹学校的一些信息用
 
 ### 📹 视频剪辑
 
-- Final Cut Pro X, 主力剪辑工具
-- Compressor, 主力压制工具
-- HandBrake, 备用开源视频压制工具
-- 大排档剪辑助手
-- 剪映专业版, 主要用来做字幕
-- Downie, 视频源下载工具
-- Tern-Subtitle File Translator, 视频机器翻译
-- IINA, 视频播放器
+- **Final Cut Pro X**，当时优惠价买了全家桶，从 PR 转到了 FCPX 作为主力剪辑工具，在 macOS 上比 PR 体验好多了
+- **Compressor**，主力压制工具，配合 FCPX 一些预设可以很便捷联动导出
+- **HandBrake**，备用开源视频压制工具，作一些简单压缩转码使用了
+- **剪映专业版**，语音识别智能匹配字幕的功能很强大，3.0 版本还支持导出 `.srt` 格式了，再通过一个 [srt2fcpxml](https://github.com/GanymedeNil/srt2fcpxml) 工具转回 FCPX 兼容的的字幕格式导入，完美的工作流，再也不用自己一点点对时间轴了
+- **大拍档剪辑助手**，用来清理 FCPX 的缓存，也有一些无版权音乐下载、素材管理的小工具
+- **Downie**，视频源下载工具，下载 YouTube 或者 B 站的一些视频，可以做一些剪辑用
+- **Tern-Subtitle File Translator**，我配合了 IBM 提供的 API，进行字幕自动中英翻译
+- ~~**IINA**，之前的主力视频播放器，订阅了 Infuse 后弃用了~~
 
 ### 📷 图片编辑
 
-- Affinity Photo
-- Pixelmator Pro
-- Luminar 4
+- **Affinity Photo**，替代 Photoshop 的修图和调色工具，我拍完照后会用来处理和套 Luts
+- **Pixelmator Pro**，黑五半价买的，据说很强大，不过还怎么用
+- **Luminar 4**，做一些简单的效果处理会比 Affinity Photo 这些便捷一些
 
 ### 🎸 影音娱乐
 
-- Apple Music, 主要音乐软件
-- Apple Podcasts, 播客
-- Netflix, 剧集/电影订阅
-- Disney+, 剧集/电影订阅
-- 爱奇艺
+- **Infuse**，视频播放及媒体管理工具，全平台可用且支持格式很多，配合 Plex 这些媒体服务器可以建立自己本地的动漫、电影和剧集库
+- **Apple Music**，主要听歌软件，配合 iOS 上的 Music Mate 慢慢建立自己的音乐库
+- **Apple Podcasts**，主要用来听一些博客
+- **Netflix**，用来追一些最新剧集，新加坡订阅
+- **Disney+**，用来看一些迪士尼动画、漫威剧集和电影，不过用得也不多了，也是新加坡订阅
+- **爱奇艺**，送的会员，偶尔用来追一些热门自制剧
 
 ### :spider_web: 网站工具
 
-- 社交网站: [Twitter](https://twitter.com/pseudo_yu)
-- 影音数据记录: [豆瓣](https://www.douban.com/people/pseudo-yu)
+- 影音书籍数据记录: [**豆瓣**](https://www.douban.com/people/pseudo-yu)，通过 GitHub Action 每天抓取豆瓣提供的 RSS，统计我的影音和书籍并更新到 GitHub 主页和个人网站介绍页里，也通过 Chrome 的一个叫“豆伴”的插件来定时备份和导出
 - 浏览器
-  - Safari
-    - AdGuard 去广告插件
-  - Brave
-    - MetaMask 钱包插件
-  - ~~Chrome（迁移至 Brave，已弃用）~~
+  - **Safari**，主力浏览器，通过 iCloud 多设备同步
+    - **AdGuard Home**，很强大
+    - **Elpass**，自动填充密码
+    - **Downie**，下载插件，一键识别媒体并下载
+    - **NetNewsWire**，自动抓取网站订阅链接
+    - **Vinegar+Baking Soda**，把 YouTube 以及其他一些视频网站的视频播放器转回 HTML5 播放器，简约，体验感很不错
+  - **Brave**
+    - **MetaMask**，钱包插件
+    - **Elpass**，自动填充密码
+    - **豆伴**，备份和查看豆瓣数据
+    - **YouTube Dual Subtitles**，支持多语言字幕
+    - **YouTubeEnhancer**，增强 YouTube 播放器功能
+  ~~**Chrome**（迁移至 Brave，已弃用）~~
 - 域名及个人网站
-  - GitHub Pages
-  - Cloudflare
-  - Vercel
+  - **GitHub Pages**，配合 GitHub Action 实现自动部署
+  - **Cloudflare**，管理域名，以及对网站进行 CDN 加速
+  - **Vercel**，配合 Heroku 的数据库部署了博客的 Cusdis 评论系统
 
 ## 总结
 
