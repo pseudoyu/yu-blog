@@ -38,11 +38,11 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/26592971/' target='_blank'>在看瑞克和莫蒂 第三季</a> - 2022-05-15
+* <a href='http://movie.douban.com/subject/27166039/' target='_blank'>在看瑞克和莫蒂 第四季</a> - 2022-05-18
+* <a href='http://movie.douban.com/subject/26592971/' target='_blank'>看过瑞克和莫蒂 第三季</a> - 2022-05-18
 * <a href='http://movie.douban.com/subject/25865470/' target='_blank'>看过瑞克和莫蒂 第二季</a> - 2022-05-15
 * <a href='http://movie.douban.com/subject/11537954/' target='_blank'>看过瑞克和莫蒂 第一季</a> - 2022-05-14
 * <a href='http://movie.douban.com/subject/35234382/' target='_blank'>在看辉夜大小姐想让我告白：天才们的恋爱头脑战 第三季</a> - 2022-05-14
-* <a href='http://movie.douban.com/subject/35258427/' target='_blank'>在看间谍过家家</a> - 2022-05-14
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
