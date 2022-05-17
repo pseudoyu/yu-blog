@@ -63,6 +63,8 @@ authors:
 
 ## 软件工具
 
+![my_softwares_in_may_2022](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/my_softwares_in_may_2022.png)
+
 ### 🛠 系统拓展
 
 - **CleanMyMac X**，电脑管家，主要用来清理缓存和软件卸载
