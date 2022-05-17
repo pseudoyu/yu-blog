@@ -229,6 +229,7 @@ authors:
 
 - **NetNewsWire**，RSS 订阅工具，电脑端和移动端同步也很方便，也慢慢养成 RSS 为自己的主要信息输入了
 - **TweetBot**，在电脑端发和看 Twitter 的很好用的客户端，主要是可以通过时间轴来刷
+- **Books**，Apple 自带图书应用，可导入 epub 或 pdf 文件阅读
 - 域名及个人网站
   - **GitHub Pages**，配合 GitHub Action 实现自动部署
   - **Cloudflare**，管理域名，以及对网站进行 CDN 加速
