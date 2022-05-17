@@ -2,7 +2,7 @@
 title: "个人工具箱（2022 年 5 月）"
 date: 2022-05-08T15:47:16+08:00
 draft: false
-tags: ["devices","softwares","macOS"]
+tags: ["devices","tools","macOS","iOS","workflow", "pkm"]
 categories: ["Tools"]
 authors:
 - "Arthur"
