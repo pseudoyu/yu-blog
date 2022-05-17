@@ -216,12 +216,17 @@ authors:
 - **Pixelmator Pro**，黑五半价买的，据说很强大，不过还怎么用
 - **Luminar 4**，做一些简单的效果处理会比 Affinity Photo 这些便捷一些
 
-### 📨 信息管理
+### 📮 邮件管理
 
 - **Spark**，电子邮件聚合工具，多端同步也很快，现在所有邮箱都通过 Spark 来管理了
+- **Alimail**，工作用邮箱
+- **Outlook**，主要用来管理 Office365 开发者帐号
+- **Mail**，Apple 自带邮件客户端
+
+### 📨 信息管理
+
 - **NetNewsWire**，RSS 订阅工具，电脑端和移动端同步也很方便，也慢慢养成 RSS 为自己的主要信息输入了
 - **TweetBot**，在电脑端发和看 Twitter 的很好用的客户端，主要是可以通过时间轴来刷
-- **Outlook**，主要用来管理 Office365 开发者帐号
 - 域名及个人网站
   - **GitHub Pages**，配合 GitHub Action 实现自动部署
   - **Cloudflare**，管理域名，以及对网站进行 CDN 加速
