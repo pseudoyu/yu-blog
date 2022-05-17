@@ -225,7 +225,7 @@ authors:
     - **豆伴**，备份和查看豆瓣数据
     - **YouTube Dual Subtitles**，支持多语言字幕
     - **YouTubeEnhancer**，增强 YouTube 播放器功能
-  ~~**Chrome**（迁移至 Brave，已弃用）~~
+  - ~~**Chrome**（迁移至 Brave，已弃用）~~
 - 域名及个人网站
   - **GitHub Pages**，配合 GitHub Action 实现自动部署
   - **Cloudflare**，管理域名，以及对网站进行 CDN 加速
