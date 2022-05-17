@@ -172,7 +172,7 @@ authors:
     - **go-plus**，Go 语言环境支持
     - **fabric-go**，用来调试 fabric 1.4 版本的链码，可以自动通过镜像部署，很方便，这也是我 Atom 编辑器的唯一用途了
     - **wakatime**，用来记录编码项目、语言和所用时间
-  - **JetBrains PyCharm Professional Edition**，Python 编辑器，主要用来通过 Python SDK 调试链用
+  - **JetBrains PyCharm Professional Edition**，Python 编辑器
     - **Material Theme UI + Atom Material Icons**，很美观的主题
     - **GitHub Copilot**，代码 AI 补全，很智能
     - **GitToolBox**，提示一些 Git 状态信息
