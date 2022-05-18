@@ -37,7 +37,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/27166039/' target='_blank'>在看瑞克和莫蒂 第四季</a> - 2022-05-18
+* <a href='http://movie.douban.com/subject/27166039/' target='_blank'>看过瑞克和莫蒂 第四季</a> - 2022-05-18
 * <a href='http://movie.douban.com/subject/26592971/' target='_blank'>看过瑞克和莫蒂 第三季</a> - 2022-05-18
 * <a href='http://movie.douban.com/subject/25865470/' target='_blank'>看过瑞克和莫蒂 第二季</a> - 2022-05-15
 * <a href='http://movie.douban.com/subject/11537954/' target='_blank'>看过瑞克和莫蒂 第一季</a> - 2022-05-14
@@ -48,11 +48,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Markdown   12 hrs 37 mins ███████████████▎░░░░░  72.6%
-Other      1 hr 43 mins   ██░░░░░░░░░░░░░░░░░░░   9.9%
-Go         1 hr 1 min     █▏░░░░░░░░░░░░░░░░░░░   5.9%
-PlantUM... 31 mins        ▌░░░░░░░░░░░░░░░░░░░░   3.0%
-sh         30 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.9%
+Markdown   20 hrs 14 mins █████████████████▊░░░  84.7%
+Other      1 hr 13 mins   █░░░░░░░░░░░░░░░░░░░░   5.2%
+Go         36 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
+PlantUM... 31 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.2%
+sh         24 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
 ```
 
 <!-- code_time ends -->
