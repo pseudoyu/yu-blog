@@ -218,7 +218,7 @@ authors:
 ### 📷 图片处理
 
 - **Affinity Photo**，替代 Photoshop 的修图和调色工具，我拍完照后会用来处理和套 Luts
-- **Pixelmator Pro**，黑五半价买的，据说很强大，不过还怎么用
+- **Pixelmator Pro**，黑五半价买的，据说很强大，不过还没怎么用
 - **Luminar 4**，做一些简单的效果处理会比 Affinity Photo 这些便捷一些
 
 ### 📮 邮件管理
@@ -357,7 +357,7 @@ authors:
   - **钉钉**，iOS 端
   - **Telegram**，iOS 端
   - **Discord**，iOS 端
-  - **Clubhouse**，语音聊天室工具，热读过去了现在用得也比较少了
+  - **Clubhouse**，语音聊天室工具，热度过去了现在用得也比较少了
   - ~~**QQ**，iOS 客户端，已弃用~~
 - 🎸 影音娱乐
   - **Infuse**，iOS 端，可以局域网连接 Mac Studio 的 Plex 媒体库服务器
