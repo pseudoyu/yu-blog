@@ -38,11 +38,11 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35874097/' target='_blank'>想看网络炼狱：揭发N号房</a> - 2022-05-20
-* <a href='http://movie.douban.com/subject/35713161/' target='_blank'>想看守护解放西3</a> - 2022-05-19
-* <a href='http://movie.douban.com/subject/35231039/' target='_blank'>在看守护解放西2</a> - 2022-05-19
-* <a href='http://movie.douban.com/subject/34800399/' target='_blank'>看过守护解放西</a> - 2022-05-19
-* <a href='http://movie.douban.com/subject/27166039/' target='_blank'>看过瑞克和莫蒂 第四季</a> - 2022-05-18
+* <a href='http://movie.douban.com/subject/35207856/' target='_blank'>在看人世间</a> - 2022-05-20
+* <a href='http://movie.douban.com/subject/35874097/' target='_blank'>看过网络炼狱：揭发N号房</a> - 2022-05-20
+* <a href='http://movie.douban.com/subject/35436582/' target='_blank'>看过爱，死亡和机器人 第三季</a> - 2022-05-20
+* <a href='http://movie.douban.com/subject/35351365/' target='_blank'>在看夏日重现</a> - 2022-05-20
+* <a href='http://movie.douban.com/subject/34418203/' target='_blank'>看过爱，死亡和机器人 第二季</a> - 2022-05-20
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
