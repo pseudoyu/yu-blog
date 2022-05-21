@@ -28,7 +28,7 @@ authors:
 
 #### 创建 Postgres 数据库
 
-首先注册一个 Heroku 账号，登录成功后，点击右上角按钮创建一个新的应用.
+首先注册一个 Heroku 账号，登录成功后，点击右上角按钮创建一个新的应用。
 
 ![cretae_app_in_heroku_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cretae_app_in_heroku_1.png)
 
@@ -76,7 +76,7 @@ umami 需要通过官方提供的 [umami/sql/schema.postgresql.sql](https://gith
 
 创建好数据库实例之后，可以通过 Vercel 一键部署 umami 服务了。
 
-访问 [umami 官方文档](https://umami.is)的 [Running on Vercel](https://umami.is/docs/running-on-vercel) 模块，有操作说明与一键部署脚本。
+访问 [umami 官方文档](https://umami.is) 的 [Running on Vercel](https://umami.is/docs/running-on-vercel) 模块，有操作说明与一键部署脚本。
 
 ![running_on_vercel](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/running_on_vercel.png)
 
