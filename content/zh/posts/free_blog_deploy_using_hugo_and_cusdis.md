@@ -2,7 +2,7 @@
 title: "免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）"
 date: 2022-03-24T01:19:28+08:00
 draft: false
-tags: ["hugo", "github", "github action", "cusdis", "vercel", "cloudflare"]
+tags: ["hugo", "github", "github action", "cusdis", "vercel", "cloudflare", "blog"]
 categories: ["Tools"]
 authors:
 - "Arthur"
