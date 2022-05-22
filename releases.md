@@ -9,7 +9,7 @@ All <!-- release_count starts -->20<!-- release_count ends --> of my released pr
 <br>Yu's Blog CI
 * **[yu-tools](https://github.com/pseudoyu/yu-tools)**: [个人工具箱](https://github.com/pseudoyu/yu-tools/releases/tag/v0.1)
 <br>Yu's Personal Tools (Devices, macOS Software, iOS Apps...)
-* **[top-blockchain-projects](https://github.com/pseudoyu/top-blockchain-projects)**: [GitHub 区块链项目 star 排行榜](https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0)
+* **[top-blockchain-projects](https://github.com/pseudoyu/top-blockchain-projects)**: [优质区块链项目排行榜](https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0)
 <br>Top github blockchain projects by number of stars
 * **[pseudoyu](https://github.com/pseudoyu/pseudoyu)**: [首页信息流展示](https://github.com/pseudoyu/pseudoyu/releases/tag/v1.1.0)
 <br>Yu's GitHub Profile CI
