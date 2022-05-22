@@ -1,8 +1,8 @@
 ---
-title: "通过 mover.io 服务无缝迁移云端网盘文件至 oneDrive"
+title: "通过 mover.io 服务无缝迁移云端网盘文件至 OneDrive"
 date: 2022-05-22T13:06:12+08:00
 draft: false
-tags: ["data", "mover.io", "oneDrive", "google drive"]
+tags: ["data", "mover.io", "onedrive", "google drive"]
 categories: ["Tools"]
 authors:
 - "Arthur"
@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-最近学校发了邮件说要把邮箱服务从 Google 转移到 Microsoft，而且原先的 Google Drive 无限流量也将取消，转移为 5T 的 oneDrive。我原先一直用着 Google Drive 的文件服务，在我的多个设备之间同步和备份文件，到现在也差不多占了 300 多 GB 的空间。因为 Google Drive 在内地需要代理，下载速度很慢，因此，我采用了官方推荐的 [mover.io](https://mover.io) 服务来进行云端迁移，无需下载到本地转存，记录一下迁移过程。
+最近学校发了邮件说要把邮箱服务从 Google 转移到 Microsoft，而且原先的 Google Drive 无限流量也将取消，转移为 5T 的 OneDrive。我原先一直用着 Google Drive 的文件服务，在我的多个设备之间同步和备份文件，到现在也差不多占了 300 多 GB 的空间。因为 Google Drive 在内地需要代理，下载速度很慢，因此，我采用了官方推荐的 [mover.io](https://mover.io) 服务来进行云端迁移，无需下载到本地转存，记录一下迁移过程。
 
 ## mover.io 服务
 
@@ -50,7 +50,7 @@ mover.io 服务是微软提供的一个网盘迁移服务，支持将很多云�
 
 #### 选择迁移目标
 
-点击 Authorize New Connector 按钮，选择 OneDrive for Business (Single User)，选择该数据源并授权。目前目标数据源只支持微软家族的 oneDrive 和 SharePoint 等。
+点击 Authorize New Connector 按钮，选择 OneDrive for Business (Single User)，选择该数据源并授权。目前目标数据源只支持微软家族的 OneDrive 和 SharePoint 等。
 
 ![mover_choose_dest](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mover_choose_dest.png)
 
