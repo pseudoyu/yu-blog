@@ -3,7 +3,11 @@
 All <!-- release_count starts -->20<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
-* **[yu-tools](https://github.com/pseudoyu/yu-tools)**: [Yu's Personal Tools](https://github.com/pseudoyu/yu-tools/releases/tag/v0.1)
+* **[blockchain-guide](https://github.com/pseudoyu/blockchain-guide)**: [区块链入门指南](https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0)
+<br>区块链入门指南
+* **[yu-blog](https://github.com/pseudoyu/yu-blog)**: [个人网站发布系统](https://github.com/pseudoyu/yu-blog/releases/tag/v1.1.0)
+<br>Yu's Blog CI
+* **[yu-tools](https://github.com/pseudoyu/yu-tools)**: [个人工具箱](https://github.com/pseudoyu/yu-tools/releases/tag/v0.1)
 <br>Yu's Personal Tools (Devices, macOS Software, iOS Apps...)
 * **[top-blockchain-projects](https://github.com/pseudoyu/top-blockchain-projects)**: [GitHub 区块链项目 star 排行榜](https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0)
 <br>Top github blockchain projects by number of stars
@@ -31,16 +35,12 @@ All <!-- release_count starts -->20<!-- release_count ends --> of my released pr
 <br>Java Programming Masterclass for Software Developer on Udemy Platform
 * **[uright](https://github.com/pseudoyu/uright)**: [区块链音乐版权管理项目内测版本](https://github.com/pseudoyu/uright/releases/tag/v0.0.1)
 <br>通过 Truffle 部署于 Ethereum 的音乐版权管理 DApp
-* **[blockchain-guide](https://github.com/pseudoyu/blockchain-guide)**: [区块链核心知识库](https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.0.1)
-<br>一个正在更新中的区块链核心知识库
 * **[liantoubao](https://github.com/pseudoyu/liantoubao)**: [数字货币实时监控系统](https://github.com/pseudoyu/liantoubao/releases/tag/v1.0.0)
 <br>初沐 - 数字货币实时监控系统
 * **[blockchain-forum](https://github.com/pseudoyu/blockchain-forum)**: [区块链学习论坛](https://github.com/pseudoyu/blockchain-forum/releases/tag/v0.0.1)
 <br>一个基于 gin 框架和 vue 框架搭建的前后端分离区块链论坛
 * **[dotfiles](https://github.com/pseudoyu/dotfiles)**: [个人开发环境配置](https://github.com/pseudoyu/dotfiles/releases/tag/v1.0.0)
 <br>My macOS and Ubuntu Configuration Files
-* **[yu-blog](https://github.com/pseudoyu/yu-blog)**: [个人网站发布系统](https://github.com/pseudoyu/yu-blog/releases/tag/v1.0.0)
-<br>Yu's Blog CI
 * **[RedBlackTree-java](https://github.com/pseudoyu/RedBlackTree-java)**: [红黑树数据结构 Java 实现及测试](https://github.com/pseudoyu/RedBlackTree-java/releases/tag/v1.0.0)
 <br>Red Black Tree Implementation in Java
 <!-- recent_releases ends -->
