@@ -49,11 +49,11 @@ weight: 100
 <!-- code_time starts -->
 
 ```text
-Markdown   10 hrs 42 mins ██████████████░░░░░░░  67.1%
-Solidity   2 hrs 1 min    ██▋░░░░░░░░░░░░░░░░░░  12.7%
-Other      1 hr 2 mins    █▎░░░░░░░░░░░░░░░░░░░   6.5%
-HTML       52 mins        █▏░░░░░░░░░░░░░░░░░░░   5.4%
-sh         35 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
+Markdown   12 hrs 21 mins ███████████████░░░░░░  71.8%
+Solidity   2 hrs 1 min    ██▍░░░░░░░░░░░░░░░░░░  11.8%
+HTML       1 hr 5 mins    █▎░░░░░░░░░░░░░░░░░░░   6.3%
+Other      59 mins        █▏░░░░░░░░░░░░░░░░░░░   5.7%
+SQL        17 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
 ```
 
 <!-- code_time ends -->
