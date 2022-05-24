@@ -65,7 +65,7 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 ![cusdis_deploy_done](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_deploy_done.jpeg)
 
-#### 配置 Cusdis 脚本至个人博客
+### 配置 Cusdis 脚本至个人博客
 
 部署完成后，点击 cusdis 服务生成的链接，点击访问服务 Dashboard。
 
