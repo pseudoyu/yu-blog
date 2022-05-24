@@ -2,7 +2,7 @@
 title: "从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）"
 date: 2022-05-21T16:56:47+08:00
 draft: false
-tags: ["hugo", "umami", "heroku", "vercel", "blog"]
+tags: ["hugo", "umami", "heroku", "vercel", "serverless", "self-host", "blog"]
 categories: ["Tools"]
 authors:
 - "Arthur"
