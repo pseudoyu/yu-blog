@@ -37,7 +37,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35207856/' target='_blank'>在看人世间</a> - 2022-05-20
+* <a href='http://movie.douban.com/subject/35207856/' target='_blank'>看过人世间</a> - 2022-05-23
 * <a href='http://movie.douban.com/subject/35874097/' target='_blank'>看过网络炼狱：揭发N号房</a> - 2022-05-20
 * <a href='http://movie.douban.com/subject/35436582/' target='_blank'>看过爱，死亡和机器人 第三季</a> - 2022-05-20
 * <a href='http://movie.douban.com/subject/35351365/' target='_blank'>在看夏日重现</a> - 2022-05-20
@@ -48,11 +48,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Markdown   15 hrs 38 mins ███████████████▍░░░░░  73.7%
-Solidity   2 hrs 1 min    ██░░░░░░░░░░░░░░░░░░░   9.6%
-HTML       1 hr 34 mins   █▌░░░░░░░░░░░░░░░░░░░   7.5%
-Other      47 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
-YAML       19 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.6%
+Markdown   17 hrs 1 min   █████████████▍░░░░░░░  64.0%
+Solidity   2 hrs 18 mins  █▊░░░░░░░░░░░░░░░░░░░   8.7%
+HTML       1 hr 50 mins   █▍░░░░░░░░░░░░░░░░░░░   7.0%
+Go         1 hr 23 mins   █░░░░░░░░░░░░░░░░░░░░   5.3%
+Other      1 hr           ▊░░░░░░░░░░░░░░░░░░░░   3.8%
 ```
 
 <!-- code_time ends -->
