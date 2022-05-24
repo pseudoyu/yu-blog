@@ -28,7 +28,7 @@ authors:
 
 因为在上一篇 《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》 中我使用的是 [Vercel](http://vercel.com/) 和 [Heroku](https://www.heroku.com/) 进行搭建的，作为一个爱折腾的人，这个评论系统我们就用 [Railway](https://railway.app/) 来搭建部署。
 
-Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下把之前的 [umami 网站数据统计系统](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)) 连同 Postgre SQL 数据库实例部署在 Railway 平台大约一个月 0.7 美元，对于个人使用来说完全足够。
+Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下，把之前的 [umami 网站数据统计系统](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) 连同 Postgre SQL 数据库实例部署在 Railway 平台，大约一个月 0.7 美元，对于个人使用来说完全足够。
 
 ![railway_price](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_price.png)
 
@@ -42,7 +42,7 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 ![railway_dashboard](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_dashboard.png)
 
-然后输入 Cusdis 进行搜索，点击出现的项目即可开始部署。前几步也可以通过点击 Cusdis [GitHub 仓库](https://github.com/djyde/cusdis) 中的 “Deploy on Raulway” 按钮进行一键部署。
+然后输入 Cusdis 进行搜索，点击出现的项目即可开始部署。前几步也可以通过点击 [Cusdis 项目仓库](https://github.com/djyde/cusdis) 中的 `Deploy on Railway` 按钮进行一键部署。
 
 ![new_cusids_starter](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/new_cusids_starter.png)
 
@@ -133,7 +133,7 @@ Railway 部署自动生成的域名比较长，且有一些字符，不方便记
 
 ## 总结
 
-以上就是我们为网站添加 cusdis 评论系统的全流程，配置完成后无需后续维护，可以便捷地通过看板来进行网站管理与评论审核，且数据存储在 Postgre SQL 数据库实例中，方便导出备份与迁移。这是我的博客搭建部署系列教程之一，请持续关注，希望能对大家有所参考。
+以上就是我们为网站添加 Cusdis 评论系统的全流程，配置完成后无需后续维护，可以便捷地通过看板来进行网站管理与评论审核，且数据存储在 Postgre SQL 数据库实例中，方便导出备份与迁移。这是我的博客搭建部署系列教程之一，请持续关注，希望能对大家有所参考。
 
 ## 参考资料
 
