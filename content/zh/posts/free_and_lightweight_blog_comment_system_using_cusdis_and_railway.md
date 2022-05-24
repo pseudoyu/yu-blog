@@ -139,3 +139,4 @@ Railway 部署自动生成的域名比较长，且有一些字符，不方便记
 
 > 1. [Cusdis 项目官网](https://cusdis.com)
 > 2. [Railway 官方网站](https://railway.app)
+> 3. [搭建 umami 收集个人网站统计数据](https://reorx.com/blog/deploy-umami-for-personal-website/)
