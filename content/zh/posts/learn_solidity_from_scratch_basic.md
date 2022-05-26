@@ -1,5 +1,5 @@
 ---
-title: "以太坊智能合约开发（Solidity） - 基础"
+title: "Ethereum 智能合约开发（Solidity） - 基础"
 date: 2022-05-25T01:07:33+08:00
 draft: false
 tags: ["blockchain", "ethereum", "solidity", "evm", "web3"]
