@@ -1,5 +1,5 @@
 ---
-title: "Ethereum MPT(Merkle Patricia Tries) 详解"
+title: "Ethereum MPT（Merkle Patricia Tries）详解"
 date: 2021-08-16T12:12:17+08:00
 draft: false 
 tags: ["blockchain", "ethereum"]
