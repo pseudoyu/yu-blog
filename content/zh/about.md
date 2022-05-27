@@ -3,7 +3,6 @@ title: "关于"
 date: 2021-03-04T16:03:46+08:00
 menu: "main"
 weight: 100
-rss_ignore: true
 ---
 
 ## ✋ Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
