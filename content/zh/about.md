@@ -8,7 +8,7 @@ rss_ignore: true
 
 ## ✋ Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
 
-区块链开发工程师，香港大学计算机系硕士（ECIC, Electronic Commerce and Internet Computing）。喜欢探索新技术，空闲时也折腾 Logseq、Notion 等效率工具。[在 GitHub 关注我](https://github.com/pseudoyu)
+区块链开发工程师，香港大学计算机系硕士（ECIC, Electronic Commerce and Internet Computing）。喜欢探索新技术，空闲时也折腾 Logseq 等效率工具。[在 GitHub 关注我](https://github.com/pseudoyu)。[在我的 Telegram 频道了解更多](https://t.me/pseudoyulife)。
 
 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。
 
