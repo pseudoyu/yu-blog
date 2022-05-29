@@ -32,9 +32,9 @@ Ghost 是一个非常老派的博客工具，自 2013 年原型发布以来已�
 
 Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、服务器安装等，而因为 Ghost 生成环境依赖 Ubuntu，Node，MySQL 等环境，如果需要自己单独搭建会比较麻烦，且维护成本也较高。经过一番调研，根据官方文档的安装说明，Digital Ocean 是 Ghost 的官方云托管合作伙伴，提供了一键部署安装的方式，简单便捷。
 
-### 安装部署说明
+## 安装部署说明
 
-#### 域名购买
+### 域名购买
 
 作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 [Cloudflare](https://www.cloudflare.com)、[NameSilo](https://www.namesilo.com)、[GoDaddy](https://www.godaddy.com) 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。
 
@@ -58,7 +58,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 ![cloudflare_domain](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_domain.jpeg)
 
-#### Digital Ocean ssh 配置
+### Digital Ocean ssh 配置
 
 因为我们后续需要访问 Digital Ocean 的主机，我们需要先注册一个帐号，并配置我们的 ssh key，以便免密登录。
 
@@ -68,7 +68,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 ![digital_ocean_ssh_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/digital_ocean_ssh_config.png)
 
-#### 一键创建 Ghost Droplet
+### 一键创建 Ghost Droplet
 
 如上文所述，Ghost 提供了在 Digital Ocean 上一键创建 Droplet 的支持，我们可以访问[安装说明文档](https://ghost.org/docs/install/)，点击 Digital Ocean 图标进行跳转。
 
@@ -94,7 +94,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 ![digital_ocean_ghost_done_hide](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/digital_ocean_ghost_done_hide.jpeg)
 
-#### 配置域名解析
+### 配置域名解析
 
 因为 Ghost 需要进行 https 配置，且出于方便用户进行访问等考虑，我们需要对新创建的服务器进行 DNS 解析。
 
@@ -102,13 +102,13 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 ![cloudflare_dns_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_dns_config.jpeg)
 
-#### 域名 SSL/TLS 配置（可选）
+### 域名 SSL/TLS 配置（可选）
 
 如果使用 Cloudflare 进行托管，可以选择配置 SSL?TLS 加密模式为完全，可以更加保障安全性。
 
 ![cloudflare_ssl_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_ssl_config.png)
 
-#### 一键安装 Ghost 服务
+### 一键安装 Ghost 服务
 
 完成域名解析后，我们可通过 Digital Ocean 控制台或其他终端工具连接到主机，进行一键安装。
 
@@ -127,7 +127,7 @@ Enter 后脚本会自动开始安装服务及各项依赖。
 
 ![ghost_install_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ghost_install_config.jpeg)
 
-#### 访问网站
+### 访问网站
 
 等待脚本执行完成后，我们就可以访问 Ghost 网站了。
 
