@@ -38,8 +38,8 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/27194292/' target='_blank'>看过怪奇物语 第四季</a> - 2022-05-29
 * <a href='http://movie.douban.com/subject/35231039/' target='_blank'>看过守护解放西2</a> - 2022-05-29
-* <a href='http://movie.douban.com/subject/27194292/' target='_blank'>在看怪奇物语 第四季</a> - 2022-05-28
 * <a href='http://movie.douban.com/subject/35235301/' target='_blank'>在看暗夜行者</a> - 2022-05-26
 * <a href='http://movie.douban.com/subject/35450588/' target='_blank'>看过金钱通解</a> - 2022-05-25
 * <a href='http://movie.douban.com/subject/35207856/' target='_blank'>看过人世间</a> - 2022-05-23
