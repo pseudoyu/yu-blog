@@ -78,7 +78,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 ![digital_ocean_market_ghost](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/digital_ocean_market_ghost.png)
 
-根据官方说明，选择 5 美元/月 套餐配置已经足够，后续有更高需求也可以一键扩容（注：如先选择了高配置，无法进行降级）。
+根据官方说明，选择 5 美元/月套餐配置已经足够，后续有更高需求也可以一键扩容（注：如先选择了高配置，无法进行降级）。
 
 ![digital_ocean_ghost_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/digital_ocean_ghost_config.png)
 
@@ -104,7 +104,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 ### 域名 SSL/TLS 配置（可选）
 
-如果使用 Cloudflare 进行托管，可以选择配置 SSL?TLS 加密模式为完全，可以更加保障安全性。
+如果使用 Cloudflare 进行托管，可以选择配置 SSL/TLS 加密模式为完全，可以更加保障安全性。
 
 ![cloudflare_ssl_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_ssl_config.png)
 
@@ -131,8 +131,8 @@ Enter 后脚本会自动开始安装服务及各项依赖。
 
 等待脚本执行完成后，我们就可以访问 Ghost 网站了。
 
-- https://{your domain}/ghost，后台管理界面
-- https://{your domain}，网站地址
+- https://`{your domain}`/ghost，后台管理界面
+- https://`{your domain}`，网站地址
 
 第一次登录会需要注册一个管理员帐号，注册完成后登录即可。
 
