@@ -17,7 +17,7 @@ authors:
 我的方案主要分为以下几个核心部分：
 
 1. 个人博客源仓库，对博客配置及所有文章 `.md` 源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。
-2. GitHub Pages 博客发布仓库，以 `username.github.io` 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过域名 CNAME 解析显示自定义域名。
+2. GitHub Pages 博客发布仓库，以 `username.github.io` 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。
 3. Hugo 主题仓库，fork 喜欢的主题，并对自己的个人定制化改造配置进行版本管理，通过 `git submodule` 的方式链接到个人博客源仓库。
 4. 其他组件源仓库，如 [umami 网站数据统计](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)及 [Cusdis 网站评论系统](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)等。
 
