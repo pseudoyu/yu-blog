@@ -78,10 +78,9 @@ contract SimpleStorage {
         nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 }
+```
 
 这是一个简单的存储合约，通过一个 People 结构体对象来存储人名和他喜欢数字，通过一个数组来存储多个人的信息，并提供了添加、查找方法。
-
-```
 
 ### 读取合约源文件
 
