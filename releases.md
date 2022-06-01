@@ -1,6 +1,6 @@
 # Released projects
 
-All <!-- release_count starts -->20<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
+All <!-- release_count starts -->19<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
 * **[blockchain-guide](https://github.com/pseudoyu/blockchain-guide)**: [区块链入门指南](https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0)
@@ -39,8 +39,6 @@ All <!-- release_count starts -->20<!-- release_count ends --> of my released pr
 <br>初沐 - 数字货币实时监控系统
 * **[blockchain-forum](https://github.com/pseudoyu/blockchain-forum)**: [区块链学习论坛](https://github.com/pseudoyu/blockchain-forum/releases/tag/v0.0.1)
 <br>一个基于 gin 框架和 vue 框架搭建的前后端分离区块链论坛
-* **[dotfiles](https://github.com/pseudoyu/dotfiles)**: [个人开发环境配置](https://github.com/pseudoyu/dotfiles/releases/tag/v1.0.0)
-<br>我的 macOS 与 Linux 配置
 * **[RedBlackTree-java](https://github.com/pseudoyu/RedBlackTree-java)**: [红黑树数据结构 Java 实现及测试](https://github.com/pseudoyu/RedBlackTree-java/releases/tag/v1.0.0)
 <br>Red Black Tree Implementation in Java
 <!-- recent_releases ends -->
