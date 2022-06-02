@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-我是一个静态博客与 Serverless 支持者，自己的[个人博客](https://www.pseudoyu.com/en/)与一些[知识库项目](https://www.pseudoyu.com/blockchain-guide)也都是通过 [hugo](https://gohugo.io) 生成并托管在 [GitHub Pages](https://pages.github.com) 上的。这种方式很方便进行版本管理与部署维护，但对于非技术的人来说，通过命令行 git 操作的方式也有些过于 geek，牵扯到多人协作等场景也不太方便。
+我是一个静态博客与 Serverless 支持者，自己的[个人博客](https://www.pseudoyu.com)与一些[知识库项目](https://www.pseudoyu.com/blockchain-guide)也都是通过 [hugo](https://gohugo.io) 生成并托管在 [GitHub Pages](https://pages.github.com) 上的。这种方式很方便进行版本管理与部署维护，但对于非技术的人来说，通过命令行 git 操作的方式也有些过于 geek，牵扯到多人协作等场景也不太方便。
 
 上周有个前同事（非技术）让我帮忙搭建一个门户网站，主要展示一下公司信息、发布一些资讯、专题、工具等，出于易用性等考虑，也刚好看到 [Ghost](https://ghost.org) 官方发布了 5.0 版本，支持了很多强大的功能，如邮件订阅、数据分析等，且可以自部署，所以考虑了这个方案，下文记录一下安装与部署流程。
 

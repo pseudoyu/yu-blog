@@ -26,7 +26,7 @@ authors:
 
 虽然这是一个开发早期的项目，但是已经提供了电子邮件通知以及通过 Webhook 联动 Telegram 等方式进行评论提醒，对使用者来说很方便进行管理。Cusdis 提供了免费托管服务与自行部署两种方式，如果不想折腾可以直接用作者提供的服务。自行部署则需要服务器与一个 Postgre SQL 实例，我们主要示范一下自行部署方式。
 
-因为在上一篇 《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》 中我使用的是 [Vercel](http://vercel.com/) 和 [Heroku](https://www.heroku.com/) 进行搭建的，作为一个爱折腾的人，这个评论系统我们就用 [Railway](https://railway.app/) 来搭建部署。
+因为在上一篇 《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》 中我使用的是 [Vercel](http://vercel.com/) 和 [Heroku](https://www.heroku.com/) 进行搭建的，作为一个爱折腾的人，这个评论系统我们就用 [Railway](https://railway.app/) 来搭建部署。
 
 Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下，把之前的 [umami 网站数据统计系统](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) 连同 Postgre SQL 数据库实例部署在 Railway 平台，大约一个月 0.7 美元，对于个人使用来说完全足够。
 
