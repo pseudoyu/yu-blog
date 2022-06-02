@@ -6,7 +6,7 @@ weight: 90
 rss_ignore: true
 ---
 
-## 👨🏻‍💻友链
+## 👨🏻‍💻 友链
 
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
