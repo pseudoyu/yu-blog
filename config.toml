@@ -120,12 +120,12 @@ defaultContentLanguageInSubdir = true
   weight = 2
 
   [[languages.en.menu.main]]
-    name = "Ideas"
+    name = "Idea"
     weight = 10
     identifier = "ideas"
     url = "category/ideas/"
   [[languages.en.menu.main]]
-    name = "Tools"
+    name = "Tool"
     weight = 20
     identifier = "tools"
     url = "category/tools/"
@@ -135,12 +135,12 @@ defaultContentLanguageInSubdir = true
     identifier = "develop"
     url = "category/develop/"
   [[languages.en.menu.main]]
-    name = "Notes"
+    name = "Note"
     weight = 40
     identifier = "notes"
     url = "category/notes/"
   [[languages.en.menu.main]]
-    name = "Projects"
+    name = "Project"
     weight = 50
     identifier = "projects"
     url = "category/projects/"
