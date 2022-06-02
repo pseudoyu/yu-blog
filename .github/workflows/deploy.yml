@@ -53,11 +53,11 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
-                hugo-version: '0.91.2'
+                hugo-version: latest
                 extended: true
-
+            
             - name: Build Web
-              run: hugo
+              run: hugo --minify
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
