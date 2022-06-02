@@ -38,6 +38,10 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 我的域名是在 [NameSilo](https://www.namesilo.com) 购买的，并通过 [Cloudflare](https://www.cloudflare.com) 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。
 
+**[2022-05-29 更新]**
+
+我后来为了方便管理，把 NameSilo 域名迁移到了 Cloudflare，大家可以直接在 Cloudflare 上购买，教程包含在《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》中。
+
 ### 访客分析
 
 作为一个持续更新运营的博客平台，我们一定很好奇我们哪篇文章阅读量最高、哪个关键词检索最频繁等，帮助我们专注在更有价值的内容创作与分享上，类似的工具也很多，我选择了 [splitbee](https://splitbee.io) 与 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重，此外，[Cloudflare](https://www.cloudflare.com) 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性没有前两者强。
@@ -48,12 +52,19 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 ![cloudflare_statistics](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_statistics.png)
 
+**[2022-05-21 更新]**
+
+除了上述直接服务的平台外，我还部署了一个可代替 [Google Analytics](https://analytics.google.com) 的开源服务 [umami](https://umami.is)，实现了访客数据的实时监控，教程为：《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》。
 
 ### 评论系统
 
 一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 [Disqus](https://disqus.com)，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 [Randy](https://lutaonan.com) 的 [Cusdis](https://cusdis.com)，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 [Heroku](https://www.heroku.com) 的免费 [PostgreSQL](https://www.postgresql.org) 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。
 
 ![cusdis_overview](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_overview.png)
+
+**[2022-05-24 更新]**
+
+Cusdis 部署在 Railway 平台教程已更新：《[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)》。
 
 ### 图片管理
 
@@ -65,9 +76,25 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 因此，我建立了一个博客源文件仓库，通过 GitHub Action 实现了一套自动化发布流程，仅需将 Hugo 博客源文件上传至 GitHub 仓库，会自动触发 CI 生成静态站点文件并推送到 GitHub Pages 仓库。
 
+**[2022-05-29 更新]**
+
+Hugo 搭建与 GitHub Action 配置教程已更新：《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》
+
 ## 总结
 
-以上就是我的个人博客解决方案，前期搭建有些繁琐，但一番折腾后，完美实现了我的需求，关于整个过程的详细步骤，我将会分多篇文章进行讲解，请持续关注，希望能够对大家有所帮助。
+以上就是我的个人博客解决方案，前期搭建有些繁琐，但一番折腾后，完美实现了我的需求，关于整个过程的详细步骤，~~我将会分多篇文章进行讲解，请持续关注~~，希望能够对大家有所帮助。
+
+**[2022-06-02 更新]** 
+
+系列教程核心部分已完成：
+
+- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+
+除此之外，如果不想使用 Hugo 这类静态博客，还可以通过 Ghost 来比较方便地搭建一下：
+
+- [Ghost 5.0 来了，使用 Digital Ocean 一键部署吧](https://www.pseudoyu.com/zh/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/)
 
 ## 参考资料
 
