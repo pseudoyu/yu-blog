@@ -16,3 +16,10 @@ rss_ignore: true
 
 </div>
 </div>
+
+## 👨🏻 关于我
+
+- **Blog Name:** Pseudoyu
+- **Url:** https://www.pseudoyu.com
+- **Logo:** https://www.pseudoyu.com/images/author.webp
+- **Description:** Blockchain developer. Love to learn and build things.

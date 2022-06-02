@@ -6,7 +6,7 @@ weight: 90
 rss_ignore: true
 ---
 
-## 👨🏻‍💻 友链
+## 👨🏻‍💻友链
 
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
@@ -16,3 +16,10 @@ rss_ignore: true
 
 </div>
 </div>
+
+## 👨🏻 关于
+
+- **博客名:** Pseudoyu
+- **地址:** https://www.pseudoyu.com
+- **头像:** https://www.pseudoyu.com/images/author.webp
+- **描述:** 区块链开发工程师，喜欢探索新技术
