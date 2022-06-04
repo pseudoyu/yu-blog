@@ -276,7 +276,7 @@ shift + alt - a : yabai -m window --resize top:0:20
 
 其中 `hjkl` 是 vim 编辑器常用的操作，大家也可以修改为上下左右或其他自己喜欢的键位。
 
-完成以上配置后，我们就实现了 yabai 智能窗口管理，以及通过简单的快捷键进行窗口操作，接下来我们对 macOS 系统进行一些配置，来优化一下我们的窗口管理系统吧。
+完成以上配置后，我们就实现了 yabai 智能窗口管理以及通过简单的快捷键进行窗口操作，接下来我们对 macOS 系统进行一些配置，来优化一下我们的窗口管理系统吧。
 
 ### macOS 桌面管理
 
@@ -284,9 +284,9 @@ macOS 提供了多桌面管理的强大功能，可以理解为每个桌面区�
 
 ![macos_desktop_management](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/macos_desktop_management.png)
 
-我们可以通过桌面来区分自己的工作区，如桌面 1、2 作为自己开发 IDE、终端、浏览器文档查询，桌面 3 用于处理微信、邮件等通讯工具，桌面 4 作为休闲娱乐、视频播放等，这样我们仅需在几个桌面间切换，实现自己的工作流逻辑，而不需要担心窗口聚焦问题。
+我们可以通过桌面来区分自己的工作区，如桌面 1 作为自己开发 IDE、终端，桌面 2 作为浏览器查询、写文档，桌面 3 用于处理微信、邮件等通讯工具，桌面 4 作为休闲娱乐、视频播放等，这样我们仅需在几个桌面间切换，实现自己的工作流逻辑，而不需要担心窗口聚焦问题。
 
-为了进一步优化，更快速地完成桌面之间的切换，我们可以通过 [Alfred](https://www.alfredapp.com)、[Raycast](https://www.raycast.com) 等启动器来快速启动/聚焦应用，也可以通过 [AltTab](https://alt-tab-macos.netlify.app) 或 [Manico](https://manico.im) 等快捷键对已开启的应用进行快速切换。
+为了进一步优化，更快速地完成桌面之间的切换，我们可以通过 [Alfred](https://www.alfredapp.com)、[Raycast](https://www.raycast.com) 等启动器来快速启动/聚焦应用，也可以通过 [AltTab](https://alt-tab-macos.netlify.app) 或 [Manico](https://manico.im) 等窗口切换软件提供的快捷键对已开启的应用进行快速切换。
 
 除此之外，macOS 系统设置里也提供了自定义切换的快捷方式，我把 `<Option> + <1~9>` 修改为了特定的桌面，这样平时工作的时候按对应快捷键就可以迅速到对应的工作区，很快就能形成肌肉记忆。
 
