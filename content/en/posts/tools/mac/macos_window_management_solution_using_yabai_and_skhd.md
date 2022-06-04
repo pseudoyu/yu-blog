@@ -182,7 +182,7 @@ yabai -m rule --add app="^Alfred Preferences$" manage=off
 
 #### 安装
 
-skhd 也可以通过 `brew` 包管理鳏居进行安装，很方便：
+skhd 也可以通过 `brew` 包管理工具进行安装，很方便：
 
 ```sh
 brew install koekeishiya/formulae/skhd
