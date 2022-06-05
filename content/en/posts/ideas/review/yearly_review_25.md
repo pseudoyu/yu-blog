@@ -1,6 +1,6 @@
 ---
 title: "25 岁的自白：花束般的恋爱"
-date: 2022-06-05T19:15:29+08:00
+date: 2022-06-06T00:01:29+08:00
 draft: false
 tags: ["review", "future", "life", "work", "love", "romance"]
 categories: ["Ideas"]
