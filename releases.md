@@ -1,6 +1,6 @@
 # Released projects
 
-All <!-- release_count starts -->19<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
+All <!-- release_count starts -->18<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
 * **[blockchain-guide](https://github.com/pseudoyu/blockchain-guide)**: [区块链入门指南](https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0)
@@ -15,8 +15,6 @@ All <!-- release_count starts -->19<!-- release_count ends --> of my released pr
 <br>我的 GitHub Profile 主页
 * **[learn-solidity](https://github.com/pseudoyu/learn-solidity)**: [Solidity 智能合约开发学习](https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0)
 <br>Solidity, Blockchain, and Smart Contract Course
-* **[lottery-solidity](https://github.com/pseudoyu/lottery-solidity)**: [用 Solidity 编写的彩票智能合约 Demo](https://github.com/pseudoyu/lottery-solidity/releases/tag/v1.0.0)
-<br>A lottery smart contract demo implemented in solidity
 * **[py4e-assignments](https://github.com/pseudoyu/py4e-assignments)**: [Coursera Python 课程代码](https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0)
 <br>Python for Everybody Specialization on Coursera Platform
 * **[chumu-food](https://github.com/pseudoyu/chumu-food)**: [微信小程序：吃什么呀](https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0)
