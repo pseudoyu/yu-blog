@@ -502,7 +502,7 @@ yarn hardhat block-number --network rinkeby
 
 ## 参考资料
 
-> 1.[Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ) 
+> 1. [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ) 
 > 2. [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)
 > 3. [HardHat 官方文档](https://hardhat.org/getting-started)
 > 4. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
