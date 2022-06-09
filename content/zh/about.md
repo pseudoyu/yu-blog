@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/1306885/' target='_blank'>想看幻之光</a> - 2022-06-09
 * <a href='http://movie.douban.com/subject/2222996/' target='_blank'>看过步履不停</a> - 2022-06-08
 * <a href='http://movie.douban.com/subject/35360296/' target='_blank'>想看偶然与想象</a> - 2022-06-08
 * <a href='http://movie.douban.com/subject/10571509/' target='_blank'>想看如父如子</a> - 2022-06-08
 * <a href='http://movie.douban.com/subject/26694988/' target='_blank'>想看比海更深</a> - 2022-06-08
-* <a href='http://movie.douban.com/subject/35235301/' target='_blank'>看过暗夜行者</a> - 2022-06-08
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
