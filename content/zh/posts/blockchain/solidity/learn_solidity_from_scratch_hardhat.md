@@ -1,5 +1,5 @@
 ---
-title: "Solidity 智能合约开发 - HardHat 框架使用"
+title: "Solidity 智能合约开发 - Hardhat 框架使用"
 date: 2022-06-09T14:38:10+08:00
 draft: false
 tags: ["blockchain", "solidity", "ethereum", "web3", "smart contract", "javascript", "ethers.js", "hardhat", "yarn"]
@@ -18,25 +18,25 @@ authors:
 - [Solidity 智能合约开发 - 玩转 Web3.py](https://www.pseudoyu.com/zh/2022/05/30/learn_solidity_from_scratch_web3py/)
 - [Solidity 智能合约开发 - 玩转 ethers.js](https://www.pseudoyu.com/zh/2022/06/08/learn_solidity_from_scratch_ethersjs/)
 
-但是在真正的复杂业务场景中，我们往往会使用一些进一步封装的框架，如 HardHat、Brownie、Truffle 等，HardHat 是其中应用最广泛、插件拓展最为强大的。本系列将从这篇开始专注于 HardHat 框架的使用与最佳实践，而本篇则会通过一个简单的例子完成其安装、配置与使用。
+但是在真正的复杂业务场景中，我们往往会使用一些进一步封装的框架，如 HardHat、Brownie、Truffle 等，HardHat 是其中应用最广泛、插件拓展最为强大的。本系列将从这篇开始专注于 Hardhat 框架的使用与最佳实践，而本篇则会通过一个简单的例子完成其安装、配置与使用。
 
 本文是对 [Patrick Collins](https://twitter.com/PatrickAlphaC) 的 『[Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ)』 教程的学习整理，强烈建议看原教程视频了解更多细节。
 
 可以点击[这里](https://github.com/pseudoyu/learn-solidity/tree/master/hardhat_simple_storage)访问本测试 Demo 代码仓库。
 
-## HardHat 介绍
+## Hardhat 介绍
 
 ![hardhat_homepage](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hardhat_homepage.png)
 
-HardHat 是一个基于 JavaScript 的智能合约开发环境，可以用于灵活地编译、部署、测试和调试基于 EVM 的智能合约，并且提供了一系列工具链来整合代码与外部工具，还提供了丰富的插件生态，提升开发效率。此外，它还提供了模拟以太坊的本地 HardHat 网络节点，提供强大的本地调试功能。
+Hardhat 是一个基于 JavaScript 的智能合约开发环境，可以用于灵活地编译、部署、测试和调试基于 EVM 的智能合约，并且提供了一系列工具链来整合代码与外部工具，还提供了丰富的插件生态，提升开发效率。此外，它还提供了模拟以太坊的本地 Hardhat 网络节点，提供强大的本地调试功能。
 
 其 GitHub 地址为 [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)，可以访问其[官方文档](https://hardhat.org/getting-started)了解更多。
 
-## HardHat 使用
+## Hardhat 使用
 
 ### 初始化项目
 
-从零开始搭建一个 HardHat 项目，我们需要预先安装好 `node.js` 与 `yarn` 环境，这部份参照官方说明根据自己的系统环境按照即可。
+从零开始搭建一个 Hardhat 项目，我们需要预先安装好 `node.js` 与 `yarn` 环境，这部份参照官方说明根据自己的系统环境按照即可。
 
 首先，我们需要初始化项目并安装 `hardhat` 依赖包。
 
@@ -47,7 +47,7 @@ yarn add --dev hardhat
 
 ![yarn_add](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/yarn_add.png)
 
-### 初始化 HardHat
+### 初始化 Hardhat
 
 然后需要运行 `yarn hardhat`，通过交互式命令来进行初始化，根据项目需要进行配置，我们的测试 Demo 选择默认值。
 
@@ -157,7 +157,7 @@ const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "key"
 
 #### 启动网络
 
-我们可以直接运行脚本来启动一个 HardHat 自带的网络，但该网络仅仅存活于脚本运行期间，想要启动一个本地可持续的网络，需要运行 `yarn hardhat node` 命令：
+我们可以直接运行脚本来启动一个 Hardhat 自带的网络，但该网络仅仅存活于脚本运行期间，想要启动一个本地可持续的网络，需要运行 `yarn hardhat node` 命令：
 
 ![hardhat_localhost_node](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hardhat_localhost_node.png)
 
@@ -194,7 +194,7 @@ module.exports = {
 
 ### 脚本
 
-在 HardHat 项目中，我们可以通过在 `scripts` 目录中编写脚本来实现部署等功能，并且通过便捷的命令执行脚本。
+在 Hardhat 项目中，我们可以通过在 `scripts` 目录中编写脚本来实现部署等功能，并且通过便捷的命令执行脚本。
 
 #### 编写部署脚本
 
@@ -245,7 +245,7 @@ main()
 
 #### 运行脚本
 
-完成脚本编写后，可以通过 HardHat 提供的 `run` 命令来运行脚本。
+完成脚本编写后，可以通过 Hardhat 提供的 `run` 命令来运行脚本。
 
 如不加网络参数，则默认使用 `hardhat` 网络，可以通过 `--network` 参数指定网络：
 
@@ -257,7 +257,7 @@ yarn hardhat run scripts/deploy.js --network rinkeby
 
 ### 增加 etherscan 合约验证支持
 
-将合约部署至 Rinkeby 测试网络后可在 Etherscan 上查看合约的地址，并且进行验证。我们可以通过网站进行操作，但 HardHat 提供了插件支持，更方便进行验证操作。
+将合约部署至 Rinkeby 测试网络后可在 Etherscan 上查看合约的地址，并且进行验证。我们可以通过网站进行操作，但 Hardhat 提供了插件支持，更方便进行验证操作。
 
 #### 安装 hardhat-etherscan 插件
 
@@ -344,7 +344,7 @@ async function main() {
 
 对于智能合约来说，其大多数操作都需要部署上链，与资产交互，消耗 gas，且一旦有安全隐患会造成严重的后果。因此，我们需要对智能合约进行详细的测试。
 
-HardHat 提供了完备的测试调试工具，可以在 `tests` 目录中编写测试脚本，通过 `yarn hardhat test` 命令运行测试。
+Hardhat 提供了完备的测试调试工具，可以在 `tests` 目录中编写测试脚本，通过 `yarn hardhat test` 命令运行测试。
 
 #### 编写测试脚本
 
@@ -385,7 +385,7 @@ describe("SimpleStorage", () => {
     })
 ```
 
-在 HardHat 的测试脚本中，我们使用 `describe` 包裹测试类，并且使用 `it` 包裹测试方法。我们需要保证测试前合约已经部署，因此，我们通过 `beforeEach` 方法在每个测试方法执行前都会调用 `simpleStorageFactory.deploy()`，并且将返回的 `simpleStorage` 对象赋值给 `simpleStorage` 变量。
+在 Hardhat 的测试脚本中，我们使用 `describe` 包裹测试类，并且使用 `it` 包裹测试方法。我们需要保证测试前合约已经部署，因此，我们通过 `beforeEach` 方法在每个测试方法执行前都会调用 `simpleStorageFactory.deploy()`，并且将返回的 `simpleStorage` 对象赋值给 `simpleStorage` 变量。
 
 我们使用 `assert.equal(currentValue.toString(), expectedValue)` 来对执行结果与预期结果进行比照，可以用 `expect(currentValue.toString()).to.equal(expectedValue)` 替代，效果一样。
 
@@ -465,7 +465,7 @@ require("solidity-coverage")
 
 #### 编写 Task
 
-HardHat 中，我们将任务定义在 `tasks` 目录下，我们将编写一个 `block-number.js` 的 Task 来获取区块高度：
+Hardhat 中，我们将任务定义在 `tasks` 目录下，我们将编写一个 `block-number.js` 的 Task 来获取区块高度：
 
 ```javascript
 const { task } = require("hardhat/config")
@@ -490,21 +490,21 @@ yarn hardhat block-number --network rinkeby
 
 ![hardhat_run_tasks](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hardhat_run_tasks.png)
 
-### HardHat Console
+### Hardhat Console
 
-最后，除了通过代码与链/合约进行交互外，我们还可以通过 `HardHat Console` 来调试项目，查看链状态，合约的输入、输出等。我们可以通过 `yarn hardhat console` 命令来打开 HardHat Console，并进行交互。
+最后，除了通过代码与链/合约进行交互外，我们还可以通过 `Hardhat Console` 来调试项目，查看链状态，合约的输入、输出等。我们可以通过 `yarn hardhat console` 命令来打开 Hardhat Console，并进行交互。
 
 ![hardhat_console](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hardhat_console.png)
 
 ## 总结
 
-以上就是我对 HardHat 框架的基础配置与使用，它是一个很强大的开发框架，我后续还将会继续深入了解它的更多特性与使用技巧，如果有兴趣，可以继续关注，希望对大家有所帮助。
+以上就是我对 Hardhat 框架的基础配置与使用，它是一个很强大的开发框架，我后续还将会继续深入了解它的更多特性与使用技巧，如果有兴趣，可以继续关注，希望对大家有所帮助。
 
 ## 参考资料
 
 > 1. [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 > 2. [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)
-> 3. [HardHat 官方文档](https://hardhat.org/getting-started)
+> 3. [Hardhat 官方文档](https://hardhat.org/getting-started)
 > 4. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/zh/2022/05/25/learn_solidity_from_scratch_basic/)
 > 5. [Solidity 智能合约开发 - 玩转 Web3.py](https://www.pseudoyu.com/zh/2022/05/30/learn_solidity_from_scratch_web3py/)
 > 6. [Solidity 智能合约开发 - 玩转 ethers.js](https://www.pseudoyu.com/zh/2022/06/08/learn_solidity_from_scratch_ethersjs/)
