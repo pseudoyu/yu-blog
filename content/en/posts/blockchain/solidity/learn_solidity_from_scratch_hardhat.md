@@ -153,7 +153,7 @@ const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "key"
 
 ### 配置网络环境
 
-往往我们的合约需要运行在不同的区块链网络上，如本地测试、开发、上线环境等等，HardHat 也提供了便捷的方式来配置网络环境。
+往往我们的合约需要运行在不同的区块链网络上，如本地测试、开发、上线环境等等，Hardhat 也提供了便捷的方式来配置网络环境。
 
 #### 启动网络
 
