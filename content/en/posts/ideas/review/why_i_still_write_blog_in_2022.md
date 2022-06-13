@@ -1,8 +1,8 @@
 ---
-title: "2022 年了，为什么我还在写博客"
+title: "2022 年了，聊聊我为什么还在写博客"
 date: 2022-06-12T13:48:58Z
-draft: true
-tags: ["hugo", "blog", "self-host", "write"]
+draft: false
+tags: ["hugo", "blog", "write", "university", "hku", "life", "work"]
 categories: ["Ideas"]
 authors:
 - "Arthur"
@@ -113,13 +113,13 @@ authors:
 
 此外，我还对博客配置及所有文章的源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。搭建教程请参看：
 
-- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 
 #### 博客评论系统
 
 一个完整的博客当然需要评论系统，像 WordPress 这种系统自身具备了评论插件，而静态博客则需要自己对接评论系统。我最开始选择的是第三方的 Disqus，简单易用，但是会自带很多广告推广，也不够简约。因此，我选择了 Randy 的 Cusdis，一个注重数据隐私的开源的评论系统，并通过 Railway 进行自部署，搭建教程请参看：
 
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 #### 博客数据统计系统
 
@@ -137,7 +137,7 @@ authors:
 
 此外，我选择了一个可代替 Google Analytics 的开源服务 umami，并通过 Vercel 与 Heroku 进行部署，实现了访客数据的实时监控，搭建教程请参看：
 
-- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
 
 ## 总结
 
@@ -147,8 +147,8 @@ authors:
 
 > 1. [讲讲我为什么写 blog](https://bytedance.feishu.cn/docs/doccn4sKBEWyyLPziLVyoaudpXd#)
 > 2. [我的 Pseudoyu 个人博客](https://www.pseudoyu.com)
-> 3. [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-> 4. [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-> 5. [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
-> 6. [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+> 3. [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+> 4. [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+> 5. [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+> 6. [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 > 7. [区块链入门指南](https://www.pseudoyu.com/blockchain-guide/)
