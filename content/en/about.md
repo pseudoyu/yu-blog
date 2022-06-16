@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/35819419/' target='_blank'>想读可能性的艺术</a> - 2022-06-15
+* <a href='https://book.douban.com/subject/35635639/' target='_blank'>想读法治的细节</a> - 2022-06-15
 * <a href='https://book.douban.com/subject/6784956/' target='_blank'>最近在读四川好人</a> - 2022-06-14
 * <a href='http://movie.douban.com/subject/35154050/' target='_blank'>在看黑袍纠察队 第三季</a> - 2022-06-14
 * <a href='http://movie.douban.com/subject/1293359/' target='_blank'>看过菊次郎的夏天</a> - 2022-06-13
-* <a href='http://movie.douban.com/subject/1418200/' target='_blank'>看过傲慢与偏见</a> - 2022-06-11
-* <a href='http://movie.douban.com/subject/1291568/' target='_blank'>看过东京物语</a> - 2022-06-10
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   15 hrs 17 mins ███████▎░░░░░░░░░░░░░  35.0%
-Rust       12 hrs 57 mins ██████▏░░░░░░░░░░░░░░  29.7%
-JavaScript 4 hrs 10 mins  ██░░░░░░░░░░░░░░░░░░░   9.6%
-PlantUM... 3 hrs 6 mins   █▍░░░░░░░░░░░░░░░░░░░   7.1%
-sh         1 hr 27 mins   ▋░░░░░░░░░░░░░░░░░░░░   3.3%
+Markdown   14 hrs 26 mins █████▋░░░░░░░░░░░░░░░  27.1%
+Rust       12 hrs 57 mins █████░░░░░░░░░░░░░░░░  24.3%
+JavaScript 11 hrs 16 mins ████▍░░░░░░░░░░░░░░░░  21.2%
+Solidity   3 hrs 10 mins  █▎░░░░░░░░░░░░░░░░░░░   6.0%
+PlantUM... 3 hrs 6 mins   █▏░░░░░░░░░░░░░░░░░░░   5.8%
 ```
 
 <!-- code_time ends -->
