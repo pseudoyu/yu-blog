@@ -13,6 +13,7 @@ rss_ignore: true
 
 {{< friend name="M1sty" url="https://www.m1sty.com" logo="https://www.m1sty.com/images/me/avatar.JPG" word="Mircales Happen Every Misty Day" >}}
 {{< friend name="Airing 的小屋" url="https://me.ursb.me" logo="https://airing.ursb.me/image/airing-face.png" word="Airing" >}}
+{{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://www.zzhack.fun/images/avatar.png" word="Mist 的博客" >}}
 
 </div>
 </div>
