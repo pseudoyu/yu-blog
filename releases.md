@@ -14,7 +14,7 @@ All <!-- release_count starts -->18<!-- release_count ends --> of my released pr
 * **[pseudoyu](https://github.com/pseudoyu/pseudoyu)**: [首页信息流展示](https://github.com/pseudoyu/pseudoyu/releases/tag/v1.1.0)
 <br>我的 GitHub Profile 主页
 * **[learn-solidity](https://github.com/pseudoyu/learn-solidity)**: [Solidity 智能合约开发学习](https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0)
-<br>Solidity, Blockchain, and Smart Contract Course
+<br>Notes and demo code related to solidity
 * **[py4e-assignments](https://github.com/pseudoyu/py4e-assignments)**: [Coursera Python 课程代码](https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0)
 <br>Python for Everybody Specialization on Coursera Platform
 * **[chumu-food](https://github.com/pseudoyu/chumu-food)**: [微信小程序：吃什么呀](https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0)
