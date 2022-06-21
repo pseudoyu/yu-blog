@@ -1,3 +1,4 @@
 [submodule "themes/hugo-theme-den"]
 	path = themes/hugo-theme-den
 	url = https://github.com/pseudoyu/hugo-theme-den
+	branch = pseudoyu
