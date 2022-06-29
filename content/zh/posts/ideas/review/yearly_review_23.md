@@ -2,7 +2,7 @@
 title: "23 岁的自白：去追寻意义"
 date: 2020-06-06T00:00:00+08:00
 draft: false
-tags: ["review","future","university"]
+tags: ["review","future","university", "life", "romance"]
 categories: ["Ideas"]
 authors:
 - "Arthur"
