@@ -38,11 +38,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35162178/' target='_blank'>看过剑指高分</a> - 2022-07-02
-* <a href='http://movie.douban.com/subject/27605486/' target='_blank'>看过黑客军团 第四季</a> - 2022-07-01
-* <a href='http://movie.douban.com/subject/26881131/' target='_blank'>看过黑客军团 第三季</a> - 2022-06-28
-* <a href='http://movie.douban.com/subject/35234382/' target='_blank'>看过辉夜大小姐想让我告白：究极浪漫</a> - 2022-06-27
-* <a href='http://movie.douban.com/subject/26431328/' target='_blank'>看过黑客军团 第二季</a> - 2022-06-27
+* <a href='http://movie.douban.com/subject/1293839/' target='_blank'>看过罗马假日</a> - 2022-07-03
+* <a href='http://movie.douban.com/subject/30458949/' target='_blank'>看过无依之地</a> - 2022-07-03
+* <a href='http://movie.douban.com/subject/1418199/' target='_blank'>想看火线 第一季</a> - 2022-07-03
+* <a href='http://movie.douban.com/subject/35258427/' target='_blank'>看过间谍过家家</a> - 2022-07-03
+* <a href='http://movie.douban.com/subject/10512661/' target='_blank'>看过银翼杀手2049</a> - 2022-07-03
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
