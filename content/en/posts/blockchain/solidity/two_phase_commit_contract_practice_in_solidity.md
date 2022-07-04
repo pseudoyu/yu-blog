@@ -55,11 +55,11 @@ struct Payload {
 mapping (string => Payload) keyToPayload;
 ```
 
-因此，我们可以根据 `keyToPaylaod` 对合约调用中的每一个 key 进行状态跟踪，并在下述 `cc_set`, `cc_commit`, `cc_rollback` 方法中对 key 的状态进行检查，进行一些异常处理。
+因此，我们可以根据 `keyToPaylaod` 对合约调用中的每一个 key 进行状态跟踪，并在下述 `set`, `commit`, `rollback` 方法中对 key 的状态进行检查，进行一些异常处理。
 
-#### cc_set()
+#### set()
 
-在 `cc_set()` 方法中，我们会检查 key 的状态，如为 `State.LOCKED`，则不会进行存储并抛出异常：
+在 `set()` 方法中，我们会检查 key 的状态，如为 `State.LOCKED`，则不会进行存储并抛出异常：
 
 ```solidity
 if (keyToPayload[_key].state == State.LOCKED) {
@@ -67,16 +67,16 @@ if (keyToPayload[_key].state == State.LOCKED) {
 }
 ```
 
-如为 `State.UNLOCKED`，则会将合约调用传入的值存储至 lockValue 中，并将其状态设置为 `LOCKED`，等待后续 `cc_commit` 或 `cc_rollback` 进行解锁。
+如为 `State.UNLOCKED`，则会将合约调用传入的值存储至 lockValue 中，并将其状态设置为 `LOCKED`，等待后续 `commit` 或 `rollback` 进行解锁。
 
 ```solidity
 keyToPayload[_key].state = State.LOCKED;
 keyToPayload[_key].lockValue = _value;
 ```
 
-#### cc_commit()
+#### commit()
 
-在 `cc_commit()` 方法中，我们会检查 key 的状态，如为 `State.UNLOCKED`，则不会对该 key 进行操作，并抛出异常：
+在 `commit()` 方法中，我们会检查 key 的状态，如为 `State.UNLOCKED`，则不会对该 key 进行操作，并抛出异常：
 
 ```solidity
 if (keyToPayload[_key].state == State.UNLOCKED) {
@@ -101,9 +101,9 @@ keyToPayload[_key].value = _value;
 keyToPayload[_key].lockValue = "";
 ```
 
-#### cc_rollback()
+#### rollback()
 
-在 `cc_rollback()` 方法中，我们会检查 key 的状态，如为 `State.UNLOCKED`，则不会对该 key 进行操作，并抛出异常：
+在 `rollback()` 方法中，我们会检查 key 的状态，如为 `State.UNLOCKED`，则不会对该 key 进行操作，并抛出异常：
 
 ```solidity
 if (keyToPayload[_key].state == State.UNLOCKED) {
