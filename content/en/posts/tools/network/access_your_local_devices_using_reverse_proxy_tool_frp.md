@@ -1,8 +1,8 @@
 ---
 title: "基于 frp 内网穿透的瘦客户端开发工作流"
-date: 2022-07-04T15:11:16+08:00
-draft: true
-tags: ["frp", "proxy", "network", "dev-environment", "devices", "tool"]
+date: 2022-07-05T10:00:16+08:00
+draft: false
+tags: ["frp", "proxy", "network", "dev-environment", "devices", "tools"]
 categories: ["Tools"]
 authors:
 - "Arthur"
@@ -24,7 +24,7 @@ authors:
 
 ![raspberry_pi](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/raspberry_pi.jpeg)
 
-关于异地网络访问的方案与原理，少数派的这篇『[异地网络远程访问指北](https://sspai.com/prime/story/remote-lan-access-guide-01)』中已经对各个方案进行了详细的叙述与评估，我仅仅安装个人需求从方案易用性、费用等维度进行选择，大家可自行阅读选取适合的方案。
+关于异地网络访问的方案与原理，少数派的这篇『[异地网络远程访问指北](https://sspai.com/prime/story/remote-lan-access-guide-01)』中已经对各个方案进行了详细的叙述与评估，我仅仅按照个人需求从方案易用性、费用等维度进行考虑，大家可自行阅读选取适合的方案。
 
 首先，我整理了一下网络条件与需求。
 
@@ -32,24 +32,24 @@ authors:
 
 1. 租房随便办的短期宽带，没有提供公网 ip，申请估计也很麻烦
 2. 家庭无线路由器好像也是小米一个普通的，没有怎么折腾
-3. 因为工作和个人开发需要，在阿里云和腾讯云都有云服务器长期续费，有公网 ip
+3. 因为工作和个人开发需要，在阿里云和腾讯云都有服务器长期续费，有公网 ip
 
 远程连接需求：
 
 1. 通过公网 SSH 访问 Mac Studio 主机，并能够在有需求的时候开放特定端口
-2. 通过公网 SSH 访问 树莓派，并能够在有需求的时候开放特定端口
+2. 通过公网 SSH 访问树莓派，并能够在有需求的时候开放特定端口
 3. 要求连接稳定快速，且尽量复用已有软件与服务，避免额外开支
 4. 易于拓展新设备（如购入新的树莓派）与配置新端口映射（开放新的服务）
-5. 因为家里的网络由 Surge 作为软路由托管，已经进行了关闭 DHCP 等配置，因此尽量不要在光猫与路由器层作配置
+5. 因为家里的网络完全由 Surge 作为软路由托管，已经进行了关闭 DHCP 等配置，因此尽量不要在光猫与路由器层作配置
 6. 能够对家庭网络环境连接情况与树莓派 Server 资源情况进行实时监控
 
 ## frp 内网穿透方案
 
-经过一番调研，我发现了开源项目『[GitHub - fatedier/frp](https://github.com/fatedier/frp)』，根据其官方文档描述：
+经过一番调研，我选择了开源项目『[GitHub - fatedier/frp](https://github.com/fatedier/frp)』，根据其官方文档描述：
 
 > frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。通过在具有公网 IP 的节点上部署 frp 服务端，可以轻松地将内网服务穿透到公网，同时提供诸多专业的功能特性。
 
-这完美满足了我的需求，我仅仅需要复用自己购置的具有公网 ip 的阿里云服务器作为中转服务器，部署 frp 服务端，并暴露对应端口，而在需要从公网访问的家庭设备中部署 frp 客户端并进行端口映射，即可实现内网穿透。
+这完美满足了我的需求，我仅仅需要复用自己购置的具有公网 ip 的阿里云服务器作为中转服务器，部署 frp 服务端，暴露对应端口，在需要从公网访问的家庭设备中部署 frp 客户端并进行端口映射，即可实现内网穿透。
 
 ### 方案架构
 
@@ -61,9 +61,9 @@ authors:
 
 此时，我的阿里云中转服务器已经可以将我们的内网环境与服务暴露在公网环境中了。当我在公司时，就可以使用笔记本、平板或手机通过阿里云服务器的公网+对应服务的端口进行访问了，如通过终端远程 SSH 连接至 Mac Studio 进行开发工作。
 
-![servercat_monitor_raspberry_pi](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/servercat_monitor_raspberry_pi.png)
-
 同时，我们会想对家里的网络环境以及两台主机的状态进行实时监控，以便于维护。我使用了 Surge macOS 端作为软路由托管了家中所有设备的网络，并使用了 Surge iOS 端的云通知功能，对家庭的网络状态进行实时监控。此外，我使用了 ServerCat 软件对家中的树莓派 Server 进行资源监控，甚至可以精确到温度等，与云服务器体验无异。
+
+![servercat_monitor_raspberry_pi](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/servercat_monitor_raspberry_pi.png)
 
 frp 的配置比较简单，按照官方文档进行配置即可，我的配置流程如下。
 
@@ -209,7 +209,9 @@ http://www.apple.com/DTDs/PropertyList-1.0.dtd >
 </plist>
 ```
 
-至此，我们就可以在公网环境下通过中转服务器的对应端口了解到我们的内网服务了，且不论是服务端还是客户端，服务都会开机自启。
+至此，我们就可以在公网环境下通过中转服务器的对应端口了解到我们的内网服务了，且不论是服务端还是客户端，服务都会开机自启。我们可以通过 `<公网 ip>` + 刚在服务端配置的 `dashboard_port` 端口访问 frp 控制台，查看各服务流量情况。
+
+![frp_dashboard](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/frp_dashboard.png)
 
 ## 瘦客户端（thin client）工作流
 
@@ -230,7 +232,9 @@ http://www.apple.com/DTDs/PropertyList-1.0.dtd >
 
 ![thin_client_mode](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/thin_client_mode.png)
 
-我目前 Client 端的主要设备为
+为了降低成本，我的瘦客户端工作流主要基于前文所搭建的这一套内网穿透方案，在公网中从各个 Client 访问家里性能较强的主机与 Server，完成主要开发工作。
+
+我目前 Client 端的主要设备为：
 
 1. 16 寸 MacBook Pro，长期放在公司，作为工作机使用，主要用于浏览网页、文档以及通过 iTerm2 终端工具连接到各个远程主机或 Server 进行开发工作，并通过 Git 管理代码与项目\
 2. Google Pixelbook Go，主要是在咖啡店、家中沙发或其他地方进行一些技术学习、博客撰写或个人项目开发
