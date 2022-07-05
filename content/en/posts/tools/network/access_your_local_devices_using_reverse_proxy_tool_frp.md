@@ -37,7 +37,7 @@ authors:
 
 ### 我的瘦客户端工作流
 
-![thin_client_mode](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/thin_client_mode.png)
+![thin_client_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/thin_client_structure.png)
 
 为了降低成本，我的瘦客户端工作流主要基于前文所搭建的这一套内网穿透方案，在公网中从各个 Client 访问家里性能较强的主机与 Server，完成主要开发工作。
 
@@ -86,7 +86,7 @@ authors:
 
 ### 方案架构
 
-![frp_network](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/frp_network.png)
+![frp_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/frp_structure.png)
 
 首先，我在自己有公网 ip 的服务器上部署了 frp 服务端并暴露了对应的端口。
 
