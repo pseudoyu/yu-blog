@@ -40,7 +40,7 @@ authors:
 
 ![thin_client_structure](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/thin_client_structure.png)
 
-为了降低成本，我的瘦客户端工作流主要基于前文所搭建的这一套内网穿透方案，在公网中从各个 Client 访问家里性能较强的主机与 Server，完成主要开发工作。
+为了降低成本，我的瘦客户端工作流主要基于我自己所搭建的一套内网穿透方案（下文会详细讲述方案原理及搭建方法），在公网中从各个 Client 访问家里性能较强的主机与 Server，完成主要开发工作。
 
 我目前 Client 端的主要设备为：
 
