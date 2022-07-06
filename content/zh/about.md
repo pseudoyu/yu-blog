@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/1465324/' target='_blank'>读过洛丽塔</a> - 2022-07-06
 * <a href='http://movie.douban.com/subject/1300613/' target='_blank'>看过土拨鼠之日</a> - 2022-07-03
 * <a href='http://movie.douban.com/subject/6722879/' target='_blank'>看过她</a> - 2022-07-03
 * <a href='http://movie.douban.com/subject/1293839/' target='_blank'>看过罗马假日</a> - 2022-07-03
 * <a href='http://movie.douban.com/subject/30458949/' target='_blank'>看过无依之地</a> - 2022-07-03
-* <a href='http://movie.douban.com/subject/1418199/' target='_blank'>想看火线 第一季</a> - 2022-07-03
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
