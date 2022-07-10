@@ -2,7 +2,7 @@
 title: "Warp，iTerm2 还是 Alacritty？我的终端折腾小记"
 date: 2022-07-10T11:18:29+08:00
 draft: false
-tags: ["dev-environment", "terminal", "macos", "iterm2", "tmux", "alacritty", "zsh", "starship", "warp", "neovim"]
+tags: ["dev-environment", "terminal", "macos", "iterm2", "tmux", "alacritty", "zsh", "starship", "warp", "neovim", "tools"]
 categories: ["Tools"]
 authors:
 - "Arthur"
