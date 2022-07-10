@@ -64,7 +64,7 @@ authors:
 
 ## 学习、输入与输出
 
-这个部分会记录一下自己这边所看的各类影音书籍、折腾的好玩的东西以及工作学习的一些进展，所幸根据『[使用自动化工作流聚合信息摄入和输出](https://www.instapaper.com/read/1517044679)』这一篇搭建了自己的『[Yu's Life 频道](https://t.me/pseudoyulife)』，会自动化采集自己的一些主动输出与输入，如 Twitter、Blog、书签以及 GitHub 动态等，很方便自己进行每周复盘。
+这个部分会记录一下自己这边所看的各类影音书籍、折腾的好玩的东西以及工作学习的一些进展，所幸根据『[使用自动化工作流聚合信息摄入和输出](https://reorx.com/blog/sharing-my-footprints-automation/)』这一篇搭建了自己的『[Yu's Life 频道](https://t.me/pseudoyulife)』，会自动化采集自己的一些主动输出与输入，如 Twitter、Blog、书签以及 GitHub 动态等，很方便自己进行每周复盘。
 
 ### 技术学习
 
