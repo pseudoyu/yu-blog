@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/35623795/' target='_blank'>想读大萧条前夜的繁荣与疯狂</a> - 2022-07-11
 * <a href='http://movie.douban.com/subject/35620761/' target='_blank'>在看鬼灭之刃 无限列车篇</a> - 2022-07-11
 * <a href='http://movie.douban.com/subject/35539827/' target='_blank'>在看继母的拖油瓶是我的前女友</a> - 2022-07-10
 * <a href='http://movie.douban.com/subject/30466931/' target='_blank'>看过波斯语课</a> - 2022-07-09
 * <a href='https://book.douban.com/subject/35128340/' target='_blank'>最近在读Working in Public</a> - 2022-07-07
-* <a href='https://book.douban.com/subject/34429983/' target='_blank'>最近在读蒂姆·库克传</a> - 2022-07-07
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
