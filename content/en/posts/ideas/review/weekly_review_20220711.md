@@ -1,7 +1,7 @@
 ---
 title: "周报 #03 - 关于健康、目标与生活的节奏感"
-date: 2022-07-11T09:30:20+08:00
-draft: true
+date: 2022-07-11T08:30:20+08:00
+draft: false
 tags: ["review", "life", "work", "health", "growth", "friendship"]
 categories: ["Ideas"]
 authors:
