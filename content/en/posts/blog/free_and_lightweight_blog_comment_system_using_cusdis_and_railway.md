@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![cusdis_intro](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_intro.png)
+![cusdis_intro](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_intro.png)
 
 之前写了一篇《[免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)》，讲述了一下我使用 Serverless 和一些开源项目搭建的博客系统，也开了个系列来记录搭建过程。
 
@@ -30,7 +30,7 @@ authors:
 
 Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下，把之前的 [umami 网站数据统计系统](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) 连同 Postgre SQL 数据库实例部署在 Railway 平台，大约一个月 0.7 美元，对于个人使用来说完全足够。
 
-![railway_price](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_price.png)
+![railway_price](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/railway_price.png)
 
 比起 Vercel，它同时支持部署数据库实例，可以将数据库与实例一起部署在单个项目中，减少搭建维护成本。下文会对具体搭建部署流程做个记录，因为官方支持 Railway 一键部署方式，整个搭建流程很顺畅。
 
@@ -40,15 +40,15 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 首先注册一个 Railway 账号，可以用我的[邀请链接](https://railway.app?referralCode=J0F5LQ)。注册登录完成后，点击右上角 New Project 新建项目。
 
-![railway_dashboard](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_dashboard.png)
+![railway_dashboard](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/railway_dashboard.png)
 
 然后输入 Cusdis 进行搜索，点击出现的项目即可开始部署。前几步也可以通过点击 [Cusdis 项目仓库](https://github.com/djyde/cusdis) 中的 `Deploy on Railway` 按钮进行一键部署。
 
-![new_cusids_starter](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/new_cusids_starter.png)
+![new_cusids_starter](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/new_cusids_starter.png)
 
 开始部署前，需要手动填入三个环境变量：
 
-![deploy_cusdis_on_railway](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/deploy_cusdis_on_railway.png)
+![deploy_cusdis_on_railway](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/deploy_cusdis_on_railway.png)
 
 1. USERNAME: 用来登录的账户
 2. PASSWORD: 用来登录的密码
@@ -63,27 +63,27 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 点击部署后，等待完成即可，会自动部署服务并初始化数据库。
 
-![cusdis_deploy_done](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_deploy_done.jpeg)
+![cusdis_deploy_done](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_deploy_done.jpeg)
 
 ### 配置 Cusdis 脚本至个人博客
 
 部署完成后，点击 cusdis 服务生成的链接，点击访问服务 Dashboard。
 
-![cusdis_login](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_login.png)
+![cusdis_login](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_login.png)
 
 此处输入部署前配置的用户名与密码，点击登录。登录完成后，点击 Dashboard，进入项目配置页面。
 
 初次登录会弹窗提示需要配置第一个网站，输入网站名称即可完成添加。后续当我们需要添加网站时，点击侧边栏 New Website，填写网站名称即可完成添加。
 
-![add_new_website](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/add_new_website.png)
+![add_new_website](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/add_new_website.png)
 
 因为我已经配置了自己的网站，所以界面会有之前的评论记录。
 
-![cusdis_dashboard](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_dashboard.png)
+![cusdis_dashboard](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_dashboard.png)
 
 下面我们点击上方 Embed Code，复制弹窗中的代码。
 
-![cusdis_embed_code](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_embed_code.jpeg)
+![cusdis_embed_code](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_embed_code.jpeg)
 
 这部份代码需要根据你所用的博客网站类型不同进行部分修改，具体可参考[官方文档](https://cusdis.com/doc#/) 的 Integration 模块进行配置。
 
@@ -107,21 +107,21 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 修改后，将其添加到博客的相应位置（一般在最下方），配置部署后，即可看到评论框，呈现效果如下：
 
-![cusdis_display](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_display.png)
+![cusdis_display](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_display.png)
 
 ### 配置自定义域名
 
 Railway 部署自动生成的域名比较长，且有一些字符，不方便记忆。我们可以在 Railway 中为项目配置自定义域名。
 
-![railway_custom_domain](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_custom_domain.jpeg)
+![railway_custom_domain](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/railway_custom_domain.jpeg)
 
 填入想要配置的域名/二级域名后，根据官方提示添加 DNS 解析。
 
-![railway_domain_dns](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_domain_dns.jpeg)
+![railway_domain_dns](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/railway_domain_dns.jpeg)
 
 例如，我使用的是 [Cloudflare](https://www.cloudflare.com) 托管的域名，需要先添加一下域名 CNAME 解析。
 
-![cloudflare_domain_dns](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_domain_dns.jpeg)
+![cloudflare_domain_dns](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_domain_dns.jpeg)
 
 至此，我们的部署已经完成，可以通过域名访问管理后台，进行评论审核管理等。
 
@@ -129,7 +129,7 @@ Railway 部署自动生成的域名比较长，且有一些字符，不方便记
 
 如前文所述，Cusdis 还是一个正在开发成长的项目，我们想第一时间更新作者发布的新功能。Railway 提供了十分便捷的上游分支管理功能，可以设置项目的父项目，点击即可拉取最新更新，很方便。
 
-![railway_update_project](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/railway_update_project.png)
+![railway_update_project](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/railway_update_project.png)
 
 ## 总结
 

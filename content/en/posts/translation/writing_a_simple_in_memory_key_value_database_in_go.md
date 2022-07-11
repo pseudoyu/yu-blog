@@ -46,7 +46,7 @@ authors:
 
 ## 架构
 
-![flashdb_architecture](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/flashdb_architecture.png)
+![flashdb_architecture](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/flashdb_architecture.png)
 
 FlashDB 的架构很简单并且支持各种 Redis 命令。Redis 本质上不是一个普通的键值存储，而是一个数据结构服务器，支持不同种类的值。事实上 Redis 使用以下数据结构实现了各种类型。
 

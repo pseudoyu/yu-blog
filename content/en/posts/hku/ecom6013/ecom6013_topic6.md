@@ -54,7 +54,7 @@ authors:
   * Server
   * Communication pipeline (network channels)
 
-![vulnerable_points_in_ecommerce](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/vulnerable_points_in_ecommerce.png)
+![vulnerable_points_in_ecommerce](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/vulnerable_points_in_ecommerce.png)
 
 **Most Common Security Threats**
 * Malicious code
@@ -112,7 +112,7 @@ authors:
 * Securing channels of communication
   * SSL, TLS
     * Establishes a secure, negotiated client-server session in which URL of requested document, along with contents, is encrypted
-    * ![ssl_protect](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ssl_protect.png)
+    * ![ssl_protect](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ssl_protect.png)
   * S-HTTP
     * Provides a secure message-oriented communications protocol designed for use in conjunction with HTTP
   * VPNs
@@ -122,7 +122,7 @@ authors:
   * Firewalls
   * Proxy servers
   * Intrusion Detection System (IDS)
-  * ![firewall](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/firewall.png)
+  * ![firewall](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/firewall.png)
 * Protecting servers and clients
   * OS security
     * Upgrades
@@ -146,7 +146,7 @@ authors:
   * Authorization policies, authorization management systems
 * Security audit
 
-![security_plan](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/security_plan.png)
+![security_plan](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/security_plan.png)
 
 **Basic Concepts of User Authentication**
 * Something you know
@@ -195,7 +195,7 @@ authors:
   * Sender uses recipient’s public key to encrypt message
   * Recipient uses his/her private key to decrypt it
 
-![public_key_cryptography](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/public_key_cryptography.png)
+![public_key_cryptography](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/public_key_cryptography.png)
 
 **Public Key Encryption Using Digital Signatures and Hash Digests**
 * Hash function
@@ -204,7 +204,7 @@ authors:
 * Sender then encrypts the whole package with sender’s private key, creating digital signature for authenticity, nonrepudiation
 * Recipient first uses sender’s public key to authenticate the message and then the recipient’s private key to decrypt the hash digest and the message
 
-![public_key_cryptography_digital_signature](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/public_key_cryptography_digital_signature.png)
+![public_key_cryptography_digital_signature](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/public_key_cryptography_digital_signature.png)
 
 **Digital Envelop**
 * Addresses weaknesses of
@@ -213,7 +213,7 @@ authors:
 * Uses symmetric key encryption to encrypt document
 * Uses public key encryption to encrypt and send symmetric key
 
-![digital_envelop](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/digital_envelop.png)
+![digital_envelop](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/digital_envelop.png)
 
 **Digital Certificates and Public Key Infrastructure (PKI)**
 * Digital certificate
@@ -225,7 +225,7 @@ authors:
 * Public Key Infrastructure (PKI)
   * CAs and digital certificate procedures that are accepted by all parties
 
-![digital_certificate](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/digital_certificate.png)
+![digital_certificate](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/digital_certificate.png)
 
 **Limits to Encryption Solutions**
 * Doesn’t protect storage of private key

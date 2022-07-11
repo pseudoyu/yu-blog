@@ -50,7 +50,7 @@ authors:
 **Sockets**
 * Process sends/receives messages to/from its socket
 
-![sockets](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/sockets.png)
+![sockets](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/sockets.png)
 
 **Addressing Processes**
 * To receive messages, process must have identifier
@@ -92,7 +92,7 @@ authors:
 * Throughput
 * Security
 
-![transport_service](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/transport_service.png)
+![transport_service](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/transport_service.png)
 
 **Internet Transport Protocols Services**
 * TCP service
@@ -115,7 +115,7 @@ authors:
     * Security
     * Connection setup
 
-![transport_protocols](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/transport_protocols.png)
+![transport_protocols](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/transport_protocols.png)
 
 **Securing TCP**
 * TCP & UDP
@@ -129,11 +129,11 @@ authors:
   * Apps use SSL/TLS libraries, which "talk" to TCP
   * Cleartext passwords sent into socket traverse Internet encrypted
 
-![ssl_tls](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ssl_tls.png)
+![ssl_tls](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ssl_tls.png)
 
 **The IP Hourglass**
 
-![ip_hourglass](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ip_hourglass.png)
+![ip_hourglass](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ip_hourglass.png)
 
 **HTTP Overview**
 * HTTP: Hypertext Transfer Protocol
@@ -189,14 +189,14 @@ authors:
 **HTTP Message**
 * Request
   * In ASCII (human readable format)
-  * ![http_request](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/http_request.png)
+  * ![http_request](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/http_request.png)
   * Methods
     * POST
     * GET
     * HEAD
     * PUT
 * Response
-  * ![http_response](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/http_response.png)
+  * ![http_response](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/http_response.png)
   * Statu Code
     * Informational, 1XX
     * Successful, 2XX, (200 OK)
@@ -211,12 +211,12 @@ authors:
   * Cookie file kept on user's host, managed by user's browser
   * Back-end database at website
 * Example
-  * ![cookie_example](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cookie_example.png)
+  * ![cookie_example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cookie_example.png)
 * 3rd-party cookies
   * Many sites use third party advertisements
   * The third party can set a cookie that identifies the user
   * This cookie is sent to the third party each time an ad is downloaded by the user’s browser along with the address of the page that contains the link to the ad
-  * ![3_party_cookies](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/3_party_cookies.png)
+  * ![3_party_cookies](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/3_party_cookies.png)
 
 **Web Caches (Proxy Servers)**
 * Goal
@@ -234,7 +234,7 @@ authors:
 * Cache: specify date of cached copy in HTTP request
 * Server: response contains no object if cached copy is up-to-date
 
-![conditional_get](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/conditional_get.png)
+![conditional_get](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/conditional_get.png)
 
 **HTTP/2**
 * Goals
@@ -282,7 +282,7 @@ authors:
 * Uses persistent connections
 * use *CRLF.CRLF* to determine end of message
 * Example
-  * ![smtp_example](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/smtp_example.png)
+  * ![smtp_example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/smtp_example.png)
 
 **Mail Message Format**
 * RFC 822: standard for text message format
@@ -296,11 +296,11 @@ authors:
 **Message Format: multimedia extensions**
 * MIME (multipurpose internet mail extension): multimedia mail extension (to RFC 822), RFC 2045, 2056
 * Additional lines in msg header declare MIME content type
-* ![mail_mime](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mail_mime.png)
+* ![mail_mime](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/mail_mime.png)
 
 **Mail Access Protocols**
 
-![mail_access_protocols](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/mail_access_protocols.png)
+![mail_access_protocols](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/mail_access_protocols.png)
 
 * SMTP
   * Delivery/storage to receiver's server
@@ -324,9 +324,9 @@ authors:
   * Host aliasing
   * Mail server aliasing
   * Load distribution
-* ![dns_services](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/dns_services.png)
+* ![dns_services](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/dns_services.png)
 * Root Name Servers
-  * ![root_name_servers](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/root_name_servers.png)
+  * ![root_name_servers](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/root_name_servers.png)
   * 13 LOGICAL root name servers, but 1086(or more) PHYICAL servers
   * Reply with a referral to the DNS servers for a TLD, or indicating no such TLD exists.
 * TLD & authoritative servers
@@ -378,7 +378,7 @@ authors:
       * Recursion desired
       * Recursion available
       * Reply is authoritative
-  * ![dns_message](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/dns_message.png)
+  * ![dns_message](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/dns_message.png)
 
 **Attacking DNS**
 * DDoS attacks
@@ -407,7 +407,7 @@ authors:
 
 **File Distribution (Client-Server)**
 
-![client_server_file](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/client_server_file.png)
+![client_server_file](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/client_server_file.png)
 
 * Server transmission
   * Must send/upload N file copies
@@ -433,7 +433,7 @@ authors:
 
 **Client-Server vs. P2P**
 
-![p2p_cs](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/p2p_cs.png)
+![p2p_cs](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/p2p_cs.png)
 
 **P2P File Distribution: BitTorrent**
 * Procedure

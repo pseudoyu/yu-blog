@@ -51,7 +51,7 @@ authors:
 
 另一位也是本科学校的学姐，不过是毕业后我的导师亮亮介绍认识的。当时我正要前往香港，亮亮说她之前也在香港读研并且后续也在香港工作，可以交流一下，也互相有个照应。不过我刚到香港一个月，学姐就因为个人规划离开了，这是当时的一些心绪：
 
-![some_thoughts_about_boyi](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/some_thoughts_about_boyi.png)
+![some_thoughts_about_boyi](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/some_thoughts_about_boyi.png)
 
 不知不觉也接近两年了，没想到后续自己来了北京工作，也是很巧合。一直以来她的生活状态和态度都是我向往的那种，不论是之前的香港还是现在在北京，即使工作环境和节奏截然不同，她依然能在周末或是平时闲暇的时候去学小提琴、画画，去冲浪、拳击、攀岩、跳舞等。
 

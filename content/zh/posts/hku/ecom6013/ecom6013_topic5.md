@@ -19,11 +19,11 @@ authors:
 
 **Fundamental Mobility: Cellphones**
 
-![cellphones](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cellphones.png)
+![cellphones](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cellphones.png)
 
 **Cell Handover**
 
-![cell_handover](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cell_handover.png)
+![cell_handover](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cell_handover.png)
 
 **4G vs. 5G**
 * 4G

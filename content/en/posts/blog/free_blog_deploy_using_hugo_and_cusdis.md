@@ -22,7 +22,7 @@ authors:
 
 Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。
 
-![pseudoyu_homepage](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/pseudoyu_homepage.png)
+![pseudoyu_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pseudoyu_homepage.png)
 
 因为 Hugo 开源社区中 [hugo-theme-den](https://github.com/shaform/hugo-theme-den) 完全在我的审美上，所以我选择了 Hugo 并在这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。
 
@@ -46,11 +46,11 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 作为一个持续更新运营的博客平台，我们一定很好奇我们哪篇文章阅读量最高、哪个关键词检索最频繁等，帮助我们专注在更有价值的内容创作与分享上，类似的工具也很多，我选择了 [splitbee](https://splitbee.io) 与 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重，此外，[Cloudflare](https://www.cloudflare.com) 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性没有前两者强。
 
-![splitbee_statistics](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/splitbee_statistics.png)
+![splitbee_statistics](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/splitbee_statistics.png)
 
-![google_console_performance](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/google_console_performance.png)
+![google_console_performance](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/google_console_performance.png)
 
-![cloudflare_statistics](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_statistics.png)
+![cloudflare_statistics](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_statistics.png)
 
 **[2022-05-21 更新]**
 
@@ -60,7 +60,7 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 [Disqus](https://disqus.com)，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 [Randy](https://lutaonan.com) 的 [Cusdis](https://cusdis.com)，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 [Heroku](https://www.heroku.com) 的免费 [PostgreSQL](https://www.postgresql.org) 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。
 
-![cusdis_overview](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_overview.png)
+![cusdis_overview](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cusdis_overview.png)
 
 **[2022-05-24 更新]**
 

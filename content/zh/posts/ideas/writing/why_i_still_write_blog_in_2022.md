@@ -27,7 +27,7 @@ authors:
 
 后来因为一些原因公众号停止更新了，我也很久没再公开发布文章。不过因为当时有转专业的想法，一直在自己学一些新的知识，会定期把笔记与学习心得记在自己的笔记软件中，逐渐也养成了记录的习惯。
 
-![hku_course](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hku_course.jpg)
+![hku_course](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hku_course.jpg)
 
 尤其是在香港留学期间，因为是全英授课，课后需要花很多时间来整理回顾，也会分享给很多同学，于是捡起了断更很久的博客，陆续发布了很多学习笔记，收到了很多同学的积极反馈与感谢。后来还加上了网站访问统计、评论等组件，偶尔查看会很惊喜地发现有很多来自搜索引擎的访问者，也给我继续更新提供了很多动力。
 
@@ -43,7 +43,7 @@ authors:
 
 发布后得到了很多反馈，也因此结识了不少志同道合的人，建立了自己的关系网络，对自己的学习与工作发展有了更深的认识，甚至也能获得一些有趣的机会。
 
-![work_notes](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/work_notes.jpg)
+![work_notes](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/work_notes.jpg)
 
 工作一段时间后，做了一些项目的技术负责人，需要带团队快速接入项目。这时，我的这些博文就可以作为与团队成员共享的培训资料，极大减少了重复工作量，也推动着自己保持稳定的输出节奏。此外，因为这种乐于分享的态度，我还被指派与团队 leader 一起搭建技术团队的文档库，这推动了部门乃至公司内的信息传播与业务发展，对自己的职业发展也有一些帮助。
 
@@ -51,7 +51,7 @@ authors:
 
 工作之余，我还是一个效率控，很喜欢折腾各类工具应用，还维护了一个『[pseudoyu/yu-tool 个人工具箱](https://github.com/pseudoyu/yu-tools)』项目。久而久之，很多朋友遇到软硬件相关的问题都会来问我，例如“我想实现这个功能有什么好的软件可以做到？”、“这个要怎么下载安装？”等等，我也会一一给他们解答，但因为有些软件自己使用已经不那么频繁，对细节记忆会有偏差。因此，我会将自己软件系统的搭建、使用过程作详细的记录，组织为博文并发布，以便之后自己查阅或直接分享给需要的朋友。
 
-![my_desktop_setup_in_2022_may](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/my_desktop_setup_in_2022_may.jpeg)
+![my_desktop_setup_in_2022_may](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_desktop_setup_in_2022_may.jpeg)
 
 我一直觉得记录软硬件与这些折腾的过程并不是一些冷冰冰的条目与截图的堆砌，而是我个人价值观、生活方式以及思维方式的传导，正如我在另一篇文章中的有感而发：
 
@@ -63,7 +63,7 @@ authors:
 
 相信几个月甚至几年后的自己也能从这点点滴滴的记录中找到自己当时的心境。当自己逐渐培养起记录生活的习惯，也会让自己能关注与感受到生活的美好，也能更积极地面对来自未来的挑战。
 
-![warm_comments](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/warm_comments.png)
+![warm_comments](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/warm_comments.png)
 
 个人博客就像自己的一个树洞，在记录与表达自己情绪的同时，也许也会收获一些来自陌生人的温暖。
 
@@ -107,7 +107,7 @@ authors:
 
 #### 博客搭建与自动发布系统
 
-![yu_blog_page](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/yu_blog_page.png)
+![yu_blog_page](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_blog_page.png)
 
 我通过 Hugo 这个静态网站生成器来搭建我的个人博客。Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。
 
@@ -125,13 +125,13 @@ authors:
 
 作为一个持续更新运营的博客平台，我们一定很好奇哪篇文章阅读量最高、哪个关键词检索最频繁等，数据统计能帮助我们专注在更有价值的内容创作与分享上。
 
-![splitbee_data](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/splitbee_data.png)
+![splitbee_data](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/splitbee_data.png)
 
-![google_console_data](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/google_console_data.png)
+![google_console_data](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/google_console_data.png)
 
 类似的工具也很多，我选择了 [splitbee](https://splitbee.io/) 与 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重。
 
-![cloudflare_data](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_data.png)
+![cloudflare_data](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_data.png)
 
 [Cloudflare](https://www.cloudflare.com/) 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性不强。
 

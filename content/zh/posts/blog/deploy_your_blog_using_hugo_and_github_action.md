@@ -25,7 +25,7 @@ authors:
 
 ## 使用 Hugo 搭建博客
 
-![hugo_website](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_website.png)
+![hugo_website](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_website.png)
 
 [Hugo](https://gohugo.io) 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。
 
@@ -51,7 +51,7 @@ hugo version
 hugo new site blog-test
 ```
 
-![hugo_new_site](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_new_site.png)
+![hugo_new_site](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_new_site.png)
 
 ### 配置主题
 
@@ -67,7 +67,7 @@ git init
 git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-den
 ```
 
-![hugo_init_theme](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_init_theme.png)
+![hugo_init_theme](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_init_theme.png)
 
 #### 更新主题
 
@@ -93,7 +93,7 @@ cp -rf themes/hugo-theme-den/exampleSite/* ./
 
 初始化主题基础配置后，我们可以在 `config.toml` 文件中进行站点细节配置，具体配置项参考各主题说明文档。
 
-![hugo_theme_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_theme_config.png)
+![hugo_theme_config](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_theme_config.png)
 
 完成后，可以通过 `hugo new` 命令发布新文章。
 
@@ -101,7 +101,7 @@ cp -rf themes/hugo-theme-den/exampleSite/* ./
 hugo new posts/blog-test.md
 ```
 
-![hugo_new_post](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_new_post.png)
+![hugo_new_post](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_new_post.png)
 
 #### 本地调试站点
 
@@ -111,11 +111,11 @@ Hugo 会生成静态网页，我们在本地编辑调试时可以通过 `hugo se
 hugo server
 ```
 
-![hugo_server](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_server.png)
+![hugo_server](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_server.png)
 
 运行服务后，我们可以通过浏览器 `http://localhost:1313` 地址访问我们的本地预览网页。
 
-![hugo_server_preview](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_server_preview.png)
+![hugo_server_preview](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_server_preview.png)
 
 ### 使用 GitHub Pages 前期准备
 
@@ -125,39 +125,39 @@ hugo server
 
 首先我们需要注册一个 Cloudflare 账户，登录后选择左侧边栏的“注册域”，并搜索自己想注册的域名。
 
-![cloudflare_register_domain](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_register_domain.png)
+![cloudflare_register_domain](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_register_domain.png)
 
 选择了心仪的域名后，点击并选择购买时限并填写个人信息。
 
-![cloudflare_register_domain_choose](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_register_domain_choose.png)
+![cloudflare_register_domain_choose](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_register_domain_choose.png)
 
 选择付款方式，建议可以选择自动续订，以免忘记续费。
 
-![cloudflare_register_domain_payment](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_register_domain_payment.png)
+![cloudflare_register_domain_payment](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_register_domain_payment.png)
 
 类型选择 Personal 即可，并点击完成购买。
 
-![cloudflare_register_done](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_register_done.png)
+![cloudflare_register_done](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_register_done.png)
 
 等待 Cloudflare 处理后即可查看信息。
 
-![cloudflare_domain](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_domain.jpeg)
+![cloudflare_domain](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_domain.jpeg)
 
 #### GitHub Pages 仓库
 
 GitHub Pages 项目需要符合 `username.github.io` 的特殊命名格式，仓库建立完成后，可以在设置中配置自己注册的自定义域名来指向 GitHub Pages 生成的网址。此外，需要将博客站点配置文件 `config.toml` 中的 `baseURL` 改为自己的自定义域名，格式为 `"https://www.pseudoyu.com/"`，这样博客站点才能正常访问 GitHub Pages 生成的网站服务。
 
-![github_pages_repo](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/github_pages_repo.png)
+![github_pages_repo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/github_pages_repo.png)
 
 #### 域名解析
 
 按照上文步骤注册好后，需要在域名托管商进行 DNS 解析，在这里我们需要选择 CNAME，指向我们的 GitHub Pages 网址。
 
-![cloudflare_cname_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_cname_config.png)
+![cloudflare_cname_config](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_cname_config.png)
 
 因为 CNAME 解析没办法设置 root 域名，即只能设置 `www.pseudoyu.com` 或其他子域名，而不是 `pseudoyu.com`，因此，我们可以通过 Cloudflare 上自定义规则设置域名重定向，具体配置如下，仅需将我的域名替换成自己的域名即可。即使你是通过 NameSilo 注册的域名，也可以通过 Cloudflare 来添加站点以实现功能，或者其他托管平台也有类似的功能，按照说明配置即可。
 
-![cloudflare_cname_rule_config](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_cname_rule_config.png)
+![cloudflare_cname_rule_config](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/cloudflare_cname_rule_config.png)
 
 ### GitHub Pages 发布博客
 
@@ -174,7 +174,7 @@ hugo
 cd public/
 ```
 
-![hugo_gen_pages](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_gen_pages.png)
+![hugo_gen_pages](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_gen_pages.png)
 
 Hugo 默认会将生成的静态网页文件存放在 `public/` 目录下，我们可以通过将 `public/` 目录初始化为 git 仓库并关联我们的 `pseudoyu/pseudoyu.github.io` 远程仓库来推送我们的网页静态文件。
 
@@ -185,7 +185,7 @@ git add .
 git commit -m "add test"
 ```
 
-![hugo_public_init](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hugo_public_init.png)
+![hugo_public_init](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hugo_public_init.png)
 
 核对文件修改后，即可通过 `git push origin master` 推送到 GitHub Pages 仓库，稍等几分钟即可通过我们的自定义域名来访问我们的博客站点了，和我们 `hugo server` 本地调试完全一致。
 
@@ -252,21 +252,21 @@ jobs:
 
 因为我们需要从博客仓库推送到外部 GitHub Pages 仓库，需要特定权限，要在 GitHub 账户下 `Setting - Developer setting - Personal access tokens` 下创建一个 Token。
 
-![github_psersonal_access_token](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/github_psersonal_access_token.png)
+![github_psersonal_access_token](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/github_psersonal_access_token.png)
 
 权限需要开启 `repo` 与 `workflow`。
 
-![yu_blog_personal_token](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/yu_blog_personal_token.png)
+![yu_blog_personal_token](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_blog_personal_token.png)
 
 配置后复制生成的 Token（注：只会出现一次），然后在我们博客源仓库的 `Settings - Secrets - Actions` 中添加 `PERSONAL_TOKEN` 环境变量为刚才的 Token，这样 GitHub Action 就可以获取到 Token 了。
 
 完成上述配置后，推送代码至仓库，即可触发 GitHub Action，自动生成博客页面并推送至 GitHub Pages 仓库。
 
-![yu_blog_ci](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/yu_blog_ci.png)
+![yu_blog_ci](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_blog_ci.png)
 
 而 GitHub Pages 仓库更新后，又会自动触发官方页面部署 CI，实现我们的网站发布。
 
-![page_build_ci](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/page_build_ci.png)
+![page_build_ci](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/page_build_ci.png)
 
 经过上述配置，我们已经实现了 Hugo 博客本地搭建及版本管理、GitHub Pages 部署网站发布，Hugp 主题管理及更新等功能，实现了完整的系统。现在每当我们本地通过熟悉的 Markdown 语法完成博客内容编辑后，只需要推送代码，等待几分钟，即可通过我们的自定义域名访问更新后的网站。
 

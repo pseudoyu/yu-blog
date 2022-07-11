@@ -18,11 +18,11 @@ The iPad Air 4 (2020) got shown off at Apple's September event held on September
 
 Apple iPad Air product line is mainly targeted to educators/students, staffs and kids/teenagers. So, the most premium features this new product wants to convey to customers is its fancy appearance and powerful A14 Bionic for creation, study and entertainment. Rather than directly shows all parameter, the company presents a series of beautiful pictures (with impressive animations) to catch audiences’ attention at first glance. 
 
-![ipad_air_presence_1](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ipad_air_presence_1.png)
+![ipad_air_presence_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ipad_air_presence_1.png)
 
 Then potential audiences may want to get more detailed information about the appearance or performance they are interested in and scroll down to see more.
 
-![ipad_air_presence_2](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/ipad_air_presence_2.png)
+![ipad_air_presence_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ipad_air_presence_2.png)
 
 The most important part of this presence is the description of features. Considered major audiences are educators/students, relatively young staffs in a company and kids/teenagers in the family, every introduction part starts with an attractive header with the keywords like “work”, “working”, “class”, “together”, “leisure time” and so on. These headers help or guide audiences to think about their current status when stduying, working or entertaining and realize their needs or how this product can improve it.
 
