@@ -49,11 +49,8 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Solidity   1 hr 11 mins   █████████████▏░░░░░░░  62.5%
-sh         26 mins        ████▉░░░░░░░░░░░░░░░░  23.4%
-Other      8 mins         █▋░░░░░░░░░░░░░░░░░░░   7.8%
-Go         6 mins         █▎░░░░░░░░░░░░░░░░░░░   6.0%
-Markdown   0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.2%
+Other      0 secs         ██████████████▉░░░░░░  71.2%
+Solidity   0 secs         ██████░░░░░░░░░░░░░░░  28.8%
 ```
 
 <!-- code_time ends -->
