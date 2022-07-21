@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35524446/' target='_blank'>在看非常律师禹英禑</a> - 2022-07-18
-* <a href='http://movie.douban.com/subject/33477335/' target='_blank'>看过正常人</a> - 2022-07-11
-* <a href='https://book.douban.com/subject/35623795/' target='_blank'>想读大萧条前夜的繁荣与疯狂</a> - 2022-07-11
-* <a href='http://movie.douban.com/subject/35620761/' target='_blank'>在看鬼灭之刃 无限列车篇</a> - 2022-07-11
-* <a href='http://movie.douban.com/subject/35539827/' target='_blank'>在看继母的拖油瓶是我的前女友</a> - 2022-07-10
+* <a href='https://book.douban.com/subject/33536171/' target='_blank'>想读原子習慣</a> - 2022-07-21
+* <a href='http://movie.douban.com/subject/34813210/' target='_blank'>看过鬼灭之刃 游郭篇</a> - 2022-07-20
+* <a href='http://movie.douban.com/subject/30210221/' target='_blank'>看过鬼灭之刃</a> - 2022-07-20
+* <a href='http://movie.douban.com/subject/34626347/' target='_blank'>看过黑袍纠察队 第二季</a> - 2022-07-20
+* <a href='http://movie.douban.com/subject/3703650/' target='_blank'>看过黑袍纠察队 第一季</a> - 2022-07-20
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
@@ -52,6 +52,8 @@ rss_ignore: true
 ```text
 Other      0 secs         ██████████████▉░░░░░░  71.2%
 Solidity   0 secs         ██████░░░░░░░░░░░░░░░  28.8%
+Go         0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
+Markdown   0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
 ```
 
 <!-- code_time ends -->
