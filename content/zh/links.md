@@ -13,9 +13,10 @@ rss_ignore: true
 
 {{< friend name="M1sty" url="https://www.m1sty.com" logo="https://www.m1sty.com/images/me/avatar.JPG" word="Mircales Happen Every Misty Day" >}}
 {{< friend name="Boyi's Blog" url="https://luboyi.hashnode.dev" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/boyi_blog.jpeg" word="EXPECTO PATRONUM" >}}
-{{< friend name="Airing 的小屋" url="https://me.ursb.me" logo="https://airing.ursb.me/image/airing-face.png" word="Airing 的小屋" >}}
+{{< friend name="Airing 的小屋" url="https://me.ursb.me" logo="https://airing.ursb.me/image/airing-face.png" word="Airing 的博客" >}}
 {{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://www.zzhack.fun/images/avatar.png" word="Mist 的博客" >}}
 {{< friend name="Kiro" url="https://kiro.cc" logo="https://kiro.cc/more/128.jpg" word="Salad taste like sad." >}}
+{{< friend name="STRRL" url="https://strrl.dev" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/strrl_logo.jpeg" word="STRRL 的博客" >}}
 
 </div>
 </div>
