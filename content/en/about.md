@@ -38,11 +38,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/7051806/' target='_blank'>看过灰影人</a> - 2022-07-24
+* <a href='http://movie.douban.com/subject/35900652/' target='_blank'>看过熊家餐馆 第一季</a> - 2022-07-24
+* <a href='http://movie.douban.com/subject/6284624/' target='_blank'>看过十三个原因 第一季</a> - 2022-07-24
 * <a href='http://movie.douban.com/subject/35131346/' target='_blank'>想看隐入尘烟</a> - 2022-07-24
-* <a href='http://movie.douban.com/subject/35900652/' target='_blank'>在看熊家餐馆 第一季</a> - 2022-07-24
 * <a href='https://book.douban.com/subject/26425831/' target='_blank'>最近在读斯通纳</a> - 2022-07-23
-* <a href='http://movie.douban.com/subject/30402296/' target='_blank'>看过天气之子</a> - 2022-07-23
-* <a href='http://movie.douban.com/subject/26952963/' target='_blank'>看过新奇</a> - 2022-07-22
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
