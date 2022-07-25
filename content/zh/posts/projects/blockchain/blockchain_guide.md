@@ -12,7 +12,7 @@ authors:
 
 > 一个不断更新的区块链核心知识库
 
-[源项目地址](https://github.com/pseudoyu/blockchain-guide) | [在线阅读](https://www.pseudoyu.com/blockchain-guide/)
+[源项目地址](https://github.com/pseudoyu/blockchain-guide) | [在线阅读](https://guide.pseudoyu.com)
 
 **目录**
 
