@@ -49,10 +49,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Other      0 secs         ██████████████▉░░░░░░  71.2%
-Solidity   0 secs         ██████░░░░░░░░░░░░░░░  28.8%
-Go         0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
-Markdown   0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
+Markdown   45 mins        █████████████████████ 100.0%
 ```
 
 <!-- code_time ends -->

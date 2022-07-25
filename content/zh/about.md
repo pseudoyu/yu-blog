@@ -50,10 +50,7 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Other      0 secs         ██████████████▉░░░░░░  71.2%
-Solidity   0 secs         ██████░░░░░░░░░░░░░░░  28.8%
-Go         0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
-Markdown   0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
+Markdown   45 mins        █████████████████████ 100.0%
 ```
 
 <!-- code_time ends -->
