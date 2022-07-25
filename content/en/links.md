@@ -13,7 +13,7 @@ rss_ignore: true
 
 {{< friend name="M1sty" url="https://www.m1sty.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/misty_avatar.jpg" word="Mircales Happen Every Misty Day" >}}
 {{< friend name="Boyi" url="https://luboyi.hashnode.dev" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/boyi_blog.jpeg" word="EXPECTO PATRONUM" >}}
-{{< friend name="Airing" url="https://me.ursb.me" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/airing_avatar.png" word="Airing" >}}
+{{< friend name="Airing" url="https://me.ursb.me" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/airing_avatar.png" word="Airing's Blog" >}}
 {{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/zzhack_avatar.png" word="Mist's Blog" >}}
 {{< friend name="Kiro" url="https://kiro.cc" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/kiro_avatar.jpg" word="Salad taste like sad." >}}
 {{< friend name="STRRL" url="https://strrl.dev" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/strrl_logo.jpeg" word="STRRL's Blog" >}}
