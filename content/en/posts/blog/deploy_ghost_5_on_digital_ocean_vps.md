@@ -3,7 +3,7 @@ title: "Ghost 5.0 来了，使用 Digital Ocean 一键部署吧"
 date: 2022-05-29T14:21:12+08:00
 draft: false
 tags: ["blog", "ghost", "digital ocean", "vps", "self-host"]
-categories: ["Tool"]
+categories: ["Tools"]
 authors:
 - "Arthur"
 ---

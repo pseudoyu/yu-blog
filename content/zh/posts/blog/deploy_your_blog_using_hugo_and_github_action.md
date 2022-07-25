@@ -3,7 +3,7 @@ title: "Hugo + GitHub Action，搭建你的博客自动发布系统"
 date: 2022-05-29T20:39:29+08:00
 draft: false
 tags: ["hugo", "github", "github action", "github pages", "cloudflare", "serverless", "self-host", "blog"]
-categories: ["Tool"]
+categories: ["Tools"]
 authors:
 - "Arthur"
 ---
