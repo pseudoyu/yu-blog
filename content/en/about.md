@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/27614904/' target='_blank'>读过房思琪的初恋乐园</a> - 2022-07-26
+* <a href='http://movie.douban.com/subject/35417872/' target='_blank'>在看异世界归来的舅舅</a> - 2022-07-26
 * <a href='http://movie.douban.com/subject/7051806/' target='_blank'>看过灰影人</a> - 2022-07-24
 * <a href='http://movie.douban.com/subject/35900652/' target='_blank'>看过熊家餐馆 第一季</a> - 2022-07-24
 * <a href='http://movie.douban.com/subject/6284624/' target='_blank'>看过十三个原因 第一季</a> - 2022-07-24
-* <a href='http://movie.douban.com/subject/35131346/' target='_blank'>想看隐入尘烟</a> - 2022-07-24
-* <a href='https://book.douban.com/subject/26425831/' target='_blank'>最近在读斯通纳</a> - 2022-07-23
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   3 hrs 44 mins  ██████████▊░░░░░░░░░░  51.5%
-sh         2 hrs 59 mins  ████████▋░░░░░░░░░░░░  41.2%
-YAML       13 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.2%
-Makefile   9 mins         ▍░░░░░░░░░░░░░░░░░░░░   2.2%
-Dockerfile 3 mins         ▏░░░░░░░░░░░░░░░░░░░░   0.7%
+sh         4 hrs 5 mins   █████████▏░░░░░░░░░░░  43.7%
+Markdown   3 hrs 50 mins  ████████▋░░░░░░░░░░░░  41.1%
+Bash       25 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.6%
+Makefile   16 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.9%
+YAML       13 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.5%
 ```
 
 <!-- code_time ends -->
