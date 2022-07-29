@@ -22,7 +22,7 @@ authors:
 
 ## 关于爱情
 
-{{<audio src="http://pseudoyu.oss-cn-hangzhou.aliyuncs.com/audios/I_fell_in_love_like_a_flower_bouquet.mp3" caption="《花束みたいな恋を - 大友良英》" >}}
+{{<audio src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/audios/I_fell_in_love_like_a_flower_bouquet.mp3" caption="《花束みたいな恋を - 大友良英》" >}}
 
 ---
 
