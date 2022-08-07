@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/34982236/' target='_blank'>在看天才基本法</a> - 2022-08-02
+* <a href='http://movie.douban.com/subject/35445834/' target='_blank'>想看绝望写手 第一季</a> - 2022-08-06
+* <a href='http://movie.douban.com/subject/34982236/' target='_blank'>看过天才基本法</a> - 2022-08-06
 * <a href='http://movie.douban.com/subject/35183042/' target='_blank'>看过独行月球</a> - 2022-07-31
 * <a href='http://movie.douban.com/subject/35955852/' target='_blank'>看过全网最痛恨的男人</a> - 2022-07-30
 * <a href='https://book.douban.com/subject/6021440/' target='_blank'>想读黑客与画家</a> - 2022-07-28
-* <a href='https://book.douban.com/subject/27614904/' target='_blank'>读过房思琪的初恋乐园</a> - 2022-07-26
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         6 hrs 29 mins  ██████████░░░░░░░░░░░  48.1%
-Markdown   3 hrs 31 mins  █████▍░░░░░░░░░░░░░░░  26.2%
-Solidity   1 hr 19 mins   ██░░░░░░░░░░░░░░░░░░░   9.9%
-sh         1 hr 16 mins   █▉░░░░░░░░░░░░░░░░░░░   9.5%
-Text       14 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.8%
+Go         8 hrs 31 mins  ██████████▎░░░░░░░░░░  48.9%
+Markdown   3 hrs 33 mins  ████▎░░░░░░░░░░░░░░░░  20.4%
+Solidity   2 hrs 39 mins  ███▏░░░░░░░░░░░░░░░░░  15.3%
+sh         1 hr 31 mins   █▊░░░░░░░░░░░░░░░░░░░   8.8%
+Text       18 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.8%
 ```
 
 <!-- code_time ends -->
