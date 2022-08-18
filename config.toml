@@ -181,6 +181,11 @@ defaultContentLanguageInSubdir = true
     weight = 30
     identifier = "blog-statistics"
     url = "https://data.pseudoyu.com/share/8YKX7FUa/Yu-Blog"
+  [[languages.en.menu.links]]
+    name = "M1sty"
+    weight = 40
+    identifier = "m1sty"
+    url = "https://github.com/M1styDay"
   
   [languages.zh]
   languageCode = "zh"
@@ -253,3 +258,8 @@ defaultContentLanguageInSubdir = true
     weight = 30
     identifier = "blog-statistics"
     url = "https://data.pseudoyu.com/share/8YKX7FUa/Yu-Blog"
+  [[languages.zh.menu.links]]
+    name = "M1sty"
+    weight = 40
+    identifier = "m1sty"
+    url = "https://github.com/M1styDay"
