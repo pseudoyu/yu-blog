@@ -146,27 +146,42 @@ defaultContentLanguageInSubdir = true
     url = "category/projects/"
 
   [[languages.en.menu.social]]
-    name = "Twitter"
+    name = "Telegram"
     weight = 10
+    identifier = "telegram"
+    url = "https://t.me/pseudoyulife"
+  [[languages.en.menu.social]]
+    name = "Twitter"
+    weight = 20
     identifier = "twitter"
     url = "https://twitter.com/pseudo_yu"
   [[languages.en.menu.social]]
     name = "Instagram"
-    weight = 20
+    weight = 30
     identifier = "instagram"
     url = "https://www.instagram.com/pseudo.yu/"
   [[languages.en.menu.social]]
     name = "BiliBili"
-    weight = 30
+    weight = 40
     identifier = "bilibili"
     url = "https://space.bilibili.com/5374948/"
 
   [[languages.en.menu.links]]
-    name = "M1sty"
+    name = "GitHub Profile"
     weight = 10
-    identifier = "m1sty"
-    url = "https://www.m1sty.com"
-
+    identifier = "github"
+    url = "https://github.com/pseudoyu"
+  [[languages.en.menu.links]]
+    name = "VPS Status"
+    weight = 20
+    identifier = "vps-status"
+    url = "https://stats.uptimerobot.com/lPN5YU1wM0"
+  [[languages.en.menu.links]]
+    name = "Blog Stats"
+    weight = 30
+    identifier = "blog-statistics"
+    url = "https://data.pseudoyu.com/share/8YKX7FUa/Yu-Blog"
+  
   [languages.zh]
   languageCode = "zh"
   languageName = "中文"
@@ -203,23 +218,38 @@ defaultContentLanguageInSubdir = true
     url = "category/projects/"
 
   [[languages.zh.menu.social]]
-    name = "Twitter"
+    name = "Telegram"
     weight = 10
+    identifier = "telegram"
+    url = "https://t.me/pseudoyulife"
+  [[languages.zh.menu.social]]
+    name = "Twitter"
+    weight = 20
     identifier = "twitter"
     url = "https://twitter.com/pseudo_yu"
   [[languages.zh.menu.social]]
     name = "Instagram"
-    weight = 20
+    weight = 30
     identifier = "instagram"
     url = "https://www.instagram.com/pseudo.yu/"
   [[languages.zh.menu.social]]
     name = "BiliBili"
-    weight = 30
+    weight = 40
     identifier = "bilibili"
     url = "https://space.bilibili.com/5374948/"
 
   [[languages.zh.menu.links]]
-    name = "M1sty"
+    name = "GitHub Profile"
     weight = 10
-    identifier = "m1sty"
-    url = "https://www.m1sty.com"
+    identifier = "github"
+    url = "https://github.com/pseudoyu"
+  [[languages.zh.menu.links]]
+    name = "VPS Status"
+    weight = 20
+    identifier = "vps-status"
+    url = "https://stats.uptimerobot.com/lPN5YU1wM0"
+  [[languages.zh.menu.links]]
+    name = "Blog Stats"
+    weight = 30
+    identifier = "blog-statistics"
+    url = "https://data.pseudoyu.com/share/8YKX7FUa/Yu-Blog"
