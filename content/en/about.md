@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/35593780/' target='_blank'>最近在读工作、消费主义和新穷人</a> - 2022-08-17
-* <a href='https://book.douban.com/subject/33424766/' target='_blank'>最近在读精通以太坊：开发智能合约和去中心化应用</a> - 2022-08-16
-* <a href='https://book.douban.com/subject/34429983/' target='_blank'>读过蒂姆·库克传</a> - 2022-08-16
-* <a href='https://book.douban.com/subject/35720728/' target='_blank'>读过Go语言精进之路</a> - 2022-08-16
-* <a href='https://book.douban.com/subject/3990022/' target='_blank'>最近在读美国纽约摄影学院摄影教材（上册）</a> - 2022-08-16
+* <a href='http://movie.douban.com/subject/34867871/' target='_blank'>在看英雄联盟：双城之战 第一季</a> - 2022-08-21
+* <a href='http://movie.douban.com/subject/35597426/' target='_blank'>看过稍微想起一些</a> - 2022-08-21
+* <a href='https://book.douban.com/subject/35240614/' target='_blank'>最近在读九宫格写作法</a> - 2022-08-21
+* <a href='http://movie.douban.com/subject/36033619/' target='_blank'>想看喵星人的奇思妙想</a> - 2022-08-20
+* <a href='http://movie.douban.com/subject/35524446/' target='_blank'>看过非常律师禹英禑</a> - 2022-08-20
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   11 hrs 46 mins ██████████▉░░░░░░░░░░  52.3%
-Other      2 hrs 51 mins  ██▋░░░░░░░░░░░░░░░░░░  12.7%
-sh         2 hrs 40 mins  ██▍░░░░░░░░░░░░░░░░░░  11.9%
-Solidity   2 hrs 29 mins  ██▎░░░░░░░░░░░░░░░░░░  11.1%
-JavaScript 42 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.1%
+Markdown   11 hrs 53 mins ██████████▋░░░░░░░░░░  50.6%
+Other      3 hrs 44 mins  ███▎░░░░░░░░░░░░░░░░░  15.9%
+sh         2 hrs 40 mins  ██▍░░░░░░░░░░░░░░░░░░  11.4%
+Solidity   2 hrs 29 mins  ██▏░░░░░░░░░░░░░░░░░░  10.6%
+JavaScript 42 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.0%
 ```
 
 <!-- code_time ends -->
