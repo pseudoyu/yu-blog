@@ -2,7 +2,7 @@
 title: "周报 #08 - 职业杂谈、404 Not Found 与猫"
 date: 2022-08-22T10:22:14+08:00
 draft: false
-tags: ["review", "life", "reading", "romance", "emotion"]
+tags: ["review", "life", "reading", "romance", "love", "emotion", "cat", "career"]
 categories: ["Ideas"]
 authors:
 - "Arthur"
