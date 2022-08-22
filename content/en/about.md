@@ -38,11 +38,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/36033619/' target='_blank'>看过喵星人的奇思妙想</a> - 2022-08-22
 * <a href='http://www.douban.com/game/35377547/' target='_blank'>玩过宝可梦传说 阿尔宙斯 Pokémon Legends アルセウス</a> - 2022-08-22
 * <a href='http://www.douban.com/game/30474617/' target='_blank'>玩过宝可梦 剑 ポケットモンスター ソード</a> - 2022-08-22
 * <a href='http://www.douban.com/game/30421907/' target='_blank'>玩过隐形守护者</a> - 2022-08-22
 * <a href='http://www.douban.com/game/35377548/' target='_blank'>玩过宝可梦 晶灿钻石 ポケットモンスター ブリリアントダイヤモンド</a> - 2022-08-22
-* <a href='http://www.douban.com/game/27067717/' target='_blank'>玩过奇异人生：暴风前夕 Life is Strange：Before The Storm</a> - 2022-08-22
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
