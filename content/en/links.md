@@ -21,6 +21,7 @@ rss_ignore: true
 {{< friend name="Homura" url="https://homura.live" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/homura_avatar.jpg" word="Homura's Blog" >}}
 {{< friend name="Manjusaka" url="https://www.manjusaka.blog" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/manjusaka_avatar.jpeg" word="Manjusaka's Blog" >}}
 {{< friend name="新一" url="https://a-wing.top" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/xinyi_avatar.jpeg" word="新一's Blog" >}}
+{{< friend name="ServerCat" url="https://servercat.app" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/servercat_logo.png" word="iOS/macOS SSH client" >}}
 
 </div>
 </div>
