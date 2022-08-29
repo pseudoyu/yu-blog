@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/26889236/' target='_blank'>最近在读我的职业是小说家</a> - 2022-08-29
+* <a href='https://book.douban.com/subject/25733470/' target='_blank'>读过没有色彩的多崎作和他的巡礼之年</a> - 2022-08-28
+* <a href='https://book.douban.com/subject/26425831/' target='_blank'>读过斯通纳</a> - 2022-08-28
 * <a href='http://movie.douban.com/subject/35198592/' target='_blank'>在看医院五日</a> - 2022-08-27
 * <a href='http://movie.douban.com/subject/34825964/' target='_blank'>在看龙之家族 第一季</a> - 2022-08-27
-* <a href='https://book.douban.com/subject/35128340/' target='_blank'>想读Working in Public</a> - 2022-08-25
-* <a href='https://book.douban.com/subject/26425831/' target='_blank'>最近在读斯通纳</a> - 2022-08-25
-* <a href='https://book.douban.com/subject/35240614/' target='_blank'>读过九宫格写作法</a> - 2022-08-24
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Other      4 hrs 42 mins  ██████▉░░░░░░░░░░░░░░  33.3%
-Markdown   3 hrs 16 mins  ████▊░░░░░░░░░░░░░░░░  23.1%
-Solidity   2 hrs 2 mins   ███░░░░░░░░░░░░░░░░░░  14.5%
-YAML       1 hr 55 mins   ██▊░░░░░░░░░░░░░░░░░░  13.6%
-sh         1 hr 15 mins   █▉░░░░░░░░░░░░░░░░░░░   8.9%
+Other      4 hrs 36 mins  ███████▍░░░░░░░░░░░░░  35.3%
+Markdown   3 hrs 13 mins  █████▏░░░░░░░░░░░░░░░  24.6%
+Solidity   2 hrs 2 mins   ███▎░░░░░░░░░░░░░░░░░  15.7%
+YAML       1 hr 18 mins   ██░░░░░░░░░░░░░░░░░░░  10.0%
+sh         1 hr 15 mins   ██░░░░░░░░░░░░░░░░░░░   9.7%
 ```
 
 <!-- code_time ends -->
