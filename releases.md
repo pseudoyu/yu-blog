@@ -30,7 +30,7 @@ All <!-- release_count starts -->17<!-- release_count ends --> of my released pr
 * **[udemy-java](https://github.com/pseudoyu/udemy-java)**: [Udemy Java 课程代码](https://github.com/pseudoyu/udemy-java/releases/tag/v0.0.1)
 <br>Java Programming Masterclass for Software Developer on Udemy Platform
 * **[uright](https://github.com/pseudoyu/uright)**: [区块链音乐版权管理项目内测版本](https://github.com/pseudoyu/uright/releases/tag/v0.0.1)
-<br>通过 Truffle 部署于 Ethereum 的音乐版权管理 DApp
+<br>通过 Truffle 部署于 Ethereum 的音乐版权管理 ÐApp
 * **[liantoubao](https://github.com/pseudoyu/liantoubao)**: [数字货币实时监控系统](https://github.com/pseudoyu/liantoubao/releases/tag/v1.0.0)
 <br>初沐 - 数字货币实时监控系统
 * **[blockchain-forum](https://github.com/pseudoyu/blockchain-forum)**: [区块链学习论坛](https://github.com/pseudoyu/blockchain-forum/releases/tag/v0.0.1)
