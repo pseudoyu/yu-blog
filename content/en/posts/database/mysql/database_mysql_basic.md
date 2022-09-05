@@ -1,8 +1,8 @@
 ---
-title: "MySQL 基础知识与相关操作"
+title: "MySQL 基础与实践"
 date: 2021-03-29T00:12:17+08:00
 draft: false
-tags: ["database", "mysql", "programming"]
+tags: ["database", "mysql", "programming", "work practice series", "work", "practice", "backend"]
 categories: ["Develop"]
 authors:
 - "Arthur"
