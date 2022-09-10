@@ -2,7 +2,7 @@
 title: "[译] Go sync.Once 的妙用"
 date: 2021-09-02T13:31:25+08:00
 draft: false
-tags: ["go", "concurrency", "programming"]
+tags: ["go", "concurrency", "programming", "translation"]
 categories: ["Develop"]
 authors:
 - "Arthur"

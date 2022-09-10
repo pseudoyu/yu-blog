@@ -2,7 +2,7 @@
 title: "[译] 是什么让 Golang 如此受欢迎？语言创造者的回顾"
 date: 2022-06-06T18:21:45+08:00
 draft: false
-tags: ["go", "google", "programming"]
+tags: ["go", "google", "programming", "translation"]
 categories: ["Develop"]
 authors:
 - "Arthur"

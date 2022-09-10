@@ -2,7 +2,7 @@
 title: "Go 错误处理总结与实践"
 date: 2021-08-29T00:19:42+08:00
 draft: false
-tags: ["go", "error", "programming"]
+tags: ["go", "error", "programming", "translation"]
 categories: ["Develop"]
 authors:
 - "Arthur"

@@ -2,7 +2,7 @@
 title: "[译] 用 Go 编写一个简单的内存键值数据库"
 date: 2022-05-21T14:53:51+08:00
 draft: false
-tags: ["go", "database", "programming"]
+tags: ["go", "database", "programming", "translation"]
 categories: ["Develop"]
 authors:
 - "Arthur"

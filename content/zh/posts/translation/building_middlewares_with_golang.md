@@ -2,7 +2,7 @@
 title: "[译] 理解并用 Go 语言实现一个 HTTP 中间件"
 date: 2022-02-15T18:24:01+08:00
 draft: false
-tags: ["go", "middleware", "programming"]
+tags: ["go", "middleware", "programming", "translation"]
 categories: ["Develop"]
 authors:
 - "Arthur"
