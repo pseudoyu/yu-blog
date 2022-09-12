@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/35635639/' target='_blank'>最近在读法治的细节</a> - 2022-09-12
+* <a href='https://book.douban.com/subject/6021440/' target='_blank'>读过黑客与画家</a> - 2022-09-12
+* <a href='http://movie.douban.com/subject/1308575/' target='_blank'>看过蓝色大门</a> - 2022-09-11
+* <a href='http://movie.douban.com/subject/3402975/' target='_blank'>想看败犬女王</a> - 2022-09-11
 * <a href='http://movie.douban.com/subject/25921812/' target='_blank'>看过驴得水</a> - 2022-09-10
-* <a href='https://book.douban.com/subject/1102259/' target='_blank'>想读人月神话</a> - 2022-09-09
-* <a href='http://movie.douban.com/subject/3168993/' target='_blank'>看过求婚大作战特别篇</a> - 2022-09-04
-* <a href='http://movie.douban.com/subject/2018131/' target='_blank'>看过求婚大作战</a> - 2022-09-04
-* <a href='https://book.douban.com/subject/4238362/' target='_blank'>最近在读送你一颗子弹</a> - 2022-09-03
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   13 hrs 14 mins █████████░░░░░░░░░░░░  43.1%
-Go         8 hrs 19 mins  █████▋░░░░░░░░░░░░░░░  27.1%
-sh         3 hrs 41 mins  ██▌░░░░░░░░░░░░░░░░░░  12.0%
-Protoco... 1 hr 17 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.2%
-Makefile   1 hr 1 min     ▋░░░░░░░░░░░░░░░░░░░░   3.3%
+Markdown   12 hrs 20 mins ████████▋░░░░░░░░░░░░  41.5%
+Go         8 hrs 19 mins  █████▉░░░░░░░░░░░░░░░  28.1%
+sh         3 hrs 41 mins  ██▌░░░░░░░░░░░░░░░░░░  12.4%
+Protoco... 1 hr 17 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.3%
+Makefile   1 hr 1 min     ▋░░░░░░░░░░░░░░░░░░░░   3.5%
 ```
 
 <!-- code_time ends -->
