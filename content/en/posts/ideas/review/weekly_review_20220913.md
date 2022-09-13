@@ -83,7 +83,7 @@ authors:
 
 其他的就是还蹭了个 Go 的热点，给 GoCN 首发翻译了一篇文章：
 
-- 『[[译] Go 新漏洞管理工具：govulncheck](https://www.pseudoyu.com/en/2022/09/10/vulnerability_management_for_go/)』
+- [[译] Go 新漏洞管理工具：govulncheck](https://www.pseudoyu.com/en/2022/09/10/vulnerability_management_for_go/)
 
 还有很多想写的主题，后面不能再偷懒了。
 
