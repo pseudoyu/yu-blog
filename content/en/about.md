@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/1793929/' target='_blank'>看过达拉斯买家俱乐部</a> - 2022-09-22
+* <a href='http://movie.douban.com/subject/26766869/' target='_blank'>看过鹬</a> - 2022-09-21
+* <a href='http://movie.douban.com/subject/1295437/' target='_blank'>看过春天不是读书天</a> - 2022-09-21
 * <a href='http://movie.douban.com/subject/21355794/' target='_blank'>想看企鹅群里有特务</a> - 2022-09-20
 * <a href='http://movie.douban.com/subject/1295728/' target='_blank'>看过早餐俱乐部</a> - 2022-09-19
-* <a href='http://www.douban.com/game/35364057/' target='_blank'>想玩斯普拉遁3 Splatoon 3</a> - 2022-09-19
-* <a href='http://www.douban.com/game/35764202/' target='_blank'>想玩异度神剑3 ゼノブレイド3</a> - 2022-09-19
-* <a href='http://www.douban.com/game/26954563/' target='_blank'>想玩异度神剑2 ゼノブレイド 2</a> - 2022-09-19
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         5 hrs 36 mins  ███████░░░░░░░░░░░░░░  33.9%
-sh         3 hrs 44 mins  ████▊░░░░░░░░░░░░░░░░  22.7%
-Markdown   3 hrs 40 mins  ████▋░░░░░░░░░░░░░░░░  22.2%
-Protoco... 1 hr 53 mins   ██▍░░░░░░░░░░░░░░░░░░  11.4%
-protobuf   41 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.2%
+Go         8 hrs 46 mins  █████████▎░░░░░░░░░░░  44.4%
+sh         3 hrs 58 mins  ████▏░░░░░░░░░░░░░░░░  20.1%
+Markdown   3 hrs 43 mins  ███▉░░░░░░░░░░░░░░░░░  18.9%
+Protoco... 1 hr 56 mins   ██░░░░░░░░░░░░░░░░░░░   9.8%
+protobuf   42 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.6%
 ```
 
 <!-- code_time ends -->
