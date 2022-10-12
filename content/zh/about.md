@@ -39,9 +39,9 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/34963448/' target='_blank'>看过终极名单</a> - 2022-10-11
 * <a href='http://movie.douban.com/subject/30482587/' target='_blank'>看过新·奥特曼</a> - 2022-10-08
 * <a href='http://www.douban.com/game/10740754/' target='_blank'>最近在玩火焰之纹章 烈火之剑 ファイアーエムブレム 烈火の剣</a> - 2022-10-07
-* <a href='http://movie.douban.com/subject/34963448/' target='_blank'>在看终极名单</a> - 2022-10-07
 * <a href='http://movie.douban.com/subject/25980443/' target='_blank'>看过海边的曼彻斯特</a> - 2022-10-06
 * <a href='https://book.douban.com/subject/3062632/' target='_blank'>最近在读日常生活中的自我呈现</a> - 2022-10-03
 <!-- douban ends -->
