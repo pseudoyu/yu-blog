@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/7064681/' target='_blank'>看过狼的孩子雨和雪</a> - 2022-10-14
+* <a href='http://movie.douban.com/subject/35700395/' target='_blank'>看过坠落</a> - 2022-10-13
+* <a href='http://movie.douban.com/subject/35256195/' target='_blank'>在看电锯人</a> - 2022-10-13
 * <a href='http://movie.douban.com/subject/35890480/' target='_blank'>看过石子和羽男-这种事情也好告吗？-</a> - 2022-10-13
 * <a href='https://book.douban.com/subject/26826548/' target='_blank'>最近在读我想吃掉妳的胰臟</a> - 2022-10-12
-* <a href='http://movie.douban.com/subject/36070624/' target='_blank'>在看静雪</a> - 2022-10-12
-* <a href='http://movie.douban.com/subject/34963448/' target='_blank'>看过终极名单</a> - 2022-10-11
-* <a href='http://movie.douban.com/subject/30482587/' target='_blank'>看过新·奥特曼</a> - 2022-10-08
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         7 hrs 2 mins   █████████░░░░░░░░░░░░  43.1%
-sh         4 hrs 21 mins  █████▌░░░░░░░░░░░░░░░  26.8%
-Markdown   2 hrs 55 mins  ███▊░░░░░░░░░░░░░░░░░  17.9%
-JSON       43 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.5%
-Other      23 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.4%
+Go         5 hrs 47 mins  ███████▎░░░░░░░░░░░░░  34.6%
+Markdown   5 hrs 27 mins  ██████▊░░░░░░░░░░░░░░  32.6%
+sh         3 hrs 20 mins  ████▏░░░░░░░░░░░░░░░░  20.0%
+YAML       45 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.5%
+Other      35 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.6%
 ```
 
 <!-- code_time ends -->
@@ -62,13 +62,13 @@ Other      23 mins        ▍░░░░░░░░░░░░░░░░░
 
 <!-- recent_releases starts -->
 * <a href=https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0 target='_blank'>blockchain-guide 区块链入门指南</a>
-* <a href=https://github.com/pseudoyu/yu-blog/releases/tag/v1.1.0 target='_blank'>yu-blog 个人网站发布系统</a>
 * <a href=https://github.com/pseudoyu/yu-tools/releases/tag/v0.1 target='_blank'>yu-tools 个人工具箱</a>
 * <a href=https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0 target='_blank'>top-blockchain-projects 优质区块链项目排行榜</a>
-* <a href=https://github.com/pseudoyu/pseudoyu/releases/tag/v1.1.0 target='_blank'>pseudoyu 首页信息流展示</a>
 * <a href=https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0 target='_blank'>learn-solidity Solidity 智能合约开发学习</a>
 * <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>
 * <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food 微信小程序：吃什么呀</a>
 * <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
 * <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
+* <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain 从零实现一个区块链</a>
+* <a href=https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems/releases/tag/v1.0.0 target='_blank'>xDeepFM_for_Recommender_Systems xDeepFM for Recommender Systems 推荐系统</a>
 <!-- recent_releases ends -->
