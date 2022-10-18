@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/26932940/' target='_blank'>最近在读Programming in Lua, Fourth Edition</a> - 2022-10-18
+* <a href='https://book.douban.com/subject/23858315/' target='_blank'>读过毛姆读书随笔</a> - 2022-10-18
+* <a href='http://movie.douban.com/subject/4922787/' target='_blank'>看过后宫·甄嬛传</a> - 2022-10-18
+* <a href='http://movie.douban.com/subject/34990593/' target='_blank'>在看万神殿 第一季</a> - 2022-10-18
 * <a href='https://book.douban.com/subject/3344676/' target='_blank'>最近在读常识</a> - 2022-10-14
-* <a href='http://movie.douban.com/subject/7064681/' target='_blank'>看过狼的孩子雨和雪</a> - 2022-10-14
-* <a href='http://movie.douban.com/subject/35700395/' target='_blank'>看过坠落</a> - 2022-10-13
-* <a href='http://movie.douban.com/subject/35256195/' target='_blank'>在看电锯人</a> - 2022-10-13
-* <a href='http://movie.douban.com/subject/35890480/' target='_blank'>看过石子和羽男-这种事情也好告吗？-</a> - 2022-10-13
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
