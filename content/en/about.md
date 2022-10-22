@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/30198955/' target='_blank'>在看边缘世界 第一季</a> - 2022-10-22
+* <a href='http://movie.douban.com/subject/35500137/' target='_blank'>在看串流先锋</a> - 2022-10-22
+* <a href='http://movie.douban.com/subject/1950330/' target='_blank'>看过罗马</a> - 2022-10-22
+* <a href='https://book.douban.com/subject/36108789/' target='_blank'>想读计算机体系结构：量化研究方法（第6版）</a> - 2022-10-21
 * <a href='http://movie.douban.com/subject/34990593/' target='_blank'>看过万神殿 第一季</a> - 2022-10-20
-* <a href='http://movie.douban.com/subject/27083561/' target='_blank'>看过朝花夕誓</a> - 2022-10-20
-* <a href='http://movie.douban.com/subject/26611076/' target='_blank'>看过溺水小刀</a> - 2022-10-19
-* <a href='https://book.douban.com/subject/26932940/' target='_blank'>最近在读Programming in Lua, Fourth Edition</a> - 2022-10-18
-* <a href='https://book.douban.com/subject/23858315/' target='_blank'>读过毛姆读书随笔</a> - 2022-10-18
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         14 hrs 33 mins ██████████░░░░░░░░░░░  48.1%
-Markdown   4 hrs 59 mins  ███▍░░░░░░░░░░░░░░░░░  16.5%
-JavaScript 2 hrs 8 mins   █▍░░░░░░░░░░░░░░░░░░░   7.0%
-sh         1 hr 59 mins   █▍░░░░░░░░░░░░░░░░░░░   6.6%
-HTML       1 hr 31 mins   █░░░░░░░░░░░░░░░░░░░░   5.0%
+Go         16 hrs 10 mins █████████▏░░░░░░░░░░░  43.8%
+Markdown   5 hrs 18 mins  ███░░░░░░░░░░░░░░░░░░  14.4%
+sh         3 hrs 8 mins   █▊░░░░░░░░░░░░░░░░░░░   8.5%
+JavaScript 2 hrs 8 mins   █▏░░░░░░░░░░░░░░░░░░░   5.8%
+Protoco... 1 hr 59 mins   █▏░░░░░░░░░░░░░░░░░░░   5.4%
 ```
 
 <!-- code_time ends -->
