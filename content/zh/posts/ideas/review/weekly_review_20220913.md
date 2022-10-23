@@ -48,14 +48,10 @@ authors:
 
 因为只带了一只轻便的 55mm F1.8，却因为时间关系只能拍远景，所以匆匆几下快门的结果并不那么满意，但至少留下了一些记忆点，也勉强串了一个主题《海边的人们》。
 
-![people_with_the_sea_04](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_04.PNG)
-
-![people_with_the_sea_01](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_01.PNG)
-
-![people_with_the_sea_02](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_02.PNG)
-
-![people_with_the_sea_03](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_03.PNG)
-
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_04.PNG" caption="A man">}}
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_01.PNG" caption="Shoes">}}
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_02.PNG" caption="A girl">}}
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_03.PNG" caption="Family">}}
 
 ## 不期而遇
 
