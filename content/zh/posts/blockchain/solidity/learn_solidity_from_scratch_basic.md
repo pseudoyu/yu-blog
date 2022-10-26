@@ -20,10 +20,6 @@ authors:
 
 本文为系列第一篇，主要涉及 Solidity 基础知识。
 
-## 分享 PPT 展示
-
-{{<slideshare id="61LxUboPzPXan5" >}}
-
 ## 智能合约 与 Solidity 语言
 
 智能合约是运行在链上的程序，合约开发者可以通过智能合约实现与链上资产/数据进行交互，用户可以通过自己的链上账户来调用合约，访问资产与数据。因为区块链保留区块历史记录的链式结构、去中心化、不可篡改等特征，智能合约相比传统应用来说能更公正、透明。
@@ -657,6 +653,11 @@ function sumIfEvenAndLessThan99(uint[] calldata nums) external {
 ## 总结
 
 以上就是我们系列第一篇，Solidity 基础知识，后续文章会对其常见应用和实用编码技巧进行学习总结，欢迎大家持续关注。
+
+
+## 分享 PPT 展示
+
+{{<slideshare id="61LxUboPzPXan5" >}}
 
 ## 参考资料
 
