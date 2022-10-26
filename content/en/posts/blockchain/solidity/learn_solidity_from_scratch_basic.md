@@ -654,10 +654,6 @@ function sumIfEvenAndLessThan99(uint[] calldata nums) external {
 
 以上就是我们系列第一篇，Solidity 基础知识，后续文章会对其常见应用和实用编码技巧进行学习总结，欢迎大家持续关注。
 
-## 分享 PPT 展示
-
-{{<slideshare id="61LxUboPzPXan5" >}}
-
 ## 参考资料
 
 > 1. [Solidity by Example](https://solidity-by-example.org)
