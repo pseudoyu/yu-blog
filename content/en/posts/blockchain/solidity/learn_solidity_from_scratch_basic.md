@@ -20,6 +20,10 @@ authors:
 
 本文为系列第一篇，主要涉及 Solidity 基础知识。
 
+## 分享 PPT 展示
+
+{{<slideshare id="61LxUboPzPXan5" >}}
+
 ## 智能合约 与 Solidity 语言
 
 智能合约是运行在链上的程序，合约开发者可以通过智能合约实现与链上资产/数据进行交互，用户可以通过自己的链上账户来调用合约，访问资产与数据。因为区块链保留区块历史记录的链式结构、去中心化、不可篡改等特征，智能合约相比传统应用来说能更公正、透明。
@@ -32,18 +36,18 @@ Solidity 是一门面向合约的、为实现智能合约而创建的高级编�
 
 与常规编程语言不同，Solidity 智能合约的开发往往无法直接通过一个 IDE 或本地环境进行方便的调试，而是需要与一个链上节点进行交互。开发调试往往也不会直接与主网（即真实资产、数据与业务所在的链）进行交互，否则需要承担高额手续费。目前开发调试主要有以下几种方式与框架：
 
-1. [Remix IDE](https://remix.ethereum.org)。通过 Ethereum 官方提供的基于浏览器的 Remix 开发工具进行调试，Remix 会提供完整的 IDE、编译工具、部署调试的测试节点环境、账户等，可以很方便地进行测试，这是我学习使用时用的最多的工具。Remix 还可以通过 MetaMask 插件与测试网、主网进行直接交互，部分生产环境也会使用它进行编译部署。
-2. [Truffle](https://github.com/trufflesuite/truffle)。Truffle 是一个非常流行的 Javascript 的 Solidity 合约开发框架，提供了完整的开发、测试、调试工具链，可以与本地或远程网络进行交互。
-3. [Brownie](https://github.com/eth-brownie/brownie)。Brownie 是一个基于 Python 的 Solidity 合约开发框架，以简洁的 Python 语法为调试和测试提供了便捷的工具链。
-4. [Hardhat](https://github.com/NomicFoundation/hardhat)。Hardhat 是另一个基于 Javascript 的开发框架，提供了非常丰富的插件系统，适合开发复杂的合约项目。
+1. [Truffle](https://github.com/trufflesuite/truffle)。Truffle 是一个非常流行的 Javascript 的 Solidity 合约开发框架，提供了完整的开发、测试、调试工具链，可以与本地或远程网络进行交互。
+2. [Brownie](https://github.com/eth-brownie/brownie)。Brownie 是一个基于 Python 的 Solidity 合约开发框架，以简洁的 Python 语法为调试和测试提供了便捷的工具链。
+3. [Hardhat](https://github.com/NomicFoundation/hardhat)。Hardhat 是另一个基于 Javascript 的开发框架，提供了非常丰富的插件系统，适合开发复杂的合约项目。
 
 除了开发框架外，更好地进行 Solidity 还需要熟悉一些工具：
 
-1. Remix IDE 对于语法提示等并不完善，因此，可以使用 [Visual Studio Code](https://code.visualstudio.com) 配合 [Solidity](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity) 进行编写，有更好的体验。
-2. [MetaMask](https://metamask.io)。一个常用的钱包应用，开发过程中可以通过浏览器插件与测试网、主网进行交互，方便开发者进行调试。
-3. [Ganache](https://trufflesuite.com/ganache/)。Ganache 是一个开源的虚拟本地节点，提供了一个虚拟链网络，可以通过各类 Web3.js、Remix 或一些框架工具与之交互，适合有一定规模的项目进行本地调试与测试。
-4. [Infura](https://infura.io)。Infura 是一个 IaaS（Infrastructure as a Service）产品，我们可以申请自己的 Ethereum 节点，通过 Infura 提供的 API 进行交互，可以很方便地进行调试，也更接近生产环境。
-5. [OpenZeppelin](https://www.openzeppelin.com)。OpenZeppelin 提供了非常多的合约开发库与应用，能兼顾安全、稳定的同时给予开发者更好的开发体验，降低合约开发成本。
+1. [Remix IDE](https://remix.ethereum.org)。通过 Ethereum 官方提供的基于浏览器的 Remix 开发工具进行调试，Remix 会提供完整的 IDE、编译工具、部署调试的测试节点环境、账户等，可以很方便地进行测试，这是我学习使用时用的最多的工具。Remix 还可以通过 MetaMask 插件与测试网、主网进行直接交互，部分生产环境也会使用它进行编译部署。
+3. Remix IDE 对于语法提示等并不完善，因此，可以使用 [Visual Studio Code](https://code.visualstudio.com) 配合 [Solidity](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity) 进行编写，有更好的体验。
+3. [MetaMask](https://metamask.io)。一个常用的钱包应用，开发过程中可以通过浏览器插件与测试网、主网进行交互，方便开发者进行调试。
+4. [Ganache](https://trufflesuite.com/ganache/)。Ganache 是一个开源的虚拟本地节点，提供了一个虚拟链网络，可以通过各类 Web3.js、Remix 或一些框架工具与之交互，适合有一定规模的项目进行本地调试与测试。
+5. [Infura](https://infura.io)。Infura 是一个 IaaS（Infrastructure as a Service）产品，我们可以申请自己的 Ethereum 节点，通过 Infura 提供的 API 进行交互，可以很方便地进行调试，也更接近生产环境。
+6. [OpenZeppelin](https://www.openzeppelin.com)。OpenZeppelin 提供了非常多的合约开发库与应用，能兼顾安全、稳定的同时给予开发者更好的开发体验，降低合约开发成本。
 
 ## 合约编译/部署
 
@@ -129,7 +133,7 @@ uint len = arr.length;
 
 #### mapping
 
-`mapping` 是一种映射类型，使用 `mapping(keyType => valueType)` 来定义，其中键需要是内置类型，如 `bytes`、`string`、`string` 或合约类型，而值可以是任何类型，如嵌套 `mapping` 类型。需要注意的是，`mapping` 类型是不能被迭代遍历的，需要遍历则需要自行实现对应索引。
+`mapping` 是一种映射类型，使用 `mapping(keyType => valueType)` 来定义，其中键需要是内置类型，如 `bytes`、`int`、`string` 或合约类型，而值可以是任何类型，如嵌套 `mapping` 类型。需要注意的是，`mapping` 类型是不能被迭代遍历的，需要遍历则需要自行实现对应索引。
 
 下面说明一下各类操作：
 
@@ -349,7 +353,7 @@ constructor(string memory _name) {
 
 - 不能实现任何方法
 - 可以继承其他接口
-- 的所有方法都必须声明为 `external`
+- 所有方法都必须声明为 `external`
 - 不能声明构造方法
 - 不能声明状态变量
 
