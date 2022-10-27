@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/36108789/' target='_blank'>最近在读计算机体系结构：量化研究方法（第6版）</a> - 2022-10-27
+* <a href='https://book.douban.com/subject/1012611/' target='_blank'>读过乌合之众</a> - 2022-10-27
 * <a href='http://movie.douban.com/subject/30314848/' target='_blank'>看过瞬息全宇宙</a> - 2022-10-27
 * <a href='http://movie.douban.com/subject/34825964/' target='_blank'>看过龙之家族 第一季</a> - 2022-10-25
 * <a href='http://movie.douban.com/subject/35500137/' target='_blank'>看过串流先锋</a> - 2022-10-22
-* <a href='http://movie.douban.com/subject/30198955/' target='_blank'>在看边缘世界 第一季</a> - 2022-10-22
-* <a href='http://movie.douban.com/subject/1950330/' target='_blank'>看过罗马</a> - 2022-10-22
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
