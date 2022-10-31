@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/26708200/' target='_blank'>看过她和她的猫</a> - 2022-10-31
 * <a href='https://book.douban.com/subject/26889236/' target='_blank'>最近在读我的职业是小说家</a> - 2022-10-30
 * <a href='https://book.douban.com/subject/35234117/' target='_blank'>读过五种时间</a> - 2022-10-30
 * <a href='https://book.douban.com/subject/35222513/' target='_blank'>想读程序设计方法（第2版）</a> - 2022-10-29
 * <a href='http://www.douban.com/game/33375088/' target='_blank'>最近在玩女神异闻录5 皇家版 ペルソナ5 ザ・ロイヤル</a> - 2022-10-29
-* <a href='https://book.douban.com/subject/36108789/' target='_blank'>最近在读计算机体系结构：量化研究方法（第6版）</a> - 2022-10-27
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
