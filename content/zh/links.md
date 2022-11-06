@@ -23,7 +23,7 @@ rss_ignore: true
 {{< friend name="新一" url="https://a-wing.top" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/xinyi_avatar.jpeg" word="新一's Blog" >}}
 {{< friend name="仕麟" url="https://edward40.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/edward40_avatar.jpg" word="Great men are not born great, they grow great." >}}
 {{< friend name="ServerCat" url="https://servercat.app" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/servercat_logo.png" word="iOS/macOS SSH client" >}}
-
+{{< friend name="Tony Ding" url="https://blog.tonyding.net" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/tonyding_avatar.png" word="Tony Ding's Blog" >}}
 
 </div>
 </div>
