@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Markdown   3 hrs 23 mins  ██████▏░░░░░░░░░░░░░░  29.2%
-PlantUM... 1 hr 53 mins   ███▍░░░░░░░░░░░░░░░░░  16.3%
-sh         1 hr 42 mins   ███░░░░░░░░░░░░░░░░░░  14.7%
-Go         1 hr 19 mins   ██▍░░░░░░░░░░░░░░░░░░  11.4%
-Solidity   45 mins        █▎░░░░░░░░░░░░░░░░░░░   6.5%
+Markdown   3 hrs 28 mins  █████▉░░░░░░░░░░░░░░░  28.1%
+PlantUM... 1 hr 53 mins   ███▏░░░░░░░░░░░░░░░░░  15.3%
+sh         1 hr 49 mins   ███░░░░░░░░░░░░░░░░░░  14.8%
+Go         1 hr 19 mins   ██▎░░░░░░░░░░░░░░░░░░  10.7%
+Other      48 mins        █▍░░░░░░░░░░░░░░░░░░░   6.6%
 ```
 
 <!-- code_time ends -->
