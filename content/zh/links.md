@@ -24,6 +24,7 @@ rss_ignore: true
 {{< friend name="仕麟" url="https://edward40.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/edward40_avatar.jpg" word="Great men are not born great, they grow great." >}}
 {{< friend name="ServerCat" url="https://servercat.app" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/servercat_logo.png" word="iOS/macOS SSH client" >}}
 {{< friend name="Tony Ding" url="https://blog.tonyding.net" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/tonyding_avatar.png" word="Tony Ding's Blog" >}}
+{{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
 
 </div>
 </div>
