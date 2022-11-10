@@ -1,5 +1,5 @@
 ---
-title: "周报 #07 - 关于学习、考证与工作追求"
+title: "周报 #07 - 学习、考证与工作追求"
 date: 2022-08-15T12:36:14+08:00
 draft: false
 tags: ["review", "life", "time", "certificate", "devops", "remote"]

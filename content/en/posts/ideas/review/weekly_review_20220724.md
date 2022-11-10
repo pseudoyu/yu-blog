@@ -1,5 +1,5 @@
 ---
-title: "周报 #04 - 关于休假、亲情与城市的归属感"
+title: "周报 #04 - 休假、亲情与城市的归属感"
 date: 2022-07-24T23:31:27+08:00
 draft: false
 tags: ["review", "life", "home", "city", "relationship", "belonging", "vacation"]

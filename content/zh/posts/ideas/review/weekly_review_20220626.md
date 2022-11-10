@@ -1,5 +1,5 @@
 ---
-title: "周报 #01 - 关于情感、安全感与认真生活"
+title: "周报 #01 - 情感、安全感与认真生活"
 date: 2022-06-28T22:54:39+08:00
 draft: false
 tags: ["review", "life", "romance", "emotion", "loneliness", "sense of security"]

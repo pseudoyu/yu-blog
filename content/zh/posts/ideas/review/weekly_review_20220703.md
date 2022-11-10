@@ -1,5 +1,5 @@
 ---
-title: "周报 #02 - 关于工作、焦虑与成长"
+title: "周报 #02 - 工作、焦虑与成长"
 date: 2022-07-03T12:54:39+08:00
 draft: false
 tags: ["review", "life", "work", "responsibility", "growth"]

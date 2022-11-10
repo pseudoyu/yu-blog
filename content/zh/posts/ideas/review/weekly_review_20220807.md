@@ -1,5 +1,5 @@
 ---
-title: "周报 #06 - 关于真诚、游戏与自我调整"
+title: "周报 #06 - 真诚、游戏与自我调整"
 date: 2022-08-07T18:28:24+08:00
 draft: false
 tags: ["review", "life", "time", "balance", "sincerity", "ego", "self-adjustment", "game"]

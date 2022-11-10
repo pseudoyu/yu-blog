@@ -1,5 +1,5 @@
 ---
-title: "周报 #05 - 关于工作、时间的掌控感与新朋友"
+title: "周报 #05 - 工作、时间的掌控感与新朋友"
 date: 2022-07-31T23:55:54+08:00
 draft: false
 tags: ["review", "life", "time", "balance", "work", "friendship"]
