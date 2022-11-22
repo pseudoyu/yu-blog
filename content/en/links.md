@@ -26,6 +26,7 @@ rss_ignore: true
 {{< friend name="Tony Ding" url="https://blog.tonyding.net" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/tonyding_avatar.png" word="Tony Ding's Blog" >}}
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
 {{< friend name="Zhou Blog" url="https://www.zhouzhoukl.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/zhouzhou_avatar.jpeg" word="Life goes on." >}}
+{{< friend name="VICTORYANG00" url="https://victoryang00.cn/wordpress/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/VICTORYANG00_avatar.png" word="A Tech Nerd with a finance mind" >}}
 
 </div>
 </div>
