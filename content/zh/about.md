@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35275350/' target='_blank'>在看初恋</a> - 2022-11-25
+* <a href='http://movie.douban.com/subject/35364243/' target='_blank'>想看星期三</a> - 2022-11-28
+* <a href='http://movie.douban.com/subject/35275350/' target='_blank'>看过初恋</a> - 2022-11-28
+* <a href='http://movie.douban.com/subject/26304167/' target='_blank'>想看出租车</a> - 2022-11-27
 * <a href='http://movie.douban.com/subject/27172891/' target='_blank'>想看大象席地而坐</a> - 2022-11-18
 * <a href='https://book.douban.com/subject/30329536/' target='_blank'>想读数据密集型应用系统设计</a> - 2022-11-16
-* <a href='https://book.douban.com/subject/25892399/' target='_blank'>想读余生皆假期</a> - 2022-11-16
-* <a href='http://movie.douban.com/subject/35604644/' target='_blank'>看过她和她的她</a> - 2022-11-15
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
