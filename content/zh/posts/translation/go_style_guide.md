@@ -261,5 +261,5 @@ Go 源代码没有固定的行长度。如果觉得某一行太长，就应该�
 > 1. [原文地址](https://google.github.io/styleguide/go/guide)
 > 2. [本文永久链接](https://gocn.github.io/styleguide/docs/02-guide/)
 > 3. [GoCN <每周译 Go>](https://github.com/gocn/translator)
-> 4. [译者：张宇](https://github.com/pseudoyu)
+> 4. [译者：pseudoyu](https://github.com/pseudoyu)
 > 5. [校对：Xiaomin Zheng](https://github.com/zxmfke)
