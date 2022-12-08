@@ -28,6 +28,7 @@ rss_ignore: true
 {{< friend name="Zhou Blog" url="https://www.zhouzhoukl.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/zhouzhou_avatar.jpeg" word="Life goes on." >}}
 {{< friend name="Victoryang00" url="https://victoryang00.cn/wordpress/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/VICTORYANG00_avatar.png" word="A Tech Nerd with a finance mind" >}}
 {{< friend name="梦墨不会做梦💤" url="https://dreamo.ink" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/dreamink_avatar.png" word="May you do good and not evil." >}}
+{{< friend name="锤子博客" url="https://liujiding.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/liujiding_avatar.jpeg" word="发现科技与人文之美" >}}
 
 </div>
 </div>
