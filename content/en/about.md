@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/25785114/' target='_blank'>看过互联网之子</a> - 2022-12-07
+* <a href='http://movie.douban.com/subject/35791966/' target='_blank'>想看千寻小姐</a> - 2022-12-07
 * <a href='http://movie.douban.com/subject/30198955/' target='_blank'>看过边缘世界 第一季</a> - 2022-12-06
 * <a href='http://movie.douban.com/subject/35235151/' target='_blank'>看过唐朝诡事录</a> - 2022-12-06
 * <a href='http://movie.douban.com/subject/35364243/' target='_blank'>看过星期三</a> - 2022-12-06
-* <a href='https://book.douban.com/subject/25881855/' target='_blank'>想读大教堂与集市</a> - 2022-12-02
-* <a href='http://movie.douban.com/subject/35275350/' target='_blank'>看过初恋</a> - 2022-11-28
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-JavaScript 7 hrs 55 mins  █████████▌░░░░░░░░░░░  45.6%
-Markdown   2 hrs 55 mins  ███▌░░░░░░░░░░░░░░░░░  16.9%
-Go         1 hr 32 mins   █▊░░░░░░░░░░░░░░░░░░░   8.9%
-YAML       1 hr 21 mins   █▋░░░░░░░░░░░░░░░░░░░   7.8%
-JSON       1 hr 10 mins   █▍░░░░░░░░░░░░░░░░░░░   6.7%
+JavaScript 8 hrs 54 mins  ██████████░░░░░░░░░░░  47.7%
+Markdown   2 hrs 47 mins  ███▏░░░░░░░░░░░░░░░░░  15.0%
+YAML       2 hrs 6 mins   ██▎░░░░░░░░░░░░░░░░░░  11.3%
+Go         1 hr 52 mins   ██░░░░░░░░░░░░░░░░░░░  10.1%
+JSON       1 hr 20 mins   █▌░░░░░░░░░░░░░░░░░░░   7.2%
 ```
 
 <!-- code_time ends -->
