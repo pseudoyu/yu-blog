@@ -1,0 +1,71 @@
+---
+title: "周报 #22 - 内卷与焦虑感"
+date: 2022-12-13T22:24:02+08:00
+draft: false
+tags: ["review", "life", "work", "cat", "balance", "home", "front-end"]
+categories: ["Ideas"]
+authors:
+- "Arthur"
+---
+
+{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+
+## 前言
+
+![weekly_review_1213_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1213_photo.png)
+
+本篇是对 `2022-12-07` 到 `2022-12-13` 这周生活的记录与思考。
+
+这大概是累计没有踏出家门的第 20 天了，基于当前多个项目并行的工作强度和阴性快要清零的现状，还并没有打算回公司，甚至想在家窝到年前都不出门了，自宅生活也很惬意。
+
+忙碌的各项工作和 Side Project 任务模糊了周末与工作日的界限，但多年残留的习惯依然让我有一种“周末是自己的时间，用来睡觉岂不是太浪费了”的错觉，再加上没有早会的时间压力，也越睡越晚。不过做了不少有意思的事，探索了一些一直想学的东西并且应用到了项目里，还做了一些 Demo 玩具，一直处于还挺开心的状态。
+
+其他时间里，和远在澳洲的挚友一起连麦看了荷兰的比赛（虽然输了）；得知会收到一个很欣喜的礼物（虽然会寄到香港，暂时拿不到）；一位朋友受到我的影响也开始写周报，互相催更（虽然我又拖延了几天）；猫猫能听懂自己名字了，一句“捏捏过来”就能从家里的各个角落召唤出她；以及很多其他有意思的事。
+
+## 内卷与焦虑感
+
+看了 [polebug](https://space.bilibili.com/58078997) 最新的一期学习记录视频时，看到有在谈论卷和焦虑感的话题，其实就个人偏好来说，我不是很喜欢“卷”这个词，自己说自己卷像是带着一种居高临下与自我满足，听到别人如此评价又似乎有一种小时候听到老师说“这孩子不聪明但是一直很用功，值得鼓励”的莫名意味。
+
+“卷”似乎与现在到处弥漫的焦虑感相生相伴，来自工作项目的压力、对自己方向的迷茫或是不满足于提升速度，以及所谓的 Peer Pressure，我们总是倾向于将自己置于当前所处阶段的消极面，总是去受到一些论调的影响去否认自己的一面，然后通过各种形式的自我满足式付出去挤压自己的空闲时间，常常也身心俱疲。
+
+我更喜欢的是国外可能更常提及的“[TIL](https://knowyourmeme.com/memes/today-i-learned-til)”的描述，Today I Learned，在完成基础或是重复性的本职工作之外，自己又学到了什么。可以是看了一些闲书或是工具书，可以是学了一项新的技术或是将之前的经验总结成文，可以是着手做一个新项目或是对原有项目进行了一些优化，只要是好奇心与求知欲所及，都可以称为一个个“TIL”。
+
+学习和探索本身是一件有趣的事，甚至并不一定是一件与结果与收益直接相关的事，虽然略有些俗套，但我并不丰富的一些阅历和经验让我总是信奉着一种“无用之用”的心态，常常是过去出于兴趣、好奇或是其他纯粹目的所做的一些事在未来的一些阶段带来一些惊喜，要做的常常就是遵守本心和静静等候。
+
+## 与『捏捏』的日常
+
+这周依然是一起宅在家的生活，能渐渐感觉到一点点建构起来的信任与情感依赖（同时也放肆了很多），会在我忙在各个会议里时静静躺在键盘前伴着嘈杂的人声与键盘敲击声熟睡，会在我许久没有管她时绕着我的脚撒娇要抱抱，会在我看世界杯时在我面前一起关注着赛场的动向，会在睡前跑酷到我的被子里一起入眠，也会在我赖床不起时直接一脚踩在我脸上“叫醒”我换粮。
+
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_18.jpeg" caption="冷知识，猫毛掉进路由器会造成网络拥堵（烂梗）">}}
+
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_17.jpeg" caption="你不陪我玩，我拿逗猫棒自己逗自己">}}
+
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_19.jpeg" caption="荷兰你行不行啊，不然我来？">}}
+
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_20.jpeg" caption="别工作了，给我当枕头">}}
+
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_22.jpeg" caption="别工作了，给我当脚垫">}}
+
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_21.jpeg" caption="别工作了，要抱抱">}}
+
+## 其他
+
+这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+
+### 技术
+
+因为 Side Project 需要，这周跟着 Udemy 上之前买的一些课好好学了下 React，感觉前端现在还是蛮有意思的。大学时候赚外快写过一些网站，还记得当时都还是自己糊的 HTML、CSS、Javascript，好像用了 JQuery 来获取元素什么的，还记得当时用 ThinkPHP，然后有一个什么 MVC 框架，包括后来做的一个微信小程序也是，现在感觉都有些时代的眼泪了。
+
+因为很久没写过前端，也没什么技术包袱，用了 JavaScript + React + TailWind CSS + daisyUI 糊了一个查找 GitHub 用户和 Repo 的 Demo 练习项目“[GitHub Finder](https://yu-github-finder.vercel.app)”，感觉现在写前端多了好多工具链和库，整个项目就没写几行 CSS，移动端响应做得也不错，有点舒服。
+
+不过后面项目需要用的是 TypeScript + Next.js + TailWind CSS，所以这个 Demo 也就是打打基础了。
+
+有意思的是这两周 JavaScript 写多了，那天给我一个工作里的小 leader 投屏改 Go 代码的时候取一个数组的长度我下意识就 `.length` 了，报错后好久才反应过来，感受到了来自屏幕对面的困惑，几天不见 Go 都不会了哈哈。
+
+感觉离自己能糊出一些好玩的小工具越来越近了，开心。
+
+### 输入
+
+#### 剧集
+
+- **三体**，也还算期待了一阵子的三体动画版，放出了两集，我本身原著应该是看了大半，但算不上什么粉也没太多信仰，整体感觉的话还是挺不错的，后面和节奏都还行。
