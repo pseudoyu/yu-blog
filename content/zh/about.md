@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/2157156/' target='_blank'>想看似水年华</a> - 2022-12-13
 * <a href='http://movie.douban.com/subject/34444648/' target='_blank'>在看三体</a> - 2022-12-10
 * <a href='http://movie.douban.com/subject/25785114/' target='_blank'>看过互联网之子</a> - 2022-12-07
 * <a href='http://movie.douban.com/subject/35791966/' target='_blank'>想看千寻小姐</a> - 2022-12-07
 * <a href='http://movie.douban.com/subject/30198955/' target='_blank'>看过边缘世界 第一季</a> - 2022-12-06
-* <a href='http://movie.douban.com/subject/35235151/' target='_blank'>看过唐朝诡事录</a> - 2022-12-06
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
