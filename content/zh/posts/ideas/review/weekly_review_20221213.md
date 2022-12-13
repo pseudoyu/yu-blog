@@ -54,7 +54,7 @@ authors:
 
 ### 技术
 
-因为 Side Project 需要，这周跟着 Udemy 上之前买的一些课好好学了下 React，感觉前端现在还是蛮有意思的。大学时候赚外快写过一些网站，还记得当时都还是自己糊的 HTML、CSS、Javascript，好像用了 JQuery 来获取元素什么的，还记得当时用 ThinkPHP，然后有一个什么 MVC 框架，包括后来做的一个微信小程序也是，现在感觉都有些时代的眼泪了。
+因为 Side Project 需要，这周跟着 Udemy 上之前买的一些课好好学了下 React，感觉前端现在还是蛮有意思的。大学时候赚外快写过一些网站，还记得当时都还是自己糊的 HTML、CSS、JavaScript，好像用了 JQuery 来获取元素什么的，还记得当时用 ThinkPHP，然后有一个什么 MVC 框架，包括后来做的一个微信小程序也是，现在感觉都有些时代的眼泪了。
 
 因为很久没写过前端，也没什么技术包袱，用了 JavaScript + React + TailWind CSS + daisyUI 糊了一个查找 GitHub 用户和 Repo 的 Demo 练习项目“[GitHub Finder](https://yu-github-finder.vercel.app)”，感觉现在写前端多了好多工具链和库，整个项目就没写几行 CSS，移动端响应做得也不错，有点舒服。
 
