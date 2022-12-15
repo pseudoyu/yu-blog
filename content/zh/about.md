@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-JavaScript 21 hrs 42 mins ██████████████▌░░░░░░  69.3%
-Go         2 hrs 48 mins  █▉░░░░░░░░░░░░░░░░░░░   8.9%
-Markdown   2 hrs 10 mins  █▍░░░░░░░░░░░░░░░░░░░   6.9%
-JSON       1 hr 5 mins    ▋░░░░░░░░░░░░░░░░░░░░   3.5%
-YAML       54 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.9%
+JavaScript 26 hrs 11 mins ███████████████░░░░░░  71.7%
+Go         3 hrs 56 mins  ██▎░░░░░░░░░░░░░░░░░░  10.8%
+Markdown   2 hrs 47 mins  █▌░░░░░░░░░░░░░░░░░░░   7.6%
+Other      41 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.9%
+TypeScript 38 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
 ```
 
 <!-- code_time ends -->
