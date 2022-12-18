@@ -50,10 +50,10 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-JavaScript 45 hrs 36 mins ██████████████▋░░░░░░  69.7%
-HTML       6 hrs 14 mins  ██░░░░░░░░░░░░░░░░░░░   9.6%
-Go         3 hrs 57 mins  █▎░░░░░░░░░░░░░░░░░░░   6.0%
-Markdown   2 hrs 34 mins  ▊░░░░░░░░░░░░░░░░░░░░   3.9%
+JavaScript 39 hrs 31 mins ████████████▍░░░░░░░░  59.2%
+HTML       11 hrs 19 mins ███▌░░░░░░░░░░░░░░░░░  17.0%
+Markdown   4 hrs 48 mins  █▌░░░░░░░░░░░░░░░░░░░   7.2%
+Go         3 hrs 57 mins  █▏░░░░░░░░░░░░░░░░░░░   5.9%
 Other      1 hr 46 mins   ▌░░░░░░░░░░░░░░░░░░░░   2.7%
 ```
 
