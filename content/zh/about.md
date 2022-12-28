@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/35634023/' target='_blank'>想看灵能百分百 Ⅲ</a> - 2022-12-28
+* <a href='http://movie.douban.com/subject/27011763/' target='_blank'>想看灵能百分百 II</a> - 2022-12-28
+* <a href='http://movie.douban.com/subject/26677934/' target='_blank'>在看灵能百分百</a> - 2022-12-28
 * <a href='http://movie.douban.com/subject/35699947/' target='_blank'>想看台湾犯罪故事</a> - 2022-12-27
 * <a href='http://movie.douban.com/subject/30181230/' target='_blank'>想看我们与恶的距离</a> - 2022-12-27
-* <a href='http://movie.douban.com/subject/34908091/' target='_blank'>看过天官赐福</a> - 2022-12-23
-* <a href='http://movie.douban.com/subject/35724582/' target='_blank'>看过间谍过家家 Part 2</a> - 2022-12-23
-* <a href='http://movie.douban.com/subject/35208467/' target='_blank'>想看想见你</a> - 2022-12-23
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
