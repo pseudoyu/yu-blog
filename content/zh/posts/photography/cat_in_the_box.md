@@ -2,7 +2,7 @@
 title: "摄影集 #01 - Cat In The Box"
 date: 2023-01-01T21:18:03+08:00
 draft: false
-tags: ["photography", "cat", "home", "sony", "a7m3", "nie", "pet"]
+tags: ["photography", "cat", "home", "sony", "a7m3", "pet"]
 categories: ["Projects"]
 authors:
 - "Arthur"
@@ -26,11 +26,13 @@ authors:
 
 {{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04468.jpg" >}}
 
+{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04431.jpg" >}}
+
+## 猫与村上春树
+
 {{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04451.jpg" >}}
 
 {{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04452.jpg" >}}
-
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04431.jpg" >}}
 
 ## Silence
 
