@@ -31,7 +31,7 @@ rss_ignore: true
 {{< friend name="锤子博客" url="https://liujiding.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/liujiding_avatar.jpeg" word="发现科技与人文之美" >}}
 {{< friend name="啊呜喵" url="https://blog.awumiao.cn/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/awumiao_avatar.png" word="念念不忘，必有回响" >}}
 {{< friend name="旅行者的随想" url="https://blog.besscroft.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/besscroft_avatar.png" word="旅行终将迎来终点。" >}}
-{{< friend name="天仙子" url="https://tianxianzi.me" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/mier_avatar.jpg" word="文字森林" >}}
+{{< friend name="天仙子" url="https://tianxianzi.me" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/mier_blog_avatar.jpg" word="文字森林" >}}
 
 </div>
 </div>
