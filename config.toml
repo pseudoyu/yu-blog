@@ -179,9 +179,9 @@ defaultContentLanguageInSubdir = true
   [[languages.en.menu.links]]
     name = "VPS Status"
     weight = 30
-    identifier = "vps-status"
-    url = "https://stats.uptimerobot.com/lPN5YU1wM0"
-  
+    identifier = "services-status"
+    url = "https://uptime.pseudoyu.com/status/services"
+
   [languages.zh]
   languageCode = "zh"
   languageName = "中文"
@@ -251,5 +251,5 @@ defaultContentLanguageInSubdir = true
   [[languages.zh.menu.links]]
     name = "VPS Status"
     weight = 30
-    identifier = "vps-status"
-    url = "https://stats.uptimerobot.com/lPN5YU1wM0"
+    identifier = "services-status"
+    url = "https://uptime.pseudoyu.com/status/services"
