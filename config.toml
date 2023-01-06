@@ -172,15 +172,15 @@ defaultContentLanguageInSubdir = true
     identifier = "github"
     url = "https://github.com/pseudoyu"
   [[languages.en.menu.links]]
-    name = "M1sty's Blog"
+    name = "Yu's Services"
     weight = 20
-    identifier = "m1sty"
-    url = "https://www.m1sty.com/"
-  [[languages.en.menu.links]]
-    name = "VPS Status"
-    weight = 30
     identifier = "services-status"
     url = "https://uptime.pseudoyu.com/status/services"
+  [[languages.en.menu.links]]
+    name = "M1sty's Blog"
+    weight = 30
+    identifier = "m1sty"
+    url = "https://www.m1sty.com/"
 
   [languages.zh]
   languageCode = "zh"
@@ -244,12 +244,12 @@ defaultContentLanguageInSubdir = true
     identifier = "github"
     url = "https://github.com/pseudoyu"
   [[languages.zh.menu.links]]
-    name = "M1sty's Blog"
+    name = "Yu's Services"
     weight = 20
-    identifier = "m1sty"
-    url = "https://www.m1sty.com/"
-  [[languages.zh.menu.links]]
-    name = "VPS Status"
-    weight = 30
     identifier = "services-status"
     url = "https://uptime.pseudoyu.com/status/services"
+  [[languages.zh.menu.links]]
+    name = "M1sty's Blog"
+    weight = 30
+    identifier = "m1sty"
+    url = "https://www.m1sty.com/"
