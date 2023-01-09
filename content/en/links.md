@@ -33,6 +33,7 @@ rss_ignore: true
 {{< friend name="旅行者的随想" url="https://blog.besscroft.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/besscroft_avatar.png" word="旅行终将迎来终点。" >}}
 {{< friend name="天仙子" url="https://tianxianzi.me" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/mier_blog_avatar.jpg" word="文字森林" >}}
 {{< friend name="Nemo" url="https://nemo.cool" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/nemo_avatar.jpg" word="Nemo's Blog" >}}
+{{< friend name="涂俊杰 JunJie" url="https://blog.tujunjie.com/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/tujunjie_avatar.webp" word="时间记录践行者" >}}
 
 </div>
 </div>
