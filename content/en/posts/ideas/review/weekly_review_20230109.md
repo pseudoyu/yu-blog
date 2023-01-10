@@ -56,7 +56,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 ### Telegram 输出
 
-我同样基于 Railway + Supabase 方式搭建了一个自己的 n8n 同步服务，将自己的各平台输入同步到频道，详细描述可以看这篇『[周报 #12 - 赛博空间、自我定义与界限](https://www.pseudoyu.com/zh/2022/09/19/weekly_review_20220919/)』。
+我同样基于 Railway + Supabase 方式搭建了一个自己的 n8n 同步服务，将自己的各平台输入同步到频道，详细描述可以看这篇『[周报 #12 - 赛博空间、自我定义与界限](https://www.pseudoyu.com/en/2022/09/19/weekly_review_20220919/)』。
 
 之前平台基于 [Reorx](https://github.com/reorx) 的方案进行了一些自己的调整，但一直没添加更多信息源，国内源较少。
 
@@ -70,13 +70,13 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 好久之前关注了 [Crossbell](https://crossbell.io/)，也莫名机缘巧合结识了不少 [RSS3](https://rss3.io/) 的朋友，但对 Crossbell 之前的印象还停留在 [Diygod](https://diygod.me/) 在推特上发的 [CrossSync](https://crosssync.app/) 浏览器插件是基于这个链的，当时手机打开的链接，关联钱包并不方便，所以搁置了。
 
-所以想着去官网逛一下，结果发现居然已经有了 [XLog](https://xlog.app/)、[XSync](https://xsync.app/)、[XChar](https://xchar.app/)、[XFeed](https://crossbell.io/feed) 等好几项应用，而最关注的 XSync 居然还刚好支持 Telegram Channel，完美匹配了我的需求。
+所以想着去官网逛一下，结果发现居然已经有了 [xLog](https://xlog.app/)、[xSync](https://xsync.app/)、[xChar](https://xchar.app/)、[xFeed](https://crossbell.io/feed) 等好几项应用，而最关注的 xSync 居然还刚好支持 Telegram Channel，完美匹配了我的需求。
 
-#### XLog 同步发布博文
+#### xLog 同步发布博文
 
-于是开始一番配置和装修，首先是将自己个人思考相关的博文同步到了 XLog 上，视觉效果和体验感都不错，且基于 Crossbell 地址能够很方便地进行 follow 和评论。
+于是开始一番配置和装修，首先是将自己个人思考相关的博文同步到了 xLog 上，视觉效果和体验感都不错，且基于 Crossbell 地址能够很方便地进行 follow 和评论。
 
-这是我的 XLog 访问地址：[xlog.pseudoyu.com](https://xlog.pseudoyu.com/)，有兴趣的朋友们也可以关注一下，不过目前出于定制化程度、各种历史文章迁移路由问题、自己各项数据统计服务变动等考虑，还是更多作为一个同步分发渠道，暂不打算把博客彻底迁移过去。
+这是我的 xLog 访问地址：[xlog.pseudoyu.com](https://xlog.pseudoyu.com/)，有兴趣的朋友们也可以关注一下，不过目前出于定制化程度、各种历史文章迁移路由问题、自己各项数据统计服务变动等考虑，还是更多作为一个同步分发渠道，暂不打算把博客彻底迁移过去。
 
 ![yu_xlog_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xlog_homepage.png)
 
@@ -84,9 +84,9 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 ![yu_xlog_nft](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xlog_nft.png)
 
-#### XSync 自动同步 Telegram 和 Twitter
+#### xSync 自动同步 Telegram 和 Twitter
 
-看到 XSync 能够同步 Teleram Channel 数据的时候真的很惊喜，完全不需要再做任何改造就能把我的聚合频道作再一次备份与存档，也很快配置上了，~~瞬间有点想舍弃自己 Side Project 的冲动~~。
+看到 xSync 能够同步 Teleram Channel 数据的时候真的很惊喜，完全不需要再做任何改造就能把我的聚合频道作再一次备份与存档，也很快配置上了，~~瞬间有点想舍弃自己 Side Project 的冲动~~。
 
 ![yu_xsync_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xsync_homepage.png)
 
