@@ -92,7 +92,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 不过有些遗憾的就是历史数据只同步了一部分，之前没接入时的数据似乎也没有手动备份同步的选项，不知道有没有配置项或者后续功能可以解决，或者有 RSS3 的朋友知道解决方案的可以说一下，感谢！
 
-都配置好后就可以通过 XChar 来查看自己的各项消息了，很完美的解决方案，这是我的 XCharacter 个人主页: [xchar.app/pseudoyu](https://xchar.app/pseudoyu)，也可以查看我的信息流。
+都配置好后就可以通过 xChar 来查看自己的各项消息了，很完美的解决方案，这是我的 xCharacter 个人主页: [xchar.app/pseudoyu](https://xchar.app/pseudoyu)，也可以查看我的信息流。
 
 ![yu_xchar_profile](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xchar_profile.png)
 
