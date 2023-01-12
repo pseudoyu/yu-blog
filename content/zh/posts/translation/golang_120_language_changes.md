@@ -48,7 +48,7 @@ m := make(map[func()]any)
 然而，你可以通过使用接口来得到一个运行时错误而不是编译器错误：
 
 ```go
-m := make(map[any]any) // 正确
+m := make(map[any]any) // true true
 k := func() {}
 m[k] = 1 // panic：运行时错误：哈希值为不可哈希的类型 func()
 ```
