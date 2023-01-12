@@ -3,7 +3,7 @@ title: "COMP7801 Topic 1a Relational Database"
 date: 2021-01-23T01:18:17+08:00
 draft: false
 tags: ["hku", "database", "comp7801"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -140,12 +140,12 @@ Language in which user requests information from the database
 ![memory_hierarchy](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/memory_hierarchy.png)
 
 #### Magnetic Disks
-- Read-write head 
+- Read-write head
   - Positioned very close to the platter surface (almost touching it)
   - Reads or writes magnetically encoded information.
 - Surface of platter divided into circular tracks
   - Over 16,000 tracks per platter on typical hard disks
-- Each track is divided into sectors 
+- Each track is divided into sectors
   - A sector is the smallest unit of data that can be read or written
   - Sector size typically 512 bytes
   - Typical sectors per track: 200 (on inner tracks) to 400 (on outer tracks)
@@ -155,7 +155,7 @@ Language in which user requests information from the database
 - Head-disk assemblies
   - multiple disk platters on a single spindle (typically 2 to 4)
   - one head per platter, mounted on a common arm.
-- Cylinder i consists of ith track of all the platters 
+- Cylinder i consists of ith track of all the platters
 
 ![magnetic_hard_disk](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/magnetic_hard_disk.png)
 
@@ -179,7 +179,7 @@ Language in which user requests information from the database
     - Smaller blocks: more transfers from disk
     - Larger blocks:  more space wasted due to partially filled blocks
     - Typical block sizes today range from 4 to 16 kilobytes
-- Disk-arm-scheduling algorithms order pending accesses to tracks so that disk arm movement is minimized 
+- Disk-arm-scheduling algorithms order pending accesses to tracks so that disk arm movement is minimized
 
 #### Storage Access
 - A database file is partitioned into fixed-length storage units called blocks.  Blocks are units of both storage allocation and data transfer. Typical size of a block ranges between 4Kb-16Kb

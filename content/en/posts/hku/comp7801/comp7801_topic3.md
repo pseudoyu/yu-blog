@@ -3,7 +3,7 @@ title: "COMP7801 Topic 3 Spatial Networks"
 date: 2021-02-27T01:18:17+08:00
 draft: false
 tags: ["hku", "database", "comp7801"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -41,7 +41,7 @@ authors:
 #### Storing Large Spatial Networks
 
 * Problem: adjacency lists representation may not fit in memory if graph is large
-* Solution: 
+* Solution:
     * partition adjacency lists to disk blocks (based on proximity)
     * create B+-tree index on top of partitions (based on node-id)
 
@@ -101,7 +101,7 @@ authors:
 
 ![A_Star_Example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A_Star_Example.png)
 
-#### Illustrating 
+#### Illustrating
 
 * Find the shortest path between s and t.
     * f(p) = Dijkstra_dist(s, p) + Euclidean_dist(p, t)
@@ -157,7 +157,7 @@ authors:
 * Store (and index) the spatial network
     * Graph component (indexes connectivity information)
     * Spatial component (indexes coordinates of nodes, edges, etc.)
-* Store (and index) the sets of spatial objects 
+* Store (and index) the sets of spatial objects
     * Ex., one spatial relation for restaurants, one spatial relation for hotels, one relation for mobile users, etc.
 * Given a spatial location p, use spatial component of network to find the network edge containing p
 * Given a network edge, use network component to traverse neighboring edges
@@ -277,9 +277,9 @@ authors:
 
 ![Hierarchical_Path_Materialization_algorithm](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Hierarchical_Path_Materialization_algorithm.png)
 
-#### Illustrating 
+#### Illustrating
 
-* Good partitioning if: 
+* Good partitioning if:
     * small partitions
     * few combinations examined for SP search
 * Real road networks:
@@ -317,6 +317,6 @@ authors:
     * Shortest path distance is used instead of Euclidean distance, to define range queries, nearest neighbor search, and spatial joins
 * Spatial networks could be too large to fit in memory
     * Disk-based index for adjacency lists is used
-* Several shortest path algorithms 
+* Several shortest path algorithms
 * Spatial queries can be evaluated using Euclidean bounds
 * Advanced indexing methods for shortest path search on large graphs

@@ -3,7 +3,7 @@ title: "COMP7801 Topic 1b Database Indexing"
 date: 2021-01-30T01:18:17+08:00
 draft: false
 tags: ["hku", "database", "comp7801"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -107,7 +107,7 @@ authors:
 #### Non-Leaf Nodes in B+-Trees
 
 - Each non-leaf node contains up to n-1 search key values and up to n pointers
-- All non-leaf nodes (except root) contain at least n/2 pointers (n/2 is sometimes called the minimum fan-out or degree) 
+- All non-leaf nodes (except root) contain at least n/2 pointers (n/2 is sometimes called the minimum fan-out or degree)
 - Non leaf nodes form a multi-level sparse index on the leaf nodes.  For a non-leaf node with m pointers
   - All the search-keys in the subtree to which P1 points are less than K1
   - For 2 <= i <= n – 1, all the search-keys in the subtree to which Pi points have values greater than or equal to Ki–1 and smaller than Km–1

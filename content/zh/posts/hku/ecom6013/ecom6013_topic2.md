@@ -3,7 +3,7 @@ title: "ECOM6013 Topic 2 Internet and E-Commerce Infrasture"
 date: 2020-09-16T19:28:28+08:00
 draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -96,7 +96,7 @@ Internet growth has boomed without disruption because of
 * Hourglass, layered architecture
 
 ![hourglass_model](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/hourglass_model.png)
-    
+
 * Applications
 * Middleware Services
 * Transport Services and Representation Standards

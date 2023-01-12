@@ -3,7 +3,7 @@ title: "ECOM6013 Topic 5 Mobile Commerce"
 date: 2020-09-21T10:44:28+08:00
 draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

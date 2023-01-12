@@ -3,7 +3,7 @@ title: "New iPad Air 4 (2020) Presence by Apple Inc."
 date: 2020-09-18T01:25:19+08:00
 draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -16,7 +16,7 @@ authors:
 
 The iPad Air 4 (2020) got shown off at Apple's September event held on September 16. There is a specific designed website (mobile version included) for this product. I'd like to do an analysis towards this very impressive E-Commerce presence.
 
-Apple iPad Air product line is mainly targeted to educators/students, staffs and kids/teenagers. So, the most premium features this new product wants to convey to customers is its fancy appearance and powerful A14 Bionic for creation, study and entertainment. Rather than directly shows all parameter, the company presents a series of beautiful pictures (with impressive animations) to catch audiences’ attention at first glance. 
+Apple iPad Air product line is mainly targeted to educators/students, staffs and kids/teenagers. So, the most premium features this new product wants to convey to customers is its fancy appearance and powerful A14 Bionic for creation, study and entertainment. Rather than directly shows all parameter, the company presents a series of beautiful pictures (with impressive animations) to catch audiences’ attention at first glance.
 
 ![ipad_air_presence_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ipad_air_presence_1.png)
 

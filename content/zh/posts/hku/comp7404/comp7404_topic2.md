@@ -3,7 +3,7 @@ title: "COMP7404 Topic 2 Beyond Classical Search"
 date: 2020-10-04T21:30:11+08:00
 draft: false
 tags: ["hku", "machine learning", "comp7404"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

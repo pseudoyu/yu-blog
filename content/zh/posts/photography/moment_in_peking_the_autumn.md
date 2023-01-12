@@ -3,7 +3,7 @@ title: "摄影集 #02 - Moment In Peking (The Autumn)"
 date: 2023-01-02T18:00:00+08:00
 draft: false
 tags: ["photography", "beijing", "nature", "sony", "a7m3", "autumn", "season", "city", "moment"]
-categories: ["Develop"]
+categories: ["Ideas"]
 authors:
 - "Arthur"
 ---

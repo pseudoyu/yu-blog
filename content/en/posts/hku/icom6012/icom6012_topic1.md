@@ -3,7 +3,7 @@ title: "ICOM6012 Topic 1 Overview"
 date: 2020-09-09T20:22:09+08:00
 draft: false
 tags: ["hku","internet","icom6012"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

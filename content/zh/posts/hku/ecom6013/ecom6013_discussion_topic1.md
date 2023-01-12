@@ -3,7 +3,7 @@ title: "Puma Goes Omni Case Study"
 date: 2020-09-08T23:30:19+08:00
 draft: false
 tags: ["hku", "e-commerce", "ecom6013"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

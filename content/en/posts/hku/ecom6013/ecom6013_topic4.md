@@ -3,7 +3,7 @@ title: "ECOM6013 Topic 4 Website Design, Testing and Maintenance"
 date: 2020-09-16T21:25:28+08:00
 draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -16,7 +16,7 @@ authors:
 1. Systems analysis/planing
    * Busisess objectives
    * System functionalities
-   * Information requirements 
+   * Information requirements
 2. Systems design
 3. Building the system
 4. Testing
@@ -96,7 +96,7 @@ authors:
   * ...
 
 **Dynamic Page Generation Tools**
- 
+
 *Contents stored in database and fetched when needed*
 
 * CGI

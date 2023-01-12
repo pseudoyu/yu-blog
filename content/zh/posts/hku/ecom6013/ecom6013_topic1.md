@@ -3,7 +3,7 @@ title: "ECOM6013 Topic 1 Introduction to E-Commerce Technology"
 date: 2020-09-06T04:28:28+08:00
 draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

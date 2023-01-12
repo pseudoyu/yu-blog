@@ -3,7 +3,7 @@ title: "COMP7404 Topic 3 Adversarial Search"
 date: 2020-10-05T00:30:11+08:00
 draft: false
 tags: ["hku", "machine learning", "comp7404"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -17,7 +17,7 @@ authors:
 * Goals are in conflict (not necessarily)
 
 **Game Definition**
-* A game can be defined as 
+* A game can be defined as
   * s : States
   * s0: Initial state
   * Player(s) : Defines which player has the move
@@ -92,7 +92,7 @@ authors:
 ![expectimax_search](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/expectimax_search.png)
 
 * Values reflect average case outcomes, not worst case outcomes
-* Expectimax search computes the expected score under optimal play 
+* Expectimax search computes the expected score under optimal play
   * Max nodes as in minimax search
   * Chance nodes are like min nodes but the outcome is uncertain
   * Calculate their expected utilities

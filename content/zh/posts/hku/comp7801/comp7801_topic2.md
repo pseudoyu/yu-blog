@@ -3,7 +3,7 @@ title: "COMP7801 Topic 2 Spatial Data Management"
 date: 2021-02-06T01:18:17+08:00
 draft: false
 tags: ["hku", "database", "comp7801"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -230,10 +230,10 @@ Only different in the insertion algorithm (compared to R-tree), aiming at constr
 
 **Determine the split axis**
 - For each axis (i.e. x and y axis)
-  - Sum=0; 
+  - Sum=0;
   - sort entries by the lower value, then by upper value
   - for each sorting (e.g. lower value)
-    - for k=m to M+1-m 
+    - for k=m to M+1-m
     - place first k entries in group A, and the remaining ones in group B
     - - Sum = Sum + margin(A) + margin(B)
 - Choose axis with the minimum Sum
@@ -399,12 +399,12 @@ Step 1: put all entries of root on heap Q
 Q = M1(1), M2(sqrt(2)), M3(sqrt(8))
 
 Step 2: get closest entry (top element of Q):
-M1(1). Visit node M1. Put all entries of 
+M1(1). Visit node M1. Put all entries of
 visited node on heap Q
 Q = M2(sqrt(2)), m1(sqrt(5)), M3(sqrt(5)), M3(sqrt(8)), m2(3)
 
 Step 3: get closest entry (top element of Q):
-M2(sqrt(2)). Visit node M2. Put all entries of 
+M2(sqrt(2)). Visit node M2. Put all entries of
 visited node on heap Q
 Q =m4(sqrt(2)), m1(sqrt(5)), M3(sqrt(5)), M3(sqrt(8)), m2(3), 	m5(sqrt(13)), m5(sqrt(17))
 
@@ -420,7 +420,7 @@ m1(sqrt(5)). Since sqrt(5) >= dist(q,oNN)= sqrt(2), search stops and oNN is retu
 **incremental NN search**
 
 - Example 1: find the nearest large city (>10,000 residents) to my current position
-  - Solution 1: 
+  - Solution 1:
     - find all large cities
     - apply NN search on the result
     - could be slow if many such cities
@@ -436,7 +436,7 @@ Most algorithms focus on the efficient processing of the filter step.
 Most spatial predicates on actual objects reduce to intersection of MBRs in the filter step. Thus all algorithms consider mainly the intersect predicate.
 
 **Types**
-- intersection joins 
+- intersection joins
 - Semi-join: Find the cities that intersect a river
 - Similarity join: Find pairs of hotels, restaurants close to each other (with distance smaller than 100m)
 - Closest pairs: Find the closest pair of hotels, restaurants

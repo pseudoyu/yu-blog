@@ -3,7 +3,7 @@ title: "ICOM6012 Topic 2 The Big Picture"
 date: 2020-10-05T09:06:09+08:00
 draft: false
 tags: ["hku","internet","icom6012"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -369,7 +369,7 @@ traceroute to youtube.com (216.58.197.110), 64 hops max, 52 byte packets
   * Procedures
     1. Select target
     2. Break into hosts around the network
-    3. Send packets to target from compromised hosts 
+    3. Send packets to target from compromised hosts
 * Packet interception
   * Packet "sniffing"
   * ![packet_sniffing](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/packet_sniffing.png)

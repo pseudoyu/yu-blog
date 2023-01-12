@@ -3,7 +3,7 @@ title: "COMP7404 Topic 1 Solving Problems by Searching"
 date: 2020-09-16T00:28:11+08:00
 draft: false
 tags: ["hku", "machine learning", "comp7404"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -139,7 +139,7 @@ Use dictionart to store neighbors for each cities
 
 C*: cost of the optimal solution
 
-epsilon: smallest path cost 
+epsilon: smallest path cost
 
 **Queue**
 
@@ -246,9 +246,9 @@ deque(['A', 'B'])
 
 ```python
 import collections
-def dfsTsa(stateSpaceGraph, startState, goalState): 
+def dfsTsa(stateSpaceGraph, startState, goalState):
     frontier = collections.deque([startState])
-    while frontier: 
+    while frontier:
         node = frontier.pop()
         if (node.endswith(goalState)): return node
         print('Exploring:',node[-1],'...')
@@ -262,10 +262,10 @@ def dfsTsa(stateSpaceGraph, startState, goalState):
 
 ```python
 import collections
-def dfsGsa(stateSpaceGraph, startState, goalState): 
+def dfsGsa(stateSpaceGraph, startState, goalState):
     frontier = collections.deque([startState])
     exploredSet = set()
-    while frontier: 
+    while frontier:
         node = frontier.pop()
         if (node.endswith(goalState)): return node
         if node[-1] not in exploredSet:
@@ -294,7 +294,7 @@ def dfsGsa(stateSpaceGraph, startState, goalState):
 *Both have time complexity issue*
 
 **UCS (Cheapest First Search)**
- 
+
 Explores the cheapest node first
 
 ```python
@@ -330,7 +330,7 @@ False
 
 ```python
 from heapq import heappush, heappop
-def ucsTsa(stateSpaceGraph, startState, goalState): 
+def ucsTsa(stateSpaceGraph, startState, goalState):
     frontier = []
     heappush(frontier, (0, startState))
     while frontier:
@@ -344,7 +344,7 @@ def ucsTsa(stateSpaceGraph, startState, goalState):
 
 ```python
 from heapq import heappush, heappop
-def ucsGsa(stateSpaceGraph, startState, goalState): 
+def ucsGsa(stateSpaceGraph, startState, goalState):
     frontier = []
     heappush(frontier, (0, startState))
     exploredSet = set()
@@ -391,7 +391,7 @@ romaniaH = {
 
 ```python
 from heapq import heappush, heappop
-def greedyTsa(stateSpaceGraph, h, startState, goalState): 
+def greedyTsa(stateSpaceGraph, h, startState, goalState):
     frontier = []
     heappush(frontier, (h[startState], startState))
     while frontier:
@@ -424,8 +424,8 @@ f(n) = g(n) + h(n)
 **A\*-TSA Practice**
 
 ```python
-from heapq import heappush, heappop  
-def aStarTsa(stateSpaceGraph, h, startState, goalState): 
+from heapq import heappush, heappop
+def aStarTsa(stateSpaceGraph, h, startState, goalState):
     frontier = []
     heappush(frontier, (h[startState], startState))
     while frontier:
@@ -446,7 +446,7 @@ A heuristic h(n) is admissible (optimistic)
 where h*(n) is the true cost of the nearest goal
 
 **Optimality of A\***
- 
+
  A\* is optimal if an admissible heuristic is used
 
 **Consistency of Heuristic**

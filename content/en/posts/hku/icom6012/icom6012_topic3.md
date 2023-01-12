@@ -3,7 +3,7 @@ title: "ICOM6012 Topic 3 Application Layer"
 date: 2020-10-19T17:50:44+08:00
 draft: false
 tags: ["hku","internet","icom6012"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -396,7 +396,7 @@ authors:
 
 **Peer-to-peer File Distribution**
 * P2P architecture
-  * No always-on server 
+  * No always-on server
   * Arbitrary end systems directly communicate
   * Self scalibility
   * Peers are intermittently connected and change IP address

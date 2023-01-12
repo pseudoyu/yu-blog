@@ -3,12 +3,12 @@ title: "ICOM6045 Topic 1 Cryptography"
 date: 2020-10-21T19:53:17+08:00
 draft: false
 tags: ["internet","security","hku","icmo6045"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
 
-# ICOM6045 Fundamentals of E-Commerce Security 
+# ICOM6045 Fundamentals of E-Commerce Security
 
 ## Topic 1 Cryptography
 

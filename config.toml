@@ -134,11 +134,6 @@ defaultContentLanguageInSubdir = true
     weight = 30
     identifier = "develop"
     url = "category/develop/"
-  [[languages.en.menu.main]]
-    name = "Note"
-    weight = 40
-    identifier = "notes"
-    url = "category/notes/"
 
   [[languages.en.menu.social]]
     name = "Telegram"
@@ -201,11 +196,6 @@ defaultContentLanguageInSubdir = true
     weight = 30
     identifier = "develop"
     url = "category/develop/"
-  [[languages.zh.menu.main]]
-    name = "笔记"
-    weight = 40
-    identifier = "notes"
-    url = "category/notes/"
 
   [[languages.zh.menu.social]]
     name = "Telegram"

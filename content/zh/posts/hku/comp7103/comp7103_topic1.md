@@ -3,7 +3,7 @@ title: "COMP7103 Topic 1 Introduction"
 date: 2021-01-28T01:18:17+08:00
 draft: false
 tags: ["hku", "data mining", "comp7103"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

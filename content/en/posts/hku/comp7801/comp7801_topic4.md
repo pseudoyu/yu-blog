@@ -3,7 +3,7 @@ title: "COMP7801 Topic 4 Top-k"
 date: 2021-03-06T01:18:17+08:00
 draft: false
 tags: ["hku", "database", "comp7801"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -46,7 +46,7 @@ authors:
 
 ### Top-k Query
 
-* Given a set of objects (e.g., relational tuples), 
+* Given a set of objects (e.g., relational tuples),
 * Returns the k objects with the highest combined score, based on an aggregate function f.
 * Example:
     * Relational table containing information about restaurants, with attributes(e.g. price, quality, location)
@@ -70,8 +70,8 @@ authors:
 
 ```sql
 SELECT h.id, s.id 
-FROM House h School s 
-WHERE h.location=s.location 
+FROM House h School s
+WHERE h.location=s.location
 ORDER BY h.price + 10 ∗ s.tuition 
 LIMIT 5
 ```
@@ -104,7 +104,7 @@ LIMIT 5
 * Advantages：
     * can be applied on any subset of inputs (arbitrary subspace)
     * appropriate for distributed data
-    * appropriate for top-k joins 
+    * appropriate for top-k joins
     * easy to understand and implement
 * Drawbacks:
     * slower than index-based methods
@@ -114,7 +114,7 @@ LIMIT 5
 
 #### Introduction
 
-* Iteratively retrieves objects and their atomic scores from the ranked inputs in a round-robin fashion. 
+* Iteratively retrieves objects and their atomic scores from the ranked inputs in a round-robin fashion.
 * For each encountered object x, perform random accesses to the inputs where x has not been seen.
 * Maintain top-k objects seen so far.
 * T = f($l_1$, . . . , $l_m$) is the score derived when applying the aggregation function to the last atomic scores seen at each input. If the score of the k-th object is no smaller than T, terminate.
@@ -154,11 +154,11 @@ LIMIT 5
 
 #### Introduction
 
-* Iteratively retrieves objects and their atomic scores from the ranked inputs in a round-robin fashion. 
+* Iteratively retrieves objects and their atomic scores from the ranked inputs in a round-robin fashion.
 * For each object x seen so far at any input maintain:
     * f_x_ub: upper bound for x’s aggregate score (f_x)
     * f_x_lb: lower bound for x’s aggregate score (f_x)
-* W_k = k objects with the largest f^lb. 
+* W_k = k objects with the largest f^lb.
 * If the smallest f^lb in W_k is at least the largest f_x_ub of any object x not in W_k, then terminate and report W_k as top-k result.
 
 #### Example of NRA(k=1,f=sum)

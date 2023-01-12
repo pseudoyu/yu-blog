@@ -3,7 +3,7 @@ title: "ICOM6012 Topic 4 Transport Layer"
 date: 2020-10-20T09:37:44+08:00
 draft: false
 tags: ["hku","internet","icom6012"]
-categories: ["Notes"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
@@ -60,7 +60,7 @@ authors:
 - Concepts
 	- Segment structure
 	- Sequence numbers
-		- Byte stream "number" of first byte in segment's data 
+		- Byte stream "number" of first byte in segment's data
 	- Acknowledgements (ACKs)
 		- Seq # of next byte expected from other side
 		- Cumulative ACKs
@@ -107,7 +107,7 @@ authors:
 	- No frills
 	- Bare bones
 	- "Best effort"
-		- Lost 
+		- Lost
 		- Delivered out-of-order to app
 	- No handshaking
 	- Handle independently
