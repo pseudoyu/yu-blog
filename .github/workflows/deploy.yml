@@ -5,7 +5,7 @@ on:
     workflow_dispatch:
     schedule:
         # Runs everyday at 8:00 AM
-        - cron: "0 0 * * *"
+        - cron: '0 0 * * *'
 
 jobs:
     build:
@@ -53,11 +53,14 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
-                hugo-version: latest
-                extended: true
-            
+                  hugo-version: latest
+                  extended: true
+
             - name: Build Web
-              run: hugo --minify
+              run: hugo --gc --minify
+
+            - name: Run Pagefind
+              run: npm_config_yes=true npx pagefind --source "public"
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
