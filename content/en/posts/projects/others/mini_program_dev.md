@@ -3,7 +3,7 @@ title: "微信小程序云开发项目: 吃什么吖"
 date: 2020-04-05T23:40:25+08:00
 draft: false
 tags: ["mini-program","javascript","html","css"]
-categories: ["Projects"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---

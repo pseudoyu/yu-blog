@@ -3,7 +3,7 @@ title: "摄影集 #01 - Cat In The Box"
 date: 2023-01-01T21:18:03+08:00
 draft: false
 tags: ["photography", "cat", "home", "sony", "a7m3", "pet"]
-categories: ["Projects"]
+categories: ["Develop"]
 authors:
 - "Arthur"
 ---
