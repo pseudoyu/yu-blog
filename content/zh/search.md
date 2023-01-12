@@ -8,4 +8,4 @@ rss_ignore: true
 
 ## 搜索本网站
 
-{{< search-zh >}}
+{{< search >}}

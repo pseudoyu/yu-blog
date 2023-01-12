@@ -8,4 +8,4 @@ rss_ignore: true
 
 ## Search the site
 
-{{< search-en >}}
+{{< search >}}
