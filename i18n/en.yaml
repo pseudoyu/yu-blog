@@ -50,13 +50,16 @@
   translation: 'Error 404 - Page Not Found'
 
 - id: in_category
-  translation: "Category: "
+  translation: 'Category: '
 
 - id: words
   translation: words
 
 - id: minutes
   translation: minutes
+
+- id: comments
+  translation: comments
 
 - id: latest_posts
   translation: Latest Posts
@@ -71,7 +74,7 @@
   translation: Next
 
 - id: author_by
-  translation: "Author: "
+  translation: 'Author: '
 
 - id: related
   translation: Related Posts
@@ -80,7 +83,7 @@
   translation: Load Disqus Comments
 
 - id: translations
-  translation: "Translations: "
+  translation: 'Translations: '
 
 - id: author
   translation: Author
