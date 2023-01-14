@@ -1,0 +1,155 @@
+<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta name=generator content="Hugo 0.109.0"><meta charset=utf-8><title>LeetCode 刷题常用数据结构（Java 篇） · Pseudoyu</title><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script async defer data-website-id=058488c2-18d4-498a-b683-0a898b3f6c7a src=https://data.pseudoyu.com/pseudoyu.js></script>
+<script async src=https://cdn.splitbee.io/sb.js></script>
+<script src=https://cdn.splitbee.io/sb-ab.js></script>
+<script src=https://www.pseudoyu.com/js/snow.js defer></script><meta name=description content="前言 最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数"><meta name=keywords content="hugo,blockchain,programming"><link rel=canonical href=https://www.pseudoyu.com/en/2021/01/01/algorithm_data_structure_java/><link rel=alternate href=https://www.pseudoyu.com/zh/2021/01/01/algorithm_data_structure_java/ hreflang=zh><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css integrity=sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.2.0/css/all.css integrity=sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ crossorigin=anonymous><link rel=stylesheet href=https://www.pseudoyu.com/css/den.css><meta property="og:title" content="LeetCode 刷题常用数据结构（Java 篇）"><meta property="og:description" content="前言 最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数"><meta property="og:type" content="article"><meta property="og:url" content="https://www.pseudoyu.com/en/2021/01/01/algorithm_data_structure_java/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-01-01T00:12:17+08:00"><meta property="article:modified_time" content="2021-01-01T00:12:17+08:00"><meta itemprop=name content="LeetCode 刷题常用数据结构（Java 篇）"><meta itemprop=description content="前言 最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数"><meta itemprop=datePublished content="2021-01-01T00:12:17+08:00"><meta itemprop=dateModified content="2021-01-01T00:12:17+08:00"><meta itemprop=wordCount content="1108"><meta itemprop=keywords content="java,algorithm,leetcode,"><meta name=twitter:card content="summary"><meta name=twitter:title content="LeetCode 刷题常用数据结构（Java 篇）"><meta name=twitter:description content="前言 最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数"></head><body><div class=header-container style=background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(https://www.pseudoyu.com/images/background.webp);background-position:50%;background-size:cover><div class=container><nav class="header-nav navbar navbar-expand-md navbar-dark light-dark"><div class="header-logo navbar-brand"><a class=float-left href=https://www.pseudoyu.com/en/><img class="mr20 header-logo-image" src=https://www.pseudoyu.com/images/fly.png alt=logo>
+Pseudoyu</a></div><button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="nav-menu collapse navbar-collapse" id=navbarNav><ul class=navbar-nav><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/en/category/ideas/>Idea</a></li><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/en/category/tools/>Tool</a></li><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/en/category/develop/>Develop</a></li><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/en/links/>Links</a></li><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/en/about/>About</a></li><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/en/search/>Search</a></li><li class=nav-item><a class=nav-link href=https://www.pseudoyu.com/zh/><i class="fas fa-globe"></i> 中文</a></li></ul></div></nav></div><div class="container header-wrapper"><div class=row><div class=col-lg-12><div class=header-content><h1 class=header-title>LeetCode 刷题常用数据结构（Java 篇）</h1><p class=header-date>Author:
+Yu Zhang
+| <span>1108 words, 3 minutes</span>
+| <span data-cusdis-count-page-id=e437acb05f506808887b4398855e2d97>0</span> comments
+| 2021-01-01
+| Category:
+<a href=https://www.pseudoyu.com/en/category/develop/>Develop</a></p><div class=header-underline></div><div class=clearfix></div><p class="float-right header-tags"><i class="fas fa-tags" aria-hidden=true></i>
+<a href=https://www.pseudoyu.com/en/tag/algorithm/>algorithm</a>,
+<a href=https://www.pseudoyu.com/en/tag/java/>java</a>,
+<a href=https://www.pseudoyu.com/en/tag/leetcode/>leetcode</a></p><div class=clearfix></div><p class="float-right translations"><i class="fas fa-language" aria-hidden=true></i>
+Translations:
+<a href=https://www.pseudoyu.com/zh/2021/01/01/algorithm_data_structure_java/>ZH</a></p></div></div></div></div></div><main><div class="container content"><article data-pagefind-body><h2 id=前言>前言</h2><p>最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。</p><h2 id=数据结构>数据结构</h2><h3 id=数组->数组 []</h3><h4 id=初始化>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 初始化一个大小为10，默认值为0的数组
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span> <span class=o>=</span> <span class=k>new</span> <span class=kt>int</span><span class=o>[</span><span class=mi>10</span><span class=o>];</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 初始化一个二位boolean数组
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span><span class=o>[][]</span> <span class=n>visited</span> <span class=o>=</span> <span class=k>new</span> <span class=kt>boolean</span><span class=o>[</span><span class=mi>5</span><span class=o>][</span><span class=mi>10</span><span class=o>];</span>
+</span></span></code></pre></div><h4 id=常用方法>常用方法</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 函数开头一般要做一个非空检查，然后用索引下标访问元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>if</span> <span class=o>(</span><span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>==</span> <span class=mi>0</span><span class=o>)</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span><span class=o>;</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=mi>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span><span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>    <span class=c1>// 访问num[i]
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>}</span>
+</span></span></code></pre></div><h3 id=字符串-string>字符串 String</h3><h4 id=初始化-1>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>String</span> <span class=n>s1</span> <span class=o>=</span> <span class=s>&#34;hello world&#34;</span><span class=o>;</span>
+</span></span></code></pre></div><h4 id=访问字符串>访问字符串</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// String不支持用[]直接访问字符
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>char</span> <span class=n>c</span> <span class=o>=</span> <span class=n>s1</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=mi>2</span><span class=o>);</span>
+</span></span></code></pre></div><h4 id=修改字符串>修改字符串</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// String不支持直接修改字符串，要转化为char[]类型才能修改
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>char</span><span class=o>[]</span> <span class=n>chars</span> <span class=o>=</span> <span class=n>s1</span><span class=o>.</span><span class=na>toCharArray</span><span class=o>();</span>
+</span></span><span class=line><span class=cl><span class=n>chars</span><span class=o>[</span><span class=mi>1</span><span class=o>]</span> <span class=o>=</span> <span class=sc>&#39;a&#39;</span><span class=o>;</span>
+</span></span><span class=line><span class=cl><span class=n>String</span> <span class=n>s2</span> <span class=o>=</span> <span class=k>new</span> <span class=n>String</span><span class=o>(</span><span class=n>chars</span><span class=o>);</span>
+</span></span></code></pre></div><h4 id=判断字符串是否相同>判断字符串是否相同</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 一定要用equals方法进行判断，不能直接用==
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>if</span> <span class=o>(</span><span class=n>s1</span><span class=o>.</span><span class=na>equals</span><span class=o>(</span><span class=n>s2</span><span class=o>))</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>    <span class=c1>// 相等
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>}</span> <span class=k>else</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>    <span class=c1>// 不相等
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>}</span>
+</span></span></code></pre></div><h4 id=拼接字符串>拼接字符串</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 支持直接用+进行连接，但是效率不高
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>String</span> <span class=n>s3</span> <span class=o>=</span> <span class=n>s1</span> <span class=o>+</span> <span class=s>&#34;!&#34;</span><span class=o>;</span>
+</span></span></code></pre></div><h4 id=通过-stringbuilder-进行频繁的字符串拼接以提高效率>通过 StringBuilder 进行频繁的字符串拼接以提高效率</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>StringBuilder</span> <span class=n>sb</span> <span class=o>=</span> <span class=k>new</span> <span class=n>StringBuilder</span><span class=o>();</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=o>(</span><span class=kt>char</span> <span class=n>c</span> <span class=o>=</span> <span class=sc>&#39;a&#39;</span><span class=o>;</span> <span class=n>c</span> <span class=o>&lt;=</span> <span class=sc>&#39;f&#39;</span><span class=o>;</span> <span class=n>c</span><span class=o>++)</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>    <span class=c1>// append方法支持拼接字符、字符串、数字等类型
+</span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=n>sb</span><span class=o>.</span><span class=na>append</span><span class=o>(</span><span class=n>c</span><span class=o>);</span>
+</span></span><span class=line><span class=cl>    <span class=n>String</span> <span class=n>result</span> <span class=o>=</span> <span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>();</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span></code></pre></div><h3 id=动态数组-arraylist>动态数组 ArrayList</h3><h4 id=初始化-2>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 初始化一个存储String类型的动态数组
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>ArrayList</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;</span> <span class=n>strings</span> <span class=o>=</span> <span class=k>new</span> <span class=n>ArrayList</span><span class=o>&lt;&gt;();</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 初始化一个存储int类型的动态数组
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>ArrayList</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>nums</span> <span class=o>=</span> <span class=k>new</span> <span class=n>ArrayList</span><span class=o>&lt;&gt;();</span>
+</span></span></code></pre></div><h4 id=常用方法-1>常用方法</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 判断是否为空
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>isEmpty</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 返回元素个数
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>int</span> <span class=nf>size</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 访问索引元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>get</span><span class=o>(</span><span class=kt>int</span> <span class=n>index</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 在尾部添加元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>add</span><span class=o>(</span><span class=n>E</span> <span class=n>e</span><span class=o>)</span>
+</span></span></code></pre></div><h3 id=双链表-linkedlist>双链表 LinkedList</h3><h4 id=初始化-3>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 初始化一个存储String类型的双链表
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>LinkedList</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;</span> <span class=n>strings</span> <span class=o>=</span> <span class=k>new</span> <span class=n>LinkedList</span><span class=o>&lt;&gt;();</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 初始化一个存储int类型的双链表
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>LinkedList</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>nums</span> <span class=o>=</span> <span class=k>new</span> <span class=n>LinkedList</span><span class=o>&lt;&gt;();</span>
+</span></span></code></pre></div><h4 id=常用方法-2>常用方法</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 判断是否为空
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>isEmpty</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 返回元素个数
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>int</span> <span class=nf>size</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 在尾部添加元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>add</span><span class=o>(</span><span class=n>E</span> <span class=n>e</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 删除尾部最后一个元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>removeLast</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 在头部添加元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>void</span> <span class=nf>addFirst</span><span class=o>(</span><span class=n>E</span> <span class=n>e</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 删除头部第一个元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>removeFirst</span><span class=o>()</span>
+</span></span></code></pre></div><h3 id=哈希表-hashmap>哈希表 HashMap</h3><h4 id=初始化-4>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 初始化一个整数映射到字符串的哈希表
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>HashMap</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>,</span> <span class=n>String</span><span class=o>&gt;</span> <span class=n>map</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashMap</span><span class=o>&lt;&gt;();</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 初始化一个字符串映射到数组的哈希表
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>HashMap</span><span class=o>&lt;</span><span class=n>String</span><span class=o>,</span> <span class=kt>int</span><span class=o>[]&gt;</span> <span class=n>map</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashMap</span><span class=o>&lt;&gt;();</span>
+</span></span></code></pre></div><h4 id=常用方法-3>常用方法</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 判断是否存在Key
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>containsKey</span><span class=o>(</span><span class=n>Object</span> <span class=n>key</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 获取Key的对应Value，如果不存在则返回null
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>V</span> <span class=nf>get</span><span class=o>(</span><span class=n>Object</span> <span class=n>key</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 获取Key的对应Value，如果不存在则返回null
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>V</span> <span class=nf>getOrDefault</span><span class=o>(</span><span class=n>Object</span> <span class=n>key</span><span class=o>,</span> <span class=n>V</span> <span class=n>defaultValue</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 将Key和Value存入哈希表
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>V</span> <span class=nf>put</span><span class=o>(</span><span class=n>K</span> <span class=n>key</span><span class=o>,</span> <span class=n>V</span> <span class=n>value</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 将Key和Value存入哈希表，如果存在，则什么都不做
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>V</span> <span class=nf>putIfAbsent</span><span class=o>(</span><span class=n>K</span> <span class=n>key</span><span class=o>,</span> <span class=n>V</span> <span class=n>value</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 删除键值对并返回值
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>V</span> <span class=nf>remove</span><span class=o>(</span><span class=n>Object</span> <span class=n>key</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 获取哈希表中所有Key
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>Set</span><span class=o>&lt;</span><span class=n>K</span><span class=o>&gt;</span> <span class=nf>keySet</span><span class=o>()</span>
+</span></span></code></pre></div><h3 id=队列-queue>队列 Queue</h3><h4 id=初始化-5>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// Java中的Queue是一个接口
+</span></span></span><span class=line><span class=cl><span class=c1>// 初始化一个存储String的队列
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>Queue</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;</span> <span class=n>q</span> <span class=o>=</span> <span class=k>new</span> <span class=n>LinkedList</span><span class=o>&lt;&gt;();</span>
+</span></span></code></pre></div><h4 id=常用方法-4>常用方法</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 判断是否为空
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>isEmpty</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 返回元素个数
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>int</span> <span class=nf>size</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 返回队头元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>peek</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 删除并返回队头元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>poll</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 在队尾插入元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>offer</span><span class=o>(</span><span class=n>E</span> <span class=n>e</span><span class=o>)</span>
+</span></span></code></pre></div><h3 id=堆栈-stack>堆栈 Stack</h3><h4 id=初始化-6>初始化</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 初始化一个int类型的堆栈
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>Stack</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>s</span> <span class=o>=</span> <span class=k>new</span> <span class=n>Stack</span><span class=o>&lt;&gt;();</span>
+</span></span></code></pre></div><h4 id=常用方法-5>常用方法</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// 判断是否为空
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>boolean</span> <span class=nf>isEmpty</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 返回元素个数
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kt>int</span> <span class=nf>size</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 将元素压入栈顶
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>push</span><span class=o>(</span><span class=n>E</span> <span class=n>e</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 返回栈顶元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>peek</span><span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 删除并的返回栈顶元素
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=n>E</span> <span class=nf>pop</span><span class=o>()</span>
+</span></span></code></pre></div><h2 id=总结>总结</h2><p>刷题路漫漫&mldr;加油！</p><h2 id=参考资料>参考资料</h2><blockquote><ol><li><a href=https://leetcode.com>LeetCode 官网</a></li><li><a href=https://github.com/labuladong/fucking-algorithm>labuladong 的算法小抄</a></li></ol></blockquote></article><h2>Related Posts</h2><dl class=row><dt class=col-md-3>2021-05-29</dt><dd class=col-md-9><a href=/en/2021/05/29/algorithm_data_structure_go/>LeetCode 刷题常用数据结构（Go 篇）</a></dd></dl><div class=author-card><div class=underline></div><div class=author-box><div class=author-image><a href=https://www.pseudoyu.com><img src=/images/author.webp alt="Yu Zhang"></a></div><div class=author-content><p class=author-title>Author</p><p class=author-name>Yu Zhang</p><p class=author-desc>Blockchain Developer, MSc Graduate in ECIC(Electronic Commerce and Internet Computing) @ The University of Hong Kong (HKU). Love to learn and build things. <a href=https://github.com/pseudoyu>Follow me on GitHub</a></p></div></div></div><div align=center><div class=comment-underline></div></div><br><div id=cusdis_thread data-host=https://comments.pseudoyu.com data-app-id=27a61667-fd43-4a0d-934d-f45b944489ee data-page-id=e437acb05f506808887b4398855e2d97 data-page-url=https://www.pseudoyu.com/en/2021/01/01/algorithm_data_structure_java/ data-page-title="LeetCode 刷题常用数据结构（Java 篇）"></div><script defer src=https://comments.pseudoyu.com/js/widget/lang/zh-cn.js></script>
+<script async defer src=https://comments.pseudoyu.com/js/cusdis.es.js></script>
+<script defer data-host=https://comments.pseudoyu.com data-app-id=27a61667-fd43-4a0d-934d-f45b944489ee src=https://comments.pseudoyu.com/js/cusdis-count.umd.js></script></div></main><div class="footer gradient-2"><div class="container footer-container"><div class=row><div class="col-xs-4 col-sm-3 col-md-3 col-lg-3"><div class=footer-title>Sitemap</div><ul class=list-unstyled><li><a href=https://www.pseudoyu.com/en/tags/>Tags</a></li><li><a href=https://www.pseudoyu.com/en/categories/>Categories</a></li><li><a rel=alternate type=application/rss+xml href=https://www.pseudoyu.com/en/index.xml><i class="fas fa-rss-square"></i> RSS Feed</a></li></ul></div><div class="col-xs-4 col-sm-3 col-md-3 col-lg-3"><div class=footer-title>Social</div><ul class=list-unstyled><li><a href=https://t.me/pseudoyulife rel=noopener target=_blank>Telegram</a></li><li><a href=https://twitter.com/pseudo_yu rel=noopener target=_blank>Twitter</a></li><li><a href=https://www.instagram.com/pseudo.yu/ rel=noopener target=_blank>Instagram</a></li><li><a href=https://space.bilibili.com/5374948/ rel=noopener target=_blank>BiliBili</a></li></ul></div><div class="col-xs-4 col-sm-3 col-md-3 col-lg-3"><div class=footer-title>Links</div><ul class=list-unstyled><li><a href=https://github.com/pseudoyu rel=noopener target=_blank>Yu's GitHub</a></li><li><a href=https://uptime.pseudoyu.com/status/services rel=noopener target=_blank>Yu's Services</a></li><li><a href=https://www.m1sty.com/ rel=noopener target=_blank>M1sty's Blog</a></li></ul></div><div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"><p class="pull-right text-right"><small><em><a href=https://data.pseudoyu.com/share/8YKX7FUa/pseudoyu-blog rel=noopener target=_blank>Yu's blog analytics</a></em></small><br><small><em>Powered by <a href=https://gohugo.io rel=noopener target=_blank>Hugo</a> - <a href=https://github.com/shaform/hugo-theme-den rel=noopener target=_blank>den</a></em></small><br><small><em><a href=https://www.hku.hk rel=noopener target=_blank>The University of Hong Kong</a> - <a href=https://www.cs.hku.hk rel=noopener target=_blank>CS</a></em></small><br><small>&copy;
+Yu Zhang
+2020 -
+2023</small></p></div></div></div></div><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js integrity=sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script></body></html>
