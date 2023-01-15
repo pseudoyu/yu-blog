@@ -47,7 +47,7 @@
           {{ end }}
         </ul>
         {{ end }}
-      </div> 
+      </div>
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <p class="pull-right text-right">
           <small><em><a href="https://data.pseudoyu.com/share/8YKX7FUa/pseudoyu-blog" rel="noopener" target="_blank">Yu's blog analytics</a></em></small><br/>
@@ -55,7 +55,7 @@
           <small><em><a href="https://www.hku.hk" rel="noopener" target="_blank">The University of Hong Kong</a> - <a href="https://www.cs.hku.hk" rel="noopener" target="_blank">CS</a></em></small><br/>
           <small>
             {{ $current := now.Format "2006" -}}
-            &copy; 
+            &copy;
             {{ if or .Site.Copyright .Site.Author.name -}}
             {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}
             {{- end }}
@@ -69,6 +69,8 @@
           {{ end }}
         </p>
       </div>
+
+      {{ partial "top.html" . }}
     </div>
   </div>
 </div>
