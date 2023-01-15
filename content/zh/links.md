@@ -35,6 +35,7 @@ rss_ignore: true
 {{< friend name="Nemo" url="https://nemo.cool" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/nemo_avatar.jpg" word="Nemo's Blog" >}}
 {{< friend name="涂俊杰 JunJie" url="https://blog.tujunjie.com/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/tujunjie_avatar.webp" word="时间记录践行者" >}}
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/lzzmm_avatar.jpg" word="日复一日 必有精进" >}}
+{{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chensoul_avatar.png" word="Java 开发工程师，喜欢探索新技术" >}}
 
 </div>
 </div>
