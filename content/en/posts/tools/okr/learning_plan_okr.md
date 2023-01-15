@@ -5,7 +5,7 @@ draft: false
 tags: ["plan","review","okr"]
 categories: ["Tools"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 用一句话形容理想情况下，自己想要达到的状态

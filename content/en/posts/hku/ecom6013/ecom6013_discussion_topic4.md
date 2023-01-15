@@ -5,7 +5,7 @@ draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # A Look at Tik-Tok

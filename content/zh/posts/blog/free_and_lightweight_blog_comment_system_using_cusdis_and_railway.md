@@ -5,7 +5,7 @@ draft: false
 tags: ["hugo", "cusdis", "railway", "serverless", "self-host", "blog"]
 categories: ["Tools"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -90,7 +90,7 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 我所用的是 [Hugo](https://gohugo.io)，配置如下：
 
 ```html
-<div id="cusdis_thread" 
+<div id="cusdis_thread"
   data-host="xxx"
   data-app-id="xxx"
   data-page-id="{{ .File.UniqueID }}"

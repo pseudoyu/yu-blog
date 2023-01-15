@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "ipfs", "storage"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -63,7 +63,7 @@ ipfs get QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH -Cao ipfsTest.png
 ### 开启/加入服务
 
 ```sh
-# 查看当前节点信息 
+# 查看当前节点信息
 ipfs id
 
 # 查看IPFS配置信息
@@ -115,7 +115,7 @@ ipfs name resolve
 
 # 有多个站点需要更新，可以新产生一个秘钥对，使用新的key发布
 ipfs key gen --type=rsa --size=2048 mykey
-ipfs name publish --key=mykey  [File Hash] 
+ipfs name publish --key=mykey  [File Hash]
 ```
 
 ### Pinning

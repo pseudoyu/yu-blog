@@ -5,7 +5,7 @@ draft: false
 tags: ["photography", "beijing", "nature", "sony", "a7m3", "autumn", "season", "city", "moment"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

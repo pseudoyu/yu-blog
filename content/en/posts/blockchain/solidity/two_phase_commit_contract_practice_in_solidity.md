@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "ethereum", "solidity", "smart contract", "web3"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -168,7 +168,7 @@ if (!isEqualString(keyToPayload[_key].lockValue, _value)) {
  * @notice 数据键格式校验
  * @param _key 数据 - 键
  */
-function isValidKey(bytes memory _key) private pure returns (bool) 
+function isValidKey(bytes memory _key) private pure returns (bool)
 {
     bytes memory key = _key;
 
@@ -182,7 +182,7 @@ function isValidKey(bytes memory _key) private pure returns (bool)
  * @notice 数据值格式校验
  * @param _value 数据 - 值
  */
-function isValidValue(bytes memory _value) private pure returns (bool) 
+function isValidValue(bytes memory _value) private pure returns (bool)
 {
     bytes memory value = _value;
 

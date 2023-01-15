@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "ethereum", "ipfs", "hku"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # Uright - 区块链音乐版权管理ÐApp

@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "ipfs", "cnfs", "storage"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # Research on Cloud Computing Processing and Optimization of Distributed Computer

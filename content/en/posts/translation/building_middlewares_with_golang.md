@@ -5,7 +5,7 @@ draft: false
 tags: ["go", "middleware", "programming", "translation"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 简介
@@ -32,7 +32,7 @@ authors:
 最常见的使用场景为：
 
 - 日志记录器，用于记录每个 REST API 访问请求
-- 验证用户 session，并保持通信存活 
+- 验证用户 session，并保持通信存活
 - 用户鉴权
 - 编写自定义逻辑以抽取请求数据
 - 为客户端提供服务时将属性附在响应信息
@@ -46,7 +46,7 @@ authors:
 下面是一个基本的中间件 Handler：
 
 ```go
-package main 
+package main
 import (
     "fmt"
     "net/http"
@@ -56,7 +56,7 @@ func middleware(handler http.Handler) http.Handler {
      return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
          fmt.Println("Executing middleware before request phase!")
          // 将控制权交回 Handler
-         handler.ServeHTTP(w, r)         
+         handler.ServeHTTP(w, r)
          fmt.Println("Executing middleware after response phase!")
      })
  }
@@ -64,7 +64,7 @@ func middleware(handler http.Handler) http.Handler {
      // 业务逻辑
      fmt.Println("Executing mainHandler...")
      w.Write([]byte("OK")) } func main() {
-     // HandlerFunc 返回 HTTP Handler 
+     // HandlerFunc 返回 HTTP Handler
      mainLogicHandler := http.HandlerFunc(mainLogic)
      http.Handle("/", middleware(mainLogicHandler))
      http.ListenAndServe(":8000", nil)
@@ -127,7 +127,7 @@ go run main.go
 服务运行成功后，在浏览器中访问 `localhost:8080/v1/greetings` 查看 `middlewareGreetingsHandler` 的响应信息，访问 `localhost:8080/v1/time` 查看 `middlewareTimeHandler` 的响应信息。完成后，我们需要创建日志中间件来记录所有服务访问请求信息，列举请求方法、资源路径以及处理时间。首先我们要初始化一个新的结构体来实现 `http.Handler` 接口的 `ServeHTTP()` 方法。这个结构体将会有一个字段来追溯进程调用中的 `http.Handler`。
 
 ```go
-// 创建一个名为 Logger 的请求日志中间件 Handler 结构体 
+// 创建一个名为 Logger 的请求日志中间件 Handler 结构体
 type Logger struct {
     handler http.Handler
 }
@@ -183,7 +183,7 @@ go get "github.com/gorilla/handlers"
 导入包，并在 `loggingMiddleware.go` 程序中使用：
 
 ```go
-package main 
+package main
 import (
     "github.com/gorilla/handlers"
     "github.com/gorilla/mux"
@@ -198,11 +198,11 @@ func mainLogic(w http.ResponseWriter, r *http.Request) {
      log.Println("Processing request!")
      w.Write([]byte("OK"))
      log.Println("Finished processing request")
- } 
+ }
 
 func main() {
      r := mux.NewRouter()
-     r.HandleFunc("/", mainLogic)     
+     r.HandleFunc("/", mainLogic)
      loggedRouter := handlers.LoggingHandler(os.Stdout, r)
      http.ListenAndServe(":8080", loggedRouter)
 }
@@ -219,7 +219,7 @@ go run loggingMiddleware.go
 ```bash
 2022/01/05 10:51:44 Processing request!
 2022/01/01 10:51:44 Finished processing request
-127.0.0.1 - - [05/January/2022:10:51:44 +0530] "GET / HTTP/1.1" 
+127.0.0.1 - - [05/January/2022:10:51:44 +0530] "GET / HTTP/1.1"
 200 2 127.0.0.1 - - [05/January/2017:10:51:44 +0530] "GET /favicon.ico HTTP/1.1" 404 19
 ```
 
@@ -235,5 +235,5 @@ go run loggingMiddleware.go
 > 2. [原文作者：MacBobby Chibuzor](https://ghostmac.hashnode.dev)
 > 3. [本文永久链接](https://github.com/gocn/translator/blob/master/2022/w07_building_middlewares_with_golang.md)
 > 4. [GoCN <每周译 Go>](https://github.com/gocn/translator)
-> 5. [译者：张宇](https://github.com/pseudoyu) 
-> 6. [校对：小超人](https://github.com/xkkhy) 
+> 5. [译者：张宇](https://github.com/pseudoyu)
+> 6. [校对：小超人](https://github.com/xkkhy)

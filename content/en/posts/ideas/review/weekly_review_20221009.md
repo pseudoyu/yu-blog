@@ -5,7 +5,7 @@ draft: false
 tags: ["review", "life", "work", "movie", "book", "holiday", "school", "memory", "game", "cat", "ego"]
 categories: ["Ideas"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -53,7 +53,7 @@ authors:
 每隔一两年就会用手机模拟器重温一下经典 GBA 游戏，但虚拟按键玩起来总差点小时候的那种感觉。从
 [@Ehco1996](https://twitter.com/Ehco1996) get 新玩具，解锁了开源掌机新世界！
 
-火速重温宝可梦和火焰纹章系列（虽然已经通关好多遍了），快乐！ 
+火速重温宝可梦和火焰纹章系列（虽然已经通关好多遍了），快乐！
 
 ### 输入
 

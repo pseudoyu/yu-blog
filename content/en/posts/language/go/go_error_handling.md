@@ -5,7 +5,7 @@ draft: false
 tags: ["go", "error", "programming", "translation"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

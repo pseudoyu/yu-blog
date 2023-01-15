@@ -5,7 +5,7 @@ draft: false
 tags: ["hugo", "github", "github action", "github pages", "cloudflare", "serverless", "self-host", "blog"]
 categories: ["Tools"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}

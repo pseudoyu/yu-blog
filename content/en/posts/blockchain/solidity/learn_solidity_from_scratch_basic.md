@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "ethereum", "solidity", "smart contract", "web3"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -157,19 +157,19 @@ contract Struct {
     	string id;
     	string hash;
     }
-    
+
     Data public data;
-    
+
     // 添加数据
     function create(string calldata _id) public {
     	data = Data{id: _id, hash: "111222"};
     }
-    
+
     // 更新数据
     function update(string _id) public {
     	// 查询数据
     	string id = data.id;
-        
+
         // 更新
         data.hash = "222333"
     }
@@ -265,7 +265,7 @@ function changeOwner(address _newOwner) public onlyOwner validAddress(_newOwner)
 
 function decrement(uint i) public noReentrancy {
 	x -= i;
-    
+
 	if (i > 1) {
 		decrement(i - 1);
 	}
@@ -527,7 +527,7 @@ function testAssert() public view {
 ```solidity
 event Log(string message);
 event LogBytes(bytes data);
-    
+
 function tryCatchNewContract(address _owner) public {
 	try new Foo(_owner) returns (Foo foo) {
 		emit Log("Foo created");
@@ -611,7 +611,7 @@ contract ReceiveEther {
 
 	// 当 msg.data 为空时
 	receive() external payable {}
-    
+
     // 当 msg.data 非空时
 	fallback() external payable {}
 

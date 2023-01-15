@@ -5,7 +5,7 @@ draft: false
 tags: ["java","algorithm", "leetcode"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

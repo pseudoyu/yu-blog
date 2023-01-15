@@ -5,7 +5,7 @@ draft: false
 tags: ["go","algorithm", "leetcode"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

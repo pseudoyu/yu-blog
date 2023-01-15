@@ -5,7 +5,7 @@ draft: false
 tags: ["container", "docker", "devops", "programming", "work practice series", "work", "practice", "backend"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -87,7 +87,7 @@ FROM <image>
 
 ENV USERNAME=admin \
     PASSWORD=123456
-    
+
 RUN mkdir -p <app-directory>
 
 COPY . /<app-directory>

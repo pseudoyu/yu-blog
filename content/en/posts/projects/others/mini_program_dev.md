@@ -5,7 +5,7 @@ draft: false
 tags: ["mini-program","javascript","html","css"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # 微信小程序云开发项目: 吃什么吖

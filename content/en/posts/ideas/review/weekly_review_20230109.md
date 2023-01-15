@@ -5,7 +5,7 @@ draft: false
 tags: ["review", "life", "home", "mood", "miniflux", "rss", "information", "serverless", "pkm", "system", "xlog", "xsync", "crossbell"]
 categories: ["Ideas"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}

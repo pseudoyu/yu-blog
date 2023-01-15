@@ -5,7 +5,7 @@ draft: false
 tags: ["review","future","university", "life", "romance"]
 categories: ["Ideas"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 23 岁的自白：去追寻意义

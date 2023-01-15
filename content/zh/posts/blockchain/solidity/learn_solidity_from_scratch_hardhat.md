@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "solidity", "ethereum", "web3", "smart contract", "javascript", "ethers.js", "hardhat", "yarn"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -314,7 +314,7 @@ async function verify(contractAddress, args) {
 ```javascript
 async function main() {
     //...
-  
+
     if (network.config.chainId === 4 && process.env.ETHERSCAN_API_KEY) {
         await simpleStorage.deployTransaction.wait(6)
         await verify(simpleStorage.address, [])

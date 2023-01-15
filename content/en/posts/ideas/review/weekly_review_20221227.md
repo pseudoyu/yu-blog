@@ -5,7 +5,7 @@ draft: false
 tags: ["review", "life", "work", "cat", "christmas", "love", "romance", "mood"]
 categories: ["Ideas"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/christmas_song_english_version.mp3" caption="《クリスマスソング (English Cover) - Matt Cab》" >}}

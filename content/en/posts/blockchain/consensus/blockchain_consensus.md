@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "consensus", "distributed system"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

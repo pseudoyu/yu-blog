@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "hyperledger fabric", "go", "gosdk"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -113,7 +113,7 @@ func (s *SmartContract) Invoke(stub shim.ChaincodeStubInterface) sc.Response {
     if err != nil {
         return shim.Error(fmt.Sprintf("unable put state (%s), error: %v", key, err))
     }
-    
+
     // Payload 需要转换为字节格式
     eventPayload := "Event Information"
     payloadAsBytes := []byte(eventPayload)
@@ -141,7 +141,7 @@ if err != nil {
     return
 }
 
-// 取消注册并移除事件通道 
+// 取消注册并移除事件通道
 defer eventClient.Unregister(reg)
 ```
 

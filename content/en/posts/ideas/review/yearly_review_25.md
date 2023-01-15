@@ -5,7 +5,7 @@ draft: false
 tags: ["review", "future", "life", "work", "love", "romance"]
 categories: ["Ideas"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

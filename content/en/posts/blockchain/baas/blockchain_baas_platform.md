@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "hyperledger fabric", "baas"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -28,7 +28,7 @@ authors:
 
 BaaS 平台作为一个一站式应用服务，自下而上主要分为以下几层：
 
-1. 资源层 
+1. 资源层
 2. 监控运维层
 3. 区块链底层
 4. 区块链服务层

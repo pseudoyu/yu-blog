@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "solidity", "ethereum", "web3", "smart contract", "javascript", "ethers.js", "hardhat", "yarn"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
@@ -314,7 +314,7 @@ async function verify(contractAddress, args) {
 ```javascript
 async function main() {
     //...
-  
+
     if (network.config.chainId === 4 && process.env.ETHERSCAN_API_KEY) {
         await simpleStorage.deployTransaction.wait(6)
         await verify(simpleStorage.address, [])
@@ -502,7 +502,7 @@ yarn hardhat block-number --network rinkeby
 
 ## 参考资料
 
-> 1. [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ) 
+> 1. [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 > 2. [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)
 > 3. [Hardhat 官方文档](https://hardhat.org/getting-started)
 > 4. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)

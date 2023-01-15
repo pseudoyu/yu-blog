@@ -5,7 +5,7 @@ draft: false
 tags: ["review", "life", "work", "cat", "study", "knowledge", "front-end", "computer science", "learning"]
 categories: ["Ideas"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 {{<audio src="audios/brand_new_day.mp3" caption="《Brand New Day - 墊底辣妹主題曲》" >}}

@@ -5,7 +5,7 @@ draft: false
 tags: ["hugo", "github", "github action", "cusdis", "vercel", "cloudflare", "serverless", "self-host", "blog"]
 categories: ["Tools"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -84,7 +84,7 @@ Hugo 搭建与 GitHub Action 配置教程已更新：《[Hugo + GitHub Action，
 
 以上就是我的个人博客解决方案，前期搭建有些繁琐，但一番折腾后，完美实现了我的需求，关于整个过程的详细步骤，~~我将会分多篇文章进行讲解，请持续关注~~，希望能够对大家有所帮助。
 
-**[2022-06-02 更新]** 
+**[2022-06-02 更新]**
 
 系列教程核心部分已完成：
 

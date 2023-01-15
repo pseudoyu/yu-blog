@@ -5,7 +5,7 @@ draft: false
 tags: ["e-commerce", "hku", "ecom6013"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # ECOM6013 E-Commerce Technologies

@@ -5,7 +5,7 @@ draft: false
 tags: ["photography", "cat", "home", "sony", "a7m3", "pet"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

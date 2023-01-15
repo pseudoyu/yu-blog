@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "cross chain"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

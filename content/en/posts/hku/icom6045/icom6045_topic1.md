@@ -5,7 +5,7 @@ draft: false
 tags: ["internet","security","hku","icmo6045"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # ICOM6045 Fundamentals of E-Commerce Security

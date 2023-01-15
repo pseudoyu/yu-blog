@@ -5,7 +5,7 @@ draft: false
 tags: ["go", "concurrency", "programming", "translation"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -14,7 +14,7 @@ authors:
 
 也许你听说过，那 go 文档是怎么描述它的呢？
 
-> Once 是只执行一个操作的对象。 
+> Once 是只执行一个操作的对象。
 
 听起来很简单，它有什么用处呢？
 
@@ -110,7 +110,7 @@ func (c *QueryClient) DoQuery(name string) []byte {
 
 ## 使用 `sync.Once`
 
-我们来尝试一下使用 `sync.Once` 方案： 
+我们来尝试一下使用 `sync.Once` 方案：
 
 ```go
 package main
@@ -177,5 +177,5 @@ case <-ctxt.Done():
 > 1. [原文地址](https://blog.chuie.io/posts/synconce/)
 > 2. [本文永久链接](https://github.com/gocn/translator/blob/master/2021/w34_the_underutilized_usefulness_of_sync_Once.md)
 > 3. [GoCN <每周译 Go>](https://github.com/gocn/translator)
-> 4. [译者：张宇](https://github.com/pseudoyu) 
-> 5. [校对：Cluas](https://github.com/Cluas) 
+> 4. [译者：张宇](https://github.com/pseudoyu)
+> 5. [校对：Cluas](https://github.com/Cluas)

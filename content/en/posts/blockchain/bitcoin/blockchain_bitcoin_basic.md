@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "bitcoin"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "hyperledger fabric", "structure"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

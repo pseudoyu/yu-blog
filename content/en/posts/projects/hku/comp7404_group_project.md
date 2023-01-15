@@ -5,7 +5,7 @@ draft: false
 tags: ["hku", "machine learning", "comp7404"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # xDeepFM for Recommender Systems

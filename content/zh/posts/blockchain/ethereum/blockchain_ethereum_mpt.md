@@ -1,11 +1,11 @@
 ---
 title: "Ethereum MPT（Merkle Patricia Tries）详解"
 date: 2021-08-16T12:12:17+08:00
-draft: false 
+draft: false
 tags: ["blockchain", "ethereum"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -86,7 +86,7 @@ class Trie {
         children = new Trie[26];
         isEnd = false;
     }
-    
+
     public void insert(String word) {
         Trie node = this;
         for (int i = 0; i < word.length(); i++) {
@@ -99,12 +99,12 @@ class Trie {
         }
         node.isEnd = true;
     }
-    
+
     public boolean search(String word) {
         Trie node = searchPrefix(word);
         return node != null && node.isEnd;
     }
-    
+
     public boolean startsWith(String prefix) {
         return searchPrefix(prefix) != null;
     }
@@ -169,6 +169,6 @@ class Trie {
 
 > 1. [30 张图带你彻底理解红黑树](https://www.jianshu.com/p/e136ec79235c)
 > 2. [LeetCode 实现 Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode-ti500/)
-> 3. [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java) 
+> 3. [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java)
 > 4. [以太坊源码分析 -- MPT 树](https://segmentfault.com/a/1190000016050921)
 > 5. [ethereum/ethereumj](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie)

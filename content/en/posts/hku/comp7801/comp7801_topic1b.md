@@ -5,7 +5,7 @@ draft: false
 tags: ["hku", "database", "comp7801"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## Database Indexing

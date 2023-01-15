@@ -5,7 +5,7 @@ draft: false
 tags: ["blockchain", "cross chain", "bitxhub", "hyperledger fabric", "go"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言

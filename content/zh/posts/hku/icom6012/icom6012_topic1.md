@@ -5,7 +5,7 @@ draft: false
 tags: ["hku","internet","icom6012"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # ICOM6012 Internet Infrastructure Technologies

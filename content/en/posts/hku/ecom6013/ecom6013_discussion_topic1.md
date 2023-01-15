@@ -5,7 +5,7 @@ draft: false
 tags: ["hku", "e-commerce", "ecom6013"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # Puma Goes Omni

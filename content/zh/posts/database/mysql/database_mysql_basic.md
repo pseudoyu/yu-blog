@@ -5,7 +5,7 @@ draft: false
 tags: ["database", "mysql", "programming", "work practice series", "work", "practice", "backend"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 ## 前言
@@ -293,11 +293,11 @@ select * from contacts where name like '_四';
 ```sql
 --- 统计男联系人数量
 select case sex
-            when 1 then "男" 
-            when 2 then "女" 
+            when 1 then "男"
+            when 2 then "女"
             else "未知" end as 性别,
         count(*) as 人数
-from contacts 
+from contacts
 group by sex
 having sex = 1;
 ```
@@ -309,12 +309,12 @@ having sex = 1;
 ```sql
 --- 按性别显示不同性别联系人的列表及总数
 select case sex
-            when 1 then "男" 
-            when 2 then "女" 
+            when 1 then "男"
+            when 2 then "女"
             else "未知" end as 性别,
         group_concat(name order by name desc separator ' | '),
         count(*) as 人数
-from contacts 
+from contacts
 group by sex;
 ```
 

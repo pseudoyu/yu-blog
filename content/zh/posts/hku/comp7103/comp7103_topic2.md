@@ -5,7 +5,7 @@ draft: false
 tags: ["hku", "data mining", "comp7103"]
 categories: ["Develop"]
 authors:
-- "Arthur"
+- "pseudoyu"
 ---
 
 # COMP7103 Data Mining
