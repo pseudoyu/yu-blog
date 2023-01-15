@@ -86,7 +86,7 @@ authors:
 
 RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸键盘了，于是寄给了远在澳洲的倪（这么一想我的第一把机械键盘也是他送我的，一把 Cherry 的，但是轴体倒是忘了，当时还在用 Win 的时候在家用了快一年，也很不错）。
 
-虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、而质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。
+虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。
 
 ![keyboard_leopold_fc660c](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_leopold_fc660c.jpg)
 
@@ -96,7 +96,7 @@ RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸�
 
 ![keyboard_hello_word_75](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_hello_word_75.jpeg)
 
-接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，朋友表示“怎么换了把键盘你人设都变了喂”。
+接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，晓瑜表示“怎么换了把键盘你人设都变了喂”。
 
 ![chat_with_xiaoyu_about_keyboard](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chat_with_xiaoyu_about_keyboard.png)
 

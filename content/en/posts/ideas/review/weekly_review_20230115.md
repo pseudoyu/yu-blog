@@ -40,7 +40,7 @@ authors:
 
 ![pagefind_and_hugo_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pagefind_and_hugo_2.png)
 
-它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu) 的这一篇『[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过[这个网址](https://www.pseudoyu.com/en/search)体验一下，或者点击导航栏的『搜索』（加上了回到顶部功能，可以直接点击返回）。
+它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu) 的这一篇『[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过[这个网址](https://www.pseudoyu.com/en/search)体验一下，或者点击导航栏的『Search』（加上了回到顶部功能，可以直接点击返回）。
 
 我将它结合进了我原本的 GitHub CI 自动发布流，体验很无缝，并且通过 Hugo 的 shortcode 的方式集成一个搜索页面 UI 来供使用，很强大，也会向主题仓库提一下 pr 支持，看看这一块有没有需求。
 
@@ -86,7 +86,7 @@ authors:
 
 RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸键盘了，于是寄给了远在澳洲的倪（这么一想我的第一把机械键盘也是他送我的，一把 Cherry 的，但是轴体倒是忘了，当时还在用 Win 的时候在家用了快一年，也很不错）。
 
-虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、而质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。
+虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。
 
 ![keyboard_leopold_fc660c](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_leopold_fc660c.jpg)
 
@@ -96,7 +96,7 @@ RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸�
 
 ![keyboard_hello_word_75](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_hello_word_75.jpeg)
 
-接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，朋友表示“怎么换了把键盘你人设都变了喂”。
+接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，晓瑜表示“怎么换了把键盘你人设都变了喂”。
 
 ![chat_with_xiaoyu_about_keyboard](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chat_with_xiaoyu_about_keyboard.png)
 
