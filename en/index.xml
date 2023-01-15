@@ -20,7 +20,7 @@
 <p>由于是个人使用为主，这个主题虽然很美观简约，但还是有一些功能缺失的地方，于是在使用的这三年里也不断根据自己的使用需求修修补补，去年也把自己对 RSS Feeds、相关文章、友链这一块的改动提了 pr，有一些经过了一些沟通后合并到了主分支里，还有几个还没改动（<del>太偷懒了</del>）。</p>
 <p>最近刚好在 <a href="https://twitter.com/WuPingJu">P.J. Wu 吳秉儒</a> 的博客里发现了 <a href="https://pagefind.app/">Pagefind</a> 这一网页搜索方案，研究了一下集成到了我的博客里，效果很不错。</p>
 <p><img src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pagefind_and_hugo_2.png" alt="pagefind_and_hugo_2"></p>
-<p>它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 <a href="https://twitter.com/WuPingJu">P.J. Wu 吳秉儒</a> 的这一篇『<a href="https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/">如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能</a>』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过<a href="https://www.pseudoyu.com/en/search">这个网址</a>体验一下，或者点击导航栏的『搜索』（加上了回到顶部功能，可以直接点击返回）。</p>
+<p>它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 <a href="https://twitter.com/WuPingJu">P.J. Wu 吳秉儒</a> 的这一篇『<a href="https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/">如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能</a>』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过<a href="https://www.pseudoyu.com/en/search">这个网址</a>体验一下，或者点击导航栏的『Search』（加上了回到顶部功能，可以直接点击返回）。</p>
 <p>我将它结合进了我原本的 GitHub CI 自动发布流，体验很无缝，并且通过 Hugo 的 shortcode 的方式集成一个搜索页面 UI 来供使用，很强大，也会向主题仓库提一下 pr 支持，看看这一块有没有需求。</p>
 <p>但其实使用下来对中文支持有一些问题，没法很好的分词，比如『区块链』这个词直接搜索会无法匹配，改为『区块 链』，自己主动分词后才能得到想要的效果，也在页面注明了搜索方式了，<del>又不是不能用</del>，看看后续有没有更好的方案了。</p>
 <p><img src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pagefind_and_hugo_1.png" alt="pagefind_and_hugo_1"></p>
@@ -43,12 +43,12 @@
 <p>用了一年多后，因为很喜欢静电容的手感，不由得想尝试一下剩下几把经典，于是同样作为礼物，我收到了一把 RealForce PFU 联名版 87 键，这把的颜值也很不错，暗光环境下有种金属感，不过可能是由于习惯了 HHKB 的特殊键位，突然转换到 87 常常有些不适应，所以反倒是给她用来打游戏更多一些，反正键盘也拯救不了我的游戏操作手残。</p>
 <p><img src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/realforce_pfu_87.jpg" alt="realforce_pfu_87"></p>
 <p>RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸键盘了，于是寄给了远在澳洲的倪（这么一想我的第一把机械键盘也是他送我的，一把 Cherry 的，但是轴体倒是忘了，当时还在用 Win 的时候在家用了快一年，也很不错）。</p>
-<p>虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、而质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。</p>
+<p>虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。</p>
 <p><img src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_leopold_fc660c.jpg" alt="keyboard_leopold_fc660c"></p>
 <p>其实至此，自己键盘使用的需求已经完全满足了，也没太多心力去追求极致去玩客制化。然而，一个深夜刷到了稚晖君的『<a href="https://www.bilibili.com/video/BV19V4y1J7Hx">【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】</a>』，一把从电路硬件到固件代码都重新设计定义、自己做的键盘，这谁忍得住啊。</p>
 <p>而在国庆的时候，刚好看到和 B 站出了联名款键盘，毫不犹豫下单了，果然猛男粉还是很有吸引力的，这也是我某种意义上的第一把客制化。</p>
 <p><img src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_hello_word_75.jpeg" alt="keyboard_hello_word_75"></p>
-<p>接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，朋友表示“怎么换了把键盘你人设都变了喂”。</p>
+<p>接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，晓瑜表示“怎么换了把键盘你人设都变了喂”。</p>
 <p><img src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chat_with_xiaoyu_about_keyboard.png" alt="chat_with_xiaoyu_about_keyboard"></p>
 <p>我没有什么收藏癖，也没有想追求极致的手感或是客制化方案，只是我一直对桌面陈设、电脑、键盘和工具软件等会和我朝夕相处的事物有着极大的折腾欲望，哪怕只是几秒速度提升或是一点点心情体验的改善，于我来说也是一件何乐而不为的事。</p>
 <h2 id="个人生活剪影">个人生活剪影</h2>
