@@ -115,5 +115,3 @@ This is [an example](http://example.com/"Title") inline link.
 
 
 ![Globe](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Octicons-globe.svg/240px-Octicons-globe.svg.png)
-
-
