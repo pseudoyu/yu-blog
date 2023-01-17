@@ -141,7 +141,7 @@ hugo server
 
 等待 Cloudflare 处理后即可查看信息。
 
-![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpeg)
+![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpg)
 
 #### GitHub Pages 仓库
 

@@ -24,7 +24,7 @@ authors:
 
 ## 忆一次创业经历
 
-![my_cat_nie_nie_02](https://image.pseudoyu.com/images/my_cat_nie_nie_02.jpeg)
+![my_cat_nie_nie_02](https://image.pseudoyu.com/images/my_cat_nie_nie_02.jpg)
 
 工作上已经连续熬了一周多的大夜，大概每天都是两三点睡，第二天挣扎着爬起来开晨会，上线了好几个大需求，不过大部分时间在家远程，偶尔想出门了就去公司，所以也提前享受了一下自己理想的远程办公模式，再加上有猫猫陪着，尽管处于高压之下，也没有去年驻场开发赶交付终验那么痛苦。
 
@@ -52,9 +52,9 @@ authors:
 
 可能因为太宠了，最近总是在我工作的时候来捣乱，也爱上了爬我的键盘和电脑，完全无心工作哈哈。
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_01.jpeg" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_01.jpg" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_03.jpeg" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_03.jpg" >}}
 
 ## 其他
 

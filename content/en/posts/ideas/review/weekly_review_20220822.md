@@ -60,7 +60,7 @@ authors:
 
 ## 猫
 
-![my_cat_xiao_shu](https://image.pseudoyu.com/images/my_cat_xiao_shu.jpeg)
+![my_cat_xiao_shu](https://image.pseudoyu.com/images/my_cat_xiao_shu.jpg)
 
 实话说和她一起之前自己并没有想过养猫，大概是觉得连自己都照顾不好的人又怎么有资格对另一个生灵负责，但当真正家里多了一个成员时也才渐渐发现自己享受于这种依赖与被依赖，似乎生活也多了很多目标。
 

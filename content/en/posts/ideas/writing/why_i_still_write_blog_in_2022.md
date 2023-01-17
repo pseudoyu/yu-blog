@@ -51,7 +51,7 @@ authors:
 
 工作之余，我还是一个效率控，很喜欢折腾各类工具应用，还维护了一个『[pseudoyu/yu-tool 个人工具箱](https://github.com/pseudoyu/yu-tools)』项目。久而久之，很多朋友遇到软硬件相关的问题都会来问我，例如“我想实现这个功能有什么好的软件可以做到？”、“这个要怎么下载安装？”等等，我也会一一给他们解答，但因为有些软件自己使用已经不那么频繁，对细节记忆会有偏差。因此，我会将自己软件系统的搭建、使用过程作详细的记录，组织为博文并发布，以便之后自己查阅或直接分享给需要的朋友。
 
-![my_desktop_setup_in_2022_may](https://image.pseudoyu.com/images/my_desktop_setup_in_2022_may.jpeg)
+![my_desktop_setup_in_2022_may](https://image.pseudoyu.com/images/my_desktop_setup_in_2022_may.jpg)
 
 我一直觉得记录软硬件与这些折腾的过程并不是一些冷冰冰的条目与截图的堆砌，而是我个人价值观、生活方式以及思维方式的传导，正如我在另一篇文章中的有感而发：
 

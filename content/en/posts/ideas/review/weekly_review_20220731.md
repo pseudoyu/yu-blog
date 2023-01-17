@@ -94,7 +94,7 @@ authors:
 
 这周没写什么文章，不过数据上有了一些小小的里程碑，首先是 Google 搜索达到了 1000 次点击。
 
-![blog_google_search_1k](https://image.pseudoyu.com/images/blog_google_search_1k.jpeg)
+![blog_google_search_1k](https://image.pseudoyu.com/images/blog_google_search_1k.jpg)
 
 然后也第一次月浏览量达到了 1 万左右，访客 3 千多。
 

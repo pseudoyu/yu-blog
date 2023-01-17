@@ -56,7 +56,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 等待 Cloudflare 处理后即可查看信息。
 
-![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpeg)
+![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpg)
 
 ### Digital Ocean ssh 配置
 
@@ -92,7 +92,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 等待 Digital Ocean 准备主机，约几分钟就可以完成。
 
-![digital_ocean_ghost_done_hide](https://image.pseudoyu.com/images/digital_ocean_ghost_done_hide.jpeg)
+![digital_ocean_ghost_done_hide](https://image.pseudoyu.com/images/digital_ocean_ghost_done_hide.jpg)
 
 ### 配置域名解析
 
@@ -100,7 +100,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 登录 Cloudflare，选择我们刚注册的域名，选择左侧 DNS 标签栏，配置 A 解析（一般需要配置 root 解析与 www 解析），其他域名托管网站操作也大同小异。
 
-![cloudflare_dns_config](https://image.pseudoyu.com/images/cloudflare_dns_config.jpeg)
+![cloudflare_dns_config](https://image.pseudoyu.com/images/cloudflare_dns_config.jpg)
 
 ### 域名 SSL/TLS 配置（可选）
 
@@ -112,7 +112,7 @@ Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、�
 
 完成域名解析后，我们可通过 Digital Ocean 控制台或其他终端工具连接到主机，进行一键安装。
 
-![ghost_one_key_install](https://image.pseudoyu.com/images/ghost_one_key_install.jpeg)
+![ghost_one_key_install](https://image.pseudoyu.com/images/ghost_one_key_install.jpg)
 
 Enter 后脚本会自动开始安装服务及各项依赖。
 
@@ -125,7 +125,7 @@ Enter 后脚本会自动开始安装服务及各项依赖。
 
 这两个地方输入自己的域名与邮箱，等待安装完成即可。
 
-![ghost_install_config](https://image.pseudoyu.com/images/ghost_install_config.jpeg)
+![ghost_install_config](https://image.pseudoyu.com/images/ghost_install_config.jpg)
 
 ### 访问网站
 

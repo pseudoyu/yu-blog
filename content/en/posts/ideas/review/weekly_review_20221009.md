@@ -48,7 +48,7 @@ authors:
 
 ### 设备
 
-![rg351v_game_console](https://image.pseudoyu.com/images/rg351v_game_console.jpeg)
+![rg351v_game_console](https://image.pseudoyu.com/images/rg351v_game_console.jpg)
 
 每隔一两年就会用手机模拟器重温一下经典 GBA 游戏，但虚拟按键玩起来总差点小时候的那种感觉。从
 [@Ehco1996](https://twitter.com/Ehco1996) get 新玩具，解锁了开源掌机新世界！

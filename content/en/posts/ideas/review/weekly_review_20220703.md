@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpeg)
+![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpg)
 
 从实习开始，来到北京开始工作已经满一周年了。
 

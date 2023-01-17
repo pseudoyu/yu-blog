@@ -139,7 +139,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 虽然确实是宅，但随着疫情放开也确实没个头，所以心态也佛了，这周末应邀（~~并不，只是以携猫拜访的名义去玩~~）去了博译学姐家蹭饭，呼吸到了外面并不那么新鲜的空气（~~毕竟北京~~），也吃上了久违的家常菜，摆了一天，却心安理得且快乐。
 
-![wonderful_meal_with_boyi](https://image.pseudoyu.com/images/wonderful_meal_with_boyi.jpeg)
+![wonderful_meal_with_boyi](https://image.pseudoyu.com/images/wonderful_meal_with_boyi.jpg)
 
 打算 1.18 回杭州了。其实 2022 年回家时间在近几年里已经不算短了，各种调休和假期回家前后加起来可能有 1 个月，只是常常疫情反复，也没来得及回老家一趟。两年前的 1 月外婆离世，困于香港疫情没能回家，去年春节又因为突然的疫情而滞留在京，是该回去看看了，越长大，去的地方越来越多，家却也离我愈发遥远了。
 
@@ -147,7 +147,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 这样一路折腾估计十有八九是要阳的，得知这个，学姐还给了我豪华抗疫大礼包，感人。
 
-![medicines_from_boyi](https://image.pseudoyu.com/images/medicines_from_boyi.jpeg)
+![medicines_from_boyi](https://image.pseudoyu.com/images/medicines_from_boyi.jpg)
 
 然后前段时间博译学姐在灵隐的时候帮我许愿了”2023 都能如愿做自己喜欢的事、能够探索更多爱好“，还带了一个好看的佛珠手饰送给我了，我单方面宣布是天下第一好的学姐了，希望新的一年也都能好好的。
 
@@ -155,7 +155,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 实现了会去还愿的，双份的愿望。
 
-![wonderful_gift_with_boyi](https://image.pseudoyu.com/images/wonderful_gift_with_boyi.jpeg)
+![wonderful_gift_with_boyi](https://image.pseudoyu.com/images/wonderful_gift_with_boyi.jpg)
 
 ## 其他
 
