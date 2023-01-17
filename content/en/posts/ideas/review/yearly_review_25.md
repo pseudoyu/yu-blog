@@ -76,7 +76,7 @@ authors:
 
 一直想好好做开源，但是没想到却是上个月重新整理了自己的各类工具发布的一个 GitHub 项目『[pseudoyu/yu-tools 个人工具箱](https://github.com/pseudoyu/yu-tools)』，让我收获了第一个 100 star，意外之喜。
 
-[![Star History Chart](https://api.star-history.com/svg?repos=pseudoyu/yu-tools&type=Date)](https://star-history.com/#pseudoyu/yu-tools&Date)
+[![Star History Chart](https://api.star-history.com.png?repos=pseudoyu/yu-tools&type=Date)](https://star-history.com/#pseudoyu/yu-tools&Date)
 
 之后新的一年能沉下心多输入和沉淀，对开源项目能有更多代码贡献吧。
 

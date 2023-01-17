@@ -83,7 +83,7 @@ service Deliver {
 }
 ```
 
-![fabric_events](https://image.pseudoyu.com/images/fabric_events.svg)
+![fabric_events](https://image.pseudoyu.com/images/fabric_events.png)
 
 整个流程如上图所示，Go SDK 中通过实现一个 Dispatcher 将应用中的事件注册请求转换为事件订阅请求并通过 DeliverClient 发送给 Peer 节点，Peer 节点中的 DeliverServer 接收订阅请求，调用 deliverBlocks 进入循环，从 Ledger 读取区块并生成事件，最后发送给客户端，客户端中的 Dispatcher 又将其转换为应用订阅的事件响应。
 

@@ -54,7 +54,7 @@ authors:
 
 目前在做一个 BaaS 平台的跨链功能，其基础架构如下：
 
-![cross_chain_framework](https://image.pseudoyu.com/images/cross_chain_framework.svg)
+![cross_chain_framework](https://image.pseudoyu.com/images/cross_chain_framework.png)
 
 子链主要是实现各类业务和应用的链，当子链要与其他链进行跨链业务交互时，它需要执行跨链合约，而我们提供了一个跨链网关来对这些跨链合约进行监听。针对异构区块链。如 Hyperledger Fabric、Ethereum，我们将提供不同的适配器来实现跨链 SDK 与跨链网关之间的交互，适配器提供跨链合约信息查询功能。当另一条业务链的 SDK 接收到跨链合约方法时，如果是合约互调用或数据传递，则直接调用对应的合约方法。
 

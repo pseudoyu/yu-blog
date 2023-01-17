@@ -13,7 +13,7 @@ rss_ignore: true
 
 {{< friend name="M1sty" url="https://www.m1sty.com" logo="https://image.pseudoyu.com/images/misty_avatar.jpg" word="Mircales Happen Every Misty Day" >}}
 {{< friend name="Boyi" url="https://luboyi.hashnode.dev" logo="https://image.pseudoyu.com/images/boyi_blog.jpg" word="EXPECTO PATRONUM" >}}
-{{< friend name="Airing" url="https://me.ursb.me" logo="https://image.pseudoyu.com/images/airing_avatar.png" word="Airing's Blog" >}}
+{{< friend name="Airing" url="https://me.ursb.me" logo="https://image.pseudoyu.com/images/airing_avatar.jpg" word="Airing's Blog" >}}
 {{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://image.pseudoyu.com/images/zzhack_avatar.png" word="Mist's Blog" >}}
 {{< friend name="Kiro" url="https://kiro.cc" logo="https://image.pseudoyu.com/images/kiro_avatar.jpg" word="Salad taste like sad." >}}
 {{< friend name="STRRL" url="https://strrl.dev" logo="https://image.pseudoyu.com/images/strrl_logo.jpg" word="STRRL's Blog" >}}
@@ -30,12 +30,12 @@ rss_ignore: true
 {{< friend name="梦墨不会做梦💤" url="https://dreamo.ink" logo="https://image.pseudoyu.com/images/dreamink_avatar.png" word="May you do good and not evil." >}}
 {{< friend name="锤子博客" url="https://liujiding.com" logo="https://image.pseudoyu.com/images/liujiding_avatar.jpg" word="发现科技与人文之美" >}}
 {{< friend name="啊呜喵" url="https://blog.awumiao.cn/" logo="https://image.pseudoyu.com/images/awumiao_avatar.png" word="念念不忘，必有回响" >}}
-{{< friend name="旅行者的随想" url="https://blog.besscroft.com" logo="https://image.pseudoyu.com/images/besscroft_avatar.png" word="旅行终将迎来终点。" >}}
+{{< friend name="旅行者的随想" url="https://blog.besscroft.com" logo="https://image.pseudoyu.com/images/besscroft_avatar.jpg" word="旅行终将迎来终点。" >}}
 {{< friend name="天仙子" url="https://tianxianzi.me" logo="https://image.pseudoyu.com/images/mier_blog_avatar.jpg" word="文字森林" >}}
 {{< friend name="Nemo" url="https://nemo.cool" logo="https://image.pseudoyu.com/images/nemo_avatar.jpg" word="Nemo's Blog" >}}
-{{< friend name="涂俊杰 JunJie" url="https://blog.tujunjie.com/" logo="https://image.pseudoyu.com/images/tujunjie_avatar.webp" word="时间记录践行者" >}}
+{{< friend name="涂俊杰 JunJie" url="https://blog.tujunjie.com/" logo="https://image.pseudoyu.com/images/tujunjie_avatar.png" word="时间记录践行者" >}}
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://image.pseudoyu.com/images/lzzmm_avatar.jpg" word="日复一日 必有精进" >}}
-{{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar.webp" word="Java 开发工程师" >}}
+{{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar_new.png" word="Java 开发工程师" >}}
 
 </div>
 </div>

@@ -22,7 +22,7 @@ authors:
 
 通过 BaaS 平台，开发者可以快速进行区块链业务的研发，综合成本大大降低，且有助于系统稳定性、安全性和易用性等的提升。
 
-![baas_framework](https://image.pseudoyu.com/images/baas_framework.svg)
+![baas_framework](https://image.pseudoyu.com/images/baas_framework.png)
 
 ## 平台架构
 
