@@ -18,31 +18,31 @@ authors:
 
 ### 项目面板
 
-![sonarqube_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/sonarqube_homepage.png)
+![sonarqube_homepage](https://image.pseudoyu.com/images/sonarqube_homepage.png)
 
 SonarQube 项目面板如上图所示，会以评级的方式对项目代码质量进行分析。每次进行代码分析后，可以很直观地对代码进行多维度的分析，在合并分支前，提交人员可参照分析结果对代码进行修改完善，减少了代码审阅人员不必要的工作量。
 
-![sonarqube_code_detail](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/sonarqube_code_detail.png)
+![sonarqube_code_detail](https://image.pseudoyu.com/images/sonarqube_code_detail.png)
 
 点击具体指标则可以深入代码文件对检测出的问题进行标识，为人工 code review 提供了有效参照。
 
 ### 项目配置
 
-![how_to_analyze](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/how_to_analyze.png)
+![how_to_analyze](https://image.pseudoyu.com/images/how_to_analyze.png)
 
 点击右上角「新增项目」，可选择不同的分析方式，支持 Jenkins, GitLab CI 及 GitHub Actions 等常用代码仓库自动化工作流方式，本文将主要说明 GitLab CI 的配置方式。
 
-![import_gitlab_project](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/import_gitlab_project.png)
+![import_gitlab_project](https://image.pseudoyu.com/images/import_gitlab_project.png)
 
 选择 GitLab CI 后，选择关联 GitLab 帐号中的项目仓库，进行后续配置。
 
-![project_code](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/project_code.png)
+![project_code](https://image.pseudoyu.com/images/project_code.png)
 
 以 Go 项目为例，首先，我们需要按照提示手动创建 `sonar-project.properties` 文件并粘贴配置信息。
 
-![create_token.png](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/create_token.png.png)
+![create_token.png](https://image.pseudoyu.com/images/create_token.png.png)
 
-![config_cicd_var](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/config_cicd_var.png)
+![config_cicd_var](https://image.pseudoyu.com/images/config_cicd_var.png)
 
 然后需要为项目创建 Token，并在 GitLab 中 「设置」-「CI/CD」-「变量」配置选项中填写 Token 及 URL 变量值。
 
@@ -50,19 +50,19 @@ SonarQube 项目面板如上图所示，会以评级的方式对项目代码质�
 
 进行基本项目配置后，需要通过 `.gitlab-ci.yml` 配置 GitLab CI 工作流，我的配置如下图所示：
 
-![config_gitlan_ci](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/config_gitlan_ci.png)
+![config_gitlan_ci](https://image.pseudoyu.com/images/config_gitlan_ci.png)
 
 我主要设置了当仓库进行合并请求时，如 `src` 目录下的代码有改变，则执行 `testing` 流水线，通过 SonarQube 进行代码质量检查。
 
 GitLab CI 中还可以添加部署等脚本，与 SonarQube 工具配合使用，以实现工作流的优化。项目的 CI 脚本需要添加相应的 Runner 运行。
 
-![sonar_check_begin](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/sonar_check_begin.png)
+![sonar_check_begin](https://image.pseudoyu.com/images/sonar_check_begin.png)
 
 当检测到合并请求时，sonarqube-check 会被触发执行，最终返回执行结果。
 
-![sonar_check_success](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/sonar_check_success.png)
+![sonar_check_success](https://image.pseudoyu.com/images/sonar_check_success.png)
 
-![sonarqube_status](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/sonarqube_status.png)
+![sonarqube_status](https://image.pseudoyu.com/images/sonarqube_status.png)
 
 此时点开 SonarQube 中项目的页面，则已经有了分析信息，本次代码质量检查完成。
 

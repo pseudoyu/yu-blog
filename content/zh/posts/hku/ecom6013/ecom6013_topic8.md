@@ -52,7 +52,7 @@ authors:
 
 **Land Deeds - A Blockchain Analogy**
 
-![land_deeds](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/land_deeds.png)
+![land_deeds](https://image.pseudoyu.com/images/land_deeds.png)
 
 * A "chain of title" (a sequence of deeds leading from the original owner to the present owner)
 * Deeds are recorded in the Land Registry
@@ -153,8 +153,8 @@ authors:
 
 **Retail Money Key Attributes**
 
-![retail_money](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/retail_money.png)
+![retail_money](https://image.pseudoyu.com/images/retail_money.png)
 
 **Different Degrees of Responsibilities for the Central Bank**
 
-![central_bank](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/central_bank.png)
+![central_bank](https://image.pseudoyu.com/images/central_bank.png)

@@ -20,22 +20,22 @@ authors:
 
 ## Cat In The Box
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04487.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04487.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04509.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04509.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04468.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04468.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04431.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04431.jpg" >}}
 
 ## 猫与村上春树
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04451.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04451.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04452.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04452.jpg" >}}
 
 ## Silence
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04409.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04409.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04427.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04427.jpg" >}}

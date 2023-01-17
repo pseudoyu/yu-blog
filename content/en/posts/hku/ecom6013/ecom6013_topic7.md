@@ -58,7 +58,7 @@ authors:
 
 **E-Commere Payment Systems**
 
-![online_credit_transaction](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/online_credit_transaction.png)
+![online_credit_transaction](https://image.pseudoyu.com/images/online_credit_transaction.png)
 
 * Credit cards
 * Debit cards

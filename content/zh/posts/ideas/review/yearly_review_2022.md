@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![yearly_review_2022_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yearly_review_2022_photo.png)
+![yearly_review_2022_photo](https://image.pseudoyu.com/images/yearly_review_2022_photo.png)
 
 今天是 2022 年的最后一天了，如之前周报所说：
 
@@ -60,7 +60,7 @@ authors:
 
 ## 性格与改变
 
-![yu_personality_infj](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_personality_infj.png)
+![yu_personality_infj](https://image.pseudoyu.com/images/yu_personality_infj.png)
 
 昨晚突然想到很久没有做性格测试了，可能也有了不少改变，就做了一下。还记得大学时候的自己是个 ENTJ，后来短暂有变成 INTJ，但也时常徘徊，经过了这一两年的各种事，自己竟然已经是 INFJ 了，有些惊讶。
 
@@ -74,7 +74,7 @@ authors:
 
 ### 抚养捏捏
 
-![my_cat_nie_nie_28](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_28.jpeg)
+![my_cat_nie_nie_28](https://image.pseudoyu.com/images/my_cat_nie_nie_28.jpeg)
 
 “捏捏”是我家的猫猫，从 10 月 30 日带回家后已经一起相处了两个月。
 
@@ -86,7 +86,7 @@ authors:
 
 ### 使用双拼输入法
 
-![shuangpin_input_preview](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/shuangpin_input_preview.png)
+![shuangpin_input_preview](https://image.pseudoyu.com/images/shuangpin_input_preview.png)
 
 从小学接触电脑开始，我就用的拼音输入法（全拼），也就是我们常用的九宫格和 26 键那种，一个维系了十几年的习惯，在 5 月突然想有所改变，其实倒也不是纯粹去追求打字速度的提升，只是想尝试一下，改变一个早已习以为常甚至已经融入本能的生活习惯有多难（~~这个人句句不提感情，但句句不离感情~~）。
 
@@ -96,7 +96,7 @@ authors:
 
 ### 换了新发色
 
-![yu_selfish_2022](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_selfish_2022.jpeg)
+![yu_selfish_2022](https://image.pseudoyu.com/images/yu_selfish_2022.jpeg)
 
 > 实在是很少有自己的照片，而且拍完才发现镜子已经脏到不需要打码了。
 
@@ -136,7 +136,7 @@ Rust 学了基础，但是还没在实践中用到，新年希望能有所精进
 
 为了 Telegram 频道的同步，我今年开始用豆瓣记录自己的一些读书、影音和游戏，影音因为有一部分是补标的，数据没什么参考性，就不放了。
 
-![yu_2022_review_book](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_book.png)
+![yu_2022_review_book](https://image.pseudoyu.com/images/yu_2022_review_book.png)
 
 今年后半年还算是读了蛮多书，大多时间是在通勤和午休的时候看的，没有刻意去追求什么量，整理时却突然发现也已经有 30 本之多，感觉慢慢找回了一些阅读写作的心境和乐趣。我最喜欢的作家是毛姆，他有一本读书随笔中有一句话叫“阅读是一座随身携带的避难所”，这半年也深有体会，书中可以看到很多不一样的世界，也有很多不一样的人生，真好。
 
@@ -150,7 +150,7 @@ Rust 学了基础，但是还没在实践中用到，新年希望能有所精进
 
 ### 重新捡起的博客
 
-![yu_2022_review_umami_data](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_umami_data.png)
+![yu_2022_review_umami_data](https://image.pseudoyu.com/images/yu_2022_review_umami_data.png)
 
 自己很早开始写公众号和博文，但是就之前的更新频率和内容来说也很难称为独立博客。从五月的一篇『[2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/zh/2022/06/12/why_i_still_write_blog_in_2022/)』开始，重新捡起了[我的博客](https://www.pseudoyu.com/)，这一年里正好更新了 48 篇博文，虽然几乎都是下半年更新的，~~但四舍五入我周更了~~，其中周报和一些心绪相关的文章与技术博文和效率工具相关的文章刚巧约一半一半，也符合了我对于内容输出与分享欲的定位，不错的开端。
 
@@ -160,7 +160,7 @@ Rust 学了基础，但是还没在实践中用到，新年希望能有所精进
 
 ### 推特
 
-![yu_2022_review_twitter](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_twitter.png)
+![yu_2022_review_twitter](https://image.pseudoyu.com/images/yu_2022_review_twitter.png)
 
 也许是因为渐渐习惯了博客这种对外输出的方式，也许是因为随着生活变动分享欲无处安放，从年中启用了自己的推特帐号，原本只是想作为一个像是私密微博，前期也只是发一些深夜情绪。
 
@@ -170,23 +170,23 @@ Rust 学了基础，但是还没在实践中用到，新年希望能有所精进
 
 ### Telegram 频道
 
-![yu_2022_review_tg](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_tg.png)
+![yu_2022_review_tg](https://image.pseudoyu.com/images/yu_2022_review_tg.png)
 
 在之前的一篇周报『[周报 #12 - 赛博空间、自我定义与界限](https://www.pseudoyu.com/zh/2022/09/19/weekly_review_20220919/)』里，我提到有搭建自己的一个 Telegram 频道，用来同步自己的各种 Twitter、评论、点赞等，原本也只是用于自己每周周报找素材的一份存档，不知不觉也有了 251 位订阅者，也收到了其中一些人对我频道的感谢，似乎自己不经意间做的一些事竟然也给别人创造了一些价值，很惊喜，会继续坚持输出的。
 
 ### GitHub
 
-![yu_2022_review_github_data](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_github_data.png)
+![yu_2022_review_github_data](https://image.pseudoyu.com/images/yu_2022_review_github_data.png)
 
 GitHub 也是年中才好好用起来的，2022 年有 1.1k 次代码提交，给 12 个项目贡献了 36 个 PR，收获了 260 个关注者。最开心的还是给自己在用了好几年的 hugo 主题项目提了一些优化和新增特性的 PR，经过了和开发者的一些交流后合并进了主分支，有一种很奇妙的参与感，可能这就是开源的魅力吧。
 
-![yu_2022_review_yu_tools](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_yu_tools.png)
+![yu_2022_review_yu_tools](https://image.pseudoyu.com/images/yu_2022_review_yu_tools.png)
 
 自己的一个工具箱项目『[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)』也让我收获了 400+ stars（~~别骂了，是 markdown 项目~~），再加上自己做了一些区块链相关的项目，总 stars 终于破 500 了，还是蛮开心的，新年会为这个工具箱项目写一个网站，呈现更多工具介绍和使用体验。
 
 ### 少数派
 
-![yu_2022_review_sspai](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_sspai.png)
+![yu_2022_review_sspai](https://image.pseudoyu.com/images/yu_2022_review_sspai.png)
 
 少数派是一个我看了好几年的平台，有很多效率工具类的优质文章，其实没想到自己能成为入驻作者。这一年写了 12 篇文章（包括了前几篇从博客搬运过来的），累计 38660 字，得到了 7 篇推荐，其中 4 篇首页推荐，1 篇会员专享，文章总阅读量达到 20w+，收获了 150 左右的关注，还收获了几千的稿费。新的一年也会继续产出一些文章，猫罐头就有了（~~为了养猫真是成为了打工战士~~），很感谢少数派的编辑『[北鸮](https://sspai.com/u/thebaldingken/updates)』，很耐心也很友好，还向他学习了一些双拼输入法经验。
 
@@ -200,14 +200,14 @@ GitHub 也是年中才好好用起来的，2022 年有 1.1k 次代码提交，�
 
 ### 博客评论展示
 
-![yu_2022_review_cusdis_comment_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_1.png)
-![yu_2022_review_cusdis_comment_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_2.png)
-![yu_2022_review_cusdis_comment_3](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_3.png)
-![yu_2022_review_cusdis_comment_4](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_4.png)
-![yu_2022_review_cusdis_comment_5](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_5.png)
-![yu_2022_review_cusdis_comment_7](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_7.png)
-![yu_2022_review_cusdis_comment_6](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_6.png)
-![yu_2022_review_cusdis_comment_8](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_8.png)
-![yu_2022_review_cusdis_comment_9](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_9.png)
-![yu_2022_review_cusdis_comment_10](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_10.png)
-![yu_2022_review_cusdis_comment_12](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_2022_review_cusdis_comment_12.png)
+![yu_2022_review_cusdis_comment_1](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_1.png)
+![yu_2022_review_cusdis_comment_2](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_2.png)
+![yu_2022_review_cusdis_comment_3](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_3.png)
+![yu_2022_review_cusdis_comment_4](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_4.png)
+![yu_2022_review_cusdis_comment_5](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_5.png)
+![yu_2022_review_cusdis_comment_7](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_7.png)
+![yu_2022_review_cusdis_comment_6](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_6.png)
+![yu_2022_review_cusdis_comment_8](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_8.png)
+![yu_2022_review_cusdis_comment_9](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_9.png)
+![yu_2022_review_cusdis_comment_10](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_10.png)
+![yu_2022_review_cusdis_comment_12](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_12.png)

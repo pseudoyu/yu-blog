@@ -112,7 +112,7 @@ PostgreSQL 是一种现代化的开源对象关系性数据库管理系统。
 
 打开 PostgreSQL.app 应用，可以看到如下界面：
 
-![mac_postgres_interface](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/mac_postgres_interface.png)
+![mac_postgres_interface](https://image.pseudoyu.com/images/mac_postgres_interface.png)
 
 在这个管理界面可以很方便地进行 PostgreSQL 服务的开启与关闭，点击对应的数据库也可以进入命令行操作界面。
 

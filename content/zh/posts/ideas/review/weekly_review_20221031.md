@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1031_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1031_photo.png)
+![weekly_review_1031_photo](https://image.pseudoyu.com/images/weekly_review_1031_photo.png)
 
 本篇是对 `2022-10-28` 到 `2022-10-31` 这周生活的记录与思考。
 
@@ -32,7 +32,7 @@ authors:
 
 在来北京生活工作稳定之后，“养猫”这件事似乎发生得自然而然，花了一个周末，去了几家猫舍，很快决定了很合眼缘的小薯，像是初为父母一样对于这个新伙伴的一切好奇而又紧张。
 
-![pity_and_ideas_in_hk](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pity_and_ideas_in_hk.png)
+![pity_and_ideas_in_hk](https://image.pseudoyu.com/images/pity_and_ideas_in_hk.png)
 
 日子一天天地过去，似乎这已经是平淡的日常，但其实并没有那么理所应当。过去也曾有过这样的视日常为习惯的阶段，当似乎认为已经自己和一切改变了的时候，才发现不过更多的是自我满足罢了。
 
@@ -70,13 +70,13 @@ authors:
 
 周末还是去了原定的昌平的猫舍去看布偶，因为路途遥远，路上翻起了村上的这本《我的职业是小说家》。
 
-![life_about_cat_cunshang](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/life_about_cat_cunshang.jpeg)
+![life_about_cat_cunshang](https://image.pseudoyu.com/images/life_about_cat_cunshang.jpeg)
 
 他讲到了这一段刚毕业时候的经历，突然很戳内心感受，大概自己已经很久没有泛起这种温暖而有所期待的感觉了，原来，我比自己想象得更加需要一个陪伴。
 
 在打听清楚了跨省托运的规则，和公司也经过一些沟通交涉后，还是决定当下就领回家，重新过上了与猫的生活。其实很奇妙，明明似乎一切都没什么变化，但在回家途中的出租车上，自己跟司机有一搭没一搭地聊着天，时不时地看一眼航空箱里的猫，突然有一种生活又重新流动起来的感觉，窗外依旧是那个并不算熟悉的北京，内心却有了一些归属。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cute_cat_01.jpeg" caption="My Cute Cat">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_01.jpeg" caption="My Cute Cat">}}
 
 ## 其他
 

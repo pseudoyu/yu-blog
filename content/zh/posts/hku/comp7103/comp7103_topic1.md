@@ -51,7 +51,7 @@ authors:
 
 **Data Mining**
 
-![data_mining_system](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/data_mining_system.png)
+![data_mining_system](https://image.pseudoyu.com/images/data_mining_system.png)
 
 **Databases**
 * Bottom layer of the architecture
@@ -93,7 +93,7 @@ authors:
 
 **The KDD Process**
 
-![kdd_process](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/kdd_process.png)
+![kdd_process](https://image.pseudoyu.com/images/kdd_process.png)
 
 * Step 1: Goal Setting
   * Understand your application domain
@@ -169,7 +169,7 @@ authors:
   * Minimize the inter-cluster similarity
 * Objects in one cluster are more similiar to one another
 
-![illustrating_cluster](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/illustrating_cluster.png)
+![illustrating_cluster](https://image.pseudoyu.com/images/illustrating_cluster.png)
 
 *Example*
 * Document Clustering

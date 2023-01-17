@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_20230109_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_20230109_photo.png)
+![weekly_review_20230109_photo](https://image.pseudoyu.com/images/weekly_review_20230109_photo.png)
 
 本篇是对 `2023-01-01` 到 `2023-01-09` 这周生活的记录与思考。
 
@@ -28,13 +28,13 @@ authors:
 
 跟往年一样。开年就整理了自己的各种服务，发现居然已经有 20 个之多，且半数是 serverless，这一年白嫖功力见长。为了方便管理，用开源的 Uptime Kuma 为搭建了一个监控服务，并且绑定了 Telegram Bot 提醒，放心了许多。
 
-![uptime_kuma_yu_services](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/uptime_kuma_yu_services.png)
+![uptime_kuma_yu_services](https://image.pseudoyu.com/images/uptime_kuma_yu_services.png)
 
 说来有趣，其实自己之前一直觉得用服务器管理网站很麻烦，每次迁移或是服务变动总是很头疼，所以把大部分的服务都托管到了 Railway、Vercel、Supabase 这几个 Serverless 平台，因为大多是一些个人的服务，没什么太高配置需求，安全稳定就够了，就一直没折腾 Nginx 反向代理、https 证书这些。
 
 而之前有提到过最近帮一个二次元同学做 B 站直播的房管和技术支持，就想着用一台白嫖的甲骨文日本机器来专门做直播监控和自动录制。因为有时候朋友也需要能够直接查看和下载，那自然一个好记的域名、国内网络环境下的访问速度、下载带宽等都要考虑在内，Serverless 服务就已经远远不够（也并不太划算了），于是探索了一些方案，选择了 [Nginx Proxy Manager](https://nginxproxymanager.com/) 这一便捷的反向代理工具。
 
-![npm_yu_dashboard](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/npm_yu_dashboard.png)
+![npm_yu_dashboard](https://image.pseudoyu.com/images/npm_yu_dashboard.png)
 
 我在一台线路比较好（CN2 GIA）的搬瓦工机器上进行部署，托管自己的各项服务，能够保障还不错的访问体验。因为也可以通过通配符匹配的方式直接为自己的 `*.pseudoyu.com` 子域名统一签发 https 证书和自动续期，很省心。配合上述的监控，目前使用了一周，还挺舒服的。
 
@@ -44,13 +44,13 @@ authors:
 
 2022 年其实大多都还是专注在博客输出以及自己的 Telegram 频道上，对于输入和各个平台同步这一块其实没花太多心思，导致自己的 RSS 订阅堆积，newsletter 也有些过载，反倒是没能好好过滤输入信息源，于是删除了用了很久的 NetNewsWire，通过 Railway + Supabase 的方式搭建了一个更轻量级的 Miniflux，作为自己的主要阅读器，并且对 RSS 信息源作了筛选，控制在了 52 个，几乎都是个人博客，后续也会继续优化调整。
 
-![miniflux_yu_page](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/miniflux_yu_page.png)
+![miniflux_yu_page](https://image.pseudoyu.com/images/miniflux_yu_page.png)
 
 虽然有了 Miniflux 提供了还不错的阅读体验，但我其实更习惯于点进原文，我总是觉得对于个人博客来说，不仅仅是内容，网站的风格设计、一些相关的文章和主题也都是属于博主不可或缺的一部分，才能带来阅读更完整的享受。
 
 RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 是一个基于网站的服务，并没办法做好很即时的提醒，而我每天又高度依赖 Telegram，所以基于 [RSS to Telegram Bot](https://github.com/Rongronggg9/RSS-to-Telegram-Bot) 搭建了自己的 Telegram 提醒，将这些信息源更新推送给我，看到一些感兴趣的标题会留个印象，空闲时统一到 Miniflux 去阅读查看。
 
-![yu_rss_to_tg_bot](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_rss_to_tg_bot.png)
+![yu_rss_to_tg_bot](https://image.pseudoyu.com/images/yu_rss_to_tg_bot.png)
 
 这样下来也比较不容易错过想看的文章，也不至于造成太多信息堆积，目前这套方案使用下来感觉很不错，顺便每次周末看到各种周报的时候也催更效果显著（~~这周日出去玩了，合理拖更~~）。
 
@@ -78,23 +78,23 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 这是我的 xLog 访问地址：[xlog.pseudoyu.com](https://xlog.pseudoyu.com/)，有兴趣的朋友们也可以关注一下，不过目前出于定制化程度、各种历史文章迁移路由问题、自己各项数据统计服务变动等考虑，还是更多作为一个同步分发渠道，暂不打算把博客彻底迁移过去。
 
-![yu_xlog_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xlog_homepage.png)
+![yu_xlog_homepage](https://image.pseudoyu.com/images/yu_xlog_homepage.png)
 
 自带的 [NFT 展示柜](https://xlog.pseudoyu.com/nft)很不错，应该是集成的 [Unidata](https://unidata.app/)，之前就想集成到我的 Hugo 博客里，但一直没来得及动工（~~有现成的就更懒了~~）。
 
-![yu_xlog_nft](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xlog_nft.png)
+![yu_xlog_nft](https://image.pseudoyu.com/images/yu_xlog_nft.png)
 
 #### xSync 自动同步 Telegram 和 Twitter
 
 看到 xSync 能够同步 Teleram Channel 数据的时候真的很惊喜，完全不需要再做任何改造就能把我的聚合频道作再一次备份与存档，也很快配置上了，~~瞬间有点想舍弃自己 Side Project 的冲动~~。
 
-![yu_xsync_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xsync_homepage.png)
+![yu_xsync_homepage](https://image.pseudoyu.com/images/yu_xsync_homepage.png)
 
 不过有些遗憾的就是历史数据只同步了一部分，之前没接入时的数据似乎也没有手动备份同步的选项，不知道有没有配置项或者后续功能可以解决，或者有 RSS3 的朋友知道解决方案的可以说一下，感谢！
 
 都配置好后就可以通过 xChar 来查看自己的各项消息了，很完美的解决方案，这是我的 xCharacter 个人主页: [xchar.app/pseudoyu](https://xchar.app/pseudoyu)，也可以查看我的信息流。
 
-![yu_xchar_profile](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_xchar_profile.png)
+![yu_xchar_profile](https://image.pseudoyu.com/images/yu_xchar_profile.png)
 
 另外的一个小插曲就是看到要把 `pseudoyu@crossbell` 放到简介时会心一笑，我当时毕业设计做版权保护 ÐApp 的时候是在 Solidity 合约里使用了 Oraclize API 来访问链下数据，也是抓取的 Youtube 的简介里的唯一标识来作为帐号所有权凭证，有种奇妙的熟悉感哈哈，后面有机会研究一下代码。
 
@@ -139,7 +139,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 虽然确实是宅，但随着疫情放开也确实没个头，所以心态也佛了，这周末应邀（~~并不，只是以携猫拜访的名义去玩~~）去了博译学姐家蹭饭，呼吸到了外面并不那么新鲜的空气（~~毕竟北京~~），也吃上了久违的家常菜，摆了一天，却心安理得且快乐。
 
-![wonderful_meal_with_boyi](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/wonderful_meal_with_boyi.jpeg)
+![wonderful_meal_with_boyi](https://image.pseudoyu.com/images/wonderful_meal_with_boyi.jpeg)
 
 打算 1.18 回杭州了。其实 2022 年回家时间在近几年里已经不算短了，各种调休和假期回家前后加起来可能有 1 个月，只是常常疫情反复，也没来得及回老家一趟。两年前的 1 月外婆离世，困于香港疫情没能回家，去年春节又因为突然的疫情而滞留在京，是该回去看看了，越长大，去的地方越来越多，家却也离我愈发遥远了。
 
@@ -147,7 +147,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 这样一路折腾估计十有八九是要阳的，得知这个，学姐还给了我豪华抗疫大礼包，感人。
 
-![medicines_from_boyi](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/medicines_from_boyi.jpeg)
+![medicines_from_boyi](https://image.pseudoyu.com/images/medicines_from_boyi.jpeg)
 
 然后前段时间博译学姐在灵隐的时候帮我许愿了”2023 都能如愿做自己喜欢的事、能够探索更多爱好“，还带了一个好看的佛珠手饰送给我了，我单方面宣布是天下第一好的学姐了，希望新的一年也都能好好的。
 
@@ -155,7 +155,7 @@ RSS 阅读器对于我更多是作为第一步聚合工具，而由于 Miniflux 
 
 实现了会去还愿的，双份的愿望。
 
-![wonderful_gift_with_boyi](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/wonderful_gift_with_boyi.jpeg)
+![wonderful_gift_with_boyi](https://image.pseudoyu.com/images/wonderful_gift_with_boyi.jpeg)
 
 ## 其他
 

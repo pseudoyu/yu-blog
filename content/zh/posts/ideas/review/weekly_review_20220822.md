@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_0822_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_0822_photo.png)
+![weekly_review_0822_photo](https://image.pseudoyu.com/images/weekly_review_0822_photo.png)
 
 本篇是对 `2022-08-16` 到 `2022-08-21` 这周生活的记录与思考。这周工作上依然没那么紧，周中也有了更多时间跟同事交流和聚餐，回家后的时间并不多，所以整体也算休闲。感觉七八月就像是之前放暑假一样，心态上也没有什么负罪感。不过还是读了一些书，并且把阅读时间、频率和方式都更规律化了一点。
 
@@ -44,7 +44,7 @@ authors:
 
 ## 404 Not Found
 
-![dino](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/dino.gif)
+![dino](https://image.pseudoyu.com/images/dino.gif)
 
 这可能是一个有些不知所云的标题。
 
@@ -52,7 +52,7 @@ authors:
 
 大概一直觉得自己在某种意义上是一个容错率很高的人，能够坦然甚至玩笑的方式看待一些小错误插曲，有常常自豪这样的心态。直到，我的感情 404 Not Found 了。
 
-![misty_blog_404_not_found](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/misty_blog_404_not_found.png)
+![misty_blog_404_not_found](https://image.pseudoyu.com/images/misty_blog_404_not_found.png)
 
 其实自己也并不是没有发现一些被清理或是解除关联的痕迹，也在一天天逝去的时间里在逐渐接受了一些现实，只是当 404 的提示出现在眼前时才发现刺痛感比自己想象得强得多，也撕开了我那么多天伪装的坚强。
 
@@ -60,7 +60,7 @@ authors:
 
 ## 猫
 
-![my_cat_xiao_shu](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_xiao_shu.jpeg)
+![my_cat_xiao_shu](https://image.pseudoyu.com/images/my_cat_xiao_shu.jpeg)
 
 实话说和她一起之前自己并没有想过养猫，大概是觉得连自己都照顾不好的人又怎么有资格对另一个生灵负责，但当真正家里多了一个成员时也才渐渐发现自己享受于这种依赖与被依赖，似乎生活也多了很多目标。
 

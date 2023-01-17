@@ -45,11 +45,11 @@ authors:
 
 **SWOT Analysis**
 
-![ecommerce_swot_analysis](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ecommerce_swot_analysis.png)
+![ecommerce_swot_analysis](https://image.pseudoyu.com/images/ecommerce_swot_analysis.png)
 
 **E-Commerce Presence Map**
 
-![ecommerce_presence](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ecommerce_presence.png)
+![ecommerce_presence](https://image.pseudoyu.com/images/ecommerce_presence.png)
 
 **Building an E-Commerce Site: A Systematic Approach**
 * Challenges

@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1219_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1219_photo.png)
+![weekly_review_1219_photo](https://image.pseudoyu.com/images/weekly_review_1219_photo.png)
 
 本篇是对 `2022-12-14` 到 `2022-12-19` 这周生活的记录与思考。
 
@@ -120,13 +120,13 @@ authors:
 
 在选择教程方面，我之前也提过很喜欢以 Crash Course 的方式开始，直译成“XX 小时带你学会 XXX”好像有些营销号的感觉，但 Youtube 上真的有非常多这种系列，直接搜索比如『[Next.js Crash Course 2022](https://www.youtube.com/results?search_query=next.js+crash+course+2022)』就会有很多很有意思的结果。
 
-![nextjs_crash_course](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/nextjs_crash_course.png)
+![nextjs_crash_course](https://image.pseudoyu.com/images/nextjs_crash_course.png)
 
 我前段时间做一个 ÐApp Demo 的时候因为有用到 Next.js 做基础的前端显示，就看了一下搜索结果中 [Traversy Media](https://www.youtube.com/@TraversyMedia) 的这个 [Next.js Crash Course](https://www.youtube.com/watch?v=mTz0GXj8NN0)，很喜欢他的讲解方式，在一个小时里就让我对这个框架包括整个前端开发语言有了基础的了解，虽然没经过系统性地学习自己很难上手做一个项目，但是在后来的项目中看到前端代码中出现的一些语法也能知道在做什么，在别人框架的基础上做一些自己的定制化修改也比较容易。
 
 比如这就是我看完 Next.js Crash Course 后通过另一个很喜欢的 Youtuber [devaslife](https://www.youtube.com/@devaslife) 开源的一个『[GitHub - craftzdog/craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage)』项目修改的个人主页，『[Yu - Homepage](https://home.pseudoyu.com/)』，花很短的时间就能做出一个很美观的小项目，也是在开始学习一项新技术时候很好的动力。
 
-![yu_homepage_profile](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_homepage_profile.png)
+![yu_homepage_profile](https://image.pseudoyu.com/images/yu_homepage_profile.png)
 
 #### 深入学习
 
@@ -136,7 +136,7 @@ authors:
 
 比如我上文提到的 [Brad Traversy](https://www.youtube.com/@TraversyMedia) 就在 Udemy 上开设了 React、Next.js、Tailwind CSS 等课程，因为我确实很喜欢他这种以项目为导向的方式和他的教学风格，虽然在 Udemy 上相关课程有比他购买/评分都高很多的课，我依然选择了他的，这些是我学 Web 相关购买的一些课（很多是前两天活动价购入，还没开始看）。
 
-![udemy_web_course](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/udemy_web_course.png)
+![udemy_web_course](https://image.pseudoyu.com/images/udemy_web_course.png)
 
 #### 成果输出/项目实践
 
@@ -146,7 +146,7 @@ authors:
 
 看课也有一些完成作业、项目实践和最后的课程结业的成就感，能够在学习的各个阶段里给自己一些动力，比如我一周多学完的 React 课程拿到证书，并且成功用到了实际的 Side Project 项目中，还是蛮激励自己继续下去的。
 
-![udemy_react_cert](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/udemy_react_cert.jpeg)
+![udemy_react_cert](https://image.pseudoyu.com/images/udemy_react_cert.jpeg)
 
 当然，这种方式也还是有一个门槛就是很多这样比较高质量的课都还是在 Youtube 或是一些国外的平台的，基本只有英文，所以还是需要有一些克服的，不过也都会提供中文字幕，但我个人还是更倾向于英文来看的，毕竟也会牵扯到很多术语，而且机翻很一般。
 

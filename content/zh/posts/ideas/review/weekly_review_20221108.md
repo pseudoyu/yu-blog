@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1108_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1108_photo.png)
+![weekly_review_1108_photo](https://image.pseudoyu.com/images/weekly_review_1108_photo.png)
 
 本篇是对 `2022-11-01` 到 `2022-11-08` 这周生活的记录与思考。
 
@@ -24,7 +24,7 @@ authors:
 
 这是与猫度过的完整的第一周，因为也很不放心在家时候的状态，所以一半时间居家在家了，在公司上班的时候也时长开着摄像头观察一举一动（虽然大部分时间都是趴在椅子上睡觉的非静止画面，依然能盯着看很久），有一种莫名的牵挂。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cute_cat_1.jpeg" caption="Cat On Bed">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_1.jpeg" caption="Cat On Bed">}}
 
 常常以为自己是很能独处的一个人，并不需要太多陪伴，探索一些有趣的东西、或是看看电影书籍似乎已经足够填满我的大部分闲暇时光。但渐渐地发现其实自己是属于一个情绪隔绝的状态，低落和消沉的情绪逐步积累，却也不会影响我的正常生活工作，而从日常或是工作中获取的愉悦感也无法反向去消减我的负面。长此以往，有时甚至我自己都能够清晰地触摸到我的情绪值。
 
@@ -32,7 +32,7 @@ authors:
 
 人和猫的羁绊真的很神奇，语言不通，情绪也很难共感，却似乎有一种隐隐的默契，一个将自己的被需要感寄托，一个静静地陪伴着。后面也慢慢打算捡起相机多拍摄一些自己的生活与猫的日常，似乎每天也都能有所期待了。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cute_cat_2.jpeg" caption="Cat With Me">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_2.jpeg" caption="Cat With Me">}}
 
 ## 另一种生活
 
@@ -62,7 +62,7 @@ authors:
 
 其实当然是不可能一周读那么多的书哈哈，只是我有并行读书的习惯，尤其是一些非小说类的书籍我可能会每天读部分章节，也根据时段和心情不同选择读不同的书，平均下来一本完整的书读完会在 2 周左右，但是遇到感兴趣的剧情类的可能一下午或者一晚上就会读完，或是两三个通勤时段，列举出来的大多是刚好在这周读完或是有读部分篇章的书。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/reading_book_yizang.jpeg" caption="Reading Book">}}
+{{< figure src="https://image.pseudoyu.com/images/reading_book_yizang.jpeg" caption="Reading Book">}}
 
 对于读书这件事从并不想以量或是产出作为自己的压力或是限制，而是更多作为自己的一种输入渠道和某种程度上的放松手段（当然在之前读《房思琪的初恋乐园》的时候也会 emo 好几天），尽量会达到一种情绪平衡吧。也是因为来自工作和多个方面的压力才寄托在书籍、电影这些媒介上，更像自己的一方净土吧。
 

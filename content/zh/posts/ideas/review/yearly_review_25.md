@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-![yu_self](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_self.png)
+![yu_self](https://image.pseudoyu.com/images/yu_self.png)
 
 现在是 2022 年 6 月 6 日，我 25 岁了。其实自两年前的今天发的那篇 『[23 岁的自白：去追寻意义](https://www.pseudoyu.com/zh/2020/06/06/yearly_review_23/)』之后，有打算每年都写一篇，算是对自己过去这或许精彩或许碌碌的一年作一个交代。
 
@@ -40,7 +40,7 @@ authors:
 
 当这段感情真的以一种戛然而止的方式结束后，我才后知后觉地明白，也许她并没有从中得到属于她的爱情。当爱情的幻想与现实慢慢重叠，当距离冲淡了热恋期的滤镜，当我将自己的情绪与分享欲都寄托在感情上时，也许感情已经慢慢背离了原本的轨道了，只是，我是那个一直被保护的幸福的人罢了。
 
-![flowers_movie_screenshot](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/flowers_movie_screenshot.jpg)
+![flowers_movie_screenshot](https://image.pseudoyu.com/images/flowers_movie_screenshot.jpg)
 
 我一直以来都自认为不属于一个典型的浪漫主义者，从没期待着自己的生活能够像书籍电影那样精彩，只是尽可能依从着自己的情感和意愿继续走下去。未曾想我会从这样一部电影里看到这么多自己生活的影子，甚至看到了结局。
 
@@ -72,7 +72,7 @@ authors:
 
 新的一年里也还是要继续坚持输出吧。
 
-![yu_blog_update](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_blog_update.png)
+![yu_blog_update](https://image.pseudoyu.com/images/yu_blog_update.png)
 
 一直想好好做开源，但是没想到却是上个月重新整理了自己的各类工具发布的一个 GitHub 项目『[pseudoyu/yu-tools 个人工具箱](https://github.com/pseudoyu/yu-tools)』，让我收获了第一个 100 star，意外之喜。
 
@@ -88,7 +88,7 @@ authors:
 
 这就是我的 24 岁，平凡却又难忘的一年岁月。
 
-![lawrence_comments](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/lawrence_comments.png)
+![lawrence_comments](https://image.pseudoyu.com/images/lawrence_comments.png)
 
 对于即将来到的 25 岁，我说不上有太多期待。引用一下我对『[小鹿 Lawrence](https://space.bilibili.com/37029661)』一个视频转发评论中所说的话作为结束吧。
 

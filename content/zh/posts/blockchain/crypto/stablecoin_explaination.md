@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![stablecoin_page_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/stablecoin_page_photo.jpg)
+![stablecoin_page_photo](https://image.pseudoyu.com/images/stablecoin_page_photo.jpg)
 
 相信大家近几年对加密货币，尤其是比特币、以太坊等名词并不陌生，从一波一波的价格新高或是新低，到活跃在各类媒体的马斯克与“狗狗币”，再到前段时间沸沸扬扬的 Terra 稳定币崩盘，数字货币尽管规模不大，却已然是现今经济体系尤其是货币市场不可忽略的一部分了。
 
@@ -22,7 +22,7 @@ authors:
 
 ## 加密货币概述
 
-![crypto_currency_bg](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/crypto_currency_bg.jpg)
+![crypto_currency_bg](https://image.pseudoyu.com/images/crypto_currency_bg.jpg)
 
 加密货币是一种基于密码学、分布式系统等技术原理运作的一种货币形式与交易媒介。例如，Bitcoin 是在 2009 年由中本聪发明的一种加密货币，主要是为了反抗中心化的银行体系，因为其精巧的系统设计和安全性，价值也在迅速提升，与 ETH（以太坊区块链使用的代币）等热门数字资产共同构成了加密货币生态系统。
 
@@ -38,7 +38,7 @@ authors:
 
 ## 稳定币
 
-![stable_coin_bg](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/stable_coin_bg.jpg)
+![stable_coin_bg](https://image.pseudoyu.com/images/stable_coin_bg.jpg)
 
 稳定币是一种特殊的加密货币，它能够与某种传统的法定货币（如美元、韩元等）挂钩，因为其与法币价格锚定而不是随着市场剧烈波动，因此常用于不同数字资产的一种避险方案、中转方案以及满足日常支付需求。稳定币能够在缓解价格波动的同时，保有数字货币安全、公开透明、可追溯、低费用等特征。
 
@@ -75,11 +75,11 @@ authors:
 
 例如，在 Terra 的 UST 稳定币场景中，算法稳定币的智能合约的运作方式如下：
 
-![terra_usd_high](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/terra_usd_high.png)
+![terra_usd_high](https://image.pseudoyu.com/images/terra_usd_high.png)
 
 当 UST 价格高于现实美元价格时，算法会自动增加供应量，随着市场上 UST 流通量提高，价格自然会下降，直到与现实美元价格相等。
 
-![terra_usd_low](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/terra_usd_low.png)
+![terra_usd_low](https://image.pseudoyu.com/images/terra_usd_low.png)
 
 反之，当 UST 价格低于现实美元价格时，算法会自动减少供应量，随着市场上 UST 流通量减少，价格自然会提高，直到与现实美元价格相等。
 

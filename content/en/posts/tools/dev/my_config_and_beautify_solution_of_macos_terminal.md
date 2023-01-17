@@ -14,7 +14,7 @@ authors:
 
 作为一个开发者，不论是本地代码运行调试还是在远程服务器上进行项目的部署运维，都离不开下图所示的终端，也就是科技电影中常出现的黑窗口。
 
-![my_terminal_tools](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_terminal_tools.png)
+![my_terminal_tools](https://image.pseudoyu.com/images/my_terminal_tools.png)
 
 各个操作系统一般都有自己默认的 Shell，如 Windows 操作系统下的“Powershell”、macOS 与 Linux 系统的 bash、zsh 等；带图形版界面的系统也都会预置终端仿真器（Terminal Emulator），如 macOS 平台下的“终端.app”以及 Linux 各发行版自带的终端程序等。
 
@@ -46,7 +46,7 @@ authors:
 
 ### Warp
 
-![warp_interface](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/warp_interface.png)
+![warp_interface](https://image.pseudoyu.com/images/warp_interface.png)
 
 我本身是一个折腾流，会希望能自己能够对各类配置有足够的定制化空间。然而，如果要我只推荐一款工具给刚使用终端不久的新手，我会毫不犹豫地选择『[Warp](https://www.warp.dev)』。
 
@@ -54,15 +54,15 @@ Warp 是一个基于 Rust 开发的速度极快、功能强大且开箱即用的
 
 我是很早参与 Warp 内测的那一批用户，即使是在功能还很不完善的早期，我也被它精致的外观和顺滑的使用体验所惊艳到了。因为基于 Rust 语言开发，Warp 的命令执行与响应速度很快，并且它还内置了很多常用功能，我们无需在 Shell 层配置使用历史记录搜索、命令提示等各类插件就能获得强大的功能支持。
 
-![warp_code_block](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/warp_code_block.png)
+![warp_code_block](https://image.pseudoyu.com/images/warp_code_block.png)
 
 它还有很多传统终端不具备的特色功能，如“block”的概念，每一条命令的执行都以一种“命令块”的形式呈现，可以通过上下左右键在各个 block 之间移动，避免了有些命令输出结果太长导致需要一直拉动滚动条阅览；并且我们可以通过右上角对特定 block 进行书签收藏、命令复制、内容检索甚至在线分享等。
 
-![edit_command_in_warp](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/edit_command_in_warp.png)
+![edit_command_in_warp](https://image.pseudoyu.com/images/edit_command_in_warp.png)
 
 与常规终端工具体验不同的是，Warp 的命令输入窗口长期固定在底部（更接近于 IDE），将我们命令输入与结果反馈进行了视觉上的分离；并且它的输入模式接近于文本编辑器，我们可以通过鼠标或是键盘任意移动光标编辑、修改命令或是输入多行命令依序执行，这也是我所认为的 Warp 的 killer feature。
 
-![warp_other_feature](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/warp_other_feature.png)
+![warp_other_feature](https://image.pseudoyu.com/images/warp_other_feature.png)
 
 我们仅需在输入框使用对应的快捷键即可唤出历史记录检索、自定义 workflow 等功能，并且可以使用鼠标滚轮或是方向键进行选择，十分灵活。更强大的是，当我们使用 Warp 通过 SSH 连接到远程终端时，这些快捷键依然有效，如历史记录搜索等，而无需在目标服务器进行配置。
 
@@ -78,21 +78,21 @@ Warp 是一个基于 Rust 开发的速度极快、功能强大且开箱即用的
 
 #### 外观与配色
 
-![iterm2_interface](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/iterm2_interface.png)
+![iterm2_interface](https://image.pseudoyu.com/images/iterm2_interface.png)
 
 我对一位 YouTuber 『[Takuya Matsuyama](https://www.craftz.dog)』的配置加以改造，定制了一个性冷淡风外观方案。
 
 首先在 **偏好设置** - **Appearance** 部分对主题、Tab 栏与状态栏进行如下配置，保持较为简洁的布局。
 
-![iterm2_theme_config](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/iterm2_theme_config.png)
+![iterm2_theme_config](https://image.pseudoyu.com/images/iterm2_theme_config.png)
 
 完成主题配置后，右键底部状态栏可进行详细配置。我选取了部分状态栏组件实时显示设备状态，这部分可根据自己的偏好进行选择。
 
-![iterm2_status_components](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/iterm2_status_components.png)
+![iterm2_status_components](https://image.pseudoyu.com/images/iterm2_status_components.png)
 
 在 **Profile** - **Colors** 面板选取自己的主题配色或导入其他配色方案。可以点击[这里](https://github.com/pseudoyu/dotfiles/tree/master/iterm2)下载我的配置文件，导入并根据自己的需求进行调整。
 
-![iterm2_window_blur_setting](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/iterm2_window_blur_setting.png)
+![iterm2_window_blur_setting](https://image.pseudoyu.com/images/iterm2_window_blur_setting.png)
 
 完成配色方案选择后，我通过调整 Transparency 和 Blur 来实现背景透明与毛玻璃效果（即窗口模糊），此处可以根据具体设备的视觉效果进行调整。
 
@@ -100,11 +100,11 @@ Warp 是一个基于 Rust 开发的速度极快、功能强大且开箱即用的
 
 #### 多服务器管理
 
-![iterm2_profile_settings](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/iterm2_profile_settings.png)
+![iterm2_profile_settings](https://image.pseudoyu.com/images/iterm2_profile_settings.png)
 
 目前我主要使用 iTerm2 来连接我的各个远程主机/服务器，它提供了方便的多配置管理功能，可以通过设置不同的 Profiles 实现不同服务器或配置环境的快速切换，并且可以用醒目的 Badge 来作为标识。
 
-![iterm2_multiple_servers_management](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/iterm2_multiple_servers_management.png)
+![iterm2_multiple_servers_management](https://image.pseudoyu.com/images/iterm2_multiple_servers_management.png)
 
 当我们在工作或个人使用中需要连接到多台开发机时，可以通过 `Command+O` 或通过右键 Dock 栏 iTerm2 图标选择对应 Profile 打开服务器，同时也可以通过内置快捷键 `Command+D` 与 `Command+Shift+D` 来水平或垂直拆分终端，便于多服务器同时操作，无需不断切换窗口。
 
@@ -116,7 +116,7 @@ Alacritty 也是一款使用 Rust 编写的跨平台终端工具，提供了一�
 
 #### 外观配置
 
-![alacritty_interface](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/alacritty_interface.png)
+![alacritty_interface](https://image.pseudoyu.com/images/alacritty_interface.png)
 
 外观部分我主要通过如下配置进行窗口与字体配置，实现了一种半透明的极简配置，甚至都没有任何边框与按钮，其他配置可自行查看，如选中即复制等在 iTerm2 上惯用的功能均可通过几个简单的配置项实现。
 
@@ -139,7 +139,7 @@ font:
 
 #### ohmyzsh + starship
 
-![alacritty_starship_config](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/alacritty_starship_config.png)
+![alacritty_starship_config](https://image.pseudoyu.com/images/alacritty_starship_config.png)
 
 我使用 zsh 作为默认终端，通过 ohmyzsh 来拓展插件功能。zsh + ohmyzsh 是目前非常流行的 Shell 配置方案，其具备了丰富的插件系统，可以通过几行配置轻松实现各项拓展功能。首先，我们按照其[官方说明](https://ohmyz.sh/#install)进行安装。
 
@@ -184,7 +184,7 @@ plugins=(
 
 #### tmux
 
-![acacritty_tmux_demo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/acacritty_tmux_demo.png)
+![acacritty_tmux_demo](https://image.pseudoyu.com/images/acacritty_tmux_demo.png)
 
 因为 Alacritty 本身不提供窗口拆分、Session 管理等功能，所以我们需要集成 [tmux](https://github.com/tmux/tmux/wiki) 这一强大的跨平台窗口管理工具。
 
@@ -198,15 +198,15 @@ macOS 平台用户用过 `brew install tmux` 安装即可，其他平台可根�
 
 然而，原生 vim 就是一个简单的窗口，与我们的配置好的终端显得格格不入，因此，我们也将对 vim 进行美化配置。限于篇幅，本文不会涵盖 vim 的具体配置使用相关内容，仅对我的配置方案进行描述。
 
-![vi_homepage](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/vi_homepage.png)
+![vi_homepage](https://image.pseudoyu.com/images/vi_homepage.png)
 
 我使用的是 neovim 这一 vim 的衍生版本，其高版本采用 lua 进行配置与插件管理。我使用的我的一个朋友 [Cluas](https://github.com/Cluas) 定制的方案，并在其基础上进行了一些修改调整，可点击[这里](https://github.com/pseudoyu/nvim/tree/pseudoyu)查看，仅需将 `nvim/` 目录 clone 或下载后复制到 `~/.config` 即可。
 
 其显示效果如下：
 
-![neovim_file_preview](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/neovim_file_preview.png)
+![neovim_file_preview](https://image.pseudoyu.com/images/neovim_file_preview.png)
 
-![neovim_edit_file](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/neovim_edit_file.png)
+![neovim_edit_file](https://image.pseudoyu.com/images/neovim_edit_file.png)
 
 #### 快捷键配置
 

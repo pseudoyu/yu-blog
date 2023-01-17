@@ -22,18 +22,18 @@ authors:
 
 ## Moment In Peking (The Autumn)
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04388.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04388.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04373.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04373.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04374.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04374.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04363.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04363.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04378.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04378.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04390.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04390.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04367.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04367.jpg" >}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A7_04383.jpg" >}}
+{{< figure src="https://image.pseudoyu.com/images/A7_04383.jpg" >}}

@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1018_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1018_photo.png)
+![weekly_review_1018_photo](https://image.pseudoyu.com/images/weekly_review_1018_photo.png)
 
 本篇是对 `2022-10-10` 到 `2022-10-18` 这周生活的记录与思考。
 

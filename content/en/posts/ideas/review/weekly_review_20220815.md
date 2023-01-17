@@ -24,7 +24,7 @@ authors:
 
 但是因为 k8s 涉及到的组件和操作太多，稍一阵子不用就会忘记，而且不上手练习也不利于记忆，然后自己也对 Devops 这一块很感兴趣，经常折腾一些自动化工具和 Serverless 应用。于是打算更系统地学习一下，考一个 Certified Kubernetes Application Developer （CKAD）认证，一个由 CNCF 与 Linux 基金会共同开发的认证项目。这个项目主要面向开发者，涉及了很多知识点：
 
-![ckad_topics](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ckad_topics.png)
+![ckad_topics](https://image.pseudoyu.com/images/ckad_topics.png)
 
 比较特殊的是这个认证考试最后是 19 道上机实操题，也可以查看 k8s 官方文档，没有什么需要死记硬背的部分，很适合作为学习成果的检验。买了 Udemy 平台的『[Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)』，最近就一直沉浸在刷它附带的 Lab，因为是一个在线环境就很方便，找回了当时读书的时候写作业赶 due 的心境。
 

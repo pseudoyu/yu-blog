@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1206_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1206_photo.png)
+![weekly_review_1206_photo](https://image.pseudoyu.com/images/weekly_review_1206_photo.png)
 
 本篇是对 `2022-11-28` 到 `2022-12-06` 这周生活的记录与思考。
 
@@ -26,7 +26,7 @@ authors:
 
 其实即使自己并没有怎么意识到，在接捏捏回家后的这 40 天中，自己发生了很多变化。因为前段时间分别忙碌于工作，和一位友人一个多月没有联系，这次刚好我帮忙解决一个电脑问题，聊了几句，有了如下对话：
 
-![chat_with_jmadeinapril](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chat_with_jmadeinapril.png)
+![chat_with_jmadeinapril](https://image.pseudoyu.com/images/chat_with_jmadeinapril.png)
 
 虽然也没有说的忧郁气质那么夸张，但我总体来说是个不那么积极阳光的人，对于生活和很多事都有着一种置身事外感，并不是不关心或是无法共情，只是不会有那么大的情绪投入，就像是一种角色扮演游戏，我扮演着我自己。而与他人的对话中其实更加不会过多展现自己的内心部分，同样，并不是因为不信任或是蓄意隐瞒所打造什么人设，只是不习惯。
 
@@ -46,15 +46,15 @@ authors:
 
 因为她眼角分泌物比较多，咨询了医生说可能蛋白质摄入过多，所以开始换粮并减少了一些零食的投喂，第一天她发现吃的没有以前丰盛了，就一直趴在我电脑上用下图眼神看着我。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_11.jpeg" caption="刚来的时候感觉你家伙食很好的？不会是养不起我了吧？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpeg" caption="刚来的时候感觉你家伙食很好的？不会是养不起我了吧？">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_12.jpeg" caption="别工作了，看看我嘛">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpeg" caption="别工作了，看看我嘛">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_13.jpeg" caption="你的小可爱想引起你的注意力">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpeg" caption="你的小可爱想引起你的注意力">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_14.jpeg" caption="猫和老鼠都是你们人看着玩的，本猫都看困了">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpeg" caption="猫和老鼠都是你们人看着玩的，本猫都看困了">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_15.jpeg" caption="不许在我睡觉的时候卷我">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpeg" caption="不许在我睡觉的时候卷我">}}
 
 ## 其他
 
@@ -64,15 +64,15 @@ authors:
 
 发现好久没正经写技术博客了，其实很多都已经打了草稿和笔记，只是还没有梳理成文，要继续加紧输出了。不过最近倒是和 GoCN 的小伙伴们一起翻译了一个 『[Google Go 编程规范](https://gocn.github.io/styleguide/)』，还连同之前的『[How To Code In Go](https://gocn.github.io/How-To-Code-in-Go/)』发布了在线版本和 pdf 版本，今天还接到了极客时间的合作邀请（顺便小组成员都能白嫖一个专栏），也算是很开心的一个小成就了。
 
-![gocn_trans_book](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/gocn_trans_book.png)
+![gocn_trans_book](https://image.pseudoyu.com/images/gocn_trans_book.png)
 
 不知不觉自己的 Telegram 频道『[Yu's Life](https://t.me/pseudoyulife)』刚满了 200 订阅了，其实挺神奇的，只是一个自动化同步自己各个平台输入输出的一个小频道，慢慢积累了一些关注，也常常收到各个平台来的读者们的私信或是加好友申请，说频道有为他们带来一些不一样的视角和思考，还挺荣幸当时的一个小小的想法能够产生这样有趣的结果的，前几周忙碌于工作也少了很多输入输出，也希望继续坚持下去了。
 
-![yu_life_tg_subs_100](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_life_tg_subs_100.png)
+![yu_life_tg_subs_100](https://image.pseudoyu.com/images/yu_life_tg_subs_100.png)
 
 这周的另一个小爱好就是调戏 ChatGPT，现在的 AI 聊天机器人也太强了，要是 GitHub Copilot 可能更多只是能够辅助一下写一些工具方法，但是 ChatGPT 是真能把整个程序给写出来（并且忽略了我的拼写错误正确理解了），要失业咯。
 
-![chatgpt_help_me_code_golang](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chatgpt_help_me_code_golang.png)
+![chatgpt_help_me_code_golang](https://image.pseudoyu.com/images/chatgpt_help_me_code_golang.png)
 
 ### 输入
 

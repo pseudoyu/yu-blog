@@ -33,11 +33,11 @@ authors:
 
 Magnet 主要依赖于快捷键，尽管可以自己定制符合习惯的快捷键，但记忆成本很高，且如果有多台设备也需要用自己的帐号下载后重新配置才可以继续使用，并不方便。
 
-![magnet_keyshotcuts](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/magnet_keyshotcuts.png)
+![magnet_keyshotcuts](https://image.pseudoyu.com/images/magnet_keyshotcuts.png)
 
 BetterTouchTool 则是依赖于鼠标移动到窗口各个触发角，优势是不需要自己设置快捷键，仅需将鼠标移动到窗口边缘即可实现分屏。但与 Magnet 有着同样的弊端是，每次打开一个新窗口后还是需要自己手动去实现分屏，在很忙或者窗口很多的时候也常常会忘记，不便于管理。
 
-![bettertouchtool_setting](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/bettertouchtool_setting.png)
+![bettertouchtool_setting](https://image.pseudoyu.com/images/bettertouchtool_setting.png)
 
 既然现有的软件都无法完全满足我的需求，作为一个爱折腾的程序员，目标转向了开源社区一些可高度定制化的解决方案。
 
@@ -108,7 +108,7 @@ sudo visudo -f /private/etc/sudoers.d/yabai
 
 上述 `<>` 内的 `user` 和 `path` 可以通过 `whoami` 和 `which yabai` 命令获取。
 
-![see_user_and_config_yabai_sudo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/see_user_and_config_yabai_sudo.png)
+![see_user_and_config_yabai_sudo](https://image.pseudoyu.com/images/see_user_and_config_yabai_sudo.png)
 
 完成以上配置后，后续在 yabai 的 `.yabairc` 配置文件中加入下述两行：
 
@@ -176,7 +176,7 @@ yabai -m rule --add app="^Alfred Preferences$" manage=off
 
 整体呈现如下（以下效果为打开应用窗口后算法自动编排，且新增窗口会自动重排）：
 
-![my_layout_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_layout_1.png)
+![my_layout_1](https://image.pseudoyu.com/images/my_layout_1.png)
 
 ### skhd
 
@@ -284,7 +284,7 @@ shift + alt - a : yabai -m window --resize top:0:20
 
 macOS 提供了多桌面管理的强大功能，可以理解为每个桌面区域都是一个工作区，可以独立摆放不同的窗口，如下图所示：
 
-![macos_desktop_management](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/macos_desktop_management.png)
+![macos_desktop_management](https://image.pseudoyu.com/images/macos_desktop_management.png)
 
 我们可以通过桌面来区分自己的工作区，如桌面 1 作为自己开发 IDE、终端，桌面 2 作为浏览器查询、写文档，桌面 3 用于处理微信、邮件等通讯工具，桌面 4 作为休闲娱乐、视频播放等，这样我们仅需在几个桌面间切换，实现自己的工作流逻辑，而不需要担心窗口聚焦问题。
 
@@ -294,11 +294,11 @@ macOS 提供了多桌面管理的强大功能，可以理解为每个桌面区�
 
 打开 **系统偏好设置 - 键盘 - 快捷键 - 调度中心**，我们可以为不同的桌面设置对应快捷键，如果没有显示，则可以先打开 9 个空桌面进行配置，之后关闭桌面后仍会保留配置。
 
-![keyboardshortcut_to_change_desktop](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboardshortcut_to_change_desktop.png)
+![keyboardshortcut_to_change_desktop](https://image.pseudoyu.com/images/keyboardshortcut_to_change_desktop.png)
 
 除此之外，还有一个我喜欢的小设置，打开 **系统偏好设置 - 辅助功能 - 显示 - 显示器 - 减弱动态效果**，这样会把不同桌面之间的窗口切换动画效果减弱，提高切换速度，配合我们的自动分屏和快捷键，实现快速强大的多工作区切换。我是速度效率优先，喜欢 macOS 动效的这一步可以不进行设置。
 
-![reduce_display_effect](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/reduce_display_effect.png)
+![reduce_display_effect](https://image.pseudoyu.com/images/reduce_display_effect.png)
 
 ## 总结
 

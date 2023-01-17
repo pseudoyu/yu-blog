@@ -30,20 +30,20 @@ authors:
 
 **Tic-Tac-Toe Game Tree**
 
-![tic_tac_toe_game_tree](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/tic_tac_toe_game_tree.png)
+![tic_tac_toe_game_tree](https://image.pseudoyu.com/images/tic_tac_toe_game_tree.png)
 
 **Minimax Search**
 * A state-space search tree
 * Players alternate turns
 * Compute each node’s minimax value
   * the best achievable utility against a rational (optimal) adversary
-  * ![minimax](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/minimax.png)
+  * ![minimax](https://image.pseudoyu.com/images/minimax.png)
 * Will lead to optimal strategy
   * Best achievable payoff against best play
 * Example
-  * ![minimax_example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/minimax_example.png)
+  * ![minimax_example](https://image.pseudoyu.com/images/minimax_example.png)
 * Implementation
-  * ![minimax_implementation](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/minimax_implementation.png)
+  * ![minimax_implementation](https://image.pseudoyu.com/images/minimax_implementation.png)
 * Properties
   * Complete - Yes, if tree is finite
   * Optimal - In general no, yes against an optimal opponent
@@ -66,7 +66,7 @@ authors:
 
 **𝛼-𝛽 Pruning Algorithm**
 
-![pruning_algorithm](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pruning_algorithm.png)
+![pruning_algorithm](https://image.pseudoyu.com/images/pruning_algorithm.png)
 
 * Min version
   * Consider Min’s value at some node n
@@ -89,7 +89,7 @@ authors:
 
 **Expectimax Search**
 
-![expectimax_search](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/expectimax_search.png)
+![expectimax_search](https://image.pseudoyu.com/images/expectimax_search.png)
 
 * Values reflect average case outcomes, not worst case outcomes
 * Expectimax search computes the expected score under optimal play
@@ -102,7 +102,7 @@ authors:
 
 **Multi-Agent Utilities**
 
-![multi_agent](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/multi_agent.png)
+![multi_agent](https://image.pseudoyu.com/images/multi_agent.png)
 
 * Generalisation of minimax
   * Terminals and nodes have utility vectors

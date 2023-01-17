@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![leopold_fc660c](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/leopold_fc660c.jpeg)
+![leopold_fc660c](https://image.pseudoyu.com/images/leopold_fc660c.jpeg)
 
 写周报的心思从生日前就有了，最早吸引我的是 [Xuanwo](https://twitter.com/OnlyXuanwo) 大佬的开源周报，一方面是憧憬这样能每周有所产出有所贡献的状态，而另一方面也是对以周为一个尺度观察与衡量自己的生活、工作与学习这样的形式很感兴趣。
 
@@ -44,7 +44,7 @@ authors:
 
 其实现在提起感情还是难以避免痛苦与失落，但也渐渐到了可以 Look back 的时候了，之前看到过这样一句话：
 
-![love_is_illusion](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/love_is_illusion.png)
+![love_is_illusion](https://image.pseudoyu.com/images/love_is_illusion.png)
 
 之前谈论感情的『[25 岁的自白：花束般的恋爱](https://www.pseudoyu.com/zh/2022/06/06/yearly_review_25/)』中有提到：
 
@@ -74,7 +74,7 @@ authors:
 
 这周和一个 Leader 有了对于区块链和技术的一些有趣的讨论，也对我之后的学习方向提供了一些参照，技术路还很遥远呀，继续加油了。
 
-![discuss_about_blockchain_in_twitter](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/discuss_about_blockchain_in_twitter.png)
+![discuss_about_blockchain_in_twitter](https://image.pseudoyu.com/images/discuss_about_blockchain_in_twitter.png)
 
 ### 输入
 

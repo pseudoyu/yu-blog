@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_0926_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_0926_photo.png)
+![weekly_review_0926_photo](https://image.pseudoyu.com/images/weekly_review_0926_photo.png)
 
 本篇是对 `2022-09-19` 到 `2022-09-26` 这周生活的记录与思考。
 

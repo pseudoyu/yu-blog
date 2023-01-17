@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1027_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1027_photo.png)
+![weekly_review_1027_photo](https://image.pseudoyu.com/images/weekly_review_1027_photo.png)
 
 本篇是对 `2022-10-19` 到 `2022-10-27` 这周生活的记录与思考。
 
@@ -40,7 +40,7 @@ authors:
 
 跟着推友[象牙山刘能](https://twitter.com/disksing)的『[twiyou](https://github.com/disksing/twiyou)』项目搭建了自己的统计系统，很有意思。
 
-![yu_twitter_monitor](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_twitter_monitor.png)
+![yu_twitter_monitor](https://image.pseudoyu.com/images/yu_twitter_monitor.png)
 
 ### 博客系统
 

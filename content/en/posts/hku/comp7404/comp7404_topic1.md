@@ -79,7 +79,7 @@ Example: Chess (10^43 possible states and 10^120 possible state sequences)
 * Path Cost
   * Distance between the cities
 
-![romania_problem](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/romania_problem.png)
+![romania_problem](https://image.pseudoyu.com/images/romania_problem.png)
 
 Store data in Python dictionary
 

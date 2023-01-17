@@ -36,7 +36,7 @@ authors:
 * Adjacency matrix only appropriate for dense graphs
 * Spatial networks are sparse: use adjacency lists instead
 
-![Modeling_Spatial_Networks](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Modeling_Spatial_Networks.png)
+![Modeling_Spatial_Networks](https://image.pseudoyu.com/images/Modeling_Spatial_Networks.png)
 
 #### Storing Large Spatial Networks
 
@@ -45,7 +45,7 @@ authors:
     * partition adjacency lists to disk blocks (based on proximity)
     * create B+-tree index on top of partitions (based on node-id)
 
-![Storing_Large_Spatial_Network](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Storing_Large_Spatial_Network.png)
+![Storing_Large_Spatial_Network](https://image.pseudoyu.com/images/Storing_Large_Spatial_Network.png)
 
 ### Shortest Path Search
 
@@ -61,17 +61,17 @@ authors:
 
 * idea: incrementally explore the graph around s, visitingnodes in distance order to suntil t is found (like NN)
 
-![Dijkstra_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Dijkstra_1.png)
+![Dijkstra_1](https://image.pseudoyu.com/images/Dijkstra_1.png)
 
-![Dijkstra_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Dijkstra_2.png)
+![Dijkstra_2](https://image.pseudoyu.com/images/Dijkstra_2.png)
 
 #### Algorithm
 
-![Dijkstra_Algorithm](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Dijkstra_Algorithm.png)
+![Dijkstra_Algorithm](https://image.pseudoyu.com/images/Dijkstra_Algorithm.png)
 
 #### Example
 
-![Dijkstra_Example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Dijkstra_Example.png)
+![Dijkstra_Example](https://image.pseudoyu.com/images/Dijkstra_Example.png)
 
 #### Illustrating
 
@@ -95,11 +95,11 @@ authors:
         * dist(v,t): Euclidean distance between v and t
     * Original Dijkstra visits nodes in increasing SPD(s,v) order
 
-![A_Star_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A_Star_1.png)
+![A_Star_1](https://image.pseudoyu.com/images/A_Star_1.png)
 
 #### Example
 
-![A_Star_Example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/A_Star_Example.png)
+![A_Star_Example](https://image.pseudoyu.com/images/A_Star_Example.png)
 
 #### Illustrating
 
@@ -118,7 +118,7 @@ authors:
 
 #### Example
 
-![Bi_Directional_Example](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Bi_Directional_Example.png)
+![Bi_Directional_Example](https://image.pseudoyu.com/images/Bi_Directional_Example.png)
 
 ### Discussions
 
@@ -138,7 +138,7 @@ authors:
     * Mobile user locations
 * Solve problem by introducing 2 more nodes
 
-![Source_Destination_on_Edges](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Source_Destination_on_Edges.png)
+![Source_Destination_on_Edges](https://image.pseudoyu.com/images/Source_Destination_on_Edges.png)
 
 #### Spatial Queries over Spatial Networks
 
@@ -150,7 +150,7 @@ authors:
     * Nearest neighbor search. Ex: find k nearest restaurants from present position
     * Joins. Ex: find pairs of restaurants and hotels at most 100m from each other
 
-![Spatial_Queries_over_Spatial_Networks](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Spatial_Queries_over_Spatial_Networks.png)
+![Spatial_Queries_over_Spatial_Networks](https://image.pseudoyu.com/images/Spatial_Queries_over_Spatial_Networks.png)
 
 #### Methodology
 
@@ -177,15 +177,15 @@ authors:
 
 * Step 1: find network edge which contains q
 
-![Evaluation_of_Spatial_Selections_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Evaluation_of_Spatial_Selections_1.png)
+![Evaluation_of_Spatial_Selections_1](https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_1.png)
 
 * Step 2: traverse network to find all edges (or parts of them within distance 10 from q)
 
-![Evaluation_of_Spatial_Selections_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Evaluation_of_Spatial_Selections_2.png)
+![Evaluation_of_Spatial_Selections_2](https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_2.png)
 
 * Step 3: find restaurants that intersect the subnetwork computed at step 2
 
-![Evaluation_of_Spatial_Selections_3](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Evaluation_of_Spatial_Selections_3.png)
+![Evaluation_of_Spatial_Selections_3](https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_3.png)
 
 ### Evaluation of Spatial Selections (2)
 
@@ -206,11 +206,11 @@ authors:
 
 * Step 1: find restaurants for which the Euclidean distance to q is at most 10: S={r1,r2,r3}
 
-![Evaluation_of_Spatial_Selections_Example_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Evaluation_of_Spatial_Selections_Example_1.png)
+![Evaluation_of_Spatial_Selections_Example_1](https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_Example_1.png)
 
 * Step 2: for each restaurant in S, compute SPD to q and verify if it is indeed a correct result
 
-![Evaluation_of_Spatial_Selections_Example_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Evaluation_of_Spatial_Selections_Example_2.png)
+![Evaluation_of_Spatial_Selections_Example_2](https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_Example_2.png)
 
 ### Evaluation of NN search (1)
 
@@ -232,7 +232,7 @@ authors:
     * Assumption: Euclidean distance lower-bounds network distance:
         * dist(v,u) ≤ SPD(v,u), for any v,u
 
-![Evaluation_of_NN_search](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Evaluation_of_NN_search.png)
+![Evaluation_of_NN_search](https://image.pseudoyu.com/images/Evaluation_of_NN_search.png)
 
 ### Spatial Join Queries
 
@@ -259,7 +259,7 @@ authors:
 * Dijkstra’s algorithm and related methods could be very expensive on very large graphs
 * (Partial) materialization of shortest paths in static graphs can accelerate search
 
-![Shortest_Path_Materialization_and_Indexing_in_Large_Graphs.png](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Shortest_Path_Materialization_and_Indexing_in_Large_Graphs.png)
+![Shortest_Path_Materialization_and_Indexing_in_Large_Graphs.png](https://image.pseudoyu.com/images/Shortest_Path_Materialization_and_Indexing_in_Large_Graphs.png)
 
 ### Hierarchical Path Materialization
 
@@ -271,11 +271,11 @@ authors:
 * Compute and materialize SPs between every pair of border nodes (matrix B)
     * If border nodes too many, hierarchically partition them into 2nd-level partitions
 
-![Hierarchical_Path_Materialization](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Hierarchical_Path_Materialization.png)
+![Hierarchical_Path_Materialization](https://image.pseudoyu.com/images/Hierarchical_Path_Materialization.png)
 
 #### algorithm
 
-![Hierarchical_Path_Materialization_algorithm](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Hierarchical_Path_Materialization_algorithm.png)
+![Hierarchical_Path_Materialization_algorithm](https://image.pseudoyu.com/images/Hierarchical_Path_Materialization_algorithm.png)
 
 #### Illustrating
 
@@ -286,14 +286,14 @@ authors:
     * Non-highway nodes in local partitions
     * Highway nodes become border nodes
 
-![Hierarchical_Path_Materialization_Illustration](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Hierarchical_Path_Materialization_Illustration.png)
+![Hierarchical_Path_Materialization_Illustration](https://image.pseudoyu.com/images/Hierarchical_Path_Materialization_Illustration.png)
 
 ### Compressing Materialized Paths
 
 * Distance matrix with successors has O(n_2) space cost
 * Motivation: reduce space by grouping targets based on common successors
 
-![Compressing_Materialized_Paths](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Compressing_Materialized_Paths.png)
+![Compressing_Materialized_Paths](https://image.pseudoyu.com/images/Compressing_Materialized_Paths.png)
 
 #### algorithm
 
@@ -302,7 +302,7 @@ authors:
     * succ: a successor of s
     * R: a continuous region, such that for each t in R, the successor of s in SP(s,t) is succ
 
-![Compressing_Materialized_Paths_Algorithm](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/Compressing_Materialized_Paths_Algorithm.png)
+![Compressing_Materialized_Paths_Algorithm](https://image.pseudoyu.com/images/Compressing_Materialized_Paths_Algorithm.png)
 
 * To compute SP(s,t) for a given s, t:
     1. SP=s

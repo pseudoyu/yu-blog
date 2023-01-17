@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_0904_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_0904_photo.png)
+![weekly_review_0904_photo](https://image.pseudoyu.com/images/weekly_review_0904_photo.png)
 
 本篇是对 `2022-08-29` 到 `2022-09-04` 这周生活的记录与思考。
 
@@ -22,7 +22,7 @@ authors:
 
 ## 重返过去、遗憾与当下
 
-![back_to_campus](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/back_to_campus.jpg)
+![back_to_campus](https://image.pseudoyu.com/images/back_to_campus.jpg)
 
 因为一段对话，周五度过了一个未眠之夜，很多学生时代的记忆不断浮现。
 

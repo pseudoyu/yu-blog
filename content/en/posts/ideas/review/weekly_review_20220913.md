@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_0913_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_0913_photo.png)
+![weekly_review_0913_photo](https://image.pseudoyu.com/images/weekly_review_0913_photo.png)
 
 本篇是对 `2022-09-05` 到 `2022-09-12` 这周生活的记录与思考。
 
@@ -22,7 +22,7 @@ authors:
 
 ## 心情
 
-![yu_mood_review_20220913](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_mood_review_20220913.png)
+![yu_mood_review_20220913](https://image.pseudoyu.com/images/yu_mood_review_20220913.png)
 
 虽说平时话并不多，但自己大体上还是个挺情绪化的人，会因为一些突然闯入的心绪伤感，因为一部电影的结局而发呆许久，也会因为一些生活中的小小细节而感到莫名地欢喜。
 
@@ -48,10 +48,10 @@ authors:
 
 因为只带了一只轻便的 55mm F1.8，却因为时间关系只能拍远景，所以匆匆几下快门的结果并不那么满意，但至少留下了一些记忆点，也勉强串了一个主题《海边的人们》。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_04.PNG" caption="A man">}}
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_01.PNG" caption="Shoes">}}
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_02.PNG" caption="A girl">}}
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/people_with_the_sea_03.PNG" caption="Family">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_04.PNG" caption="A man">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_01.PNG" caption="Shoes">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_02.PNG" caption="A girl">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_03.PNG" caption="Family">}}
 
 ## 不期而遇
 

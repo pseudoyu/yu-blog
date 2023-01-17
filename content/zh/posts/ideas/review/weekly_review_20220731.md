@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![bg_computer_room_hellowork](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/bg_computer_room_hellowork.jpg)
+![bg_computer_room_hellowork](https://image.pseudoyu.com/images/bg_computer_room_hellowork.jpg)
 
 本篇是对 `2022-07-25` 到 `2022-07-31` 这周生活的记录与思考，也是休假回来后恢复工作的第一周。
 
@@ -94,10 +94,10 @@ authors:
 
 这周没写什么文章，不过数据上有了一些小小的里程碑，首先是 Google 搜索达到了 1000 次点击。
 
-![blog_google_search_1k](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/blog_google_search_1k.jpeg)
+![blog_google_search_1k](https://image.pseudoyu.com/images/blog_google_search_1k.jpeg)
 
 然后也第一次月浏览量达到了 1 万左右，访客 3 千多。
 
-![blog_umami_10k](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/blog_umami_10k.png)
+![blog_umami_10k](https://image.pseudoyu.com/images/blog_umami_10k.png)
 
 需要继续加油多写一些了。

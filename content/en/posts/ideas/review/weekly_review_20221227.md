@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1227](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1227.png)
+![weekly_review_1227](https://image.pseudoyu.com/images/weekly_review_1227.png)
 
 本篇是对 `2022-12-20` 到 `2022-12-27` 这周生活的记录与思考。
 
@@ -30,13 +30,13 @@ authors:
 
 ## Love Actually
 
-![loveactually](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/loveactually.jpeg)
+![loveactually](https://image.pseudoyu.com/images/loveactually.jpeg)
 
 虽然其实自己现在很难去思考对于感情还留有几分向往和几分勇气，曾以为能共度余生的人悄然离开，生活的痕迹被一点点抹去，但记忆重新涌上心头时难免会怀疑所谓 True Love 是否存在。于是在圣诞的夜晚重温了《Love Actually | 真爱至上》这部经典，也算是每年的保留节目了。
 
 这是不论自己处于多痛苦的时刻，看了后总会愿意继续相信美好的一部电影。这部电影和 Matt Cab 翻唱的英文版『Christmas Song』（日剧《朝五晚九》的主题曲）总是让我把圣诞与美好的爱情联系在一起，无关具体的情感或是经历，只是这种美好的氛围就已经足够诉说所有情愫。
 
-![love_actually_you_are_perfect](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/love_actually_you_are_perfect.jpg)
+![love_actually_you_are_perfect](https://image.pseudoyu.com/images/love_actually_you_are_perfect.jpg)
 
 最喜欢的是这一对，虽然只有藏在心底的爱慕，却真诚而美好。
 
@@ -108,17 +108,17 @@ authors:
 
 之前拍的几批和圣诞还没出片，就放一些静静的日常吧。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_22.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpeg">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_23.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_23.jpeg">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_24.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_24.jpeg">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_25.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_25.jpeg">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_26.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_26.jpeg">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_27.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_27.jpeg">}}
 
 ## 其他
 

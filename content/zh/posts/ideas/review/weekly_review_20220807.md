@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![yu_switch_games](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_switch_games.jpg)
+![yu_switch_games](https://image.pseudoyu.com/images/yu_switch_games.jpg)
 
 本篇是对 `2022-08-01` 到 `2022-08-07` 这周生活的记录与思考。就工作节奏而言远远算不上忙碌，甚至有几天久违地 7 点多就到了家，空出来的闲暇时间让我有了更多时间思考自己的人格与生活状态，也能够将之前很多细碎的思绪好好梳理一下。
 
@@ -46,7 +46,7 @@ authors:
 
 ## 游戏
 
-![yu_game_gallery](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_game_gallery.png)
+![yu_game_gallery](https://image.pseudoyu.com/images/yu_game_gallery.png)
 
 这周其实并没有玩游戏，但想谈谈“游戏”。
 

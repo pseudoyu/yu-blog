@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_20230115_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_20230115_photo.png)
+![weekly_review_20230115_photo](https://image.pseudoyu.com/images/weekly_review_20230115_photo.png)
 
 本篇是对 `2023-01-10` 到 `2023-01-15` 这周生活的记录与思考。
 
@@ -38,7 +38,7 @@ authors:
 
 最近刚好在 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu) 的博客里发现了 [Pagefind](https://pagefind.app/) 这一网页搜索方案，研究了一下集成到了我的博客里，效果很不错。
 
-![pagefind_and_hugo_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pagefind_and_hugo_2.png)
+![pagefind_and_hugo_2](https://image.pseudoyu.com/images/pagefind_and_hugo_2.png)
 
 它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu) 的这一篇『[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过[这个网址](https://www.pseudoyu.com/en/search)体验一下，或者点击导航栏的『Search』（加上了回到顶部功能，可以直接点击返回）。
 
@@ -46,11 +46,11 @@ authors:
 
 但其实使用下来对中文支持有一些问题，没法很好的分词，比如『区块链』这个词直接搜索会无法匹配，改为『区块 链』，自己主动分词后才能得到想要的效果，也在页面注明了搜索方式了，~~又不是不能用~~，看看后续有没有更好的方案了。
 
-![pagefind_and_hugo_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/pagefind_and_hugo_1.png)
+![pagefind_and_hugo_1](https://image.pseudoyu.com/images/pagefind_and_hugo_1.png)
 
 有意思的是，本来这周的博客折腾已经到此为止了，但是突然 GitHub 发邮件提醒我有 pr 和评论，有一个陌生的朋友 fork 了我的博客并且做了一些样式调整和改动，增加了一些功能，后来还直接把自己改好的 css 文件发我参照了。
 
-![github_blog_pr](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/github_blog_pr.png)
+![github_blog_pr](https://image.pseudoyu.com/images/github_blog_pr.png)
 
 其实原本只是自用的一些方案，也常常陷入折腾了一下午主题没写一个字却自得其乐的状态，没想到也会有一些人关注到、认可并且采用，还能反过来解决不少我的一些问题，感觉很奇妙，有点慢慢感受到像是开源或是 work in public 的乐趣，总能有一些意想不到的收获。于是昨天晚上一通折腾，修改了好几个一直有点问题但是没改/没当回事的样式问题，还增加了回到顶部的按钮效果，还挺开心的。
 
@@ -58,13 +58,13 @@ authors:
 
 之前周报提到过自己研究清楚通过 [Nginx Proxy Manager](https://nginxproxymanager.com/) 给自己的服务器进行反向代理后，上线了几个常用的服务和站点，比如之前的 [zlib.pseudoyu.com](https://zlib.pseudoyu.com/) 图书检索服务，因为得到了一些关注，也被一些群组和频道收录了，所以还是想着得持续维护下去保持服务稳定性和访问速度，但之前都是一些低性能的机子，几个服务就跑满了，于是趁着搬瓦工推出了一个新的还不错的 Plan，入了几台，2C2G + 40G 硬盘 + CN2GIA DC6 的线路，完全够一些服务的长期稳定运行了。
 
-![yu_services_vps](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_services_vps.png)
+![yu_services_vps](https://image.pseudoyu.com/images/yu_services_vps.png)
 
 之前也还有一些机子，跑一些自己的基础服务，有些也搭载一些小应用给朋友用，这次也好好整理了一下，把所有服务都迁移到了一台机子，这里就得赞美一下 Docker 和 docker-compose 的管理方式了，数据迁移也太无缝了。全部迁移完，居然也才占用了一半的样子，幸福。
 
 因为机器也多了（幸福的烦恼），所以也找了一个开源的监控服务进行管理，有一种赛博资本家的感觉，监督着这些机子好好工作不许偷懒。
 
-![yu_server_status](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/yu_server_status.png)
+![yu_server_status](https://image.pseudoyu.com/images/yu_server_status.png)
 
 ### 桌面 Setup 与键盘
 
@@ -74,31 +74,31 @@ authors:
 
 几天后收到了，是 HHKB Professional Hybrid Type-S 静音版，老式 IBM 风格的配色，静电容的手感，再加上小巧的体积，很喜欢，在桌面上也非常协调。
 
-![keyboard_hhkb_type_s_1](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_hhkb_type_s_1.jpg)
+![keyboard_hhkb_type_s_1](https://image.pseudoyu.com/images/keyboard_hhkb_type_s_1.jpg)
 
 每天早上开始学习、工作前总是先会简单布置一下环境，小心翼翼地放上键盘，而这把键盘陪伴着我从香港到北京，甚至每次外出去咖啡馆也都会带上，刚开始可能只是习惯，慢慢竟变成了一种仪式感，似乎这样让写码和写作都带上了一些乐趣。
 
-![keyboard_hhkb_type_s_2](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_hhkb_type_s_2.jpg)
+![keyboard_hhkb_type_s_2](https://image.pseudoyu.com/images/keyboard_hhkb_type_s_2.jpg)
 
 用了一年多后，因为很喜欢静电容的手感，不由得想尝试一下剩下几把经典，于是同样作为礼物，我收到了一把 RealForce PFU 联名版 87 键，这把的颜值也很不错，暗光环境下有种金属感，不过可能是由于习惯了 HHKB 的特殊键位，突然转换到 87 常常有些不适应，所以反倒是给她用来打游戏更多一些，反正键盘也拯救不了我的游戏操作手残。
 
-![realforce_pfu_87](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/realforce_pfu_87.jpg)
+![realforce_pfu_87](https://image.pseudoyu.com/images/realforce_pfu_87.jpg)
 
 RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸键盘了，于是寄给了远在澳洲的倪（这么一想我的第一把机械键盘也是他送我的，一把 Cherry 的，但是轴体倒是忘了，当时还在用 Win 的时候在家用了快一年，也很不错）。
 
 虽然 HHKB 和 RealForce 这两把知名度感觉更高一些，但我个人体验下来在誉为静电容三大经典中作工最精致、质感最好的反而是我去年年中才入手的 Leopold FC660C，配色和敲击感都更舒服，真正让人有些享受其中，后续成为了我家里桌面的主力键盘。
 
-![keyboard_leopold_fc660c](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_leopold_fc660c.jpg)
+![keyboard_leopold_fc660c](https://image.pseudoyu.com/images/keyboard_leopold_fc660c.jpg)
 
 其实至此，自己键盘使用的需求已经完全满足了，也没太多心力去追求极致去玩客制化。然而，一个深夜刷到了稚晖君的『[【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】](https://www.bilibili.com/video/BV19V4y1J7Hx)』，一把从电路硬件到固件代码都重新设计定义、自己做的键盘，这谁忍得住啊。
 
 而在国庆的时候，刚好看到和 B 站出了联名款键盘，毫不犹豫下单了，果然猛男粉还是很有吸引力的，这也是我某种意义上的第一把客制化。
 
-![keyboard_hello_word_75](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/keyboard_hello_word_75.jpeg)
+![keyboard_hello_word_75](https://image.pseudoyu.com/images/keyboard_hello_word_75.jpeg)
 
 接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，晓瑜表示“怎么换了把键盘你人设都变了喂”。
 
-![chat_with_xiaoyu_about_keyboard](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/chat_with_xiaoyu_about_keyboard.png)
+![chat_with_xiaoyu_about_keyboard](https://image.pseudoyu.com/images/chat_with_xiaoyu_about_keyboard.png)
 
 我没有什么收藏癖，也没有想追求极致的手感或是客制化方案，只是我一直对桌面陈设、电脑、键盘和工具软件等会和我朝夕相处的事物有着极大的折腾欲望，哪怕只是几秒速度提升或是一点点心情体验的改善，于我来说也是一件何乐而不为的事。
 

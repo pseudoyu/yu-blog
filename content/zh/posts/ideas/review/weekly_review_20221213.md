@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1213_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_1213_photo.png)
+![weekly_review_1213_photo](https://image.pseudoyu.com/images/weekly_review_1213_photo.png)
 
 本篇是对 `2022-12-07` 到 `2022-12-13` 这周生活的记录与思考。
 
@@ -36,17 +36,17 @@ authors:
 
 这周依然是一起宅在家的生活，能渐渐感觉到一点点建构起来的信任与情感依赖（同时也放肆了很多），会在我忙在各个会议里时静静躺在键盘前伴着嘈杂的人声与键盘敲击声熟睡，会在我许久没有管她时绕着我的脚撒娇要抱抱，会在我看世界杯时在我面前一起关注着赛场的动向，会在睡前跑酷到我的被子里一起入眠，也会在我赖床不起时直接一脚踩在我脸上“叫醒”我换粮。
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_18.jpeg" caption="冷知识，猫毛掉进路由器会造成网络拥堵（烂梗）">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_18.jpeg" caption="冷知识，猫毛掉进路由器会造成网络拥堵（烂梗）">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_17.jpeg" caption="你不陪我玩，我拿逗猫棒自己逗自己">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_17.jpeg" caption="你不陪我玩，我拿逗猫棒自己逗自己">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_19.jpeg" caption="荷兰你行不行啊，不然我来？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_19.jpeg" caption="荷兰你行不行啊，不然我来？">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_20.jpeg" caption="别工作了，给我当枕头">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_20.jpeg" caption="别工作了，给我当枕头">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_22.jpeg" caption="别工作了，给我当脚垫">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpeg" caption="别工作了，给我当脚垫">}}
 
-{{< figure src="https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/my_cat_nie_nie_21.jpeg" caption="别工作了，要抱抱">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_21.jpeg" caption="别工作了，要抱抱">}}
 
 ## 其他
 

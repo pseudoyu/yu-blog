@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![raspberry_pi](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/raspberry_pi.jpeg)
+![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpeg)
 
 从实习开始，来到北京开始工作已经满一周年了。
 
@@ -73,11 +73,11 @@ authors:
 
 ### 收获、困境与改变
 
-![dev_guide](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/dev_guide.png)
+![dev_guide](https://image.pseudoyu.com/images/dev_guide.png)
 
 一年过去了，第二个项目也即将结束了，我从这一年里学到了很多，也想以自己的方式为部门留下些什么，于是决定写了一份技术指南。除了开发规范外，还包括了这几年我对区块链的一些学习记录，以及一些从工作中学到的实战记录，这些都是我刚步入这份工作时希望能学到的，也希望能够告诉新加入的成员。
 
-![dev_guide_content](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/dev_guide_content.png)
+![dev_guide_content](https://image.pseudoyu.com/images/dev_guide_content.png)
 
 尽管工作才过去了一年，技术与经验上还有很多想提升与成长的，但对于方向却多少有了一些迷茫。想钻研一下区块链底层技术，打磨公司或个人的产品，以及更多参与到开源建设中，但工作之中也常常疲于一个个项目交付时间节点，很难有完整的时间学习研究，这也是后续的工作生涯中我需要克服与调整的难题。
 

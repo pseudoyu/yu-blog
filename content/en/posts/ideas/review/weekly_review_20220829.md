@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_0829_photo](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/weekly_review_0829_photo.png)
+![weekly_review_0829_photo](https://image.pseudoyu.com/images/weekly_review_0829_photo.png)
 
 本篇是对 `2022-08-22` 到 `2022-08-28` 这周生活的记录与思考。
 
@@ -26,7 +26,7 @@ authors:
 
 ## 没有色彩的 Yu 和他的巡礼之年
 
-![no_color_people](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/no_color_people.png)
+![no_color_people](https://image.pseudoyu.com/images/no_color_people.png)
 
 这个标题取自村上春树的『[没有色彩的多崎作和他的巡礼之年](https://book.douban.com/subject/25733470/)』，很长又略些不知所云的名字。这本书是在和 Humura 面基的时候约在了书店，瞥到了他在看村上的『[海边的卡夫卡](https://book.douban.com/subject/30144095/)』，突然想到之前想补一下村上的书。
 
@@ -42,7 +42,7 @@ authors:
 
 虽然后续也和自己和解了，但似乎还总是感觉自己的生活与有趣已经无缘了。总是羡慕别人的有趣个性和经历，也常常在即使自己做得不错时也只是觉得在履行自己平凡人生的职责或是这些都并不属于自己，心理学有个症状定义叫“冒名顶替综合症”似乎很贴切地描述了这一点。之前看过一篇关于工程师素养的文章中提到过这一点：
 
-![imposter_syndrone](https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/imposter_syndrone.jpeg)
+![imposter_syndrone](https://image.pseudoyu.com/images/imposter_syndrone.jpeg)
 
 而随着年岁和经历的增长这种倾向似乎愈演愈烈，追寻有趣也成为了一个虚无缥缈的执念，但即使是他人评论是个经历丰富或是有意思的人也总是将信将疑。书中描述的多崎作似乎也处在这样的状态中，其实又在做自己一直很感兴趣的车站建造工作，却依然觉得自己缺失了什么，就会将其归咎于自己的缺乏色彩。
 
