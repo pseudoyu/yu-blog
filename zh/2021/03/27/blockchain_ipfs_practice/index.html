@@ -46,7 +46,7 @@ pseudoyu
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># 压缩并下载文件</span>
 </span></span><span class=line><span class=cl>ipfs get QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH -Cao ipfsTest.png
-</span></span></code></pre></div><p><img src=https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ipfs_init_readme.png alt=ipfs_init_readme></p><h3 id=开启加入服务>开启/加入服务</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=c1># 查看当前节点信息</span>
+</span></span></code></pre></div><p><img src=https://image.pseudoyu.com/images/ipfs_init_readme.png alt=ipfs_init_readme></p><h3 id=开启加入服务>开启/加入服务</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=c1># 查看当前节点信息</span>
 </span></span><span class=line><span class=cl>ipfs id
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># 查看IPFS配置信息</span>
@@ -54,7 +54,7 @@ pseudoyu
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># 开启节点服务器</span>
 </span></span><span class=line><span class=cl>ipfs daemon
-</span></span></code></pre></div><p>API 服务，默认在 5001 端口，可以通过 http://localhost:5001/webui 进行访问</p><p><img src=https://pseudoyu.oss-cn-hangzhou.aliyuncs.com/images/ipfs_webui.png alt=ipfs_webui></p><p>网关服务，默认在 8080 端口，在浏览器里访问文件需要借助于 IPFS 提供的网关服务，由浏览器先访问到网关，网关去获取 IPFS 网络杀过了的文件。通过 http://localhost:8080/ipfs/[File Hash] 来访问上传到 IPFS 的文件</p><h3 id=文件操作>文件操作</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=c1># 列出文件</span>
+</span></span></code></pre></div><p>API 服务，默认在 5001 端口，可以通过 http://localhost:5001/webui 进行访问</p><p><img src=https://image.pseudoyu.com/images/ipfs_webui.png alt=ipfs_webui></p><p>网关服务，默认在 8080 端口，在浏览器里访问文件需要借助于 IPFS 提供的网关服务，由浏览器先访问到网关，网关去获取 IPFS 网络杀过了的文件。通过 http://localhost:8080/ipfs/[File Hash] 来访问上传到 IPFS 的文件</p><h3 id=文件操作>文件操作</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=c1># 列出文件</span>
 </span></span><span class=line><span class=cl>ipfs files ls
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># 创建目录</span>
