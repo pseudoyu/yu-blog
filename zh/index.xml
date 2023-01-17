@@ -307,7 +307,7 @@
   </figure>
 </div>
 
-
+<!-- 
 
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -317,7 +317,7 @@
     
   </figure>
 </div>
-
+ -->
 
 
 <div class="box">
@@ -329,7 +329,7 @@
   </figure>
 </div>
 
-
+<!-- 
 
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -339,7 +339,7 @@
     
   </figure>
 </div>
-
+ -->
 
 
 <div class="box">
@@ -362,7 +362,7 @@
   </figure>
 </div>
 
-
+<!-- 
 
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -372,7 +372,7 @@
     
   </figure>
 </div>
-
+ -->
 
 
 <div class="box">
@@ -2010,7 +2010,7 @@
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_04.PNG" alt="A man" />
+      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_04.png" alt="A man" />
     </div>
     
       <figcaption>
@@ -2026,7 +2026,7 @@
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_01.PNG" alt="Shoes" />
+      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_01.png" alt="Shoes" />
     </div>
     
       <figcaption>
@@ -2042,7 +2042,7 @@
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_02.PNG" alt="A girl" />
+      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_02.png" alt="A girl" />
     </div>
     
       <figcaption>
@@ -2058,7 +2058,7 @@
 <div class="box">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_03.PNG" alt="Family" />
+      <img  itemprop="thumbnail" src="https://image.pseudoyu.com/images/people_with_the_sea_03.png" alt="Family" />
     </div>
     
       <figcaption>
@@ -4539,7 +4539,7 @@
 <p>新的一年里也还是要继续坚持输出吧。</p>
 <p><img src="https://image.pseudoyu.com/images/yu_blog_update.png" alt="yu_blog_update"></p>
 <p>一直想好好做开源，但是没想到却是上个月重新整理了自己的各类工具发布的一个 GitHub 项目『<a href="https://github.com/pseudoyu/yu-tools">pseudoyu/yu-tools 个人工具箱</a>』，让我收获了第一个 100 star，意外之喜。</p>
-<p><a href="https://star-history.com/#pseudoyu/yu-tools&amp;Date"><img src="https://api.star-history.com/svg?repos=pseudoyu/yu-tools&amp;type=Date" alt="Star History Chart"></a></p>
+<p><a href="https://star-history.com/#pseudoyu/yu-tools&amp;Date"><img src="https://api.star-history.com.png?repos=pseudoyu/yu-tools&amp;type=Date" alt="Star History Chart"></a></p>
 <p>之后新的一年能沉下心多输入和沉淀，对开源项目能有更多代码贡献吧。</p>
 <p>大概自己还有着英语专业的魂，在『<a href="https://github.com/gocn/translator">GoCN 翻译小组</a>』完成了 8 篇 Go 语言相关的技术文章的翻译，参与区块链安全余弦大佬牵头的『<a href="https://darkhandbook.io">区块链黑暗森林自救手册</a>』，参与完成了英文版本的翻译和全球发布，也算是为区块链行业做了一些微小的贡献。</p>
 <p>大概在技术之路上这些也仅仅是微不足道，但至少有在好好前进吧。</p>
@@ -6738,7 +6738,7 @@
 <p>目前公司团队在做一个 BaaS 平台的跨链模块，我在其中负责跨链适配器部分，对应 BitXHub 平台就是监听模块和应用链插件模块。适配器将对应用链上的跨链事件作监听，并将相应参数传给网关作跨链相关的业务逻辑需求。</p>
 <p>因此，打算对 BitXHub 的 <a href="https://github.com/meshplus/pier-client-fabric">meshplus/pier-client-fabric</a> 插件源码作深入解读，学习其优秀的代码结构和功能模块，以便更好地实现自己的适配器功能。</p>
 <h2 id="跨链交易流程">跨链交易流程</h2>
-<p><img src="https://image.pseudoyu.com/images/cross_chain_plugin.svg" alt="cross_chain_plugin"></p>
+<p><img src="https://image.pseudoyu.com/images/cross_chain_plugin.png" alt="cross_chain_plugin"></p>
 <p>根据跨链业务需求，典型的跨链调用流程如上图所示。</p>
 <ol>
 <li>需要进行跨链交易的子链需要安装适配器并部署提供的跨链合约和业务合约</li>
@@ -7174,7 +7174,7 @@
 <p>区块链是一个复杂的分布式系统，尤其是像 Hyperledger Fabric 这样的企业联盟链平台，其部署和运维都非常复杂，作为应用开发者需要处理许多环境问题（如证书、docker 环境等），带来了许多挑战。</p>
 <p>因此，BaaS 平台应运而生，它是一种帮助用户创建、管理和维护企业级区块链的应用平台，用户能够通过友好的 Web 界面对区块链进行操作。通过 BaaS 平台，用户可以很灵活地搭建区块链网络、管理区块链业务和各个模块的功能、进行智能合约的研发和部署以及实时监控和运维。</p>
 <p>通过 BaaS 平台，开发者可以快速进行区块链业务的研发，综合成本大大降低，且有助于系统稳定性、安全性和易用性等的提升。</p>
-<p><img src="https://image.pseudoyu.com/images/baas_framework.svg" alt="baas_framework"></p>
+<p><img src="https://image.pseudoyu.com/images/baas_framework.png" alt="baas_framework"></p>
 <h2 id="平台架构">平台架构</h2>
 <p>BaaS 平台作为一个一站式应用服务，自下而上主要分为以下几层：</p>
 <ol>
@@ -7237,7 +7237,7 @@
 <h2 id="跨链技术实践">跨链技术实践</h2>
 <h3 id="开发实战">开发实战</h3>
 <p>目前在做一个 BaaS 平台的跨链功能，其基础架构如下：</p>
-<p><img src="https://image.pseudoyu.com/images/cross_chain_framework.svg" alt="cross_chain_framework"></p>
+<p><img src="https://image.pseudoyu.com/images/cross_chain_framework.png" alt="cross_chain_framework"></p>
 <p>子链主要是实现各类业务和应用的链，当子链要与其他链进行跨链业务交互时，它需要执行跨链合约，而我们提供了一个跨链网关来对这些跨链合约进行监听。针对异构区块链。如 Hyperledger Fabric、Ethereum，我们将提供不同的适配器来实现跨链 SDK 与跨链网关之间的交互，适配器提供跨链合约信息查询功能。当另一条业务链的 SDK 接收到跨链合约方法时，如果是合约互调用或数据传递，则直接调用对应的合约方法。</p>
 <p>我主要做的是跨链适配器接口这一部分，适配器作为针对不同链的插件嵌入跨链网关中从而适配不同的应用链，能够很好地协助跨链网关实现对交易的监听、同步与执行。</p>
 <p>而在具体实现中，如在 Fabric 网络中，则是通过子链调用跨链业务合约，而跨链业务合约统一调用一个适配器的合约，在这个适配器合约中，我们实现了交易信息传入，通过 Fabric 事件机制来进行监听（即在合约中实现 <code>SetEvent</code> 方法，而在适配器中对相应事件进行注册，从而实现对跨链合约的监听。</p>
@@ -7463,7 +7463,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">rpc</span> <span class="nf">DeliverWithPrivateData</span> <span class="p">(</span><span class="nx">stream</span> <span class="nx">common</span><span class="p">.</span><span class="nx">Envelope</span><span class="p">)</span> <span class="nf">returns</span> <span class="p">(</span><span class="nx">stream</span> <span class="nx">DeliverResponse</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/fabric_events.svg" alt="fabric_events"></p>
+</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/fabric_events.png" alt="fabric_events"></p>
 <p>整个流程如上图所示，Go SDK 中通过实现一个 Dispatcher 将应用中的事件注册请求转换为事件订阅请求并通过 DeliverClient 发送给 Peer 节点，Peer 节点中的 DeliverServer 接收订阅请求，调用 deliverBlocks 进入循环，从 Ledger 读取区块并生成事件，最后发送给客户端，客户端中的 Dispatcher 又将其转换为应用订阅的事件响应。</p>
 <h3 id="事件实现过程">事件实现过程</h3>
 <p>实现时间过程需要两个步骤</p>
