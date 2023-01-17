@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![leopold_fc660c](https://image.pseudoyu.com/images/leopold_fc660c.jpeg)
+![leopold_fc660c](https://image.pseudoyu.com/images/leopold_fc660c.jpg)
 
 写周报的心思从生日前就有了，最早吸引我的是 [Xuanwo](https://twitter.com/OnlyXuanwo) 大佬的开源周报，一方面是憧憬这样能每周有所产出有所贡献的状态，而另一方面也是对以周为一个尺度观察与衡量自己的生活、工作与学习这样的形式很感兴趣。
 

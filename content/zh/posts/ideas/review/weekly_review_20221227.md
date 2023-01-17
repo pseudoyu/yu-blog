@@ -30,7 +30,7 @@ authors:
 
 ## Love Actually
 
-![loveactually](https://image.pseudoyu.com/images/loveactually.jpeg)
+![loveactually](https://image.pseudoyu.com/images/loveactually.jpg)
 
 虽然其实自己现在很难去思考对于感情还留有几分向往和几分勇气，曾以为能共度余生的人悄然离开，生活的痕迹被一点点抹去，但记忆重新涌上心头时难免会怀疑所谓 True Love 是否存在。于是在圣诞的夜晚重温了《Love Actually | 真爱至上》这部经典，也算是每年的保留节目了。
 
@@ -108,17 +108,17 @@ authors:
 
 之前拍的几批和圣诞还没出片，就放一些静静的日常吧。
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_23.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_23.jpg">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_24.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_24.jpg">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_25.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_25.jpg">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_26.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_26.jpg">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_27.jpeg">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_27.jpg">}}
 
 ## 其他
 

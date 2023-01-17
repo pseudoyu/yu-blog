@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![one_way_street_books](https://image.pseudoyu.com/images/one_way_street_books.jpeg)
+![one_way_street_books](https://image.pseudoyu.com/images/one_way_street_books.jpg)
 
 本篇是对 `2022-07-11` 到 `2022-07-24` 这两周生活的记录与思考。至于延迟的理由 —— **我休假了！！！**
 
@@ -40,7 +40,7 @@ authors:
 
 ## 城市的归属感
 
-![dayuecheng](https://image.pseudoyu.com/images/dayuecheng.jpeg)
+![dayuecheng](https://image.pseudoyu.com/images/dayuecheng.jpg)
 
 说来有趣，因为高中毕业后前往武汉读了大学，后续又在上海、厦门等城市进行过为期不短的实习，没多久就赴香港读研，结束后又很快去北京实习工作了，也算是待了不少城市，但不论就环境还是对城市中人的感情来说，都很难承认自己属于哪里。
 
@@ -48,7 +48,7 @@ authors:
 
 我一直比较宅，对城市气候或是风貌其实感知并不明显，对环境的适应力也还算不错，所以从来没有把城市作为自己考虑各种事情的重要因素，但这次回去后的很多想法也有所变化了。
 
-![xinfeng_food](https://image.pseudoyu.com/images/xinfeng_food.jpeg)
+![xinfeng_food](https://image.pseudoyu.com/images/xinfeng_food.jpg)
 
 只身一人在北京时虽然不至于会感觉有多苦，但总感觉一草一木都少了一些牵挂，似乎这些都与自己无关。而回到杭州哪怕只是河边走走，也能感觉到一些亲切；也会去自己常去的店看看，或是坐上 30 分钟的公交去吃心心念了很久的新丰小吃，抑或是在单向空间的书店里坐上几个小时重温以前在书店一坐一下午的惬意时光。
 

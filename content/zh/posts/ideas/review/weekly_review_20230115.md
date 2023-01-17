@@ -94,7 +94,7 @@ RealForce 后来也就闲置了。而自己也确实有些用不习惯大尺寸�
 
 而在国庆的时候，刚好看到和 B 站出了联名款键盘，毫不犹豫下单了，果然猛男粉还是很有吸引力的，这也是我某种意义上的第一把客制化。
 
-![keyboard_hello_word_75](https://image.pseudoyu.com/images/keyboard_hello_word_75.jpeg)
+![keyboard_hello_word_75](https://image.pseudoyu.com/images/keyboard_hello_word_75.jpg)
 
 接着就是几个月的漫长等待，终于在这一周到了我手上，不得不说颜值和手感都很绝，迅速更换了我的桌面布局，快乐地敲了一周。可能颜值才是第一生产力吧，感觉这周写文章和代码量都上去了，晓瑜表示“怎么换了把键盘你人设都变了喂”。
 

@@ -146,7 +146,7 @@ authors:
 
 看课也有一些完成作业、项目实践和最后的课程结业的成就感，能够在学习的各个阶段里给自己一些动力，比如我一周多学完的 React 课程拿到证书，并且成功用到了实际的 Side Project 项目中，还是蛮激励自己继续下去的。
 
-![udemy_react_cert](https://image.pseudoyu.com/images/udemy_react_cert.jpeg)
+![udemy_react_cert](https://image.pseudoyu.com/images/udemy_react_cert.jpg)
 
 当然，这种方式也还是有一个门槛就是很多这样比较高质量的课都还是在 Youtube 或是一些国外的平台的，基本只有英文，所以还是需要有一些克服的，不过也都会提供中文字幕，但我个人还是更倾向于英文来看的，毕竟也会牵扯到很多术语，而且机翻很一般。
 

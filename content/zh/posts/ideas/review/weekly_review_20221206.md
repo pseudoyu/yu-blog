@@ -46,15 +46,15 @@ authors:
 
 因为她眼角分泌物比较多，咨询了医生说可能蛋白质摄入过多，所以开始换粮并减少了一些零食的投喂，第一天她发现吃的没有以前丰盛了，就一直趴在我电脑上用下图眼神看着我。
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpeg" caption="刚来的时候感觉你家伙食很好的？不会是养不起我了吧？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpg" caption="刚来的时候感觉你家伙食很好的？不会是养不起我了吧？">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpeg" caption="别工作了，看看我嘛">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpg" caption="别工作了，看看我嘛">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpeg" caption="你的小可爱想引起你的注意力">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpg" caption="你的小可爱想引起你的注意力">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpeg" caption="猫和老鼠都是你们人看着玩的，本猫都看困了">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpg" caption="猫和老鼠都是你们人看着玩的，本猫都看困了">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpeg" caption="不许在我睡觉的时候卷我">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpg" caption="不许在我睡觉的时候卷我">}}
 
 ## 其他
 

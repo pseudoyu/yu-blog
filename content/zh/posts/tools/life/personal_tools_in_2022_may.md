@@ -20,7 +20,7 @@ authors:
 
 ## 主要设备
 
-![my_desktop_setup_in_2022_may](https://image.pseudoyu.com/images/my_desktop_setup_in_2022_may.jpeg)
+![my_desktop_setup_in_2022_may](https://image.pseudoyu.com/images/my_desktop_setup_in_2022_may.jpg)
 
 ### :computer: 电脑及配件
 

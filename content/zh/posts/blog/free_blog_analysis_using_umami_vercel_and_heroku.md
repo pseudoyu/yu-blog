@@ -46,7 +46,7 @@ authors:
 
 创建完成后，在 Setting 中查看 `DATABASE_URL`，后面部署要用到。
 
-![postgres_data_url](https://image.pseudoyu.com/images/postgres_data_url.jpeg)
+![postgres_data_url](https://image.pseudoyu.com/images/postgres_data_url.jpg)
 
 点击新增的 Postgres add-on 跳转进行设置。
 
@@ -56,13 +56,13 @@ authors:
 
 ![heroku_credentials](https://image.pseudoyu.com/images/heroku_credentials.png)
 
-![postgres_settings](https://image.pseudoyu.com/images/postgres_settings.jpeg)
+![postgres_settings](https://image.pseudoyu.com/images/postgres_settings.jpg)
 
 #### 初始化 Postgres 数据库
 
 因为需要初始化数据库，我使用的是 DataGrip 数据库管理工具进行连接，比较方便，也可以通过 Heroku CLI 进行连接和配置。
 
-![postgres_config](https://image.pseudoyu.com/images/postgres_config.jpeg)
+![postgres_config](https://image.pseudoyu.com/images/postgres_config.jpg)
 
 umami 需要通过官方提供的 [umami/sql/schema.postgresql.sql](https://github.com/mikecao/umami/blob/master/sql/schema.postgresql.sql) 脚本进行初始化。
 
@@ -118,11 +118,11 @@ umami 需要通过官方提供的 [umami/sql/schema.postgresql.sql](https://gith
 
 网站创建完成，获取 umami 脚本。
 
-![get_umami_script](https://image.pseudoyu.com/images/get_umami_script.jpeg)
+![get_umami_script](https://image.pseudoyu.com/images/get_umami_script.jpg)
 
 获取后，在个人网站添加 umami 脚本。我使用的是静态博客 Hugo，在主题中的 `<head>` 标签内添加。
 
-![set_umami_script](https://image.pseudoyu.com/images/set_umami_script.jpeg)
+![set_umami_script](https://image.pseudoyu.com/images/set_umami_script.jpg)
 
 配置完成部署，即可开始追踪网站数据。
 
@@ -138,7 +138,7 @@ umami 需要通过官方提供的 [umami/sql/schema.postgresql.sql](https://gith
 
 配置完成后重新部署，再在个人网站脚本中更改脚本名称即可。
 
-![change_umami_script](https://image.pseudoyu.com/images/change_umami_script.jpeg)
+![change_umami_script](https://image.pseudoyu.com/images/change_umami_script.jpg)
 
 #### 配置自定义域名
 

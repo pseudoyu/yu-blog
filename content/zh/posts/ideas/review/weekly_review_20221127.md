@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_1127_photo](https://image.pseudoyu.com/images/weekly_review_1127_photo.jpeg)
+![weekly_review_1127_photo](https://image.pseudoyu.com/images/weekly_review_1127_photo.jpg)
 
 本篇是对 `2022-11-18` 到 `2022-11-27` 这周生活的记录与思考。
 
@@ -46,19 +46,19 @@ authors:
 
 而因为一直都居家办公，陪伴的时间长了很多，有很多很棒的时刻值得记录，很不得每天都发好几条日常，像是一个晒娃狂魔，于是打算周报开一个小模块，日常记录这些瞬间，后面也想弄一些类似相册来记录下这些宝贵的时光。
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_04.jpeg" caption="来，帮我开会">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_04.jpg" caption="来，帮我开会">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_05.jpeg" caption="优雅的姿态">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_05.jpg" caption="优雅的姿态">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_06.jpeg" caption="藏在被子里的小可爱">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_06.jpg" caption="藏在被子里的小可爱">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_07.jpeg" caption="这个无线充是给我充电用的么？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_07.jpg" caption="这个无线充是给我充电用的么？">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_08.jpeg" caption="你是要讲道理还是要我">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_08.jpg" caption="你是要讲道理还是要我">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_09.jpeg" caption="熟睡的捏捏">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_09.jpg" caption="熟睡的捏捏">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_10.jpeg" caption="三顿半和猫猫续命">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_10.jpg" caption="三顿半和猫猫续命">}}
 
 ## 其他
 

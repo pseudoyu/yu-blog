@@ -70,13 +70,13 @@ authors:
 
 周末还是去了原定的昌平的猫舍去看布偶，因为路途遥远，路上翻起了村上的这本《我的职业是小说家》。
 
-![life_about_cat_cunshang](https://image.pseudoyu.com/images/life_about_cat_cunshang.jpeg)
+![life_about_cat_cunshang](https://image.pseudoyu.com/images/life_about_cat_cunshang.jpg)
 
 他讲到了这一段刚毕业时候的经历，突然很戳内心感受，大概自己已经很久没有泛起这种温暖而有所期待的感觉了，原来，我比自己想象得更加需要一个陪伴。
 
 在打听清楚了跨省托运的规则，和公司也经过一些沟通交涉后，还是决定当下就领回家，重新过上了与猫的生活。其实很奇妙，明明似乎一切都没什么变化，但在回家途中的出租车上，自己跟司机有一搭没一搭地聊着天，时不时地看一眼航空箱里的猫，突然有一种生活又重新流动起来的感觉，窗外依旧是那个并不算熟悉的北京，内心却有了一些归属。
 
-{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_01.jpeg" caption="My Cute Cat">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_01.jpg" caption="My Cute Cat">}}
 
 ## 其他
 

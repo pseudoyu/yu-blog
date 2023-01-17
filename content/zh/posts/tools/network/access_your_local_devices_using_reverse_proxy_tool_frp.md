@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![leopold_fc660c](https://image.pseudoyu.com/images/leopold_fc660c.jpeg)
+![leopold_fc660c](https://image.pseudoyu.com/images/leopold_fc660c.jpg)
 
 在之前的『[GitHub - 个人工具箱](https://github.com/pseudoyu/yu-tools)』项目中，我提到家里放置了一台长期开机的 Mac Studio 和一个装了 Ubuntu 系统的 Raspberry Pi 3b+ 微型树莓派设备，在家时我通常是将 Mac Studio 连接显示器进行操作或通过 Chromebook 终端 SSH 连接访问。
 
@@ -64,7 +64,7 @@ authors:
 
 ## 网络远程访问需求分析
 
-![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpeg)
+![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpg)
 
 关于异地网络访问的方案与原理，少数派的这篇『[异地网络远程访问指北](https://sspai.com/prime/story/remote-lan-access-guide-01)』中已经对各个方案进行了详细的叙述与评估，我仅仅按照个人需求从方案易用性、费用等维度进行考虑，大家可自行阅读选取适合的方案。
 

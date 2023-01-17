@@ -63,7 +63,7 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 点击部署后，等待完成即可，会自动部署服务并初始化数据库。
 
-![cusdis_deploy_done](https://image.pseudoyu.com/images/cusdis_deploy_done.jpeg)
+![cusdis_deploy_done](https://image.pseudoyu.com/images/cusdis_deploy_done.jpg)
 
 ### 配置 Cusdis 脚本至个人博客
 
@@ -83,7 +83,7 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 下面我们点击上方 Embed Code，复制弹窗中的代码。
 
-![cusdis_embed_code](https://image.pseudoyu.com/images/cusdis_embed_code.jpeg)
+![cusdis_embed_code](https://image.pseudoyu.com/images/cusdis_embed_code.jpg)
 
 这部份代码需要根据你所用的博客网站类型不同进行部分修改，具体可参考[官方文档](https://cusdis.com/doc#/) 的 Integration 模块进行配置。
 
@@ -113,15 +113,15 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 
 Railway 部署自动生成的域名比较长，且有一些字符，不方便记忆。我们可以在 Railway 中为项目配置自定义域名。
 
-![railway_custom_domain](https://image.pseudoyu.com/images/railway_custom_domain.jpeg)
+![railway_custom_domain](https://image.pseudoyu.com/images/railway_custom_domain.jpg)
 
 填入想要配置的域名/二级域名后，根据官方提示添加 DNS 解析。
 
-![railway_domain_dns](https://image.pseudoyu.com/images/railway_domain_dns.jpeg)
+![railway_domain_dns](https://image.pseudoyu.com/images/railway_domain_dns.jpg)
 
 例如，我使用的是 [Cloudflare](https://www.cloudflare.com) 托管的域名，需要先添加一下域名 CNAME 解析。
 
-![cloudflare_domain_dns](https://image.pseudoyu.com/images/cloudflare_domain_dns.jpeg)
+![cloudflare_domain_dns](https://image.pseudoyu.com/images/cloudflare_domain_dns.jpg)
 
 至此，我们的部署已经完成，可以通过域名访问管理后台，进行评论审核管理等。
 

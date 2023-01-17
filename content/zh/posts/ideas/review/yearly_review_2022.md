@@ -74,7 +74,7 @@ authors:
 
 ### 抚养捏捏
 
-![my_cat_nie_nie_28](https://image.pseudoyu.com/images/my_cat_nie_nie_28.jpeg)
+![my_cat_nie_nie_28](https://image.pseudoyu.com/images/my_cat_nie_nie_28.jpg)
 
 “捏捏”是我家的猫猫，从 10 月 30 日带回家后已经一起相处了两个月。
 
@@ -96,7 +96,7 @@ authors:
 
 ### 换了新发色
 
-![yu_selfish_2022](https://image.pseudoyu.com/images/yu_selfish_2022.jpeg)
+![yu_selfish_2022](https://image.pseudoyu.com/images/yu_selfish_2022.jpg)
 
 > 实在是很少有自己的照片，而且拍完才发现镜子已经脏到不需要打码了。
 
