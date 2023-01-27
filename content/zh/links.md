@@ -36,6 +36,7 @@ rss_ignore: true
 {{< friend name="涂俊杰 JunJie" url="https://blog.tujunjie.com/" logo="https://image.pseudoyu.com/images/tujunjie_avatar.png" word="时间记录践行者" >}}
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://image.pseudoyu.com/images/lzzmm_avatar.jpg" word="日复一日 必有精进" >}}
 {{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar_new.png" word="Java 开发工程师" >}}
+{{< friend name="果汁的博客" url="https://www.jusu.me/" logo="https://image.pseudoyu.com/images/jusu_avatar.jpg" word="真的会有人来看我的博客嘛？|ω•`)" >}}
 
 </div>
 </div>
