@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/35769236/' target='_blank'>想看鬼灭之刃 锻刀村篇</a> - 2023-01-28
 * <a href='https://book.douban.com/subject/35860385/' target='_blank'>想读The NFT Handbook</a> - 2023-01-26
 * <a href='http://movie.douban.com/subject/35465232/' target='_blank'>想看狂飙</a> - 2023-01-25
 * <a href='http://movie.douban.com/subject/35366293/' target='_blank'>想看孤独摇滚！</a> - 2023-01-25
 * <a href='http://movie.douban.com/subject/26596140/' target='_blank'>看过文豪野犬</a> - 2023-01-25
-* <a href='http://movie.douban.com/subject/35314632/' target='_blank'>想看黑暗荣耀</a> - 2023-01-25
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   5 hrs 20 mins  ███████▋░░░░░░░░░░░░░  36.9%
-sh         3 hrs 10 mins  ████▌░░░░░░░░░░░░░░░░  21.8%
-JavaScript 1 hr 25 mins   ██░░░░░░░░░░░░░░░░░░░   9.8%
-MDX        1 hr 8 mins    █▋░░░░░░░░░░░░░░░░░░░   7.9%
-TypeScript 1 hr 7 mins    █▌░░░░░░░░░░░░░░░░░░░   7.7%
+Markdown   5 hrs 20 mins  ███████▎░░░░░░░░░░░░░  34.8%
+sh         3 hrs 37 mins  ████▉░░░░░░░░░░░░░░░░  23.6%
+JavaScript 1 hr 23 mins   █▉░░░░░░░░░░░░░░░░░░░   9.1%
+MDX        1 hr 8 mins    █▌░░░░░░░░░░░░░░░░░░░   7.4%
+TypeScript 1 hr 7 mins    █▌░░░░░░░░░░░░░░░░░░░   7.3%
 ```
 
 <!-- code_time ends -->
