@@ -24,7 +24,7 @@ authors:
 
 ### Mastodon
 
-这周没写什么博客，年前想折腾的几个事也没做玩，但是倒是研究了一下 fediverse，觉得很有意思。
+这周没写什么博客，年前想折腾的几个事也没做完，但是倒是研究了一下 fediverse，觉得很有意思。
 
 ![elk_zone_mastodon_yu](https://image.pseudoyu.com/images/elk_zone_mastodon_yu.png)
 
