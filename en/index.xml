@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 22 Jan 2023 21:39:12 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #27 - 何以为家</title><link>https://www.pseudoyu.com/en/2023/01/22/weekly_review_20230122/</link><pubDate>Sun, 22 Jan 2023 21:39:12 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/01/22/weekly_review_20230122/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-01-16 到 2023-01-22 这周生活的记录与思考。 这周的时间三等分了，在北京、杭州和江苏老家三地奔波周折。作为已经几乎三个月没出</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 11:43:38 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #28 - Mastodon、故乡与捉迷藏的猫</title><link>https://www.pseudoyu.com/en/2023/01/31/weekly_review_20230131/</link><pubDate>Tue, 31 Jan 2023 11:43:38 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/01/31/weekly_review_20230131/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-01-23 到 2023-01-31 这周生活的记录与思考。 这周的大部分时间是在老家度过的，弥补了一些遗憾，平淡却又珍贵。回杭后因与友人相</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230131_photo.png" alt="weekly_review_20230131_photo"></p>
+<p>本篇是对 <code>2023-01-23</code> 到 <code>2023-01-31</code> 这周生活的记录与思考。</p>
+<p>这周的大部分时间是在老家度过的，弥补了一些遗憾，平淡却又珍贵。回杭后因与友人相见而暂留了一天，又从杭州匆匆回到北京。到北京的家后稍放下行李就迫不及待地去同事家接回捏捏，等都差不多收拾好已经神情恍惚，简单洗漱一会儿打算小睡一会儿写个周报，再一次睁眼就已经是早上 7 点了，再加上白天要通勤去公司，所以也就搁置到现在才写。</p>
+<p>回来第一天就被捏捏气到，给上班第一天增加了些许惊吓，但想到又回到了这样有趣的日常便也是心安多过责备（<del>我哪敢啊</del>）；然后火速下单了一个移动摄像头，难怪朋友说我是以养女儿的方式在养捏捏了，各种不放心；还有很多其他有意思的事。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="mastodon">Mastodon</h3>
+<p>这周没写什么博客，年前想折腾的几个事也没做玩，但是倒是研究了一下 fediverse，觉得很有意思。</p>
+<p><img src="https://image.pseudoyu.com/images/elk_zone_mastodon_yu.png" alt="elk_zone_mastodon_yu"></p>
+<p>本想着把一些英文内容放到 Mastodon 上进行发布，后来想着还是把自己的输出平台收窄了，还是会在 Twitter 发布，通过 IFTTT 自动同步过去，依然聚合在 Telegram 频道和 Crossbell 链上，有兴趣的朋友可以一起来玩，我在 <a href="https://mas.to/">mas.to</a> 域的 <a href="https://mas.to/@pseudoyu">@pseudoyu@mas.to</a>。</p>
+<p>有几篇关于这些很有意思的文章，读了后理解了挺多的：</p>
+<ul>
+<li><a href="https://zu1k.com/posts/tutorials/p2p/fediverse/">谈谈 Mastodon、Fediverse 和 ActivityPub - zu1k</a></li>
+<li><a href="https://limboy.me/posts/mastodon/">什么是 Mastodon（长毛象），应该怎么玩</a></li>
+<li><a href="https://wzyboy.im/post/1513.html">写给 Twitter 用户的 Fediverse 指南 | wzyboy’s blog</a></li>
+<li><a href="https://research.web3caff.com/zh/archives/6024">去中心化社交网络 Mastodon 研究报告：平台与协议之争背后，它会是最终赢家吗？ – Web3Caff Research</a></li>
+<li><a href="https://medium.com/@PeiLun/%E8%A8%AD%E5%AE%9A-ifttt-%E5%90%8C%E6%AD%A5-twitter-%E5%88%B0-mastodon-1010ee3798bb">設定 IFTTT 同步 Twitter 到 Mastodon. 事前準備 | by Pei-lun | Medium</a></li>
+</ul>
+<h3 id="crossbell">Crossbell</h3>
+<p>另外，之前在这篇『<a href="https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/">周报 #25 - 基于 Crossbell 的个人信息输出与同步系统（重构）</a>』中提到过把 Twitter 和 Telegram 历史消息同步到链的方式问题，后续也都从他们这里得到了对应方案：</p>
+<ul>
+<li><a href="https://lc499.xlog.app/twitter-to-crossbell">How to import tweets to Crossbell - Lemon 🍋</a></li>
+<li><a href="https://lc499.xlog.app/telegram-to-crossbell">How to import telegram messages to Crossbell - Lemon 🍋</a></li>
+</ul>
+<p>用的时候顺便还提了几个 bug，后面再深度体验一点会整理一下再写一篇详细的文章，以及提一些 issue，挺有意思的。</p>
+<h3 id="输入">输入</h3>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><strong>我的职业是小说家</strong>，其实村上的随笔或是文集算是很好读的那种，言辞带些犀利却也同样带着些娓娓道来的真诚与别样韵味，像是对话，却也时常被埋在其中似乎带着些雕琢的幽默感逗得不禁莞尔。总共大概花了三个月才真正看完，作为手头上为数不多的纸质书，更多的是想起时随便翻翻。第一次去猫舍的时候虽然心动，却也本没有太下定决心那么快承担这样的责任，而路上随手翻起的一页里写道“当时我们过着非常节俭的斯巴达式的生活。家里既没有电视也没有收音机，甚至连一只闹钟都没有。也几乎没有取暖设备，寒夜里只好紧紧搂着家里养的几只猫咪睡觉。猫咪们也使劲往我们身上贴过来。“短短几句，却构成了我当下把猫带回家的最大动力。也谈到了许多，关于爱好、写作目的、创作思路与平衡，都是近两个月慢慢沉静下来才真正能够稍理解些的。</li>
+<li><strong>世界尽头与冷酷仙境</strong>，其实好久没有从小说中得到这样的期待感了，也许是因为叙事方式，或是因为每次都是路途中读几个小篇章而有些断续，总是想知道后面会发生些什么，却也不想太过囫囵而错过了这样优美的笔触。另外这种“另一个空间”的设定让我想到了一个古老但同样很有意思的游戏《废都物语》。</li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li><strong>静雪</strong>，前几集是真的很喜欢，spitz 的歌、各个角色的性格、很舒适的日常。也许是因为太过于代入男二凑斗的情感，一种岩井俊二所描述的“我爱你，与你无关”的温柔和坚定，后来对于故事情节的发展有止不住的失望，直至最后也没能太过了解到青羽和想感情的基点，确实美好，却有些直白与单薄。</li>
+<li><strong>三体 剧集版</strong>，倒是成为了自己每天会持续追的一部，剧情节奏有些缓慢但是目前看下来还是有些期待的。</li>
+</ul>
+<h3 id="动漫">动漫</h3>
+<ul>
+<li><strong>文豪野犬</strong>，过年的时候缓缓在补，对于这种以作家与文学作品为任务和技能的设定感觉还挺有意思的，侦探社蛮多角色的性格人设都很喜欢。不过感觉不是会想着会马上追下一季的那种，可能之后想起来会继续看吧。</li>
+</ul>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<h3 id="生活">生活</h3>
+<p>承接上周周报中对家的描述，今年过年在老家呆了接近 10 天，算是这几年少有的时间了。老家的人越来越少，整个氛围也显得冷清而少了些烟火气，但是却可以放实打实的烟花，也算是一种别样的记忆了。</p>
+<p>因为我自小也就离开了，儿时玩伴连记忆都早已模糊，更别说什么发小了。所以这十天里，去看了外婆，陪伴了爷爷奶奶和外公等家人，倒也是难得的闲散时光。</p>
+<p>温情有余，只是日常零下的温度让我不由得想念起了有暖气和捏捏的时光（<del>逐渐丧失南方人的骨气屈服于暖气，太香了</del>），不过也还好带的是老 Intel MBP，跑个 IDE 加几个网页就热起来了。</p>
+<p>今年带了相机，虽然因为手冷而没拿出来拍几次，却拍了很多全家福。老人都不太爱拍照，好在现在也有手机这些能够随时记录些日常的工具，不至于有太多遗憾，但总还是怀念一大家人去照相馆拍的时候，虽然已经是多年前的记忆了。这次充当了那个摄影师，给全家人和各自小家都拍了很多，索尼的自动对焦和连拍还是很值得夸一下的。</p>
+<p>到了我家的时候，我妹抱了只狗狗过来作“占位符”，说我以后把自己 p 上就行，她多少也是有点只坑自己哥哥的喜剧人成分在的。最后确实拍了和狗狗的合影，四口整整齐齐，没有我哈哈，大概这就是那种“听起来很离谱，但在我家，似乎也很正常”的有意思的事了。</p>
+<p>当然，大家庭的全家福还是用了脚架定时连拍的，打算最近修一下洗一些片子出来。</p>
+<h3 id="捏捏">捏捏</h3>
+<p><img src="https://image.pseudoyu.com/images/nie_nie_on_the_bed.jpg" alt="nie_nie_on_the_bed"></p>
+<p>这次离开了捏捏接近半个月，虽然同事很细心且经常给我发视频，但终究还是不太放心，回到北京后第一件事就是去了同事家，回程一路也是在各种抚慰她，好在没把我忘了，还算有点良心；回家后也没太多陌生感，马上就去自己最喜欢的角落舒适地躺着了，真好。</p>
+<p>第二天因为有些事要和项目组的同事讨论，再加上很久没去了，于是还是收拾了下去公司，感觉习惯了远程办公后，再回公司上班有些不适应，感觉就是到公司 10 点半了，和久违的同事寒暄了几句，刚打开电脑没一会儿就被叫去吃中饭了，吃完就开始午休了，感觉时间被刻意划分得“劳逸结合”反而更容易打乱节奏，我可能还是更喜欢那种不吃不喝搞完，然后余下时间安排自己的事这样的模式。</p>
+<p>另外还有一件又好气又好玩的事。</p>
+<p><img src="https://image.pseudoyu.com/images/dispear_nie_nie.png" alt="dispear_nie_nie"></p>
+<blockquote>
+<p>时隔三个月第一次去公司，午休打开摄像头，经历了十分钟看不到猫、开麦克风喊了五分钟没反应、仔细回想自己的门窗有没关好、无比烦躁焦急、火速请假、一路狂奔冲回家，最后到家了发现就躲在盲区椅子后面懒得探头。大概自己下一份想换一个 fully remote 工作排名第一的理由就是这只不省心的捏捏了吧🙃。</p>
+</blockquote>
+<p>以及还有后续。</p>
+<p><img src="https://image.pseudoyu.com/images/dispear_nie_nie_2.png" alt="dispear_nie_nie_2"></p>
+<blockquote>
+<p>接上条后续。回来后本来想好好教育她，迅速跳上来趴在腿上睡着了，醒来后一脸迷迷糊糊，可无辜，不太忍心，于是冷战了一个小时作罢。另外，下单了 <a href="https://twitter.com/mr_easonyang">@mr_easonyang</a> 推荐的 ebo 移动摄像头，感谢！后面外出也能放心点了！</p>
+</blockquote>
+<p><del>以后摸鱼的时候可以操纵监控机器人来逗猫了。</del></p>
+<h3 id="其他">其他</h3>
+<p>两位挚友有了一些现阶段比较难调和的矛盾，作为持续了很多年的完全是家人一样的三个人的小团体，总还是不免有些自责自己在其中所能做的是不是太少。</p>
+<p>希望一切安好吧。</p>
+]]></content:encoded></item><item><title>周报 #27 - 何以为家</title><link>https://www.pseudoyu.com/en/2023/01/22/weekly_review_20230122/</link><pubDate>Sun, 22 Jan 2023 21:39:12 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/01/22/weekly_review_20230122/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-01-16 到 2023-01-22 这周生活的记录与思考。 这周的时间三等分了，在北京、杭州和江苏老家三地奔波周折。作为已经几乎三个月没出</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/here_after_us.mp3" type="audio/mpeg">
@@ -15167,105 +15240,4 @@ Evaluate and modify one current state rather than systematically explore paths f
 <p>Economically and socially, China’s economic development was relatively slower than major developed countries such as the U. S. or Japan. And the majority of Chinese get used to spending money they already have instead of ahead-of-time consumption. Thus, credit card payment hasn’t been so popular in the past few decades (only about 0.31 credit card per capita) compared to western countries. Since the credit card payment (mainly related to the bank) is not the dominant way for daily payment, it’s possible for a new payment method to grow and domain the payment market in a “free compete” environment.</p>
 <p>Technically, E-Commerce and internet technology has been developing rapidly in China recently. As a country with huge population and strong consumption ability, the market urgently needs a new way of payment. With the new utilization of established technologies (4G, mobile phone development, cyber security, etc.) and emerging technologies (QR-Code, information system architecture, etc.), payment platform can integrate various functions into the existing system and provide a more powerful and advantageous platform.</p>
 <p>To sum up, China has been an ideal environment to support mobile payment systems.</p>
-]]></content:encoded></item><item><title>ECOM6013 Topic 7 E-Payment Systems</title><link>https://www.pseudoyu.com/en/2020/09/27/ecom6013_topic7/</link><pubDate>Sun, 27 Sep 2020 11:30:28 +0800</pubDate><guid>https://www.pseudoyu.com/en/2020/09/27/ecom6013_topic7/</guid><description>ECOM6013 E-Commerce Technologies Topic 7 E-Payment Systems Payment System Stakeholders&amp;rsquo; Priorities
-Customer Low-risk Low-cost Refutable Convenience Reliable Merchants Low-risks Low-cost Irrefutable Secure Reliable Financial intermediaries Secure Low-risk Maximizing profit Government regulators Secure Trust Protecting participants and enforcing reporting Type of Payment Systems
-Cash Cheque transfer Credit card Stored value Accumulating balance B2C Payment System
-Credit cards Financial cybermediaries Electronic bill presentment and payment Smart cards Mobile payment Features
-Make large purchases Will not pay with credit card or financial cybermediary Use financial EDI (Electronic Data Interchange) Pay for many purchases at once Likely that cloud-based payment gateway (or other Internet-based technology) will eventually take over completely!</description><content:encoded><![CDATA[<h1 id="ecom6013-e-commerce-technologies">ECOM6013 E-Commerce Technologies</h1>
-<h2 id="topic-7-e-payment-systems">Topic 7 E-Payment Systems</h2>
-<p><strong>Payment System Stakeholders&rsquo; Priorities</strong></p>
-<ul>
-<li>Customer
-<ol>
-<li>Low-risk</li>
-<li>Low-cost</li>
-<li>Refutable</li>
-<li>Convenience</li>
-<li>Reliable</li>
-</ol>
-</li>
-<li>Merchants
-<ol>
-<li>Low-risks</li>
-<li>Low-cost</li>
-<li>Irrefutable</li>
-<li>Secure</li>
-<li>Reliable</li>
-</ol>
-</li>
-<li>Financial intermediaries
-<ol>
-<li>Secure</li>
-<li>Low-risk</li>
-<li>Maximizing profit</li>
-</ol>
-</li>
-<li>Government regulators
-<ol>
-<li>Secure</li>
-<li>Trust</li>
-<li>Protecting participants and enforcing reporting</li>
-</ol>
-</li>
-</ul>
-<p><strong>Type of Payment Systems</strong></p>
-<ul>
-<li>Cash</li>
-<li>Cheque transfer</li>
-<li>Credit card</li>
-<li>Stored value</li>
-<li>Accumulating balance</li>
-</ul>
-<p><strong>B2C Payment System</strong></p>
-<ul>
-<li>Credit cards</li>
-<li>Financial cybermediaries</li>
-<li>Electronic bill presentment and payment</li>
-<li>Smart cards</li>
-<li>Mobile payment</li>
-</ul>
-<p><em>Features</em></p>
-<ul>
-<li>Make large purchases</li>
-<li>Will not pay with credit card or financial cybermediary</li>
-<li>Use financial EDI (Electronic Data Interchange)</li>
-<li>Pay for many purchases at once</li>
-<li>Likely that cloud-based payment gateway (or other Internet-based technology) will eventually take over completely!</li>
-<li>FPS - HKMA &amp; HKICL Payment Gateway Faster Payment System (FPS)</li>
-</ul>
-<p><strong>E-Commere Payment Systems</strong></p>
-<p><img src="https://image.pseudoyu.com/images/online_credit_transaction.png" alt="online_credit_transaction"></p>
-<ul>
-<li>Credit cards</li>
-<li>Debit cards</li>
-<li>Digital wallets</li>
-<li>Digital cash</li>
-<li>Digital checking</li>
-<li>Online stored value systems
-<ul>
-<li>PayPal, AliPay, WeChat Pay</li>
-<li>Smart cards
-<ul>
-<li>Contact</li>
-<li>Contactless
-<ul>
-<li>EZPass, Octopus card</li>
-<li>Radio Frequency ID (RFID)</li>
-<li>Near Field Communications (NFC)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>Future Payment System</strong></p>
-<ul>
-<li>Exporting existing payment systems that work in traditional commerce to E-Commerce causes problems</li>
-<li>Need a payment/financial system designed for the online world
-<ul>
-<li>Cybercurrencies / digital currency</li>
-</ul>
-</li>
-</ul>
 ]]></content:encoded></item></channel></rss>
