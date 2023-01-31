@@ -40,7 +40,7 @@ authors:
 
 ### Crossbell
 
-另外，之前在这篇『[周报 #25 - 基于 Crossbell 的个人信息输出与同步系统（重构）](https://www.pseudoyu.com/zh/2023/01/09/weekly_review_20230109/)』中提到过把 Twitter 和 Telegram 历史消息同步到链的方式问题，后续也都从他们这里得到了对应方案：
+另外，之前在这篇『[周报 #25 - 基于 Crossbell 的个人信息输出与同步系统（重构）](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/)』中提到过把 Twitter 和 Telegram 历史消息同步到链的方式问题，后续也都从他们这里得到了对应方案：
 
 - [How to import tweets to Crossbell - Lemon 🍋](https://lc499.xlog.app/twitter-to-crossbell)
 - [How to import telegram messages to Crossbell - Lemon 🍋](https://lc499.xlog.app/telegram-to-crossbell)
