@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Markdown   3 hrs 25 mins  ████▉░░░░░░░░░░░░░░░░  23.7%
-sh         3 hrs 11 mins  ████▋░░░░░░░░░░░░░░░░  22.1%
-Go         2 hrs 19 mins  ███▍░░░░░░░░░░░░░░░░░  16.2%
-Solidity   1 hr 41 mins   ██▍░░░░░░░░░░░░░░░░░░  11.7%
-YAML       1 hr           █▍░░░░░░░░░░░░░░░░░░░   6.9%
+Markdown   3 hrs 23 mins  ████▋░░░░░░░░░░░░░░░░  22.3%
+sh         3 hrs 6 mins   ████▎░░░░░░░░░░░░░░░░  20.5%
+Go         2 hrs 47 mins  ███▊░░░░░░░░░░░░░░░░░  18.4%
+Solidity   1 hr 41 mins   ██▎░░░░░░░░░░░░░░░░░░  11.1%
+YAML       1 hr 15 mins   █▋░░░░░░░░░░░░░░░░░░░   8.3%
 ```
 
 <!-- code_time ends -->
