@@ -25,7 +25,7 @@ rss_ignore: true
 {{< friend name="ServerCat" url="https://servercat.app" logo="https://image.pseudoyu.com/images/servercat_logo.png" word="iOS/macOS SSH client" >}}
 {{< friend name="Tony Ding" url="https://blog.tonyding.net" logo="https://image.pseudoyu.com/images/tonyding_avatar.png" word="Tony Ding's Blog" >}}
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://image.pseudoyu.com/images/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
-{{< friend name="Zhou Blog" url="https://www.zhouzhoukl.com" logo="https://image.pseudoyu.com/images/zhouzhou_avatar.jpg" word="Life goes on." >}}
+{{< friend name="Zhou Blog" url="https://www.zhouzhoukl.com" logo="https://image.pseudoyu.com/images/zhouzhou_avatar.jpg" word="⚒️在做有趣的产品 | 👾乐子人" >}}
 {{< friend name="Victoryang00" url="https://victoryang00.cn/wordpress/" logo="https://image.pseudoyu.com/images/VICTORYANG00_avatar.png" word="A Tech Nerd with a finance mind" >}}
 {{< friend name="梦墨不会做梦💤" url="https://dreamo.ink" logo="https://image.pseudoyu.com/images/dreamink_avatar.png" word="May you do good and not evil." >}}
 {{< friend name="锤子博客" url="https://liujiding.com" logo="https://image.pseudoyu.com/images/liujiding_avatar.jpg" word="发现科技与人文之美" >}}
@@ -51,6 +51,6 @@ rss_ignore: true
 我的博客信息：
 
 > - **名称:** Pseudoyu
-> - **地址:** https://www.pseudoyu.com
-> - **头像:** https://www.pseudoyu.com/images/author.webp
+> - **地址:** <https://www.pseudoyu.com>
+> - **头像:** <https://www.pseudoyu.com/images/author.webp>
 > - **描述:** 区块链开发工程师，喜欢探索新技术
