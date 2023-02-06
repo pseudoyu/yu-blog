@@ -93,7 +93,7 @@ authors:
 
 #### 播客
 
-因为这周通勤少了，所以博客听得不算多，印象比较深的是这个：
+因为这周通勤少了，所以播客听得不算多，印象比较深的是这个：
 
 - [Ep.22 \[CN\]: Solana 沉浮录：很多的偶然与少许的必然 | HODLong 后浪](https://hodlong-hou-lang.simplecast.com/episodes/ep22-cn-solana-OtNe4Ybk?utm_source=listennotes.com&utm_campaign=Listen%20Notes&utm_medium=website)
 
