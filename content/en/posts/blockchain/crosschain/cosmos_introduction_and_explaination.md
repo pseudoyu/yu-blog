@@ -1,6 +1,6 @@
 ---
 title: "Cosmos 区块链架构与 Tendermint 共识机制"
-date: 2023-02-07T21:44:03+08:00
+date: 2023-02-08T00:00:03+08:00
 draft: true
 tags: ["blockchain", "crosschain", "cosmos", "tendermint", "consensus"]
 categories: ["Develop"]
@@ -9,6 +9,8 @@ authors:
 ---
 
 ## 前言
+
+![cosmos_introduction_and_explaination_photo](https://image.pseudoyu.com/images/cosmos_introduction_and_explaination_photo.png)
 
 工作中我主要负责的是跨链项目的方案架构设计与实现，从技术层面来看，Cosmos 与 Polkadot 是目前业界比较成熟的实现方案，有着不同的实现方式。
 
@@ -20,9 +22,9 @@ authors:
 
 在讲具体的 Cosmos 区块链之前，我们先梳理一下区块链发展的历程，以及目前业界主流的区块链技术。
 
-区块链发展至今已经有十几年的历程，从最开始的比特币，到红极一时的 EOS，再到后来渐渐成为主流的以太坊，各有特色却也都有其限制之处。
-
 ### 技术限制
+
+区块链发展至今已经有十几年的历程，从最开始的比特币，到红极一时的 EOS，再到后来渐渐成为主流的以太坊，各有特色却也都有其限制之处。
 
 - 基于比特币或以太坊的方式由于需要实现 p2p 网络、密码学、共识算法等，需要相对比较高的技术门槛；
 - 基于 PoW（工作量证明）机制的底层链对于算力（电力）消耗也越来越大，对于资源与环境并不友好；
