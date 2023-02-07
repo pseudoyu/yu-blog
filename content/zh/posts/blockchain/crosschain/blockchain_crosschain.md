@@ -2,7 +2,7 @@
 title: "跨链技术原理与实战"
 date: 2021-09-06T15:34:40+08:00
 draft: false
-tags: ["blockchain", "cross chain"]
+tags: ["blockchain", "crosschain"]
 categories: ["Develop"]
 authors:
 - "pseudoyu"

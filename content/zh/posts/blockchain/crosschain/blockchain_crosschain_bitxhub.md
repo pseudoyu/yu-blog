@@ -2,7 +2,7 @@
 title: "BitXHub 跨链插件（Fabric）源码解读"
 date: 2021-09-09T15:14:26+08:00
 draft: false
-tags: ["blockchain", "cross chain", "bitxhub", "hyperledger fabric", "go"]
+tags: ["blockchain", "crosschain", "bitxhub", "hyperledger fabric", "go"]
 categories: ["Develop"]
 authors:
 - "pseudoyu"
