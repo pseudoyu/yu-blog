@@ -34,7 +34,7 @@ authors:
 
 目前我捐赠的项目为：
 
-- [Reorx](https://github.com/reorx)，一个我很欣赏的开发者，他的独立博客、对于工具的态度与探索以及开发的一些项目都让我获益良多，我的『[Yu's Life](https://t.me/pseudoyulife)』频道就是 fork 于他的『[Reorx’s Footprints](https://t.me/reorx_share)』，在大半年的时间里重塑了我的信息输入输出流，最近刚发布的『[GitHub - jsoncv](https://github.com/reorx/jsoncv)』也恰好让我在重构简历时帮了大忙。
+- [Reorx](https://github.com/reorx)，一个我很欣赏的开发者，他的独立博客、对于工具的态度与探索以及开发的一些项目都让我获益良多，我的『[Yu's Life](https://t.me/pseudoyulife)』频道就是 fork 于他的『[Reorx’s Footprints](https://t.me/reorx_share)』，在大半年的时间里重塑了我的信息输入输出流，最近刚发布的『[GitHub - jsoncv](https://github.com/reorx/jsoncv)』也恰好在我重构简历时帮了大忙。
 - [immersive-translate](https://github.com/immersive-translate/immersive-translate)，是 [owen](https://www.owenyoung.com/) 主导开发的一款沉浸式翻译插件，是一个很有趣的工具，且 owen 在非常勤劳地开发 v2 版本，我早早加入了团队，目前也在认领一些需求进行开发，在团队讨论得知需要一些服务器时，提供了两台。
 
 可以在 [GitHub Sponsor](https://github.com/pseudoyu?tab=sponsoring) 看到我对哪些项目和个人进行了捐赠。
