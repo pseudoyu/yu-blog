@@ -12,7 +12,7 @@
 <p>这周情人节被豆瓣电影日历触发了一些心绪，想到了一些过去的事；下定决心折腾了一下买了 ChatGPT Plus，配合上 GitHub Copilot，节省了很多重复性的工作；因为最近一直在折腾这个，还去博译学姐的财经直播间里科普了一个小时 AIGC 和 ChatGPT，直播首秀，很新奇的体验；周末因为实在太压抑，和朋友去跳海酒馆喝了点酒，是难得的放松时刻；之前的 Side Project 疯狂拖延，到了周末几乎通宵两天，疯狂写前端；参加了 Cusdis v2 的开发团队，也写了第一个功能，作为一个后端给第一个比较大的开源项目提的 PR 居然是 Next.js 的，有点离奇；还有很多有意思的事。</p>
 <h2 id="开源与前端学习">开源与前端学习</h2>
 <p>虽然自己好像还是挺活跃在 GitHub、推特和博客的，但是因为其实工作年限比较短，而且当前工作也还并不是开源性质的，所以其实并没有怎么以代码贡献的方式参与过什么大型的开源项目，倒是几个 Markdown 和课程作业项目拿了不少 star，让我常常有些不太好意思。</p>
-<p>所以今年年初也还是立了一些 Flag，多多以各种形式参与一些自己感兴趣的开源项目，包括在上周自己还给自己定了一个开源预算（详见『<a href="https://www.pseudoyu.com/zh/2023/02/12/weekly_review_20230212/">周报 #30 - 开源预算、写作初心与对技术的谦卑</a>』），也给 RSS3 提了一些 Issues，算是一个好的开始了。</p>
+<p>所以今年年初也还是立了一些 Flag，多多以各种形式参与一些自己感兴趣的开源项目，包括在上周自己还给自己定了一个开源预算（详见『<a href="https://www.pseudoyu.com/en/2023/02/12/weekly_review_20230212/">周报 #30 - 开源预算、写作初心与对技术的谦卑</a>』），也给 RSS3 提了一些 Issues，算是一个好的开始了。</p>
 <p>有一个挺有意思的事是看到 <a href="https://lutaonan.com/">Randy</a> 在推特上找一起开发 Cusdis v2 版本的伙伴，我用 <a href="https://cusdis.com/">Cusdis</a> 已经接近两年了（即本博客的评论系统），非常喜欢这样简约且强大的系统，也帮一些朋友创建或是解决了一些部署和使用的问题，也差不多是移动的广告牌了。</p>
 <p>虽然我不是前端，但因为太感兴趣了还是加了 TG 聊了一下，Randy 真的是个很纯粹的技术人，也很友好，我简单陈述了自己的情况和想法后，他让我先拉一下最新代码，能跑起来再聊（顿时有点面试的感觉）。</p>
 <p>我粗略看了一下代码结构与命令，因为之前写 Solidity 一直用的是基于 JavaScript 的 Hardhat 框架，而后面学前端的时候也了解了 TypeScript，所以对包安装管理、一些基础命令还是比较熟悉的，只是从 yarn 换成了 pnpm，折腾了一下环境，在服务器上用 Docker 启动了一个 PostgreSQL 实例，就运行起来了（后来发现其实本地 sqlite 就可以了，不用绕那么大一圈）。</p>
@@ -30,10 +30,10 @@
 <li><a href="https://github.com/djyde/cusdis/pull/241/commits/914888031bc69628f061fd55a76d8c07402173a5">feat: save webhook settings logic (with loading and toast) by pseudoyu · Pull Request #241 · djyde/cusdis</a></li>
 </ul>
 <p><img src="https://image.pseudoyu.com/images/chat_with_randy_02.png" alt="chat_with_randy_02"></p>
-<p>其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加栓的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。</p>
+<p>其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加入的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。</p>
 <p>大家有兴趣可以尝试一下 <a href="https://cusdis.co">Cusdis</a>，之前也写过一篇部署介绍的文章可以参考：</p>
 <ul>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway） · Pseudoyu</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway） · Pseudoyu</a></li>
 </ul>
 <h2 id="chatgpt">ChatGPT</h2>
 <p>自己最早就是 GitHub Copilot 内测玩家，第一次用上就惊叹不已，原来 AI 在代码这一块就已经能做到这样的程度了，后面也持续在使用，大概也有一年多了；后来也同样高频用到的是 DeepL 的机器翻译，质量感觉比 Google 翻译好很多，也辅助我完成了很多开源的翻译项目；再之后就是 Notion AI 了，不过因为后来完全从 Notion 转移到了 Logseq，所以尝了个鲜就搁置一旁了；同类的还有之前黑五买的 Craft，一个在线笔记软件，也内置了小助手来优化文本；而最最重磅级的当属去年年末推出的 ChatGPT 了。</p>

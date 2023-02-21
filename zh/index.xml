@@ -30,7 +30,7 @@
 <li><a href="https://github.com/djyde/cusdis/pull/241/commits/914888031bc69628f061fd55a76d8c07402173a5">feat: save webhook settings logic (with loading and toast) by pseudoyu · Pull Request #241 · djyde/cusdis</a></li>
 </ul>
 <p><img src="https://image.pseudoyu.com/images/chat_with_randy_02.png" alt="chat_with_randy_02"></p>
-<p>其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加栓的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。</p>
+<p>其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加入的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。</p>
 <p>大家有兴趣可以尝试一下 <a href="https://cusdis.co">Cusdis</a>，之前也写过一篇部署介绍的文章可以参考：</p>
 <ul>
 <li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway） · Pseudoyu</a></li>
