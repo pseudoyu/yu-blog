@@ -2,7 +2,7 @@
 title: "周报 #31 - 开源、前端开发与 ChatGPT 实践"
 date: 2023-02-20T21:51:11+08:00
 draft: false
-tags: ["review", "life", "home", "cat", "beer", "programing", "chatgpt", "open-source", "ai"]
+tags: ["review", "life", "home", "cat", "beer", "programing", "chatgpt", "open-source", "ai", "front-end", "nextjs", "prisma"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
@@ -24,7 +24,7 @@ authors:
 
 虽然自己好像还是挺活跃在 GitHub、推特和博客的，但是因为其实工作年限比较短，而且当前工作也还并不是开源性质的，所以其实并没有怎么以代码贡献的方式参与过什么大型的开源项目，倒是几个 Markdown 和课程作业项目拿了不少 star，让我常常有些不太好意思。
 
-所以今年年初也还是立了一些 Flag，多多以各种形式参与一些自己感兴趣的开源项目，包括在上周自己还给自己定了一个开源预算（详见『[周报 #30 - 开源预算、写作初心与对技术的谦卑](https://www.pseudoyu.com/zh/2023/02/12/weekly_review_20230212/)』），也给 RSS3 提了一些 Issues，算是一个好的开始了。
+所以今年年初也还是立了一些 Flag，多多以各种形式参与一些自己感兴趣的开源项目，包括在上周自己还给自己定了一个开源预算（详见『[周报 #30 - 开源预算、写作初心与对技术的谦卑](https://www.pseudoyu.com/en/2023/02/12/weekly_review_20230212/)』），也给 RSS3 提了一些 Issues，算是一个好的开始了。
 
 有一个挺有意思的事是看到 [Randy](https://lutaonan.com/) 在推特上找一起开发 Cusdis v2 版本的伙伴，我用 [Cusdis](https://cusdis.com/) 已经接近两年了（即本博客的评论系统），非常喜欢这样简约且强大的系统，也帮一些朋友创建或是解决了一些部署和使用的问题，也差不多是移动的广告牌了。
 
@@ -52,11 +52,11 @@ authors:
 
 ![chat_with_randy_02](https://image.pseudoyu.com/images/chat_with_randy_02.png)
 
-其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加栓的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。
+其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加入的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。
 
 大家有兴趣可以尝试一下 [Cusdis](https://cusdis.co)，之前也写过一篇部署介绍的文章可以参考：
 
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway） · Pseudoyu](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway） · Pseudoyu](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 ## ChatGPT
 

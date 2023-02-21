@@ -2,7 +2,7 @@
 title: "周报 #31 - 开源、前端开发与 ChatGPT 实践"
 date: 2023-02-20T21:51:11+08:00
 draft: false
-tags: ["review", "life", "home", "cat", "beer", "programing", "chatgpt", "open-source", "ai"]
+tags: ["review", "life", "home", "cat", "beer", "programing", "chatgpt", "open-source", "ai", "front-end", "nextjs", "prisma"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
@@ -52,7 +52,7 @@ authors:
 
 ![chat_with_randy_02](https://image.pseudoyu.com/images/chat_with_randy_02.png)
 
-其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加栓的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。
+其实这种体验还蛮有意思的，自己在几乎没写过前端项目的时候去尝试参与开源，得到了很敬佩的开发者的帮助和引导，可能有时候主动一些也会有意料之外的收获。不过想到自己作为一个区块链后端开发，加入的第一个比较大的开源项目和提的第一个功能性 PR 居然是前端的，也是奇妙的体验了。
 
 大家有兴趣可以尝试一下 [Cusdis](https://cusdis.co)，之前也写过一篇部署介绍的文章可以参考：
 
