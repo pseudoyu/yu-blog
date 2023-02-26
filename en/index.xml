@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Feb 2023 21:51:11 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #31 - 开源、前端开发与 ChatGPT 实践</title><link>https://www.pseudoyu.com/en/2023/02/20/weekly_review_20230220/</link><pubDate>Mon, 20 Feb 2023 21:51:11 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/02/20/weekly_review_20230220/</guid><description>《クリスマスソング (English Cover) - Matt Cab》 前言 本篇是对 2023-02-13 到 2023-02-20 这周生活的记录与思考。 这一周工作和各种自己的项目安排异常满，虽然其实也不是真的忙到一点睡</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 15:24:25 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #32 - 武汉、久别重逢与流动的心绪</title><link>https://www.pseudoyu.com/en/2023/02/26/weekly_review_20230226/</link><pubDate>Sun, 26 Feb 2023 15:24:25 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/02/26/weekly_review_20230226/</guid><description>《クリスマスソング (English Cover) - Matt Cab》 前言 本篇是对 2023-02-21 到 2023-02-26 这周生活的记录与思考。 这一周工作上比较日常，并没有太紧急的任务，但由于一些自己的事而处于</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/christmas_song_english_version.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《クリスマスソング (English Cover) - Matt Cab》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230226.png" alt="weekly_review_20230226"></p>
+<p>本篇是对 <code>2023-02-21</code> 到 <code>2023-02-26</code> 这周生活的记录与思考。</p>
+<p>这一周工作上比较日常，并没有太紧急的任务，但由于一些自己的事而处于有些紧绷的状态，但焦虑感和低迷的情绪却少了很多，大概有一种一切都在正轨上的感觉了吧。</p>
+<p>前两周静茹突然发消息说 23-25 这个周末能不能来武汉，刚好和屈都在，想着能一起见一面，没什么犹豫，又有了一场随心的“旅行”，也重新回到学校、学院见了一些老师朋友。因为有了失去的疫情三年，似乎现在盘点和一些朋友的上一次见面都会恍惚良久，原来都是三四年前的事了。</p>
+<p>这次在武汉也仅仅度过了周五周六两天，时间很短，却是自己这两年里第一次纯粹的旅行，有种很奇妙的感觉，似乎重新感受到了生活和自己心绪的流动，也从另一面映射出了自己的变化。</p>
+<h2 id="武汉">武汉</h2>
+<p>15 年的 6 月，自己填志愿时翻阅了学校发的一本小册子，里面有所有学校的介绍与历年分数线，带着些草率地选择着未来几年要朝夕相处的城市。其实没花多久就决定了武汉，大概多少源于自己曾向往武大的人文气息（分数差点，没去成，所以选择的学校多了两个字），进而觉得这个城市也带上了一些别样的吸引力。</p>
+<p>虽然我会觉得学业上自己有些惭愧地并没有付出太多，也没有什么记忆深刻的成就，但在武汉度过的时光却不知不觉成为了我生命中很重要的一段时光。毕业时因为身边大多人也离开了武汉四散各方，我也曾想过说即使之后与这个城市再无交集似乎也没什么，重要的是这些记忆与关系。</p>
+<p>而这次回武汉，从武汉站下车，到换乘地铁途经一个个熟悉的站名，再到那条走过几千遍的工大路与学院教室，才发现原来这个城市和里面的一草一木原来也已经刻入了自己的生活中，久违地感受到了一种“回归”的感觉。</p>
+<p>也许算不上归属感，从独自拖着行李箱来到这个城市的那一刻，我就明白我终究是客居于此，甚至都没对这个城市抱有太多期望，直到离开时其实难过的也只是与这些熟悉的人分别本身。但不久后，疫情爆发了，封城、方舱、许多令人悲痛的消息甚至就发生在认识的人身边，这个城市似乎渐渐蒙上了一层灰色。</p>
+<p>当时我人在杭州，看着网络上铺天盖地的负面消息，以及更多对武汉的谩骂与隐性歧视，切实地感受到了一种心疼与无奈，一个原本充满那么多色彩的城市现今却以这样的方式展示在所有人的面前。提到武汉明明有那么多值得说的，粮道街的“过早”文化、热干面与周黑鸭、自带气场的武汉话，暴躁却直爽的武汉公交司机（虽然真的有被一个刹车从最后一排差点飞到了中间）、传说走过就能携手白头的长江大桥（走过几次，风挺大、挺锻炼身体的，其他并没什么用）、江汉路的繁华与江边的惬意时光，光谷的热闹与成谜的交通状况。还有很多有趣或是会拿来的调侃的点，会跟朋友说这个城市很值得自己去体验一下，多面而别具魅力。却因为这一场疫情，武汉似乎已经渐渐失去了这种神秘感，甚至让一些人有了些固有印象，心情还是挺复杂的。</p>
+<p>武汉并不会成为我第二个家，却始终会是我归途的栖息之所，累了，也许就会回去看看，重新捡起自己的生活。</p>
+<h2 id="久别重逢与流动的心绪">久别重逢与流动的心绪</h2>
+<p>曾经在『<a href="https://www.pseudoyu.com/zh/2022/08/29/weekly_review_20220829/">周报 #09 - 没有色彩的 Yu 和他的巡礼之年</a>』这一篇文章中有提到过这样一群人：</p>
+<p><img src="https://image.pseudoyu.com/images/four_people_relationship.png" alt="four_people_relationship"></p>
+<blockquote>
+<p>人在各个阶段似乎总是会有抱团的倾向，而一旦依赖于一个群体又不免遭受来自关系的压力与挫折。大学时我曾有这样一个四人小团体，两男两女，总是形影不离，到辅导员或是同学发现缺人都会很自然地询问其余的人。</p>
+<p>但我在一段时间后感受到了明显的压力，剩下三位似乎是更风云一点的人物，总是在人群中耀眼的那一个，而我却似乎总是缺乏存在感，而内心又不想成为这样出于习惯而依附其中的多余之人。于是我开始刻意回避和逃离，当然，表现拙劣的我并不懂如何隐藏，很快就被察觉。</p>
+<p>可以说比起多崎作我是幸运的，没有被抛弃，也没有什么误会，另外三位在一个夜晚把我堵在男生宿舍楼下让我讲出心结，并逐一进行排解，关于个性和存在感的回应我可能依旧觉得是安慰，但有感受到自己有被这段关系和模式所需要，自己的情绪有被他们所认真看待，我们的关系有被珍惜。即使后续因为城市和很多原因已经少有共同行动的机会了，但是依然有着不错的联系，以及到了任一成员所在的城市所首先会想到的人。</p>
+</blockquote>
+<p>这次回武汉见的就是他们。</p>
+<p><img src="https://image.pseudoyu.com/images/photo_with_ru_qu_and_lei.jpg" alt="photo_with_ru_qu_and_lei"></p>
+<p>自己其实一直都很珍惜这种自然惬意的关系，似乎是谁一句“想你了”就能见面的那种，不需要太多刻意的陈词铺垫或是安排，倪、占、晓瑜和他们都是，即使由于疫情其实已经都三四年没能见面了。</p>
+<p>在香港时也有在一晚接到一个突然的视频电话，他们三个在武汉相聚，我在微信视频中远程合影，而这次，终于我也能够在现场了。吃吃喝喝，闲散地逛着校园，讲着过去和现在的事，一切如旧。行程匆忙，周日就回了北京，希望也能再多相见。</p>
+<p>除了见面外，在这次短暂出行中似乎发现自己有了一些变化，会更愿意去感受身边的事物，会更频繁地因为一些不起眼的小事或者甚至是在走过某条路时恰好听到的一首歌而愉悦，明明目前被一些很值得焦虑的事包围着，但心绪却似乎渐渐随着旅程流动了起来。</p>
+<p>也后面也希望能有更多旅行的机会，</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="赛博搬家">赛博搬家</h3>
+<p>大概多少是对国内的互联网公司以及一些面向国内的服务有些心存疑虑，这半年陆续在把自己所依赖的服务都尽可能搬到了国外，虽然大多还是中心化的，至少能少一些审查及隐私保护方面的担心吧。</p>
+<p>而在武汉的这一周终于把依赖最重且搬家最麻烦的 iCloud 从云上贵州搬到了港区，还经过了不少波折，不得不说 Apple 在帐号管理和云服务同步这一块做的实在是不太行。</p>
+<p>因为我的帐号买了很多软件（包括 Final Cut Pro X 等全家桶），所以其实并不想开一个新的号来专门迁移，幸好 Apple 的换区是能够保留已购买项目的，且我所有在国区买的 App 在港区也都有，这一点上其实还是比较无缝的。</p>
+<p>但 Apple 的家庭共享就没有那么方便了，之前是我的帐号开了一个 Family，共享了 iCloud 200G 给倪和占共同使用，并且还监护了我妹妹的帐号（因为未满 14 岁），在我想换区时，则是需要先把我妹妹的帐号迁移到另一个家庭，以及我订阅的 Apple Music 到期（甚至不能提前，只能等到当月订阅周期结束，有点离谱），然后再用港区的支付方式与各类信息来更换区域，再启用港区的家庭共享 iCloud。</p>
+<p>不仅是过程有些麻烦，而且在重新登录帐号时 iPhone 还出现了验证错误的情况，查了很多资料，都出只能恢复出厂设置，于是只能折腾了一晚上软件，幸好之前在<a href="https://github.com/pseudoyu/yu-tools">工具箱项目</a>中有过记录，但所有权限/应用都要重新设置也很痛苦，幸好最终还是解决了，总觉得这也是一件迟早要做的事。</p>
+<p>另一部手机是 OnePlus 7 Pro，好几年前买的了，也是一到手就折腾刷了海外版氧 OS 来使用 Google 全家桶，可能国内厂商和一些服务已经让我到了有些精神洁癖的地步了。</p>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 『<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://hackmd.io/@zV4fWkDaSii_Wz7rS5R5SQ/S1sjKhKUi">Dapp 状态去哪了 - HackMD</a></li>
+<li><a href="https://tieshunroquerre.com/blog/douyin">How Douyin Bootstrapped Its Flywheel</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<p>同样的，也有记录一下看过的有意思的视频：</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=FcZIdh-MRNQ">对话 RSS3 创始人 Joshua：从 ChatGPT、AI 与 Web3、Web3 Social、Open Web 概念到 RSS3 发展思路【Rex Talk】</a></li>
+<li><a href="https://www.youtube.com/watch?v=BdHaeczStRA">Microsoft vs Google: AI War Explained | tech news</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Ls4y1b7UE">我们是倦怠的一代人，对内剥削自我，对外孤立自我</a></li>
+</ul>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<p>因为要去武汉，所以把捏捏寄养到了学姐家，自己就没拍什么照片，倒是因为她待得有点乐不思蜀了，我还拍了张在武汉的咖啡馆抱别的小猫的照片给她看：</p>
+<p><img src="https://image.pseudoyu.com/images/yu_hug_other_cat.jpg" alt="yu_hug_other_cat"></p>
+<p>然后她惬意躺在新家沙发上，一副 Who Cares 的样子：</p>
+<p><img src="https://image.pseudoyu.com/images/nie_nie_with_boyi.jpg" alt="nie_nie_with_boyi"></p>
+<p><img src="https://image.pseudoyu.com/images/nie_nie_and_other_cat.png" alt="nie_nie_and_other_cat"></p>
+<p>这只没良心的小猫。</p>
+]]></content:encoded></item><item><title>周报 #31 - 开源、前端开发与 ChatGPT 实践</title><link>https://www.pseudoyu.com/en/2023/02/20/weekly_review_20230220/</link><pubDate>Mon, 20 Feb 2023 21:51:11 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/02/20/weekly_review_20230220/</guid><description>《クリスマスソング (English Cover) - Matt Cab》 前言 本篇是对 2023-02-13 到 2023-02-20 这周生活的记录与思考。 这一周工作和各种自己的项目安排异常满，虽然其实也不是真的忙到一点睡</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/christmas_song_english_version.mp3" type="audio/mpeg">
@@ -14514,224 +14577,4 @@ matches the distribution of letter in English)</li>
 <p>Socially, the majority of users of short video platform are young people, and they tend to follow fashions and do more social interactions. Tik-Tok carries out new creative forms of videos for users to easily create, share and connect interesting videos in their social circle, which brings the long tail influence on the spread of Tik-Tok videos. Besides, some organizations or even official medias also joined the Tik-Tok platform to please their audience or get more subscribers, which further increase the social influence of Tik-Tok.</p>
 <p>Technically, as the rapid development of Internet and smartphone industry, short video has gradually become a mainstream form of creation and entertainment. US people especially young people get more accustomed to using their smartphones to entertain or do social interactions, like watching or shooting videos in their leisure time. What&rsquo;s more, the recommendation system and mechanism applying artificial intelligence and machine learning algorithms become more powerful and smart, keeping attracting their users&rsquo; attention.</p>
 <p>To sum up, Tik-Tok chose the right market expanding strategy, successfully meets the market demand and captures their users&rsquo; needs to get its market share. And it makes fair use of their technical benefits and most advanced innovation like machine learning algorithms to continually improve their product, making them become a very influential platform.</p>
-]]></content:encoded></item><item><title>ECOM6013 Topic 8 Blockchain and Cybercurrency</title><link>https://www.pseudoyu.com/en/2020/10/09/ecom6013_topic8/</link><pubDate>Fri, 09 Oct 2020 11:01:28 +0800</pubDate><guid>https://www.pseudoyu.com/en/2020/10/09/ecom6013_topic8/</guid><description>ECOM6013 E-Commerce Technologies Topic 8 Blockchain and Cybercurrency Form of Money
-Token money Physical token Value is lost without the token No intermediary is required for spending Requires faith in the issuer (a government or a bank) Notationary money Notation/entry in a ledger, passbook, or database Can&amp;rsquo;t be lost Requires an intermediary Requires faith in the maintainer of the ledger Hybrid money Requires both a token and a ledger account Can be lost Requires an intermediary Requires faith in the issuer Virtual money No token/ledger Can be lost No intermediary required No issuer, no government backing Digital money String of bytes (data) stored on a device Value is lost/stolen when devices fail/invaded Cybercurrency Bitcoin is the most influential one Based on blockchain Bitcoin</description><content:encoded><![CDATA[<h1 id="ecom6013-e-commerce-technologies">ECOM6013 E-Commerce Technologies</h1>
-<h2 id="topic-8-blockchain-and-cybercurrency">Topic 8 Blockchain and Cybercurrency</h2>
-<p><strong>Form of Money</strong></p>
-<ul>
-<li>Token money
-<ul>
-<li>Physical token</li>
-<li>Value is lost without the token</li>
-<li>No intermediary is required for spending</li>
-<li>Requires faith in the issuer (a government or a bank)</li>
-</ul>
-</li>
-<li>Notationary money
-<ul>
-<li>Notation/entry in a ledger, passbook, or database</li>
-<li>Can&rsquo;t be lost</li>
-<li>Requires an intermediary</li>
-<li>Requires faith in the maintainer of the ledger</li>
-</ul>
-</li>
-<li>Hybrid money
-<ul>
-<li>Requires both a token and a ledger account</li>
-<li>Can be lost</li>
-<li>Requires an intermediary</li>
-<li>Requires faith in the issuer</li>
-</ul>
-</li>
-<li>Virtual money
-<ul>
-<li>No token/ledger</li>
-<li>Can be lost</li>
-<li>No intermediary required</li>
-<li>No issuer, no government backing</li>
-</ul>
-</li>
-<li>Digital money
-<ul>
-<li>String of bytes (data) stored on a device</li>
-<li>Value is lost/stolen when devices fail/invaded</li>
-</ul>
-</li>
-<li>Cybercurrency
-<ul>
-<li>Bitcoin is the most influential one</li>
-<li>Based on blockchain</li>
-</ul>
-</li>
-</ul>
-<p><strong>Bitcoin</strong></p>
-<ul>
-<li>Designed for the &ldquo;online society&rdquo;</li>
-<li>An important example application of Blockchain</li>
-<li>Relationship with national currencies
-<ul>
-<li>Decentralized and independent of national currencies</li>
-<li>Easily convertible to national currencies</li>
-</ul>
-</li>
-<li>Excellent application Scenarios
-<ul>
-<li>Anonymous transactions</li>
-<li>E-Commerce</li>
-</ul>
-</li>
-</ul>
-<p><strong>Land Deeds - A Blockchain Analogy</strong></p>
-<p><img src="https://image.pseudoyu.com/images/land_deeds.png" alt="land_deeds"></p>
-<ul>
-<li>A &ldquo;chain of title&rdquo; (a sequence of deeds leading from the original owner to the present owner)</li>
-<li>Deeds are recorded in the Land Registry</li>
-<li>Ownership is established by searching the Registry</li>
-<li>The Land Registry is ledger holder</li>
-<li>Double-selling is prevented by timestamps</li>
-<li>If the Registry is altered, ownership can be lost</li>
-</ul>
-<p><strong>5 elements of Bitcoin</strong></p>
-<ul>
-<li>Currency
-<ul>
-<li>Send units of value</li>
-<li>Convertible</li>
-<li>Divisible</li>
-</ul>
-</li>
-<li>Commodity
-<ul>
-<li>Scarcity stores wealth</li>
-<li>Market fluctuates with speculation</li>
-</ul>
-</li>
-<li>Brand
-<ul>
-<li>Marketing message</li>
-<li>Commodity and sharing knowledge</li>
-</ul>
-</li>
-<li>Protocol
-<ul>
-<li>Decentralized trust</li>
-<li>Distributed ledger</li>
-</ul>
-</li>
-<li>Technology
-<ul>
-<li>Blockchain</li>
-</ul>
-</li>
-</ul>
-<p><strong>How to Get Bitcoin</strong></p>
-<ul>
-<li>Sell something</li>
-<li>Salary (some companies)</li>
-<li>Bitcoin exchange</li>
-<li>Mining
-<ul>
-<li>No more than 21 million BTCs</li>
-<li>Divisible into units as small as 1/100 millionth of a BTC</li>
-</ul>
-</li>
-</ul>
-<p><strong>Bitcoin and Encryption Technologies</strong></p>
-<ul>
-<li>Hash functions</li>
-<li>Public-private key (asymmetric) encryption</li>
-<li>Digital signatures</li>
-<li>All of these technologies are mature and trusted</li>
-</ul>
-<p><strong>Bitcoin Characteristics</strong></p>
-<ul>
-<li>No physical object (not a character string)
-<ul>
-<li>&ldquo;Bitcoin&rdquo; - protocol</li>
-<li>&ldquo;bitcoin&rdquo; - value</li>
-</ul>
-</li>
-<li>A chain of digitally signed transaction records leading from the original owner to the current owner</li>
-<li>Transaction records
-<ul>
-<li>Hashes</li>
-<li>Addresses</li>
-</ul>
-</li>
-<li>No Bitcoin registry</li>
-<li>No central authority</li>
-<li>Broadcast to everyone
-<ul>
-<li>Everyone can verify the Bitcoin blockchain</li>
-</ul>
-</li>
-</ul>
-<p><strong>Bitcoin Protocol</strong></p>
-<ul>
-<li>Invented in 2008 by Satoshi Nakamoto, <a href="https://bitcoin.org/bitcoin.pdf"><em>Bitcoin: A Peer-to-Peer Electronic Cash System</em></a></li>
-<li>Publicly available, Open source software</li>
-<li>Everyone can obtain and run a Bitcoin client</li>
-</ul>
-<p><strong>Bitcoin addresses</strong></p>
-<ul>
-<li>An elliptic curve public key
-<ul>
-<li>25-44 characters for users</li>
-</ul>
-</li>
-<li>Send Bitcoins
-<ul>
-<li>Receiving address (public)</li>
-<li>Amount</li>
-</ul>
-</li>
-<li>Receive Bitcoins
-<ul>
-<li>Receiving address (public)</li>
-</ul>
-</li>
-<li>Addresses are not directly registered to users</li>
-</ul>
-<p><strong>Possible Vulnerabilities</strong></p>
-<ul>
-<li>No way to reverse a transaction without the payee’s cooperation</li>
-<li>Software bugs</li>
-<li>Bank robbery by hackers</li>
-<li>Malware attacks against wallets</li>
-<li>Government attempts to control</li>
-<li>Competing digital currencies easy to make (fork)
-<ul>
-<li>Auroracoin</li>
-<li>Dogecoin</li>
-<li>Namecoin</li>
-<li>Primecoin</li>
-<li>&hellip;</li>
-</ul>
-</li>
-</ul>
-<p><strong>Challenges for Bitcoin</strong></p>
-<ul>
-<li>Scalability</li>
-<li>Time to solve a block (security concerns in algorithms)</li>
-<li>Energy consumption</li>
-<li>Meaningless and highly inefficient</li>
-</ul>
-<p><strong>Possible Future of Bitcoin/Virtual Currencies (Social)</strong></p>
-<ul>
-<li>For the world’s unbanked</li>
-<li>For small businesses, freelancers and startups</li>
-<li>Inevitable development of &ldquo;money&rdquo;</li>
-<li>Distributed trust</li>
-</ul>
-<p><strong>Possible Future of Bitcoin/Virtual Currencies (Economic/Political)</strong></p>
-<ul>
-<li>A future with digital currencies and decentralized stores</li>
-<li>National adoption of decentralized currencies may bring political transparency and economic neutrality</li>
-<li>Developing nations seeking to curb corruption and break free of economic dependence on other countries could see potential in these technologies</li>
-<li>Central Bank Digital Currency (CBDC)</li>
-</ul>
-<p><strong>Retail Money Key Attributes</strong></p>
-<p><img src="https://image.pseudoyu.com/images/retail_money.png" alt="retail_money"></p>
-<p><strong>Different Degrees of Responsibilities for the Central Bank</strong></p>
-<p><img src="https://image.pseudoyu.com/images/central_bank.png" alt="central_bank"></p>
 ]]></content:encoded></item></channel></rss>
