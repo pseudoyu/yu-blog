@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 15:24:25 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #32 - 武汉、久别重逢与流动的心绪</title><link>https://www.pseudoyu.com/en/2023/02/26/weekly_review_20230226/</link><pubDate>Sun, 26 Feb 2023 15:24:25 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/02/26/weekly_review_20230226/</guid><description>《クリスマスソング (English Cover) - Matt Cab》 前言 本篇是对 2023-02-21 到 2023-02-26 这周生活的记录与思考。 这一周工作上比较日常，并没有太紧急的任务，但由于一些自己的事而处于</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 15:24:25 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #32 - 武汉、久别重逢与流动的心绪</title><link>https://www.pseudoyu.com/en/2023/02/26/weekly_review_20230226/</link><pubDate>Sun, 26 Feb 2023 15:24:25 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/02/26/weekly_review_20230226/</guid><description>《クリスマスソング (English Cover) - Matt Cab》 前言 本篇是对 2023-02-21 到 2023-02-26 这周生活的记录与思考。 这一周工作上比较日常，并没有太紧急的任务，由于一些自己的事而处于有</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/christmas_song_english_version.mp3" type="audio/mpeg">
@@ -8,7 +8,7 @@
 <h2 id="前言">前言</h2>
 <p><img src="https://image.pseudoyu.com/images/weekly_review_20230226.png" alt="weekly_review_20230226"></p>
 <p>本篇是对 <code>2023-02-21</code> 到 <code>2023-02-26</code> 这周生活的记录与思考。</p>
-<p>这一周工作上比较日常，并没有太紧急的任务，但由于一些自己的事而处于有些紧绷的状态，但焦虑感和低迷的情绪却少了很多，大概有一种一切都在正轨上的感觉了吧。</p>
+<p>这一周工作上比较日常，并没有太紧急的任务，由于一些自己的事而处于有些紧绷的状态，但焦虑感和低迷的情绪却少了很多，大概有一种一切都在正轨上的感觉了吧。</p>
 <p>前两周静茹突然发消息说 23-25 这个周末能不能来武汉，刚好和屈都在，想着能一起见一面，没什么犹豫，又有了一场随心的“旅行”，也重新回到学校、学院见了一些老师朋友。因为有了失去的疫情三年，似乎现在盘点和一些朋友的上一次见面都会恍惚良久，原来都是三四年前的事了。</p>
 <p>这次在武汉也仅仅度过了周五周六两天，时间很短，却是自己这两年里第一次纯粹的旅行，有种很奇妙的感觉，似乎重新感受到了生活和自己心绪的流动，也从另一面映射出了自己的变化。</p>
 <h2 id="武汉">武汉</h2>
@@ -38,7 +38,7 @@
 <p>而在武汉的这一周终于把依赖最重且搬家最麻烦的 iCloud 从云上贵州搬到了港区，还经过了不少波折，不得不说 Apple 在帐号管理和云服务同步这一块做的实在是不太行。</p>
 <p>因为我的帐号买了很多软件（包括 Final Cut Pro X 等全家桶），所以其实并不想开一个新的号来专门迁移，幸好 Apple 的换区是能够保留已购买项目的，且我所有在国区买的 App 在港区也都有，这一点上其实还是比较无缝的。</p>
 <p>但 Apple 的家庭共享就没有那么方便了，之前是我的帐号开了一个 Family，共享了 iCloud 200G 给倪和占共同使用，并且还监护了我妹妹的帐号（因为未满 14 岁），在我想换区时，则是需要先把我妹妹的帐号迁移到另一个家庭，以及我订阅的 Apple Music 到期（甚至不能提前，只能等到当月订阅周期结束，有点离谱），然后再用港区的支付方式与各类信息来更换区域，再启用港区的家庭共享 iCloud。</p>
-<p>不仅是过程有些麻烦，而且在重新登录帐号时 iPhone 还出现了验证错误的情况，查了很多资料，都出只能恢复出厂设置，于是只能折腾了一晚上软件，幸好之前在<a href="https://github.com/pseudoyu/yu-tools">工具箱项目</a>中有过记录，但所有权限/应用都要重新设置也很痛苦，幸好最终还是解决了，总觉得这也是一件迟早要做的事。</p>
+<p>不仅是过程有些麻烦，而且在重新登录帐号时 iPhone 还出现了验证错误的情况，查了很多资料，都说只能恢复出厂设置，于是只能折腾了一晚上软件，幸好之前在<a href="https://github.com/pseudoyu/yu-tools">工具箱项目</a>中有过记录，但所有权限/应用都要重新设置也很痛苦，幸好最终还是解决了，总觉得这也是一件迟早要做的事。</p>
 <p>另一部手机是 OnePlus 7 Pro，好几年前买的了，也是一到手就折腾刷了海外版氧 OS 来使用 Google 全家桶，可能国内厂商和一些服务已经让我到了有些精神洁癖的地步了。</p>
 <h3 id="输入">输入</h3>
 <p>虽然大部分有意思的输入会在 『<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
