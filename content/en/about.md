@@ -49,11 +49,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-TypeScript 19 hrs 54 mins ███████████▌░░░░░░░░░  54.8%
-Go         6 hrs 2 mins   ███▍░░░░░░░░░░░░░░░░░  16.6%
-Markdown   2 hrs 59 mins  █▋░░░░░░░░░░░░░░░░░░░   8.2%
-sh         2 hrs 57 mins  █▋░░░░░░░░░░░░░░░░░░░   8.2%
-Other      1 hr 45 mins   █░░░░░░░░░░░░░░░░░░░░   4.9%
+Markdown   5 hrs 27 mins  ███████░░░░░░░░░░░░░░  33.7%
+Go         3 hrs 53 mins  █████░░░░░░░░░░░░░░░░  24.0%
+sh         3 hrs 51 mins  ████▉░░░░░░░░░░░░░░░░  23.8%
+JavaScript 1 hr 20 mins   █▋░░░░░░░░░░░░░░░░░░░   8.3%
+TypeScript 1 hr 1 min     █▎░░░░░░░░░░░░░░░░░░░   6.3%
 ```
 
 <!-- code_time ends -->
