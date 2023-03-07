@@ -71,7 +71,7 @@ authors:
 
 同样的，也有记录一下看过的有意思的视频：
 
-- [当公司变成网吧，员工竟集体背着老板【工作室 Roomtour](https://www.bilibili.com/video/BV1284y1E7my/)
+- [当公司变成网吧，员工竟集体背着老板【工作室 Roomtour】](https://www.bilibili.com/video/BV1284y1E7my/)
 - [时隔 9 年重回特斯拉上班，比做 UP 主还卷?](https://www.bilibili.com/video/BV1Ag4y1n75Y/)
 - [面对越来越多的网络暴力，普通人能做些什么？](https://www.bilibili.com/video/BV1oX4y1S7ru/)
 - [我们生活在四个世界里面](https://www.bilibili.com/video/BV1vA411y7qi/)
