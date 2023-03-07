@@ -57,7 +57,7 @@ jobs:
                   extended: true
 
             - name: Build Web
-              run: hugo --minify
+              run: hugo --gc --minify
 
             - name: Run Pagefind
               run: npm_config_yes=true npx pagefind --source "public"
