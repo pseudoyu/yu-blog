@@ -11,7 +11,7 @@ preserveTaxonomyNames = true # do not make tag names lowercase
 # uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
 rssLimit = 100                # limit number of entries in RSS feeds
 page_view_conter = true
-disableKinds = ["googleNews"]
+
 # Copyright, appears in the footer
 # copyright = ""             # default: author.name
 
