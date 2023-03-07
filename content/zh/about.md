@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Go         6 hrs 37 mins  ████████▎░░░░░░░░░░░░  39.8%
-sh         5 hrs 16 mins  ██████▋░░░░░░░░░░░░░░  31.7%
-JavaScript 2 hrs 57 mins  ███▋░░░░░░░░░░░░░░░░░  17.8%
-Solidity   1 hr 18 mins   █▋░░░░░░░░░░░░░░░░░░░   7.8%
-Other      11 mins        ▏░░░░░░░░░░░░░░░░░░░░   1.1%
+Go         6 hrs 2 mins   ████████░░░░░░░░░░░░░  38.5%
+sh         4 hrs 42 mins  ██████▎░░░░░░░░░░░░░░  30.0%
+JavaScript 2 hrs 57 mins  ███▉░░░░░░░░░░░░░░░░░  18.8%
+Solidity   1 hr 17 mins   █▋░░░░░░░░░░░░░░░░░░░   8.3%
+Other      28 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.0%
 ```
 
 <!-- code_time ends -->
