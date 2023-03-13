@@ -73,7 +73,7 @@ authors:
 
 > 初中班主任想给学生演示 ChatGPT，但是国内访问和各种登录限制是挺大的问题，折腾了一圈，最后采用了 Vercel 自部署 + GPT-3.5 Turbo API
 >
-> <https://github.com/ddiu8081/chatgpt-demo』>
+> <https://github.com/ddiu8081/chatgpt-demo>
 >
 > 并且根据这篇教程使用 Cloudflare Workers 配置 openai 代理
 >
