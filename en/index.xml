@@ -49,7 +49,7 @@
 <p><img src="https://image.pseudoyu.com/images/tweet_about_chatgpt_and_chunge.png" alt="tweet_about_chatgpt_and_chunge"></p>
 <blockquote>
 <p>初中班主任想给学生演示 ChatGPT，但是国内访问和各种登录限制是挺大的问题，折腾了一圈，最后采用了 Vercel 自部署 + GPT-3.5 Turbo API</p>
-<p><a href="https://github.com/ddiu8081/chatgpt-demo%E3%80%8F">https://github.com/ddiu8081/chatgpt-demo』</a></p>
+<p><a href="https://github.com/ddiu8081/chatgpt-demo">https://github.com/ddiu8081/chatgpt-demo</a></p>
 <p>并且根据这篇教程使用 Cloudflare Workers 配置 openai 代理</p>
 <p><a href="https://github.com/noobnooc/noobnooc/discussions/9">https://github.com/noobnooc/noobnooc/discussions/9</a></p>
 <p>终于有了不错的体验，有点小开心。</p>
