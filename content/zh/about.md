@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35314632/' target='_blank'>在看黑暗荣耀</a> - 2023-03-12
+* <a href='http://movie.douban.com/subject/36193784/' target='_blank'>看过黑暗荣耀 第二季</a> - 2023-03-13
+* <a href='http://movie.douban.com/subject/35314632/' target='_blank'>看过黑暗荣耀</a> - 2023-03-13
 * <a href='http://movie.douban.com/subject/35791966/' target='_blank'>看过千寻小姐</a> - 2023-02-28
 * <a href='http://movie.douban.com/subject/4195678/' target='_blank'>在看四叠半神话大系</a> - 2023-02-26
 * <a href='https://book.douban.com/subject/36140138/' target='_blank'>想读从字体开始</a> - 2023-02-18
-* <a href='https://book.douban.com/subject/36096304/' target='_blank'>想读翦商</a> - 2023-02-09
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
