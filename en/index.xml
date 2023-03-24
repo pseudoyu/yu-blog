@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 13 Mar 2023 17:29:49 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #34 - Don't Stop the Clocks</title><link>https://www.pseudoyu.com/en/2023/03/13/weekly_review_20230313/</link><pubDate>Mon, 13 Mar 2023 17:29:49 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/03/13/weekly_review_20230313/</guid><description>《Don&amp;#39;t Stop the Clocks - King Gnu》 前言 本篇是对 2023-03-08 到 2023-03-13 这周生活的记录与思考。 本周主要是工作的一些交接，相比起之前算不上忙碌，但紧迫的时间和</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 Mar 2023 11:21:15 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #35 - 登报、搬家和生病的捏捏</title><link>https://www.pseudoyu.com/en/2023/03/24/weekly_review_20230324/</link><pubDate>Fri, 24 Mar 2023 11:21:15 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/03/24/weekly_review_20230324/</guid><description>《Don&amp;#39;t Stop the Clocks - King Gnu》 前言 本篇是对 2023-03-14 到 2023-03-23 这周生活的记录与思考。 要不是因为 xLog 的激励差点就打算鸽了这篇周报了。 过去的一周多里，捏</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/dont_stop_the_clocks.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Don&#39;t Stop the Clocks - King Gnu》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230324.png" alt="weekly_review_20230324"></p>
+<p>本篇是对 <code>2023-03-14</code> 到 <code>2023-03-23</code> 这周生活的记录与思考。</p>
+<p><del>要不是因为 xLog 的激励差点就打算鸽了这篇周报了。</del></p>
+<p>过去的一周多里，捏捏生病、父母开车来北京接猫（顺便接我）、陪同旅游（虽然所有景点我也是第一次去）、和即将离别的朋友相聚、15 小时车程的跨城长途、找房子（虽然只花了 1 个小时就签约了）、搬家和布置家里、新工作入职等等一系列事，似乎所有事都在接连着发生，没有什么喘息的时间。</p>
+<p>大概是由于常常是沉迷在不管是工作还是生活中自己在意的部分，自己其实对于很多事物感知都不那么明显，即使短短的一周不到的时间似乎自己生活的方方面面和状态都改变了，却也只有在敲下上面那段话的时候才有些实感。</p>
+<p>不过接近三周没敲代码是真的会生疏（且看着空白提交记录有点心绪），需要捡起来状态了。还有很多有意思的事。</p>
+<h2 id="上报纸啦">上报纸啦</h2>
+<p><img src="https://image.pseudoyu.com/images/yu_china_daily_report.png" alt="yu_china_daily_report"></p>
+<p>这周最有意义的事大概就是自己被『中国日报 · 21 世纪英文报』采访的报道出刊了，本身倒不是什么多大的成就，毕竟不是什么技术的贡献，自己各个方面也还差得远。但于我而言还是有着独特的意义，或者说是感觉是一种奇妙的缘分际遇。</p>
+<p>18 年初，英专大三的自己处于极度迷茫期，转专业和辅修申请碰壁，而由于自己的专业背景差异太大，去极小的创业公司应聘前端面试时也屡屡被劝退说“你能力挺不错的，但是技术岗要相关背景，要不要考虑还是做产品/运营方向，可以加面”，自学上似乎也遇到了瓶颈，总觉得没方向地学了很多东西却不知道未来该怎么走。</p>
+<p>鼓起勇气加了好友向一位计算机专业的英语学习博主（？）『<a href="https://weibo.com/learnandrecord">LearnAndRecord</a>』咨询他对我选择的看法和建议，原本其实也没抱太大的希望，而他很耐心地回了我很多，包括具体的方向等，可以说在那个阶段成为了我继续走下去最大的动力。</p>
+<p><img src="https://image.pseudoyu.com/images/my_chat_with_lr_2023.png" alt="my_chat_with_lr_2023"></p>
+<p><img src="https://image.pseudoyu.com/images/my_chat_with_lr_2018.png" alt="my_chat_with_lr_2018"></p>
+<p>后来一步步申请学校、拿 offer、转码学习、从事了自己喜欢的工作，当然，期间挫折与喜悦都很多，不甚感慨。恰好发表的时机又是自己如愿加入 RSS3，能够更尽情探索未来可能性和生活方式的时候，就像是一个 milestone，告诉了自己似乎之前的一切都是有意义的，自己真的做到了，原来也真的值得。</p>
+<p>借用某友人的一篇博客标题『吾将远航』，未来还有很有意思的事值得自己去追寻，自己似乎也处在这个节点，不早不晚。</p>
+<p>另外，跟『LR 君』认识那么多年了终于能约上饭了，也算追星成功了！！！</p>
+<h2 id="搬家啦">搬家啦</h2>
+<p>自己这两年待得最久的地方就是自己的书桌前了，所以对书桌的收纳和布置都比较在意，因为前司定的的 last day 和入职 onboarding 间隔只有一周不到，回到杭州就只有两天时间处理各种事务，所以就迅速选定了一个离家不远的租屋，签约、办网、搬家、布置，两天内火速完成了，虽然还缺一些家居用品，但总算也是初步成果了。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_new_desk_setup.jpg" alt="yu_new_desk_setup"></p>
+<p>桌椅是物业留下的，等各种安顿好打算换一下，其他的慢慢调整了！朝南的落地窗真的好赞！</p>
+<p>顺便纪念一下之前在北京的桌面 Setup。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_beijing_setup.jpg" alt="yu_beijing_setup"></p>
+<p>搬家是一件挺耗费心力的事，这次也是多亏爸妈来搬运了，整体还算顺利，新家各方面也还挺满意的。</p>
+<p>也算是正式离开北京，离开这个自己曾留下挺多记忆点和经历的地方了，前前后后辗转了挺多城市，似乎总该习惯离别了，却依然还是会难过。祝好。</p>
+<h2 id="捏捏生病了">捏捏生病了</h2>
+<p><img src="https://image.pseudoyu.com/images/nie_nie_in_beijing_1.jpg" alt="nie_nie_in_beijing_1"></p>
+<p>从周六开始，捏捏突然有些呕吐，观察了一阵子后马上送去宠物医院检查了，是幽门螺杆菌感染，医生说不算什么大碍，但是需要一段时间的治疗，也还是挺担心的，因为也还要坐十几个小时的车回杭州。</p>
+<p><img src="https://image.pseudoyu.com/images/nie_nie_in_camera_1.jpg" alt="nie_nie_in_camera_1"></p>
+<p>出去玩的路上还一直在看家里的摄像头，但是她活跃到把移动监控机器人揍到没电了，看起来没事。</p>
+<p>幸好吃了药一天后症状就好了，后面食欲和各种也都恢复了，一路上也很乖巧。</p>
+<p>还有一周左右的疗程，希望早些痊愈！</p>
+<p>正式从北方猫变成南方喵啦！</p>
+<p><img src="https://image.pseudoyu.com/images/nie_nie_in_cute_1.jpg" alt="nie_nie_in_cute_1"></p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 『<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://medium.com/infinitism/erc-4337-account-abstraction-without-ethereum-protocol-changes-d75c9d94dc4a">ERC 4337: account abstraction without Ethereum protocol changes | by Vitalik Buterin</a></li>
+<li><a href="https://blog.openacid.com/algo/paxos/">可靠分布式系统-paxos 的直观解释 - OpenACID Blog</a></li>
+<li><a href="https://blog.codingnow.com/2007/12/history.html">云风的 BLOG: 学习从历史开始</a></li>
+<li><a href="https://blankwonder.medium.com/surge-ponte-%E7%A0%94%E5%8F%91%E6%89%8B%E8%AE%B0-c145726fc07c">Surge Ponte 研发手记 | by Yachen Liu</a></li>
+<li><a href="https://tianxianzi.me/2023/03/19/relife/">ReLIFE | 重返十七岁 · 天仙子</a></li>
+<li><a href="https://github.com/yihong0618/gitblog/issues/259">开源四年的一些记录</a></li>
+<li><a href="https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/">GitHub Copilot X: The AI-powered developer experience | The GitHub Blog</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<p>同样的，也有记录一下看过的有意思的视频：</p>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1a84y1N7AT">BAT 早就过时了，看懂 2023 年互联网大厂新战况</a></li>
+<li><a href="https://www.youtube.com/watch?v=outcGtbnMuQ">GPT-4 Developer Livestream</a></li>
+<li><a href="https://www.youtube.com/watch?v=Bf-dbS9CcRU">The Future of Work With AI - Microsoft March 2023 Event</a></li>
+<li><a href="https://www.youtube.com/watch?v=vP45wBOQLS8">一口气了解硅谷银行倒闭危机</a></li>
+</ul>
+<h4 id="播客">播客</h4>
+<p>记录了一些自己在听的播客：</p>
+<ul>
+<li><a href="https://www.listennotes.com/e/d3330b70a874476f9853489b74f4f635">云时代的 CDN 乱局</a></li>
+</ul>
+]]></content:encoded></item><item><title>周报 #34 - Don't Stop the Clocks</title><link>https://www.pseudoyu.com/en/2023/03/13/weekly_review_20230313/</link><pubDate>Mon, 13 Mar 2023 17:29:49 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/03/13/weekly_review_20230313/</guid><description>《Don&amp;#39;t Stop the Clocks - King Gnu》 前言 本篇是对 2023-03-08 到 2023-03-13 这周生活的记录与思考。 本周主要是工作的一些交接，相比起之前算不上忙碌，但紧迫的时间和</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/dont_stop_the_clocks.mp3" type="audio/mpeg">
@@ -13530,383 +13597,6 @@ matches the distribution of letter in English)</li>
 <li>Algorithms
 <ul>
 <li>RSA</li>
-</ul>
-</li>
-</ul>
-]]></content:encoded></item><item><title>ICOM6012 Topic 4 Transport Layer</title><link>https://www.pseudoyu.com/en/2020/10/20/icom6012_topic4/</link><pubDate>Tue, 20 Oct 2020 09:37:44 +0800</pubDate><guid>https://www.pseudoyu.com/en/2020/10/20/icom6012_topic4/</guid><description>ICOM6012 Internet Infrastructure Technologies Topic 4 Transport Layer Actions Sender Get application layer message Determine segment header fields values Create segment Pass segment to IP Receiver Receive segment from IP Check header values Extract application layer message Demultiplexes message up to application via socket Services Provide logical communication between processes Run in end system Send side Break app messages into segment Pass to network layer Receive side Reassembles segments into messages Pass to application layer Protocols TCP Features Point-to-point One sender, one receiver Reliable, in-order byte system No message boundaries Full duplex data Bi-directional data flow in same connection MSS: maximum segment size (excluding header) Cumulative ACKs Pipelining TCP congestion and flow control set window size Flow Control Sender will not overwhelm receiver Congestion control Concepts Segment structure Sequence numbers Byte stream &amp;ldquo;number&amp;rdquo; of first byte in segment&amp;rsquo;s data Acknowledgements (ACKs) Seq # of next byte expected from other side Cumulative ACKs Procedure Connection-oriented Handshaking initializes sender, receiver state before data exchange TCP socket identified by 4-tuple Source IP Source Port # Dest IP Dest Port # Server host may support many simultaneous TCP sockets Web servers have different sockets for each connecting client (Non-persistent HTTP will have different socket for each request) Demux Receiver uses all four values to direct segment to appropriate socket 3-way handshake Connection setup Connection management Handshake Agree to establish connection Agree on connection parameters Retransmission Closing a connection Events Data received from application Create segment with seq # (a byte-stream number of first data byte in segment) Start timer if not already running Think of timer as for oldest unACKed segment Expiration interval: TimeOutInterval Timeout Retransmit segment that caused timeout Restart timer ACK received Update what is known to ACKed Start timer if there are still unACKed segment Shortcomings SYN DoS Attack Half-open TCP connections consume all the TCP connection resources SYN packet with a spoofed source address UDP Features</description><content:encoded><![CDATA[<h1 id="icom6012-internet-infrastructure-technologies">ICOM6012 Internet Infrastructure Technologies</h1>
-<h2 id="topic-4-transport-layer">Topic 4 Transport Layer</h2>
-<h2 id="actions">Actions</h2>
-<h3 id="sender">Sender</h3>
-<ul>
-<li>Get application layer message</li>
-<li>Determine segment header fields values</li>
-<li>Create segment</li>
-<li>Pass segment to IP</li>
-</ul>
-<h3 id="receiver">Receiver</h3>
-<ul>
-<li>Receive segment from IP</li>
-<li>Check header values</li>
-<li>Extract application layer message</li>
-<li>Demultiplexes message up to application via socket</li>
-</ul>
-<h2 id="services">Services</h2>
-<h3 id="provide-logical-communication-between-processes">Provide logical communication between processes</h3>
-<h3 id="run-in-end-system">Run in end system</h3>
-<ul>
-<li>Send side
-<ul>
-<li>Break app messages into segment</li>
-<li>Pass to network layer</li>
-</ul>
-</li>
-<li>Receive side
-<ul>
-<li>Reassembles segments into messages</li>
-<li>Pass to application layer</li>
-</ul>
-</li>
-</ul>
-<h2 id="protocols">Protocols</h2>
-<h3 id="tcp">TCP</h3>
-<ul>
-<li>Features
-<ul>
-<li>Point-to-point
-<ul>
-<li>One sender, one receiver</li>
-</ul>
-</li>
-<li>Reliable, in-order byte system
-<ul>
-<li>No message boundaries</li>
-</ul>
-</li>
-<li>Full duplex data
-<ul>
-<li>Bi-directional data flow in same connection</li>
-<li>MSS: maximum segment size (excluding header)</li>
-</ul>
-</li>
-<li>Cumulative ACKs</li>
-<li>Pipelining
-<ul>
-<li>TCP congestion and flow control set window size</li>
-</ul>
-</li>
-<li>Flow Control
-<ul>
-<li>Sender will not overwhelm receiver</li>
-</ul>
-</li>
-<li>Congestion control</li>
-</ul>
-</li>
-<li>Concepts
-<ul>
-<li>Segment structure</li>
-<li>Sequence numbers
-<ul>
-<li>Byte stream &ldquo;number&rdquo; of first byte in segment&rsquo;s data</li>
-</ul>
-</li>
-<li>Acknowledgements (ACKs)
-<ul>
-<li>Seq # of next byte expected from other side</li>
-<li>Cumulative ACKs</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Procedure
-<ul>
-<li>Connection-oriented
-<ul>
-<li>Handshaking initializes sender, receiver state before data exchange</li>
-<li>TCP socket identified by 4-tuple
-<ul>
-<li>Source IP</li>
-<li>Source Port #</li>
-<li>Dest IP</li>
-<li>Dest Port #</li>
-</ul>
-</li>
-<li>Server host may support many simultaneous TCP sockets</li>
-<li>Web servers have different sockets for each connecting client
-(Non-persistent HTTP will have different socket for each request)</li>
-<li>Demux
-<ul>
-<li>Receiver uses all four values to direct segment to appropriate socket</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>3-way handshake
-<ul>
-<li>Connection setup</li>
-</ul>
-</li>
-<li>Connection management
-<ul>
-<li>Handshake
-<ul>
-<li>Agree to establish connection</li>
-<li>Agree on connection parameters</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Retransmission</li>
-<li>Closing a connection</li>
-</ul>
-</li>
-<li>Events
-<ul>
-<li>Data received from application
-<ul>
-<li>Create segment with seq # (a byte-stream number of first data byte in segment)</li>
-<li>Start timer if not already running
-<ul>
-<li>Think of timer as for oldest unACKed segment</li>
-<li>Expiration interval: TimeOutInterval</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Timeout
-<ul>
-<li>Retransmit segment that caused timeout</li>
-<li>Restart timer</li>
-</ul>
-</li>
-<li>ACK received
-<ul>
-<li>Update what is known to ACKed</li>
-<li>Start timer if there are still unACKed segment</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Shortcomings
-<ul>
-<li>SYN DoS Attack
-<ul>
-<li>Half-open TCP connections consume all the TCP connection resources</li>
-<li>SYN packet with a spoofed source address</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="udp">UDP</h3>
-<ul>
-<li>
-<p>Features</p>
-<ul>
-<li>No frills</li>
-<li>Bare bones</li>
-<li>&ldquo;Best effort&rdquo;
-<ul>
-<li>Lost</li>
-<li>Delivered out-of-order to app</li>
-</ul>
-</li>
-<li>No handshaking</li>
-<li>Handle independently</li>
-<li>Services not available
-<ul>
-<li>Delay guarantee</li>
-<li>Bandwidth guarantee</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Concepts</p>
-<ul>
-<li>Segment format
-<ul>
-<li>Source port #</li>
-<li>Dest port #</li>
-<li>Length</li>
-<li>Checksum
-<ul>
-<li>Detect errors
-<ul>
-<li>Sender
-<ul>
-<li>Treat segement contents</li>
-<li>Checksum: 1&rsquo;s complement sum</li>
-<li>Put checksum into UDP field value</li>
-</ul>
-</li>
-<li>Receiver
-<ul>
-<li>Compute checksum of received segment</li>
-<li>Check equality
-<ul>
-<li>No: error detected</li>
-<li>Yes: no error detected (not sure)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Checksum calculation may be disabled in order to speed up the processing</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Procedure</p>
-<ul>
-<li>Connectionless demux
-<ul>
-<li>Create socket with unique local port #</li>
-<li>Sender side: create datagram to send into UDP socket
-<ul>
-<li>Dest IP</li>
-<li>Dest port #</li>
-</ul>
-</li>
-<li>Receive side: receive UDP segment
-(IP datagrams with same dest port #, but different source will be directed to same socket)
-<ul>
-<li>Check dest port #</li>
-<li>Direct UDP segment to socket with that port #</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Utilization</p>
-<ul>
-<li>Streaming multimedia apps
-<ul>
-<li>Loss tolerant</li>
-<li>Rate sensitive</li>
-</ul>
-</li>
-<li>DNS</li>
-<li>SNMP</li>
-<li>HTTP/3</li>
-</ul>
-</li>
-<li>
-<p>Shortcomings</p>
-<ul>
-<li>Need reliability at application layer</li>
-<li>Congestion control</li>
-</ul>
-</li>
-</ul>
-<h3 id="sctp">SCTP</h3>
-<h3 id="dccp">DCCP</h3>
-<h2 id="multiplexing-and-demultiplexing">Multiplexing and Demultiplexing</h2>
-<h3 id="multiplexing-at-sender">Multiplexing at sender</h3>
-<ul>
-<li>Handle data from multiple sockets, add transport header</li>
-</ul>
-<h3 id="demultiplexing-at-receiver">Demultiplexing at receiver</h3>
-<ul>
-<li>Handle data info to deliver received segments to correct socket</li>
-</ul>
-<h3 id="host-receivers-ip-datagram-host-uses-ip--port--to-redirect-segment">Host receivers IP datagram (Host uses IP &amp; port # to redirect segment)</h3>
-<ul>
-<li>Source IP</li>
-<li>Dest IP</li>
-<li>One transport layer segment
-<ul>
-<li>Source port #</li>
-<li>Dest port #</li>
-</ul>
-</li>
-</ul>
-<h2 id="congestion-control">Congestion Control</h2>
-<h3 id="cause">Cause</h3>
-<ul>
-<li>Too many sources sending too much data too fast for network to handle</li>
-</ul>
-<h3 id="manifestations">Manifestations</h3>
-<ul>
-<li>Long delay
-<ul>
-<li>Queueing in router buffers</li>
-</ul>
-</li>
-<li>Packet loss
-<ul>
-<li>Buffer overflow at network</li>
-</ul>
-</li>
-</ul>
-<h3 id="approaches">Approaches</h3>
-<ul>
-<li>End-end congestion control
-<ul>
-<li>Features
-<ul>
-<li>No explicit feedback from network</li>
-<li>Congestion inferred from observed loss, delay</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Network-assisted congestion control
-<ul>
-<li>Features
-<ul>
-<li>Routers provide direct feedback to hosts with flow passing through congested router</li>
-<li>May indicate congestion level or explicit set sending rate</li>
-<li>TCP ECN ATM DECbit protocols</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="tcp-congestion-control">TCP Congestion Control</h3>
-<ul>
-<li>AIMD
-<ul>
-<li>Sender can increase sending rate until packet loss occurs, then decrease</li>
-<li>Additive increase
-<ul>
-<li>1 MSS (maximum segment size) until loss detected</li>
-</ul>
-</li>
-<li>Multiplicative decrease
-<ul>
-<li>Cut sending rate in half at each loss event</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Detecting, reacting to loss
-<ul>
-<li>ACKs problem
-<ul>
-<li>cwnd is cut in half</li>
-<li>Window grow linearly</li>
-</ul>
-</li>
-<li>Timeout event
-<ul>
-<li>cwnd is set to 1 MSS</li>
-<li>Window grow exponentially to threshold, then linearly</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>TCP slow start
-<ul>
-<li>Initially cwnd = 1 MSS</li>
-<li>Double cwnd every RTT</li>
-<li>Done by incrementing cwnd for every ACK received</li>
 </ul>
 </li>
 </ul>
