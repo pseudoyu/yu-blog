@@ -110,5 +110,3 @@ authors:
 - [为了保护非遗，我把万元瓷器砸成碎片](https://www.bilibili.com/video/BV1984y1g7uV)
 - [把 9 年日记分享给 ChatGPT 后，它到底有多离谱？](https://www.bilibili.com/video/BV1Mg4y1g71v)
 - [孔乙己脱不下的长衫，我给他脱明白了](https://www.bilibili.com/video/BV1v84y1g7jG)
-
-> 我的博客即将同步至腾讯云开发者社区，邀请大家一同入驻：<https://cloud.tencent.com/developer/support-plan?invite_code=21j6bjsv0lnos>
