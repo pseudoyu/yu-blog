@@ -49,11 +49,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         7 hrs 58 mins  ████████░░░░░░░░░░░░░  38.5%
-Solidity   3 hrs 56 mins  ████░░░░░░░░░░░░░░░░░  19.1%
-YAML       2 hrs 17 mins  ██▎░░░░░░░░░░░░░░░░░░  11.1%
-Other      1 hr 47 mins   █▊░░░░░░░░░░░░░░░░░░░   8.7%
-TypeScript 1 hr 9 mins    █▏░░░░░░░░░░░░░░░░░░░   5.6%
+Solidity   7 hrs 31 mins  ███████▏░░░░░░░░░░░░░  34.1%
+Go         7 hrs 25 mins  ███████░░░░░░░░░░░░░░  33.6%
+Other      1 hr 44 mins   █▋░░░░░░░░░░░░░░░░░░░   7.9%
+YAML       1 hr 43 mins   █▋░░░░░░░░░░░░░░░░░░░   7.8%
+TypeScript 1 hr 1 min     ▉░░░░░░░░░░░░░░░░░░░░   4.6%
 ```
 
 <!-- code_time ends -->
