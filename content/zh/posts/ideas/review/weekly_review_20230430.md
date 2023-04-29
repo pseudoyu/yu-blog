@@ -2,7 +2,7 @@
 title: "周报 #38 - Foundry 合约测试、Logseq 任务管理与 Surge Ponte 远程开发"
 date: 2023-04-30T00:10:03+08:00
 draft: false
-tags: ["review", "life", "home", "city", "travel", "work", "wuhan", "hongkong", "mayday", "web3", "friend"]
+tags: ["review", "life", "work", "foundry", "solidity", "web3", "pkm", "surge", "surge ponte", "logseq"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"

@@ -2,7 +2,7 @@
 title: "周报 #38 - Foundry 合约测试、Logseq 任务管理与 Surge Ponte 远程开发"
 date: 2023-04-30T00:10:03+08:00
 draft: false
-tags: ["review", "life", "home", "city", "travel", "work", "wuhan", "hongkong", "mayday", "web3", "friend"]
+tags: ["review", "life", "work", "foundry", "solidity", "web3", "pkm", "surge", "surge ponte", "logseq"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
@@ -26,7 +26,7 @@ authors:
 
 有趣的是因为密集参加了深圳团建、香港 Web3 Festival 和杭州的一波团建，细数自己已经见过公司的接近 20 位同事了，在一个 fully remote 工作模式的团队还是挺不容易的。还很幸运地赶上了线上年会，见到了很多只存在于 slack 对话框的有趣的同事们（各路神仙），表演个节目能发掘一个 rapper，玩个俄罗斯方块都能感觉到人与人之间的参差。
 
-经过一些沟通，工作内容上做了一些调整，可以同步继续做一些智能合约开发和链相关的研发与探索，也能更深度参与自己喜欢的产品（看看还有谁还没在用 [xLog](https://xlog.app/) 和 [xSync](https://xsync.app/)，具体可以看看这篇「[周报 #25 - 基于 Crossbell 的个人信息输出与同步系统](https://www.pseudoyu.com/zh/2023/01/09/weekly_review_20230109/)」），虽然可能工作量和时间上需要多一些平衡，但还是有点小开心能有这样选择的自由度。
+经过一些沟通，工作内容上做了一些调整，可以同步继续做一些智能合约开发和链相关的研发与探索，也能更深度参与自己喜欢的产品（看看还有谁还没在用 [xLog](https://xlog.app/) 和 [xSync](https://xsync.app/)，具体可以看看这篇「[周报 #25 - 基于 Crossbell 的个人信息输出与同步系统](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/)」），虽然可能工作量和时间上需要多一些平衡，但还是有点小开心能有这样选择的自由度。
 
 ## Foundry 与合约测试
 
@@ -74,7 +74,7 @@ authors:
 
 自己在网络、各种硬件设备和系统的折腾上属于又菜又爱玩的类型了，之前也探索过瘦客户端开发的一些最佳实践，详情可以看这篇文章：
 
-- [基于 frp 内网穿透的瘦客户端开发工作流](https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
+- [基于 frp 内网穿透的瘦客户端开发工作流](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
 
 其中最核心也是最难的点就是怎么在外部网络环境下访问家里的设备，如服务器、Mac 主机等等。在我之前的方案中使用的是 frp 这一工具进行内网穿透，大半年过去了，很稳，依然是首选推荐的方案。
 
