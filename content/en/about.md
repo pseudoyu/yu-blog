@@ -6,7 +6,7 @@ weight: 100
 rss_ignore: true
 ---
 
-## ✋ Hi, I'm [Yu Zhang](https://www.pseudoyu.com)
+## ✋ Hi, I'm [pseudoyu](https://www.pseudoyu.com)
 
 I'm [Yu Zhang](https://www.pseudoyu.com), Blockchain Developer, MSc Graduate in ECIC(Electronic Commerce and Internet Computing) @ The University of Hong Kong (HKU). Love to learn and build things. Follow me on [GitHub](https://github.com/pseudoyu). Know me on [Telegram Channel](https://t.me/pseudoyulife).
 

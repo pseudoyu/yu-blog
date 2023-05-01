@@ -6,7 +6,7 @@ weight: 100
 rss_ignore: true
 ---
 
-## ✋ Hi，我是 [Yu Zhang](https://www.pseudoyu.com)
+## ✋ Hi，我是 [pseudoyu](https://www.pseudoyu.com)
 
 区块链开发工程师，香港大学计算机系硕士（ECIC, Electronic Commerce and Internet Computing）。喜欢探索新技术，空闲时也折腾 Logseq 等效率工具。在 [GitHub](https://github.com/pseudoyu) 关注我。在我的 [Telegram 频道](https://t.me/pseudoyulife)了解更多。
 

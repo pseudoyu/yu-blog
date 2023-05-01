@@ -3,7 +3,7 @@
  <h3 align="center">👨🏻‍💻 Learning 👨🏻‍💻</h3>
 </p>
 
-### Hey there <img src='https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hey.gif' alt='Hi' width="24"/> 
+### Hey there <img src='https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/hey.gif' alt='Hi' width="24"/>
 <a href="https://twitter.com/pseudo_yu">
   <img align="left" alt="Yu's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/twitter.svg"/>
 </a>
@@ -42,7 +42,7 @@
 
 ![dino](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/dino.gif)
 
-I'm [Yu Zhang](https://www.pseudoyu.com), Blockchain Developer, MSc Graduate in ECIC(Electronic Commerce and Internet Computing) @ The University of Hong Kong (HKU). Love to learn and build things. Follow me on [GitHub](https://github.com/pseudoyu). Know me on [Telegram Channel](https://t.me/pseudoyulife).
+I'm [pseudoyu](https://www.pseudoyu.com), Blockchain Developer, MSc Graduate in ECIC(Electronic Commerce and Internet Computing) @ The University of Hong Kong (HKU). Love to learn and build things. Follow me on [GitHub](https://github.com/pseudoyu). Know me on [Telegram Channel](https://t.me/pseudoyulife).
 
 I want to learn things and become a better person. I enjoy reading, thinking and writing in my leisure time.
 
