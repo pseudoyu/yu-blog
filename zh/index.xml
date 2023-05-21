@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 30 Apr 2023 00:10:03 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #38 - Foundry 合约测试、Logseq 任务管理与 Surge Ponte 远程开发</title><link>https://www.pseudoyu.com/zh/2023/04/30/weekly_review_20230430/</link><pubDate>Sun, 30 Apr 2023 00:10:03 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2023/04/30/weekly_review_20230430/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-04-19 到 2023-04-30 这两周生活的记录与思考。 上篇周报提到进行了一场穿越多个城市的旅途，回到杭州后渐渐恢复了原本的生活节奏</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sat, 20 May 2023 23:15:43 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #39 - 初患新冠、过去的心绪与失而复得的分享欲</title><link>https://www.pseudoyu.com/zh/2023/05/20/weekly_review_20230520/</link><pubDate>Sat, 20 May 2023 23:15:43 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2023/05/20/weekly_review_20230520/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-05-01 到 2023-05-20 这三周生活的记录与思考。 敲下上面这一行字的时候才发现居然已经拖延到了三周之久，期间其实发生了不少有意</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230520_cover.png" alt="weekly_review_20230520_cover"></p>
+<p>本篇是对 <code>2023-05-01</code> 到 <code>2023-05-20</code> 这三周生活的记录与思考。</p>
+<p>敲下上面这一行字的时候才发现居然已经拖延到了三周之久，期间其实发生了不少有意思的事，但是似乎自己的分享欲正在逐渐丧失，只是在 Logseq 中记下一些零碎的想法，几次提笔想要整理还是没什么思路，遂也没有勉强，停滞到了上周其实也已经渐渐恢复，却又由于一个即将上线的需求而变得有些忙碌，搁置到了这个周末，不知不觉就到了现在。</p>
+<p>说来神奇，苟过了疫情三年，成为了身边罕见的没有阳过的人，却在这一波中招了。周末烧到了 39.5 度甚至还以为只是个小感冒，等周一康复差不多了才想着测试一下抗原，果然两条杠了，不过整体来说算是轻症，烧了一天，喉咙吞刀片也就一天，就慢慢康复了，也算是速通新冠了。</p>
+<p>所以这个周末处于一个一切都有在好转的时刻。项目大部分的需求已经完成，算是暂得一些喘息的时间；新冠初愈，也算是给自己的身体一个警醒；绝育后的捏捏拆线了，恢复了活泼的性子；自己也开始恢复正常的输入输出频率。</p>
+<p>五一去了趟成都参加活动，也见到了一些朋友；匆匆行程后去西安休闲旅游，见到了久违的大学舍友，几年之约终于达成，却差点被返工潮困在机场；还有很多有意思的事。</p>
+<h2 id="故友与过去的心绪">故友与过去的心绪</h2>
+<p>我有一个舍友，尽管只是大一一年同窗（后来他转专业走了），却一直联系到现在，自己能定义为朋友的人日渐稀少，也就尤其珍贵。大学时约定在他的家乡西宁见，几年过去了，我奔波了几个城市，他在西安工作定居了。几年未见，于是趁着五一去了一趟西安，算不上旅游，只是喝喝酒、聊聊天，一如往日。</p>
+<p>印象里的他不羁、愤世嫉俗，由于常常聊天或是电话，久违后的相见依旧熟悉，在有些无聊的工作日常之外，依然坚持着跑步、弹吉他、看书，依然对世俗的东西不屑不满，却也在自己的轨迹下生活着，多了几分温和。</p>
+<p><img src="https://image.pseudoyu.com/images/meet_with_ledi.jpg" alt="meet_with_ledi"></p>
+<p>因为是第一次去西安，尽管是五一，还是踩着人流去了下大雁塔这样的旅游胜地，但只是匆匆一瞥。之前还很热衷于摄影的时候，走到哪总会带着相机多拍几张，旅程结束后修图、分享，但随着疫情几年，这样的热情已渐渐褪去，这两年的出行，即使一时兴起带了相机，常常也没能拍什么，似乎不论是自然还是人文景观都已经很难真正吸引到自己，留下更多的反而是随手拍的合照。</p>
+<h2 id="失而复得的分享欲">失而复得的分享欲</h2>
+<p><img src="https://image.pseudoyu.com/images/memories_in_t5.png" alt="memories_in_t5"></p>
+<p>硬盘里也躺着不少未整理的照片视频素材，其中大部分已经被时间熬到不合时宜，只好当作记忆的一部分散落在某个文件夹里，还记得 2021 年的生日前，由于发生了很多很多事，拍了一些视频，想着把那些事分享记录下来，作为一种视频的生日总结，最后没再去梳理那些素材，后来甚至连文字都没留下什么。</p>
+<p>直到 2022 年重新开始记录，一晃，一年也过去了，可能由于是相近的时刻，最近也常常有些失眠，又难免地去翻阅一些痕迹，或是在好友聊天时突然的一句“原来已经整整一年过去了”感慨。最近想要落笔写些东西的时候也常常担心会继续写那些有些丧丧的情绪，虽然真实，却也无力，让自己感到疲惫。</p>
+<p>仔细想想，这一年里做了一些改变，或多或少更接近自己想要成为的人；如愿有了不论是工作还是日常的一些自由度，离生活本身更近了；尽管还是时常有拖延，但还是记录下了许多自己的想法和感悟，更多地去思考自我；学了一些自己想学的东西，也更多探索和实践自己的想法；也在朋友的陪伴下经历了一些有趣的事，不至于像是去年那样沉溺在自己的世界里。</p>
+<p>一切似乎都有在慢慢变好，没法改变的事也总归是要下定决心走出。我如是安慰自己。</p>
+<p>好在最近不论是工作还是生活上一些事的进展还不错，有了一些积极的信号，也渐渐发现分享欲与创作欲的回归，浅浅梳理了一下，才发现想做和要做的事有很多，因为种种原因搁置了许多，开始一件件捡起来。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="github-copilot-chat">GitHub Copilot Chat</h3>
+<p><img src="https://image.pseudoyu.com/images/github_copilot_chat_use.png" alt="github_copilot_chat_use"></p>
+<p>最近算是高度依赖上了 AI 辅助编程，大部分时间用的是 ChatGPT 和 GitHub Copilot 插件，而最近刚好 Copilot Chat 内测通过了，打算切换尝试一下。</p>
+<p>ChatGPT Plus 感觉扣费好像除了一些问题，估计到期后要再想办法了，可能可以尝试一下通过美区礼品卡的方式续上，真折腾。</p>
+<h3 id="vs-code">VS Code</h3>
+<p><img src="https://image.pseudoyu.com/images/eva_vscode_theme.png" alt="eva_vscode_theme"></p>
+<p>另外因为一直在用 VS Code（在团队被 Jetbrains 党鄙视至今依然坚守），通过了 <a href="https://twitter.com/DIYgod">DIYGod</a> 的一条推文发现了这个 <a href="https://marketplace.visualstudio.com/items?itemName=RuDevIO.evangelion-theme">EVA 主题</a>，有种莫名的 Coding 力加成，感觉 Bug 都少了，果然颜值才是第一生产力。</p>
+<p>自己程序启动器这一块，一直在混用 Alfred 和 Raycast，Alfred 是因为用习惯了，且买了 Mega Supporter 的 License，但是又眼馋 Raycast 的插件生态。</p>
+<p><img src="https://image.pseudoyu.com/images/raycast_vscode.png" alt="raycast_vscode"></p>
+<p><img src="https://image.pseudoyu.com/images/raycast_vscode_recent_project.png" alt="raycast_vscode_recent_project"></p>
+<p>最近发现 Raycast 可以把插件的很多功能通过全局快捷键的方式配置调用，由于经常需要打开不同的 VS Code 项目，于是把用 VS Code 打开和最近项目两个功能分别配置了 <code>Option</code> + <code>.</code> 和 <code>Option</code> + <code>,</code>，高度依赖上了。</p>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://medium.com/1kxnetwork/application-specific-blockchains-9a36511c832">Application-Specific Blockchains: The Past, Present, and Future</a></li>
+<li><a href="https://neon.tech/blog/building-an-ai-powered-chatbot-using-vercel-openai-and-postgres">Building an AI-powered ChatBot using Vercel, OpenAI, and Postgres - Neon</a></li>
+<li><a href="https://medium.com/@poporuii/should-we-bullish-on-account-abstraction-aa-and-how-to-evaluate-erc4337-5f15e30507e">Everything we care about Account Abstraction(AA) — ERC4337</a></li>
+<li><a href="https://geekplux.com/posts/internet-privacy">Enhance Your Internet Privacy in 2023 - GeekPlux</a></li>
+<li><a href="https://manateelazycat.github.io/emacs/eaf/2023/05/06/the-principle-of-immersive-translation.html">网页沉浸式双语翻译的原理</a></li>
+<li><a href="https://sixdegreelab.gitbook.io/mastering-chain-analytics/zhong-ji-jiao-cheng/11_dune_sql">#15 Dune SQL 查询引擎入门 - Mastering Chain Analytics</a></li>
+<li><a href="https://lutaonan.com/blog/how-do-i-take-note/">我的笔记管理法 | Randy&rsquo;s Blog</a></li>
+<li><a href="https://nova.moe/cloudflared-distributed/">分布式部署 cloudflared 让访客就近回源，进一步提升访问速度</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<p>记录一下看过的有意思的视频：</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=8gd_WtBPxaw">我们做了个能对话的 AI 派蒙，免费给大家玩！</a></li>
+<li><a href="https://www.youtube.com/watch?v=Y6KDk5iyrYE">Next.js 13 Crash Course | App Directory, React Server Components &amp; More</a></li>
+<li><a href="https://www.bilibili.com/video/BV1cs4y1372B">社区自古以来就不好变现</a></li>
+<li><a href="https://www.bilibili.com/video/BV18a4y1g7xc">50 元 vs 2000 元的剪辑，你能看出区别吗？</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Gg4y1L7ah">我为什么在 30 岁花 50w 去上学？</a></li>
+<li><a href="https://www.bilibili.com/video/BV1zc411T7j7">两年后，我还在用 Linux 吗？</a></li>
+<li><a href="https://www.bilibili.com/video/BV1FP411S7fo">这届年轻人忧伤的主题是什么？《那些忧伤的年轻人》菲茨杰拉德</a></li>
+<li><a href="https://www.youtube.com/watch?v=kgmdIFNu0Qk">我如何做笔记</a></li>
+<li><a href="https://www.youtube.com/watch?v=vw-KWfKwvTQ">GPT-4 - How does it work, and how do I build apps with it? - CS50 Tech Talk</a></li>
+</ul>
+<h4 id="播客">播客</h4>
+<p>记录一下看过的有意思的播客：</p>
+<ul>
+<li><a href="https://www.listennotes.com/e/7035b7b7f57f4413b016526bd4a72b2f">No.28 和 xlog.app 的作者 DIYGOD 聊区块链和博客平台、前端学习和生活感悟</a></li>
+</ul>
+<h4 id="动漫">动漫</h4>
+<ul>
+<li><strong>鬼灭之刃 锻刀村篇</strong>，第三集开始燃起来了，追番中</li>
+<li><strong>我推的孩子</strong>，确实是刀啊，追番中</li>
+<li><strong>四叠半神话大系</strong>，早有耳闻却是断续着看完的番，就呈现方式和风格上很有一种物语系列的即视感。一事无成的主角，循环流的设定、对于未知可能性的诠释，即使到了现在依然新颖，也常常会想，自己其实也同样困于四叠半的空间里，却不知道什么时候才能有打破的勇气。</li>
+<li><strong>异世界归来的舅舅</strong>，忘了是几月番了，感觉停更了好长一阵子，历时大半年，这两天才补完，娱乐日常向，设定挺有意思但是剧情没太多新颖的部分，基本做点别的事的时候放着。</li>
+<li><strong>电锯人</strong>，补标一下，经典重温了算是，动画质量在线。</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #38 - Foundry 合约测试、Logseq 任务管理与 Surge Ponte 远程开发</title><link>https://www.pseudoyu.com/zh/2023/04/30/weekly_review_20230430/</link><pubDate>Sun, 30 Apr 2023 00:10:03 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2023/04/30/weekly_review_20230430/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-04-19 到 2023-04-30 这两周生活的记录与思考。 上篇周报提到进行了一场穿越多个城市的旅途，回到杭州后渐渐恢复了原本的生活节奏</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/here_after_us.mp3" type="audio/mpeg">
@@ -12885,383 +12962,5 @@ Data A collecion of facts about certain group of objects Pattern Certain charact
 <li>Buying habits</li>
 <li>Web serving behavior</li>
 <li>Web log analysis</li>
-</ul>
-]]></content:encoded></item><item><title>COMP7801 Topic 1a Relational Database</title><link>https://www.pseudoyu.com/zh/2021/01/23/comp7801_topic1a/</link><pubDate>Sat, 23 Jan 2021 01:18:17 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2021/01/23/comp7801_topic1a/</guid><description>Relational Databases Structure of Relational Databases Basic structure Given sets D1, D2, &amp;hellip;, Dn A relation r is a subset of D1 x D2 x &amp;hellip;, x Dn A relation is a set of n-tuples (a1, a2, &amp;hellip;, an) where each ai Di Example
-if customer-name = {Jones, Smith, Curry, Lindsay} customer-street = {Main, North, Park} customer-city = {Harrison, Rye, Pittsfield} Then r = {(Jones, Main, Harrison), (Smith, North, Rye), (Curry, North, Rye), (Lindsay, Park, Pittsfield)} is a relation over customer-name x customer-street x customer-city Attribute Types Each attribute of a relation has a name The set of allowed values for each attribute is called the domain of the attribute Relation Schema A1, A2, &amp;hellip;, An are attributes R = (A1, A2, &amp;hellip;, An ) is a relation schema E.</description><content:encoded><![CDATA[<h2 id="relational-databases">Relational Databases</h2>
-<h3 id="structure-of-relational-databases">Structure of Relational Databases</h3>
-<h4 id="basic-structure">Basic structure</h4>
-<ul>
-<li>Given sets D1, D2, &hellip;, Dn</li>
-<li>A relation r is a subset of D1 x  D2  x &hellip;, x Dn</li>
-<li>A relation is a set of n-tuples (a1, a2, &hellip;, an) where each ai  <belong to> Di</li>
-</ul>
-<p><strong>Example</strong></p>
-<ul>
-<li>if
-<ul>
-<li><code>customer-name = {Jones, Smith, Curry, Lindsay}</code></li>
-<li><code>customer-street = {Main, North, Park}</code></li>
-<li><code>customer-city = {Harrison, Rye, Pittsfield}</code></li>
-</ul>
-</li>
-<li>Then
-<ul>
-<li><code>r = {(Jones, Main, Harrison), (Smith, North, Rye), (Curry, North, Rye), (Lindsay, Park, Pittsfield)}</code> is a relation over customer-name x customer-street x customer-city</li>
-</ul>
-</li>
-</ul>
-<h4 id="attribute-types">Attribute Types</h4>
-<ul>
-<li>Each attribute of a relation has a name</li>
-<li>The set of allowed values for each attribute is called the domain of the attribute</li>
-</ul>
-<h4 id="relation-schema">Relation Schema</h4>
-<ul>
-<li>A1, A2, &hellip;, An are attributes</li>
-<li>R = (A1, A2, &hellip;, An ) is a relation schema
-<ul>
-<li>E.g. <code>Account-schema = (account-number, branch-name, balance)</code></li>
-</ul>
-</li>
-<li>r(R) is a relation on the relation schema R
-<ul>
-<li>E.g. <code>customer(Customer-schema)</code></li>
-</ul>
-</li>
-</ul>
-<h4 id="relation-instance">Relation Instance</h4>
-<ul>
-<li>The current values (relation instance) of a relation are specified by a table</li>
-<li>An element t of r is a tuple, represented by a row in a table</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/relation_instance.png" alt="relation_instance"></p>
-<h3 id="database">Database</h3>
-<ul>
-<li>A database consists of multiple relations which are inter-related</li>
-<li>Information about an enterprise is broken up into parts, with each relation storing one part of the information</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/database_overview.png" alt="database_overview"></p>
-<h4 id="query-language">Query language</h4>
-<p>Language in which user requests information from the database</p>
-<ul>
-<li>Categories
-<ul>
-<li>procedural</li>
-<li>non-procedural</li>
-</ul>
-</li>
-<li>Pure languages
-<ul>
-<li>Relational Algebra
-<ul>
-<li>The operators take one or more relations as inputs and give a new relation as a result</li>
-<li>Operations
-<ul>
-<li>select</li>
-<li>project</li>
-<li>union</li>
-<li>set-Intersection</li>
-<li>set difference</li>
-<li>cartesian product</li>
-<li>rename</li>
-<li>Natural Join</li>
-<li>Aggregate Functions
-<ul>
-<li>avg:  average value</li>
-<li>min:  minimum value</li>
-<li>max:  maximum value</li>
-<li>sum:  sum of values</li>
-<li>count:  number of values</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Relational Calculus</li>
-</ul>
-</li>
-</ul>
-<p><strong>SQL</strong></p>
-<ul>
-<li>SQL is based on set and relational operations with certain modifications and enhancements</li>
-<li>A typical SQL query has the form
-<ul>
-<li><code>select A1, A2, ..., Anfrom r1, r2, ..., rm where P</code></li>
-</ul>
-</li>
-<li>The result of an SQL query is a multiset of tuples</li>
-<li>Clauses
-<ul>
-<li>select
-<ul>
-<li>To force the elimination of duplicates, insert the keyword <code>distinct</code> after <code>select</code></li>
-</ul>
-</li>
-<li>where
-<ul>
-<li>The where clause specifies conditions that the result must satisfy
-<ul>
-<li>Comparison results can be combined using the logical connectives and, or, and not</li>
-<li>Comparisons can be applied to results of arithmetic expressions</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>from
-<ul>
-<li>The from clause lists the relations involved in the query</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Aggregate Functions
-<ul>
-<li>Group By
-<ul>
-<li>Find the number of depositors for each branch
-<ul>
-<li><code>select branch-name,count (distinct customer-name)from depositor,account where depositor.account-number = account.account-numbergroup by branch-name</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Having
-<ul>
-<li>formation of groups whereas predicates in the where clause are applied before forming groups</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>Query Evaluation</strong></p>
-<ul>
-<li>Basic operations
-<ul>
-<li>Selections</li>
-<li>Joins</li>
-<li>Other operations (projection, aggregation)</li>
-</ul>
-</li>
-<li>Transformation of queries into a tree of operations</li>
-</ul>
-<p><strong>Query Optimizationh</strong></p>
-<ul>
-<li>Many equivalent expressions to the original query can be derived</li>
-<li>The query optimizer uses statistical data and appropriate algorithms to compute an expression of low evaluation cost</li>
-</ul>
-<h3 id="storage-of-databases">Storage of databases</h3>
-<h4 id="physical-storage-media">Physical Storage Media</h4>
-<ul>
-<li>Cache
-<ul>
-<li>fastest and most costly form of storage</li>
-<li>volatile</li>
-<li>managed by the computer system hardware</li>
-</ul>
-</li>
-<li>Main memory
-<ul>
-<li>fast access</li>
-<li>generally too small (or too expensive) to store the entire database</li>
-<li>Volatile
-<ul>
-<li>contents of main memory are usually lost if a power failure or system crash occurs</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Magnetic-disk
-<ul>
-<li>Data is stored on spinning disk, and read/written magnetically</li>
-<li>Primary medium for the long-term storage of data</li>
-<li>typically stores entire database</li>
-<li>Data must be moved from disk to main memory for access, and written back for storage
-<ul>
-<li>Much slower access than main memory</li>
-</ul>
-</li>
-<li>direct-access –  possible to read data on disk in any order, unlike magnetic tape</li>
-<li>Capacities range up to several TB currently</li>
-<li>Survives power failures and system crashes</li>
-</ul>
-</li>
-</ul>
-<h4 id="storage-hierarchy">Storage Hierarchy</h4>
-<ul>
-<li>Primary storage
-<ul>
-<li>Fastest media but volatile (cache, main memory).</li>
-</ul>
-</li>
-<li>Secondary storage</li>
-<li>Next level in hierarchy, non-volatile, moderately fast access time
-<ul>
-<li>Also called on-line storage, E.g. flash memory, magnetic disks</li>
-</ul>
-</li>
-<li>Tertiary storage: lowest level in hierarchy, non-volatile, slow access time
-<ul>
-<li>Also called off-line storage, E.g. magnetic tape, optical storage</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/memory_hierarchy.png" alt="memory_hierarchy"></p>
-<h4 id="magnetic-disks">Magnetic Disks</h4>
-<ul>
-<li>Read-write head
-<ul>
-<li>Positioned very close to the platter surface (almost touching it)</li>
-<li>Reads or writes magnetically encoded information.</li>
-</ul>
-</li>
-<li>Surface of platter divided into circular tracks
-<ul>
-<li>Over 16,000 tracks per platter on typical hard disks</li>
-</ul>
-</li>
-<li>Each track is divided into sectors
-<ul>
-<li>A sector is the smallest unit of data that can be read or written</li>
-<li>Sector size typically 512 bytes</li>
-<li>Typical sectors per track: 200 (on inner tracks) to 400 (on outer tracks)</li>
-</ul>
-</li>
-<li>To read/write a sector
-<ul>
-<li>disk arm swings to position head on right track</li>
-<li>platter spins continually; data is read/written as sector passes under head</li>
-</ul>
-</li>
-<li>Head-disk assemblies
-<ul>
-<li>multiple disk platters on a single spindle (typically 2 to 4)</li>
-<li>one head per platter, mounted on a common arm.</li>
-</ul>
-</li>
-<li>Cylinder i consists of ith track of all the platters</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/magnetic_hard_disk.png" alt="magnetic_hard_disk"></p>
-<h4 id="performance-measures-of-disks">Performance Measures of Disks</h4>
-<ul>
-<li>Access time – the time it takes from when a read or write request is issued to when data transfer begins
-<ul>
-<li>Seek time – time it takes to reposition the arm over the correct track
-<ul>
-<li>Average seek time is 1/2 the worst case seek time
-<ul>
-<li>Would be 1/3 if all tracks had the same number of sectors, and we ignore the time to start and stop arm movement</li>
-</ul>
-</li>
-<li>4 to 10 milliseconds on typical disks</li>
-</ul>
-</li>
-<li>Rotational latency – time it takes for the sector to be accessed to appear under the head
-<ul>
-<li>Average latency is 1/2 of the worst case latency</li>
-<li>4 to 11 milliseconds on typical disks (5400 to 15000 r.p.m.)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Data-transfer rate – the rate at which data can be retrieved from or stored to the disk
-<ul>
-<li>4 to 8 MB per second is typical</li>
-<li>Multiple disks may share a controller, so rate that controller can handle is also important</li>
-</ul>
-</li>
-</ul>
-<h4 id="optimization-of-disk-block-access">Optimization of Disk-Block Access</h4>
-<ul>
-<li>Block – a contiguous sequence of sectors from a single track
-<ul>
-<li>data is transferred between disk and main memory in blocks</li>
-<li>sizes range from 512 bytes to several kilobytes
-<ul>
-<li>Smaller blocks: more transfers from disk</li>
-<li>Larger blocks:  more space wasted due to partially filled blocks</li>
-<li>Typical block sizes today range from 4 to 16 kilobytes</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Disk-arm-scheduling algorithms order pending accesses to tracks so that disk arm movement is minimized</li>
-</ul>
-<h4 id="storage-access">Storage Access</h4>
-<ul>
-<li>A database file is partitioned into fixed-length storage units called blocks.  Blocks are units of both storage allocation and data transfer. Typical size of a block ranges between 4Kb-16Kb</li>
-<li>Database system seeks to minimize the number of block transfers between the disk and memory.  We can reduce the number of disk accesses by keeping as many blocks as possible in main memory</li>
-<li>Buffer
-<ul>
-<li>portion of main memory available to store copies of disk blocks.</li>
-</ul>
-</li>
-<li>Buffer manager
-<ul>
-<li>subsystem responsible for allocating buffer space in main memory.</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/storage_access.png" alt="storage_access"></p>
-<h4 id="buffer-manager">Buffer manager</h4>
-<ul>
-<li>Programs call on the buffer manager when they need a block from disk
-<ul>
-<li>If the block is already in the buffer, the requesting program is given the address of the block in main memory</li>
-<li>If the block is not in the buffer
-<ul>
-<li>the buffer manager allocates space in the buffer for the block, replacing (throwing out) some other block, if required, to make space for the new block</li>
-<li>The block that is thrown out is written back to disk only if it was modified since the most recent time that it was written to/fetched from the disk</li>
-<li>Once space is allocated in the buffer, the buffer manager reads the block from the disk to the buffer, and passes the address of the block in main memory to requester</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>Buffer-Replacement Policies</strong></p>
-<ul>
-<li>Most operating systems replace the block least recently used (LRU strategy)</li>
-<li>Idea behind LRU – use past pattern of block references as a predictor of future references. If a block has not been recently used, then it is unlikely that it will be used in the near future</li>
-<li>This replacement policy is also used at different applications. A proxy server keeps in the most recently used web pages in a local cache. If a user requests again a page he has seen, it does not need to be downloaded again in the future</li>
-<li>LRU works well for unpredicted access patterns</li>
-<li>However, queries have well-defined access patterns (such as sequential scans), and a database system can use the information in a user’s query to predict future references</li>
-<li>LRU can be a bad strategy for certain access patterns involving repeated scans of data. Mixed strategy with hints on replacement strategy provided by the query optimizer is preferable</li>
-</ul>
-<h4 id="file-organization">File Organization</h4>
-<ul>
-<li>The database is stored as a collection of files. Each file is a sequence of records. A record is a sequence of fields</li>
-<li>Each record has an address in the file, which is called record pointer or record id (simply rid)</li>
-<li>A simple approach
-<ul>
-<li>assume record size is fixed</li>
-<li>each file has records of one particular type only</li>
-<li>different files are used for different relations</li>
-</ul>
-</li>
-</ul>
-<p><strong>Organization of Records in Files</strong></p>
-<ul>
-<li>Heap
-<ul>
-<li>a record can be placed anywhere in the file where there is space</li>
-</ul>
-</li>
-<li>Sequential
-<ul>
-<li>store records in sequential order, based on the value of the search key of each record</li>
-</ul>
-</li>
-<li>Hashing
-<ul>
-<li>a hash function computed on some attribute of each record; the result specifies in which block of the file the record should be placed</li>
-</ul>
-</li>
-<li>Records of each relation may be stored in a separate file. In a  clustered file organization  records of several different relations can be stored in the same file
-<ul>
-<li>Motivation: store related records on the same block to minimize I/O</li>
-<li>However, not good for queries accessing only a few relations</li>
-<li>In general, this representation is barely used</li>
-</ul>
-</li>
 </ul>
 ]]></content:encoded></item></channel></rss>
