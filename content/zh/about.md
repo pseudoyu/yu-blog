@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Swift      13 hrs 49 mins █████████▉░░░░░░░░░░░  47.1%
-TypeScript 8 hrs 5 mins   █████▊░░░░░░░░░░░░░░░  27.6%
-Go         2 hrs 32 mins  █▊░░░░░░░░░░░░░░░░░░░   8.6%
-Other      1 hr 27 mins   █░░░░░░░░░░░░░░░░░░░░   4.9%
-JavaScript 1 hr 14 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.2%
+Swift      10 hrs 6 mins  ██████▋░░░░░░░░░░░░░░  31.7%
+TypeScript 9 hrs 1 min    █████▉░░░░░░░░░░░░░░░  28.3%
+Markdown   4 hrs 45 mins  ███▏░░░░░░░░░░░░░░░░░  14.9%
+Go         2 hrs 40 mins  █▊░░░░░░░░░░░░░░░░░░░   8.4%
+Other      1 hr 51 mins   █▏░░░░░░░░░░░░░░░░░░░   5.8%
 ```
 
 <!-- code_time ends -->
