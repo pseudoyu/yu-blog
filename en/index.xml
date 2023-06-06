@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 May 2023 12:57:44 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #40 - 开源之夏、代码之外与流逝的睡眠</title><link>https://www.pseudoyu.com/en/2023/05/30/weekly_review_20230530/</link><pubDate>Tue, 30 May 2023 12:57:44 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/05/30/weekly_review_20230530/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-05-21 到 2023-05-29 这周生活的记录与思考。 到了周末才意识到这周完全没下过楼，似乎已经成为了生活的常态。不过效率还可以，工</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 06 Jun 2023 19:42:26 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>26 岁的自白：推石头的人</title><link>https://www.pseudoyu.com/en/2023/06/06/yearly_review_26/</link><pubDate>Tue, 06 Jun 2023 19:42:26 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/06/06/yearly_review_26/</guid><description>《后来的我们 - 五月天》 26 岁的自白：推石头的人 现在是 2023 年 6 月 6 日，我 26 岁了，其实随着年龄见长，对于生日本身已经没有太多仪式感或是期待，只是依然</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
+</figure>
+<h2 id="26-岁的自白推石头的人">26 岁的自白：推石头的人</h2>
+<p><img src="https://image.pseudoyu.com/images/yearly_review_birthday_26.png" alt="yearly_review_birthday_26"></p>
+<p>现在是 2023 年 6 月 6 日，我 26 岁了，其实随着年龄见长，对于生日本身已经没有太多仪式感或是期待，只是依然像是一个节点一样提醒着自己，一年又过去了。从去年开始决定每年生日和跨年都留下些文字，算是对过去这段时光的交代。</p>
+<p>其实过去的一年里也已经写了 40 篇周报，原以为已经习惯去分享自己的情绪，但下笔时依然有些恍惚，不知道从何说起。</p>
+<p>2022 的年后半段发生的事在「<a href="https://www.pseudoyu.com/en/2022/12/31/yearly_review_2022/">2022 年末回顾 - 迷茫、低谷与改变</a>」这一篇总结中有很详细的叙述，今年经历的一些改变在断断续续的周报中也或多或少有所提及，不想赘述，抑或是怯于回忆，我在这生日之际只想谈谈生活本身。</p>
+<p>就像我每周都会试图给周报定几个关键词一样，我总是试图想给过去自己走过的痕迹定一个主题，想了良久，决定命名为「推石头的人」，源于西西弗斯的故事，一个不断将巨石推到山顶，又不得不经受巨石滚落，再将石头推到山顶，努力、荒诞却又周而复始的故事。</p>
+<p>去年生日前经历了一场分手，当天收到生日祝福后才想起来原来已经到了，挣扎着起来回复了朋友们的祝福，回忆一下自己究竟是一个月还是两个月没有踏出房门了，嚼了几片褪黑素又继续回到难眠之夜中。大概是由于太过可怜，白天的时候有朋友送了一束花和一个蛋糕，由于没什么胃口，赶在生日结束前的几分钟仪式感地尝了一口，很甜却无法下咽。</p>
+<p>过去的一年里各个阶段都常常有人问“你走出来了么”，问题不难，我却其实一直不知道怎么回答。</p>
+<p>大概是从 7 月回杭州散心、换发色、见朋友开始，自己算是决定继续生活了吧？闲置的时间都用来看各种课、学各种技术，无处安放的分享欲也倾泻到了博客文章和推特动态上，当时的自己似乎觉得只要自己把自己的时间挤压到无暇回忆，就能够渐渐走出吧。几个月过去，当我自己都认为似乎也不是那么难以接受时，当我觉得似乎自己已经能够在新的生活轨迹上缓缓前行时，突然又因为想起一件小事，小到我现在都不太能准确描述的事，一切都回到了原点。</p>
+<p>我这才发现，原来自己一直像是在做和西西弗斯一样的事，在努力地推着巨石，又不得不看着一切崩塌。过去的一年里很多事都如是.</p>
+<p>我在杭州的租屋里有一盆绿植，不了解但应该是很好养的品种吧，入住的时候送的，摆在很显眼的地方，因为是远程办公，我每天都能看见却似乎也不会刻意注意，直到前两天有朋友从北京来杭州玩，邀请来家里撸猫，想着稍稍收拾一下家里，才看到有很多叶子已经枯了，泥土也已经干得不行，正要浇水时还不小心打翻了，散落一地，联想起了之前写的一句随想。</p>
+<p><img src="https://image.pseudoyu.com/images/random_thoughts_20220530.png" alt="random_thoughts_20220530"></p>
+<p>突然间情绪到了谷底，烦躁，压抑，无法平复。“这一年失去的东西太多太多，任何一点细小的死亡与崩坏，都会变得不可承受”，年初在鹿哥的视频里看到这句话的时候，不由得哽咽了，这大概就是最恰如其分的形容了，我也才发现自己其实一直在“接受失去”这件事上没什么长进。</p>
+<p>然而生活也还要继续，要说这一年自己真正学会的，大概就只有“真实地去面对生活本身”了吧。</p>
+<p><img src="https://image.pseudoyu.com/images/nienie_painting.jpg" alt="nienie_painting"></p>
+<p>我养了一只可爱的猫，叫捏捏。独自养猫对我来说一直是需要勇气去做的一件事，毕竟我觉得我自己对于生活品质的要求可能还不如猫，但依然去选择了对一个新的生活伙伴负责。虽然在她生病时担心到吃不下饭，带去绝育时也连签手术单的手都在发抖，经历过一些烦恼的时刻，但她给予我陪伴，教会我如何去爱，也常常会抚慰我的心绪。</p>
+<p>捏捏给予了我继续生活的勇气。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_new_desk_setup.jpg" alt="yu_new_desk_setup"></p>
+<p>去年在北京的这大半年工作时光里，有对我很好的朋友，有一些相熟的同事，有很好的 leader，给了我不错的自由度，然而自我的各个方面没有得到如预期的成长，对方向也日渐迷茫，却也始终忙碌到连生活都无暇顾及。随着这样的情绪积累越来越多，我决定离开。</p>
+<p>回到杭州后的生活和工作平静、简单却又不乏乐趣，在租屋中和捏捏相依为命，各自沉浸在自己的世界里；远程办公的模式有了更多自由的时间去参加很多好玩的活动，去香港听五月天的演唱会，去西安跟许久未见的舍友喝酒畅聊；不错的技术氛围让我可以不断探索新的技术栈，也会久违地为一个需求或是技术问题通宵死磕。</p>
+<p>然而，大概是由于距去年那段至暗时刻恰好一年过去了，这两个月又逐渐发现自己陷入到了过去循环往复的状态。睡眠被剥夺，四五点都已经是常态；社交封闭，常常一两周连门都不出；莫名的焦虑感，急于求成地想要成长，却又不知如何下手，频频受挫。</p>
+<p>过去的一年就是很难啊，自己就还是常常脆弱、敏感地依然沉溺在感情的情绪中啊，自己就是还是没能学会如何重新捡起生活呀，年初立的很多 Flag 还是没什么进展啊，明明时间变多了看的书和电影却变少了啊，又是天天熬夜到身心俱疲却也无法改变啊，自己依然没能成为理想中的自己、依然没能找到生活的意义呀。</p>
+<p>但这就是生活本身呀，它公平、残酷地面对每一个人。我已经渐渐不会再去埋怨生活，怨天尤人，而是真诚而热烈地拥抱它。</p>
+<p>巨石总会滚落，而明天一早睁眼，我们依旧要推着巨石往上。</p>
+<p><img src="https://image.pseudoyu.com/images/birthday_cake_26.jpg" alt="birthday_cake_26"></p>
+<p>祝 26 岁的自己，快乐。</p>
+]]></content:encoded></item><item><title>周报 #40 - 开源之夏、代码之外与流逝的睡眠</title><link>https://www.pseudoyu.com/en/2023/05/30/weekly_review_20230530/</link><pubDate>Tue, 30 May 2023 12:57:44 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/05/30/weekly_review_20230530/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-05-21 到 2023-05-29 这周生活的记录与思考。 到了周末才意识到这周完全没下过楼，似乎已经成为了生活的常态。不过效率还可以，工</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/here_after_us.mp3" type="audio/mpeg">
@@ -12425,347 +12458,4 @@ Spatial Database Systems Manage large collections of multidimensional objects (2
 <li>Multi-step processing (R-tree join as example)</li>
 </ul>
 <p><img src="https://image.pseudoyu.com/images/refinement_multi_step.png" alt="refinement_multi_step"></p>
-]]></content:encoded></item><item><title>COMP7801 Topic 1b Database Indexing</title><link>https://www.pseudoyu.com/en/2021/01/30/comp7801_topic1b/</link><pubDate>Sat, 30 Jan 2021 01:18:17 +0800</pubDate><guid>https://www.pseudoyu.com/en/2021/01/30/comp7801_topic1b/</guid><description>Database Indexing Concepts Indexing mechanisms used to speed up access to desired data Search Key An attribute or a set of attributes used to look up records in a file An index file consists of records (called index entries) of the form search key - pointer Index files are typically much smaller than the original file Two basic kinds of indices Ordered indices: search keys are stored in sorted order Hash indices: search keys are distributed across &amp;ldquo;buckets&amp;rdquo; using a &amp;ldquo;hash function&amp;rdquo; Good Index Index quality is evaluated by several factors Access types supported by the index efficiently records with a specified value in the attribute (equality query) or records with an attribute value falling in a specified range of values (range query) Access time – query response time Insertion time – data record insertion time Deletion time – data record deletion time Space overhead – size of the index file Classification of Indexes Primary index In a sequentially ordered file, the index whose search key specifies the sequential order of the file Secondary index an index whose search key specifies an order different from the sequential order of the file Also called non-clustered index Dense index Index record appears for every search-key value in the file Sparse Index Contains index records for only some search-key values Applicable when records are sequentially ordered on search-key Less space and less maintenance overhead for insertions and deletions Generally slower than dense index for locating records Good tradeoff: sparse index with an index entry for every block in file, corresponding to least search-key value in the block Primary and Secondary Indices Secondary indices have to be dense Indices offer substantial benefits when searching for records Index is much smaller than relation file (cheap scan) Index can be ordered (fast search) When a file is modified, every index on the file must be updated Updating indices imposes overhead on database modification Indexes should be used with care Sequential scan using primary index is efficient, but a sequential scan using a secondary index is expensive Each record access may fetch a new block from disk Multilevel Index If index does not fit in memory, access becomes expensive To reduce number of disk accesses to index records, treat 1st level of index kept on disk as a sequential file and construct a sparse index on it outer index – a sparse index on 1st-level index file inner index – the 1st-level index file If even outer index is too large to fit in main memory, yet another level of index can be created, and so on B+-Tree Index Files A dynamic, multi-level index Advantage automatically reorganizes itself with small local changes, in the face of insertions and deletions Reorganization of entire file is not required to maintain performance Disadvantage of B+-trees Extra insertion and deletion overhead, space overhead Advantages of B+-trees outweigh disadvantages, and they are used extensively Basic Properties Disk-based tree structure every node of the tree is a block and has an address (block-id) on the disk Multiway tree each node has multiple children (between n/2 and n, where n/2 is the order or degree of the tree) Therefore, at least 50% of the space in a node is guaranteed to be occupied (this rule may not apply to tree root) Balanced tree all paths from the root to a leaf have the same length guarantees good search performance (to be seen later) Disjoint partition of attribute domain into ranges each sub-tree indexes a range in the attribute domain the entries of a directory node define the separators between domain intervals leaf nodes store index entries and pointers to the relation file Non-Leaf Nodes in B+-Trees Each non-leaf node contains up to n-1 search key values and up to n pointers All non-leaf nodes (except root) contain at least n/2 pointers (n/2 is sometimes called the minimum fan-out or degree) Non leaf nodes form a multi-level sparse index on the leaf nodes.</description><content:encoded><![CDATA[<h2 id="database-indexing">Database Indexing</h2>
-<h3 id="concepts">Concepts</h3>
-<ul>
-<li>Indexing mechanisms used to speed up access to desired data</li>
-<li>Search Key
-<ul>
-<li>An attribute or a set of attributes used to look up records in a file</li>
-</ul>
-</li>
-<li>An index file consists of records (called index entries) of the form <code>search key - pointer</code></li>
-<li>Index files are typically much smaller than the original file</li>
-<li>Two basic kinds of indices
-<ul>
-<li>Ordered indices:  search keys are stored in sorted order</li>
-<li>Hash indices:  search keys are distributed across &ldquo;buckets&rdquo; using a &ldquo;hash function&rdquo;</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/indexing_example.png" alt="indexing_example"></p>
-<h3 id="good-index">Good Index</h3>
-<ul>
-<li>Index quality is evaluated by several factors
-<ul>
-<li>Access types supported by the index efficiently
-<ul>
-<li>records with a specified value in the attribute (equality query)</li>
-<li>or records with an attribute value falling in a specified range of values (range query)</li>
-</ul>
-</li>
-<li>Access time – query response time</li>
-<li>Insertion time – data record insertion time</li>
-<li>Deletion time – data record deletion time</li>
-<li>Space overhead – size of the index file</li>
-</ul>
-</li>
-</ul>
-<h3 id="classification-of-indexes">Classification of Indexes</h3>
-<ul>
-<li>Primary index
-<ul>
-<li>In a sequentially ordered file, the index whose search key specifies the sequential order of the file</li>
-</ul>
-</li>
-<li>Secondary index
-<ul>
-<li>an index whose search key specifies an order different from the sequential order of the file</li>
-<li>Also called non-clustered index</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/classification_of_indexing.png" alt="classification_of_indexing"></p>
-<ul>
-<li>Dense index
-<ul>
-<li>Index record appears for every search-key value in the file</li>
-</ul>
-</li>
-<li>Sparse Index
-<ul>
-<li>Contains index records for only some search-key values</li>
-<li>Applicable when records are sequentially ordered on search-key</li>
-<li>Less space and less maintenance overhead for insertions and deletions</li>
-<li>Generally slower than dense index for locating records</li>
-<li>Good tradeoff: sparse index with an index entry for every block in file, corresponding to least search-key value in the block</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/classification_of_indexing_2.png" alt="classification_of_indexing_2"></p>
-<h4 id="primary-and-secondary-indices">Primary and Secondary Indices</h4>
-<ul>
-<li>Secondary indices have to be dense</li>
-<li>Indices offer substantial benefits when searching for records
-<ul>
-<li>Index is much smaller than relation file (cheap scan)</li>
-<li>Index can be ordered (fast search)</li>
-</ul>
-</li>
-<li>When a file is modified, every index on the file must be updated
-<ul>
-<li>Updating indices imposes overhead on database modification</li>
-<li>Indexes should be used with care</li>
-</ul>
-</li>
-<li>Sequential scan using primary index is efficient, but a sequential scan using a secondary index is expensive
-<ul>
-<li>Each record access may fetch a new block from disk</li>
-</ul>
-</li>
-</ul>
-<h3 id="multilevel-index">Multilevel Index</h3>
-<ul>
-<li>If index does not fit in memory, access becomes expensive</li>
-<li>To reduce number of disk accesses to index records, treat 1st level of index kept on disk as a sequential file and construct a sparse index on it
-<ul>
-<li>outer index – a sparse index on 1st-level index file</li>
-<li>inner index – the 1st-level index file</li>
-</ul>
-</li>
-<li>If even outer index is too large to fit in main memory, yet another level of index can be created, and so on</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/multilevel_index_example.png" alt="multilevel_index_example"></p>
-<h3 id="b-tree-index-files">B+-Tree Index Files</h3>
-<ul>
-<li>A dynamic, multi-level index</li>
-<li>Advantage
-<ul>
-<li>automatically reorganizes itself with small local changes, in the face of insertions and deletions</li>
-<li>Reorganization of entire file is not required to maintain performance</li>
-</ul>
-</li>
-<li>Disadvantage of B+-trees
-<ul>
-<li>Extra insertion and deletion overhead, space overhead</li>
-</ul>
-</li>
-<li>Advantages of B+-trees outweigh disadvantages, and they are used extensively</li>
-</ul>
-<h4 id="basic-properties">Basic Properties</h4>
-<ul>
-<li>Disk-based tree structure
-<ul>
-<li>every node of the tree is a block and has an address (block-id) on the disk</li>
-</ul>
-</li>
-<li>Multiway tree
-<ul>
-<li>each node has multiple children (between n/2 and n, where n/2 is the order or degree of the tree)</li>
-<li>Therefore, at least 50% of the space in a node is guaranteed to be occupied (this rule may not apply to tree root)</li>
-</ul>
-</li>
-<li>Balanced tree
-<ul>
-<li>all paths from the root to a leaf have the same length</li>
-<li>guarantees good search performance (to be seen later)</li>
-</ul>
-</li>
-<li>Disjoint partition of attribute domain into ranges
-<ul>
-<li>each sub-tree indexes a range in the attribute domain</li>
-<li>the entries of a directory node define the separators between domain intervals</li>
-<li>leaf nodes store index entries and pointers to the relation file</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/B_Plus_Tree_Example.png" alt="B_Plus_Tree_Example"></p>
-<h4 id="non-leaf-nodes-in-b-trees">Non-Leaf Nodes in B+-Trees</h4>
-<ul>
-<li>Each non-leaf node contains up to n-1 search key values and up to n pointers</li>
-<li>All non-leaf nodes (except root) contain at least n/2 pointers (n/2 is sometimes called the minimum fan-out or degree)</li>
-<li>Non leaf nodes form a multi-level sparse index on the leaf nodes.  For a non-leaf node with m pointers
-<ul>
-<li>All the search-keys in the subtree to which P1 points are less than K1</li>
-<li>For 2 &lt;= i &lt;= n – 1, all the search-keys in the subtree to which Pi points have values greater than or equal to Ki–1 and smaller than Km–1</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/B_Plus_Tree_Non_Leaf_Node.png" alt="B_Plus_Tree_Non_Leaf_Node"></p>
-<h4 id="leaf-node-in-a-b-tree">Leaf Node in a B+-Tree</h4>
-<ul>
-<li>Contains between (n-1)/2 and n-1 entries</li>
-<li>Each index entry is a search key value + a record-id</li>
-<li>If Li, Lj are leaf nodes and i &lt; j, Li’s search-key values are all smaller than Lj’s search-key values</li>
-<li>Each leaf node is linked with a pointer to the next node</li>
-</ul>
-<h4 id="observations">Observations</h4>
-<ul>
-<li>Since the inter-node connections are done by pointers, &ldquo;logically&rdquo; close blocks need not be “physically” close
-<ul>
-<li>Nodes of the tree are dynamically created/deleted, so we cannot guarantee physical closeness</li>
-</ul>
-</li>
-<li>The non-leaf levels of the B+-tree form a hierarchy of sparse indices</li>
-<li>The B+-tree contains a relatively small number of levels (logarithmic in the size of the main file), thus searches can be conducted efficiently</li>
-<li>Insertions and deletions to the main file can be handled efficiently (in logarithmic time)</li>
-</ul>
-<h4 id="queries">Queries</h4>
-<ul>
-<li>
-<p>Find all records with a search-key value of k</p>
-<ul>
-<li>Start with the root node
-<ul>
-<li>Examine the node for the smallest search-key value &gt; k</li>
-<li>If such a value exists, assume it is Ki.  Then follow Pi to the child node. (E.g. P2 is for keys in  K1 &lt;= Keys &lt; K2 )</li>
-<li>Otherwise k &gt;= Kn–1, where there are n pointers in the node.  Then follow Pn to the child node</li>
-</ul>
-</li>
-<li>If the node reached by following the pointer above is not a leaf node, repeat the above procedure on the node, and follow the corresponding pointer</li>
-<li>Eventually reach a leaf node.  If for some i, key Ki = k  follow pointer Pi  to the desired record.  Else no record with search-key value k exists</li>
-</ul>
-</li>
-<li>
-<p>In processing a query, a path is traversed in the tree from the root to some leaf node</p>
-</li>
-<li>
-<p>If there are K search-key values in the file, the path is not longer than log(n/2)(K). (The degree of a node is no less than n/2)</p>
-</li>
-<li>
-<p>A node has generally the same size of a disk block, typically 4 kilobytes, and n is typically around 100 (40 bytes per index entry)</p>
-</li>
-<li>
-<p>With 1 million search key values and n/2 = 50, at most log50(1,000,000) = 4 nodes are accessed in a lookup</p>
-</li>
-<li>
-<p>Contrast this with a balanced binary tree with 1 million search key values — around 20 nodes are accessed in a lookup</p>
-<ul>
-<li>(log2(1,000,000) ~= 20)</li>
-<li>above difference is significant since every node access may need a disk I/O, costing around 10 milliseconds!</li>
-</ul>
-</li>
-<li>
-<p>Similar result for a binary search of an ordered sequential file</p>
-</li>
-</ul>
-<h4 id="range-queries">Range Queries</h4>
-<ul>
-<li>Find all records with a search-key value between k and m (k&lt;m)
-<ul>
-<li>Start with the root node
-<ul>
-<li>Examine the node for the smallest search-key value &gt; k</li>
-<li>If such a value exists, assume it is Kj
-<ul>
-<li>Then follow Pi to the child node</li>
-</ul>
-</li>
-<li>Otherwise k &gt;= Kn–1, where there are n pointers in the node
-<ul>
-<li>Then follow Pn to the child node.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>If the node reached by following the pointer above is not a leaf node, repeat the above procedure on the node, and follow the corresponding pointer</li>
-<li>Eventually reach a leaf node.  If for some i, k &lt;= Ki &lt;= m follow pointer Pi  to the desired record. Continue with next entry Ki+1, while Ki+1 &lt;= m. If at end of leaf node follow pointer to next node, until Ki &gt;m or end of index</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/B_Plus_Tree_Range_Query.png" alt="B_Plus_Tree_Range_Query"></p>
-<h4 id="insertion">Insertion</h4>
-<ul>
-<li>Find the leaf node in which the search-key value to be inserted  would appear</li>
-<li>If the search-key value is already there in the leaf node, record is added to file and if necessary one more pointer is associated with the search key value</li>
-<li>If the search-key value is not there, then add the record to the main file. Then
-<ul>
-<li>If there is room in the leaf node, insert (key-value, pointer) pair in the leaf node</li>
-<li>Otherwise, split the node (along with the new (key-value, pointer) entry) as discussed in the next slides</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/B_Plus_Tree_Insertion.png" alt="B_Plus_Tree_Insertion"></p>
-<h4 id="splitting">Splitting</h4>
-<ul>
-<li>Splitting a node
-<ul>
-<li>take the (search-key value, pointer) pairs (including the one being inserted) in sorted order.  Place the first n/2 in the original node, and the rest in a new node</li>
-<li>let the new node be p, and let k be the least key value in p.  Insert (k,p) in the parent of the node being split. If the parent is full, split it and propagate the split further up</li>
-</ul>
-</li>
-<li>The splitting of nodes proceeds upwards till a node that is not full is found.  In the worst case the root node may be split increasing the height of the tree by 1</li>
-<li>Non-leaf node splitting
-<ul>
-<li>Overflown node has n+1 pointers and n values</li>
-<li>Leave first n/2 key values and n/2+1 pointers to original node</li>
-<li>Move last n/2 key values and n/2+1 pointers to new node</li>
-<li>insert (middle key value, pointer to new node) to parent node</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/B_Plus_Tree_splitting.png" alt="B_Plus_Tree_splitting"></p>
-<h4 id="deletion">Deletion</h4>
-<ul>
-<li>Find the record to be deleted, and remove it from the relation file</li>
-<li>Remove (search-key value, record-id) of deleted record from the leaf node of the B+-tree</li>
-<li>If the node has too few entries due to the removal, and the entries in the node and a sibling fit into a single node, then
-<ul>
-<li>Insert all the search-key values in the two nodes into a single node (the one on the left), and delete the other node. (Deletion triggers a merge)</li>
-<li>Delete the pair (Ki–1, Pi), where Pi is the pointer to the deleted node, from its parent, recursively using the above procedure</li>
-</ul>
-</li>
-<li>Otherwise, if the node has too few entries due to the removal, and the entries in the node and a sibling does not fit into a single node, then
-<ul>
-<li>Redistribute the pointers between the node and a sibling such that both have more than the minimum number of entries. (Deletion and rebalancing)</li>
-<li>Update the corresponding search-key value in the parent of the node</li>
-</ul>
-</li>
-<li>The node deletions may cascade upwards until a node which has n/2 or more pointers is found.  If the root node has only one pointer after deletion, it is deleted and the sole child becomes the root</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/B_Plus_Tree_deletion.png" alt="B_Plus_Tree_deletion"></p>
-<h3 id="static-hashing">Static Hashing</h3>
-<ul>
-<li>A bucket is a unit of storage containing one or more records (a bucket is typically a disk block)</li>
-<li>In a hash file organization we obtain the bucket of a record directly from its search-key value using a hash function</li>
-<li>Hash function h is a function from the set of all search-key values K to the set of all bucket addresses B</li>
-<li>Hash function is used to locate records for access, insertion as well as deletion</li>
-<li>Records with different search-key values may be mapped to the same bucket; thus entire bucket has to be searched sequentially to locate a record. (Collision)</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/indexing_hashing.png" alt="indexing_hashing"></p>
-<h4 id="hash-function">Hash Function</h4>
-<ul>
-<li>Worst case has function maps all search-key values to the same bucket; this makes access time proportional to the number of search-key values in the file</li>
-<li>An ideal hash function is uniform, i.e., each bucket is assigned the same number of search-key values from the set of all possible values</li>
-<li>Ideal hash function is random, so each bucket will have the same number of records assigned to it irrespective of the actual distribution of search-key values in the file</li>
-<li>Typical hash functions perform computation on the internal binary representation of the search-key
-<ul>
-<li>For example, for a string search-key, the binary representations of all the characters in the string could be added and the sum modulo the number of buckets could be returned</li>
-</ul>
-</li>
-</ul>
-<h4 id="handling-of-bucket-overflows">Handling of Bucket Overflows</h4>
-<ul>
-<li>Bucket overflow can occur because of
-<ul>
-<li>Insufficient buckets</li>
-<li>Skew in distribution of records.  This can occur due to two reasons
-<ul>
-<li>multiple records have same search-key value</li>
-<li>chosen hash function produces non-uniform distribution of key values</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Although the probability of bucket overflow can be reduced, it cannot be eliminated; it is handled by using overflow buckets</li>
-<li>Overflow chaining / closed hashing – the overflow buckets of a given bucket are chained together in a linked list</li>
-</ul>
-<h4 id="hash-indices">Hash Indices</h4>
-<ul>
-<li>Hashing can be used not only for file organization, but also for index-structure creation</li>
-<li>A hash index organizes the search keys, with their associated record pointers, into a hash file structure</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Hash_Index.png" alt="Hash_Index"></p>
-<h4 id="deficiencies-of-static-hashing">Deficiencies of Static Hashing</h4>
-<ul>
-<li>In static hashing, function h maps search-key values to a fixed set of B of bucket addresses
-<ul>
-<li>Databases grow with time.  If initial number of buckets is too small, performance will degrade due to too much overflows</li>
-<li>If file size at some point in the future is anticipated and number of buckets allocated accordingly, significant amount of space will be wasted initially</li>
-<li>If database shrinks, again space will be wasted</li>
-<li>One option is periodic re-organization of the file with a new hash function, but it is very expensive.</li>
-</ul>
-</li>
-<li>These problems can be avoided by using techniques that allow the number of buckets to be modified dynamically (dynamic hashing)</li>
-</ul>
 ]]></content:encoded></item></channel></rss>
