@@ -2,7 +2,7 @@
 title: "26 岁的自白：推石头的人"
 date: 2023-06-06T19:42:26+08:00
 draft: false
-tags: ["review","future","university", "life", "romance"]
+tags: ["review", "work", "life", "romance", "growth"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
