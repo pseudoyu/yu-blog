@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 06 Jun 2023 19:42:26 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>26 岁的自白：推石头的人</title><link>https://www.pseudoyu.com/en/2023/06/06/yearly_review_26/</link><pubDate>Tue, 06 Jun 2023 19:42:26 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/06/06/yearly_review_26/</guid><description>《后来的我们 - 五月天》 26 岁的自白：推石头的人 现在是 2023 年 6 月 6 日，我 26 岁了，其实随着年龄渐长，对于生日本身已经没有太多仪式感或是期待，只是依然</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 12 Jun 2023 09:50:09 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #41 - 生日的仪式感、时间管理与北京之行</title><link>https://www.pseudoyu.com/en/2023/06/12/weekly_review_20230612/</link><pubDate>Mon, 12 Jun 2023 09:50:09 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/06/12/weekly_review_20230612/</guid><description>《后来的我们 - 五月天》 前言 本篇是对 2023-05-30 到 2023-06-12 这周生活的记录与思考。 踏入 6 月第一天就跟朋友说，“我每逢五月一般都挺惨的，六月一定是我的 lucky month</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230612.png" alt="weekly_review_20230612"></p>
+<p>本篇是对 <code>2023-05-30</code> 到 <code>2023-06-12</code> 这周生活的记录与思考。</p>
+<p>踏入 6 月第一天就跟朋友说，“我每逢五月一般都挺惨的，六月一定是我的 lucky month”，不知道是心理作用还是愿力生效，步入六月后的这两周各个层面都有了不同程度的好转，工作任务中抽空重构了一些业务代码，减少了很多潜在问题；和 STRRL 参加了 Rokid 的线下体验活动，还见到了偶像开发者图拉鼎；虽然已经没那么在意生日的仪式感，但还是有一群朋友记得并且准备了一些小惊喜；似乎生日后开始逐渐走出自己的小世界，约见了大概已经七八年没见到的高中旧友，重拾一些心绪；周末闪现北京参加了 Gopher China 2023，和 Boyi 学姐吃喝玩乐，跟 Homura 吃饭闲聊，去 Noy 家撸猫；还有很多有意思的事。</p>
+<h2 id="生日的仪式感">生日的仪式感</h2>
+<p><img src="https://image.pseudoyu.com/images/comments_about_birthday.png" alt="comments_about_birthday"></p>
+<p>前两天收到了一位读者朋友的评论，聊到了感觉关于生日的感知和工作后对事物的态度变化，其实还蛮能感同身受的。曾经的自己算是很在意生日的，不知道是在意这个节点本身还是想通过这种方式确认自己对于身边人的重要性，每年时间临近就开始期待，也常常会叫上一大帮人聚会庆祝。</p>
+<p>随着逐渐离开熟悉的生活圈，与挚友也难得才能相聚，不再有执念，幸运的是还是有一些朋友会记住并祝福才有了一些生日的实感。</p>
+<p>而今年也许是由于立下了 Flag 每年生日要梳理一下自己的情绪情感，早早开始翻阅着之前的周报，也思考过去这一年的所思所想，才意识到除了数字增长之外，原来还发生了那么多变化，当然这些变化有的积极，有的并不那么尽如人意，但有了审视自然也会有所期待，我想今年生日的意义和仪式感源于此。</p>
+<p>以文字的方式自省真的带给我了太多，就像我回复这位朋友留言的一句话：“至少对于自己而言，我走出泥潭的方式就是文字，周报某种程度上也是我的自我救赎。”</p>
+<p>另外很意外也很感谢许多素昧平生的朋友们在「<a href="https://www.pseudoyu.com/zh/2023/06/06/yearly_review_26/">26 岁的自白：推石头的人</a>」这篇文章的留言和祝福，很温暖，你们共同陪我度过了一个有意义的一天，也希望能继续相伴走下去。</p>
+<h3 id="输入输出和时间管理">输入输出和时间管理</h3>
+<p><img src="https://image.pseudoyu.com/images/time_management_comments.png" alt="time_management_comments"></p>
+<p>收到了有点遥远的周报下的一个留言，关于效率和时间管理的。说实话现在再回答这个问题是有些惭愧的，去年输入输出的质和量还算是比较满意，但其实也不是有什么太科学的方法，一开始的自己只是一心把时间都投入到自我提升中来逃避一些事，所以即使在忙碌的时候也依然抽出了很多时间做喜欢的事。</p>
+<p>随着渐渐沉浸在一些技术学习和兴趣探索中，也开始有了一些输出和正向反馈，周报鸽一两周就会收到不少催更，自然也会有更多的动力继续坚持。我一直是享受于“Learn/Build in public”这样的方式的，博客和推文自不必说，用于同步的 Telegram 频道「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」大多同步我的点赞、收藏、转发等行为，其实就像朋友圈从不分组可见一样，我是完全没有区分 public/private 账号或是列表的，也就意味着我所有的行为都是完全透明的。</p>
+<p>当结束了一天的工作或是有了一些空闲时，想到似乎今天还没有什么额外的输入，我会有一种算是动力去读几篇搁置在稍后读中的文章/教程、打开 Kindle 看一下自己的读了一半的书或是从豆瓣列表中翻出一部早已想补的电影，不知不觉也就养成了习惯，也常常会翻看自己的频道作为信息整理，看到输出比较零星的时候也会有一些小小的负罪感。</p>
+<p>所以当我的频道连续几天没有什么更新时，<del>那十有八九是在摆烂</del>。</p>
+<p>至于时间管理方面，自己也算不上有什么好的实践，主要就是用 Logseq 进行一些基本的任务项记录，并且用 Cron 进行日程管理（最近才开始高频使用，菜单栏的日程提醒还是很有用的），也很久没有刻意使用番茄钟这样的工具进行严格管理了，自己还是更习惯按照自己的沉浸状态来安排，而不是根据固定的时间块。</p>
+<p>精力管理的话，唯一说的是可能自己对于吃喝玩乐睡几乎都是保持较低限度的需求吧，常常一天就随便吃一顿饭或是水果，也算不上有什么杀时间的爱好，所以时间略充分一些。当然，并不是说这些时间都过得很有意义，也常常有浪费的时候，但也不会对自己有什么严苛的标准，所以能保持着比较平衡的状态。</p>
+<p><del>五点睡八点起就别学了</del>，上篇周报里「<a href="https://www.pseudoyu.com/en/2023/05/30/weekly_review_20230530/">流逝的睡眠</a>」这一 part 我自己刚反思过。</p>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<p>自之前出门去参加了开源之夏活动后，对于参加这些技术/科技/数码的活动也开始感兴趣，也更愿意出门见一些朋友们了。</p>
+<p><img src="https://image.pseudoyu.com/images/nienie_space_at_home.jpg" alt="nienie_space_at_home"></p>
+<p>邀请了两个从北京来杭州玩的朋友来家里找捏捏玩，疯狂给他们介绍小佩宠物家的一些宠物智能家居，果然对这种电子玩具完全没有抵御力，但自己又没有什么新鲜的可以折腾了，于是捏捏成为了“受害者”，基本上 App 里都能掌握她的一举一动了，吃东西都精确到克。</p>
+<p><img src="https://image.pseudoyu.com/images/nienie_big_eye.jpg" alt="nienie_big_eye"></p>
+<p><img src="https://image.pseudoyu.com/images/nienie_in_remote_camera_ebo.png" alt="nienie_in_remote_camera_ebo"></p>
+<p><img src="https://image.pseudoyu.com/images/nienie_in_bag.png" alt="nienie_in_bag"></p>
+<p>捏捏也被朋友称为玩具猫/摆件，就是随意往哪个角落一放就不动了，安心被 rua 或是等着我们摆拍，太乖了。</p>
+<p>这次回北京也快乐地去 Noy 家撸猫，他们家的猫叫「贴贴」，是个很小只的可爱蓝猫，也很乖，一直在玩我带来的数据线。</p>
+<p><img src="https://image.pseudoyu.com/images/tietie_of_noy.jpg" alt="tietie_of_noy"></p>
+<p><img src="https://image.pseudoyu.com/images/tietie_lay.jpg" alt="tietie_lay"></p>
+<p>快乐吸猫的一周！！！</p>
+<p>这次回北京主要是来参加 Gopher China 2023 大会的，在 GoCN 里也待了两年之久了，第一次见到一些组员小伙伴和 Asta Xie。期间和一个外面帐篷摊位的小哥聊 Serverless 和 GPT 聊得很开心，正要加微信的时候发现是推特好友「<a href="https://twitter.com/CarsonYangk8s">Carson Yang（米开朗基杨）</a>」，还在 TG 有过一些小交流，果然推友人均大佬。</p>
+<p><img src="https://image.pseudoyu.com/images/lunch_with_homura.jpg" alt="lunch_with_homura"></p>
+<p>虽然时间有些匆忙，中午和 Homura 吃了一顿好吃的自助，聊得很开心！</p>
+<p><img src="https://image.pseudoyu.com/images/candle_music.jpg" alt="candle_music"></p>
+<p>剩下时间基本上是 Boyi 学姐带我四处玩，因为很日常就没怎么拍照了，记录了一下一个印象有点深刻的烛光音乐会，很有氛围感。</p>
+<p><img src="https://image.pseudoyu.com/images/aniya_toy_from_boyi.jpg" alt="aniya_toy_from_boyi"></p>
+<p>以及超神奇的，学姐有超能力，扭蛋一直能开出想要的，之前我还不信，结果一次就开出了我想要的阿尼亚（然后我一直超开心地攥着阿尼亚的扭蛋，感觉老板都笑了）。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://www.raycast.com/blog/how-raycast-api-extensions-work">How the Raycast API and extensions work - Raycast Blog</a></li>
+<li><a href="https://moscledev.xlog.app/ethglobal-autonomous-worlds-can-sai-xin-de-fen-xiang">ETHGlobal Autonomous Worlds 參賽心得分享 - Moscle.dev</a></li>
+<li><a href="https://tailscale.com/blog/how-nat-traversal-works/">How NAT traversal works</a></li>
+<li><a href="https://tech-blog.cymetrics.io/posts/seadog007/dangers-in-cdn/">那些隱藏在 CDN 中的危險：為什麼 CDN 可能沒有你想的那麼安全</a></li>
+<li><a href="https://medium.com/starbugs/utilize-go-fuzzing-to-write-better-unit-tests-80bd37cd4e38">善用 Go Fuzzing，幫助你寫出更完整的單元測試</a></li>
+<li><a href="https://mp.weixin.qq.com/s/hMLIpdnbt94GlbR9lD1_lQ">对苹果 Vision Pro 和空间计算的思考</a></li>
+<li><a href="https://xuanwo.io/reports/2023-24/">2023-24: 漩涡事件反思录</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<p>记录一下看过的有意思的视频：</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=GHTA143_b-s">NestJs Course for Beginners - Create a REST API</a></li>
+<li><a href="https://www.youtube.com/watch?v=8dRAd-Bzc_E">How to make a Stablecoin | Foundry Full Course Excerpt</a></li>
+<li><a href="https://www.bilibili.com/video/BV1D8411o71k">跨平台开发该不该用 Flutter？2023 年版 Flutter 全面解析</a></li>
+<li><a href="https://www.bilibili.com/video/BV1m8411o7K1">音乐人要失业了吗？ChatGPT 都可以写歌了！</a></li>
+<li><a href="https://www.bilibili.com/video/BV1yz4y1q79f">极限 8 小时，我和橘子海拍了「夏日漱石」</a></li>
+<li><a href="https://www.youtube.com/watch?v=rjOuCFrs584">How I take tech notes as a note app author</a></li>
+<li><a href="https://www.youtube.com/watch?v=BpPEoZW5IiY">Learn Rust Programming - Complete Course</a></li>
+<li><a href="https://www.youtube.com/watch?v=FPYl7nIKRbA">9-Year Hustle to Achieve a Single GoalㅣNotion&rsquo;s Cofounders</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Em4y117Ea">这次相亲没有发挥好,复盘总结经验</a></li>
+</ul>
+<h4 id="动漫">动漫</h4>
+<ul>
+<li><strong>鬼灭之刃 锻刀村篇</strong>，继续追，喜欢！</li>
+<li><strong>我推的孩子</strong>，后面剧情节奏越来越好，感觉期待值被拉得越来越高了！</li>
+</ul>
+]]></content:encoded></item><item><title>26 岁的自白：推石头的人</title><link>https://www.pseudoyu.com/en/2023/06/06/yearly_review_26/</link><pubDate>Tue, 06 Jun 2023 19:42:26 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/06/06/yearly_review_26/</guid><description>《后来的我们 - 五月天》 26 岁的自白：推石头的人 现在是 2023 年 6 月 6 日，我 26 岁了，其实随着年龄渐长，对于生日本身已经没有太多仪式感或是期待，只是依然</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/here_after_us.mp3" type="audio/mpeg">
@@ -11857,607 +11934,4 @@ A large set of items, e.g., things sold in a supermarket A large set of baskets,
 <li>结合自己的理解与学习笔记，撰写针对特定技术的原创博客</li>
 <li>定期和目前从事区块链的同学进行交流讨论，补充项目经验至简历与面试准备</li>
 </ol>
-]]></content:encoded></item><item><title>COMP7801 Topic 2 Spatial Data Management</title><link>https://www.pseudoyu.com/en/2021/02/06/comp7801_topic2/</link><pubDate>Sat, 06 Feb 2021 01:18:17 +0800</pubDate><guid>https://www.pseudoyu.com/en/2021/02/06/comp7801_topic2/</guid><description>Spatial Data Management Concepts Spatial Data
-Location data Check-in service Online Maps Location-based services Location tracking Traffic Data Spatial Databases
-PostgreSQL with PostGIS Neo4J-spatial HadoopGIS Ingres GeoMesa Spatial Data Management
-Spatial Database Systems Manage large collections of multidimensional objects (2D/3D) A spatial object Contains (at least) one spatial attributes that describes its location and/or geometry A spatial relation Is an organized collection of spatial objects of the same entity Spatial Data Representation</description><content:encoded><![CDATA[<h2 id="spatial-data-management">Spatial Data Management</h2>
-<h3 id="concepts">Concepts</h3>
-<p><strong>Spatial Data</strong></p>
-<ul>
-<li>Location data
-<ul>
-<li>Check-in service</li>
-<li>Online Maps</li>
-<li>Location-based services</li>
-</ul>
-</li>
-<li>Location tracking</li>
-<li>Traffic Data</li>
-</ul>
-<p><strong>Spatial Databases</strong></p>
-<ul>
-<li>PostgreSQL with PostGIS</li>
-<li>Neo4J-spatial</li>
-<li>HadoopGIS</li>
-<li>Ingres</li>
-<li>GeoMesa</li>
-</ul>
-<p><strong>Spatial Data Management</strong></p>
-<ul>
-<li>Spatial Database Systems
-<ul>
-<li>Manage large collections of multidimensional objects (2D/3D)</li>
-</ul>
-</li>
-<li>A spatial object
-<ul>
-<li>Contains (at least) one spatial attributes that describes its location and/or geometry</li>
-</ul>
-</li>
-<li>A spatial relation
-<ul>
-<li>Is an organized collection of spatial objects of the same entity</li>
-</ul>
-</li>
-</ul>
-<h3 id="spatial-data">Spatial Data</h3>
-<p><strong>Representation</strong></p>
-<ul>
-<li>Points (Cities in large-scale map)</li>
-<li>Extent (rivers, forest, etc.)
-<ul>
-<li>Vector (approximation by geometric objects)</li>
-<li>Raster (A set of pixels in the grid)</li>
-</ul>
-</li>
-</ul>
-<p><strong>Application</strong></p>
-<ul>
-<li>Spatial data
-<ul>
-<li>GIS</li>
-<li>Segemented images</li>
-<li>Components of CAD constructs or VLSI circuit</li>
-<li>Stars on the sky</li>
-<li>&hellip;</li>
-</ul>
-</li>
-<li>Spatial database
-<ul>
-<li>Users of mobile devices</li>
-<li>Geographers, life scientists</li>
-<li>&hellip;</li>
-</ul>
-</li>
-</ul>
-<h4 id="features-of-spatial">Features of spatial</h4>
-<ul>
-<li>Dimensionality
-<ul>
-<li>There is no total ordering of objects in the multidimensional space that preserves spatial proximity</li>
-</ul>
-</li>
-<li>Complex spatial extent</li>
-<li>No standard definitions of spatial operations and algebra</li>
-</ul>
-<p>Relationa indexes (like B+ trees) and query processing methods (sort-merge join, hash-join) are not applicable</p>
-<p>Spatial access methods (SAMs) for spatial data have to be defined</p>
-<ul>
-<li>Index spatial objects</li>
-<li>Facilitate efficient processing of simple spatial query types (e.g. range queries)</li>
-</ul>
-<h3 id="spatial-relationships">Spatial Relationships</h3>
-<p>A spatial relationship associates two objects according to their relative location and extent in space. Sometimes also called &ldquo;spatial relations&rdquo;.</p>
-<p>Can refer to a database relation which stores spatial objects.</p>
-<p><strong>Classification</strong></p>
-<ul>
-<li>Topological relationships</li>
-<li>Distance relationships</li>
-<li>Directional relationships</li>
-</ul>
-<h4 id="topological-relationships">Topological relationships</h4>
-<p>Each object is characterized by the space it occupies in the universe (A set of pixels).</p>
-<p>A set of relationsips between their boundaries and interiors</p>
-<ul>
-<li>Boundary</li>
-<li>Interior (some may not have, points, line segments, etc.)</li>
-</ul>
-<p><strong>A hierarchy of relations</strong></p>
-<ul>
-<li>intersect (or overlaps)
-<ul>
-<li>equals</li>
-<li>inside</li>
-<li>contains</li>
-<li>adjacent</li>
-</ul>
-</li>
-<li>disjoint</li>
-</ul>
-<h4 id="distance-relationships">Distance relationships</h4>
-<p>Associate two objects based on their geometric (Euclidean distance), and it&rsquo;s usually abstracted into human mind.</p>
-<p>Distance relationships are expressed either explicitly or by some abstract distance class.</p>
-<h4 id="directional-relationships">Directional relationships</h4>
-<p>Associates two object based on their relative orientation according to a global reference system.</p>
-<h3 id="spatial-queries">Spatial Queries</h3>
-<p>Applied on one (or more) spatial relations to retrieve objects staisfying some spatial relationships</p>
-<ul>
-<li>Nearest neighbor query</li>
-<li>Spatial join</li>
-<li>Range query
-<ul>
-<li>Spatial selction</li>
-<li>window query</li>
-</ul>
-</li>
-</ul>
-<h3 id="spatial-query-processing">Spatial Query Processing</h3>
-<p>Evaluating spatial relationships on geometric data is slow.</p>
-<p>A spatial object is approximated by its minimum bounding rectangle (MBR)</p>
-<p><strong>Process</strong></p>
-<ol>
-<li>Filter: The MBR is tested against the query predicate</li>
-<li>Refinement: The exact geometry of objects that pass the filter step is tested for qualification</li>
-</ol>
-<h3 id="spatial-access-methods-sams">Spatial Access Methods (SAMs)</h3>
-<p><strong>The problem of indexing spatial data</strong></p>
-<ul>
-<li>No dynamic access method with good theoretical worst-case guarantees for range queries</li>
-</ul>
-<p>SAMs aim at the minimization of the expected cost.</p>
-<ul>
-<li>Indexing of multidimensional points</li>
-</ul>
-<h4 id="point-access-methods">Point access methods</h4>
-<p>Divide the apce into disjoint partitions and group the points according to the regions they belong</p>
-<p><img src="https://image.pseudoyu.com/images/point_access_methods.png" alt="point_access_methods"></p>
-<p>Not effective for extended objects (may need to be clipped into several parts which leads to data redundancy and affects performance negatively).</p>
-<p>Object clipping can be avoided if we allow the regions of object to overlap.</p>
-<p><img src="https://image.pseudoyu.com/images/object_clipping.png" alt="object_clipping"></p>
-<p><strong>Optimization</strong></p>
-<ul>
-<li>Group the objects below into 3 groups of 4 objects each such that the MBRs of the groups have the minimum overlap</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/overlap_region.png" alt="overlap_region"></p>
-<ul>
-<li>Hard optimization problem</li>
-</ul>
-<h3 id="the-r-tree">The R-tree</h3>
-<p><strong>Concept</strong></p>
-<ul>
-<li>Group object MBRs to disk blocks hierarchically</li>
-<li>Each group of object is a leaf of the tree</li>
-<li>The MBRs of the leaf nodes are grouped to form nodes at the next level</li>
-<li>Grouping is recursively applied at each level until a single group (the root) is formed</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/R_Tree_example.png" alt="R_Tree_example"></p>
-<p><strong>Elements</strong></p>
-<ul>
-<li>Leaf node entries: &lt;MBR, object-id&gt;, all leaves are in same level</li>
-<li>Non-leaf node entries: &lt;MBR, ptr&gt;, pointing to entries</li>
-<li>Root: have at least two children</li>
-<li>Non-root node parameters
-<ul>
-<li>M</li>
-<li>m</li>
-<li>m &lt;= M/2</li>
-<li>Usually m = 0.4 M</li>
-</ul>
-</li>
-</ul>
-<h4 id="range-searching-using-an-r-tree">Range searching using an R-tree</h4>
-<p>Range_query (query W, R-tree node n)</p>
-<ul>
-<li>If n is not a leaf node
-<ul>
-<li>For each index entry e in n such that e.MBR intersects W
-<ul>
-<li>Visit node n&rsquo; pointed  by e.ptr</li>
-<li>Range_query (W, n')</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>If n is a leaf
-<ul>
-<li>For each index entry e in n such that e.MBR intersects W
-<ul>
-<li>Visit object o pointed by e.object-id</li>
-<li>Test range query against exact geometry of o; If o intersects W, report o</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>May follow multiple paths during search</li>
-<li>Different search predicates are used for different realtionships with W</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/range_search.png" alt="range_search"></p>
-<h4 id="construction-of-the-r-tree">Construction of the R-tree</h4>
-<ul>
-<li>Dynamically constructed/maintained</li>
-<li>Insertions/deletions interleave with search operations
-<ul>
-<li>Insertion similiar to B+ Tree, but with special optimization algorithms
-<ul>
-<li>Choose the path where a new MBR is inserted</li>
-<li>Split overflow nodes</li>
-</ul>
-</li>
-<li>Underflows in deletions
-<ul>
-<li>Deleting the underflow leaf node</li>
-<li>Re-insert the remaining entries</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="r-tree">R*-tree</h3>
-<p>Only different in the insertion algorithm (compared to R-tree), aiming at constructing a tree of high quality</p>
-<p><strong>A good tree</strong></p>
-<ul>
-<li>nodes with small MBRs</li>
-<li>nodes with small overlap</li>
-<li>nodes that look like squares</li>
-<li>nodes as full as possible</li>
-</ul>
-<h3 id="optimization">Optimization</h3>
-<ul>
-<li>Minimize the area covered by an index rectangle (small area means small dead space)</li>
-<li>Minimize overlap between node MBRs (Minimizes the number of traversed paths)</li>
-<li>Minimize the margins of node MBRs (Square-like nodes, smaller number of intersections for a random query, better structure)</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/margin_minimization.png" alt="margin_minimization"></p>
-<ul>
-<li>Optimize the storage utilization
-<ul>
-<li>Nodes in tree should be filled as much as possible</li>
-<li>Minimizes tree height and potentially decreases dead space</li>
-</ul>
-</li>
-<li>Insertion heuristics (Select the path)
-<ul>
-<li>Least MBR enlargement after insertion
-<img src="https://image.pseudoyu.com/images/MBR_enlargement.png" alt="MBR_enlargement"></li>
-<li>Least MBR overlap after insertion
-<img src="https://image.pseudoyu.com/images/MBR_overlap.png" alt="MBR_overlap"></li>
-</ul>
-</li>
-</ul>
-<h3 id="node-spliting">Node Spliting</h3>
-<p><strong>Determine the split axis</strong></p>
-<ul>
-<li>For each axis (i.e. x and y axis)
-<ul>
-<li>Sum=0;</li>
-<li>sort entries by the lower value, then by upper value</li>
-<li>for each sorting (e.g. lower value)
-<ul>
-<li>for k=m to M+1-m</li>
-<li>place first k entries in group A, and the remaining ones in group B</li>
-<li>
-<ul>
-<li>Sum = Sum + margin(A) + margin(B)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Choose axis with the minimum Sum</li>
-</ul>
-<p><strong>Distribute entries along axis</strong></p>
-<ul>
-<li>Along the split axis, choose the distribution with minimum overlap</li>
-<li>If there are multiple groupings with minimal overlap choose &lt;A,B&gt; such that area(A)+area(B) is minimized</li>
-</ul>
-<h4 id="insertion-heuristics-forced-reinsert">Insertion heuristics: Forced Reinsert</h4>
-<p><img src="https://image.pseudoyu.com/images/forced_reinsert.png" alt="forced_reinsert"></p>
-<ul>
-<li>Forced Reinsert
-<ul>
-<li>When R*-tree node n overflows, instead of splitting n immediately, try to see if some entries in n could possibly fit better in another node</li>
-<li>Find the 30% furthest entries from the center of the group</li>
-<li>Re-insert them to the tree (not to be repeated if another overflow occurs)</li>
-</ul>
-</li>
-<li>Slightly more expensive, but better tree structure:
-<ul>
-<li>less overlap</li>
-<li>more space is utilized (more full nodes)</li>
-</ul>
-</li>
-</ul>
-<h3 id="bulk-loading-r-trees">Bulk-loading R-trees</h3>
-<p><img src="https://image.pseudoyu.com/images/bulk_loading_R_tree.png" alt="bulk_loading_R_tree"></p>
-<p>Given a static set S of rectangles, build an R-tree that indexes S.</p>
-<ul>
-<li>Method 1: iteratively insert rectangles into an initially empty tree
-<ul>
-<li>Feature
-<ul>
-<li>tree reorganization is slow</li>
-<li>tree nodes are not as full as possible: more space occupied for the tree</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Method 2 (x-sorting): bulk-load the rectangles into the tree using some fast (sort or hash-based) process
-<ul>
-<li>sort rectangles using the x-coordinate of their center</li>
-<li>pack M consecutive rectangles in leaf nodes</li>
-<li>build tree bottom-up</li>
-<li>Feature
-<ul>
-<li>R-tree is built fast</li>
-<li>good space utilization</li>
-<li>results in leaf nodes that are have long stripes as MBRs</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Method 3 (Hilbert sorting): use a space-filling curve to order the rectangles
-<ul>
-<li>much better structure, but still the nodes have large overlap</li>
-</ul>
-</li>
-<li>Method 4 (sort-tile-recursive): Sort using one axis first and then groups of sqrt(n) rectangles using the other axis
-<ul>
-<li>Usually the best structure compared to other bulk-loading methods</li>
-</ul>
-</li>
-</ul>
-<h3 id="k-nearest-neighbor-search">K Nearest Neighbor Search</h3>
-<p>Given a spatial relation R, a query object q, and a number k &lt;|R|, find the k-nearest neighbors of q in R.</p>
-<p>We can have more than one k-NN sets (with multiple possible equidistant furthest points in them).</p>
-<h4 id="distance-measures-and-mbrs">Distance measures and MBRs</h4>
-<p>Distances between MBRs lower-bound the distances between the corresponding objects</p>
-<p>dist(MBR(oi),MBR(oj)) ≤ dist(oi, oj)</p>
-<p><img src="https://image.pseudoyu.com/images/distance_mbr.png" alt="distance_mbr"></p>
-<p>Distances between R-tree node MBRs lower-bound the distances between the entries in them</p>
-<p><img src="https://image.pseudoyu.com/images/min_distance_mbr.png" alt="min_distance_mbr"></p>
-<p>The distance between a query object q and an R-tree node MBR lower-bounds the distances between q and the objects indexed under this node</p>
-<p><img src="https://image.pseudoyu.com/images/q_distance_mbr.png" alt="q_distance_mbr"></p>
-<h4 id="depth-first-nn-search-using-an-r-tree">Depth-first NN search using an R-tree</h4>
-<ol>
-<li>Start from the root and visit the node nearest to q</li>
-<li>Continue recursively, until a leaf node nl is visited.</li>
-<li>Find the NN of q in nl.</li>
-<li>Continue visiting other nodes after backtracking as long there are nodes closer to q than the current NN.</li>
-</ol>
-<p><img src="https://image.pseudoyu.com/images/DFNNS_code.png" alt="DFNNS_code"></p>
-<ul>
-<li>Large space can be pruned by avoiding visiting R-tree nodes and their sub-trees</li>
-<li>Should order the entries of a node in increasing distance from q to maximize potential for a good NN found fast</li>
-<li>Can be easily adapted for k-NN search</li>
-<li>Requires at most one tree path to be currently in memory – good for small memory buffers
-<ul>
-<li>Characteristic of all depth-first search algorithms</li>
-<li>Recall that the range search algorithm is also DF</li>
-</ul>
-</li>
-<li>However, does not visit the least possible number of nodes</li>
-<li>Also, not incremental – more on this later&hellip;</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/DFNNS_example.png" alt="DFNNS_example"></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">1. visit root
-</span></span><span class="line"><span class="cl">dist<span class="o">(</span>q,M1<span class="o">)</span>&lt;dist<span class="o">(</span>q,oNN<span class="o">)</span>
-</span></span><span class="line"><span class="cl">must visit node M1
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">2. visit M1
-</span></span><span class="line"><span class="cl">dist<span class="o">(</span>q,m1<span class="o">)</span>&lt;dist<span class="o">(</span>q,oNN<span class="o">)</span>
-</span></span><span class="line"><span class="cl">must visit node m1
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">3. visit m1
-</span></span><span class="line"><span class="cl">check a,b,c
-</span></span><span class="line"><span class="cl">found new NN:
-</span></span><span class="line"><span class="cl"><span class="nv">oNN</span> <span class="o">=</span> a, dist<span class="o">(</span>q,oNN<span class="o">)</span> <span class="o">=</span> sqrt<span class="o">(</span>5<span class="o">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">4. backtrack to M1
-</span></span><span class="line"><span class="cl">check m2dist<span class="o">(</span>q,m2<span class="o">)</span> <span class="o">=</span> <span class="m">3</span> &gt;<span class="o">=</span> sqrt<span class="o">(</span>5<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">No need to visit node m2
-</span></span><span class="line"><span class="cl">check m3dist<span class="o">(</span>q,m3<span class="o">)</span> <span class="o">=</span> sqrt<span class="o">(</span>5<span class="o">)</span> &gt;<span class="o">=</span> sqrt<span class="o">(</span>5<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">No need to visit node m3
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">5. backtrack to root
-</span></span><span class="line"><span class="cl">check M2dist<span class="o">(</span>q,M2<span class="o">)</span> <span class="o">=</span> sqrt<span class="o">(</span>2<span class="o">)</span> &lt; sqrt<span class="o">(</span>5<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">must visit node M2
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">6. visit M2
-</span></span><span class="line"><span class="cl">check m4dist<span class="o">(</span>q,m4<span class="o">)</span> <span class="o">=</span> sqrt<span class="o">(</span>2<span class="o">)</span> &lt; sqrt<span class="o">(</span>5<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">must visit node m4
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">7. visit m4
-</span></span><span class="line"><span class="cl">check i,j,k
-</span></span><span class="line"><span class="cl">found new NN:
-</span></span><span class="line"><span class="cl"><span class="nv">oNN</span> <span class="o">=</span> k, dist<span class="o">(</span>q,oNN<span class="o">)</span> <span class="o">=</span> sqrt<span class="o">(</span>2<span class="o">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">8. backtrack to M2
-</span></span><span class="line"><span class="cl">check m5dist<span class="o">(</span>q,m5<span class="o">)</span> &gt;<span class="o">=</span> sqrt<span class="o">(</span>2<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">No need to visit node m5
-</span></span><span class="line"><span class="cl">check m6dist<span class="o">(</span>q,m6<span class="o">)</span> &gt;<span class="o">=</span> sqrt<span class="o">(</span>2<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">No need to visit node m6
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">9. backtrack to root
-</span></span><span class="line"><span class="cl">check M3dist<span class="o">(</span>q,M3<span class="o">)</span> &gt;<span class="o">=</span> sqrt<span class="o">(</span>2<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">No need to visit node M3
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">10. backtrack from root
-</span></span><span class="line"><span class="cl">Algorithm terminates
-</span></span><span class="line"><span class="cl"><span class="nv">oNN</span> <span class="o">=</span>k with dist<span class="o">(</span>q,oNN<span class="o">)=</span> sqrt<span class="o">(</span>2<span class="o">)</span> found
-</span></span></code></pre></div><h4 id="best-first-nn-search">Best-first NN search</h4>
-<p>Put all entries in a priority queue and always “open” the closest one, independently of the node that contains it.</p>
-<p>Thus the best (i.e., closest) entry is always visited first.</p>
-<ul>
-<li>A more efficient algorithm (given large enough memory)</li>
-<li>Optimal in the number of R-tree nodes visited for a given query q</li>
-<li>Uses a priority queue to organize seen entries and prioritize the next node to be visited</li>
-<li>Adaptable for k-NN search and incremental NN search</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/BFNNS_code.png" alt="BFNNS_code"></p>
-<ul>
-<li>In the previous example, we have visited fewer nodes compared to DF-NN algorithm
-<ul>
-<li>Only nodes whose MBR intersect the disk centered at q with radius the real NN distance are visited (see if you can you prove this)</li>
-</ul>
-</li>
-<li>The algorithm can be adapted for incremental NN search
-<ul>
-<li>After having found the NN can we easily (incrementally) find the next NN without starting search from the beginning?
-<ul>
-<li>put objects on the heap</li>
-<li>never prune, but wait until an object comes out</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>The algorithm can be used for k-NN search
-<ul>
-<li>use a second heap to organize the NN found so far (same can be done for DF-NN)</li>
-<li>no need if we just use the inc. version of the algorithm</li>
-</ul>
-</li>
-<li>&hellip; but: The heap can grow very large until the algorithm terminates</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/BFNNS_example.png" alt="BFNNS_example"></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">Step 1: put all entries of root on heap Q
-</span></span><span class="line"><span class="cl"><span class="nv">Q</span> <span class="o">=</span> M1<span class="o">(</span>1<span class="o">)</span>, M2<span class="o">(</span>sqrt<span class="o">(</span>2<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>8<span class="o">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Step 2: get closest entry <span class="o">(</span>top element of Q<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">M1<span class="o">(</span>1<span class="o">)</span>. Visit node M1. Put all entries of
-</span></span><span class="line"><span class="cl">visited node on heap Q
-</span></span><span class="line"><span class="cl"><span class="nv">Q</span> <span class="o">=</span> M2<span class="o">(</span>sqrt<span class="o">(</span>2<span class="o">))</span>, m1<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>8<span class="o">))</span>, m2<span class="o">(</span>3<span class="o">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Step 3: get closest entry <span class="o">(</span>top element of Q<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">M2<span class="o">(</span>sqrt<span class="o">(</span>2<span class="o">))</span>. Visit node M2. Put all entries of
-</span></span><span class="line"><span class="cl">visited node on heap Q
-</span></span><span class="line"><span class="cl"><span class="nv">Q</span> <span class="o">=</span>m4<span class="o">(</span>sqrt<span class="o">(</span>2<span class="o">))</span>, m1<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>8<span class="o">))</span>, m2<span class="o">(</span>3<span class="o">)</span>, 	m5<span class="o">(</span>sqrt<span class="o">(</span>13<span class="o">))</span>, m5<span class="o">(</span>sqrt<span class="o">(</span>17<span class="o">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Step 4: get closest entry <span class="o">(</span>top element of Q<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">m4<span class="o">(</span>sqrt<span class="o">(</span>2<span class="o">))</span>. Visit node m4. m4 is a leaf node, so update NN <span class="k">if</span> some object in m4 is closer than the current NN:
-</span></span><span class="line"><span class="cl"><span class="nv">oNN</span> <span class="o">=</span> k, dist<span class="o">(</span>q,oNN<span class="o">)=</span> sqrt<span class="o">(</span>2<span class="o">)</span>
-</span></span><span class="line"><span class="cl"><span class="nv">Q</span> <span class="o">=</span>m1<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>, M3<span class="o">(</span>sqrt<span class="o">(</span>8<span class="o">))</span>, m2<span class="o">(</span>3<span class="o">)</span>, 	m5<span class="o">(</span>sqrt<span class="o">(</span>13<span class="o">))</span>, m5<span class="o">(</span>sqrt<span class="o">(</span>17<span class="o">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Step 5: get closest entry <span class="o">(</span>top element of Q<span class="o">)</span>:
-</span></span><span class="line"><span class="cl">m1<span class="o">(</span>sqrt<span class="o">(</span>5<span class="o">))</span>. Since sqrt<span class="o">(</span>5<span class="o">)</span> &gt;<span class="o">=</span> dist<span class="o">(</span>q,oNN<span class="o">)=</span> sqrt<span class="o">(</span>2<span class="o">)</span>, search stops and oNN is returned as the NN of q
-</span></span></code></pre></div><p><strong>incremental NN search</strong></p>
-<ul>
-<li>Example 1: find the nearest large city (&gt;10,000 residents) to my current position
-<ul>
-<li>Solution 1:
-<ul>
-<li>find all large cities</li>
-<li>apply NN search on the result</li>
-<li>could be slow if many such cities</li>
-<li>also R-tree may not be available for large cities only</li>
-</ul>
-</li>
-<li>Solution 2:
-<ul>
-<li>incrementally find NN and check if the large city requirement is satisfied; if not get the next NN</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Example 2: find the nearest hotel; see if you like it; if not get the next one; see if you like it; &hellip;</li>
-</ul>
-<h3 id="spatial-joins">Spatial Joins</h3>
-<p>Most algorithms focus on the efficient processing of the filter step.</p>
-<p>Most spatial predicates on actual objects reduce to intersection of MBRs in the filter step. Thus all algorithms consider mainly the intersect predicate.</p>
-<p><strong>Types</strong></p>
-<ul>
-<li>intersection joins</li>
-<li>Semi-join: Find the cities that intersect a river</li>
-<li>Similarity join: Find pairs of hotels, restaurants close to each other (with distance smaller than 100m)</li>
-<li>Closest pairs: Find the closest pair of hotels, restaurants</li>
-<li>All-NN: For each hotel find the nearest restaurant</li>
-<li>Iceberg distance join: Find hotels close to at least 10 restaurants</li>
-</ul>
-<p><strong>Three categories of spatial join algorithms</strong></p>
-<ul>
-<li>Both inputs are indexed (e.g., synchronized tree traversal)</li>
-<li>One input is indexed (e.g., indexed nested loops)</li>
-<li>Neither input is indexed (e.g., spatial hash join)</li>
-</ul>
-<h4 id="r-tree-intersection-join">R-tree (Intersection) Join</h4>
-<p>Applies on two R-trees of spatial relations R and S</p>
-<p>Node MBRs at the high level of the trees can prune object combinations to be checked</p>
-<p>This pseudo-code version assumes that the trees have same height</p>
-<p><img src="https://image.pseudoyu.com/images/R_tree_join_code.png" alt="R_tree_join_code"></p>
-<p><strong>Example</strong></p>
-<ul>
-<li>run for root(RA), root(RB)</li>
-<li>for every intersecting pair there (e.g., A1, B1) run recursively for pointed nodes</li>
-<li>intersecting pairs of leaf nodes are qualifying object MBR pairs</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/R_tree_join_example.png" alt="R_tree_join_example"></p>
-<h4 id="optimization-1">Optimization</h4>
-<p><strong>space restriction</strong></p>
-<ul>
-<li>If an entry in n1 does not intersect the MBR of n2 it may not intersect any entry in n2.</li>
-<li>Perform two scans in n1 and n2 to prune such entries</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/R_tree_join_optimization.png" alt="R_tree_join_optimization"></p>
-<p><strong>plane sweep</strong></p>
-<ul>
-<li>Sort entries in both nodes on their lower-x value (lower bound of x-projection)</li>
-<li>Sweep a line to find fast all entry pairs that qualify x-intersection
-<ul>
-<li>for each of them check y-intersection</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/R_tree_join_optimization2.png" alt="R_tree_join_optimization2"></p>
-<ul>
-<li>Worst-case sub-optimal. But very effective on the average</li>
-<li>Worst-case optimal algorithms require advanced data structures for y-intersection. Large hidden constants, thus high cost for this problem size</li>
-<li>Can be used with other spatial join algorithms</li>
-</ul>
-<p><strong>R-tree join</strong></p>
-<ul>
-<li>The most efficient algorithm (assuming that the relations are indexed)</li>
-<li>Cannot be used for non-indexed inputs</li>
-<li>unless we build on-the-fly R-trees</li>
-<li>Comes with some I/O scheduling techniques for minimizing the page accesses</li>
-</ul>
-<h4 id="joining-non-indexed-inputs">Joining non-indexed inputs</h4>
-<p><strong>Spatial hash join</strong></p>
-<p><img src="https://image.pseudoyu.com/images/spatial_hash_join.png" alt="spatial_hash_join"></p>
-<p><strong>Partition based spatial merge join</strong></p>
-<p><img src="https://image.pseudoyu.com/images/spatial_merge_join.png" alt="spatial_merge_join"></p>
-<p><strong>Indexed Nested Loops</strong></p>
-<p><img src="https://image.pseudoyu.com/images/indexed_nest_loops.png" alt="indexed_nest_loops"></p>
-<p><strong>Seeded tree join and Bulk-load and Match build an on-the-fly R-tree</strong></p>
-<p><img src="https://image.pseudoyu.com/images/seeded_tree_join.png" alt="seeded_tree_join"></p>
-<p><strong>Slot-index spatial join applies hash-join using the entries of a high R-tree level</strong></p>
-<p><img src="https://image.pseudoyu.com/images/slot_index_spatial_join.png" alt="slot_index_spatial_join"></p>
-<h3 id="the-refinement-step">The refinement step</h3>
-<p><img src="https://image.pseudoyu.com/images/refinement_step.png" alt="refinement_step"></p>
-<ul>
-<li>Step 1: find MBR pairs that intersect</li>
-<li>Step 2: compare some more detailed approximations to make conclusions (a.k.a. geometric filter)
-<ul>
-<li>conservative approximations
-<ul>
-<li>e.g., convex hull</li>
-</ul>
-</li>
-<li>progressive approximation
-<ul>
-<li>e.g., maximum enclosed rectangle</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/refinement_detailed_approximations.png" alt="refinement_detailed_approximations"></p>
-<ul>
-<li>Step 3: if still join predicate inconclusive, perform expensive refinement step
-<ul>
-<li>can be processed by computational geometry algorithms</li>
-</ul>
-</li>
-<li>Multi-step processing (R-tree join as example)</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/refinement_multi_step.png" alt="refinement_multi_step"></p>
 ]]></content:encoded></item></channel></rss>
