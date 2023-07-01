@@ -51,7 +51,7 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ```text
 Go         3 hrs 42 mins  █████████████████▌░░░  83.5%
 YAML       30 mins        ██▍░░░░░░░░░░░░░░░░░░  11.4%
-Text       13 mins        █░░░░░░░░░░░░░░░░░░░░   5.1%
+Text       13 mins        █░░░░░░░░░░░░░░░░░░░░   5.0%
 ```
 
 <!-- code_time ends -->

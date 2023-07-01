@@ -52,7 +52,7 @@ rss_ignore: true
 ```text
 Go         3 hrs 42 mins  █████████████████▌░░░  83.5%
 YAML       30 mins        ██▍░░░░░░░░░░░░░░░░░░  11.4%
-Text       13 mins        █░░░░░░░░░░░░░░░░░░░░   5.1%
+Text       13 mins        █░░░░░░░░░░░░░░░░░░░░   5.0%
 ```
 
 <!-- code_time ends -->
