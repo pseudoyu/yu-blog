@@ -11,7 +11,6 @@ rss_ignore: true
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
 
-{{< friend name="M1sty" url="https://www.m1sty.com" logo="https://image.pseudoyu.com/images/misty_avatar.jpg" word="Mircales Happen Every Misty Day" >}}
 {{< friend name="Boyi" url="https://luboyi.hashnode.dev" logo="https://image.pseudoyu.com/images/boyi_blog.jpg" word="EXPECTO PATRONUM" >}}
 {{< friend name="Airing" url="https://me.ursb.me" logo="https://image.pseudoyu.com/images/airing_avatar.jpg" word="Airing's Blog" >}}
 {{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://image.pseudoyu.com/images/zzhack_avatar.png" word="Mist's Blog" >}}

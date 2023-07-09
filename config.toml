@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = true
 
   # site info (optional)
   keywords = ["hugo","blockchain","programming"]
-  description = "Blockchain | Programming | Photography | Misty"
+  description = "Blockchain | Programming | Photography | Boyi"
   logoTitle = "Pseudoyu" # shown on top-left, default: title
   siteLogoImage = "images/fly.png"     # shown besides logoTitle
   # headerTitle = "Pseudoyu"                   # default: title
@@ -179,7 +179,7 @@ defaultContentLanguageInSubdir = true
   weight = 1
 
   [languages.zh.params]
-    description = "Blockchain | Programming | Photography | Misty"
+    description = "Blockchain | Programming | Photography | Boyi"
 
   [[languages.zh.menu.main]]
     name = "思考"
@@ -228,8 +228,3 @@ defaultContentLanguageInSubdir = true
     weight = 20
     identifier = "services-status"
     url = "https://uptime.pseudoyu.com/status/services"
-  [[languages.zh.menu.links]]
-    name = "M1sty's Blog"
-    weight = 30
-    identifier = "m1sty"
-    url = "https://www.m1sty.com/"
