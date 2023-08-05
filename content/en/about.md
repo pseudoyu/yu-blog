@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/1438759/' target='_blank'>想看恋爱世纪</a> - 2023-08-04
+* <a href='https://book.douban.com/subject/35719516/' target='_blank'>想读The Founders</a> - 2023-08-04
 * <a href='https://book.douban.com/subject/36191471/' target='_blank'>想读履单</a> - 2023-07-23
 * <a href='https://book.douban.com/subject/7061613/' target='_blank'>想读Steal Like an Artist</a> - 2023-07-23
 * <a href='https://book.douban.com/subject/36118967/' target='_blank'>最近在读静寂工人</a> - 2023-07-22
-* <a href='https://book.douban.com/subject/30144097/' target='_blank'>读过世界尽头与冷酷仙境</a> - 2023-07-21
-* <a href='http://movie.douban.com/subject/35593344/' target='_blank'>想看奥本海默</a> - 2023-07-20
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         23 hrs 35 mins ████████████████▎░░░░  77.4%
-TypeScript 1 hr 46 mins   █▏░░░░░░░░░░░░░░░░░░░   5.8%
-YAML       1 hr 34 mins   █░░░░░░░░░░░░░░░░░░░░   5.2%
-Other      1 hr 5 mins    ▊░░░░░░░░░░░░░░░░░░░░   3.6%
-Bash       28 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.6%
+Go         16 hrs 24 mins █████████████████▋░░░  84.4%
+TypeScript 45 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.9%
+YAML       27 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.3%
+Other      24 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.1%
+TOML       22 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.9%
 ```
 
 <!-- code_time ends -->
