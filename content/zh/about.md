@@ -39,7 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-
+* <a href='http://movie.douban.com/subject/35524539/' target='_blank'>想看时光代理人 第二季</a> - 2023-08-11
+* <a href='http://movie.douban.com/subject/35263440/' target='_blank'>想看时光代理人</a> - 2023-08-11
+* <a href='http://movie.douban.com/subject/25994712/' target='_blank'>想看伪装者</a> - 2023-08-10
+* <a href='http://movie.douban.com/subject/36251546/' target='_blank'>想看一兆游戏</a> - 2023-08-08
+* <a href='http://www.douban.com/game/34261532/' target='_blank'>想玩博德之门3 Baldur's Gate 3</a> - 2023-08-08
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
