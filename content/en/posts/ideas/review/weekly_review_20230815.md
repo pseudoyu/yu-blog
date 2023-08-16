@@ -2,7 +2,7 @@
 title: "周报 #44 - 静寂工人、xLog 与日常"
 date: 2023-08-15T10:01:24+08:00
 draft: false
-tags: ["review", "life", "romance", "love", "run", "time", "boyi"]
+tags: ["review", "life", "romance", "love", "xlog", "time", "boyi", "n8n"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
