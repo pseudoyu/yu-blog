@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Markdown   6 hrs 40 mins  ███████████▎░░░░░░░░░  53.9%
-Go         3 hrs 47 mins  ██████▍░░░░░░░░░░░░░░  30.6%
-JSON       38 mins        █░░░░░░░░░░░░░░░░░░░░   5.2%
+Markdown   6 hrs 27 mins  ██████████▊░░░░░░░░░░  51.3%
+Go         4 hrs 50 mins  ████████░░░░░░░░░░░░░  38.4%
 Other      15 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.1%
 Objecti... 12 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
+Makefile   11 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.5%
 ```
 
 <!-- code_time ends -->
