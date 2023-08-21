@@ -38,19 +38,19 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/36484131/' target='_blank'>想读The PARA Method</a> - 2023-08-20
+* <a href='https://book.douban.com/subject/10604942/' target='_blank'>想读我打电话的地方</a> - 2023-08-20
+* <a href='https://book.douban.com/subject/36315505/' target='_blank'>想读两种孤独</a> - 2023-08-20
 * <a href='http://movie.douban.com/subject/25994712/' target='_blank'>在看伪装者</a> - 2023-08-13
 * <a href='http://movie.douban.com/subject/35524539/' target='_blank'>想看时光代理人 第二季</a> - 2023-08-11
-* <a href='http://movie.douban.com/subject/35263440/' target='_blank'>想看时光代理人</a> - 2023-08-11
-* <a href='http://movie.douban.com/subject/36251546/' target='_blank'>想看一兆游戏</a> - 2023-08-08
-* <a href='http://www.douban.com/game/34261532/' target='_blank'>想玩博德之门3 Baldur's Gate 3</a> - 2023-08-08
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   6 hrs 27 mins  ██████████▊░░░░░░░░░░  51.3%
-Go         4 hrs 50 mins  ████████░░░░░░░░░░░░░  38.4%
+Markdown   6 hrs 27 mins  ██████████▊░░░░░░░░░░  51.7%
+Go         4 hrs 44 mins  ███████▉░░░░░░░░░░░░░  38.0%
 Other      15 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.1%
 Objecti... 12 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
 Makefile   11 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.5%
