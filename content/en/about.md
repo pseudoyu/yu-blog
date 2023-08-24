@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/34963356/' target='_blank'>想看过往人生</a> - 2023-08-23
 * <a href='https://book.douban.com/subject/36484131/' target='_blank'>想读The PARA Method</a> - 2023-08-20
 * <a href='https://book.douban.com/subject/10604942/' target='_blank'>想读我打电话的地方</a> - 2023-08-20
 * <a href='https://book.douban.com/subject/36315505/' target='_blank'>想读两种孤独</a> - 2023-08-20
 * <a href='http://movie.douban.com/subject/25994712/' target='_blank'>在看伪装者</a> - 2023-08-13
-* <a href='http://movie.douban.com/subject/35524539/' target='_blank'>想看时光代理人 第二季</a> - 2023-08-11
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         13 hrs 7 mins  ████████████████▎░░░░  77.5%
-Markdown   2 hrs 1 min    ██▌░░░░░░░░░░░░░░░░░░  12.0%
-Other      20 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.0%
-YAML       17 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
-Objecti... 12 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.2%
+Go         13 hrs 21 mins ██████████████████▋░░  88.9%
+Objecti... 19 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.2%
+YAML       17 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.9%
+Makefile   11 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.3%
+go.mod     11 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.2%
 ```
 
 <!-- code_time ends -->
