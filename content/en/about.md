@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/36366986/' target='_blank'>想读日本游戏开发者口述史</a> - 2023-08-29
+* <a href='https://book.douban.com/subject/36484131/' target='_blank'>最近在读The PARA Method</a> - 2023-08-29
+* <a href='https://book.douban.com/subject/35761116/' target='_blank'>最近在读Building a Second Brain</a> - 2023-08-29
 * <a href='http://movie.douban.com/subject/35573308/' target='_blank'>看过绝世网红</a> - 2023-08-26
 * <a href='http://movie.douban.com/subject/35936775/' target='_blank'>看过【我推的孩子】</a> - 2023-08-26
-* <a href='http://movie.douban.com/subject/25994712/' target='_blank'>看过伪装者</a> - 2023-08-26
-* <a href='http://movie.douban.com/subject/35588177/' target='_blank'>看过漫长的季节</a> - 2023-08-26
-* <a href='http://movie.douban.com/subject/34963356/' target='_blank'>想看过往人生</a> - 2023-08-23
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         14 hrs 51 mins ██████████████▊░░░░░░  70.5%
-YAML       1 hr 38 mins   █▋░░░░░░░░░░░░░░░░░░░   7.8%
-Objecti... 1 hr 20 mins   █▎░░░░░░░░░░░░░░░░░░░   6.4%
-Other      55 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.4%
-Ezhil      27 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.2%
+Go         7 hrs 9 mins   ███████████▎░░░░░░░░░  53.9%
+YAML       1 hr 43 mins   ██▋░░░░░░░░░░░░░░░░░░  12.9%
+Objecti... 1 hr 20 mins   ██▏░░░░░░░░░░░░░░░░░░  10.1%
+Other      49 mins        █▎░░░░░░░░░░░░░░░░░░░   6.2%
+Ezhil      21 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
 ```
 
 <!-- code_time ends -->
