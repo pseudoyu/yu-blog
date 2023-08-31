@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Go         7 hrs 9 mins   ███████████▎░░░░░░░░░  53.9%
-YAML       1 hr 43 mins   ██▋░░░░░░░░░░░░░░░░░░  12.9%
-Objecti... 1 hr 20 mins   ██▏░░░░░░░░░░░░░░░░░░  10.1%
-Other      49 mins        █▎░░░░░░░░░░░░░░░░░░░   6.2%
-Ezhil      21 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
+Go         9 hrs 11 mins  ███████████▊░░░░░░░░░  56.1%
+YAML       1 hr 48 mins   ██▎░░░░░░░░░░░░░░░░░░  11.1%
+Objecti... 1 hr 14 mins   █▌░░░░░░░░░░░░░░░░░░░   7.6%
+Solidity   1 hr 3 mins    █▎░░░░░░░░░░░░░░░░░░░   6.5%
+Other      49 mins        █░░░░░░░░░░░░░░░░░░░░   5.1%
 ```
 
 <!-- code_time ends -->
