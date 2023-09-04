@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 15 Aug 2023 10:01:24 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #44 - 静寂工人、xLog 与日常</title><link>https://www.pseudoyu.com/en/2023/08/15/weekly_review_20230815/</link><pubDate>Tue, 15 Aug 2023 10:01:24 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/08/15/weekly_review_20230815/</guid><description>《温柔 - 五月天》 前言 本篇是对 2023-07-11 到 2023-08-15 这几周生活的记录与思考。 停滞了将近一个月，再打开周报文档的时候也有了些许陌生感。其实积攒了很多想写的主题，</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Sep 2023 02:38:39 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</title><link>https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/</link><pubDate>Tue, 05 Sep 2023 02:38:39 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/</guid><description>前言 我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/yu_blog_my_pkm_system.png" alt="yu_blog_my_pkm_system"></p>
+<p>我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模式或是习惯在某个时刻突然发挥了作用就会有一种欣喜感，而当受到外界或是自身状态影响而停止运转时则会有一种秩序感被打破的重度不适。</p>
+<p>作为一个效率工具控，我的个人知识管理与信息管理则可以说是自己最重要的一部分。其实本没有想要写这篇文章，有太多的先例实践在前，而自己也只是一种前人基础上的微调优化，常常没有什么信心去分享，而这周重新搭建和优化了一下自己的知识管理系统，很开心，有一种想要记录下来的冲动，本来只是想在周报里稍稍提及，却发现越写越收不住，于是就有了这篇文章。</p>
+<p>其实之前对于信息输出在周报中时常有提及，所以本文也会覆盖一些之前的内容，并且终于补上了信息获取和知识管理的部分，就作为一个总集篇了。其中，理论的部分，如“费曼学习法”、“卢曼卡片盒笔记法”已经有很多很好的介绍文章，不再花篇幅介绍了，而更多的是阐述我使用的软件工具实践，希望能够对大家有所帮助。</p>
+<h2 id="信息获取与管理">信息获取与管理</h2>
+<p>不知道从什么时候起，其实能很明显感受到自己对网络世界信息的依赖。可能有别于游戏瘾或是经常被诟病的短视频算法鸦片，我的这种依赖并不是机械性地刷刷刷，或是面对焦虑时的逃避，而是一种对于信息获取的渴求，甚至内化为了一种生活方式。因为我对自己的信息筛选和消化能力颇有信心，所以其实一直以来没有在输入源和整理上花太多的心思。</p>
+<p>而随着自己接触和感兴趣的领域越来越多，信息不断积累，有时候仅仅是浏览和通读都已经有些超过了记忆负荷，并且这些信息常常也零散地留在我的笔记或是脑海的某个角落中，并没有成为内化的一部分，以后也很难记起或是检索，于是重新对自己的信息获取方式进行了梳理。</p>
+<h3 id="信息源分类">信息源分类</h3>
+<p>我的信息来源按照大类可以分为以下几类：</p>
+<ol>
+<li>随机想法</li>
+<li>信息流</li>
+<li>聚焦阅读</li>
+</ol>
+<h4 id="随机想法">随机想法</h4>
+<p><img src="https://image.pseudoyu.com/images/logseq_random_thoughts.png" alt="logseq_random_thoughts"></p>
+<p>在日常生活、工作、学习或是什么任意的时刻，我有时候会萌生一些随机的想法，这些想法和当前所做的事并不相关或是天马行空，但也许会在未来的某个时刻被用到。因为我大部分时间都不会离开电脑太远，我通常会记录 Logseq 的 Journal 中，有事可能会临时发在一个只有自己一个人的微信群中或是 Telegram 的 Saved Message 中，后续再补充上去。</p>
+<h4 id="信息流">信息流</h4>
+<p>我每天从起床开始就会被来自各个平台的信息流所裹挟，依赖于网络世界其实最难免的是与社交媒体与算法的抗争，一方面是要避免自己被过载的贩卖焦虑的信息或是熟人社交圈的“Peer Pressure”所困扰，另一方面也需要警惕算法所构造的信息茧房。实话说这一点挺难做到，即使自己多少算是具备一些克制和过滤信息的能力并有意识在这样做，但依然难以避免被其所扰乱思绪或是引导。</p>
+<p>我最后采取了一种简单却也行之有效的方式 —— 关闭微信朋友圈入口与大部分软件通知提醒，并且把大部分不带社交属性而仅仅是用于信息获取的平台（如 B 站、微博等）的关注数量控制在 100 以内，如果新增则筛选优化之前的关注，减少无关内容的干扰。在完成上述行为的基础上，我使用 RSS 订阅这一似乎有些古早的方式，但是仅订阅了不到 50 个网站，其中大部分是博客或是个人网站，且会定期筛选，减少自己每天的 feeds，但几乎在这一 feeds list 中的文章都会扫一下标题或初步浏览一下。</p>
+<p><img src="https://image.pseudoyu.com/images/readwise_reader_feeds.png" alt="readwise_reader_feeds"></p>
+<p>这一点我最开始是自己搭建了 Miniflux 服务来抓取，并且用一个 <a href="https://github.com/Rongronggg9/RSS-to-Telegram-Bot">RSS-to-Telegram-Bot</a> 来推送提醒的，而最近开始使用 <a href="https://read.readwise.io/">Readwise Reader</a> 后，由于体验很好，便把这一部分迁移过来了。我使用的是 Readwise Reader 内置的一种管理模式，分为三类：</p>
+<ol>
+<li>Later</li>
+<li>Shortlist</li>
+<li>Archive</li>
+</ol>
+<p>我会每天扫描一下 Feeds 面板，扫到感兴趣的文章会加入到 Later 中，作为一个稍后读，当然，就以前的经验来说，稍后读放久了常常会变成“稍后也不读”，所以我在筛选时非常克制，仅将很感兴趣且有时间后马上会读的文章加入，并要求自己在晚上的时候清理 Later 列表。</p>
+<p>而我们也会在社交媒体互联网的各个角落被推送到一些信息，其中我尤其在意的是这几类：</p>
+<ol>
+<li>感兴趣的一些观点/推文 threads</li>
+<li>感兴趣的文章</li>
+<li>有用的资源</li>
+</ol>
+<p>如果是一些比较有意思的观点或是评论，我通常并不会加入软件的对应 List、收藏夹等，而是会复制其内容到 Logseq 的 Journal 中并打上对应 tag，其实这一步很多软件（包括 Readwise Reader）提供了推特 threads 保留或是其他的一些更方便保存推文的方式，但我倾向于自己复制和整理，以几句话的方式记录下来而不是仅仅存一个链接，这样似乎刻意增加的步骤会让我多一步审视这些观点，避免被强引导性或是情绪化的观点所影响，也更有益于自己消化信息并内化为自己的想法。</p>
+<p><img src="https://image.pseudoyu.com/images/readwise_chrome_extension.png" alt="readwise_chrome_extension"></p>
+<p>如果是自己感兴趣的一些文章，则会通过 Readwise 的 Chrome 插件进行阅读或保存。这部分我给自己的要求是每篇文章都要打上标签和 notes，notes 中主要描述为什么要读这篇文章。</p>
+<p><img src="https://image.pseudoyu.com/images/readwise_chrome_extension_highlight.png" alt="readwise_chrome_extension_highlight"></p>
+<p>其中如果仅仅是需要泛读或是获取信息的一些文章，我会加入 Later 列表，而精读的我则是会加入 Shortlist，并且必须要对其中一些有意义的话加 highlights，也尽量对 highlights 加上自己的一些评价和想法，这些都可以在插件中直接操作，很方便。</p>
+<p><img src="https://image.pseudoyu.com/images/pinboard_bookmark.png" alt="pinboard_bookmark"></p>
+<p>而如果是一些有用的网站、文档、代码、软件或是其他资源类的信息，我会使用 <a href="https://pinboard.in/">pinboard</a>，一个很古早但是很好用的书签管理工具了来保存，同样是用浏览器插件进行保存，也会打上标签和简单的描述，大概一年左右了我积累了 455 个书签，其中大部分我都能够通过 tag 和名称在需要用的时候快速检索到。</p>
+<p>而像是视频网站等我更多还是使用点赞或是收藏的方式，一方面对创作者表示支持，另一方面也通过一些自动化工具同步到我的 Telegram 个人频道「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」，并标记上对应 tag，但大多视频的信息效率并不高，所以更多是一些有趣的或是探索向的。</p>
+<h4 id="聚焦阅读">聚焦阅读</h4>
+<p>除了上述这些被动推送的一些信息流外，其实我们也还会有很多特定主题或是与自己的领域强相关的一些信息需求，这需要我们去主动阅读一些书籍、报告等。</p>
+<p><img src="https://image.pseudoyu.com/images/wechat_reader_sync_readwise.png" alt="wechat_reader_sync_readwise"></p>
+<p>这一部分我原本更多是使用 kindle 或阅读纸质书，并手动在 Logseq 进行一些记录。但是在 <a href="https://lutaonan.com/">Randy</a> 推出 <a href="https://notepal.randynamic.org/">Notepal</a> 工具后，我开始使用微信读书，它本身有很多可阅读的书籍资源，并且我也用它导入 mobi 或是 epub 格式的一些书籍，阅读体验感还不错。</p>
+<p><img src="https://image.pseudoyu.com/images/wechat_reader_to_readwise.png" alt="wechat_reader_to_readwise"></p>
+<p>并且也很方便做一些笔记和标注，由于全平台同步，可以很方便地定期通过 Notepal 浏览器插件同步到 Readwise 中，效果也很好（上图就是同步过来的），这样也更有动力在碎片的一些时间里阅读一些书籍。</p>
+<h3 id="信息管理">信息管理</h3>
+<p>上一节我对信息获取的渠道和系统进行了一些梳理，但这些依然还是零散的信息，如果要让它们成为自己知识和思考的一部分，依然需要更多整理、消化与沉淀的过程。但涉及那么多平台，搜索和整理并不方便，也比较难建立起信息之间的关联，受正在读的这本「Building a Second Brain」 启发，我主要做了如下两点：</p>
+<ol>
+<li>借鉴和改造了 P.A.R.A 作为自己的全局 Tag 分类系统</li>
+<li>使用 Logseq 和 Heptabase 构建 Second Brain</li>
+</ol>
+<h4 id="全局-tag-系统">全局 Tag 系统</h4>
+<p><img src="https://image.pseudoyu.com/images/pama_framework.jpg" alt="pama_framework"></p>
+<p>其中 P.A.R.A 是我所提出的一个框架，分别是：</p>
+<ul>
+<li>Projects，正在做的项目相关</li>
+<li>Areas，特定领域</li>
+<li>Resources，未来可能会用到的资源</li>
+<li>Archives，已完成的项目</li>
+</ul>
+<p>我在这四个的类型的基础上增加了一个「Thoughts」，用于归类我的一些随机的想法。</p>
+<p><img src="https://image.pseudoyu.com/images/logseq_tag_system.png" alt="logseq_tag_system"></p>
+<p>我的实现思路是把这五个类型作为我的全局一级 Tag，而更具体的一些项目、领域、行业可作为二级、三级 Tag，例如 <code>Projects/writing/pkm</code>，<code>Areas/blockchain</code>，<code>Thoughts/weekly-review</code> 等，Logseq 提供了很强大的多层 Tag 系统，会自动根据 <code>/</code> 进行分层，便于检索，分类也一目了然，我把之前现有的一些 Tag 修改后效果如下：</p>
+<p><img src="https://image.pseudoyu.com/images/para_logseq_graph.png" alt="para_logseq_graph"></p>
+<h4 id="基于-heptabase--logseq-的-second-brain">基于 Heptabase + Logseq 的 Second Brain</h4>
+<p>我之前一直都是使用 Logseq 作为自己的知识管理系统的，最近看到了 <a href="https://twitter.com/WuPingJu">P.J. Wu 吳秉儒</a> 入职 Heptabase，对这一平台有了更多了解，于是将其纳入自己的知识管理系统，和 Logseq 双刀流共同构建自己的第二大脑。只要因循上文所说的 Tag 系统，两个平台之间并不需要额外的关联便可以各司其职地进行信息管理。</p>
+<p><img src="https://image.pseudoyu.com/images/logseq_sync_readwise_sample_page.png" alt="logseq_sync_readwise_sample_page"></p>
+<p>其中，Logseq 作为兼具简单任务管理和双向链接的笔记系统，非常适合沉淀我上述的这些信息流和一些自己阅读后产出的初步想法，如高亮、评论 notes 等，由于 Logseq 有 Readwise 官方插件，可以很方便地将我在微信读书和网络文章中的高亮和笔记自动同步为 Logseq 的 pages，并通过时间与 Journal 关联，这样我在每天/每周写一些回顾时能很直观地看到我过去的阅读和想法，如上文就是我在阅读 <a href="https://twitter.com/MapleShadow">枫影 Justin Yan</a> 的这篇「<a href="https://justinyan.me/post/5790">每个人每天都只有 24 小时，希望我的选择真的是我的选择</a>」时在他的网站上使用 Readwise Chrome 插件做的一些高亮和笔记，自动同步到了 Logseq 中，并根据我的配置打上了一些 tag 与属性。</p>
+<p>Logseq 很适合做一些信息整理和回顾，但当我要对某个领域/概念进行调研、阅读书籍整理脉络或是输出一篇博客文章时就显得稍稍有些单薄，它的信息以 block 为单位散落在每一天的 Journal 中，通过双向链接或是 tag 进行关联跳转，不方便进行一些直接的可视化关联，也需要自己对在前期就对关键词和 tag 做到足够清晰，依然有一些心智负担，所以这一部分我使用 Heptabase 来进行管理。</p>
+<p>Heptabase 可以看作是一个功能完善的白板笔记工具， <a href="https://twitter.com/WuPingJu">P.J. Wu 吳秉儒</a> 有很多关于 Heptabase 的<a href="https://pinchlime.com/tags/heptabase/">高质量介绍文章</a>，可以阅读了解一下。简单来说，它主要分为以下三个层级：</p>
+<ul>
+<li>Map</li>
+<li>Whiteboard</li>
+<li>Card</li>
+</ul>
+<p><img src="https://image.pseudoyu.com/images/heptabase_map_overview.png" alt="heptabase_map_overview"></p>
+<p>其中 Map 可以看作是我们 Second Brain 的整个空间，里面可以装各种白板，我建立了五个白板来作为第一层级 Tag。</p>
+<p><img src="https://image.pseudoyu.com/images/heptabase_whiteboard_overview.png" alt="heptabase_whiteboard_overview"></p>
+<p>卡片代表的是我们脑中的一个个想法或是一些独立的信息点，我们可以通过卡片与卡片的关联，白板与卡片之间的层级来组织我们知识。</p>
+<p>当我在写 Foundry 智能合约开发框架的教程时，我首先把一些零散的知识点或是实践中遇到的一些经验、教训以一个个白板平铺在 Foundy 的白板上（其为 <code>Projects</code> - <code>Blockchain</code> - <code>Smart Contract</code> 下的第四级子白板），当某个知识点已经足够多时，我会把白板之间再作一些 Section 分组、画线关联等。</p>
+<p>其中它还提供了原生与 Readwise 的集成，可以在右侧边栏直接选择 Readwise 中我们对某些文章、书籍的一些 highlights 与 notes 作为卡片直接引入到白板中，为它们建立一些关联，很像我们人脑整理零散信息或是头脑风暴的过程，完美符合了我的需求。</p>
+<p><img src="https://image.pseudoyu.com/images/heptabase_chiangmai_trip.png" alt="heptabase_chiangmai_trip"></p>
+<p>我目前还会用它做一些旅行攻略，把从小红书和其他人的攻略帖中的信息点作为一个个 card 放在旅行规划的白板中，然后再通过关联和分组进行整理，很规整。</p>
+<h2 id="信息输出">信息输出</h2>
+<p>而我的输出则主要包含以下三个部分：</p>
+<ol>
+<li>笔记/观点/日常</li>
+<li>长文</li>
+<li>主题研究</li>
+<li>信息流</li>
+</ol>
+<h3 id="笔记观点日常">笔记/观点/日常</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_twitter_profile.png" alt="yu_twitter_profile"></p>
+<p>其中 Twitter 「<a href="https://twitter.com/pseudo_yu">pseudo_yu</a>」是我最主要的无结构化的信息输出渠道，有时候是一些关于新技术的想法、关于工作的感受、与朋友相见的心情或是一张可爱的猫猫图，都构成了我输出，也对应着我输入中那些随机想法的快速产出。</p>
+<p>其中，Twitter 上认识的朋友也给我带来了很多温暖。</p>
+<h3 id="长文">长文</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_blog_homepage.png" alt="yu_blog_homepage"></p>
+<p>而我最重要的输出平台是个人博客「<a href="https://www.pseudoyu.com/">Pseudoyu</a>」，目前周报是我的主要出口，偶尔也会有一些主题或专题性的关于技术或是效率工具的博文。</p>
+<h3 id="主题研究">主题研究</h3>
+<p>因为输出一篇博文由于要考虑到受众、言辞表述与完整性等，其实有一定的心智负担，且周期较长，而我在进行特定领域的主题研究过程中大多把学习资料和一些 Demo 放在 GitHub 仓库中或是 Logseq 的某个笔记角落，有时候时间久了就得要重新学习了。而我现在更多放在 Heptabase 的一个白板里，能够存放很多小的知识点并且在后续的创作中再进一步归纳和精炼，所以其实可以在初具框架后把这个白板共享出来，可以与更多人进行交流，也能对同样在学习的朋友有所帮助。</p>
+<h3 id="信息流输出">信息流输出</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_telegram_channel_screenshot.png" alt="yu_telegram_channel_screenshot"></p>
+<p>我搭建了一个自己的 n8n 同步服务，采集我零散在各个平台的信息输入输出，并且还会将我对电影、书籍的观后感以及自己其他一些所思所想发在自己的 Telegram 频道「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」里。也关注了一些频道和群组获取一些资讯或是认识一些志同道合的人，偶尔会手动转发，主要同步以下几个平台：</p>
+<ul>
+<li>Blog，现在更像是一种生活日志。</li>
+<li>YouTube，也是重度用户了，看技术相关教程和数码资讯比较多，偶尔也有很多好玩的内容。</li>
+<li>Bilibili，主要保留了自己这么多年一直在关注的一些博主，看旅拍比较多，只看动态不看首页和热门，之前倒是有自己经营帐号的计划，暂时没有什么好的想法。</li>
+<li>Pinboard，书签和网站保存管理工具，才开始用几个月就保存了很多重要的内容，重度依赖了。</li>
+<li>Instapaper，管理稍后读，主要是一些精品或是长文的保存。</li>
+<li>GitHub，也是日常刷了，看一些好的项目，也用列表在管理 Star。</li>
+<li>Spotify，在上述两个音乐软件听到的好歌会在 Spotify 标注一下。</li>
+<li>豆瓣，记录自己的书籍、剧集、电影、动漫和游戏，也是重度使用了，也在尝试每一个看过/玩过的作品都写一下自己的评价。</li>
+</ul>
+<h2 id="数据备份">数据备份</h2>
+<p>虽然像是 Twitter、Telegram 已经是比较大的平台，但毕竟是中心化的产物，再加上最近的各种风波，对于自己这些信息源的归集总是不放心 Telegram 作为最终站，尤其是我常常在删消息时差点误点删除全部（奇怪的交互体验），所以信息的同步导出部分也是很重要一环，我使用 Crossbell 生态下的 <a href="https://xlog.app/">xLog</a> 与 <a href="https://xsync.app/">xSync</a> 服务进行我的博客与各平台信息的链上备份。</p>
+<h3 id="xlog">xLog</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_xlog_profilea6f9af1d5482abc7.png" alt="yu_xlog_profile"></p>
+<p>视觉效果和体验感都不错，且基于 Crossbell 地址能够很方便地进行 follow 和评论，包含了 NFT 展示柜、个人作品集等功能，这是我的 <a href="https://xlog.pseudoyu.com/">xLog 访问地址</a>，有兴趣的朋友们也可以关注一下，不过目前出于定制化程度、各种历史文章迁移路由问题、自己各项数据统计服务变动等考虑，还是更多作为一个同步分发渠道。</p>
+<h3 id="xsync">xSync</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_sync_profile.png" alt="yu_sync_profile"></p>
+<p>xSync 能够同步 Twitter、Telegram Channel 等平台，不需要做任何侵入式改造就能把我的聚合频道作再一次备份与存档，后续可以通过 xChar 来查看自己的各项消息了，很完美的解决方案，这是我的 xChar 个人主页: <a href="https://xchar.app/pseudoyu">xChar</a>，也可以通过 <a href="https://xfeed.app/u/pseudoyu">xFeed</a> 查看我的信息流。</p>
+<h2 id="总结">总结</h2>
+<blockquote>
+<p>it is probably a mistake, in the end, to ask software to improve our thinking.</p>
+</blockquote>
+<p>Casey Newton 在最近的一篇「Why note-taking apps don’t make us smarter」中如是说。确实，这些系统或是工具软件其实终究只能辅助我们进行信息管理和输出，并不能代替我们思考，但构建知识管理系统在取悦自己的同时，也能够让思考变得更加高效，悦己才能达人，从而产出更有价值的输出。</p>
+<p>希望这篇文章能够对大家有所帮助。</p>
+]]></content:encoded></item><item><title>周报 #44 - 静寂工人、xLog 与日常</title><link>https://www.pseudoyu.com/en/2023/08/15/weekly_review_20230815/</link><pubDate>Tue, 15 Aug 2023 10:01:24 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/08/15/weekly_review_20230815/</guid><description>《温柔 - 五月天》 前言 本篇是对 2023-07-11 到 2023-08-15 这几周生活的记录与思考。 停滞了将近一个月，再打开周报文档的时候也有了些许陌生感。其实积攒了很多想写的主题，</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/tenderness.mp3" type="audio/mpeg">
@@ -11808,83 +11939,4 @@ A large set of items, e.g., things sold in a supermarket A large set of baskets,
 </ul>
 </li>
 </ul>
-]]></content:encoded></item><item><title>Ethereum 核心技术解读</title><link>https://www.pseudoyu.com/en/2021/02/20/blockchain_ethereum_basic/</link><pubDate>Sat, 20 Feb 2021 12:12:17 +0800</pubDate><guid>https://www.pseudoyu.com/en/2021/02/20/blockchain_ethereum_basic/</guid><description>前言 比特币作为一种去中心化的数字货币，是极其成功的，但受限于比特币脚本（非图灵完备，只能处理一些简单的逻辑），并不能处理很复杂的业务。而Et</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p>比特币作为一种去中心化的数字货币，是极其成功的，但受限于比特币脚本（非图灵完备，只能处理一些简单的逻辑），并不能处理很复杂的业务。而<code>Ethereum</code>引入了智能合约，使去中心化的概念能够应用于更丰富的应用场景，因此也被称为区块链 2.0。本文将对以太坊核心技术进行解读，如有错漏，欢迎交流指正。</p>
-<h2 id="ethereum-系统">Ethereum 系统</h2>
-<p>2014 年 1 月，俄罗斯开发者 Vitalik Buterin 发布了以太坊白皮书并成立团队，旨在创造一个集成更通用的脚本语言的区块链平台。其中一位成员 Dr. Gavin Wood 发布了一份黄皮书，涉及<code>Ethereum Virtual Machin(EVM)</code>以太坊虚拟的相关技术，这就是<code>Ethereum</code>的诞生。</p>
-<p><img src="https://image.pseudoyu.com/images/ethereum_overview.png" alt="ethereum_overview"></p>
-<p>简单来说，<code>Ethereum</code>是一个开源的去中心化系统，使用区块链来存储系统状态变化，因此也被称为“世界计算机”；它支持开发者在区块链上部署运行不可变的程序，称为智能合约，因此可以支持广泛的应用场景；它使用数字货币<code>Ether</code>来衡量系统资源消耗，激励更多人参与<code>Ethereum</code>系统建设。</p>
-<h3 id="去中心化应用-dapp">去中心化应用 DApp</h3>
-<p>狭义来说，DApp 其实就是一个集成了用户界面、支持智能合约、运行于以太坊区块链上的应用。</p>
-<p><img src="https://image.pseudoyu.com/images/ethereum_architecture.png" alt="ethereum_architecture"></p>
-<p>如上图所示，<code>Ethereum</code>应用实例部署在区块链网络上（智能合约运行于区块链虚拟机中），而 Web 程序只需要通过<code>Web3.js</code>对区块链网络进行<code>RPC</code>远程调用，这样用户就可以通过浏览器（DApp 浏览器或 MetaMask 等插件工具）访问去中心化服务应用了。</p>
-<h3 id="账本">账本</h3>
-<p><code>Ethereum</code>区块链是一个去中心化的账本（数据库），网络中的所有交易都会存储在区块链中，所有节点都要本地保存一份数据，并且确保每一笔交易的可信度；所有的交易都是公开且不可篡改的，网络中的所有节点都可以查看和验证。</p>
-<h3 id="账户">账户</h3>
-<p>当我们需要登录一个网站或系统（比如邮箱）时，往往需要一个帐号和一个密码，密码通过加密算法以暗文的形式存储在中心化的数据库中。然而，以太坊是一个去中心化的系统，那是怎么生成账户的呢？</p>
-<p>和比特币系统原理类似</p>
-<ol>
-<li>首先生成一个仅有自己知道的私钥，假设为<code>sk</code>，采用<code>ECDSA(Elliptic Curve Digital Signature Algorithm)</code>椭圆曲线算法生成对应的公钥<code>pk</code></li>
-<li>采用<code>keccak256</code>算法对公钥<code>pk</code>求哈希值</li>
-<li>截取后 160 位作为以太坊的地址</li>
-</ol>
-<p>用户的私钥和地址一起组成了以太坊的账户，可以存储余额、发起交易等（比特币的余额是通过计算所有的<code>UTXO</code>得到的，而不是像以太坊一样存储在账户中）。</p>
-<p>其实<code>Ethereum</code>账户分为两种类型，上述方式生成的叫<code>Externally Owned Accounts(EOA)</code>，外部账户，也就是常规用户拥有的账户，主要是用来发送/接收<code>Ether</code>代币或者向智能合约发送交易（即调用智能合约）。</p>
-<p>而另一种则是<code>Contract Accounts</code>，合约账户，不同于外部账户，这种账户是没有对应的私钥的，而是在部署合约的时候生成的，存储智能合约代码。值得注意的是，合约账户必须要被外部账户或者其他合约调用才能够发送或接收<code>Ether</code>，而不能自己主动执行交易。</p>
-<h3 id="钱包">钱包</h3>
-<p>存储和管理<code>Ethereum</code>账户的软件/插件称为钱包，提供了诸如交易签名、余额管理等功能。钱包生成主要有两种方式，非确定性随机生成或根据随机种子生成。</p>
-<h3 id="gas">Gas</h3>
-<p><code>Ethereum</code>网络上的操作也需要“手续费”，称为<code>Gas</code>，在区块链上部署智能合约以及转账都需要消耗一定单位的<code>Gas</code>，这也是鼓励矿工参与<code>Ethereum</code>网络建设的激励机制，从而使整个网络更加安全、可靠。</p>
-<p>每个交易都可以设置相应的<code>Gas</code>量和<code>Gas</code>的价格，设置较高的<code>Gas</code>费则往往矿工会更快处理你的交易，但为了预防交易多次执行消耗大量<code>Gas</code>费，可以通过<code>Gas Limit</code>来设置限制。<code>Gas</code>相关信息可以通过 <a href="https://etherscan.io/gastracker">Ethereum Gas Tracker</a> 工具进行查询。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">If START_GAS * GAS_PRICE &gt; caller.balance, halt
-</span></span><span class="line"><span class="cl">Deduct START_GAS * GAS_PRICE from caller.balance
-</span></span><span class="line"><span class="cl">Set <span class="nv">GAS</span> <span class="o">=</span> START_GAS
-</span></span><span class="line"><span class="cl">Run code, deducting from GAS
-</span></span><span class="line"><span class="cl">For negative values, add to GAS_REFUND
-</span></span><span class="line"><span class="cl">After termination, add GAS_REFUND to caller.balance
-</span></span></code></pre></div><h3 id="智能合约">智能合约</h3>
-<p>上文提到，<code>Ethereum</code>区块链不仅仅存储交易信息，还会存储与执行智能合约代码。</p>
-<p>智能合约控制应用和交易逻辑，<code>Ethereum</code>系统中的智能合约采用专属<code>Solidity</code>语言，语法类似于<code>JavaScript</code>，除此之外，还有<code>Vyper</code>、<code>Bamboo</code>等编程语言。智能合约代码会被编译为字节码并部署至区块链中，一旦上链则不可以再编辑。<code>EVM</code>作为一个智能合约执行环境，能够保障执行结果的确定性。</p>
-<h4 id="智能合约示例众筹">智能合约示例：众筹</h4>
-<p>让我们想象一个更复杂的场景，假设我要众筹 10000 元开发一个新产品，通过现有众筹平台需要支付不菲的手续费，而且很难解决信任问题，于是，可以通过一个众筹的 DApp 来解决这个问题。</p>
-<p>先为众筹设置一些规则</p>
-<ol>
-<li>每个想参与众筹的人可以捐款 10-10000 元的金额</li>
-<li>如果目标金额达成了，金额会通过智能合约发送给我（即众筹发起人）</li>
-<li>如果目标在一定时间内（如 1 个月）没有达成，众筹的资金会原路返回至众筹用户</li>
-<li>也可以设置一些规则，比如一周后，如果目标金额没有达成，用户可以申请退款</li>
-</ol>
-<p>因为这些众筹条款是通过智能合约实现并部署在公开的区块链上的，即使是发起者也不能篡改条款，且任何人都可以查看，解决了信任问题。</p>
-<p>完整代码可以点击这里查看：<a href="https://www.toshblocks.com/solidity/complete-example-crowd-funding-smart-contract/">Demo</a></p>
-<h3 id="交易">交易</h3>
-<p>在<code>Ethereum</code>中，一个典型的交易是怎么样的呢？</p>
-<ol>
-<li>开发者部署智能合约至区块链</li>
-<li>DApp 实例化合约、传入相应值以执行合约</li>
-<li>DApp 对交易进行数字签名</li>
-<li>本地对交易进行验证</li>
-<li>广播交易至网络中</li>
-<li>矿工节点接收交易并进行验证</li>
-<li>矿工节点确认可信区块后广播至网络中</li>
-<li>本地节点与网络进行同步，接收新区块</li>
-</ol>
-<h3 id="架构">架构</h3>
-<p><img src="https://image.pseudoyu.com/images/ethereum_architecture_simple.png" alt="ethereum_architecture_simple"></p>
-<p><code>Ethereum</code>采用的是一种<code>Order - Execute - Validate - Update State</code>的系统架构。在这种架构下，当产生一笔新的交易，矿工会进行<code>PoW</code>工作量证明机制的运算；验证完成后，将区块通过<code>gossip</code>协议广播至网络中；网络中的其他节点接收到新区块后，也会对区块进行验证；最终，提交至区块链，更新状态。</p>
-<p>具体来看，<code>Ethereum</code>系统有共识层、数据层、应用层等核心组件，其交互逻辑如下：</p>
-<p><img src="https://image.pseudoyu.com/images/ethereum_architecture_concrete.png" alt="ethereum_architecture_concrete"></p>
-<p>如上图所示，<code>Ethereum</code>数据由<code>Transaction Root</code>和<code>State Root</code>组成。<code>Transaction Root</code>是所有交易组成的树，包含<code>From</code>、<code>To</code>、<code>Data</code>、<code>Value</code>、<code>Gas Limit</code>和<code>Gas Price</code>；而<code>State Root</code>则是所有账户组成的树，包含<code>Address</code>、<code>Code</code>、<code>Storage</code>、<code>Balance</code>和<code>Nonce</code>。</p>
-<h2 id="总结">总结</h2>
-<p>以上就是对<code>Ethereum</code>核心技术的一些解读，智能合约的引入给区块链的应用带来了更多可能性，但仍有很多安全性、隐私性和效率问题需要考虑。针对复杂的企业级应用场景，联盟链是更好的选择，后续将会对<code>Hyperledger Fabric</code>进行详尽的分析，敬请期待！</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://msccs.cs.hku.hk/public/courses/2020/COMP7408A/">COMP7408 Distributed Ledger and Blockchain Technology</a>, <em>Professor S.M. Yiu, HKU</em></li>
-<li><a href="https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309">Udacity Blockchain Developer Nanodegree</a>, <em>Udacity</em></li>
-<li><a href="https://www.bilibili.com/video/BV1Vt411X7JF">区块链技术与应用</a>，<em>肖臻，北京大学</em></li>
-<li><a href="https://www.ituring.com.cn/book/2434">区块链技术进阶与实战</a>，<em>蔡亮 李启雷 梁秀波，浙江大学 | 趣链科技</em></li>
-<li><a href="https://www.zastrin.com/courses/ethereum-primer/lessons/1-5">Ethereum Architecture</a>, <em>zastrin</em></li>
-<li><a href="https://www.toshblocks.com/solidity/complete-example-crowd-funding-smart-contract/">Learn Solidity: Complete Example: Crowd Funding Smart Contract</a>, <em>TOSHBLOCKS</em></li>
-</ol>
-</blockquote>
 ]]></content:encoded></item></channel></rss>
