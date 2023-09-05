@@ -36,7 +36,7 @@ authors:
 
 ![logseq_random_thoughts](https://image.pseudoyu.com/images/logseq_random_thoughts.png)
 
-在日常生活、工作、学习或是什么任意的时刻，我有时候会萌生一些随机的想法，这些想法和当前所做的事并不相关或是天马行空，但也许会在未来的某个时刻被用到。因为我大部分时间都不会离开电脑太远，我通常会记录 Logseq 的 Journal 中，有事可能会临时发在一个只有自己一个人的微信群中或是 Telegram 的 Saved Message 中，后续再补充上去。
+在日常生活、工作、学习或是什么任意的时刻，我有时候会萌生一些随机的想法，这些想法和当前所做的事并不相关或是天马行空，但也许会在未来的某个时刻被用到。因为我大部分时间都不会离开电脑太远，我通常会记录 Logseq 的 Journal 中，有时可能会临时发在一个只有自己一个人的微信群中或是 Telegram 的 Saved Message 中，后续再补充上去。
 
 #### 信息流
 
