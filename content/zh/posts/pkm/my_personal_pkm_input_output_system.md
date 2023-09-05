@@ -2,7 +2,7 @@
 title: "个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）"
 date: 2023-09-05T02:38:39+08:00
 draft: false
-tags: ["pkm", "information", "note-taking", "logseq", "heptabase", "readwise", "xlog", "xsyn", "productivity", "tools"]
+tags: ["pkm", "information", "note-taking", "logseq", "heptabase", "readwise", "xlog", "xsync", "productivity", "tools"]
 categories: ["Tools"]
 authors:
 - "pseudoyu"
