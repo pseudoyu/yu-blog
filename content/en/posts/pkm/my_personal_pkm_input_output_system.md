@@ -99,7 +99,7 @@ authors:
 
 ![pama_framework](https://image.pseudoyu.com/images/pama_framework.jpg)
 
-其中 P.A.R.A 是我所提出的一个框架，分别是：
+其中 P.A.R.A 是作者所提出的一个框架，分别是：
 
 - Projects，正在做的项目相关
 - Areas，特定领域
