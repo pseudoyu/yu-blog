@@ -208,6 +208,6 @@ xSync 能够同步 Twitter、Telegram Channel 等平台，不需要做任何侵�
 
 > it is probably a mistake, in the end, to ask software to improve our thinking.
 
-Casey Newton 在最近的一篇「Why note-taking apps don’t make us smarter」中如是说。确实，这些系统或是工具软件其实终究只能辅助我们进行信息管理和输出，并不能代替我们思考，但构建知识管理系统在取悦自己的同时，也能够让思考变得更加高效，悦己才能达人，从而产出更有价值的输出。
+[Casey Newton](https://www.theverge.com/authors/casey-newton) 在最近的一篇「[Why note-taking apps don’t make us smarter](https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian)」中如是说。确实，这些系统或是工具软件其实终究只能辅助我们进行信息管理和输出，并不能代替我们思考，但构建知识管理系统在取悦自己的同时，也能够让思考变得更加高效，悦己才能达人，从而产出更有价值的输出。
 
 希望这篇文章能够对大家有所帮助。
