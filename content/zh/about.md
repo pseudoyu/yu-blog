@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Solidity   21 hrs 51 mins ████████████▋░░░░░░░░  60.5%
-Go         8 hrs 17 mins  ████▊░░░░░░░░░░░░░░░░  22.9%
-YAML       1 hr 45 mins   █░░░░░░░░░░░░░░░░░░░░   4.9%
-TypeScript 1 hr 7 mins    ▋░░░░░░░░░░░░░░░░░░░░   3.1%
-Ezhil      42 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.0%
+Solidity   21 hrs 59 mins ██████████▋░░░░░░░░░░  50.6%
+Go         8 hrs 9 mins   ███▉░░░░░░░░░░░░░░░░░  18.8%
+Markdown   7 hrs 33 mins  ███▋░░░░░░░░░░░░░░░░░  17.4%
+YAML       1 hr 40 mins   ▊░░░░░░░░░░░░░░░░░░░░   3.9%
+TypeScript 1 hr 19 mins   ▋░░░░░░░░░░░░░░░░░░░░   3.0%
 ```
 
 <!-- code_time ends -->
