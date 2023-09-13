@@ -15,7 +15,7 @@
 <p>而由于颜色掉得差不多了，且漂了几次因发质受损而有些毛糙，也因为月底有比较重要的场合需要，于是下定决心先剪掉长发，重新再养一段时间，萌生想法的第二天就剪去了。剪完后没有自己想象得那么不适应，反而有些轻松，也许这一年带来的不仅仅是头发长度的变化，自己的心境也在慢慢变化着，也已经有了更多面对这个世界的勇气。</p>
 <p>很巧的是 STRRL 也差不多时间剪掉了留了两年的长发，<del>良渚村痛失两个长发小哥哥</del>。</p>
 <h2 id="周报初心">周报初心</h2>
-<p>周中发了一篇「<a href="https://www.pseudoyu.com/zh/2023/09/05/my_personal_pkm_input_output_system/">个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</a>」，几个小时的写作，从一篇周报中一个衍生的想法到一篇结构尚可的文章，很久没有这样一气呵成而又自得其乐地创作了。</p>
+<p>周中发了一篇「<a href="https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/">个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</a>」，几个小时的写作，从一篇周报中一个衍生的想法到一篇结构尚可的文章，很久没有这样一气呵成而又自得其乐地创作了。</p>
 <p>积攒了越来越多想写的主题，其实大多也有了不少素材足以下笔，但总是常常有些迟疑觉得自己”不够格“去传达和评价，就像这次的这篇知识系统，其实 Heptabase 我付费才两周左右，Readwise 甚至更短，就功能上来说自己其实算不上多熟悉所有的模块，但下笔时似乎之前几年对于这套系统的思考与实践都化为了一段段文字，不知不觉写了那么多，很奇妙的感觉。所以重要的可能依然还是独立思考和写下来，而不是需要去媲美教材/文档的大而全。</p>
 <p>唯有周报是与未来自己的对话，每次写也都会很放松，毕竟自己也是最有资格去记录和审视自己的人。</p>
 <p><img src="https://image.pseudoyu.com/images/weekly_review_hu_mention.jpg" alt="weekly_review_hu_mention"></p>
@@ -30,7 +30,7 @@
 <h4 id="arbitrum-stylus">Arbitrum Stylus</h4>
 <p>一个可以在 EVM 架构链上运行 Rust 合约的框架 <a href="https://arbitrum.io/stylus">Stylus</a>，还挺有想象空间的，想着可能带着目的再入门一下 Rust 了。</p>
 <h4 id="投资入门">投资入门</h4>
-<p>孟岩的这个「<a href="https://www.bilibili.com/video/BV1e8411B7w7">投资是怎样赚钱的？</a>」视频真好啊，像是之前的「<a href="https://www.youtube.com/watch?v=rFV7wdEX-Mo">经济机器是怎样运行的</a>」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 Heptabase 做笔记，分享一下。</p>
+<p>孟岩的这个「<a href="https://www.bilibili.com/video/BV1e8411B7w7">投资是怎样赚钱的？</a>」视频真好啊，像是之前的「<a href="https://www.youtube.com/watch?v=rFV7wdEX-Mo">经济机器是怎样运行的</a>」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 <a href="https://app.heptabase.com/w/2dee654ba9e5a73e11df473bb420c877f5f00c7a1998545981d07da1bb6fe942">Heptabase 做笔记</a>，分享一下。</p>
 <p><del>顺便也才真正稍微了解到学姐是做什么的。</del></p>
 <h3 id="其他">其他</h3>
 <h3 id="输入">输入</h3>
