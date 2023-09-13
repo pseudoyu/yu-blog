@@ -30,7 +30,7 @@ authors:
 
 ## 周报初心
 
-周中发了一篇「[个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）](https://www.pseudoyu.com/zh/2023/09/05/my_personal_pkm_input_output_system/)」，几个小时的写作，从一篇周报中一个衍生的想法到一篇结构尚可的文章，很久没有这样一气呵成而又自得其乐地创作了。
+周中发了一篇「[个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）](https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/)」，几个小时的写作，从一篇周报中一个衍生的想法到一篇结构尚可的文章，很久没有这样一气呵成而又自得其乐地创作了。
 
 积攒了越来越多想写的主题，其实大多也有了不少素材足以下笔，但总是常常有些迟疑觉得自己”不够格“去传达和评价，就像这次的这篇知识系统，其实 Heptabase 我付费才两周左右，Readwise 甚至更短，就功能上来说自己其实算不上多熟悉所有的模块，但下笔时似乎之前几年对于这套系统的思考与实践都化为了一段段文字，不知不觉写了那么多，很奇妙的感觉。所以重要的可能依然还是独立思考和写下来，而不是需要去媲美教材/文档的大而全。
 
@@ -60,7 +60,7 @@ authors:
 
 #### 投资入门
 
-孟岩的这个「[投资是怎样赚钱的？](https://www.bilibili.com/video/BV1e8411B7w7)」视频真好啊，像是之前的「[经济机器是怎样运行的](https://www.youtube.com/watch?v=rFV7wdEX-Mo)」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 Heptabase 做笔记，分享一下。
+孟岩的这个「[投资是怎样赚钱的？](https://www.bilibili.com/video/BV1e8411B7w7)」视频真好啊，像是之前的「[经济机器是怎样运行的](https://www.youtube.com/watch?v=rFV7wdEX-Mo)」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 [Heptabase 做笔记](https://app.heptabase.com/w/2dee654ba9e5a73e11df473bb420c877f5f00c7a1998545981d07da1bb6fe942)，分享一下。
 
 ~~顺便也才真正稍微了解到学姐是做什么的。~~
 

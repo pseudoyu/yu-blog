@@ -60,7 +60,7 @@ authors:
 
 #### 投资入门
 
-孟岩的这个「[投资是怎样赚钱的？](https://www.bilibili.com/video/BV1e8411B7w7)」视频真好啊，像是之前的「[经济机器是怎样运行的](https://www.youtube.com/watch?v=rFV7wdEX-Mo)」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 Heptabase 做笔记，分享一下。
+孟岩的这个「[投资是怎样赚钱的？](https://www.bilibili.com/video/BV1e8411B7w7)」视频真好啊，像是之前的「[经济机器是怎样运行的](https://www.youtube.com/watch?v=rFV7wdEX-Mo)」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 [Heptabase 做笔记](https://app.heptabase.com/w/2dee654ba9e5a73e11df473bb420c877f5f00c7a1998545981d07da1bb6fe942)，分享一下。
 
 ~~顺便也才真正稍微了解到学姐是做什么的。~~
 
