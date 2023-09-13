@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Sep 2023 02:38:39 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</title><link>https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/</link><pubDate>Tue, 05 Sep 2023 02:38:39 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/</guid><description>前言 我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Sep 2023 00:58:36 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #46 - 告别长发、周报初心与合约开发</title><link>https://www.pseudoyu.com/en/2023/09/13/weekly_review_20230913/</link><pubDate>Wed, 13 Sep 2023 00:58:36 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/13/weekly_review_20230913/</guid><description>《温柔 - 五月天》 前言 本篇是对 2023-09-05 到 2023-09-13 这几周生活的记录与思考。集中地写了一个并算不上复杂的合约项目，也因接受一位 up 主朋友采访而重新梳理了自己的学</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/tenderness.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《温柔 - 五月天》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230913.png" alt="weekly_review_20230913"></p>
+<p>本篇是对 <code>2023-09-05</code> 到 <code>2023-09-13</code> 这几周生活的记录与思考。集中地写了一个并算不上复杂的合约项目，也因接受一位 up 主朋友采访而重新梳理了自己的学习经历和合约开发相关的心得，继续出自己的系列教程；有出版社联系，可能会着手开始写一本技术书籍，期待却也忐忑；由于发质和一些个人原因暂剪去了长发，重新开始养，也算是近期最大的变化了；写了一篇自己很喜欢的关于知识系统搭建的文章，重拾了写作中最最本源的快乐，也在越来越多的博客文章里看到我的周报被提及，欣喜之余也有些惭愧，也重新思考了自己写周报的初心；还有很多有意思的事。</p>
+<h2 id="告别长发">告别长发</h2>
+<p>虽然说剪个头发都要专门写个主题未免有些矫情，但依然有些感触。</p>
+<p>留长&amp;蓝发已经一年之久了，从最开始的些许不适应到后来似乎渐渐成为了自己的某种意义上的符号，它也陪着我走了很久，历经了几种截然不同的生活状态。去年年末刚因为想换个风格而染了蓝色，满足了自己二次元的小小心愿，又恰巧没过两个月北京就疫情居家，一直没出去剪头发，等真正放开后已经积攒了不错的长度，买了几个还挺酷的发带，想着干脆就留着了，一留就是一年。</p>
+<p>很神奇，当自己的外在会给人留下一些惹眼的印象后，自己的内心似乎也少了一些束缚和顾虑，会在香港的 Web3 Festival 上和一个对我发带还挺感兴趣的中东投资人走了一路闲聊；会有被别的展位的小伙伴搭话说“注意到你很久了，很显眼”；会被接近十年没联系的同样在做 Web3 的高中同学认出，讶异却也惊喜。也许自己本就有去分享和交流的欲望，只是因为有些社恐外加担心他人的反应而有些迟疑，发型发色给我带来了一些暴露在人群中的勇气，也像是一种保护色。</p>
+<p>而由于颜色掉得差不多了，且漂了几次因发质受损而有些毛糙，也因为月底有比较重要的场合需要，于是下定决心先剪掉长发，重新再养一段时间，萌生想法的第二天就剪去了。剪完后没有自己想象得那么不适应，反而有些轻松，也许这一年带来的不仅仅是头发长度的变化，自己的心境也在慢慢变化着，也已经有了更多面对这个世界的勇气。</p>
+<p>很巧的是 STRRL 也差不多时间剪掉了留了两年的长发，<del>良渚村痛失两个长发小哥哥</del>。</p>
+<h2 id="周报初心">周报初心</h2>
+<p>周中发了一篇「<a href="https://www.pseudoyu.com/zh/2023/09/05/my_personal_pkm_input_output_system/">个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</a>」，几个小时的写作，从一篇周报中一个衍生的想法到一篇结构尚可的文章，很久没有这样一气呵成而又自得其乐地创作了。</p>
+<p>积攒了越来越多想写的主题，其实大多也有了不少素材足以下笔，但总是常常有些迟疑觉得自己”不够格“去传达和评价，就像这次的这篇知识系统，其实 Heptabase 我付费才两周左右，Readwise 甚至更短，就功能上来说自己其实算不上多熟悉所有的模块，但下笔时似乎之前几年对于这套系统的思考与实践都化为了一段段文字，不知不觉写了那么多，很奇妙的感觉。所以重要的可能依然还是独立思考和写下来，而不是需要去媲美教材/文档的大而全。</p>
+<p>唯有周报是与未来自己的对话，每次写也都会很放松，毕竟自己也是最有资格去记录和审视自己的人。</p>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_hu_mention.jpg" alt="weekly_review_hu_mention"></p>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_hu_comment.jpg" alt="weekly_review_hu_comment"></p>
+<p>这周在几位朋友的周报中都有看到说我周报的形式对他们产生的一些影响，开心之余也有些惭愧，自己似乎确实很久没有准时发布了（<del>甚至这篇也是</del>），甚至拖延了许久后完稿的也依然匆匆，发布完后才想起遗漏了一些有趣的事，又想着，下次再提吧，如此往复。</p>
+<p>生活有许多点滴日常，就像自己喜欢用相机记录下一些街边的小小风景一样，文字是我面对这个世界的取景框，也希望自己能留下的更多一些，更生动一些，似乎这样那些记忆和美好才会更多保留下来。</p>
+<h2 id="阅读与读书笔记">阅读与读书笔记</h2>
+<p><img src="https://image.pseudoyu.com/images/notes_about_how_to_writing.png" alt="notes_about_how_to_writing"></p>
+<p>这周看到一篇有意思的文章「<a href="https://hanyang.wtf/p/c7a">写作入门</a>」，是前段时间写出一篇爆款的关于币安的研报作者分享的关于写作的一些原则，其实自己摄影和写作常常有些不那么注重“术”的部分，常常是因循着自己的感觉和所谓审美，但常常也会担心自己因表达力而没法记录下自己的内心想法和想要表达的内容，所以这篇也是挺有意思的，读的时候稍稍做了些笔记，同步到了 Logseq 上。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="学习">学习</h3>
+<h4 id="arbitrum-stylus">Arbitrum Stylus</h4>
+<p>一个可以在 EVM 架构链上运行 Rust 合约的框架 <a href="https://arbitrum.io/stylus">Stylus</a>，还挺有想象空间的，想着可能带着目的再入门一下 Rust 了。</p>
+<h4 id="投资入门">投资入门</h4>
+<p>孟岩的这个「<a href="https://www.bilibili.com/video/BV1e8411B7w7">投资是怎样赚钱的？</a>」视频真好啊，像是之前的「<a href="https://www.youtube.com/watch?v=rFV7wdEX-Mo">经济机器是怎样运行的</a>」一样的叙述模式，了解了很多之前有些模糊的关于股票、基金、指数的概念，也对投资原则和策略有了一些了解，一边看一边在 Heptabase 做笔记，分享一下。</p>
+<p><del>顺便也才真正稍微了解到学姐是做什么的。</del></p>
+<h3 id="其他">其他</h3>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><strong>Building a Second Brain</strong>，正在基于他的理论构建自己的知识管理系统，继续阅读。</li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=37405171">Show HN: I made a browser extension to track the time I spend on websites | Hacker News</a></li>
+<li><a href="https://hanyang.wtf/p/c7a">写作入门</a></li>
+<li><a href="https://yinji.org/5111.html">周报 #01 – 开学、番茄工作法和新的域名 | 印记</a></li>
+<li><a href="https://niracler.com/2309-1">2309-1-信息流规划草案-风神殿-情报弱者-葬送的芙莉莲 - niracler</a></li>
+<li><a href="https://darmau.design/article/now-what-stage-are-house-prices-at">现在房价进行到哪一步了？</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1rj41117TU">破大防了！教 71 岁老妈剪辑是一种怎样的体验</a></li>
+<li><a href="https://www.youtube.com/watch?v=Mfrn6uexfdU">【封神】年度游戏预定！历史最佳 RPG《博德之门 3》不止日熊！</a></li>
+<li><a href="https://www.bilibili.com/video/BV1e8411B7w7">投资是怎样赚钱的？</a></li>
+<li><a href="https://www.youtube.com/watch?v=rFV7wdEX-Mo">经济机器是怎样运行的</a></li>
+<li><a href="https://www.bilibili.com/video/BV1mu4y1k7yN">大豆田竹子的失业生活</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Eh4y1Y7FJ">【4K】我们用 9000 万个光点，还原了他的房间</a></li>
+<li><a href="https://www.bilibili.com/video/BV1tu411A7jj">去看花火大会，女友说不如橘子洲头的烟花！</a></li>
+<li><a href="https://www.youtube.com/watch?v=CYH04BJzamo">Prisma Crash Course</a></li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li><strong>街头绝味 第一季</strong>，下饭的时候看的，种草了很多美食。</li>
+<li><strong>假面女郎</strong>，也是在奈飞上随手打开的，剧情一般，整体节奏也算不上紧凑。</li>
+</ul>
+]]></content:encoded></item><item><title>个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</title><link>https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/</link><pubDate>Tue, 05 Sep 2023 02:38:39 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/05/my_personal_pkm_input_output_system/</guid><description>前言 我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p><img src="https://image.pseudoyu.com/images/yu_blog_my_pkm_system.png" alt="yu_blog_my_pkm_system"></p>
 <p>我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模式或是习惯在某个时刻突然发挥了作用就会有一种欣喜感，而当受到外界或是自身状态影响而停止运转时则会有一种秩序感被打破的重度不适。</p>
 <p>作为一个效率工具控，我的个人知识管理与信息管理则可以说是自己最重要的一部分。其实本没有想要写这篇文章，有太多的先例实践在前，而自己也只是一种前人基础上的微调优化，常常没有什么信心去分享，而这周重新搭建和优化了一下自己的知识管理系统，很开心，有一种想要记录下来的冲动，本来只是想在周报里稍稍提及，却发现越写越收不住，于是就有了这篇文章。</p>
@@ -11476,402 +11541,5 @@ Application Understanding Group related documents for browsing, group genes and 
 <li>Operates differently in the two (growing, shrinking) phases</li>
 <li>Takes its name from the lattice used in the shrinking phase</li>
 <li>Extendable to various top-k query variants</li>
-</ul>
-]]></content:encoded></item><item><title>COMP7801 Topic 3 Spatial Networks</title><link>https://www.pseudoyu.com/en/2021/02/27/comp7801_topic3/</link><pubDate>Sat, 27 Feb 2021 01:18:17 +0800</pubDate><guid>https://www.pseudoyu.com/en/2021/02/27/comp7801_topic3/</guid><description>Background Network Distance In many real applications accessibility of objects is restricted by a spatial network Examples Driver looking for nearest gas station Mobile user looking for nearest restaurant Shortest path distance used instead of Euclidean distance SP(a,b) = path between a and b with the minimum accumulated length Challenges Euclidean distance is no longer relevant R-tree may not be useful, when search is based on shortest path distance Graph cannot be flattened to a one-dimensional space Special storage and indexing techniques for graphs are required Graph properties may vary directed vs.</description><content:encoded><![CDATA[<h3 id="background">Background</h3>
-<h4 id="network-distance">Network Distance</h4>
-<ul>
-<li>In many real applications accessibility of objects is restricted by a spatial network
-<ul>
-<li>Examples
-<ul>
-<li>Driver looking for nearest gas station</li>
-<li>Mobile user looking for nearest restaurant</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Shortest path distance</strong> used instead of Euclidean distance</li>
-<li>SP(a,b) = path between a and b with the minimum accumulated length</li>
-</ul>
-<h4 id="challenges">Challenges</h4>
-<ul>
-<li>Euclidean distance is no longer relevant
-<ul>
-<li>R-tree may not be useful, when search is based on shortest path distance</li>
-</ul>
-</li>
-<li>Graph cannot be flattened to a one-dimensional space
-<ul>
-<li>Special storage and indexing techniques for graphs are required</li>
-</ul>
-</li>
-<li>Graph properties may vary
-<ul>
-<li>directed vs. undirected</li>
-<li>length, time, etc. as edge weights</li>
-</ul>
-</li>
-</ul>
-<h3 id="modeling-and-storing-spatial-networks">Modeling and Storing Spatial Networks</h3>
-<h4 id="modeling-spatial-networks">Modeling Spatial Networks</h4>
-<ul>
-<li>Adjacency matrix only appropriate for dense graphs</li>
-<li>Spatial networks are sparse: use adjacency lists instead</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Modeling_Spatial_Networks.png" alt="Modeling_Spatial_Networks"></p>
-<h4 id="storing-large-spatial-networks">Storing Large Spatial Networks</h4>
-<ul>
-<li>Problem: adjacency lists representation may not fit in memory if graph is large</li>
-<li>Solution:
-<ul>
-<li>partition adjacency lists to disk blocks (based on proximity)</li>
-<li>create B+-tree index on top of partitions (based on node-id)</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Storing_Large_Spatial_Network.png" alt="Storing_Large_Spatial_Network"></p>
-<h3 id="shortest-path-search">Shortest Path Search</h3>
-<ul>
-<li>Given a graph G(V,E), and two nodes s,t in V, find the shortest path from s to t</li>
-<li>A classic algorithmic problem</li>
-<li>Studied extensively since the 1950’s</li>
-<li>Several methods:
-<ul>
-<li>Dijkstra’s algorithm</li>
-<li>A*-search</li>
-<li>Bi-directional search</li>
-</ul>
-</li>
-</ul>
-<h4 id="dijkstras-shortest-path-search">Dijkstra’s Shortest Path Search</h4>
-<ul>
-<li>idea: incrementally explore the graph around s, visitingnodes in distance order to suntil t is found (like NN)</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Dijkstra_1.png" alt="Dijkstra_1"></p>
-<p><img src="https://image.pseudoyu.com/images/Dijkstra_2.png" alt="Dijkstra_2"></p>
-<h4 id="algorithm">Algorithm</h4>
-<p><img src="https://image.pseudoyu.com/images/Dijkstra_Algorithm.png" alt="Dijkstra_Algorithm"></p>
-<h4 id="example">Example</h4>
-<p><img src="https://image.pseudoyu.com/images/Dijkstra_Example.png" alt="Dijkstra_Example"></p>
-<h4 id="illustrating">Illustrating</h4>
-<ul>
-<li>Find the shortest path between a and b.</li>
-<li>Worst-case performance O(|E| + |V|log|V| )</li>
-</ul>
-<h3 id="a-search">A*-search</h3>
-<h4 id="description">Description</h4>
-<ul>
-<li>
-<p>Dijkstra’s search explores nodes around s without a specific search direction until t is found</p>
-</li>
-<li>
-<p>Idea: improve Dijkstra’s algorithm by directing search towards t</p>
-</li>
-<li>
-<p>Due to triangular inequality, Euclidean distance is a lower bound of network distance</p>
-</li>
-<li>
-<p>Use Euclidean distance to lower bound network distance based on known information:</p>
-<ul>
-<li>Nodes are visited in increasing SPD(s,v)+dist(v,t) order
-<ul>
-<li>SPD(s,v): shortest path distance from s to v (computed by Dijkstra)</li>
-<li>dist(v,t): Euclidean distance between v and t</li>
-</ul>
-</li>
-<li>Original Dijkstra visits nodes in increasing SPD(s,v) order</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/A_Star_1.png" alt="A_Star_1"></p>
-<h4 id="example-1">Example</h4>
-<p><img src="https://image.pseudoyu.com/images/A_Star_Example.png" alt="A_Star_Example"></p>
-<h4 id="illustrating-1">Illustrating</h4>
-<ul>
-<li>Find the shortest path between s and t.
-<ul>
-<li>f(p) = Dijkstra_dist(s, p) + Euclidean_dist(p, t)</li>
-</ul>
-</li>
-</ul>
-<h3 id="bi-directional-search">Bi-directional search</h3>
-<ul>
-<li>Dijkstra’s search explores nodes around s without a specific search direction until t is found</li>
-<li>Idea: search can be performed concurrently from s and from t (backwards)</li>
-<li>The shortest path tree of s and the (backward) shortest path tree of t are computed in concurrently
-<ul>
-<li>One queue Q_s for forward and one queue Q_t for backward search</li>
-<li>Node visits are prioritized based on min(SPD(s,v), SPD(v,t))</li>
-<li>If v already visited from s and v is in Qt, then candidate shortest path: p(s,v)+p(v,t)  (if v already visited from t and v in Q_s symmetric)</li>
-<li>If v is visited by both s and t terminate search; report best candidate shortest path</li>
-</ul>
-</li>
-</ul>
-<h4 id="example-2">Example</h4>
-<p><img src="https://image.pseudoyu.com/images/Bi_Directional_Example.png" alt="Bi_Directional_Example"></p>
-<h3 id="discussions">Discussions</h3>
-<ul>
-<li>A* and bi-directional search can be combined to powerful search techniques</li>
-<li>A* can only be applied if lower distance bounds are available</li>
-<li>All versions of Dijkstra’s search require non-negative edge weights
-<ul>
-<li>Bellman-Ford is an algorithm for arbitrary negative edges</li>
-</ul>
-</li>
-</ul>
-<h2 id="spatial-queries-over-spatial-networks">Spatial queries over spatial networks</h2>
-<h3 id="introduction">Introduction</h3>
-<h4 id="sourcedestination-on-edges">Source/Destination on Edges</h4>
-<ul>
-<li>We have assumed that points s and t are nodes of the network</li>
-<li>In practice s and t could be arbitrary points on edges
-<ul>
-<li>Mobile user locations</li>
-</ul>
-</li>
-<li>Solve problem by introducing 2 more nodes</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Source_Destination_on_Edges.png" alt="Source_Destination_on_Edges"></p>
-<h4 id="spatial-queries-over-spatial-networks-1">Spatial Queries over Spatial Networks</h4>
-<ul>
-<li>Data:
-<ul>
-<li>A (static) spatial network (e.g., city map)</li>
-<li>A (dynamic) set of spatial objects</li>
-</ul>
-</li>
-<li>Spatial queries based on network distance:
-<ul>
-<li>Selections. Ex: find gas stations within 10km driving distance from here</li>
-<li>Nearest neighbor search. Ex: find k nearest restaurants from present position</li>
-<li>Joins. Ex: find pairs of restaurants and hotels at most 100m from each other</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Spatial_Queries_over_Spatial_Networks.png" alt="Spatial_Queries_over_Spatial_Networks"></p>
-<h4 id="methodology">Methodology</h4>
-<ul>
-<li>Store (and index) the spatial network
-<ul>
-<li>Graph component (indexes connectivity information)</li>
-<li>Spatial component (indexes coordinates of nodes, edges, etc.)</li>
-</ul>
-</li>
-<li>Store (and index) the sets of spatial objects
-<ul>
-<li>Ex., one spatial relation for restaurants, one spatial relation for hotels, one relation for mobile users, etc.</li>
-</ul>
-</li>
-<li>Given a spatial location p, use spatial component of network to find the network edge containing p</li>
-<li>Given a network edge, use network component to traverse neighboring edges</li>
-<li>Given a neighboring edge, use spatial indexes to find objects on them</li>
-</ul>
-<h3 id="evaluation-of-spatial-selections-1">Evaluation of Spatial Selections (1)</h3>
-<ul>
-<li>Query: find all objects in spatial relation R, within network distance ε from location q</li>
-<li>Method:
-<ul>
-<li>Use spatial index of network (R-tree indexing network edges) to find edge n_1n_2, which includes q</li>
-<li>Use adjacency index of network (graph component) and apply Dijkstra’s algorithm to progressively retrieve edges that are within network distance ε from location q</li>
-<li>For all these edges apply a spatial selection on the R-tree that indexes R to find the results</li>
-</ul>
-</li>
-</ul>
-<h4 id="example-3">Example</h4>
-<ul>
-<li>
-<p>Example: Find restaurants at most distance 10 from q</p>
-</li>
-<li>
-<p>Step 1: find network edge which contains q</p>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_1.png" alt="Evaluation_of_Spatial_Selections_1"></p>
-<ul>
-<li>Step 2: traverse network to find all edges (or parts of them within distance 10 from q)</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_2.png" alt="Evaluation_of_Spatial_Selections_2"></p>
-<ul>
-<li>Step 3: find restaurants that intersect the subnetwork computed at step 2</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_3.png" alt="Evaluation_of_Spatial_Selections_3"></p>
-<h3 id="evaluation-of-spatial-selections-2">Evaluation of Spatial Selections (2)</h3>
-<h4 id="description-1">Description</h4>
-<ul>
-<li>Query: find all objects in spatial relation R, within network distance ε from location q</li>
-<li>Alternative method based on Euclidean bounds:
-<ul>
-<li>Assumption: Euclidean distance is a lower-bound of network distance:
-<ul>
-<li>dist(v,u) ≤ SPD(v,u), for any v,u</li>
-</ul>
-</li>
-<li>Use R-tree on R to find set S of objects such that for each o in S: dist(q,o) ≤ ε</li>
-<li>For each o in S:
-<ul>
-<li>find where o is located in the network (use Network R-tree)</li>
-<li>compute SPD(q,o) (e.g. use A*)</li>
-<li>If SPD(q,o) ≤ ε then output o</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="example-4">Example</h4>
-<ul>
-<li>
-<p>Example: Find restaurants at most distance 10 from q</p>
-</li>
-<li>
-<p>Step 1: find restaurants for which the Euclidean distance to q is at most 10: S={r1,r2,r3}</p>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_Example_1.png" alt="Evaluation_of_Spatial_Selections_Example_1"></p>
-<ul>
-<li>Step 2: for each restaurant in S, compute SPD to q and verify if it is indeed a correct result</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Evaluation_of_Spatial_Selections_Example_2.png" alt="Evaluation_of_Spatial_Selections_Example_2"></p>
-<h3 id="evaluation-of-nn-search-1">Evaluation of NN search (1)</h3>
-<ul>
-<li>Query: find in spatial relation R the nearest object to a given location q</li>
-<li>Method:
-<ul>
-<li>Use spatial index of network (R-tree indexing network edges) to find edge n_1n_2, which includes q</li>
-<li>Use adjacency index of network (graph component) and apply Dijkstra’s algorithm to progressively retrieve edges in order of their distance to q</li>
-<li>For each edge apply a spatial selection on the R-tree that indexes R to find any objects</li>
-<li>Keep track of nearest object found so far; use its shortest path distance to terminate network browsing</li>
-</ul>
-</li>
-</ul>
-<h4 id="example-5">Example</h4>
-<ul>
-<li>Example: Find nearest restaurant to q</li>
-<li>Step: in ppt 31</li>
-</ul>
-<h3 id="evaluation-of-nn-search-2">Evaluation of NN search (2)</h3>
-<ul>
-<li>Query: find in spatial relation R the nearest object to a given location q</li>
-<li>Alternative method based on Euclidean bounds:
-<ul>
-<li>Assumption: Euclidean distance lower-bounds network distance:
-<ul>
-<li>dist(v,u) ≤ SPD(v,u), for any v,u</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Evaluation_of_NN_search.png" alt="Evaluation_of_NN_search"></p>
-<h3 id="spatial-join-queries">Spatial Join Queries</h3>
-<h4 id="description-2">Description</h4>
-<ul>
-<li>Query: find pairs (r,s), such that r in relation R, s in relation S, and SPD(r,s)≤ε</li>
-<li>Methods:
-<ul>
-<li>For each r in R, do an ε-distance selection queries for objects in S (Index Nested Loops)</li>
-<li>For each pair (r,s), such that Euclidean dist(r,s)≤ε compute SPD(r,s) and verify SPD(r,s)≤ε</li>
-</ul>
-</li>
-</ul>
-<h3 id="notes-on-query-evaluation-based-on-network-distance">Notes on Query Evaluation based on Network Distance</h3>
-<ul>
-<li>For each query type, there are methods based on network browsing and methods based on Euclidean bounds</li>
-<li>Network browsing methods are fast if network edges are densely populated with points of interest
-<ul>
-<li>A limited network traversal can find the result fast</li>
-</ul>
-</li>
-<li>Methods based on Euclidean bounds are good if the searched POIs are sparsely distributed in the network
-<ul>
-<li>Few verifications with exact SP searches are required</li>
-<li>Directed SP search (e.g. using A*) avoids visiting empty parts of the network</li>
-</ul>
-</li>
-</ul>
-<h2 id="advanced-indexing-techniques-for-spatial-networks">Advanced indexing techniques for spatial networks</h2>
-<h3 id="shortest-path-materialization-and-indexing-in-large-graphs">Shortest Path Materialization and Indexing in Large Graphs</h3>
-<ul>
-<li>Dijkstra’s algorithm and related methods could be very expensive on very large graphs</li>
-<li>(Partial) materialization of shortest paths in static graphs can accelerate search</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Shortest_Path_Materialization_and_Indexing_in_Large_Graphs.png" alt="Shortest_Path_Materialization_and_Indexing_in_Large_Graphs.png"></p>
-<h3 id="hierarchical-path-materialization">Hierarchical Path Materialization</h3>
-<ul>
-<li>Idea: Partition graph G into G_1,G_2,G_3,&hellip; based on connectivity and proximity of nodes</li>
-<li>Every edge of G goes to exactly one G_i</li>
-<li>Border nodes belong to more than one G_i’s</li>
-<li>For each G_i compute and materialize SPs between every pair of nodes in G_i (matrix M_i)
-<ul>
-<li>Partitions are small enough for materialization space overhead to be low</li>
-</ul>
-</li>
-<li>Compute and materialize SPs between every pair of border nodes (matrix B)
-<ul>
-<li>If border nodes too many, hierarchically partition them into 2nd-level partitions</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Hierarchical_Path_Materialization.png" alt="Hierarchical_Path_Materialization"></p>
-<h4 id="algorithm-1">algorithm</h4>
-<p><img src="https://image.pseudoyu.com/images/Hierarchical_Path_Materialization_algorithm.png" alt="Hierarchical_Path_Materialization_algorithm"></p>
-<h4 id="illustrating-2">Illustrating</h4>
-<ul>
-<li>Good partitioning if:
-<ul>
-<li>small partitions</li>
-<li>few combinations examined for SP search</li>
-</ul>
-</li>
-<li>Real road networks:
-<ul>
-<li>Non-highway nodes in local partitions</li>
-<li>Highway nodes become border nodes</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Hierarchical_Path_Materialization_Illustration.png" alt="Hierarchical_Path_Materialization_Illustration"></p>
-<h3 id="compressing-materialized-paths">Compressing Materialized Paths</h3>
-<ul>
-<li>Distance matrix with successors has O(n_2) space cost</li>
-<li>Motivation: reduce space by grouping targets based on common successors</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Compressing_Materialized_Paths.png" alt="Compressing_Materialized_Paths"></p>
-<h4 id="algorithm-2">algorithm</h4>
-<ul>
-<li>Create and encode one space partitioning defined by targets of the same successor</li>
-<li>For each node s, index Is a set of &lt;succ,R&gt; pairs:
-<ul>
-<li>succ: a successor of s</li>
-<li>R: a continuous region, such that for each t in R, the successor of s in SP(s,t) is succ</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Compressing_Materialized_Paths_Algorithm.png" alt="Compressing_Materialized_Paths_Algorithm"></p>
-<ul>
-<li>To compute SP(s,t) for a given s, t:
-<ol>
-<li>SP=s</li>
-<li>Use spatial index Is to find &lt;succ,R&gt;, such that t in R</li>
-<li>SP = SP + (s,succ)</li>
-<li>If succ = t, report SP and terminate</li>
-<li>Otherwise s=succ; Goto step 2</li>
-</ol>
-</li>
-</ul>
-<h2 id="summary">Summary</h2>
-<ul>
-<li>Indexing and search of spatial networks is different than spatial indexing
-<ul>
-<li>Shortest path distance is used instead of Euclidean distance, to define range queries, nearest neighbor search, and spatial joins</li>
-</ul>
-</li>
-<li>Spatial networks could be too large to fit in memory
-<ul>
-<li>Disk-based index for adjacency lists is used</li>
-</ul>
-</li>
-<li>Several shortest path algorithms</li>
-<li>Spatial queries can be evaluated using Euclidean bounds</li>
-<li>Advanced indexing methods for shortest path search on large graphs</li>
 </ul>
 ]]></content:encoded></item></channel></rss>
