@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/35593344/' target='_blank'>看过奥本海默</a> - 2023-09-17
 * <a href='https://book.douban.com/subject/36414284/' target='_blank'>最近在读Elon Musk</a> - 2023-09-16
 * <a href='http://movie.douban.com/subject/2338055/' target='_blank'>想看西部世界 第一季</a> - 2023-09-12
 * <a href='http://movie.douban.com/subject/33394370/' target='_blank'>在看街头绝味 第一季</a> - 2023-09-10
 * <a href='https://book.douban.com/subject/26774193/' target='_blank'>想读神经症与人的成长</a> - 2023-09-06
-* <a href='http://movie.douban.com/subject/34807113/' target='_blank'>看过走进比尔：解码比尔·盖茨</a> - 2023-09-05
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
