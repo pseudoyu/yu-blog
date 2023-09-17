@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Sep 2023 00:58:36 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #46 - 告别长发、周报初心与合约开发</title><link>https://www.pseudoyu.com/en/2023/09/13/weekly_review_20230913/</link><pubDate>Wed, 13 Sep 2023 00:58:36 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/13/weekly_review_20230913/</guid><description>《温柔 - 五月天》 前言 本篇是对 2023-09-05 到 2023-09-13 这几周生活的记录与思考。集中地写了一个并算不上复杂的合约项目，也因接受一位 up 主朋友采访而重新梳理了自己的学</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 17 Sep 2023 18:42:36 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #47 - 采访、拳击与工作状态</title><link>https://www.pseudoyu.com/en/2023/09/17/weekly_review_20230917/</link><pubDate>Sun, 17 Sep 2023 18:42:36 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/17/weekly_review_20230917/</guid><description>《温柔 - 五月天》 前言 本篇是对 2023-09-13 到 2023-09-17 这几周生活的记录与思考。 周一去看了期待已久的「奥本海默」很久没去影院看电影了；周六去圆明园写生，完整现充的</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/tenderness.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《温柔 - 五月天》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20230917.png" alt="weekly_review_20230917"></p>
+<p>本篇是对 <code>2023-09-13</code> 到 <code>2023-09-17</code> 这几周生活的记录与思考。</p>
+<p>周一去看了期待已久的「奥本海默」很久没去影院看电影了；周六去圆明园写生，完整现充的一天；周日第一次去拳馆上了一节拳击课，很新奇的体验；周中终于见到了 Atlas，聊到了不少关于工作和生活的话题；生活状态逐渐回到正轨，工作状态却有些问题，进行了一些调整；在 polebug 的频道客串了一次采访，聊了很多关于 Web3 与合约开发相关的话题；还有很多有意思的事。</p>
+<h2 id="采访">采访</h2>
+<p>在 <a href="https://twitter.com/polebug">polebug</a> 的 <a href="https://space.bilibili.com/58078997">B 站频道</a>里聊了一下之前的学习经历、Web3 与智能合约相关的话题，不知不觉竟然也接近 30 分钟了，很有意思的聊天体验，也算是对自己一些学习的小小总结了。</p>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1wV411N7eQ">和 web3 从业者聊聊天 #4｜从英语专业到智能合约开发的 pseudoyu 🐙｜为什么选择去港大学习区块链｜智能合约相关的学习资料分享｜对于跨考计算机的建议</a></li>
+</ul>
+<h2 id="拳击">拳击</h2>
+<p>很久之前在学姐的「<a href="https://www.boyilu.com/boxing-beginner">运动 | 有哪些事是学拳击以后才知道的？</a>」这篇文章中看到这这项运动，不过自己作为资深死宅也是连西洋拳击、泰拳、巴西柔术这些都不太分得清，更别说去尝试了。直到最近想找一些一起的运动，想着先从拳击开始试试。于是约了一个周末的下午，换上运动装就去拳馆了。</p>
+<p>自己之前玩了很多年的轮滑，也玩过一段时间的滑板，对于其他运动算是少有接触，上课前还是带着一些畏难心理的。果然在步法和出拳的配合上因为没怎么接触过这类运动而有些不一致，协调性也不太好，发现可能在自己的思维定势里太久了，一开始恨不得做个导图把各个动作的先后排列出来，也有因为肢体和思维不太一致而有些小沮丧，但是在经过一小阵子的练习后勉强能跟得上练习节奏了。</p>
+<p>学姐还拍了一小段我练习出拳的视频，放在了<a href="https://t.me/pseudoyulife/">频道</a>里：<a href="https://t.me/pseudoyulife/2360">https://t.me/pseudoyulife/2360</a></p>
+<p>第一节课就能体验出拳的快感还是很正反馈的，整体来说还是一个很有趣和解压的运动，也没有想象得那么困难，很多步法和细节动作还是需要继续练习，也想继续坚持下去训练。</p>
+<h2 id="工作状态调整">工作状态调整</h2>
+<p>其实这几周的生活状态逐渐回到正轨，从周报的更新频率也能稍稍看出来，开始恢复看一些书和电影，终于也踏出了运动的第一步，周末也会慢慢地去参与一些户外的活动，情绪似乎一直在不错的状态。</p>
+<p>但是却察觉到工作状态有些问题，倒不是工作方向或是内容，只是想做的事太多，又似乎都想去探索，但自己的时间精力终究还是有限的，反而失了重心，效率也受到不少影响，和组长/同事聊了后，开始做一些调整。</p>
+<p>似乎又到了自我的调整的周期了。</p>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<h3 id="奥本海默">奥本海默</h3>
+<p>因为订阅了国内外各个流媒体服务，也基本上不追什么热点，就很少去影院了，周一下班后久违地去看了电影，期待已久的「奥本海默」。上一次印象比较深的还是三个小时的蝙蝠侠，同样地长，也同样地喜欢。</p>
+<p>诺兰的「星际穿越」和蝙蝠侠三部曲算是自己最喜欢的几部电影了，他对于临场感的追求和情绪的把控是很适合深沉一些的传记、历史和英雄题材的，主角抢眼却也真实，配角也各自有自己的故事感。印象最深的还是刻意打乱的时空叙事，黑白与彩色的交织画面以及长长的对话。作为一个传记很难指望能有一个鲜明的故事线与发展节奏的，略带混乱和复杂度的画面构成了很“诺兰”的剪辑风格，也因此 get 到了好几个埋藏的剧情转折和伏笔。</p>
+<h3 id="圆明园写生">圆明园写生</h3>
+<p><img src="https://image.pseudoyu.com/images/boyi_yuanmingyuan_draw.jpg" alt="boyi_yuanmingyuan_draw"></p>
+<p>周末另外好玩的还是周六陪学姐去参加了圆明园写生，算起来也是第一次去圆明园，虽然带了相机但也没怎么四处拍照，简单拍了一些，不过倒是试用了新买的想用来一起记录生活的 Sony ZV1 Mark II，很小巧的卡片机，比之前用过的 ZV1 在焦段和易用性上还是提升了不少的，调了 HLG3，和相机的参数一致，之后可以配合着拍一些视频了，或许会定期记录一些 vlog 什么的。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><strong>Building a Second Brain</strong>，正在基于他的理论构建自己的知识管理系统，继续阅读。</li>
+<li><strong>Elon Mask</strong>，还是挺期待的传记，刚翻阅了一点点。</li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://techcrunch.com/2023/09/14/wordpress-blogs-can-now-be-followed-in-the-fediverse-including-mastodon/">WordPress blogs can now be followed in the fediverse, including Mastodon | TechCrunch</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1wj411y7pq">350w 粉 UP 主每月要花多少钱？时隔 5 年的读评论！</a></li>
+<li><a href="https://www.bilibili.com/video/BV1wV411N7eQ">和 web3 从业者聊聊天 #4｜从英语专业到智能合约开发的 pseudoyu 🐙｜为什么选择去港大学习区块链｜智能合约相关的学习资料分享｜对于跨考计算机的建议</a></li>
+</ul>
+<h4 id="电影">电影</h4>
+<ul>
+<li><strong>奥本海默</strong>，见上文主题部分。</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #46 - 告别长发、周报初心与合约开发</title><link>https://www.pseudoyu.com/en/2023/09/13/weekly_review_20230913/</link><pubDate>Wed, 13 Sep 2023 00:58:36 +0800</pubDate><guid>https://www.pseudoyu.com/en/2023/09/13/weekly_review_20230913/</guid><description>《温柔 - 五月天》 前言 本篇是对 2023-09-05 到 2023-09-13 这几周生活的记录与思考。集中地写了一个并算不上复杂的合约项目，也因接受一位 up 主朋友采访而重新梳理了自己的学</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/tenderness.mp3" type="audio/mpeg">
@@ -11294,252 +11347,5 @@ Application Understanding Group related documents for browsing, group genes and 
 <li>In practice the advantage is noticeable for large k</li>
 </ul>
 </li>
-</ul>
-]]></content:encoded></item><item><title>COMP7801 Topic 4 Top-k</title><link>https://www.pseudoyu.com/en/2021/03/06/comp7801_topic4/</link><pubDate>Sat, 06 Mar 2021 01:18:17 +0800</pubDate><guid>https://www.pseudoyu.com/en/2021/03/06/comp7801_topic4/</guid><description>Background Multidimensional Data Flat relational tables Multimedia feature vectors Data warehouse data Spatial data Text documents Attribute Types Attributes of multidimensional tuples may have variable types Ordinal (e.g., age, salary) Nominal categorical values (e.g., color, religion) Binary (e.g., gender, owns_property)Basic queries: range, NN, similarity Basic Queries (Range) selection query Returns the records that qualify a (multidimensional) range predicate Example: Return the employees of age between 45 and 50 and salary above $100,000 Distance (similarity) query Returns the records that are within a distance from a reference record.</description><content:encoded><![CDATA[<h2 id="background">Background</h2>
-<h3 id="multidimensional-data">Multidimensional Data</h3>
-<ul>
-<li>Flat relational tables</li>
-<li>Multimedia feature vectors</li>
-<li>Data warehouse data</li>
-<li>Spatial data</li>
-<li>Text documents</li>
-</ul>
-<h3 id="attribute-types">Attribute Types</h3>
-<ul>
-<li>Attributes of multidimensional tuples may have variable types
-<ul>
-<li>Ordinal (e.g., age, salary)</li>
-<li>Nominal categorical values (e.g., color, religion)</li>
-<li>Binary (e.g., gender, owns_property)</li>
-</ul>
-</li>
-<li>Basic queries: range, NN, similarity</li>
-</ul>
-<h3 id="basic-queries">Basic Queries</h3>
-<ul>
-<li>(Range) selection query
-<ul>
-<li>Returns the records that qualify a (multidimensional) range predicate</li>
-<li>Example:
-<ul>
-<li>Return the employees of age between 45 and 50 and salary above $100,000</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Distance (similarity) query
-<ul>
-<li>Returns the records that are within a distance from a reference record.</li>
-<li>Example:
-<ul>
-<li>Find images with feature vectors of Euclidean distance at most ε with the feature vector of a given image</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Nearest neighbor (similarity) query
-<ul>
-<li>Replaces distance bound by ranking predicate</li>
-</ul>
-</li>
-</ul>
-<h2 id="top-k-search-methods">Top-k Search Methods</h2>
-<ul>
-<li>Rank aggregation</li>
-<li>Index-based methods</li>
-</ul>
-<h3 id="top-k-query">Top-k Query</h3>
-<ul>
-<li>Given a set of objects (e.g., relational tuples),</li>
-<li>Returns the k objects with the highest combined score, based on an aggregate function f.</li>
-<li>Example:
-<ul>
-<li>Relational table containing information about restaurants, with attributes(e.g. price, quality, location)</li>
-<li>f: sum(-price, quality, -dist(location,my_hotel))‏</li>
-<li>attribute value ranges are usually normalized
-<ul>
-<li>E.g., all values in a (0,1) range</li>
-<li>otherwise some attribute may be favored in f</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="top-k-query-variants">Top-k Query Variants</h3>
-<ul>
-<li>
-<p>Apply on single table, or ranked lists of tuples ordered by individual attributes
-<img src="https://image.pseudoyu.com/images/Top_k_Query_Variants_1.jpg" alt="Top_k_Query_Variants_1"></p>
-</li>
-<li>
-<p>Ranked inputs in the same or different servers (centralized or distributed data)
-<img src="https://image.pseudoyu.com/images/Top_k_Query_Variants_2.jpg" alt="Top_k_Query_Variants_1"></p>
-</li>
-<li>
-<p>Standalone query or operator in a more complex query plan
-<img src="https://image.pseudoyu.com/images/Top_k_Query_Variants_3.jpg" alt="Top_k_Query_Variants_3"></p>
-</li>
-<li>
-<p>Incremental retrieval of objects with highest scores (k is not predefined)</p>
-</li>
-<li>
-<p>Top-k joins</p>
-</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">h</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">id</span><span class="w"> 
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">House</span><span class="w"> </span><span class="n">h</span><span class="w"> </span><span class="n">School</span><span class="w"> </span><span class="n">s</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">WHERE</span><span class="w"> </span><span class="n">h</span><span class="p">.</span><span class="k">location</span><span class="o">=</span><span class="n">s</span><span class="p">.</span><span class="k">location</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">h</span><span class="p">.</span><span class="n">price</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="err">∗</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">tuition</span><span class="w"> 
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">LIMIT</span><span class="w"> </span><span class="mi">5</span><span class="w">
-</span></span></span></code></pre></div><ul>
-<li>
-<p>Probabilistic/approximate top-k retrieval</p>
-</li>
-<li>
-<p>Random and/or sorted accesses at ranked inputs</p>
-</li>
-</ul>
-<h3 id="top-k-query-evaluation">Top-k Query Evaluation</h3>
-<ul>
-<li>
-<p>Most solutions assume distributive, monotone aggregate functions (e.g. f=sum)</p>
-<ul>
-<li>distributive: f(x,y,z,w)= f(f(x,y),f(z,w))
-<ul>
-<li>e.g., A+B+C+D = (A+B) + (C+D)</li>
-</ul>
-</li>
-<li>monotone: if x&lt;y and z&lt;w, then f(x,z)&lt;f(y,w)</li>
-</ul>
-</li>
-<li>
-<p>Solutions based on 1-D ordering and merging sorted lists (rank aggregation)</p>
-</li>
-<li>
-<p>Solutions based on multidimensional indexing</p>
-</li>
-</ul>
-<h2 id="rank-aggregation">Rank Aggregation</h2>
-<ul>
-<li>Solutions based on 1-D ordering and merging sorted lists (rank aggregation)</li>
-<li>Assume that there is a total ranking of theobjects for each attributethat can be used in top-kqueries</li>
-<li>These sorted inputs canbe accessed sequentiallyand/or by random accesses</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/Rank_Aggregation.jpg" alt="Rank_Aggregation"></p>
-<h3 id="advantages-and-drawbacks">Advantages and Drawbacks</h3>
-<ul>
-<li>Advantages：
-<ul>
-<li>can be applied on any subset of inputs (arbitrary subspace)</li>
-<li>appropriate for distributed data</li>
-<li>appropriate for top-k joins</li>
-<li>easy to understand and implement</li>
-</ul>
-</li>
-<li>Drawbacks:
-<ul>
-<li>slower than index-based methods</li>
-<li>require inputs to be sorted</li>
-</ul>
-</li>
-</ul>
-<h3 id="ta-threshold-algorithm">TA: Threshold Algorithm</h3>
-<h4 id="introduction">Introduction</h4>
-<ul>
-<li>Iteratively retrieves objects and their atomic scores from the ranked inputs in a round-robin fashion.</li>
-<li>For each encountered object x, perform random accesses to the inputs where x has not been seen.</li>
-<li>Maintain top-k objects seen so far.</li>
-<li>T = f($l_1$, . . . , $l_m$) is the score derived when applying the aggregation function to the last atomic scores seen at each input. If the score of the k-th object is no smaller than T, terminate.</li>
-</ul>
-<h4 id="example-of-tak1fsum">Example of TA(k=1,f=sum)</h4>
-<ul>
-<li><strong>STEP 1</strong>
-<ul>
-<li>top-1 is c, with score 2.0</li>
-<li>T=sum(0.9,0.9,0.9)=2.7</li>
-<li>T&gt;top-1, we proceed to another round of accesses</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/TA_Step_1.jpg" alt="TA_Step_1"></p>
-<ul>
-<li><strong>STEP 2</strong>
-<ul>
-<li>top-1 is b, with score 2.2</li>
-<li>T=sum(0.8,0.8,0.9)=2.5</li>
-<li>T&gt;top-1, we proceed to another round of accesses</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/TA_Step_2.jpg" alt="TA_Step_2"></p>
-<ul>
-<li><strong>STEP 3</strong>
-<ul>
-<li>top-1 is b, with score 2.2</li>
-<li>T=sum(0.6,0.6,0.8)=2.0</li>
-<li>T≤top-1, terminate and output (b,2.2)</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/TA_Step_3.jpg" alt="TA_Step_3"></p>
-<h4 id="properties-of-ta">Properties of TA</h4>
-<ul>
-<li>Used as a standard module for merging ranked lists in many applications</li>
-<li>Usually finds the result quickly</li>
-<li>Depends on random accesses, which can be expensive</li>
-<li>random accesses are impossible in some cases
-<ul>
-<li>e.g., an API allows to access objects incrementally by ranking score, but does not provide the score of a given object</li>
-</ul>
-</li>
-</ul>
-<h3 id="nra-no-random-accesses">NRA: No Random Accesses</h3>
-<h4 id="introduction-1">Introduction</h4>
-<ul>
-<li>Iteratively retrieves objects and their atomic scores from the ranked inputs in a round-robin fashion.</li>
-<li>For each object x seen so far at any input maintain:
-<ul>
-<li>f_x_ub: upper bound for x’s aggregate score (f_x)</li>
-<li>f_x_lb: lower bound for x’s aggregate score (f_x)</li>
-</ul>
-</li>
-<li>W_k = k objects with the largest f^lb.</li>
-<li>If the smallest f^lb in W_k is at least the largest f_x_ub of any object x not in W_k, then terminate and report W_k as top-k result.</li>
-</ul>
-<h4 id="example-of-nrak1fsum">Example of NRA(k=1,f=sum)</h4>
-<ul>
-<li><strong>STEP 1</strong></li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/NRA_Step_1.jpg" alt="NRA_Step_1"></p>
-<ul>
-<li><strong>STEP 2</strong></li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/NRA_Step_2.jpg" alt="NRA_Step_2"></p>
-<ul>
-<li><strong>STEP 3</strong></li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/NRA_Step_3.jpg" alt="NRA_Step_3"></p>
-<ul>
-<li><strong>STEP 4</strong></li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/NRA_Step_4.jpg" alt="NRA_Step_4"></p>
-<h4 id="nra-properties">NRA Properties</h4>
-<ul>
-<li>More generic than TA, since it does not depend on random accesses</li>
-<li>Can be cheaper than TA, if random accesses are very expensive</li>
-<li>NRA accesses objects sequentially from all inputs and updates the upper bounds for all objects seen so far unconditionally.
-<ul>
-<li>Cost: O(n) per access (the expected distinct number of objects accessed so far is O(n))</li>
-<li>No input list is pruned until the algorithm terminates</li>
-</ul>
-</li>
-</ul>
-<h3 id="lara-lattice-based-rank-aggregation">LARA: LAttice-based Rank Aggregation</h3>
-<ul>
-<li>LARA: An efficient NRA implementation</li>
-<li>Based on 3 observations about the top-k candidates</li>
-<li>Operates differently in the two (growing, shrinking) phases</li>
-<li>Takes its name from the lattice used in the shrinking phase</li>
-<li>Extendable to various top-k query variants</li>
 </ul>
 ]]></content:encoded></item></channel></rss>
