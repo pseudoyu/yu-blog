@@ -50,11 +50,8 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Go         1 hr 25 mins   ██████████▍░░░░░░░░░░  49.5%
-Solidity   33 mins        ████░░░░░░░░░░░░░░░░░  19.2%
-Other      21 mins        ██▌░░░░░░░░░░░░░░░░░░  12.3%
-INI        13 mins        █▋░░░░░░░░░░░░░░░░░░░   7.9%
-GDScript3  7 mins         ▉░░░░░░░░░░░░░░░░░░░░   4.5%
+GDScript3  9 mins         ████████████████████▉  99.8%
+Solidity   0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.2%
 ```
 
 <!-- code_time ends -->
