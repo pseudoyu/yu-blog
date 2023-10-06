@@ -50,8 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-GDScript3  9 mins         ████████████████████▉  99.8%
-Solidity   0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.2%
+Go         1 hr 51 mins   ███████████████▎░░░░░  73.1%
+Solidity   13 mins        █▊░░░░░░░░░░░░░░░░░░░   8.9%
+YAML       13 mins        █▊░░░░░░░░░░░░░░░░░░░   8.7%
+GDScript3  9 mins         █▏░░░░░░░░░░░░░░░░░░░   5.9%
+Ezhil      3 mins         ▍░░░░░░░░░░░░░░░░░░░░   2.1%
 ```
 
 <!-- code_time ends -->
