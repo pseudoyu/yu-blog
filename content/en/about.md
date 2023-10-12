@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>想看葬送的芙莉莲</a> - 2023-10-11
 * <a href='http://movie.douban.com/subject/5327189/' target='_blank'>想看伦敦一家人</a> - 2023-10-11
 * <a href='http://movie.douban.com/subject/1307144/' target='_blank'>想看一见钟情</a> - 2023-10-09
 * <a href='http://movie.douban.com/subject/26874505/' target='_blank'>想看人生果实</a> - 2023-10-07
 * <a href='http://movie.douban.com/subject/35593344/' target='_blank'>看过奥本海默</a> - 2023-09-17
-* <a href='https://book.douban.com/subject/36414284/' target='_blank'>最近在读Elon Musk</a> - 2023-09-16
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         11 hrs 36 mins ███████████████████▊░  94.5%
-Solidity   16 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.2%
-YAML       13 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.8%
-Ezhil      4 mins         ░░░░░░░░░░░░░░░░░░░░░   0.6%
-ActionS... 3 mins         ░░░░░░░░░░░░░░░░░░░░░   0.4%
+Go         11 hrs 36 mins ███████████▋░░░░░░░░░  55.8%
+Solidity   5 hrs 53 mins  █████▉░░░░░░░░░░░░░░░  28.3%
+JSON       52 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.2%
+YAML       42 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.4%
+Bash       34 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.8%
 ```
 
 <!-- code_time ends -->
