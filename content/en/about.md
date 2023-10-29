@@ -49,10 +49,10 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         11 hrs 10 mins ████████████▌░░░░░░░░  60.1%
-Bash       2 hrs 59 mins  ███▍░░░░░░░░░░░░░░░░░  16.1%
+Go         11 hrs 13 mins ████████████▋░░░░░░░░  60.2%
+Bash       3 hrs          ███▍░░░░░░░░░░░░░░░░░  16.1%
 Python     1 hr 54 mins   ██▏░░░░░░░░░░░░░░░░░░  10.3%
-SQL        1 hr 20 mins   █▌░░░░░░░░░░░░░░░░░░░   7.3%
+SQL        1 hr 20 mins   █▌░░░░░░░░░░░░░░░░░░░   7.2%
 Text       19 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.8%
 ```
 
