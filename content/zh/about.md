@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/3026879/' target='_blank'>想读爱的艺术</a> - 2023-11-01
 * <a href='https://book.douban.com/subject/3469953/' target='_blank'>最近在读Don Fernando</a> - 2023-10-21
 * <a href='http://movie.douban.com/subject/27594217/' target='_blank'>看过性爱自修室 第一季</a> - 2023-10-15
 * <a href='http://movie.douban.com/subject/2338055/' target='_blank'>在看西部世界 第一季</a> - 2023-10-15
 * <a href='http://movie.douban.com/subject/30377729/' target='_blank'>看过3年A班：从现在起，大家都是人质</a> - 2023-10-15
-* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>想看葬送的芙莉莲</a> - 2023-10-11
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
