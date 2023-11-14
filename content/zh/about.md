@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-TypeScript 6 hrs 43 mins  █████▎░░░░░░░░░░░░░░░  25.5%
-Go         6 hrs 21 mins  █████░░░░░░░░░░░░░░░░  24.1%
-Solidity   4 hrs 42 mins  ███▊░░░░░░░░░░░░░░░░░  17.9%
-Markdown   3 hrs 46 mins  ███░░░░░░░░░░░░░░░░░░  14.3%
-Bash       2 hrs 32 mins  ██░░░░░░░░░░░░░░░░░░░   9.6%
+TypeScript 6 hrs 50 mins  ████▉░░░░░░░░░░░░░░░░  23.3%
+Markdown   6 hrs 35 mins  ████▋░░░░░░░░░░░░░░░░  22.4%
+Go         6 hrs 13 mins  ████▍░░░░░░░░░░░░░░░░  21.2%
+Solidity   4 hrs 7 mins   ██▉░░░░░░░░░░░░░░░░░░  14.0%
+Bash       2 hrs 39 mins  █▉░░░░░░░░░░░░░░░░░░░   9.1%
 ```
 
 <!-- code_time ends -->
