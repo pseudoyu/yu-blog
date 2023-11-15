@@ -36,7 +36,8 @@ rss_ignore: true
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://image.pseudoyu.com/images/lzzmm_avatar.jpg" word="日复一日 必有精进" >}}
 {{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar_new.png" word="Java 开发工程师" >}}
 {{< friend name="果汁的博客" url="https://jusu.me/" logo="https://image.pseudoyu.com/images/jusu_avatar.jpg" word="一个很无聊的人`)" >}}
-{{< friend name="Mitcher" url="https://www.huang-zifeng.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word=" 20 嵗，是個學生" >}}
+{{< friend name="Mitcher" url="https://www.huang-zifeng.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word="20 嵗，是個學生" >}}
+{{< friend name="码砖猿" url="https://codebrickape.lhzzs.top/" logo="https://codebrickape.lhzzs.top/images/author.png" word="Stay hungry. Stay foolish." >}}
 
 </div>
 </div>
