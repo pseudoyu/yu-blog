@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/36550765/' target='_blank'>最近在读今日简史</a> - 2023-11-17
+* <a href='https://book.douban.com/subject/36484131/' target='_blank'>读过The PARA Method</a> - 2023-11-17
+* <a href='https://book.douban.com/subject/35761116/' target='_blank'>读过Building a Second Brain</a> - 2023-11-17
 * <a href='https://book.douban.com/subject/33422839/' target='_blank'>想读发条橙</a> - 2023-11-15
 * <a href='http://movie.douban.com/subject/27081753/' target='_blank'>在看机智牢房生活</a> - 2023-11-11
-* <a href='http://movie.douban.com/subject/27069431/' target='_blank'>在看冥王</a> - 2023-11-10
-* <a href='http://movie.douban.com/subject/35448384/' target='_blank'>想看无价之宝</a> - 2023-11-09
-* <a href='https://book.douban.com/subject/26431646/' target='_blank'>想读语言学的邀请</a> - 2023-11-09
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         4 hrs 48 mins  ██████▌░░░░░░░░░░░░░░  31.1%
-Markdown   2 hrs 53 mins  ███▉░░░░░░░░░░░░░░░░░  18.8%
-TypeScript 2 hrs 26 mins  ███▎░░░░░░░░░░░░░░░░░  15.8%
-Bash       2 hrs 6 mins   ██▉░░░░░░░░░░░░░░░░░░  13.7%
-Python     1 hr 9 mins    █▌░░░░░░░░░░░░░░░░░░░   7.6%
+Go         4 hrs 38 mins  ███████▉░░░░░░░░░░░░░  38.0%
+Markdown   2 hrs 53 mins  ████▉░░░░░░░░░░░░░░░░  23.7%
+TypeScript 1 hr 44 mins   ██▉░░░░░░░░░░░░░░░░░░  14.2%
+YAML       48 mins        █▍░░░░░░░░░░░░░░░░░░░   6.6%
+Python     42 mins        █▏░░░░░░░░░░░░░░░░░░░   5.8%
 ```
 
 <!-- code_time ends -->
