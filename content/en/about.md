@@ -38,9 +38,9 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/6764127/' target='_blank'>读过Up At the Villa</a> - 2023-11-29
 * <a href='https://book.douban.com/subject/34978919/' target='_blank'>想读拒看新聞的生活藝術</a> - 2023-11-27
 * <a href='https://book.douban.com/subject/26774193/' target='_blank'>最近在读神经症与人的成长</a> - 2023-11-27
-* <a href='https://book.douban.com/subject/6764127/' target='_blank'>最近在读Up At the Villa</a> - 2023-11-25
 * <a href='http://movie.douban.com/subject/36190888/' target='_blank'>在看间谍过家家 第二季</a> - 2023-11-20
 * <a href='http://movie.douban.com/subject/27081753/' target='_blank'>看过机智牢房生活</a> - 2023-11-20
 <!-- douban ends -->
