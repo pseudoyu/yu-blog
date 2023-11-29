@@ -2,7 +2,7 @@
 title: "周报 #51 - 追星小鹿 Lawrence 与生病"
 date: 2023-11-29T09:41:26+08:00
 draft: false
-tags: ["review", "life", "reading", "work", "learn"]
+tags: ["review", "life", "reading", "love", "ill"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
