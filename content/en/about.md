@@ -38,7 +38,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-
+* <a href='https://book.douban.com/subject/26774193/' target='_blank'>读过神经症与人的成长</a> - 2023-12-03
+* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>在看葬送的芙莉莲</a> - 2023-12-02
+* <a href='https://book.douban.com/subject/35754687/' target='_blank'>最近在读What My Bones Know</a> - 2023-12-01
+* <a href='https://book.douban.com/subject/6764127/' target='_blank'>读过Up At the Villa</a> - 2023-11-29
+* <a href='https://book.douban.com/subject/34978919/' target='_blank'>想读拒看新聞的生活藝術</a> - 2023-11-27
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
