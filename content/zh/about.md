@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Go         11 hrs 33 mins ███████████▉░░░░░░░░░  56.8%
-TypeScript 3 hrs 20 mins  ███▍░░░░░░░░░░░░░░░░░  16.4%
-Markdown   2 hrs 57 mins  ███░░░░░░░░░░░░░░░░░░  14.5%
-YAML       47 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.9%
-Bash       45 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
+Go         12 hrs 16 mins ██████████████▌░░░░░░  69.3%
+TypeScript 2 hrs 27 mins  ██▉░░░░░░░░░░░░░░░░░░  13.9%
+Markdown   1 hr 31 mins   █▊░░░░░░░░░░░░░░░░░░░   8.6%
+YAML       51 mins        █░░░░░░░░░░░░░░░░░░░░   4.8%
+Makefile   13 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.2%
 ```
 
 <!-- code_time ends -->
