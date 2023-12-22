@@ -38,22 +38,18 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/2228297/' target='_blank'>最近在读The Monk and the Philosopher</a> - 2023-12-12
-* <a href='http://movie.douban.com/subject/35366293/' target='_blank'>在看孤独摇滚！</a> - 2023-12-10
-* <a href='https://book.douban.com/subject/26774193/' target='_blank'>读过神经症与人的成长</a> - 2023-12-03
-* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>在看葬送的芙莉莲</a> - 2023-12-02
-* <a href='https://book.douban.com/subject/35754687/' target='_blank'>最近在读What My Bones Know</a> - 2023-12-01
+
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         6 hrs 5 mins   ███████████████████░░  91.0%
-SQL        15 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.8%
-Other      10 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
+Go         5 hrs 11 mins  ████████████████▉░░░░  80.5%
+YAML       43 mins        ██▎░░░░░░░░░░░░░░░░░░  11.3%
+Other      18 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.7%
+SQL        7 mins         ▍░░░░░░░░░░░░░░░░░░░░   1.8%
 go.mod     4 mins         ▎░░░░░░░░░░░░░░░░░░░░   1.2%
-YAML       3 mins         ▏░░░░░░░░░░░░░░░░░░░░   1.0%
 ```
 
 <!-- code_time ends -->
