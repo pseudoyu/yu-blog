@@ -39,7 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-
+* <a href='https://book.douban.com/subject/2228297/' target='_blank'>最近在读The Monk and the Philosopher</a> - 2023-12-12
+* <a href='http://movie.douban.com/subject/35366293/' target='_blank'>在看孤独摇滚！</a> - 2023-12-10
+* <a href='https://book.douban.com/subject/26774193/' target='_blank'>读过神经症与人的成长</a> - 2023-12-03
+* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>在看葬送的芙莉莲</a> - 2023-12-02
+* <a href='https://book.douban.com/subject/35754687/' target='_blank'>最近在读What My Bones Know</a> - 2023-12-01
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
