@@ -38,21 +38,21 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/25853524/' target='_blank'>想读一切坚固的东西都烟消云散了</a> - 2023-12-28
+* <a href='https://book.douban.com/subject/35929434/' target='_blank'>想读毫无意义的工作</a> - 2023-12-28
 * <a href='https://book.douban.com/subject/35781152/' target='_blank'>最近在读红与黑</a> - 2023-12-25
 * <a href='https://book.douban.com/subject/2228297/' target='_blank'>最近在读The Monk and the Philosopher</a> - 2023-12-12
 * <a href='http://movie.douban.com/subject/35366293/' target='_blank'>在看孤独摇滚！</a> - 2023-12-10
-* <a href='https://book.douban.com/subject/26774193/' target='_blank'>读过神经症与人的成长</a> - 2023-12-03
-* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>在看葬送的芙莉莲</a> - 2023-12-02
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         12 hrs 3 mins  █████████████████▏░░░  82.0%
-YAML       1 hr 57 mins   ██▊░░░░░░░░░░░░░░░░░░  13.3%
-Text       23 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.7%
-Other      11 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.4%
+Go         13 hrs 54 mins █████████████████▉░░░  85.6%
+YAML       1 hr 29 mins   █▉░░░░░░░░░░░░░░░░░░░   9.1%
+Text       30 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.1%
+Markdown   11 mins        ▏░░░░░░░░░░░░░░░░░░░░   1.1%
 go.mod     2 mins         ░░░░░░░░░░░░░░░░░░░░░   0.3%
 ```
 
