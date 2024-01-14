@@ -50,10 +50,10 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Go         10 hrs 11 mins ██████████████▏░░░░░░  67.4%
+Go         10 hrs 11 mins ██████████████▏░░░░░░  67.5%
 YAML       3 hrs 25 mins  ████▊░░░░░░░░░░░░░░░░  22.7%
 Solidity   33 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
-Other      32 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.6%
+Other      31 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.5%
 Makefile   17 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.9%
 ```
 
