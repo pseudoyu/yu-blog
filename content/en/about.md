@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/26703203/' target='_blank'>想读世界文明史（上、下）第二版</a> - 2024-01-18
+* <a href='https://book.douban.com/subject/25747866/' target='_blank'>想读快乐影子之舞</a> - 2024-01-18
 * <a href='https://book.douban.com/subject/36084340/' target='_blank'>想读命运</a> - 2024-01-16
 * <a href='https://book.douban.com/subject/30208077/' target='_blank'>想读禅与摩托车维修艺术</a> - 2024-01-16
 * <a href='http://movie.douban.com/subject/3892394/' target='_blank'>想看仁医</a> - 2024-01-15
-* <a href='http://movie.douban.com/subject/33425914/' target='_blank'>想看做工的人</a> - 2024-01-15
-* <a href='http://movie.douban.com/subject/33456512/' target='_blank'>想看涉过愤怒的海</a> - 2024-01-15
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         14 hrs 9 mins  ████████████████▎░░░░  77.4%
-YAML       3 hrs 3 mins   ███▌░░░░░░░░░░░░░░░░░  16.7%
-Other      30 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.8%
-Makefile   17 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.6%
-TypeScript 7 mins         ▏░░░░░░░░░░░░░░░░░░░░   0.7%
+Go         14 hrs 23 mins █████████████████▋░░░  84.3%
+YAML       1 hr 15 mins   █▌░░░░░░░░░░░░░░░░░░░   7.4%
+Other      51 mins        █░░░░░░░░░░░░░░░░░░░░   5.0%
+Makefile   17 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
+TypeScript 8 mins         ▏░░░░░░░░░░░░░░░░░░░░   0.8%
 ```
 
 <!-- code_time ends -->
