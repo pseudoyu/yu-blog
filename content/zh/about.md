@@ -39,22 +39,22 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35196946/' target='_blank'>想看三体</a> - 2024-01-22
-* <a href='https://book.douban.com/subject/26703203/' target='_blank'>想读世界文明史（上、下）第二版</a> - 2024-01-18
-* <a href='https://book.douban.com/subject/25747866/' target='_blank'>想读快乐影子之舞</a> - 2024-01-18
-* <a href='https://book.douban.com/subject/36084340/' target='_blank'>想读命运</a> - 2024-01-16
-* <a href='https://book.douban.com/subject/30208077/' target='_blank'>想读禅与摩托车维修艺术</a> - 2024-01-16
+* <a href='http://movie.douban.com/subject/33425914/' target='_blank'>在看做工的人</a> - 2024-01-28
+* <a href='http://movie.douban.com/subject/36140095/' target='_blank'>看过新闻女王</a> - 2024-01-28
+* <a href='http://movie.douban.com/subject/35727023/' target='_blank'>在看舞伎家的料理人</a> - 2024-01-28
+* <a href='http://movie.douban.com/subject/36155049/' target='_blank'>看过古相思曲</a> - 2024-01-28
+* <a href='http://movie.douban.com/subject/10558440/' target='_blank'>想看乐园追放</a> - 2024-01-28
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
 <!-- code_time starts -->
 
 ```text
-Go         19 hrs 13 mins █████████████████▏░░░  81.7%
-YAML       2 hrs 1 min    █▊░░░░░░░░░░░░░░░░░░░   8.6%
+Go         19 hrs 13 mins █████████████████▍░░░  82.9%
+YAML       2 hrs 1 min    █▊░░░░░░░░░░░░░░░░░░░   8.8%
 Bash       25 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.8%
-TOML       24 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
 Markdown   22 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.6%
+Text       20 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.5%
 ```
 
 <!-- code_time ends -->
