@@ -38,10 +38,10 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/33425914/' target='_blank'>看过做工的人</a> - 2024-02-03
 * <a href='http://movie.douban.com/subject/36156235/' target='_blank'>在看重启人生</a> - 2024-02-01
 * <a href='https://book.douban.com/subject/30218046/' target='_blank'>想读A Philosophy of Software Design</a> - 2024-01-31
 * <a href='http://movie.douban.com/subject/33456512/' target='_blank'>看过涉过愤怒的海</a> - 2024-01-29
-* <a href='http://movie.douban.com/subject/33425914/' target='_blank'>在看做工的人</a> - 2024-01-28
 * <a href='http://movie.douban.com/subject/36140095/' target='_blank'>看过新闻女王</a> - 2024-01-28
 <!-- douban ends -->
 
@@ -49,11 +49,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         10 hrs 19 mins █████████████▍░░░░░░░  64.0%
-YAML       2 hrs 26 mins  ███▏░░░░░░░░░░░░░░░░░  15.1%
-AsciiDoc   1 hr 32 mins   ██░░░░░░░░░░░░░░░░░░░   9.6%
-go.mod     38 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.9%
-Other      18 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.9%
+Go         10 hrs 19 mins ███████████▎░░░░░░░░░  53.9%
+YAML       2 hrs 28 mins  ██▋░░░░░░░░░░░░░░░░░░  12.9%
+TypeScript 2 hrs 7 mins   ██▎░░░░░░░░░░░░░░░░░░  11.1%
+AsciiDoc   1 hr 32 mins   █▋░░░░░░░░░░░░░░░░░░░   8.1%
+go.mod     38 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.3%
 ```
 
 <!-- code_time ends -->
