@@ -199,3 +199,32 @@ table tr td {
 	height: 50px;
 	font-size: 13px;
 }
+
+/* comments */
+.comments-box {
+    margin: calc(var(--content-gap) * 2) 0;
+    background-color: var(--code-bg);
+    border-radius: 10px;
+    box-shadow: var(--shadow-elevation-low);
+}
+
+.comments-box.telegram-widget {
+    padding: .8em;
+}
+
+.comments {
+    margin: var(--content-gap) 0;
+}
+.comments .title {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+.comments .title > span {
+    line-height: 1.5rem;
+}
+.comments .title .counter {
+    color: var(--link-hover-color);
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: super;
+}

@@ -4,7 +4,14 @@
 
 <br>
 
-<div id="remark42"></div>
+<div class="comments">
+  <div class="title">
+    <span>Comments</span>
+    <span class="counter"><span class="remark42__counter" data-url="{{ .Permalink }}"></span></span>
+  </div>
+  <div id="remark42">
+  </div>
+</div>
 
 <script>
   var remark_config = {
@@ -14,6 +21,7 @@
     max_shown_comments: 20,
     simple_view: true,
     theme: 'light',
+    admonition: JSON.stringify(['Please subscribe by email to receive reply notifications.']),
   }
 </script>
 
