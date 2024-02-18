@@ -4,16 +4,13 @@
 
 <br>
 
-<div id="cusdis_thread"
-  data-host="https://comments.pseudoyu.com"
-  data-app-id="27a61667-fd43-4a0d-934d-f45b944489ee"
-  data-page-id="{{ .File.UniqueID }}"
-  data-page-url="{{ .Permalink }}"
-  data-page-title="{{ .Title }}"
->
-</div>
+<div id="remark42"></div>
 
-<script defer src="https://comments.pseudoyu.com/js/widget/lang/zh-cn.js"></script>
-<script async defer src="https://comments.pseudoyu.com/js/cusdis.es.js"></script>
-<script defer data-host="https://comments.pseudoyu.com" data-app-id="27a61667-fd43-4a0d-934d-f45b944489ee"
-  src="https://comments.pseudoyu.com/js/cusdis-count.umd.js"></script>
+<script>
+  var remark_config = {
+    host: 'https://comments.pseudoyu.com',
+    site_id: 'pseudoyu.com',
+  }
+</script>
+
+<script>!function (e, n) { for (var o = 0; o < e.length; o++) { var r = n.createElement("script"), c = ".js", d = n.head || n.body; "noModule" in r ? (r.type = "module", c = ".mjs") : r.async = !0, r.defer = !0, r.src = remark_config.host + "/web/" + e[o] + c, d.appendChild(r) } }(remark_config.components || ["embed"], document);</script>
