@@ -23,6 +23,25 @@
     theme: 'light',
     admonition: JSON.stringify(['Please subscribe by email to receive reply notifications.']),
   }
+
+    (function () {
+      // init or reset remark42
+      const remark42 = window.REMARK42
+      if (remark42) {
+        remark42.destroy()
+        remark42.createInstance(remark_config)
+      } else {
+        for (const component of remark_config.components) {
+          var d = document, s = d.createElement('script');
+          s.src = `${remark_config.host}/web/${component}.mjs`;
+          s.type = 'module';
+          s.defer = true;
+          // prevent the <script> from loading mutiple times by InstantClick
+          s.setAttribute('data-no-instant', '')
+          d.head.appendChild(s);
+        }
+      }
+    })();
 </script>
 
 <script>!function (e, n) { for (var o = 0; o < e.length; o++) { var r = n.createElement("script"), c = ".js", d = n.head || n.body; "noModule" in r ? (r.type = "module", c = ".mjs") : r.async = !0, r.defer = !0, r.src = remark_config.host + "/web/" + e[o] + c, d.appendChild(r) } }(remark_config.components || ["embed"], document);</script>
