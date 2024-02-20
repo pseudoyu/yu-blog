@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35712804/' target='_blank'>想看首尔之春</a> - 2024-02-17
+* <a href='http://movie.douban.com/subject/35712804/' target='_blank'>看过首尔之春</a> - 2024-02-19
+* <a href='http://movie.douban.com/subject/4023638/' target='_blank'>想看国王的演讲</a> - 2024-02-19
+* <a href='http://movie.douban.com/subject/26761416/' target='_blank'>看过至暗时刻</a> - 2024-02-19
 * <a href='http://movie.douban.com/subject/36156235/' target='_blank'>看过重启人生</a> - 2024-02-17
 * <a href='http://movie.douban.com/subject/27191492/' target='_blank'>想看四个春天</a> - 2024-02-06
-* <a href='http://www.douban.com/game/35926908/' target='_blank'>最近在玩幻兽帕鲁 Palworld</a> - 2024-02-04
-* <a href='http://movie.douban.com/subject/33425914/' target='_blank'>看过做工的人</a> - 2024-02-03
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Other      48 mins        ██████▍░░░░░░░░░░░░░░  30.8%
-HTML       34 mins        ████▌░░░░░░░░░░░░░░░░  21.7%
-TOML       32 mins        ████▎░░░░░░░░░░░░░░░░  20.8%
-Bash       12 mins        █▋░░░░░░░░░░░░░░░░░░░   8.1%
-Go         10 mins        █▎░░░░░░░░░░░░░░░░░░░   6.4%
+Go         2 hrs 31 mins  █████▍░░░░░░░░░░░░░░░  26.0%
+AsciiDoc   2 hrs 6 mins   ████▌░░░░░░░░░░░░░░░░  21.7%
+HTML       1 hr 37 mins   ███▌░░░░░░░░░░░░░░░░░  16.8%
+Other      48 mins        █▊░░░░░░░░░░░░░░░░░░░   8.4%
+TypeScript 40 mins        █▍░░░░░░░░░░░░░░░░░░░   7.0%
 ```
 
 <!-- code_time ends -->
