@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/36181567/' target='_blank'>想看金的音像店</a> - 2024-02-20
-* <a href='http://movie.douban.com/subject/35712804/' target='_blank'>看过首尔之春</a> - 2024-02-19
-* <a href='http://movie.douban.com/subject/4023638/' target='_blank'>想看国王的演讲</a> - 2024-02-19
-* <a href='http://movie.douban.com/subject/26761416/' target='_blank'>看过至暗时刻</a> - 2024-02-19
-* <a href='http://movie.douban.com/subject/36156235/' target='_blank'>看过重启人生</a> - 2024-02-17
+* <a href='http://movie.douban.com/subject/2338055/' target='_blank'>看过西部世界 第一季</a> - 2024-02-24
+* <a href='http://movie.douban.com/subject/1291856/' target='_blank'>看过戏梦巴黎</a> - 2024-02-24
+* <a href='http://movie.douban.com/subject/34963356/' target='_blank'>看过过往人生</a> - 2024-02-24
+* <a href='http://movie.douban.com/subject/35725869/' target='_blank'>看过年会不能停！</a> - 2024-02-24
+* <a href='http://movie.douban.com/subject/3240806/' target='_blank'>想看第五共和国</a> - 2024-02-24
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         10 hrs 12 mins ██████████▏░░░░░░░░░░  48.4%
-AsciiDoc   2 hrs 6 mins   ██░░░░░░░░░░░░░░░░░░░  10.0%
-YAML       2 hrs 5 mins   ██░░░░░░░░░░░░░░░░░░░   9.9%
-HTML       2 hrs          ██░░░░░░░░░░░░░░░░░░░   9.5%
-Other      1 hr 6 mins    █░░░░░░░░░░░░░░░░░░░░   5.3%
+Go         10 hrs 29 mins ████████▉░░░░░░░░░░░░  42.5%
+Bash       2 hrs 56 mins  ██▌░░░░░░░░░░░░░░░░░░  11.9%
+AsciiDoc   2 hrs 6 mins   █▊░░░░░░░░░░░░░░░░░░░   8.5%
+YAML       2 hrs 5 mins   █▊░░░░░░░░░░░░░░░░░░░   8.5%
+HTML       2 hrs          █▋░░░░░░░░░░░░░░░░░░░   8.2%
 ```
 
 <!-- code_time ends -->
