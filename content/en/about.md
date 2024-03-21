@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/34802764/' target='_blank'>最近在读加缪手记</a> - 2024-03-20
 * <a href='https://book.douban.com/subject/35218475/' target='_blank'>想读变形记</a> - 2024-03-19
 * <a href='http://movie.douban.com/subject/35426925/' target='_blank'>想看机器人之梦</a> - 2024-03-05
 * <a href='http://movie.douban.com/subject/35417202/' target='_blank'>想看地球改变之年</a> - 2024-03-05
 * <a href='http://movie.douban.com/subject/35042913/' target='_blank'>看过西部世界 第四季</a> - 2024-03-05
-* <a href='http://movie.douban.com/subject/30206389/' target='_blank'>看过西部世界 第三季</a> - 2024-03-05
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         11 hrs 37 mins ████████▊░░░░░░░░░░░░  42.0%
-Markdown   4 hrs 18 mins  ███▎░░░░░░░░░░░░░░░░░  15.6%
-YAML       3 hrs 48 mins  ██▉░░░░░░░░░░░░░░░░░░  13.7%
-TOML       1 hr 58 mins   █▍░░░░░░░░░░░░░░░░░░░   7.1%
-Docker     1 hr 46 mins   █▎░░░░░░░░░░░░░░░░░░░   6.4%
+Go         15 hrs 35 mins ██████████▍░░░░░░░░░░  49.9%
+Markdown   4 hrs 18 mins  ██▉░░░░░░░░░░░░░░░░░░  13.8%
+YAML       3 hrs 51 mins  ██▌░░░░░░░░░░░░░░░░░░  12.3%
+TOML       1 hr 58 mins   █▎░░░░░░░░░░░░░░░░░░░   6.3%
+Docker     1 hr 46 mins   █▏░░░░░░░░░░░░░░░░░░░   5.7%
 ```
 
 <!-- code_time ends -->
