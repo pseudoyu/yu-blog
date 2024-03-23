@@ -43,7 +43,7 @@
 <p>而第三种方案则是最近看到「<a href="https://nova.moe/accelerate-and-secure-with-cloudflared/">使用 Cloudflare Argo Tunnel(cloudflared) 来加速和保护你的网站</a>」文章时才新加的，之前都是通过 cloudflared 命令行工具手动配置的，多少还是有些麻烦于是没实践，最近 Cloudflare 把它集成到了 <a href="https://developers.cloudflare.com/cloudflare-one/">Zero Trust</a> 中，几乎可以在界面完成各种操作配置，我用来在家里服务器运行一些需要对外暴露的公网服务，例如前几天使用 <a href="https://ollama.com/">ollama</a> 跑了一个 <a href="https://ollama.com/library/codellama:70b">codellama:70b</a>，然后再通过 <a href="https://chatkit.app/">ChatKit</a> 直接访问，体验很不错，就是生成得太慢了，所以也就尝尝鲜。</p>
 <p>刚好最近我们厂的<a href="https://rss3.io/blog/en/introducing-rss3-alpha-mainnet">Alpha 主网</a>上线了，打算等后面公益节点的时候用 Home Server 自己跑一个，现在跑不起 🤣。</p>
 <h2 id="vr-学车">VR 学车</h2>
-<p><img src="https://image.pseudoyu.com/images/vr_car_license.png" alt="vr_car_license"></p>
+<p><img src="https://image.pseudoyu.com/images/vr_car_learn.png" alt="vr_car_learn"></p>
 <p>因为即将要有一些自驾的需求，又重新报名了驾校开始学习，这次的驾校有 VR 练车设施，没有自己想象得那么抗拒了。</p>
 <h2 id="其他">其他</h2>
 <p>其他似乎没有太多有意思的事，处在忙碌和想做的事做不完而焦虑的反复中，不过一切也都在慢慢变好。</p>
