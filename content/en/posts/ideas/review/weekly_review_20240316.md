@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_20240316](https://image.pseudoyu.com/images/weekly_review_20240316.png)
+![weekly_review_20240316_cover](https://image.pseudoyu.com/images/weekly_review_20240316_cover.png)
 
 本篇是对 `2023-03-01` 到 `2024-03-16` 这两周生活的记录与思考。
 
@@ -80,7 +80,7 @@ authors:
 
 ## VR 学车
 
-![vr_car_license](https://image.pseudoyu.com/images/vr_car_license.png)
+![vr_car_learn](https://image.pseudoyu.com/images/vr_car_learn.png)
 
 因为即将要有一些自驾的需求，又重新报名了驾校开始学习，这次的驾校有 VR 练车设施，没有自己想象得那么抗拒了。
 
