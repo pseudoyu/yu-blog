@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sat, 16 Mar 2024 05:20:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #54 - 漂流计划、钱包被盗与 Home Server</title><link>https://www.pseudoyu.com/zh/2024/03/16/weekly_review_20240316/</link><pubDate>Sat, 16 Mar 2024 05:20:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/03/16/weekly_review_20240316/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2023-03-01 到 2024-03-16 这两周生活的记录与思考。 如上篇周报所述，我开启了一段漂流计划，最后以「杭州 -&amp;gt; 上海</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 24 Mar 2024 05:20:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #55 - 油画体验、博客系统升级与对 self-hosting 的思考</title><link>https://www.pseudoyu.com/zh/2024/03/24/weekly_review_20240324/</link><pubDate>Sun, 24 Mar 2024 05:20:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/03/24/weekly_review_20240324/</guid><description>《Fix You - Coldplay》 前言 本篇是对 2024-03-17 到 2024-03-24 这周生活的记录与思考。 这周重拾了很多工作学习的热情，把 TODO 里列了很久的博客评论系统和数据统计系</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/fix_you.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Fix You - Coldplay》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240324.png" alt="weekly_review_20240324"></p>
+<p>本篇是对 <code>2024-03-17</code> 到 <code>2024-03-24</code> 这周生活的记录与思考。</p>
+<p>这周重拾了很多工作学习的热情，把 TODO 里列了很久的博客评论系统和数据统计系统迁移做完了，有种整理规置了书桌的舒心感；周末第一次体验了油画，给自己画了一个新头像，成就感满满；恢复了健身；继续学车并报考了科目二；还有很多有意思的事。</p>
+<h2 id="油画体验与新头像">油画体验与新头像</h2>
+<p>我和学姐性格和喜好迥异，她有许多我不曾涉足的兴趣爱好，而我着迷的似乎往往也是她未知的领域，于是我们前段时间有立一些 flag 说带对方体验自己的爱好/技能，我定的是双拼和编程这两项，目前双拼已经卓有成效；她则是在这周带我去上了一节油画课。</p>
+<p>我对画画其实确实是零基础，也从不觉得自己和这些艺术搭边的爱好有什么关联，只是好奇于究竟是怎样的吸引力能促使她常常在素描或是油画画室坐上大半个下午打磨着一些小细节，期待之余还有些紧张。</p>
+<p><img src="https://image.pseudoyu.com/images/oil_painting_experience.png" alt="oil_painting_experience"></p>
+<p>按理说初学者不太会从人像这样的复杂主题开始，只是想要换一个新头像，画室的老师也很 nice 地愿意辅导，选了一张以“头”为主的照片就开始了，画轮廓、调色、上色、根据光线和位置加细节，一切比想象得更加有趣，几种简单的颜色组合能够幻化出很多的层次，创造本身也如同魔术一样令人心驰神往。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_painting.jpg" alt="yu_painting"></p>
+<p>一个下午的成果如图，笔触生涩，却是我用自己的画笔创造出来的作品，也有着与众不同的意义，换了全平台的头像。</p>
+<h2 id="博客系统升级">博客系统升级</h2>
+<h3 id="cusdis---remark42">Cusdis -&gt; Remark42</h3>
+<p>之前写过一篇「<a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a>」，有讲过我博客使用的是自部署的 <a href="https://lutaonan.com/">Randy</a> 开源的 <a href="https://cusdis.com/">Cusdis</a> 评论系统，从 2021 年中就开始使用了，到现在整整三年了，除了最开始的时候因为 Heroku、Railway 相继收费而折腾了一下部署平台外，一直都稳稳地运行着。</p>
+<p>不过我在使用中也有遇到一些问题：</p>
+<ol>
+<li>大概是由于微信内置浏览器做了一些魔改，在博客从微信聊天/对话打开是看不到评论组件的</li>
+<li>尽管可以输入邮箱，但并不支持订阅评论回复</li>
+<li>需要管理员手动审核评论，但评论提醒的 TG Bot 时常失效而错过评论</li>
+</ol>
+<p>另外因为其核心功能已经许久没有什么更新，比起其他较为成熟的评论系统也显得有些简陋，不过由于我也秉持着够用即可的原则，一直没动迁移/更新的念头，只有在其中一阵子在学前端时还参与了一些 Cusdis V2 版本的开发，不过也没做多久开发小群就不再活跃了。</p>
+<p>而最近几个月因为博客几乎没怎么更新，也没收到评论 TG Bot 的提醒，一直以为是没人评论，直到最近数据库托管的 Supabase 平台需要更换一下 Connection String，我才发现原来陆陆续续有几十条评论，有的是关心和鼓励，也有的是咨询一些技术问题，但看到的时候也已经是一两个月后了，还挺不好意思的。</p>
+<p>再加上更换数据库 URI 时 Vercel 部署一直报错，于是下定决心从 Cusdis 迁移，调研了一圈后选择了和 <a href="https://reorx.com/">reorx</a> 在「<a href="https://reorx.com/blog/blog-commenting-systems/">更换博客评论系统</a>」一文中最后选定的 <a href="https://remark42.com/">Remark42</a>。</p>
+<p>单纯就配置选项来说比起 cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 <a href="https://fly.io/">fly.io</a>，go 单二进制 + 数据库单文件，很舒服的解决方案。</p>
+<p>而因为之前积攒了很多评论数据，因为 Cusdis 使用的是 pg 而 Remark42 使用的是 boltdb 单文件数据库，后者不支持远程连接，没法直接 sql 语句写入，只能先联表查询导出需要字段的 json 文件，再手动执行 Migrator 脚本（而因为官方只支持 wordpress、disqus 和 commento 这三个，于是还得手动实现转换逻辑），幸好是熟悉的 go 写的，花了一晚上终于肝完了 <a href="https://github.com/pseudoyu/remark42/pull/1/files">pr</a>！！！</p>
+<p>迁移完才发现这些年一共积攒了 438 条评论，自己都惊到了，都回来了！！！</p>
+<h2 id="umami---goatcounter">Umami -&gt; GoatCounter</h2>
+<p>本着既然连评论系统都换了的心态，干脆把一直也是个心结的数据统计系统也更新了。</p>
+<p>Umami 其实一直用得倒没出现什么问题，直到我更换时尽职地跑了整整一年半，只不过可能因为自己用得比较早，在一次大版本更新的时候数据库 Migration 脚本出现了不兼容的字段更新，其实有点不理解这样量级的开源项目为什么会出现这样的问题，也看到 issue 中有很多其他用户有同样的诉求，但最终并没有给出一个比较好的解决方案。</p>
+<p>但是又由于自己已经运行了大半年，舍不得之前的数据，于是一直拖着，直到现在还停留在自己 fork 的一个旧版本，虽然倒也没有对新版本有那么多功能上的诉求，只是有点半强迫症地感觉不舒服，但也就拖着。</p>
+<p>于是趁着这次博客大施工，就顺便换为了 <a href="https://www.goatcounter.com/">goatcounter</a>，同样是 go 单二进制 + sqlite 数据库单文件部署在 fly.io，又是很舒服的配置。</p>
+<p>有意思的是，因为 goatcounter 的作者很有坚持，觉得这样单文件的应用容器化反而会增加更多维护成本，所以不提供官方镜像，不过自己在 vps 或者 serverless 平台部署有个镜像还是方便一些，所以用 Github Actions 做了一个 CI 每天拉取最新代码、构建镜像和上传 Docker Hub，有需要的可以使用，对应的 Dockerfile 和 Docker Compose 文件也可以参照<a href="https://github.com/pseudoyu/goatcounter/pull/1/files">这个 PR</a>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker pull pseudoyu/goatcounter
+</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/yu_umami_record.png" alt="yu_umami_record"></p>
+<p>这半年的周报输出频率堪忧，除了一篇关于信息管理系统的长文外也没有什么满意的输出，所以决定之前的访问数据就不作迁移了（复杂度应该也高很多），感谢每一位点进我博客网站的赛博朋友们，截图以作留念。</p>
+<p>最近感觉折腾这些软硬件/服务配置的心情回归了，也有了很多博客想法，新的数据就当作一个新的开始了 🫡</p>
+<p><img src="https://image.pseudoyu.com/images/yu_goatcounter_data.png" alt="yu_goatcounter_data"></p>
+<p>更换的一个最大动力还是 goatcounter 的界面跟我的古早博客主题一样完美卡在我的审美点上，感觉我能一直盯着这个界面看 🤩 无法抗拒这种 Retro Internet 设计。</p>
+<h2 id="关于-self-hosting-的一些思考">关于 self-hosting 的一些思考</h2>
+<p>其实我对于 vps 和 serverless 平台经历过许多次的折腾和反复，算不上心得，但确实是深度体验后的经验之谈了。</p>
+<p>曾经的我算是 serverless 的拥趸，当时几乎是能在 Vercel/Railway 等 PaaS 平台部署的绝不自己搭建，能在几乎没有运维成本的前提下还能获得媲美大平台的稳定性，也确实践行了把自己的各项服务都 serverless 化了，确实经历过很长一段时间的省心省力。</p>
+<p>然而随着经历过 HeroKu 和 Railway 相继中途改变收费模式，以及 n8n 在 Railway 上跑出单月十几刀的账单时，才也逐渐发现一些弊端，serverless 确实是减少了对于自己运维服务器的要求，但相对应地也要受制于这些平台的规则。</p>
+<p>收费模式其实只是一部分缘由，比起自己租赁一台配置不错的服务器，成本倒是还好，只是似乎又将自己的服务和数据绑定在一个中心化平台了，会有一种任人宰割的不安全感；而当想要迁移到另一个平台时，往往平台不会给出较为方便的解决方案，自己去折腾的操作复杂度比起服务器之间 docker-compose 文件外加挂载 volume 直接复制要高不少。</p>
+<p><img src="https://image.pseudoyu.com/images/vps_service_01.png" alt="vps_service_01"></p>
+<p><img src="https://image.pseudoyu.com/images/vps_service_02.png" alt="vps_service_02"></p>
+<p>因此也把自己的很多服务都放在服务器上，稳定地跑了 430+ 天。</p>
+<p><img src="https://image.pseudoyu.com/images/xiao_self_hosted.png" alt="xiao_self_hosted"></p>
+<p>而前几天和 <a href="https://reorx.com/">reorx</a> 聊到服务部署方案时，他提到了现在会优先考虑 sqlite 或其他同类文件数据库的 self-host 方案，能够减少许多维护和迁移的成本和复杂度。</p>
+<p>后来我想了想，其实不管是在 vps 还是 serverless 平台，本质上都是 self-hosting 的选择，其实更多需要的是思考部署的服务依赖本身，如我之前 Cusdis、Umami 很多不稳定性来源其实是在服务端在 Vercel、Netlify 这样的 PaaS，而数据却托管在 Supabase 这样的 DaaS，一个自用的服务同时依赖两个平台，任何一方出了问题都会导致服务不可用，vps 所做的其实也不过是把这样的风险变为单点自己维护而已。</p>
+<p><img src="https://image.pseudoyu.com/images/flyio_services.png" alt="flyio_services"></p>
+<p>于是又久违地开始折腾，把 Remakr42 与 GoatCounter 都部署在了 <a href="https://fly.io/">fly.io</a> 上，因为单二进制+文件数据库，性能消耗完全在 free plan 的范围内；而把 RSSHub、n8n、图床等相对依赖更重且需要对外提供服务的应用还是继续更集中地放在 vps 上；而把一些性能或存储消耗较高的服务则是跑在 Home Server 上并且通过内网穿透方案来暴露。</p>
+<h2 id="其他">其他</h2>
+<p><img src="https://image.pseudoyu.com/images/applite_overview.png" alt="applite_overview"></p>
+<p>把 Mac 从各个来源安装的软件都统一了一下，原则就是能 brew cask 安装的都重新安装，之前命令行需要自行搜索没什么感觉，现在有了 GUI 查看后发现确实软件源比想象得丰富很多，这种方式便于管理/迁移且相对能保障软件的来源安全性 🫡</p>
+<p>从 RapidAPI 切换到一个新的 API 调试工具 <a href="https://www.usebruno.com/">Bruno</a>，预购了它的 Golden Edition，目前使用起来体验很不错。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/35781152/"><strong>红与黑</strong></a>，从一个视频看到的讲解，关于于连的自尊和因此表现出来的傲慢的描述印象很深，正在看。</li>
+<li><a href="https://book.douban.com/subject/34802764/"><strong>加缪手记</strong></a>，刚开始看。</li>
+</ul>
+<h4 id="收藏">收藏</h4>
+<ul>
+<li><a href="https://github.com/milanvarady/Applite">GitHub - milanvarady/Applite</a></li>
+<li><a href="https://github.com/usebruno/bruno">GitHub - usebruno/bruno</a></li>
+<li><a href="https://github.com/plankanban/planka">GitHub - plankanban/planka</a></li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://antfu.me/posts/mental-health-oss">Mental Health in Open Source</a></li>
+<li><a href="https://justgoidea.com/posts/2024-009/">重新理解 Heptabase</a></li>
+<li><a href="https://fly.io/javascript-journal/demystify-docker-js/">Demystifying Docker for JavaScript</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV131421Q7KT">去东京，我只做三件事！</a></li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/35196946/"><strong>三体 第一季</strong></a>，在看。</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #54 - 漂流计划、钱包被盗与 Home Server</title><link>https://www.pseudoyu.com/zh/2024/03/16/weekly_review_20240316/</link><pubDate>Sat, 16 Mar 2024 05:20:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/03/16/weekly_review_20240316/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-03-01 到 2024-03-16 这两周生活的记录与思考。 如上篇周报所述，我开启了一段漂流计划，最后以「杭州 -&amp;gt; 上海</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -7,7 +97,7 @@
 </figure>
 <h2 id="前言">前言</h2>
 <p><img src="https://image.pseudoyu.com/images/weekly_review_20240316_cover.png" alt="weekly_review_20240316_cover"></p>
-<p>本篇是对 <code>2023-03-01</code> 到 <code>2024-03-16</code> 这两周生活的记录与思考。</p>
+<p>本篇是对 <code>2024-03-01</code> 到 <code>2024-03-16</code> 这两周生活的记录与思考。</p>
 <p>如上篇周报所述，我开启了一段漂流计划，最后以「杭州 -&gt; 上海 -&gt; 湖州 -&gt; 南京 -&gt; 北京」这样近两周的旅程告一段落，几乎都处在江浙，没什么特殊的风景，更多还是关于人和事；由于主钱包被盗且没找出原因，重装了两台主力电脑，也刚好重新整理开发环境配置；把家里的 Mac Studio 作为 7/24 的 Home Server，跑了 Home Assistant 等常驻应用控制智能家居，折腾却也有趣；工作上组里忙了许久的 Alpha 主网上线，久违的兴奋感；还有很多有意思的事。</p>
 <h2 id="漂流计划">漂流计划</h2>
 <p><img src="https://image.pseudoyu.com/images/tianmushan_view.jpg" alt="tianmushan_view"></p>
@@ -10863,86 +10953,4 @@
 <li><a href="https://github.com/greyireland/algorithm-pattern">greyireland/algorithm-pattern</a></li>
 </ol>
 </blockquote>
-]]></content:encoded></item><item><title>Uright - 区块链音乐版权管理ÐApp</title><link>https://www.pseudoyu.com/zh/2021/05/10/uright_case_study/</link><pubDate>Mon, 10 May 2021 19:30:25 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2021/05/10/uright_case_study/</guid><description>Uright - 区块链音乐版权管理ÐApp 简介 基于 Angular+Solidity+Web3.js，应用 IPFS、ENS、Oracles 等技术，通过 Truffle 部</description><content:encoded><![CDATA[<h1 id="uright---区块链音乐版权管理ðapp">Uright - 区块链音乐版权管理ÐApp</h1>
-<p><img src="https://image.pseudoyu.com/images/uright_chain.png" alt="uright_chain"></p>
-<h3 id="简介">简介</h3>
-<p>基于 Angular+Solidity+Web3.js，应用 IPFS、ENS、Oracles 等技术，通过 Truffle 部署于 Ethereum 的音乐版权管理 Decentralized Application (ÐApp)。</p>
-<p>Uright 去中心化应用允许音乐人（内容所有者）将他们的作品注册为&quot;Manifestations&quot;并登记至以太坊区块链。</p>
-<p>&ldquo;Manifestations&quot;将音乐人的作品展现为内容片段，用以证明作者身份及所有权。这是通过&quot;Manifestations&quot;智能合约完成的，该智能合约记录显示作品内容的 IPFS 哈希、标题(计划附加元数据)以及注册时间，这些信息可以用来证明作者身份，并且内容可以从 IPFS 文件存储系统中检索到。</p>
-<p>然而，仅仅注册一个&quot;Manifestations&quot;是不够的，还应提供支撑材料，否则该&quot;Manifestations&quot;将于一天后失效。这些支持材料通常由音乐人（作品上传者）注册，但任何其他人都可以添加支撑材料，支撑材料可以是任何类型的文件，如截图、PDF 文档等。&ldquo;UploadEvidences&quot;智能合约会将支撑材料上传至 IPFS 文件系统。</p>
-<p>此外，&ldquo;YouTubeEvidences&quot;智能合约允许音乐人在 YouTube 等视频/音乐平台的上传简介中声明作品&quot;Manifestations&rdquo;，智能合约将自动检测作为支撑材料。</p>
-<p>（开发中&hellip;）如果有其他人已经注册了音乐人的原创作品/支持材料，音乐人可以进行申诉，合约功能已实现，但在 Web 应用尚不可用。</p>
-<p>（开发中&hellip;）通过 NFT 技术对音乐人作品进行代币化。</p>
-<p>项目地址：<a href="https://github.com/pseudoyu/uright">GitHub</a></p>
-<h3 id="架构">架构</h3>
-<p><img src="https://image.pseudoyu.com/images/uright_architecture.png" alt="uright_architecture"></p>
-<h3 id="核心技术">核心技术</h3>
-<h4 id="ipfs">IPFS</h4>
-<p>当音乐人使用数字文件（如.mp3 格式文件）注册自己的作品时，文件将被上传至 IPFS 且其生成的 IPFS 标识符(哈希值)用于在 Ethereum 区块链中注册作品。用户可以选择将作品上传至 IPFS 网络，也可以保持作品的私密性，设置将内容不上传至 IPFS 网络，而只生成作品哈希值。</p>
-<p>用户需要保留与生成作品哈希时使用的完全相同的文件，可在以后用作拥有数字文件的证据，以便于哈希检验。IPFS 哈希值也将用于检索上传的内容。</p>
-<h4 id="ethereum-naming-system-ens">Ethereum Naming System (ENS)</h4>
-<p>Uright 项目集成了 ethereum-ens 包，可作用于以太坊主网、Ropsten、Rinkeby 测试网及本地测试网。ensdomains/ens 包用于设置地址名称。</p>
-<h4 id="oracles">Oracles</h4>
-<p>Oracle 模块集成在上传 YouTube 证据的智能合约，通过 YouTube 的视频 ID (<a href="https://www.youtube.com/watch?v=VIDEO_ID">https://www.youtube.com/watch?v=VIDEO_ID</a>) 来检索该视频描述中是否含有特定作品哈希。</p>
-<p>因此，该功能允许音乐人证明该作品同时存在于 YouTube 平台并属于自己（因为仅上传者可以编辑视频描述，使其包含作品哈希值）</p>
-<p>可使用 Oraclize 提供的在线服务进行查询: <a href="http://app.oraclize.it/home/test_query">http://app.oraclize.it/home/test_query</a></p>
-<h4 id="可升级性">可升级性</h4>
-<p>为了使作品注册合约具备可升级性，引入 ZeppelinOS 中的 AdminUpgradeabilityProxy，通过中继代理的方式实现了委任模式。</p>
-<h3 id="设计模式">设计模式</h3>
-<p><img src="https://image.pseudoyu.com/images/uright_design_architecture.png" alt="uright_design_architecture"></p>
-<p>Uright 项目智能合约的设计有利于模块化和可重用性。比如，将验证过期功能实现为一个实体库；以及&quot;Evidencable&quot;库使注册作品可累积多项支持材料，也可以在后续申诉功能等研发中提供便利。</p>
-<p>此外，将这些功能作为库提供可以降低部署成本。</p>
-<h4 id="circuit-breaker-断路器模式--emergency-stop">Circuit Breaker (断路器模式) / Emergency Stop</h4>
-<p>断路器的模式可以防止一个应用程序反复尝试执行一个可能会失败的操作，让它继续不等待故障的纠正或浪费处理器周期，而它决定了故障是长期持久的。断路器的模式也使一个应用程序来检测故障是否已得到解决。如果出现问题，该应用程序可以尝试调用操作。</p>
-<h4 id="automatic-deprecation">Automatic Deprecation</h4>
-<p>此外，对已登记的作品实行了类似于&quot;Automatic Deprecation&quot;的模式。这样，如果一个
-用户注册了作品但不提供支持材料，其注册将在设定的固定时间后过期，在这种情况下，过期意味着该作品可以被另一个用户重新注册覆盖。</p>
-<h3 id="安全措施">安全措施</h3>
-<p>所有智能合约都已使用 Remix 和 Solhint 工具进行了代码检查，通过这两种工具检查常见的安全问题，如可重入性或时间戳依赖性等。</p>
-<p>SafeMath 库用于避免整数上溢和下溢问题。</p>
-<p>最后，Solhint 被设置为定义的连续集成和部署工作流中的一个步骤，这样，每次代码被推送到 GitHub 时，travis 都会运行所有的测试(对于合同和 Angular 前端)，如果所有测试都通过，则负责部署。</p>
-<p>此外，Solhint 工具也会在测试之前执行，用于跟踪任何可能出现的安全问题。</p>
-<h3 id="相关库">相关库</h3>
-<p>Uright 项目从 ZeppelinOS 和 OpenZeppelin 包中导入了一些库用于功能实现</p>
-<h4 id="zeppelinos">ZeppelinOS</h4>
-<ul>
-<li>AdminUpgradeabilityProxy: 实现智能合约的可升级性</li>
-<li>Initializable: 通过可升级的智能合约拓展实现代理的初始化</li>
-</ul>
-<h4 id="openzeppelin">OpenZeppelin</h4>
-<ul>
-<li>Pausable: 实现&quot;Circuit Breaker (断路器模式) / Emergency Stop&quot;设计模式，通过拓展 Ownable 以实现只有拥有者可以停止</li>
-<li>SafeMath: 用于避免整数上溢和下溢问题</li>
-<li>OraclizeAPI 包，usingOraclize，用于检验 YouTube 视频是否属于特定用户且绑定至版权作品</li>
-</ul>
-<h3 id="智能合约详解">智能合约详解</h3>
-<h4 id="manifestationssol">Manifestations.sol</h4>
-<p>此智能合约用于注册作品，通过将作品元数据（目前为标题）及内容的 IPFS 哈希值与作者身份（即以太坊账户地址）进行关联，以证明作品所有权，同一作品可声明为单人作者或联合作者。此外，如用一个已经注册的内容哈希重新注册新作品，系统会检测为失败。</p>
-<h4 id="uploadevidencessol">UploadEvidences.sol</h4>
-<p>此智能合约主要用于支持材料登记，通过将作品文件内容上传至 IPFS 文件系统进行证据登记。对于同一个作品，可以添加多个证据（但不能重复添加）。</p>
-<h4 id="expirablelibsol">ExpirableLib.sol</h4>
-<p>此智能合约主要用于管理作品创建和到期时间的项目逻辑，实现作品注册（或申诉）的时效性。</p>
-<h3 id="功能">功能</h3>
-<p>Uright ÐApp 通过 Web 客户端对音乐人和用户提供音乐版权管理服务</p>
-<ol>
-<li>版权注册：以作品文件生成唯一哈希值，将音乐人的作品注册上链，以此证明作品版权</li>
-</ol>
-<p><img src="https://image.pseudoyu.com/images/uright_register.png" alt="uright_register"></p>
-<ul>
-<li>注册从未注册的新作品</li>
-<li>注册已存在注册记录的作品并进行申诉</li>
-<li>添加支撑材料来证明作品版权</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/uright_evidence_upload.png" alt="uright_evidence_upload"></p>
-<p><img src="https://image.pseudoyu.com/images/uright_youtube_evidence.png" alt="uright_youtube_evidence"></p>
-<ol start="2">
-<li>版权检索：通过哈希值检查一个作品是否已被注册</li>
-</ol>
-<p><img src="https://image.pseudoyu.com/images/uright_music_search.png" alt="uright_music_search"></p>
-<ul>
-<li>我的：查找当前音乐人的所有注册作品</li>
-<li>版权库：查找链上所有已注册作品</li>
-<li>详细信息：单击“详细信息”查看详细信息，包括所有已上传证据</li>
-</ul>
-<p><img src="https://image.pseudoyu.com/images/uright_music_library.png" alt="uright_music_library"></p>
 ]]></content:encoded></item></channel></rss>
