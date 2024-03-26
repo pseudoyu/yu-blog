@@ -49,11 +49,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         15 hrs 49 mins ███████████▉░░░░░░░░░  57.0%
-YAML       3 hrs 29 mins  ██▋░░░░░░░░░░░░░░░░░░  12.6%
-Markdown   2 hrs 42 mins  ██░░░░░░░░░░░░░░░░░░░   9.8%
-TOML       1 hr 35 mins   █▏░░░░░░░░░░░░░░░░░░░   5.7%
-JSON       1 hr 26 mins   █░░░░░░░░░░░░░░░░░░░░   5.2%
+Go         11 hrs 32 mins ██████████▉░░░░░░░░░░  52.1%
+Markdown   4 hrs 53 mins  ████▋░░░░░░░░░░░░░░░░  22.1%
+YAML       3 hrs 15 mins  ███░░░░░░░░░░░░░░░░░░  14.7%
+JSON       48 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.7%
+Text       39 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.0%
 ```
 
 <!-- code_time ends -->
