@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 24 Mar 2024 05:20:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #55 - 油画体验、博客系统升级与对 self-hosting 的思考</title><link>https://www.pseudoyu.com/zh/2024/03/24/weekly_review_20240324/</link><pubDate>Sun, 24 Mar 2024 05:20:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/03/24/weekly_review_20240324/</guid><description>《Fix You - Coldplay》 前言 本篇是对 2024-03-17 到 2024-03-24 这周生活的记录与思考。 这周重拾了很多工作学习的热情，把 TODO 里列了很久的博客评论系统和数据统计系</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 31 Mar 2024 16:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #56 - 面基 Randy 与考科目二</title><link>https://www.pseudoyu.com/zh/2024/03/31/weekly_review_20240331/</link><pubDate>Sun, 31 Mar 2024 16:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/03/31/weekly_review_20240331/</guid><description>《Fix You - Coldplay》 前言 本篇是对 2024-03-25 到 2024-03-31 这周生活的记录与思考。 这周最开心的事就是见到了 Randy，追星成功，聊得很开心；因为不想影响</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/fix_you.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Fix You - Coldplay》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240331.png" alt="weekly_review_20240331"></p>
+<p>本篇是对 <code>2024-03-25</code> 到 <code>2024-03-31</code> 这周生活的记录与思考。</p>
+<p>这周最开心的事就是见到了 <a href="https://twitter.com/randyloop">Randy</a>，追星成功，聊得很开心；因为不想影响工作而连续四五天 5 点多起床出发去驾校练实车，痛苦但一次过了科目二，不亏；继续健身运动，整体身体状况还不错；筹备节后搬家回杭州的事宜，感觉可以更多参加疯狂星期四了；还有很多有意思的事。</p>
+<h2 id="面基-randy">面基 Randy</h2>
+<p><img src="https://image.pseudoyu.com/images/meet_with_randy.jpg" alt="meet_with_randy"></p>
+<p>之前好像有看到过一篇文章说，如果你喜欢一篇文章、一个开源产品或是什么，不要吝于言辞去表达自己的感谢和想法，也许仅仅是一句话就会对作者产生莫大的鼓励，所以其实我还挺喜欢和珍惜能够与屏幕对面的人面对面沟通的机会的。</p>
+<p>而在许久之前看到 Randy 在推上发了一条要来北京，可以找他约咖啡的<a href="https://twitter.com/randyloop/status/1764551037095223590">推文</a>，上次他去良渚玉鸟集疯狂星期四的时候我刚好不在杭州，一直很遗憾，但真的有了和偶像面对面的时候，却又有些犹疑，既有初次见面的紧张感，又担心没什么话可以聊而浪费了他的时间。</p>
+<p>我初次了解到 Randy 大概是 21 年，是在 <a href="https://frostming.com/">Frost</a> 写的「<a href="https://frostming.com/2021/04-28/self-host-comment-system/">自建、免费、开源的评论系统解决方案</a>」一文结尾提到了这一句：</p>
+<blockquote>
+<p>最后也推荐一下<a href="https://lutaonan.com/">作者的博客</a>，内容质量高，非常启发思考。</p>
+</blockquote>
+<p>当时初入技术领域，不认识什么开发者，对开源也没什么具体的概念，只是好奇这样一个小众精品的评论系统背后是一个怎样的人，于是点进去了。</p>
+<p>不知不觉就看完了所有的文章，可以说他符合了当时的我对即将成为的程序员这一群体的所有期待。</p>
+<p>他有技术理想和创造力，能够通过技术实现自己想做的事却又不拘于技术；对于生活有自己的见解和追求，代码之外有更多自己的兴趣爱好；乐于分享自己的思考，文字有真诚而具有感染力；不囿于世俗标准和所谓光环，本科退学、大厂裸辞。</p>
+<p>而彼时的我还未从香港毕业，即将开始求职面试，对即将到来的技术生涯期待却又迷茫，既担心自己是否能够在这条未知的路走下去，又担心自己会不会在繁重的工作下失去创造力和技术热情。可以说他让我看到了未来自己想成为的样子与可能性，也让我真正开始思考开源、分享和创造的真谛。</p>
+<p>而之后的我用了他的 Cusdis 评论系统，在他招募 v2 团队的时候也参与了一些微小的开发，第一次有了私聊沟通，得到了一些 code review 和代码指导；跟着他的视频通过 Logseq 搭建了自己的个人项目/知识管理系统；在他发布 <a href="https://notepal.randynamic.org/">notepal</a>、<a href="https://epubkit.app/">epubkit</a> 的时候都抢先体验和报一些小 bug；直到这次鼓起勇气去约见面。</p>
+<p><img src="https://image.pseudoyu.com/images/lego_hat.jpg" alt="lego_hat"></p>
+<p>见面之前想挑选一个礼物作为对他这一路以来对我的启发和帮助的感谢，最后选了哈利·波特分院帽的一款乐高和毛姆的一本「阅读是一座随身携带的避难所」小书。</p>
+<p>对于刚踏入代码这一“魔法”世界的我来说，前方有着无数的未知和选择，而他就像分院帽一样，让我听从内心的声音，坚定地选择了自己的路。</p>
+<p>见面后开心地聊了三个多小时。听到说他也常看我的周报，惊讶而欣喜；了解了他微软离职后的生活状态与所思所想，咨询了我对于工作规划、发展方向的一些困惑，碰撞了一些关于独立博客、前端学习、自媒体的一些想法，兴奋地计划了一些有意思的事，还有很多很多。</p>
+<p>三年前刚点开 Randy 博客主页的我一定不会想到有一天能和他在北京的一家咖啡厅里面对面畅谈，追星成功的喜悦之余，也感慨自己一路走来的起伏与变化，一切似乎都值得了。</p>
+<h2 id="考科目二">考科目二</h2>
+<p><img src="https://image.pseudoyu.com/images/kemu2_feichirensheng.jpg" alt="kemu2_feichirensheng"></p>
+<p>大四的时候曾在大学附近的一个驾校学过一段时间车，也考完了科目二，但是后续因为毕业、去香港读书和疫情等种种原因，一直拖到过期了。而当时烈日下练车的不好体验让我对学车这件事一直没什么热情，甚至还有些抵触。直到今年才下定决心开始。</p>
+<p>年前考完了科目一后又拖到了 3 月中旬才开始练车。报名了周四上午的科目二考试，经过了四次 VR 模拟练车后，这周连着三天五点多起床坐班车去驾校实车练习，早起的痛苦和飘忽不定的点位让焦虑在周三达到了峰值，抱着随缘的心态参加了一早的考试，但是满分一次通过了，开心！！！毕业已经有两年多了，感觉很久没体会过的“考试”所带来的压力与成就感在考驾照上倒是找回来了。</p>
+<p>不过由于上午学车，下午赶工作，第二天还得早起的魔鬼安排，在输入输出上本周有些难以顾及，希望下周的科三能顺利通过吧！</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/35781152/"><strong>红与黑</strong></a>，从一个视频看到的讲解，关于于连的自尊和因此表现出来的傲慢的描述印象很深，正在看。</li>
+<li><a href="https://book.douban.com/subject/34802764/"><strong>加缪手记</strong></a>，刚开始看。</li>
+</ul>
+<h4 id="收藏">收藏</h4>
+<ul>
+<li><a href="https://github.com/RSS3-Network/etherface">GitHub - RSS3-Network/etherface: Ethereum Signature Database</a></li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://nova.moe/crypto-simple-earn/">用 Grafana + InfluxDB 可视化 APR——Binance（币安）和欧易（OKX）简单赚币（理财）对比</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1x1421S7Y3">study vlog #49 | 越加班越想学习 | 程序员下班后的学习日常｜务必多多记录生活｜英语学习｜看完了《365 天的静心冥想》｜一些碎碎念</a></li>
+<li><a href="https://www.bilibili.com/video/BV1fq421A7aj">在世界的尽头，我们重新开始吧！</a></li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/35196946/"><strong>三体 第一季</strong></a>，我不算是三体的原著党，之前看腾讯出的国内版本观感上也没什么怨言，但依然对奈飞版本有挺高的期待，刚出来就花了几天刷完了，整体来说画面、剧情和节奏都还可以，但也没看到什么亮点，算是合格的会让人期待第二季的改编吧。</li>
+</ul>
+<h4 id="音乐">音乐</h4>
+<ul>
+<li><a href="https://open.spotify.com/track/6WY4wvlmgccWapnIg14Vy0"><strong>Merry Christmas Mr. Lawrence</strong></a> by Ryuichi Sakamoto</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #55 - 油画体验、博客系统升级与对 self-hosting 的思考</title><link>https://www.pseudoyu.com/zh/2024/03/24/weekly_review_20240324/</link><pubDate>Sun, 24 Mar 2024 05:20:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/03/24/weekly_review_20240324/</guid><description>《Fix You - Coldplay》 前言 本篇是对 2024-03-17 到 2024-03-24 这周生活的记录与思考。 这周重拾了很多工作学习的热情，把 TODO 里列了很久的博客评论系统和数据统计系</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/fix_you.mp3" type="audio/mpeg">
@@ -10771,186 +10834,6 @@
 <li><a href="https://github.com/pseudoyu/RedBlackTree-java">pseudoyu/RedBlackTree-Java</a></li>
 <li><a href="https://segmentfault.com/a/1190000016050921">以太坊源码分析 &ndash; MPT 树</a></li>
 <li><a href="https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie">ethereum/ethereumj</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>LeetCode 刷题常用数据结构（Go 篇）</title><link>https://www.pseudoyu.com/zh/2021/05/29/algorithm_data_structure_go/</link><pubDate>Sat, 29 May 2021 00:12:17 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2021/05/29/algorithm_data_structure_go/</guid><description>前言 最近重新开始用 Go 刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p>最近重新开始用 Go 刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。</p>
-<h2 id="数据结构">数据结构</h2>
-<h3 id="数组">数组</h3>
-<h4 id="初始化">初始化</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 初始化一个大小为10，默认值为0的数组
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">nums</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([</span><span class="mi">10</span><span class="p">]</span><span class="kt">int</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 初始化一个二位boolean数组
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">visited</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([</span><span class="mi">5</span><span class="p">][</span><span class="mi">10</span><span class="p">]</span><span class="kt">int</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="常用方法">常用方法</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="nx">nums</span><span class="p">);</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 访问num[i]
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
-</span></span></code></pre></div><h3 id="字符串-string">字符串 String</h3>
-<h4 id="初始化-1">初始化</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">s1</span> <span class="o">:=</span> <span class="s">&#34;hello world&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 创建多行字符串
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">s2</span> <span class="o">:=</span> <span class="s">`This is a
-</span></span></span><span class="line"><span class="cl"><span class="s">multiline
-</span></span></span><span class="line"><span class="cl"><span class="s">string.`</span>
-</span></span></code></pre></div><h4 id="访问字符串">访问字符串</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 可直接用索引访问字节（非字符）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">s1</span> <span class="o">:=</span> <span class="s">&#34;hello world&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">first</span> <span class="o">:=</span> <span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">s2</span> <span class="o">:=</span> <span class="p">[]</span><span class="nb">byte</span><span class="p">(</span><span class="nx">s1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">first</span> <span class="o">:=</span> <span class="nx">s2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</span></span></code></pre></div><h4 id="修改字符串">修改字符串</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 字符串的值是不可变的，可以分配一个新字符串值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">s</span> <span class="o">:=</span> <span class="s">&#34;hello&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">t</span> <span class="o">:=</span> <span class="nx">s</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 将字符串转为[]byte或[]rune可以进行修改
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">s1</span> <span class="o">:=</span> <span class="s">&#34;hello world&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">s2</span> <span class="o">:=</span> <span class="p">[]</span><span class="nb">byte</span><span class="p">(</span><span class="nx">s1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">s2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">=</span> <span class="sc">&#39;H&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">s3</span> <span class="o">:=</span> <span class="nb">string</span><span class="p">(</span><span class="nx">s2</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="查询字符是否属于特定字符集">查询字符是否属于特定字符集</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">    <span class="c1">// 判断字符串s的i索引位置字符是否是元音
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Contains</span><span class="p">(</span><span class="s">&#34;aeiouAEIOU&#34;</span><span class="p">,</span> <span class="nb">string</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="nx">i</span><span class="p">]))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// ...
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
-</span></span></code></pre></div><h4 id="判断字符串大小">判断字符串大小</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="k">if</span> <span class="nx">s1</span> <span class="o">==</span> <span class="nx">s2</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 相等
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 不相等
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Compare 函数可以用于比较，1大于，0相等，-1小于
-</span></span></span><span class="line"><span class="cl"><span class="c1">// EqualFold 函数忽略大小写后比较
-</span></span></span></code></pre></div><h4 id="拼接字符串">拼接字符串</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 支持直接用+进行连接，但是效率不高
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">s1</span> <span class="o">:=</span> <span class="s">&#34;hello &#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">s2</span> <span class="o">:=</span> <span class="nx">s1</span> <span class="o">+</span> <span class="s">&#34;world&#34;</span>
-</span></span></code></pre></div><h4 id="高效拼接字符串">高效拼接字符串</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// bytes.Buffer可以一次性连接
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">var</span> <span class="nx">b</span> <span class="nx">bytes</span><span class="p">.</span><span class="nx">Buffer</span>
-</span></span><span class="line"><span class="cl"><span class="nx">b</span><span class="p">.</span><span class="nf">WriteString</span><span class="p">(</span><span class="s">&#34;Hello &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">b</span><span class="p">.</span><span class="nf">WriteString</span><span class="p">(</span><span class="s">&#34;World&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">b1</span> <span class="o">:=</span> <span class="nx">b</span><span class="p">.</span><span class="nf">String</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 多个字符串拼接
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">var</span> <span class="nx">strs</span> <span class="p">[]</span><span class="kt">string</span>
-</span></span><span class="line"><span class="cl"><span class="nx">strings</span><span class="p">.</span><span class="nf">Join</span><span class="p">(</span><span class="nx">strs</span><span class="p">,</span> <span class="s">&#34;World&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="整型-或任意数据类型-转为字符串">整型 (或任意数据类型) 转为字符串</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// Itoa转换
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">i</span> <span class="o">:=</span> <span class="mi">123</span>
-</span></span><span class="line"><span class="cl"><span class="nx">t</span> <span class="o">:=</span> <span class="nx">strconv</span><span class="p">.</span><span class="nf">Itoa</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Sprintf转换
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">i</span> <span class="o">:=</span> <span class="mi">123</span>
-</span></span><span class="line"><span class="cl"><span class="nx">t</span> <span class="o">:=</span> <span class="nx">fmt</span><span class="p">.</span><span class="nf">Sprintf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
-</span></span></code></pre></div><h3 id="切片-slice">切片 slice</h3>
-<h4 id="初始化-2">初始化</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 初始化一个存储String类型的切片
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">slice</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">string</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">slice</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">string</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 初始化一个存储int类型的切片
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">slice</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">slice</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span>
-</span></span></code></pre></div><h4 id="常用方法-1">常用方法</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 判断是否为空
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nx">slice</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 为空
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 返回元素个数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">len</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 访问索引元素
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">slice</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 在尾部添加元素
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">slice</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">slice</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-</span></span></code></pre></div><h3 id="通过切片模拟栈和队列">通过切片模拟栈和队列</h3>
-<h4 id="栈">栈</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 创建栈
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">stack</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// push压入
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">stack</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">stack</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// pop弹出
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">v</span> <span class="o">:=</span> <span class="nx">stack</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">stack</span> <span class="p">=</span> <span class="nx">stack</span><span class="p">[:</span><span class="nb">len</span><span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 检查栈空
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">len</span><span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span>
-</span></span></code></pre></div><h4 id="队列">队列</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 创建队列
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">queue</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// enqueue入队
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">queue</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">queue</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// dequeue出队
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">v</span> <span class="o">:=</span> <span class="nx">queue</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">queue</span> <span class="p">=</span> <span class="nx">queue</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 长度0为空
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">len</span><span class="p">(</span><span class="nx">queue</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span>
-</span></span></code></pre></div><h3 id="map">Map</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 创建
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">m</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 设置kv
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">m</span><span class="p">[</span><span class="s">&#34;hello&#34;</span><span class="p">]</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 删除k
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">delete</span><span class="p">(</span><span class="nx">m</span><span class="p">,</span><span class="s">&#34;hello&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 遍历
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">for</span> <span class="nx">k</span><span class="p">,</span> <span class="nx">v</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">m</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 操作
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// map键需要可比较，不能为slice、map、function
-</span></span></span><span class="line"><span class="cl"><span class="c1">// map值都有默认值，可以直接操作默认值，如：m[age]++ 值由0变为1
-</span></span></span><span class="line"><span class="cl"><span class="c1">// 比较两个map需要遍历，其中的kv是否相同，因为有默认值关系，所以需要检查val和ok两个值
-</span></span></span></code></pre></div><h3 id="标准库">标准库</h3>
-<h4 id="sort">sort</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// int排序
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">sort</span><span class="p">.</span><span class="nf">Ints</span><span class="p">([]</span><span class="kt">int</span><span class="p">{})</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 字符串排序
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">sort</span><span class="p">.</span><span class="nf">Strings</span><span class="p">([]</span><span class="kt">string</span><span class="p">{})</span>
-</span></span></code></pre></div><h4 id="math">math</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// int32 最大最小值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">math</span><span class="p">.</span><span class="nx">MaxInt32</span>
-</span></span><span class="line"><span class="cl"><span class="nx">math</span><span class="p">.</span><span class="nx">MinInt32</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// int64 最大最小值（int默认是int64）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">math</span><span class="p">.</span><span class="nx">MaxInt64</span>
-</span></span><span class="line"><span class="cl"><span class="nx">math</span><span class="p">.</span><span class="nx">MinInt64</span>
-</span></span></code></pre></div><h4 id="copy">copy</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 删除a[i]，可以用 copy 将i+1到末尾的值覆盖到i,然后末尾-1
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">copy</span><span class="p">(</span><span class="nx">a</span><span class="p">[</span><span class="nx">i</span><span class="p">:],</span> <span class="nx">a</span><span class="p">[</span><span class="nx">i</span><span class="o">+</span><span class="mi">1</span><span class="p">:])</span>
-</span></span><span class="line"><span class="cl"><span class="nx">a</span> <span class="p">=</span> <span class="nx">a</span><span class="p">[:</span><span class="nb">len</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// make创建长度，则通过索引赋值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">a</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="nx">n</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">a</span><span class="p">[</span><span class="nx">n</span><span class="p">]</span> <span class="p">=</span> <span class="nx">x</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// make长度为0，则通过append()赋值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">a</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">a</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">x</span><span class="p">)</span>
-</span></span></code></pre></div><h3 id="类型转换">类型转换</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// byte转数字
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">s</span> <span class="p">=</span> <span class="s">&#34;12345&#34;</span>  <span class="c1">// s[0] 类型是byte
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">num</span> <span class="o">:=</span> <span class="nb">int</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="sc">&#39;0&#39;</span><span class="p">)</span> <span class="c1">// 1
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">str</span> <span class="o">:=</span> <span class="nb">string</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1">// &#34;1&#34;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">b</span> <span class="o">:=</span> <span class="nb">byte</span><span class="p">(</span><span class="nx">num</span> <span class="o">+</span> <span class="sc">&#39;0&#39;</span><span class="p">)</span> <span class="c1">// &#39;1&#39;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%d%s%c\n&#34;</span><span class="p">,</span> <span class="nx">num</span><span class="p">,</span> <span class="nx">str</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="c1">// 111
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// 字符串转数字
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">num</span><span class="p">,</span> <span class="nx">_</span> <span class="o">:=</span> <span class="nx">strconv</span><span class="p">.</span><span class="nf">Atoi</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="nx">str</span> <span class="o">:=</span> <span class="nx">strconv</span><span class="p">.</span><span class="nf">Itoa</span><span class="p">()</span>
-</span></span></code></pre></div><h2 id="总结">总结</h2>
-<p>刷题路漫漫&hellip;加油！</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://leetcode.com">LeetCode 官网</a></li>
-<li><a href="https://github.com/greyireland/algorithm-pattern">greyireland/algorithm-pattern</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
