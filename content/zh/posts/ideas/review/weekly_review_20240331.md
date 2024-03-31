@@ -2,7 +2,7 @@
 title: "周报 #56 - 面基 Randy 与考科目二"
 date: 2024-03-31T16:30:00+08:00
 draft: false
-tags: ["review", "life", "painting", "blog", "cusdis", "remark42", "goatcounter", "self-hosting", "flyio"]
+tags: ["review", "life", "randy", "blog", "cusdis", "programmer"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
