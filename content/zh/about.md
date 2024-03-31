@@ -39,10 +39,10 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/35196946/' target='_blank'>看过三体 第一季</a> - 2024-03-31
 * <a href='https://book.douban.com/subject/26892084/' target='_blank'>想读降临</a> - 2024-03-24
 * <a href='http://movie.douban.com/subject/35575567/' target='_blank'>想看沙丘2</a> - 2024-03-24
 * <a href='http://movie.douban.com/subject/3001114/' target='_blank'>想看沙丘</a> - 2024-03-24
-* <a href='http://movie.douban.com/subject/35196946/' target='_blank'>在看三体 第一季</a> - 2024-03-22
 * <a href='https://book.douban.com/subject/34802764/' target='_blank'>最近在读加缪手记</a> - 2024-03-20
 <!-- douban ends -->
 
