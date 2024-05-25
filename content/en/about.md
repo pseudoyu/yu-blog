@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/35171215/' target='_blank'>最近在读虫子旁</a> - 2024-05-25
+* <a href='http://movie.douban.com/subject/26689409/' target='_blank'>看过我的家里空无一物</a> - 2024-05-25
+* <a href='https://book.douban.com/subject/30144095/' target='_blank'>读过海边的卡夫卡</a> - 2024-05-25
+* <a href='http://movie.douban.com/subject/25777620/' target='_blank'>想看天才：游戏的法则</a> - 2024-05-24
 * <a href='http://movie.douban.com/subject/34937650/' target='_blank'>在看庆余年 第二季</a> - 2024-05-16
-* <a href='http://movie.douban.com/subject/26689409/' target='_blank'>在看我的家里空无一物</a> - 2024-05-07
-* <a href='https://book.douban.com/subject/26677130/' target='_blank'>读过弗兰克尔自传</a> - 2024-05-03
-* <a href='https://book.douban.com/subject/30144095/' target='_blank'>最近在读海边的卡夫卡</a> - 2024-05-03
-* <a href='http://movie.douban.com/subject/35575567/' target='_blank'>看过沙丘2</a> - 2024-04-27
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-TypeScript 11 hrs 45 mins ████████▋░░░░░░░░░░░░  41.2%
-Go         5 hrs 12 mins  ███▊░░░░░░░░░░░░░░░░░  18.3%
-YAML       4 hrs 53 mins  ███▌░░░░░░░░░░░░░░░░░  17.1%
-AsciiDoc   3 hrs 18 mins  ██▍░░░░░░░░░░░░░░░░░░  11.6%
-JSON       1 hr 20 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.7%
+TypeScript 11 hrs 24 mins █████████▊░░░░░░░░░░░  47.0%
+Go         4 hrs 47 mins  ████▏░░░░░░░░░░░░░░░░  19.8%
+AsciiDoc   3 hrs 18 mins  ██▊░░░░░░░░░░░░░░░░░░  13.6%
+YAML       2 hrs 31 mins  ██▏░░░░░░░░░░░░░░░░░░  10.4%
+JSON       1 hr 22 mins   █▏░░░░░░░░░░░░░░░░░░░   5.7%
 ```
 
 <!-- code_time ends -->
