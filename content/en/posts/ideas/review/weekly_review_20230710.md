@@ -64,7 +64,7 @@ authors:
 
 我想，这大概就是我此刻的想法吧。
 
-![weibo_about_boyi_when_we_meet](https://image.pseudoyu.com/images/weibo_about_boyi_when_we_meet.png)
+![weibo_about_boyi_when_we_meet_new](https://image.pseudoyu.com/images/weibo_about_boyi_when_we_meet_new.png)
 
 想起当初刚认识不久却要送别她离开时发的一条微博，明明自己不算是那么善于面对面跟他人表达自己心绪的这样一个人，却很真切地记得在那个暴雨的夜晚自己被学姐的话戳中而慌忙转头掩饰泪水的瞬间，这几句话也记了许多年。大概那一刻的自己感受到了共鸣的部分的，同样地四处漂泊，同样地故作坚强与洒脱，却又被一些小到不能再小的事而触动，不知所措。
 
