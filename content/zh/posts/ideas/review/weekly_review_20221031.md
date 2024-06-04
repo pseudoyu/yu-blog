@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_1031_photo](https://image.pseudoyu.com/images/weekly_review_1031_photo.png)
-
 本篇是对 `2022-10-28` 到 `2022-10-31` 这周生活的记录与思考。
 
 因为上一篇周报很晚才更新，所以这期在时间跨度上显得尤为短暂，但却也因生活中迎来的一个重大改变而别具意义。

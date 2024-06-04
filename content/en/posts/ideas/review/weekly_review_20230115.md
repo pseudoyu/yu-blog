@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230115_photo](https://image.pseudoyu.com/images/weekly_review_20230115_photo.png)
-
 本篇是对 `2023-01-10` 到 `2023-01-15` 这周生活的记录与思考。
 
 已经临近假期，虽然也算不上对过年有着多少仪式感。去年的那段时间花了一周多的时间通了『宝可梦 阿尔宙斯』和重温了『火焰之纹章 风花雪月』，过年当天煮了火锅并跟家里人视频通话了，似乎年就这样过去了。但由于今年决定了要回家，有寄养捏捏以及过年期间各种安排的事，倒是没能多放松，想把很多事提前做完，能匀出一些时间好好陪家人了。
@@ -40,7 +38,7 @@ authors:
 
 ![pagefind_and_hugo_2](https://image.pseudoyu.com/images/pagefind_and_hugo_2.png)
 
-它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu) 的这一篇『[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过[这个网址](https://www.pseudoyu.com/en/search)体验一下，或者点击导航栏的『Search』（加上了回到顶部功能，可以直接点击返回）。
+它采用了将文章索引文件预先生成而不是实时检索的方案，速度很快，也不需要额外的后端服务，很适合静态博客的部署方案。关于 Pagefind 的介绍和使用可以看看 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu) 的这一篇『[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)』，但是是集成进 Zola 博客框架并通过 Netlify 发布的，原理差不多。关于 Hugo 的集成方式我折腾配置一下再出一篇文章吧，可以预先通过[这个网址](https://www.pseudoyu.com/en/search)体验一下，或者点击导航栏的『搜索』（加上了回到顶部功能，可以直接点击返回）。
 
 我将它结合进了我原本的 GitHub CI 自动发布流，体验很无缝，并且通过 Hugo 的 shortcode 的方式集成一个搜索页面 UI 来供使用，很强大，也会向主题仓库提一下 pr 支持，看看这一块有没有需求。
 

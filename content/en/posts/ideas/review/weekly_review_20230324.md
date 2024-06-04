@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230324](https://image.pseudoyu.com/images/weekly_review_20230324.png)
-
 本篇是对 `2023-03-14` 到 `2023-03-23` 这周生活的记录与思考。
 
 ~~要不是因为 xLog 的激励差点就打算鸽了这篇周报了。~~

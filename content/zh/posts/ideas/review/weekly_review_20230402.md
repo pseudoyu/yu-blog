@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230402_cover](https://image.pseudoyu.com/images/weekly_review_20230402_cover.png)
-
 本篇是对 `2023-03-25` 到 `2023-04-02` 这周生活的记录与思考。
 
 万万没想到作为一个在杭州生活了十几年的南方人，居然会在重新回到杭州生活的时候经受严重的水土不服。

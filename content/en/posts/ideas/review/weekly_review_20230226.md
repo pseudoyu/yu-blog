@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230226](https://image.pseudoyu.com/images/weekly_review_20230226.png)
-
 本篇是对 `2023-02-21` 到 `2023-02-26` 这周生活的记录与思考。
 
 这一周工作上比较日常，并没有太紧急的任务，由于一些自己的事而处于有些紧绷的状态，但焦虑感和低迷的情绪却少了很多，大概有一种一切都在正轨上的感觉了吧。
@@ -38,7 +36,7 @@ authors:
 
 ## 久别重逢与流动的心绪
 
-曾经在『[周报 #09 - 没有色彩的 Yu 和他的巡礼之年](https://www.pseudoyu.com/zh/2022/08/29/weekly_review_20220829/)』这一篇文章中有提到过这样一群人：
+曾经在『[周报 #09 - 没有色彩的 Yu 和他的巡礼之年](https://www.pseudoyu.com/en/2022/08/29/weekly_review_20220829/)』这一篇文章中有提到过这样一群人：
 
 ![four_people_relationship](https://image.pseudoyu.com/images/four_people_relationship.png)
 

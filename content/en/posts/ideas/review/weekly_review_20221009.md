@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_1009_photo](https://image.pseudoyu.com/images/weekly_review_1009_photo.png)
-
 本篇是对 `2022-09-27` 到 `2022-10-09` 这周生活的记录与思考。
 
 这是一篇跨度很长的周报了，缘由是我自 9.29 日早晨就提前调休回了杭州，接着国庆假期，又凑了个小长假，那一周主要也是加班与回家的行程，便干脆合并为一篇了。

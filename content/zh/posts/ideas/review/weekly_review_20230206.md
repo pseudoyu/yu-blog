@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230206_photo](https://image.pseudoyu.com/images/weekly_review_20230206_photo.png)
-
 本篇是对 `2023-02-01` 到 `2023-02-06` 这周生活的记录与思考。
 
 是上班的第一周，因为过年期间也有在做一些工作，所以倒不是不适应工作节奏，只是常常没办法自由地做自己的事，顿时觉得时间紧迫了起来。

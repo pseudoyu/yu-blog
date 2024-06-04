@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230307](https://image.pseudoyu.com/images/weekly_review_20230307.png)
-
 本篇是对 `2023-02-27` 到 `2023-03-07` 这周生活的记录与思考。
 
 这一周生活发生了挺大的变动，也出于一些原因即将离开北京，有很多事需要额外处理所以不管是 Twitter 还是 Telegram 频道都很少更新，连 GitHub 都久违地出现了大段的空白格。

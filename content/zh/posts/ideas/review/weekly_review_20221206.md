@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_1206_photo](https://image.pseudoyu.com/images/weekly_review_1206_photo.png)
-
 本篇是对 `2022-11-28` 到 `2022-12-06` 这周生活的记录与思考。
 
 都说 21 天可以养成一个习惯，然而到了第 21 篇周报，却依然没能如期更新，每周都是花式拖更理由了。

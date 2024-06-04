@@ -12,8 +12,6 @@ authors:
 
 ## 前言
 
-![weekly_review_20230109_photo](https://image.pseudoyu.com/images/weekly_review_20230109_photo.png)
-
 本篇是对 `2023-01-01` 到 `2023-01-09` 这周生活的记录与思考。
 
 这是 2023 年的第一篇周报，明明感觉跨年似乎还在昨天，一月上旬却已然结束，大概是心理上对于时间的感知愈加迟钝了吧。
