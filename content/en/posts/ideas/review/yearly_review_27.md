@@ -8,6 +8,8 @@ authors:
 - "pseudoyu"
 ---
 
+{{<audio src="audios/1988.mp3" caption="《请回答 1988 OST》" >}}
+
 ## 前言
 
 ![yearly_review_27](https://image.pseudoyu.com/images/yearly_review_27.png)
