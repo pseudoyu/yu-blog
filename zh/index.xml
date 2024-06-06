@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 02 Jun 2024 16:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #60 - 虫子旁、教育理念与 EpubKit</title><link>https://www.pseudoyu.com/zh/2024/06/02/weekly_review_20240602/</link><pubDate>Sun, 02 Jun 2024 16:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/06/02/weekly_review_20240602/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-05-16 到 2024-06-02 这两周生活的记录与思考。 南京游学 在北京曾看过几次一席的演讲，对他们的风格调性还算</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Thu, 06 Jun 2024 19:42:26 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>27 岁的自白：成长是一件很扫兴的事</title><link>https://www.pseudoyu.com/zh/2024/06/06/yearly_review_27/</link><pubDate>Thu, 06 Jun 2024 19:42:26 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/06/06/yearly_review_27/</guid><description>前言 现在是 2024 年 6 月 6 日，我 27 岁了。 周报的想法就是在前年的生日这天萌生的，在去年的总结里也说过这是个一直想坚持下去的栏目和仪式感，如约而至。 第</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/yearly_review_27.png" alt="yearly_review_27"></p>
+<p>现在是 2024 年 6 月 6 日，我 27 岁了。</p>
+<p>周报的想法就是在前年的生日这天萌生的，在去年的总结里也说过这是个一直想坚持下去的栏目和仪式感，如约而至。</p>
+<p>第一年写了 40 篇周报，而去年只有 20 篇了，减少的不仅仅是数量，还有自己的思考、情绪与表达欲。我常常说周报是自己生活和表达欲的载体，当自己生活一团糟的时候是没办法好好写些什么的，但似乎这一年这样“状态不好”的时候未免太多了些，或者换句话说，我对这样的自己太过纵容了些，这很可怕。</p>
+<p>原以为长大后的一年一年不会再像刚毕业时那样有那么多的变动，甚至做好了准备接受生活终究会归于平淡，但站在此刻回顾这一整年，依然发生了许多事。</p>
+<h2 id="月亮与六便士">月亮与六便士</h2>
+<p>学姐曾有一段时间赶在工作日的午后挤出时间去画室画画，连续几天遇到两位学员专注而又放松地闲谈着、画着，略感羡慕，问她们能够在工作日的下午尽情画画的秘诀是什么，一位耸了耸肩说“忍受贫穷就好了呀”。</p>
+<p>似乎人是没有办法在抬头看着月亮的时候同时捡拾硬币的。</p>
+<p>但或许因为我在成长过程中有几分幸运地常常被周遭的人保护着，所以一直个理想化的人，一直追求的似乎并不是工作的 title 或是收入，而更像是一个能够让我继续做喜欢的事的环境和氛围，是一群可以真诚相待共同成长的同路人。</p>
+<p>也很厌弃所谓的职场文化，在上一份工作中就会因不合理的甲方需求与擅于推委责任的项目经理而在全员大会里并不“圆滑”地直接表达不满。许多已是“过来人”的前辈和朋友跟我聊完后常常会提醒我有一些提防之心或是放下这些并不切实际的执念，劝我早些抓住那些更加具象化的看得见的利益，我明白，也知道这有用，但无法说服自己做到。</p>
+<p><img src="https://image.pseudoyu.com/images/rss3_2024_annual.jpg" alt="rss3_2024_annual"></p>
+<p>很幸运，我追求的一切在 RSS3，在我现在的组里随处可见。</p>
+<p>去年生日后不久，在这里转正答辩成功，正如在之前的一篇「<a href="https://www.pseudoyu.com/zh/2024/04/30/weekly_review_20240430/">周报 #58 - 远程工作这一年</a>」中所述，工作本身有忙碌有闲暇，起起伏伏，不知不觉已经度过了一年了，也期待一起走得更远。</p>
+<h2 id="小王子与他的玫瑰花">小王子与他的玫瑰花</h2>
+<p>同样是去年生日后不久，我恋爱了（参看「<a href="https://www.pseudoyu.com/zh/2023/07/10/weekly_review_20230710/">周报 #43 - In the Mood for Love</a>」），距今也已经一年了，就像小王子与玫瑰花一样，彼此倾注了时间，也让对方变得更为重要。</p>
+<p><img src="https://image.pseudoyu.com/images/rss3_huddle_share.png" alt="rss3_huddle_share"></p>
+<p>前几天公司里刚好有一个内部分享会，我没选自己更擅长的工具使用或是写作经验之类的话题，而是分享了一个更私人的话题 —— 姐弟恋，才发现，似乎与她有关的一切，才是我分享欲的来源。</p>
+<p>这一年里，我们一起去过了很多地方，见过巴厘岛的海浪，骑过内蒙沙漠的骆驼，在北京的啤酒节蹦过迪，在南京的汤山泡过汤，在阿那亚的沙滩前赤脚跑着笑着，也在杭州的小河边缓缓漫步；也一起学过很多东西，凛冽的冬日六七点起床去上私教课、第一次学拳击、第一次画油画、第一次冲浪&hellip;</p>
+<p>这一年所经历的正像是很喜欢的鲁米的一首诗中所描述的那样：</p>
+<blockquote>
+<p>我所问出的问题都关于你，</p>
+<p>我所踏出的每步都指向你。</p>
+<p>处处皆是你，</p>
+<p>声音所至，目光所及。</p>
+</blockquote>
+<h2 id="成长是一件很扫兴的事">成长是一件很扫兴的事</h2>
+<p>似乎从世俗的角度来说，一切都进展得还算顺利，工作、恋爱和生活这几项人类被赋予的大的命题似乎都在按部就班甚至过于顺利地进行着，我们作为社会、家庭的的一员似乎也都在履行自己的责任，人越长大，似乎对待这个世界越来越温和，却对自己越来越忽视。</p>
+<blockquote>
+<p>“I&rsquo;m in Kernel Panic。”</p>
+</blockquote>
+<p>这是我的微信签名，挂了很久很久了，是对自己的警醒，而如今恐慌的缘由依然存在，生活依然存在着许多事与愿违，不论是向内观还是向外求也依然与理想中的自己相距甚远，但似乎我已经与这个世界和解了，或者说是妥协了，让步给了生活中更朴实而具体的东西，比如亲情，比如社交。</p>
+<p>在和学姐去内蒙接连几天见各类亲戚把酒言欢、觥筹交错时，我们都开始怀念几年前的自己，那时的我们都能够有那么多的时间看想看的书、学想学的东西，成为想成为的人，而不是作为一个社会和家庭的符号桎梏在这里。如今，其实我们索求的东西没有变，学姐依然想去一个远离人群的地方画画，我依然想宅在家里学习新的技术或是开发喜欢的产品，但我们都学会了怎么地扮演一个“好”的社会人，却忘记了如何扮演“自己”。</p>
+<p>意识到这种变化的时候其实有一点难过，并不是难过自己变了，而是难过这才是成长，是家人朋友口中的”你成熟多了“，而成长，本来就是一件很扫兴的事。</p>
+<h2 id="其他">其他</h2>
+<p><img src="https://image.pseudoyu.com/images/birthday_from_strangers.png" alt="birthday_from_strangers"></p>
+<p>但依然很感谢在过去的这一年里即使我不再周更还依然关心和关注我的人，甚至今天一早醒来还收到了一位陌生新读者的祝福，字不多，却温暖而感动。</p>
+<p>成长确实是一件很扫兴的事，但我依然愿意用周报留下曾经这些非黑即白的、从不妥协的日子，也感谢这些时光中陪伴着我的你们。</p>
+<p>祝 27 岁的自己，快乐。</p>
+<h2 id="特别活动">特别活动</h2>
+<p>用博客来记录生活两年了，留下了许多记忆，也幸运地结识了你们，会在本篇博客的留言中选取 6 位朋友，送上我准备的小礼物，祝愿你们也能够一直快乐。</p>
+<p>抽签会持续到 UTC +8 时间 6 月 10 日晚上 23:59 分，结果会在 Telegram Channel 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 中公布，也会在中选的留言评论中回复，到时候会联系你们，再次感谢大家的陪伴。</p>
+]]></content:encoded></item><item><title>周报 #60 - 虫子旁、教育理念与 EpubKit</title><link>https://www.pseudoyu.com/zh/2024/06/02/weekly_review_20240602/</link><pubDate>Sun, 02 Jun 2024 16:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/06/02/weekly_review_20240602/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-05-16 到 2024-06-02 这两周生活的记录与思考。 南京游学 在北京曾看过几次一席的演讲，对他们的风格调性还算</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -10465,151 +10507,6 @@
 <li><a href="https://www.pseudoyu.com/zh/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/">Hyperledger Fabric Go SDK 事件分析</a></li>
 <li><a href="https://meshplus.github.io/bitxhub/bitxhub/introduction/summary/">BitXHub Document</a></li>
 <li><a href="https://tech.hyperchain.cn/bitxhub-design-thinking/">十问 BitXHub:谈谈跨链平台的架构设计</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>[译] Go sync.Once 的妙用</title><link>https://www.pseudoyu.com/zh/2021/09/02/go_concurrency_sync_once/</link><pubDate>Thu, 02 Sep 2021 13:31:25 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2021/09/02/go_concurrency_sync_once/</guid><description>前言 如果你曾用过 Go 中的 goroutines，你也许会遇到几个并发原语，如 sync.Mutex, sync.WaitGroup 或是 sync.Map，但是你听说过 sync.Once 么？ 也许你听说过，那 go 文档是</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p>如果你曾用过 Go 中的 goroutines，你也许会遇到几个并发原语，如 <code>sync.Mutex</code>, <code>sync.WaitGroup</code> 或是 <code>sync.Map</code>，但是你听说过 <code>sync.Once</code> 么？</p>
-<p>也许你听说过，那 go 文档是怎么描述它的呢？</p>
-<blockquote>
-<p>Once 是只执行一个操作的对象。</p>
-</blockquote>
-<p>听起来很简单，它有什么用处呢？</p>
-<p>由于某些原因，<code>sync.Once</code> 的用法并没有很好的文档记录。在第一个<code>.Do</code>中的操作执行完成前，将一直处于等待状态，这使得在执行较昂贵的操作（通常缓存在 map 中）时非常有用。</p>
-<h2 id="原生缓存方式">原生缓存方式</h2>
-<p>假设你有一个热门的网站，但它的后端 API 访问不是很快，因此你决定将 API 结果通过 map 缓存在内存中。以下是一个基本的解决方案：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">QueryClient</span> <span class="kd">struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">cache</span> <span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">][]</span><span class="kt">byte</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mutex</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">c</span> <span class="o">*</span><span class="nx">QueryClient</span><span class="p">)</span> <span class="nf">DoQuery</span><span class="p">(</span><span class="nx">name</span> <span class="kt">string</span><span class="p">)</span> <span class="p">[]</span><span class="kt">byte</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 检查结果是否已缓存
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nx">cached</span><span class="p">,</span> <span class="nx">found</span> <span class="o">:=</span> <span class="nx">c</span><span class="p">.</span><span class="nx">cache</span><span class="p">[</span><span class="nx">name</span><span class="p">];</span> <span class="nx">found</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">cached</span><span class="p">,</span> <span class="kc">nil</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 如果未缓存则发出请求
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">resp</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">http</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;https://upstream.api/?query=&#34;</span> <span class="o">+</span> <span class="nx">url</span><span class="p">.</span><span class="nf">QueryEscape</span><span class="p">(</span><span class="nx">name</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 为简洁起见，省略了错误处理和 resp.Body.Close
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">result</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">ioutil</span><span class="p">.</span><span class="nf">ReadAll</span><span class="p">(</span><span class="nx">resp</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 将结果存储在缓存中
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">cache</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="p">=</span> <span class="nx">result</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">result</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>看起来不错，对吧？</p>
-<p>然而，如果有两个 <code>DoQuery</code> 同时进行调用会发生什么呢？竞争。两方缓存都无法命中，并且都会向 <code>upstream.api</code> 执行不必要的 HTTP 请求，而只有一个需要完成这个请求。</p>
-<h2 id="不美观但更好的缓存方式">不美观但更好的缓存方式</h2>
-<p>我并没有进行统计，但我认为大家解决这个问题的另外一种方式是使用 channel、context 或 mutex。在这个例子中，可以将上文代码调整为：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">CacheEntry</span> <span class="kd">struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">data</span> <span class="p">[]</span><span class="kt">byte</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">wait</span> <span class="o">&lt;-</span><span class="kd">chan</span> <span class="kd">struct</span><span class="p">{}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">QueryClient</span> <span class="kd">struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">cache</span> <span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="o">*</span><span class="nx">CacheEntry</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mutex</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">c</span> <span class="o">*</span><span class="nx">QueryClient</span><span class="p">)</span> <span class="nf">DoQuery</span><span class="p">(</span><span class="nx">name</span> <span class="kt">string</span><span class="p">)</span> <span class="p">[]</span><span class="kt">byte</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 检查操作是否已启动
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nx">cached</span><span class="p">,</span> <span class="nx">found</span> <span class="o">:=</span> <span class="nx">c</span><span class="p">.</span><span class="nx">cache</span><span class="p">[</span><span class="nx">name</span><span class="p">];</span> <span class="nx">found</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// 等待完成
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="o">&lt;-</span><span class="nx">cached</span><span class="p">.</span><span class="nx">wait</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">cached</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="kc">nil</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nx">entry</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">CacheEntry</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">data</span><span class="p">:</span> <span class="nx">result</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">wait</span><span class="p">:</span> <span class="nb">make</span><span class="p">(</span><span class="kd">chan</span> <span class="kd">struct</span><span class="p">{}),</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">cache</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="p">=</span> <span class="nx">entry</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 如果未缓存，则发出请求
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">resp</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">http</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;https://upstream.api/?query=&#34;</span> <span class="o">+</span> <span class="nx">url</span><span class="p">.</span><span class="nf">QueryEscape</span><span class="p">(</span><span class="nx">name</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 为简洁起见，省略了错误处理和 resp.Body.Close
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">entry</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">ioutil</span><span class="p">.</span><span class="nf">ReadAll</span><span class="p">(</span><span class="nx">resp</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 关闭 channel，传递操作完成信号
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// 立即返回
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nb">close</span><span class="p">(</span><span class="nx">entry</span><span class="p">.</span><span class="nx">wait</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">data</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>这种方案不错，但代码的可读性受到了很大影响。<code>cached.wait</code> 进行了哪些操作不是很清晰，在不同情况下的操作流也并不直观。</p>
-<h2 id="使用-synconce">使用 <code>sync.Once</code></h2>
-<p>我们来尝试一下使用 <code>sync.Once</code> 方案：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">CacheEntry</span> <span class="kd">struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">data</span> <span class="p">[]</span><span class="kt">byte</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">once</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Once</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">QueryClient</span> <span class="kd">struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">cache</span> <span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="o">*</span><span class="nx">CacheEntry</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mutex</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">c</span> <span class="o">*</span><span class="nx">QueryClient</span><span class="p">)</span> <span class="nf">DoQuery</span><span class="p">(</span><span class="nx">name</span> <span class="kt">string</span><span class="p">)</span> <span class="p">[]</span><span class="kt">byte</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">entry</span><span class="p">,</span> <span class="nx">found</span> <span class="o">:=</span> <span class="nx">c</span><span class="p">.</span><span class="nx">cache</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">!</span><span class="nx">found</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// 如果在缓存中未找到，创建新的 entry
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">entry</span> <span class="p">=</span> <span class="o">&amp;</span><span class="nx">CacheEntry</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nx">once</span><span class="p">:</span> <span class="nb">new</span><span class="p">(</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Once</span><span class="p">),</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">c</span><span class="p">.</span><span class="nx">cache</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="p">=</span> <span class="nx">entry</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span><span class="p">.</span><span class="nx">mutex</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 现在，当我们调用 .Do 时，如果有一个正在同步进行的操作
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// 它将一直阻塞，直到完成（并填充 entry.data）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// 或者如果操作之前已经完成过一次
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// 本次调用不会进行操作，也不会阻塞
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">entry</span><span class="p">.</span><span class="nx">once</span><span class="p">.</span><span class="nf">Do</span><span class="p">(</span><span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">resp</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">http</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;https://upstream.api/?query=&#34;</span> <span class="o">+</span> <span class="nx">url</span><span class="p">.</span><span class="nf">QueryEscape</span><span class="p">(</span><span class="nx">name</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// 为简洁起见，省略了错误处理和 resp.Body.Close
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">entry</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">ioutil</span><span class="p">.</span><span class="nf">ReadAll</span><span class="p">(</span><span class="nx">resp</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">})</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">data</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>以上就是 <code>sync.Once</code> 的方案，和之前的示例很相似，但现在更容易理解（至少在我看来）。只有一个返回值，且代码自上而下，非常直观，而不必像之前一样对 <code>entry.wait</code> channel 进行阅读和理解。</p>
-<h2 id="进一步阅读其他注意事项">进一步阅读/其他注意事项</h2>
-<p>另一个类似于 <code>sync.Once</code> 的机制是 <a href="https://pkg.go.dev/golang.org/x/sync/singleflight">golang.org/x/sync/singleflight</a>。<code>singleflight</code> 只会删除正在进行中的请求中的重复请求（即不会持久化缓存），但与 <code>sync.Once</code> 相比，<code>singleflight</code> 通过 context 实现起来可能更简洁（通过使用 <code>select</code> 和 <code>ctx.Done()</code>），并且在生产环境中，可以通过 context 取消这一点很重要。<code>singleflight</code> 实现的模式和 <code>sync.Once</code> 十分接近，但如果 map 中存有值，则会提前返回。</p>
-<p><a href="https://github.com/golang/go/issues/25312#issuecomment-387800105">ianlancetaylor</a> 建议结合 context 使用 <code>sync.Once</code>，方式如下：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">c</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">chan</span> <span class="kt">bool</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="k">go</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">once</span><span class="p">.</span><span class="nf">Do</span><span class="p">(</span><span class="nx">f</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c</span> <span class="o">&lt;-</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="p">}()</span>
-</span></span><span class="line"><span class="cl"><span class="k">select</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="k">case</span> <span class="o">&lt;-</span><span class="nx">c</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl"><span class="k">case</span> <span class="o">&lt;-</span><span class="nx">ctxt</span><span class="p">.</span><span class="nf">Done</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h2 id="文章信息">文章信息</h2>
-<blockquote>
-<ol>
-<li><a href="https://blog.chuie.io/posts/synconce/">原文地址</a></li>
-<li><a href="https://github.com/gocn/translator/blob/master/2021/w34_the_underutilized_usefulness_of_sync_Once.md">本文永久链接</a></li>
-<li><a href="https://github.com/gocn/translator">GoCN &lt;每周译 Go&gt;</a></li>
-<li><a href="https://github.com/pseudoyu">译者：张宇</a></li>
-<li><a href="https://github.com/Cluas">校对：Cluas</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
