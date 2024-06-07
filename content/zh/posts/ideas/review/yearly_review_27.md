@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![yearly_review_27](https://image.pseudoyu.com/images/yearly_review_27.png)
+![yearly_review_27](https://image.pseudoyu.com/images/yearly_review_27_new.png)
 
 现在是 2024 年 6 月 6 日，我 27 岁了。
 
