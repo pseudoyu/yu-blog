@@ -1,8 +1,10 @@
 # Released projects
 
-All <!-- release_count starts -->17<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
+All <!-- release_count starts -->18<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
+* **[icondog](https://github.com/djyde/icondog)**: [0.0.1](https://github.com/djyde/icondog/releases/tag/v0.0.1)
+<br>An open-source icons manager for open-source icons
 * **[blockchain-guide](https://github.com/pseudoyu/blockchain-guide)**: [区块链入门指南](https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0)
 <br>区块链入门指南
 * **[yu-tools](https://github.com/pseudoyu/yu-tools)**: [个人工具箱](https://github.com/pseudoyu/yu-tools/releases/tag/v0.1)

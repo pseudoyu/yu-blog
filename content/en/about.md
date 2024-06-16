@@ -49,11 +49,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         9 hrs 57 mins  ███████████████░░░░░░  71.8%
-Solidity   1 hr 15 mins   █▉░░░░░░░░░░░░░░░░░░░   9.1%
-YAML       57 mins        █▍░░░░░░░░░░░░░░░░░░░   6.8%
-go.mod     33 mins        ▊░░░░░░░░░░░░░░░░░░░░   4.0%
-Markdown   17 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.1%
+Go         9 hrs 57 mins  ██████████████▎░░░░░░  68.1%
+Solidity   1 hr 15 mins   █▊░░░░░░░░░░░░░░░░░░░   8.6%
+YAML       57 mins        █▎░░░░░░░░░░░░░░░░░░░   6.5%
+TypeScript 51 mins        █▏░░░░░░░░░░░░░░░░░░░   5.8%
+go.mod     33 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.8%
 ```
 
 <!-- code_time ends -->
@@ -61,6 +61,7 @@ Markdown   17 mins        ▍░░░░░░░░░░░░░░░░░
 ### 💻 Recent Releases
 
 <!-- recent_releases starts -->
+* <a href=https://github.com/djyde/icondog/releases/tag/v0.0.1 target='_blank'>icondog 0.0.1</a>
 * <a href=https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0 target='_blank'>blockchain-guide 区块链入门指南</a>
 * <a href=https://github.com/pseudoyu/yu-tools/releases/tag/v0.1 target='_blank'>yu-tools 个人工具箱</a>
 * <a href=https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0 target='_blank'>top-blockchain-projects 优质区块链项目排行榜</a>
@@ -70,5 +71,4 @@ Markdown   17 mins        ▍░░░░░░░░░░░░░░░░░
 * <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
 * <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
 * <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain 从零实现一个区块链</a>
-* <a href=https://github.com/pseudoyu/xDeepFM_for_Recommender_Systems/releases/tag/v1.0.0 target='_blank'>xDeepFM_for_Recommender_Systems xDeepFM for Recommender Systems 推荐系统</a>
 <!-- recent_releases ends -->
