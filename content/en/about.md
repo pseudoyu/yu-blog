@@ -38,22 +38,22 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/34453257/' target='_blank'>想读Normal People</a> - 2024-06-20
+* <a href='https://book.douban.com/subject/35049755/' target='_blank'>最近在读索拉里斯星</a> - 2024-06-20
 * <a href='https://book.douban.com/subject/33445309/' target='_blank'>最近在读阿特拉斯耸耸肩</a> - 2024-06-14
 * <a href='https://book.douban.com/subject/36665663/' target='_blank'>想读打破社交媒体棱镜</a> - 2024-06-05
 * <a href='http://movie.douban.com/subject/26656728/' target='_blank'>想看泳者之心</a> - 2024-06-03
-* <a href='http://movie.douban.com/subject/25777620/' target='_blank'>在看天才：游戏的法则</a> - 2024-06-02
-* <a href='http://movie.douban.com/subject/35902857/' target='_blank'>想看完美的日子</a> - 2024-05-30
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Go         7 hrs 31 mins  █████████▏░░░░░░░░░░░  43.7%
-Markdown   2 hrs 34 mins  ███▏░░░░░░░░░░░░░░░░░  15.0%
-TypeScript 2 hrs 20 mins  ██▊░░░░░░░░░░░░░░░░░░  13.6%
-Solidity   1 hr 4 mins    █▎░░░░░░░░░░░░░░░░░░░   6.3%
-YAML       54 mins        █░░░░░░░░░░░░░░░░░░░░   5.3%
+Go         4 hrs 34 mins  ██████▉░░░░░░░░░░░░░░  32.8%
+Markdown   2 hrs 34 mins  ███▉░░░░░░░░░░░░░░░░░  18.5%
+TypeScript 2 hrs 20 mins  ███▌░░░░░░░░░░░░░░░░░  16.8%
+Solidity   1 hr 4 mins    █▌░░░░░░░░░░░░░░░░░░░   7.7%
+HTML       53 mins        █▎░░░░░░░░░░░░░░░░░░░   6.4%
 ```
 
 <!-- code_time ends -->
