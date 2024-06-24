@@ -39,11 +39,7 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/34453257/' target='_blank'>最近在读Normal People</a> - 2024-06-23
-* <a href='https://book.douban.com/subject/35049755/' target='_blank'>读过索拉里斯星</a> - 2024-06-22
-* <a href='https://book.douban.com/subject/33445309/' target='_blank'>最近在读阿特拉斯耸耸肩</a> - 2024-06-14
-* <a href='https://book.douban.com/subject/36665663/' target='_blank'>想读打破社交媒体棱镜</a> - 2024-06-05
-* <a href='http://movie.douban.com/subject/26656728/' target='_blank'>想看泳者之心</a> - 2024-06-03
+
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
