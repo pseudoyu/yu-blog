@@ -84,7 +84,7 @@ Robin Sharma 有一本书叫《5am Club》，提出了一个早上五点起床�
 
 ### 招聘
 
-顺便发一个我司的招聘：https://rss3.notion.site/52350e21c7e74a319807a4fcd6adf68e?v=3eb777c3d54f4a6888c405968cee9d69
+顺便发一个我司的招聘：[https://rss3.notion.site/52350e21c7e74a319807a4fcd6adf68e?v=3eb777c3d54f4a6888c405968cee9d69](https://rss3.notion.site/52350e21c7e74a319807a4fcd6adf68e?v=3eb777c3d54f4a6888c405968cee9d69)
 
 目前在招 DevOps Engineer/AI Engineer/Blockchain Engineer，远程办公，工作氛围很好，有疑问可以随时问我，期待未来做同事。
 
