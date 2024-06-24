@@ -58,7 +58,7 @@ Robin Sharma 有一本书叫《5am Club》，提出了一个早上五点起床�
 
 目前在看 kally 推荐的一些 YouTube Channel 的基础视频，以及很久之前买的极客时间的「Rust 编程第一课」，Rust，启动！
 
-## Telegram Channel 1000 subsceibers
+## Telegram Channel 1000 subscribers
 
 ![channel_1000_subscribers](https://image.pseudoyu.com/images/channel_1000_subscribers.jpg)
 
