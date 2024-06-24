@@ -38,8 +38,8 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/34453257/' target='_blank'>最近在读Normal People</a> - 2024-06-23
 * <a href='https://book.douban.com/subject/35049755/' target='_blank'>读过索拉里斯星</a> - 2024-06-22
-* <a href='https://book.douban.com/subject/34453257/' target='_blank'>想读Normal People</a> - 2024-06-20
 * <a href='https://book.douban.com/subject/33445309/' target='_blank'>最近在读阿特拉斯耸耸肩</a> - 2024-06-14
 * <a href='https://book.douban.com/subject/36665663/' target='_blank'>想读打破社交媒体棱镜</a> - 2024-06-05
 * <a href='http://movie.douban.com/subject/26656728/' target='_blank'>想看泳者之心</a> - 2024-06-03
@@ -49,11 +49,11 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Go         4 hrs 8 mins   ███████▉░░░░░░░░░░░░░  37.8%
-Markdown   2 hrs 34 mins  ████▉░░░░░░░░░░░░░░░░  23.5%
-TypeScript 1 hr 29 mins   ██▊░░░░░░░░░░░░░░░░░░  13.6%
-HTML       53 mins        █▋░░░░░░░░░░░░░░░░░░░   8.1%
-Other      34 mins        █░░░░░░░░░░░░░░░░░░░░   5.2%
+Go         4 hrs          ███████████▍░░░░░░░░░  54.3%
+HTML       36 mins        █▋░░░░░░░░░░░░░░░░░░░   8.3%
+AsciiDoc   31 mins        █▍░░░░░░░░░░░░░░░░░░░   7.1%
+Markdown   29 mins        █▍░░░░░░░░░░░░░░░░░░░   6.8%
+Other      29 mins        █▍░░░░░░░░░░░░░░░░░░░   6.8%
 ```
 
 <!-- code_time ends -->
