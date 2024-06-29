@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/35587923/' target='_blank'>想看擅长捉弄的高木同学 剧场版</a> - 2024-06-29
 * <a href='http://movie.douban.com/subject/36631942/' target='_blank'>想看熊家餐馆 第三季</a> - 2024-06-29
 * <a href='http://movie.douban.com/subject/35993168/' target='_blank'>想看熊家餐馆 第二季</a> - 2024-06-29
 * <a href='https://book.douban.com/subject/34942548/' target='_blank'>想读源泉（珍藏版）</a> - 2024-06-25
 * <a href='https://book.douban.com/subject/34453257/' target='_blank'>最近在读Normal People</a> - 2024-06-23
-* <a href='https://book.douban.com/subject/35049755/' target='_blank'>读过索拉里斯星</a> - 2024-06-22
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
