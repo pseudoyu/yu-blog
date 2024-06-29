@@ -1,5 +1,5 @@
 ---
-title: "免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）"
+title: "免费的个人博客系统搭建及部署解决方案（Hugo + Cloudflare Pages + Cusdis）"
 date: 2022-03-24T01:19:28+08:00
 draft: false
 tags: ["hugo", "github", "github action", "cusdis", "vercel", "cloudflare", "serverless", "self-host", "blog"]
@@ -13,6 +13,12 @@ authors:
 [Pseudoyu](https://www.pseudoyu.com) 是我的个人博客网站，最早使用 [WordPress](https://wordpress.com/) 搭建在自己的 Vultr vps 上，因为网络访问比较慢所以迁移到了腾讯云服务器上并且进行备案，虽然访问速度有提升，但是发布博客的流程很繁琐，服务器的维护长期也是一笔不小的开支。
 
 因此，一直在探索能够既能保障国内外访问体验，又能够托管在一些平台上，实现部署和发布流程的最优化体验。后来也一直不断在改善博客系统搭建和发布流程，迄今为止对自己的全流程解决方案还是比较满意的，虽然部署和搭建上需要进行一些配置，但后续更新维护都很方便，因此，本文将这套免费、开源的个人博客系统搭建及部署解决方案进行全流程记录，希望对大家有所帮助。
+
+**[2024-06-30 更新]**
+
+时隔两年，文章中许多方案已经过时（但依然可用），我更新了系列新的文章，阐述了我与 2024 年 6 月的最新博客解决方案，可供大家参考。
+
+- [2024 年了，我的博客有了什么变化](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)
 
 ## 解决方案
 
@@ -28,15 +34,19 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 ### 博客托管
 
-静态博客需要托管在一个平台上才能够实现外部访问，可以是自己的 vps 主机，也可以是 [GitHub Pages](https://pages.github.com)，或者是 [Vercel](http://vercel.com) 这样的 Serverless 平台，后两者都可以通过 GitHub 仓库进行关联。
+静态博客需要托管在一个平台上才能够实现外部访问，可以是自己的 vps 主机，也可以是 [Cloudflare Pages](https://pages.cloudflare.com/)，[GitHub Pages](https://pages.github.com)，或者是 [Vercel](http://vercel.com) 这样的 Serverless 平台，后两者都可以通过 GitHub 仓库进行关联。
 
 我选择了 GitHub Pages 这种方式，完全免费且和 GitHub 代码仓库无缝对接，能够满足我博客源文件备份和版本管理的需求，还可以通过强大且同样免费的 [GitHub Action](https://github.com/features/actions) 实现各种 CI/CD 的功能，如提交/更新博客源文件后自动构建生成博客静态文件并推送到 GitHub Pages 仓库进行部署，还可以配合一些定时任务实现自我介绍页面更新等功能。
 
+**[2024-06-30 更新]**
+
+由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，并提供了市面上主流的网站构建工具，如 Next.js、Astro、Hugo 等，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。
+
 ### 博客域名
 
-使用 GitHub Pages 生成网站会自动分配一个 xxx.github.io 的默认域名，通过这个域名就可以直接对生成的博客网站进行访问，也可以通过域名解析配置自己的域名，如我的网站就是解析了 [pseudoyu.com](https://www.pseudoyu.com) 这个域名。
+我们可以通过域名解析配置自己的域名，如我的网站就是解析了 [pseudoyu.com](https://www.pseudoyu.com) 这个域名。
 
-我的域名是在 [NameSilo](https://www.namesilo.com) 购买的，并通过 [Cloudflare](https://www.cloudflare.com) 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。
+~~我的域名是在 [NameSilo](https://www.namesilo.com) 购买的，并通过 [Cloudflare](https://www.cloudflare.com) 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。~~
 
 **[2022-05-29 更新]**
 
@@ -56,6 +66,10 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 除了上述直接服务的平台外，我还部署了一个可代替 [Google Analytics](https://analytics.google.com) 的开源服务 [umami](https://umami.is)，实现了访客数据的实时监控，教程为：《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》。
 
+**[2024-06-30 更新]**
+
+后来改为了自部署「[goatcounter](https://www.goatcounter.com/)」这一新的数据统计服务。
+
 ### 评论系统
 
 一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 [Disqus](https://disqus.com)，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 [Randy](https://lutaonan.com) 的 [Cusdis](https://cusdis.com)，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 [Heroku](https://www.heroku.com) 的免费 [PostgreSQL](https://www.postgresql.org) 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。
@@ -66,9 +80,17 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 Cusdis 部署在 Railway 平台教程已更新：《[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)》。
 
+**[2024-06-30 更新]**
+
+后来改为了自部署「[Remark42](https://remark42.com/)」这一新的评论系统。
+
 ### 图片管理
 
 日常发布的文章中可能会涉及很多图片，将图片存储在静态博客源项目仓库中的话会使项目过于庞大，并且很难二次使用和管理，因此，我同样选择了 GitHub 作为图床工具，并使用 [PicGo](https://molunerfinn.com/PicGo/) 客户端进行图床管理，在上传前使用 [TinyPNG](https://tinypng.com) 进行压缩，并使用 [jsDelivr](https://www.jsdelivr.com) 服务为 GitHub 图床进行加速，这样就可以将所有图片存储在 GitHub 图床仓库，文章中以外链的方式嵌入图片。
+
+**[2024-06-30 更新]**
+
+后来使用了 Cloudflare R2 + WebP Cloud 代理优化 + PicGo 这一套图床解决方案。
 
 ## 发布流程
 
@@ -79,6 +101,12 @@ Cusdis 部署在 Railway 平台教程已更新：《[轻量级开源免费博客
 **[2022-05-29 更新]**
 
 Hugo 搭建与 GitHub Action 配置教程已更新：《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》
+
+**[2024-06-30 更新]**
+
+新增了 Cloudflare Pages 部署方案：《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》
+
+发布流程
 
 ## 总结
 
