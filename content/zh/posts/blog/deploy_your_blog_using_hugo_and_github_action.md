@@ -17,9 +17,10 @@ authors:
 我的方案主要分为以下几个核心部分：
 
 1. 个人博客源仓库，对博客配置及所有文章 `.md` 源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。
-2. GitHub Pages 博客发布仓库，以 `username.github.io` 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。
-3. Hugo 主题仓库，fork 喜欢的主题，并对自己的个人定制化改造配置进行版本管理，通过 `git submodule` 的方式链接到个人博客源仓库。
-4. 其他组件源仓库，如 [umami 网站数据统计](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)及 [Cusdis 网站评论系统](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)等。
+2. （可选）GitHub Pages 博客发布仓库，以 `username.github.io` 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。
+3. （可选）Cloudflare 账户与 Cloudflare Pages 项目，
+4. Hugo 主题仓库，fork 喜欢的主题，并对自己的个人定制化改造配置进行版本管理，通过 `git submodule` 的方式链接到个人博客源仓库。
+5. 其他组件源仓库，如 [umami 网站数据统计](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)及 [Cusdis 网站评论系统](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)等。
 
 下文会对搭建、本地测试、自动化部署维护等过程进行详细讲解，希望对大家所有帮助。
 
@@ -117,9 +118,7 @@ hugo server
 
 ![hugo_server_preview](https://image.pseudoyu.com/images/hugo_server_preview.png)
 
-### 使用 GitHub Pages 前期准备
-
-#### 域名购买
+### 购买域名
 
 作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 [Cloudflare](https://www.cloudflare.com)、[NameSilo](https://www.namesilo.com)、[GoDaddy](https://www.godaddy.com) 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。
 
@@ -143,7 +142,108 @@ hugo server
 
 ![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpg)
 
-#### GitHub Pages 仓库
+### Cloudflare Pages 发布博客（推荐）
+
+**[2024-06-30 更新]**
+
+#### Cloudflare Pages 介绍
+
+GitHub Pages 已经是一个免费且强大的静态网站托管平台了，且可以和 GitHub 代码仓库无缝对接，但国内的访问速度不是很理想，又由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。
+
+![cloudflare_pages_create](https://image.pseudoyu.com/images/cloudflare_pages_create.png)
+
+#### 创建 Cloudflare Pages 项目
+
+首先我们需要注册 Cloudflare 账号，并且在左侧选择「Worker 和 Pages」菜单，点击创建项目。
+
+![cloudflare_pages_with_git](https://image.pseudoyu.com/images/cloudflare_pages_with_git.png)
+
+下一步会有两个选项，一个是直接把静态文件上传，还有一个是连接 git，第一种通常是适用于一些单页面或者非常低频更新从而不需要 GitHub 托管代码的项目，如一些单 html 页面的网站等；而连接 git 则能够更好地针对我们每一次的博客提交自动构建新的网页，也是我们采用的方式。
+
+#### 构建 Hugo
+
+![yu_blog_test_build_hugo_cloudflare_pages](https://image.pseudoyu.com/images/yu_blog_test_build_hugo_cloudflare_pages.png)
+
+由于 Cloudflare Pages 提供了几乎市面上所有常用的网站构建工具，如 Next.js、Astro、Hugo 等，我们可以选择两种方式来进行部署：
+
+1. 直接使用 Cloudflare Pages 提供的构建工具，直接根据仓库代码生成静态网页并部署上线
+2. 以与上文 GitHub Pages 类似的方式生成静态网页的仓库或分支，通过 Cloudflare Page 直接进行部署上线
+
+![cloudflare_build_site_hugo_in_progress](https://image.pseudoyu.com/images/cloudflare_build_site_hugo_in_progress.png)
+
+![cloudflare_pages_build_done](https://image.pseudoyu.com/images/cloudflare_pages_build_done.png)
+
+第一种方式可以大大简化我们的部署流程，因此我们要做的只有将上文所创建的博客源仓库（如我的仓库为 [pseudoyu/yu-blog](https://github.com/pseudoyu/yu-blog)）进行链接，每次提交就会自动构建并部署，只需要等待几十秒即可完成，而无须像 GitHub Pages 那样自己写各种构建 GitHub Actions 命令，很方便，也是最为推荐的方式。
+
+而第二种方式其实跟 GitHub Pages 的方式类似，比较适用于对于构建过程有一些特殊需求的网站，如我在构建我的个人博客网站时同时在 GitHub Actions 执行了一些 Python 在自动更新我的 About 页面，这些复杂操作就无法直接使用 Cloudflare Pages 提供的构建工具，因此我选择了第二种方式。
+
+可以在自己的博客源仓库中直接使用如下简化版的 GitHub Actions:
+
+```yml
+name: deploy
+
+on:
+    push:
+    workflow_dispatch:
+    schedule:
+        # Runs everyday at 8:00 AM
+        - cron: "0 0 * * *"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+              with:
+                  submodules: true
+                  fetch-depth: 0
+
+            // Other steps you want to add
+
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: "latest"
+
+            - name: Build Web
+              run: hugo
+
+            - name: Deploy Web
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./public
+                  publish_branch: cf-pages
+```
+
+`on` 表示 GitHub Action 触发条件，我设置了 `push`、`workflow_dispatch` 和 `schedule` 三个条件：
+
+- `push`，当这个项目仓库发生推送动作后，执行 GitHub Action
+- `workflow_dispatch`，可以在 GitHub 项目仓库的 Action 工具栏进行手动调用
+- `schedule`，定时执行 GitHub Action，如我的设置为北京时间每天早上执行，主要是使用一些自动化统计 CI 来自动更新我博客的关于页面，如本周编码时间，影音记录等，如果你不需要定时功能，可以删除这个条件
+
+`jobs` 表示 GitHub Action 中的任务，我们设置了一个 `build` 任务，`runs-on` 表示 GitHub Action 运行环境，我们选择了 `ubuntu-latest`。我们的 `build` 任务包含了 `Checkout`、`Setup Hugo`、`Build Web` 和 `Deploy Web` 四个主要步骤，其中 `run` 是执行的命令，`uses` 是 GitHub Action 中的一个插件，我们使用了 `peaceiris/actions-hugo@v2` 和 `peaceiris/actions-gh-pages@v3` 这两个插件。其中 `Checkout` 步骤中 `with` 中配置 `submodules` 值为 `true` 可以同步博客源仓库的子模块，即我们的主题模块。
+
+以上 GitHub Actions 会将博客生成的静态文件推送到 `cf-pages` 分支，因为我们在 Cloudflare Pages 中选择该分支进行部署即可，因为如我们需要添加一些额外的步骤，可以在构建之前添加一些自定义的步骤，很灵活，具体应用可以看「[GitHub - yu-blog/.github/workflows/deploy.yml](https://github.com/pseudoyu/yu-blog/blob/master/.github/workflows/deploy.yml)」示例。
+
+#### 配置自定义域名
+
+![custom_domain_yu_blog](https://image.pseudoyu.com/images/custom_domain_yu_blog.png)
+
+自定义域名也非常简单，直接在导航栏中选中自定义域，并添加想要绑定的域名。
+
+![cf_pages_custom_domain_dns](https://image.pseudoyu.com/images/cf_pages_custom_domain_dns.png)
+
+如果是在 Cloudflare 中注册/托管的域名，可以直接选择「激活域」，会自动添加 DNS 解析，如果是其他平台的域名，则手动添加 CNAME 解析即可。
+
+![custom_domain_wait_dns](https://image.pseudoyu.com/images/custom_domain_wait_dns.png)
+
+配置 DNS 完成后，等待生效即可。
+
+### GitHub Pages 发布博客
+
+#### 创建仓库
 
 GitHub Pages 项目需要符合 `username.github.io` 的特殊命名格式，仓库建立完成后，可以在设置中配置自己注册的自定义域名来指向 GitHub Pages 生成的网址。此外，需要将博客站点配置文件 `config.toml` 中的 `baseURL` 改为自己的自定义域名，格式为 `"https://www.pseudoyu.com/"`，这样博客站点才能正常访问 GitHub Pages 生成的网站服务。
 
@@ -158,8 +258,6 @@ GitHub Pages 项目需要符合 `username.github.io` 的特殊命名格式，仓
 因为 CNAME 解析没办法设置 root 域名，即只能设置 `www.pseudoyu.com` 或其他子域名，而不是 `pseudoyu.com`，因此，我们可以通过 Cloudflare 上自定义规则设置域名重定向，具体配置如下，仅需将我的域名替换成自己的域名即可。即使你是通过 NameSilo 注册的域名，也可以通过 Cloudflare 来添加站点以实现功能，或者其他托管平台也有类似的功能，按照说明配置即可。
 
 ![cloudflare_cname_rule_config](https://image.pseudoyu.com/images/cloudflare_cname_rule_config.png)
-
-### GitHub Pages 发布博客
 
 完成上述准备工作后，我们现在已经可以通过自定义域名来访问我们的 GitHub Pages 页面了，目前因为项目仓库是空的，访问后会报 `404` 页面。
 
@@ -239,14 +337,6 @@ jobs:
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
 ```
-
-`on` 表示 GitHub Action 触发条件，我设置了 `push`、`workflow_dispatch` 和 `schedule` 三个条件：
-
-- `push`，当这个项目仓库发生推送动作后，执行 GitHub Action
-- `workflow_dispatch`，可以在 GitHub 项目仓库的 Action 工具栏进行手动调用
-- `schedule`，定时执行 GitHub Action，如我的设置为北京时间每天早上执行，主要是使用一些自动化统计 CI 来自动更新我博客的关于页面，如本周编码时间，影音记录等，如果你不需要定时功能，可以删除这个条件
-
-`jobs` 表示 GitHub Action 中的任务，我们设置了一个 `build` 任务，`runs-on` 表示 GitHub Action 运行环境，我们选择了 `ubuntu-latest`。我们的 `build` 任务包含了 `Checkout`、`Setup Hugo`、`Build Web` 和 `Deploy Web` 四个主要步骤，其中 `run` 是执行的命令，`uses` 是 GitHub Action 中的一个插件，我们使用了 `peaceiris/actions-hugo@v2` 和 `peaceiris/actions-gh-pages@v3` 这两个插件。其中 `Checkout` 步骤中 `with` 中配置 `submodules` 值为 `true` 可以同步博客源仓库的子模块，即我们的主题模块。
 
 首先需要将上述 `deploy.yml` 中的 `EXTERNAL_REPOSITORY` 改为自己的 GitHub Pages 仓库，如我的设置为 `pseudoyu/pseudoyu.github.io`。
 
