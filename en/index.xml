@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Jun 2024 16:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #62 - 香港之行、5am club 计划与 Rust 学习</title><link>https://www.pseudoyu.com/en/2024/06/23/weekly_review_20240623/</link><pubDate>Sun, 23 Jun 2024 16:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/06/23/weekly_review_20240623/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-06-17 到 2024-06-23 这周生活的记录与思考。 去香港参加 Google AI+Web3 活动，面基了组里的很多小伙伴；体验了因订不到</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 29 Jun 2024 13:48:58 +0000</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>2024 年了，我的博客有了什么变化</title><link>https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/</link><pubDate>Sat, 29 Jun 2024 13:48:58 +0000</pubDate><guid>https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/</guid><description>前言 在两年前的这一篇「2022 年了，聊聊我为什么还在写博客」，我聊到了我写博客的缘起、初衷和搭建方案。 两年多过去了，初衷仍在，写作也依然坚持</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>在两年前的这一篇「<a href="https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/">2022 年了，聊聊我为什么还在写博客</a>」，我聊到了我写博客的缘起、初衷和搭建方案。</p>
+<p>两年多过去了，初衷仍在，写作也依然坚持下来了，虽没有完成自己所计划的周更，但多少也积淀了些文字。</p>
+<p>经历了很多事，似乎渐渐转向了一个「周报博主」，写的内容和风格已经大不同。技术和工具效率主题更少了，分享生活和思考更多了；少了些通宵两天更新四篇技术教程的冲劲，却多了些通过笔触表达情感后的自洽；收到很多关于博客搭建和技术教程的感谢依然会很开心，却也更珍惜和素昧谋面的大家交心的感动。</p>
+<h2 id="周报博主">周报博主</h2>
+<p>可能是有一次开会闲聊 xLog 未来的发展，有位同事突然 cue 我说，你作为一个「周报博主」有什么想法，我一愣，这个称呼倒是第一次听到，翻了翻主页，确实。</p>
+<p>之前一直自诩是技术博主、工具效率博主，最后留下内容最多，给大家印象最深的似乎还是周报，也不错。</p>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_group_chat.png" alt="weekly_review_group_chat"></p>
+<p>开始写周报似乎是「<a href="https://x.com/RealAkemiHomura">Homura</a>」组织了一个周报监督小组，当时不论是在推特还是独立博客群体中都还是个小透明，也希望有更多人进行抱团和交流，当时会每周把自己的周报丢到群里，会有互相被卷到，也有对于他人生活状态的关心，很开心。</p>
+<p>后来大家都经历了许多生活的工作的变动，群里最后的消息停留在了 23 年 1 月，但那依然是我很快乐的一段时光，也是我后来能继续写周报的动力，因为我知道，即使分享的只是生活的琐碎和一些不成熟的小想法，依然有人在认真读你的文字。</p>
+<p><img src="https://image.pseudoyu.com/images/weekly_view_discuss_with_randy.png" alt="weekly_view_discuss_with_randy"></p>
+<p>之前有一次收到 Randy 的催更，他说其实没必要把它定义为周报，不然常常会有压力和束缚，不过我反倒依赖这种输出倒逼输入的模式，这样有了周报作为一个结果导向，才会更有动力把这周过好。</p>
+<p><del>虽然我常常重新定义周就是了。</del></p>
+<h2 id="独立博客">独立博客</h2>
+<p>比起编排精美的书刊杂志，我更享受于访问他人的博客网站，站名名称、主题配色、配乐排版都更真实具体地呈现了一个人格化的存在，而在阅读博文时，我也常常会视为一次穿越时空的对话，会想象写下这些文字碎片的作者当时是怎样的心情，有时甚至也会带些顽皮地脑补他是一个怎样的人，此刻在做些什么。</p>
+<p>独立博客其实是一个说大不大说小不小的圈子，两年过去，我反倒觉得开始搭博客、写博客的人渐渐变得多了，也有了更多有意思的高质量内容。</p>
+<p>相比起其他不论是粉丝积累还是互动都更为方便的成熟内容平台来说，不仅仅是平台和写作形式上的独立（我其实也愿意称在 mastodon 或是 misskey 上认真分享内容的人为独立博客作者），而是思想的独立，即好的文章不止授人知识，还引人思考。</p>
+<p><img src="https://image.pseudoyu.com/images/dubo_1_intro.png" alt="dubo_1_intro"></p>
+<p>还跟 Randy 聊到想为独立博客做一些事，以刊物的形式收录这一段时间内读到的好的文章并为之作序推荐，其实已经筹备好了第一期，但由于两个人错峰的忙碌和更专注地做 EpubKit 产品，迟迟未能发布，这也是希望能够在未来某个节点能够持续做下去的事。</p>
+<h2 id="博客系统">博客系统</h2>
+<p>这是两年前写过的几篇关于博客搭建的文章：</p>
+<ul>
+<li><a href="https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/">2022 年了，聊聊我为什么还在写博客</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
+</ul>
+<p>主要是围绕着我使用 Hugo 这一静态网页生成器（SSG）搭建个人博客及一些周边服务的一些记录，也看到很多人通过各种联系方式加到我说根据这一系列教程成功拥有了自己的博客，很开心能够为博客这一已经有些式微的创作方式做出一些小小的贡献。</p>
+<p>当时写的时候对自己的整套方案很满意，然而时隔两年回头看了下。</p>
+<ul>
+<li><strong>博客本体</strong>：Hugo 本体没变，部署方案: GitHub Pages + Cloudflare CDN -&gt; Cloudflare Pages</li>
+<li><strong>评论系统</strong>：Cusdis -&gt; Remark42，部署平台：Railway -&gt; Vercel + Supabase -&gt; fly.io</li>
+<li><strong>统计系统</strong>：Umami -&gt; goatcounter，部署平台：Vercel + Heroku -&gt; Railway -&gt; Netlify + Supabase -&gt; fly.io</li>
+<li><strong>图床系统</strong>：GitHub + jsDelivr -&gt; 阿里云 OSS -&gt; VPS 上自部署的 Chevereto + PicGo -&gt; Cloudflare R2 + WebP Cloud + PicGo</li>
+<li><strong>内容搜索</strong>：无 -&gt; Pagefind 静态搜索</li>
+</ul>
+<p>更换的原因很多，有些是由于 Heroku 和 Railway 渐渐取消了免费计划，有些是由于开源项目更新少了缺少功能，也有些单纯是自己想折腾一下更轻量些。</p>
+<p>想起来当时写这套系列教程的时候主要就是觉得网上能够搜到的方案和教程零散且常常落后，于是想给想搭建博客的读者一站式搭建起来的可行方案，发布后收到了许多人的反馈，有些内容也早该更新，却一直拖到现在才开始重新写，很惭愧。</p>
+<p>下文会对当前的方案作一些介绍，后续更新后的系列文章完成后也会追加链接。</p>
+<h3 id="博客本体">博客本体</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png" alt="yu_blog_homepage_20240629"></p>
+<p>我使用 <a href="https://gohugo.io/">Hugo</a> 这个静态网站生成器来搭建我的个人博客，使用并改造了一个比较 retro 的主题「<a href="https://github.com/shaform/hugo-theme-den">hugo-theme-den</a>」。</p>
+<p>大体的流程可以参看「<a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a>」这篇文章和「<a href="https://github.com/pseudoyu/yu-blog">GitHub - yu-blog</a>」这个仓库。</p>
+<p>加了一些每天自动更新 About 页面的 GitHub Actions 自动化操作，并且由于 GitHub Pages 托管的网站从国内访问速度几乎不可用了，迁移到了 Cloudflare Pages，免费且体验感好了很多，其他几乎没什么改动了。</p>
+<p>其实倒也不是没想过换框架，之前看到「<a href="https://www.owenyoung.com/">Owen</a>」和「<a href="https://pinchlime.com/">PJ Wu</a>」使用的 <a href="https://www.getzola.org/">Zola</a> 就有些眼馋，甚至也有想过像「<a href="https://justgoidea.com/">槿呈 Goidea</a>」或是「<a href="https://innei.in/">Innei</a>」一样自己写一个。</p>
+<p>不过冷静下来一想，自己现在网站积累了不少文章，要是想要保留原有路径免不了一番折腾，再加上确实很喜欢现在的主题，有什么想法干脆就直接去定制和改动主题了，还是少花一些心力在折腾平台，多写些博文比较重要，不然多少有点买椟还珠之嫌，遂作罢。</p>
+<h3 id="评论系统">评论系统</h3>
+<p>在博客诞生之初直到今年四五月我一直使用的都是 <a href="https://cusdis.com/">Cusdis</a>，整整用了三年。</p>
+<p>时至今日依然是十分值得推荐的方案，轻量，方便自部署，风格也简约好看，搭建教程参看「<a href="https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a>」。</p>
+<p>不过鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 <a href="https://supabase.com">Supabase</a> 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_remark42_preview.png" alt="yu_remark42_preview"></p>
+<p>最近有一次由于更换数据库 URI 时 Vercel 部署一直报错，再加上确实需要一些新的功能，于是下定决心从 Cusdis 迁移，调研了一圈后选择了 <a href="https://reorx.com/">reorx</a> 在「<a href="https://reorx.com/blog/blog-commenting-systems/">更换博客评论系统</a>」一文中最后选定的 <a href="https://remark42.com/">Remark42</a>。</p>
+<p>单纯就配置选项来说比起 cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 <a href="https://fly.io/">fly.io</a>，go 单二进制 + 数据库单文件，很舒服的解决方案，完成博文后会在这里更新教程链接。</p>
+<h3 id="数据统计系统">数据统计系统</h3>
+<p>我之前自部署了一个 Umami（参看教程「<a href="https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a>」不过后来由于 Heroku 取消了免费 Plan，我最后折腾一圈，选择了 Netlify 部署服务 + Supabase 部署 PostgreSQL 数据库实例部署的方式，其余流程依然适用。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_goatcounter_preview.png" alt="yu_goatcounter_preview"></p>
+<p>不过一方面因为我部署得比较早，有一个大版本无法升级，以至于一直停留在自己 fork 的一个旧版本上，另一方面确实也渐渐觉得这种服务和数据库需要分离的方式免不了因为平台规则变动而频繁迁移，有些太重了，所以最后改为了 <a href="https://www.goatcounter.com/">goatcounter</a>，同样是 go 单二进制 + sqlite 数据库单文件部署在 <a href="https://fly.io/">fly.io</a>，又是很舒服的部署方案，等更新博文后同样会在这里更新教程链接。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_google_console_preview.png" alt="yu_google_console_preview"></p>
+<p>另外就是依然使用 <a href="https://search.google.com/search-console">Google Console</a> 来统计分析我的访客信息与搜索权重。</p>
+<p>这个结果很有参考性，我发现一篇关于终端对比的文章「<a href="https://www.pseudoyu.com/en/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/">Warp，iTerm2 还是 Alacritty？我的终端折腾小记</a>」让我持续不断地有通过搜索引擎来的访客，另外的就是关于个人博客和搭建的系列文章了。</p>
+<h3 id="图床系统">图床系统</h3>
+<p>两年前我其实还没怎么关注图床的问题，图片都是直接丢在 GitHub 仓库里，并且使用 jsDelivr 作为 CDN 加速（后来国内访问也几乎不可用了），不过随着文章数量增多，常常有身边的朋友告诉我说我的博客图片加载不出来，想着还是要兼顾一下阅读体验，于是调研了一圈方案。</p>
+<p><img src="https://image.pseudoyu.com/images/aliyunoss_invoice.jpeg" alt="aliyunoss_invoice"></p>
+<p>先选择了阿里云 OSS 存图，电脑使用 PicGo 上传，方案挺好的，前几个月也没什么问题，直到 23 年初有几篇文章流量比较大，看着月账单上涨的势头，顿感贫穷。</p>
+<p>于是在线路还不错的搬瓦工服务器上自建了 Chevereto 图床，同样配合 PicGo 的插件进行上传，稳稳地用了一年半。但自己对于自部署服务的稳定性和数据的珍贵性还是有些大意，前几天服务器突然挂了，内核报错直接无法重启，服务挂了倒还好说，但是我这一年半多的数据没有备份，也无法导出。</p>
+<p>工单联系技术支持，一天只回复了我两次，一次让我重启，一次建议我聘请一个网络管理员排查。只能自力更生，翻遍了网上各种方案，折腾了一天终于算是解决了，但这一次的教训让我对与有重要数据的服务部分和自部署稳定程度都有了全新的认识，于是不敢再用原方案。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_webp.png" alt="yu_webp"></p>
+<p>最后采用了 <a href="https://www.cloudflare.com/en-gb/developer-platform/r2/">Cloudflare R2</a> 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。不过免费版的线路对于国内访问比较一般，于是又加了一个「<a href="https://webp.se/">WebP Cloud</a>」服务进行代理，虽然速度肯定还是比不上国内的阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_picgo_pics.png" alt="yu_picgo_pics"></p>
+<p>上传则是使用了 TinyPNG 的客户端配合 api 进行压缩，并且通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。</p>
+<p>这篇图床搭建教程链接也会在更新后追加。</p>
+<h3 id="内容搜索">内容搜索</h3>
+<p><img src="https://image.pseudoyu.com/images/search_in_my_blog.png" alt="search_in_my_blog"></p>
+<p>之前我的博客是没有内容搜索功能的，本来文章也不多，再加上静态博客没有后端，实现起来感觉也不容易，于是一直没支持。但随着后来有时候要查阅自己之前的文章只能用 VS Code 在一堆 markdown 文件中搜索的体验后，觉得还是很有必要的。</p>
+<p>调研了一圈使用了 <a href="https://pagefind.app/">Pagefind</a> 这一项目，基于静态文件的搜索库，无须引入或是托管其他后端服务，我只需要在每次发布博客的 CI 中构建全博客的索引文件，就能够很方便地支持搜索，中文搜索效果相对弱一些，不过也是够用的程度，基本上对主流的博客框架都支持。</p>
+<p>这部分可以参照「<a href="https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/">如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能</a>」这篇文章，我也正在着手写基于 GitHub Actions 更详细的教程，后续会更新在这里。</p>
+<h2 id="总结">总结</h2>
+<p>2024 年了，我大抵还是个爱好写作的人，从早些年的书评影评、技术教程到现在的生活周记，似乎所见所思只有落笔写下才会转为触手可及的真实。而随着上百篇文章的沉淀，个人博客站点也成为了我在这世界的另一个载体，源于我却又独立于我，有时是随手可拾起的记忆碎片，有时又是自己精神的避难所。</p>
+<p>也希望你们能够继续在我的博客中发现一些有趣的东西，或是知识，或是启发，抑或是一点点小小的共鸣，或许在某个时刻，你们也会想拥有自己的博客站点，让自己的所思所想在这个世界上留下一些痕迹，生根、发芽，也希望这套系列教程能够提供一些帮助。</p>
+]]></content:encoded></item><item><title>周报 #62 - 香港之行、5am club 计划与 Rust 学习</title><link>https://www.pseudoyu.com/en/2024/06/23/weekly_review_20240623/</link><pubDate>Sun, 23 Jun 2024 16:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/06/23/weekly_review_20240623/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-06-17 到 2024-06-23 这周生活的记录与思考。 去香港参加 Google AI+Web3 活动，面基了组里的很多小伙伴；体验了因订不到</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -7321,7 +7401,7 @@
 <p>我的个人博客最早使用 WordPress 搭建在自己的 Vultr vps 上，因为网络访问比较慢所以迁移到了腾讯云服务器上并且进行备案，虽然访问速度有提升，但是发布博客的流程很繁琐，服务器的维护长期也是一笔不小的开支。</p>
 <p>因此，我也一直在探索能够既能保障国内外访问体验，又能够托管在一些平台上，实现部署和发布流程的最优化体验。后来也一直不断在改善博客系统搭建和发布流程，迄今为止对自己的全流程解决方案还是比较满意的，虽然部署和搭建上需要进行一些配置，但后续更新维护都很方便，我对博客搭建流程写了一系列文章。</p>
 <h4 id="博客搭建与自动发布系统">博客搭建与自动发布系统</h4>
-<p><img src="https://image.pseudoyu.com/images/yu_blog_page.png" alt="yu_blog_page"></p>
+<p><img src="https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png" alt="yu_blog_homepage_20240629"></p>
 <p>我通过 Hugo 这个静态网站生成器来搭建我的个人博客。Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。</p>
 <p>此外，我还对博客配置及所有文章的源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。搭建教程请参看：</p>
 <ul>
@@ -9860,7 +9940,7 @@
 <h3 id="博客平台">博客平台</h3>
 <p>目前已经有很多比较成熟的博客平台，如前文所提到的 WordPress，虽然功能强大，但对于个人博客站点来说有些太重了，<del>也不够酷</del>，经过一番调研，最后选择了 <a href="https://gohugo.io">Hugo</a> 这个静态网站生成器。</p>
 <p>Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。</p>
-<p><img src="https://image.pseudoyu.com/images/pseudoyu_homepage.png" alt="pseudoyu_homepage"></p>
+<p><img src="https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png" alt="yu_blog_homepage_20240629"></p>
 <p>因为 Hugo 开源社区中 <a href="https://github.com/shaform/hugo-theme-den">hugo-theme-den</a> 完全在我的审美上，所以我选择了 Hugo 并在这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。</p>
 <h3 id="博客托管">博客托管</h3>
 <p>静态博客需要托管在一个平台上才能够实现外部访问，可以是自己的 vps 主机，也可以是 <a href="https://pages.github.com">GitHub Pages</a>，或者是 <a href="http://vercel.com">Vercel</a> 这样的 Serverless 平台，后两者都可以通过 GitHub 仓库进行关联。</p>
@@ -10452,117 +10532,6 @@
 <li><a href="https://tech.hyperchain.cn/bitxhub-design-thinking/">十问 BitXHub:谈谈跨链平台的架构设计</a></li>
 <li><a href="https://github.com/meshplus/bitxhub/wiki/%E8%B7%A8%E9%93%BE%E5%90%88%E7%BA%A6%E7%BC%96%E5%86%99%E6%96%87%E6%A1%A3">跨链合约编写文档</a></li>
 <li><a href="https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/">Hyperledger Fabric Go SDK 事件分析</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>分布式系统与区块链共识机制</title><link>https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/</link><pubDate>Wed, 08 Sep 2021 11:03:55 +0800</pubDate><guid>https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/</guid><description>前言 随着互联网系统日益复杂，大多数系统都从单体架构转向分布式架构，而在区块链这样以分布式技术为基础的技术更是高度依赖数据一致性和共识机制。 本</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p>随着互联网系统日益复杂，大多数系统都从单体架构转向分布式架构，而在区块链这样以分布式技术为基础的技术更是高度依赖数据一致性和共识机制。</p>
-<p>本文将介绍分布式系统一致性、共识的概念与其在区块链中的实际应用与发展。</p>
-<h2 id="分布式系统">分布式系统</h2>
-<h3 id="一致性问题">一致性问题</h3>
-<p>随着业务场景的复杂化，同一个业务往往也由多台服务器组成集群提供服务，但如何在这些物理位置和运行状态都不同的系统中达成一致成为了分布式领域的重要问题。</p>
-<p>一般而言，分布式系统达成一致有以下三点规范：</p>
-<ol>
-<li>可终止性</li>
-<li>约同性</li>
-<li>合法性</li>
-</ol>
-<p>分布式事务需要保障能在有限的时间内达成一致的结果，该结果必须是由某个节点提出的提案且不同节点必须完成相同的决策。</p>
-<h3 id="强一致性">强一致性</h3>
-<p>想在单体应用或者各个节点的性能、网络带宽等配置在理想状况下做到这一点很容易，然而，在真实的业务场景中，要实现这样的强一致性成本非常高，需要保障系统的绝对稳定性、系统与系统之间的通讯没有延迟，此外，强一致性也会降低系统的性能和拓展性。</p>
-<p>在强一致性情况下，任何时刻所有节点中的数据都是一样的。强一致性通常又包括顺序一致性和线性一致性两种。</p>
-<h4 id="顺序一致性">顺序一致性</h4>
-<p>顺序一致性要求所有进程的全局执行顺序和各个进程自身的顺序保持一致，但并不要求物理时间上对各个进程保持全局的顺序。因此，这也是一种相对实践性较强的做法。</p>
-<h4 id="线性一致性">线性一致性</h4>
-<p>线性一致性在顺序一致增加了需要对进程间进行全局排序的规则，要求所有时刻所有进程的操作都是实时同步的。这种绝对一致性往往在实践中很难实现，需要通过全局锁或者一些复杂的同步算法实现，且往往以牺牲性能为代价。</p>
-<h3 id="弱一致性">弱一致性</h3>
-<p>而在真实的业务场景里，往往并不需要实时同步这样的绝对一致状态，因此可以容忍部分访问或在一段时间后最终达成一致。这些在某些方面弱化了的一致性称为弱一致性。</p>
-<h3 id="共识机制">共识机制</h3>
-<p>共识机制是指在分布式系统中多个节点对某个事务达成一致的机制，关于共识的达成，有以下几种理论和原则：</p>
-<ul>
-<li>FLP 不可能原理</li>
-<li>CAP 原则</li>
-<li>ACID 原则</li>
-<li>BASE 理论</li>
-<li>多阶段提交</li>
-</ul>
-<h4 id="flp-不可能原理">FLP 不可能原理</h4>
-<p>FLP 不可能原理是 Fischer、Lynch 和 Patterson 三位科学家提出的一种理论，即在一个网络可靠但允许节点失效（如停机）的异步系统中，不可能在有限时间内完成共识。</p>
-<p>异步是指系统各个节点之间的时间等存在差异性，导致无法判断消息未响应是由于节点故障还是传输过程中的故障，因此无法判断消息是否丢失。</p>
-<h4 id="cap-原则">CAP 原则</h4>
-<p>而在工程实践中，往往会弱化某一部分的需求以满足真实业务场景的需求。CAP 原则就是来解决这一问题，CAP 是指：</p>
-<ul>
-<li>Consistency，一致性</li>
-<li>Availability，可用性</li>
-<li>Partition，分区容错性</li>
-</ul>
-<p>分布式系统无法同时保障这三点，最多能保障其中两个特性，那这个原理有哪些实际应用呢？</p>
-<ol>
-<li>AP 系统，在静态网站、非实时性数据库等业务场景下，可以弱化其一致性，如新版本上线后一段时间才达成一致。</li>
-<li>CP 系统，在银行转账等对一致性要求绝对敏感的场景下，可以弱化其可用性，如当系统故障或失败时拒绝服务。</li>
-<li>AC 系统，两阶段提交和一些关系性数据库则弱化网络分区，如 ZooKeeper 等。</li>
-</ol>
-<h4 id="acid-原则">ACID 原则</h4>
-<p>分布式数据库的事务需要牺牲部分可用性来达到一致性，需要遵循 ACID 原则，具体如下：</p>
-<ul>
-<li>Atomicity，原子性。事务的所有操作要么全部执行，要么全部不执行，失败则全部回退。</li>
-<li>Consistency，一致性。事务执行前后状态需要一致，不存在中间状态。</li>
-<li>Isolation，隔离性。多个事务可以并发执行但彼此之间相互独立。</li>
-<li>Durability，持久性。状态改变是永久的。</li>
-</ul>
-<h4 id="base-原则">BASE 原则</h4>
-<p>BASE 原则是指：</p>
-<ul>
-<li>Basically Available，基本可用</li>
-<li>Soft State，软状态</li>
-<li>Eventual Consistency，最终一致</li>
-</ul>
-<p>这是一种牺牲强一致性来实现整个系统的方案，即只保障最终一致性。</p>
-<h4 id="多阶段提交">多阶段提交</h4>
-<p>两阶段提交是将事务提交过程分解为预提交和正式提交两个阶段以避免冲突，但仍然存在同步阻塞、单点故障、数据一致性等问题。</p>
-<p>TCC 事务机制则主要分为：</p>
-<ul>
-<li>Try 阶段</li>
-<li>Confirm 阶段</li>
-<li>Cancel 阶段</li>
-</ul>
-<p>在 Try 阶段对业务进行检查并预留业务资源，在 Confirm 阶段使用资源执行业务，Cancel 阶段取消执行并释放资源。这种方式是对两阶段提交多作了一些业务上的处理，但因为拆分成了三个接口进行，代码复杂性提升了。</p>
-<p>三阶段提交引入了超时机制，并在两阶段提交的第一阶段加入了一个尝试预提交环节，主要解决了单点故障和阻塞问题。</p>
-<h2 id="共识算法">共识算法</h2>
-<p>根据容错类型（是否会有恶意节点），我们把共识算法分为非拜占庭容错（Crash Fault Tolerance, CFT）和拜占庭容错（BFT, Byzantine Fault Tolerance）两种。</p>
-<h3 id="cft-crash-fault-tolerance">CFT (Crash Fault Tolerance)</h3>
-<p>分布式系统中存在故障节点但不存在错误节点的场景称为 CFT，在这种场景下，消息可能丢失或者重复，但不会错误，在这种条件下如何达成共识是真实世界中非常常见的需求。</p>
-<h4 id="paxos">Paxos</h4>
-<p>Paxos 算法原理类似于两阶段提交，设定了三种逻辑节点，提案者、接受者和学习者。由提案者提出提案，接受者对提案进行投票并接受提案，而学习者获取提案结果并广播。</p>
-<p>只有提案者提出的提案才可能会批准，而所有节点都可以竞选成为提案者，但每一轮共识只有唯一的一个提案者提提案，这种机制保障了一定的公平性。</p>
-<p>然而，Paxos 只能保障一定条件下的共识，当超过半数的节点参与时才会正常运作。</p>
-<h4 id="raft">Raft</h4>
-<p>由于 Paxos 算法实现起来比较困难，出现了许多变体，如 Fast Paxos、Multi-Paxos 等，其中比较有代表性的就是 Raft 算法。</p>
-<p>Raft 将一致性过程拆分为领导者选举、日志复制和安全性三个子问题，设定了领导者、候选者和跟随者三种逻辑节点。</p>
-<p>所有节点的初始状态都是跟随者，想参与领导者竞选则转变为候选者并提出选举请求，如超过一半票数则成功在本次任期称为领导者。</p>
-<p>领导者会处理所有请求并将日志同步至跟随者，并且会定期给所有跟随者发送心跳消息，如果出现故障，心跳消息超时未收到，则会发起新的选举过程。</p>
-<h3 id="bft-byzantine-fault-tolerance">BFT (Byzantine Fault Tolerance)</h3>
-<h4 id="byzantine-fault-tolerance-bft">Byzantine Fault Tolerance, BFT</h4>
-<p>拜占庭容错算法则主要是用来处理网络中存在恶意节点的场景，主要是对拜占庭问题的解决，在恶意节点不超过 1/3 的情况下可以有效达成共识，但复杂度非常高（指数级）。</p>
-<h4 id="practical-byzantine-fault-tolerance-pbft">Practical Byzantine Fault Tolerance, PBFT</h4>
-<p>PBFT 是对 BFT 算法的优化，采用了 RSA 签名算法、消息验证、摘要等密码学技术，结合 Paxos 等相关算法，最后将算法复杂度降到了平方级。</p>
-<p>在 PBFT 算法实现中，首先选取（随机/轮换）某个节点，设定其逻辑节点为主节点。主节点在自己的 View 内接收客户端的请求并广播（使用三阶段提交机制，见上文）至其他节点，当所有节点完成处理请求后将结果返回给客户端，如果收到了至少来自 2f + 1 个不同节点的相同结果，则共识完成。</p>
-<ul>
-<li>尝试预提交：主节点收到消息后进行签名并向其他节点广播</li>
-<li>预提交：其他节点收到消息后进行核对，合法则向签名并向其他节点广播，其他节点也进行核对</li>
-<li>正式提交：对消息签名并广播提交状态，如经过 2f + 1 个验证，则系统完成共识</li>
-</ul>
-<h4 id="其他">其他</h4>
-<p>除了 PBFT 外，PoW、PoS、HotStuff 等也广泛应用于比特币、以太坊、Libra 等区块链项目，并在不断优化中，拜占庭容错类算法因为效率不高，大多用于公有链环境，而联盟链则多采用 非拜占庭容错的方式，辅之以权限控制等方式来平衡性能和安全性。</p>
-<h2 id="总结">总结</h2>
-<p>以上就是对分布式系统与区块链共识机制的概念和实际应用总结，之后也会对各类业界投入使用的共识算法作更深入的剖析。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://book.douban.com/subject/27127839/">区块链原理、设计与应用</a></li>
-<li><a href="https://xiaomi-info.github.io/2020/01/02/distributed-transaction/">分布式事务，这一篇就够了</a></li>
-<li><a href="http://anruence.com/2018/03/05/tcc-2pc-3pc/">理解 TCC、2PC 和 3PC</a></li>
-<li><a href="https://tech.hyperchain.cn/gong-shi-zhuan-lan-gong-shi-de-fen-lei-shang/">【共识专栏】共识的分类（上）</a></li>
-<li><a href="https://tech.hyperchain.cn/gong-shi-zhuan-lan-gong-shi-de-fen-lei-xia/">【共识专栏】共识的分类（下）</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
