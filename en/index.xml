@@ -9246,6 +9246,8 @@
 <p>Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下，把之前的 <a href="https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">umami 网站数据统计系统</a> 连同 Postgre SQL 数据库实例部署在 Railway 平台，大约一个月 0.7 美元，对于个人使用来说完全足够。</p>
 <p><img src="https://image.pseudoyu.com/images/railway_price.png" alt="railway_price"></p>
 <p>比起 Vercel，它同时支持部署数据库实例，可以将数据库与实例一起部署在单个项目中，减少搭建维护成本。下文会对具体搭建部署流程做个记录，因为官方支持 Railway 一键部署方式，整个搭建流程很顺畅。</p>
+<p><strong>[2024-06-30 更新]</strong></p>
+<p>鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 Supabase 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。</p>
 <h2 id="搭建部署说明">搭建部署说明</h2>
 <h3 id="使用-railway-一键部署服务与数据库实例">使用 Railway 一键部署服务与数据库实例</h3>
 <p>首先注册一个 Railway 账号，可以用我的<a href="https://railway.app?referralCode=J0F5LQ">邀请链接</a>。注册登录完成后，点击右上角 New Project 新建项目。</p>
@@ -9378,6 +9380,8 @@
 <p>前几天看到 <a href="https://reorx.com">Reorx</a> 写的一篇 《<a href="https://reorx.com/blog/deploy-umami-for-personal-website/">搭建 umami 收集个人网站统计数据</a>》，他介绍了 <a href="https://umami.is">umami</a> 这个项目，并使用 <a href="https://railway.app">Railway</a> 进行无服务搭建部署。</p>
 <p>只不过我因为之前部署 <a href="https://cusdis.com">Cusdis</a> 的时候使用的是 <a href="https://www.heroku.com/">Heroku</a> 提供的免费 Postgres 数据库服务并用 <a href="http://vercel.com/">Vercel</a> 进行部署，于是在部署 umami 的时候还是想沿用原来的平台，减少搭建和维护成本。</p>
 <p>下文会对具体搭建部署流程做个记录，因为官方支持一键部署方式，整个搭建流程很顺畅。</p>
+<p><strong>[2024-06-30 更新]</strong></p>
+<p>后来由于 Heroku 取消了免费 Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目 + Supabase 部署 PostgreSQL 数据库实例部署的方式，把链接作为环境变量传入 Umami 服务中即可，其余流程依然适用。</p>
 <h2 id="搭建部署说明">搭建部署说明</h2>
 <h3 id="使用-heroku-创建-postgres-数据库">使用 Heroku 创建 Postgres 数据库</h3>
 <h4 id="创建-postgres-数据库">创建 Postgres 数据库</h4>
