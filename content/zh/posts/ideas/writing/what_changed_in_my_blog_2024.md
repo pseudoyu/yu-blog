@@ -3,14 +3,14 @@ title: "2024 年了，我的博客有了什么变化"
 date: 2024-06-29T13:48:58Z
 draft: false
 tags: ["hugo", "blog", "writing", "life", "remark42", "goatcounter", "webp cloud", "r2"]
-categories: ["Tools"]
+categories: ["Ideas"]
 authors:
 - "pseudoyu"
 ---
 
 ## 前言
 
-在两年前的这一篇「[2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)」，我聊到了我写博客的缘起、初衷和搭建方案。
+在两年前的这一篇「[2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/zh/2022/06/12/why_i_still_write_blog_in_2022/)」，我聊到了我写博客的缘起、初衷和搭建方案。
 
 两年多过去了，初衷仍在，写作也依然坚持下来了，虽没有完成自己所计划的周更，但多少也积淀了些文字。
 
@@ -50,11 +50,11 @@ authors:
 
 这是两年前写过的几篇关于博客搭建的文章：
 
-- [2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)
-- [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
-- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/zh/2022/06/12/why_i_still_write_blog_in_2022/)
+- [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 主要是围绕着我使用 Hugo 这一静态网页生成器（SSG）搭建个人博客及一些周边服务的一些记录，也看到很多人通过各种联系方式加到我说根据这一系列教程成功拥有了自己的博客，很开心能够为博客这一已经有些式微的创作方式做出一些小小的贡献。
 
@@ -78,7 +78,7 @@ authors:
 
 我使用 [Hugo](https://gohugo.io/) 这个静态网站生成器来搭建我的个人博客，使用并改造了一个比较 retro 的主题「[hugo-theme-den](https://github.com/shaform/hugo-theme-den)」。
 
-大体的流程可以参看「[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)」这篇文章和「[GitHub - yu-blog](https://github.com/pseudoyu/yu-blog)」这个仓库。
+大体的流程可以参看「[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)」这篇文章和「[GitHub - yu-blog](https://github.com/pseudoyu/yu-blog)」这个仓库。
 
 加了一些每天自动更新 About 页面的 GitHub Actions 自动化操作，并且由于 GitHub Pages 托管的网站从国内访问速度几乎不可用了，迁移到了 Cloudflare Pages，免费且体验感好了很多，其他几乎没什么改动了。
 
@@ -90,7 +90,7 @@ authors:
 
 在博客诞生之初直到今年四五月我一直使用的都是 [Cusdis](https://cusdis.com/)，整整用了三年。
 
-时至今日依然是十分值得推荐的方案，轻量，方便自部署，风格也简约好看，搭建教程参看「[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)」。
+时至今日依然是十分值得推荐的方案，轻量，方便自部署，风格也简约好看，搭建教程参看「[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)」。
 
 不过鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 [Supabase](https://supabase.com) 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。
 
@@ -102,7 +102,7 @@ authors:
 
 ### 数据统计系统
 
-我之前自部署了一个 Umami（参看教程「[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)」不过后来由于 Heroku 取消了免费 Plan，我最后折腾一圈，选择了 Netlify 部署服务 + Supabase 部署 PostgreSQL 数据库实例部署的方式，其余流程依然适用。
+我之前自部署了一个 Umami（参看教程「[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)」不过后来由于 Heroku 取消了免费 Plan，我最后折腾一圈，选择了 Netlify 部署服务 + Supabase 部署 PostgreSQL 数据库实例部署的方式，其余流程依然适用。
 
 ![yu_goatcounter_preview](https://image.pseudoyu.com/images/yu_goatcounter_preview.png)
 
@@ -112,7 +112,7 @@ authors:
 
 另外就是依然使用 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重。
 
-这个结果很有参考性，我发现一篇关于终端对比的文章「[Warp，iTerm2 还是 Alacritty？我的终端折腾小记](https://www.pseudoyu.com/en/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/)」让我持续不断地有通过搜索引擎来的访客，另外的就是关于个人博客和搭建的系列文章了。
+这个结果很有参考性，我发现一篇关于终端对比的文章「[Warp，iTerm2 还是 Alacritty？我的终端折腾小记](https://www.pseudoyu.com/zh/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/)」让我持续不断地有通过搜索引擎来的访客，另外的就是关于个人博客和搭建的系列文章了。
 
 ### 图床系统
 
