@@ -8433,7 +8433,8 @@
 <p>我的方案主要分为以下几个核心部分：</p>
 <ol>
 <li>个人博客源仓库，对博客配置及所有文章 <code>.md</code> 源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。</li>
-<li>GitHub Pages 博客发布仓库，以 <code>username.github.io</code> 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。</li>
+<li>（可选）GitHub Pages 博客发布仓库，以 <code>username.github.io</code> 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。</li>
+<li>（可选）Cloudflare 账户与 Cloudflare Pages 项目，</li>
 <li>Hugo 主题仓库，fork 喜欢的主题，并对自己的个人定制化改造配置进行版本管理，通过 <code>git submodule</code> 的方式链接到个人博客源仓库。</li>
 <li>其他组件源仓库，如 <a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">umami 网站数据统计</a>及 <a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">Cusdis 网站评论系统</a>等。</li>
 </ol>
@@ -8477,8 +8478,7 @@
 </span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_server.png" alt="hugo_server"></p>
 <p>运行服务后，我们可以通过浏览器 <code>http://localhost:1313</code> 地址访问我们的本地预览网页。</p>
 <p><img src="https://image.pseudoyu.com/images/hugo_server_preview.png" alt="hugo_server_preview"></p>
-<h3 id="使用-github-pages-前期准备">使用 GitHub Pages 前期准备</h3>
-<h4 id="域名购买">域名购买</h4>
+<h3 id="购买域名">购买域名</h3>
 <p>作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 <a href="https://www.cloudflare.com">Cloudflare</a>、<a href="https://www.namesilo.com">NameSilo</a>、<a href="https://www.godaddy.com">GoDaddy</a> 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。</p>
 <p>首先我们需要注册一个 Cloudflare 账户，登录后选择左侧边栏的“注册域”，并搜索自己想注册的域名。</p>
 <p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain.png" alt="cloudflare_register_domain"></p>
@@ -8490,7 +8490,79 @@
 <p><img src="https://image.pseudoyu.com/images/cloudflare_register_done.png" alt="cloudflare_register_done"></p>
 <p>等待 Cloudflare 处理后即可查看信息。</p>
 <p><img src="https://image.pseudoyu.com/images/cloudflare_domain.jpg" alt="cloudflare_domain"></p>
-<h4 id="github-pages-仓库">GitHub Pages 仓库</h4>
+<h3 id="cloudflare-pages-发布博客推荐">Cloudflare Pages 发布博客（推荐）</h3>
+<p><strong>[2024-06-30 更新]</strong></p>
+<h4 id="cloudflare-pages-介绍">Cloudflare Pages 介绍</h4>
+<p>GitHub Pages 已经是一个免费且强大的静态网站托管平台了，且可以和 GitHub 代码仓库无缝对接，但国内的访问速度不是很理想，又由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。</p>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_pages_create.png" alt="cloudflare_pages_create"></p>
+<h4 id="创建-cloudflare-pages-项目">创建 Cloudflare Pages 项目</h4>
+<p>首先我们需要注册 Cloudflare 账号，并且在左侧选择「Worker 和 Pages」菜单，点击创建项目。</p>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_pages_with_git.png" alt="cloudflare_pages_with_git"></p>
+<p>下一步会有两个选项，一个是直接把静态文件上传，还有一个是连接 git，第一种通常是适用于一些单页面或者非常低频更新从而不需要 GitHub 托管代码的项目，如一些单 html 页面的网站等；而连接 git 则能够更好地针对我们每一次的博客提交自动构建新的网页，也是我们采用的方式。</p>
+<h4 id="构建-hugo">构建 Hugo</h4>
+<p><img src="https://image.pseudoyu.com/images/yu_blog_test_build_hugo_cloudflare_pages.png" alt="yu_blog_test_build_hugo_cloudflare_pages"></p>
+<p>由于 Cloudflare Pages 提供了几乎市面上所有常用的网站构建工具，如 Next.js、Astro、Hugo 等，我们可以选择两种方式来进行部署：</p>
+<ol>
+<li>直接使用 Cloudflare Pages 提供的构建工具，直接根据仓库代码生成静态网页并部署上线</li>
+<li>以与上文 GitHub Pages 类似的方式生成静态网页的仓库或分支，通过 Cloudflare Page 直接进行部署上线</li>
+</ol>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_build_site_hugo_in_progress.png" alt="cloudflare_build_site_hugo_in_progress"></p>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_pages_build_done.png" alt="cloudflare_pages_build_done"></p>
+<p>第一种方式可以大大简化我们的部署流程，因此我们要做的只有将上文所创建的博客源仓库（如我的仓库为 <a href="https://github.com/pseudoyu/yu-blog">pseudoyu/yu-blog</a>）进行链接，每次提交就会自动构建并部署，只需要等待几十秒即可完成，而无须像 GitHub Pages 那样自己写各种构建 GitHub Actions 命令，很方便，也是最为推荐的方式。</p>
+<p>而第二种方式其实跟 GitHub Pages 的方式类似，比较适用于对于构建过程有一些特殊需求的网站，如我在构建我的个人博客网站时同时在 GitHub Actions 执行了一些 Python 在自动更新我的 About 页面，这些复杂操作就无法直接使用 Cloudflare Pages 提供的构建工具，因此我选择了第二种方式。</p>
+<p>可以在自己的博客源仓库中直接使用如下简化版的 GitHub Actions:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c"># Runs everyday at 8:00 AM</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0 0 * * *&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="l">// Other steps you want to add</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">github_token</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.GITHUB_TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">publish_dir</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">publish_branch</span><span class="p">:</span><span class="w"> </span><span class="l">cf-pages</span><span class="w">
+</span></span></span></code></pre></div><p><code>on</code> 表示 GitHub Action 触发条件，我设置了 <code>push</code>、<code>workflow_dispatch</code> 和 <code>schedule</code> 三个条件：</p>
+<ul>
+<li><code>push</code>，当这个项目仓库发生推送动作后，执行 GitHub Action</li>
+<li><code>workflow_dispatch</code>，可以在 GitHub 项目仓库的 Action 工具栏进行手动调用</li>
+<li><code>schedule</code>，定时执行 GitHub Action，如我的设置为北京时间每天早上执行，主要是使用一些自动化统计 CI 来自动更新我博客的关于页面，如本周编码时间，影音记录等，如果你不需要定时功能，可以删除这个条件</li>
+</ul>
+<p><code>jobs</code> 表示 GitHub Action 中的任务，我们设置了一个 <code>build</code> 任务，<code>runs-on</code> 表示 GitHub Action 运行环境，我们选择了 <code>ubuntu-latest</code>。我们的 <code>build</code> 任务包含了 <code>Checkout</code>、<code>Setup Hugo</code>、<code>Build Web</code> 和 <code>Deploy Web</code> 四个主要步骤，其中 <code>run</code> 是执行的命令，<code>uses</code> 是 GitHub Action 中的一个插件，我们使用了 <code>peaceiris/actions-hugo@v2</code> 和 <code>peaceiris/actions-gh-pages@v3</code> 这两个插件。其中 <code>Checkout</code> 步骤中 <code>with</code> 中配置 <code>submodules</code> 值为 <code>true</code> 可以同步博客源仓库的子模块，即我们的主题模块。</p>
+<p>以上 GitHub Actions 会将博客生成的静态文件推送到 <code>cf-pages</code> 分支，因为我们在 Cloudflare Pages 中选择该分支进行部署即可，因为如我们需要添加一些额外的步骤，可以在构建之前添加一些自定义的步骤，很灵活，具体应用可以看「<a href="https://github.com/pseudoyu/yu-blog/blob/master/.github/workflows/deploy.yml">GitHub - yu-blog/.github/workflows/deploy.yml</a>」示例。</p>
+<h4 id="配置自定义域名">配置自定义域名</h4>
+<p><img src="https://image.pseudoyu.com/images/custom_domain_yu_blog.png" alt="custom_domain_yu_blog"></p>
+<p>自定义域名也非常简单，直接在导航栏中选中自定义域，并添加想要绑定的域名。</p>
+<p><img src="https://image.pseudoyu.com/images/cf_pages_custom_domain_dns.png" alt="cf_pages_custom_domain_dns"></p>
+<p>如果是在 Cloudflare 中注册/托管的域名，可以直接选择「激活域」，会自动添加 DNS 解析，如果是其他平台的域名，则手动添加 CNAME 解析即可。</p>
+<p><img src="https://image.pseudoyu.com/images/custom_domain_wait_dns.png" alt="custom_domain_wait_dns"></p>
+<p>配置 DNS 完成后，等待生效即可。</p>
+<h3 id="github-pages-发布博客">GitHub Pages 发布博客</h3>
+<h4 id="创建仓库">创建仓库</h4>
 <p>GitHub Pages 项目需要符合 <code>username.github.io</code> 的特殊命名格式，仓库建立完成后，可以在设置中配置自己注册的自定义域名来指向 GitHub Pages 生成的网址。此外，需要将博客站点配置文件 <code>config.toml</code> 中的 <code>baseURL</code> 改为自己的自定义域名，格式为 <code>&quot;https://www.pseudoyu.com/&quot;</code>，这样博客站点才能正常访问 GitHub Pages 生成的网站服务。</p>
 <p><img src="https://image.pseudoyu.com/images/github_pages_repo.png" alt="github_pages_repo"></p>
 <h4 id="域名解析">域名解析</h4>
@@ -8498,7 +8570,6 @@
 <p><img src="https://image.pseudoyu.com/images/cloudflare_cname_config.png" alt="cloudflare_cname_config"></p>
 <p>因为 CNAME 解析没办法设置 root 域名，即只能设置 <code>www.pseudoyu.com</code> 或其他子域名，而不是 <code>pseudoyu.com</code>，因此，我们可以通过 Cloudflare 上自定义规则设置域名重定向，具体配置如下，仅需将我的域名替换成自己的域名即可。即使你是通过 NameSilo 注册的域名，也可以通过 Cloudflare 来添加站点以实现功能，或者其他托管平台也有类似的功能，按照说明配置即可。</p>
 <p><img src="https://image.pseudoyu.com/images/cloudflare_cname_rule_config.png" alt="cloudflare_cname_rule_config"></p>
-<h3 id="github-pages-发布博客">GitHub Pages 发布博客</h3>
 <p>完成上述准备工作后，我们现在已经可以通过自定义域名来访问我们的 GitHub Pages 页面了，目前因为项目仓库是空的，访问后会报 <code>404</code> 页面。</p>
 <p>我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维护服务，更稳定、安全，因此我们需要上传 Hugo 生成的静态网页文件至 GitHub Page 项目仓库。</p>
 <h4 id="手动发布">手动发布</h4>
@@ -8557,14 +8628,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.event.head_commit.message }}</span><span class="w">
-</span></span></span></code></pre></div><p><code>on</code> 表示 GitHub Action 触发条件，我设置了 <code>push</code>、<code>workflow_dispatch</code> 和 <code>schedule</code> 三个条件：</p>
-<ul>
-<li><code>push</code>，当这个项目仓库发生推送动作后，执行 GitHub Action</li>
-<li><code>workflow_dispatch</code>，可以在 GitHub 项目仓库的 Action 工具栏进行手动调用</li>
-<li><code>schedule</code>，定时执行 GitHub Action，如我的设置为北京时间每天早上执行，主要是使用一些自动化统计 CI 来自动更新我博客的关于页面，如本周编码时间，影音记录等，如果你不需要定时功能，可以删除这个条件</li>
-</ul>
-<p><code>jobs</code> 表示 GitHub Action 中的任务，我们设置了一个 <code>build</code> 任务，<code>runs-on</code> 表示 GitHub Action 运行环境，我们选择了 <code>ubuntu-latest</code>。我们的 <code>build</code> 任务包含了 <code>Checkout</code>、<code>Setup Hugo</code>、<code>Build Web</code> 和 <code>Deploy Web</code> 四个主要步骤，其中 <code>run</code> 是执行的命令，<code>uses</code> 是 GitHub Action 中的一个插件，我们使用了 <code>peaceiris/actions-hugo@v2</code> 和 <code>peaceiris/actions-gh-pages@v3</code> 这两个插件。其中 <code>Checkout</code> 步骤中 <code>with</code> 中配置 <code>submodules</code> 值为 <code>true</code> 可以同步博客源仓库的子模块，即我们的主题模块。</p>
-<p>首先需要将上述 <code>deploy.yml</code> 中的 <code>EXTERNAL_REPOSITORY</code> 改为自己的 GitHub Pages 仓库，如我的设置为 <code>pseudoyu/pseudoyu.github.io</code>。</p>
+</span></span></span></code></pre></div><p>首先需要将上述 <code>deploy.yml</code> 中的 <code>EXTERNAL_REPOSITORY</code> 改为自己的 GitHub Pages 仓库，如我的设置为 <code>pseudoyu/pseudoyu.github.io</code>。</p>
 <p>因为我们需要从博客仓库推送到外部 GitHub Pages 仓库，需要特定权限，要在 GitHub 账户下 <code>Setting - Developer setting - Personal access tokens</code> 下创建一个 Token。</p>
 <p><img src="https://image.pseudoyu.com/images/github_psersonal_access_token.png" alt="github_psersonal_access_token"></p>
 <p>权限需要开启 <code>repo</code> 与 <code>workflow</code>。</p>
