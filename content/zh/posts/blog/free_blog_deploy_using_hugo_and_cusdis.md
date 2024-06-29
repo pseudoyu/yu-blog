@@ -22,7 +22,7 @@ authors:
 
 Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。
 
-![pseudoyu_homepage](https://image.pseudoyu.com/images/pseudoyu_homepage.png)
+![yu_blog_homepage_20240629](https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png)
 
 因为 Hugo 开源社区中 [hugo-theme-den](https://github.com/shaform/hugo-theme-den) 完全在我的审美上，所以我选择了 Hugo 并在这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。
 

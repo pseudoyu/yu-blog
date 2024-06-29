@@ -107,7 +107,7 @@ authors:
 
 #### 博客搭建与自动发布系统
 
-![yu_blog_page](https://image.pseudoyu.com/images/yu_blog_page.png)
+![yu_blog_homepage_20240629](https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png)
 
 我通过 Hugo 这个静态网站生成器来搭建我的个人博客。Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。
 
