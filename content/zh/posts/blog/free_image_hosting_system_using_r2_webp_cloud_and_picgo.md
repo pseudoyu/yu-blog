@@ -175,7 +175,7 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 
 我在很长的一段时间都用了非常笨的方法，即「[TinyPNG](https://tinypng.com/)」这一在线网站的 api 配合一个开源的 macOS 客户端应用，将图片拖入其中进行压缩后再通过 PicGo 上传到图床，通常能够在图片质量损失较小的前提下减少图片 50% 以上的体积，繁琐却有效。
 
-这次更换图床方案后也开始寻找更智能的图片优化服务，想到了「[Webp Cloud](https://webp.se/)」。
+这次更换图床方案后也开始寻找更智能的图片优化服务，想到了「[WebP Cloud](https://webp.se/)」。
 
 其实了解到这一服务是去年的一个晚上和 [STRRL](https://x.com/strrlthedev) 正在杭州一个商城的电玩城里看人打音游，他给我看了 [Nova Kwok](https://x.com/n0vad3v) 的一篇博客上了 hacker news 榜首的消息，一起围观了半天，不过当时大概只知道是优化图片的服务，并没有详细了解。
 
@@ -225,11 +225,11 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 
 免费用户每天有 2000 Free Quota，即能够代理 2000 次图片访问请求，并提供 100M 的图片缓存，对于一般用户来说完全够用，如有一些流量较大的特定时期也可以购买额外 Quota，价格很便宜。
 
-如超过了 Quota，访问则会被 301 转发到源站图片地址，不经 Webp Cloud 服务压缩，但依然可用；超过 100M 的缓存则会按照 LRU 算法清理，所以依然能够保障一些高频请求的图片能够有较好的访问体验。
+如超过了 Quota，访问则会被 301 转发到源站图片地址，不经 WebP Cloud 服务压缩，但依然可用；超过 100M 的缓存则会按照 LRU 算法清理，所以依然能够保障一些高频请求的图片能够有较好的访问体验。
 
 ![yu_webp_uasge](https://image.pseudoyu.com/images/yu_webp_uasge.png)
 
-我博客的日访问量大概在 300-500 visits 左右，再加上一些 RSS 订阅和爬虫的流量，根据 Webp Cloud 统计测算来看，平日的请求大概在 4000-5000 次，发博文当天会有 10000+。
+我博客的日访问量大概在 300-500 visits 左右，再加上一些 RSS 订阅和爬虫的流量，根据 WebP Cloud 统计测算来看，平日的请求大概在 4000-5000 次，发博文当天会有 10000+。
 
 ![webp_cloud_price](https://image.pseudoyu.com/images/webp_cloud_price.png)
 
