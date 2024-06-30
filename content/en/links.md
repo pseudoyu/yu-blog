@@ -11,7 +11,7 @@ rss_ignore: true
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
 
-{{< friend name="Boyi" url="https://www.boyilu.com/" logo="https://image.pseudoyu.com/images/avatar_boyi.png" word="EXPECTO PATRONUM" >}}
+{{< friend name="Boyi" url="https://www.boyilu.com" logo="https://image.pseudoyu.com/images/avatar_boyi.png" word="EXPECTO PATRONUM" >}}
 {{< friend name="Airing" url="https://me.ursb.me" logo="https://image.pseudoyu.com/images/airing_avatar.jpg" word="Airing's Blog" >}}
 {{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://image.pseudoyu.com/images/zzhack_avatar.png" word="Mist's Blog" >}}
 {{< friend name="Kiro" url="https://kiro.cc" logo="https://image.pseudoyu.com/images/kiro_avatar.jpg" word="Salad taste like sad." >}}
@@ -36,7 +36,9 @@ rss_ignore: true
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://image.pseudoyu.com/images/lzzmm_avatar.jpg" word="日复一日 必有精进" >}}
 {{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar_new.png" word="Java 开发工程师" >}}
 {{< friend name="果汁的博客" url="https://jusu.me/" logo="https://image.pseudoyu.com/images/jusu_avatar.jpg" word="一个很无聊的人`)" >}}
+{{< friend name="Mitcher" url="https://www.huang-zifeng.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word="20 嵗，是個學生" >}}
 {{< friend name="码砖猿" url="https://codebrickape.lhzzs.top/" logo="https://codebrickape.lhzzs.top/images/author.png" word="Stay hungry. Stay foolish." >}}
+{{< friend name="1xdali's SPACE²⁰²⁴" url="https://turkeys-rest-n5a.craft.me/blog" logo="https://res.craft.do/userprofile/3ebf6a21-726e-e6f8-1395-9b43d4b87e9c/profileimage/BA1F6BC3-A2E4-45EB-9001-07C4FDFC0B78_3/cREjxarQYpzJiOr4y8jav0gK7jv1j0vqG08QdxIphKIz" word="🧑‍🎨 生活艺术家" >}}
 
 </div>
 </div>

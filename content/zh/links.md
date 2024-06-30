@@ -38,6 +38,7 @@ rss_ignore: true
 {{< friend name="果汁的博客" url="https://jusu.me/" logo="https://image.pseudoyu.com/images/jusu_avatar.jpg" word="一个很无聊的人`)" >}}
 {{< friend name="Mitcher" url="https://www.huang-zifeng.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word="20 嵗，是個學生" >}}
 {{< friend name="码砖猿" url="https://codebrickape.lhzzs.top/" logo="https://codebrickape.lhzzs.top/images/author.png" word="Stay hungry. Stay foolish." >}}
+{{< friend name="1xdali's SPACE²⁰²⁴" url="https://turkeys-rest-n5a.craft.me/blog" logo="https://res.craft.do/userprofile/3ebf6a21-726e-e6f8-1395-9b43d4b87e9c/profileimage/BA1F6BC3-A2E4-45EB-9001-07C4FDFC0B78_3/cREjxarQYpzJiOr4y8jav0gK7jv1j0vqG08QdxIphKIz" word="🧑‍🎨 生活艺术家" >}}
 
 </div>
 </div>
