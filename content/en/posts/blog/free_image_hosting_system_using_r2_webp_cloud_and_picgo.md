@@ -84,7 +84,7 @@ R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 [
 
 ![cloudflare_r2_config](https://image.pseudoyu.com/images/cloudflare_r2_config.png)
 
-首先我们需要打开「R2.dev 子域」，这是为了后续使用 PicGo 或是 Rclone 等工具进行上传时需要公网访问的地址，点击「允许访问」，并按照提示输入「allow」即可开启。
+首先我们需要打开「R2.dev 子域」，这是为了后续访问图片时需要的公网地址，点击「允许访问」，并按照提示输入「allow」即可开启。
 
 ![r2_dev_domain_allow](https://image.pseudoyu.com/images/r2_dev_domain_allow.png)
 
