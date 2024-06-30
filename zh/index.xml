@@ -42,7 +42,7 @@
 <h4 id="自定义图床域名可选">自定义图床域名（可选）</h4>
 <p>但是分配的网址比较长，不易于记忆，我们可以通过「自定义域」来绑定我们的专属域名，点击「连接域」按钮。</p>
 <p><img src="https://image.pseudoyu.com/images/r2_custom_domain_setup.png" alt="r2_custom_domain_setup"></p>
-<p>输入自己想绑定的域名，如「yu-r2-test.pseudoyu.com」，点击继续。</p>
+<p>输入自己想绑定的域名，如 <code>yu-r2-test.pseudoyu.com</code>，点击继续。</p>
 <p><img src="https://image.pseudoyu.com/images/cloudflare_r2_custom_domain.png" alt="cloudflare_r2_custom_domain"></p>
 <p><img src="https://image.pseudoyu.com/images/r2_custom_domain_dns_wait.png" alt="r2_custom_domain_dns_wait"></p>
 <p>连接域，并等待 DNS 解析生效即可。</p>
@@ -71,7 +71,7 @@
 <ul>
 <li><strong>应用密钥 ID</strong>，填写 R2 API 中的 Access Key ID（访问密钥 ID）</li>
 <li><strong>应用密钥</strong>，填写 R2 API 中的 Secret Access Key（机密访问密钥）</li>
-<li><strong>桶名</strong>，填写 R2 中创建的 Bucket 名称，如我上文的“yu-r2-test”</li>
+<li><strong>桶名</strong>，填写 R2 中创建的 Bucket 名称，如我上文的 <code>yu-r2-test</code></li>
 <li><strong>文件路径</strong>，上传到 R2 中的文件路径，我选择使用 <code>{fileName}.{extName}</code> 来保留原文件的文件名和扩展名。</li>
 <li><strong>自定义节点</strong>，填写 R2 API 中的「为 S3 客户端使用管辖权地特定的终结点」，即 <code>xxx.r2.cloudflarestorage.com</code> 格式的 S3 Endpoint</li>
 <li><strong>自定义域名</strong>，填写上文生成的 <code>xxx.r2.dev</code> 格式的域名或自定义域名，如我配置的 `yu-r2-test.pseudoyu.com</li>
@@ -79,7 +79,7 @@
 <p>其他配置保持默认即可，确认参数无误后点击「确定」与「设置为默认图床」即可。</p>
 <h4 id="图片上传">图片上传</h4>
 <p><img src="https://image.pseudoyu.com/images/upload_r2_with_picgo.png" alt="upload_r2_with_picgo"></p>
-<p>完成上述配置后，我们就可以在「上传区」直接拖入文件进行图片上传了，如上传后显示无误则为配置成功。</p>
+<p>完成上述配置后，我们就可以在「上传区」直接拖入文件进行图片上传了，如上传后显示无误则为配置成功，生成的链接会自动在系统剪贴板中，直接在需要的地方粘贴即可。</p>
 <p><img src="https://image.pseudoyu.com/images/picgo_custom_url_format.png" alt="picgo_custom_url_format"></p>
 <p>并且可以在链接格式处选择对应格式，如 URL 或是博客可用的 Markdown 格式链接等。这里我还做了一个小的配置，在左侧「PicGo 设置」 - 「自定义链接格式」中修改为 <code>![$fileName]($url)</code>，并在上传区的链接格式处选择了「Custom」，这样我上传后就会根据文件名生成以文件名为 Alt 文本的 Markdown 图片链接。</p>
 <h3 id="webp-cloud-图片优化">WebP Cloud 图片优化</h3>
