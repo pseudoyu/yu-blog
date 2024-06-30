@@ -66,9 +66,9 @@
 <p>于是在线路还不错的搬瓦工服务器上自建了 Chevereto 图床，同样配合 PicGo 的插件进行上传，稳稳地用了一年半。但自己对于自部署服务的稳定性和数据的珍贵性还是有些大意，前几天服务器突然挂了，内核报错直接无法重启，服务挂了倒还好说，但是我这一年半多的数据没有备份，也无法导出。</p>
 <p>工单联系技术支持，一天只回复了我两次，一次让我重启，一次建议我聘请一个网络管理员排查。只能自力更生，翻遍了网上各种方案，折腾了一天终于算是解决了，但这一次的教训让我对与有重要数据的服务部分和自部署稳定程度都有了全新的认识，于是不敢再用原方案。</p>
 <p><img src="https://image.pseudoyu.com/images/yu_webp.png" alt="yu_webp"></p>
-<p>最后采用了 <a href="https://www.cloudflare.com/en-gb/developer-platform/r2/">Cloudflare R2</a> 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。不过免费版的线路对于国内访问比较一般，于是又加了一个「<a href="https://webp.se/">WebP Cloud</a>」服务进行代理，虽然速度肯定还是比不上国内的阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。</p>
+<p>最后采用了 <a href="https://www.cloudflare.com/en-gb/developer-platform/r2/">Cloudflare R2</a> 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。为了优化用户的访问，又使用了一个「<a href="https://webp.se/">WebP Cloud</a>」服务对 R2 的图片进行代理，在代理层面进一步减小图片体积，虽然对于国内用户来说速度肯定还是比不上阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。</p>
 <p><img src="https://image.pseudoyu.com/images/yu_picgo_pics.png" alt="yu_picgo_pics"></p>
-<p>上传则是使用了 TinyPNG 的客户端配合 api 进行压缩，并且通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。</p>
+<p>在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。这篇图床搭建教程链接也会在更新后追加。</p>
 <p>这篇图床搭建教程链接也会在更新后追加。</p>
 <h3 id="内容搜索">内容搜索</h3>
 <p><img src="https://image.pseudoyu.com/images/search_in_my_blog.png" alt="search_in_my_blog"></p>
