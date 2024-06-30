@@ -203,7 +203,7 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 
 - 为了优化国内访问，我「Proxy Region」选择的是美西「Hillsboro, OR」区域
 - 「Proxy Name」填写一个自定义名称即可
-- 「Proxy Origin URL 比较重要，需要填写上文我们配置好的 R2 自定义域名，如我填写的是 `yu-r2-test.pseudoyu.com`，如果没配置自定义域名则填写 R2 提供的 `xxx.r2.dev` 格式的域名
+- 「Proxy Origin URL」，比较重要，需要填写上文我们配置好的 R2 自定义域名，如我填写的是 `yu-r2-test.pseudoyu.com`，如果没配置自定义域名则填写 R2 提供的 `xxx.r2.dev` 格式的域名
 
 ![yu_webp_test](https://image.pseudoyu.com/images/yu_webp_test.png)
 
