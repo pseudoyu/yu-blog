@@ -132,7 +132,11 @@ authors:
 
 ![yu_picgo_pics](https://image.pseudoyu.com/images/yu_picgo_pics.png)
 
-在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。这篇图床搭建教程链接也会在更新后追加。
+在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。
+
+图床搭建教程见这篇：
+
+- [从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
 
 ### 内容搜索
 
