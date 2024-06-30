@@ -96,7 +96,7 @@ R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 [
 
 ![r2_custom_domain_setup](https://image.pseudoyu.com/images/r2_custom_domain_setup.png)
 
-输入自己想绑定的域名，如「yu-r2-test.pseudoyu.com」，点击继续。
+输入自己想绑定的域名，如 `yu-r2-test.pseudoyu.com`，点击继续。
 
 ![cloudflare_r2_custom_domain](https://image.pseudoyu.com/images/cloudflare_r2_custom_domain.png)
 
@@ -150,7 +150,7 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 
 - **应用密钥 ID**，填写 R2 API 中的 Access Key ID（访问密钥 ID）
 - **应用密钥**，填写 R2 API 中的 Secret Access Key（机密访问密钥）
-- **桶名**，填写 R2 中创建的 Bucket 名称，如我上文的“yu-r2-test”
+- **桶名**，填写 R2 中创建的 Bucket 名称，如我上文的 `yu-r2-test`
 - **文件路径**，上传到 R2 中的文件路径，我选择使用 `{fileName}.{extName}` 来保留原文件的文件名和扩展名。
 - **自定义节点**，填写 R2 API 中的「为 S3 客户端使用管辖权地特定的终结点」，即 `xxx.r2.cloudflarestorage.com` 格式的 S3 Endpoint
 - **自定义域名**，填写上文生成的 `xxx.r2.dev` 格式的域名或自定义域名，如我配置的 `yu-r2-test.pseudoyu.com
@@ -161,7 +161,7 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 
 ![upload_r2_with_picgo](https://image.pseudoyu.com/images/upload_r2_with_picgo.png)
 
-完成上述配置后，我们就可以在「上传区」直接拖入文件进行图片上传了，如上传后显示无误则为配置成功。
+完成上述配置后，我们就可以在「上传区」直接拖入文件进行图片上传了，如上传后显示无误则为配置成功，生成的链接会自动在系统剪贴板中，直接在需要的地方粘贴即可。
 
 ![picgo_custom_url_format](https://image.pseudoyu.com/images/picgo_custom_url_format.png)
 
