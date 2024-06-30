@@ -128,11 +128,11 @@ authors:
 
 ![yu_webp](https://image.pseudoyu.com/images/yu_webp.png)
 
-最后采用了 [Cloudflare R2](https://www.cloudflare.com/en-gb/developer-platform/r2/) 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。不过免费版的线路对于国内访问比较一般，于是又加了一个「[WebP Cloud](https://webp.se/)」服务进行代理，虽然速度肯定还是比不上国内的阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。
+最后采用了 [Cloudflare R2](https://www.cloudflare.com/en-gb/developer-platform/r2/) 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。为了优化用户的访问，又使用了一个「[WebP Cloud](https://webp.se/)」服务对 R2 的图片进行代理，在代理层面进一步减小图片体积，虽然对于国内用户来说速度肯定还是比不上阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。
 
 ![yu_picgo_pics](https://image.pseudoyu.com/images/yu_picgo_pics.png)
 
-上传则是使用了 TinyPNG 的客户端配合 api 进行压缩，并且通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。
+在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。这篇图床搭建教程链接也会在更新后追加。
 
 这篇图床搭建教程链接也会在更新后追加。
 
