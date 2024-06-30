@@ -192,7 +192,11 @@
 <p><img src="https://image.pseudoyu.com/images/yu_webp.png" alt="yu_webp"></p>
 <p>最后采用了 <a href="https://www.cloudflare.com/en-gb/developer-platform/r2/">Cloudflare R2</a> 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。为了优化用户的访问，又使用了一个「<a href="https://webp.se/">WebP Cloud</a>」服务对 R2 的图片进行代理，在代理层面进一步减小图片体积，虽然对于国内用户来说速度肯定还是比不上阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。</p>
 <p><img src="https://image.pseudoyu.com/images/yu_picgo_pics.png" alt="yu_picgo_pics"></p>
-<p>在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。这篇图床搭建教程链接也会在更新后追加。</p>
+<p>在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。</p>
+<p>图床搭建教程见这篇：</p>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a></li>
+</ul>
 <h3 id="内容搜索">内容搜索</h3>
 <p><img src="https://image.pseudoyu.com/images/search_in_my_blog.png" alt="search_in_my_blog"></p>
 <p>之前我的博客是没有内容搜索功能的，本来文章也不多，再加上静态博客没有后端，实现起来感觉也不容易，于是一直没支持。但随着后来有时候要查阅自己之前的文章只能用 VS Code 在一堆 markdown 文件中搜索的体验后，觉得还是很有必要的。</p>
