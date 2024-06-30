@@ -36,7 +36,7 @@
 <p>点击「创建存储桶」按钮即完成创建，此时我们已经可以向我们的「yu-r2-test」存储桶上传文件了，可以选择在网页直接上传文件或文件夹。</p>
 <p>也可以使用 S3 API 进行上传，我们后续使用 PicGo 客户端进行上传就依赖这种方式，但需要进行一些额外配置，点击导航栏「设置」选项进行配置。</p>
 <p><img src="https://image.pseudoyu.com/images/cloudflare_r2_config.png" alt="cloudflare_r2_config"></p>
-<p>首先我们需要打开「R2.dev 子域」，这是为了后续使用 PicGo 或是 Rclone 等工具进行上传时需要公网访问的地址，点击「允许访问」，并按照提示输入「allow」即可开启。</p>
+<p>首先我们需要打开「R2.dev 子域」，这是为了后续访问图片时需要的公网地址，点击「允许访问」，并按照提示输入「allow」即可开启。</p>
 <p><img src="https://image.pseudoyu.com/images/r2_dev_domain_allow.png" alt="r2_dev_domain_allow"></p>
 <p>完成后会显示一个以 <code>r2.dev</code> 结尾的公网网址，即我们后续访问图片的网址。</p>
 <h4 id="自定义图床域名可选">自定义图床域名（可选）</h4>
