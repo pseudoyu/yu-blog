@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-在「[2024 年了，我的博客有了什么变化](https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/)」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。
+在「[2024 年了，我的博客有了什么变化](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。
 
 本篇是关于图床系统的解决方案。
 
