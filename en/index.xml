@@ -86,7 +86,7 @@
 <p>至此我们已经完成了整个图床的搭建、配置和上传，但通常我们本地截图或是相机拍摄的图片体积较大，对于访客来说加载时间会较长，并不直接适合互联网发布。</p>
 <p><img src="https://image.pseudoyu.com/images/tiny_png_compress.png" alt="tiny_png_compress"></p>
 <p>我在很长的一段时间都用了非常笨的方法，即「<a href="https://tinypng.com/">TinyPNG</a>」这一在线网站的 api 配合一个开源的 macOS 客户端应用，将图片拖入其中进行压缩后再通过 PicGo 上传到图床，通常能够在图片质量损失较小的前提下减少图片 50% 以上的体积，繁琐却有效。</p>
-<p>这次更换图床方案后也开始寻找更智能的图片优化服务，想到了「<a href="https://webp.se/">Webp Cloud</a>」。</p>
+<p>这次更换图床方案后也开始寻找更智能的图片优化服务，想到了「<a href="https://webp.se/">WebP Cloud</a>」。</p>
 <p>其实了解到这一服务是去年的一个晚上和 <a href="https://x.com/strrlthedev">STRRL</a> 正在杭州一个商城的电玩城里看人打音游，他给我看了 <a href="https://x.com/n0vad3v">Nova Kwok</a> 的一篇博客上了 hacker news 榜首的消息，一起围观了半天，不过当时大概只知道是优化图片的服务，并没有详细了解。</p>
 <p>于是又去打开了官网「<a href="https://webp.se/">webp.se</a>」看了一下更为详细的介绍。</p>
 <p><img src="https://image.pseudoyu.com/images/webp_se_intro.png" alt="webp_se_intro"></p>
@@ -114,9 +114,9 @@
 <p>需要注意的是，由于我们最终需要放在博客中的图片是经过 WebP Cloud 代理过的链接，所以需要回到 PicGo 的「图床设置」中，将「自定义域名」改为我们刚配置的 WebP Cloud 代理地址，即格式为 <code>xxx.webp.li</code> 的代理链接或其他自定义域名。</p>
 <h4 id="webp-cloud-用量">WebP Cloud 用量</h4>
 <p>免费用户每天有 2000 Free Quota，即能够代理 2000 次图片访问请求，并提供 100M 的图片缓存，对于一般用户来说完全够用，如有一些流量较大的特定时期也可以购买额外 Quota，价格很便宜。</p>
-<p>如超过了 Quota，访问则会被 301 转发到源站图片地址，不经 Webp Cloud 服务压缩，但依然可用；超过 100M 的缓存则会按照 LRU 算法清理，所以依然能够保障一些高频请求的图片能够有较好的访问体验。</p>
+<p>如超过了 Quota，访问则会被 301 转发到源站图片地址，不经 WebP Cloud 服务压缩，但依然可用；超过 100M 的缓存则会按照 LRU 算法清理，所以依然能够保障一些高频请求的图片能够有较好的访问体验。</p>
 <p><img src="https://image.pseudoyu.com/images/yu_webp_uasge.png" alt="yu_webp_uasge"></p>
-<p>我博客的日访问量大概在 300-500 visits 左右，再加上一些 RSS 订阅和爬虫的流量，根据 Webp Cloud 统计测算来看，平日的请求大概在 4000-5000 次，发博文当天会有 10000+。</p>
+<p>我博客的日访问量大概在 300-500 visits 左右，再加上一些 RSS 订阅和爬虫的流量，根据 WebP Cloud 统计测算来看，平日的请求大概在 4000-5000 次，发博文当天会有 10000+。</p>
 <p><img src="https://image.pseudoyu.com/images/webp_cloud_price.png" alt="webp_cloud_price"></p>
 <p>所以目前先选择了 Lite 计划，配合一些额外用量来 Cover 高峰流量，打算再观察一阵子看看。</p>
 <h2 id="总结">总结</h2>
