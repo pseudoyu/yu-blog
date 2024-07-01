@@ -82,7 +82,7 @@
 <p>但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「<a href="https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a>」。</p>
 <p><img src="https://image.pseudoyu.com/images/rclone_service.jpg" alt="rclone_service"></p>
 <p>至于现有的数据传到 <code>r2</code>，我则是使用了 <code>rclone</code> 来进行上传，彻底完成迁移，大功告成！</p>
-<p>也开始重新考虑了服务部署、数据安全等问题，准备还是将一些重要的数据上云而不在依赖单机，也继续把一些服务迁移到 <a href="https://fly.io">fly.io</a><a href="https://zeabur.com/">、Zeabur</a> 等 serverless 平台。</p>
+<p>也开始重新考虑了服务部署、数据安全等问题，准备还是将一些重要的数据上云而不再依赖单机，也继续把一些服务迁移到 <a href="https://fly.io">fly.io</a><a href="https://zeabur.com/">、Zeabur</a> 等 serverless 平台。</p>
 <h2 id="有趣的事与物">有趣的事与物</h2>
 <h3 id="博主">博主</h3>
 <ul>
