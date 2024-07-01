@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Markdown   6 hrs 39 mins  ████████▌░░░░░░░░░░░░  40.5%
-Go         3 hrs 23 mins  ████▎░░░░░░░░░░░░░░░░  20.6%
-Rust       2 hrs 35 mins  ███▎░░░░░░░░░░░░░░░░░  15.8%
-Solidity   1 hr 23 mins   █▊░░░░░░░░░░░░░░░░░░░   8.4%
-Bash       25 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.6%
+Markdown   15 hrs 40 mins █████████████▏░░░░░░░  63.0%
+Go         3 hrs 23 mins  ██▊░░░░░░░░░░░░░░░░░░  13.6%
+Rust       2 hrs 17 mins  █▉░░░░░░░░░░░░░░░░░░░   9.2%
+Solidity   1 hr 23 mins   █▏░░░░░░░░░░░░░░░░░░░   5.6%
+Makefile   21 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.4%
 ```
 
 <!-- code_time ends -->
