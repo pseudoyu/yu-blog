@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 01 Jul 2024 08:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人</title><link>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</link><pubDate>Mon, 01 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-06-24 到 2024-06-30 这周生活的记录与思考。 一次不愉快的订花和维权体验，思考了商家与消费者的关系，以及</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 01 Jul 2024 15:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>当云服务器崩溃时，我是如何救援重要数据的</title><link>https://www.pseudoyu.com/zh/2024/07/01/rescue_my_data_from_a_crashed_server/</link><pubDate>Mon, 01 Jul 2024 15:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/01/rescue_my_data_from_a_crashed_server/</guid><description>前言 周五的时候我在搬瓦工平台购买的 2C2G 服务器突然内核报错，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>周五的时候我在搬瓦工平台购买的 2C2G 服务器突然内核报错，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余悸，记录一下救援过程，顺便折腾了一套新的图床方案。</p>
+<h2 id="服务器救援">服务器救援</h2>
+<p>这台服务器大约已经稳定运行了一年半，运行了我许多重要服务，还有我博客图床的一千多张无备份的图片通过 Docker Volume 持久化在主机上。</p>
+<h3 id="服务器宕机">服务器宕机</h3>
+<p>其实我至今仍不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 实例的镜像版本，于是想着干脆把所有服务都更新到最新吧，于是一通 <code>docker pull</code> 和 <code>docker-compose</code> 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个类似 <code>not enough space</code> 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 <code>docker image prune --all</code>、<code>docker volume prune</code> 和 <code>docker system prune</code> 操作，释放出了接近 10G 的空间，重试，依然不行。</p>
+<p>作为一个有且仅有一点服务器运维经验的开发来说，我第一反应想到的就是重启，未曾想，这才是一天噩梦的开始。</p>
+<p><img src="https://image.pseudoyu.com/images/uptime_kuma_status.png" alt="uptime_kuma_status"></p>
+<p>没想到重启后我的 Uptime Kuma 提醒我所有服务都下线了，也无法再通过 ssh 连上机子了。</p>
+<p><img src="https://image.pseudoyu.com/images/bwg_kernel_panic.jpg" alt="bwg_kernel_panic"></p>
+<p>于是赶紧登录到搬瓦工的线上控制台，发现内核报错，无法启动，强制重启也依然不生效，于是先提交了一个工单，并且赶紧求援我的 DevOps 朋友们。</p>
+<h3 id="拯救数据">拯救数据</h3>
+<p><img src="https://image.pseudoyu.com/images/ask_strrl_about_vps.png" alt="ask_strrl_about_vps"></p>
+<p>STRRL 说应该 <code>rootfs</code> 出现了问题，不过鉴于这种小云厂商并没有提供什么高级启动等额外的功能，只能等官方技术支持处理了，但想到我有一年半毫无备份的图床数据在上面，依然很慌，于是开始想办法抢救数据。</p>
+<p><img src="https://image.pseudoyu.com/images/bwg_vps_snapshot.png" alt="bwg_vps_snapshot"></p>
+<p>研究了一下搬瓦工的控制台，发现它提供一个大约每周一次的备份，并且可以一键将备份转为快照，最近的一次在 6.22 日，还好。我首先想到的是直接通过快照恢复机器，如果是我今天的操作导致了什么配置问题，那理应一周前的快照是能正常启动的，于是满怀信心地等待了十几分钟的快照恢复，结果依然报了同样的错误。依然不死心，把 6.15 的备份也恢复了一下，依然不行。</p>
+<p>这下意识到了事情的严重性，甚至做好了数据全部丢失的最坏打算，但在等待工单回复时开始检索类似情况，最后发现搬瓦工机器的快照镜像是可以下载的，并找到了一篇「<a href="https://www.bandwagonhost.net/7558.html">搬瓦工备份快照镜像文件 .tar.gz 下载解压后打开 .disk 文件查看数据教程</a>」。</p>
+<p>于是先下载了快照镜像，得到了一个 <code>.disk</code> 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 <code>vboxmanage convertfromraw</code> 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装并且执行转换，得到了一个 <code>.vmdk</code> 文件。</p>
+<p>转换完成后将这个 <code>.vmdk</code> 作为一个磁盘挂载到 Virtual Box CentOS 虚拟机上，发现依然报同样的错误。</p>
+<p><img src="https://image.pseudoyu.com/images/7zip_format.png" alt="7zip_format"></p>
+<p>于是另辟蹊径，发现 <a href="https://arc.net/l/quote/tirhqejc">7-Zip</a> 软件支持常见虚拟机格式的解压，但客户端只有 Windows 版本。</p>
+<p><img src="https://image.pseudoyu.com/images/x7z_vmdk_x.jpg" alt="x7z_vmdk_x"></p>
+<p>虽然按理说可以在 macOS 上使用命令行版本 <a href="https://github.com/p7zip-project/p7zip">p7zip</a> 来执行，但我解压时会报错，所以又堵住了一条路，想了个曲线救国的方式，通过虚拟机下载了一个 Win11，下载了 7-Zip 软件直接解压成功了。</p>
+<p><img src="https://image.pseudoyu.com/images/fuse_load_img.png" alt="fuse_load_img"></p>
+<p>问题又来了，得到的是 <code>1.img</code>、<code>2.img</code> 这样格式的 Linux 磁盘镜像文件，macOS 上无法加载，又问了我司运维朋友，折腾了一下 fuse 但是还是无法加载。</p>
+<p><img src="https://image.pseudoyu.com/images/ufs_load_img_log.jpg" alt="ufs_load_img_log"></p>
+<p>期间倒也是有好消息，在全网搜罗的时候发现了一个数据恢复软件 UFS Explorer，尝试了一下可以正常加载，只是超过 768k 的文件则需要付费，当然没打算，只是看到文件确实是可以识读之后心里就安心了许多，至少数据还在，剩下都是技术问题了。</p>
+<p><img src="https://image.pseudoyu.com/images/bwg_reply.png" alt="bwg_reply"></p>
+<p>期间搬瓦工的工单也恢复了，让我重启或重装试试。。。🤣</p>
+<p><img src="https://image.pseudoyu.com/images/str_orbstack_img.png" alt="str_orbstack_img"></p>
+<p>放弃了工单沟通，继续抢救我 <code>img</code> 中的数据，万能的 STRRL 告诉我 OrbStack 可以启动一个 Linux Machine，然后可以把这个 <code>img</code> 作为一个 Linux 磁盘挂载上去。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo losetup -fP 1.img
+</span></span><span class="line"><span class="cl">mkdir /mnt/bwg
+</span></span><span class="line"><span class="cl">sudo mount /dev/loop0 /mnt/bwg
+</span></span></code></pre></div><p>通过以上命令成功把我的 <code>img</code> 磁盘镜像挂载到了 OrbStack 的 Ununtu 机器上。</p>
+<p><img src="https://image.pseudoyu.com/images/rescue_image_from_bwg_img.png" alt="rescue_image_from_bwg_img"></p>
+<p>当我看到我的图片出现在命令行输出结果时，感动得都快流泪了 😭。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar -czvf cheverto_chevereto_images.tar.gz cheverto_chevereto_images/
+</span></span><span class="line"><span class="cl">rsync -acvP ./cheverto_chevereto_images.tar.gz pseudoyu@<span class="o">[</span>yu-mac-studio<span class="o">]</span>:~/Downloads/
+</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/rsync_service.jpg" alt="rsync_service"></p>
+<p>紧接着赶紧打个 <code>tar</code> 包，然后通过 <code>rsync</code> 传到了我本地的 Mac 上，本机解压后，终于看到了我所有的图片。</p>
+<h3 id="迁移图床系统至-r2">迁移图床系统至 r2</h3>
+<p>但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「<a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a>」。</p>
+<p><img src="https://image.pseudoyu.com/images/rclone_service.jpg" alt="rclone_service"></p>
+<p>至于现有的数据传到 <code>r2</code>，我则是使用了 <code>rclone</code> 来进行上传，彻底完成迁移，大功告成！</p>
+<h2 id="总结">总结</h2>
+<p>也开始重新考虑了服务部署、数据安全等问题，准备还是将一些重要的数据上云而不再依赖单机，也继续把一些服务迁移到 <a href="https://fly.io">fly.io</a><a href="https://zeabur.com/">、Zeabur</a> 等 serverless 平台。</p>
+]]></content:encoded></item><item><title>周报 #63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人</title><link>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</link><pubDate>Mon, 01 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-06-24 到 2024-06-30 这周生活的记录与思考。 一次不愉快的订花和维权体验，思考了商家与消费者的关系，以及</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -10278,181 +10325,6 @@
 <li><a href="https://splitbee.io">splitbee 官方网站</a></li>
 <li><a href="https://search.google.com/search-console">Google Console 官方网站</a></li>
 <li><a href="https://www.cloudflare.com">Cloudflare 官方网站</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>[译] 理解并用 Go 语言实现一个 HTTP 中间件</title><link>https://www.pseudoyu.com/zh/2022/02/15/building_middlewares_with_golang/</link><pubDate>Tue, 15 Feb 2022 18:24:01 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/02/15/building_middlewares_with_golang/</guid><description>简介 当运行在不同计算机上的客户端与服务器进行通信时，就需要使用中间件。通过本文，读者将会了解什么是中间件、中间件使用场景以及它们是如何在 Go 语</description><content:encoded><![CDATA[<h2 id="简介">简介</h2>
-<p>当运行在不同计算机上的客户端与服务器进行通信时，就需要使用中间件。通过本文，读者将会了解什么是中间件、中间件使用场景以及它们是如何在 Go 语言中构建的。</p>
-<h3 id="什么是-http-中间件">什么是 HTTP 中间件</h3>
-<p>为了更好理解 HTTP 中间件是什么，先要解释一些基本概念。假如一个开发者想要建立两台计算机之间的通信（其中一台计算机为另一台提供资源或服务），他将会构建一个 client/server 系统来实现。服务器等待客户端请求资源或服务，并将请求的资源转发给客户端作为响应。请求的资源或服务可能为：</p>
-<ul>
-<li>客户端身份校验</li>
-<li>确认客户端对服务器提供的特定服务是否有访问权限</li>
-<li>提供服务</li>
-<li>保障数据安全，确保客户端无法访问未授权数据，防止数据被窃取</li>
-</ul>
-<p>服务器分为无状态和有状态两类，无状态服务器不关心客户端通信状态，而有状态服务器则关心。</p>
-<p>中间件是一种将软件或企业应用连接到另一个软件应用，并构成分布式系统的软件实体。HTTP 请求被发送到 API 服务器，而服务器向客户端返回 HTTP 响应。</p>
-<p>中间件具备接收请求功能，可以在请求到达处理方法之前对其进行预处理。然后，它将处理具体方法，并将其响应结果发送给客户端。</p>
-<h2 id="中间件使用场景">中间件使用场景</h2>
-<p>最常见的使用场景为：</p>
-<ul>
-<li>日志记录器，用于记录每个 REST API 访问请求</li>
-<li>验证用户 session，并保持通信存活</li>
-<li>用户鉴权</li>
-<li>编写自定义逻辑以抽取请求数据</li>
-<li>为客户端提供服务时将属性附在响应信息</li>
-</ul>
-<h2 id="中间件-handlers">中间件 Handlers</h2>
-<p>在 Go 语言中，中间件 Handler 是封装另一个 <code>http.Handler</code> 以对请求进行预处理或后续处理的 <code>http.Handler</code>。它介于 Go Web 服务器与实际的处理程序之间，因此被称为“中间件”。</p>
-<p><img src="https://image.pseudoyu.com/images/go_middleware_handlers.png" alt="go_middleware_handlers"></p>
-<p>下面是一个基本的中间件 Handler：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;fmt&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;net/http&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">middleware</span><span class="p">(</span><span class="nx">handler</span> <span class="nx">http</span><span class="p">.</span><span class="nx">Handler</span><span class="p">)</span> <span class="nx">http</span><span class="p">.</span><span class="nx">Handler</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nx">http</span><span class="p">.</span><span class="nf">HandlerFunc</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">         <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Executing middleware before request phase!&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">         <span class="c1">// 将控制权交回 Handler
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>         <span class="nx">handler</span><span class="p">.</span><span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span><span class="p">,</span> <span class="nx">r</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">         <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Executing middleware after response phase!&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">     <span class="p">})</span>
-</span></span><span class="line"><span class="cl"> <span class="p">}</span>
-</span></span><span class="line"><span class="cl"> <span class="kd">func</span> <span class="nf">mainLogic</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">     <span class="c1">// 业务逻辑
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Executing mainHandler...&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">w</span><span class="p">.</span><span class="nf">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&#34;OK&#34;</span><span class="p">))</span> <span class="p">}</span> <span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">     <span class="c1">// HandlerFunc 返回 HTTP Handler
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="nx">mainLogicHandler</span> <span class="o">:=</span> <span class="nx">http</span><span class="p">.</span><span class="nf">HandlerFunc</span><span class="p">(</span><span class="nx">mainLogic</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">http</span><span class="p">.</span><span class="nf">Handle</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nf">middleware</span><span class="p">(</span><span class="nx">mainLogicHandler</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:8000&#34;</span><span class="p">,</span> <span class="kc">nil</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>在终端运行代码，得到以下输出结果：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">go run middleware.go
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Executing middleware before request phase!
-</span></span><span class="line"><span class="cl">Executing mainHandler...
-</span></span><span class="line"><span class="cl">Executing middleware after response phase!
-</span></span></code></pre></div><h3 id="日志中间件-handler">日志中间件 Handler</h3>
-<p>为了更好讲解日志中间件 Handler 是如何工作的，我们将实际构建一个并执行一些方法。以下示例创建了两个中间件 Handler：<code>middlewareGreetingsHandler</code> 和 <code>middlewareTimeHandler</code>。Gorilla Mux 路由的 <code>HandleFunc()</code> 方法用于处理中间件方法。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;fmt&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;log&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;net/http&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;os&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;time&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">middlewareGreetingsHandler</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">w</span><span class="p">.</span><span class="nf">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&#34;Happy New Year, 2022!&#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">middlewareTimeHandler</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">curTime</span> <span class="o">:=</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">().</span><span class="nf">Format</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">Kitchen</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">w</span><span class="p">.</span><span class="nf">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Sprintf</span><span class="p">(</span><span class="s">&#34;the current time is %v&#34;</span><span class="p">,</span> <span class="nx">curTime</span><span class="p">)))</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">addr</span> <span class="o">:=</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;ADDR&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nx">mux</span> <span class="o">:=</span> <span class="nx">http</span><span class="p">.</span><span class="nf">NewServeMux</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mux</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/v1/greetings&#34;</span><span class="p">,</span> <span class="nx">middlewareHelloHandler</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mux</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/v1/time&#34;</span><span class="p">,</span> <span class="nx">middlewareTimeHandler</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;server is listening at %s&#34;</span><span class="p">,</span> <span class="nx">addr</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Fatal</span><span class="p">(</span><span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="nx">addr</span><span class="p">,</span> <span class="nx">mux</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>先设置 ADDR 环境变量为空闲端口，并执行 <code>go run main.go</code> 命令来运行服务：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">ADDR</span><span class="o">=</span>localhost:8080
-</span></span><span class="line"><span class="cl">go run main.go
-</span></span></code></pre></div><p>服务运行成功后，在浏览器中访问 <code>localhost:8080/v1/greetings</code> 查看 <code>middlewareGreetingsHandler</code> 的响应信息，访问 <code>localhost:8080/v1/time</code> 查看 <code>middlewareTimeHandler</code> 的响应信息。完成后，我们需要创建日志中间件来记录所有服务访问请求信息，列举请求方法、资源路径以及处理时间。首先我们要初始化一个新的结构体来实现 <code>http.Handler</code> 接口的 <code>ServeHTTP()</code> 方法。这个结构体将会有一个字段来追溯进程调用中的 <code>http.Handler</code>。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// 创建一个名为 Logger 的请求日志中间件 Handler 结构体
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">type</span> <span class="nx">Logger</span> <span class="kd">struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">handler</span> <span class="nx">http</span><span class="p">.</span><span class="nx">Handler</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// ServeHTTP 将请求传递给真正的 Handler 并记录请求细节
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">l</span> <span class="o">*</span><span class="nx">Logger</span><span class="p">)</span> <span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">start</span> <span class="o">:=</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">l</span><span class="p">.</span><span class="nx">handler</span><span class="p">.</span><span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span><span class="p">,</span> <span class="nx">r</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%s %s %v&#34;</span><span class="p">,</span> <span class="nx">r</span><span class="p">.</span><span class="nx">Method</span><span class="p">,</span> <span class="nx">r</span><span class="p">.</span><span class="nx">URL</span><span class="p">.</span><span class="nx">Path</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Since</span><span class="p">(</span><span class="nx">start</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// NewLogger 构造了一个新的日志中间件 Handler
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">func</span> <span class="nf">NewLogger</span><span class="p">(</span><span class="nx">handlerToWrap</span> <span class="nx">http</span><span class="p">.</span><span class="nx">Handler</span><span class="p">)</span> <span class="o">*</span><span class="nx">Logger</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">Logger</span><span class="p">{</span><span class="nx">handlerToWrap</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p><code>NewLogger()</code> 接收 <code>http.Handler</code>，并返回一个新的封装后的 <code>Logger</code> 实例。由于 <code>http.ServeMux</code> 满足 <code>http.Handler</code> 接口，可以使用日志中间件封装整个 mux。除此之外，由于 <code>Logger</code> 实现了 <code>ServeHTTP()</code> 方法并满足 <code>http.Handler</code> 接口，它也可以被传递至 <code>http.ListenAndServe()</code> 方法而非封装 mux。最后，修改 <code>main()</code> 方法：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">addr</span> <span class="o">:=</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;ADDR&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nx">mux</span> <span class="o">:=</span> <span class="nx">http</span><span class="p">.</span><span class="nf">NewServeMux</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mux</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/v1/greetings&#34;</span><span class="p">,</span> <span class="nx">middlewareGreetingsHandler</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">mux</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/v1/time&#34;</span><span class="p">,</span> <span class="nx">middlewareTimeHandler</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 使用日志中间件封装 mux
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">wrappedMux</span> <span class="o">:=</span> <span class="nf">NewLogger</span><span class="p">(</span><span class="nx">mux</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;server is listening at %s&#34;</span><span class="p">,</span> <span class="nx">addr</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// 使用 wrappedMux 而不是 mux 作为根 handler
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">log</span><span class="p">.</span><span class="nf">Fatal</span><span class="p">(</span><span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="nx">addr</span><span class="p">,</span> <span class="nx">wrappedMux</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>重新启动服务并请求 API，不论请求路径是什么，所有的请求日志都会展示在终端。</p>
-<h2 id="使用-gorillas-handlers-中间件进行日志记录">使用 Gorilla&rsquo;s <code>Handlers</code> 中间件进行日志记录</h2>
-<p>Gorilla Mux 路由有一个 <code>Handlers</code> 包，为常见任务提供各种中间件，包括：</p>
-<ul>
-<li><code>LoggingHandler</code>：以 Apache 通用日志格式进行记录</li>
-<li><code>CompressionHandler</code>：压缩响应信息</li>
-<li><code>RecoveryHandler</code>: 从 panic 错误中恢复</li>
-</ul>
-<p>在以下示例中，我们使用 <code>LoggingHandler</code> 来实现 API 日志记录。首先，使用 <code>go get</code> 命令安装包：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">go get <span class="s2">&#34;github.com/gorilla/handlers&#34;</span>
-</span></span></code></pre></div><p>导入包，并在 <code>loggingMiddleware.go</code> 程序中使用：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;github.com/gorilla/handlers&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;github.com/gorilla/mux&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;log&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;os&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="s">&#34;net/http&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">mainLogic</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">log</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Processing request!&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">w</span><span class="p">.</span><span class="nf">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&#34;OK&#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">log</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Finished processing request&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">r</span> <span class="o">:=</span> <span class="nx">mux</span><span class="p">.</span><span class="nf">NewRouter</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">r</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nx">mainLogic</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">loggedRouter</span> <span class="o">:=</span> <span class="nx">handlers</span><span class="p">.</span><span class="nf">LoggingHandler</span><span class="p">(</span><span class="nx">os</span><span class="p">.</span><span class="nx">Stdout</span><span class="p">,</span> <span class="nx">r</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">     <span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:8080&#34;</span><span class="p">,</span> <span class="nx">loggedRouter</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>运行服务：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">go run loggingMiddleware.go
-</span></span></code></pre></div><p>在浏览器中访问 <code>localhost:8080</code>，会显示以下输出结果：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">2022/01/05 10:51:44 Processing request!
-</span></span><span class="line"><span class="cl">2022/01/01 10:51:44 Finished processing request
-</span></span><span class="line"><span class="cl">127.0.0.1 - - <span class="o">[</span>05/January/2022:10:51:44 +0530<span class="o">]</span> <span class="s2">&#34;GET / HTTP/1.1&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="m">200</span> <span class="m">2</span> 127.0.0.1 - - <span class="o">[</span>05/January/2017:10:51:44 +0530<span class="o">]</span> <span class="s2">&#34;GET /favicon.ico HTTP/1.1&#34;</span> <span class="m">404</span> <span class="m">19</span>
-</span></span></code></pre></div><p>本示例仅介绍了 Gorilla Mux <code>Handlers</code> 包的用法。</p>
-<h2 id="总结">总结</h2>
-<p>本文向读者介绍了什么是中间件。为了便于理解，从零开始构建了一个日志中间件程序，并通过 API 实现了一个使用场景。此外，还介绍并实践了一种在 Go 程序中构造中间件更简单的解决方案（即使用 Gorilla Mux Handler）。在未来的文章中，我将讲解如何在 Go 中构建 RPC 服务与客户端。</p>
-<h2 id="文章信息">文章信息</h2>
-<blockquote>
-<ol>
-<li><a href="https://ghostmac.hashnode.dev/understanding-and-crafting-http-middlewares-in-go">原文地址</a></li>
-<li><a href="https://ghostmac.hashnode.dev">原文作者：MacBobby Chibuzor</a></li>
-<li><a href="https://github.com/gocn/translator/blob/master/2022/w07_building_middlewares_with_golang.md">本文永久链接</a></li>
-<li><a href="https://github.com/gocn/translator">GoCN &lt;每周译 Go&gt;</a></li>
-<li><a href="https://github.com/pseudoyu">译者：张宇</a></li>
-<li><a href="https://github.com/xkkhy">校对：小超人</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
