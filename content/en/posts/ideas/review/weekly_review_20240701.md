@@ -80,7 +80,7 @@ authors:
 
 ### 服务器宕机
 
-其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 示例的镜像版本，于是想着干脆把所有服务都更新到最新把，于是一通 `docker pull` 和 `docker-compose` 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 `not enough space` 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 `docker image prune --all`、`docker volume prune` 和 `docker system prune` 操作，释放除了接近 10G 的空间，重试，依然不行。
+其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 实例的镜像版本，于是想着干脆把所有服务都更新到最新把，于是一通 `docker pull` 和 `docker-compose` 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 `not enough space` 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 `docker image prune --all`、`docker volume prune` 和 `docker system prune` 操作，释放除了接近 10G 的空间，重试，依然不行。
 
 作为一个有且仅有一点服务器运维经验的开发来说，我第一反应想到的就是重启，未曾想，这才是一天噩梦的开始。
 
@@ -90,7 +90,7 @@ authors:
 
 ![bwg_kernel_panic](https://image.pseudoyu.com/images/bwg_kernel_panic.jpg)
 
-于是赶紧登录到搬瓦工的线上控制台，发现内核报错，无法启动，强制重启也依然不生效，于是先提交了一个工单，并且赶紧求援我的 devOps 朋友们。
+于是赶紧登录到搬瓦工的线上控制台，发现内核报错，无法启动，强制重启也依然不生效，于是先提交了一个工单，并且赶紧求援我的 DevOps 朋友们。
 
 ### 拯救数据
 
@@ -104,17 +104,17 @@ STRRL 说应该 `rootfs` 出现了问题，不过鉴于这种小云厂商并没�
 
 这下意识到了事情的严重性，甚至做好了数据全部丢失的最坏打算，但在等待工单回复时开始检索类似情况，最后发现搬瓦工机器的快照镜像是可以下载的，并找到了一篇「[搬瓦工备份快照镜像文件 .tar.gz 下载解压后打开 .disk 文件查看数据教程](https://www.bandwagonhost.net/7558.html)」。
 
-于是先下载了快照镜像，得到了一个专属的 `.disk` 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 `vboxmanage convertfromraw` 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装了，并且执行转换，得到了一个 `.vmdk` 文件。
+于是先下载了快照镜像，得到了一个 `.disk` 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 `vboxmanage convertfromraw` 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装并且执行转换，得到了一个 `.vmdk` 文件。
 
 转换完成后将这个 `.vmdk` 作为一个磁盘挂载到 Virtual Box CentOS 虚拟机上，发现依然报同样的错误。
 
 ![7zip_format](https://image.pseudoyu.com/images/7zip_format.png)
 
-于是另辟蹊径，发现 [7-Zip](https://arc.net/l/quote/tirhqejc) 软件支持常见虚拟机格式的解压，但客户端版本只有 Windows 版本。
+于是另辟蹊径，发现 [7-Zip](https://arc.net/l/quote/tirhqejc) 软件支持常见虚拟机格式的解压，但客户端只有 Windows 版本。
 
 ![x7z_vmdk_x](https://image.pseudoyu.com/images/x7z_vmdk_x.jpg)
 
-虽然按理说可以使用命令行版本 [p7zip](https://github.com/p7zip-project/p7zip) 来执行，但我解压时会报错，所以又堵住了一条路，想了个曲线救国的方式，通过虚拟机下载了一个 Win11，下载了 7-Zip 软件直接解压成功了。
+虽然按理说可以在 macOS 上使用命令行版本 [p7zip](https://github.com/p7zip-project/p7zip) 来执行，但我解压时会报错，所以又堵住了一条路，想了个曲线救国的方式，通过虚拟机下载了一个 Win11，下载了 7-Zip 软件直接解压成功了。
 
 ![fuse_load_img](https://image.pseudoyu.com/images/fuse_load_img.png)
 
