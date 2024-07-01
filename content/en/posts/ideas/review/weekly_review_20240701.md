@@ -155,7 +155,7 @@ rsync -acvP ./cheverto_chevereto_images.tar.gz pseudoyu@[yu-mac-studio]:~/Downlo
 
 ### 迁移图床系统至 r2
 
-但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」。
+但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」。
 
 ![rclone_service](https://image.pseudoyu.com/images/rclone_service.jpg)
 
