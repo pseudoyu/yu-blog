@@ -13,7 +13,7 @@
 <p><img src="https://image.pseudoyu.com/images/ask_strrl_about_vps.png" alt="ask_strrl_about_vps"></p>
 <p>STRRL 说应该 <code>rootfs</code> 出现了问题，不过鉴于这种小云厂商并没有提供什么高级启动等额外的功能，只能等官方技术支持处理了，但想到我有一年半毫无备份的图床数据在上面，依然很慌，于是开始想办法抢救数据。</p>
 <p><img src="https://image.pseudoyu.com/images/bwg_vps_snapshot.png" alt="bwg_vps_snapshot"></p>
-<p>研究了一下搬瓦工的控制台，发现它提供一个大约每周一次的备份，并且可以一键将备份转为快照，最近的一次在 6.22 日，还好。我首先想到的是直接通过快照恢复机器，如果是我今天的操作导致了什么配置问题，那理应一周前的快照是能正常启动的，于是满怀信心地等待了十几分钟的快照恢复，结果依然报了同样的错误。依然不死心，把 6.15 的备份也恢复了一下，依然不行。</p>
+<p>研究了一下搬瓦工的控制台，发现它提供一个大约每周一次的备份，并且可以一键将备份转为快照，最近的一次在 6.22 日，还好。我首先想到的是直接通过快照恢复机器，如果是我今天的操作导致了什么配置问题，那理应一周前的快照是能正常启动的，于是满怀信心地等待了十几分钟的快照恢复，结果报了同样的错误。依然不死心，把 6.15 的备份也恢复了一下，还是不行。</p>
 <p>这下意识到了事情的严重性，甚至做好了数据全部丢失的最坏打算，但在等待工单回复时开始检索类似情况，最后发现搬瓦工机器的快照镜像是可以下载的，并找到了一篇「<a href="https://www.bandwagonhost.net/7558.html">搬瓦工备份快照镜像文件 .tar.gz 下载解压后打开 .disk 文件查看数据教程</a>」。</p>
 <p>于是先下载了快照镜像，得到了一个 <code>.disk</code> 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 <code>vboxmanage convertfromraw</code> 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装并且执行转换，得到了一个 <code>.vmdk</code> 文件。</p>
 <p>转换完成后将这个 <code>.vmdk</code> 作为一个磁盘挂载到 Virtual Box CentOS 虚拟机上，发现依然报同样的错误。</p>
@@ -26,7 +26,7 @@
 <p><img src="https://image.pseudoyu.com/images/ufs_load_img_log.jpg" alt="ufs_load_img_log"></p>
 <p>期间倒也是有好消息，在全网搜罗的时候发现了一个数据恢复软件 UFS Explorer，尝试了一下可以正常加载，只是超过 768k 的文件则需要付费，当然没打算，只是看到文件确实是可以识读之后心里就安心了许多，至少数据还在，剩下都是技术问题了。</p>
 <p><img src="https://image.pseudoyu.com/images/bwg_reply.png" alt="bwg_reply"></p>
-<p>期间搬瓦工的工单也恢复了，让我重启或重装试试。。。🤣</p>
+<p>期间搬瓦工的工单也回复了，让我重启或重装试试。。。🤣</p>
 <p><img src="https://image.pseudoyu.com/images/str_orbstack_img.png" alt="str_orbstack_img"></p>
 <p>放弃了工单沟通，继续抢救我 <code>img</code> 中的数据，万能的 STRRL 告诉我 OrbStack 可以启动一个 Linux Machine，然后可以把这个 <code>img</code> 作为一个 Linux 磁盘挂载上去。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo losetup -fP 1.img
