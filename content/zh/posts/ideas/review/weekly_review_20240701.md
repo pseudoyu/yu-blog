@@ -161,7 +161,7 @@ rsync -acvP ./cheverto_chevereto_images.tar.gz pseudoyu@[yu-mac-studio]:~/Downlo
 
 至于现有的数据传到 `r2`，我则是使用了 `rclone` 来进行上传，彻底完成迁移，大功告成！
 
-也开始重新考虑了服务部署、数据安全等问题，准备还是将一些重要的数据上云而不在依赖单机，也继续把一些服务迁移到 [fly.io](https://fly.io)[、Zeabur](https://zeabur.com/) 等 serverless 平台。
+也开始重新考虑了服务部署、数据安全等问题，准备还是将一些重要的数据上云而不再依赖单机，也继续把一些服务迁移到 [fly.io](https://fly.io)[、Zeabur](https://zeabur.com/) 等 serverless 平台。
 
 ## 有趣的事与物
 
