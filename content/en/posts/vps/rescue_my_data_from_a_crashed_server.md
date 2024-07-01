@@ -1,7 +1,7 @@
 ---
-title: "当云服务器崩溃时，我是如何救援图床数据的"
+title: "当云服务器崩溃时，我是如何救援重要数据的"
 date: 2024-07-01T15:30:00+08:00
-draft: true
+draft: false
 tags: ["vps", "server", "vps", "linux", "serverless", "self-hosting"]
 categories: ["Develop"]
 authors:
@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-周五的时候我在搬瓦工平台购买的 2C2G 服务器突然 Kernel Panic，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余悸，记录一下救援过程，顺便折腾了一套新的图床方案。
+周五的时候我在搬瓦工平台购买的 2C2G 服务器突然内核报错，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余悸，记录一下救援过程，顺便折腾了一套新的图床方案。
 
 ## 服务器救援
 
@@ -93,7 +93,7 @@ rsync -acvP ./cheverto_chevereto_images.tar.gz pseudoyu@[yu-mac-studio]:~/Downlo
 
 ### 迁移图床系统至 r2
 
-但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」。
+但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」。
 
 ![rclone_service](https://image.pseudoyu.com/images/rclone_service.jpg)
 
