@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 01 Jul 2024 08:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #63 - 不愉快的订花经历、日渐 AI 化的人与服务器救援</title><link>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</link><pubDate>Mon, 01 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-06-24 到 2024-06-30 这周生活的记录与思考。 一次不愉快的订花和维权体验，思考了商家与消费者的关系，以及</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 01 Jul 2024 08:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人</title><link>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</link><pubDate>Mon, 01 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-06-24 到 2024-06-30 这周生活的记录与思考。 一次不愉快的订花和维权体验，思考了商家与消费者的关系，以及</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -6,7 +6,7 @@
     <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
 </figure>
 <h2 id="前言">前言</h2>
-<p><img src="https://image.pseudoyu.com/images/weekly_review_20240701.png" alt="weekly_review_20240701"></p>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240701_new.png" alt="weekly_review_20240701_new"></p>
 <p>本篇是对 <code>2024-06-24</code> 到 <code>2024-06-30</code> 这周生活的记录与思考。</p>
 <p>一次不愉快的订花和维权体验，思考了商家与消费者的关系，以及 AI 越来越拟人化的现在，人却似乎变得 AI 化了的现象；周五的时候服务器突然 Kernel Panic，无法重启，经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余悸，顺便折腾了一套新的图床方案；想到上一次写博客搭建教程已经是两年多前，不论是内容还是组件都经过了许多变化，于是重新开启系列。</p>
 <h2 id="一次不愉快的订花经历">一次不愉快的订花经历</h2>
@@ -38,51 +38,6 @@
 <p><img src="https://image.pseudoyu.com/images/flower_from_beijing.png" alt="flower_from_beijing"></p>
 <p>联想起在北京时长期会订的一位花艺师，因为是定制花束，比起平台上的贵上许多，但会问问我的故事和想要表达的情感，会记得我们把花放在花瓶的习惯，也能将我各种对花的小想法一一实现。当时只道是寻常，只是对花艺师小姐姐的用心印象深刻，现在才发现，好好讲话，用心做好自己的工作，原来在当今社会已经是一件需要奢求的事了。</p>
 <p>那是一家并不大的店，从配货、选花、做花到配送只有店主一个人，而我这次订的这家在杭州算是个网红店，常居各种平台榜首，销量 9000+，劣币驱逐良币，真是悲哀。</p>
-<h2 id="服务器救援">服务器救援</h2>
-<p>这周最惊魂未定的经历就是稳定运行了一年半的搬瓦工服务器突然内核报错无法启动。</p>
-<p>服务器上运行了我许多重要服务，还有我博客图床的一千多张无备份的图片通过 Docker Volume 持久化在主机上，经历了非常跌宕起伏的救援过程，最终抢救数据成功 🥳。</p>
-<h3 id="服务器宕机">服务器宕机</h3>
-<p>其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 实例的镜像版本，于是想着干脆把所有服务都更新到最新吧，于是一通 <code>docker pull</code> 和 <code>docker-compose</code> 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 <code>not enough space</code> 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 <code>docker image prune --all</code>、<code>docker volume prune</code> 和 <code>docker system prune</code> 操作，释放出了接近 10G 的空间，重试，依然不行。</p>
-<p>作为一个有且仅有一点服务器运维经验的开发来说，我第一反应想到的就是重启，未曾想，这才是一天噩梦的开始。</p>
-<p><img src="https://image.pseudoyu.com/images/uptime_kuma_status.png" alt="uptime_kuma_status"></p>
-<p>没想到重启后我的 Uptime Kuma 提醒我所有服务都下线了，也无法再通过 ssh 连上机子了。</p>
-<p><img src="https://image.pseudoyu.com/images/bwg_kernel_panic.jpg" alt="bwg_kernel_panic"></p>
-<p>于是赶紧登录到搬瓦工的线上控制台，发现内核报错，无法启动，强制重启也依然不生效，于是先提交了一个工单，并且赶紧求援我的 DevOps 朋友们。</p>
-<h3 id="拯救数据">拯救数据</h3>
-<p><img src="https://image.pseudoyu.com/images/ask_strrl_about_vps.png" alt="ask_strrl_about_vps"></p>
-<p>STRRL 说应该 <code>rootfs</code> 出现了问题，不过鉴于这种小云厂商并没有提供什么高级启动等额外的功能，只能等官方技术支持处理了，但想到我有一年半毫无备份的图床数据在上面，依然很慌，于是开始想办法抢救数据。</p>
-<p><img src="https://image.pseudoyu.com/images/bwg_vps_snapshot.png" alt="bwg_vps_snapshot"></p>
-<p>研究了一下搬瓦工的控制台，发现它提供一个大约每周一次的备份，并且可以一键将备份转为快照，最近的一次在 6.22 日，还好。我首先想到的是直接通过快照恢复机器，如果是我今天的操作导致了什么配置问题，那理应一周前的快照是能正常启动的，于是满怀信心地等待了十几分钟的快照恢复，结果依然报了同样的错误。依然不死心，把 6.15 的备份也恢复了一下，依然不行。</p>
-<p>这下意识到了事情的严重性，甚至做好了数据全部丢失的最坏打算，但在等待工单回复时开始检索类似情况，最后发现搬瓦工机器的快照镜像是可以下载的，并找到了一篇「<a href="https://www.bandwagonhost.net/7558.html">搬瓦工备份快照镜像文件 .tar.gz 下载解压后打开 .disk 文件查看数据教程</a>」。</p>
-<p>于是先下载了快照镜像，得到了一个 <code>.disk</code> 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 <code>vboxmanage convertfromraw</code> 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装并且执行转换，得到了一个 <code>.vmdk</code> 文件。</p>
-<p>转换完成后将这个 <code>.vmdk</code> 作为一个磁盘挂载到 Virtual Box CentOS 虚拟机上，发现依然报同样的错误。</p>
-<p><img src="https://image.pseudoyu.com/images/7zip_format.png" alt="7zip_format"></p>
-<p>于是另辟蹊径，发现 <a href="https://arc.net/l/quote/tirhqejc">7-Zip</a> 软件支持常见虚拟机格式的解压，但客户端只有 Windows 版本。</p>
-<p><img src="https://image.pseudoyu.com/images/x7z_vmdk_x.jpg" alt="x7z_vmdk_x"></p>
-<p>虽然按理说可以在 macOS 上使用命令行版本 <a href="https://github.com/p7zip-project/p7zip">p7zip</a> 来执行，但我解压时会报错，所以又堵住了一条路，想了个曲线救国的方式，通过虚拟机下载了一个 Win11，下载了 7-Zip 软件直接解压成功了。</p>
-<p><img src="https://image.pseudoyu.com/images/fuse_load_img.png" alt="fuse_load_img"></p>
-<p>问题又来了，得到的是 <code>1.img</code>、<code>2.img</code> 这样格式的 Linux 磁盘镜像文件，macOS 上无法加载，又问了我司运维朋友，折腾了一下 fuse 但是还是无法加载。</p>
-<p><img src="https://image.pseudoyu.com/images/ufs_load_img_log.jpg" alt="ufs_load_img_log"></p>
-<p>期间倒也是有好消息，在全网搜罗的时候发现了一个数据恢复软件 UFS Explorer，尝试了一下可以正常加载，只是超过 768k 的文件则需要付费，当然没打算，只是看到文件确实是可以识读之后心里就安心了许多，至少数据还在，剩下都是技术问题了。</p>
-<p><img src="https://image.pseudoyu.com/images/bwg_reply.png" alt="bwg_reply"></p>
-<p>期间搬瓦工的工单也恢复了，让我重启或重装试试。。。🤣</p>
-<p><img src="https://image.pseudoyu.com/images/str_orbstack_img.png" alt="str_orbstack_img"></p>
-<p>放弃了工单沟通，继续抢救我 <code>img</code> 中的数据，万能的 STRRL 告诉我 OrbStack 可以启动一个 Linux Machine，然后可以把这个 <code>img</code> 作为一个 Linux 磁盘挂载上去。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo losetup -fP 1.img
-</span></span><span class="line"><span class="cl">mkdir /mnt/bwg
-</span></span><span class="line"><span class="cl">sudo mount /dev/loop0 /mnt/bwg
-</span></span></code></pre></div><p>通过以上命令成功把我的 <code>img</code> 磁盘镜像挂载到了 OrbStack 的 Ununtu 机器上。</p>
-<p><img src="https://image.pseudoyu.com/images/rescue_image_from_bwg_img.png" alt="rescue_image_from_bwg_img"></p>
-<p>当我看到我的图片出现在命令行输出结果时，感动得都快流泪了 😭。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar -czvf cheverto_chevereto_images.tar.gz cheverto_chevereto_images/
-</span></span><span class="line"><span class="cl">rsync -acvP ./cheverto_chevereto_images.tar.gz pseudoyu@<span class="o">[</span>yu-mac-studio<span class="o">]</span>:~/Downloads/
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/rsync_service.jpg" alt="rsync_service"></p>
-<p>紧接着赶紧打个 <code>tar</code> 包，然后通过 <code>rsync</code> 传到了我本地的 Mac 上，本机解压后，终于看到了我所有的图片。</p>
-<h3 id="迁移图床系统至-r2">迁移图床系统至 r2</h3>
-<p>但由于这一次的遭遇，不再信任服务器单机部署的图床稳定性了，花了半天折腾了一套新的免费图床系统 —— 「<a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a>」。</p>
-<p><img src="https://image.pseudoyu.com/images/rclone_service.jpg" alt="rclone_service"></p>
-<p>至于现有的数据传到 <code>r2</code>，我则是使用了 <code>rclone</code> 来进行上传，彻底完成迁移，大功告成！</p>
-<p>也开始重新考虑了服务部署、数据安全等问题，准备还是将一些重要的数据上云而不再依赖单机，也继续把一些服务迁移到 <a href="https://fly.io">fly.io</a><a href="https://zeabur.com/">、Zeabur</a> 等 serverless 平台。</p>
 <h2 id="有趣的事与物">有趣的事与物</h2>
 <h3 id="博主">博主</h3>
 <ul>
