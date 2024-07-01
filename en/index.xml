@@ -42,24 +42,24 @@
 <p>这周最惊魂未定的经历就是稳定运行了一年半的搬瓦工服务器突然内核报错无法启动。</p>
 <p>服务器上运行了我许多重要服务，还有我博客图床的一千多张无备份的图片通过 Docker Volume 持久化在主机上，经历了非常跌宕起伏的抢救过程，最终抢救数据成功 🥳。</p>
 <h3 id="服务器宕机">服务器宕机</h3>
-<p>其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 示例的镜像版本，于是想着干脆把所有服务都更新到最新把，于是一通 <code>docker pull</code> 和 <code>docker-compose</code> 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 <code>not enough space</code> 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 <code>docker image prune --all</code>、<code>docker volume prune</code> 和 <code>docker system prune</code> 操作，释放除了接近 10G 的空间，重试，依然不行。</p>
+<p>其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 实例的镜像版本，于是想着干脆把所有服务都更新到最新把，于是一通 <code>docker pull</code> 和 <code>docker-compose</code> 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 <code>not enough space</code> 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 <code>docker image prune --all</code>、<code>docker volume prune</code> 和 <code>docker system prune</code> 操作，释放除了接近 10G 的空间，重试，依然不行。</p>
 <p>作为一个有且仅有一点服务器运维经验的开发来说，我第一反应想到的就是重启，未曾想，这才是一天噩梦的开始。</p>
 <p><img src="https://image.pseudoyu.com/images/uptime_kuma_status.png" alt="uptime_kuma_status"></p>
 <p>没想到重启后我的 Uptime Kuma 提醒我所有服务都下线了，也无法再通过 ssh 连上机子了。</p>
 <p><img src="https://image.pseudoyu.com/images/bwg_kernel_panic.jpg" alt="bwg_kernel_panic"></p>
-<p>于是赶紧登录到搬瓦工的线上控制台，发现内核报错，无法启动，强制重启也依然不生效，于是先提交了一个工单，并且赶紧求援我的 devOps 朋友们。</p>
+<p>于是赶紧登录到搬瓦工的线上控制台，发现内核报错，无法启动，强制重启也依然不生效，于是先提交了一个工单，并且赶紧求援我的 DevOps 朋友们。</p>
 <h3 id="拯救数据">拯救数据</h3>
 <p><img src="https://image.pseudoyu.com/images/ask_strrl_about_vps.png" alt="ask_strrl_about_vps"></p>
 <p>STRRL 说应该 <code>rootfs</code> 出现了问题，不过鉴于这种小云厂商并没有提供什么高级启动等额外的功能，只能等官方技术支持处理了，但想到我有一年半毫无备份的图床数据在上面，依然很慌，于是开始想办法抢救数据。</p>
 <p><img src="https://image.pseudoyu.com/images/bwg_vps_snapshot.png" alt="bwg_vps_snapshot"></p>
 <p>研究了一下搬瓦工的控制台，发现它提供一个大约每周一次的备份，并且可以一键将备份转为快照，最近的一次在 6.22 日，还好。我首先想到的是直接通过快照恢复机器，如果是我今天的操作导致了什么配置问题，那理应一周前的快照是能正常启动的，于是满怀信心地等待了十几分钟的快照恢复，结果依然报了同样的错误。依然不死心，把 6.15 的备份也恢复了一下，依然不行。</p>
 <p>这下意识到了事情的严重性，甚至做好了数据全部丢失的最坏打算，但在等待工单回复时开始检索类似情况，最后发现搬瓦工机器的快照镜像是可以下载的，并找到了一篇「<a href="https://www.bandwagonhost.net/7558.html">搬瓦工备份快照镜像文件 .tar.gz 下载解压后打开 .disk 文件查看数据教程</a>」。</p>
-<p>于是先下载了快照镜像，得到了一个专属的 <code>.disk</code> 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 <code>vboxmanage convertfromraw</code> 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装了，并且执行转换，得到了一个 <code>.vmdk</code> 文件。</p>
+<p>于是先下载了快照镜像，得到了一个 <code>.disk</code> 文件，这个文件应该是一个专属格式，看教程可以通过 Virtual Box 的命令行工具 <code>vboxmanage convertfromraw</code> 来进行格式转换，但官网下载后发现并不支持 M 芯片的 Mac，于是又在之前的老 19 款 Intel Mac 上安装并且执行转换，得到了一个 <code>.vmdk</code> 文件。</p>
 <p>转换完成后将这个 <code>.vmdk</code> 作为一个磁盘挂载到 Virtual Box CentOS 虚拟机上，发现依然报同样的错误。</p>
 <p><img src="https://image.pseudoyu.com/images/7zip_format.png" alt="7zip_format"></p>
-<p>于是另辟蹊径，发现 <a href="https://arc.net/l/quote/tirhqejc">7-Zip</a> 软件支持常见虚拟机格式的解压，但客户端版本只有 Windows 版本。</p>
+<p>于是另辟蹊径，发现 <a href="https://arc.net/l/quote/tirhqejc">7-Zip</a> 软件支持常见虚拟机格式的解压，但客户端只有 Windows 版本。</p>
 <p><img src="https://image.pseudoyu.com/images/x7z_vmdk_x.jpg" alt="x7z_vmdk_x"></p>
-<p>虽然按理说可以使用命令行版本 <a href="https://github.com/p7zip-project/p7zip">p7zip</a> 来执行，但我解压时会报错，所以又堵住了一条路，想了个曲线救国的方式，通过虚拟机下载了一个 Win11，下载了 7-Zip 软件直接解压成功了。</p>
+<p>虽然按理说可以在 macOS 上使用命令行版本 <a href="https://github.com/p7zip-project/p7zip">p7zip</a> 来执行，但我解压时会报错，所以又堵住了一条路，想了个曲线救国的方式，通过虚拟机下载了一个 Win11，下载了 7-Zip 软件直接解压成功了。</p>
 <p><img src="https://image.pseudoyu.com/images/fuse_load_img.png" alt="fuse_load_img"></p>
 <p>问题又来了，得到的是 <code>1.img</code>、<code>2.img</code> 这样格式的 Linux 磁盘镜像文件，macOS 上无法加载，又问了我司运维朋友，折腾了一下 fuse 但是还是无法加载。</p>
 <p><img src="https://image.pseudoyu.com/images/ufs_load_img_log.jpg" alt="ufs_load_img_log"></p>
