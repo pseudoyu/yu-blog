@@ -42,7 +42,7 @@
 <p>这周最惊魂未定的经历就是稳定运行了一年半的搬瓦工服务器突然内核报错无法启动。</p>
 <p>服务器上运行了我许多重要服务，还有我博客图床的一千多张无备份的图片通过 Docker Volume 持久化在主机上，经历了非常跌宕起伏的救援过程，最终抢救数据成功 🥳。</p>
 <h3 id="服务器宕机">服务器宕机</h3>
-<p>其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 实例的镜像版本，于是想着干脆把所有服务都更新到最新吧，于是一通 <code>docker pull</code> 和 <code>docker-compose</code> 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 <code>not enough space</code> 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 <code>docker image prune --all</code>、<code>docker volume prune</code> 和 <code>docker system prune</code> 操作，释放除了接近 10G 的空间，重试，依然不行。</p>
+<p>其实我至今不知道出了什么问题，早上刚好需要更新服务器上的我运行的 RSSHub 实例的镜像版本，于是想着干脆把所有服务都更新到最新吧，于是一通 <code>docker pull</code> 和 <code>docker-compose</code> 重启操作，前面的都没什么问题，直到最后一个服务突然启动容器失败，报了一个 <code>not enough space</code> 的错误，我心想着可能是下载的镜像太多了导致磁盘满了，于是又一通 <code>docker image prune --all</code>、<code>docker volume prune</code> 和 <code>docker system prune</code> 操作，释放出了接近 10G 的空间，重试，依然不行。</p>
 <p>作为一个有且仅有一点服务器运维经验的开发来说，我第一反应想到的就是重启，未曾想，这才是一天噩梦的开始。</p>
 <p><img src="https://image.pseudoyu.com/images/uptime_kuma_status.png" alt="uptime_kuma_status"></p>
 <p>没想到重启后我的 Uptime Kuma 提醒我所有服务都下线了，也无法再通过 ssh 连上机子了。</p>
