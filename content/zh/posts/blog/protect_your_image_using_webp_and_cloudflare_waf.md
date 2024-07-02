@@ -113,7 +113,9 @@ WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论
 
 这是我的配置，即在图片的底部中间添加一个浅灰色的 `@pseudoyu` 字样。
 
-不过目前使用上还有一些体验上的小问题，如之前上传的图并不会自动应用/更改（可能是因为有缓存），以及重新进入编辑水印页面时位置会错位，已经反馈给了开发者，或许能很快解决。
+![webp_purge_all_cache](https://image.pseudoyu.com/images/webp_purge_all_cache.png)
+
+需要注意的是，WebP Cloud 会为用户缓存图片数据，因此若想要之前上传的图片也应用水印或更新了新的水印则需要在代理配置中点选「Purge All Cache」来清理缓存。
 
 ![apply_watermark_webp](https://image.pseudoyu.com/images/apply_watermark_webp.png)
 
