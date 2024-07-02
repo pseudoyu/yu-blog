@@ -18,7 +18,7 @@ authors:
 
 新写了一篇教程实现了图床添加隐私和版权保护，算是番外篇。
 
-- [使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护](https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
+- [使用 WebP Cloud 与 Cloudflare WAF 为你的图床添加隐私和版权保护](https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
 
 ## 图床方案迭代
 
@@ -64,7 +64,7 @@ Chevereto 的界面实话说风格有些老旧，还是古早的 php 服务，�
 
 ## 图床搭建说明
 
-Cloudflare R2 + WebP + PicGo 的方案尽管牵扯到了多个组件和平台，但所有操作都在 Free Plan 中，也是我最终选定的方案，下面将从零开始介绍如何搭建这个免费图床系统。
+Cloudflare R2 + WebP Cloud + PicGo 的方案尽管牵扯到了多个组件和平台，但所有操作都在 Free Plan 中，也是我最终选定的方案，下面将从零开始介绍如何搭建这个免费图床系统。
 
 ### Cloudflare R2
 

@@ -1,5 +1,5 @@
 ---
-title: "使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护"
+title: "使用 WebP Cloud 与 Cloudflare WAF 为你的图床添加隐私和版权保护"
 date: 2024-07-02T06:12:47+08:00
 draft: false
 tags: ["image-hosting", "cloudflare", "waf", "webp cloud", "serverless", "blog"]
@@ -12,7 +12,7 @@ authors:
 
 在「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 [WebP Cloud](https://webp.se/) 进行图片优化。
 
-在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。
+在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP Cloud 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。
 
 本文是对这一实践的记录，也算是图床搭建番外篇了。
 
@@ -55,7 +55,7 @@ authors:
 
 当我们访问互联网上的网页或图片链接时，请求通常会包含一个 User Agent 字段，一般包含浏览器版本等信息，网站可针对不同的 User Agent 进行一些特定逻辑处理。
 
-WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP 定义的 User Agent 值，而这个值又是用户可以自定义的。
+WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP Cloud 定义的 User Agent 值，而这个值又是用户可以自定义的。
 
 ![webp_custom_user_agent](https://image.pseudoyu.com/images/webp_custom_user_agent.png)
 
