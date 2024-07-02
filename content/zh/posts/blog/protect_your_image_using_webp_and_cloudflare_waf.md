@@ -117,7 +117,7 @@ WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论
 
 ![apply_watermark_webp](https://image.pseudoyu.com/images/apply_watermark_webp.png)
 
-编辑完水印后，进入代理的详细配置页面，下拉到「Watermark Setting」模块，选取刚创建的水印即可，点击右上角「Save」即可。
+编辑完水印后，进入代理的详细配置页面，下拉到「Watermark Setting」模块，选取刚创建的水印，点击右上角「Save」即可。
 
 效果就不单独展示了，本文所有配图都通过这种方式添加了水印。
 
