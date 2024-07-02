@@ -26,17 +26,17 @@
 <p>当我们访问互联网上的网页或图片链接时，请求通常会包含一个 User Agent 字段，一般包含浏览器版本等信息，网站可针对不同的 User Agent 进行一些特定逻辑处理。</p>
 <p>WebP Cloud 默认会使用 <code>WebP Cloud Services/1.0</code> 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP 定义的 User Agent 值，而这个值又是用户可以自定义的。</p>
 <p><img src="https://image.pseudoyu.com/images/webp_custom_user_agent.png" alt="webp_custom_user_agent"></p>
-<p>因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自己定义的值，如 <code>pseudoyu.com/1.0</code> 等。</p>
+<p>因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自定义值，如 <code>pseudoyu.com/1.0</code>。</p>
 <h4 id="cloudflare-waf-配置">Cloudflare WAF 配置</h4>
 <p><img src="https://image.pseudoyu.com/images/cloudflare_waf_intro.png" alt="cloudflare_waf_intro"></p>
-<p><a href="https://developers.cloudflare.com/waf">WAF（Web Application Firewall）</a> 是 Cloudflare 提供的一个防火墙服务，可以自定义规则来限制特定请求以保护网站安全，登录 Cloudflare 后在左侧边栏点击「网站」，点击进入需要保护的域名，选择侧边栏「安全性」 - 「WAF」即可免费使用（注意，不是最外层的账户级 WAF），免费账户可设定五个自定义规则。</p>
+<p><a href="https://developers.cloudflare.com/waf">WAF（Web Application Firewall）</a> 是 Cloudflare 提供的一个防火墙服务，可以自定义规则来限制特定请求以保护网站安全，登录 Cloudflare 后在左侧边栏点击「网站」，点击进入需要保护的域名，选择侧边栏「安全性」 - 「WAF」即可免费使用（注：不是最外层的账户级 WAF），免费账户可设定五个自定义规则。</p>
 <p><img src="https://image.pseudoyu.com/images/waf_create_rule.png" alt="waf_create_rule"></p>
 <p>点击「创建规则」，进入设置页面。</p>
 <p><img src="https://image.pseudoyu.com/images/user_agent_protection_waf.png" alt="user_agent_protection_waf"></p>
 <p>点击「表达式预览」右侧的「编辑表达式」，填入以下规则：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">(http.user_agent ne &#34;pseudoyu.com/1.0&#34;) and ((http.request.uri.path contains &#34;jpg&#34;) or (http.request.uri.path contains &#34;png&#34;) or (http.request.uri.path contains &#34;jpeg&#34;) or (http.request.uri.path contains &#34;gif&#34;))
 </span></span></code></pre></div><p>要注意的是需要把其中 <code>pseudoyu.com/1.0</code> 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值，其余保持不变即可。</p>
-<p>并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击保存即可。</p>
+<p>并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击「部署/保存」即可。</p>
 <p>我使用的是目前 WebP Cloud 官方文档提供的<a href="https://docs.webp.se/webp-cloud/security/#cloudflare">推荐规则</a>，后续或许会针对新的功能有所调整，可以直接参考文档。</p>
 <p><img src="https://image.pseudoyu.com/images/block_by_waf_example.png" alt="block_by_waf_example"></p>
 <p>完成配置后，当我们再次访问以 <code>images.pseudoyu.com</code> 开头的源站链接时会被 WAF 拦截，例如：</p>
