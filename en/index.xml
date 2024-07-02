@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jul 2024 15:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>当云服务器崩溃时，我是如何救援重要数据的</title><link>https://www.pseudoyu.com/en/2024/07/01/rescue_my_data_from_a_crashed_server/</link><pubDate>Mon, 01 Jul 2024 15:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/01/rescue_my_data_from_a_crashed_server/</guid><description>前言 周五的时候我在搬瓦工平台购买的 2C2G 服务器突然内核报错，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2024 06:12:47 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 WebP 与 Cloudflare WAF 为你的图床添加隐私与版权保护</title><link>https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/</link><pubDate>Tue, 02 Jul 2024 06:12:47 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/</guid><description>前言 在「从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 WebP Cloud 进行图</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>在「<a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a>」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 <a href="https://webp.se/">WebP Cloud</a> 进行图片优化。</p>
+<p>在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。</p>
+<p>本文是对这一实践的记录，也算是图床搭建番外篇了。</p>
+<h2 id="需求分析">需求分析</h2>
+<p><img src="https://image.pseudoyu.com/images/webp_proxy_info.png" alt="webp_proxy_info"></p>
+<p>我目前的图床方案是将图片都托管在 Cloudflare R2 上，并且通过 WebP Cloud 这一强大的图片代理工具进行访问优化，但其实使用代理链接 <code>image.pseudoyu.com</code> 与源站链接 <code>images.pseudoyu.com</code> 都可以访问我的图片，只是前者被优化过，后者则是我保存的原图。</p>
+<h3 id="隐私保护">隐私保护</h3>
+<p>事实上我们通过手机、数码相机等设备拍摄的照片都会携带 EXIF(EXchangeable Image File Format) 信息，通常会包含拍摄设备、时间和地点等敏感信息，我们可以通过一些技术方式手动去除这些元数据，但操作十分繁琐且容易遗漏。</p>
+<p><img src="https://image.pseudoyu.com/images/webp_exif_remove.png" alt="webp_exif_remove"></p>
+<p>我查阅了一下 WebP Cloud 的文档，发现它果然提供自动擦除 EXIF 信息的功能，无须额外配置操作，但其实访客依然可以可以通过 Cloudflare R2 暴露出的源站信息访问到原图，为了避免这一点，我需要限制用户只能通过 WebP Cloud 代理链接进行请求，访问 Cloudflare R2 源站链接时获取不到任何有用信息。</p>
+<h3 id="版权保护">版权保护</h3>
+<p><img src="https://image.pseudoyu.com/images/randy_pic_copyright.png" alt="randy_pic_copyright"></p>
+<p>之前在推上看到 Randy 自己拍的 desk setup 图被盗用的经历。</p>
+<p>而自己也玩一些摄影，虽没什么特别的商业价值，但终究是自己的作品，理应保护版权，因此我想在图片上统一添加自己的版权水印，以防止被他人盗用。</p>
+<h2 id="实现方案">实现方案</h2>
+<p>需求清晰了，其实主要分为两部分：</p>
+<ol>
+<li>让用户只能通过 WebP Cloud 代理链接访问到我的图片，禁止直接访问原图链接</li>
+<li>在 WebP Cloud 代理层面为所有的图片统一自动添加自己的版权水印，无须手动操作</li>
+</ol>
+<p>以下是我的实现方案与详细步骤。</p>
+<h3 id="webp-自定义-user-agent--cloudflare-waf">WebP 自定义 User Agent + Cloudflare WAF</h3>
+<p>和 <a href="https://webp.se/">WebP Cloud</a> 的开发者 <a href="https://x.com/n0vad3v">Nova Kwok</a> 聊了一下，发现 WebP Cloud 提供了自定义「Proxy User Agent」的功能，并推荐在 Cloudflare WAF 中配置对应规则以保护图片安全，文档中有详细说明 &ndash; 「<a href="https://docs.webp.se/webp-cloud/security/#cloudflare">Security | WebP Cloud Services Docs</a>」。</p>
+<h4 id="webp-cloud-配置">WebP Cloud 配置</h4>
+<p>当我们访问互联网上的网页或图片链接时，请求通常会包含一个 User Agent 字段，一般包含浏览器版本等信息，网站可针对不同的 User Agent 进行一些特定逻辑处理。</p>
+<p>WebP Cloud 默认会使用 <code>WebP Cloud Services/1.0</code> 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP 定义的 User Agent 值，而这个值又是用户可以自定义的。</p>
+<p><img src="https://image.pseudoyu.com/images/webp_custom_user_agent.png" alt="webp_custom_user_agent"></p>
+<p>因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自己定义的值，如 <code>pseudoyu.com/1.0</code> 等。</p>
+<h4 id="cloudflare-waf-配置">Cloudflare WAF 配置</h4>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_waf_intro.png" alt="cloudflare_waf_intro"></p>
+<p><a href="https://developers.cloudflare.com/waf">WAF（Web Application Firewall）</a> 是 Cloudflare 提供的一个防火墙服务，可以自定义规则来限制特定请求以保护网站安全，登录 Cloudflare 后在左侧边栏点击「网站」，点击进入需要保护的域名，选择侧边栏「安全性」 - 「WAF」即可免费使用（注意，不是最外层的账户级 WAF），免费账户可设定五个自定义规则。</p>
+<p><img src="https://image.pseudoyu.com/images/waf_create_rule.png" alt="waf_create_rule"></p>
+<p>点击「创建规则」，进入设置页面。</p>
+<p><img src="https://image.pseudoyu.com/images/user_agent_protection_waf.png" alt="user_agent_protection_waf"></p>
+<p>点击「表达式预览」右侧的「编辑表达式」，填入以下规则：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">(http.user_agent ne &#34;pseudoyu.com/1.0&#34;) and ((http.request.uri.path contains &#34;jpg&#34;) or (http.request.uri.path contains &#34;png&#34;) or (http.request.uri.path contains &#34;jpeg&#34;) or (http.request.uri.path contains &#34;gif&#34;))
+</span></span></code></pre></div><p>要注意的是需要把其中 <code>pseudoyu.com/1.0</code> 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值，其余保持不变即可。</p>
+<p>并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击保存即可。</p>
+<p>我使用的是目前 WebP Cloud 官方文档提供的<a href="https://docs.webp.se/webp-cloud/security/#cloudflare">推荐规则</a>，后续或许会针对新的功能有所调整，可以直接参考文档。</p>
+<p><img src="https://image.pseudoyu.com/images/block_by_waf_example.png" alt="block_by_waf_example"></p>
+<p>完成配置后，当我们再次访问以 <code>images.pseudoyu.com</code> 开头的源站链接时会被 WAF 拦截，例如：</p>
+<p><a href="https://images.pseudoyu.com/images/new_mbp_setup.jpg">images.pseudoyu.com/images/new_mbp_setup.jpg</a></p>
+<p>而经 WebP Cloud 代理过的链接则可以正常访问，例如：</p>
+<p><a href="https://image.pseudoyu.com/images/new_mbp_setup.jpg">image.pseudoyu.com/images/new_mbp_setup.jpg</a></p>
+<p>完美实现了我们的需求。</p>
+<h3 id="使用-webp-cloud-为图片添加版权水印">使用 WebP Cloud 为图片添加版权水印</h3>
+<p>经过了上文的操作，我们已经确保用户只能经过 WebP Cloud 代理链接访问到我们的图片了，接下来就是为图片添加版权水印。</p>
+<p><img src="https://image.pseudoyu.com/images/webp_watermark_feature.png" alt="webp_watermark_feature"></p>
+<p>同样是查阅了 WebP Cloud 的文档，发现它在「Visual Effects」模块中提供了「Watermark」功能，可以为图片添加自定义的水印，使用 <code>Fabric.js</code> 库实现，提供了可视化编辑的一些选项，还写了一篇有意思的博客 &ndash; 「<a href="https://blog.webp.se/dashboard-fabric-zh/">使用 Fabric.js 实现实时水印预览</a>」。</p>
+<p><img src="https://image.pseudoyu.com/images/watermark_list_webp.png" alt="watermark_list_webp"></p>
+<p>进入 WebP 控制台，选择左侧「Visual Effects」，并点击右上角「Create Watermark」，就可以进行一些自定义水印样式配置了。</p>
+<p><img src="https://image.pseudoyu.com/images/pseudoyu_copyright.png" alt="pseudoyu_copyright"></p>
+<p>这是我的配置，即在图片的底部中间添加一个浅灰色的 <code>@pseudoyu</code> 字样。</p>
+<p>不过目前使用上还有一些体验上的小问题，如之前上传的图并不会自动应用/更改为水印（可能是因为有缓存，以及重新进入编辑水印页面时位置会错位，已经反馈给了开发者，或许能很快解决。</p>
+<p><img src="https://image.pseudoyu.com/images/apply_watermark_webp.png" alt="apply_watermark_webp"></p>
+<p>编辑完水印后，进入代理的详细配置页面，下拉到「Watermark Setting」模块，选取刚创建的水印即可，点击右上角「Save」即可。</p>
+<p>效果就不单独展示了，本文所有配图都通过这种方式添加了水印。</p>
+<h2 id="总结">总结</h2>
+<p><img src="https://image.pseudoyu.com/images/webp_thoughts.png" alt="webp_thoughts"></p>
+<p>使用 <a href="https://webp.se/">WebP Cloud</a> 才第三天，最开始一直以为只是一个类 CDN 图片加速访问工具，经过折腾后发现了很多有意思的地方，并且为个人免费用户提供的 Free Quota 足够到大家拥有更好的图片体验，也就是他们所坚持的「做正确的事」。</p>
+<p>团队更多是做一些技术沉淀和实践，写了许多博客 &ndash; 「<a href="https://blog.webp.se/">WebP Cloud Services Blog</a>」，闲时读读也能感受到他们的热情，最近因为「<a href="https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/">周报 #63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人</a>」这一篇中的经历而在思考「劣币驱逐良币」这一问题，我觉得坚持做正确的事不向商业做过多妥协的团队理应被更多人看到，理应过得更好，我人微言轻，仅以这些教程来让更多的人了解到他们。</p>
+]]></content:encoded></item><item><title>当云服务器崩溃时，我是如何救援重要数据的</title><link>https://www.pseudoyu.com/en/2024/07/01/rescue_my_data_from_a_crashed_server/</link><pubDate>Mon, 01 Jul 2024 15:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/01/rescue_my_data_from_a_crashed_server/</guid><description>前言 周五的时候我在搬瓦工平台购买的 2C2G 服务器突然内核报错，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>周五的时候我在搬瓦工平台购买的 2C2G 服务器突然内核报错，连不上 ssh 也 无法重启。经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余悸，记录一下救援过程，顺便折腾了一套新的图床方案。</p>
 <h2 id="服务器救援">服务器救援</h2>
 <p>这台服务器大约已经稳定运行了一年半，运行了我许多重要服务，还有我博客图床的一千多张无备份的图片通过 Docker Volume 持久化在主机上。</p>
@@ -10244,87 +10306,6 @@
 <ol>
 <li><a href="https://blog.gasolin.idv.tw/tools/tooling-in-2021-Dec">個人工具箱（2021 十二月）</a></li>
 <li><a href="https://github.com/pseudoyu/yu-tools">GitHub - pseudoyu/yu-tools</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>免费的个人博客系统搭建及部署解决方案（Hugo + Cloudflare Pages + Cusdis）</title><link>https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/</link><pubDate>Thu, 24 Mar 2022 01:19:28 +0800</pubDate><guid>https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/</guid><description>前言 Pseudoyu 是我的个人博客网站，最早使用 WordPress 搭建在自己的 Vultr vps 上，因为网络访问比较慢所以迁移到了腾讯云服务器上并且进行备案，虽然访问速度有提升，但是发</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p><a href="https://www.pseudoyu.com">Pseudoyu</a> 是我的个人博客网站，最早使用 <a href="https://wordpress.com/">WordPress</a> 搭建在自己的 Vultr vps 上，因为网络访问比较慢所以迁移到了腾讯云服务器上并且进行备案，虽然访问速度有提升，但是发布博客的流程很繁琐，服务器的维护长期也是一笔不小的开支。</p>
-<p>因此，一直在探索能够既能保障国内外访问体验，又能够托管在一些平台上，实现部署和发布流程的最优化体验。后来也一直不断在改善博客系统搭建和发布流程，迄今为止对自己的全流程解决方案还是比较满意的，虽然部署和搭建上需要进行一些配置，但后续更新维护都很方便，因此，本文将这套免费、开源的个人博客系统搭建及部署解决方案进行全流程记录，希望对大家有所帮助。</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>时隔两年，文章中许多方案已经过时（但依然可用），我更新了系列新的文章，阐述了我与 2024 年 6 月的最新博客解决方案，可供大家参考。</p>
-<ul>
-<li><a href="https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a></li>
-</ul>
-<h2 id="解决方案">解决方案</h2>
-<h3 id="博客平台">博客平台</h3>
-<p>目前已经有很多比较成熟的博客平台，如前文所提到的 WordPress，虽然功能强大，但对于个人博客站点来说有些太重了，<del>也不够酷</del>，经过一番调研，最后选择了 <a href="https://gohugo.io">Hugo</a> 这个静态网站生成器。</p>
-<p>Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。</p>
-<p><img src="https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png" alt="yu_blog_homepage_20240629"></p>
-<p>因为 Hugo 开源社区中 <a href="https://github.com/shaform/hugo-theme-den">hugo-theme-den</a> 完全在我的审美上，所以我选择了 Hugo 并在这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。</p>
-<h3 id="博客托管">博客托管</h3>
-<p>静态博客需要托管在一个平台上才能够实现外部访问，可以是自己的 vps 主机，也可以是 <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>，<a href="https://pages.github.com">GitHub Pages</a>，或者是 <a href="http://vercel.com">Vercel</a> 这样的 Serverless 平台，后两者都可以通过 GitHub 仓库进行关联。</p>
-<p>我选择了 GitHub Pages 这种方式，完全免费且和 GitHub 代码仓库无缝对接，能够满足我博客源文件备份和版本管理的需求，还可以通过强大且同样免费的 <a href="https://github.com/features/actions">GitHub Action</a> 实现各种 CI/CD 的功能，如提交/更新博客源文件后自动构建生成博客静态文件并推送到 GitHub Pages 仓库进行部署，还可以配合一些定时任务实现自我介绍页面更新等功能。</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，并提供了市面上主流的网站构建工具，如 Next.js、Astro、Hugo 等，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。</p>
-<h3 id="博客域名">博客域名</h3>
-<p>我们可以通过域名解析配置自己的域名，如我的网站就是解析了 <a href="https://www.pseudoyu.com">pseudoyu.com</a> 这个域名。</p>
-<p><del>我的域名是在 <a href="https://www.namesilo.com">NameSilo</a> 购买的，并通过 <a href="https://www.cloudflare.com">Cloudflare</a> 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。</del></p>
-<p><strong>[2022-05-29 更新]</strong></p>
-<p>我后来为了方便管理，把 NameSilo 域名迁移到了 Cloudflare，大家可以直接在 Cloudflare 上购买，教程包含在《<a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a>》中。</p>
-<h3 id="访客分析">访客分析</h3>
-<p>作为一个持续更新运营的博客平台，我们一定很好奇我们哪篇文章阅读量最高、哪个关键词检索最频繁等，帮助我们专注在更有价值的内容创作与分享上，类似的工具也很多，我选择了 <a href="https://splitbee.io">splitbee</a> 与 <a href="https://search.google.com/search-console">Google Console</a> 来统计分析我的访客信息与搜索权重，此外，<a href="https://www.cloudflare.com">Cloudflare</a> 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性没有前两者强。</p>
-<p><img src="https://image.pseudoyu.com/images/splitbee_statistics.png" alt="splitbee_statistics"></p>
-<p><img src="https://image.pseudoyu.com/images/google_console_performance.png" alt="google_console_performance"></p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_statistics.png" alt="cloudflare_statistics"></p>
-<p><strong>[2022-05-21 更新]</strong></p>
-<p>除了上述直接服务的平台外，我还部署了一个可代替 <a href="https://analytics.google.com">Google Analytics</a> 的开源服务 <a href="https://umami.is">umami</a>，实现了访客数据的实时监控，教程为：《<a href="https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a>》。</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>后来改为了自部署「<a href="https://www.goatcounter.com/">goatcounter</a>」这一新的数据统计服务。</p>
-<h3 id="评论系统">评论系统</h3>
-<p>一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 <a href="https://disqus.com">Disqus</a>，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 <a href="https://lutaonan.com">Randy</a> 的 <a href="https://cusdis.com">Cusdis</a>，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 <a href="https://www.heroku.com">Heroku</a> 的免费 <a href="https://www.postgresql.org">PostgreSQL</a> 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。</p>
-<p><img src="https://image.pseudoyu.com/images/cusdis_overview.png" alt="cusdis_overview"></p>
-<p><strong>[2022-05-24 更新]</strong></p>
-<p>Cusdis 部署在 Railway 平台教程已更新：《<a href="https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a>》。</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>后来改为了自部署「<a href="https://remark42.com/">Remark42</a>」这一新的评论系统。</p>
-<h3 id="图片管理">图片管理</h3>
-<p>日常发布的文章中可能会涉及很多图片，将图片存储在静态博客源项目仓库中的话会使项目过于庞大，并且很难二次使用和管理，因此，我同样选择了 GitHub 作为图床工具，并使用 <a href="https://molunerfinn.com/PicGo/">PicGo</a> 客户端进行图床管理，在上传前使用 <a href="https://tinypng.com">TinyPNG</a> 进行压缩，并使用 <a href="https://www.jsdelivr.com">jsDelivr</a> 服务为 GitHub 图床进行加速，这样就可以将所有图片存储在 GitHub 图床仓库，文章中以外链的方式嵌入图片。</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>后来使用了 Cloudflare R2 + WebP Cloud 代理优化 + PicGo 这一套图床解决方案。</p>
-<h2 id="发布流程">发布流程</h2>
-<p>通常 GitHub Pages 发布博客需要本地 <code>hugo</code> 命令生成静态站点文件目录，<code>cd</code> 到 <code>public</code> 目录，并使用 <code>git add</code>、<code>git commit</code>、<code>git push</code> 等命令提交到 GitHub Pages 仓库，实现博客的发布，因为每次更新都需要进行重复操作，且博客源 Markdown 文件无法进行很好的备份和版本管理。</p>
-<p>因此，我建立了一个博客源文件仓库，通过 GitHub Action 实现了一套自动化发布流程，仅需将 Hugo 博客源文件上传至 GitHub 仓库，会自动触发 CI 生成静态站点文件并推送到 GitHub Pages 仓库。</p>
-<p><strong>[2022-05-29 更新]</strong></p>
-<p>Hugo 搭建与 GitHub Action 配置教程已更新：《<a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a>》</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>新增了 Cloudflare Pages 部署方案：《<a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a>》</p>
-<p>发布流程</p>
-<h2 id="总结">总结</h2>
-<p>以上就是我的个人博客解决方案，前期搭建有些繁琐，但一番折腾后，完美实现了我的需求，关于整个过程的详细步骤，<del>我将会分多篇文章进行讲解，请持续关注</del>，希望能够对大家有所帮助。</p>
-<p><strong>[2022-06-02 更新]</strong></p>
-<p>系列教程核心部分已完成：</p>
-<ul>
-<li><a href="https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
-<li><a href="https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
-<li><a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
-</ul>
-<p>除此之外，如果不想使用 Hugo 这类静态博客，还可以通过 Ghost 来比较方便地搭建一下：</p>
-<ul>
-<li><a href="https://www.pseudoyu.com/en/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/">Ghost 5.0 来了，使用 Digital Ocean 一键部署吧</a></li>
-</ul>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://gohugo.io">Hugo 官方网站</a></li>
-<li><a href="https://github.com/shaform/hugo-theme-den">hugo-theme-den 主题仓库</a></li>
-<li><a href="https://pages.github.com">GitHub Pages 官方网站</a></li>
-<li><a href="https://github.com/features/actions">GitHub Action 官方网站</a></li>
-<li><a href="http://vercel.com">Vercel 官方网站</a></li>
-<li><a href="https://cusdis.com">Cusdis 官方网站</a></li>
-<li><a href="https://www.heroku.com">Heroku 官方网站</a></li>
-<li><a href="https://molunerfinn.com/PicGo/">PicGo 官方网站</a></li>
-<li><a href="https://splitbee.io">splitbee 官方网站</a></li>
-<li><a href="https://search.google.com/search-console">Google Console 官方网站</a></li>
-<li><a href="https://www.cloudflare.com">Cloudflare 官方网站</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>

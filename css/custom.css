@@ -61,7 +61,7 @@ table tr td {
 }
 
 .scroll-top .arrow-icon {
-	background-image: url(/images/top.png);
+	background-image: url('https://image.pseudoyu.com/images/top.png');
 	width: 30px;
 	height: 30px;
 	display: block;
