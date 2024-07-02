@@ -59,13 +59,13 @@ WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论
 
 ![webp_custom_user_agent](https://image.pseudoyu.com/images/webp_custom_user_agent.png)
 
-因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自己定义的值，如 `pseudoyu.com/1.0` 等。
+因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自定义值，如 `pseudoyu.com/1.0`。
 
 #### Cloudflare WAF 配置
 
 ![cloudflare_waf_intro](https://image.pseudoyu.com/images/cloudflare_waf_intro.png)
 
-[WAF（Web Application Firewall）](https://developers.cloudflare.com/waf) 是 Cloudflare 提供的一个防火墙服务，可以自定义规则来限制特定请求以保护网站安全，登录 Cloudflare 后在左侧边栏点击「网站」，点击进入需要保护的域名，选择侧边栏「安全性」 - 「WAF」即可免费使用（注意，不是最外层的账户级 WAF），免费账户可设定五个自定义规则。
+[WAF（Web Application Firewall）](https://developers.cloudflare.com/waf) 是 Cloudflare 提供的一个防火墙服务，可以自定义规则来限制特定请求以保护网站安全，登录 Cloudflare 后在左侧边栏点击「网站」，点击进入需要保护的域名，选择侧边栏「安全性」 - 「WAF」即可免费使用（注：不是最外层的账户级 WAF），免费账户可设定五个自定义规则。
 
 ![waf_create_rule](https://image.pseudoyu.com/images/waf_create_rule.png)
 
@@ -81,7 +81,7 @@ WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论
 
 要注意的是需要把其中 `pseudoyu.com/1.0` 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值，其余保持不变即可。
 
-并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击保存即可。
+并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击「部署/保存」即可。
 
 我使用的是目前 WebP Cloud 官方文档提供的[推荐规则](https://docs.webp.se/webp-cloud/security/#cloudflare)，后续或许会针对新的功能有所调整，可以直接参考文档。
 
