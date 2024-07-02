@@ -34,8 +34,8 @@
 <p>点击「创建规则」，进入设置页面。</p>
 <p><img src="https://image.pseudoyu.com/images/user_agent_protection_waf.png" alt="user_agent_protection_waf"></p>
 <p>点击「表达式预览」右侧的「编辑表达式」，填入以下规则：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">(http.host eq &#34;images.pseudoyu.com&#34;) and (http.user_agent ne &#34;pseudoyu.com/1.0&#34;) and ((http.request.uri.path contains &#34;jpg&#34;) or (http.request.uri.path contains &#34;png&#34;) or (http.request.uri.path contains &#34;jpeg&#34;) or (http.request.uri.path contains &#34;gif&#34;))
-</span></span></code></pre></div><p>要注意的是需要把其中 <code>pseudoyu.com/1.0</code> 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值，并且为了防止我在同一域名下的其他自部署服务的图片无法正常显示，我还加了 <code>(http.host eq &quot;images.pseudoyu.com&quot;)</code>，即只对图床的访问链接生效，其余保持不变即可。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">(http.host eq &#34;images.pseudoyu.com&#34;) and (http.user_agent ne &#34;pseudoyu.com/1.0&#34;)
+</span></span></code></pre></div><p>为了防止我在同一域名下的其他自部署服务的图片无法正常显示，我添加了 <code>(http.host eq &quot;images.pseudoyu.com&quot;)</code> 条件，即只对图床的访问链接生效，这部分需要替换为自己的图床域名 host；另外还需要把其中 <code>pseudoyu.com/1.0</code> 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值。</p>
 <p>并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击「部署/保存」即可。</p>
 <p>我使用的是目前 WebP Cloud 官方文档提供的<a href="https://docs.webp.se/webp-cloud/security/#cloudflare">推荐规则</a>，后续或许会针对新的功能有所调整，可以直接参考文档。</p>
 <p><img src="https://image.pseudoyu.com/images/block_by_waf_example.png" alt="block_by_waf_example"></p>
