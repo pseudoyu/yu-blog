@@ -138,6 +138,12 @@ authors:
 
 - [从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
 
+**[2024-07-02 更新]**
+
+新写了一篇教程实现了图床添加隐私和版权保护，算是番外篇。
+
+- [使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护](https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
+
 ### 内容搜索
 
 ![search_in_my_blog](https://image.pseudoyu.com/images/search_in_my_blog.png)
