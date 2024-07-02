@@ -10,7 +10,7 @@ authors:
 
 ## 前言
 
-在「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 [WebP Cloud](https://webp.se/) 进行图片优化。
+在「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 [WebP Cloud](https://webp.se/) 进行图片优化。
 
 在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。
 
@@ -127,4 +127,4 @@ WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论
 
 使用 [WebP Cloud](https://webp.se/) 才第三天，最开始一直以为只是一个类 CDN 图片加速访问工具，经过折腾后发现了很多有意思的地方，并且为个人免费用户提供的 Free Quota 足够到大家拥有更好的图片体验，也就是他们所坚持的「做正确的事」。
 
-团队更多是做一些技术沉淀和实践，写了许多博客 -- 「[WebP Cloud Services Blog](https://blog.webp.se/)」，闲时读读也能感受到他们的热情，最近因为「[周报 \#63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人](https://www.pseudoyu.com/zh/2024/07/01/weekly_review_20240701/)」这一篇中的经历而在思考「劣币驱逐良币」这一问题，我觉得坚持做正确的事不向商业做过多妥协的团队理应被更多人看到，理应过得更好，我人微言轻，仅以这些教程来让更多的人了解到他们。
+团队更多是做一些技术沉淀和实践，写了许多博客 -- 「[WebP Cloud Services Blog](https://blog.webp.se/)」，闲时读读也能感受到他们的热情，最近因为「[周报 \#63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人](https://www.pseudoyu.com/en/2024/07/01/weekly_review_20240701/)」这一篇中的经历而在思考「劣币驱逐良币」这一问题，我觉得坚持做正确的事不向商业做过多妥协的团队理应被更多人看到，理应过得更好，我人微言轻，仅以这些教程来让更多的人了解到他们。
