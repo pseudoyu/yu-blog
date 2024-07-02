@@ -54,7 +54,7 @@
 <p>这是我的配置，即在图片的底部中间添加一个浅灰色的 <code>@pseudoyu</code> 字样。</p>
 <p>不过目前使用上还有一些体验上的小问题，如之前上传的图并不会自动应用/更改为水印（可能是因为有缓存），以及重新进入编辑水印页面时位置会错位，已经反馈给了开发者，或许能很快解决。</p>
 <p><img src="https://image.pseudoyu.com/images/apply_watermark_webp.png" alt="apply_watermark_webp"></p>
-<p>编辑完水印后，进入代理的详细配置页面，下拉到「Watermark Setting」模块，选取刚创建的水印即可，点击右上角「Save」即可。</p>
+<p>编辑完水印后，进入代理的详细配置页面，下拉到「Watermark Setting」模块，选取刚创建的水印，点击右上角「Save」即可。</p>
 <p>效果就不单独展示了，本文所有配图都通过这种方式添加了水印。</p>
 <h2 id="总结">总结</h2>
 <p><img src="https://image.pseudoyu.com/images/webp_thoughts.png" alt="webp_thoughts"></p>
