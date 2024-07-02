@@ -182,6 +182,11 @@
 ]]></content:encoded></item><item><title>从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</title><link>https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/</link><pubDate>Sun, 30 Jun 2024 14:12:47 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>在「<a href="https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a>」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。</p>
 <p>本篇是关于图床系统的解决方案。</p>
+<p><strong>[2024-07-02 更新]</strong></p>
+<p>新写了一篇教程实现了图床添加隐私和版权保护，算是番外篇。</p>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护</a></li>
+</ul>
 <h2 id="图床方案迭代">图床方案迭代</h2>
 <p>其实在博客搭建之初因为内容并不多，也比较少有插图，所以大部分的图片都是直接放在我的 Hugo 博客仓库的 <code>static</code> 目录下，也没觉得有什么不便，直到有一段时间需要多平台发布，复制了博客的 markdown 源文件后，因为所有图片都是博客的相对路径，导致图片全部无法显示，需要把图片一张张重新上传，十分繁琐。</p>
 <p>那时才开始了解到图床（Image hosting）这个概念，把图片上传到一个专用的存储服务并通过公开链接使用，不但可以统一进行管理，还能有效减少博客仓库文件的体积，提高网站的加载速度。</p>
@@ -377,6 +382,11 @@
 <p>图床搭建教程见这篇：</p>
 <ul>
 <li><a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a></li>
+</ul>
+<p><strong>[2024-07-02 更新]</strong></p>
+<p>新写了一篇教程实现了图床添加隐私和版权保护，算是番外篇。</p>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护</a></li>
 </ul>
 <h3 id="内容搜索">内容搜索</h3>
 <p><img src="https://image.pseudoyu.com/images/search_in_my_blog.png" alt="search_in_my_blog"></p>
