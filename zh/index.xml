@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 02 Jul 2024 06:12:47 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护</title><link>https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/</link><pubDate>Tue, 02 Jul 2024 06:12:47 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/</guid><description>前言 在「从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 WebP Cloud 进行图</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 02 Jul 2024 06:12:47 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 WebP Cloud 与 Cloudflare WAF 为你的图床添加隐私和版权保护</title><link>https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/</link><pubDate>Tue, 02 Jul 2024 06:12:47 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/</guid><description>前言 在「从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 WebP Cloud 进行图</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>在「<a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a>」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 <a href="https://webp.se/">WebP Cloud</a> 进行图片优化。</p>
-<p>在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。</p>
+<p>在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP Cloud 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。</p>
 <p>本文是对这一实践的记录，也算是图床搭建番外篇了。</p>
 <h2 id="需求分析">需求分析</h2>
 <p><img src="https://image.pseudoyu.com/images/webp_proxy_info.png" alt="webp_proxy_info"></p>
@@ -24,7 +24,7 @@
 <p>和 <a href="https://webp.se/">WebP Cloud</a> 的开发者 <a href="https://x.com/n0vad3v">Nova Kwok</a> 聊了一下，发现 WebP Cloud 提供了自定义「Proxy User Agent」的功能，并推荐在 Cloudflare WAF 中配置对应规则以保护图片安全，文档中有详细说明 &ndash; 「<a href="https://docs.webp.se/webp-cloud/security/#cloudflare">Security | WebP Cloud Services Docs</a>」。</p>
 <h4 id="webp-cloud-配置">WebP Cloud 配置</h4>
 <p>当我们访问互联网上的网页或图片链接时，请求通常会包含一个 User Agent 字段，一般包含浏览器版本等信息，网站可针对不同的 User Agent 进行一些特定逻辑处理。</p>
-<p>WebP Cloud 默认会使用 <code>WebP Cloud Services/1.0</code> 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP 定义的 User Agent 值，而这个值又是用户可以自定义的。</p>
+<p>WebP Cloud 默认会使用 <code>WebP Cloud Services/1.0</code> 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP Cloud 定义的 User Agent 值，而这个值又是用户可以自定义的。</p>
 <p><img src="https://image.pseudoyu.com/images/webp_custom_user_agent.png" alt="webp_custom_user_agent"></p>
 <p>因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自定义值，如 <code>pseudoyu.com/1.0</code>。</p>
 <h4 id="cloudflare-waf-配置">Cloudflare WAF 配置</h4>
@@ -185,7 +185,7 @@
 <p><strong>[2024-07-02 更新]</strong></p>
 <p>新写了一篇教程实现了图床添加隐私和版权保护，算是番外篇。</p>
 <ul>
-<li><a href="https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">使用 WebP Cloud 与 Cloudflare WAF 为你的图床添加隐私和版权保护</a></li>
 </ul>
 <h2 id="图床方案迭代">图床方案迭代</h2>
 <p>其实在博客搭建之初因为内容并不多，也比较少有插图，所以大部分的图片都是直接放在我的 Hugo 博客仓库的 <code>static</code> 目录下，也没觉得有什么不便，直到有一段时间需要多平台发布，复制了博客的 markdown 源文件后，因为所有图片都是博客的相对路径，导致图片全部无法显示，需要把图片一张张重新上传，十分繁琐。</p>
@@ -209,7 +209,7 @@
 <p>为了优化用户的访问，又使用了一个「<a href="https://webp.se/">WebP Cloud</a>」服务对 R2 的图片进行代理，在代理层面进一步减小图片体积，虽然对于国内用户来说速度肯定还是比不上阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。</p>
 <p>在电脑端同样是通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。</p>
 <h2 id="图床搭建说明">图床搭建说明</h2>
-<p>Cloudflare R2 + WebP + PicGo 的方案尽管牵扯到了多个组件和平台，但所有操作都在 Free Plan 中，也是我最终选定的方案，下面将从零开始介绍如何搭建这个免费图床系统。</p>
+<p>Cloudflare R2 + WebP Cloud + PicGo 的方案尽管牵扯到了多个组件和平台，但所有操作都在 Free Plan 中，也是我最终选定的方案，下面将从零开始介绍如何搭建这个免费图床系统。</p>
 <h3 id="cloudflare-r2">Cloudflare R2</h3>
 <p>R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 <a href="https://www.cloudflare.com/zh-cn/">Cloudflare 账号</a>才能使用，注册登录后，点击左侧边栏的 R2 访问服务，但需要注意的是开通 R2 服务需要绑定信用卡（国内外主流信用卡皆可），但并不会扣费，主要是为了验证用户身份使用。</p>
 <h4 id="创建图床-bucket">创建图床 Bucket</h4>
