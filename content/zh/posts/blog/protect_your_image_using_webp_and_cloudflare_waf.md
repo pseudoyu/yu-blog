@@ -1,5 +1,5 @@
 ---
-title: "使用 WebP 与 Cloudflare WAF 为你的图床添加隐私与版权保护"
+title: "使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护"
 date: 2024-07-02T06:12:47+08:00
 draft: false
 tags: ["image-hosting", "cloudflare", "waf", "webp cloud", "serverless", "blog"]
