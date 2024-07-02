@@ -76,10 +76,10 @@ WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论
 点击「表达式预览」右侧的「编辑表达式」，填入以下规则：
 
 ```plaintext
-(http.user_agent ne "pseudoyu.com/1.0") and ((http.request.uri.path contains "jpg") or (http.request.uri.path contains "png") or (http.request.uri.path contains "jpeg") or (http.request.uri.path contains "gif"))
+(http.host eq "images.pseudoyu.com") and (http.user_agent ne "pseudoyu.com/1.0") and ((http.request.uri.path contains "jpg") or (http.request.uri.path contains "png") or (http.request.uri.path contains "jpeg") or (http.request.uri.path contains "gif"))
 ```
 
-要注意的是需要把其中 `pseudoyu.com/1.0` 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值，其余保持不变即可。
+要注意的是需要把其中 `pseudoyu.com/1.0` 这部分填入上文在 WebP Cloud 中自定义的 User Agent 值，并且为了防止我在同一域名下的其他自部署服务的图片无法正常显示，我还加了 `(http.host eq "images.pseudoyu.com")`，即只对图床的访问链接生效，其余保持不变即可。
 
 并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击「部署/保存」即可。
 
