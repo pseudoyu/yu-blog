@@ -49,10 +49,10 @@ I hope I can acquire more inputs like new knowledge and ideas, and write more sh
 <!-- code_time starts -->
 
 ```text
-Markdown   19 hrs 56 mins █████████████▍░░░░░░░  63.9%
-Go         6 hrs          ████░░░░░░░░░░░░░░░░░  19.2%
-Rust       2 hrs 17 mins  █▌░░░░░░░░░░░░░░░░░░░   7.3%
-Solidity   1 hr 9 mins    ▊░░░░░░░░░░░░░░░░░░░░   3.7%
+Markdown   23 hrs 5 mins  ██████████████▋░░░░░░  70.0%
+Go         6 hrs 17 mins  ███▉░░░░░░░░░░░░░░░░░  19.0%
+Solidity   1 hr 9 mins    ▋░░░░░░░░░░░░░░░░░░░░   3.5%
+TOML       28 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.4%
 Makefile   21 mins        ▏░░░░░░░░░░░░░░░░░░░░   1.1%
 ```
 
