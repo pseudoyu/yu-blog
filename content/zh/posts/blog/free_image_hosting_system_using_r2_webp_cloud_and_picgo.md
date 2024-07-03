@@ -159,7 +159,7 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 - **桶名**，填写 R2 中创建的 Bucket 名称，如我上文的 `yu-r2-test`
 - **文件路径**，上传到 R2 中的文件路径，我选择使用 `{fileName}.{extName}` 来保留原文件的文件名和扩展名。
 - **自定义节点**，填写 R2 API 中的「为 S3 客户端使用管辖权地特定的终结点」，即 `xxx.r2.cloudflarestorage.com` 格式的 S3 Endpoint
-- **自定义域名**，填写上文生成的 `xxx.r2.dev` 格式的域名或自定义域名，如我配置的 `yu-r2-test.pseudoyu.com
+- **自定义域名**，填写上文生成的 `xxx.r2.dev` 格式的域名或自定义域名，如我配置的 `yu-r2-test.pseudoyu.com`
 
 其他配置保持默认即可，确认参数无误后点击「确定」与「设置为默认图床」即可。
 
