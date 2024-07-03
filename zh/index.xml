@@ -261,7 +261,7 @@
 <li><strong>桶名</strong>，填写 R2 中创建的 Bucket 名称，如我上文的 <code>yu-r2-test</code></li>
 <li><strong>文件路径</strong>，上传到 R2 中的文件路径，我选择使用 <code>{fileName}.{extName}</code> 来保留原文件的文件名和扩展名。</li>
 <li><strong>自定义节点</strong>，填写 R2 API 中的「为 S3 客户端使用管辖权地特定的终结点」，即 <code>xxx.r2.cloudflarestorage.com</code> 格式的 S3 Endpoint</li>
-<li><strong>自定义域名</strong>，填写上文生成的 <code>xxx.r2.dev</code> 格式的域名或自定义域名，如我配置的 `yu-r2-test.pseudoyu.com</li>
+<li><strong>自定义域名</strong>，填写上文生成的 <code>xxx.r2.dev</code> 格式的域名或自定义域名，如我配置的 <code>yu-r2-test.pseudoyu.com</code></li>
 </ul>
 <p>其他配置保持默认即可，确认参数无误后点击「确定」与「设置为默认图床」即可。</p>
 <h4 id="图片上传">图片上传</h4>
