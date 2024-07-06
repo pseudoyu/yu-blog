@@ -294,7 +294,9 @@
 <p><img src="https://image.pseudoyu.com/images/yu_webp_test.png" alt="yu_webp_test"></p>
 <p>图中 Basic info 部分「Visitor」下显示的以 <code>xxx.webp.li</code> 格式即为我们的代理地址。</p>
 <p>例如我们之前通过 PicGo 上传到 R2 的文件 <a href="https://yu-r2-test.pseudoyu.com/new_mbp_setup.jpg">yu-r2-test.pseudoyu.com/new_mbp_setup.jpg</a> 则可以用 <a href="https://dc84642.webp.li/new_mbp_setup.jpg">dc84642.webp.li/new_mbp_setup.jpg</a> 这一链接进行访问。</p>
-<p>如果不喜欢默认的代理地址，则可以右下角 Chat 或是邮箱联系开发者进行自定义域名修改，之后或许也会有更自动化的配置流程。</p>
+<p><del>如果不喜欢默认的代理地址，则可以右下角 Chat 或是邮箱联系开发者进行自定义域名修改，之后或许也会有更自动化的配置流程。</del></p>
+<p><strong>[2024-07-06 更新]</strong></p>
+<p>支持了自定义配置域名，详细教程可参考「<a href="https://docs.webp.se/webp-cloud/custom-domain/">Custom Domain | WebP Cloud Services Docs</a>」。</p>
 <p>下面可以通过滑动条来调整图片压缩比率，默认为 80%，5M 的 jpg 图片压缩后的 webp 大小通常小于 1M，基本满足了网络传播需求，其他配置保持默认即可，如有需要可以根据文档进行配置。</p>
 <h4 id="更改-picgo-配置">更改 PicGo 配置</h4>
 <p><img src="https://image.pseudoyu.com/images/change_pic_go_config.png" alt="change_pic_go_config"></p>
