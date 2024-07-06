@@ -217,7 +217,11 @@ PicGo 本体并不包括 S3 图床，但可以通过「[GitHub - wayjam/picgo-pl
 
 例如我们之前通过 PicGo 上传到 R2 的文件 [yu-r2-test.pseudoyu.com/new_mbp_setup.jpg](https://yu-r2-test.pseudoyu.com/new_mbp_setup.jpg) 则可以用 [dc84642.webp.li/new_mbp_setup.jpg](https://dc84642.webp.li/new_mbp_setup.jpg) 这一链接进行访问。
 
-如果不喜欢默认的代理地址，则可以右下角 Chat 或是邮箱联系开发者进行自定义域名修改，之后或许也会有更自动化的配置流程。
+~~如果不喜欢默认的代理地址，则可以右下角 Chat 或是邮箱联系开发者进行自定义域名修改，之后或许也会有更自动化的配置流程。~~
+
+**[2024-07-06 更新]**
+
+支持了自定义配置域名，详细教程可参考「[Custom Domain | WebP Cloud Services Docs](https://docs.webp.se/webp-cloud/custom-domain/)」。
 
 下面可以通过滑动条来调整图片压缩比率，默认为 80%，5M 的 jpg 图片压缩后的 webp 大小通常小于 1M，基本满足了网络传播需求，其他配置保持默认即可，如有需要可以根据文档进行配置。
 
