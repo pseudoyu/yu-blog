@@ -64,7 +64,7 @@ authors:
 
 ![mats_cat](https://image.pseudoyu.com/images/mats_cat.jpg)
 
-最近把家门口地垫是这个（当代年轻人精神状况 🤣
+最近家门口地垫是这个（当代年轻人精神状况 🤣
 
 ## 有趣的事与物
 
