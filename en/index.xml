@@ -272,7 +272,7 @@
 <p>此时可以在本地预览或部署网站以查看评论系统是否正常显示，至此我们的服务部署完成。</p>
 <h3 id="获取-user-id-并配置-admin">获取 User ID 并配置 Admin</h3>
 <p><img src="https://image.pseudoyu.com/images/get_user_id_remark42.png" alt="get_user_id_remark42"></p>
-<p>登录授权完成后并测试评论后，可在 Remark42 中点击头像打开管理页面，双击后 <code>CMD/Control+C</code> 可以获取以 <code>github_</code> 或其他平台开头的 User ID，可以讲其配置到 <code>ADMIN_SHARED_ID</code> 中（更改 <code>fly.toml</code> 配置文件并运行 <code>fly deploy</code> 重新部署，即可成为管理员，管理员有权限对其他用户的评论进行删除等管理操作。</p>
+<p>登录授权完成后并测试评论后，可在 Remark42 中点击头像打开管理页面，双击后 <code>CMD/Ctrl+C</code> 可以获取以 <code>github_</code> 或其他平台开头的 User ID，可以将其配置到 <code>ADMIN_SHARED_ID</code> 中（更改 <code>fly.toml</code> 配置文件并运行 <code>fly deploy</code> 重新部署，即可成为管理员，管理员有权限对其他用户的评论进行删除等管理操作。</p>
 <h2 id="其他">其他</h2>
 <p>我把之前 Cusdis 中的评论数据按照一定格式导出 json 格式的数据，并通过 go 程序进行格式转换与迁移，因此保留了之前所有的评论。</p>
 <p>因为 Cusdis 本身不提供导出功能且迁移的需求太过小众，我并没有直接向上游贡献代码，也没有写成完善的脚本，有类似需求的朋友可以参考这个 PR 进行处理 —— 「<a href="https://github.com/pseudoyu/remark42/pull/1/">feat: add cusdis to remark42 migrator support by pseudoyu · Pull Request #1 · pseudoyu/remark42</a>」。</p>
