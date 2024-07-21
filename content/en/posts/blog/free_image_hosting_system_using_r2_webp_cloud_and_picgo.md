@@ -1,5 +1,5 @@
 ---
-title: "从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）"
+title: "从零开始搭建你的免费图床系统（Cloudflare R2 + WebP Cloud + PicGo）"
 date: 2024-06-30T14:12:47+08:00
 draft: false
 tags: ["image-hosting", "cloudflare", "r2", "webp cloud", "serverless", "s3", "blog", "picgo"]
