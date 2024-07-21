@@ -349,7 +349,7 @@ fly deploy
 
 ![get_user_id_remark42](https://image.pseudoyu.com/images/get_user_id_remark42.png)
 
-登录授权完成后并测试评论后，可在 Remark42 中点击头像打开管理页面，双击后 `CMD/Control+C` 可以获取以 `github_` 或其他平台开头的 User ID，可以讲其配置到 `ADMIN_SHARED_ID` 中（更改 `fly.toml` 配置文件并运行 `fly deploy` 重新部署，即可成为管理员，管理员有权限对其他用户的评论进行删除等管理操作。
+登录授权完成后并测试评论后，可在 Remark42 中点击头像打开管理页面，双击后 `CMD/Ctrl+C` 可以获取以 `github_` 或其他平台开头的 User ID，可以将其配置到 `ADMIN_SHARED_ID` 中（更改 `fly.toml` 配置文件并运行 `fly deploy` 重新部署，即可成为管理员，管理员有权限对其他用户的评论进行删除等管理操作。
 
 ## 其他
 
