@@ -135,7 +135,7 @@ primary_region = 'hkg'
   memory_mb = 256
 ```
 
-我进行详细的配置说明：
+这是详细的配置说明：
 
 - `app`：应用名称，这里我使用了 `yu-remark42-01`，可以根据自己的实际情况进行修改
 - `primary_region`：部署区域，可以从这个[列表](https://fly.io/docs/reference/regions/#fly-io-regions)中选择自己想部署的区域，我选择了香港
@@ -276,9 +276,7 @@ fly deploy
 
 ## 博客配置 Remark42
 
-上文我们完成的 Remark42 服务的部署，现在则需要在我们的博文中加入 Remark42 评论组件。
-
-以我使用的 Hugo 博客为例。
+上文我们完成的 Remark42 服务的部署，现在则需要在我们的博文中加入 Remark42 评论组件，以我使用的 Hugo 博客为例。
 
 ### 定义 Hugo 主题 Comments 组件
 
@@ -353,7 +351,7 @@ fly deploy
 
 ## 其他
 
-我把之前 Cusdis 中的评论数据按照一定格式导出 json 格式的数据，并通过 go 程序进行格式转换与迁移，因此保留了之前所有的评论。
+我把之前 Cusdis 中的评论数据按照一定条件导出 json 格式的数据，并通过 go 程序进行格式转换与迁移，因此保留了之前所有的评论。
 
 因为 Cusdis 本身不提供导出功能且迁移的需求太过小众，我并没有直接向上游贡献代码，也没有写成完善的脚本，有类似需求的朋友可以参考这个 PR 进行处理 —— 「[feat: add cusdis to remark42 migrator support by pseudoyu · Pull Request \#1 · pseudoyu/remark42](https://github.com/pseudoyu/remark42/pull/1/)」。
 
