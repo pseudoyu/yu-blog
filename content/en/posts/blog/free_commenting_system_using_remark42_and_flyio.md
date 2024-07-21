@@ -28,7 +28,7 @@ authors:
 
 ### Utterances
 
-于是换成了另一个基于 GitHub issues 的评论系统 utterances，它会为每篇文章生成一个 issue，将，用户通过授权 GitHub 登录来对 issue 发表评论。这种方式的好处是只需要授权一个 utterances-bot 来进行管理，无需自己部署服务，维护数据库等。但是用了一段时间后，觉得有几点不足：
+于是换成了另一个基于 GitHub issues 的评论系统 utterances，它会为每篇文章生成一个 issue，用户通过授权 GitHub 登录来对 issue 发表评论。这种方式的好处是只需要授权一个 utterances-bot 来进行管理，无需自己部署服务，维护数据库等。但是用了一段时间后，觉得有几点不足：
 
 - 基于 GitHub API 进行评论管理，如之后接口变动或对这类利用 issue 进行评论的方式进行限制，会不太稳定
 - 读者必须要授权 GitHub 登录，非技术人员或使用移动端阅读的读者使用起来很不方便
