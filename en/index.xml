@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 10 Jul 2024 08:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #64 - 生活在此处（《斯通纳》与《Normal People》）</title><link>https://www.pseudoyu.com/en/2024/07/10/weekly_review_20240710/</link><pubDate>Wed, 10 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/10/weekly_review_20240710/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-01 到 2024-07-09 这周生活的记录与思考。 这一周坚持了几天早起读书学习，效率很高，不过要养成规律依然</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jul 2024 08:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #65 - Adventure X 体验、Apple Notes 笔记实践与 EpubKit</title><link>https://www.pseudoyu.com/en/2024/07/21/weekly_review_20240721/</link><pubDate>Sun, 21 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/21/weekly_review_20240721/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-10 到 2024-07-21 这周生活的记录与思考。 这一周多很丰富，工作有些忙碌，再加上参加 Adventure X 的活动，很好玩</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240721.png" alt="weekly_review_20240721"></p>
+<p>本篇是对 <code>2024-07-10</code> 到 <code>2024-07-21</code> 这周生活的记录与思考。</p>
+<p>这一周多很丰富，工作有些忙碌，再加上参加 Adventure X 的活动，很好玩；尝试了 Remix 框架，筹备一个 Workshop；和 Randy 见面，一起计划了 EpubKit 的 Redesign 和后续开发安排，算是给我们无法参赛的“中年嬉皮士”举办了自己的黑客松；从 Obsidian 转向 Apple Notes，实践 P.A.R.A；打算给车库的墙进行喷绘；去 Apple Store 体验了 Apple Vision Pro；还有很多有意思的事。</p>
+<h2 id="adventure-x">Adventure X</h2>
+<p>这是一个面向 26 岁及以下的年轻开发者的一个黑客松活动，早早有听到宣发，刚好超龄而遗憾没法报名参加，不过受邀作为 OpenBuild 赞助的「互联网 3.0 开发工具」赛道的评委及 Workshop 的讲师来到现场，也算是全程观望了。</p>
+<p>活动大概有接近两百个开发者参赛，确实能看到他们的活力和激情（<del>可能限制 26 岁也是有道理的</del>）；以及有不少在 Twitter 和疯狂星期四上熟识的朋友们都来到了现场，跟其中不少新老朋友都聊了一些有意思的事。</p>
+<h3 id="workshop">Workshop</h3>
+<p><img src="https://image.pseudoyu.com/images/adventurex_workshop.jpg" alt="adventurex_workshop"></p>
+<p>这次主要的任务是作为 Mentor 和 Workshop 的讲师，主题为「使用 Solidity 与 Remix 构建全栈 AdventureX Badge ÐApp」。</p>
+<p>其实前前后后在不少场合讲了不少次课和 Workshop，一开始其实只是给 ian 的 OpenBuild 社区帮忙，自己也是乐于写教程和分享的，但随着这样的机会越来越多，自己也有了一些变化，并不会每次都用一样的课件重复着类似的内容，而是都当作一个自己学习的新机会，也让自己在有限的时间内完成一些好玩的东西，再把它教授出去，也是费曼学习法的一种实践。</p>
+<p>这次 Workshop 则是想要学习 Remix 前端框架，写了一个简单的活动徽章领取的 ÐApp，体验地址是 —— 「<a href="https://adventure-x.pseudoyu.com/">adventure-x.pseudoyu.com</a>」，PPT 课件是 —— 「<a href="https://world.pseudoyu.com/AdventureX_Workshop_20240716.pdf">AdventureX_Workshop_20240716.pdf</a>」。</p>
+<p>虽然大概一个月前就知道这个 Workshop，但毫无意外地拖到了前两天，花了一晚上学习了 Randy 的「<a href="https://remix.lutaonan.com/#remix-%E7%9A%84%E8%B7%AF%E7%94%B1%E8%AE%BE%E8%AE%A1">Remix 入门实战</a>」小册子，写完了 UI 部分，然后又花了一晚上写 Solidity 合约部分，并且完成了前端和合约的交互逻辑，并且用 Zeabur 部署上线了，拖延症真的要命。</p>
+<p>但是 Remix 确实好用，实现 0 useEffect, 0 useState 写完应用成就，后面看看能不能在各种场景上都彻底替代 Next.js。</p>
+<p>现场来的人比想象得多，比起原定的 45 分钟也拖堂了一倍，接近 10 点才结束，不过是很有意思的体验，Workshop 效果也不错。</p>
+<h3 id="中年嬉皮士黑客松">“中年嬉皮士”黑客松</h3>
+<p><img src="https://image.pseudoyu.com/images/code_with_randy_hackathon.png" alt="code_with_randy_hackathon"></p>
+<p>这次 Randy 也作为嘉宾评委从广东过来了，都觉得黑客松氛围都到这了，我们只是观光有些太无趣了，所以干脆一起做起了 EpubKit 的 Redesign。</p>
+<p>讨论了整个 EpubKit 现有的操作逻辑和 UI 风格变动，很开心，晚上一起开发了几个小时，也是找找作为“中年嬉皮士”的参与感了；也讨论了后续关于产品的很多想法和分工，很期待。</p>
+<p>也欢迎大家下载体验 <a href="https://epubkit.app/">EpubKit</a>，制作自己的电子书。</p>
+<p><img src="https://image.pseudoyu.com/images/yu_with_randy.jpg" alt="yu_with_randy"></p>
+<p>作为不爱拍照的人，刚好被工作人员拍到了和 Randy 一起在看项目展览时候的合影，也很有纪念意义了。</p>
+<h2 id="基于-apple-notes-的-para-实践">基于 Apple Notes 的 P.A.R.A 实践</h2>
+<p>上个月从用了两年的 Logseq 转成了 Obsidian，实践了大概一个月，比起 Logseq 的时候多了好些记录的习惯，虽然已经不用再关心文件夹层级这些，但依然需要克服，「脑子里记录下想法」 -&gt; 「等在电脑前新建文件并取标题」 -&gt; 「整理想法并打 Tag」 -&gt; 「写下内容」这一链路所带来的心智负担。</p>
+<p><img src="https://image.pseudoyu.com/images/apple_notes_folders_20240721.png" alt="apple_notes_folders_20240721"></p>
+<p>Randy 跟我讲了他使用 Apple Notes 记录所有想法和笔记的方式，并通过 P.A.R.A 的层级进行分类，发现当不需要有整理的负担，而是随时打开手机/电脑记录下想法，也不用考虑什么格式或是 markdown 语法，能记下来、take action 才是笔记的核心要义。</p>
+<p>在 Mac 上可以使用右下角的 Quick Notes 快速记录，iOS 上则是通过快捷指令将一些闪现想法快速保存到 Drafts 目录中，后续当有更多需要更多想法的时候再挪动到各个目录中，很简单却有效的实践，也不需要再指定各种 tag 和分类，需要的时候直接全文搜索就可以了。</p>
+<h2 id="其他">其他</h2>
+<h3 id="墙绘">墙绘</h3>
+<p><img src="https://image.pseudoyu.com/images/car_painting_wall.jpg" alt="car_painting_wall"></p>
+<p>上次学了油画画了头像后觉得很有意思，最近打算再挑战一下好玩的，和学姐一起给我爸的汽修车间的一整面水泥墙用丙烯颜料墙绘（<del>我打打下手</del>）。</p>
+<p>把我爸的想法和我们在 Ins 上找的参考图发给 DALL-E 后生成的效果很不错，希望 8 月能有成品效果 🤩。</p>
+<h3 id="apple-vision-pro">Apple Vision Pro</h3>
+<p><img src="https://image.pseudoyu.com/images/apple_vision_pro_experience.jpg" alt="apple_vision_pro_experience"></p>
+<p>这周四去 Apple 西湖体验了 Vision Pro，其实之前非常早就关注了，也看了大量测评，一度有些心动，但是其实有过 Quest2 的吃灰经历，一直还在观望。</p>
+<p>刚好国行也上架了，预约了一次半小时的体验，从配镜片、讲解配件到体验各种功能和应用，体验的感觉比想象得好，20 分钟左右的时间倒也没有感受到什么眩晕感或是重量带来的压力。</p>
+<p>实际体验下来，交互比想象得流畅自然和准确；但画面还是有比较明显的噪点，分辨率并不足以有沉浸式的体验，但已经是比较惊艳的了；应用支持还是太少了，所以更多也就是尝鲜，没有什么应用场景，打字体验很差，还是得外接键盘；总体来说，这一代不太值得买，或许等待之后不论价格还是系统应用层完善了再考虑了。</p>
+<h3 id="chatgpt-plus---claude-pro">ChatGPT Plus -&gt; Claude Pro</h3>
+<p><img src="https://image.pseudoyu.com/images/claude_pro_sub.jpg" alt="claude_pro_sub"></p>
+<p>上个月由于用得比较高频，重新订阅了 ChatGPT Plus，同时用着免费额度下的 Claude 3.5 Sonnet，发现在代码上 Claude 的上下文理解能力和生成结果的可用性都明显强于 GPT4，于是在这周到期的时候决定改为 Claude Pro 的订阅，在价格相同的前提下再体验一个月试试。</p>
+<h3 id="guii-体验">Guii 体验</h3>
+<p><img src="https://image.pseudoyu.com/images/guii.jpg" alt="guii"></p>
+<p><a href="https://guii.ai/">Guii</a> 是这次 Adventure X 黑客松看到的最有意思的项目了，能够直接通过自然语言对话的方式跟前端页面交互，并直接会更改源码实现有趣的效果。</p>
+<p>我通过选中元素简单对话的方式做了一个很简易的数字货币小网站，还有些 bug 但是可玩性很高。</p>
+<p>把 OpenBuild Sponsor 赛道的奖项颁给她们了，实至名归，希望能早点上线 🔥。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="收藏">收藏</h4>
+<ul>
+<li><a href="https://github.com/Lakr233/NotchDrop">Lakr233/NotchDrop</a></li>
+</ul>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/36798526/"><strong>Brave New Words</strong></a>，可汗学院创始人写的关于 GPT 与教育未来的思考与实践，对日常使用 LLMs 有挺多启发的，除了成为搜索引擎一样的工具向外还有很多想象空间。</li>
+<li><a href="https://book.douban.com/subject/36191471/"><strong>履单</strong></a>，从萝卜快跑引起的议论想到的这本书，探讨科技加速引起的社会分化，不过更多是从劳动者视角，下午看了一会儿，叙事方式也很舒服。</li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://www.boyilu.com/normal-people">一个尘世中的普通人</a></li>
+<li><a href="https://limboy.me/posts/indie-creator-routine/">展开讲讲独立创作者的工作节奏</a></li>
+<li><a href="https://leonzhao.cn/posts/2024-07-17-local-first-developer-x">Local-First：不同以往的开发者体验</a></li>
+<li><a href="https://www.gatesnotes.com/Brave-New-Words">Sal Khan is pioneering innovation in education…again | Bill Gates</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV15w4m1Y72a">2024 年新手摄影的最优选？｜SONY ZV-E10M2 测评</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Yz421B7nV">我是如何剪辑 VLOG 的？💻✨｜后期过程全公开：调色技巧、BGM 哪里找、快速上字幕的方法～</a></li>
+</ul>
+<h4 id="音乐">音乐</h4>
+<ul>
+<li><a href="https://open.spotify.com/track/0glre0pXcbXmVDWH5ZUKVs"><strong>春风十里</strong></a> by 鹿先森乐队</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #64 - 生活在此处（《斯通纳》与《Normal People》）</title><link>https://www.pseudoyu.com/en/2024/07/10/weekly_review_20240710/</link><pubDate>Wed, 10 Jul 2024 08:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/10/weekly_review_20240710/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-01 到 2024-07-09 这周生活的记录与思考。 这一周坚持了几天早起读书学习，效率很高，不过要养成规律依然</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -9848,84 +9928,6 @@
 <li><a href="https://reorx.com/blog/deploy-umami-for-personal-website/">搭建 umami 收集个人网站统计数据</a></li>
 <li><a href="http://vercel.com">Vercel 官方网站</a></li>
 <li><a href="https://www.heroku.com">Heroku 官方网站</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>[译] 用 Go 编写一个简单的内存键值数据库</title><link>https://www.pseudoyu.com/en/2022/05/21/writing_a_simple_in_memory_key_value_database_in_go/</link><pubDate>Sat, 21 May 2022 14:53:51 +0800</pubDate><guid>https://www.pseudoyu.com/en/2022/05/21/writing_a_simple_in_memory_key_value_database_in_go/</guid><description>《后来的我们 - 五月天》 前言 从 Postgres 到 Redis，再到 Prometheus，我们都使用并从事过各种数据库的开发。我花了很多时间来阅读其中一些数据库</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p>从 Postgres 到 Redis，再到 Prometheus，我们都使用并从事过各种数据库的开发。我花了很多时间来阅读其中一些数据库的源代码，对于那些像我一样好奇的少数人来说，他们有兴趣学习如何编写一个数据库。本书旨在记录这一过程。</p>
-<p><a href="https://github.com/arriqaaq/flashdb">GitHub - arriqaaq/flashdb: FlashDB is an embeddable, in-memory key/value database in Go (with Redis like commands)</a></p>
-<h2 id="内存数据库">内存数据库</h2>
-<p>与传统数据库的数据主要保存在机械硬盘或者固态硬盘不同的是, 内存数据库主要将数据保存在内存中。 内存数据库主要是通过消除对磁盘的访问来实现最小的响应时间，两者的不同主要体现在内存数据库是将数据保存在主存或者 RAM 中。然而, 传统的数据库则是通过驱动磁盘来获取数据。由于所有的数据都存储与管理在主存中，内存数据库相比传统的数据库更不稳定，因为当计算机断电或 RAM 崩溃时，数据将会丢失。内存数据库可以通过将每个操作存储在日志中或采取快照的方式在磁盘上持久化数据。</p>
-<h2 id="目标">目标</h2>
-<p>我们的目标是用 Go 编写一个简单、快速、嵌入式和可持久化的键/值数据库，并且实现以下功能</p>
-<ul>
-<li>支持类似 Redis 的数据结构：<code>string</code>,  <code>hash</code>, <code>set</code>, <code>zset</code></li>
-<li>具有低延时和高吞吐量</li>
-<li>支持事务，ACID 语义</li>
-<li><a href="https://github.com/arriqaaq/flashdb#append-only-file">仅可写入的持久化文件</a>格式</li>
-<li>可以通过使用 TTL 来处理<a href="https://github.com/arriqaaq/flashdb#data-expiration">数据过期</a></li>
-</ul>
-<h2 id="开始">开始</h2>
-<p>我们的目的是建立一个非常简单的 KV（键/值）存储，以便让每个人都能轻松理解和实现。在 Go 中，有相当多的嵌入式键/值存储可用，以下是一些例子：</p>
-<ul>
-<li><a href="https://github.com/dgraph-io/badger">BadgerDB</a> - BadgerDB 是一个完全用 Go 编写的嵌入式、可持久化、简单而快速的键值（KV）数据库。它旨在成为 RocksDB 等非基于 Go 实现的键值存储的高性能替代品</li>
-<li><a href="https://github.com/boltdb/bolt">BoltDB</a> - BoltDB 是一个基于 B+ 树的嵌入式 Go 键/值数据库</li>
-<li><a href="https://github.com/tidwall/buntdb">BuntDB</a> - BuntDB 是一个应用于 Go 的嵌入式内存键/值数据库，具有自定义索引和地理空间支持</li>
-<li><a href="https://github.com/hashicorp/go-memdb">go-memdb</a> - 基于不可变基数树的 Golang 内存数据库</li>
-<li><a href="https://github.com/xujiajun/nutsdb">nutsdb</a> - 一个基于磁盘的键值存储</li>
-</ul>
-<p>读起来比做起来容易，我们可以通过阅读庞大的代码库来了解其内部结构，但这对很多人来说是开始的障碍。<a href="https://github.com/xujiajun/nutsdb">NutsDB</a> 是我在 2-3 年前读到的第一批简单易懂的代码之一。</p>
-<p>因此，FlashDB 是由易于理解的组合库组成的。我们的想法是为任何想学习关于如何编写一个简单的 ACID 数据库的新手提供桥梁。</p>
-<h2 id="架构">架构</h2>
-<p><img src="https://image.pseudoyu.com/images/flashdb_architecture.png" alt="flashdb_architecture"></p>
-<p>FlashDB 的架构很简单并且支持各种 Redis 命令。Redis 本质上不是一个普通的键值存储，而是一个数据结构服务器，支持不同种类的值。事实上 Redis 使用以下数据结构实现了各种类型。</p>
-<h3 id="字符串">字符串</h3>
-<p>Redis 字符串类型是你能与 Redis 键关联的最简单的值类型。由于 Redis 键是字符串，当我们把字符串类型也作为一个值时，我们是把一个字符串映射到另一个字符串。这是用<a href="https://github.com/arriqaaq/art">可变基数树</a>（ART）实现的，这样可以很容易进行扫描。</p>
-<ul>
-<li><a href="https://github.com/arriqaaq/skiplist">String</a></li>
-</ul>
-<h3 id="哈希">哈希</h3>
-<p>用哈希表示对象很方便，而实际上哈希中可放入的字段数量并没有实际限制（除了可用的内存），所以你可以在应用程序中以许多不同的方式使用哈希。这是用一个非常简单的 HashMap 数据结构实现的。</p>
-<ul>
-<li><a href="https://github.com/arriqaaq/hash">Hash</a></li>
-</ul>
-<h3 id="集合">集合</h3>
-<p>Redis 集合是无序的字符串集合。我们可以对集合进行一些操作，比如检测某个元素是否已经存在，查找多个集合之间的交集、并集或差集等。这也是用一个简单的 HashMap 数据结构实现的。</p>
-<ul>
-<li><a href="https://github.com/arriqaaq/set">Set</a></li>
-</ul>
-<h3 id="有序集合">有序集合</h3>
-<p>有序集合是一种数据类型，类似于集合与哈希的混合体。和集合一样，有序集合也是由唯一的、不重复的字符串元素组成的。所以从某种意义上说，有序集合也是一个集合。</p>
-<p>虽然集合内的元素并不是有序的，但有序集合中的每个元素都与一个浮点值相关，称为分数（该类型类似于哈希，因为每个元素都被映射到一个值）。</p>
-<p>这是对用于字符串的跳表结构稍加修改实现的。</p>
-<ul>
-<li><a href="https://github.com/arriqaaq/zset">ZSet</a></li>
-</ul>
-<h2 id="持久化">持久化</h2>
-<p>虽然已经有了很多持久化机制，我选择了一个简单的 append-only 日志设计方式，因为它比较容易实现和理解。<strong>AOF</strong>(仅可写入的文件)记录了服务器收到的每一个写操作，这些操作将在服务器启动时再重放，重建原始数据集。命令的记录格式与 API 协议本身相同，以只写入的方式进行。当日志过大时，FlashDB 能够在后台分片处理日志。这是基于 <a href="https://github.com/tidwall/wal">wal</a> 实现的。</p>
-<ul>
-<li><a href="https://github.com/arriqaaq/aol">Append Only Log</a></li>
-</ul>
-<h2 id="总结">总结</h2>
-<p>综上，<a href="https://github.com/arriqaaq/flashdb">FlashDB</a> 仅依靠上述五个简单的库就完成了，具有事务与 ACID 支持。它很易于理解，但我希望这对任何有兴趣学习如何编写数据库的人来说是一个有用的教程。</p>
-<p><a href="https://github.com/arriqaaq/flashdb">GitHub - arriqaaq/flashdb: FlashDB is an embeddable, in-memory key/value database in Go (with Redis like commands)</a></p>
-<h2 id="讲座">讲座</h2>
-<p>我最近在 Golang meetup 上分享了这个项目，这是幻灯片的内容。</p>
-<p><a href="https://www.canva.com/design/DAE8sGRyC2o/ZCuCaezQ6dYA0Oq24QxjUQ/view?utm_content=DAE8sGRyC2o&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=publishsharelink">https://www.canva.com/design/DAE8sGRyC2o/ZCuCaezQ6dYA0Oq24QxjUQ/view?utm_content=DAE8sGRyC2o&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=publishsharelink</a></p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://aly.arriqaaq.com/building-a-database-in-go">原文地址</a></li>
-<li><a href="https://github.com/gocn/translator/blob/master/2022/w17_Writing_a_simple_in-memory_key-value_Database_in_Go.md">本文永久链接</a></li>
-<li><a href="https://github.com/gocn/translator">GoCN &lt;每周译 Go&gt;</a></li>
-<li><a href="https://github.com/pseudoyu">译者：张宇</a></li>
-<li><a href="https://github.com/xkkhy">校对：小超人</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
