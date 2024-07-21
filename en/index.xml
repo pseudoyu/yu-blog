@@ -78,7 +78,7 @@
 </span></span><span class="line"><span class="cl">  <span class="nx">cpu_kind</span> <span class="p">=</span> <span class="s1">&#39;shared&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">cpus</span> <span class="p">=</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">memory_mb</span> <span class="p">=</span> <span class="mi">256</span>
-</span></span></code></pre></div><p>我进行详细的配置说明：</p>
+</span></span></code></pre></div><p>这是详细的配置说明：</p>
 <ul>
 <li><code>app</code>：应用名称，这里我使用了 <code>yu-remark42-01</code>，可以根据自己的实际情况进行修改</li>
 <li><code>primary_region</code>：部署区域，可以从这个<a href="https://fly.io/docs/reference/regions/#fly-io-regions">列表</a>中选择自己想部署的区域，我选择了香港</li>
@@ -218,8 +218,7 @@
 <p>此时，我们可以在 <code>fly.toml</code> 中修改 <code>REMARK_URL</code> 为自定义域名，然后执行以下命令重新部署服务即可，之后对配置文件进行任何改动都可以使用该命令进行更新：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fly deploy
 </span></span></code></pre></div><h2 id="博客配置-remark42">博客配置 Remark42</h2>
-<p>上文我们完成的 Remark42 服务的部署，现在则需要在我们的博文中加入 Remark42 评论组件。</p>
-<p>以我使用的 Hugo 博客为例。</p>
+<p>上文我们完成的 Remark42 服务的部署，现在则需要在我们的博文中加入 Remark42 评论组件，以我使用的 Hugo 博客为例。</p>
 <h3 id="定义-hugo-主题-comments-组件">定义 Hugo 主题 Comments 组件</h3>
 <p>我在 Hugo 博客的 <code>layouts/partials</code> 目录下新建了一个 <code>comments.html</code> 文件，用于定义 Remark42 评论组件：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;comments&#34;</span><span class="p">&gt;</span>
@@ -274,7 +273,7 @@
 <p><img src="https://image.pseudoyu.com/images/get_user_id_remark42.png" alt="get_user_id_remark42"></p>
 <p>登录授权完成后并测试评论后，可在 Remark42 中点击头像打开管理页面，双击后 <code>CMD/Ctrl+C</code> 可以获取以 <code>github_</code> 或其他平台开头的 User ID，可以将其配置到 <code>ADMIN_SHARED_ID</code> 中（更改 <code>fly.toml</code> 配置文件并运行 <code>fly deploy</code> 重新部署，即可成为管理员，管理员有权限对其他用户的评论进行删除等管理操作。</p>
 <h2 id="其他">其他</h2>
-<p>我把之前 Cusdis 中的评论数据按照一定格式导出 json 格式的数据，并通过 go 程序进行格式转换与迁移，因此保留了之前所有的评论。</p>
+<p>我把之前 Cusdis 中的评论数据按照一定条件导出 json 格式的数据，并通过 go 程序进行格式转换与迁移，因此保留了之前所有的评论。</p>
 <p>因为 Cusdis 本身不提供导出功能且迁移的需求太过小众，我并没有直接向上游贡献代码，也没有写成完善的脚本，有类似需求的朋友可以参考这个 PR 进行处理 —— 「<a href="https://github.com/pseudoyu/remark42/pull/1/">feat: add cusdis to remark42 migrator support by pseudoyu · Pull Request #1 · pseudoyu/remark42</a>」。</p>
 <h2 id="总结">总结</h2>
 <p>以上就是我的博客评论系统的搭建过程，评论系统的搭建与配置相对繁复，且本文的配置方式或许会随时时间而过时，遇到问题可多参照<a href="https://remark42.com/docs/getting-started/installation/">官方文档</a>。</p>
