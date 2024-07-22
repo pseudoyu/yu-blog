@@ -39,7 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-
+* <a href='https://book.douban.com/subject/36798526/' target='_blank'>读过Brave New Words</a> - 2024-07-21
+* <a href='https://book.douban.com/subject/34895571/' target='_blank'>想读饱食穷民</a> - 2024-07-18
+* <a href='https://book.douban.com/subject/34945817/' target='_blank'>最近在读Shape Up</a> - 2024-07-14
+* <a href='https://book.douban.com/subject/36191471/' target='_blank'>最近在读履单</a> - 2024-07-13
+* <a href='http://movie.douban.com/subject/35956190/' target='_blank'>想看走走停停</a> - 2024-07-13
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
