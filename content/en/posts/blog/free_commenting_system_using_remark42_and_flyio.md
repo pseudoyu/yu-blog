@@ -62,7 +62,7 @@ Cusdis 是 [Randy](https://lutaonan.com/) 做的一个注重数据隐私的开�
 
 ## Remark42 + fly.io 部署说明
 
-Remark42 + fly.io 的方案仅牵扯到单个服务，数据库使用的是 sqlite 挂载于 volume 中，但所有操作都在 fly.io 的 Free Plan 中。
+Remark42 + fly.io 的方案仅牵扯到单个服务，数据库使用的是 boltdb 挂载于 volume 中，但所有操作都在 fly.io 的 Free Plan 中。
 
 下面将从零开始介绍如何搭建这个免费评论系统。
 
@@ -141,7 +141,7 @@ primary_region = 'hkg'
 - `primary_region`：部署区域，可以从这个[列表](https://fly.io/docs/reference/regions/#fly-io-regions)中选择自己想部署的区域，我选择了香港
 - `[Build]`，这个部分主要是服务镜像相关的配置
   - `image`：服务镜像，使用了官方提供的 `umputun/remark42:latest`，如有需要可以指定 tag 版本
-- `[[mounts]]`，这个部分主要是挂载数据卷的配置，由于 Remark42 使用 sqlite 数据库，需要持久化存储
+- `[[mounts]]`，这个部分主要是挂载数据卷的配置，由于 Remark42 使用 boltdb 数据库，需要持久化存储
   - `source`：数据卷名称，这里我使用了 `remark42_data_01`
   - `destination`：挂载目录，这里我挂载到了 `/srv/var`，这个目录是 Remark42 默认的数据存储目录
 - `[http_service]`，这个部分主要是服务相关的配置
