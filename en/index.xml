@@ -31,7 +31,7 @@
 <p>单纯就配置选项来说比起 Cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 <a href="https://fly.io/">fly.io</a>，go 单二进制 + 数据库单文件，很舒服的解决方案，更详细的 Remark42 的介绍和优势可以参看上面那篇文章。</p>
 <p>虽然 Remark42 提供了一些迁移方案，但本身并不支持我使用的 Cusdis，但好在它是用 Golang 写的，我自己添加了迁移逻辑，将这些年沉淀下来的 438 条评论数据都无缝迁移过来了。</p>
 <h2 id="remark42--flyio-部署说明">Remark42 + fly.io 部署说明</h2>
-<p>Remark42 + fly.io 的方案仅牵扯到单个服务，数据库使用的是 sqlite 挂载于 volume 中，但所有操作都在 fly.io 的 Free Plan 中。</p>
+<p>Remark42 + fly.io 的方案仅牵扯到单个服务，数据库使用的是 boltdb 挂载于 volume 中，但所有操作都在 fly.io 的 Free Plan 中。</p>
 <p>下面将从零开始介绍如何搭建这个免费评论系统。</p>
 <p>Remark42 本身代码开源 —— 「<a href="https://github.com/umputun/remark42">GitHub - umputun/remark42</a>」，并提供了官方维护的镜像，文档清晰易读，可以根据自己的实际需求进行配置。</p>
 <h3 id="安装-flyctl-命令行工具">安装 <code>flyctl</code> 命令行工具</h3>
@@ -87,7 +87,7 @@
 <li><code>image</code>：服务镜像，使用了官方提供的 <code>umputun/remark42:latest</code>，如有需要可以指定 tag 版本</li>
 </ul>
 </li>
-<li><code>[[mounts]]</code>，这个部分主要是挂载数据卷的配置，由于 Remark42 使用 sqlite 数据库，需要持久化存储
+<li><code>[[mounts]]</code>，这个部分主要是挂载数据卷的配置，由于 Remark42 使用 boltdb 数据库，需要持久化存储
 <ul>
 <li><code>source</code>：数据卷名称，这里我使用了 <code>remark42_data_01</code></li>
 <li><code>destination</code>：挂载目录，这里我挂载到了 <code>/srv/var</code>，这个目录是 Remark42 默认的数据存储目录</li>
