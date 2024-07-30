@@ -2,7 +2,7 @@
 title: "周报 #66 - 10x 工程师、技术热情与个人工具箱"
 date: 2024-07-30T20:30:00+08:00
 draft: false
-tags: ["review", "life", "adventurex", "hackathon", "epubkit", "work", "apple notes"]
+tags: ["review", "life", "tools", "epubkit", "work", "painting", "programming"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
