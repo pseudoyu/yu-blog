@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 Jul 2024 01:10:42 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</title><link>https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/</link><pubDate>Mon, 22 Jul 2024 01:10:42 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jul 2024 20:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #66 - 10x 工程师、技术热情与个人工具箱</title><link>https://www.pseudoyu.com/en/2024/07/30/weekly_review_20240730/</link><pubDate>Tue, 30 Jul 2024 20:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/30/weekly_review_20240730/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-22 到 2024-07-30 这周生活的记录与思考。 经过了异常丰富的 Adventure X 一周活动，算是回归了沉下心写代码的日常</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240730.png" alt="weekly_review_20240730"></p>
+<p>本篇是对 <code>2024-07-22</code> 到 <code>2024-07-30</code> 这周生活的记录与思考。</p>
+<p>经过了异常丰富的 Adventure X 一周活动，算是回归了沉下心写代码的日常。忙于一些工作需求；使用 Cloudflare Worker 继续开发 EpubKit 的 api 部分功能；使用 Go 重构了一年多前就启动但是一直没成型的 side project 后端部分，并开始尝试用 rust 写一个 api server；为自己一个个人工具箱项目「<a href="https://github.com/pseudoyu/yu-tools">GitHub - yu-tools</a>」写了一个 Astro 网页项目「<a href="https://tools.pseudoyu.com/">tools.pseudoyu.com</a>」；写了 Remark42 部署的教程博客，并经过了一位在搭建博客系统的读者的可行性验证；全家去千岛湖一个水上乐园玩，感觉自己太现充了；尝试水彩画，并启动了车库墙绘项目；还有很多有意思的事。</p>
+<h2 id="10x-工程师">10x 工程师</h2>
+<p><img src="https://image.pseudoyu.com/images/randy_10x.png" alt="randy_10x"></p>
+<p>Randy 最近上线了一个「<a href="https://askhackers.com/">Ask Hackers</a>」项目，是一个基于 Hacker News Comments 的搜索工具，感觉从想法萌生到上线推广大概也就一两天，想到了一个叫「10x 工程师」的概念，能够快速将自己的一个想法开发实现，很羡慕。</p>
+<p>自己其实前前后后也做了不少工作和个人项目，惭愧地说技术栈接触了不少，都能写一点但也都不深，快速实现和迭代一个产品的能力还是很差，似乎从想法到 Demo/产品之间依然差了一环，也跟 Randy 聊过这个话题，他觉得还是工程经验的问题，他看到某个网站或者 App 的某个效果，基本上能大致猜到实现的方式并复现，而我可能还是得靠去看源码或者咨询 AI 才能勉强做到。</p>
+<h2 id="技术热情">技术热情</h2>
+<p>除此之外，我发现热情和动力也左右着我的行为，可能是由于依然没有找到自己的产品 Idea 和方向，总是感觉自己之前做 side projects 的时候仅仅是在“实现”或是技术练习，吸引我的并不是产品成型本身而是在实现过程中的了解学习和技术能力的提升，对于个人来说无可厚非，但对于一个产品来说似乎是缺少了灵魂，就像第一次见 Randy 时我好奇地问他为什么不再更新 Cusdis 了，有不少 Star，也有包括我在内的很多自部署用户，印象里他说除了经济因素外，更多是由于自己没有动力去做了，没办法为一个自己都不会去用/为之付费的产品付出更多的热情。</p>
+<p>其实自己的症结也在于此，似乎依然没有找到会让自己半夜兴奋到睡不着的想法，反倒是在一起开发 EpubKit 时，由于自己也是电子书的多年用户，从自己作为用户的角度出发，能够对产品的迭代有更多想法和热情，也会更有成就感。</p>
+<p>自己一定要是产品的第一个用户。</p>
+<h2 id="个人工具箱项目">个人工具箱项目</h2>
+<p><img src="https://image.pseudoyu.com/images/yu_tools_website.png" alt="yu_tools_website"></p>
+<p>自己一直是一个各种软硬件的重度折腾爱好者，几乎每一个自己很小众的需求都会花大量的时间挑选出最合适的工具，哪怕检索的时间远远超过了使用工具本身，依然乐在其中。从大学到现在，身边也有无数人会问我类似“有什么推荐的相机/键盘/麦克风/xxx 么”、“我想在手机上做 xxx 有什么推荐的软件么”这类的问题，于是两年多前萌生了自己做一个个人工具箱列表的想法 —— 「<a href="https://github.com/pseudoyu/yu-tools">GitHub - yu-tools</a>」。</p>
+<p>最开始只是一个简单的 GitHub 项目和一个 <code>README.md</code> 文件，后来慢慢添加了一些分类，并为每个条目增加了一条简短的描述，两年里阶段性更新了几次，没想到竟成为了我 star 最多的一个 repo 了。</p>
+<p>之前有看到过自己很喜欢的开发者「<a href="https://www.craftz.dog/">devaslife/Takuya Matsuyama</a>」做的一个工具箱网站 —— 「<a href="https://uses.craftz.dog/">A curated list of the tech I use</a>」，为每一个工具拍照并附上使用体验，觉得很有价值，于是也花了一晚上参照他的模板使用 Astro 做了一个网站 —— 「<a href="https://tools.pseudoyu.com/">tools.pseudoyu.com</a>」，只是会更多地偏向软件和服务，而随着条目增加，也想添加类似「<a href="https://askhackers.com/">Ask Hackers</a>」的对话搜索功能。</p>
+<p>软硬件的拍摄、截图和介绍是个大工程，持续更新中，有需要的朋友可以关注一下。</p>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<h3 id="水彩">水彩</h3>
+<p><img src="https://image.pseudoyu.com/images/rust_painting.jpg" alt="rust_painting"></p>
+<p>某次饭后家人一起尝试在扇子上画水彩，也是全新的体验，挑选了 Rust 小螃蟹，在学姐的亿点指导下完成了这幅作品，很开心！！！</p>
+<h3 id="车库墙绘">车库墙绘</h3>
+<p><img src="https://image.pseudoyu.com/images/wall_painting.jpg" alt="wall_painting"></p>
+<p>既上次使用 DALL-E 生成了想要在车间墙绘的图之后，这种终于得空开工，进度 30%，但是由于周一晚刚好组会，没能用相机记录下完整过程，有些遗憾，下次会多拍一些流程和细节，期待最终效果。</p>
+<h3 id="捏捏">捏捏</h3>
+<p><img src="https://image.pseudoyu.com/images/nienie_on_desktop.jpg" alt="nienie_on_desktop"></p>
+<p>最近或许是察觉了我的忙碌，两只小猫都变得更加黏人，每次写代码时捏捏也都静静趴在桌上，时不时伸个懒腰或者发个嗲，松弛而治愈。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。</p>
+<h4 id="收藏">收藏</h4>
+<ul>
+<li><a href="https://hono.dev/docs/">Hono - Ultrafast web framework for the Edges</a></li>
+<li><a href="https://askhackers.com/">Ask Hackers</a></li>
+<li><a href="https://openmoji.org/">OpenMoji</a></li>
+<li><a href="https://sdk.vercel.ai/">Vercel AI SDK</a></li>
+<li><a href="https://www.opensourcealternative.to/">Open Source Alternatives To Proprietary Software</a></li>
+</ul>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/34945817/"><strong>Shape Up</strong></a>，可汗学院创始人写的关于 GPT 与教育未来的思考与实践，对日常使用 LLMs 有挺多启发的，除了成为搜索引擎一样的工具向外还有很多想象空间。</li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://anotherdayu.com/2024/5837/">订阅制搜索引擎: Kagi</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/">从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1J4421S7hA">路遇榜一小孩哥，竟要现场给我钱！？</a></li>
+<li><a href="https://www.bilibili.com/video/BV1s8vKegE66">你有能力变得快乐｜推书《蛤蟆先生去看心理医生》</a></li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/35662223/"><strong>去有风的地方</strong></a>，吃饭的时候看。</li>
+</ul>
+]]></content:encoded></item><item><title>从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</title><link>https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/</link><pubDate>Mon, 22 Jul 2024 01:10:42 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>在「<a href="https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a>」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。</p>
 <p>本篇是关于评论系统的解决方案。</p>
 <h2 id="评论系统迭代">评论系统迭代</h2>
@@ -10066,56 +10130,6 @@
 <li><a href="https://cusdis.com">Cusdis 项目官网</a></li>
 <li><a href="https://railway.app">Railway 官方网站</a></li>
 <li><a href="https://reorx.com/blog/deploy-umami-for-personal-website/">搭建 umami 收集个人网站统计数据</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>通过 mover.io 服务无缝迁移云端网盘文件至 OneDrive</title><link>https://www.pseudoyu.com/en/2022/05/22/migrate_your_files_to_onedrive_using_mover_io/</link><pubDate>Sun, 22 May 2022 13:06:12 +0800</pubDate><guid>https://www.pseudoyu.com/en/2022/05/22/migrate_your_files_to_onedrive_using_mover_io/</guid><description>《后来的我们 - 五月天》 前言 最近学校发了邮件说要把邮箱服务从 Google 转移到 Microsoft，而且原先的 Google Drive 无限流量也将取消，转移为 5T 的 OneDri</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p>最近学校发了邮件说要把邮箱服务从 Google 转移到 Microsoft，而且原先的 Google Drive 无限流量也将取消，转移为 5T 的 OneDrive。我原先一直用着 Google Drive 的文件服务，在我的多个设备之间同步和备份文件，到现在也差不多占了 300 多 GB 的空间。因为 Google Drive 在内地需要代理，下载速度很慢，因此，我采用了官方推荐的 <a href="https://mover.io">mover.io</a> 服务来进行云端迁移，无需下载到本地转存，记录一下迁移过程。</p>
-<h2 id="moverio-服务">mover.io 服务</h2>
-<p><img src="https://image.pseudoyu.com/images/mover_io.png" alt="mover_io"></p>
-<p>mover.io 服务是微软提供的一个网盘迁移服务，支持将很多云服务商提供的网盘文件迁移到 Microsoft OneDrive 上，比如 Google Drive、Dropbox、Box 等。它为机构、学校以及个人都提供了迁移服务。</p>
-<p>对于个人用户，我们使用 Transfer Wizard 来进行迁移。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_transfer_wizard.png" alt="mover_transfer_wizard"></p>
-<h2 id="迁移流程">迁移流程</h2>
-<h3 id="注册登录-moverio-账户">注册/登录 mover.io 账户</h3>
-<p>首先，我们需要注册一个 mover.io 账户，并登录，可以使用 Microsoft 授权登录或使用原来的 mover.io 账户。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_io_login.png" alt="mover_io_login"></p>
-<h3 id="授权迁移数据源">授权迁移数据源</h3>
-<p>登录成功后，界面清晰地给出了操作说明，按照步骤操作即可。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_transfer_wizard_setting.png" alt="mover_transfer_wizard_setting"></p>
-<h4 id="选择迁移来源">选择迁移来源</h4>
-<p>点击 Authorize New Connector 按钮，选择 Google Drive (Single User)，选择需要迁移文件所在的 Google 账户并授权。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_source_google.png" alt="mover_source_google"></p>
-<p>授权完成后，就会出现所有需要迁移的文件列表。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_source_done.png" alt="mover_source_done"></p>
-<h4 id="选择迁移目标">选择迁移目标</h4>
-<p>点击 Authorize New Connector 按钮，选择 OneDrive for Business (Single User)，选择该数据源并授权。目前目标数据源只支持微软家族的 OneDrive 和 SharePoint 等。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_choose_dest.png" alt="mover_choose_dest"></p>
-<p><img src="https://image.pseudoyu.com/images/mover_dest_onedrive.png" alt="mover_dest_onedrive"></p>
-<p>授权完成后，就会出现迁移目标网盘的文件列表。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_dest_onedrive_done.png" alt="mover_dest_onedrive_done"></p>
-<h3 id="迁移数据">迁移数据</h3>
-<p>来源数据源与目标数据源都迁移完成后，即可选择 Start Copy 开始迁移流程。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_start_copy.png" alt="mover_start_copy"></p>
-<h3 id="等待迁移完成">等待迁移完成</h3>
-<p>完成上述操作后，迁移流程已经开始，仅需等待完成即可，可以通过登录后的 Migration Manager 进行进度查看。</p>
-<p><img src="https://image.pseudoyu.com/images/mover_wait_migration_done.png" alt="mover_wait_migration_done"></p>
-<p>因为源文件大小不同，迁移时间每个人各不相同，经测试，迁移速度参照如下：</p>
-<p><img src="https://image.pseudoyu.com/images/mover_migration_speed.png" alt="mover_migration_speed"></p>
-<h2 id="总结">总结</h2>
-<p>以上就是我用过 mover.io 服务将所有 Google Drive 文件迁移到 OneDrive 上的过程，希望对大家有所帮助。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://mover.io/">mover.io 官网</a></li>
-<li><a href="https://its.hku.hk/kb/ways-on-reducing-storage-on-google-drive-google-photos-and-gmail/#b-transfer-google-drive">Transfer Google Drive
-(HKU Connect Google Drive &gt; HKU Microsoft OneDrive)</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
