@@ -62,6 +62,10 @@
 <ul>
 <li><a href="http://movie.douban.com/subject/35662223/"><strong>去有风的地方</strong></a>，吃饭的时候看。</li>
 </ul>
+<h2 id="其他">其他</h2>
+<blockquote>
+<p>This message is used to verify that this feed (feedId:41215011978385440) belongs to me (userId:41229460898486272). Join me in enjoying RSS on the next generation information browser <a href="https://follow.is">https://follow.is</a>.</p>
+</blockquote>
 ]]></content:encoded></item><item><title>从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</title><link>https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/</link><pubDate>Mon, 22 Jul 2024 01:10:42 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>在「<a href="https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a>」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。</p>
 <p>本篇是关于评论系统的解决方案。</p>
