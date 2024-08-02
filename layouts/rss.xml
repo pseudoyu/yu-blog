@@ -16,6 +16,10 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <follow_challenge>
+      <feedId>41215011978385440</feedId>
+      <userId>41229460898486272</userId>
+    </follow_challenge>
     {{- with .Site.Params.customFavicon -}}
     <webfeeds:icon>{{ . | absURL }}</webfeeds:icon>
     {{- end }}
