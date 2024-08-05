@@ -45,7 +45,7 @@ authors:
 
 > Next generation information browser
 
-这是 follow 的 slogon，发布之前我也仅仅是把它作为一个 RSS 阅读器的 Alternative，虽然我也很熟悉 RSSHub 且自己部署了实例重度使用，但依然很难想象基于这一古早的协议还能有多大的发挥空间。直到发布和几天高强度使用后，才逐渐理解这一理念。
+这是 follow 的 slogon，发布之前我也仅仅是把它作为一个 RSS 阅读器的 Alternative，虽然我也很熟悉 RSSHub 且自己部署了实例重度使用，但依然很难想象基于这一古早的协议还能有多大的发挥空间，直到发布和几天高强度使用后，才逐渐理解这一理念。
 
 在 RSS 早已式微的当下，除了独立博客这一处境差不多的古早形式几乎都还保留着完整的 RSS 支持外，大部分新闻、资讯和各种小众网站都已经不再提供了，RSSHub 则是完美的且几乎是唯一的解决方案了，可以将包括但不限于 Twitter、TG Channel、Bilibili 和网易云歌单的一些网页信息源转换为标准 RSS 格式，可以像订阅文章一样获取这些信息源的更新。
 
@@ -79,7 +79,7 @@ follow 最大的特点自然还是传承于 RSSHub 的「万物皆可 RSS」理�
 
 ![readwise_sub](https://image.pseudoyu.com/images/readwise_sub.png)
 
-我大概是去年 9 月订阅了 Readwise Full 会员，虽然为发展中国家提供了 50% 的 discount，但依然需要接近 50 刀一年的费用，它大而全，但我使用的核心功能其实只有两点：
+我大概是去年 9 月订阅了 Readwise Full 会员，虽然为发展中国家提供了 50% 的 discount，但依然需要接近 50 刀一年的费用，它大而全，但我使用的核心功能其实只有三点：
 
 1. rss 阅读器
 2. 稍后读、 保存文章与划线标注
