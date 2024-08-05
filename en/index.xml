@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jul 2024 20:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #66 - 10x 工程师、技术热情与个人工具箱</title><link>https://www.pseudoyu.com/en/2024/07/30/weekly_review_20240730/</link><pubDate>Tue, 30 Jul 2024 20:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/30/weekly_review_20240730/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-22 到 2024-07-30 这周生活的记录与思考。 经过了异常丰富的 Adventure X 一周活动，算是回归了沉下心写代码的日常</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #67 - 使用 follow 重塑我的信息输入系统</title><link>https://www.pseudoyu.com/en/2024/08/05/weekly_review_20240805/</link><pubDate>Mon, 05 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/08/05/weekly_review_20240805/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-31 到 2024-08-04 这周生活的记录与思考。 这一周最开心的是体验到了 follow，久违的一款让我有兴奋</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240805.png" alt="weekly_review_20240805"></p>
+<p>本篇是对 <code>2024-07-31</code> 到 <code>2024-08-04</code> 这周生活的记录与思考。</p>
+<p>这一周最开心的是体验到了 follow，久违的一款让我有兴奋感的应用，对比了 Readwise，并决定退掉订阅；做了一套自部署的 Web Archive 方案，eat your own dog food 的感觉真好；继续和学姐一起做墙绘；还有很多有意思的事。</p>
+<h2 id="使用-follow-重塑我的信息输入系统">使用 follow 重塑我的信息输入系统</h2>
+<h3 id="我的信息输入系统">我的信息输入系统</h3>
+<p>很久之前自己其实是一个信息重度依赖者，遇到好的博客/资讯网站，迅速加到 RSS 订阅源中，看着分类/标签井然有序的列表傻乐；遇到好的 newsletter，也马上用邮箱订阅；每天早上第一件事就是把当时还在用的 Reeder 4 未读清空，再将 newsletter 中的邮件一条条浏览。</p>
+<p>起初其实还行，似乎自己关心的一些资讯和文章都能第一时间读到，有一种满足感，但逐渐就有些过载了，每天早上花在上面的时间越来越多，即使并不感兴趣的文章也会花费一些时间去消化，与其说是获取信息，倒不如说是一种信息渴求和对信息焦虑的代偿，效果自然是有的，信息都在大脑中留下了痕迹，但消化效率并不高。</p>
+<p>在阅读了「<a href="https://reorx.com/blog/sharing-my-footprints-automation/">使用自动化工作流聚合信息摄入和输出</a>」和「<a href="https://diygod.cc/say-no-to-newsletter">对 Newsletter 说不</a>」这两篇文章后，我做出了很大的调整。</p>
+<p>信息源方面，我退订了所有公众号和 newsletter，并将 RSS 订阅源缩减到 50 个左右，剩下的大部分输入都来自于 Twitter、他人的 Telegram 频道等，在把输入控制在一定量级，且一定程度上避免信息茧房。</p>
+<p>并且由于使用 n8n + telegram channel 构建了一个输入、输出源的自动同步系统，会把我所有筛选过的信息源自动同步到我的 Telegram 频道「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」中，方便自己查看和回顾，顺便也作为一个个人分享渠道了，而因为有了公开的压力，也反向推动我更认真地筛选信息源。</p>
+<p>但这个方案依然存在两个问题：</p>
+<ol>
+<li>依然没能解决我信息源分散的问题，我需要频繁在 Twitter 和各个 TG Channel 之间切换，很容易分心并且依然可能会错过一些消息</li>
+<li>我常常把频道作为我某种程度上的收藏夹，有时候很多信息很个人化，随着频道的关注者越来越多，我也会有一些心理压力，担心成为他人的信息噪音</li>
+</ol>
+<p>而 follow 的出现恰好填补上了我方案的这一环。</p>
+<h3 id="follow">follow</h3>
+<h4 id="介绍">介绍</h4>
+<blockquote>
+<p>Next generation information browser</p>
+</blockquote>
+<p>这是 follow 的 slogon，发布之前我也仅仅是把它作为一个 RSS 阅读器的 Alternative，虽然我也很熟悉 RSSHub 且自己部署了实例重度使用，但依然很难想象基于这一古早的协议还能有多大的发挥空间。直到发布和几天高强度使用后，才逐渐理解这一理念。</p>
+<p>在 RSS 早已式微的当下，除了独立博客这一处境差不多的古早形式几乎都还保留着完整的 RSS 支持外，大部分新闻、资讯和各种小众网站都已经不再提供了，RSSHub 则是完美的且几乎是唯一的解决方案了，可以将包括但不限于 Twitter、TG Channel、Bilibili 和网易云歌单的一些网页信息源转换为标准 RSS 格式，可以像订阅文章一样获取这些信息源的更新。</p>
+<p>然而，RSSHub 终究还是更中间层一点的工具，即使有了标准的 RSS 数据，大部分阅读器依然只能处理文本显示，对于音视频图片的处理基本上只停留在当作一个 url 这一程度，因此我更多也是应用在自己的 n8n 同步工具流中作为通知，只保留其 title 与链接，依然是点击源链接跳转会对应的网页查看，使用起来常常有些割裂。</p>
+<p>follow 最大的特点自然还是传承于 RSSHub 的「万物皆可 RSS」理念，在应用层对视频、图片、博客音频、文章、社交媒体等多种形式的内容都提供了呈现方式，确实有一种看久了 purl html 突然飞跃到加了现代化 css 效果的感觉。其实技术层面做到这一步算不上有太高的壁垒，不论是视频 iFrame、音频播放器或是图片预览都有比较成熟的组件可以使用，但 follow 几乎是唯一一个依然在针对这一协议做且做好这一步的产品。有时候，做好一点就足够了。</p>
+<h4 id="体验">体验</h4>
+<p><img src="https://image.pseudoyu.com/images/follow_homepage.png" alt="follow_homepage"></p>
+<p>作为一个信息浏览器/阅读器，最直观且核心的就是界面和交互了，DIYGod + 拾一两位的组合早早把我的期待值拉满，但即使是内测的第一版，其完成度和体验也依然让我感到惊艳，在此之前最现代化的应该要数 Reeder 4 了，而 follow 即使是 Electron 而不是纯原生，也依然保持了极其精致的设计和交互。</p>
+<p>我之前用过 NetNewsWire、Reeder 4、Miniflux 和 Readwise Reader 等多款阅读器，但由于阅读体验常常还不如原网页，我大多还是会选择跳转链接查看，而 follow 的页面和交互则本身就让我享受其中，还有一个很有意思的最近阅读记录显示，可以看到自己这篇文章有哪些访客，还可以点进主页去看他们的订阅源，兼具了社交属性和信息源的积累，我就通过这种方式发现了很多之前没关注到的个人博客。</p>
+<p>另外，由于 follow 和 RSSHub 深度集成，可以实现输入 twitter handle，B 站 uid 以及 youtube channel name 之类的来直接订阅社交媒体，而不用自己去文档找 RSSHub 网站的对应路由，也不需要自己去搭建实例，非常友好。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_pic.png" alt="follow_pic"></p>
+<p><img src="https://image.pseudoyu.com/images/follow_video.png" alt="follow_video"></p>
+<p>而针对视频和图片的直接显示也是一大亮点，还看到有一个使用者将一些设计师的 Twitter 作为自己的设计灵感源和审美积累，也是很有意义的应用场景。</p>
+<p>而音频/播客则可以在 follow 中全局播放，例如前几张截图的左下角，我就是同步在播放「<a href="https://beyondcodefm.com/">代码之外</a>」的一期节目，这也解决了我需要在 Apple Podcast、Spotify 和小宇宙等多个播客应用之间反复横跳的问题。</p>
+<p>另外也可以比较方便地分享自己的订阅：<a href="https://web.follow.is/profile/pseudoyu">https://web.follow.is/profile/pseudoyu</a></p>
+<p>其实还有不少设计，如 Action 模块、Power 打赏等，但本文并不是一篇软件测评而是个人体验向，所以就不过多展开了，等后续开放了大家可以自己去体验一下，保留一些惊喜感。下面想谈谈和我目前所在使用的 Readwise Reader 的对比，以及我为什么打算转换到 follow。</p>
+<h4 id="readwise-reader---follow">Readwise Reader -&gt; follow</h4>
+<p><img src="https://image.pseudoyu.com/images/readwise_sub.png" alt="readwise_sub"></p>
+<p>我大概是去年 9 月订阅了 Readwise Full 会员，虽然为发展中国家提供了 50% 的 discount，但依然需要接近 50 刀一年的费用，它大而全，但我使用的核心功能其实只有两点：</p>
+<ol>
+<li>rss 阅读器</li>
+<li>稍后读、 保存文章与划线标注</li>
+<li>Daily Digest</li>
+</ol>
+<p>其中第一点是最高频的，作为一个很方便的阅读器来管理自己的文章等订阅，也有移动端 app 可以随时看，但在使用中发现有时候显示样式和图片加载比较一般，而分类、快捷键又有点太繁复，且主要支持的还是文章，显而易见可以被 follow 完全替代（蹲一个移动端）。</p>
+<p>划线标注之前用得比较多，会使用插件在一些文章做一些笔记，并保存到 Readwise 中，再通过 n8n 将我的文章同步到 Telegram Channel 中，但其实有些过于依赖平台了，在我真正想要消化那些划线笔记整理成一些成型的想法或是文章时则需要回到 Readwise 中去查看，即使同步到 Logseq 或是 Heptabase 中整理依然不算方便，尤其是现在转向 Apple Notes 作为自己的主力且唯一笔记工具后，发现有一些想法直接摘录/记录下来才是效率最高也更容易产生价值的，因此划词这一点渐渐淡出了我的笔记流。</p>
+<p><img src="https://image.pseudoyu.com/images/save_website.jpg" alt="save_website"></p>
+<p>众所周知，稍后读通常都会演变为稍后再也不读，所以我现在的策略是几乎不用稍后读，尽量当下就读完，只有极少数比较长的会暂存一下，也尽量在当天清空 list。我现在则是在 follow 中以未读为默认显示模式，时常会浏览一下，遇到感兴趣且通读了的文章会使用 star 功能，保存在收藏夹中，读完有所收获的时候则会通过一个自己做的浏览器插件 + Cloudflare Worker api + n8n 将文章链接及源 html 文件保存到 D1 数据库，实现 Web Archive 并自动同步到我的 Telegram Channel 中。</p>
+<p>而第三点 Daily Digest 则是会帮助我回顾一些自己的笔记或是文章，这一点有用但并不高频，还没细研究 follow Action module 能不能针对多篇文章做一些操作。</p>
+<p>由于我的核心需求都可以转移到 follow 中，于是果断退订了 Readwise。其实能明显地感受到这几天我的信息摄入量和质量也显著提高了，一个好的软件其实并不仅仅是辅助工具，是会对思维与习惯产生更深远的影响。</p>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<h3 id="electron-bug">Electron Bug</h3>
+<p><img src="https://image.pseudoyu.com/images/talk_with_innei.jpg" alt="talk_with_innei"></p>
+<p>刚发现 follow 客户端更新有个问题，点击「Click to restart」窗口 hide 了而不是 quit，熟悉的 bug，之前写 EpubKit 我写过一模一样的 🤣 报给了拾一，属于 electron 病情交流了。</p>
+<h3 id="macos-桌面装修">macOS 桌面装修</h3>
+<p><img src="https://image.pseudoyu.com/images/macos_widgets.png" alt="macos_widgets"></p>
+<p>第一次尝试 macOS 系统的桌面小组件，还挺新鲜的，不过我基本都是 Raycast 快捷键切换应用，几乎看不到桌面&hellip;</p>
+<h3 id="车库墙绘">车库墙绘</h3>
+<p><img src="https://image.pseudoyu.com/images/car_painting_week2.jpg" alt="car_painting_week2"></p>
+<p>本周总体进度：20%，已经初具雏形了。</p>
+<p>本周我的进度：画了五六块砖 🤣</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。并且把 Telegram Channel 消息作为内容源搭建了一个微博客 —— 「<a href="https://daily.pseudoyu.com/">daily.pseudoyu.com</a>」，可以更方便浏览了。</p>
+<h4 id="收藏">收藏</h4>
+<ul>
+<li><a href="https://web.follow.is/profile/pseudoyu">pseudoyu | Follow</a></li>
+<li><a href="https://web.follow.is/profile/DIYgod">DIYgod | Follow</a></li>
+<li><a href="https://n8n.akashio.com/">n8n 中文教程 | 简单易懂的现代魔法</a></li>
+<li><a href="https://dengtab.com/">Dengtab - Stay focused and reduce social media distractions while cultivating small habits.</a></li>
+<li><a href="https://www.haolunyang.com/sixd">SixD - SwiftUI &amp; Interaction Design</a></li>
+<li><a href="https://github.com/ccbikai/BroadcastChannel">ccbikai/BroadcastChannel</a></li>
+</ul>
+<h4 id="播客">播客</h4>
+<ul>
+<li><a href="https://www.listennotes.com/e/7f2efa4ad8394de79591a3ee2da6a5d1">第 10 集 | 花果山大圣聊职业选择、如何靠销售立足、房车之旅、以及英国的新生活</a></li>
+<li><a href="https://www.listennotes.com/e/5e5454656bb146499bef687dcec00e65">Ep 48. 专访高天：为了当好 B 站 up 主，我成为了 Python 核心开发者</a></li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://blog.douchi.space/intermittent-fasting/#gsc.tab=0">断食记</a></li>
+<li><a href="https://blog.webp.se/de-cloudflarize-zh/">WebP Cloud Services 在去 Cloudflare 化上的一点摸索</a></li>
+<li><a href="https://jesor.me/2024/persona5r-life-changed/">P5r: Life Changed</a></li>
+<li><a href="https://innei.in/notes/175">忙碌中的思索：生活、工作与娱乐 - 静かな森</a></li>
+<li><a href="https://gist.github.com/sljeff/cce768194a9e68d5279bfde861ff5f76">我理解的云原生</a></li>
+<li><a href="https://dmesg.app/stripe-fraud.html">Stripe 如何安全收款并避免盗刷与测卡</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1dx4y1x7mz">休学+拒绝百万年薪，不是有所成就才算活着</a></li>
+<li><a href="https://www.youtube.com/watch?v=hMcE6E8JjXA">Learn with me - HTMX and HonoJS</a></li>
+<li><a href="https://www.bilibili.com/video/BV15b42177rL">【何同学】你再也回不到 19 岁的夏天了&hellip;</a></li>
+<li><a href="https://www.bilibili.com/video/BV1of421972c">450 天成为 Python 核心开发者</a></li>
+<li><a href="https://www.bilibili.com/video/BV1jT42167Xb">10 年后，900 万了</a></li>
+</ul>
+<h4 id="电影">电影</h4>
+<ul>
+<li><a href="https://movie.douban.com/subject/35956190/"><strong>走走停停</strong></a>，很喜欢最后高速堵车那段的镜头语言，人生不过走走停停。</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #66 - 10x 工程师、技术热情与个人工具箱</title><link>https://www.pseudoyu.com/en/2024/07/30/weekly_review_20240730/</link><pubDate>Tue, 30 Jul 2024 20:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/07/30/weekly_review_20240730/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-22 到 2024-07-30 这周生活的记录与思考。 经过了异常丰富的 Adventure X 一周活动，算是回归了沉下心写代码的日常</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -10037,99 +10144,6 @@
 <li><a href="http://gasolin.idv.tw/learndapp/">Ethereum 區塊鏈！智能合約(Smart Contract)與分散式網頁應用(dApp)入門</a></li>
 <li><a href="https://www.pseudoyu.com/blockchain-guide/">区块链入门指南</a></li>
 <li><a href="https://github.com/pseudoyu/uright">Uright - 区块链音乐版权管理ÐApp</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</title><link>https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/</link><pubDate>Tue, 24 May 2022 21:47:47 +0800</pubDate><guid>https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/</guid><description>《后来的我们 - 五月天》 前言 之前写了一篇《免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）》，讲述了一下我使用 Serverless 和一些开源</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p><img src="https://image.pseudoyu.com/images/cusdis_intro.png" alt="cusdis_intro"></p>
-<p>之前写了一篇《<a href="https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a>》，讲述了一下我使用 Serverless 和一些开源项目搭建的博客系统，也开了个系列来记录搭建过程。</p>
-<p>本篇是关于博客评论系统的解决方案，我最早使用的博客评论系统是<del>万恶的</del> <a href="https://disqus.com">Disqus</a>，一个笨重且会收集用户隐私的知名评论系统，因为加载比较慢，且免费版本经常会附带一些广告，实在难以忍受，于是换成了另一个基于 GitHub issues 的评论系统 <a href="https://utteranc.es">utterances</a>，它会为每篇文章生成一个 issue，将，用户通过授权 GitHub 登录来对 issue 发表评论。这种方式的好处是只需要授权一个 <a href="https://github.com/utterances-bot">utterances-bot</a> 来进行管理，无需自己部署服务，维护数据库等。但是用了一段时间后，觉得有几点不足：</p>
-<ol>
-<li>基于 GitHub API 进行评论管理，如之后接口变动或对这类利用 issue 进行评论的方式进行限制，会不太稳定</li>
-<li>读者必须要授权 GitHub 登录，非技术人员或使用移动端阅读的读者使用起来很不方便</li>
-<li>会将 GitHub 仓库弄得较乱，也不方便后续迁移到其他系统</li>
-</ol>
-<p>经过一番调研 <a href="https://lutaonan.com">Randy</a> 的 <a href="https://cusdis.com/">Cusdis</a> 很合我的心意。Cusdis 是一个注重数据隐私的开源的评论系统，十分轻量，经过 gzipped 后大约只有 5kb，从名字来看也知道开发者也是难以忍受 Disqus，自己做了一个替代版，因此它也是支持 Disqus 历史数据导入的，很贴心。</p>
-<p>虽然这是一个开发早期的项目，但是已经提供了电子邮件通知以及通过 Webhook 联动 Telegram 等方式进行评论提醒，对使用者来说很方便进行管理。Cusdis 提供了免费托管服务与自行部署两种方式，如果不想折腾可以直接用作者提供的服务。自行部署则需要服务器与一个 Postgre SQL 实例，我们主要示范一下自行部署方式。</p>
-<p>因为在上一篇 《<a href="https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a>》 中我使用的是 <a href="http://vercel.com/">Vercel</a> 和 <a href="https://www.heroku.com/">Heroku</a> 进行搭建的，作为一个爱折腾的人，这个评论系统我们就用 <a href="https://railway.app/">Railway</a> 来搭建部署。</p>
-<p>Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下，把之前的 <a href="https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">umami 网站数据统计系统</a> 连同 Postgre SQL 数据库实例部署在 Railway 平台，大约一个月 0.7 美元，对于个人使用来说完全足够。</p>
-<p><img src="https://image.pseudoyu.com/images/railway_price.png" alt="railway_price"></p>
-<p>比起 Vercel，它同时支持部署数据库实例，可以将数据库与实例一起部署在单个项目中，减少搭建维护成本。下文会对具体搭建部署流程做个记录，因为官方支持 Railway 一键部署方式，整个搭建流程很顺畅。</p>
-<p><strong>[2024-06-30 更新]</strong></p>
-<p>鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 Supabase 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。</p>
-<h2 id="搭建部署说明">搭建部署说明</h2>
-<h3 id="使用-railway-一键部署服务与数据库实例">使用 Railway 一键部署服务与数据库实例</h3>
-<p>首先注册一个 Railway 账号，可以用我的<a href="https://railway.app?referralCode=J0F5LQ">邀请链接</a>。注册登录完成后，点击右上角 New Project 新建项目。</p>
-<p><img src="https://image.pseudoyu.com/images/railway_dashboard.png" alt="railway_dashboard"></p>
-<p>然后输入 Cusdis 进行搜索，点击出现的项目即可开始部署。前几步也可以通过点击 <a href="https://github.com/djyde/cusdis">Cusdis 项目仓库</a> 中的 <code>Deploy on Railway</code> 按钮进行一键部署。</p>
-<p><img src="https://image.pseudoyu.com/images/new_cusids_starter.png" alt="new_cusids_starter"></p>
-<p>开始部署前，需要手动填入三个环境变量：</p>
-<p><img src="https://image.pseudoyu.com/images/deploy_cusdis_on_railway.png" alt="deploy_cusdis_on_railway"></p>
-<ol>
-<li>USERNAME: 用来登录的账户</li>
-<li>PASSWORD: 用来登录的密码</li>
-<li>JWT_SECRET: 一个随机字符串</li>
-</ol>
-<p>其他一些环境变量已经预先设置默认值，请不要自行修改。</p>
-<ol>
-<li>NEXTAUTH_URL: <code>${{ RAILWAY_STATIC_URL }}</code></li>
-<li>DB_TYPE: <code>pgsql</code></li>
-<li>DB_URL: <code>${{ DATABASE_URL }}</code></li>
-<li>PORT: <code>3000</code></li>
-</ol>
-<p>点击部署后，等待完成即可，会自动部署服务并初始化数据库。</p>
-<p><img src="https://image.pseudoyu.com/images/cusdis_deploy_done.jpg" alt="cusdis_deploy_done"></p>
-<h3 id="配置-cusdis-脚本至个人博客">配置 Cusdis 脚本至个人博客</h3>
-<p>部署完成后，点击 cusdis 服务生成的链接，点击访问服务 Dashboard。</p>
-<p><img src="https://image.pseudoyu.com/images/cusdis_login.png" alt="cusdis_login"></p>
-<p>此处输入部署前配置的用户名与密码，点击登录。登录完成后，点击 Dashboard，进入项目配置页面。</p>
-<p>初次登录会弹窗提示需要配置第一个网站，输入网站名称即可完成添加。后续当我们需要添加网站时，点击侧边栏 New Website，填写网站名称即可完成添加。</p>
-<p><img src="https://image.pseudoyu.com/images/add_new_website.png" alt="add_new_website"></p>
-<p>因为我已经配置了自己的网站，所以界面会有之前的评论记录。</p>
-<p><img src="https://image.pseudoyu.com/images/cusdis_dashboard.png" alt="cusdis_dashboard"></p>
-<p>下面我们点击上方 Embed Code，复制弹窗中的代码。</p>
-<p><img src="https://image.pseudoyu.com/images/cusdis_embed_code.jpg" alt="cusdis_embed_code"></p>
-<p>这部份代码需要根据你所用的博客网站类型不同进行部分修改，具体可参考<a href="https://cusdis.com/doc#/">官方文档</a> 的 Integration 模块进行配置。</p>
-<p>我所用的是 <a href="https://gohugo.io">Hugo</a>，配置如下：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;cusdis_thread&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="na">data-host</span><span class="o">=</span><span class="s">&#34;xxx&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="na">data-app-id</span><span class="o">=</span><span class="s">&#34;xxx&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="na">data-page-id</span><span class="o">=</span><span class="s">&#34;{{ .File.UniqueID }}&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="na">data-page-url</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="na">data-page-title</span><span class="o">=</span><span class="s">&#34;{{ .Title }}&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">defer</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cusdis.com/js/widget/lang/zh-cn.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">async</span> <span class="na">defer</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;xxx&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>其中的 <code>data-host</code>，<code>data-app-id</code> 等都需要以刚复制出的 Embed Code 内容为准。其中 <code>&lt;script defer src=&quot;https://cusdis.com/js/widget/lang/zh-cn.js&quot;&gt;&lt;/script&gt;</code> 主要实现了汉化，不同语言支持详见<a href="https://cusdis.com/doc#/advanced/i18n">文档 i18n 模块</a>。</p>
-<p>修改后，将其添加到博客的相应位置（一般在最下方），配置部署后，即可看到评论框，呈现效果如下：</p>
-<p><img src="https://image.pseudoyu.com/images/cusdis_display.png" alt="cusdis_display"></p>
-<h3 id="配置自定义域名">配置自定义域名</h3>
-<p>Railway 部署自动生成的域名比较长，且有一些字符，不方便记忆。我们可以在 Railway 中为项目配置自定义域名。</p>
-<p><img src="https://image.pseudoyu.com/images/railway_custom_domain.jpg" alt="railway_custom_domain"></p>
-<p>填入想要配置的域名/二级域名后，根据官方提示添加 DNS 解析。</p>
-<p><img src="https://image.pseudoyu.com/images/railway_domain_dns.jpg" alt="railway_domain_dns"></p>
-<p>例如，我使用的是 <a href="https://www.cloudflare.com">Cloudflare</a> 托管的域名，需要先添加一下域名 CNAME 解析。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_domain_dns.jpg" alt="cloudflare_domain_dns"></p>
-<p>至此，我们的部署已经完成，可以通过域名访问管理后台，进行评论审核管理等。</p>
-<h3 id="更新项目">更新项目</h3>
-<p>如前文所述，Cusdis 还是一个正在开发成长的项目，我们想第一时间更新作者发布的新功能。Railway 提供了十分便捷的上游分支管理功能，可以设置项目的父项目，点击即可拉取最新更新，很方便。</p>
-<p><img src="https://image.pseudoyu.com/images/railway_update_project.png" alt="railway_update_project"></p>
-<h2 id="总结">总结</h2>
-<p>以上就是我们为网站添加 Cusdis 评论系统的全流程，配置完成后无需后续维护，可以便捷地通过看板来进行网站管理与评论审核，且数据存储在 Postgre SQL 数据库实例中，方便导出备份与迁移。这是我的博客搭建部署系列教程之一，请持续关注，希望能对大家有所参考。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://cusdis.com">Cusdis 项目官网</a></li>
-<li><a href="https://railway.app">Railway 官方网站</a></li>
-<li><a href="https://reorx.com/blog/deploy-umami-for-personal-website/">搭建 umami 收集个人网站统计数据</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
