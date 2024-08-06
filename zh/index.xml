@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 05 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #67 - 使用 follow 重塑我的信息输入系统</title><link>https://www.pseudoyu.com/zh/2024/08/05/weekly_review_20240805/</link><pubDate>Mon, 05 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/05/weekly_review_20240805/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-31 到 2024-08-04 这周生活的记录与思考。 这一周最开心的是体验到了 follow，久违的一款让我有兴奋</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 06 Aug 2024 19:00:42 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 GoatCounter 与 Zeabur 搭建网站数据统计系统</title><link>https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>在「<a href="https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a>」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。</p>
+<p>本篇是关于统计系统的解决方案。</p>
+<h2 id="统计系统方案">统计系统方案</h2>
+<p>相比起博客本体和评论系统，我在很长的一段时间其实都没有在意过统计系统（<del>主要当时也没人看</del>），更加没考虑太多 SEO 或是什么其他推广方向上的事，但后来逐渐发现，其实统计下来的数据并不只是一张好看的可以用来发推的图表，其对于博客的选题、内容都有着很大的参考价值。</p>
+<p>其实主流成熟的方案都能够满足基本的需求，即使是免费的 Google Analytics 也完全够用，但在博客发展过程中，我依然因各种原因有过几次迭代，最终使用了 GoatCounter 这一方案。</p>
+<h3 id="splitbee">splitbee</h3>
+<p>我最初使用的是一个免费的工具 splitbee，它提供了免费的基础统计额度，有着还不错的界面，并且还支持一些复杂的用户追踪，A/B test 等，但印象里好像只能保留半年的数据，并且每月超过 5000 pv 后就需要升级了，所以后来放弃了。</p>
+<h3 id="cloudflare--google-search-console">Cloudflare + Google Search Console</h3>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_web_stats.png" alt="cloudflare_web_stats"></p>
+<p>放弃 splitbee 之后，很长一段时间我没有集成额外的统计应用，而是用的 Cloudflare 自带的站点统计，但是发现它其实统计的只是网络总流量，有包括爬虫在内的非常多的无效数据，并且没有精确到路径等细节。</p>
+<p><img src="https://image.pseudoyu.com/images/google_search_console.png" alt="google_search_console"></p>
+<p>后来了解到了 SEO 这一概念后，又添加了 <a href="https://search.google.com/search-console/about">Google Search Console</a> 这一统计维度，这也是目前觉得对我写博文最有意义的数据，主要呈现的是用户在搜索引擎中触达我博客站点的关键词以及通过搜索点击进入我博客的页面路径。</p>
+<p>可以看到，一篇「<a href="https://www.pseudoyu.com/zh/category/tools/">Warp，iTerm2 还是 Alacritty？我的终端折腾小记</a>」为我带来了许多访客，而关于博客搭建、智能合约开发也是大部分从搜索引擎来的自然用户对我博客的第一印象。</p>
+<h3 id="umami--supabase--netlify">Umami + Supabase + Netlify</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_umami_record.png" alt="yu_umami_record"></p>
+<p>但是上述两者依然只能看到网站整体的数据，想精确到某篇文章在一段时间的表现或者文章发布后的实时访问数据，依然需要一个统计系统，我在看了 Reorx 的一篇「<a href="https://reorx.com/blog/deploy-umami-for-personal-website/">搭建 umami 收集个人网站统计数据 | Reorx’s Forge</a>」选择使用了 umami 这一开源、易自部署的统计系统，界面简洁，功能易用，很方便集成到自己的博客系统中。</p>
+<p>使用了一年半，一直倒没出现什么问题，，只不过可能因为自己用得比较早，在一次大版本更新的时候数据库 Migration 脚本出现了不兼容的字段更新，其实有点不理解这样量级的开源项目为什么会出现这样的问题，也看到 issue 中有很多其他用户有同样的诉求，但最终并没有给出一个比较好的解决方案。</p>
+<p>但其实最大的问题是一个统计系统依赖了两个平台，部署和维护上都还是有些太重了。当数据库或是 Netlify 任一出现问题或需要迁移时，会带来许多额外的成本。于是前段时间在更新博客评论系统的时候，想着干脆就一起更换为更轻量的 GoatCounter。</p>
+<h3 id="goatcounter--zeabur">GoatCounter + Zeabur</h3>
+<p><img src="https://image.pseudoyu.com/images/goatcounter_stats.png" alt="goatcounter_stats"></p>
+<p>这个小众的统计系统是我在看 Reorx 的博客代码更新的时候偶然发现的，一下子被这种 Retro Internet 的风格所吸引，几乎没有任何多余的按钮，功能却很完备，而且使用的是 go 单二进制文件 + sqlite 数据库单文件的架构，轻量而易于部署，于是打算迁移。</p>
+<p>其实我自己的 GoatCounter 是部署在 <a href="https://fly.io/">fly.io</a> 上的，但我在上一篇 Remark42 的文章中已经非常详细地介绍了 fly 的操作说明，不想有太多重复，刚好最近又在重度使用 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 这一 Serverless 平台，于是本文将以 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 为例，方式同样适用于其他类似平台。</p>
+<p>我也在下文的 Zeabur 部署方案之后提供了 fly.io 和在 VPS 上使用 docker-compose 部署的配置文件，供大家参考。</p>
+<h2 id="goatcounter-部署说明">GoatCounter 部署说明</h2>
+<p>GoatCounter 本身代码开源 —— 「<a href="https://github.com/arp242/goatcounter">GitHub - arp242/goatcounter</a>」，文档清晰易读，可以根据自己的实际需求进行配置。GoatCounter + Zeabur 的方案仅牵扯到单个服务，数据库使用的是 sqlite 挂载于 volume 中，所以部署起来非常简单。</p>
+<h3 id="使用-zeabur-部署">使用 Zeabur 部署</h3>
+<p><a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 对于容器应用的部署是需要 Developer Plan 的，5 美元/月，但是像这样的镜像服务整体用量和费用都较低，每月的额度足够部署非常多服务，可以酌情选择。整体部署流程比起 fly.io 简单很多，所有操作都可以使用 Web 界面完成，不需要额外安装命令行工具等。</p>
+<h4 id="注册-zeabur">注册 zeabur</h4>
+<p><img src="https://image.pseudoyu.com/images/zeabur_login.png" alt="zeabur_login"></p>
+<p>访问 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 官网，并点击右上角，使用 GitHub 账号授权登录。</p>
+<h4 id="创建新项目">创建新项目</h4>
+<p><img src="https://image.pseudoyu.com/images/zeabur_new_project.png" alt="zeabur_new_project"></p>
+<p>进入主界面后，点击右上角 <code>创建项目</code> 按钮。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_hk_region.png" alt="zeabur_hk_region"></p>
+<p>我选择了香港的 AWS 机房，不同机房的访问速度、性能和价格会有一些差异，可以根据自己的需求进行选择。</p>
+<h4 id="配置镜像部署">配置镜像部署</h4>
+<p><img src="https://image.pseudoyu.com/images/zeabur_build.png" alt="zeabur_build"></p>
+<p>在下一步中选择 Docker 容器镜像进行部署。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_docker_custom_config.png" alt="zeabur_docker_custom_config"></p>
+<p>由于我们使用的是自己构建的镜像，官方也没有上线 GoatCounter 模板，因此我们点击选择自定义。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_prebuilt_edit_toml.png" alt="zeabur_prebuilt_edit_toml"></p>
+<p>这一步可以自己在界面上填写各种配置项，但可能由于我习惯了 fly.io 的文件配置模式，我选择左下角的 <code>编辑 TOML 文件</code>，大家也可以直接复制我的配置文件并直接修改。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;yu-goatcounter&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">source</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">image</span> <span class="p">=</span> <span class="s2">&#34;pseudoyu/goatcounter&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">ports</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">id</span> <span class="p">=</span> <span class="s2">&#34;web&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">port</span> <span class="p">=</span> <span class="mi">8080</span>
+</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;HTTP&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">volumes</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">id</span> <span class="p">=</span> <span class="s2">&#34;goatcounter-data&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">dir</span> <span class="p">=</span> <span class="s2">&#34;/data&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">env</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">PORT</span> <span class="p">=</span> <span class="p">{</span> <span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;8080&#34;</span> <span class="p">,</span> <span class="nx">expose</span> <span class="p">=</span> <span class="kc">true</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nx">GOATCOUNTER_DB</span> <span class="p">=</span> <span class="p">{</span> <span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;sqlite3://data/goatcounter.sqlite3&#34;</span> <span class="p">,</span> <span class="nx">expose</span> <span class="p">=</span> <span class="kc">true</span> <span class="p">}</span>
+</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/zeabur_prebuilt_goatcounter_toml.png" alt="zeabur_prebuilt_goatcounter_toml"></p>
+<p>配置好后点击右下角部署按钮即可。</p>
+<h4 id="部署完成">部署完成</h4>
+<p><img src="https://image.pseudoyu.com/images/yu-goatcounter_project.png" alt="yu-goatcounter_project"></p>
+<p>点击部署后，等待片刻，会有一个生成的项目默认名称，可以在左上角的设置中去修改为可读性较强的名称，如 <code>yu-goatcounter</code>。</p>
+<h4 id="配置自定义域名">配置自定义域名</h4>
+<p><img src="https://image.pseudoyu.com/images/zeabur_create_domain.png" alt="zeabur_create_domain"></p>
+<p>服务部署完成后，我们需要进行域名绑定才能通过公网访问网站，Zeabur 提供了免费的二级域名 <code>xx.zeabur.app</code>，也可以绑定自己的域名。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_custom_domain.png" alt="zeabur_custom_domain"></p>
+<p>其中生成域名可直接使用，无须进行其他配置，如 <code>goatcounter.zeabur.app</code>；而如果使用的是自定义域名，则需要在自己域名管理后台添加 CNAME 记录，指向格式为 <code>xxx.cname.zeabur-dns.com</code> 的机房地址。</p>
+<p><img src="https://image.pseudoyu.com/images/cloudflare_goatcounter_config.png" alt="cloudflare_goatcounter_config"></p>
+<p>例如我的域名托管在 Cloudflare 上，添加的 CNAME 记录如上图所示，有去问过官方，说如果选 AWS HK 机房的话可以不使用 Cloudflare 的代理，速度理论上会更快，可以根据自己的需要酌情配置。</p>
+<p>此外，如果你选择的是华为云机房，则需要域名备案并且额外新增一条 TXT 记录，可以根据提示进行操作。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_custom_domain_success.png" alt="zeabur_custom_domain_success"></p>
+<p>显示绿色则为配置成功，至此我们的 GoatCounter 服务就部署完成了。</p>
+<h4 id="数据备份">数据备份</h4>
+<p>我们在配置时候有这么一段</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">volumes</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">id</span> <span class="p">=</span> <span class="s2">&#34;goatcounter-data&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">dir</span> <span class="p">=</span> <span class="s2">&#34;/data&#34;</span>
+</span></span></code></pre></div><p>功能是将容器内的 <code>/data</code> 目录（即我们的 sqlite 数据库存在的位置）挂载到一个 id 为 <code>goatcounter-data</code> 的存储卷，如果不挂载存储卷的话，容器重启或重新部署数据将会丢失。</p>
+<p>关于存储卷这一点 Zeabur 的界面上没有很直观的显示和管理操作，以至于我总是怀疑自己的配置是否生效。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_add_goatcounter_backup.png" alt="zeabur_add_goatcounter_backup"></p>
+<p>研究了半天发现可以先在设置中暂停服务，然后在上面的备份模块新增一个备份，点击下载后可以在本地看到我们备份文件，目录层级如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">data/
+</span></span><span class="line"><span class="cl">└── goatcounter-data
+</span></span><span class="line"><span class="cl">    └── goatcounter.sqlite3
+</span></span></code></pre></div><p>这样则能表示我们的数据成功持久化了，希望 Zeabur 能在界面上有更直观的显示。</p>
+<h3 id="使用-flyio-部署">使用 fly.io 部署</h3>
+<p>纯免费的方案依然可以参照我提到的这篇「<a href="https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/">从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</a>」，仅在 <code>fly.toml</code> 配置部分不同，我也提供的我所使用的配置文件 —— 「<a href="https://github.com/pseudoyu/goatcounter-on-fly/blob/master/fly.toml">fly.toml</a>」供大家参考。</p>
+<h3 id="使用-docker-与-docker-compose-部署">使用 Docker 与 docker-compose 部署</h3>
+<p>有意思的是，因为 goatcounter 的作者很有坚持，觉得这样单文件的应用容器化反而会增加更多维护成本，所以不提供官方镜像，不过自己在 vps 或者 serverless 平台部署有个镜像还是方便一些，所以我使用 Github Actions 做了一个构建镜像和上传 Docker Hub 的 CI，有需要的可以使用，对应的 Dockerfile 和 Docker Compose 文件也可以参照这个 <a href="https://github.com/pseudoyu/goatcounter/commit/b98de9873ee331133a39b409fd4bb00cf55c8a05">Commit</a>，或者直接使用 <code>pseudoyu/goatcounter</code> 和 <code>docker-compose.yml</code> 文件即可。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">goatcounter</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">pseudoyu/goatcounter</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="m">8080</span><span class="p">:</span><span class="m">8080</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">PORT=8080</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">GOATCOUNTER_DB=sqlite3://data/goatcounter.sqlite3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./data:/data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped</span><span class="w">
+</span></span></span></code></pre></div><h2 id="goatcounter-配置说明">GoatCounter 配置说明</h2>
+<p>上文我们完成了 GoatCounter 服务的部署，现在就可以通过我们生成/自定义的域名访问到我们的统计系统服务了，如我是通过 <code>https://goatcounter.pseudoyu.com</code> 进行访问的。</p>
+<p><img src="https://image.pseudoyu.com/images/goatcounter_create_user.png" alt="goatcounter_create_user"></p>
+<p>第一次登录需要创建一个用户，填写邮箱、密码点击 <code>Create</code> 即可。</p>
+<p><img src="https://image.pseudoyu.com/images/goatcounter_dashboard_success.png" alt="goatcounter_dashboard_success"></p>
+<p>登录成功后，当前还没有数据，会提示一个脚本，后续在我们博客使用的配置中会用到。</p>
+<h2 id="博客配置-goatcounter">博客配置 GoatCounter</h2>
+<p>跟着上文我们完成了 GoatCounter 服务的部署和基础配置，现在则需要在我们的博文中加入统计组件，以我使用的 Hugo 博客为例。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">data-goatcounter</span><span class="o">=</span><span class="s">&#34;https://goatcounter.pseudoyu.com/count&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;//goatcounter.pseudoyu.com/count.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/add_goatcounter_script_in_hugo.png" alt="add_goatcounter_script_in_hugo"></p>
+<p>将上述代码加到我 hugo 主题的 <code>head</code> 中即可，如我的 Hugo 主题在 <code>layouts/partials/head.html</code> 这一文件，不同主题或是不同 SSG 框架位置有所不同但大同小异。</p>
+<p>有一点要注意的是， goatcounter 会忽略来自 <code>localhost</code> 的请求以避免在本地预览时造成太多脏数据，因此在本地调试时是看不到数据的，需要部署网页才能看到访问数据。</p>
+<p><img src="https://image.pseudoyu.com/images/final_display_of_goatcounter.png" alt="final_display_of_goatcounter"></p>
+<p>收集了数据后的效果大致如上图所示，还可以在 GoatCounter 界面中设置一些配置项、新增网页、查看详细数据等，包括还可以显示每个页面的访问计数等，可以自己根据文档进行探索。</p>
+<h2 id="总结">总结</h2>
+<p>至此我们的博客统计系统就搭建完成了！本文是我的博客搭建部署系列教程之一，博客主题体部分都已经完成了，剩下只是一些例如博客内搜索等细节体验优化，希望能对大家有所参考。</p>
+]]></content:encoded></item><item><title>周报 #67 - 使用 follow 重塑我的信息输入系统</title><link>https://www.pseudoyu.com/zh/2024/08/05/weekly_review_20240805/</link><pubDate>Mon, 05 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/05/weekly_review_20240805/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-07-31 到 2024-08-04 这周生活的记录与思考。 这一周最开心的是体验到了 follow，久违的一款让我有兴奋</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -9678,471 +9800,6 @@
 <li><a href="https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a></li>
 <li><a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
 <li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>Solidity 智能合约开发 - 基础</title><link>https://www.pseudoyu.com/zh/2022/05/25/learn_solidity_from_scratch_basic/</link><pubDate>Wed, 25 May 2022 01:07:33 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/05/25/learn_solidity_from_scratch_basic/</guid><description>《后来的我们 - 五月天》 前言 去年读研的时候上的 HKU 的 &amp;lt;COMP7408 Distributed Ledger and Blockchain Technology&amp;gt;，课程中学习了以太坊智能合约的开发，做了一个简单的图书</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p>去年读研的时候上的 HKU 的 <code>&lt;COMP7408 Distributed Ledger and Blockchain Technology&gt;</code>，课程中学习了以太坊智能合约的开发，做了一个简单的图书管理 ÐApp，然后毕业设计也选择了基于 Ethereum 做了一个音乐版权应用，详见 <a href="https://github.com/pseudoyu/uright">Uright - 区块链音乐版权管理ÐApp</a>，对 Solidity 开发有一些基础了解。</p>
-<p>后来工作后主要做联盟链和业务开发这一块，很久没有碰过合约，对于语法和底层一些概念都已经一知半解，正好最近做的项目是基于 EVM 的一条链，涉及了一些基本的存证、回检和迁移相关合约的开发，调试起来有些吃力，于是打算系统学习一下，梳理一下笔记成文章，敦促自己好好思考总结。</p>
-<p>这系列文章也会收录在我的个人知识库项目 《<a href="https://www.pseudoyu.com/blockchain-guide/">区块链入门指南</a>》中，希望在学习过程中不断完善。有兴趣的朋友也可以访问<a href="https://github.com/pseudoyu/blockchain-guide">项目仓库</a>参与贡献或提出建议。</p>
-<p>本文为系列第一篇，主要涉及 Solidity 基础知识。</p>
-<h2 id="智能合约-与-solidity-语言">智能合约 与 Solidity 语言</h2>
-<p>智能合约是运行在链上的程序，合约开发者可以通过智能合约实现与链上资产/数据进行交互，用户可以通过自己的链上账户来调用合约，访问资产与数据。因为区块链保留区块历史记录的链式结构、去中心化、不可篡改等特征，智能合约相比传统应用来说能更公正、透明。</p>
-<p>然而，因为智能合约需要与链进行交互，部署、数据写入等操作都会消耗一定费用，数据存储与变更成本也比较高，因此在设计合约时需要着重考虑资源的消耗。此外，常规智能合约一经部署就无法进行修改，因此，合约设计时也需要多考虑其安全性、可升级性与拓展性。</p>
-<p>Solidity 是一门面向合约的、为实现智能合约而创建的高级编程语言，在 EVM 虚拟机上运行，语法整体类似于 Javascript，是目前最流行的智能合约语言，也是入门区块链与 Web3 所必须掌握的语言。针对上述的一些合约编写的问题，Solidity 也都有相对完善的解决方案支持，后续会详细讲解。</p>
-<h2 id="开发调试工具">开发/调试工具</h2>
-<p>与常规编程语言不同，Solidity 智能合约的开发往往无法直接通过一个 IDE 或本地环境进行方便的调试，而是需要与一个链上节点进行交互。开发调试往往也不会直接与主网（即真实资产、数据与业务所在的链）进行交互，否则需要承担高额手续费。目前开发调试主要有以下几种方式与框架：</p>
-<ol>
-<li><a href="https://github.com/trufflesuite/truffle">Truffle</a>。Truffle 是一个非常流行的 Javascript 的 Solidity 合约开发框架，提供了完整的开发、测试、调试工具链，可以与本地或远程网络进行交互。</li>
-<li><a href="https://github.com/eth-brownie/brownie">Brownie</a>。Brownie 是一个基于 Python 的 Solidity 合约开发框架，以简洁的 Python 语法为调试和测试提供了便捷的工具链。</li>
-<li><a href="https://github.com/NomicFoundation/hardhat">Hardhat</a>。Hardhat 是另一个基于 Javascript 的开发框架，提供了非常丰富的插件系统，适合开发复杂的合约项目。</li>
-</ol>
-<p>除了开发框架外，更好地进行 Solidity 还需要熟悉一些工具：</p>
-<ol>
-<li><a href="https://remix.ethereum.org">Remix IDE</a>。通过 Ethereum 官方提供的基于浏览器的 Remix 开发工具进行调试，Remix 会提供完整的 IDE、编译工具、部署调试的测试节点环境、账户等，可以很方便地进行测试，这是我学习使用时用的最多的工具。Remix 还可以通过 MetaMask 插件与测试网、主网进行直接交互，部分生产环境也会使用它进行编译部署。</li>
-<li>Remix IDE 对于语法提示等并不完善，因此，可以使用 <a href="https://code.visualstudio.com">Visual Studio Code</a> 配合 <a href="https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity">Solidity</a> 进行编写，有更好的体验。</li>
-<li><a href="https://metamask.io">MetaMask</a>。一个常用的钱包应用，开发过程中可以通过浏览器插件与测试网、主网进行交互，方便开发者进行调试。</li>
-<li><a href="https://trufflesuite.com/ganache/">Ganache</a>。Ganache 是一个开源的虚拟本地节点，提供了一个虚拟链网络，可以通过各类 Web3.js、Remix 或一些框架工具与之交互，适合有一定规模的项目进行本地调试与测试。</li>
-<li><a href="https://infura.io">Infura</a>。Infura 是一个 IaaS（Infrastructure as a Service）产品，我们可以申请自己的 Ethereum 节点，通过 Infura 提供的 API 进行交互，可以很方便地进行调试，也更接近生产环境。</li>
-<li><a href="https://www.openzeppelin.com">OpenZeppelin</a>。OpenZeppelin 提供了非常多的合约开发库与应用，能兼顾安全、稳定的同时给予开发者更好的开发体验，降低合约开发成本。</li>
-</ol>
-<h2 id="合约编译部署">合约编译/部署</h2>
-<p>Solidity 合约是以 <code>.sol</code> 为后缀的文件，无法直接执行，需要编译为 EVM（Ethereum Virtual Machine）可识别的字节码才能在链上运行。</p>
-<p><img src="https://image.pseudoyu.com/images/compile_solidity.png" alt="compile_solidity"></p>
-<p>编译完成后，由合约账户进行部署到链上，其他账户可通过钱包与合约进行交互，实现链上业务逻辑。</p>
-<h2 id="核心语法">核心语法</h2>
-<p>经过上文，我们对 Solidity 的开发、调试与部署有了一定了解。接下来我们就具体学习一下 Solidity 的核心语法。</p>
-<h3 id="数据类型">数据类型</h3>
-<p>与我们常见的编程语言类似，Solidity 有一些内置数据类型。</p>
-<h4 id="基本数据类型">基本数据类型</h4>
-<ul>
-<li><code>boolean</code>，布尔类型有 <code>true</code> 和 <code>false</code> 两种类型，可以通过 <code>bool public boo = true;</code> 来定义，默认值为 <code>false</code></li>
-<li><code>int</code>，整数类型，可以指定 <code>int8</code> 到 <code>int256</code>，默认为 <code>int256</code>，通过 <code>int public int = 0;</code> 来定义，默认值为 <code>0</code>，还可以通过 <code>type(int).min</code> 和 <code>type(int).max</code> 来查看类型最小和最大值</li>
-<li><code>uint</code>，非负整数类型，可以指定 <code>uint8</code>、<code>uint16</code>、<code>uint256</code>，默认为 <code>uint256</code>，通过 <code>uint8 public u8 = 1;</code> 来定义，默认值为 <code>0</code></li>
-<li><code>address</code>，地址类型，可以通过 <code>address public addr = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;</code> 来定义，默认值为 <code>0x0000000000000000000000000000000000000000</code></li>
-<li><code>bytes</code>，<code>byte[]</code> 的缩写，分为固定大小数组和可变数组，通过 <code>bytes1 a = 0xb5;</code> 来定义</li>
-</ul>
-<p>还有一些相对复杂的数据类型，我们单独进行讲解。</p>
-<h4 id="enum">Enum</h4>
-<p><code>Enum</code> 是枚举类型，可以通过以下语法来定义</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">enum</span> <span class="nc">Status</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Unknown</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Start</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="n">End</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Pause</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>并通过以下语法来进行更新与初始化</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 实例化枚举类型
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">Status</span> <span class="k">public</span> <span class="n">status</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 更新枚举值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nf">pause</span><span class="p">()</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">status</span> <span class="o">=</span> <span class="n">Status</span><span class="p">.</span><span class="n">Pause</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 初始化枚举值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nf">reset</span><span class="p">()</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">delete</span> <span class="n">status</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="数组">数组</h4>
-<p>数组是一种存储同类元素的有序集合，通过 <code>uint[] public arr;</code> 来进行定义，在定义时可以预先指定数组大小，如 <code>uint[10] public myFixedSizeArr;</code>。</p>
-<p>需要注意的是，我们可以在内存中创建数组（关于 <code>memory</code> 与 <code>storage</code> 等差异后续会详细讲解），但是必须固定大小，如 <code>uint[] memory a = new uint[](5);</code>。</p>
-<p>数组类型有一些基本操作方法，如下：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// 定义数组类型
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">uint</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="k">public</span> <span class="n">arr</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 添加数据
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">arr</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="mi">7</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 删除最后一个数据
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">arr</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 删除某个索引值数据
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">delete</span> <span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 获取数组长度
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">uint</span> <span class="n">len</span> <span class="o">=</span> <span class="n">arr</span><span class="p">.</span><span class="n">length</span><span class="p">;</span>
-</span></span></code></pre></div><h4 id="mapping">mapping</h4>
-<p><code>mapping</code> 是一种映射类型，使用 <code>mapping(keyType =&gt; valueType)</code> 来定义，其中键需要是内置类型，如 <code>bytes</code>、<code>int</code>、<code>string</code> 或合约类型，而值可以是任何类型，如嵌套 <code>mapping</code> 类型。需要注意的是，<code>mapping</code> 类型是不能被迭代遍历的，需要遍历则需要自行实现对应索引。</p>
-<p>下面说明一下各类操作：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// 定义嵌套 mapping 类型
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">mapping</span><span class="p">(</span><span class="kt">string</span> <span class="o">=&gt;</span> <span class="kd">mapping</span><span class="p">(</span><span class="kt">string</span> <span class="o">=&gt;</span> <span class="kt">string</span><span class="p">))</span> <span class="n">nestedMap</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 设置值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">nestedMap</span><span class="p">[</span><span class="n">id</span><span class="p">][</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;0707&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 读取值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">string</span> <span class="nb">value</span> <span class="o">=</span> <span class="n">nestedMap</span><span class="p">[</span><span class="n">id</span><span class="p">][</span><span class="n">key</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 删除值
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">delete</span> <span class="n">nestedMap</span><span class="p">[</span><span class="n">id</span><span class="p">][</span><span class="n">key</span><span class="p">];</span>
-</span></span></code></pre></div><h4 id="struct">Struct</h4>
-<p><code>struct</code> 是结构类型，对于复杂业务，我们经常需要定义自己的结构，将关联的数据组合起来，可以在合约内进行定义</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">Struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">struct</span> <span class="nc">Data</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    	<span class="kt">string</span> <span class="n">id</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    	<span class="kt">string</span> <span class="n">hash</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">Data</span> <span class="k">public</span> <span class="nb">data</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 添加数据
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">function</span> <span class="nf">create</span><span class="p">(</span><span class="kt">string</span> <span class="n">calldata</span> <span class="n">_id</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    	<span class="nb">data</span> <span class="o">=</span> <span class="n">Data</span><span class="p">{</span><span class="n">id</span><span class="o">:</span> <span class="n">_id</span><span class="p">,</span> <span class="n">hash</span><span class="o">:</span> <span class="s">&#34;111222&#34;</span><span class="p">};</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 更新数据
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">function</span> <span class="nf">update</span><span class="p">(</span><span class="kt">string</span> <span class="n">_id</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    	<span class="c1">// 查询数据
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    	<span class="kt">string</span> <span class="n">id</span> <span class="o">=</span> <span class="nb">data</span><span class="p">.</span><span class="n">id</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1">// 更新
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nb">data</span><span class="p">.</span><span class="n">hash</span> <span class="o">=</span> <span class="s">&#34;222333&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>也可以单独文件定义所有需要的结构类型，由合约按需导入</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// &#39;StructDeclaration.sol&#39;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Data</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">string</span> <span class="n">id</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">string</span> <span class="n">hash</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// &#39;Struct.sol&#39;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;./StructDeclaration.sol&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">Struct</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">Data</span> <span class="k">public</span> <span class="nb">data</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="变量常量immutable">变量/常量/<code>Immutable</code></h3>
-<p>变量是 Solidity 中可改变值的一种数据结构，分为以下三种：</p>
-<ul>
-<li><code>local</code> 变量</li>
-<li><code>state</code> 变量</li>
-<li><code>global</code> 变量</li>
-</ul>
-<p>其中， <code>local</code> 变量定义在方法中，而不会存储在链上，如 <code>string var = &quot;Hello&quot;;</code>；而 <code>state</code> 变量在方法之外定义，会存储在链上，通过 <code>string public var;</code> 定义变量，写入值时会发送交易，而读取值则不会；<code>global</code> 变量则是提供了链信息的全局变量，如当前区块时间戳变量，<code>uint timestamp = block.timestamp;</code>，合约调用者地址变量，<code>address sender = msg.sender;</code> 等。</p>
-<p>变量可以通过不同关键字进行声明，表示不同的存储位置。</p>
-<ul>
-<li><code>storage</code>，会存储在链上</li>
-<li><code>memory</code>，在内存中，只有方法被调用的时候才存在</li>
-<li><code>calldata</code>，作为调用方法传入参数时存在</li>
-</ul>
-<p>而常量是一种不可以改变值的变量，使用常量可以节约 gas 费用，我们可以通过 <code>string public constant MY_CONSTANT = &quot;0707&quot;;</code> 来进行定义。<code>immutable</code> 则是一种特殊的类型，它的值可以在 <code>constructor</code> 中初始化，但不可以再次改变。灵活使用这几种类型可以有效节省 gas 费并保障数据安全。</p>
-<h3 id="函数">函数</h3>
-<p>在 Solidity 中，函数用来定义一些特定业务逻辑。</p>
-<h4 id="权限声明">权限声明</h4>
-<p>函数分为不同的可见性，用户不同的关键字进行声明：</p>
-<ul>
-<li><code>public</code>，任何合约都可调用</li>
-<li><code>private</code>，只有定义了该方法的合约内部可调用</li>
-<li><code>internal</code>，只有在继承合约可调用</li>
-<li><code>external</code>，只有其他合约和账户可调用</li>
-</ul>
-<p>查询数据的合约函数也有不同的声明方式：</p>
-<ul>
-<li><code>view</code> 可以读取变量，但不能更改</li>
-<li><code>pure</code> 不可以读也不可以修改</li>
-</ul>
-<h4 id="函数修饰符">函数修饰符</h4>
-<p><code>modifier</code> 函数修饰符可以在函数运行前/后被调用，主要用来进行权限控制、对输入参数进行校验以及防止重入攻击等。这三种功能修饰符可以通过以下语法定义：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">modifier</span> <span class="nf">onlyOwner</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">require</span><span class="p">(</span><span class="nb">msg</span><span class="p">.</span><span class="nb">sender</span> <span class="o">==</span> <span class="n">owner</span><span class="p">,</span> <span class="s">&#34;Not owner&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="k">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">modifier</span> <span class="nf">validAddress</span><span class="p">(</span><span class="kt">address</span> <span class="n">_addr</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">require</span><span class="p">(</span><span class="n">_addr</span> <span class="o">!=</span> <span class="kt">address</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="s">&#34;Not valid address&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="k">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">modifier</span> <span class="nf">noReentrancy</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">require</span><span class="p">(</span><span class="o">!</span><span class="n">locked</span><span class="p">,</span> <span class="s">&#34;No reentrancy&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="n">locked</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="k">_</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="n">locked</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>使用函数修饰符则是需要在函数声明时添加对应修饰符，如：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">changeOwner</span><span class="p">(</span><span class="kt">address</span> <span class="n">_newOwner</span><span class="p">)</span> <span class="k">public</span> <span class="n">onlyOwner</span> <span class="n">validAddress</span><span class="p">(</span><span class="n">_newOwner</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">owner</span> <span class="o">=</span> <span class="n">_newOwner</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">decrement</span><span class="p">(</span><span class="kt">uint</span> <span class="n">i</span><span class="p">)</span> <span class="k">public</span> <span class="n">noReentrancy</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">x</span> <span class="o">-=</span> <span class="n">i</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">decrement</span><span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="函数选择器">函数选择器</h4>
-<p>当函数被调用时，<code>calldata</code> 的前四个字节要指定以确认调用哪个函数，被称为函数选择器。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">addr</span><span class="p">.</span><span class="nb">call</span><span class="p">(</span><span class="nb">abi</span><span class="p">.</span><span class="nb">encodeWithSignature</span><span class="p">(</span><span class="s">&#34;transfer(address,uint256)&#34;</span><span class="p">,</span> <span class="mi">0</span><span class="n">xSomeAddress</span><span class="p">,</span> <span class="mi">123</span><span class="p">))</span>
-</span></span></code></pre></div><p>上述代码 <code>abi.encodeWithSignature() </code> 返回值的前四个字节就是函数选择器。我们如果在执行前预先计算函数选择器的话可以节约一些 <code>gas</code> 费。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">FunctionSelector</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">getSelector</span><span class="p">(</span><span class="kt">string</span> <span class="n">calldata</span> <span class="n">_func</span><span class="p">)</span> <span class="k">external</span> <span class="k">pure</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bytes4</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="kt">bytes4</span><span class="p">(</span><span class="nb">keccak256</span><span class="p">(</span><span class="kt">bytes</span><span class="p">(</span><span class="n">_func</span><span class="p">)));</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="条件循环结构">条件/循环结构</h3>
-<h4 id="条件">条件</h4>
-<p>Solidity 使用 <code>if</code>、<code>else if</code>、<code>else</code> 关键字来实现条件逻辑：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">2</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>也可以使用简写形式：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">&lt;</span> <span class="mi">20</span> <span class="o">?</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">2</span><span class="p">;</span>
-</span></span></code></pre></div><h4 id="循环">循环</h4>
-<p>Solidity 使用 <code>for</code>、<code>while</code>、<code>do while</code> 关键字来实现循环逻辑，但是因为后两者容易达到 <code>gas limit</code> 边界值，所以基本上不用。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="kt">uint</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="c1">// 业务逻辑
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kt">uint</span> <span class="n">j</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="p">(</span><span class="n">j</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">j</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="合约">合约</h3>
-<h4 id="构造器">构造器</h4>
-<p>Solidity 的 <code>constructor</code> 可以在创建合约的时候执行，主要用来初始化</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">constructor</span><span class="p">(</span><span class="kt">string</span> <span class="k">memory</span> <span class="n">_name</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">name</span> <span class="o">=</span> <span class="n">_name</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>如果合约之间存在继承关系，<code>constructor</code> 也会按照继承顺序。</p>
-<h4 id="接口">接口</h4>
-<p><code>Interface</code>，通过声明接口来进行合约交互，有以下要求：</p>
-<ul>
-<li>不能实现任何方法</li>
-<li>可以继承其他接口</li>
-<li>所有方法都必须声明为 <code>external</code></li>
-<li>不能声明构造方法</li>
-<li>不能声明状态变量</li>
-</ul>
-<p>接口用如下语法进行定义：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">Counter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="k">public</span> <span class="n">count</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">increment</span><span class="p">()</span> <span class="k">external</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">interface</span> <span class="nc">ICounter</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">count</span><span class="p">()</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">increment</span><span class="p">()</span> <span class="k">external</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>调用则是通过</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">MyContract</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">incrementCounter</span><span class="p">(</span><span class="kt">address</span> <span class="n">_counter</span><span class="p">)</span> <span class="k">external</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">ICounter</span><span class="p">(</span><span class="n">_counter</span><span class="p">).</span><span class="n">increment</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">getCount</span><span class="p">(</span><span class="kt">address</span> <span class="n">_counter</span><span class="p">)</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">ICounter</span><span class="p">(</span><span class="n">_counter</span><span class="p">).</span><span class="n">count</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="继承">继承</h4>
-<p>Solidity 合约支持继承，且可以同时继承多个，使用 <code>is</code> 关键字。</p>
-<p>函数可以进行重写，需要被继承的合约方法需要声明为 <code>virtual</code>，重写方法需要使用 <code>override</code> 关键字。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// 定义父合约 A
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">contract</span> <span class="nc">A</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">foo</span><span class="p">()</span> <span class="k">public</span> <span class="k">pure</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">string</span> <span class="k">memory</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="s">&#34;A&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// B 合约继承 A 合约并重写函数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">contract</span> <span class="nc">B</span> <span class="k">is</span> <span class="n">A</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">foo</span><span class="p">()</span> <span class="k">public</span> <span class="k">pure</span> <span class="k">virtual</span> <span class="k">override</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">string</span> <span class="k">memory</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="s">&#34;B&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// D 合约继承 B、C 合约并重写函数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">contract</span> <span class="nc">D</span> <span class="k">is</span> <span class="n">B</span><span class="p">,</span> <span class="n">C</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">foo</span><span class="p">()</span> <span class="k">public</span> <span class="k">pure</span> <span class="k">override</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">)</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">string</span> <span class="k">memory</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="nb">super</span><span class="p">.</span><span class="n">foo</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>有几点需要注意的是，继承顺序会影响业务逻辑，<code>state</code> 状态变量是不可以被继承的。</p>
-<p>如果子合约想调用父合约，除了直接调用外，还可以通过 <code>super</code> 关键字来调用，如下：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">B</span> <span class="k">is</span> <span class="n">A</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">foo</span><span class="p">()</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// 直接调用
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		<span class="n">A</span><span class="p">.</span><span class="n">foo</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">bar</span><span class="p">()</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    	<span class="c1">// 通过 super 关键字调用
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		<span class="nb">super</span><span class="p">.</span><span class="n">bar</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="合约创建">合约创建</h4>
-<p>Solidity 中可以从另一个合约中使用 <code>new</code> 关键字来创建另一个合约</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">create</span><span class="p">(</span><span class="kt">address</span> <span class="n">_owner</span><span class="p">,</span> <span class="kt">string</span> <span class="k">memory</span> <span class="n">_model</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="p">(</span><span class="n">_owner</span><span class="p">,</span> <span class="n">_model</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">car</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>而 <code>solidity 0.8.0</code> 后支持 <code>create2</code> 特性创建合约</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">create2</span><span class="p">(</span><span class="kt">address</span> <span class="n">_owner</span><span class="p">,</span> <span class="kt">string</span> <span class="k">memory</span> <span class="n">_model</span><span class="p">,</span> <span class="kt">bytes32</span> <span class="n">_salt</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="p">(</span><span class="k">new</span> <span class="n">Car</span><span class="p">){</span><span class="n">salt</span><span class="o">:</span> <span class="n">_salt</span><span class="p">}(</span><span class="n">_owner</span><span class="p">,</span> <span class="n">_model</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">car</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="导入合约外部库">导入合约/外部库</h4>
-<p>复杂业务中，我们往往需要多个合约之间进行配合，这时候可以使用 <code>import</code> 关键字来导入合约，分为本地导入 <code>import &quot;./Foo.sol&quot;;</code> 与外部导入 <code>import &quot;https://github.com/owner/repo/blob/branch/path/to/Contract.sol&quot;;</code> 两种方式。</p>
-<p>外部库和合约类似，但不能声明状态变量，也不能发送资产。如果库的所有方法都是 <code>internal</code> 的话会被嵌入合约，如果非 <code>internal</code>，需要提前部署库并且链接起来。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">library</span> <span class="n">SafeMath</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">add</span><span class="p">(</span><span class="kt">uint</span> <span class="n">x</span><span class="p">,</span> <span class="kt">uint</span> <span class="n">y</span><span class="p">)</span> <span class="k">internal</span> <span class="k">pure</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="kt">uint</span> <span class="n">z</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">require</span><span class="p">(</span><span class="n">z</span> <span class="o">&gt;=</span> <span class="n">x</span><span class="p">,</span> <span class="s">&#34;uint overflow&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">z</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">TestSafeMath</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kn">using</span> <span class="n">SafeMath</span> <span class="k">for</span> <span class="kt">uint</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="事件">事件</h4>
-<p>事件机制是合约中非常重要的一个设计。事件允许将信息记录到区块链上，DApp 等应用可以通过监听事件数据来实现业务逻辑，存储成本很低。以下是一个简单的日志抛出机制：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// 定义事件
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">event</span> <span class="nc">Log</span><span class="p">(</span><span class="kt">address</span> <span class="k">indexed</span> <span class="nb">sender</span><span class="p">,</span> <span class="kt">string</span> <span class="n">message</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">AnotherLog</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 抛出事件
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">emit</span> <span class="n">Log</span><span class="p">(</span><span class="nb">msg</span><span class="p">.</span><span class="nb">sender</span><span class="p">,</span> <span class="s">&#34;Hello World!&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">emit</span> <span class="n">Log</span><span class="p">(</span><span class="nb">msg</span><span class="p">.</span><span class="nb">sender</span><span class="p">,</span> <span class="s">&#34;Hello EVM!&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">emit</span> <span class="n">AnotherLog</span><span class="p">();</span>
-</span></span></code></pre></div><p>定义事件时可以传入 <code>indexed</code> 属性，但最多三个，加了后可以对这个属性的参数进行过滤，<code>var event = myContract.transfer({value: [&quot;99&quot;,&quot;100&quot;,&quot;101&quot;]});</code>。</p>
-<h3 id="错误处理">错误处理</h3>
-<p>链上错误处理也是合约编写的重要环节。Solidity 可以通过以下几种方式抛出错误。</p>
-<p><code>require</code> 都是在执行前验证条件，不满足则抛出异常。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">testRequire</span><span class="p">(</span><span class="kt">uint</span> <span class="n">_i</span><span class="p">)</span> <span class="k">public</span> <span class="k">pure</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">require</span><span class="p">(</span><span class="n">_i</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">,</span> <span class="s">&#34;Input must be greater than 10&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p><code>revert</code> 用来标记错误与进行回滚。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">testRevert</span><span class="p">(</span><span class="kt">uint</span> <span class="n">_i</span><span class="p">)</span> <span class="k">public</span> <span class="k">pure</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="n">_i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">revert</span><span class="p">(</span><span class="s">&#34;Input must be greater than 10&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p><code>assert</code> 要求一定要满足条件。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">testAssert</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nb">assert</span><span class="p">(</span><span class="n">num</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>注意，在 Solidity 中，当出现错误时会回滚交易中发生的所有状态改变，包括所有的资产，账户，合约等。</p>
-<p><code>try / catch</code> 也可以捕捉错误，但只能捕捉来自外部函数调用和合约创建的错误。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">Log</span><span class="p">(</span><span class="kt">string</span> <span class="n">message</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">LogBytes</span><span class="p">(</span><span class="kt">bytes</span> <span class="nb">data</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">tryCatchNewContract</span><span class="p">(</span><span class="kt">address</span> <span class="n">_owner</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">try</span> <span class="k">new</span> <span class="n">Foo</span><span class="p">(</span><span class="n">_owner</span><span class="p">)</span> <span class="k">returns</span> <span class="p">(</span><span class="n">Foo</span> <span class="n">foo</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">emit</span> <span class="n">Log</span><span class="p">(</span><span class="s">&#34;Foo created&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span> <span class="k">catch</span> <span class="n">Error</span><span class="p">(</span><span class="kt">string</span> <span class="k">memory</span> <span class="n">reason</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">emit</span> <span class="n">Log</span><span class="p">(</span><span class="n">reason</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="kt">bytes</span> <span class="k">memory</span> <span class="n">reason</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">emit</span> <span class="n">LogBytes</span><span class="p">(</span><span class="n">reason</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="payable-关键字"><code>payable</code> 关键字</h3>
-<p>我们可以通过声明 <code>payable</code> 关键字设置方法可从合约中接收 <code>ether</code>。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="c1">// 地址类型可以声明 payable
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">address</span> <span class="k">payable</span> <span class="k">public</span> <span class="n">owner</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">constructor</span><span class="p">()</span> <span class="k">payable</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">owner</span> <span class="o">=</span> <span class="k">payable</span><span class="p">(</span><span class="nb">msg</span><span class="p">.</span><span class="nb">sender</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// 方法声明 payable 来接收 Ether
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nf">deposit</span><span class="p">()</span> <span class="k">public</span> <span class="k">payable</span> <span class="p">{}</span>
-</span></span></code></pre></div><h3 id="与-ether-交互">与 <code>Ether</code> 交互</h3>
-<p>与 <code>Ether</code> 交互是智能合约的重要应用场景，主要分为发送和接收两部分，分别有不同的方法实现。</p>
-<h4 id="发送">发送</h4>
-<p>主要通过 <code>transfer</code>、<code>send</code> 与 <code>call</code> 方法实现，其中 <code>call</code> 优化了对重入攻击的防范，在实际应用场景中建议使用（但一般不用来调用其他函数）。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">SendEther</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="kd">function</span> <span class="nf">sendViaCall</span><span class="p">(</span><span class="kt">address</span> <span class="k">payable</span> <span class="n">_to</span><span class="p">)</span> <span class="k">public</span> <span class="k">payable</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  	<span class="p">(</span><span class="kt">bool</span> <span class="n">sent</span><span class="p">,</span> <span class="kt">bytes</span> <span class="k">memory</span> <span class="nb">data</span><span class="p">)</span> <span class="o">=</span> <span class="n">_to</span><span class="p">.</span><span class="nb">call</span><span class="p">{</span><span class="nb">value</span><span class="o">:</span> <span class="nb">msg</span><span class="p">.</span><span class="nb">value</span><span class="p">}(</span><span class="s">&#34;&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  	<span class="nb">require</span><span class="p">(</span><span class="n">sent</span><span class="p">,</span> <span class="s">&#34;Failed to send Ether&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>而如果需要调用另一个函数，则一般使用 <code>delegatecall</code>。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">B</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="k">public</span> <span class="n">num</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">address</span> <span class="k">public</span> <span class="nb">sender</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="k">public</span> <span class="nb">value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">setVars</span><span class="p">(</span><span class="kt">uint</span> <span class="n">_num</span><span class="p">)</span> <span class="k">public</span> <span class="k">payable</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="n">num</span> <span class="o">=</span> <span class="n">_num</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">sender</span> <span class="o">=</span> <span class="nb">msg</span><span class="p">.</span><span class="nb">sender</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">value</span> <span class="o">=</span> <span class="nb">msg</span><span class="p">.</span><span class="nb">value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">A</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="k">public</span> <span class="n">num</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">address</span> <span class="k">public</span> <span class="nb">sender</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="k">public</span> <span class="nb">value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">setVars</span><span class="p">(</span><span class="kt">address</span> <span class="n">_contract</span><span class="p">,</span> <span class="kt">uint</span> <span class="n">_num</span><span class="p">)</span> <span class="k">public</span> <span class="k">payable</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="p">(</span><span class="kt">bool</span> <span class="n">success</span><span class="p">,</span> <span class="kt">bytes</span> <span class="k">memory</span> <span class="nb">data</span><span class="p">)</span> <span class="o">=</span> <span class="n">_contract</span><span class="p">.</span><span class="nb">delegatecall</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">			<span class="nb">abi</span><span class="p">.</span><span class="nb">encodeWithSignature</span><span class="p">(</span><span class="s">&#34;setVars(uint256)&#34;</span><span class="p">,</span> <span class="n">_num</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">		<span class="p">);</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h4 id="接收">接收</h4>
-<p>接收 <code>Ether</code> 主要用 <code>receive() external payable</code> 与 <code>fallback() external payable</code> 两种。</p>
-<p>当一个不接受任何参数也不返回任何参数的函数、当 <code>Ether</code> 被发送至某个合约但 <code>receive()</code> 方法未实现或 <code>msg.data</code> 非空时，会调用 <code>fallback()</code> 方法。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">contract</span> <span class="nc">ReceiveEther</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="c1">// 当 msg.data 为空时
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">receive</span><span class="p">()</span> <span class="k">external</span> <span class="k">payable</span> <span class="p">{}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// 当 msg.data 非空时
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">fallback</span><span class="p">()</span> <span class="k">external</span> <span class="k">payable</span> <span class="p">{}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="kd">function</span> <span class="nf">getBalance</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="kt">address</span><span class="p">(</span><span class="nb">this</span><span class="p">).</span><span class="nb">balance</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="gas-费">Gas 费</h3>
-<p>在 EVM 中执行交易需要耗费 gas 费，<code>gas spent</code> 表示需要多少 gas 量，<code>gas price</code> 为 gas 的单位价格，<code>Ether</code> 和 <code>Wei</code> 是价格单位，1 ether == 1e18 wei。</p>
-<p>合约会对 Gas 进行限制，<code>gas limit</code> 由发起交易的用户设置，最多花多少 gas，<code>block gas limit</code>，由区块链网络决定，这个区块中最多允许多少 gas。</p>
-<p>我们在合约开发中要尤其考虑尽量节约 gas 费，有以下几个常用技巧：</p>
-<ol>
-<li>使用 <code>calldata</code> 来替换 <code>memory</code></li>
-<li>将状态变量载入内存</li>
-<li>使用 <code>i++</code> 而不是 <code>++i</code></li>
-<li>缓存数组元素</li>
-</ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">sumIfEvenAndLessThan99</span><span class="p">(</span><span class="kt">uint</span><span class="p">[]</span> <span class="n">calldata</span> <span class="n">nums</span><span class="p">)</span> <span class="k">external</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="n">_total</span> <span class="o">=</span> <span class="n">total</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">uint</span> <span class="n">len</span> <span class="o">=</span> <span class="n">nums</span><span class="p">.</span><span class="n">length</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">uint</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">len</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="kt">uint</span> <span class="n">num</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">99</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">			<span class="n">_total</span> <span class="o">+=</span> <span class="n">num</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">		<span class="p">}</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="n">total</span> <span class="o">=</span> <span class="n">_total</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h2 id="总结">总结</h2>
-<p>以上就是我们系列第一篇，Solidity 基础知识，后续文章会对其常见应用和实用编码技巧进行学习总结，欢迎大家持续关注。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://solidity-by-example.org">Solidity by Example</a></li>
-<li><a href="http://gasolin.idv.tw/learndapp/">Ethereum 區塊鏈！智能合約(Smart Contract)與分散式網頁應用(dApp)入門</a></li>
-<li><a href="https://www.pseudoyu.com/blockchain-guide/">区块链入门指南</a></li>
-<li><a href="https://github.com/pseudoyu/uright">Uright - 区块链音乐版权管理ÐApp</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
