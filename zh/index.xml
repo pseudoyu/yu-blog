@@ -1087,6 +1087,11 @@
 <p><img src="https://image.pseudoyu.com/images/yu_remark42_preview.png" alt="yu_remark42_preview"></p>
 <p>最近有一次由于更换数据库 URI 时 Vercel 部署一直报错，再加上确实需要一些新的功能，于是下定决心从 Cusdis 迁移，调研了一圈后选择了 <a href="https://reorx.com/">reorx</a> 在「<a href="https://reorx.com/blog/blog-commenting-systems/">更换博客评论系统</a>」一文中最后选定的 <a href="https://remark42.com/">Remark42</a>。</p>
 <p>单纯就配置选项来说比起 cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 <a href="https://fly.io/">fly.io</a>，go 单二进制 + 数据库单文件，很舒服的解决方案，完成博文后会在这里更新教程链接。</p>
+<p><strong>[2024-07-22 更新]</strong></p>
+<p>评论系统搭建详见这篇。</p>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/">从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</a></li>
+</ul>
 <h3 id="数据统计系统">数据统计系统</h3>
 <p>我之前自部署了一个 Umami（参看教程「<a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a>」不过后来由于 Heroku 取消了免费 Plan，我最后折腾一圈，选择了 Netlify 部署服务 + Supabase 部署 PostgreSQL 数据库实例部署的方式，其余流程依然适用。</p>
 <p><img src="https://image.pseudoyu.com/images/yu_goatcounter_preview.png" alt="yu_goatcounter_preview"></p>
@@ -1094,6 +1099,11 @@
 <p><img src="https://image.pseudoyu.com/images/yu_google_console_preview.png" alt="yu_google_console_preview"></p>
 <p>另外就是依然使用 <a href="https://search.google.com/search-console">Google Console</a> 来统计分析我的访客信息与搜索权重。</p>
 <p>这个结果很有参考性，我发现一篇关于终端对比的文章「<a href="https://www.pseudoyu.com/zh/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/">Warp，iTerm2 还是 Alacritty？我的终端折腾小记</a>」让我持续不断地有通过搜索引擎来的访客，另外的就是关于个人博客和搭建的系列文章了。</p>
+<p><strong>[2024-08-06 更新]</strong></p>
+<p>网站数据统计系统搭建详见这篇。</p>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">使用 GoatCounter 与 Zeabur 搭建网站数据统计系统</a></li>
+</ul>
 <h3 id="图床系统">图床系统</h3>
 <p>两年前我其实还没怎么关注图床的问题，图片都是直接丢在 GitHub 仓库里，并且使用 jsDelivr 作为 CDN 加速（后来国内访问也几乎不可用了），不过随着文章数量增多，常常有身边的朋友告诉我说我的博客图片加载不出来，想着还是要兼顾一下阅读体验，于是调研了一圈方案。</p>
 <p><img src="https://image.pseudoyu.com/images/aliyunoss_invoice.jpeg" alt="aliyunoss_invoice"></p>
@@ -1117,7 +1127,7 @@
 <p><img src="https://image.pseudoyu.com/images/search_in_my_blog.png" alt="search_in_my_blog"></p>
 <p>之前我的博客是没有内容搜索功能的，本来文章也不多，再加上静态博客没有后端，实现起来感觉也不容易，于是一直没支持。但随着后来有时候要查阅自己之前的文章只能用 VS Code 在一堆 markdown 文件中搜索的体验后，觉得还是很有必要的。</p>
 <p>调研了一圈使用了 <a href="https://pagefind.app/">Pagefind</a> 这一项目，基于静态文件的搜索库，无须引入或是托管其他后端服务，我只需要在每次发布博客的 CI 中构建全博客的索引文件，就能够很方便地支持搜索，中文搜索效果相对弱一些，不过也是够用的程度，基本上对主流的博客框架都支持。</p>
-<p>这部分可以参照「<a href="https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/">如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能</a>」这篇文章，我也正在着手写基于 GitHub Actions 更详细的教程，后续会更新在这里。</p>
+<p>这部分可以参照「<a href="https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/">如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能</a>」这篇文章。</p>
 <h2 id="总结">总结</h2>
 <p>2024 年了，我大抵还是个爱好写作的人，从早些年的书评影评、技术教程到现在的生活周记，似乎所见所思只有落笔写下才会转为触手可及的真实。而随着上百篇文章的沉淀，个人博客站点也成为了我在这世界的另一个载体，源于我却又独立于我，有时是随手可拾起的记忆碎片，有时又是自己精神的避难所。</p>
 <p>也希望你们能够继续在我的博客中发现一些有趣的东西，或是知识，或是启发，抑或是一点点小小的共鸣，或许在某个时刻，你们也会想拥有自己的博客站点，让自己的所思所想在这个世界上留下一些痕迹，生根、发芽，也希望这套系列教程能够提供一些帮助。</p>
