@@ -100,6 +100,12 @@ authors:
 
 单纯就配置选项来说比起 cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 [fly.io](https://fly.io/)，go 单二进制 + 数据库单文件，很舒服的解决方案，完成博文后会在这里更新教程链接。
 
+**[2024-07-22 更新]**
+
+评论系统搭建详见这篇。
+
+- [从零开始搭建你的免费博客评论系统（Remark42 + fly.io）](https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+
 ### 数据统计系统
 
 我之前自部署了一个 Umami（参看教程「[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)」不过后来由于 Heroku 取消了免费 Plan，我最后折腾一圈，选择了 Netlify 部署服务 + Supabase 部署 PostgreSQL 数据库实例部署的方式，其余流程依然适用。
@@ -113,6 +119,12 @@ authors:
 另外就是依然使用 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重。
 
 这个结果很有参考性，我发现一篇关于终端对比的文章「[Warp，iTerm2 还是 Alacritty？我的终端折腾小记](https://www.pseudoyu.com/zh/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/)」让我持续不断地有通过搜索引擎来的访客，另外的就是关于个人博客和搭建的系列文章了。
+
+**[2024-08-06 更新]**
+
+网站数据统计系统搭建详见这篇。
+
+- [使用 GoatCounter 与 Zeabur 搭建网站数据统计系统](https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
 
 ### 图床系统
 
@@ -152,7 +164,7 @@ authors:
 
 调研了一圈使用了 [Pagefind](https://pagefind.app/) 这一项目，基于静态文件的搜索库，无须引入或是托管其他后端服务，我只需要在每次发布博客的 CI 中构建全博客的索引文件，就能够很方便地支持搜索，中文搜索效果相对弱一些，不过也是够用的程度，基本上对主流的博客框架都支持。
 
-这部分可以参照「[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)」这篇文章，我也正在着手写基于 GitHub Actions 更详细的教程，后续会更新在这里。
+这部分可以参照「[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)」这篇文章。
 
 ## 总结
 
