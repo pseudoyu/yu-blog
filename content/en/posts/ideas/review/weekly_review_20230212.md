@@ -1,5 +1,5 @@
 ---
-title: "周报 #30 - 开源预算、写作初心与对技术的谦卑"
+title: "Weekly Review #30 - Open Source Budget, Writing Motivation, and Humility Towards Technology"
 date: 2023-02-12T19:41:33+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "writing", "technology", "music", "spotify", "open-source"]
@@ -8,162 +8,162 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/christmas_song_english_version.mp3" caption="《クリスマスソング (English Cover) - Matt Cab》" >}}
+{{<audio src="audios/christmas_song_english_version.mp3" caption="'クリスマスソング (English Cover) - Matt Cab'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-02-07` 到 `2023-02-12` 这周生活的记录与思考。
+This is a record and reflection of my life from `2023-02-07` to `2023-02-12`.
 
-这一周工作上不算有太多进展，却感觉年后的时间感觉过得尤其快，明明好像也没做什么有价值的事，却处于一种忙碌之中。但额外的项目部分终于开始投入不小的时间在处理了，离原本的预期有些偏差，也带来了一些焦虑，算是在慢慢排解。
+This week saw little progress in work, yet the time after the New Year seemed to pass particularly quickly. Though it felt like I hadn't accomplished much of value, I found myself in a state of busyness. I finally started investing considerable time in handling additional projects, which deviated from my original expectations and brought some anxiety, which I'm slowly working through.
 
-这周受公司运营之托写了一篇关于 Cosmos 的文章，在写作和发布过程中倒是有些心态上的警醒，也引发了自己对于写作初心与对技术的谦卑的一些思考。
+This week, at the request of the company's operations team, I wrote an article about Cosmos. The writing and publishing process sparked some realizations about my attitude, leading to reflections on my original writing motivation and humility towards technology.
 
-周末去了国家大剧院听了场音乐会，之前一直想听交响乐不过少有机会，终于解锁了周末新去处；周末和我目前评论系统 [Cusdis](https://cusdis.com/) 的作者 [Randy](https://lutaonan.com/) 聊了一下（顺便报了几个 bug），感觉是个很纯粹的技术人，希望在 Cusdis v2 版本的开发中自己也能有所贡献；还有很多有意思的事。
+Over the weekend, I attended a concert at the National Centre for the Performing Arts. I had long wanted to listen to a symphony orchestra but rarely had the opportunity, so I finally discovered a new weekend destination. I also chatted with Randy, the creator of my current comment system [Cusdis](https://cusdis.com/) (and reported a few bugs). He struck me as a pure technologist, and I hope to contribute to the development of Cusdis v2. There were many other interesting events as well.
 
-## 开源预算
+## Open Source Budget
 
-在 [Randy](https://lutaonan.com/) 的一篇文章『[我给自己设立了每月 $20 的开源捐赠预算](https://lutaonan.com/blog/my-oss-donation-budget/)』中看到他对于开源项目的理念与态度，觉得很有意思，也引发了我想为自己也设立一个同样的开源预算的想法。
+In Randy's article "[I Set Myself a $20 Monthly Open Source Donation Budget](https://lutaonan.com/blog/my-oss-donation-budget/)", I saw his philosophy and attitude towards open source projects, which I found intriguing and inspired me to establish a similar open source budget for myself.
 
-目前的设定是每月至少 $20（约 130 元人民币）或等价值的预算，根据自己的日常使用与技术栈灵活选择，我会选择以下项目进行捐赠：
+My current plan is to set aside at least $20 (about 130 RMB) or an equivalent value budget per month, flexibly choosing based on my daily use and tech stack. I will select the following projects for donation:
 
-- 对我有启发的独立博客作者与开发者
-- 我在做 side projects 时常用且解决了很切实问题的项目
-- 我高频使用的一些有趣的开源工具与服务
+- Independent bloggers and developers who have inspired me
+- Projects that I frequently use in my side projects and have solved concrete problems
+- Interesting open source tools and services that I use frequently
 
-目前我捐赠的项目为：
+Currently, the projects I'm donating to are:
 
-- [Reorx](https://github.com/reorx)，一个我很欣赏的开发者，他的独立博客、对于工具的态度与探索以及开发的一些项目都让我获益良多，我的『[Yu's Life](https://t.me/pseudoyulife)』频道就是 fork 于他的『[Reorx’s Footprints](https://t.me/reorx_share)』，在大半年的时间里重塑了我的信息输入输出流，最近刚发布的『[GitHub - jsoncv](https://github.com/reorx/jsoncv)』也恰好在我重构简历时帮了大忙。
-- [immersive-translate](https://github.com/immersive-translate/immersive-translate)，是 [owen](https://www.owenyoung.com/) 主导开发的一款沉浸式翻译插件，是一个很有趣的工具，且 owen 在非常勤劳地开发 v2 版本，我早早加入了团队，目前也在认领一些需求进行开发，在团队讨论得知需要一些服务器时，提供了两台。
+- [Reorx](https://github.com/reorx), a developer I greatly admire. His independent blog, attitude towards tools and exploration, and some of the projects he's developed have been immensely beneficial to me. My "[Yu's Life](https://t.me/pseudoyulife)" channel is forked from his "[Reorx's Footprints](https://t.me/reorx_share)", which has reshaped my information input and output flow over the past six months. His recently released "[GitHub - jsoncv](https://github.com/reorx/jsoncv)" also came in handy when I was restructuring my resume.
+- [immersive-translate](https://github.com/immersive-translate/immersive-translate), an immersive translation plugin led by [owen](https://www.owenyoung.com/). It's an interesting tool, and owen is diligently developing the v2 version. I joined the team early on and am now taking on some development requirements. When I learned during team discussions that some servers were needed, I provided two.
 
-可以在 [GitHub Sponsor](https://github.com/pseudoyu?tab=sponsoring) 看到我对哪些项目和个人进行了捐赠。
+You can see which projects and individuals I've donated to on [GitHub Sponsor](https://github.com/pseudoyu?tab=sponsoring).
 
-## 写作初心
+## Writing Motivation
 
-自己其实一直以来还算喜欢写作，尤其是这大半年的输出达到了还不错的频率和质量，因为长期写博客也认识了不少朋友，甚至偶尔也能得到一些不错的机会。但随着自己的文字功底随着积累增长，也常常得到一些挺正向的反馈，却似乎有时候会陷入一种写作的陷阱。最近发生的一件事让我有些警醒。
+I've always enjoyed writing, especially in the past six months when my output has reached a decent frequency and quality. Through long-term blogging, I've made many friends and occasionally received some good opportunities. But as my writing skills have improved with accumulation and I've often received positive feedback, I seem to have fallen into a writing trap at times. A recent incident gave me a wake-up call.
 
-公司的媒体运营在年前跟我约了一篇稿件，主题并不限制，大致方向是有关公司业务技术的就可以，因为当时时间还多，就先应承了，但过年期间也就搁置了。回北京返工后被催稿时才记起，但又不想很敷衍了事，所以选择了一个 Cosmos 底层链和共识分析的大主题，花了一晚上写完了。
+The company's media operations team commissioned an article from me before the New Year, with no restriction on the theme as long as it was related to the company's business technology. I agreed at the time because I had plenty of time, but I put it aside during the New Year holiday. When I was urged to submit after returning to work in Beijing, I remembered but didn't want to do a perfunctory job. So I chose a major theme of Cosmos underlying chain and consensus analysis, and spent an evening writing it.
 
-其实交稿时还没什么，因为大部分知识点也是出自于对一本书籍的梳理总结，想着可能只会是一些细节微调，然而交到一位精于底层链的 leader 手上审核时，却有了如下对话。
+There wasn't much to it when I submitted the draft, as most of the knowledge points were derived from summarizing and organizing a book. I thought there might only be some minor adjustments to details. However, when it was handed over to a leader well-versed in underlying chains for review, the following dialogue ensued.
 
 ![zgtech_cosmos_article_review_kai](https://image.pseudoyu.com/images/zgtech_cosmos_article_review_kai.png)
 
-查看了用于审稿的分享链接，发现他在我的文章一些存疑的细节中做了十分详尽的标注，很多部分还带论文与引用。
+Upon checking the shared link used for proofreading, I found that he had made very detailed annotations on some questionable details in my article, many parts with papers and citations.
 
 ![zgtech_cosmos_article_review_3](https://image.pseudoyu.com/images/zgtech_cosmos_article_review_3.png)
 
-起初只是觉得，自己是不是有些过于盲目相信所读的书籍与知识点了，而少了一些应有的怀疑与求证精神。
+At first, I just wondered if I had been too blindly trusting of the books I read and knowledge points, lacking the spirit of doubt and verification that I should have had.
 
-又深思了一下整件事发生的全过程，发现是自己的心态产生一些微妙的改变。自己似乎一直以来是挺擅长驾驭文字的，有时候是梳理总结一些知识点并以一种易读有趣的方式呈现，有时候是通过文字表达和呈现自己的一些想法与思考。
+Reflecting further on the entire process of this incident, I realized that my mindset had undergone some subtle changes. I seem to have always been quite adept at wielding words, sometimes organizing and summarizing knowledge points and presenting them in an easily readable and interesting way, sometimes expressing and presenting some of my own ideas and thoughts through words.
 
-文字似乎成为了自己习惯的表达方式，也因为有了不少正向反馈，所以似乎有一些失了本心。写作本身源于对生活与一些事物、技术的探究与呈现，其次才是分享与为他人创造价值，自己似乎慢慢有些把分享这件事作为了一种目的。
+Words seem to have become my habitual mode of expression, and because of the considerable positive feedback, I seem to have lost sight of my original purpose somewhat. Writing itself stems from the exploration and presentation of life and some things and technologies, and secondarily from sharing and creating value for others. I seem to have gradually made sharing an end in itself.
 
-论语中有一句话：
+There's a saying in the Analects of Confucius:
 
-> “质胜文则野，文胜质则史。文质彬彬，然后君子。” —— 《论语·雍也篇》
+> "When substance prevails over form, we have rusticity; when form prevails over substance, we have pedantry. Only when substance and form are properly blended do we have the superior man." — Analects of Confucius, Chapter 6
 
-其实蛮适用于写作的。当质（写作中的干货）太多而文（文采/技巧）太少，则少了一些吸引人看下去的乐趣，也失去了写作的魅力；而文胜过质则容易虚浮，缺乏实质性的内容，则失去了写作的意义。只有文和质兼具，才可以说是一篇好的文章。
+This is quite applicable to writing. When substance (the meat of the content in writing) is too much and form (literary flair/technique) is too little, it lacks the pleasure of drawing people in to keep reading and loses the charm of writing; when form exceeds substance, it tends to be hollow, lacking substantive content, and loses the meaning of writing. Only when form and substance are well-balanced can we say it's a good article.
 
-我想我或多或少会担心自己向文胜过质的方向倾斜，好在有这次的事及时警醒，后面也会更加谨慎对待自己的文字。
+I think I may be more or less worried about tilting towards form over substance, but fortunately, this incident served as a timely warning. In the future, I will be more cautious with my words.
 
-## 对技术的谦卑
+## Humility Towards Technology
 
-这其实又关联到一个挺值得探讨的话题，即对技术的谦卑之心。
+This actually relates to a quite discussable topic, namely, the humility towards technology.
 
-我想处于这个行业的人或多或少都能意识到技术的无止境，编程入门或是以之为业其实只是一个开始，有太多值得敬佩的人，也有太多有趣的技术。
+I think people in this industry can more or less realize the boundlessness of technology. Getting started with programming or making it a profession is just the beginning; there are too many people worthy of admiration and too many interesting technologies.
 
-我其实是带着滤镜进入这个行业的，在还是一个英语专业本科生的时候对这个行业和职业充满了太多幻想与期待，因此如愿从事了开发工作后，就时常提醒自己一定要对技术有着谦卑之心。
+I actually entered this industry with a filter. When I was still an English major undergraduate, I had too many fantasies and expectations for this industry and profession. Therefore, after I got into development work as I wished, I often reminded myself to always have a humble heart towards technology.
 
-因为看到了太多前后端都很强的开源大佬称自己为“会写一点后端的前端”或是“做点大家喜欢的小玩意”，很喜欢这样的态度，技术本身是乐趣与实现自己想法的一些手段，而不是需要拿出来炫耀的工具，对技术需要抱有这样的一种理念，才能不断学习成长。
+Because I've seen too many full-stack open-source masters calling themselves "front-end developers who can write a bit of back-end" or "making little things that people like", I really like this attitude. Technology itself is a means of fun and realizing one's ideas, not a tool that needs to be shown off. Only by holding such a concept towards technology can one continuously learn and grow.
 
-## 有趣的事与物
+## Interesting Things
 
-### 软件
+### Software
 
-之前自己其实一直用 Apple Music 居多，但是有些操作逻辑实在是有点无语，歌单功能形同虚设，而且由于接口的一些封闭性，很难获取自己的数据。因此，即使我的 Telegram 频道其实原本就配置了 Spotify 点赞歌曲的自动同步，每次都是在 Apple Music 听到好听的歌后，去 Spotify 搜索，且由于免费版本的广告和试听切歌限制等很麻烦，所以其实很少同步自己的一些歌。
+I used to use Apple Music a lot, but some of its operational logic is really frustrating. The playlist function is practically useless, and due to some closed nature of the interface, it's difficult to access your own data. Therefore, even though my Telegram channel was originally configured to automatically sync liked songs from Spotify, each time I would hear a good song on Apple Music, I would go to Spotify to search for it. And due to the ads in the free version and the limitations on skipping songs during trials, it was very troublesome, so I rarely synced my songs.
 
 ![spotfiy_service_family](https://image.pseudoyu.com/images/spotfiy_service_family.png)
 
 ![spotfiy_service_family_mail](https://image.pseudoyu.com/images/spotfiy_service_family_mail.png)
 
-最近和倪、占的 iCloud Family 正在迁移逃离云上贵州，停掉了原本的服务，对比了一下港区价格发现还不如直接迁移到 Spotify 了，于是快乐地拥有了 Spotify Premium 了，体验起来舒服很多了，再加上之前看了『[串流先锋](https://movie.douban.com/subject/35500137/)』剧集，总有一种奇妙的参与感！
+Recently, Ni, Zhan, and I are migrating our iCloud Family to escape Cloud on Guizhou. After stopping the original service and comparing prices in the Hong Kong region, we found it's better to just migrate to Spotify. So I happily got Spotify Premium, which is much more comfortable to use. Plus, after watching the "[The Playlist](https://movie.douban.com/subject/35500137/)" series earlier, there's always a strange sense of participation!
 
-再加上占在香港办宽带送的 Netflix 家庭会员，影音娱乐这一块现在有了很无缝的体验！
+Along with the Netflix family membership that Zhan got from his Hong Kong broadband subscription, the audio-visual entertainment aspect now has a seamless experience!
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 『[Yu's Life](https://t.me/pseudoyulife)』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced to the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I still select some to list here, which feels more like a newsletter.
 
-#### 文章
+#### Articles
 
-- [黑客与顾客：开源软件能商业化吗？ | 夜天之书](https://www.tisonkun.org/2023/02/05/hackers-and-customers/index.html)
-- [ChatGPT 是網路上的一個模糊 JPEG 文件](https://foxhsiao.medium.com/chatgpt-%E6%98%AF%E7%B6%B2%E8%B7%AF%E4%B8%8A%E7%9A%84%E4%B8%80%E5%80%8B%E6%A8%A1%E7%B3%8A%E7%9A%84jpeg%E6%96%87%E4%BB%B6-aaee3723db1f)
-- [我看 ChatGPT: 为啥谷歌掉了千亿美金 | 酷 壳 - CoolShell](https://coolshell.cn/articles/22398.html)
+- [Hackers and Customers: Can Open Source Software Be Commercialized? | Tison's Book](https://www.tisonkun.org/2023/02/05/hackers-and-customers/index.html)
+- [ChatGPT is a blurry JPEG of the web](https://foxhsiao.medium.com/chatgpt-%E6%98%AF%E7%B6%B2%E8%B7%AF%E4%B8%8A%E7%9A%84%E4%B8%80%E5%80%8B%E6%A8%A1%E7%B3%8A%E7%9A%84jpeg%E6%96%87%E4%BB%B6-aaee3723db1f)
+- [My View on ChatGPT: Why Google Lost Hundreds of Billions of Dollars | CoolShell](https://coolshell.cn/articles/22398.html)
 - [The 4 Levels of Personal Knowledge Management - Forte Labs](https://fortelabs.com/blog/the-4-levels-of-personal-knowledge-management/)
 - [The latest gossip on BFT consensus - Tendermint](https://arxiv.org/pdf/1807.04938.pdf)
 - [HotStuff: BFT Consensus in the Lens of Blockchain](https://arxiv.org/pdf/1803.05069.pdf)
 
-#### 播客
+#### Podcasts
 
-记录了一些自己在听的播客：
+Here are some podcasts I've been listening to:
 
-- [10. 情人节前，让我们回顾恋爱日剧的黄金时代 - | Listen Notes](https://www.listennotes.com/podcasts/%E8%BE%B9%E8%A7%92%E8%81%8A/10-%E6%83%85%E4%BA%BA%E8%8A%82%E5%89%8D%E8%AE%A9%E6%88%91%E4%BB%AC%E5%9B%9E%E9%A1%BE%E6%81%8B%E7%88%B1%E6%97%A5%E5%89%A7%E7%9A%84%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3-mCUhvzVsEi7/)
+- [10. Before Valentine's Day, Let's Review the Golden Age of Romance Dramas - | Listen Notes](https://www.listennotes.com/podcasts/%E8%BE%B9%E8%A7%92%E8%81%8A/10-%E6%83%85%E4%BA%BA%E8%8A%82%E5%89%8D%E8%AE%A9%E6%88%91%E4%BB%AC%E5%9B%9E%E9%A1%BE%E6%81%8B%E7%88%B1%E6%97%A5%E5%89%A7%E7%9A%84%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3-mCUhvzVsEi7/)
 
-#### 视频
+#### Videos
 
-同样的，也有记录一下看过的有意思的视频：
+Similarly, I've also recorded some interesting videos I've watched:
 
-- [你对 AI 的理解可能从根儿上就错了【关于 AI 的一些元问题】](https://www.bilibili.com/video/BV14s4y1Y7nu)
-- [功绩社会生产抑郁症患者和厌世者？](https://www.bilibili.com/video/BV1WM411Y7Jk)
-- [公开呼吁取关？！一条视频席卷全国，衣戈猜想走红真的是偶然吗？](https://www.bilibili.com/video/BV1WD4y1N7jJ/)
-- [我办的音乐比赛炸出了这么多大佬? [图一乐作品 PICK]](https://www.bilibili.com/video/BV15Y411B7Jt)
-- [重启 20 年前的索尼监视器和游戏主机，需要几步？](https://www.bilibili.com/video/BV1i8411T7cn)
+- [Your Understanding of AI Might Be Fundamentally Wrong [Some Meta Questions About AI]](https://www.bilibili.com/video/BV14s4y1Y7nu)
+- [Does a Merit-Based Society Produce Depressed and World-Weary Individuals?](https://www.bilibili.com/video/BV1WM411Y7Jk)
+- [Publicly Calling for Unfollowing?! One Video Sweeps the Nation, Is Yige Caixiang's Rise to Fame Really Accidental?](https://www.bilibili.com/video/BV1WD4y1N7jJ/)
+- [Did My Music Competition Bring Out So Many Big Names? [Just for Fun Works PICK]](https://www.bilibili.com/video/BV15Y411B7Jt)
+- [How Many Steps Does It Take to Restart a 20-Year-Old Sony Monitor and Game Console?](https://www.bilibili.com/video/BV1i8411T7cn)
 
-### 输出
+### Output
 
-#### 博客
+#### Blog
 
-- [Cosmos 区块链架构与 Tendermint 共识机制 · Pseudoyu](https://www.pseudoyu.com/en/2023/02/10/cosmos_introduction_and_explaination/)
+- [Cosmos Blockchain Architecture and Tendermint Consensus Mechanism · Pseudoyu](https://www.pseudoyu.com/en/2023/02/10/cosmos_introduction_and_explaination/)
 
-## 个人生活剪影
+## Personal Life Snapshots
 
-### 生活
+### Life
 
-这周大部分时间在公司，所以格外期待周末的到来。
+I spent most of this week at the company, so I was especially looking forward to the weekend.
 
-周六的时候和博译学姐去国家大剧院听了一场贝多芬的音乐会，之前我总是会去三里屯那边的爱乐汇轻音乐团去听一些小型的主题演出，像是宫崎骏、爱乐之城与百年经典等专题，小小的空间气氛很好，不过当时就也想着感受一下交响乐的震撼，终于得偿所愿！
+On Saturday, I went to the National Centre for the Performing Arts with senior Bo Yi to listen to a Beethoven concert. Previously, I often went to the Philharmonic Light Music Orchestra in Sanlitun to listen to some small-scale themed performances, such as Hayao Miyazaki, La La Land, and Century Classics. The small space had a great atmosphere, but I also wanted to experience the grandeur of a symphony orchestra, and finally, my wish came true!
 
 ![beethoven_symphony_concert_ticket](https://image.pseudoyu.com/images/beethoven_symphony_concert_ticket.jpg)
 
 ![beethoven_symphony_concert_live](https://image.pseudoyu.com/images/beethoven_symphony_concert_live.jpg)
 
-很有意思的是看完音乐会出来后就买了莫扎特的胸针（谁让他更可爱），还发表了如下茶言茶语。
+Interestingly, after the concert, I bought a Mozart brooch (because he's cuter) and made the following playful comment.
 
 ![beethoven_symphony_concert_tweet](https://image.pseudoyu.com/images/beethoven_symphony_concert_tweet.png)
 
-> 今日份茶言茶语。“刚听完贝多芬专场音乐会转头就买了莫扎特的胸针，他会不会伤心啊？”
+> Today's whimsical thought: "Just after listening to a Beethoven concert, I turned around and bought a Mozart brooch. I wonder if he would be sad?"
 
-在发完推后还很巧合地认识了相同时空同在国家大剧院的推友 [Noy](https://twitter.com/Noy_eth)，发现也是做 web3 开发相关的，周末也爱去看一些剧和音乐会，约了面基，之后可以一起去看了！
+After posting this tweet, I coincidentally met a Twitter friend, [Noy](https://twitter.com/Noy_eth), who was also at the National Centre for the Performing Arts at the same time. I found out that he's also involved in web3 development and likes to watch plays and concerts on weekends. We arranged to meet, and we can go watch together in the future!
 
-还有一个小惊喜就是我们在大剧院落座路过一个外国帅哥时，他说了一句“I love his hair”，来自陌生人的友好就很开心。现在顶着一头蓝色长发真的越来越二次元了，回头率 300%。
+There was another small surprise when we were walking to our seats at the theater. We passed by a handsome foreign guy who said, "I love his hair." It's always nice to receive kindness from strangers. Now with my blue long hair, I'm becoming more and more anime-like, with a 300% turn-around rate.
 
-### 捏捏
+### Nie Nie
 
-#### 叫我起床的捏捏
+#### Nie Nie Waking Me Up
 
-因为我不起床开罐头而直接爬上被子给我一拳的捏捏。
+Nie Nie climbing onto the blanket and giving me a punch because I wouldn't get up to open her can of food.
 
 ![my_very_cute_nie_nie_on_bed_01](https://image.pseudoyu.com/images/my_very_cute_nie_nie_on_bed_01.jpg)
 
 ![my_very_cute_nie_nie_on_bed_02](https://image.pseudoyu.com/images/my_very_cute_nie_nie_on_bed_02.jpg)
 
-#### 撒娇的捏捏
+#### Coquettish Nie Nie
 
-最近捏捏又特别会撒娇，经常在桌子上歪头杀。
+Recently, Nie Nie has been particularly good at being coquettish, often tilting her head on the desk.
 
 ![my_very_cute_nie_nie_on_mac_01](https://image.pseudoyu.com/images/my_very_cute_nie_nie_on_mac_01.jpg)
 
 ![my_very_cute_nie_nie_on_mac_02](https://image.pseudoyu.com/images/my_very_cute_nie_nie_on_mac_02.jpg)
 
-跟朋友分享后，捏捏以一猫之力拉高了别人家的小猫吃猫粮的标准，哈哈。
+After sharing with friends, Nie Nie single-handedly raised the standard for other people's kittens eating cat food, haha.
 
 ![my_very_cute_nie_nie_on_mac_tg_chat](https://image.pseudoyu.com/images/my_very_cute_nie_nie_on_mac_tg_chat.png)

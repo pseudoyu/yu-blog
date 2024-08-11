@@ -1,5 +1,5 @@
 ---
-title: "周报 #28 - Mastodon、故乡与捉迷藏的猫"
+title: "Weekly Review #28 - Mastodon, Hometown, and Hide-and-Seek Cat"
 date: 2023-01-31T11:43:38+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "home", "fediverse", "mastodon"]
@@ -8,99 +8,101 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-01-23` 到 `2023-01-31` 这周生活的记录与思考。
+This is a record and reflection of my life from `2023-01-23` to `2023-01-31`.
 
-这周的大部分时间是在老家度过的，弥补了一些遗憾，平淡却又珍贵。回杭后因与友人相见而暂留了一天，又从杭州匆匆回到北京。到北京的家后稍放下行李就迫不及待地去同事家接回捏捏，等都差不多收拾好已经神情恍惚，简单洗漱了一下打算小睡一会儿写个周报，再一次睁眼就已经是早上 7 点了，再加上白天要通勤去公司，所以也就搁置到现在才写。
+I spent most of this week in my hometown, making up for some regrets, simple yet precious. After returning to Hangzhou, I stayed an extra day to meet friends, then hurried back to Beijing from Hangzhou. Upon arriving home in Beijing, I immediately went to pick up Nini from my colleague's house after barely putting down my luggage. By the time everything was more or less settled, I was in a daze. After a quick wash, I planned to take a short nap and write a weekly review, but when I opened my eyes again, it was already 7 am. Plus, I had to commute to the office during the day, so I postponed writing until now.
 
-回来第一天就被捏捏气到，给上班第一天增加了些许惊吓，但想到又回到了这样有趣的日常便也是心安多过责备（~~我哪敢啊~~）；然后火速下单了一个移动摄像头，难怪朋友说我是以养女儿的方式在养捏捏了，各种不放心；还有很多其他有意思的事。
+On my first day back, Nini immediately irritated me, adding some fright to my first day at work, but thinking about returning to this interesting daily life made me feel more at ease than reproachful (~~as if I dare~~). Then I quickly ordered a mobile camera, no wonder friends say I'm raising Nini like a daughter, always worrying about various things. There were many other interesting events as well.
 
-## 有趣的事与物
+## Interesting Things
 
 ### Mastodon
 
-这周没写什么博客，年前想折腾的几个事也没做完，但是倒是研究了一下 fediverse，觉得很有意思。
+I didn't write many blog posts this week, and I didn't finish several things I wanted to tinker with before the New Year, but I did research fediverse, which I found very interesting.
 
 ![elk_zone_mastodon_yu](https://image.pseudoyu.com/images/elk_zone_mastodon_yu.png)
 
-本想着把一些英文内容放到 Mastodon 上进行发布，后来想着还是把自己的输出平台收窄了，还是会在 Twitter 发布，通过 IFTTT 自动同步过去，依然聚合在 Telegram 频道和 Crossbell 链上，有兴趣的朋友可以一起来玩，我在 [mas.to](https://mas.to/) 域的 [@pseudoyu@mas.to](https://mas.to/@pseudoyu)。
+I originally thought about posting some English content on Mastodon, but later decided to narrow my output platforms. I'll still post on Twitter and automatically sync to Mastodon via IFTTT, still aggregating on the Telegram channel and Crossbell chain. If you're interested, you can join me at [@pseudoyu@mas.to](https://mas.to/@pseudoyu) on the [mas.to](https://mas.to/) domain.
 
-有几篇关于这些很有意思的文章，读了后理解了挺多的：
+There are several interesting articles about these topics that I read and learned a lot from:
 
-- [谈谈 Mastodon、Fediverse 和 ActivityPub - zu1k](https://zu1k.com/posts/tutorials/p2p/fediverse/)
-- [什么是 Mastodon（长毛象），应该怎么玩](https://limboy.me/posts/mastodon/)
-- [写给 Twitter 用户的 Fediverse 指南 | wzyboy’s blog](https://wzyboy.im/post/1513.html)
-- [去中心化社交网络 Mastodon 研究报告：平台与协议之争背后，它会是最终赢家吗？ – Web3Caff Research](https://research.web3caff.com/zh/archives/6024)
-- [設定 IFTTT 同步 Twitter 到 Mastodon. 事前準備 | by Pei-lun | Medium](https://medium.com/@PeiLun/%E8%A8%AD%E5%AE%9A-ifttt-%E5%90%8C%E6%AD%A5-twitter-%E5%88%B0-mastodon-1010ee3798bb)
+- [Discussing Mastodon, Fediverse, and ActivityPub - zu1k](https://zu1k.com/posts/tutorials/p2p/fediverse/)
+- [What is Mastodon and How to Play It](https://limboy.me/posts/mastodon/)
+- [A Fediverse Guide for Twitter Users | wzyboy's blog](https://wzyboy.im/post/1513.html)
+- [Decentralized Social Network Mastodon Research Report: Behind the Platform and Protocol Debate, Will It Be the Ultimate Winner? – Web3Caff Research](https://research.web3caff.com/zh/archives/6024)
+- [Setting up IFTTT to Sync Twitter to Mastodon. Preparation | by Pei-lun | Medium](https://medium.com/@PeiLun/%E8%A8%AD%E5%AE%9A-ifttt-%E5%90%8C%E6%AD%A5-twitter-%E5%88%B0-mastodon-1010ee3798bb)
 
 ### Crossbell
 
-另外，之前在这篇『[周报 #25 - 基于 Crossbell 的个人信息输出与同步系统（重构）](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/)』中提到过把 Twitter 和 Telegram 历史消息同步到链的方式问题，后续也都从他们这里得到了对应方案：
+Additionally, in the previous article ["Weekly Review #25 - Personal Information Output and Synchronization System Based on Crossbell (Refactoring)"](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/), I mentioned issues with syncing Twitter and Telegram historical messages to the chain. Subsequently, I received corresponding solutions from them:
 
 - [How to import tweets to Crossbell - Lemon 🍋](https://lc499.xlog.app/twitter-to-crossbell)
 - [How to import telegram messages to Crossbell - Lemon 🍋](https://lc499.xlog.app/telegram-to-crossbell)
 
-用的时候顺便还提了几个 bug，后面再深度体验一点会整理一下再写一篇详细的文章，以及提一些 issue，挺有意思的。
+While using it, I also reported a few bugs. After experiencing it more deeply, I'll organize and write a detailed article, as well as raise some issues. It's quite interesting.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **我的职业是小说家**，其实村上的随笔或是文集算是很好读的那种，言辞带些犀利却也同样带着些娓娓道来的真诚与别样韵味，像是对话，却也时常被埋在其中似乎带着些雕琢的幽默感逗得不禁莞尔。总共大概花了三个月才真正看完，作为手头上为数不多的纸质书，更多的是想起时随便翻翻。第一次去猫舍的时候虽然心动，却也本没有太下定决心那么快承担这样的责任，而路上随手翻起的一页里写道“当时我们过着非常节俭的斯巴达式的生活。家里既没有电视也没有收音机，甚至连一只闹钟都没有。也几乎没有取暖设备，寒夜里只好紧紧搂着家里养的几只猫咪睡觉。猫咪们也使劲往我们身上贴过来。“短短几句，却构成了我当下把猫带回家的最大动力。也谈到了许多，关于爱好、写作目的、创作思路与平衡，都是近两个月慢慢沉静下来才真正能够稍理解些的。
-- **世界尽头与冷酷仙境**，其实好久没有从小说中得到这样的期待感了，也许是因为叙事方式，或是因为每次都是路途中读几个小篇章而有些断续，总是想知道后面会发生些什么，却也不想太过囫囵而错过了这样优美的笔触。另外这种“另一个空间”的设定让我想到了一个古老但同样很有意思的游戏《废都物语》。
+- **What I Talk About When I Talk About Running**, Murakami's essays or collections are actually quite easy to read. His words carry some sharpness but also convey sincerity and a unique flavor, like a conversation, yet often buried within is a seemingly deliberate humor that makes one smile involuntarily. It took about three months to truly finish reading, as one of the few physical books at hand, it was more often picked up and flipped through when remembered. The first time I went to the cat shelter, although I was moved, I hadn't really made up my mind to take on such responsibility so quickly. But on the way, I casually flipped to a page that read, "At that time, we were living a very frugal, Spartan lifestyle. We had neither a TV nor a radio at home, not even an alarm clock. There was hardly any heating equipment, so on cold nights, we had to sleep tightly hugging the few cats we kept at home. The cats also tried hard to cuddle up to us." These few short sentences became the biggest motivation for me to bring a cat home at that moment. It also talks about many things, about hobbies, the purpose of writing, creative ideas and balance, all of which I've only begun to understand a little after slowly settling down over the past two months.
 
-#### 剧集
+- **Hard-Boiled Wonderland and the End of the World**, it's been a long time since I've felt such anticipation from a novel. Perhaps it's because of the narrative style, or because I read a few short chapters each time during journeys, making it somewhat discontinuous. I always want to know what will happen next, but I don't want to rush through and miss such beautiful writing. Also, this setting of "another space" reminds me of an old but equally interesting game called "Phantom City".
 
-- **静雪**，前几集是真的很喜欢，spitz 的歌、各个角色的性格、很舒适的日常。也许是因为太过于代入男二凑斗的情感，一种岩井俊二所描述的“我爱你，与你无关”的温柔和坚定，后来对于故事情节的发展有止不住的失望，直至最后也没能太过了解到青羽和想感情的基点，确实美好，却有些直白与单薄。
-- **三体 剧集版**，倒是成为了自己每天会持续追的一部，剧情节奏有些缓慢但是目前看下来还是有些期待的。
+#### TV Series
 
-#### 动漫
+- **Silent Snow**, I really liked the first few episodes, with Spitz's songs, the personalities of each character, and the comfortable daily life. Perhaps because I empathized too much with the emotions of the second male lead, Sodo, a kind of gentleness and determination described by Iwai Shunji as "I love you, and it has nothing to do with you". Later, I became increasingly disappointed with the development of the plot, and even at the end, I couldn't really understand the basis of Aoba and Omoi's feelings. It was indeed beautiful, but somewhat straightforward and thin.
 
-- **文豪野犬**，过年的时候缓缓在补，对于这种以作家与文学作品为任务和技能的设定感觉还挺有意思的，侦探社蛮多角色的性格人设都很喜欢。不过感觉不是会想着会马上追下一季的那种，可能之后想起来会继续看吧。
+- **The Three-Body Problem TV Series**, it has become a series that I continue to watch every day. The plot pace is a bit slow, but from what I've seen so far, I still have some expectations.
 
-## 个人生活剪影
+#### Anime
 
-### 生活
+- **Bungo Stray Dogs**, I've been slowly catching up during the New Year. I find the setting of using writers and literary works as tasks and skills quite interesting, and I like the personality designs of many characters in the Detective Agency. However, I don't feel like I'll immediately want to watch the next season. Maybe I'll continue watching when I think of it later.
 
-承接上周周报中对家的描述，今年过年在老家呆了接近 10 天，算是这几年少有的时间了。老家的人越来越少，整个氛围也显得冷清而少了些烟火气，但是却可以放实打实的烟花，也算是一种别样的记忆了。
+## Personal Life Snapshots
 
-因为我自小也就离开了，儿时玩伴连记忆都早已模糊，更别说什么发小了。所以这十天里，去看了外婆，陪伴了爷爷奶奶和外公等家人，倒也是难得的闲散时光。
+### Life
 
-温情有余，只是日常零下的温度让我不由得想念起了有暖气和捏捏的时光（~~逐渐丧失南方人的骨气屈服于暖气，太香了~~），不过也还好带的是老 Intel MBP，跑个 IDE 加几个网页就热起来了。
+Following up on the description of home in last week's review, I spent nearly 10 days at my hometown this New Year, which is rare in recent years. There are fewer and fewer people in the hometown, and the whole atmosphere seems cold and less lively, but we can set off real fireworks, which is also a kind of special memory.
 
-今年带了相机，虽然因为手冷而没拿出来拍几次，却拍了很多全家福。老人都不太爱拍照，好在现在也有手机这些能够随时记录些日常的工具，不至于有太多遗憾，但总还是怀念一大家人去照相馆拍的时候，虽然已经是多年前的记忆了。这次充当了那个摄影师，给全家人和各自小家都拍了很多，索尼的自动对焦和连拍还是很值得夸一下的。
+Because I left when I was young, even the memories of childhood playmates have long been blurred, let alone any childhood friends. So in these ten days, I visited my grandmother, accompanied my grandparents and other family members, which was indeed a rare leisure time.
 
-到了我家的时候，我妹抱了只狗狗过来作“占位符”，说我以后把自己 p 上就行，她多少也是有点只坑自己哥哥的喜剧人成分在的。最后确实拍了和狗狗的合影，四口整整齐齐，没有我哈哈，大概这就是那种“听起来很离谱，但在我家，似乎也很正常”的有意思的事了。
+There was plenty of warmth, but the daily sub-zero temperatures made me can't help but miss the times with heating and Nini (~~gradually losing the backbone of a southerner and surrendering to central heating, it's too comfortable~~). But it's okay, I brought the old Intel MBP, which heats up just by running an IDE plus a few web pages.
 
-当然，大家庭的全家福还是用了脚架定时连拍的，打算最近修一下洗一些片子出来。
+I brought a camera this year, although I didn't take it out to shoot much because of cold hands, I did take many family photos. The elderly don't really like taking photos, but fortunately, we now have tools like smartphones that can record daily life at any time, so there's not too much regret. But I still miss the times when the whole family went to the photo studio, although it's already a memory from many years ago. This time I acted as the photographer, taking many photos for the whole family and each small family. Sony's autofocus and continuous shooting are really praiseworthy.
 
-### 捏捏
+When it came to my family's turn, my sister brought a dog as a "placeholder", saying I could photoshop myself in later. She has a bit of a comedian in her who only teases her brother. In the end, we did take a photo with the dog, four of us neatly arranged, without me, haha. I guess this is one of those "sounds ridiculous, but in my family, it seems quite normal" interesting things.
+
+Of course, for the big family photo, we used a tripod and timed continuous shooting. I plan to edit and print some photos recently.
+
+### Nini
 
 ![nie_nie_on_the_bed](https://image.pseudoyu.com/images/nie_nie_on_the_bed.jpg)
 
-这次离开了捏捏接近半个月，虽然同事很细心且经常给我发视频，但终究还是不太放心，回到北京后第一件事就是去了同事家，回程一路也是在各种抚慰她，好在没把我忘了，还算有点良心；回家后也没太多陌生感，马上就去自己最喜欢的角落舒适地躺着了，真好。
+This time I left Nini for nearly half a month. Although my colleague was very attentive and often sent me videos, I was still not completely at ease. The first thing I did after returning to Beijing was to go to my colleague's house. On the way back, I was constantly comforting her, fortunately, she hadn't forgotten me, still had some conscience. After returning home, there wasn't much sense of unfamiliarity, she immediately went to lie comfortably in her favorite corner, which is good.
 
-第二天因为有些事要和项目组的同事讨论，再加上很久没去了，于是还是收拾了下去公司，感觉习惯了远程办公后，再回公司上班有些不适应，感觉就是到公司 10 点半了，和久违的同事寒暄了几句，刚打开电脑没一会儿就被叫去吃中饭了，吃完就开始午休了，感觉时间被刻意划分得“劳逸结合”反而更容易打乱节奏，我可能还是更喜欢那种不吃不喝搞完，然后余下时间安排自己的事这样的模式。
+The next day, because I had some things to discuss with the project team, plus I hadn't been there for a long time, I tidied up and went to the company. I felt that after getting used to remote work, going back to the office to work was a bit uncomfortable. I felt like I arrived at the company at 10:30, exchanged greetings with colleagues I hadn't seen for a long time, just opened my computer for a while and was called to lunch, after eating it was time for a nap. I feel that when time is deliberately divided into "work and rest", it's easier to disrupt the rhythm. I might still prefer the mode of finishing work without eating or drinking, and then arranging my own things with the remaining time.
 
-另外还有一件又好气又好玩的事。
+There's also another thing that's both annoying and funny.
 
 ![dispear_nie_nie](https://image.pseudoyu.com/images/dispear_nie_nie.png)
 
-> 时隔三个月第一次去公司，午休打开摄像头，经历了十分钟看不到猫、开麦克风喊了五分钟没反应、仔细回想自己的门窗有没关好、无比烦躁焦急、火速请假、一路狂奔冲回家，最后到家了发现就躲在盲区椅子后面懒得探头。大概自己下一份想换一个 fully remote 工作排名第一的理由就是这只不省心的捏捏了吧🙃。
+> Going to the office for the first time in three months, I opened the camera during the lunch break and experienced ten minutes of not seeing the cat, turning on the microphone and calling for five minutes with no response, carefully recalling whether I had closed my doors and windows properly, extremely irritated and anxious, quickly asking for leave, rushing home all the way, and finally arriving home to find her hiding in the blind spot behind the chair, too lazy to poke her head out. I guess the number one reason I want to switch to a fully remote job next time is probably this troublesome Nini 🙃.
 
-以及还有后续。
+And there's a follow-up.
 
 ![dispear_nie_nie_2](https://image.pseudoyu.com/images/dispear_nie_nie_2.png)
 
-> 接上条后续。回来后本来想好好教育她，迅速跳上来趴在腿上睡着了，醒来后一脸迷迷糊糊，可无辜，不太忍心，于是冷战了一个小时作罢。另外，下单了 [@mr_easonyang](https://twitter.com/mr_easonyang) 推荐的 ebo 移动摄像头，感谢！后面外出也能放心点了！
+> Following up on the previous post. After coming back, I originally wanted to educate her properly, but she quickly jumped up and fell asleep on my legs. When she woke up, she had a confused look, so innocent that I couldn't bear to scold her. So I gave her the cold shoulder for an hour and let it go. Also, I ordered the ebo mobile camera recommended by [@mr_easonyang](https://twitter.com/mr_easonyang), thanks! I'll be more at ease when going out in the future!
 
-~~以后摸鱼的时候可以操纵监控机器人来逗猫了。~~
+~~In the future, I can control the surveillance robot to tease the cat when slacking off.~~
 
-### 其他
+### Others
 
-两位挚友有了一些现阶段比较难调和的矛盾，作为持续了很多年的完全是家人一样的三个人的小团体，总还是不免有些自责自己在其中所能做的是不是太少。
+Two close friends have some conflicts that are difficult to reconcile at this stage. As a small group of three people who have been like family for many years, I can't help but feel a bit guilty about whether I've done too little in this situation.
 
-希望一切安好吧。
+I hope everything will be alright.

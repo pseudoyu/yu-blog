@@ -1,5 +1,5 @@
 ---
-title: "Hyperledger Fabric 系统架构详解"
+title: "Detailed Explanation of Hyperledger Fabric System Architecture"
 date: 2021-03-20T12:12:17+08:00
 draft: false
 tags: ["blockchain", "hyperledger fabric", "structure"]
@@ -8,37 +8,37 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-因为毕业 Case Study 的项目主要是基于`Ethereum`公链，也没有面向企业的应用场景，所以之前对`Hyperledger Fabric`的了解大多只是停留在它的权限管理机制、通道、灵活的智能合约编写等几个特色的概念，对它的架构、各个节点的角色、运行机制等都是一知半解。最近在上 HKU 的`<FITE3011 Distributed Ledger and Blockchain>`课程，教授对`Hyperledger Fabric`的工作原理、网络搭建及链码相关的知识做了很详细的讲解，受益匪浅，通过本文来梳理一下，如有错漏，欢迎交流指正。
+As my graduation case study project was primarily based on the Ethereum public chain and lacked enterprise application scenarios, my previous understanding of Hyperledger Fabric was mostly limited to concepts such as its permission management mechanism, channels, and flexible smart contract writing. I had only a vague understanding of its architecture, the roles of various nodes, and operational mechanisms. Recently, while taking the course "FITE3011 Distributed Ledger and Blockchain" at HKU, the professor provided a detailed explanation of Hyperledger Fabric's working principles, network setup, and chaincode-related knowledge. I found it immensely beneficial. Through this article, I aim to organize my thoughts on the subject. If there are any errors or omissions, I welcome discussions and corrections.
 
-## Hyperledger 概述
+## Overview of Hyperledger
 
-要学习`Hyperledger Fabric`，先来看看它的母项目`Hyperledger`是什么。
+To learn about Hyperledger Fabric, let's first look at what its parent project, Hyperledger, is.
 
-企业级应用有较复杂的业务逻辑和参与者角色划分，对于业务执行效率、安全性要求很高，并且针对常见的如支付、数据/信息交易等场景，隐私保护也是重中之重，因此，常见的比特币、以太坊等公链并不符合大部分企业应用需求。但是区块链的分布式、不可篡改的历史账本等特性在溯源、跨境电商等场景中又能够避免因各个国家/地区法律法规、货币等造成的复杂操作流程，大大提高效率。因此，针对企业的联盟链也在不断发展。
+Enterprise-level applications have complex business logic and participant role divisions, with high requirements for business execution efficiency and security. For common scenarios such as payment and data/information transactions, privacy protection is also of paramount importance. Therefore, common public chains like Bitcoin and Ethereum do not meet the needs of most enterprise applications. However, the distributed and immutable historical ledger characteristics of blockchain can avoid complex operational processes caused by legal regulations and currencies of different countries/regions in scenarios such as traceability and cross-border e-commerce, greatly improving efficiency. As a result, consortium chains aimed at enterprises are continuously developing.
 
-联盟链严格意义上并不是真正的“去中心化”，它通过引入了权限管理机制（结合企业在现实业务中的角色）来弱化对节点作恶的预防机制，从而能提高效率、应对复杂的业务逻辑。
+Consortium chains are not truly "decentralized" in the strict sense. They introduce permission management mechanisms (combining enterprise roles in real business) to weaken the prevention mechanism against node malicious behavior, thereby improving efficiency and addressing complex business logic.
 
-其中，`Hyperledger`是由 Linux 基金会维护的一组专注于跨行业分布式技术的开源项目，旨在创建企业级、开源、分布式的分类框架和代码库来支持业务用例，提供中立、开放和社区驱动的基础设施；建立技术社区并推广，开发区块链和共享账本概念验证、使用案例、试验和部署；建立行业标准，鼓励更多企业参与到分布式账本技术的建设和应用中来，形成一个开放的生态体系；教育公众关于区块链科技的市场机会。
+Among them, Hyperledger is a set of open-source projects maintained by the Linux Foundation that focuses on cross-industry distributed technologies. It aims to create enterprise-grade, open-source, distributed classification frameworks and code libraries to support business use cases; provide neutral, open, and community-driven infrastructure; build technical communities and promote them; develop blockchain and shared ledger proofs of concept, use cases, trials, and deployments; establish industry standards; encourage more enterprises to participate in the construction and application of distributed ledger technology; and form an open ecosystem; educate the public about market opportunities in blockchain technology.
 
-### 设计理念
+### Design Philosophy
 
 ![hyperledger_design_philosophy](https://image.pseudoyu.com/images/hyperledger_design_philosophy.png)
 
-`Hyperledger`有如下几个核心设计理念：
+Hyperledger has several core design philosophies:
 
-1. 它针对企业具体的业务场景提升效率，并且对溯源等场景有着独特优势，每个企业都可以针对自己的场景维护独立的`Hyperledger`项目，因此，它不需要像公链一样通过数字货币来激励用户参与区块链系统。
-2. 企业的应用场景较为复杂，往往 Hyperledger 只是在其中参与了某个或某些环节，因此与其他现有系统的交互必不可少，因此 Hyperledger 在设计上注重配备完整的 API 以供其他系统调用与交互。
-3. `Hyperledger`的框架结构是模块化、可拓展，企业可以根据具体的业务需求选择不同的模块，避免复杂的业务逻辑和臃肿的系统。
-4. 企业应用的安全性是重中之重，尤其是许多应用场景牵扯到高价值交易或敏感数据，因此提供了很多机制来保障安全性（如`Fabric`的通道机制等）
-5. 除了与现有的系统交互外，企业未来的区块链应用中还可能会和很多不同的区块链网络进行交互，因此大部分智能合约/应用应该具备跨区块链网络的可移植性，以形成更复杂和强大的网络。
+1. It improves efficiency for specific enterprise business scenarios and has unique advantages in traceability and other scenarios. Each enterprise can maintain an independent Hyperledger project for its own scenarios. Therefore, it does not need to use digital currency to incentivize users to participate in the blockchain system like public chains do.
+2. Enterprise application scenarios are relatively complex, and Hyperledger often participates in only one or some aspects. Therefore, interaction with other existing systems is essential. Thus, Hyperledger focuses on providing complete APIs for other systems to call and interact with in its design.
+3. Hyperledger's framework structure is modular and extensible. Enterprises can choose different modules according to specific business needs, avoiding complex business logic and bloated systems.
+4. Security is paramount for enterprise applications, especially in many application scenarios involving high-value transactions or sensitive data. Therefore, many mechanisms are provided to ensure security (such as Fabric's channel mechanism).
+5. In addition to interacting with existing systems, enterprise blockchain applications may interact with many different blockchain networks in the future. Therefore, most smart contracts/applications should have portability across blockchain networks to form more complex and powerful networks.
 
 ![hyperledger_family](https://image.pseudoyu.com/images/hyperledger_family.png)
 
-#### 框架
+#### Frameworks
 
-`Hyperledger`下有如下几个项目，其中`Fabric`目前应用最为广泛，本文也将主要介绍`Fabric`区块链网络
+Hyperledger has the following projects, among which Fabric is currently the most widely applied. This article will mainly introduce the Fabric blockchain network:
 - Burrow
 - Fabric
 - Grid
@@ -46,144 +46,144 @@ authors:
 - Iroha
 - Sawtooth
 
-#### 工具
+#### Tools
 
-1. `Hyperledger Cello`。主要用于更方便地搭建和管理区块链服务，降低项目框架部署、维护的复杂度；可以用来搭建区块链 BaaS 平台；可以通过 Dashboard 来创建和管理区块链，技术人员可以更方便地进行开发和部署；可以将 SaaS 部署模型引入区块链系统，帮助企业进一步开发框架。
-2. `Hyperledger Explorer`。是一个可视化区块链的操作工具，可以用于创建对用户友好的 Web 应用程序；是首个`Hyperledger`的区块链浏览器，用户可以查看/调用/部署/查询交易、网络、智能合约、存储等信息。
+1. Hyperledger Cello. Mainly used for more convenient setup and management of blockchain services, reducing the complexity of project framework deployment and maintenance; can be used to build blockchain BaaS platforms; can create and manage blockchains through a dashboard, allowing technical personnel to develop and deploy more conveniently; can introduce SaaS deployment models into blockchain systems, helping enterprises further develop frameworks.
+2. Hyperledger Explorer. A visualization tool for blockchain operations, which can be used to create user-friendly web applications; it is the first blockchain explorer for Hyperledger, allowing users to view/invoke/deploy/query transactions, networks, smart contracts, storage, and other information.
 
 ## Hyperledger Fabric
 
-我们着重来讲讲其中应用最广泛的`Fabric`项目，它是由 Linux 基金会维护的一个模块化、可拓展的区块链联盟链项目，不依赖任何加密货币，它对有着共同目标（业务需求）但彼此不完全信息的实体之间的业务提供了保护，例如跨境电商、资金交易、溯源等。
+Let's focus on the Fabric project, which is the most widely applied. It is a modular, extensible blockchain consortium chain project maintained by the Linux Foundation, not dependent on any cryptocurrency. It provides protection for businesses between entities that have common goals (business needs) but do not fully trust each other, such as cross-border e-commerce, fund transactions, traceability, etc.
 
-### 架构
+### Architecture
 
 ![ethereum_architecture_simple](https://image.pseudoyu.com/images/ethereum_architecture_simple.png)
 
-在大部分公链中，架构为`Order - Execute - Validate - Update State`。如比特币区块链中，如果有一个新交易，会先采用 PoW 机制对 Block 进行排序，然后比特币网络中的每个节点逐个进行验证，最后更新状态。因为需要依序进行验证，这种方式决定了其执行效率相对较低。
+In most public chains, the architecture is "Order - Execute - Validate - Update State". For example, in the Bitcoin blockchain, when there is a new transaction, it first uses the PoW mechanism to order the Block, then each node in the Bitcoin network verifies it individually, and finally updates the state. Because verification needs to be done sequentially, this method determines that its execution efficiency is relatively low.
 
-而`Fabric`采用了`Execute - Order - Validate - Update State`架构。
+Fabric adopts the "Execute - Order - Validate - Update State" architecture.
 
 ![hyperledger_fabric_architecture](https://image.pseudoyu.com/images/hyperledger_fabric_architecture.png)
 
-收到一笔新的交易后，首先提交至背书节点本地模拟交易执行（并背书），再将已背书交易排序并广播，各个节点对交易进行验证后更新状态。
+After receiving a new transaction, it is first submitted to the endorsement node for local simulation of transaction execution (and endorsement), then the endorsed transactions are ordered and broadcast, and each node validates the transaction before updating the state.
 
 ![hyperledger_fabric_architecture_complete](https://image.pseudoyu.com/images/hyperledger_fabric_architecture_complete.png)
 
-正如上述联盟链特性中所述，`Fabric`网络的加入需要得到许可（身份验证），`Fabric`网路中的每个节点都有自己的身份。
+As mentioned in the consortium chain characteristics above, joining the Fabric network requires permission (identity verification), and each node in the Fabric network has its own identity.
 
-总的来说，`Fabric`通过模块化、可插拔的架构来支持企业的复杂业务场景，通过身份验证（绑定现实身份）来弱化节点作恶，使用通道机制大大提升了系统的安全性和隐私保护。
+Overall, Fabric supports complex enterprise business scenarios through modular, pluggable architecture, weakens node malicious behavior through identity verification (binding real identities), and greatly enhances system security and privacy protection using the channel mechanism.
 
-#### MSP 成员服务提供商
+#### MSP (Membership Service Provider)
 
-那么，参与`Fabric`网络的身份是怎样管理的呢？
+So, how are the identities of participants in the Fabric network managed?
 
-`Fabric`有一个 MSP(Membership Service Provider)成员管理提供商，它主要用来管理 CA 证书来验证哪些成员是可信任的。`Fabric CA`模块是独立的，可以管理证书服务，也可以允许第三方 CA 的接入，大大拓展的系统的应用范围。
+Fabric has an MSP (Membership Service Provider) that mainly uses CA certificates to verify which members are trustworthy. The Fabric CA module is independent and can manage certificate services, and also allows third-party CA access, greatly expanding the application scope of the system.
 
 ![hyperledger_fabric_ca_structure](https://image.pseudoyu.com/images/hyperledger_fabric_ca_structure.png)
 
-如上图所示，`Fabric CA`提供了客户端和 SDK 两种方式来和 CA 进行交互，每个`Fabric CA`都有一个根 CA 或中间 CA，为了进一步提高 CA 的安全性，可以采用集群来搭建中间 CA。
+As shown in the above figure, Fabric CA provides both client and SDK methods to interact with CA. Each Fabric CA has a root CA or intermediate CA. To further enhance CA security, clusters can be used to build intermediate CAs.
 
 ![hyperledger_fabric_ca_hierarchy](https://image.pseudoyu.com/images/hyperledger_fabric_ca_hierarchy.png)
 
-更具体一点看 CA 的层级体系，一般是采用根 CA、业务 CA 和用户 CA 三层树结构，所有的下层 CA 会继承上层 CA 的信任体系。根 CA 用来签发业务 CA，业务 CA 用来签发具体的用户 CA（身份认证 CA、交易签名、安全通讯 CA 等）
+Looking more specifically at the CA hierarchy, it generally adopts a three-layer tree structure of root CA, business CA, and user CA. All lower-level CAs inherit the trust system of the upper-level CA. The root CA is used to issue business CAs, while business CAs are used to issue specific user CAs (identity authentication CA, transaction signature, secure communication CA, etc.)
 
-#### 通道
+#### Channels
 
-上文提到`Fabric`用 Channel 通道机制来保障交易的安全和隐私性，本质上每一个通道就是一个独立的账本，也是一个独立的区块链，有着不同的世界状态，网络中的一个节点可以同时加入多个通道。这种机制可以很好地划分不同的业务场景，也不用担心交易信息泄漏问题。
+As mentioned above, Fabric uses the Channel mechanism to ensure transaction security and privacy. Essentially, each channel is an independent ledger, also an independent blockchain, with different world states. A node in the network can join multiple channels simultaneously. This mechanism can effectively divide different business scenarios without worrying about transaction information leakage.
 
-#### 链码
+#### Chaincode
 
-`Fabric`也有类似以太坊的智能合约，称为 Chaincode 链码，智能合约使外部的应用程序可以和`Fabric`网络中的账本进行交互。不同于`Ethereum`，`Fabric`使用 Docker 而不是特定的虚拟机来存放链码，提供了一个安全、轻便的语言执行环境。
+Fabric also has smart contracts similar to Ethereum, called Chaincode. Smart contracts allow external applications to interact with the ledger in the Fabric network. Unlike Ethereum, Fabric uses Docker instead of a specific virtual machine to store chaincode, providing a secure, lightweight language execution environment.
 
-链码主要分成系统链码和用户链码两种，系统链码嵌入在系统内，提供对系统进行配置、管理的支持；而用户链码则是运行在单独的 Docker 容器中，提供对上层应用的支持，用户通过链码相关的 API 编写用户链码，即可对账本中状态进行更新操作。
+Chaincode is mainly divided into system chaincode and user chaincode. System chaincode is embedded in the system, providing support for system configuration and management; user chaincode runs in separate Docker containers, providing support for upper-layer applications. Users can write user chaincode through chaincode-related APIs to update the state in the ledger.
 
-链码经过安装和实例化操作后即可被调用，在安装的时候需要指定具体安装到哪个 Peer 节点（有的节点可以没有链码），实例化时还需要指定通道及背书策略。
+Chaincode can be invoked after installation and instantiation. During installation, it needs to be specified which Peer node to install on (some nodes may not have chaincode), and during instantiation, the channel and endorsement policy need to be specified.
 
-链码之间也可以相互调用，从而创建更灵活的应用逻辑。
+Chaincodes can also call each other, thus creating more flexible application logic.
 
-#### 共识机制
+#### Consensus Mechanism
 
-`Fabric`中广义的共识机制包括背书、排序和验证三个环节，狭义的共识是指排序，
+The broad consensus mechanism in Fabric includes endorsement, ordering, and validation. In the narrow sense, consensus refers to ordering.
 
-`Fabric`区块链网络中，不同参与者之间交易必须按照发生的顺序写到分布式账本中，依赖共识机制，主要有三种：
-- SOLO（只限于开发）
-- Kafka（一种消息平台）
-- Raft（相比 Kafka 更中心化）
+In the Fabric blockchain network, transactions between different participants must be written to the distributed ledger in the order they occur, relying on the consensus mechanism. There are mainly three types:
+- SOLO (limited to development)
+- Kafka (a messaging platform)
+- Raft (more centralized compared to Kafka)
 
-#### 网络协议
+#### Network Protocol
 
-那`Fabric`网络中各个节点的状态分发又是怎么进行的呢？
+So how is the state distribution among nodes in the Fabric network carried out?
 
-外界的客户端是通过`gRPC`来对`Fabric`网络中的各个节点进行远程调用，而`P2P`网络中各个节点之间的同步是通过`Gossip`协议来进行的。
+External clients use gRPC to make remote calls to various nodes in the Fabric network, while synchronization between nodes in the P2P network is done through the Gossip protocol.
 
-`Gossip`协议主要是用于网络中多个节点之间的数据交换，比较容易实现且容错率很高，原理就是数据发送一方从网络中随机选取若干个节点发送过去，等几个节点接收到这些数据后再随机发送给除了发送方外的若干节点，不断重复，最终所有节点达成一致（复杂度为 LogN）。
+The Gossip protocol is mainly used for data exchange between multiple nodes in the network. It is relatively easy to implement and has a high fault tolerance rate. The principle is that the data sender randomly selects several nodes from the network to send to, and after these nodes receive the data, they randomly send it to several nodes other than the sender, repeatedly, until all nodes reach consensus (complexity is LogN).
 
-#### 分布式账本
+#### Distributed Ledger
 
-最终所有的交易都会记录到分布式账本中，这也是区块链诸多特性的核心。`Fabric`中交易可以存储相关业务信息，区块是一组排列后的交易集合，将区块通过密码算法链接起来就是区块链。分布式账本主要记录世界状态（最新的分布式账本状态，一般使用`CouchDB`以方便查询）和事务日志（世界状态的更新历史，记录区块链结构，使用`LevelDB`），对账本的每个操作都会记录在日志中，不可篡改。
+Finally, all transactions are recorded in the distributed ledger, which is the core of many blockchain features. In Fabric, transactions can store relevant business information. A block is a collection of ordered transactions, and linking blocks through cryptographic algorithms forms the blockchain. The distributed ledger mainly records the world state (the latest distributed ledger state, generally using CouchDB for easy querying) and transaction logs (update history of the world state, recording the blockchain structure, using LevelDB). Every operation on the ledger is recorded in the log and is immutable.
 
-#### 应用编程接口
+#### Application Programming Interface
 
-对于基于`Fabric`的应用，则主要提供了 SDK 开发工具包和 CLI 命令行两种方式进行交互。
+For applications based on Fabric, two main ways of interaction are provided: SDK development toolkit and CLI command line.
 
-### Fabric 区块链核心角色
+### Core Roles in Fabric Blockchain
 
-首先要提的是`Fabric`网络中的角色都是逻辑角色，比如 Peer 节点 A 可能既是排序节点，也可能在某些业务中是背书节点，而一个角色也不仅仅由单一节点担任。
+First, it should be mentioned that the roles in the Fabric network are all logical roles. For example, Peer node A might be both an ordering node and an endorsement node in some businesses, and a role is not necessarily played by a single node.
 
-接下来介绍一下各个角色的作用和职能。
+Next, let's introduce the functions and roles of each role.
 
-Clients 客户端主要给交易签名，提交交易 Proposal 给背书节点，接收已经背书后的交易广播给排序节点；背书节点则是本地模拟执行交易 Proposal 验证交易（策略由 Chaincode 制定），签名并返回已背书交易；排序节点则将交易打包为 block 然后广播至各个节点，不参与交易的执行和验证，多个排序节点可以组成 OSN；所有的节点都维护区块链账本。
+Clients mainly sign transactions, submit transaction Proposals to endorsement nodes, receive endorsed transactions and broadcast them to ordering nodes; endorsement nodes locally simulate the execution of transaction Proposals to verify transactions (policies are set by Chaincode), sign and return endorsed transactions; ordering nodes package transactions into blocks and then broadcast them to various nodes, not participating in transaction execution and verification. Multiple ordering nodes can form an OSN; all nodes maintain the blockchain ledger.
 
-### 优势总结
+### Summary of Advantages
 
-`Fabric`通过将企业应用的各个复杂环节分配到各个逻辑角色节点（背书、排序等），不需要所有节点都承担如排序这样资源消耗较大的操作，消除了网络瓶颈；分配了角色后某些交易只在特定的节点部署和执行，且可以并发执行，大大提升效率和安全性，也隐藏了一些商业逻辑；因此，可以根据不同的业务需要来形成多种灵活的分配方案，极大增强了系统的拓展性。
+Fabric allocates various complex aspects of enterprise applications to different logical role nodes (endorsement, ordering, etc.), eliminating network bottlenecks as not all nodes need to undertake resource-intensive operations like ordering; after role allocation, certain transactions are only deployed and executed on specific nodes, and can be executed concurrently, greatly improving efficiency and security, while also hiding some business logic; therefore, various flexible allocation schemes can be formed according to different business needs, greatly enhancing the system's extensibility.
 
-将共识机制、权限管理、加密机制、账本等模块都设置为可插拔，且不同的链码可以设置不同的背书策略，信任机制更加灵活，这样可以根据业务需要设置自己的高效系统。
+Setting consensus mechanisms, permission management, encryption mechanisms, ledgers, and other modules as pluggable, and allowing different chaincodes to set different endorsement policies, makes the trust mechanism more flexible, allowing efficient systems to be set up according to business needs.
 
-成员身份管理的`Fabric CA`作为单独的项目，能够提供更多功能，也能够与很多第三方 CA 直接进行接入和交互，功能更强大，适合企业复杂的场景。
+The Fabric CA for member identity management is a separate project, capable of providing more functions and directly interfacing and interacting with many third-party CAs, making it more powerful and suitable for complex enterprise scenarios.
 
-多通道的特性是不同通道之间的数据彼此隔离，提高了安全性和隐私保护。
+The multi-channel feature isolates data between different channels, improving security and privacy protection.
 
-链码支持如`Java`、`Go`、`Node`等不同的编程语言，更加灵活，也支持更多第三方拓展应用，降低了业务迁移和维护成本。
+Chaincode supports different programming languages such as Java, Go, Node, etc., making it more flexible and supporting more third-party extension applications, reducing business migration and maintenance costs.
 
-### Fabric 应用开发及交互
+### Fabric Application Development and Interaction
 
 ![hyperledger_fabric_application_interact](https://image.pseudoyu.com/images/hyperledger_fabric_application_interact.png)
 
-上图就是作为一个区块链开发者在应用`Fabric`区块链中的开发和交互流程。
+The above diagram shows the development and interaction process for a blockchain developer applying the Fabric blockchain.
 
-开发者主要负责开发应用和智能合约（链码），应用通过 SDK 与智能合约进行交互，而智能合约的逻辑可以对账本进行`get`、`put`、`delete`等操作。
+Developers are mainly responsible for developing applications and smart contracts (chaincode). Applications interact with smart contracts through SDK, while the logic of smart contracts can perform operations such as get, put, delete on the ledger.
 
-### Fabric 工作流程
+### Fabric Workflow
 
 ![hyperledger_fabric_transaction_flow](https://image.pseudoyu.com/images/hyperledger_fabric_transaction_flow.png)
 
-接下来通过一个完整的交易流来梳理一下`Fabric`网络的工作原理
+Next, let's review the working principle of the Fabric network through a complete transaction flow
 
-0. 在所有操作之前，需要向 CA 获取合法身份并且指定通道
-1. 首先，Client 提交交易 Proposal（含自己的签名）至背书节点
-2. 背书节点接收到交易 Proposal 后用本地状态模拟执行，对交易进行背书、签名并返回（其中包含 Read-Write Set、签名等）
-3. Client 收集到足够的背书后（策略由 Chaincode 制定，如图中示例为得到 2 个背书）提交已背书交易至排序节点（OSN）
-4. 排序节点将交易打包成 blocks，排序（不执行或验证交易正确性）并广播至所有节点
-5. 所有节点对新 blocks 进行验证并提交至账本
+0. Before all operations, it's necessary to obtain a legal identity from CA and specify the channel
+1. First, the Client submits a transaction Proposal (with its own signature) to the endorsement nodes
+2. After receiving the transaction Proposal, the endorsement nodes simulate execution using local state, endorse and sign the transaction, and return it (including Read-Write Set, signature, etc.)
+3. After the Client collects enough endorsements (policy set by Chaincode, as in the example in the diagram, obtaining 2 endorsements), it submits the endorsed transaction to the ordering nodes (OSN)
+4. The ordering nodes package transactions into blocks, order them (without executing or verifying transaction correctness), and broadcast to all nodes
+5. All nodes validate the new blocks and commit them to the ledger
 
 ![hyperledger_fabric_processes](https://image.pseudoyu.com/images/hyperledger_fabric_processes.png)
 
-接下来对每个环节进行一些详细的拆解
+Next, let's break down each stage in detail
 
-#### 执行/背书环节
+#### Execution/Endorsement Stage
 
-Client 提交交易 proposal 后，背书节点会首先核对 Client 的签名，用本地状态模拟执行，对交易进行签名和 Read-Write Set 回 Clients，R-W Sets 主要包含`key`, `version`, `value`三个属性，Read-Set 包含交易执行中读取的所有变量和其`version`，对账本进行 write 操作的话`version`会产生变化，Write-Set 包含所有被编辑的变量及其新值。
+After the Client submits the transaction proposal, the endorsement nodes first verify the Client's signature, simulate execution using local state, sign the transaction, and return Read-Write Sets to Clients. R-W Sets mainly include three attributes: key, version, and value. The Read-Set contains all variables read during transaction execution and their version. If there's a write operation on the ledger, the version will change. The Write-Set contains all edited variables and their new values.
 
-背书节点在执行交易时值根据本地区块链的状态检查链码是否正确，执行并返回。
+When executing transactions, endorsement nodes only check if the chaincode is correct based on the local blockchain state, execute, and return.
 
-Fabric 支持多种背书策略，Client 在提交至排序节点前会验证是否满足背书要求，值得注意的是如果只做了查询账本操作，Client 不会提交至 OSN。
+Fabric supports multiple endorsement policies. The Client verifies if endorsement requirements are met before submitting to the ordering nodes. It's worth noting that if only ledger query operations are performed, the Client won't submit to OSN.
 
-上文所提到的交易 proposal 主要包括链码、链码的输入值、Client 的签名，而背书节点返回至 Client 的信息则包括返回值、模拟执行结果的 R-W Set 以及背书节点的签名，组合起来则是已背书节点。
+The transaction proposal mentioned above mainly includes chaincode, chaincode input values, and Client signature, while the information returned by endorsement nodes to the Client includes return values, R-W Set of simulated execution results, and endorsement node signatures, which together form the endorsed nodes.
 
-背书是相关组织对交易的认可，即相关节点对交易进行签名。对于一个链码交易来说，背书策略是在链码实例化的时候指定的，一笔有效交易必须是背书策略相关组织签名才能生效，本质上`Fabric`区块链中的交易验证是基于对背书节点的信任，这也是称`Fabric`并不是严格意义上的去中心化的原因之一。
+Endorsement is the approval of transactions by relevant organizations, i.e., relevant nodes signing the transaction. For a chaincode transaction, the endorsement policy is specified during chaincode instantiation. An effective transaction must be signed by organizations related to the endorsement policy to take effect. Essentially, transaction verification in the Fabric blockchain is based on trust in endorsement nodes, which is one of the reasons why Fabric is not considered strictly decentralized.
 
-以下是一个简单的链码执行示例
+Here's a simple example of chaincode execution
 
 ```go
 func (t *SimpleChaincode) InitLedger(ctx contractapi.TransactionContextInterface) error {
@@ -199,32 +199,32 @@ func (t *SimpleChaincode) InitLedger(ctx contractapi.TransactionContextInterface
 }
 ```
 
-在这个简单示例中，链码的主要操作就是更新了`key-value`值，经过了这个操作后，`version`会变化。
+In this simple example, the main operation of the chaincode is to update the key-value pair. After this operation, the version will change.
 
-执行后返回的 R-W Set 为
+The R-W Set returned after execution is
 
 ```go
 key: 1
-value: Product { Name: "Test Product", Description: "Just a test product to make sure chaincode is running", CreatedBy: "admin", ProductId: "1" } 的Json形式
+value: JSON form of Product { Name: "Test Product", Description: "Just a test product to make sure chaincode is running", CreatedBy: "admin", ProductId: "1" }
 ```
 
-#### 排序环节
+#### Ordering Stage
 
-Client 提交已背书交易至排序节点（排序节点可通过一些共识策略组成 OSN），排序节点接收到交易后，会打包成 blocks 并按照配置中的规则进行排序，在此过程中，只执行排序操作，而不进行任何执行或验证，排序完成后发送至所有节点。
+The Client submits endorsed transactions to ordering nodes (ordering nodes can form OSN through some consensus strategies). After receiving transactions, ordering nodes package them into blocks and order them according to the rules in the configuration. During this process, they only perform ordering operations without any execution or verification. After ordering is complete, they send to all nodes.
 
-排序服务用来对全网交易达成一致，只负责对交易顺序达成一致，避免了整个网络瓶颈，更容易横向拓展以提升网络效率，目前支持`Kafka`和`Raft`两种，`Fabric`区块链网络的统一/完整性依赖于排序节点的一致性。
+The ordering service is used to reach consensus on transactions across the entire network, only responsible for reaching consensus on transaction order, avoiding network bottlenecks and making it easier to scale horizontally to improve network efficiency. Currently, it supports two types: Kafka and Raft. The unity/integrity of the Fabric blockchain network depends on the consistency of ordering nodes.
 
-Raft 共识机制属于非拜占庭共识机制，使用了领导者和跟随者（Leader 和 Follower）模型，当一个 Leader 被选出，日志信息会从 Leader 向 Follower 单向复制，更容易管理，在设计上允许所有节点都可以称为 Orderer 节点，相比 Kafka 更中心化，其实也允许采用 PBFT 共识机制，但是性能往往很差。
+The Raft consensus mechanism belongs to the non-Byzantine consensus mechanism and uses a leader and follower model. When a leader is elected, log information is unidirectionally replicated from the leader to followers, making it easier to manage. In design, it allows all nodes to become Orderer nodes, making it more centralized compared to Kafka. It actually also allows the use of PBFT consensus mechanism, but the performance is often very poor.
 
-#### 验证环节
+#### Validation Stage
 
-当节点接收到由排序节点发送来的区块时，会对区块中的所有交易进行验证并标记是否可信，主要验证两个方面：1.是否满足背书策略。2.交易结构的合法性，是否有状态冲突，如 Read-Set 中的`version`是否一致等。
+When a node receives blocks sent by ordering nodes, it validates all transactions in the block and marks whether they are trustworthy. It mainly verifies two aspects: 1. Whether it meets the endorsement policy. 2. The legality of the transaction structure, whether there are state conflicts, such as whether the version in the Read-Set is consistent, etc.
 
-## 总结
+## Conclusion
 
-以上就是对`Hyperledger Fabric`架构的梳理了，虽然取舍了部分去中心化的理念，但是作为一个面向企业应用的开源联盟链，它鼓励了更多企业参与到分布式账本技术的建设和应用中来，现在国内也有很多联盟链的自研平台，如蚂蚁链、趣链等，相信未来会有更多企业参与到这个开放的生态体系！
+The above is a review of the Hyperledger Fabric architecture. Although it has sacrificed some of the decentralization concept, as an open-source consortium chain oriented towards enterprise applications, it encourages more enterprises to participate in the construction and application of distributed ledger technology. Now there are many self-developed consortium chain platforms in China, such as Ant Chain, Qulian, etc. I believe that more enterprises will participate in this open ecosystem in the future!
 
-## 参考资料
+## References
 
-> 1. [FITE3011 Distributed Ledger and Blockchain](https://www.cs.hku.hk/index.php/programmes/course-offered?infile=2019/fite3011.html), *Allen Au，HKU*
-> 2. [企业级区块链实战教程](https://github.com/yingpingzhang/enterprise_blockchain_tutorial)，*张应平*
+> 1. [FITE3011 Distributed Ledger and Blockchain](https://www.cs.hku.hk/index.php/programmes/course-offered?infile=2019/fite3011.html), *Allen Au, HKU*
+> 2. [Enterprise Blockchain Practical Tutorial](https://github.com/yingpingzhang/enterprise_blockchain_tutorial), *Zhang Yingping*

@@ -1,5 +1,5 @@
 ---
-title: "周报 #50 - 天坛漫步、重拾阅读和费曼学习法"
+title: "Weekly Review #50 - A Stroll in the Temple of Heaven, Rediscovering Reading, and the Feynman Technique"
 date: 2023-11-21T09:41:26+08:00
 draft: false
 tags: ["review", "life", "reading", "work", "learn"]
@@ -8,95 +8,95 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/tenderness.mp3" caption="《温柔 - 五月天》" >}}
+{{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-11-13` 到 `2023-11-21` 这一周生活的记录与思考。
+This piece is a record and reflection of my life from November 13 to November 21, 2023.
 
-这周工作也有挺多讨论和开发的部分，还算是在正常节奏；平日里工作、学习外加额外的阅读也占据了大部分的时间，但也有着不错的充实感；因为想后面晚上更多还是看一些书，所以赶着把在看的几部剧和动漫追完了；周末去天坛公园散步了，晚上还解锁了好吃的菌菇火锅；给 OpenBuild 上了两节共计 4 小时的 Solidity Bootcamp，准备的过程也还挺有意思的；下周还有会参与一个播客录制，会参与到 2023 播客节，很期待；还有很多有意思的事。
+This week had quite a bit of discussion and development at work, maintaining a normal rhythm. My days were largely occupied by work, study, and additional reading, giving me a sense of fulfillment. As I plan to spend more evenings reading books, I hurried to finish the few dramas and anime I was watching. Over the weekend, I took a stroll in the Temple of Heaven Park and discovered a delicious mushroom hotpot in the evening. I also gave two 4-hour Solidity Bootcamp sessions for OpenBuild, and the preparation process was quite interesting. Next week, I'll be participating in a podcast recording as part of the 2023 Podcast Festival, which I'm looking forward to. There were many other interesting happenings as well.
 
-## 天坛漫步
+## A Stroll in the Temple of Heaven
 
-北京的秋天很短暂，但大概是一年里唯一还算不错的时节了，微凉但不需要叠上一层层厚衣服，正适合散步。
+Autumn in Beijing is fleeting, but perhaps the only truly pleasant season of the year. It's cool but not cold enough to require layers of thick clothing, perfect for a leisurely walk.
 
-出发前学姐突然说了句让我别带相机了，补充道“每次带着相机就没有那么自在地闲逛了”。愣了一下，确实是这样，似乎养成了记录的习惯后，在一些开心或是觉得有趣的瞬间会更多想着拍下来或是写下来，有时候反而会忽略了享受当下的美好。就像是去阿那亚的时候，在海边散步时，因为天色渐暗，想着能够快些出片，于是到了每一个景都会拍上许久，最后也如愿出了一些片，但是确实少了“漫步”的心境，相机的 55 焦段却无形增加了距离感。
+Before setting out, my senior suddenly suggested I leave my camera behind, adding, "Every time you bring the camera, you're not as relaxed during the stroll." I paused, realizing she was right. It seems that after developing the habit of documenting, I tend to think more about capturing or writing down moments I find joyful or interesting, sometimes neglecting to fully enjoy the present beauty. Like when we went to Aranya, walking on the beach as dusk fell, I was so focused on getting good shots quickly that I spent a long time photographing each scenic spot. In the end, I did get some nice photos, but I missed out on the true essence of a "stroll". The 55mm focal length of the camera inadvertently created a sense of distance.
 
-这次去没带什么目的，只是散步，跟着公园里的游人打太极，比赛谁能把松果丢到一个由草堆组成的圆圈里，也会看着几只羽毛鲜艳似孔雀的小鸡在林子里乱窜/求偶。明明觉得自己其实是一个并不那么亲近自然风光的人，摄影上也更爱有些主题的街拍，但与人为伴闲逛惬意的时光却也带来了不少惊喜，让最近的一些紧绷和焦虑得到了很多缓解，时光也变得尤为缓慢。
+This time, I went without any particular purpose, just for a walk. We followed the park visitors doing tai chi, competed to see who could throw pine cones into a circle made of grass, and watched a few chickens with feathers as vibrant as peacocks scurrying about in the woods, perhaps in courtship. Though I've always thought of myself as someone not particularly drawn to natural landscapes, preferring themed street photography, this leisurely stroll in the company of others brought many pleasant surprises. It helped alleviate some of the recent tension and anxiety, making time feel especially slow.
 
-后面还吃到了一家回味很久的云南菌菇锅「汤巴适」，强烈推荐！
+Afterwards, we ate at a Yunnan mushroom hotpot restaurant called "Tang Ba Shi" that I had been craving for a long time. Highly recommended!
 
-### 重拾阅读
+### Rediscovering Reading
 
-前段时间的晚饭和饭后更多都是在追/重温一些剧，《请回答 1988》、《琅琊榜》和《机智的监狱生活》，轻松愉快却也让时间溜走得很快，于是努力集中追完后打算不再开启新的剧，而是重拾阅读。
+Recently, I've spent most of my dinner and post-dinner time watching or rewatching some TV series: "Reply 1988", "Nirvana in Fire", and "Prison Playbook". While enjoyable and relaxing, time seemed to slip away quickly. So, after making an effort to finish these, I decided not to start any new series and instead return to reading.
 
-去年读了很多书，通勤地铁上与 Kindle 为伴，环境恶劣但是却也乐在其中，一周有时能读 1-2 本，而这半年不再需要通勤，却少了一些读书的心境，也主要是在看一些工具书。这几天的晚上重新开始阅读，发现又能够享受其中了，要完成年初的阅读计划应该是不行了，但能找回阅读的享受也是更大的收获。
+Last year, I read many books, accompanied by my Kindle during subway commutes. Despite the harsh environment, I found joy in it, sometimes reading 1-2 books a week. However, in the past six months, without the need to commute, I lost some of that reading mindset, mainly focusing on reference books. These past few evenings, as I started reading again, I found I could once again enjoy it. While it might not be possible to complete my reading goals set at the beginning of the year, rediscovering the pleasure of reading is a greater gain.
 
-先看完的是《Building A Second Brain》和《PARA Method》，后者是前者的一个补充，都是关于个人知识管理的，前者更多是理念和方法论，后者则是更具体的实践方法，因为偏向于工具和实践，读起来也并不费力，不过对目前使用 Logseq + Readwise + Heptabase 的系统有一些补充。
+I first finished "Building A Second Brain" and "PARA Method", the latter being a supplement to the former. Both are about personal knowledge management, with the former focusing more on concepts and methodologies, and the latter on specific practical methods. Being tool and practice-oriented, they were not difficult to read, and provided some additions to my current system using Logseq + Readwise + Heptabase.
 
-群里同事提到了《未来简史》，想起来几年前看过这本以及《人类简史》，自己就兴趣而言比起文学作品来说其实并不那么喜欢这类宏大叙事的题材，不过他写的这个系列算是难得一直很吸引人去读的，有点想重温，不过刚好看到书架上有《今日简史》，想着先看完，读了前几个篇章。
+A colleague in our group chat mentioned "Homo Deus", reminding me that I had read this and "Sapiens" a few years ago. Personally, I'm not as fond of such grand narrative topics compared to literary works, but this series is exceptionally engaging. I considered revisiting them, but then noticed "21 Lessons for the 21st Century" on my bookshelf and decided to read it first, having gone through the first few chapters.
 
-### 费曼学习法
+### The Feynman Technique
 
-最近又参与到了一门「[[OpenBuild Bootcamp] Solidity 入门到精通](https://openbuild.xyz/learn/courses/95)」的授课中，负责其中两节，因为都是下班和周末的时间，用的也是之前在清迈 Workshop 培训材料的中文版。
+Recently, I've been involved in teaching a course called "[[OpenBuild Bootcamp] Solidity from Beginner to Expert](https://openbuild.xyz/learn/courses/95)", responsible for two sessions. As it's during after-work hours and weekends, I'm using the Chinese version of the training materials from the previous Chiang Mai Workshop.
 
-自己似乎还是挺热衷于参与教育和分享这一类的事中的，也是费曼学习法的实践，其核心在：
+I seem to be quite enthusiastic about participating in education and sharing, which is also a practice of the Feynman Technique. Its core lies in:
 
-> 当你准备学习一门新知识时，必须站在传授者的立场，假设要向别人讲解这门知识。
+> When you prepare to learn new knowledge, you must stand in the position of a teacher, assuming you need to explain this knowledge to others.
 
-所以尤其在自己也还是学习阶段的时候，我会更珍惜能够去分享和授课的机会，去年五月给 Chainlink 做过一次技术分享，写了几篇博客，今年去清迈当了一次 Mentor，又参与了一次 Workshop，对于核心概念比起之前有了更扎实的掌握。
+So, especially when I'm still in the learning stage myself, I cherish opportunities to share and teach. Last May, I gave a technical presentation for Chainlink and wrote several blog posts. This year, I was a mentor in Chiang Mai and participated in a workshop. Compared to before, I now have a more solid grasp of core concepts.
 
-而谈到 Solidity 自己学习的路径，Patrick Collins 在 YouTube 上的三个 Solidity 教程我都看完了，每一个都是几十个小时。
+Speaking of my learning path for Solidity, I've completed all three of Patrick Collins' Solidity tutorials on YouTube, each lasting several dozen hours.
 
-第一个是 Brownie (Python) 版本的，是 2021 年 6 月刚从香港回深圳隔离时候看的，当时很多概念都不懂，也没什么实战经验，只是感觉 Python 写测试语法比较简单所以舍弃了毕设用过的 Truffle，大概一个月的时间粗略过了一下，应付了一下几个合约开发岗位的面试，后面因为去做了联盟链也没怎么用了。
+The first was the Brownie (Python) version, which I watched in June 2021 while in quarantine after returning to Shenzhen from Hong Kong. At that time, I didn't understand many concepts and had little practical experience. I chose it over Truffle, which I had used for my graduation project, mainly because Python's syntax for writing tests seemed simpler. I roughly went through it in about a month, managing to handle a few smart contract development job interviews. Later, as I started working on consortium chains, I didn't use it much.
 
-第二个是 Hardhat (Javascript) 版本的，是 2022 年 5 月在家隔离的时候看的，当时已经对合约有了不少了解，也写过不少实战，所以更像是一种巩固，大概只花了半个月左右，还输出了几篇博客文章，还被 Patrick 本人关注到和联系了，有了很多后续的一些机会。
+The second was the Hardhat (Javascript) version, which I watched in May 2022 while in home quarantine. By then, I had a better understanding of smart contracts and had written quite a few practical ones, so it was more of a reinforcement. It took only about half a month, and I produced several blog articles. Patrick himself noticed and contacted me, leading to many subsequent opportunities.
 
-而最近刚看完的 Foundry （Solidity）版本的其实已经实战过不少项目，大部分概念已经熟悉了，然而却花了接近两三个月，很多还是跳着看的，感觉随着技术博客写少了后学习知识专注程度和状态还是有挺明显的下滑的，还是得重新捡起来 😢
+The recently completed Foundry (Solidity) version came after I had already worked on quite a few projects and was familiar with most concepts. However, it took nearly two to three months, with much of it watched in parts. I feel that as I've written fewer technical blogs, there's been a noticeable decline in my concentration and state of learning knowledge. I need to pick it up again.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 播客节
+### Podcast Festival
 
-这周有机会录制一个播客，同时这个节目会参与到「2023 科技播客节」，同期的有「枫言枫语」、「代码之外」、「津津乐道」、「内核恐慌」等等自己很喜欢的播客，去年就有听这个活动的各种主题，没想到今年也能有参与的机会，很奇妙。
+This week, I have the opportunity to record a podcast, which will be part of the "2023 Tech Podcast Festival". Other participants include podcasts I really enjoy like "Maple Syrup", "Beyond Code", "Jinjinledao", "Kernel Panic", and more. Last year, I listened to various themes from this event, and I never imagined I'd have the chance to participate this year. It's quite amazing.
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synchronized on the "Yu's Life" Telegram channel, I'll still select a few to list here, making it feel more like a newsletter.
 
-#### 书籍
+#### Books
 
-- **Building a Second Brain**，其实文中提到的方法已经在别的博客了解并且实践了，更多只是想了解一下作者的思维模式和实践方法，发现还是更偏理论一些。
-- **The PARA Method**，比起《Building a Second Brain》，这本更精简易读，很偏重实践方法，关于在多平台共用系统以及信息在 PARA 之间的流动原则对我目前的系统有挺大的参考的
-- **今日简史**，三部曲的最后一本
-- **Uniswap V2 Book | RareSkills**，一直想更详细了解 Uniswap
-- **ZK Book | RareSkills**，了解一下 ZK
+- **Building a Second Brain**, I've actually already learned about and practiced the methods mentioned in the book through other blogs. I was more interested in understanding the author's thought process and practical methods, but found it to be more theoretical.
+- **The PARA Method**, compared to "Building a Second Brain", this book is more concise and easy to read, with a strong focus on practical methods. The principles regarding using a system across multiple platforms and the flow of information between PARA have significant reference value for my current system.
+- **21 Lessons for the 21st Century**, the last book in the trilogy
+- **Uniswap V2 Book | RareSkills**, I've always wanted to understand Uniswap in more detail
+- **ZK Book | RareSkills**, learning about ZK
 
-#### 文章
+#### Articles
 
-- [稳定性，难的不是技术，而是](https://mp.weixin.qq.com/s/9rAhbG6lu-flNIGQEF5w0g)
+- [Stability, It's Not the Technology That's Difficult, But...](https://mp.weixin.qq.com/s/9rAhbG6lu-flNIGQEF5w0g)
 - [Effective Neovim setup for web development towards 2024](https://www.devas.life/effective-neovim-setup-for-web-development-towards-2024/)
 - [Exit games for EVM validiums: the return of Plasma](https://vitalik.eth.limo/general/2023/11/14/neoplasma.html)
 - [The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
 - [A comprehensive guide to the ERC721 standard and related security issues](https://www.rareskills.io/post/erc721)
-- [大图书馆 #9 《流计算系统图解》书评](https://mp.weixin.qq.com/s/6jxnKYuunU1MuO1wfNyrPQ)
+- [Great Library #9 Book Review of "Streaming Systems"](https://mp.weixin.qq.com/s/6jxnKYuunU1MuO1wfNyrPQ)
 
-#### 视频
+#### Videos
 
 - [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (12 - 15)](https://www.youtube.com/watch?v=wUjYK5gwNZs)
-- [study vlog #38｜享受晚间阅读所带来的平静与思考｜女程序员的学习日常｜TEDxTalks：内向性格的力量/关于睡眠｜未来简史｜英语学习](https://www.bilibili.com/video/BV1NH4y127U2)
+- [study vlog #38 | Enjoying the tranquility and reflection brought by evening reading | A female programmer's learning routine | TEDxTalks: The power of introverted personalities / About sleep | Homo Deus | English learning](https://www.bilibili.com/video/BV1NH4y127U2)
 - [How to Make Learning as Addictive as Social Media | Luis Von Ahn | TED](https://www.youtube.com/watch?v=P6FORpg0KVo)
 - [Ilya: the AI scientist shaping the world](https://www.youtube.com/watch?v=9iqn1HhFJ6c)
 
-#### 动漫
+#### Anime
 
-- **冥王 PLUTO**，在奈飞上刷到的关于机器人和人类题材的一部动漫，一直对这个类型很感兴趣，平时的午休+周末看完了，关于仇恨与爱，仇恨方面比较宏大，贯穿着”仇恨是没有结果的“和英雄主义的主角团，让我更印象深刻的反倒是最开始的执法机器人和他的妻子、盖吉特与海伦娜之间的爱，仅仅是选择记住对于他们来说就已经是最艰难而伟大的选择了。
-- **间谍过家家 第二季**，阿尼亚赛高！
+- **Pluto**, an anime about robots and humans that I came across on Netflix. I've always been interested in this genre. I finished it during lunch breaks and weekends. It deals with hatred and love, with the hatred aspect being quite grand, running through the theme "hatred leads nowhere" and a heroic protagonist group. What left a deeper impression on me was actually the love between the law enforcement robot and his wife, and between Gesicht and Helena at the beginning. For them, simply choosing to remember was already the most difficult and great choice.
+- **Spy x Family Season 2**, Anya is the best!
 
-#### 剧集
+#### TV Series
 
-- **机智的监狱生活**，《请回答 1988》同个导演的作品，也是饭后休闲选择的剧，搞笑之余也很有风格，虽然也是大男主的剧本，但是呈现是我很喜欢的群像，里面的很多配角即使出场不多，也会留下很深的印象，还很喜欢的一点就是整部剧并没有刻意美化人性，像是出狱后马上重新吸毒的毒虫，同样也没有追求一种尽善尽美，比如首次复出赛并没能获胜的男主。更多可以说是展现了人的多样和成长。
+- **Prison Playbook**, a work by the same director as "Reply 1988", which I chose for after-dinner relaxation. It's funny while maintaining its style. Although it's a male-led script, the presentation is a group portrait that I really like. Many of the supporting characters, even with limited screen time, leave a deep impression. Another aspect I appreciate is that the series doesn't deliberately beautify human nature, like the drug addict who immediately returns to drugs after being released. It also doesn't pursue perfection, such as the male lead not winning his first comeback match. It's more about showcasing the diversity and growth of people.
 
-#### 音乐
+#### Music
 
 - [Nidome no Hatsukoi by KO-SUKE](https://open.spotify.com/track/6LpsABDodctW0sFs1U2qPq)

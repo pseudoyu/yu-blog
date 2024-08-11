@@ -1,5 +1,5 @@
 ---
-title: "Ghost 5.0 来了，使用 Digital Ocean 一键部署吧"
+title: "Ghost 5.0 Has Arrived, Let's Deploy It with One Click on Digital Ocean"
 date: 2022-05-29T14:21:12+08:00
 draft: false
 tags: ["blog", "ghost", "digital ocean", "vps", "self-host"]
@@ -8,152 +8,152 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="《Here After Us - Mayday》" >}}
 
-## 前言
+## Preface
 
-我是一个静态博客与 Serverless 支持者，自己的[个人博客](https://www.pseudoyu.com)与一些[知识库项目](https://www.pseudoyu.com/blockchain-guide)也都是通过 [hugo](https://gohugo.io) 生成并托管在 [GitHub Pages](https://pages.github.com) 上的。这种方式很方便进行版本管理与部署维护，但对于非技术的人来说，通过命令行 git 操作的方式也有些过于 geek，牵扯到多人协作等场景也不太方便。
+I am an advocate of static blogs and serverless support. My [personal blog](https://www.pseudoyu.com) and some [knowledge base projects](https://www.pseudoyu.com/blockchain-guide) are generated using [hugo](https://gohugo.io) and hosted on [GitHub Pages](https://pages.github.com). This approach is convenient for version control and deployment maintenance, but for non-technical individuals, using command-line git operations can be overly complex, and it's not particularly convenient for scenarios involving multiple collaborators.
 
-上周有个前同事（非技术）让我帮忙搭建一个门户网站，主要展示一下公司信息、发布一些资讯、专题、工具等，出于易用性等考虑，也刚好看到 [Ghost](https://ghost.org) 官方发布了 5.0 版本，支持了很多强大的功能，如邮件订阅、数据分析等，且可以自部署，所以考虑了这个方案，下文记录一下安装与部署流程。
+Last week, a former colleague (non-technical) asked me to help set up a portal website, mainly to showcase company information and publish news, features, tools, etc. Considering ease of use and other factors, and having just seen the official release of [Ghost](https://ghost.org) version 5.0, which supports many powerful features such as email subscriptions and data analysis, and can be self-hosted, I considered this solution. The following text records the installation and deployment process.
 
 ## Ghost 5.0
 
 ![ghost_5_intro](https://image.pseudoyu.com/images/ghost_5_intro.jpg)
 
-Ghost 是一个非常老派的博客工具，自 2013 年原型发布以来已经经过了 9 年的发展完善，于最近刚推出 5.0 版本，很适合个人、独立发布平台等。5.0 版本中，有以下特性更新：
+Ghost is a rather old-school blogging tool that has been developing and improving for 9 years since its prototype was released in 2013. The recently launched version 5.0 is very suitable for individuals and independent publishing platforms. The 5.0 version includes the following feature updates:
 
-* 支持更强大的订阅功能，如订阅分级等
-* 支持多个邮件订阅，修改设计更加方便
-* 支持发布优惠活动，也有更强大的用户分析面板
-* 原生支持视频、博客、GIF、电商产品、NFT 等
-* 发布更多新主题
-* 优化性能 20%+
+* Support for more powerful subscription functions, such as tiered subscriptions
+* Support for multiple email subscriptions, making design modifications more convenient
+* Support for publishing promotional activities, with a more powerful user analysis dashboard
+* Native support for videos, blogs, GIFs, e-commerce products, NFTs, etc.
+* Release of more new themes
+* Performance optimization of 20%+
 * ...
 
-Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、服务器安装等，而因为 Ghost 生成环境依赖 Ubuntu，Node，MySQL 等环境，如果需要自己单独搭建会比较麻烦，且维护成本也较高。经过一番调研，根据官方文档的安装说明，Digital Ocean 是 Ghost 的官方云托管合作伙伴，提供了一键部署安装的方式，简单便捷。
+Ghost officially supports various deployment methods, such as Ghost(Pro) hosting, Docker images, server installation, etc. However, because Ghost's production environment depends on Ubuntu, Node, MySQL, and other environments, it can be quite troublesome to set up independently, and the maintenance cost is also relatively high. After some research, according to the installation instructions in the official documentation, Digital Ocean is Ghost's official cloud hosting partner, providing a one-click deployment and installation method, which is simple and convenient.
 
-## 安装部署说明
+## Installation and Deployment Instructions
 
-### 域名购买
+### Domain Purchase
 
-作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 [Cloudflare](https://www.cloudflare.com)、[NameSilo](https://www.namesilo.com)、[GoDaddy](https://www.godaddy.com) 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。
+As a publicly accessible website, we need to purchase a domain name and configure DNS resolution to point to the server where our website is located, allowing the public to access it conveniently. There are many domain purchase platforms; I have used [Cloudflare](https://www.cloudflare.com), [NameSilo](https://www.namesilo.com), [GoDaddy](https://www.godaddy.com), etc. I ended up regularly using Cloudflare because it also provides powerful features such as CDN, website data analysis, and custom rules.
 
-首先我们需要注册一个 Cloudflare 账户，完成并登录后，选择左侧边栏的“注册域”，并搜索自己想注册的域名。
+First, we need to register a Cloudflare account. After completing and logging in, select "Register Domain" from the left sidebar and search for the domain name you want to register.
 
 ![cloudflare_register_domain](https://image.pseudoyu.com/images/cloudflare_register_domain.png)
 
-选择了心仪的域名后，点击并选择购买时限并填写个人信息。
+After selecting your desired domain name, click and choose the purchase duration and fill in your personal information.
 
 ![cloudflare_register_domain_choose](https://image.pseudoyu.com/images/cloudflare_register_domain_choose.png)
 
-选择付款方式，建议可以选择自动续订，以免忘记续费。
+Choose the payment method. It's advisable to select auto-renewal to avoid forgetting to renew.
 
 ![cloudflare_register_domain_payment](https://image.pseudoyu.com/images/cloudflare_register_domain_payment.png)
 
-类型选择 Personal 即可，并点击完成购买。
+Select 'Personal' for the type and click to complete the purchase.
 
 ![cloudflare_register_done](https://image.pseudoyu.com/images/cloudflare_register_done.png)
 
-等待 Cloudflare 处理后即可查看信息。
+Wait for Cloudflare to process, and then you can view the information.
 
 ![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpg)
 
-### Digital Ocean ssh 配置
+### Digital Ocean SSH Configuration
 
-因为我们后续需要访问 Digital Ocean 的主机，我们需要先注册一个帐号，并配置我们的 ssh key，以便免密登录。
+As we will need to access the Digital Ocean host later, we first need to register an account and configure our SSH key for password-free login.
 
 ![digital_ocean_add_key](https://image.pseudoyu.com/images/digital_ocean_add_key.png)
 
-输入我们的 ssh key，点击添加即可。
+Enter our SSH key and click add.
 
 ![digital_ocean_ssh_config](https://image.pseudoyu.com/images/digital_ocean_ssh_config.png)
 
-### 一键创建 Ghost Droplet
+### One-Click Creation of Ghost Droplet
 
-如上文所述，Ghost 提供了在 Digital Ocean 上一键创建 Droplet 的支持，我们可以访问[安装说明文档](https://ghost.org/docs/install/)，点击 Digital Ocean 图标进行跳转。
+As mentioned above, Ghost provides support for one-click Droplet creation on Digital Ocean. We can visit the [installation instructions document](https://ghost.org/docs/install/) and click on the Digital Ocean icon to jump.
 
 ![ghost_use_digital_ocean](https://image.pseudoyu.com/images/ghost_use_digital_ocean.png)
 
-我们也可以在 Digital Ocean 镜像市场中搜索选择，点击右上角创建。
+We can also search and select in the Digital Ocean image marketplace, then click Create in the upper right corner.
 
 ![digital_ocean_market_ghost](https://image.pseudoyu.com/images/digital_ocean_market_ghost.png)
 
-根据官方说明，选择 5 美元/月套餐配置已经足够，后续有更高需求也可以一键扩容（注：如先选择了高配置，无法进行降级）。
+According to the official instructions, the $5/month plan configuration is already sufficient. You can also expand with one click if you have higher requirements later (Note: If you choose a high configuration first, you cannot downgrade).
 
 ![digital_ocean_ghost_config](https://image.pseudoyu.com/images/digital_ocean_ghost_config.png)
 
-选择主机实例地区，我选择的是美国区域，可以根据需求自己选择，并选择上文操作添加到 ssh 配置，方便之后进行访问。
+Choose the host instance region. I chose the US region, but you can choose according to your needs. Also, select the SSH configuration we added earlier for convenient access later.
 
 ![digital_ocean_ghost_region](https://image.pseudoyu.com/images/digital_ocean_ghost_region.png)
 
-完成配置选择后，我们选择数量、名称并点击 Create Droplet 即可。
+After completing the configuration selection, we choose the quantity, name, and click Create Droplet.
 
 ![digital_ocean_ghost_create](https://image.pseudoyu.com/images/digital_ocean_ghost_create.png)
 
-等待 Digital Ocean 准备主机，约几分钟就可以完成。
+Wait for Digital Ocean to prepare the host, which takes about a few minutes to complete.
 
 ![digital_ocean_ghost_done_hide](https://image.pseudoyu.com/images/digital_ocean_ghost_done_hide.jpg)
 
-### 配置域名解析
+### Configure Domain Name Resolution
 
-因为 Ghost 需要进行 https 配置，且出于方便用户进行访问等考虑，我们需要对新创建的服务器进行 DNS 解析。
+Because Ghost needs to configure HTTPS, and for the convenience of users to access, we need to set up DNS resolution for the newly created server.
 
-登录 Cloudflare，选择我们刚注册的域名，选择左侧 DNS 标签栏，配置 A 解析（一般需要配置 root 解析与 www 解析），其他域名托管网站操作也大同小异。
+Log in to Cloudflare, select the domain we just registered, select the DNS tab on the left, and configure A record resolution (generally need to configure root resolution and www resolution). The operation is similar for other domain hosting websites.
 
 ![cloudflare_dns_config](https://image.pseudoyu.com/images/cloudflare_dns_config.jpg)
 
-### 域名 SSL/TLS 配置（可选）
+### Domain SSL/TLS Configuration (Optional)
 
-如果使用 Cloudflare 进行托管，可以选择配置 SSL/TLS 加密模式为完全，可以更加保障安全性。
+If using Cloudflare for hosting, you can choose to configure the SSL/TLS encryption mode to Full for enhanced security.
 
 ![cloudflare_ssl_config](https://image.pseudoyu.com/images/cloudflare_ssl_config.png)
 
-### 一键安装 Ghost 服务
+### One-Click Installation of Ghost Service
 
-完成域名解析后，我们可通过 Digital Ocean 控制台或其他终端工具连接到主机，进行一键安装。
+After completing the domain resolution, we can connect to the host through the Digital Ocean console or other terminal tools to perform one-click installation.
 
 ![ghost_one_key_install](https://image.pseudoyu.com/images/ghost_one_key_install.jpg)
 
-Enter 后脚本会自动开始安装服务及各项依赖。
+After pressing Enter, the script will automatically start installing the service and various dependencies.
 
 ![ghost_start_install](https://image.pseudoyu.com/images/ghost_start_install.png)
 
-安装是命令行交互式，我们仅需要输入两个自定义配置：
+The installation is command-line interactive. We only need to input two custom configurations:
 
 - Enter your blog URL
-- Enter your email(For SSL Certificate)
+- Enter your email (For SSL Certificate)
 
-这两个地方输入自己的域名与邮箱，等待安装完成即可。
+Enter your domain name and email at these two points, then wait for the installation to complete.
 
 ![ghost_install_config](https://image.pseudoyu.com/images/ghost_install_config.jpg)
 
-### 访问网站
+### Accessing the Website
 
-等待脚本执行完成后，我们就可以访问 Ghost 网站了。
+After the script execution is complete, we can access the Ghost website.
 
-- https://`{your domain}`/ghost，后台管理界面
-- https://`{your domain}`，网站地址
+- https://`{your domain}`/ghost, admin interface
+- https://`{your domain}`, website address
 
-第一次登录会需要注册一个管理员帐号，注册完成后登录即可。
+The first login will require registering an admin account. Log in after registration.
 
 ![ghost_login](https://image.pseudoyu.com/images/ghost_login.png)
 
-登录后即可看到非常美观的 Ghost 后台管理页面。
+After logging in, you can see the very attractive Ghost admin page.
 
 ![ghost_dashboard](https://image.pseudoyu.com/images/ghost_dashboard.png)
 
-Ghost 提供了非常多可定制化配置选项，可以根据自己网站的需求进行调整。
+Ghost provides many customizable configuration options that can be adjusted according to your website's needs.
 
 ![ghost_setting](https://image.pseudoyu.com/images/ghost_setting.png)
 
-## 总结
+## Conclusion
 
-以上就是我使用 Ghost 官方推荐的 Digital Ocean 托管方式部署自己的 Ghost 网站，Ghost 升级 5.0 后已经能满足大部分网站的需求，且对商业化、数据处理有了更好的支持，对于个人博客和小团队来说都是比较好的选择，希望对大家有所帮助。
+The above is my experience using Ghost's officially recommended Digital Ocean hosting method to deploy my own Ghost website. After upgrading to 5.0, Ghost can meet the needs of most websites and has better support for commercialization and data processing. It's a good choice for personal blogs and small teams. I hope this helps everyone.
 
-## 参考资料
+## References
 
-> 1. [Ghost 官网](https://ghost.org)
-> 2. [Digital Ocean 官网](https://www.digitalocean.com)
-> 3. [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-> 4. [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-> 5. [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+> 1. [Ghost Official Website](https://ghost.org)
+> 2. [Digital Ocean Official Website](https://www.digitalocean.com)
+> 3. [Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+> 4. [Building a Free Personal Blog Data Statistics System from Scratch (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+> 5. [Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)

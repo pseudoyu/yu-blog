@@ -1,5 +1,5 @@
 ---
-title: "IPFS 本地节点搭建（命令行）"
+title: "Setting Up an IPFS Local Node (Command Line)"
 date: 2021-03-27T18:46:17+08:00
 draft: false
 tags: ["blockchain", "ipfs", "storage"]
@@ -8,15 +8,15 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-上一篇《[IPFS 分布式文件存储原理](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)》对于 IPFS 系统的设计理念、功能、工作原理及 IPNS 做了详细的介绍，那么，如何在本地搭建一个 IPFS 节点呢？
+In the previous article, "[IPFS Distributed File Storage Principles](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)", we provided a detailed introduction to the design concepts, functions, working principles, and IPNS of the IPFS system. So, how do we set up an IPFS node locally?
 
-本文在`macOS 11.2.3`系统上搭建了一个 IPFS 节点（命令行版本），并对文件上传、下载、网络同步、`pin`、`GC`、`IPNS`等进行了实际操作，以加深对 IPFS 工作原理的理解。
+This article demonstrates the setup of an IPFS node (command-line version) on the `macOS 11.2.3` system, and performs actual operations on file uploading, downloading, network synchronization, `pin`, `GC`, `IPNS`, etc., to deepen the understanding of IPFS working principles.
 
-## 代码实践
+## Code Practice
 
-### 安装
+### Installation
 
 ```sh
 wget https://dist.ipfs.io/go-ipfs/v0.8.0/go-ipfs_v0.8.0_darwin-amd64.tar.gz
@@ -26,120 +26,120 @@ cd go-ipfs
 ipfs --version
 ```
 
-### 启动
+### Startup
 
 ```sh
-# 启动节点
+# Start the node
 ipfs init
 
-# 上传文件
+# Upload a file
 ipfs add ipfs_init_readme.png
 
-# 上传文件并且只输出哈希值
+# Upload a file and only output the hash value
 ipfs add -q ipfs_init_readme.png
 
-# 上传目录
+# Upload a directory
 ipfs add -r [Dir]
 
-# 查看文件
+# View file
 ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme
 ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/quick-start
 
-# 查看自己上传的文件
+# View your uploaded file
 ipfs cat QmaP3QS6ZfBoEaUJZ3ZfRKoBm3GGuhQSnUWtkVCNc8ZLTj
 
-# 查看图片并输出到文件
+# View image and output to file
 ipfs cat QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH > ipfsTest.png
 
-# 下载文件
+# Download file
 ipfs get QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH -o ipfsTest.png
 
-# 压缩并下载文件
+# Compress and download file
 ipfs get QmfViXYw7GA296brLwid255ivDp1kmTiXJw1kmZVsg7DFH -Cao ipfsTest.png
 ```
 
 ![ipfs_init_readme](https://image.pseudoyu.com/images/ipfs_init_readme.png)
 
-### 开启/加入服务
+### Start/Join Service
 
 ```sh
-# 查看当前节点信息
+# View current node information
 ipfs id
 
-# 查看IPFS配置信息
+# View IPFS configuration information
 ipfs config show
 
-# 开启节点服务器
+# Start node server
 ipfs daemon
 ```
 
-API 服务，默认在 5001 端口，可以通过 http://localhost:5001/webui 进行访问
+API service, default on port 5001, can be accessed through http://localhost:5001/webui
 
 ![ipfs_webui](https://image.pseudoyu.com/images/ipfs_webui.png)
 
-网关服务，默认在 8080 端口，在浏览器里访问文件需要借助于 IPFS 提供的网关服务，由浏览器先访问到网关，网关去获取 IPFS 网络杀过了的文件。通过 http://localhost:8080/ipfs/[File Hash] 来访问上传到 IPFS 的文件
+Gateway service, default on port 8080. To access files in the browser, you need to use the gateway service provided by IPFS. The browser first accesses the gateway, and the gateway retrieves the files from the IPFS network. Access files uploaded to IPFS through http://localhost:8080/ipfs/[File Hash]
 
-### 文件操作
+### File Operations
 
 ```sh
-# 列出文件
+# List files
 ipfs files ls
 
-# 创建目录
+# Create directory
 ipfs files mkdir
 
-# 删除文件
+# Delete file
 ipfs files rm
 
-# 拷贝文件
+# Copy file
 ipfs files cp [File Hash] /[Dest Dir]
 
-# 移动文件
+# Move file
 ipfs files mv [File Hash] /[Dest Dir]
 
-# 状态
+# Status
 ipfs files stat
 
-# 读取
+# Read
 ipfs files read
 ```
 
-### 使用 IPNS 来解决文件更新问题
+### Using IPNS to Solve File Update Issues
 
 ```sh
-# 使用IPNS发布内容以自动更新
+# Use IPNS to publish content for automatic updates
 ipfs name publish [File Hash]
 
-# 查询节点id指向的Hash
+# Query the Hash pointed to by the node id
 ipfs name resolve
 
-# 有多个站点需要更新，可以新产生一个秘钥对，使用新的key发布
+# If multiple sites need to be updated, you can generate a new key pair and publish using the new key
 ipfs key gen --type=rsa --size=2048 mykey
 ipfs name publish --key=mykey  [File Hash]
 ```
 
 ### Pinning
 
-当我们向 IPFS 网络请求文件时，IPFS 会把内容先同步的本地提供服务，使用 Cache 机制处理文件以防止存储空间不断增长，如果文件一段时间未被使用则会被“回收”，Pining 的作用就是确保文件在本地不被“回收”。
+When we request files from the IPFS network, IPFS synchronizes the content locally to provide services, using a Cache mechanism to handle files to prevent storage space from continuously growing. If a file is not used for a period of time, it will be "recycled". The purpose of Pinning is to ensure that files are not "recycled" locally.
 
 ```sh
-# pin一个文件
+# Pin a file
 ipfs pin add [File Hash]
 
-# 查询某一个Hash是否被pin
+# Query whether a Hash is pinned
 ipfs pin ls [File Hash]
 
-# 删除pin的状态
+# Remove pin status
 ipfs pin rm -r [File Hash]
 
-# GC操作
+# GC operation
 ipfs repo gc
 ```
 
-## 总结
+## Conclusion
 
-本文主要在本地部署了 IPFS 文件系统并对基本操作进行了尝试，基于`macOS 11.2.3`和`go-ipfs_v0.8.0_darwin-amd64`版本，不同系统操作可能会因版本或依赖问题不一样，如有错漏，欢迎交流指正。
+This article mainly deployed the IPFS file system locally and attempted basic operations, based on `macOS 11.2.3` and `go-ipfs_v0.8.0_darwin-amd64` version. Operations on different systems may vary due to version or dependency issues. If there are any errors or omissions, please feel free to communicate and correct.
 
-## 参考资料
+## References
 
-> 1. [IPFS 官网](https://ipfs.io)
+> 1. [IPFS Official Website](https://ipfs.io)

@@ -1,5 +1,7 @@
+Here is the translated English version of the blog post, maintaining the markdown format and metadata:
+
 ---
-title: "BitXHub 跨链插件（Fabric）源码解读"
+title: "BitXHub Cross-chain Plugin (Fabric) Source Code Analysis"
 date: 2021-09-09T15:14:26+08:00
 draft: false
 tags: ["blockchain", "crosschain", "bitxhub", "hyperledger fabric", "go"]
@@ -8,62 +10,62 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-之前提到过趣链科技的 BitXHub 跨链平台是业界较为完善的跨链开源解决方案，主要通过中继链、网关和插件机制对跨链流程中的功能、安全性和灵活性等进行了优化。
+I previously mentioned that BitXHub cross-chain platform by QulianTech is a relatively comprehensive open-source cross-chain solution in the industry. It mainly optimizes the functionality, security, and flexibility of the cross-chain process through relay chain, gateway, and plugin mechanisms.
 
-目前公司团队在做一个 BaaS 平台的跨链模块，我在其中负责跨链适配器部分，对应 BitXHub 平台就是监听模块和应用链插件模块。适配器将对应用链上的跨链事件作监听，并将相应参数传给网关作跨链相关的业务逻辑需求。
+Currently, our company's team is working on a cross-chain module for a BaaS platform. I am responsible for the cross-chain adapter part, which corresponds to the listening module and application chain plugin module in the BitXHub platform. The adapter will listen to cross-chain events on the application chain and pass the corresponding parameters to the gateway for cross-chain related business logic requirements.
 
-因此，打算对 BitXHub 的 [meshplus/pier-client-fabric](https://github.com/meshplus/pier-client-fabric) 插件源码作深入解读，学习其优秀的代码结构和功能模块，以便更好地实现自己的适配器功能。
+Therefore, I plan to conduct an in-depth analysis of the source code of BitXHub's [meshplus/pier-client-fabric](https://github.com/meshplus/pier-client-fabric) plugin to learn its excellent code structure and functional modules, in order to better implement my own adapter functionality.
 
-## 跨链交易流程
+## Cross-chain Transaction Process
 
 ![cross_chain_plugin](https://image.pseudoyu.com/images/cross_chain_plugin.png)
 
-根据跨链业务需求，典型的跨链调用流程如上图所示。
+According to cross-chain business requirements, a typical cross-chain invocation process is shown in the above diagram.
 
-1. 需要进行跨链交易的子链需要安装适配器并部署提供的跨链合约和业务合约
-2. 用户通过 SDK 调用业务合约时，合约将调用跨链合约并抛出跨链事件
-3. 子链相应适配器将会轮询或订阅跨链合约抛出的跨链事件并发送到跨链网关的监听模块
-4. 跨链网关将从跨链事件中提取的响应方法和参数转换为目标子链可识别的交易
-5. 跨链网关将转换后的交易提交到目标子链并执行
+1. The subchain that needs to perform cross-chain transactions must install the adapter and deploy the provided cross-chain contract and business contract
+2. When a user invokes the business contract through the SDK, the contract will call the cross-chain contract and throw a cross-chain event
+3. The corresponding adapter of the subchain will poll or subscribe to the cross-chain events thrown by the cross-chain contract and send them to the listening module of the cross-chain gateway
+4. The cross-chain gateway will convert the response method and parameters extracted from the cross-chain event into a transaction recognizable by the target subchain
+5. The cross-chain gateway will submit the converted transaction to the target subchain and execute it
 
-## 适配器机制
+## Adapter Mechanism
 
-### 接口设计
+### Interface Design
 
-适配器主要负责与子链之间的交互，并以接口调用的方式参与跨链交互。主要提供以下接口。
+The adapter is mainly responsible for interaction between subchains and participates in cross-chain interactions through interface calls. It mainly provides the following interfaces.
 
-#### 调用链码
+#### Invoke Chaincode
 
-适配器接收跨链网关发送的交易参数，封装为已适配子链接受的数据结构并调用链码。
+The adapter receives transaction parameters sent by the cross-chain gateway, encapsulates them into a data structure accepted by the adapted subchain, and invokes the chaincode.
 
-#### 查询跨链交易
+#### Query Cross-chain Transaction
 
-子链将跨链相关细节存在 payload 字段中，如合约、用户等，适配器对这些信息进行解析与封装，提供相应接口给跨链网关查询。
+The subchain stores cross-chain related details in the payload field, such as contract, user, etc. The adapter parses and encapsulates this information and provides corresponding interfaces for the cross-chain gateway to query.
 
-#### 查询历史交易信息
+#### Query Historical Transaction Information
 
-适配器需要提供历史交易查询接口，以便于当跨链事件因网络传输等原因未收到时主动进行查询。
+The adapter needs to provide a historical transaction query interface to actively query when cross-chain events are not received due to network transmission or other reasons.
 
-#### 查询应用链基本信息
+#### Query Application Chain Basic Information
 
-适配器需要提供其所适配子链相关信息的查询接口以便于跨链网关进行查询，如名称、类型等。
+The adapter needs to provide a query interface for information related to its adapted subchain for the cross-chain gateway to query, such as name, type, etc.
 
-## 源码解读
+## Source Code Analysis
 
-接下来将对 BitXHub 跨链插件（Fabric）的核心功能模块源码进行解读。
+Next, we will analyze the core functional module source code of the BitXHub cross-chain plugin (Fabric).
 
-### 设计模式
+### Design Pattern
 
-插件项目采用的是典型的“生产者-消费者”模型，很适合这样需要轮询/订阅接收数据的并发场景。这种模型用到了任意时刻只有一个 goroutine 对 channel 中的某一个数据进行访问的特性。
+The plugin project adopts a typical "producer-consumer" model, which is very suitable for concurrent scenarios that need to poll/subscribe to receive data. This model utilizes the characteristic that only one goroutine accesses a certain data in the channel at any moment.
 
-#### 订阅/轮询跨链事件
+#### Subscribe/Poll Cross-chain Events
 
-插件需要构建一个生产者对象来订阅自己相应子链的跨链事件。
+The plugin needs to construct a producer object to subscribe to cross-chain events of its corresponding subchain.
 
 ```go
-// 构造生产者
+// Construct producer
 ec, err := event.New(c.channelProvider, event.WithBlockEvents())
 if err != nil {
     return fmt.Errorf("failed to create fabcli, error: %v", err)
@@ -71,7 +73,7 @@ if err != nil {
 
 c.eventClient = ec
 
-// 订阅跨链事件
+// Subscribe to cross-chain events
 registration, notifier, err := ec.RegisterChaincodeEvent(c.meta.CCID, c.meta.EventFilter)
 if err != nil {
     return fmt.Errorf("failed to register chaincode event, error: %v", err)
@@ -79,9 +81,9 @@ if err != nil {
 c.registration = registration
 ```
 
-订阅事件的方法是调用了 `fabric-sdk-go` 的 `RegisterChaincodeEvent()` 方法，需要注意的是，当不需要监听事件时，需要调用 `Unregister()` 方法来取消订阅。
+The method to subscribe to events is to call the `RegisterChaincodeEvent()` method of `fabric-sdk-go`. It's important to note that when you no longer need to listen to events, you should call the `Unregister()` method to cancel the subscription.
 
-方法中的 `ccID` 是需要监听的链码 ID，`eventFilter` 是需要监听的链码时间，而这个方法会返回一个 channel 接收数据（当取消订阅时，channel 会关闭）。
+The `ccID` in the method is the chaincode ID to be monitored, `eventFilter` is the chaincode event to be monitored, and this method will return a channel to receive data (when the subscription is canceled, the channel will be closed).
 
 ```go
 func (c *Client) RegisterChaincodeEvent(ccID, eventFilter string) (fab.Registration, <-chan *fab.CCEvent, error) {
@@ -89,18 +91,18 @@ func (c *Client) RegisterChaincodeEvent(ccID, eventFilter string) (fab.Registrat
 }
 ```
 
-将订阅了跨链合约的对象（即生产者）与消费者都置于无限循环中，当有跨链事件抛出时，生产者将会不断地向 channel 中放入数据，而消费者也不断从通道中取出数据。
+Place both the object that has subscribed to the cross-chain contract (i.e., the producer) and the consumer in an infinite loop. When a cross-chain event is thrown, the producer will continuously put data into the channel, and the consumer will continuously take data out of the channel.
 
 ```go
 go func() {
     for {
         select {
-        // 生产者将跨链事件写入通道
+        // Producer writes cross-chain events to the channel
         case ccEvent := <-notifier:
             if ccEvent != nil {
                 c.handle(ccEvent)
             }
-        // 消费者从通道中取出跨链事件数据
+        // Consumer takes cross-chain event data from the channel
         case <-c.ctx:
             return
         }
@@ -108,18 +110,18 @@ go func() {
 }()
 ```
 
-因为生产者和消费者都在无限循环中，生产者的 goroutine 不会退出，channel 持续写入数据，而当没有新事件时，消费者将会阻塞，等待生产者接收新的数据并写入 channel。
+Because both the producer and consumer are in an infinite loop, the producer's goroutine will not exit, and the channel continues to write data. When there are no new events, the consumer will block, waiting for the producer to receive new data and write it to the channel.
 
-### 插件初始化、运行与关闭
+### Plugin Initialization, Running, and Closure
 
-看了整体的设计模式，我们从程序的主入口看看整个插件项目运行的机制。
+After looking at the overall design pattern, let's look at the mechanism of how the entire plugin project runs from the main entry point of the program.
 
-#### 初始化
+#### Initialization
 
-在 client 程序初始化中，首先根据自定义的结构构造了消费者对象。
+In the initialization of the client program, a consumer object is first constructed according to a custom structure.
 
 ```go
-// 构造消费者
+// Construct consumer
 mgh, err := newFabricHandler(contractmeta.EventFilter, eventC, appchainID)
 if err != nil {
     return err
@@ -132,9 +134,9 @@ if err != nil {
 }
 ```
 
-#### 运行
+#### Running
 
-程序运行的入口很简单，就是对跨链合约进行轮询，并启动消费者对象。
+The entry point for program execution is simple, just polling the cross-chain contract and starting the consumer object.
 
 ```go
 func (c *Client) Start() error {
@@ -144,12 +146,12 @@ func (c *Client) Start() error {
 }
 ```
 
-#### 关闭
+#### Closure
 
-关闭插件也很简单，即停止程序运行并取消订阅事件。
+Closing the plugin is also simple, just stop the program from running and unsubscribe from events.
 
 ```go
-// 关闭插件
+// Close plugin
 func (c *Client) Stop() error {
 	c.ticker.Stop()
 	c.done <- true
@@ -157,7 +159,7 @@ func (c *Client) Stop() error {
 }
 ```
 
-在 consumer 包中取消订阅事件。
+Unsubscribe from events in the consumer package.
 
 ```go
 func (c *Consumer) Shutdown() error {
@@ -166,7 +168,7 @@ func (c *Consumer) Shutdown() error {
 }
 ```
 
-再深一层看，取消订阅事件是调用了 `fabric-sdk-go` 的 `Unregister()` 方法，会取消该事件的订阅并关闭相应通道。
+Looking deeper, unsubscribing from events calls the `Unregister()` method of `fabric-sdk-go`, which will cancel the subscription to that event and close the corresponding channel.
 
 ```go
 func (c *Client) Unregister(reg fab.Registration) {
@@ -174,14 +176,13 @@ func (c *Client) Unregister(reg fab.Registration) {
 }
 ```
 
+### Interface Implementation
 
-### 接口实现
-
-除了对事件进行订阅监听外，插件还提供了一系列查询接口供网关调用，以完成相应跨链操作。
+In addition to subscribing to and monitoring events, the plugin also provides a series of query interfaces for the gateway to call to complete corresponding cross-chain operations.
 
 #### getProof()
 
-如获取 Proof 信息等
+Such as obtaining Proof information, etc.
 
 ```go
 func (c *Client) getProof(response channel.Response) ([]byte, error) {
@@ -228,7 +229,7 @@ func (c *Client) getProof(response channel.Response) ([]byte, error) {
 
 #### getChainID()
 
-该接口用于获取链的 ID
+This interface is used to get the chain ID
 
 ```go
 func (c *Client) GetChainID() (string, string) {
@@ -249,21 +250,21 @@ func (c *Client) GetChainID() (string, string) {
 }
 ```
 
-#### 其他接口
+#### Other Interfaces
 
-其他更多接口实现细节详见 [meshplus/pier-client-fabric/client.go](https://github.com/meshplus/pier-client-fabric/blob/master/client.go)。
+For more interface implementation details, please refer to [meshplus/pier-client-fabric/client.go](https://github.com/meshplus/pier-client-fabric/blob/master/client.go).
 
-### 跨链合约
+### Cross-chain Contract
 
-跨链合约是实现插件监听的重要部分，当业务需要跨链时，将会统一调用跨链合约，并与跨链网关进行交互。
+The cross-chain contract is an important part of implementing plugin monitoring. When business needs to cross chains, it will uniformly call the cross-chain contract and interact with the cross-chain gateway.
 
-跨链合约提供了一系列接口供业务合约进行实现，因此按照一定的规范撰写业务合约则能简化跨链业务的开发和维护，跨链合约编写的规范详见<[跨链合约编写文档](https://github.com/meshplus/bitxhub/wiki/跨链合约编写文档)>。
+The cross-chain contract provides a series of interfaces for business contracts to implement. Therefore, writing business contracts according to certain specifications can simplify the development and maintenance of cross-chain business. For details on writing cross-chain contracts, please refer to <[Cross-chain Contract Writing Documentation](https://github.com/meshplus/bitxhub/wiki/跨链合约编写文档)>.
 
-#### 事件实现
+#### Event Implementation
 
-跨链合约是怎样将跨链事件抛出给插件的呢？
+How does the cross-chain contract throw cross-chain events to the plugin?
 
-在跨链合约的 `Invoke()` 方法中，跨链合约首先通过 `GetFunctionAndParameters()` 方法获取了合约调用者（也就是业务合约）的调用方法和相应参数，然后通过对方法名进行判断，从而调用不同的合约。
+In the `Invoke()` method of the cross-chain contract, the cross-chain contract first obtains the calling method and corresponding parameters of the contract caller (i.e., the business contract) through the `GetFunctionAndParameters()` method, and then calls different contracts by judging the method name.
 
 ```go
 func (broker *Broker) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
@@ -286,48 +287,48 @@ func (broker *Broker) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 }
 ```
 
-我们着重来分析一下当调用了 `EmitInterchainEvent()` 时，跨链合约做了什么，相应说明见注释。
+Let's focus on analyzing what the cross-chain contract does when `EmitInterchainEvent()` is called. The corresponding explanations are in the comments.
 
 ```go
 func (broker *Broker) EmitInterchainEvent(stub shim.ChaincodeStubInterface, args []string) pb.Response {
-    // 判断传入参数数量是否正确
-    // 跨链合约需要传入很多参数，如调用失败在链上容易产生安全问题
+    // Judge whether the number of input parameters is correct
+    // Cross-chain contracts need to pass in many parameters, as call failures can easily cause security issues on the chain
 	if len(args) != 5 {
 		return shim.Error("incorrect number of arguments, expecting 7")
 	}
 
-	// 读取参数并存入相应变量
+	// Read parameters and store in corresponding variables
 
-	// 目标链 ID
+	// Target chain ID
 	dstServiceID := args[0]
 
-	// 自己的链码 ID
+	// Own chaincode ID
 	cid, err := getChaincodeID(stub)
 	if err != nil {
 		return shim.Error(err.Error())
 	}
 
-	// 获取 bxhID 和 appchainID
+	// Get bxhID and appchainID
 	curFullID, err := broker.genFullServiceID(stub, cid)
 	if err != nil {
 		return shim.Error(err.Error())
 	}
 
-	// 将当前链 ID 和目标链 ID 组合成输出跨链服务组
+	// Combine current chain ID and target chain ID into output cross-chain service group
 	outServicePair := genServicePair(curFullID, dstServiceID)
 
-	// 获取输出值的键值对
+	// Get key-value pairs of output values
 	outMeta, err := broker.getMap(stub, outterMeta)
 	if err != nil {
 		return shim.Error(err.Error())
 	}
 
-	// 查询输出跨链服务组是否在键值对中，否则设为 0
+	// Check if the output cross-chain service group is in the key-value pair, if not, set to 0
 	if _, ok := outMeta[outServicePair]; !ok {
 		outMeta[outServicePair] = 0
 	}
 
-	// 封装交易信息
+	// Encapsulate transaction information
 	tx := &Event{
 		Index:     outMeta[outServicePair] + 1,
 		DstFullID: dstServiceID,
@@ -338,29 +339,29 @@ func (broker *Broker) EmitInterchainEvent(stub shim.ChaincodeStubInterface, args
 		Argsrb:    args[4],
 	}
 
-	// 输出服务自增
+	// Output service self-increment
 	outMeta[outServicePair]++
 
-	// 将交易信息转为 json 格式
+	// Convert transaction information to json format
 	txValue, err := json.Marshal(tx)
 	if err != nil {
 		return shim.Error(err.Error())
 	}
 
-	// 将输出事件消息格式化
+	// Format output event message
 	key := broker.outMsgKey(outServicePair, strconv.FormatUint(tx.Index, 10))
 
-	// 将消息与交易信息写入账本（持久化）
+	// Write message and transaction information to the ledger (persistence)
 	if err := stub.PutState(key, txValue); err != nil {
 		return shim.Error(fmt.Errorf("persist event: %w", err).Error())
 	}
 
-	// 设定相应跨链交易事件名称，并将交易信息存入 payload 中
+	// Set the corresponding cross-chain transaction event name and store the transaction information in the payload
 	if err := stub.SetEvent(interchainEventName, txValue); err != nil {
 		return shim.Error(fmt.Errorf("set event: %w", err).Error())
 	}
 
-	// 将元数据状态写入账本
+	// Write metadata status to the ledger
 	if err := broker.putMap(stub, outterMeta, outMeta); err != nil {
 		return shim.Error(err.Error())
 	}
@@ -369,17 +370,17 @@ func (broker *Broker) EmitInterchainEvent(stub shim.ChaincodeStubInterface, args
 }
 ```
 
-以上就是调用跨链合约时所做的，本质上其实只是在跨链合约中通过 `SetEvent()` 设置了一个触发一个事件，再在插件中通过 `RegisterChaincodeEvent()` 进行订阅监听。
+This is what happens when calling the cross-chain contract. Essentially, it just sets an event trigger through `SetEvent()` in the cross-chain contract, and then subscribes and monitors it in the plugin through `RegisterChaincodeEvent()`.
 
 ```go
 SetEvent(name string, payload []byte) error
 ```
 
-`SetEvent()` 是 `shim` 包下的一个接口，主要传入名称与 payload 数组，关于链码事件监听原理与细节详见 <[Hyperledger Fabric Go SDK 事件分析](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)>。
+`SetEvent()` is an interface under the `shim` package, mainly passing in name and payload array. For details on chaincode event monitoring principles and details, please refer to <[Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)>.
 
-### 业务合约
+### Business Contract
 
-分析完了跨链合约，我们来看看业务合约是如何调用跨链合约的呢，以示例中的 `data_swapper.go` 数据交换合约为例。
+After analyzing the cross-chain contract, let's see how the business contract calls the cross-chain contract, taking the data exchange contract `data_swapper.go` in the example as an instance.
 
 ```go
 func (s *DataSwapper) get(stub shim.ChaincodeStubInterface, args []string) pb.Response {
@@ -408,7 +409,7 @@ func (s *DataSwapper) get(stub shim.ChaincodeStubInterface, args []string) pb.Re
 }
 ```
 
-如想在 `data_swapper.go` 业务合约中获取其他链的信息，通过 `switch...case...` 在调用 `get` 方法时首先对输入参数数组 `args []string` 的长度进行判断，当长度为 1 时，正常调用自身合约进行查询，而当长度为 2 时，首先通过 fabric 提供的 `ToChaincodeArgs()` 方法将参数从 `string` 转为链码参数数组格式。
+To get information from other chains in the `data_swapper.go` business contract, it first judges the length of the input parameter array `args []string` through `switch...case...` when calling the `get` method. When the length is 1, it normally calls its own contract for query, and when the length is 2, it first uses the `ToChaincodeArgs()` method provided by Fabric to convert the parameters from `string` to chaincode parameter array format.
 
 ```go
 func ToChaincodeArgs(args ...string) [][]byte {
@@ -420,17 +421,17 @@ func ToChaincodeArgs(args ...string) [][]byte {
 }
 ```
 
-然后直接在业务链码中通过 `InvokeChaincode()` 方法调用跨链合约，并传入参数和通道 ID，至此就完成了一次跨链数据查询链码调用。
+Then, it directly calls the cross-chain contract through the `InvokeChaincode()` method in the business chaincode, and passes in parameters and channel ID, thus completing a cross-chain data query chaincode call.
 
-## 总结
+## Conclusion
 
-以上就是对跨链交易流程与 BitXHub 跨链插件（Fabric）源码解读，也希望在此过程中加深对跨链机制和相关平台的理解，未来能更好地参与到其开源建设中。
+The above is an analysis of the cross-chain transaction process and BitXHub cross-chain plugin (Fabric) source code. I hope that through this process, I can deepen my understanding of cross-chain mechanisms and related platforms, and be able to better participate in its open-source construction in the future.
 
-## 参考资料
+## References
 
-> 1. [跨链技术平台 BitXHub](https://github.com/gocn/opentalk/tree/main/PhaseTen_BitXHub)
+> 1. [Cross-chain Technology Platform BitXHub](https://github.com/gocn/opentalk/tree/main/PhaseTen_BitXHub)
 > 2. [BitXHub Document](https://meshplus.github.io/bitxhub/bitxhub/introduction/summary/)
 > 3. [meshplus/pier-client-fabric](https://github.com/meshplus/pier-client-fabric)
-> 4. [十问 BitXHub:谈谈跨链平台的架构设计](https://tech.hyperchain.cn/bitxhub-design-thinking/)
-> 5. [跨链合约编写文档](https://github.com/meshplus/bitxhub/wiki/跨链合约编写文档)
-> 6. [Hyperledger Fabric Go SDK 事件分析](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
+> 4. [Ten Questions about BitXHub: Discussing the Architecture Design of Cross-chain Platforms](https://tech.hyperchain.cn/bitxhub-design-thinking/)
+> 5. [Cross-chain Contract Writing Documentation](https://github.com/meshplus/bitxhub/wiki/跨链合约编写文档)
+> 6. [Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)

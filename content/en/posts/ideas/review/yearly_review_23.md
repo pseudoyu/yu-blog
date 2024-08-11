@@ -1,5 +1,5 @@
 ---
-title: "23 岁的自白：去追寻意义"
+title: "Confessions at 23: Seeking Meaning"
 date: 2020-06-06T00:00:00+08:00
 draft: false
 tags: ["review","future","university", "life", "romance"]
@@ -8,40 +8,40 @@ authors:
 - "pseudoyu"
 ---
 
-## 23 岁的自白：去追寻意义
+## Confessions of a 23-Year-Old: Seeking Meaning
 
 ![mtr_window_me](https://image.pseudoyu.com/images/mtr_window_me.jpg)
 
-现在是 2020 年 6 月 6 日，我 23 岁了，这个年纪似乎是一个尴尬的存在，若按照人生阶段来界定，本科毕业已经是一年之前，而离两个本命年也还为时尚早，人生阅历远不足以去给予他人什么忠告，却也想写点东西对自己过去的几年有个交代。
+Today is June 6, 2020, and I am 23 years old. This age seems to be an awkward existence. If defined by life stages, my undergraduate graduation is already a year behind, yet it's still too early for two zodiac years. My life experience is far from sufficient to offer advice to others, but I still want to write something to account for my past few years.
 
-高中三年的人生很容易概括，不断学习取得更好的成绩就已经足以填满生活的大部分意义，也幸而收获一个挚友，以及一份并不圆满的单恋。而高考更像是一个休止符，在打破原有的生活平衡后却并未给自己多少喘息的机会，就似乎一切都戛然而止。很害怕，那之后生活的意义是什么呢？
+The three years of high school life are easy to summarize. Continuous learning to achieve better grades was enough to fill most of the meaning of life. Fortunately, I also gained a close friend and an unrequited love that was not perfect. The college entrance examination was more like a caesura, breaking the original balance of life without giving myself much chance to catch my breath, and then everything seemed to come to an abrupt end. I was afraid, what would be the meaning of life after that?
 
-高考结束后的暑假和挚友加入了一个国际支教团赴湖南支教，期间萌生读新闻系的想法，但刚刚过线的分数仅仅允许我在武理的英语和社会工作两个专业之中祈祷前者，在一个新的阶段还未到来之时就已经陷入茫然。
+During the summer vacation after the college entrance examination, I joined an international volunteer teaching team with my close friend to teach in Hunan. During that time, I had the idea of studying journalism, but my score, which had just passed the line, only allowed me to pray for the former between English and Social Work at Wuhan University of Technology. Even before a new stage had arrived, I was already lost in confusion.
 
-九月，一个人带着行李前往武汉 —— 一个过去十几年未有过任何交集的城市，陌生感与新鲜感在最初的几周后也都渐渐化为迷茫与恐慌，不知道自己是在寻找什么，人在没有找到自己追求的事物时，往往会去寻求一个替代性的简单目标。那时的我，选择了学生工作。
+In September, I traveled alone with my luggage to Wuhan - a city I had no connection with for the past dozen years. The sense of unfamiliarity and novelty gradually turned into confusion and panic after the first few weeks. Not knowing what I was looking for, people often seek a simple alternative goal when they haven't found what they're pursuing. At that time, I chose student work.
 
-说实话就谈吐与性格而言我远不及很多同届的部员，上个舞台都紧张到自己绊自己，开个会都磕磕巴巴，而交个新朋友也会脸红。所幸在几次例行的活动后也模模糊糊地发现这是一件可以花精力和时间去做好的事，于是开始学修图、设计海报、制作 PPT 和剪辑视频，对于有机会发挥作用的任务都尽量去争取，最终也都取得了不错的结果。
+To be honest, in terms of eloquence and personality, I was far inferior to many of my fellow department members. I was so nervous on stage that I tripped over myself, stuttered in meetings, and blushed when making new friends. Fortunately, after a few routine activities, I vaguely discovered that this was something I could spend energy and time to do well. So I started learning photo editing, poster design, PPT production, and video editing, striving for any task that had the opportunity to make a difference, and ultimately achieved good results.
 
-转眼就到了转专业申请的时间，却又犹豫了，如果新闻系只是自己的一时之念，努力去争取的这个选择并不是最终想要的，而只是一种逃避，那还有意义吗？最终放弃了申请，现在想想这其实也是一种对未知的逃避。
+Before I knew it, it was time to apply for a major change, but I hesitated again. If journalism was just a whim, and the choice I had worked hard to strive for wasn't what I ultimately wanted, but just a form of escape, would it still be meaningful? In the end, I gave up applying, which now I think was also a kind of escape from the unknown.
 
-大二大三渐渐在学校与学院的各个学生组织中担任重要角色，校易班副站长、院心协会长、学生会学习部部长也成为了身上醒目的标签。一周三四个会议，审不完的推送，熬夜肝视频、策划是常态，苦是真的苦，但与之相伴的是认识了很多有趣的伙伴以及很崇拜的指导老师。至今都仍觉得那段经历是自己大学的高光时刻。
+In my sophomore and junior years, I gradually took on important roles in various student organizations at the school and college, becoming the deputy station master of the school's Yiban, the president of the college's Heart Association, and the head of the Student Union's Learning Department. These became prominent labels on me. Three or four meetings a week, endless WeChat posts to review, staying up late to edit videos and plan events became the norm. It was truly hard work, but with it came the opportunity to meet many interesting companions and admirable mentoring teachers. To this day, I still feel that period was the highlight of my college years.
 
-当课程渐渐变得乏味，学生工作也渐渐趋于稳定，内心又开始陷入极重的焦虑和恐慌，对英语的兴趣和付出也就仅仅能够支撑我到本科结束，对于工作岗位却也毫无头绪，想更多探索未来的可能性，但在各个赛道上都难以具备足够的竞争力，甚至也不知道该为了什么目标前进。
+As courses gradually became boring and student work stabilized, my heart again fell into extreme anxiety and panic. My interest and effort in English could only sustain me to the end of my undergraduate studies, but I had no clue about job positions. I wanted to explore more possibilities for the future, but it was difficult to have enough competitiveness in various tracks, and I didn't even know what goal to move forward for.
 
-当时有在各个互联网平台写文章的习惯，机缘巧合认识了一些区块链企业的从业者，其中一位邀请我面谈，惊讶却也害怕。犹豫再三后还是决定飞往厦门，又开启了一段新的旅程。自此，借由实习去各地企业考察、参加会议，慢慢也参与了一些项目的筹备与决策。现在跟许多当时的 Boss 和同事仍是很好的朋友，即使大多都已经是我父辈的年纪。站在现在的视角回看，对“单刀赴会”之举心有余悸，却也暗自庆幸当时的冲动能带来这些经历与改变。
+At that time, I had a habit of writing articles on various internet platforms. By chance, I met some blockchain industry practitioners, one of whom invited me for an interview. I was surprised but also afraid. After much hesitation, I decided to fly to Xiamen, opening a new journey. From then on, I visited various enterprises for internships, attended conferences, and gradually participated in the preparation and decision-making of some projects. I'm still good friends with many of the bosses and colleagues from that time, even though most of them are my father's age. Looking back from my current perspective, I'm terrified of that "solo mission," but I'm also secretly grateful for the experiences and changes that my impulsiveness brought at that time.
 
 ![trip](https://image.pseudoyu.com/images/trip.jpg)
 
-期间买了相机，记录下沿途的风景与心境，有很短暂的一段时间我觉得这就是自己理想的生活状态 —— 足够的自由，足够的成长。但当自己逐渐迈入大四，来自未来不确定性的强烈压力又让自己回到对一切都充满质疑的状态，周围的一切都在告诉自己应该快去找一份不错的工作，要拥有一个令旁人称道的生活，然而，自己依然不知道该前往哪里。于是，着手组建了自己在线教育的创业公司，有很支持创业的老师，有协同完成录制剪辑等事宜的学妹，一切比预想的顺利许多。于是又陷入忙碌而逃避的状态，也常常自嘲，这样大小也算是个创业者了，是不是可以不用再去面对来自就业和不确定性的压力。过去的经历以及自己还值得一提的自律习惯让我能够摒弃一些浮躁的念头，避免去急功近利，但仍然没能告诉我该往哪前进。
+During this period, I bought a camera to record the scenery and state of mind along the way. For a very brief time, I felt this was my ideal state of life - enough freedom, enough growth. But as I gradually entered my senior year, the strong pressure from the uncertainty of the future brought me back to a state of questioning everything. Everything around me was telling me that I should quickly find a good job, to have a life that others would praise, but I still didn't know where to go. So, I set about building my own online education startup. There were teachers who were very supportive of entrepreneurship, and junior students who collaborated on recording and editing. Everything was much smoother than expected. So I fell into a busy but avoidant state, often self-mocking, thinking that I was now an entrepreneur of sorts, big or small, and wondering if I could avoid facing the pressure from employment and uncertainty. My past experiences and my still commendable self-discipline habits allowed me to eliminate some impetuous thoughts and avoid seeking quick success, but they still couldn't tell me where to go.
 
-毕业前的三个月，猛然发觉自己所在做的这些其实也不过是躲进自己的世界里自得其乐罢了，还有很多不一样的生活方式，终究缺少了体验所带来的思考过程。辞职，回武汉，申请台湾计算机专业的硕士，其实这些决定也并没有自己所想象的那样艰难。五月底，当收到台大一位教授提前的实验室邀请时，是真的很开心，有些心虚地开心着，似乎自己总是会被运气眷顾，哪怕走了很多弯路。正式结果是在旅途中出的，打开申请系统，“未录取”三个字有些扎眼，我对当时的具体心绪已经有些模糊，但大概就是高点坠落的绝望感吧。发邮件问教授，未回复。
+Three months before graduation, I suddenly realized that what I was doing was just hiding in my own world and being self-satisfied. There are many different ways of life, and I ultimately lacked the thinking process that comes from experience. Resigning, returning to Wuhan, applying for a master's degree in computer science in Taiwan - these decisions weren't actually as difficult as I had imagined. At the end of May, when I received an early lab invitation from a professor at National Taiwan University, I was truly happy, nervously happy, as if I was always favored by luck, even if I had taken many detours. The official result came out during a trip. Opening the application system, the three words "Not Admitted" were a bit glaring. I'm a bit fuzzy about my exact emotions at that time, but it was probably the feeling of despair falling from a high point. I emailed the professor but received no reply.
 
 ![hku_offer_letter](https://image.pseudoyu.com/images/hku_offer_letter.jpg)
 
-对毕业其实也没有什么实感，就似乎离别一些人，不知道是否能再见到。其实自己也无法免俗，未就业，未入学，似乎是被打上了失败者的标签，消沉地过了两个月。回归原本的工作，继续开始工作室的业务，备考雅思，反复修改文书，申请香港留学。收到港大计算机学院的 offer 时，有些百感交集，却多了份笃定，原来自己真的值得啊。
+I didn't really feel much about graduation, it just seemed like saying goodbye to some people, not knowing if I would see them again. I couldn't escape the common sentiment either - unemployed, not in school, it seemed I was labeled a failure. I spent two months in depression. I returned to my original work, continued the business of the studio, prepared for IELTS, repeatedly revised my personal statement, and applied for studies in Hong Kong. When I received the offer from the Computer Science Department of the University of Hong Kong, I felt a mix of emotions, but with more certainty. So I was truly worthy after all.
 
-我仍然不觉得自己触碰到了一直在找寻的意义，如今的一切成败是非也仅仅是妥协所形成的答案，也许永远找不到了，但这个过程却给了前进的勇气，也许思考本身就是建构意义的过程，让我不再期待某个瞬间能够顿悟，只是希望继续向前，体验和追寻着自己的人生。
+I still don't feel like I've touched the meaning I've been looking for. All the current successes and failures are just answers formed by compromise. Maybe I'll never find it, but this process has given me the courage to move forward. Perhaps thinking itself is the process of constructing meaning, no longer expecting to have an epiphany at some moment, just hoping to continue forward, experiencing and pursuing my own life.
 
 ![sea_kids](https://image.pseudoyu.com/images/sea_kids.jpg)
 
-祝 23 岁的自己，快乐。
+Wishing my 23-year-old self, happiness.

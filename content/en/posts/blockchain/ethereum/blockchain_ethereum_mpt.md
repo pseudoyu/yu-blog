@@ -1,5 +1,5 @@
 ---
-title: "Ethereum MPT（Merkle Patricia Tries）详解"
+title: "Detailed Explanation of Ethereum MPT (Merkle Patricia Tries)"
 date: 2021-08-16T12:12:17+08:00
 draft: false
 tags: ["blockchain", "ethereum"]
@@ -8,74 +8,75 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-最近接到了一个工作任务，将项目智能合约状态树中的数据结构从红黑树改为字典树，并对比一下两个数据结构的性能，Trie 主要参照的是 Ethereum 官方的 Java 实现 [ethereum/ethereumj](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie)，而红黑树则是自己实现，本文则是对两个数据结构的理论和实际表现对比的记录。
+Recently, I received a work assignment to change the data structure of the project's smart contract state tree from a red-black tree to a trie, and to compare the performance of the two data structures. The Trie mainly refers to Ethereum's official Java implementation [ethereum/ethereumj](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie), while the red-black tree is implemented by myself. This article is a record of the theoretical and practical comparison of the two data structures.
 
-## 数据结构
+## Data Structures
 
-### Red-Black Tree - 红黑树
+### Red-Black Tree
 
-红黑树是一种近似平衡的二叉查找树，含有红黑结点，能够确保任何一个结点的左右子树高度差小于两倍。
+A red-black tree is an approximately balanced binary search tree containing red and black nodes, ensuring that the height difference between the left and right subtrees of any node is less than twice.
 
 ![red_black_tree_2](https://image.pseudoyu.com/images/red_black_tree_2.png)
-#### 性质
 
-必须满足以下五个性质：
+#### Properties
 
-1. 结点为红色或黑色
-2. 根结点为黑色
-3. 叶子结点（NIL）为黑色
-4. 每个红色节点的两个子结点为黑色
-5. 任意一个结点到每个叶子结点的路径都包含相同数量的黑色结点
+It must satisfy the following five properties:
 
-红黑树并不是完美平衡的，但是左子树和右子树的层数是相等的，因此，也成为黑色完美平衡。因为是近似平衡的，所以旋转的频次会降低，维护成本下降，时间复杂度维持在 LogN。
+1. Nodes are either red or black
+2. The root node is black
+3. Leaf nodes (NIL) are black
+4. Both children of every red node are black
+5. Every path from a given node to any of its descendant NIL nodes contains the same number of black nodes
 
-#### 操作
+Red-black trees are not perfectly balanced, but the number of layers in the left and right subtrees is equal, thus also known as black perfect balance. Because it is approximately balanced, the frequency of rotations is reduced, maintenance costs decrease, and time complexity remains at LogN.
 
-红黑树主要通过三种操作来保持自平衡：
+#### Operations
 
-- 左旋
-- 右旋
-- 变色
+Red-black trees mainly maintain self-balance through three operations:
 
-#### 与 AVL 的对比
+- Left rotation
+- Right rotation
+- Color change
 
-- AVL 提供了更快的查找操作（因为完美平衡）
-- 红黑树提供了更快的插入和删除操作
-- AVL 存储的结点信息更多（平衡因子与高度），因此占存储空间更大
-- 读操作多、写操作少的时候用 AVL 更合适，多用于数据库；当写操作较多时一般使用红黑树，简洁好实现，多用于各类高级语言的库中，如 map、set 等
+#### Comparison with AVL Trees
 
-#### 代码实现
+- AVL trees provide faster lookup operations (due to perfect balance)
+- Red-black trees provide faster insertion and deletion operations
+- AVL trees store more node information (balance factor and height), thus occupying more storage space
+- AVL trees are more suitable when read operations are frequent and write operations are few, often used in databases; red-black trees are generally used when write operations are more frequent, being concise and easy to implement, often used in libraries of various high-level languages, such as map, set, etc.
 
-因为红黑树较为复杂，实现代码上传至 GitHub 供学习查看。
+#### Code Implementation
+
+As red-black trees are relatively complex, the implementation code has been uploaded to GitHub for learning and reference.
 
 [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java)
 
-### Trie - 字典树
+### Trie - Dictionary Tree
 
-Trie 被称为字典树，又称单词查找树或键树，常用于统计和排序大量的字符串，如搜索引擎的文本磁盘统计等。
+Trie, also known as a dictionary tree, prefix tree, or key tree, is commonly used for statistics and sorting of large amounts of strings, such as text disk statistics in search engines.
 
-它能够最大限度减少无谓的字符串比较，查询效率较高。
+It can minimize unnecessary string comparisons, resulting in high query efficiency.
 
 ![trie_structure](https://image.pseudoyu.com/images/trie_structure.png)
-#### 性质
 
-1. 结点不存完整单词
-2. 从根结点到某一结点，路径上经过的字符连接起来为该结点对应的字符串
-3. 每个结点的所有子结点路径代表的字符都不相同
-4. 结点可以存储额外信息，如词频等
+#### Properties
 
+1. Nodes do not store complete words
+2. The string corresponding to a node is formed by connecting the characters passed through on the path from the root node to that node
+3. The path characters represented by all child nodes of each node are different
+4. Nodes can store additional information, such as word frequency
 
-#### 结点内部实现
+#### Internal Node Implementation
 
 ![trie_nodes](https://image.pseudoyu.com/images/trie_nodes.png)
 
-字典树的高度较低，但占用的存储空间较大，核心思想是空间换时间。
+The height of a trie is relatively low, but it occupies more storage space. The core idea is to trade space for time.
 
-利用字符串的公共前缀来降低查询时间的开销以达到提高效率的目的，可以很天然地解决单词联想等业务场景。
+It uses the common prefixes of strings to reduce the cost of query time to achieve the purpose of improving efficiency, which can naturally solve business scenarios such as word association.
 
-#### 代码实现
+#### Code Implementation
 
 ```java
 class Trie {
@@ -126,49 +127,49 @@ class Trie {
 
 ### Modified Merkle Patricia Tries
 
-#### 以太坊账户状态存储方式
+#### Ethereum Account State Storage Method
 
-1. 使用 Key-Value 的哈希表存储在每次出块时都会有新交易打包进块中，从而改变 merkle tree，但事实上只有一小部分账户发生改变，成本过高
-2. 直接用 merkle tree 存放账户，要改内容时直接改 merkle tree 也不可行，因为 merkle tree 没有提供一个高校的查找和更新方法
-3. 使用 sorted merkle tree 也不可行，因为新增账户产生的账户地址是随机的，需要插入重新排序
+1. Using a Key-Value hash table for storage is costly, as new transactions are packaged into blocks each time a block is produced, changing the Merkle tree, but in fact, only a small number of accounts change.
+2. Directly using a Merkle tree to store accounts is not feasible, as it does not provide an efficient method for searching and updating.
+3. Using a sorted Merkle tree is also not feasible, as new account addresses are randomly generated, requiring insertion and resorting.
 
-#### MPT 结构
+#### MPT Structure
 
-利用了 Trie 结构的特点
+Utilizing the characteristics of the Trie structure:
 
-1. 打乱顺序后 Trie 结构不变，天然排序，即使插入新值也不影响，适用于以太坊 account-base 的结构
-2. 具有很好的更新局部性，更新时不用遍历整棵树
+1. The Trie structure remains unchanged after shuffling, naturally sorted, and unaffected even when inserting new values, suitable for Ethereum's account-based structure.
+2. It has good update locality, not requiring traversal of the entire tree when updating.
 
-但是 Trie 结构比较浪费存储空间，当键值对分布稀疏时效率较低，而以太坊的账户地址是 40 位十六进制数，地址约为 2^160 种，极其稀疏（防止哈希碰撞）。
+However, the Trie structure wastes storage space and is inefficient when key-value pairs are sparsely distributed. Ethereum account addresses are 40-digit hexadecimal numbers, with approximately 2^160 possible addresses, which are extremely sparse (to prevent hash collisions).
 
-因此，需要对 Trie 结构进行路径压缩，也就是 Pactricia Trie，经过压缩后，树的高度明显减少，空间和效率都得到提升。
+Therefore, the Trie structure needs to be compressed, which is the Patricia Trie. After compression, the height of the tree is significantly reduced, improving both space and efficiency.
 
 ![pactricia_trie](https://image.pseudoyu.com/images/pactricia_trie.png)
 
-#### Modified MPT 结构
+#### Modified MPT Structure
 
-而以太坊真正采用的是 Modified MPT 结构，其结构如下
+The structure actually adopted by Ethereum is the Modified MPT structure, as shown below:
 
 ![modified_merkle_pactricia_trie](https://image.pseudoyu.com/images/modified_merkle_pactricia_trie.png)
 
-每次发布新的区块时，状态树中的新节点的值会发生变化，并不是更改原值，而是新建一些分支，保留原来的状态（因此可以实现回滚）。
+When a new block is published, the values of the new nodes in the state tree change. Instead of modifying the original value, new branches are created, preserving the original state (thus enabling rollback).
 
-在以太坊系统中，分叉是常态，orphan block 中的数据都要向前回滚，而由于 ETH 中有智能合约，为了支持智能合约的回滚，必须保持之前的状态。
+In the Ethereum system, forks are common, and data in orphan blocks needs to be rolled back. Due to the presence of smart contracts in ETH, to support the rollback of smart contracts, previous states must be maintained.
 
-#### 代码实现
+#### Code Implementation
 
-代码参照以太坊的 Java 实现。
+The code refers to Ethereum's Java implementation.
 
 [ethereum/ethereumj - GitHub](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie)
 
-## 总结
+## Conclusion
 
-以上就是对`Ethereum MPT` 与红黑树数据结构的解析，在刷 LeetCode 痛苦的时候想过很多次这些学了也用不到，没想到那么快就有了应用场景，还是要好好理解和实践呀！
+The above is an analysis of the `Ethereum MPT` and red-black tree data structures. When struggling with LeetCode, I often thought that learning these would be useless, but I didn't expect to have an application scenario so soon. We still need to understand and practice well!
 
-## 参考资料
+## References
 
-> 1. [30 张图带你彻底理解红黑树](https://www.jianshu.com/p/e136ec79235c)
-> 2. [LeetCode 实现 Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode-ti500/)
+> 1. [30 images to help you thoroughly understand red-black trees](https://www.jianshu.com/p/e136ec79235c)
+> 2. [LeetCode Implementation of Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode-ti500/)
 > 3. [pseudoyu/RedBlackTree-Java](https://github.com/pseudoyu/RedBlackTree-java)
-> 4. [以太坊源码分析 -- MPT 树](https://segmentfault.com/a/1190000016050921)
+> 4. [Ethereum Source Code Analysis -- MPT Tree](https://segmentfault.com/a/1190000016050921)
 > 5. [ethereum/ethereumj](https://github.com/ethereum/ethereumj/tree/develop/ethereumj-core/src/main/java/org/ethereum/trie)

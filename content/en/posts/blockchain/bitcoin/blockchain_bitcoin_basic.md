@@ -1,5 +1,5 @@
 ---
-title: "比特币核心技术解读"
+title: "Bitcoin Core Technology Interpretation"
 date: 2021-02-17T12:12:17+08:00
 draft: false
 tags: ["blockchain", "bitcoin"]
@@ -8,248 +8,248 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-在上一篇文章《[区块链基础知识与关键技术](https://www.pseudoyu.com/en/2021/02/12/blockchain_basic/)》里对区块链的基础知识和关键技术进行了梳理，而比特币是区块链最典型的应用，本文将对比特币核心技术进行解读，如有错漏，欢迎交流指正。
+In the previous article "[Blockchain Fundamentals and Key Technologies](https://www.pseudoyu.com/en/2021/02/12/blockchain_basic/)", I outlined the basic knowledge and key technologies of blockchain. As Bitcoin is the most typical application of blockchain, this article will interpret the core technologies of Bitcoin. If there are any errors or omissions, please feel free to discuss and correct them.
 
-## 比特币系统
+## Bitcoin System
 
-比特币是在 2009 年由中本聪发明的一个数字货币，主要是为了反抗中心化的银行体系，因为其精巧的系统设计和安全性，价值也在迅速提升。同时，因为它并不与真实世界的身份绑定，具备强大的匿名性，也被用于非法交易、洗钱、勒索等恶意行为，引起了一些争议。
+Bitcoin is a digital currency invented by Satoshi Nakamoto in 2009, mainly to counter the centralized banking system. Due to its ingenious system design and security, its value has been rapidly increasing. At the same time, because it is not tied to real-world identities, it has strong anonymity and has also been used for illegal transactions, money laundering, extortion, and other malicious activities, causing some controversy.
 
-作为一个去中心化的区块链系统，所有人都可以访问，也可以在本地维护一个节点参与到比特币网络中，下文也会应用`Bitcoin Core`客户端在本地维护一个节点。
+As a decentralized blockchain system, everyone can access it and maintain a node locally to participate in the Bitcoin network. The following text will also use the Bitcoin Core client to maintain a node locally.
 
 ![bitcoin_network_nodes](https://image.pseudoyu.com/images/bitcoin_network_nodes.png)
 
-节点分为全节点和轻节点两种，早期所有的节点都是全节点，但随着数据量越来越大，运行在手机或平板等设备上的比特币客户端不需要存储整个区块链的信息，称为`Simplified Payment Verification(SPV)`节点，也叫轻节点。
+Nodes are divided into full nodes and light nodes. In the early days, all nodes were full nodes, but as the amount of data grew larger, Bitcoin clients running on devices such as mobile phones or tablets do not need to store information about the entire blockchain. These are called Simplified Payment Verification (SPV) nodes, or light nodes.
 
-`Bitcoin Core`客户端就是一个全节点，下文也会具体讲述。全节点一直在线，维护着完整的区块链信息；因为其内存里维护着完整的`UTXO`集合，所以通过验证整个区块链的区块和交易信息（从创世区块到最新区块）来验证交易的合法性；也会决定哪些交易会被打包到区块中；验证交易即挖矿，可以决定沿着哪条链继续挖，在出现等长的分叉时，也会选择哪一个分叉；同时监听别的矿工挖出来的区块，验证合法性。
+The Bitcoin Core client is a full node, which will be discussed in detail below. Full nodes are always online, maintaining complete blockchain information. Because they maintain a complete set of UTXOs in memory, they can verify the legitimacy of transactions by verifying the block and transaction information of the entire blockchain (from the genesis block to the latest block). They also decide which transactions will be packaged into blocks. Verifying transactions, i.e., mining, can decide which chain to continue mining on, and in the case of equal-length forks, can choose which fork to follow. They also monitor blocks mined by other miners and verify their legitimacy.
 
-轻节点不需要一直在线，也不需要保留整个区块链（数据量庞大），只需要保留每个区块的块头；且只需要保存与自己有关的区块，而不需要保存链上全部交易；因为并没有保存全部信息，无法验证大多数交易的合法性和网上发布的新区块的正确性，只能检验与自己有关的区块；可以通过`Merkle Proof`验证一笔交易存在，但不能确认一笔交易不存在；可以验证挖矿的难度，因为保存在块头中。
+Light nodes do not need to be online all the time, nor do they need to retain the entire blockchain (which is a large amount of data). They only need to keep the block headers of each block and only need to save the blocks related to themselves, rather than all transactions on the chain. Because they do not save all the information, they cannot verify the legitimacy of most transactions and the correctness of new blocks published online. They can only check the blocks related to themselves. They can verify the existence of a transaction through Merkle Proof, but cannot confirm that a transaction does not exist. They can verify the difficulty of mining because it is stored in the block header.
 
-> 下面通过一个示例来讲解一下全节点和轻节点的交易验证方式。
+> Let's explain the transaction verification methods of full nodes and light nodes through an example.
 
-假如要验证一个位于 block 300,000 的交易 T，全节点会查验全部 300,000 个区块（直到创世区块），建立一个完整`UTXO`的数据库来确保这个交易没有被花费；而轻节点则会通过`Merkle Path`来链接所有和交易 T 相关的区块，然后等待 300,001 至 300,006 个区块来进行确认，从而验证交易的合法性。
+Suppose we need to verify a transaction T located in block 300,000. A full node would examine all 300,000 blocks (up to the genesis block), building a complete UTXO database to ensure this transaction has not been spent. A light node, on the other hand, would use the Merkle Path to link all blocks related to transaction T, then wait for blocks 300,001 to 300,006 for confirmation, thereby verifying the legitimacy of the transaction.
 
-### 区块链结构
+### Blockchain Structure
 
-区块链是由顺序链接起来的区块组成的一种数据结构，可以存于单文件或者数据库中，`Bitcoin Client`使用 Google 的`LevelDB`数据库存储数据。每一个区块都指向前一个区块，任何一个区块进行了修改的话，其所有后面的区块都会受到影响，所以想要篡改一个区块的话需要同时篡改之后的所有区块，这需要大量的算力，往往成本大于收益，因此极大地保障了安全性。
+Blockchain is a data structure composed of sequentially linked blocks, which can be stored in a single file or database. The Bitcoin Client uses Google's LevelDB database to store data. Each block points to the previous block. If any block is modified, all subsequent blocks will be affected. Therefore, to tamper with a block, one needs to tamper with all subsequent blocks simultaneously, which requires a large amount of computing power. Often, the cost outweighs the benefit, thus greatly ensuring security.
 
-区块链结构包含区块`Block Size (4 bytes)`、`Block Header`、`Transaction Counter(1-9 bytes)`和`Transaction`几个核心组成部分。
+The blockchain structure includes several core components: Block Size (4 bytes), Block Header, Transaction Counter (1-9 bytes), and Transactions.
 
-区块链的块头大小为 80 bytes，存储着`Version(4 bytes)`、`Previous Block Hash(32 bytes)`、`Merkle Tree Root(32 bytes)`、`Timestamp(4 bytes)`、`Difficulty Target(4 bytes)`和`Nonce(4 bytes)`。
+The block header size is 80 bytes, storing Version (4 bytes), Previous Block Hash (32 bytes), Merkle Tree Root (32 bytes), Timestamp (4 bytes), Difficulty Target (4 bytes), and Nonce (4 bytes).
 
-每一个区块的哈希值通过对区块头进行两次哈希运算，即`SHA256(SHA256(Block Header))`，并不存在区块链结构中，而是由每个节点接收到区块后计算得到，是独一无二的；此外，`Block Height`也可以作为区块的标识符。
+The hash value of each block is obtained by performing a double hash operation on the block header, i.e., SHA256(SHA256(Block Header)). It does not exist in the blockchain structure but is calculated by each node after receiving the block and is unique. In addition, Block Height can also serve as an identifier for the block.
 
 #### Merkle Tree
 
-`Merkle Tree`默克尔树是区块链中很重要的一个数据结构，主要通过哈希算法来验证较大数据集（也是通过双重哈希的方式`SHA256(SHA256(Block Header))`），结构如下图所示：
+The Merkle Tree is a very important data structure in blockchain, mainly used to verify larger data sets through hash algorithms (also through a double hash method SHA256(SHA256(Block Header))). The structure is shown in the following diagram:
 
 ![merkle_tree_example](https://image.pseudoyu.com/images/merkle_tree_example.png)
 
-通过`Merkle Tree`的方式可以很快地验证一个交易存在于某个区块中（算法复杂度为`LogN`），例如，如果要验证一个交易 K 存在于区块中，只需要访问很少的节点
+Using the Merkle Tree method, one can quickly verify that a transaction exists in a certain block (with an algorithm complexity of LogN). For example, to verify that a transaction K exists in a block, only a few nodes need to be accessed.
 
 ![merkle_proof_example](https://image.pseudoyu.com/images/merkle_proof_example.png)
 
-因为比特币网络中存在大量交易，这种方式能够极大提高效率，如下图所示：
+Because there are a large number of transactions in the Bitcoin network, this method can greatly improve efficiency, as shown in the following diagram:
 
 ![merkle_proof_efficiency](https://image.pseudoyu.com/images/merkle_proof_efficiency.png)
 
-因为轻节点（例如手机上的比特币钱包）不保存整个区块链数据，通过`Merkle Tree`结构可以很方便地查找交易，轻节点会构造一个`Bloom filter`布隆过滤器来得到与自身相关的交易：
-1. 首先，初始化布隆过滤器为空值，获取钱包中的所有地址，创建一个检索模式来匹配与这个交易输出相关的地址，将检索模式加入布隆过滤器；
-2. 然后布隆过滤器被发送至各个节点（通过`filterload`消息）；
-3. 节点收到后会发送一个包含符合条件的区块头和符合交易的`Merkle Path`的`merkleblock`消息和一个包含过滤结果的`tx`消息。
+Because light nodes (such as Bitcoin wallets on mobile phones) do not save the entire blockchain data, transactions can be easily found through the Merkle Tree structure. Light nodes will construct a Bloom filter to obtain transactions related to themselves:
+1. First, initialize the Bloom filter to an empty value, get all addresses in the wallet, create a retrieval pattern to match the addresses related to this transaction output, and add the retrieval pattern to the Bloom filter;
+2. Then the Bloom filter is sent to various nodes (via the filterload message);
+3. After receiving it, the node will send a merkleblock message containing the block headers that meet the conditions and the Merkle Path of the matching transactions, and a tx message containing the filtering results.
 
-过程中，轻节点会使用`Merkle Path`来链接交易与区块，并通过区块头来组成区块链，从而能够验证交易存在于区块链中。
+During the process, the light node will use the Merkle Path to link transactions with blocks, and use block headers to form the blockchain, thus being able to verify that transactions exist in the blockchain.
 
-使用布隆过滤器会返回符合筛选条件的结果，也会存在着一些误报，因此返回了很多不相关的结果，也能够在轻节点向其他节点请求相关地址时保护了隐私性。
+Using a Bloom filter will return results that meet the screening conditions, and there will also be some false positives, so many irrelevant results are returned, which can also protect privacy when light nodes request relevant addresses from other nodes.
 
-### 比特币网络
+### Bitcoin Network
 
-比特币系统运行在一个 P2P 点对点网络上，节点之间是平等的，没有身份、权限的区别；没有中心化的服务器，网络也没有层级区分。
+The Bitcoin system runs on a P2P peer-to-peer network, where nodes are equal, without distinction of identity or permissions; there are no centralized servers, and the network has no hierarchical distinctions.
 
-每个节点都要维护一个等待上链的交易的集合，每个区块大小为 1M，因此需要几秒才能够穿到大多数的节点。假设一个节点监听到了 A->B 的交易，会将其写入集合，如果同时又发现了一个 A->C 的双花攻击，则不会再写入，而如果监听到同样一笔 A->B 的交易或者同一个币来源的 A->C 的交易，则会将该集合中 A->B 的交易删除。
+Each node needs to maintain a set of transactions waiting to be chained. Each block is 1M in size, so it takes a few seconds to pass to most nodes. Suppose a node monitors a transaction from A to B, it will write it into the set. If it simultaneously discovers a double-spending attack from A to C, it will not write it in. If it monitors the same A to B transaction or an A to C transaction from the same coin source, it will delete the A to B transaction in that set.
 
-### 比特币共识协议
+### Bitcoin Consensus Protocol
 
-比特币作为一个人人都可以参与的开发系统，需要解决恶意节点的威胁，解决思路为工作量证明机制，也就是算力投票机制，当产生一笔新交易，广播新的数据记录，全网执行共识算法，即矿工挖矿来验证记录，即求解随机数，率先解出难题的矿工获得记账权，产生新区块，然后对外广播新区块，其他节点验证通过后加至主链。
+As an open system that anyone can participate in, Bitcoin needs to solve the threat of malicious nodes. The solution is the proof-of-work mechanism, which is also known as the computing power voting mechanism. When a new transaction occurs, new data records are broadcast, and the whole network executes the consensus algorithm. Miners mine to verify the records, i.e., solve for random numbers. The miner who first solves the puzzle gets the right to record, generates a new block, then broadcasts the new block externally. After other nodes verify and pass, it is added to the main chain.
 
-### 钱包
+### Wallet
 
-作为一个数字货币系统，比特币有自己的钱包系统，主要由私钥、公钥和钱包地址三个部分组成。
+As a digital currency system, Bitcoin has its own wallet system, mainly composed of three parts: private key, public key, and wallet address.
 
-> 生成钱包地址的过程如下：
+> The process of generating a wallet address is as follows:
 
-1. 采用`ECDSA(Elliptic Curve Digital Signature Algorithm)`椭圆曲线算法，利用私钥生成对应的公钥
-2. 公钥很长且难以输入和记忆，因此再通过`SHA256`和`RIPEMD160`算法得到一个公钥哈希值
-3. 最后再用`Base58Check`进行处理，得到一个可读性较强的钱包地址
+1. Using the ECDSA (Elliptic Curve Digital Signature Algorithm), generate the corresponding public key using the private key.
+2. The public key is long and difficult to input and remember, so a public key hash value is obtained through SHA256 and RIPEMD160 algorithms.
+3. Finally, it is processed with Base58Check to obtain a more readable wallet address.
 
-### 交易过程
+### Transaction Process
 
-有了钱包（和资产）后，就可以开始交易了。我们来通过一个典型的比特币交易来理解这一流程：
+With a wallet (and assets), you can start trading. Let's understand this process through a typical Bitcoin transaction:
 
-A 和 B 都拥有一个比特币钱包地址（可以用 Bitcoin Client 生成，原理如上），假设 A 要给 B 转账 5 个 BTC，A 需要得到 B 的钱包地址，然后用自己的私钥对`A->B转账5个BTC`这笔交易签名（因为 A 的私钥仅有自己知道，所以拥有私钥则是拥有钱包资产的归属权）；然后发布这笔交易，在比特币系统中发起交易需要支付小额矿工费作为交易手续费；矿工会开始验证这笔交易的合法性，得到六个确认后交易就可以被比特币账本所接受，整个验证过程大约 10 分钟。
+A and B both have a Bitcoin wallet address (which can be generated by Bitcoin Client, the principle is as above). Suppose A wants to transfer 5 BTC to B. A needs to get B's wallet address, then use their own private key to sign the transaction "A transfers 5 BTC to B" (because only A knows their private key, having the private key is equivalent to owning the wallet assets). Then publish this transaction. In the Bitcoin system, initiating a transaction requires paying a small miner fee as a transaction fee. Miners will start verifying the legitimacy of this transaction. After six confirmations, the transaction can be accepted by the Bitcoin ledger. The entire verification process takes about 10 minutes.
 
-> 矿工为什么要消耗大量算力来验证交易呢？
+> Why do miners consume a large amount of computing power to verify transactions?
 
-矿工在验证过程中可以得到出块奖励和矿工费，出块奖励会四年递减，因此，后期主要激励是矿工费。
+Miners can get block rewards and miner fees during the verification process. Block rewards will decrease every four years, so in the later stages, the main incentive is miner fees.
 
-> 为什么验证要 10 分钟呢？
+> Why does verification take 10 minutes?
 
-比特币其实并不是绝对安全的，新交易容易受到一些恶意攻击，而通过控制挖矿难度把验证过程控制在 10 分钟左右则可以很大程度上阻止恶意攻击，这只是一种概率上的保证。
+Bitcoin is not absolutely secure. New transactions are susceptible to some malicious attacks. By controlling the mining difficulty to control the verification process to about 10 minutes, malicious attacks can be prevented to a large extent. This is just a probabilistic guarantee.
 
-> 比特币系统中怎么避免双重花费呢？
+> How does the Bitcoin system avoid double spending?
 
-比特币采用了一种叫`UTXO(Unspent Transaction Outputs)`的概念，当一个用户收到一笔 BTC 交易时，会计入`UTXO`中。
+Bitcoin adopted a concept called UTXO (Unspent Transaction Outputs). When a user receives a BTC transaction, it is recorded in the UTXO.
 
-在这个示例中，A 想要给 B 转账 5 个 BTC，A 的这 5 个 BTC 可能来自于两个`UTXO`(2 BTC + 3 BTC)，因此 A 在转账给 B 时，矿工需要检验的是这两笔`UTXO`在这笔交易之前有没有被花掉，如果检测已经被花费了，则交易不合法。
+In this example, A wants to transfer 5 BTC to B. A's 5 BTC might come from two UTXOs (2 BTC + 3 BTC). Therefore, when A transfers to B, what the miner needs to check is whether these two UTXOs have been spent before this transaction. If they detect that it has already been spent, then the transaction is invalid.
 
-下图很好地阐释了多笔交易的流向和`UTXO`的相关概念
+The following diagram well illustrates the flow of multiple transactions and the related concept of UTXO
 
 ![btc_utxo_example](https://image.pseudoyu.com/images/btc_utxo_example.png)
 
-此外，`UTXO`有一个很重要的特性，不可分割，假如 A 有 20 个 BTC，他想转账 5 个 BTC 给 B，那交易会先将 20 个 BTC 作为输入，然后产生两个输出，一个向 B 转账 5 个 BTC，一个返还给 A 剩下的 15 个 BTC，因此，A 又拥有了一笔价值为 15 BTC 的 `UTXO`；如果单个`UTXO`不够支付，则可以组合多个形成输入，但总额一定要大于交易额。
+In addition, UTXO has a very important characteristic: it is indivisible. Suppose A has 20 BTC and wants to transfer 5 BTC to B. The transaction will first take 20 BTC as input, then produce two outputs, one transferring 5 BTC to B, and one returning the remaining 15 BTC to A. Therefore, A now owns a UTXO worth 15 BTC. If a single UTXO is not enough to pay, multiple UTXOs can be combined to form an input, but the total must be greater than the transaction amount.
 
-> 矿工怎么验证交易发起者有足够的余额呢？
+> How do miners verify that the transaction initiator has sufficient balance?
 
-这个问题看起来很简单，第一反应是像支付宝这样查询一下余额是否足够就可以。但比特币是一种基于交易的账本模式，并没有帐户概念，因此并不能直接查询余额，要想知道一个帐户的剩余资产，则需要回顾以前所有的交易，并且找到所有`UTXO`并相加。
+This question seems simple at first glance. The first reaction might be to check if the balance is sufficient, like Alipay does. However, Bitcoin is a transaction-based ledger model without the concept of accounts. Therefore, balance cannot be directly queried. To know the remaining assets of an account, one needs to review all previous transactions and find and add up all UTXOs.
 
-### 交易模型
+### Transaction Model
 
-> 上文讲了一个交易是怎么发生的，那比特币交易由哪些部分组成呢？
+> We've discussed how a transaction occurs, but what parts make up a Bitcoin transaction?
 
 ![blockchain_bitcoin_script_detail](https://image.pseudoyu.com/images/blockchain_bitcoin_script_detail.png)
 
-如图，最开始的部分是`Version`，表示版本。
+As shown in the figure, the first part is Version, indicating the version.
 
-然后是 Input 相关的信息：`Input Count`表示数量，`Input Info`表示输入的内容，也就是`Unlocking Script`，主要用于核对输入来源、输入是否可用以及其他输入的细节。
-- `Previous output hash` - 所有输入都能追溯回一个输出，这指向包含将在该输入中花费的 UTXO，该 UTXO 的哈希值在这里以相反的顺序保存
-- `Previous output index` - 一个交易可以有多个由它们的索引号引用的`UTXO`，第一个索引是 0
-- `Unlocking Script Size` - `Unlocking Script`的字节大小
-- `Unlocking Script` - 满足`UTXO Unlocking Script`的哈希
-- `Sequence Number` - 默认为`ffffffff`
+Then comes the information related to Input: Input Count indicates the number, and Input Info indicates the content of the input, which is the Unlocking Script, mainly used to check the source of the input, whether the input is available, and other input details.
+- Previous output hash - All inputs can be traced back to an output. This points to the UTXO that will be spent in that input. The hash value of this UTXO is stored here in reverse order.
+- Previous output index - A transaction can have multiple UTXOs referenced by their index numbers. The first index is 0.
+- Unlocking Script Size - The byte size of the Unlocking Script.
+- Unlocking Script - The hash that satisfies the UTXO Unlocking Script.
+- Sequence Number - Default is ffffffff.
 
-接着是 Output 相关的信息，`Output Count`表示数量，`Output Info`表示输出的内容，也就是`Locking Script`,主要用于记录输出了多少比特币，未来支出的条件以及输出的细节。
-- `Amount` - 以 Satoshis(最小的比特币单位)表示的输出比特币数量，10^8 Satoshis = 1 比特币
-- `Locking Script Size` - 这是 Locking Script 的字节大小
-- `Locking Script` - 这是 Locking Script 的哈希，它指定了使用此输出必须满足的条件
+Next is the information related to Output. Output Count indicates the number, and Output Info indicates the content of the output, which is the Locking Script, mainly used to record how many bitcoins were output, the conditions for future expenditure, and output details.
+- Amount - The amount of bitcoin output expressed in Satoshis (the smallest unit of bitcoin). 10^8 Satoshis = 1 bitcoin.
+- Locking Script Size - This is the byte size of the Locking Script.
+- Locking Script - This is the hash of the Locking Script, which specifies the conditions that must be met to use this output.
 
-最后是`Locktime`，表示一个交易可以被最早添加到区块链的时间/块，如果小于 500 million 的话直接读取块高度，而如果大于 500 million 则读取时间戳。
+Finally, there's Locktime, which indicates the earliest time/block a transaction can be added to the blockchain. If it's less than 500 million, it directly reads the block height, and if it's greater than 500 million, it reads the timestamp.
 
-### 比特币脚本
+### Bitcoin Script
 
-在交易中有提到`Unlocking script`和`Locking script`，那什么是比特币脚本呢？
+In the transaction, we mentioned Unlocking script and Locking script. So what is a Bitcoin script?
 
-比特币脚本是记录在每个交易中的指令列表，当脚本被执行时可以检验交易是否有效、比特币是否可以使用等。一个典型的脚本如下
+Bitcoin script is a list of instructions recorded in each transaction. When the script is executed, it can check whether the transaction is valid, whether the bitcoin can be used, etc. A typical script looks like this:
 
 ```sh
 <sig> <pubKey> OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-比特币脚本是基于栈从左至右执行的，使用`Opcodes`对数据进行操作，在上面这个脚本语言中，<>包含的是要被推入 stack 的数据，没有<>包括、以 OP_ 为前缀的是操作符（OP 可省略），脚本也可以嵌入数据永久记录在链上（不超过 40 bytes），所记录的数据不会影响`UTXO`。
+Bitcoin script is executed from left to right based on a stack, using Opcodes to operate on the data. In this script language, data enclosed in <> is to be pushed onto the stack, those without <> and prefixed with OP_ are operators (OP can be omitted). Scripts can also embed data permanently recorded on the chain (not exceeding 40 bytes), and the recorded data does not affect UTXO.
 
-在交易中，`<sig> <pubKey>`是`Unlocking script`，`OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG`部分是`Locking script`。
+In a transaction, `<sig> <pubKey>` is the Unlocking script, and `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` is the Locking script.
 
-跟大多数编程语言相比，比特币脚本是非图灵完备的，没有循环或复杂的流程控制，执行起来很简单，不论在哪里执行结果都是确定性的，也不会保存状态，且脚本与脚本之间是相互独立的。因为以上特征，虽然比特币脚本相对安全，但没办法处理很复杂的逻辑，因此不适合用来处理一些复杂的业务，`Ethereum`所提供的智能合约就在这一点上实现了创新性的突破，因此诞生了很多去中心化应用。
+Compared to most programming languages, Bitcoin script is not Turing-complete. It has no loops or complex flow control, is simple to execute, produces deterministic results no matter where it's executed, and doesn't save state. Moreover, scripts are independent of each other. Because of these characteristics, although Bitcoin script is relatively safe, it cannot handle very complex logic, so it is not suitable for handling some complex business. Ethereum's smart contracts made innovative breakthroughs in this aspect, thus giving birth to many decentralized applications.
 
-### 挖矿
+### Mining
 
-在上文对整个交易过程中提到了挖矿，接下来我们详细讲一下。
+We mentioned mining in the previous discussion of the entire transaction process. Let's discuss it in detail now.
 
-有的节点为了得到出块奖励和矿工费，赚取收益，因此会对交易进行验证，称为矿工挖矿。出块奖励由`coinbase`创建，每四年会递减，从 2009 年的 25 个，到现在已经减少为 6.5 个。
+Some nodes, in order to obtain block rewards and miner fees and earn profits, will verify transactions, which is called mining. Block rewards are created by coinbase and decrease every four years, from 25 in 2009 to 6.5 now.
 
-挖矿其实是一个不断尝试随机数以达到某个设定目标值的过程，如小于某个 target 值，这个难度是人为设置来调整验证时间、提升安全性的，而不是解决数学难题。
+Mining is actually a process of constantly trying random numbers to reach a certain set target value, such as less than a certain target value. This difficulty is artificially set to adjust the verification time and enhance security, not to solve mathematical problems.
 
-矿工们会不断尝试这个值，成功率很低，但是尝试次数可以很多，因此，算力强的节点有成比例的优势，更容易解出难题。
+Miners will constantly try this value. The success rate is very low, but the number of attempts can be very high. Therefore, nodes with stronger computing power have a proportional advantage and are more likely to solve the puzzle.
 
-> 那挖矿难度为什么要进行调整呢？
+> Why does the mining difficulty need to be adjusted?
 
-因为在比特币系统中，出块时间太短容易出现分叉，如果分叉过多则会影响系统达成共识，危害系统安全性。比特币系统通过难度调整把出块速度稳定在 10 分钟左右，从而防止交易被算改。
+In the Bitcoin system, if the block time is too short, it's easy to produce forks. If there are too many forks, it will affect the system's ability to reach consensus, endangering system security. The Bitcoin system adjusts the difficulty to stabilize the block generation speed at around 10 minutes, thereby preventing transactions from being tampered with.
 
-> 挖矿难度是如何调整的呢？
+> How is the mining difficulty adjusted?
 
-系统会在每产生 2016 个区块时（约两周）调整一次目标阈值，存在块头中，全网所有节点需要遵从新的难度进行挖矿，如果恶意节点不调整代码中的 target 的话，诚实的矿工则不会认可
+The system adjusts the target threshold every 2016 blocks (about two weeks), stored in the block header. All nodes across the network need to follow the new difficulty for mining. If malicious nodes do not adjust the target in their code, honest miners will not recognize it.
 
-目标阈值 = 目标阈值 * (产生 2016 个区块的实际时间 / 产生 2016 个区块的预计时间)
+Target threshold = Target threshold * (Actual time to produce 2016 blocks / Expected time to produce 2016 blocks)
 
-比特币诞生之初，矿工很少，挖矿难度也较低，大多都是用家用电脑（CPU）直接挖矿；随着越来越多的人参与到比特币生态中，挖矿的难度也越来越高，慢慢开始用一些算力较强的 GPU 进行挖矿，也有一些专用的`ASIC(Application Specific Integrated circuit)`专用挖矿芯片以及矿机随着市场需求逐步诞生；而现在也出现了很多大型矿池，集合了全网大量算力进行集中挖矿。
+When Bitcoin was first born, there were few miners and the mining difficulty was relatively low. Most mining was done directly using home computers (CPUs). As more and more people participated in the Bitcoin ecosystem, the difficulty of mining increased. Gradually, people started using some GPUs with stronger computing power for mining. Some specialized ASIC (Application Specific Integrated Circuit) mining chips and mining machines have also gradually emerged in response to market demand. Now, there are also many large mining pools that combine a large amount of computing power across the network for centralized mining.
 
-在这种大型矿池系统中，`Pool Manager`担任了全节点的作用，而集合的大量矿工会一起计算哈希值，最后通过工作量证明机制来分配收益。但算力过于集中容易产生一些中心化风险，如某个大型矿池达到了全网 51% 以上算力的话就可以对交易进行回滚或者对某些交易进行抵制等。
+In this large mining pool system, the Pool Manager acts as a full node, while the large number of gathered miners calculate hash values together, and finally distribute profits through the proof of work mechanism. However, if computing power is too concentrated, it can easily produce some centralization risks. For example, if a large mining pool reaches more than 51% of the network's computing power, it could roll back transactions or boycott certain transactions.
 
-### 分叉
+### Forks
 
-比特币系统中，也会有未达成一致性意见的情况发生，称为分叉。分叉是主要分为两种类型，一种是状态分叉，往往是一些节点故意进行的；另一种称为协议分叉，也就是说对比特币协议产生了一些分歧。
+In the Bitcoin system, there can also be situations where consensus is not reached, called forks. Forks are mainly divided into two types: one is a state fork, which is often deliberately carried out by some nodes; the other is called a protocol fork, which means there are some disagreements about the Bitcoin protocol.
 
-协议分叉又可以分为两种类型，一种叫硬分叉，也就是对于协议的部分内容产生了不可兼容的修改，比如将比特币的块大小由 1M 调整为 4M，这种分叉方式是永久的，从某个节点开始形成了两条平行发展的链，比如`Bitcoin Classic`，形成了两种币。
+Protocol forks can be further divided into two types. One is called a hard fork, which means incompatible changes have been made to parts of the protocol. For example, changing the block size of Bitcoin from 1M to 4M. This type of fork is permanent, forming two parallel chains developing from a certain node, such as Bitcoin Classic, resulting in two types of coins.
 
-另一种则叫软分叉，比如还是调整比特币的块大小，但是从 1M 调整为 0.5M，这样调整后，就会出现新节点挖小区块，旧的节点挖大的区块的情况，软分叉是非永久性的，比较典型的例子是对 coinbase 的内容进行修改以及`P2SH(Pay to Script Hash)`产生的分叉。
+The other is called a soft fork. For example, still adjusting the block size of Bitcoin, but from 1M to 0.5M. After such an adjustment, there will be a situation where new nodes mine small blocks and old nodes mine large blocks. Soft forks are non-permanent. Typical examples include modifying the content of coinbase and the fork produced by P2SH (Pay to Script Hash).
 
-## Bitcoin Core 客户端
+## Bitcoin Core Client
 
-`Bitcoin Core`是比特币的实现，又被称为`Bitcoin-QT`或`Satoshi-client`，可以通过这个客户端连接至比特币网络、验证区块链、发送与接收比特币等。有`Mainnet`、`Testnet`和`Regnet`三个网络，可以进行切换。
+Bitcoin Core is the implementation of Bitcoin, also known as Bitcoin-QT or Satoshi-client. Through this client, you can connect to the Bitcoin network, verify the blockchain, send and receive bitcoins, etc. There are three networks: Mainnet, Testnet, and Regnet, which can be switched between.
 
-提供了一个`Debug Console`来与比特币区块链直接进行交互，常见操作如下：
+It provides a Debug Console to interact directly with the Bitcoin blockchain. Common operations are as follows:
 
 > Blockchain
 
-- getblockchaininfo: 返回有关区块链处理的各种状态信息
-- getblockcount: 返回区块链中的块数
-- verifychain: 验证区块链数据库
+- getblockchaininfo: Returns various state information about blockchain processing
+- getblockcount: Returns the number of blocks in the blockchain
+- verifychain: Verifies blockchain database
 
 > Hash
 
-- getblockhash: 返回所提供的区块哈希值
-- getnetworkhashps: 基于指定数量的最近块，返回每秒网络哈希数
-- getbestblockhash: 返回最佳块的哈希值
+- getblockhash: Returns the hash of the provided block
+- getnetworkhashps: Returns the estimated network hashes per second based on the last n blocks
+- getbestblockhash: Returns the hash of the best (tip) block in the longest blockchain
 
 > Blocks
 
-- getblock: 返回块信息的详细信息
-- getblockheader: 返回有关区块头信息
-- generate: 立即将指定数量的块挖矿到钱包中的一个地址
+- getblock: Returns detailed information about a block
+- getblockheader: Returns information about block header
+- generate: Immediately mine the specified number of blocks to a wallet address
 
 > Wallet
 
-- getwalletinfo: 返回一个对象，该对象包含有关钱包状态的各种信息
-- listwallets: 返回当前加载的钱包列表
-- walletpassphrasechange: 更改钱包密码
+- getwalletinfo: Returns an object containing various wallet state info
+- listwallets: Returns a list of currently loaded wallets
+- walletpassphrasechange: Changes the wallet passphrase
 
 > Mempool
 
-- getmempoolinfo: 返回内存池活动状态的详细信息
-- getrawmempool: 返回内存池中的所有交易详细信息
-- getmempoolentry: 返回给定交易的内存池数据
+- getmempoolinfo: Returns details on the active state of the TX memory pool
+- getrawmempool: Returns all transaction ids in memory pool
+- getmempoolentry: Returns mempool data for given transaction
 
 > Transaction
 
-- getchaintxstats: 计算关于链中交易总数和速率的统计数据
-- getrawtransaction: 返回原始交易数据
-- listtransactions: 返回给定帐户的交易列表
+- getchaintxstats: Compute statistics about the total number and rate of transactions in the chain
+- getrawtransaction: Returns raw transaction data
+- listtransactions: Returns list of transactions for given account
 
 > Signature
 
-- signrawtransaction: 签署原始交易的输入
-- signmessage: 使用地址的私钥对信息进行签名
-- dumpprivkey: 获取私钥
+- signrawtransaction: Sign inputs for raw transaction
+- signmessage: Sign a message with the private key of an address
+- dumpprivkey: Reveals the private key corresponding to an address
 
 > Network
 
-- getnetworkinfo: 返回 P2P 网络的状态信息
-- getpeerinfo: 返回每个连接网络节点的数据
-- getconnectioncount: 返回节点的连接数
+- getnetworkinfo: Returns an object containing various state info regarding P2P networking
+- getpeerinfo: Returns data about each connected network node
+- getconnectioncount: Returns the number of connections to other nodes
 
 > Mining
 
-- getmininginfo: 返回包含挖掘相关信息的对象
-- getblocktemplate: 返回构造块所需的数据
-- prioritisetransaction: 以较高或较低的优先级接受交易进入挖掘的块
+- getmininginfo: Returns an object containing mining-related information
+- getblocktemplate: Returns data needed to construct a block to work on
+- prioritisetransaction: Accepts or prioritizes a transaction in the mempool for mining
 
-## 总结
+## Conclusion
 
-以上就是对比特币核心技术的一些解读，主要从它的基础原理和数据模型层面进行了一些深入了解，通过对比特币的学习，能够很好地理解区块链的设计理念和运行机制，接下来将会对被称为区块链 2.0 的以太坊进行学习和分析，敬请期待！
+The above is an interpretation of Bitcoin's core technology, mainly focusing on its basic principles and data model. Through the study of Bitcoin, we can better understand the design philosophy and operational mechanism of blockchain. Next, we will study and analyze Ethereum, which is known as Blockchain 2.0. Stay tuned!
 
-## 参考资料
+## References
 
 > 1. [COMP7408 Distributed Ledger and Blockchain Technology](https://msccs.cs.hku.hk/public/courses/2020/COMP7408A/), *Professor S.M. Yiu, HKU*
 > 2. [Udacity Blockchain Developer Nanodegree](https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309), *Udacity*
-> 3. [区块链技术与应用](https://www.bilibili.com/video/BV1Vt411X7JF)，*肖臻，北京大学*
-> 4. [区块链技术进阶与实战](https://www.ituring.com.cn/book/2434)，*蔡亮 李启雷 梁秀波，浙江大学 | 趣链科技*
+> 3. [Blockchain Technology and Applications](https://www.bilibili.com/video/BV1Vt411X7JF), *Xiao Zhen, Peking University*
+> 4. [Blockchain Technology: Advanced and Practice](https://www.ituring.com.cn/book/2434), *Cai Liang, Li Qilei, Liang Xiubo, Zhejiang University | Hyperchain Technology*

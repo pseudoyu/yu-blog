@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 刷题常用数据结构（Java 篇）"
+title: "Common Data Structures for LeetCode Problem Solving (Java Edition)"
 date: 2021-01-01T00:12:17+08:00
 draft: false
 tags: ["java","algorithm", "leetcode"]
@@ -8,252 +8,252 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-最近开始刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。
+Recently, I've started solving algorithm problems on LeetCode. For job-related algorithm practice, the main focus is on honing problem-solving approaches and coding skills, rather than using complex data structures as in algorithm competitions. Therefore, the commonly used data structures and operations are not numerous. Proficient use of these can significantly improve one's code quality. I've compiled this summary for easy reference.
 
-## 数据结构
+## Data Structures
 
-### 数组 []
+### Array []
 
-#### 初始化
+#### Initialization
 
 ```java
-// 初始化一个大小为10，默认值为0的数组
+// Initialize an array of size 10 with default value 0
 int[] nums = new int[10];
 
-// 初始化一个二位boolean数组
+// Initialize a 2D boolean array
 boolean[][] visited = new boolean[5][10];
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```java
-// 函数开头一般要做一个非空检查，然后用索引下标访问元素
+// Generally, a non-empty check is performed at the beginning of a function, then elements are accessed using index
 if (nums.length == 0) {
     return;
 }
 
 for (int i = 0; i < nums.length; i++) {
-    // 访问num[i]
+    // Access num[i]
 }
 ```
 
-### 字符串 String
+### String
 
-#### 初始化
+#### Initialization
 
 ```java
 String s1 = "hello world";
 ```
 
-#### 访问字符串
+#### Accessing String
 
 ```java
-// String不支持用[]直接访问字符
+// String doesn't support direct access to characters using []
 char c = s1.charAt(2);
 ```
 
-#### 修改字符串
+#### Modifying String
 
 ```java
-// String不支持直接修改字符串，要转化为char[]类型才能修改
+// String doesn't support direct modification, it needs to be converted to char[] for modification
 char[] chars = s1.toCharArray();
 chars[1] = 'a';
 String s2 = new String(chars);
 ```
 
-#### 判断字符串是否相同
+#### Comparing Strings
 
 ```java
-// 一定要用equals方法进行判断，不能直接用==
+// Always use the equals method for comparison, not ==
 if (s1.equals(s2)) {
-    // 相等
+    // Equal
 } else {
-    // 不相等
+    // Not equal
 }
 ```
 
-#### 拼接字符串
+#### Concatenating Strings
 
 ```java
-// 支持直接用+进行连接，但是效率不高
+// Direct concatenation with + is supported, but not efficient
 String s3 = s1 + "!";
 ```
 
-#### 通过 StringBuilder 进行频繁的字符串拼接以提高效率
+#### Using StringBuilder for Frequent String Concatenation to Improve Efficiency
 
 ```java
 StringBuilder sb = new StringBuilder();
 
 for (char c = 'a'; c <= 'f'; c++) {
-    // append方法支持拼接字符、字符串、数字等类型
+    // The append method supports concatenating characters, strings, numbers, etc.
     sb.append(c);
     String result = sb.toString();
 }
 ```
 
-### 动态数组 ArrayList
+### ArrayList
 
-#### 初始化
+#### Initialization
 
 ```java
-// 初始化一个存储String类型的动态数组
+// Initialize a dynamic array storing String type
 ArrayList<String> strings = new ArrayList<>();
 
-// 初始化一个存储int类型的动态数组
+// Initialize a dynamic array storing int type
 ArrayList<Integer> nums = new ArrayList<>();
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```java
-// 判断是否为空
+// Check if empty
 boolean isEmpty()
 
-// 返回元素个数
+// Return number of elements
 int size()
 
-// 访问索引元素
+// Access element by index
 E get(int index)
 
-// 在尾部添加元素
+// Add element at the end
 boolean add(E e)
 ```
 
-### 双链表 LinkedList
+### LinkedList
 
-#### 初始化
+#### Initialization
 
 ```java
-// 初始化一个存储String类型的双链表
+// Initialize a doubly linked list storing String type
 LinkedList<String> strings = new LinkedList<>();
 
-// 初始化一个存储int类型的双链表
+// Initialize a doubly linked list storing int type
 LinkedList<Integer> nums = new LinkedList<>();
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```java
-// 判断是否为空
+// Check if empty
 boolean isEmpty()
 
-// 返回元素个数
+// Return number of elements
 int size()
 
-// 在尾部添加元素
+// Add element at the end
 boolean add(E e)
 
-// 删除尾部最后一个元素
+// Remove and return the last element
 E removeLast()
 
-// 在头部添加元素
+// Add element at the beginning
 void addFirst(E e)
 
-// 删除头部第一个元素
+// Remove and return the first element
 E removeFirst()
 ```
 
-### 哈希表 HashMap
+### HashMap
 
-#### 初始化
+#### Initialization
 
 ```java
-// 初始化一个整数映射到字符串的哈希表
+// Initialize a hash map mapping integers to strings
 HashMap<Integer, String> map = new HashMap<>();
 
-// 初始化一个字符串映射到数组的哈希表
+// Initialize a hash map mapping strings to integer arrays
 HashMap<String, int[]> map = new HashMap<>();
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```java
-// 判断是否存在Key
+// Check if a key exists
 boolean containsKey(Object key)
 
-// 获取Key的对应Value，如果不存在则返回null
+// Get the value corresponding to the key, return null if not exists
 V get(Object key)
 
-// 获取Key的对应Value，如果不存在则返回null
+// Get the value corresponding to the key, return defaultValue if not exists
 V getOrDefault(Object key, V defaultValue)
 
-// 将Key和Value存入哈希表
+// Store key-value pair in the hash map
 V put(K key, V value)
 
-// 将Key和Value存入哈希表，如果存在，则什么都不做
+// Store key-value pair in the hash map if not exists
 V putIfAbsent(K key, V value)
 
-// 删除键值对并返回值
+// Remove key-value pair and return the value
 V remove(Object key)
 
-// 获取哈希表中所有Key
+// Get all keys in the hash map
 Set<K> keySet()
 ```
 
-### 队列 Queue
+### Queue
 
-#### 初始化
+#### Initialization
 
 ```java
-// Java中的Queue是一个接口
-// 初始化一个存储String的队列
+// Queue is an interface in Java
+// Initialize a queue storing String
 Queue<String> q = new LinkedList<>();
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```java
-// 判断是否为空
+// Check if empty
 boolean isEmpty()
 
-// 返回元素个数
+// Return number of elements
 int size()
 
-// 返回队头元素
+// Return the element at the front of the queue
 E peek()
 
-// 删除并返回队头元素
+// Remove and return the element at the front of the queue
 E poll()
 
-// 在队尾插入元素
+// Insert element at the end of the queue
 boolean offer(E e)
 ```
 
-### 堆栈 Stack
+### Stack
 
-#### 初始化
+#### Initialization
 
 ```java
-// 初始化一个int类型的堆栈
+// Initialize a stack of int type
 Stack<Integer> s = new Stack<>();
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```java
-// 判断是否为空
+// Check if empty
 boolean isEmpty()
 
-// 返回元素个数
+// Return number of elements
 int size()
 
-// 将元素压入栈顶
+// Push element onto the top of the stack
 E push(E e)
 
-// 返回栈顶元素
+// Return the element at the top of the stack
 E peek()
 
-// 删除并的返回栈顶元素
+// Remove and return the element at the top of the stack
 E pop()
 ```
 
-## 总结
+## Conclusion
 
-刷题路漫漫...加油！
+The journey of problem-solving is long... Keep going!
 
-## 参考资料
+## References
 
-> 1. [LeetCode 官网](https://leetcode.com)
-> 2. [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
+> 1. [LeetCode Official Website](https://leetcode.com)
+> 2. [labuladong's Algorithm Cheat Sheet](https://github.com/labuladong/fucking-algorithm)

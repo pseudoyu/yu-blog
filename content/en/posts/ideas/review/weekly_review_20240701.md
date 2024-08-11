@@ -1,5 +1,5 @@
 ---
-title: "周报 #63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人"
+title: "Weekly Review #63 - An Unpleasant Flower Ordering Experience, Merchants and Consumers, and the Increasingly AI-like Humans"
 date: 2024-07-01T08:30:00+08:00
 draft: false
 tags: ["review", "life", "blog", "vps", "ai", "consumer"]
@@ -8,105 +8,105 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/photograph.mp3" caption="《Photograph - Ed Sheeran》" >}}
+{{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## 前言
+## Preface
 
 ![weekly_review_20240701_new](https://image.pseudoyu.com/images/weekly_review_20240701_new.png)
 
-本篇是对 `2024-06-24` 到 `2024-06-30` 这周生活的记录与思考。
+This piece records and reflects on my life from June 24 to June 30, 2024.
 
-一次不愉快的订花和维权体验，思考了商家与消费者的关系，以及 AI 越来越拟人化的现在，人却似乎变得 AI 化了的现象；周五的时候服务器突然 Kernel Panic，无法重启，经过了迂回的各种抢救方案，终于救回了一千多张图床的的图片，心有余悸，顺便折腾了一套新的图床方案；想到上一次写博客搭建教程已经是两年多前，不论是内容还是组件都经过了许多变化，于是重新开启系列。
+An unpleasant flower ordering and rights protection experience led me to ponder the relationship between merchants and consumers, as well as the phenomenon of humans becoming more AI-like while AI becomes increasingly human-like. On Friday, my server suddenly experienced a Kernel Panic and couldn't reboot. After various roundabout rescue attempts, I finally salvaged over a thousand images from the image bed, leaving me feeling quite shaken. I took the opportunity to tinker with a new image bed solution. Realizing it had been over two years since I last wrote a blog setup tutorial, and considering the many changes in both content and components, I decided to restart the series.
 
-## 一次不愉快的订花经历
+## An Unpleasant Flower Ordering Experience
 
 ![refund_flower](https://image.pseudoyu.com/images/refund_flower.jpg)
 
-周末发生了一件非常不愉快的事（甚至现在依然还因商家拒绝上门取货而处理中）。
+A very unpleasant incident occurred over the weekend (which is still unresolved due to the merchant's refusal to collect the goods).
 
-6 月 30 日是我和学姐在一起一周年的日子，我早上在饿了么外卖平台订购了一束花，原本是一件挺开心的事，结果送到学姐那的时候，花上还附了一张卡片，上面写着“to 小语宝贝”和一些私人的祝福，但我并没有要求附赠卡片。
+June 30th marked the one-year anniversary of my relationship with my senior. In the morning, I ordered a bouquet of flowers through the Ele.me delivery platform. What should have been a joyous occasion turned sour when the flowers arrived at my senior's place with an attached card that read "To my little Yu baby" along with some personal wishes. I had not requested any card to be included.
 
-想来是放错了卡片，所幸收货时我也在现场，不至于引起什么误会或是矛盾，当时有些扫兴但也还不至多生气，于是联系了商家退货。
+It seemed the card had been mistakenly attached. Fortunately, I was present when the flowers were delivered, preventing any misunderstandings or conflicts. Although somewhat disappointed, I wasn't overly upset at the time and contacted the merchant for a return.
 
-我跟商家描述了情况，表示理解可能是花艺师放错了，但因为送花本来就是情绪价值大于花本身的一件事，我并不想要这样一束似乎原意是“送给别人”的花了，然而商家的态度很恶劣。
+I explained the situation to the merchant, expressing my understanding that the florist might have attached the wrong card. However, since giving flowers is more about emotional value than the flowers themselves, I no longer wanted this bouquet that seemed "intended for someone else." The merchant's attitude, however, was quite rude.
 
-> “放错了你把卡片丢掉就好了”
+> "If it's the wrong card, just throw it away."
 >
-> “我又没做错为什么要退”
+> "I didn't do anything wrong, why should I accept a return?"
 >
-> “那你联系客服维权好了”
+> "Well, you can contact customer service to protect your rights then."
 
-我自诩是一个情绪稳定的人，也多少对身边的人和这个世界善意相待，不会为难因恶劣天气延误的快递员、送到的外卖洒了也从未要求小哥的赔偿或是退款，但依然被商家的态度气到了。
+I consider myself an emotionally stable person who generally treats those around me and the world with kindness. I've never troubled delivery personnel delayed by bad weather, nor have I ever demanded compensation or refunds from delivery drivers for spilled food. Yet, the merchant's attitude still angered me.
 
-我可以理解花艺师的疏忽，也并不对花本身有什么不满，只是感到可悲，商家做的是“花艺”的生意，理应明白送花的人送的不仅仅是花，更多的是一份心意的传递或是情绪的表达，而她的态度让我感到这份心情并没有被尊重。
+I can understand the florist's oversight and have no complaints about the flowers themselves. What I find lamentable is that the merchant, being in the "floral art" business, should understand that those who send flowers are not just sending flowers, but conveying sentiments or expressing emotions. Her attitude made me feel that these feelings were not respected.
 
-似乎对于这位卖花的店家来说，花只是花，是流水线上生产出的人工造物，送花人的忐忑、收花人的羞怯或是惊喜似乎都无关紧要。
+It seems that for this flower seller, flowers are just flowers, mass-produced artificial objects. The sender's nervousness, the recipient's shyness or surprise all seem irrelevant.
 
-当然，我理解这作为商业当然有成本和营收的考量，可这依然刺痛了我仍留存的几分理想主义，没有这些心情加持的花艺，再美丽也不过是一堆很快就会腐朽的有机物罢了。
+Of course, I understand that as a business, there are cost and revenue considerations. But this still pained the few remnants of idealism I still harbor. Without these emotional underpinnings, even the most beautiful floral art is nothing more than a pile of organic matter that will soon decay.
 
-### 商家与消费者
+### Merchants and Consumers
 
-于是我联系了客服，一番沟通后才知道为什么商家那么有恃无恐。原来在饿了么平台上，花是属于无法退货的商品，我理解本意或许是由于鲜花是人工制作的易腐商品，退货后也无法二次销售。
+So I contacted customer service, and after some communication, I learned why the merchant was so unafraid. It turns out that on the Ele.me platform, flowers are non-returnable items. I understand that the original intention might be because flowers are handmade perishable goods that cannot be resold after return.
 
-我联想到前一阵子关于消费者利用拼多多平台“仅退款”机制伤害商家的争议，这次经历又何尝不是商家在利用平台规则来伤害消费者呢？
+This reminds me of the recent controversy about consumers abusing Pinduoduo's "refund only" mechanism to harm merchants. Isn't this experience also an example of merchants using platform rules to harm consumers?
 
-### 人的 AI 化现象
+### The AI-ification of Humans
 
-这事还没结束，和饿了么客服的对话更是让我有些无语。
+This matter wasn't over yet, and my conversation with Ele.me's customer service left me even more speechless.
 
-> 我：（再一次详细描述了情况以及商家的态度问题），我想要申请退货，但商家拒绝了
+> Me: (After describing the situation and the merchant's attitude problem in detail again) I want to request a return, but the merchant refused.
 >
-> 客服：请问花是没问题的对么？
+> Customer Service: So the flowers themselves are fine, right?
 >
-> 我：...你要这么说可能也没错，但我不想要了。
+> Me: ...If you put it that way, I suppose so, but I don't want them anymore.
 >
-> 客服：我们鲜花按照平台政策是不能退款的呢~
+> Customer Service: According to our platform policy, we can't refund fresh flowers~
 >
-> 我：但附赠了给别人的卡片，这不是我想要的花。
+> Me: But it came with a card for someone else. These aren't the flowers I wanted.
 >
-> 客服：那我联系商家给您重新发一张卡片可以么？
+> Customer Service: How about I contact the merchant to send you a new card?
 >
-> 我：...
+> Me: ...
 
-我现在还对这段对话有些哭笑不得，都说 ChatGPT 出来之后 AI 越来越像人了，AGI 或许也不远了，但我倒是觉得在此之前，人是越来越 AI 化了，似乎对于他们来说把对面当作一个有情绪有脑子的人看待都已经是一件很难的事了。
+I'm still somewhat bemused by this conversation. People say that since ChatGPT came out, AI has become more and more human-like, and AGI might not be far off. But I feel that before that happens, humans are becoming more and more AI-like. It seems that for them, treating the person on the other end as a thinking, feeling human being has become a difficult task.
 
-有时候我常常会思考现在的人是怎么了，以制作鲜花为业的人不好好对待花，也无法设想如果自己收到爱人送的一束写着别人名字的花的不良情绪；以解决用户问题为业的平台客服不好好听用户讲话，只知道模板化地回复。
+Sometimes I often wonder what's wrong with people these days. Those in the business of making fresh flowers don't treat flowers well, nor can they imagine the unpleasant emotions if they received flowers from their loved one with someone else's name on it. Those in the business of solving user problems don't listen properly to what users are saying, only knowing how to reply with templates.
 
 ![flower_from_beijing](https://image.pseudoyu.com/images/flower_from_beijing.png)
 
-想起在北京时长期会订的一位花艺师，因为是定制花束，比起平台上的贵上许多，但会问问我的故事和想要表达的情感，会记得我们把花放在花瓶的习惯，也能将我各种对花的小想法一一实现。当时只是对花艺师小姐姐的用心印象深刻，现在才发现，好好讲话，用心做好自己的工作，原来在当今社会已经是一件需要奢求的事了。
+I'm reminded of a florist I used to order from regularly when I was in Beijing. Because it was custom bouquets, they were much more expensive than those on the platform. But she would ask about my story and the emotions I wanted to express, remember our habit of putting flowers in vases, and could realize all sorts of little ideas I had about flowers. At the time, I was just impressed by the florist's attentiveness. Now I realize that speaking properly and doing one's job with care has become something to be coveted in today's society.
 
-那是一家并不大的店，从配货、选花、做花到配送只有店主一个人，而我这次订的这家在杭州算是个网红店，常居各种平台榜首，销量 9000+，劣币驱逐良币，真是悲哀。
+It was a small shop, with only the owner handling everything from sourcing, flower selection, arranging, to delivery. This shop I ordered from this time is considered a popular one in Hangzhou, often topping various platform rankings with over 9,000 sales. Bad money drives out good, it's truly sad.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 博主
+### Bloggers
 
-- [程序员转行金融科技 4 年，像又读了一次大学，不写代码了？| 年龄焦虑 | 未来计划 | 冒名顶替效应 | Life updates](https://www.bilibili.com/video/BV19w4m1Y7o1)
+- [A programmer's transition to fintech for 4 years, like going to college again, not writing code anymore? | Age anxiety | Future plans | Imposter syndrome | Life updates](https://www.bilibili.com/video/BV19w4m1Y7o1)
 
-落拓学长回来了！！！四五年前一直看他的视频，甚至人生走向都是沿着他当时说有些遗憾自己未选择的区块链方向，一直以他为目标。
+The wandering senior is back!!! Four or five years ago, I used to watch his videos all the time, and even my life direction followed the blockchain path he said he regretted not choosing at the time. I always looked up to him as a goal.
 
-后来他转行 fintech，去了 Jane Street，这几年也不断在选择新的挑战，慢慢停更了。回来后聊了学习成长、焦虑与冒名顶替综合征，这些也都是这几年慢慢步入工作的我开始思索的东西，依然有被激励到！
+Later, he transitioned to fintech and went to Jane Street. These past few years, he's been constantly seeking new challenges and gradually stopped updating. Now that he's back, he talks about learning and growth, anxiety and imposter syndrome, all things that I, as someone slowly entering the workforce, have started to ponder. I still feel inspired!
 
-~~这就继续学 Rust 去了。~~
+~~Time to continue learning Rust.~~
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
 
-#### 书籍
+#### Books
 
-- [**Normal People**](https://book.douban.com/subject/34453257/)，很喜欢这个英剧，这两天看其他书的时候突然想到了这本，打算补一下原著。
-- [**What My Bones Know**](https://book.douban.com/subject/35754687/)，去年看了一小半，这两天想到关于家庭和心理疗愈的问题，每天看一章左右。
-- [**阿特拉斯耸耸肩**](https://book.douban.com/subject/33445309/)，读者送的，读了前两张章了。
+- [**Normal People**](https://book.douban.com/subject/34453257/), I really like this British TV series. The other day while reading other books, I suddenly thought of this one and decided to catch up on the original novel.
+- [**What My Bones Know**](https://book.douban.com/subject/35754687/), I read about half of it last year. These past few days, thinking about family and psychological healing issues, I've been reading about a chapter a day.
+- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), a gift from a reader. I've read the first two chapters.
 
-#### 文章
+#### Articles
 
 - [Microfeatures I Love in Blogs and Personal Websites](https://danilafe.com/blog/blog_microfeatures/)
-- [失去的表达欲](https://www.boyilu.com/lost-desire-to-express)
-- [一种在 Electron 和 Web 环境下显示原生及自定义菜单的通用方法](https://innei.in/posts/tech/a-universal-method-about-show-electron-native-and-web-custom-menus)
+- [The Lost Desire to Express](https://www.boyilu.com/lost-desire-to-express)
+- [A Universal Method for Displaying Native and Custom Menus in Electron and Web Environments](https://innei.in/posts/tech/a-universal-method-about-show-electron-native-and-web-custom-menus)
 
-#### 视频
+#### Videos
 
-- [程序员转行金融科技 4 年，像又读了一次大学，不写代码了？| 年龄焦虑 | 未来计划 | 冒名顶替效应 | Life updates](https://www.bilibili.com/video/BV19w4m1Y7o1)
-- [vlog #62｜女程序员下班后的学习记录｜开坑 SwiftUI｜关于时间管理的想法｜在读《被讨厌的勇气》｜日常英语学习｜香港团建 😁](https://www.bilibili.com/video/BV1nE421N77f)
+- [A programmer's transition to fintech for 4 years, like going to college again, not writing code anymore? | Age anxiety | Future plans | Imposter syndrome | Life updates](https://www.bilibili.com/video/BV19w4m1Y7o1)
+- [vlog #62 | A female programmer's after-work study record | Starting SwiftUI | Thoughts on time management | Reading "The Courage to Be Disliked" | Daily English learning | Hong Kong team building 😁](https://www.bilibili.com/video/BV1nE421N77f)

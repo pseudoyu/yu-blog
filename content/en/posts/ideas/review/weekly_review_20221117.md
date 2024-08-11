@@ -1,5 +1,5 @@
 ---
-title: "周报 #19 - 忆一次创业经历"
+title: "Weekly Review #19 - Remembering a Startup Experience"
 date: 2022-11-17T21:25:09+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "relationship", "adjustment"]
@@ -8,64 +8,64 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-11-09` 到 `2022-11-17` 这周生活的记录与思考。
+This is a record and reflection of my life from `November 9, 2022` to `November 17, 2022`.
 
-这周的周报差点就鸽了，好像已经很久没有在周日准时发布了（甚至越拖越晚），总是有各种各样的事，原本也常常安慰自己说反正是自己的一种生活点滴记录，太忙了也可以降低一下优先级，但偶然在后台会发现一些用心的留言，甚至在微博这样已经几乎废弃使用的平台也能偶现一些催更，让我很真实地感觉到了自己写的文字和屏幕前的阅读者之间的链接，所以每次打开文档时也很难做到敷衍，倒不是说给自己压力一定要产出什么干货或是什么有价值的想法，但也难免会想象如果我作为读者在按照每周惯例打开周报看时是否会失望，也算是自己的一个小小标准吧。
+I almost missed this week's review. It's been a long time since I published on time on Sundays (and it's getting later and later). There are always various things happening. I often comfort myself that it's just a record of my life, and I can lower its priority when I'm too busy. But occasionally, I find some heartfelt comments in the background, and even on platforms like Weibo that I've almost abandoned, there are some update requests. This makes me truly feel the connection between the words I write and the readers behind the screen. So every time I open the document, it's hard to be perfunctory. It's not that I'm pressuring myself to produce some useful content or valuable ideas, but I can't help but imagine if I, as a reader, would be disappointed when opening the weekly review as usual. It's a small standard I set for myself.
 
-其实一直很难称呼自己为作者，总觉得这个称号太重，似乎一下子和读者有了一些鸿沟，可能更多是自我定义为真诚写作的人，不论是一些周报想法中的碎碎念还是技术博文中对于知识的消化与解构，自己似乎很习惯于将自己的很多东西以文字形式呈现出来，归根结底还是自我分享欲的载体，但也常常能收获很多意外之喜，也更有动力坚持下去。
+I've always found it hard to call myself an author. The title seems too heavy, as if it creates a gap with the readers. Perhaps I define myself more as a person who writes sincerely, whether it's the ramblings in some weekly review ideas or the digestion and deconstruction of knowledge in technical blog posts. I seem to be very accustomed to presenting many of my thoughts in written form. At its root, it's still a carrier of my desire for self-sharing, but I often gain many unexpected delights, which motivates me to keep going.
 
-因为被工作占满了，这周的输入输出都不算多，不过倒是因为一些事记起了之前的一次创业经历，也算是第一次完整地回顾吧。
+Because work has been occupying my time, my input and output this week haven't been much. However, due to some events, I recalled a previous startup experience, which is the first time I've reviewed it completely.
 
-## 忆一次创业经历
+## Remembering a Startup Experience
 
 ![my_cat_nie_nie_02](https://image.pseudoyu.com/images/my_cat_nie_nie_02.jpg)
 
-工作上已经连续熬了一周多的大夜，大概每天都是两三点睡，第二天挣扎着爬起来开晨会，上线了好几个大需求，不过大部分时间在家远程，偶尔想出门了就去公司，所以也提前享受了一下自己理想的远程办公模式，再加上有猫猫陪着，尽管处于高压之下，也没有去年驻场开发赶交付终验那么痛苦。
+I've been working late nights for over a week now, sleeping around two or three in the morning and struggling to get up for the morning meeting the next day. We've launched several major requirements. However, I've been working remotely from home most of the time, occasionally going to the office when I feel like going out. So I've had a taste of my ideal remote work mode in advance. Plus, with my cat keeping me company, even under high pressure, it's not as painful as last year when I was rushing to deliver the final acceptance on-site.
 
-并且甚至在赶着项目的同时，还和一位偶识的挺有缘的学弟开启了一个分支创业项目，参与的初衷只是更快地提升一下自己的技术力，但能够把一些小小的构想通过一次次的讨论逐步成型也是一个很有趣的过程，也很乐在其中。
+Moreover, even while rushing the project, I started a side startup project with a junior I met by chance. My initial intention was just to improve my technical skills faster, but it's been an interesting process to gradually shape some small ideas through discussions. I'm enjoying it very much.
 
-而且这周也第三次重温了美剧《硅谷》，大概自己就是那种只要感觉自己处于新领域探索或新知识学习时就会有用不完的精力（或者某种程度上的透支），似乎更能找到乐趣和成就感，自己大体还是幸运的吧，自己所谋生的工作同时也承载了自己的兴趣与个人追求。提到这个，其实在目前的阶段倒是可以略有些不好意思地说自己曾经有过那么一段创业的时光，结果不怎么好，但对于我也是一段很珍惜的经历。
+I also rewatched the TV series "Silicon Valley" for the third time this week. I guess I'm the type who has endless energy (or to some extent, overdrafts it) when I feel I'm exploring new fields or learning new knowledge. I seem to find more fun and sense of achievement. I'm quite lucky in general, as my work for a living also carries my interests and personal pursuits. Speaking of this, at this stage, I can say with some embarrassment that I once had a startup experience. The result wasn't great, but it's a period I cherish very much.
 
-大三结束的暑假自己咬牙买了一台 Sony A7M3，全套下来两万多的售价掏空了当时的全部积蓄，于是和一位学院的老师一拍即合，萌生了做一个在线教育视频工作室的想法。
+At the end of my junior year in college, I gritted my teeth and bought a Sony A7M3. The whole set cost over 20,000 yuan, which emptied all my savings at the time. So I hit it off with a teacher from my college, and we came up with the idea of starting an online education video studio.
 
-事情的展开比自己想象得顺利很多。7 月底有了初步构想，八月底制作了商业计划书（BP）并和学院领导进行合作协商，很快申请到了一个可以免费使用的场地、一笔在当时看来不菲的启动资金与一些项目的合作机会；9 月就成立了公司，甚至为了省钱连注册公司与财务都自己去学习和尝试（最后注销公司的时候差点因为一些税务申报不规范问题而翻车），接下来就是几周的工作室设备购置与布置；10 月就正式招人和录制了第一门课程。
+Things unfolded much more smoothly than I had imagined. We had the initial concept at the end of July, made a business plan (BP) by the end of August, and negotiated cooperation with the college leaders. We quickly obtained a venue that we could use for free, a startup fund that seemed considerable at the time, and some project cooperation opportunities. We established the company in September, and to save money, I even learned and tried to register the company and handle finances myself (which almost backfired when closing the company due to some non-standard tax declaration issues). The following weeks were spent purchasing and setting up studio equipment. In October, we officially started recruiting people and recorded our first course.
 
-即使站在现在的角度也很难想象当初是抱着怎样的想法与热情在做这件事，市场推广、打光、拍摄、剪辑、后期、包装和各种繁琐的商业宣讲与谈判，为了节约成本前期都是自己一个人去做，后面才慢慢也带出了几位得意的“实习生”。已经记不清在那个因为要隔音而密不透风的录影棚中通宵过多少个夜晚，宜家沙发床的质感也成为了那段时间无法磨灭的记忆点。
+Even from today's perspective, it's hard to imagine what kind of ideas and enthusiasm I had when doing this. Market promotion, lighting, shooting, editing, post-production, packaging, and various tedious business presentations and negotiations - to save costs, I did everything alone at first, and later gradually trained a few talented "interns". I can't remember how many nights I spent in that soundproof, airtight studio, and the texture of the IKEA sofa bed became an indelible memory point of that period.
 
-经过了一年的探索，一切似乎慢慢有了起色，工作室也初具规模，但临近毕业时候的自己却很难真正将做视频这件事当作自己的事业，有些任性地还是选择了自己去申请计算机的研究生，于是一边做着一些远程工作维持 gap year 的生计，偶尔往返武汉完成录制项目，同时准备着雅思与申请文书，其实当时自己已经意识到了可能并没有打算再把这件事坚持做下去，只是不愿意就这样放弃自己的心血。
+After a year of exploration, everything seemed to be taking shape slowly, and the studio was beginning to take form. But as graduation approached, I found it hard to truly regard making videos as my career. Somewhat willfully, I still chose to apply for a master's degree in computer science. So while doing some remote work to maintain my livelihood during my gap year, occasionally traveling back and forth to Wuhan to complete recording projects, I was also preparing for IELTS and application essays. In fact, I had already realized that I might not intend to continue doing this, but I was unwilling to give up my hard work just like that.
 
-这样的纠结其实并没有持续太久，疫情来了，Base 在武汉且高度依赖线下业务的工作室自然陷入了停滞，而随着我赴香港读研，挤出来的时间也只够自己远程完成一些业务的收尾工作，于是在 21 年的 5 月也正式注销了公司。其实在收到最终的注销确认单时，算不上遗憾，在自己力所能及的领域做了一些尝试，为自己的大学生涯涂抹上了几分色彩。结束得也还算体面，将最后的一笔业务收益（尽管不多）全分给了参与投资的老师和依然在帮我完成许多善后工作的工作室成员，为自己的创业画上了一个还算圆满的休止符。
+This dilemma didn't last too long. The pandemic came, and the studio, based in Wuhan and highly dependent on offline business, naturally came to a standstill. As I went to study in Hong Kong, the time I could squeeze out was only enough to remotely complete some business wrap-up work. So in May 2021, I officially deregistered the company. When I received the final deregistration confirmation, it wasn't really regret I felt. I had tried something in an area within my capabilities, adding some color to my college life. It ended fairly decently too. I distributed the last bit of business income (although not much) to the teachers who participated in the investment and the studio members who were still helping me with many follow-up tasks, drawing a relatively satisfactory end to my entrepreneurship.
 
-尽管都是自己主动的选择，依然残留着几分难过，在后面很多次的总结中也仅仅是轻描淡写地提及一下，似乎是在害怕过了这个阶段的自己就没办法捡起这样的勇气去做这些事，那再提“当年勇”也失去了意义。比起纠结于结果的成败，我依然觉得那段时光在积极地影响着我的工作与生活态度，尽管领域和内容天差地别，但坚持做好一件事的信念、解决问题的方法论、多线程处理各种事的冷静以及太多太多的品质似乎都是那时候所留下的，我也很庆幸现在的自己依然能够追随本心去尝试一些东西。
+Although it was all my own choice, there was still a bit of sadness lingering. In many subsequent summaries, I only mentioned it briefly, as if afraid that once I passed this stage, I wouldn't be able to pick up the courage to do these things again, and then talking about "past bravery" would lose its meaning. Rather than dwelling on the success or failure of the result, I still feel that that period actively influences my work and life attitude. Although the field and content are vastly different, the belief in persevering to do one thing well, the methodology of problem-solving, the calmness in handling various things in multiple threads, and many, many other qualities seem to have been left from that time. I'm also glad that I can still follow my heart to try some things now.
 
-## 『捏捏』与被治愈的生活
+## "Nie Nie" and a Healing Life
 
-其实还没有正式取名字，总觉得是一件需要非常郑重去决定的事，一直还没有思绪。但最近也有了一个小名叫“捏捏”，一个可爱的拟声词，后面大概每篇周报都会有一些日常记录吧，周末也开始整理一下相机，开始记录一些成长，没准能成为一个 vlog 或萌宠博主呢（？在做梦），不过也确实因为在 B 站看到的 [polebug](https://space.bilibili.com/58078997) 的视频周记而燃起了视频记录的念头，总之想做的事还是挺多的，一点点开始吧。
+I haven't officially named her yet. It always feels like something that needs to be decided very solemnly, and I haven't had any ideas yet. But recently, she's gotten a nickname "Nie Nie", a cute onomatopoeia. I guess there will be some daily records in every weekly review from now on. I've also started to organize my camera on weekends, beginning to record some growth. Who knows, maybe I could become a vlogger or a cute pet blogger (? dreaming). But I was indeed inspired by the video diaries of [polebug](https://space.bilibili.com/58078997) that I saw on Bilibili, which sparked the idea of video recording. Anyway, there are still many things I want to do, let's start bit by bit.
 
-这周跟一位朋友聊天时，突然被评价说好像我的生活也还挺治愈的。才突然意识到好像是很久没有被这么说过了，总是让自己沉溺在一些情绪中，或是通过一些内心或是外部的忙碌来填充自己的时间，但这两周有了捏捏的陪伴，似乎成为了晒娃狂魔和一个奶爸，似乎整个世界都变的明媚了起来，连带着我的生活。
+When chatting with a friend this week, I was suddenly commented that my life seems quite healing. I suddenly realized that it's been a long time since I've been told this. I always immerse myself in some emotions, or fill my time with some internal or external busyness. But in these two weeks with Nie Nie's company, I seem to have become a baby-showing maniac and a dad. The whole world seems to have brightened up, along with my life.
 
-可能因为太宠了，最近总是在我工作的时候来捣乱，也爱上了爬我的键盘和电脑，完全无心工作哈哈。
+Maybe because I spoil her too much, she often comes to make mischief when I'm working, and has also fallen in love with climbing on my keyboard and computer, making me completely unable to focus on work, haha.
 
 {{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_01.jpg" >}}
 
 {{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_03.jpg" >}}
 
-## 其他
+## Others
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my input and output, as well as other things I find interesting.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **我的职业是小说家**，正在读，村上真的是一个很独特的作家，太喜欢他的笔触与表达方式了。
+- **My Profession is a Novelist**, currently reading. Murakami is really a unique writer. I love his writing style and expression so much.
 
-#### 剧集
+#### TV Series
 
-- **硅谷**，重温第三遍，第一次看是在高中，觉得很酷但作为文科生的自己也没 get 太多；第二次是在大学毕业后，即将去读 CS，对其中的很多梗和这群 tech guys 的热情也更加向往；最近看完了第三遍，自己也终于如愿成为了 tech guy，尤其是后面很多区块链与去中心网络相关的，又有了奇妙的链接与共鸣，算是和《社交网络》一样对我影响挺大的一部作品了。不知道下一次重温的自己会是在做什么呢？
-- **她和她的她**，被题材和宣传片所吸引，没办法去很自大地说自己能够对女性所面临的这些困境感同身受，但还是有很多共情的点，上周刚经受了《房思琪的初恋乐园》所残留的一些情绪波动，又看了这部，有些失语。整体节奏还不错，但依然还是觉得结局似乎有些太过于理想化和口号式，现实残酷的多。
-- **边缘世界**，正在追。
+- **Silicon Valley**, rewatching for the third time. The first time I watched it was in high school, I thought it was cool but as a liberal arts student, I didn't get much. The second time was after college graduation, about to study CS, I was more aspiring to the enthusiasm of these tech guys and many of the jokes. Recently, I finished watching it for the third time, and I've finally become a tech guy as I wished. Especially the later parts related to blockchain and decentralized networks, there was a wonderful connection and resonance. It's a work that has influenced me a lot, like "The Social Network". I wonder what I'll be doing the next time I rewatch it?
+- **She and Her and Her**, I was attracted by the subject matter and the trailer. I can't arrogantly say that I can empathize with the difficulties faced by women, but there are still many points of empathy. Just after experiencing some emotional fluctuations left by "The Stolen Bicycle" last week, I watched this, and I'm at a loss for words. The overall pace is not bad, but I still feel that the ending seems a bit too idealistic and slogan-like. Reality is much crueler.
+- **The Peripheral**, currently watching.

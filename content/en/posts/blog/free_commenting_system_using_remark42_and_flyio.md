@@ -1,5 +1,5 @@
 ---
-title: "从零开始搭建你的免费博客评论系统（Remark42 + fly.io）"
+title: "Build Your Free Blog Comment System from Scratch (Remark42 + fly.io)"
 date: 2024-07-22T01:10:42+08:00
 draft: false
 tags: ["commenting-system", "serverless", "fly.io", "blog"]
@@ -8,79 +8,79 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-在「[2024 年了，我的博客有了什么变化](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。
+In the article "What Changed in My Blog in 2024", I introduced the blog system I built using Serverless platforms and some open-source projects, and also started this series of tutorials to document the entire process of building and deploying.
 
-本篇是关于评论系统的解决方案。
+This article is about the solution for the commenting system.
 
-## 评论系统迭代
+## Evolution of Commenting Systems
 
 ![remark42_comments](https://image.pseudoyu.com/images/remark42_comments.png)
 
-我常常觉得评论不仅仅是读者与作者之间的沟通互动，其内容本身也是文章的一部分，甚至常常有些评论的思考与观点讨论会比文章本身更有价值，所以对于评论系统一直很重视，并不愿意信任一些第三方托管的服务，不希望有什么审查，也想风格尽可能简约，并与自己的博客风格相符。
+I often feel that comments are not just communication between readers and authors, but the content itself is also part of the article. Sometimes the thoughts and discussions in comments can be more valuable than the article itself. Therefore, I have always placed great importance on the commenting system. I am unwilling to trust some third-party hosted services, do not want any censorship, and want the style to be as minimalist as possible and consistent with my blog style.
 
-在博客发展过程中，评论系统方案也经历过几次迭代，关于评论系统的类型和选择，我很喜欢的开发者 [reorx](https://reorx.com/) 在「[更换博客评论系统](https://reorx.com/blog/blog-commenting-systems/)」中有详细的介绍了，我不作更多引申了，本文更重个人体验与详细的搭建过程。
+During the development of my blog, the commenting system solution has gone through several iterations. Regarding the types and choices of commenting systems, I very much like the developer [reorx](https://reorx.com/)'s detailed introduction in "Changing Blog Commenting Systems". I won't elaborate further here; this article focuses more on personal experience and detailed setup process.
 
 ### Disqus
 
-我最早使用的博客评论系统是万恶的 Disqus，一个笨重且会收集用户隐私的知名评论系统，因为加载比较慢，且免费版本经常会附带一些广告，实在难以忍受，再加上当时其实也基本上没什么评论，并没有什么迁移负担，用了没多久就直接弃用了。
+The first blog commenting system I used was the notorious Disqus, a cumbersome and user privacy-collecting well-known commenting system. Because it loads slowly and the free version often comes with some ads, it was really unbearable. Plus, at that time, there were basically no comments, so there was no migration burden. I abandoned it after using it for a short time.
 
 ### Utterances
 
-于是换成了另一个基于 GitHub issues 的评论系统 utterances，它会为每篇文章生成一个 issue，用户通过授权 GitHub 登录来对 issue 发表评论。这种方式的好处是只需要授权一个 utterances-bot 来进行管理，无需自己部署服务，维护数据库等。但是用了一段时间后，觉得有几点不足：
+So I switched to another commenting system based on GitHub issues called utterances. It generates an issue for each article, and users comment on the issue by authorizing GitHub login. The advantage of this method is that it only needs to authorize an utterances-bot for management, without the need to deploy services and maintain databases by yourself. However, after using it for a while, I felt there were several shortcomings:
 
-- 基于 GitHub API 进行评论管理，如之后接口变动或对这类利用 issue 进行评论的方式进行限制，会不太稳定
-- 读者必须要授权 GitHub 登录，非技术人员或使用移动端阅读的读者使用起来很不方便
-- 会污染 GitHub 仓库的 Issues 记录，也不方便后续迁移到其他系统
+- It relies on the GitHub API for comment management. If the interface changes later or restrictions are placed on this type of commenting method using issues, it would be unstable.
+- Readers must authorize GitHub login, which is very inconvenient for non-technical people or readers using mobile devices.
+- It pollutes the Issues record of the GitHub repository and is also inconvenient for subsequent migration to other systems.
 
 ### Cusdis + Supabase + Vercel
 
-Cusdis 是 [Randy](https://lutaonan.com/) 做的一个注重数据隐私的开源的评论系统，十分轻量，经过 gzipped 后大约只有 5kb，从名字来看也知道是难以忍受 Disqus，自己做了一个替代版，因此它也是支持 Disqus 历史数据导入的，很贴心。
+Cusdis is an open-source commenting system focusing on data privacy made by [Randy](https://lutaonan.com/). It's very lightweight, only about 5kb after gzipping. From the name, you can see it's hard to bear Disqus, so he made an alternative version. Therefore, it also supports importing historical data from Disqus, which is very thoughtful.
 
-从 2021 年中就开始使用了，到现在整整三年了，除了最开始的时候因为 Heroku、Railway 相继收费而折腾了一下部署平台外，一直都稳稳地运行着，不过我在使用中也有遇到一些问题：
+I've been using it since mid-2021, exactly three years now. Except for the initial hassle with deployment platforms due to Heroku and Railway successively charging, it has been running steadily. However, I've also encountered some issues in use:
 
-- 大概是由于微信内置浏览器做了一些魔改，在博客从微信聊天/对话打开是看不到评论组件的
-- 尽管可以输入邮箱，但并不支持订阅评论回复
-- 需要管理员手动审核评论，但评论提醒的 TG Bot 时常失效而错过评论
+- Probably due to some modifications made by WeChat's built-in browser, the comment component can't be seen when the blog is opened from WeChat chat/dialogue.
+- Although you can enter an email address, it doesn't support subscribing to comment replies.
+- The administrator needs to manually review comments, but the TG Bot for comment notifications often fails, causing missed comments.
 
-不过整体来说时至今日依然是十分值得推荐的方案，轻量，方便自部署，风格也简约好看，搭建教程参看「[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)」。
+However, overall, it's still a highly recommended solution even today. It's lightweight, easy to self-deploy, and has a minimalist and good-looking style. For setup instructions, refer to "Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)".
 
-鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 [Supabase](https://supabase.com) 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。
+Given that Railway has cancelled its Free Plan since August last year, if you still want to use it completely free, you can use Vercel/Netlify/Zeabur to deploy the main project for free, and deploy a free PostgreSQL database instance on [Supabase](https://supabase.com), passing the link as an environment variable to the Cusdis service. Other procedures are similar.
 
-另外因为其核心功能已经许久没有什么更新，比起其他较为成熟的评论系统也显得有些简陋，不过由于我也秉持着够用即可的原则，一直没动迁移/更新的念头，只有在其中一阵子在学前端时还参与了一些 Cusdis V2 版本的开发，不过也没做多久。
+Also, because its core features haven't been updated for a long time, it seems a bit rudimentary compared to other more mature commenting systems. However, as I also adhere to the principle of "good enough is good enough", I never had the idea of migrating/updating. I only participated in some development of the Cusdis V2 version for a while when I was learning front-end, but I didn't do it for long.
 
-由于四月时 Vercel 部署升级的时候一直失败，导致接近几周的时间没收到评论，再加上确实有了一些功能需求，所以下定决心进行迁移，探究起了新的方案。
+Due to the constant failure of Vercel deployment upgrades in April, which caused me to not receive comments for nearly a few weeks, plus I did have some functional requirements, so I made up my mind to migrate and explored new solutions.
 
 ### Remark42 + fly.io
 
-调研了一圈后选择了 [reorx](https://reorx.com/) 在「[更换博客评论系统](https://reorx.com/blog/blog-commenting-systems/)」一文中最后选定的 [Remark42](https://remark42.com/)。
+After researching around, I chose [Remark42](https://remark42.com/) which [reorx](https://reorx.com/) finally selected in the article "Changing Blog Commenting Systems".
 
-单纯就配置选项来说比起 Cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 [fly.io](https://fly.io/)，go 单二进制 + 数据库单文件，很舒服的解决方案，更详细的 Remark42 的介绍和优势可以参看上面那篇文章。
+Just in terms of configuration options, it's much richer than Cusdis. Currently, I've configured several common social account logins (GitHub, Twitter, Telegram, email), anonymous commenting is allowed, it supports email subscription for reply notifications, and I've also set up TG bot notifications. It's deployed on [fly.io](https://fly.io), with go single binary + single file database, a very comfortable solution. For more detailed introduction and advantages of Remark42, you can refer to the article mentioned above.
 
-虽然 Remark42 提供了一些迁移方案，但本身并不支持我使用的 Cusdis，但好在它是用 Golang 写的，我自己添加了迁移逻辑，将这些年沉淀下来的 438 条评论数据都无缝迁移过来了。
+Although Remark42 provides some migration solutions, it doesn't inherently support Cusdis which I was using. But since it's written in Golang, I added migration logic myself and seamlessly migrated the 438 comments data accumulated over these years.
 
-## Remark42 + fly.io 部署说明
+## Remark42 + fly.io Deployment Instructions
 
-Remark42 + fly.io 的方案仅牵扯到单个服务，数据库使用的是 boltdb 挂载于 volume 中，但所有操作都在 fly.io 的 Free Plan 中。
+The Remark42 + fly.io solution only involves a single service, with the database using boltdb mounted in a volume, but all operations are within fly.io's Free Plan.
 
-下面将从零开始介绍如何搭建这个免费评论系统。
+Below, I'll introduce how to build this free commenting system from scratch.
 
-Remark42 本身代码开源 —— 「[GitHub - umputun/remark42](https://github.com/umputun/remark42)」，并提供了官方维护的镜像，文档清晰易读，可以根据自己的实际需求进行配置。
+Remark42's code itself is open source - "GitHub - umputun/remark42", and it provides an officially maintained image. The documentation is clear and easy to read, and you can configure it according to your actual needs.
 
-### 安装 `flyctl` 命令行工具
+### Install `flyctl` Command Line Tool
 
-[fly.io](https://fly.io) 与我之前使用的 Railway、Zeabur 等很大的一个不同点是它大部分操作基于命令行与配置文件，而不是在网页端管理后台进行操作，所以首先需要根据[文档](https://fly.io/docs/flyctl/install/)安装 `flyctl` 命令行工具。
+[fly.io](https://fly.io) differs greatly from Railway, Zeabur, etc. that I used before in that most operations are based on command line and configuration files, rather than operating in a web management backend. So first, you need to install the `flyctl` command line tool according to the [documentation](https://fly.io/docs/flyctl/install/).
 
-以 macOS 为例，我使用 `brew` 进行安装：
+Taking macOS as an example, I use `brew` for installation:
 
 ```bash
 brew install flyctl
 ```
 
-### 授权登录
+### Authorize Login
 
-打开终端工具，使用以下命令进行授权登录：
+Open the terminal tool and use the following command for authorized login:
 
 ```bash
 flyctl auth login
@@ -90,19 +90,19 @@ flyctl auth login
 
 ![fly_auth_web](https://image.pseudoyu.com/images/fly_auth_web.png)
 
-在 Web 端进行账户登录或新建账号，完成后点击 `Continue as xxx` 即完成 `flyctl` 命令行的授权登录。
+Log in to your account or create a new account on the web end. After completion, click "Continue as xxx" to complete the authorization login of the `flyctl` command line.
 
-### 创建应用目录
+### Create Application Directory
 
 ![create_fly_config](https://image.pseudoyu.com/images/create_fly_config.png)
 
-由于我通常会手动进行进行配置管理，而不是用它官方的模板，所以我会新建一个类似 `remark42-on-fly` 的目录，并将所有的配置文件、环境变量等放在这个路径下。
+Since I usually manually manage configurations rather than using their official templates, I create a directory like `remark42-on-fly` and put all configuration files, environment variables, etc. in this path.
 
-并使用 VS Code 进行编辑（也可以使用 vim 或者其他编辑器/IDE）。
+And use VS Code for editing (you can also use vim or other editors/IDEs).
 
-### 配置文件
+### Configuration File
 
-fly.io 主要是使用 `.toml` 格式的配置文件进行服务管理，以下是我部署的服务对应的配置文件：
+fly.io mainly uses `.toml` format configuration files for service management. Here is the configuration file corresponding to the service I deployed:
 
 ```toml
 app = 'yu-remark42-01'
@@ -135,35 +135,35 @@ primary_region = 'hkg'
   memory_mb = 256
 ```
 
-这是详细的配置说明：
+Here's a detailed configuration explanation:
 
-- `app`：应用名称，这里我使用了 `yu-remark42-01`，可以根据自己的实际情况进行修改
-- `primary_region`：部署区域，可以从这个[列表](https://fly.io/docs/reference/regions/#fly-io-regions)中选择自己想部署的区域，我选择了香港
-- `[Build]`，这个部分主要是服务镜像相关的配置
-  - `image`：服务镜像，使用了官方提供的 `umputun/remark42:latest`，如有需要可以指定 tag 版本
-- `[[mounts]]`，这个部分主要是挂载数据卷的配置，由于 Remark42 使用 boltdb 数据库，需要持久化存储
-  - `source`：数据卷名称，这里我使用了 `remark42_data_01`
-  - `destination`：挂载目录，这里我挂载到了 `/srv/var`，这个目录是 Remark42 默认的数据存储目录
-- `[http_service]`，这个部分主要是服务相关的配置
-  - `internal_port`：服务内部端口，使用 8080
-  - `force_https`：强制使用 HTTPS
-  - `auto_stop_machines`：设置为 `false`
-  - `auto_start_machines`：设置为 `true`，即自动启动
-  - `min_machines_running`：最小运行机器数，设置为 1
-  - `processes`：服务进程，设置为 `app`
-- `[env]`，配置环境变量
-  - `REMARK_URL`：Remark42 服务的 URL，这里我使用了 `https://yu-remark42-demo.fly.dev/`，这是 fly.io 自动生成的，后续如果有了自定义域名则需要更改
-  - `SITE`：站点名称，这里我使用了 `remark42-demo`
-  - `SECRET`：自定义的 JWT Token，这里我使用了 `remark42-secret`
-  - `ADMIN_SHARED_ID`：管理员 ID，这里我使用了空字符串，即没有管理员，后续可以补充
-- `[[vm]]`，这个部分主要是机器相关的配置
-  - `cpu_kind`：CPU 类型，设置为 `shared`
-  - `cpus`：CPU 数量，设置为 1
-  - `memory_mb`：内存，设置为 256MB
+- `app`: Application name, I used `yu-remark42-01` here, you can modify it according to your actual situation
+- `primary_region`: Deployment region, you can choose the region you want to deploy from this [list](https://fly.io/docs/reference/regions/#fly-io-regions), I chose Hong Kong
+- `[Build]`, this part is mainly about service image configuration
+  - `image`: Service image, using the officially provided `umputun/remark42:latest`, you can specify the tag version if needed
+- `[[mounts]]`, this part is mainly about mounting data volume configuration, as Remark42 uses boltdb database, it needs persistent storage
+  - `source`: Data volume name, I used `remark42_data_01` here
+  - `destination`: Mount directory, I mounted it to `/srv/var`, which is Remark42's default data storage directory
+- `[http_service]`, this part is mainly about service-related configuration
+  - `internal_port`: Internal service port, using 8080
+  - `force_https`: Force the use of HTTPS
+  - `auto_stop_machines`: Set to `false`
+  - `auto_start_machines`: Set to `true`, i.e., auto-start
+  - `min_machines_running`: Minimum number of running machines, set to 1
+  - `processes`: Service process, set to `app`
+- `[env]`, configure environment variables
+  - `REMARK_URL`: URL of Remark42 service, I used `https://yu-remark42-demo.fly.dev/` here, which is automatically generated by fly.io, it needs to be changed later if you have a custom domain
+  - `SITE`: Site name, I used `remark42-demo` here
+  - `SECRET`: Custom JWT Token, I used `remark42-secret` here
+  - `ADMIN_SHARED_ID`: Administrator ID, I used an empty string here, i.e., no administrator, can be supplemented later
+- `[[vm]]`, this part is mainly about machine-related configuration
+  - `cpu_kind`: CPU type, set to `shared`
+  - `cpus`: Number of CPUs, set to 1
+  - `memory_mb`: Memory, set to 256MB
 
-### 创建服务
+### Create Service
 
-完成并检查配置后，运行以下命令进行服务创建：
+After completing and checking the configuration, run the following command to create the service:
 
 ```bash
 flyctl launch
@@ -171,9 +171,9 @@ flyctl launch
 
 ![fly_launch_remark42](https://image.pseudoyu.com/images/fly_launch_remark42.png)
 
-### 环境变量配置
+### Environment Variable Configuration
 
-目前只是部署了服务，并没有设置环境变量，因此服务启动会有问题，接下来我们设置环境变量，放在`prod.env` 文件中：
+Currently, we have only deployed the service and have not set environment variables, so the service will have problems starting. Next, we set environment variables, put them in the `prod.env` file:
 
 ```plaintext
 AUTH_GITHUB_CID=<your_github_cid>
@@ -196,47 +196,47 @@ AUTH_EMAIL_FROM=xxx@gmail.com
 NOTIFY_EMAIL_FROM=xxx@gmail.com
 ```
 
-环境变量的部分相对比较复杂，具体参数参看[文档](https://remark42.com/docs/configuration/authorization/)。
+The environment variable part is relatively complex, refer to the [documentation](https://remark42.com/docs/configuration/authorization/) for specific parameters.
 
-#### 登录/授权配置
+#### Login/Authorization Configuration
 
-我配置了匿名评论、GitHub、Twitter 与 Telegram 几种方式，可以根据自己的情况配置其他登录方式。
+I configured anonymous commenting, GitHub, Twitter, and Telegram methods, you can configure other login methods according to your situation.
 
-- 匿名登录
-  - `AUTH_ANON`：是否允许匿名评论，我选择了允许，即用户可以不登录评论
-- GitHub 登录
-  - `AUTH_GITHUB_CID` 与 `AUTH_GITHUB_CSEC`：GitHub OAuth App 的 Client ID 与 Client Secret
-- Twitter 登录
-  - `AUTH_TWITTER_CID` 与 `AUTH_TWITTER_CSEC`：Twitter OAuth App 的 Client ID 与 Client Secret
-- Telegram 登录
-  - `AUTH_TELEGRAM`：是否允许 Telegram 登录
-  - `TELEGRAM_TOKEN`：Telegram Bot Token，通过 `botfather` 创建
-- 邮箱登录
-  - `AUTH_EMAIL_ENABLE`：是否允许邮箱登录
-  - `AUTH_EMAIL_FROM`：邮箱登录的发送邮箱
+- Anonymous login
+  - `AUTH_ANON`: Whether to allow anonymous comments, I chose to allow, i.e., users can comment without logging in
+- GitHub login
+  - `AUTH_GITHUB_CID` and `AUTH_GITHUB_CSEC`: Client ID and Client Secret of GitHub OAuth App
+- Twitter login
+  - `AUTH_TWITTER_CID` and `AUTH_TWITTER_CSEC`: Client ID and Client Secret of Twitter OAuth App
+- Telegram login
+  - `AUTH_TELEGRAM`: Whether to allow Telegram login
+  - `TELEGRAM_TOKEN`: Telegram Bot Token, created through `botfather`
+- Email login
+  - `AUTH_EMAIL_ENABLE`: Whether to allow email login
+  - `AUTH_EMAIL_FROM`: Sending email for email login
 
-#### 通知配置
+#### Notification Configuration
 
-- Telegram 通知管理员，参看[文档这部分](https://remark42.com/docs/configuration/telegram/)进行 Telegram Bot 的创建和配置
-  - `NOTIFY_ADMINS`：通知管理员的方式，选择 telegram
-  - `NOTIFY_TELEGRAM_CHAN`：如启用 telegram 通知管理员，需要配置对应 Channel id，只需要填写 `t.me/xxx` 后面的 id 部分即可，如 `pseudoyuchat`
-- Email 通知用户，参看[文档这部分](https://remark42.com/docs/configuration/email/)进行邮箱 SMTP 等配置
-  - `NOTIFY_USERS`：通知用户的方式，我选择了了 email, 即邮件通知，则需要配置下文的 SMTP
-  - `NOTIFY_EMAIL_FROM`：邮箱通知的发送地址
+- Telegram notification for administrators, refer to [this part of the documentation](https://remark42.com/docs/configuration/telegram/) for creating and configuring Telegram Bot
+  - `NOTIFY_ADMINS`: Method of notifying administrators, choose telegram
+  - `NOTIFY_TELEGRAM_CHAN`: If enabling telegram notification for administrators, need to configure the corresponding Channel id, just fill in the id part after `t.me/xxx`, such as `pseudoyuchat`
+- Email notification for users, refer to [this part of the documentation](https://remark42.com/docs/configuration/email/) for configuring email SMTP, etc.
+  - `NOTIFY_USERS`: Method of notifying users, I chose email, i.e., email notification, so you need to configure the SMTP below
+  - `NOTIFY_EMAIL_FROM`: Sending address for email notifications
 
-#### 邮件 SMTP 配置
+#### Email SMTP Configuration
 
-上文的邮箱登录与邮箱通知都需要配置 SMTP 服务器，这部分也可以根据自己的邮箱服务商[参照文档](https://remark42.com/docs/configuration/email/)进行配置。
+The email login and email notification mentioned above both need to configure SMTP server, this part can also be configured according to your email service provider [referring to the documentation](https://remark42.com/docs/configuration/email/).
 
-- `SMTP_HOST`：SMTP 服务器地址
-- `SMTP_PORT`：SMTP 服务器端口
-- `SMTP_TLS`：是否启用 TLS
-- `SMTP_USERNAME`：SMTP 用户名
-- `SMTP_PASSWORD`：SMTP 密码
+- `SMTP_HOST`: SMTP server address
+- `SMTP_PORT`: SMTP server port
+- `SMTP_TLS`: Whether to enable TLS
+- `SMTP_USERNAME`: SMTP username
+- `SMTP_PASSWORD`: SMTP password
 
-### 导入环境变量到服务
+### Import Environment Variables to Service
 
-根据以上说明完成环境变量配置后，在配置文件和环境变量文件所在目录运行以下命令导入环境变量：
+After completing the environment variable configuration according to the above instructions, run the following command in the directory where the configuration file and environment variable file are located to import the environment variables:
 
 ```bash
 fly secrets import < prod.env
@@ -246,41 +246,41 @@ fly secrets import < prod.env
 
 ![deploy_status_remark42](https://image.pseudoyu.com/images/deploy_status_remark42.png)
 
-执行完成后到 fly.io 控制台查看服务状态即可，如为 `Deployed` 状态即表示部署成功。
+After execution, check the service status in the fly.io console. If the status is `Deployed`, it indicates successful deployment.
 
-### 配置自定义域名（可选）
+### Configure Custom Domain (Optional)
 
-如果你不想使用 fly.io 提供的默认域名，可以配置自定义域名。
+If you don't want to use the default domain provided by fly.io, you can configure a custom domain.
 
 ![custom_domain_flyio](https://image.pseudoyu.com/images/custom_domain_flyio.png)
 
-进入 fly.io 控制台，选择刚部署的 `yu-remark42-01` 服务，点击左侧的 `Certificates` 选项，然后点击右上角 `Add a Certificate`，按照提示添加自定义域名即可。
+Enter the fly.io console, select the `yu-remark42-01` service you just deployed, click the `Certificates` option on the left, then click `Add a Certificate` in the upper right corner, and follow the prompts to add a custom domain.
 
 ![custom_domain_dns_in_fly](https://image.pseudoyu.com/images/custom_domain_dns_in_fly.png)
 
-点击 `Create Certificate` 后，会有一个页面显示你所需要添加的 DNS 记录，按照提示添加即可。
+After clicking `Create Certificate`, there will be a page showing the DNS records you need to add. Follow the prompts to add them.
 
 ![cloudflare_dns_remark42](https://image.pseudoyu.com/images/cloudflare_dns_remark42.png)
 
 ![flyio_certificate_success](https://image.pseudoyu.com/images/flyio_certificate_success.png)
 
-例如我的域名托管在 Cloudflare，我按照提示添加了两条 DNS 记录，返回页面后点击 `Check again` 或等待一段时间后刷新查看，都显示绿色即为配置成功。
+For example, my domain is hosted on Cloudflare, I added two DNS records according to the prompts. Return to the page and click `Check again` or wait for a while and refresh to view. If all show green, the configuration is successful.
 
 ![change_remark_url](https://image.pseudoyu.com/images/change_remark_url.png)
 
-此时，我们可以在 `fly.toml` 中修改 `REMARK_URL` 为自定义域名，然后执行以下命令重新部署服务即可，之后对配置文件进行任何改动都可以使用该命令进行更新：
+At this point, we can modify `REMARK_URL` to the custom domain in `fly.toml`, then execute the following command to redeploy the service. Any subsequent changes to the configuration file can be updated using this command:
 
 ```bash
 fly deploy
 ```
 
-## 博客配置 Remark42
+## Configuring Remark42 in Your Blog
 
-上文我们完成的 Remark42 服务的部署，现在则需要在我们的博文中加入 Remark42 评论组件，以我使用的 Hugo 博客为例。
+Now that we've completed the deployment of the Remark42 service, we need to add the Remark42 comment component to our blog posts. I'll use my Hugo blog as an example.
 
-### 定义 Hugo 主题 Comments 组件
+### Define Hugo Theme Comments Component
 
-我在 Hugo 博客的 `layouts/partials` 目录下新建了一个 `comments.html` 文件，用于定义 Remark42 评论组件：
+I created a new `comments.html` file in the `layouts/partials` directory of my Hugo blog to define the Remark42 comment component:
 
 ```html
 <div class="comments">
@@ -325,9 +325,9 @@ fly deploy
 </script>
 ```
 
-`remark_config` 中的 `host` 与 `site_id` 需要根据自己的实际配置进行修改，其他部分配置可以保持不变，或根据文档进行调整。
+The `host` and `site_id` in `remark_config` need to be modified according to your actual configuration. Other parts of the configuration can remain unchanged or be adjusted according to the documentation.
 
-配置好 `commnets` 组件后，在 `layouts/posts/single.html` 中文章底部引入：
+After configuring the `comments` component, include it at the bottom of the article in `layouts/posts/single.html`:
 
 ```html
 {{ partial "comments.html" . }}
@@ -335,28 +335,28 @@ fly deploy
 
 ![add_comments_code_in_hugo](https://image.pseudoyu.com/images/add_comments_code_in_hugo.png)
 
-大体位置如图所示，如使用的是其他主题或博客系统，则需要找到自己文章对应的模板文件进行修改。
+The general position is as shown in the image. If you're using another theme or blog system, you'll need to find the corresponding template file for your articles and modify it.
 
-### 本地预览/部署网站
+### Local Preview/Deploy Website
 
 ![test_remark42_embedded](https://image.pseudoyu.com/images/test_remark42_embedded.png)
 
-此时可以在本地预览或部署网站以查看评论系统是否正常显示，至此我们的服务部署完成。
+At this point, you can preview locally or deploy the website to check if the comment system is displaying correctly. With this, our service deployment is complete.
 
-### 获取 User ID 并配置 Admin
+### Get User ID and Configure Admin
 
 ![get_user_id_remark42](https://image.pseudoyu.com/images/get_user_id_remark42.png)
 
-登录授权完成后并测试评论后，可在 Remark42 中点击头像打开管理页面，双击后 `CMD/Ctrl+C` 可以获取以 `github_` 或其他平台开头的 User ID，可以将其配置到 `ADMIN_SHARED_ID` 中（更改 `fly.toml` 配置文件并运行 `fly deploy` 重新部署，即可成为管理员，管理员有权限对其他用户的评论进行删除等管理操作。
+After logging in, authorizing, and testing comments, you can click on the avatar in Remark42 to open the management page. Double-click and then `CMD/Ctrl+C` to get the User ID starting with `github_` or other platforms. You can configure this in `ADMIN_SHARED_ID` (change the `fly.toml` configuration file and run `fly deploy` to redeploy). This will make you an administrator, and administrators have the authority to delete and manage other users' comments.
 
-## 其他
+## Other Considerations
 
-我把之前 Cusdis 中的评论数据按照一定条件导出 json 格式的数据，并通过 go 程序进行格式转换与迁移，因此保留了之前所有的评论。
+I exported the comment data from Cusdis in JSON format according to certain conditions, and converted and migrated the format through a Go program, thus preserving all previous comments.
 
-因为 Cusdis 本身不提供导出功能且迁移的需求太过小众，我并没有直接向上游贡献代码，也没有写成完善的脚本，有类似需求的朋友可以参考这个 PR 进行处理 —— 「[feat: add cusdis to remark42 migrator support by pseudoyu · Pull Request \#1 · pseudoyu/remark42](https://github.com/pseudoyu/remark42/pull/1/)」。
+Because Cusdis itself doesn't provide an export function and the migration need is too niche, I didn't directly contribute code to the upstream or write it into a complete script. Friends with similar needs can refer to this PR for processing - "feat: add cusdis to remark42 migrator support by pseudoyu · Pull Request #1 · pseudoyu/remark42".
 
-## 总结
+## Conclusion
 
-以上就是我的博客评论系统的搭建过程，评论系统的搭建与配置相对繁复，且本文的配置方式或许会随时时间而过时，遇到问题可多参照[官方文档](https://remark42.com/docs/getting-started/installation/)。
+The above is the process of building my blog's comment system. The setup and configuration of a comment system are relatively complex, and the configuration method in this article may become outdated over time. If you encounter problems, refer more to the [official documentation](https://remark42.com/docs/getting-started/installation/).
 
-这是我的博客搭建部署系列教程之一，如对数据统计系统、博客内搜索等搭建感兴趣，请持续关注，希望能对大家有所参考。
+This is one of my blog building and deployment series tutorials. If you're interested in building data statistics systems, in-blog search, etc., please stay tuned. I hope this can be of reference to everyone.

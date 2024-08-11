@@ -1,5 +1,5 @@
 ---
-title: "Solidity 智能合约开发 - Hardhat 框架使用"
+title: "Solidity Smart Contract Development - Using the Hardhat Framework"
 date: 2022-06-09T14:38:10+08:00
 draft: false
 tags: ["blockchain", "solidity", "ethereum", "web3", "smart contract", "javascript", "ethers.js", "hardhat", "yarn"]
@@ -8,37 +8,37 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-经过了前几篇对智能合约基础、Web3.py、ethers.js 的学习，我们已经掌握了通过程序与区块链网络直接交互的基础知识，不熟悉的同学可以回顾一下：
+After the previous articles on smart contract basics, Web3.py, and ethers.js, we have mastered the fundamental knowledge of interacting directly with blockchain networks through programs. For those unfamiliar, you can review:
 
-- [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-- [Solidity 智能合约开发 - 玩转 Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
-- [Solidity 智能合约开发 - 玩转 ethers.js](https://www.pseudoyu.com/en/2022/06/08/learn_solidity_from_scratch_ethersjs/)
+- [Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+- [Solidity Smart Contract Development - Mastering Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
+- [Solidity Smart Contract Development - Mastering ethers.js](https://www.pseudoyu.com/en/2022/06/08/learn_solidity_from_scratch_ethersjs/)
 
-但是在真正的复杂业务场景中，我们往往会使用一些进一步封装的框架，如 HardHat、Brownie、Truffle 等，HardHat 是其中应用最广泛、插件拓展最为强大的。本系列将从这篇开始专注于 Hardhat 框架的使用与最佳实践，而本篇则会通过一个简单的例子完成其安装、配置与使用。
+However, in real complex business scenarios, we often use some further encapsulated frameworks, such as HardHat, Brownie, Truffle, etc. HardHat is the most widely used and has the most powerful plugin expansion. This series will focus on the use and best practices of the Hardhat framework starting from this article, and this article will complete its installation, configuration, and use through a simple example.
 
-本文是对 [Patrick Collins](https://twitter.com/PatrickAlphaC) 的 『[Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ)』 教程的学习整理，强烈建议看原教程视频了解更多细节。
+This article is a summary of learning from [Patrick Collins](https://twitter.com/PatrickAlphaC)'s ["Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript"](https://www.youtube.com/watch?v=gyMwXuJrbJQ) tutorial. It is strongly recommended to watch the original tutorial video for more details.
 
-可以点击[这里](https://github.com/pseudoyu/learn-solidity/tree/master/hardhat_simple_storage)访问本测试 Demo 代码仓库。
+You can click [here](https://github.com/pseudoyu/learn-solidity/tree/master/hardhat_simple_storage) to access the code repository for this test demo.
 
-## Hardhat 介绍
+## Introduction to Hardhat
 
 ![hardhat_homepage](https://image.pseudoyu.com/images/hardhat_homepage.png)
 
-Hardhat 是一个基于 JavaScript 的智能合约开发环境，可以用于灵活地编译、部署、测试和调试基于 EVM 的智能合约，并且提供了一系列工具链来整合代码与外部工具，还提供了丰富的插件生态，提升开发效率。此外，它还提供了模拟以太坊的本地 Hardhat 网络节点，提供强大的本地调试功能。
+Hardhat is a JavaScript-based smart contract development environment that can be used to flexibly compile, deploy, test, and debug EVM-based smart contracts. It provides a series of toolchains to integrate code with external tools and offers a rich plugin ecosystem to improve development efficiency. In addition, it also provides a local Hardhat network node that simulates Ethereum, offering powerful local debugging capabilities.
 
-其 GitHub 地址为 [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)，可以访问其[官方文档](https://hardhat.org/getting-started)了解更多。
+Its GitHub address is [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat), and you can visit its [official documentation](https://hardhat.org/getting-started) to learn more.
 
-## Hardhat 使用
+## Using Hardhat
 
-### 初始化项目
+### Initializing the Project
 
-从零开始搭建一个 Hardhat 项目，我们需要预先安装好 `node.js` 与 `yarn` 环境，这部份参照官方说明根据自己的系统环境按照即可。
+To build a Hardhat project from scratch, we need to pre-install `node.js` and `yarn` environments. This part can be installed according to the official instructions based on your system environment.
 
-首先，我们需要初始化项目并安装 `hardhat` 依赖包。
+First, we need to initialize the project and install the `hardhat` dependency package.
 
 ```bash
 yarn init
@@ -47,17 +47,17 @@ yarn add --dev hardhat
 
 ![yarn_add](https://image.pseudoyu.com/images/yarn_add.png)
 
-### 初始化 Hardhat
+### Initializing Hardhat
 
-然后需要运行 `yarn hardhat`，通过交互式命令来进行初始化，根据项目需要进行配置，我们的测试 Demo 选择默认值。
+Then we need to run `yarn hardhat` to initialize through interactive commands. Configure according to project needs. For our test demo, we choose the default values.
 
 ![hardhat_project_init](https://image.pseudoyu.com/images/hardhat_project_init.png)
 
-### 优化代码格式化
+### Optimizing Code Formatting
 
-#### VS Code 配置
+#### VS Code Configuration
 
-我本地是通过 VS Code 进行代码开发的，可以通过安装 `Solidity + Hardhat` 与 `Prettier` 两个插件来进行代码格式化，可以使用打开 VS Code 设置，在 `settings.json` 中增加如下格式化配置：
+I develop code locally using VS Code. You can format code by installing the `Solidity + Hardhat` and `Prettier` plugins. You can open VS Code settings and add the following formatting configuration in `settings.json`:
 
 ```json
 {
@@ -72,9 +72,9 @@ yarn add --dev hardhat
 }
 ```
 
-#### 项目配置
+#### Project Configuration
 
-为了统一各个使用项目的开发人员的代码格式化样式，我们还可以为项目配置 `prettier` 与 `prettier-plugin-solidity` 插件支持：
+To unify the code formatting styles of developers using various projects, we can also configure `prettier` and `prettier-plugin-solidity` plugin support for the project:
 
 ```bash
 yarn add --dev prettier prettier-plugin-solidity
@@ -82,9 +82,9 @@ yarn add --dev prettier prettier-plugin-solidity
 
 ![yarn_add_prettier_plugin](https://image.pseudoyu.com/images/yarn_add_prettier_plugin.png)
 
-添加依赖后，可以在项目目录增加 `.prettierrc` 与 `.prettierignore` 配置文件来进行格式化统一：
+After adding dependencies, you can add `.prettierrc` and `.prettierignore` configuration files in the project directory to unify formatting:
 
-我的 `.prettierrc` 配置为：
+My `.prettierrc` configuration is:
 
 ```json
 {
@@ -95,7 +95,7 @@ yarn add --dev prettier prettier-plugin-solidity
 }
 ```
 
-我的 `.prettierignore` 配置为：
+My `.prettierignore` configuration is:
 
 ```plaintext
 node_modules
@@ -110,17 +110,17 @@ README.md
 coverage.json
 ```
 
-### 编译合约
+### Compiling Contracts
 
-无需像 `ethers.js` 一样自定义 `compile` 命令，HardHat 预置了 `compile` 命令，可以将合约放在 `contracts` 目录下，然后通过 `yarn hardhat compile` 命令来编译合约：
+There's no need to customize the `compile` command like in `ethers.js`. HardHat provides a built-in `compile` command. You can place contracts in the `contracts` directory and then compile them using the `yarn hardhat compile` command:
 
 ![hardhat_compile_contract](https://image.pseudoyu.com/images/hardhat_compile_contract.png)
 
-### 添加 `dotenv` 支持
+### Adding `dotenv` Support
 
-在开始编写部署脚本之前，我们先配置一下 `dotenv` 插件，这样我们就可以使用 `dotenv` 来获取环境变量。我们在开发过程中，会牵扯到很多隐私信息，如私钥等，我们会希望将其存储在 `.env` 文件或直接设置在终端中，比如我们的 `RINKEBY_PRIVATE_TOKEN`，这样我们就可以在部署脚本中使用 `process.env.RINKEBY_PRIVATE_TOKEN` 获取到值，无需在代码中显式写入，减少隐私泄漏风险。
+Before we start writing deployment scripts, let's configure the `dotenv` plugin. This way, we can use `dotenv` to get environment variables. During development, we will deal with a lot of private information, such as private keys, etc. We would like to store them in a `.env` file or set them directly in the terminal, such as our `RINKEBY_PRIVATE_TOKEN`. This way, we can use `process.env.RINKEBY_PRIVATE_TOKEN` to get the value in the deployment script without explicitly writing it in the code, reducing the risk of privacy leakage.
 
-#### 安装 `dotenv`
+#### Installing `dotenv`
 
 ```bash
 yarn add --dev dotenv
@@ -128,9 +128,9 @@ yarn add --dev dotenv
 
 ![yarn_add_dotenv](https://image.pseudoyu.com/images/yarn_add_dotenv.png)
 
-#### 设置环境变量
+#### Setting Environment Variables
 
-在 `.env` 文件中，我们可以设置环境变量，比如：
+In the `.env` file, we can set environment variables, such as:
 
 ```plaintext
 RINKEBY_RPC_URL=url
@@ -139,7 +139,7 @@ ETHERSCAN_API_KEY=key
 COINMARKETCAP_API_KEY=key
 ```
 
-我们就可以在 `hardhat.config.js` 中读取环境变量了：
+We can then read environment variables in `hardhat.config.js`:
 
 ```javascript
 require("dotenv").config()
@@ -151,23 +151,23 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "key"
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "key"
 ```
 
-### 配置网络环境
+### Configuring Network Environment
 
-往往我们的合约需要运行在不同的区块链网络上，如本地测试、开发、上线环境等等，Hardhat 也提供了便捷的方式来配置网络环境。
+Often, our contracts need to run on different blockchain networks, such as local testing, development, and production environments. Hardhat also provides a convenient way to configure network environments.
 
-#### 启动网络
+#### Starting the Network
 
-我们可以直接运行脚本来启动一个 Hardhat 自带的网络，但该网络仅仅存活于脚本运行期间，想要启动一个本地可持续的网络，需要运行 `yarn hardhat node` 命令：
+We can directly run a script to start a network that comes with Hardhat, but this network only exists during script execution. To start a locally sustainable network, you need to run the `yarn hardhat node` command:
 
 ![hardhat_localhost_node](https://image.pseudoyu.com/images/hardhat_localhost_node.png)
 
-执行完成后，就生成了测试网络与测试账户，供后续开发调试使用。
+After execution, test networks and test accounts are generated for subsequent development and debugging.
 
-我们还可以通过 Alchemy 或 Infura 等平台生成自己的测试网节点，记录其 `RPC_URL` 供程序连接使用。
+We can also generate our own test network nodes through platforms like Alchemy or Infura, and record their `RPC_URL` for program connection use.
 
-#### 定义网络
+#### Defining Networks
 
-完成网络环境准备后，我们可以在项目配置 `hardhat.config.js` 中定义网络：
+After preparing the network environment, we can define networks in the project configuration `hardhat.config.js`:
 
 ```javascript
 const RINKEBY_RPC_URL =
@@ -192,21 +192,21 @@ module.exports = {
 }
 ```
 
-### 脚本
+### Scripts
 
-在 Hardhat 项目中，我们可以通过在 `scripts` 目录中编写脚本来实现部署等功能，并且通过便捷的命令执行脚本。
+In a Hardhat project, we can implement functions such as deployment by writing scripts in the `scripts` directory and execute scripts through convenient commands.
 
-#### 编写部署脚本
+#### Writing Deployment Scripts
 
-接下来我们开始编写 `deploy.js` 脚本。
+Next, let's start writing the `deploy.js` script.
 
-首先，我们需要从 `hardhat` 中导入必要包：
+First, we need to import necessary packages from `hardhat`:
 
 ```javascript
 const { ethers, run, network } = require("hardhat")
 ```
 
-接着则编写 `main` 方法，包含我们的部署核心逻辑：
+Then write the `main` method, which includes our core deployment logic:
 
 ```javascript
 async function main() {
@@ -218,21 +218,21 @@ async function main() {
     await simpleStorage.deployed()
     console.log("SimpleStorage Contract deployed at:", simpleStorage.address)
 
-    // 获取当前值
+    // Get current value
     const currentValue = await simpleStorage.retrieve()
     console.log("Current value:", currentValue)
 
-    // 设置值
+    // Set value
     const transactionResponse = await simpleStorage.store(7)
     await transactionResponse.wait(1)
 
-    // 获取更新后的值
+    // Get updated value
     const updatedValue = await await simpleStorage.retrieve()
     console.log("Updated value:", updatedValue)
 }
 ```
 
-最后运行我们的 `main` 方法：
+Finally, run our `main` method:
 
 ```javascript
 main()
@@ -243,11 +243,11 @@ main()
     })
 ```
 
-#### 运行脚本
+#### Running Scripts
 
-完成脚本编写后，可以通过 Hardhat 提供的 `run` 命令来运行脚本。
+After completing the script writing, you can run the script using the `run` command provided by Hardhat.
 
-如不加网络参数，则默认使用 `hardhat` 网络，可以通过 `--network` 参数指定网络：
+If no network parameter is added, the `hardhat` network is used by default. You can specify the network using the `--network` parameter:
 
 ```bash
 yarn hardhat run scripts/deploy.js --network rinkeby
@@ -255,19 +255,19 @@ yarn hardhat run scripts/deploy.js --network rinkeby
 
 ![hardhat_deploy_rinkeby](https://image.pseudoyu.com/images/hardhat_deploy_rinkeby.png)
 
-### 增加 etherscan 合约验证支持
+### Adding Etherscan Contract Verification Support
 
-将合约部署至 Rinkeby 测试网络后可在 Etherscan 上查看合约的地址，并且进行验证。我们可以通过网站进行操作，但 Hardhat 提供了插件支持，更方便进行验证操作。
+After deploying the contract to the Rinkeby test network, you can view the contract address on Etherscan and verify it. We can do this through the website, but Hardhat provides plugin support, making it more convenient to perform verification operations.
 
-#### 安装 hardhat-etherscan 插件
+#### Installing hardhat-etherscan Plugin
 
-我们通过 `yarn add --dev @nomiclabs/hardhat-etherscan` 命令安装插件。
+We install the plugin using the `yarn add --dev @nomiclabs/hardhat-etherscan` command.
 
 ![yarn_add_etherscan_verify_support](https://image.pseudoyu.com/images/yarn_add_etherscan_verify_support.png)
 
-#### 启用 etherscan 合约验证支持
+#### Enabling Etherscan Contract Verification Support
 
-完成安装后，我们需要在 `hardhat.config.js` 中进行配置：
+After installation, we need to configure in `hardhat.config.js`:
 
 ```javascript
 require("@nomiclabs/hardhat-etherscan")
@@ -281,9 +281,9 @@ module.exports = {
 }
 ```
 
-#### 定义 verify 方法
+#### Defining Verify Method
 
-接下来我们需要在部署脚本 `deploy.js` 中添加 `verify` 方法。
+Next, we need to add a `verify` method in the deployment script `deploy.js`.
 
 ```javascript
 const { ethers, run, network } = require("hardhat")
@@ -305,11 +305,11 @@ async function verify(contractAddress, args) {
 }
 ```
 
-这个方法我们调用了 `hardhat` 包中的 `run` 方法，并且传递了一个 `verify` 命令，并且传递了一个参数 `{ address: contractAddress, constructorArguements: args }`。因为可能我们的合约已经在 Etherscan 上验证过，所以我们做了一个 `try...catch...` 错误处理，如果验证过，则会抛出一个错误，并且输出一个提示信息，而不影响我们的部署流程。
+In this method, we call the `run` method from the `hardhat` package, pass a `verify` command, and pass a parameter `{ address: contractAddress, constructorArguements: args }`. Since our contract may have already been verified on Etherscan, we do a `try...catch...` error handling. If it's already verified, it will throw an error and output a prompt message without affecting our deployment process.
 
-#### 设置部署后调用
+#### Setting Post-Deployment Call
 
-定义好我们的 `verify` 方法后，我们可以在部署脚本中调用它：
+After defining our `verify` method, we can call it in the deployment script:
 
 ```javascript
 async function main() {
@@ -324,38 +324,38 @@ async function main() {
 }
 ```
 
-在这里我们做了两个特殊处理。
+Here we made two special treatments.
 
-首先，我们仅需要在 `rinkeby` 网络上验证合约，而不需要在本地或其他网络环境验证，因此，我们对 `network.config.chainId` 进行判断，如果是 `4`，则执行验证操作；否则，不执行验证操作，此外仅在有 `ETHERSCAN_API_KEY` 环境变量时执行验证操作。
+First, we only need to verify the contract on the `rinkeby` network, not on local or other network environments. Therefore, we judge `network.config.chainId`. If it's `4`, we perform the verification operation; otherwise, we don't. In addition, we only perform the verification operation when there is an `ETHERSCAN_API_KEY` environment variable.
 
-另外，Etherscan 可能需要在部署后一段时间才能获取到合约地址，因此我们配置了 `.wait(6)` 等待 6 个区块后再进行验证。
+Also, Etherscan may need some time after deployment to get the contract address, so we configured `.wait(6)` to wait for 6 blocks before verification.
 
-执行效果如下：
+The execution effect is as follows:
 
 ![hardhat_verify_contract_etherscan](https://image.pseudoyu.com/images/hardhat_verify_contract_etherscan.png)
 
 ![verified_contract_on_etherscan](https://image.pseudoyu.com/images/verified_contract_on_etherscan.png)
 
-我们通过 Etherscan 验证后访问后可以直接查看合约源码并进行交互。
+After verification through Etherscan, we can directly view the contract source code and interact with it.
 
 ![interact_with_contract_on_etherscan](https://image.pseudoyu.com/images/interact_with_contract_on_etherscan.png)
 
-### 合约测试
+### Contract Testing
 
-对于智能合约来说，其大多数操作都需要部署上链，与资产交互，消耗 gas，且一旦有安全隐患会造成严重的后果。因此，我们需要对智能合约进行详细的测试。
+For smart contracts, most operations need to be deployed on-chain, interact with assets, consume gas, and once there are security vulnerabilities, it will cause serious consequences. Therefore, we need to conduct detailed tests on smart contracts.
 
-Hardhat 提供了完备的测试调试工具，可以在 `tests` 目录中编写测试脚本，通过 `yarn hardhat test` 命令运行测试。
+Hardhat provides comprehensive testing and debugging tools. We can write test scripts in the `tests` directory and run tests using the `yarn hardhat test` command.
 
-#### 编写测试脚本
+#### Writing Test Scripts
 
-为我们的部署脚本编写 `test-deploy.js` 测试程序，首先需要导入必要包：
+Let's write a `test-deploy.js` test program for our deployment script. First, we need to import the necessary packages:
 
 ```javascript
 const { assert } = require("chai")
 const { ethers } = require("hardhat")
 ```
 
-然后编写测试逻辑：
+Then write the test logic:
 
 ```javascript
 describe("SimpleStorage", () => {
@@ -385,31 +385,31 @@ describe("SimpleStorage", () => {
     })
 ```
 
-在 Hardhat 的测试脚本中，我们使用 `describe` 包裹测试类，并且使用 `it` 包裹测试方法。我们需要保证测试前合约已经部署，因此，我们通过 `beforeEach` 方法在每个测试方法执行前都会调用 `simpleStorageFactory.deploy()`，并且将返回的 `simpleStorage` 对象赋值给 `simpleStorage` 变量。
+In Hardhat's test script, we use `describe` to wrap the test class and use `it` to wrap the test method. We need to ensure that the contract is deployed before testing, so we use the `beforeEach` method to call `simpleStorageFactory.deploy()` before each test method is executed, and assign the returned `simpleStorage` object to the `simpleStorage` variable.
 
-我们使用 `assert.equal(currentValue.toString(), expectedValue)` 来对执行结果与预期结果进行比照，可以用 `expect(currentValue.toString()).to.equal(expectedValue)` 替代，效果一样。
+We use `assert.equal(currentValue.toString(), expectedValue)` to compare the execution result with the expected result. It can be replaced with `expect(currentValue.toString()).to.equal(expectedValue)`, which has the same effect.
 
-此外，我们还可以通过 `it.only()` 来指定仅执行其中一个测试方法。
+In addition, we can use `it.only()` to specify that only one of the test methods is executed.
 
-#### 执行测试脚本
+#### Running Test Scripts
 
-我们通过 `yarn hardhat test` 运行测试，且可以通过 `yarn hardhat test --grep store` 来指定测试方法。
+We run the test with `yarn hardhat test` and can specify test methods with `yarn hardhat test --grep store`.
 
 ![hardhat_run_tests](https://image.pseudoyu.com/images/hardhat_run_tests.png)
 
-### 添加 `gas-reporter` 支持
+### Adding `gas-reporter` Support
 
-如上文所述，gas 是我们在开发过程中需要特别关注的资源，尤其在 Ethereum 主网上尤其昂贵。因此，我们需要在测试过程中查看 gas 消耗情况。HardHat 也有一个 `gas-reporter` 插件，可以很方便地输出 gas 消耗情况。
+As mentioned above, gas is a resource we need to pay special attention to during development, especially expensive on the Ethereum mainnet. Therefore, we need to check gas consumption during testing. HardHat also has a `gas-reporter` plugin that can conveniently output gas consumption information.
 
-#### 安装 `gas-reporter` 插件
+#### Installing `gas-reporter` Plugin
 
-我们通过 `yarn add --dev hardhat-gas-reporter` 命令来安装插件：
+We install the plugin using the `yarn add --dev hardhat-gas-reporter` command:
 
 ![yarn_add_gas_reporter](https://image.pseudoyu.com/images/yarn_add_gas_reporter.png)
 
-#### 启用 `gas-reporter` 支持
+#### Enabling `gas-reporter` Support
 
-我们通过在 `hardhat.config.js` 中添加 `gasReporter: true` 及额外配置项来启用插件：
+We enable the plugin by adding `gasReporter: true` and additional configuration items in `hardhat.config.js`:
 
 ```javascript
 require("hardhat-gas-reporter")
@@ -429,43 +429,43 @@ module.exports = {
 }
 ```
 
-我们可以指定输出文件、是否开启颜色、指定币种、指定代币名称，以及指定代币的 CoinMarketCap API 密钥来根据项目进一步控制输出。
+We can specify output file, whether to enable colors, specify currency, specify token name, and specify CoinMarketCap API key to further control output according to the project.
 
-按照以上配置，运行 `yarn hardhat test` 输出效果如下：
+According to the above configuration, running `yarn hardhat test` outputs the following effect:
 
 ![hardhat_add_gas_reporter_support_and_export](https://image.pseudoyu.com/images/hardhat_add_gas_reporter_support_and_export.png)
 
-### 添加 `solidity-coverage` 支持
+### Adding `solidity-coverage` Support
 
-合约测试对于保障业务逻辑正确性与安全防范至关重要，因此，我们需要对合约进行覆盖率测试。HardHat 也有一个 `solidity-coverage` 插件，可以很方便地输出覆盖率情况。
+Contract testing is crucial for ensuring business logic correctness and security prevention. Therefore, we need to conduct coverage testing on contracts. HardHat also has a `solidity-coverage` plugin that can conveniently output coverage information.
 
-#### 安装 `solidity-coverage` 插件
+#### Installing `solidity-coverage` Plugin
 
-我们通过 `yarn add --dev solidity-coverage` 命令来安装插件：
+We install the plugin using the `yarn add --dev solidity-coverage` command:
 
 ![yarn_add_coverage_support](https://image.pseudoyu.com/images/yarn_add_coverage_support.png)
 
-#### 启用 `solidity-coverage` 支持
+#### Enabling `solidity-coverage` Support
 
-我们仅需在 `hardhat.config.js` 中导入包即可添加覆盖率测试支持：
+We only need to import the package in `hardhat.config.js` to add coverage test support:
 
 ```javascript
 require("solidity-coverage")
 ```
 
-#### 运行覆盖率测试
+#### Running Coverage Test
 
-通过 `yarn hardhat coverage` 即可运行覆盖率测试：
+Run coverage test with `yarn hardhat coverage`:
 
 ![hardhat_coverage](https://image.pseudoyu.com/images/hardhat_coverage.png)
 
 ### Task
 
-上文我们对 `hardhat` 库的基础功能与脚本进行了一些使用。除此之外，我们还可以自定义一些任务供开发调试使用。
+Above, we have used some basic functions and scripts of the `hardhat` library. In addition, we can also customize some tasks for development and debugging.
 
-#### 编写 Task
+#### Writing Tasks
 
-Hardhat 中，我们将任务定义在 `tasks` 目录下，我们将编写一个 `block-number.js` 的 Task 来获取区块高度：
+In Hardhat, we define tasks in the `tasks` directory. We will write a `block-number.js` task to get the block height:
 
 ```javascript
 const { task } = require("hardhat/config")
@@ -478,11 +478,11 @@ task("block-number", "Prints the current block number").setAction(
 )
 ```
 
-Task 通过 `task()` 方法来创建，并通过 `setAction()` 方法来设置任务的执行函数。其中，`taskArgs` 是一个包含所有参数的对象，`hre` 是一个 `HardhatRuntimeEnvironment` 对象，可以用来获取其他的资源。
+Tasks are created using the `task()` method and the execution function is set using the `setAction()` method. Here, `taskArgs` is an object containing all parameters, and `hre` is a `HardhatRuntimeEnvironment` object that can be used to get other resources.
 
-#### 运行 Task
+#### Running Tasks
 
-定义完成后，在项目命令的 `AVAILABLE TASKS` 中就有了我们刚定义好的 `block-number` 任务，可以通过 `yarn hardhat block-number` 命令来运行任务，同样的，我们可以指定特定网络运行：
+After definition, our newly defined `block-number` task will appear in the `AVAILABLE TASKS` of the project command. You can run the task using the `yarn hardhat block-number` command. Similarly, we can specify a specific network to run:
 
 ```bash
 yarn hardhat block-number --network rinkeby
@@ -492,19 +492,19 @@ yarn hardhat block-number --network rinkeby
 
 ### Hardhat Console
 
-最后，除了通过代码与链/合约进行交互外，我们还可以通过 `Hardhat Console` 来调试项目，查看链状态，合约的输入、输出等。我们可以通过 `yarn hardhat console` 命令来打开 Hardhat Console，并进行交互。
+Finally, in addition to interacting with the chain/contract through code, we can also debug projects, view chain status, contract input and output, etc. through the `Hardhat Console`. We can open the Hardhat Console and interact using the `yarn hardhat console` command.
 
 ![hardhat_console](https://image.pseudoyu.com/images/hardhat_console.png)
 
-## 总结
+## Conclusion
 
-以上就是我对 Hardhat 框架的基础配置与使用，它是一个很强大的开发框架，我后续还将会继续深入了解它的更多特性与使用技巧，如果有兴趣，可以继续关注，希望对大家有所帮助。
+The above is my basic configuration and use of the Hardhat framework. It is a very powerful development framework, and I will continue to delve into more of its features and usage techniques in the future. If you're interested, you can continue to follow. I hope this is helpful to everyone.
 
-## 参考资料
+## References
 
 > 1. [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 > 2. [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)
-> 3. [Hardhat 官方文档](https://hardhat.org/getting-started)
-> 4. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-> 5. [Solidity 智能合约开发 - 玩转 Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
-> 6. [Solidity 智能合约开发 - 玩转 ethers.js](https://www.pseudoyu.com/en/2022/06/08/learn_solidity_from_scratch_ethersjs/)
+> 3. [Hardhat Official Documentation](https://hardhat.org/getting-started)
+> 4. [Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+> 5. [Solidity Smart Contract Development - Mastering Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
+> 6. [Solidity Smart Contract Development - Mastering ethers.js](https://www.pseudoyu.com/en/2022/06/08/learn_solidity_from_scratch_ethersjs/)

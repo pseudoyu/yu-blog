@@ -1,5 +1,5 @@
 ---
-title: "周报 #29 - 日语学习经验、Steam Deck 与居酒屋"
+title: "Weekly Review #29 - Japanese Learning Experience, Steam Deck and Izakaya"
 date: 2023-02-06T21:56:49+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "steam deck", "silent", "movie", "japanese", "mbti"]
@@ -8,172 +8,172 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/christmas_song_english_version.mp3" caption="《クリスマスソング (English Cover) - Matt Cab》" >}}
+{{<audio src="audios/christmas_song_english_version.mp3" caption="'Christmas Song (English Cover) - Matt Cab'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-02-01` 到 `2023-02-06` 这周生活的记录与思考。
+This is a record and reflection of my life from `2023-02-01` to `2023-02-06`.
 
-是上班的第一周，因为过年期间也有在做一些工作，所以倒不是不适应工作节奏，只是常常没办法自由地做自己的事，顿时觉得时间紧迫了起来。
+It's the first week back at work. Since I had been doing some work during the Spring Festival, I wasn't unaccustomed to the work rhythm. However, I often couldn't freely do my own things, which suddenly made me feel pressed for time.
 
-开始重温日语，发现居然还记得很多，惊喜；周末追了些新剧，时隔一年第一次去电影院看了电影；拿到了期盼已久的 Steam Deck，一番配置；周一开始尝试给捏捏喂翅中（据说对毛发好），感觉胃口还不错，不挑食；时隔大半年重新整理了厨房，开始自炊生活，已经坚持到了第三天；周一出门吃了心心念的大阪烧；还有很多有意思的事。
+I started revisiting Japanese and was surprised to find that I still remembered a lot. Over the weekend, I watched some new dramas and went to the cinema for the first time in a year. I received the long-awaited Steam Deck and spent some time configuring it. On Monday, I started trying to feed Nie Nie chicken wings (which are said to be good for her coat), and she seems to have a good appetite and isn't picky. After half a year, I reorganized the kitchen and started cooking for myself, which has lasted for three days now. On Monday, I went out to eat the Okonomiyaki I had been craving. There were many other interesting things as well.
 
-## 日语学习
+## Japanese Learning
 
-因为有去日本的打算，年初立下了 flag 重温日语。上次学大概已经是六七年前了，所幸五十音和一些基础的语法还没忘记，捡起来也不算太久，不过因为这次有了考证的压力，还是重新认真学习了。
+Because I plan to go to Japan, I set a flag at the beginning of the year to revisit Japanese. The last time I studied was probably six or seven years ago. Fortunately, I haven't forgotten the fifty sounds and some basic grammar, so it didn't take too long to pick up. However, because I now have the pressure of taking a certification exam, I've started studying seriously again.
 
-### 课程资源
+### Course Resources
 
-之前一直看的是沪江网校葉子先生的新标日初级，算是比较经典的教材了，在 B 站上有官方的录播课
+Previously, I had been watching Mr. Ye's New Standard Japanese Elementary course on Hujiang Online School, which is a relatively classic textbook. There are official recorded courses on Bilibili:
 
-- [【日语课程】标日初级精讲 BY 萌萌哒葉子先生](https://www.bilibili.com/video/BV1es41127PE/)
+- [【Japanese Course】Standard Japanese Elementary Intensive Lecture BY Adorable Mr. Ye](https://www.bilibili.com/video/BV1es41127PE/)
 
-而最近在 Twitter 上看到了一名博主 [Yellow](https://twitter.com/yellow532486) 的一个日语学习的 [thread](https://twitter.com/yellow532486/status/1619895028201189377)，使用的是『大家的日语』，也提到了配套的 YouTube 教程，是一名在台湾教日语的老师，感觉很有趣，想尝试一下
+Recently, I saw a Japanese learning [thread](https://twitter.com/yellow532486/status/1619895028201189377) by a blogger named [Yellow](https://twitter.com/yellow532486) on Twitter. They use "Minna no Nihongo" and also mentioned a companion YouTube tutorial by a Japanese teacher in Taiwan. It seems interesting, and I want to try it:
 
-- [出口日語 - YouTube](https://www.youtube.com/@deguchi)
+- [Deguchi Japanese - YouTube](https://www.youtube.com/@deguchi)
 
-### 辅助资料
+### Supplementary Materials
 
-关于一些单词语法学习方面，记起了当时大一的时候每天上课路上都听一个播客频道来记忆一些语法点，很有效（~~主要是声音太好听了~~）
+Regarding vocabulary and grammar learning, I recalled listening to a podcast channel every day on my way to class when I was a freshman to memorize some grammar points. It was very effective (~~mainly because the voice was so pleasant to listen to~~):
 
-- [《myrcella 的日语角》- Apple 播客](https://podcasts.apple.com/cn/podcast/myrcella%E7%9A%84%E6%97%A5%E8%AF%AD%E8%A7%92/id875790959)
+- [《Myrcella's Japanese Corner》- Apple Podcasts](https://podcasts.apple.com/cn/podcast/myrcella%E7%9A%84%E6%97%A5%E8%AF%AD%E8%A7%92/id875790959)
 
-因为也习惯了书 + 课程这样的学习模式，所以前期也没再找其他的辅助资源了，打算先好好打基础。
+Because I'm accustomed to the learning mode of books + courses, I didn't look for other auxiliary resources in the early stages. I plan to focus on laying a solid foundation first.
 
-### 输入法
+### Input Method
 
-解决了学习资料的问题，接着就是输入法了，iOS 使用的就是原生输入法，不折腾了。
+After solving the learning material problem, the next issue was the input method. For iOS, I use the native input method, without any modifications.
 
-而我日常 macOS 端因为有双拼需求，使用的是 [Rime 输入法](https://rime.im/)，并且根据通过这篇文章配置删除了系统原生的 Abc 输入法：
+For my daily macOS use, because I need double pinyin, I use the [Rime Input Method](https://rime.im/), and I've configured it to remove the system's native ABC input method following this article:
 
-- [Mac 删除原生英文 ABC](https://ssnhd.com/2022/01/01/mac-inputdel/)
+- [Mac Delete Native English ABC](https://ssnhd.com/2022/01/01/mac-inputdel/)
 
-所以也不想因为日语输入法而新增一个系统原生，于是找了一个 Rime 适用的日语调教方案，目前体验下来很棒：
+So I didn't want to add a new system native input method for Japanese. Instead, I found a Japanese tuning scheme suitable for Rime, which has been great so far:
 
-- [GitHub - gkovacs/rime-japanese: 日语输入法](https://github.com/gkovacs/rime-japanese)
+- [GitHub - gkovacs/rime-japanese: Japanese Input Method](https://github.com/gkovacs/rime-japanese)
 
-使用效果如下：
+The usage effect is as follows:
 
 ![japanese_rime_input](https://image.pseudoyu.com/images/japanese_rime_input.png)
 
-不过有个问题就是双拼用久了后，有时候用罗马音打字的时候也会手快打双拼，还在勉强适应中...
+However, there's a problem: after using double pinyin for a long time, sometimes when typing in romaji, I unconsciously type in double pinyin. I'm still struggling to adapt...
 
-## 有趣的事与物
+## Interesting Things and Objects
 
 ### Steam Deck
 
-这周最开心的就是收到了挚友送的 Steam Deck 了，虽然其实 12 月就已经到货了，但是香港邮寄什么的不算方便，直到年后才拿到手，比想象得大很多，但是并不重，手感超级舒服。
+The happiest thing this week was receiving the Steam Deck sent by my dear friend. Although it had actually arrived in December, shipping to Hong Kong wasn't convenient, so I didn't get my hands on it until after the New Year. It's much bigger than I imagined, but not heavy, and the feel is super comfortable.
 
 ![yu_steam_deck_1](https://image.pseudoyu.com/images/yu_steam_deck_1.jpg)
 
 ![yu_steam_deck_2](https://image.pseudoyu.com/images/yu_steam_deck_2.jpg)
 
-虽然像是松鼠一样买了很多 Switch 游戏，但是自己其实一直很少玩，总是很难把游戏作为一种真正放松下来的娱乐方式，倪这么多年一直督促我玩游戏，也没什么成效，再加上后面换成 mac 后，连 steam 都已经很少打开了，这次终于让我连没有设备这个借口都没了哈哈，后面还是会有一些定期体验一些经典游戏的计划。
+Although I've bought many Switch games like a squirrel, I actually rarely play them. I've always found it difficult to truly relax through gaming as a form of entertainment. Ni has been urging me to play games for so many years, but to little effect. After switching to Mac, I even rarely opened Steam. This time, I finally have no excuse about not having the right device, haha. I plan to regularly experience some classic games in the future.
 
-话说 Steam Deck 送的专属皮肤好酷。
+By the way, the exclusive skin that came with the Steam Deck is really cool.
 
 ![steam_deck_special_frame](https://image.pseudoyu.com/images/steam_deck_special_frame.png)
 
-### 输入
+### Input
 
-#### 文章
+#### Articles
 
-虽然一些有意思的文章会在 [Telegram 频道](https://t.me/pseudoyulife)里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although some interesting articles are automatically synced in my [Telegram channel](https://t.me/pseudoyulife), I'll still select a few to list here. It feels more like a newsletter this way.
 
-- [2023-01 网络阅读总结 · 天仙子](https://tianxianzi.me/2023/01/30/good_article_2023_01/)
-- [Nostr 介紹 | 蓋索林 Gasolin](https://blog.gasolin.idv.tw/service/nostr-c4/)
-- [聊聊 nostr 和 审查 | 酷 壳 - CoolShell](https://coolshell.cn/articles/22367.html)
-- [DApp 构建指南 —— 02 需求业务分析 - Caos](https://caos.xlog.app/dapp--02)
-- [图床服务的搭建思路](https://easonyang.com/2021/01/30/create-a-image-server/)
+- [2023-01 Online Reading Summary · Tianxianzi](https://tianxianzi.me/2023/01/30/good_article_2023_01/)
+- [Nostr Introduction | Gasolin](https://blog.gasolin.idv.tw/service/nostr-c4/)
+- [Let's Talk about nostr and Censorship | CoolShell](https://coolshell.cn/articles/22367.html)
+- [DApp Building Guide —— 02 Requirement Business Analysis - Caos](https://caos.xlog.app/dapp--02)
+- [Thoughts on Building an Image Hosting Service](https://easonyang.com/2021/01/30/create-a-image-server/)
 - [Video Game Economies](https://www.unswecosoc.com/interesting-articles/1501-2/)
 - [Learn In Public](https://www.swyx.io/learn-in-public)
 - [My Story as a Logseq Contributor | pengx17](https://pengx17.vercel.app/posts/my-logseq-contributions)
 
-#### 播客
+#### Podcasts
 
-因为这周通勤少了，所以播客听得不算多，印象比较深的是这个：
+Because I had less commute time this week, I didn't listen to many podcasts. The one that left a deep impression was:
 
-- [Ep.22 \[CN\]: Solana 沉浮录：很多的偶然与少许的必然 | HODLong 后浪](https://hodlong-hou-lang.simplecast.com/episodes/ep22-cn-solana-OtNe4Ybk?utm_source=listennotes.com&utm_campaign=Listen%20Notes&utm_medium=website)
+- [Ep.22 [CN]: The Rise and Fall of Solana: Many Coincidences and a Few Inevitabilities | HODLong](https://hodlong-hou-lang.simplecast.com/episodes/ep22-cn-solana-OtNe4Ybk?utm_source=listennotes.com&utm_campaign=Listen%20Notes&utm_medium=website)
 
-#### 视频
+#### Videos
 
-同样的，也有记录一下看过的有意思的视频：
+Similarly, I've also recorded some interesting videos I watched:
 
-- [人类不会感谢罗辑](https://www.bilibili.com/video/BV1rT411o71x/)
-- [包工头米开朗基罗的痛苦一生](https://www.bilibili.com/video/BV1NT411Z7C9/)
-- [【提高审美】导演私用的 10 个 APP&网站！建议收藏](https://www.bilibili.com/video/BV1cG4y1X7AC/)
-- [如果你看完这个视频还想裸辞创业追梦](https://www.bilibili.com/video/BV1uG4y1U7jX/)
+- [Humanity Won't Thank Luo Ji](https://www.bilibili.com/video/BV1rT411o71x/)
+- [The Painful Life of Contractor Michelangelo](https://www.bilibili.com/video/BV1NT411Z7C9/)
+- [【Improve Aesthetics】10 Apps & Websites Privately Used by Directors! Recommended for Bookmarking](https://www.bilibili.com/video/BV1cG4y1X7AC/)
+- [If You Still Want to Quit Your Job and Pursue Your Dreams After Watching This Video](https://www.bilibili.com/video/BV1uG4y1U7jX/)
 
-#### 书籍
+#### Books
 
-- **世界尽头与冷酷仙境**，在读。其实好久没有从小说中得到这样的期待感了，也许是因为叙事方式，或是因为每次都是路途中读几个小篇章而有些断续，总是想知道后面会发生些什么，却也不想太过囫囵而错过了这样优美的笔触。另外这种“另一个空间”的设定让我想到了一个古老但同样很有意思的游戏《废都物语》。
+- **Hard-Boiled Wonderland and the End of the World**, currently reading. It's been a long time since I've felt such anticipation from a novel. Perhaps it's because of the narrative style, or because I read a few short chapters each time during my journeys, which creates some discontinuity. I always want to know what will happen next, but I don't want to rush through and miss such beautiful writing. Also, the setting of "another space" reminds me of an old but equally interesting game, "Waste City Story".
 
-#### 剧集
+#### TV Series
 
-- **最后生还者**，之前一直耳闻过游戏，最近出了剧集，看了前两集，还不错，会继续追一下。
-- **三体**，因为对动画太失望而开始追的剧集，意外地很不错，很喜欢于和伟。剧集的节奏有些缓慢，三体游戏的部分有时候看着也有些难熬，但整体来说还是很值得一追的，也期待奈飞版的。
-- **狂飙**，近几年好像除了迷雾剧场以外，蛮少追这种题材的新剧了，但因为热议太多，所以还是看了一下的，没想到还是挺惊喜的。即使难免有些政治正确的妥协，也还算大胆，就是是小人物也塑造得很好，但是结局确实抽象了点。同类型更推荐的其实还是《沉默的真相》。
+- **The Last of Us**, I had heard about the game before, and recently a TV series was released. I watched the first two episodes, and it's not bad. I'll continue to follow it.
+- **The Three-Body Problem**, I started watching this series because I was disappointed with the animation. Surprisingly, it's quite good. I really like Yu Hewei. The pace of the series is a bit slow, and sometimes it's a bit hard to watch the Three-Body game parts, but overall it's worth following. I'm also looking forward to the Netflix version.
+- **The Knockout**, It seems that apart from the Fog Theater, I haven't followed many new dramas of this genre in recent years. But because of the many discussions, I took a look and was quite pleasantly surprised. Even though there are inevitably some politically correct compromises, it's still quite bold. Even the minor characters are well-developed, but the ending was a bit abstract. In this genre, I would still recommend "The Silent Truth" more.
 
-#### 电影
+#### Movies
 
-- **深海**，听说了一些并不好的评价，但可能由于是这大半年第一次进影院看的电影，有些心情的加成，觉得还挺不错的。一个小女孩的梦境，一个千与千寻般的童话世界，略带些浮夸的演绎，还算应景的 bgm（除了小白船一下让我出戏到《隐秘的角落》）。至少能看到国漫电影也尝试去探索更小更细腻的视角去呈现，而不仅仅是各种奇闻神话。
+- **Deep Sea**, I had heard some not-so-good reviews, but maybe because it was the first movie I've seen in a theater in over half a year, there was some emotional bonus, and I thought it was quite good. A little girl's dream, a Spirited Away-like fairy tale world, slightly exaggerated performances, and fairly appropriate BGM (except for the "Little White Boat" which suddenly took me out of the movie to "The Bad Kids"). At least we can see that Chinese animated films are trying to explore smaller and more delicate perspectives to present, rather than just various myths and legends.
 
-## 个人生活剪影
+## Personal Life Snapshots
 
-### 生活
+### Life
 
-这周感觉很魔幻就过去了。年后请假了三天，返工第一天因为担心捏捏所以提前回来了，还买了一个移动摄像头；第三天因为公司楼下着火了，也提前回去了；第四天则因为项目经理和测试一起去滑雪&泡温泉去了，所以我也居家了；满打满算上了两天班，不过工作也还是完成了。
+This week felt like it passed magically. After the New Year, I took three days off. On the first day back at work, I came home early because I was worried about Nie Nie and bought a mobile camera. On the third day, I went home early because there was a fire in the building below our company. On the fourth day, because the project manager and tester went skiing and hot spring bathing together, I also worked from home. All in all, I only worked two days in the office, but I still completed my work.
 
-火灾虽然没有人员伤亡，但是发生在市中心也还是挺后怕的，不过就是这种时候发现身边从家人到朋友都多少有点喜剧人了。
+Although there were no casualties in the fire, it's still quite scary that it happened in the city center. However, at times like this, I found that everyone around me, from family to friends, has a bit of a comedian in them.
 
 ![thursday_fire_tweet](https://image.pseudoyu.com/images/thursday_fire_tweet.png)
 
-> 我司所在大厦中午起火🔥了，到处都是浓烟，来了九辆消防车。
+> Our company building caught fire🔥 at noon, there was smoke everywhere, and nine fire trucks came.
 >
-> 项目经理姐姐：冒着生命危险把电脑给你拿下来了（记得回去加班）。
-> 我家人：还好电脑拿下来了。
+> Project manager sister: I risked my life to bring your computer down (remember to work overtime when you get back).
+> My family: It's good that the computer was brought down.
 >
-> 电脑才是我本体吧🙃
+> Is the computer my true self? 🙃
 
-周末本来安排了算是不少工作量，但是因为刷《狂飙》和《三体》，效率挺高但是完成量不够，这周周中要补不少了。
+On the weekend, I had planned quite a bit of work, but because I was watching "The Knockout" and "The Three-Body Problem", my efficiency was high but the completion amount was not enough. I'll have to make up for a lot this week.
 
-而周日晚上因为朋友刚好在我家附近看电影，就约我一起去，没有选比较热门的《流浪地球 2》或是《满江红》，而是看了这一部《深海》，进入影院才发现已经好久没有线下看电影了，确实还是别有一些心情的加成，后面会尝试自己多去看看。
+On Sunday night, because a friend happened to be watching a movie near my house, they invited me to go together. We didn't choose the more popular "The Wandering Earth 2" or "Full River Red", but watched "Deep Sea". It wasn't until I entered the cinema that I realized it had been a long time since I had watched a movie offline. There is indeed some emotional bonus, and I will try to go watch more movies by myself in the future.
 
-周一晚上去吃了我心心念了好几个月的大阪烧。
+On Monday night, I went to eat the Okonomiyaki that I had been craving for several months.
 
 ![screenshot_from_silent](https://image.pseudoyu.com/images/screenshot_from_silent.jpg)
 
-其实起因就是在看《静雪》时候看到他们就是爱吃各种，尤其是铁板烧大阪烧这样一看就很有食欲的，之前还跟朋友吐槽过：
+Actually, the reason was that when watching "Silent Snow", I saw that they just love to eat various things, especially teppanyaki Okonomiyaki, which looks very appetizing. I had complained to a friend before:
 
 ![some_thoughts_about_silent](https://image.pseudoyu.com/images/some_thoughts_about_silent.png)
 
-但是因为天选打工人体质，一直都没阳（直到现在），年前还是不敢出门，现在已经佛了，四处吃喝玩乐。
+But because of my chosen worker physique, I hadn't caught COVID yet (until now), and I was afraid to go out before the New Year. Now I've become more relaxed and am eating, drinking, and having fun everywhere.
 
 ![beer_and_monday](https://image.pseudoyu.com/images/beer_and_monday.png)
 
-> “诶 大阪烧？”
+> "Eh, Okonomiyaki?"
 >
-> 终于吃上了因为日剧一个画面馋了好久的大阪烧，果然打工人的周一和扎啤绝配！
+> Finally ate the Okonomiyaki that I had been craving for a long time because of a scene in a Japanese drama. Indeed, a worker's Monday and draft beer are a perfect match!
 
-感谢博译学姐作为日常饭搭让我避免了一个人喝两杯扎啤的惨兮兮时刻，在北京的快乐玩耍时间又增加了。
+Thanks to senior Boyi for being my regular dining companion, saving me from the miserable moment of drinking two glasses of draft beer alone. My happy playtime in Beijing has increased again.
 
 ![osaka_yaki](https://image.pseudoyu.com/images/osaka_yaki.jpg)
 
 ![osaka_yakiand_beer](https://image.pseudoyu.com/images/osaka_yakiand_beer.jpg)
 
-### 捏捏
+### Nie Nie
 
-#### 镜头下
+#### Through the Lens
 
-而因为在摄像头里找不到捏捏而担心，所以后来买了一个移动监控机器人，在调试的时候偶然拍下了好几张照片，觉得好可爱，后面有摄像头也放心很多了。
+Because I couldn't find Nie Nie in the camera and was worried, I later bought a mobile monitoring robot. While debugging, I accidentally took several photos that I think are so cute. With the camera later, I felt much more at ease.
 
 ![nie_nie_in_ebo_01](https://image.pseudoyu.com/images/nie_nie_in_ebo_01.jpg)
 
 ![nie_nie_in_ebo_02](https://image.pseudoyu.com/images/nie_nie_in_ebo_02.jpg)
 
-#### 论捏捏的 MBTI
+#### On Nie Nie's MBTI
 
-这周和友人有一个很有意思的话题讨论，被问到说我觉得捏捏是什么性格的，一个我从没想过但是很有意思的问题。
+This week, I had an interesting topic discussion with a friend. I was asked what personality I think Nie Nie has, a question I had never thought about but found very interesting.
 
 ![nie_nie_personality_01](https://image.pseudoyu.com/images/nie_nie_personality_01.png)
 
@@ -181,4 +181,4 @@ authors:
 
 ![nie_nie_personality_03](https://image.pseudoyu.com/images/nie_nie_personality_03.png)
 
-这是一个还挺有意思的命题，因为猫猫不会自己做测试，而我们眼中的她的性格也往往是日常相处下来的观察与自己的一些私心希望所塑造的，某种程度上也会是自己的各种观念的映射，很新奇的角度，其实也很久没有跟朋友有这样惬意而带着些有趣思考的聊天了，挺珍惜的。
+This is quite an interesting proposition because cats can't take the test themselves, and the personality we see in them is often shaped by our observations from daily interactions and our own wishful thinking. To some extent, it's also a projection of our various concepts. It's a novel perspective. Actually, it's been a long time since I've had such a comfortable and interesting conversation with friends, and I cherish it.

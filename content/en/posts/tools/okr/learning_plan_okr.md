@@ -1,5 +1,5 @@
 ---
-title: "用 OKR 的方式梳理自己的学习计划"
+title: "Using OKR to Organize My Learning Plan"
 date: 2021-02-11T00:00:00+08:00
 draft: false
 tags: ["plan","review","okr"]
@@ -8,62 +8,62 @@ authors:
 - "pseudoyu"
 ---
 
-## 用一句话形容理想情况下，自己想要达到的状态
+## Describe in one sentence the ideal state I want to achieve
 
-- **具体目标范围**：提升编程技术能力
-- **时间周期**：2 个月
-- **描述**：我想要成为一名具备过硬的编程能力的开发者，并对技术有持续学习的开放心态 ***— 目标 O***
+- **Specific goal scope**: Enhance programming technical skills
+- **Time period**: 2 months
+- **Description**: I aspire to become a developer with solid programming skills and maintain an open mindset for continuous learning in technology ***— Objective O***
 
-## 寻找关键词，拆解状态为目标
+## Identify keywords, break down the state into goals
 
-### 我需要提升解决的部分
+### Areas I need to improve
 
-- 过硬的编程能力
-- 持续学习的开放心态
+- Solid programming skills
+- Open mindset for continuous learning
 
-### 想要达到的程度
+### Desired level of achievement
 
-- 能够通过技术创造价值
-- 对技术有热爱和追求
-- B 站 Up 主“是落拓呀”的持续学习状态
+- Ability to create value through technology
+- Passion and pursuit of technology
+- Continuous learning state like the Bilibili creator "Shi Luo Tuo Ya"
 
-## 制定每一个关键词/目标的指标
+## Set indicators for each keyword/goal
 
-- **过硬的编程能力**：能够满足目前香港/内地区块链公司，如蚂蚁链、腾讯区块链、杭州趣链科技等目标公司的技术面试要求，并主导完成 1-2 个完整的项目，深入技术细节 **— KR1**
-- **持续学习的开放心态**：提升对于热门区块链技术平台（Ethereum、Hyperledger）与 Java 后端技术的理解与学习，并完成多篇原创技术博客 **— KR2**
+- **Solid programming skills**: Ability to meet the technical interview requirements of current blockchain companies in Hong Kong/Mainland China, such as Ant Chain, Tencent Blockchain, Hangzhou Qulian Technology, etc., and lead the completion of 1-2 complete projects with in-depth technical details **— KR1**
+- **Open mindset for continuous learning**: Enhance understanding and learning of popular blockchain technology platforms (Ethereum, Hyperledger) and Java backend technology, and complete multiple original technical blog posts **— KR2**
 
-## 填充每一个关键指标的 todo list
+## Fill in the todo list for each key indicator
 
-### 过硬的编程能力
-1. 每天按照分类与难度刷 LeetCode 算法题
-    1. 白天刷 5-10 题
-    2. 晚上按照节奏复习之前刷过的题的思路
-    3. 看关于算法框架思路的书籍，完善
-2. 完成区块链音乐版权项目毕业设计
-    1. 每天至少 2 小时学习 Ethereum 智能合约编写相关
-    2. 按照项目进度进行开发
-    3. 与导师和同学定期交流，优化项目
-    4. 调研市场上区块链产品，思考运营与商业化相关
-3. 完成开源项目 RPC 框架的学习
-    1. 每天至少 1 小时学习课程并实践代码
-    2. 撰写关于 RPC 框架原理和核心知识点的技术博文
-    3. 将此作为亮点项目，添加至简历并与同学进行模拟面试
-4. 针对 GitHub 与一些书籍的面试经验，学习掌握计算机基础面试知识，和同学每周模拟面试，现场写算法题并讲解，找到问题并提出建议
-5. 参加春招面试，积攒面试经验查漏补缺，总结心得
-6. 和落拓学长交流区块链学习心得和路径，寻求建议
+### Solid programming skills
+1. Solve LeetCode algorithm problems daily by category and difficulty
+    1. Solve 5-10 problems during the day
+    2. Review previously solved problems in the evening
+    3. Read books on algorithmic frameworks and improve understanding
+2. Complete the blockchain music copyright project for graduation design
+    1. Spend at least 2 hours daily learning Ethereum smart contract writing
+    2. Develop according to project progress
+    3. Regularly communicate with mentor and classmates to optimize the project
+    4. Research blockchain products in the market, consider operations and commercialization
+3. Complete the study of the open-source RPC framework project
+    1. Spend at least 1 hour daily learning the course and practicing code
+    2. Write technical blog posts on RPC framework principles and core knowledge points
+    3. Add this as a highlight project to the resume and conduct mock interviews with classmates
+4. Study computer basics interview knowledge based on GitHub and book experiences, conduct weekly mock interviews with classmates, write and explain algorithms on-site, identify problems and propose suggestions
+5. Participate in spring recruitment interviews, accumulate interview experience, identify gaps, and summarize insights
+6. Communicate with senior Luo Tuo about blockchain learning experiences and paths, seek advice
 
-### 持续学习的开放心态
-1. 完成学校 COMP7408 区块链与分布式账本课程（共计 30 学时，每周一节 3 小时的课程）
-    1. 每周一晚上参加线下课程
-    2. 课程第二天花 3-6 小时整理当周课程的知识点与拓展部分
-    3. 每周 2-3 小时将课程中的理论部分通过代码实践
-    4. 每天至少 3 天对之前所有知识点进行复习和查漏补缺（每次 30 分钟左右）
-2. Udacity 区块链开发课程并整理笔记（共计约 40 学时）
-    1. 每天至少 2 小时学习课程并实践代码
-    2. 每天至少 3 天对之前所有知识点进行复习和查漏补缺（每次 30 分钟左右）
-    3. 阶段性对课程里的项目进行详细整理，添加至简历并针对面试进行准备
-3. 每天学习间隙整理基础理论知识，并了解一些前沿技术和产品
-4. 完成 CSDN 关于 Spring Boot 和其他框架的入门视频并整理
-5. 完成 Udacity 关于 Java 开发相关框架的介绍并进行项目实践
-6. 结合自己的理解与学习笔记，撰写针对特定技术的原创博客
-7. 定期和目前从事区块链的同学进行交流讨论，补充项目经验至简历与面试准备
+### Open mindset for continuous learning
+1. Complete the school's COMP7408 Blockchain and Distributed Ledger course (30 hours total, 3-hour weekly class)
+    1. Attend offline class every Monday evening
+    2. Spend 3-6 hours the next day organizing the week's knowledge points and extensions
+    3. Spend 2-3 hours weekly practicing the theoretical parts through code
+    4. Review and fill gaps in all previous knowledge points at least 3 days a week (about 30 minutes each time)
+2. Complete Udacity blockchain development course and organize notes (about 40 hours total)
+    1. Spend at least 2 hours daily learning the course and practicing code
+    2. Review and fill gaps in all previous knowledge points at least 3 days a week (about 30 minutes each time)
+    3. Periodically organize detailed projects from the course, add to resume, and prepare for interviews
+3. Organize basic theoretical knowledge during study breaks and learn about cutting-edge technologies and products
+4. Complete CSDN introductory videos on Spring Boot and other frameworks and organize them
+5. Complete Udacity's introduction to Java development-related frameworks and conduct project practice
+6. Write original blog posts on specific technologies based on personal understanding and study notes
+7. Regularly communicate and discuss with classmates currently working in blockchain, supplement project experience to resume and interview preparation

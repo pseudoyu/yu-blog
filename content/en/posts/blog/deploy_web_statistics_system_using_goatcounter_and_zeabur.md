@@ -1,5 +1,5 @@
 ---
-title: "使用 GoatCounter 与 Zeabur 搭建网站数据统计系统"
+title: "Setting up a Website Analytics System with GoatCounter and Zeabur"
 date: 2024-08-06T19:00:42+08:00
 draft: false
 tags: ["statistic-system", "serverless", "zeabur", "blog", "goatcounter"]
@@ -8,91 +8,91 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-在「[2024 年了，我的博客有了什么变化](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。
+In my article "[What Changed in My Blog in 2024](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)", I introduced the blog system I built using Serverless platforms and some open-source projects. I also started this series of tutorials to document the entire process of setup and deployment.
 
-本篇是关于统计系统的解决方案。
+This article focuses on the analytics system solution.
 
-## 统计系统方案
+## Analytics System Solution
 
-相比起博客本体和评论系统，我在很长的一段时间其实都没有在意过统计系统（~~主要当时也没人看~~），更加没考虑太多 SEO 或是什么其他推广方向上的事，但后来逐渐发现，其实统计下来的数据并不只是一张好看的可以用来发推的图表，其对于博客的选题、内容都有着很大的参考价值。
+Compared to the blog itself and the commenting system, I hadn't paid much attention to an analytics system for a long time (~~mainly because there weren't many readers back then~~). I hadn't considered much about SEO or other promotional aspects. However, I gradually discovered that the data collected is not just a pretty chart to post on Twitter; it has great reference value for blog topic selection and content.
 
-其实主流成熟的方案都能够满足基本的需求，即使是免费的 Google Analytics 也完全够用，但在博客发展过程中，我依然因各种原因有过几次迭代，最终使用了 GoatCounter 这一方案。
+In fact, mainstream mature solutions can meet basic needs. Even the free Google Analytics is more than enough. However, during the development of my blog, I still went through several iterations for various reasons, and finally settled on GoatCounter as my solution.
 
 ### splitbee
 
-我最初使用的是一个免费的工具 splitbee，它提供了免费的基础统计额度，有着还不错的界面，并且还支持一些复杂的用户追踪，A/B test 等，但印象里好像只能保留半年的数据，并且每月超过 5000 pv 后就需要升级了，所以后来放弃了。
+Initially, I used a free tool called splitbee. It provided free basic analytics quota, had a nice interface, and supported complex user tracking, A/B testing, etc. But as I recall, it only retained data for half a year, and required an upgrade after exceeding 5000 page views per month, so I abandoned it later.
 
 ### Cloudflare + Google Search Console
 
 ![cloudflare_web_stats](https://image.pseudoyu.com/images/cloudflare_web_stats.png)
 
-放弃 splitbee 之后，很长一段时间我没有集成额外的统计应用，而是用的 Cloudflare 自带的站点统计，但是发现它其实统计的只是网络总流量，有包括爬虫在内的非常多的无效数据，并且没有精确到路径等细节。
+After abandoning splitbee, for a long time, I didn't integrate any additional analytics applications. Instead, I used Cloudflare's built-in site statistics. However, I found that it only tracked total network traffic, including a lot of ineffective data such as crawlers, and lacked details down to the path level.
 
 ![google_search_console](https://image.pseudoyu.com/images/google_search_console.png)
 
-后来了解到了 SEO 这一概念后，又添加了 [Google Search Console](https://search.google.com/search-console/about) 这一统计维度，这也是目前觉得对我写博文最有意义的数据，主要呈现的是用户在搜索引擎中触达我博客站点的关键词以及通过搜索点击进入我博客的页面路径。
+Later, after learning about the concept of SEO, I added [Google Search Console](https://search.google.com/search-console/about) as another analytics dimension. This is currently the data I find most meaningful for my blog writing. It mainly presents the keywords users use to reach my blog site in search engines and the page paths they click through from search results to enter my blog.
 
-可以看到，一篇「[Warp，iTerm2 还是 Alacritty？我的终端折腾小记](https://www.pseudoyu.com/en/category/tools/)」为我带来了许多访客，而关于博客搭建、智能合约开发也是大部分从搜索引擎来的自然用户对我博客的第一印象。
+As you can see, an article titled "[Warp, iTerm2, or Alacritty? My Terminal Tinkering Notes](https://www.pseudoyu.com/en/category/tools/)" brought me many visitors, while topics about blog setup and smart contract development are also the first impressions of my blog for most natural users coming from search engines.
 
 ### Umami + Supabase + Netlify
 
 ![yu_umami_record](https://image.pseudoyu.com/images/yu_umami_record.png)
 
-但是上述两者依然只能看到网站整体的数据，想精确到某篇文章在一段时间的表现或者文章发布后的实时访问数据，依然需要一个统计系统，我在看了 Reorx 的一篇「[搭建 umami 收集个人网站统计数据 | Reorx’s Forge](https://reorx.com/blog/deploy-umami-for-personal-website/)」选择使用了 umami 这一开源、易自部署的统计系统，界面简洁，功能易用，很方便集成到自己的博客系统中。
+However, the above two methods still only show overall website data. To precisely track the performance of a specific article over a period or real-time access data after an article is published, an analytics system is still needed. After reading Reorx's article "[Deploy umami to collect personal website statistics | Reorx's Forge](https://reorx.com/blog/deploy-umami-for-personal-website/)", I chose to use umami, an open-source, easily self-deployable analytics system. It has a clean interface, user-friendly features, and is easy to integrate into one's own blog system.
 
-使用了一年半，一直倒没出现什么问题，，只不过可能因为自己用得比较早，在一次大版本更新的时候数据库 Migration 脚本出现了不兼容的字段更新，其实有点不理解这样量级的开源项目为什么会出现这样的问题，也看到 issue 中有很多其他用户有同样的诉求，但最终并没有给出一个比较好的解决方案。
+I used it for a year and a half without any problems. However, possibly because I started using it quite early, during a major version update, there was an incompatible field update in the database migration script. I found it a bit hard to understand why such a level of open-source project would have this kind of issue. I also saw many other users with the same concerns in the issues, but ultimately no good solution was provided.
 
-但其实最大的问题是一个统计系统依赖了两个平台，部署和维护上都还是有些太重了。当数据库或是 Netlify 任一出现问题或需要迁移时，会带来许多额外的成本。于是前段时间在更新博客评论系统的时候，想着干脆就一起更换为更轻量的 GoatCounter。
+But the biggest problem was that an analytics system relied on two platforms, which was too heavy in terms of deployment and maintenance. When either the database or Netlify encountered problems or needed migration, it would bring many additional costs. So when I updated my blog's commenting system recently, I thought I might as well switch to the lighter GoatCounter.
 
 ### GoatCounter + Zeabur
 
 ![goatcounter_stats](https://image.pseudoyu.com/images/goatcounter_stats.png)
 
-这个小众的统计系统是我在看 Reorx 的博客代码更新的时候偶然发现的，一下子被这种 Retro Internet 的风格所吸引，几乎没有任何多余的按钮，功能却很完备，而且使用的是 go 单二进制文件 + sqlite 数据库单文件的架构，轻量而易于部署，于是打算迁移。
+I stumbled upon this niche analytics system while checking Reorx's blog code updates. I was immediately attracted by its Retro Internet style. It has almost no superfluous buttons, yet the functionality is very complete. Moreover, it uses a go single binary file + sqlite single file database architecture, which is lightweight and easy to deploy. So I decided to migrate.
 
-其实我自己的 GoatCounter 是部署在 [fly.io](https://fly.io/) 上的，但我在上一篇 Remark42 的文章中已经非常详细地介绍了 fly 的操作说明，不想有太多重复，刚好最近又在重度使用 [Zeabur](https://zeabur.com?referralCode=pseudoyu) 这一 Serverless 平台，于是本文将以 [Zeabur](https://zeabur.com?referralCode=pseudoyu) 为例，方式同样适用于其他类似平台。
+Actually, my own GoatCounter is deployed on [fly.io](https://fly.io/), but I've already explained the operation instructions for fly in great detail in my previous article about Remark42. I didn't want to repeat too much. Coincidentally, I've been heavily using [Zeabur](https://zeabur.com?referralCode=pseudoyu), a Serverless platform, recently. So this article will use [Zeabur](https://zeabur.com?referralCode=pseudoyu) as an example, though the method is equally applicable to other similar platforms.
 
-我也在下文的 Zeabur 部署方案之后提供了 fly.io 和在 VPS 上使用 docker-compose 部署的配置文件，供大家参考。
+I've also provided configuration files for fly.io deployment and docker-compose deployment on VPS after the Zeabur deployment solution for reference.
 
-## GoatCounter 部署说明
+## GoatCounter Deployment Instructions
 
-GoatCounter 本身代码开源 —— 「[GitHub - arp242/goatcounter](https://github.com/arp242/goatcounter)」，文档清晰易读，可以根据自己的实际需求进行配置。GoatCounter + Zeabur 的方案仅牵扯到单个服务，数据库使用的是 sqlite 挂载于 volume 中，所以部署起来非常简单。
+GoatCounter's code itself is open-source - "[GitHub - arp242/goatcounter](https://github.com/arp242/goatcounter)", with clear and easy-to-read documentation. You can configure it according to your actual needs. The GoatCounter + Zeabur solution only involves a single service, with the database using sqlite mounted in a volume, so the deployment is very simple.
 
-### 使用 Zeabur 部署
+### Deploying with Zeabur
 
-[Zeabur](https://zeabur.com?referralCode=pseudoyu) 对于容器应用的部署是需要 Developer Plan 的，5 美元/月，但是像这样的镜像服务整体用量和费用都较低，每月的额度足够部署非常多服务，可以酌情选择。整体部署流程比起 fly.io 简单很多，所有操作都可以使用 Web 界面完成，不需要额外安装命令行工具等。
+[Zeabur](https://zeabur.com?referralCode=pseudoyu) requires a Developer Plan for container application deployment, which costs $5/month. However, for image services like this, the overall usage and cost are relatively low, and the monthly quota is sufficient to deploy many services. You can choose according to your needs. The overall deployment process is much simpler compared to fly.io. All operations can be completed using the web interface, without the need to install additional command-line tools.
 
-#### 注册 zeabur
+#### Register on zeabur
 
 ![zeabur_login](https://image.pseudoyu.com/images/zeabur_login.png)
 
-访问 [Zeabur](https://zeabur.com?referralCode=pseudoyu) 官网，并点击右上角，使用 GitHub 账号授权登录。
+Visit the [Zeabur](https://zeabur.com?referralCode=pseudoyu) official website and click on the top right corner to log in with your GitHub account authorization.
 
-#### 创建新项目
+#### Create a New Project
 
 ![zeabur_new_project](https://image.pseudoyu.com/images/zeabur_new_project.png)
 
-进入主界面后，点击右上角 `创建项目` 按钮。
+After entering the main interface, click the `Create Project` button in the top right corner.
 
 ![zeabur_hk_region](https://image.pseudoyu.com/images/zeabur_hk_region.png)
 
-我选择了香港的 AWS 机房，不同机房的访问速度、性能和价格会有一些差异，可以根据自己的需求进行选择。
+I chose the AWS data center in Hong Kong. Different data centers have some differences in access speed, performance, and price. You can choose according to your needs.
 
-#### 配置镜像部署
+#### Configure Image Deployment
 
 ![zeabur_build](https://image.pseudoyu.com/images/zeabur_build.png)
 
-在下一步中选择 Docker 容器镜像进行部署。
+In the next step, choose to deploy using a Docker container image.
 
 ![zeabur_docker_custom_config](https://image.pseudoyu.com/images/zeabur_docker_custom_config.png)
 
-由于我们使用的是自己构建的镜像，官方也没有上线 GoatCounter 模板，因此我们点击选择自定义。
+Since we're using a self-built image and there's no official GoatCounter template, we click to choose custom.
 
 ![zeabur_prebuilt_edit_toml](https://image.pseudoyu.com/images/zeabur_prebuilt_edit_toml.png)
 
-这一步可以自己在界面上填写各种配置项，但可能由于我习惯了 fly.io 的文件配置模式，我选择左下角的 `编辑 TOML 文件`，大家也可以直接复制我的配置文件并直接修改。
+At this step, you can fill in various configuration items on the interface yourself, but perhaps because I'm used to fly.io's file configuration mode, I chose to `Edit TOML file` in the bottom left corner. You can also directly copy my configuration file and modify it.
 
 ```toml
 name = "yu-goatcounter"
@@ -116,37 +116,37 @@ GOATCOUNTER_DB = { default = "sqlite3://data/goatcounter.sqlite3" , expose = tru
 
 ![zeabur_prebuilt_goatcounter_toml](https://image.pseudoyu.com/images/zeabur_prebuilt_goatcounter_toml.png)
 
-配置好后点击右下角部署按钮即可。
+After configuration, click the deploy button in the bottom right corner.
 
-#### 部署完成
+#### Deployment Complete
 
 ![yu-goatcounter_project](https://image.pseudoyu.com/images/yu-goatcounter_project.png)
 
-点击部署后，等待片刻，会有一个生成的项目默认名称，可以在左上角的设置中去修改为可读性较强的名称，如 `yu-goatcounter`。
+After clicking deploy, wait for a moment, and there will be a generated default project name. You can modify it to a more readable name, such as `yu-goatcounter`, in the settings in the upper left corner.
 
-#### 配置自定义域名
+#### Configure Custom Domain
 
 ![zeabur_create_domain](https://image.pseudoyu.com/images/zeabur_create_domain.png)
 
-服务部署完成后，我们需要进行域名绑定才能通过公网访问网站，Zeabur 提供了免费的二级域名 `xx.zeabur.app`，也可以绑定自己的域名。
+After the service is deployed, we need to bind a domain to access the website through the public network. Zeabur provides free second-level domains like `xx.zeabur.app`, or you can bind your own domain.
 
 ![zeabur_custom_domain](https://image.pseudoyu.com/images/zeabur_custom_domain.png)
 
-其中生成域名可直接使用，无须进行其他配置，如 `goatcounter.zeabur.app`；而如果使用的是自定义域名，则需要在自己域名管理后台添加 CNAME 记录，指向格式为 `xxx.cname.zeabur-dns.com` 的机房地址。
+The generated domain can be used directly without any other configuration, such as `goatcounter.zeabur.app`. If you're using a custom domain, you need to add a CNAME record in your domain management backend, pointing to a data center address in the format of `xxx.cname.zeabur-dns.com`.
 
 ![cloudflare_goatcounter_config](https://image.pseudoyu.com/images/cloudflare_goatcounter_config.png)
 
-例如我的域名托管在 Cloudflare 上，添加的 CNAME 记录如上图所示，有去问过官方，说如果选 AWS HK 机房的话可以不使用 Cloudflare 的代理，速度理论上会更快，可以根据自己的需要酌情配置。
+For example, my domain is hosted on Cloudflare, and the added CNAME record is as shown in the above image. I asked the official support, and they said if you choose the AWS HK data center, you can use Cloudflare's proxy, which theoretically would be faster. You can configure according to your needs.
 
-此外，如果你选择的是华为云机房，则需要域名备案并且额外新增一条 TXT 记录，可以根据提示进行操作。
+Additionally, if you choose the Huawei Cloud data center, you need to file for domain registration and add an extra TXT record. You can follow the prompts to operate.
 
 ![zeabur_custom_domain_success](https://image.pseudoyu.com/images/zeabur_custom_domain_success.png)
 
-显示绿色则为配置成功，至此我们的 GoatCounter 服务就部署完成了。
+A green display indicates successful configuration. At this point, our GoatCounter service deployment is complete.
 
-#### 数据备份
+#### Data Backup
 
-我们在配置时候有这么一段
+We had this section in our configuration:
 
 ```toml
 [[volumes]]
@@ -154,13 +154,13 @@ id = "goatcounter-data"
 dir = "/data"
 ```
 
-功能是将容器内的 `/data` 目录（即我们的 sqlite 数据库存在的位置）挂载到一个 id 为 `goatcounter-data` 的存储卷，如果不挂载存储卷的话，容器重启或重新部署数据将会丢失。
+This function mounts the `/data` directory inside the container (where our sqlite database is located) to a storage volume with the id `goatcounter-data`. If you don't mount a storage volume, data will be lost when the container restarts or redeploys.
 
-关于存储卷这一点 Zeabur 的界面上没有很直观的显示和管理操作，以至于我总是怀疑自己的配置是否生效。
+Regarding this storage volume point, Zeabur's interface doesn't have a very intuitive display and management operation, to the extent that I always doubt whether my configuration is effective.
 
 ![zeabur_add_goatcounter_backup](https://image.pseudoyu.com/images/zeabur_add_goatcounter_backup.png)
 
-研究了半天发现可以先在设置中暂停服务，然后在上面的备份模块新增一个备份，点击下载后可以在本地看到我们备份文件，目录层级如下：
+After researching for a while, I found that you can first pause the service in the settings, then add a new backup in the backup module above. After clicking download, you can see our backup file locally, with the directory hierarchy as follows:
 
 ```plaintext
 data/
@@ -168,15 +168,15 @@ data/
     └── goatcounter.sqlite3
 ```
 
-这样则能表示我们的数据成功持久化了，希望 Zeabur 能在界面上有更直观的显示。
+This indicates that our data has been successfully persisted. I hope Zeabur can have a more intuitive display on the interface.
 
-### 使用 fly.io 部署
+### Deploying with fly.io
 
-纯免费的方案依然可以参照我提到的这篇「[从零开始搭建你的免费博客评论系统（Remark42 + fly.io）](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)」，仅在 `fly.toml` 配置部分不同，我也提供的我所使用的配置文件 —— 「[fly.toml](https://github.com/pseudoyu/goatcounter-on-fly/blob/master/fly.toml)」供大家参考。
+For a purely free solution, you can still refer to the article I mentioned "[Build Your Free Blog Comment System from Scratch (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)". Only the `fly.toml` configuration part is different. I've also provided the configuration file I use - "[fly.toml](https://github.com/pseudoyu/goatcounter-on-fly/blob/master/fly.toml)" for reference.
 
-### 使用 Docker 与 docker-compose 部署
+### Deploying with Docker and docker-compose
 
-有意思的是，因为 goatcounter 的作者很有坚持，觉得这样单文件的应用容器化反而会增加更多维护成本，所以不提供官方镜像，不过自己在 vps 或者 serverless 平台部署有个镜像还是方便一些，所以我使用 Github Actions 做了一个构建镜像和上传 Docker Hub 的 CI，有需要的可以使用，对应的 Dockerfile 和 Docker Compose 文件也可以参照这个 [Commit](https://github.com/pseudoyu/goatcounter/commit/b98de9873ee331133a39b409fd4bb00cf55c8a05)，或者直接使用 `pseudoyu/goatcounter` 和 `docker-compose.yml` 文件即可。
+Interestingly, because the author of goatcounter is very persistent and feels that containerizing such a single-file application would actually increase maintenance costs, no official image is provided. However, having an image is still convenient for deploying on your own VPS or serverless platform. So I used Github Actions to create a CI for building images and uploading to Docker Hub. You can use it if needed. The corresponding Dockerfile and Docker Compose file can also be referenced from this [Commit](https://github.com/pseudoyu/goatcounter/commit/b98de9873ee331133a39b409fd4bb00cf55c8a05), or you can directly use `pseudoyu/goatcounter` and the `docker-compose.yml` file.
 
 ```yaml
 version: '3'
@@ -194,21 +194,21 @@ services:
     restart: unless-stopped
 ```
 
-## GoatCounter 配置说明
+## GoatCounter Configuration Instructions
 
-上文我们完成了 GoatCounter 服务的部署，现在就可以通过我们生成/自定义的域名访问到我们的统计系统服务了，如我是通过 `https://goatcounter.pseudoyu.com` 进行访问的。
+In the above section, we completed the deployment of the GoatCounter service. Now we can access our analytics system service through the generated/custom domain. For example, I access it through `https://goatcounter.pseudoyu.com`.
 
 ![goatcounter_create_user](https://image.pseudoyu.com/images/goatcounter_create_user.png)
 
-第一次登录需要创建一个用户，填写邮箱、密码点击 `Create` 即可。
+The first login requires creating a user. Fill in the email and password, then click `Create`.
 
 ![goatcounter_dashboard_success](https://image.pseudoyu.com/images/goatcounter_dashboard_success.png)
 
-登录成功后，当前还没有数据，会提示一个脚本，后续在我们博客使用的配置中会用到。
+After successful login, there's no data yet, and a script will be prompted, which we'll use in our blog configuration later.
 
-## 博客配置 GoatCounter
+## Configuring GoatCounter for the Blog
 
-跟着上文我们完成了 GoatCounter 服务的部署和基础配置，现在则需要在我们的博文中加入统计组件，以我使用的 Hugo 博客为例。
+Following the above, we've completed the deployment and basic configuration of the GoatCounter service. Now we need to add the analytics component to our blog posts. Taking my Hugo blog as an example:
 
 ```html
 <script data-goatcounter="https://goatcounter.pseudoyu.com/count"
@@ -217,14 +217,14 @@ services:
 
 ![add_goatcounter_script_in_hugo](https://image.pseudoyu.com/images/add_goatcounter_script_in_hugo.png)
 
-将上述代码加到我 hugo 主题的 `head` 中即可，如我的 Hugo 主题在 `layouts/partials/head.html` 这一文件，不同主题或是不同 SSG 框架位置有所不同但大同小异。
+Add the above code to the `head` of my Hugo theme. For example, in my Hugo theme, it's in the `layouts/partials/head.html` file. Different themes or different SSG frameworks might have slightly different locations, but they're broadly similar.
 
-有一点要注意的是， goatcounter 会忽略来自 `localhost` 的请求以避免在本地预览时造成太多脏数据，因此在本地调试时是看不到数据的，需要部署网页才能看到访问数据。
+One thing to note is that goatcounter ignores requests from `localhost` to avoid too much dirty data during local preview. Therefore, you won't see data when debugging locally; you need to deploy the webpage to see access data.
 
 ![final_display_of_goatcounter](https://image.pseudoyu.com/images/final_display_of_goatcounter.png)
 
-收集了数据后的效果大致如上图所示，还可以在 GoatCounter 界面中设置一些配置项、新增网页、查看详细数据等，包括还可以显示每个页面的访问计数等，可以自己根据文档进行探索。
+The effect after collecting data is roughly as shown in the above image. You can also set some configuration items, add new pages, view detailed data, etc., in the GoatCounter interface. This includes displaying the visit count for each page. You can explore according to the documentation.
 
-## 总结
+## Conclusion
 
-至此我们的博客统计系统就搭建完成了！本文是我的博客搭建部署系列教程之一，博客主题体部分都已经完成了，剩下只是一些例如博客内搜索等细节体验优化，希望能对大家有所参考。
+At this point, our blog analytics system is set up! This article is part of my blog setup and deployment tutorial series. The main body of the blog theme is complete, with only some details like in-blog search remaining for experience optimization. I hope this can be of reference to everyone.

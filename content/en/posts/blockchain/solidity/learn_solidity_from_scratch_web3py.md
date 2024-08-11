@@ -1,5 +1,5 @@
 ---
-title: "Solidity 智能合约开发 - 玩转 Web3.py"
+title: "Solidity Smart Contract Development - Mastering Web3.py"
 date: 2022-05-30T15:25:45+08:00
 draft: false
 tags: ["blockchain", "solidity", "ethereum", "web3", "smart contract", "python"]
@@ -10,21 +10,21 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
 
-## 前言
+## Preface
 
-在前文《[Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)》中，我们学习了 Solidity 的基本语法，并且了解了可以通过 [Brownie](https://github.com/eth-brownie/brownie) 与 [HardHat](https://github.com/NomicFoundation/hardhat) 等框架进行调试。但在使用这些封装好的框架之前，我们可以通过 Web3.py 直接与我们本地的 Ganache 节点进行交互，以便更好了解其原理，也为我们后续更好使用框架打好基础。
+In the previous article "[Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)", we learned the basic syntax of Solidity and understood that we can debug using frameworks such as [Brownie](https://github.com/eth-brownie/brownie) and [HardHat](https://github.com/NomicFoundation/hardhat). However, before using these pre-packaged frameworks, we can interact directly with our local Ganache node using Web3.py to better understand the principles and lay a solid foundation for our subsequent use of frameworks.
 
-本文以 Web3.py 为例，实现了基础的合约编译、部署至本地 Ganache 网络、与合约交互等功能。
+This article uses Web3.py as an example to implement basic contract compilation, deployment to the local Ganache network, and interaction with contracts.
 
-可以点击[这里](https://github.com/pseudoyu/learn-solidity/tree/master/web3_py_simple_storage)访问本测试 Demo 代码仓库。
+You can click [here](https://github.com/pseudoyu/learn-solidity/tree/master/web3_py_simple_storage) to access the code repository for this test demo.
 
 ## Web3.py
 
-Web3.py 是 Python 的一个开源库，它提供了一个简单的 API，可以让我们通过 Python 程序与以太坊网络进行交互。其 GitHub 地址为 [ethereum/web3.py](https://github.com/ethereum/web3.py)，可以访问其[官方文档](https://web3py.readthedocs.io/en/stable/)进行使用。
+Web3.py is an open-source library for Python that provides a simple API allowing us to interact with the Ethereum network through Python programs. Its GitHub address is [ethereum/web3.py](https://github.com/ethereum/web3.py), and you can visit its [official documentation](https://web3py.readthedocs.io/en/stable/) for usage.
 
-### 安装
+### Installation
 
-我们可以通过 Python 包管理工具 pip 安装 Web3.py，如下：
+We can install Web3.py using the Python package management tool pip, as follows:
 
 ```bash
 pip3 install web3
@@ -32,9 +32,9 @@ pip3 install web3
 
 ![pip_install_web3](https://image.pseudoyu.com/images/pip_install_web3.png)
 
-### 使用
+### Usage
 
-使用 `import` 导入所需方法即可使用
+Simply import the required methods using `import` to use
 
 ```python
 from web3 import Web3
@@ -42,9 +42,9 @@ from web3 import Web3
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
 ```
 
-## Solidity 合约编译
+## Solidity Contract Compilation
 
-### 合约源码
+### Contract Source Code
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -82,11 +82,11 @@ contract SimpleStorage {
 }
 ```
 
-这是一个简单的存储合约，通过一个 People 结构体对象来存储人名和他喜欢数字，通过一个数组来存储多个人的信息，并提供了添加、查找方法。
+This is a simple storage contract that uses a People struct object to store a person's name and their favorite number, uses an array to store information for multiple people, and provides methods for adding and searching.
 
-### 读取合约源文件
+### Reading Contract Source File
 
-当我们通过 VSCode 或其他编辑器完成 Solidity 合约编写与语法检查后，需要读取合约源文件并存入变量，供后续编译使用。
+After completing the Solidity contract writing and syntax check using VSCode or other editors, we need to read the contract source file and store it in a variable for subsequent compilation.
 
 ```python
 import os
@@ -95,13 +95,13 @@ with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
 ```
 
-上述代码将 `SimpleStorage.sol` 文件内容读取到变量 `simple_storage_file` 中。
+The above code reads the contents of the `SimpleStorage.sol` file into the variable `simple_storage_file`.
 
-### 编译合约
+### Compiling the Contract
 
-#### 安装 `solcx`
+#### Installing `solcx`
 
-合约编译需要预先安装 `solcx` 工具。
+Contract compilation requires the prior installation of the `solcx` tool.
 
 ```bash
 pip3 install py-solc-x
@@ -109,15 +109,15 @@ pip3 install py-solc-x
 
 ![pip_install_solcx](https://image.pseudoyu.com/images/pip_install_solcx.png)
 
-#### 导入 `solcx`
+#### Importing `solcx`
 
-使用 `import` 导入所需方法即可使用
+Use `import` to import the required methods for use
 
 ```python
 from solcx import compile_standard, install_solc
 ```
 
-#### 编译
+#### Compilation
 
 ```python
 install_solc("0.6.0")
@@ -135,11 +135,11 @@ compiled_sol = compile_standard(
 )
 ```
 
-上述代码我们安装了 0.6.0 版本的 Solidity 编译程序，使用 `solcx` 库中的`compile_standard` 方法对上文读取的合约源文件进行编译，并将编译结果存入变量 `compiled_sol` 中。
+In the above code, we installed version 0.6.0 of the Solidity compilation program, used the `compile_standard` method from the `solcx` library to compile the contract source file read earlier, and stored the compilation result in the variable `compiled_sol`.
 
-#### 获取编译结果
+#### Obtaining Compilation Results
 
-编译成功后，使用以下代码将编译好的合约写入文件
+After successful compilation, use the following code to write the compiled contract to a file
 
 ```python
 import json
@@ -148,9 +148,9 @@ with open("compiled_code.json", "w") as file:
     json.dump(compiled_sol, file)
 ```
 
-#### 获取 bytecode 与 abi
+#### Obtaining bytecode and abi
 
-Solidity 合约的部署与交互需要 bytecode 与 abi 两个部分，我们可以通过通过以下代码将其写入对应变量供后续操作使用。
+The deployment and interaction of Solidity contracts require two parts: bytecode and abi. We can write them into corresponding variables for subsequent operations using the following code.
 
 ```python
 # get bytecode
@@ -162,23 +162,23 @@ bytecode = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["evm"
 abi = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"]
 ```
 
-## 本地 Ganache 环境
+## Local Ganache Environment
 
-智能合约的调试需要将合约部署到实际的链上，而部署到 Ethereum 主网络或 Rinkeby/Koven 等测试网等也不方便调试，因此，我们需要一个本地的区块链环境，Ganache 就给我们提供了一个这样的本地调试环境。Ganache 主要分为 GUI 和 CLI 两种安装方式。
+Debugging smart contracts requires deploying the contract to an actual chain, but deploying to the Ethereum mainnet or testnets like Rinkeby/Koven is not convenient for debugging. Therefore, we need a local blockchain environment, and Ganache provides us with such a local debugging environment. Ganache mainly comes in two installation methods: GUI and CLI.
 
 ### Ganache GUI
 
-在自己的本地环境，如 Mac/Windows 等系统，我们可以选择带图形界面的 Ganache 客户端，安装与使用都十分便捷，在 [Ganache 官网](https://trufflesuite.com/ganache/)选择对应版本即可。
+In your local environment, such as Mac/Windows systems, we can choose the Ganache client with a graphical interface. The installation and use are very convenient. You can select the corresponding version on the [Ganache official website](https://trufflesuite.com/ganache/).
 
 ![ganache_download](https://image.pseudoyu.com/images/ganache_download.png)
 
-安装完成后选择 Quick Start 即可快速启动一条本地运行的区块链网络，并初始化了十个拥有 100 ETH 的账户，开发调试过程中可使用。
+After installation, selecting Quick Start will quickly launch a locally running blockchain network and initialize ten accounts with 100 ETH each, which can be used during development and debugging.
 
 ![ganache_account](https://image.pseudoyu.com/images/ganache_account.png)
 
-### Ganache CLI 安装
+### Ganache CLI Installation
 
-如果您的系统不支持 GUI 安装，我们可以使用 CLI 安装，安装方式如下：
+If your system doesn't support GUI installation, we can use CLI installation. The installation method is as follows:
 
 ```bash
 npm install --global yarn
@@ -187,13 +187,13 @@ yarn global add ganache-cli
 
 ![ganache_cli_install](https://image.pseudoyu.com/images/ganache_cli_install.png)
 
-等待其安装完成后即可启动本地测试网络，与 Ganache GUI 一致，也包含初始化账户与余额。
+After waiting for it to complete installation, you can start the local test network. Consistent with Ganache GUI, it also includes initialized accounts and balances.
 
 ![ganache_cli_start](https://image.pseudoyu.com/images/ganache_cli_start.png)
 
-### 通过 web3 连接本地 Ganache 环境
+### Connecting to Local Ganache Environment via web3
 
-web3 提供了库可以方便地连接到本地 Ganache 环境：
+web3 provides a library that can easily connect to the local Ganache environment:
 
 ```python
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
@@ -202,25 +202,25 @@ my_address = "0x2F490e1eA91DF6d3cC856e7AC391a20b1eceD6A5"
 private_key = "0fa88bf96b526a955a6126ae4cca0e72c9c82144ae9af37b497eb6afbe8a9711"
 ```
 
-## Solidity 合约部署
+## Solidity Contract Deployment
 
-### 创建合约
+### Creating a Contract
 
-我们可以通过 web3 库创建合约。
+We can create a contract using the web3 library.
 
 ```python
 SimpleStorage = w3.eth.contract(abi=abi, bytecode=bytecode)
 ```
 
-### 部署合约
+### Deploying the Contract
 
-部署合约分为三个主要步骤：
+Deploying a contract consists of three main steps:
 
-1. 构造交易
-2. 签名交易
-3. 发送交易
+1. Constructing the transaction
+2. Signing the transaction
+3. Sending the transaction
 
-#### 构造交易
+#### Constructing the Transaction
 
 ```python
 nonce = w3.eth.getTransactionCount(my_address)
@@ -235,24 +235,24 @@ transaction = SimpleStorage.constructor().buildTransaction(
 )
 ```
 
-#### 签名交易
+#### Signing the Transaction
 
 ```python
 signed_txn = w3.eth.account.sign_transaction(transaction, private_key=private_key)
 ```
 
-#### 发送交易
+#### Sending the Transaction
 
 ```python
 tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
 tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 ```
 
-### 与合约交互
+### Interacting with the Contract
 
-与部署合约步骤类似，我们可以通过 web3 库与合约交互，也分为构造交易、签名交易和发送交易三个步骤。
+Similar to the steps for deploying a contract, we can interact with the contract using the web3 library, which also consists of three steps: constructing the transaction, signing the transaction, and sending the transaction.
 
-#### 构造交易
+#### Constructing the Transaction
 
 ```python
 simple_storage = w3.eth.contract(address=tx_receipt.contractAddress, abi=abi)
@@ -267,7 +267,7 @@ store_transaction = simple_storage.functions.store(67).buildTransaction(
 )
 ```
 
-#### 签名交易
+#### Signing the Transaction
 
 ```python
 signed_store_txn = w3.eth.account.sign_transaction(
@@ -275,19 +275,19 @@ signed_store_txn = w3.eth.account.sign_transaction(
 )
 ```
 
-#### 发送交易
+#### Sending the Transaction
 
 ```python
 send_store_tx = w3.eth.send_raw_transaction(signed_store_txn.rawTransaction)
 tx_receipt = w3.eth.wait_for_transaction_receipt(send_store_tx)
 ```
 
-## 总结
+## Conclusion
 
-以上就是我们通过 Web3.py 库与本地 Ganache 测试网络进行交互的步骤，在真正的生产项目开发中我们一般不会直接使用 Web3.py 这样的库，而是会使用 Brownie、HardHat 等进一步封装的库，但了解 Web3.py 或 Web3.js 等库的使用方法也非常重要。
+The above are the steps for interacting with the local Ganache test network using the Web3.py library. In actual production project development, we generally don't directly use libraries like Web3.py, but instead use further encapsulated libraries like Brownie and HardHat. However, understanding how to use libraries like Web3.py or Web3.js is also very important.
 
-## 参考资料
+## References
 
-> 1. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+> 1. [Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
 > 2. [ethereum/web3.py](https://github.com/ethereum/web3.py)
 > 3. [Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition](https://github.com/smartcontractkit/full-blockchain-solidity-course-py)

@@ -1,5 +1,5 @@
 ---
-title: "周报 #06 - 真诚、游戏与自我调整"
+title: "Weekly Review #06 - Sincerity, Games, and Self-Adjustment"
 date: 2022-08-07T18:28:24+08:00
 draft: false
 tags: ["review", "life", "time", "balance", "sincerity", "ego", "self-adjustment", "game"]
@@ -8,101 +8,101 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
 ![yu_switch_games](https://image.pseudoyu.com/images/yu_switch_games.jpg)
 
-本篇是对 `2022-08-01` 到 `2022-08-07` 这周生活的记录与思考。就工作节奏而言远远算不上忙碌，甚至有几天久违地 7 点多就到了家，空出来的闲暇时间让我有了更多时间思考自己的人格与生活状态，也能够将之前很多细碎的思绪好好梳理一下。
+This piece is a record and reflection of my life from `2022-08-01` to `2022-08-07`. In terms of work rhythm, it was far from busy, and I even got home as early as 7 p.m. on several days, which was rare. The extra leisure time allowed me to think more about my personality and state of life, and to organize many previously scattered thoughts.
 
-## 真诚
+## Sincerity
 
-周末得知一位挚友遭遇了人际关系的困境，也共同回顾分析了其中涉及人格、个人气质、沟通、思维方式等各个方面的缘由，而『真诚』这一特质则是贯穿其中的核心因素，加上前几周对与人际和沟通方面的梳理，浅谈一下自己的思考。
+Over the weekend, I learned that a close friend was facing interpersonal relationship difficulties. We reviewed and analyzed the causes together, involving aspects such as personality, individual temperament, communication, and thinking patterns. The core factor running through it all was "sincerity". Combined with my reflections on interpersonal relationships and communication from the past few weeks, I'd like to share some of my thoughts.
 
-### 人际关系的困境
+### The Dilemma of Interpersonal Relationships
 
-随着年岁的增长和自己内化在性格中的特质影响，我挺乐于为他人、尤其是亲近的人付出，也自认为自己在过去的经历中践行了这一点。但后来发生的一些事让自己渐渐意识到，我似乎一直以来把人际关系的界限划分得很明白，家人、爱人、挚友、其他朋友、不会深交的人、陌生人等等，尽管可能并没有那么多主观意识或功利考虑，但总是有潜藏其中的优先级存在。在绝大多数与他人的沟通中我可能也仅仅是做到了真实或是不虚伪逢迎，而真诚这一步常常难以迈出。
+As I've grown older and been influenced by the traits internalized in my personality, I quite enjoy giving to others, especially those close to me, and I believe I've practiced this in my past experiences. But some events that occurred later made me gradually realize that I seem to have always drawn very clear boundaries in interpersonal relationships: family, lovers, close friends, other friends, people I won't become close to, strangers, and so on. Although there may not be much subjective consciousness or utilitarian consideration, there are always hidden priorities. In the vast majority of communications with others, I may have only achieved authenticity or avoided being hypocritical and sycophantic, while often finding it difficult to take the step towards true sincerity.
 
-从所谓的社交标准或是从他人身上获取的正反馈来看，似乎已经很足够，让我常常质疑是不是人与人相识之初可能就是有这样固有的一条线，想达到并不难，友善似乎就已经符合了几乎所有关系建立的基础，而想要跨过则需要成倍的付出，而自己则往往止步于此，似乎到了某个临界之时，就会有个声音告诉自己，需要为这段关系所做的也就只此而已，够了。
+From the perspective of so-called social standards or positive feedback obtained from others, it seems to be quite sufficient. This often makes me question whether there is such an inherent line when people first get to know each other. It's not difficult to reach this line, and being friendly seems to already meet the foundation for establishing almost all relationships. However, to cross this line requires exponentially more effort, and I often stop at this point. It seems that when reaching a certain critical moment, there's a voice telling me that what needs to be done for this relationship is just this much, and it's enough.
 
-### 自我
+### Self
 
-后来一次与挚友的争吵让自己意识到了这种思维方式背后隐藏的自以为是与自我满足的部分，甚至会很潜移默化地影响了自己的行为方式与思考优先级。意识到这一点后，自己也经历了一些调整与变化，逐渐不那么在意互相付出的比重，开始更多在与他人的相处中对于他人所需要的与自己所能做到的部分作下意识地思考，不管是在沟通还是相处上，都在之前的习惯之余上多走一步，也收到了一些真诚的反馈，但是依然觉得在自己内心真诚的部分还是很难做到很好。
+A later argument with a close friend made me realize the self-righteousness and self-satisfaction hidden behind this way of thinking, which even subtly influenced my behavior and thinking priorities. After realizing this, I went through some adjustments and changes. I gradually became less concerned about the balance of mutual contributions and began to consciously consider what others need and what I can do in my interactions with them. Whether in communication or getting along, I took an extra step beyond my previous habits and received some sincere feedback. However, I still feel that it's difficult to achieve sincerity well in my inner heart.
 
-### 对真诚的思考
+### Reflections on Sincerity
 
-可能是出于不安全感与内心的防备，我常常觉得自己别人对于自己友好的部分很大程度是对自己友好姿态的一种等价回馈。而我自己内心其实也是有很多冷漠的因素存在的，并不是能一直充满热情地全心全意付出，有时候会觉得自己像是一个置身事外的观察家，看着自己的所作所为与其得到的对应反馈，并且在过程中实现自己在与他人相处过程中的“优化”。
+Perhaps due to insecurity and inner defensiveness, I often feel that a large part of others' friendliness towards me is an equivalent reciprocation of my friendly attitude. And in my own heart, there are actually many indifferent factors. I can't always wholeheartedly dedicate myself with full enthusiasm. Sometimes I feel like an outsider observer, watching my own actions and the corresponding feedback they receive, and in the process, achieving my "optimization" in interactions with others.
 
-要说有什么恶意或是功利性的目的倒也不至于，只是在审视自己时总有一些奇奇怪怪的想法，但时间久了有些难以感受到对方言谈或是反馈中的真诚的部分，也先入为主地很难区分究竟是出去感谢还是纯粹的情绪。
+To say there's any malice or utilitarian purpose wouldn't be accurate, but when examining myself, there are always some strange thoughts. Over time, it becomes difficult to feel the sincere parts in others' words or feedback, and it's hard to distinguish whether it's out of gratitude or pure emotion without preconceptions.
 
-慢慢地，自己变得只会对这些对象才能放下心防：
+Gradually, I became able to let my guard down only with these objects:
 
-- 一直陪伴着自己的以家人相待的挚友
-- 感情中自己毫无防备付出的对象
-- 共同度过艰难时刻的朋友（可能是糟糕的状态、崩溃的情绪等）
+- Close friends who have always accompanied me and are treated as family
+- The object of my unreserved devotion in romantic relationships
+- Friends who have gone through difficult times together (possibly bad states, emotional breakdowns, etc.)
 
-其实共性就是自己都曾主动在他们面前展现过极度脆弱敏感或是糟糕的一面，却被信任与接纳，并让自己在某个阶段意识到了自己依赖于这样的真诚陪伴。也许是对于这一点太过苛刻，抑或是自己已经并不那么习惯于在一段新的关系中倾注太多真诚，总觉得自己在情感上变得越来越消极和迟钝，也常常不再有更多期待，这也是我目前面临的最大困境。关于真诚与相处的思考与探讨仍在继续，希望能有所缓和。
+In fact, the commonality is that I have actively shown my extremely vulnerable, sensitive, or bad side in front of them, yet was trusted and accepted, making me realize at some stage that I relied on such sincere companionship. Perhaps I'm too strict about this point, or I'm no longer accustomed to investing too much sincerity in a new relationship. I always feel that I'm becoming more and more negative and slow in my emotions, and often no longer have more expectations. This is also the biggest dilemma I'm currently facing. The reflection and discussion about sincerity and getting along continue, and I hope there can be some alleviation.
 
-## 游戏
+## Games
 
 ![yu_game_gallery](https://image.pseudoyu.com/images/yu_game_gallery.png)
 
-这周其实并没有玩游戏，但想谈谈“游戏”。
+I didn't actually play any games this week, but I want to talk about "games".
 
-游戏于我而言是既熟悉又陌生的一个事物。小时候的我是任天堂的死忠粉，一个 GameBoy，几盘宝可梦（当时还叫口袋妖怪）卡带几乎陪我度过了整个童年，各个版本都通关过无数次，对各种游戏内的收藏如数家珍；即使到了初高中依然常常通过模拟器重温那些经典，玩了古早版本的塞尔达与火焰纹章系列。
+Games are both familiar and unfamiliar to me. As a child, I was a die-hard Nintendo fan. A GameBoy and a few Pokémon (it was called Pocket Monsters back then) cartridges accompanied me through almost my entire childhood. I completed every version countless times and knew every in-game collection like the back of my hand. Even in middle and high school, I often revisited those classics through emulators, playing early versions of the Zelda and Fire Emblem series.
 
-到了大学之后反而完全对游戏提不起兴趣，经久不衰的英雄联盟似乎只打了一局人机后再也没登录过，没去赶守望先锋的热潮，后来的炉石、王者也仅仅是浅试了几局后再也没开过，聚会时邀请王者开黑时我的一句“不太会”总是让对面一愣。
+After entering university, I completely lost interest in games. I only played one bot match in the ever-popular League of Legends and never logged in again. I didn't catch the Overwatch craze, and later games like Hearthstone and Honor of Kings were only briefly tried before being abandoned. At gatherings, my response of "I'm not very good at it" to invitations to play Honor of Kings together always caught people off guard.
 
-大概自己总是觉得有更重要的事去做，或是害怕自己沉浸游戏之后的愧疚感，我一直有些可以避免接触，久而久之也就丧失了兴趣，直到 17 年 Nintendo Switch 的出现。我似乎重拾了对于游戏世界的热情，[囤了很多游戏](https://pseudoyu.notion.site/f5f9e6e31b4744a7a1284eaf55451462?v=6e3be0ced2f44305b9ff3a8298e72de5)，沉浸在海拉鲁大陆里完全不记得~~塞尔达~~林克的使命，为了培育自己的战队没日没夜地在宝可梦剑盾里孵蛋，为火焰纹章风花雪月里的一个限定道具思考一晚上战略...
+I always felt there were more important things to do, or feared the guilt of immersing myself in games. I was able to avoid contact for a long time, and gradually lost interest, until the appearance of the Nintendo Switch in 2017. I seemed to rediscover my passion for the gaming world, [hoarded many games](https://pseudoyu.notion.site/f5f9e6e31b4744a7a1284eaf55451462?v=6e3be0ced2f44305b9ff3a8298e72de5), immersed myself in Hyrule completely forgetting ~~Zelda's~~ Link's mission, hatched eggs day and night in Pokémon Sword and Shield to cultivate my team, pondered over strategy for a whole night for a limited item in Fire Emblem: Three Houses...
 
-其实游戏带给了很多，因为一次猜测她在剑三里究竟是长歌还是万花输了一杯星巴克，也算是就此结缘；每天一起在 Pokémon Go 抓伊布，刷日常任务和道馆，收获了很多快乐；后来的日常也是她玩剑三，我打宝可梦，也都一起玩成了养成与换装游戏。渐渐地，游戏的乐趣也不仅仅囿于游戏设计本身，而是寄托在其中的日常。
+Games have actually brought a lot. I lost a cup of Starbucks because of a guess about whether she was playing Changge or Wanhua in JX3, which was the beginning of our relationship. We caught Eevee together every day in Pokémon Go, completed daily tasks and gyms, and gained a lot of happiness. Later, our daily routine became her playing JX3 and me playing Pokémon, and we both ended up playing dress-up games. Gradually, the joy of games was no longer confined to the game design itself, but in the daily life embedded within.
 
-现在自己常常有想重新拿起手柄玩点什么，一直在切换游戏，却再难有勇气打开，也失去了那份心境。
+Now I often want to pick up the controller and play something, constantly switching between games, but I find it hard to muster the courage to start, having lost that mindset.
 
-## 状态调整
+## State Adjustment
 
-这周的工作还是在做前一个项目的筹备，因为之前也已经很熟悉这部分架构和代码了，工作量很可控，所以都能比较早地完成。
+This week's work was still on the preparation of the previous project. Because I was already very familiar with this part of the architecture and code, the workload was very controllable, so I was able to finish relatively early.
 
-但即便时间有了一些自由，依然觉得内耗有些严重。其实最近也开始慢慢思考关于工作的性质与收获，也跟一个刚认识的很有缘的本科学弟聊到这一点，虽然工作初期得到了很多提升，也是必要的阶段，但因为并不是自己真正想做和感兴趣的东西，而是一个接着一个的外部需求，缺少了成就感所带来的正反馈，反而只能从自己的博文或是其他的学习输出中去弥补这一部分。
+But even though I had some free time, I still felt that internal consumption was quite serious. Actually, I've started to slowly think about the nature and gains of work recently, and I also talked about this with a newly acquainted undergraduate junior who I feel a connection with. Although I gained a lot of improvement in the initial stage of work, which was a necessary phase, because it's not what I really want to do or am interested in, but one external demand after another, lacking the positive feedback brought by a sense of achievement, I can only compensate for this part from my blog posts or other learning outputs.
 
-这几天基本 7 点多就能到家，多了很多自己可以支配的时间，但是前几天到家后有些无所适从，也没能好好利用或是休闲。Humura 在我上篇周报后提了很多建议，尤其是运动与睡眠上，但这周的调整空间很有限，甚至在脱离了褪黑素（已经吃完两罐），睡眠状况更加恶化了。
+These days I can basically get home after 7 p.m., giving me a lot more time to dispose of as I wish, but for the first few days after getting home, I felt a bit at a loss and couldn't make good use of it or relax properly. Humura gave me a lot of suggestions after my last weekly review, especially regarding exercise and sleep, but there was very limited room for adjustment this week, and my sleep condition even worsened after stopping melatonin (having finished two bottles).
 
-后面几天的时间安排上好了许多，但睡眠依然没有改善。感觉自己需要更多的自律来进行状态调整。这里所提到的自律倒不是专注于工作或是学习，而且更严格地划分自己的时间，以规律化的方式来保障自己工作学习中的劳逸结合、娱乐、运动，而不是一段时间的积极 + 一段时间的颓败，甚至会需要自己为自己每天找一些细微的动力或是期待，比如拍一些日常的视频或是培养一些简单的习惯。
+The time arrangement for the latter few days improved a lot, but sleep still didn't improve. I feel I need more self-discipline to adjust my state. The self-discipline mentioned here is not about focusing on work or study, but more strictly dividing my time, ensuring a balance between work and rest, entertainment, and exercise in my work and study in a regular way, rather than a period of activeness + a period of depression. I might even need to find some subtle motivation or expectation for myself every day, such as taking some daily videos or cultivating some simple habits.
 
-## 学习与输入
+## Learning and Input
 
-这个部分会记录一下自己觉得有意思的东西以及工作学习的一些进展。
+This section will record some interesting things I've found and some progress in work and study.
 
-### 技术学习
+### Technical Learning
 
-这一周看了不少的工作之外的书与教程。之前在工作中用到了很多 Docker 与 k8s 的操作，对基本的操作有了一些了解，但是并没有很系统了解它们的原理和进阶用法，发现了一个很棒的『[TechWorld with Nana](https://www.techworld-with-nana.com)』频道，讲得很清晰实用。
+This week I read quite a few books and tutorials outside of work. I've used a lot of Docker and k8s operations in my work before, and have some understanding of basic operations, but I haven't systematically understood their principles and advanced usage. I found a great channel "[TechWorld with Nana](https://www.techworld-with-nana.com)", which explains things very clearly and practically.
 
-对于 Cosmos 的架构与核心机制部分已经完整学了一遍，正在画一些图做一些整理。工作后的第一个项目就基于 Cosmos 开发了接近半年，却一直对其底层有些一知半解，终于填了自己当时的一些坑，好好学习了一下。
+I've completely studied the architecture and core mechanisms of Cosmos once, and I'm drawing some diagrams to organize it. The first project after starting work was based on Cosmos development for nearly half a year, but I always had a half-understanding of its underlying principles. I've finally filled in some of the gaps I had at that time and studied it properly.
 
-### 博客相关
+### Blog Related
 
-之前看到一种基于博客或是教学的学习观念，即学习一个新的知识点时以能够教会他人或是让读者更好理解为标准，以此为前提能够更明确自己的学习目标。出于这一点，我规划了几篇博文：
+I previously came across a learning concept based on blogging or teaching, which is to learn a new knowledge point with the standard of being able to teach others or make readers understand better. With this premise, I can more clearly define my learning goals. Based on this, I've planned several blog posts:
 
-1. Cosmos 原理与架构
-2. Docker 基础与实践
-3. k8s 基础与实践
+1. Cosmos Principles and Architecture
+2. Docker Basics and Practice
+3. k8s Basics and Practice
 
-下周需要更多时间放在写作上了。
+I need to spend more time on writing next week.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **蒂姆库克传**，对 Tim 的童年和一些观念还挺意外的
-- **区块链架构与实现：Cosmos 详解**，工作用到所以看了下，前四章挺不错的，对整个架构尤其是共识算法这一块讲得很细，后面详细的章节打算看看源码当作参考资料用到的时候看了
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, I was quite surprised by Tim's childhood and some of his views
+- **Blockchain Architecture and Implementation: Cosmos Explained**, I read it because of work, the first four chapters are quite good, explaining the entire architecture, especially the consensus algorithm, in detail. I plan to look at the source code for the later detailed chapters when I need to use them as reference material
 
-#### 剧集
+#### TV Series
 
-1. **天才基本法**，雷佳音的演技很好，张子枫也有些惊喜，看到后面发现平行世界的设定和《想见你》类似，但是逻辑和世界观差远了，剧情和人设变化有点无语
-2. **非常律师禹英禑**，每周期待更新
+1. **The Genius Game**, Lei Jiayin's acting is very good, and Zhang Zifeng is also a pleasant surprise. As I watched further, I found the parallel universe setting similar to "Someday or One Day", but the logic and worldview are far inferior, and the plot and character development are a bit frustrating
+2. **Extraordinary Attorney Woo**, looking forward to new episodes every week
 
-#### 动漫
+#### Anime
 
-- **夏日重现**，越来越精彩了
-- **继母的拖油瓶是我的前女友**，连续看了几集，挺休闲的
+- **Summer Time Rendering**, getting more and more exciting
+- **My Stepmom's Daughter Is My Ex**, watched several episodes in a row, quite relaxing

@@ -1,5 +1,5 @@
 ---
-title: "摄影集 #02 - Moment In Peking (The Autumn)"
+title: "Photography Collection #02 - Moment In Peking (The Autumn)"
 date: 2023-01-02T18:00:00+08:00
 draft: false
 tags: ["photography", "beijing", "nature", "sony", "a7m3", "autumn", "season", "city", "moment"]
@@ -8,32 +8,26 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-来北京已经一年多了，由于长期宅在自己的小屋里，也没有太多心绪去探索，它的四季于我来说仅仅是上班路上的草木风光，连最耳熟能详的几个景点都未曾涉足。
+It has been over a year since I came to Beijing. Due to long periods of staying in my small room and lacking the mood to explore, its four seasons have merely been the changing greenery on my way to work. I haven't even visited the most well-known landmarks.
 
-其实这些年辗转了不少城市，每次都总是觉得“时间还早”、“来日方长”、“总有机会”，却常常留下许多遗憾。临近 12 月了才发现已经是晚秋了，之前计划的香山红叶可能也只剩一些残存了，但依然决定去用镜头留下一些秋天的痕迹。
+In fact, I've moved between quite a few cities over the years. Each time, I always thought, "There's still time," "There are plenty of days ahead," "There will always be a chance," yet often left with many regrets. It wasn't until nearly December that I realized it was already late autumn, and the red leaves of Xiangshan I had planned to see might only have remnants left. Nevertheless, I decided to capture some traces of autumn through my lens.
 
-之前看过林语堂的《京华烟云》，英文书名是《Moment In Peking》，承载了这座城市的很多悲欢离合，也勾画了当初的我对北京的第一印象。所以这次的摄影集也取名为『Moment In Peking (The Autumn)』，尽管秋意已经几乎散尽，依然是一段城市回忆。
+I had previously read Lin Yutang's "Moment In Peking," which carries many joys and sorrows of this city and sketched my first impression of Beijing. So I named this photography collection "Moment In Peking (The Autumn)." Although the autumn spirit has almost dissipated, it remains a piece of city memory.
 
-特别鸣谢刚拿到驾照的博译学姐在疫情已经恶化的时候还愿意租车带我前往（~~也是一个敢开，一个敢坐~~）。
+Special thanks to senior Boyi, who just got her driver's license and was willing to rent a car and take me there when the pandemic had already worsened (~~one dares to drive, one dares to ride~~).
 
-> 因为是摄影集作品，这个栏目不想压图片质量，每张都比较大，放在阿里云 OSS 上了（账单警告 ⚠️），加载可能会略慢一些，见谅。
+> As this is a photography collection, I don't want to compress the image quality in this column. Each photo is quite large and hosted on Alibaba Cloud OSS (billing alert ⚠️). Loading might be a bit slow, please bear with me.
 
 ## Moment In Peking (The Autumn)
 
 {{< figure src="https://image.pseudoyu.com/images/A7_04388.jpg" >}}
 
-<!-- {{< figure src="https://image.pseudoyu.com/images/A7_04373.jpg" >}} -->
-
 {{< figure src="https://image.pseudoyu.com/images/A7_04374.jpg" >}}
-
-<!-- {{< figure src="https://image.pseudoyu.com/images/A7_04363.jpg" >}} -->
 
 {{< figure src="https://image.pseudoyu.com/images/A7_04378.jpg" >}}
 
 {{< figure src="https://image.pseudoyu.com/images/A7_04390.jpg" >}}
-
-<!-- {{< figure src="https://image.pseudoyu.com/images/A7_04367.jpg" >}} -->
 
 {{< figure src="https://image.pseudoyu.com/images/A7_04383.jpg" >}}

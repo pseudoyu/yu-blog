@@ -1,5 +1,5 @@
 ---
-title: "周报 #15 - 内观与外求"
+title: "Weekly Review #15 - Introspection and External Seeking"
 date: 2022-10-18T17:38:39+08:00
 draft: false
 tags: ["review", "life", "work", "self", "personality", "ego", "relationship", "friend", "writing", "sharing"]
@@ -8,75 +8,75 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-10-10` 到 `2022-10-18` 这周生活的记录与思考。
+This is a record and reflection of my life from October 10, 2022 to October 18, 2022.
 
-因为疫情的缘故一直在杭州居家，天气日渐转凉，没带太多衣服，所以在健康宝状态正常之后马上买了回来的票，周五就回了北京。短短半个月时间家里就有些一团糟，周末两天几乎都在大扫除和整理。
+Due to the pandemic, I had been staying at home in Hangzhou. As the weather turned cooler and I hadn't brought many clothes, I bought a ticket back to Beijing as soon as my health code turned green. I returned to Beijing on Friday. In just half a month, my home had become quite messy, so I spent almost the entire weekend cleaning and organizing.
 
-两个项目陆续开始有些重叠，在家的工作效率不算太高，也很久没有好好学点东西了，整理了下学习计划与日程安排。
+Two projects have started to overlap, and my work efficiency at home hasn't been very high. It's been a while since I've properly learned something new, so I've reorganized my study plan and schedule.
 
-不错的是自己终于坚持了几天晨跑，看到了久违的杭州的风景，不过也明显感觉到自己体能有所下降，临近秋冬了可能多做一些室内的运动吧。
+On a positive note, I finally managed to stick to morning runs for a few days, seeing the long-missed scenery of Hangzhou. However, I clearly felt that my physical fitness has declined. As autumn and winter approach, I might focus more on indoor exercises.
 
-## 记一次印象深刻的交流
+## A Memorable Conversation
 
-本科时候在社团结识并一直师徒相称的一个朋友完成了第一部小说，也开始做自己的 B 站荐书的帐号，有一种很因缘际会的感觉。记得很遥远之前谈论过要写这样的一部作品，就像一棵幼芽一样藏在记忆中，而到了现在渐渐有了第一个发芽的种子，而自己作为这样的见证者，也由衷地开心。倒是作为师父，自己一直想做的一些事（比如 B 站帐号）反而持续搁置，也该加油了。
+A friend I met in a university club, whom I've always called my disciple, has completed his first novel and started a book recommendation channel on Bilibili. It feels like a serendipitous occurrence. I remember discussing writing such a work long ago, like a seedling hidden in memory, and now the first seed has begun to sprout. As a witness to this, I'm genuinely happy. As the "master," I find that some things I've always wanted to do (like starting a Bilibili channel) have been continuously postponed. I should work harder too.
 
-自己其实一直很珍惜这种能够不基于日常的交流模式，尽管好像已经有近两年没什么联系，却依旧发现了很多想法和特质上相像的点。这就像是一种磁场或是默契，基于个性特征的契合而不是日常或是某些其他的目的性的交流也更容易保持恒久，似乎只需要想到些什么，一句“对了，我突然想到...”或是相隔几个月毫无铺垫的一句“约个电话？”就已经足够打开话匣，是一种很令人惬意的关系模式。
+I've always cherished this kind of communication that isn't based on daily interactions. Although we haven't been in touch for nearly two years, I still discovered many similarities in our ideas and characteristics. It's like a magnetic field or tacit understanding. Interactions based on personality traits rather than daily routines or other purposeful communications are more likely to endure. It seems that all it takes is a thought, a "By the way, I suddenly thought of..." or an unprompted "Shall we have a call?" after several months to open up the conversation. It's a very pleasant relationship dynamic.
 
-### 性别与交流
+### Gender and Communication
 
-起初聊到了关于性别与交流的问题，提到说好像当前比较普遍的男生比较难去完完全全静下心去看女生产出的内容，就好像总是对照片、工作情感状况尤其敏感，而常常忽略一些观点性的输出，就好像性别隔离了平等交流。
+Initially, we discussed the issue of gender and communication. It was mentioned that it seems quite common for men to find it difficult to completely focus on content produced by women. It's as if they're particularly sensitive to photos, work, and emotional status, often overlooking viewpoint-based output, as if gender creates a barrier to equal communication.
 
-这是一个挺有意思的现象，似乎天然存在于异性之间的关系中，且由于心思细腻程度的一些天然差异，男性也更容易成为无视女性观点性表达的一方。诚然，自己也不是什么高尚的人，无法免俗地因外表或是称之为魅力的因素影响一些起初印象的判断，但一旦进入朋友的范畴，会更倾向忽略这些来追求更为真实与平等的交流，而尤其随着自己逐渐不再依赖于社交，也对这样仍可以交流的机会倍感珍惜，而这样的真诚也往往能有同样的回应。
+This is an interesting phenomenon that seems to naturally exist in relationships between different genders. Due to some innate differences in the level of sensitivity, men are more likely to be the ones ignoring women's viewpoint expressions. Admittedly, I'm not a particularly noble person either, and I can't help but be influenced by appearance or what we call charm in forming initial impressions. However, once a relationship enters the realm of friendship, I tend to ignore these factors in pursuit of more authentic and equal communication. Especially as I've gradually become less dependent on social interactions, I've come to cherish these opportunities for communication even more, and such sincerity often receives similar responses.
 
-### 创作与分享欲
+### Creation and the Desire to Share
 
-还聊到了创作与分享的一些关系。其实某种程度上来说我的博客与朋友的书都是一种创作，同样也是我们分享欲的载体。
+We also discussed the relationship between creation and sharing. In a sense, both my blog and my friend's book are forms of creation, and they are also carriers of our desire to share.
 
-写东西、产出内容、表达想法，或是把之前埋下的想法一点点实现，是分享欲的一种表现，但并不是那种告诉别人自己在写一些似乎很厉害的东西这样的虚荣心作祟，而是希望真诚表达，或是自己付诸心血完成的作品能被认真对待，或者是得到一些反馈。
+Writing, producing content, expressing ideas, or gradually realizing previously buried thoughts are manifestations of the desire to share. It's not about telling others that we're writing something seemingly impressive out of vanity, but rather about wanting to express ourselves sincerely, or hoping that our works, which we've put our heart and soul into, will be taken seriously or receive some feedback.
 
-朋友的一句比喻很贴切，这就像是对着山谷发声，希望能听到回音。
+My friend's analogy was apt: it's like shouting into a valley, hoping to hear an echo.
 
-### 内观与外求
+### Introspection and External Seeking
 
-印象比较深的是提到了“内观与外求”这个概念。我们作为人的关注点往往都分为内在与外在两个方面，相较而言，对外的关注点由于更具刺激性与正反馈而占了绝大部分，而对内在的关注则往往容易被忽略。
+What left a deep impression on me was the concept of "introspection and external seeking." As humans, our focus is often divided into internal and external aspects. Comparatively, external focus tends to dominate due to its more stimulating nature and positive feedback, while internal focus is often easily overlooked.
 
-似乎从某个阶段起，开始有些害怕和警惕自己的变化，担心有一天再也看不进书和电影，或是看完后想法空空，这是一件多么难以想象和接受的事呀；与此同时，似乎又有些担心自己停止变化，那又会错过多少有趣的人生阶段呢？
+It seems that from a certain stage, we begin to fear and be wary of our own changes. We worry about one day no longer being able to absorb books and movies, or having empty thoughts after experiencing them - how unimaginable and unacceptable that would be. At the same time, we seem to worry about ceasing to change, for how many interesting life stages would we miss then?
 
-细想了一下，自己其实是在害怕不再具备内观的能力，外求似乎总能有一些答案，而内观则没有终点。如果失去了自己的内核，失去了对自我的好奇与探索的动力，是最值得恐惧和难以忍受的事。
+Upon reflection, I realized that I'm actually afraid of losing the ability to introspect. External seeking always seems to have some answers, while introspection has no endpoint. If we lose our inner core, lose the curiosity and drive to explore ourselves, that would be the most fearful and unbearable thing.
 
-## 其他
+## Miscellaneous
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record my inputs and outputs, as well as other things I find interesting.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **毛姆读书随笔**，补标，几年前最初读到，后面陆续又看了好几遍，可以说是重新燃起了我对文学经典的热情。
-- **常识**，道长的时评政论，不得不说那么多年前的一些政治看法在现在的中国环境下看，有一些很有意思的点。
-- **乌合之众**，也是大一的时候看过，路途上重温，挺不一样的，尤其是能够感觉到个体特质渐渐在被抹去的当下。
+- **The Art of Fiction** by Somerset Maugham, an addition to the list. I first read it several years ago and have reread it several times since. It can be said to have reignited my passion for literary classics.
+- **Common Sense** by Li Ao, a collection of political commentaries. I must say, some of the political views from so many years ago are quite interesting when viewed in the current Chinese environment.
+- **The Crowd: A Study of the Popular Mind**, which I read in my freshman year. Revisiting it on the journey, it feels quite different, especially as one can feel individual characteristics gradually being erased in the present day.
 
-#### 电影
+#### Movies
 
-- **坠落**，看得全程很都很精神紧绷，也还是挺不一样的观感，大概上一次有这种感觉还是《云中行走》了。平时自己虽然并不怕过山车这样的活动但也不会刻意去追求刺激感，大概也比较难理解这种体验，倒是有点好奇，最近有在思考去徒步，也许之后可以去试试蹦极和跳伞。
+- **Fall**, I was on edge throughout the entire movie, and it was quite a different experience. The last time I felt this way was probably during "The Walk." Although I'm not afraid of roller coasters and such activities in daily life, I don't deliberately seek thrills either, so it's probably hard for me to understand this kind of experience. I'm a bit curious though. I've been thinking about going hiking recently, maybe I could try bungee jumping and skydiving later.
 
-#### 剧集
+#### TV Series
 
-- **终极名单/The Terminal List**，第一集的铺垫看着有点累和压抑，后面节奏感很紧凑，PTSD 与复仇元素也算是剧集常客了，但依然有不少惊喜感，查了一下原来也是 poi 的导演，熟悉的感觉。
-- **石子和羽男-这种事情也好告吗？**，因为有村架纯的一个表情包看的这部剧，风格不错但是剧情和案子也就这样吧，可能原本定位更偏向社会现状影射和教育意义。另外怎么感觉最近律政题材的不错的新剧也越来越多了。
-- **甄嬛传**，周末居家的时候补了，以前一直因为题材不太感兴趣，古装里面一直也都喜欢《琅琊榜》，不过追完后倒是发现了很多不一样的吸引点了，当时的剧集节奏和演技都还是挺绝的。
-- **静雪**，在追的一部新日剧，很美。
+- **The Terminal List**, the setup in the first episode felt a bit tiring and depressing, but the pacing became very tight afterwards. PTSD and revenge elements are common in series now, but there were still many surprises. I looked it up and found out it's directed by the same person who did Person of Interest, which explains the familiar feeling.
+- **Ishiko and Haneo: You Can't Sue for This**, I watched this drama because of a meme of Kasumi Arimura. The style is nice, but the plot and cases are just okay. Maybe it was originally intended more as a reflection of social conditions and for educational purposes. Also, why does it feel like there are more and more good new legal dramas recently?
+- **Empresses in the Palace**, I watched it over the weekend at home. I wasn't interested in the theme before, and among historical dramas, I've always liked "Nirvana in Fire". However, after finishing it, I found many different points of attraction. The pacing of the series and the acting skills at that time were quite exceptional.
+- **Silent Snow**, a new Japanese drama I'm following. It's very beautiful.
 
-#### 动漫
+#### Anime
 
-- **狼的孩子雨和雪**，晚上突然翻起豆瓣想看的列表，偶然看见这部从高中时候就码了的动漫电影，就打开看完了。很喜欢的画风，尤其是自然景观的部分很细致，剧情上虽然结局算是不错但依然有点致郁，人物的性格都好喜欢。
-- **电锯人**，高中时好像很有名，但是我当时没看过动漫，补一下番，看了第一集还蛮不错的。
-- **万神殿**，听同事说看这个番还得了解死锁、互斥锁和并行计算什么的，有点兴趣，就追了一下，感觉设定也挺有意思的。
+- **Wolf Children**, I suddenly came across this anime movie that I had bookmarked since high school while browsing my "want to watch" list on Douban, so I opened it and finished it. I really like the art style, especially the detailed depiction of natural scenery. Although the ending is fairly good in terms of plot, it still feels a bit depressing. I really like the personalities of the characters.
+- **Chainsaw Man**, it was quite famous when I was in high school, but I didn't watch anime at that time. I'm catching up now, and the first episode is quite good.
+- **Pantheon**, I heard from a colleague that to watch this anime, you need to understand deadlocks, mutex locks, and parallel computing. That piqued my interest, so I started following it. The setting seems quite interesting.
 
-#### 游戏
+#### Games
 
-- **火焰纹章：烈火之剑**，打了一半多了，有点累了，比较费脑，等下一波时间空一点打完。
+- **Fire Emblem: The Blazing Blade**, I've played more than half of it, but I'm getting a bit tired. It's quite brain-intensive. I'll finish it when I have more free time in the next wave.

@@ -1,5 +1,5 @@
 ---
-title: "轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）"
+title: "Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)"
 date: 2022-05-24T21:47:47+08:00
 draft: false
 tags: ["hugo", "cusdis", "railway", "serverless", "self-host", "blog"]
@@ -8,90 +8,90 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="《Here, After Us - Mayday》" >}}
 
-## 前言
+## Preface
 
 ![cusdis_intro](https://image.pseudoyu.com/images/cusdis_intro.png)
 
-之前写了一篇《[免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)》，讲述了一下我使用 Serverless 和一些开源项目搭建的博客系统，也开了个系列来记录搭建过程。
+Previously, I wrote an article titled "Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)," detailing my blog system built using Serverless and some open-source projects. I also started a series to document the setup process.
 
-本篇是关于博客评论系统的解决方案，我最早使用的博客评论系统是~~万恶的~~ [Disqus](https://disqus.com)，一个笨重且会收集用户隐私的知名评论系统，因为加载比较慢，且免费版本经常会附带一些广告，实在难以忍受，于是换成了另一个基于 GitHub issues 的评论系统 [utterances](https://utteranc.es)，它会为每篇文章生成一个 issue，将，用户通过授权 GitHub 登录来对 issue 发表评论。这种方式的好处是只需要授权一个 [utterances-bot](https://github.com/utterances-bot) 来进行管理，无需自己部署服务，维护数据库等。但是用了一段时间后，觉得有几点不足：
+This article focuses on the blog comment system solution. The earliest comment system I used was the ~~notorious~~ [Disqus](https://disqus.com), a cumbersome system known for collecting user privacy data. Due to its slow loading and frequent advertisements in the free version, it became unbearable. So, I switched to another comment system based on GitHub issues called [utterances](https://utteranc.es). It generates an issue for each article and allows users to comment on the issue by authorizing GitHub login. The advantage of this method is that it only requires authorizing a [utterances-bot](https://github.com/utterances-bot) for management, without the need for self-deployment of services or database maintenance. However, after using it for a while, I found several shortcomings:
 
-1. 基于 GitHub API 进行评论管理，如之后接口变动或对这类利用 issue 进行评论的方式进行限制，会不太稳定
-2. 读者必须要授权 GitHub 登录，非技术人员或使用移动端阅读的读者使用起来很不方便
-3. 会将 GitHub 仓库弄得较乱，也不方便后续迁移到其他系统
+1. It relies on the GitHub API for comment management. If there are future API changes or restrictions on using issues for comments, it may become unstable.
+2. Readers must authorize GitHub login, which is inconvenient for non-technical users or those reading on mobile devices.
+3. It clutters the GitHub repository and makes it difficult to migrate to other systems in the future.
 
-经过一番调研 [Randy](https://lutaonan.com) 的 [Cusdis](https://cusdis.com/) 很合我的心意。Cusdis 是一个注重数据隐私的开源的评论系统，十分轻量，经过 gzipped 后大约只有 5kb，从名字来看也知道开发者也是难以忍受 Disqus，自己做了一个替代版，因此它也是支持 Disqus 历史数据导入的，很贴心。
+After some research, [Randy's](https://lutaonan.com) [Cusdis](https://cusdis.com/) caught my attention. Cusdis is an open-source comment system that prioritizes data privacy and is extremely lightweight, with a gzipped size of only about 5kb. From its name, you can tell that the developer was also frustrated with Disqus and created an alternative version. Therefore, it also supports importing historical data from Disqus, which is very thoughtful.
 
-虽然这是一个开发早期的项目，但是已经提供了电子邮件通知以及通过 Webhook 联动 Telegram 等方式进行评论提醒，对使用者来说很方便进行管理。Cusdis 提供了免费托管服务与自行部署两种方式，如果不想折腾可以直接用作者提供的服务。自行部署则需要服务器与一个 Postgre SQL 实例，我们主要示范一下自行部署方式。
+Although this is an early-stage project, it already provides email notifications and comment alerts through Webhook integration with Telegram, making it convenient for users to manage. Cusdis offers both free hosted services and self-hosted options. If you don't want to bother with setup, you can directly use the service provided by the author. Self-hosting requires a server and a PostgreSQL instance. We will mainly demonstrate the self-hosted approach.
 
-因为在上一篇 《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》 中我使用的是 [Vercel](http://vercel.com/) 和 [Heroku](https://www.heroku.com/) 进行搭建的，作为一个爱折腾的人，这个评论系统我们就用 [Railway](https://railway.app/) 来搭建部署。
+In my previous article "Building a Free Personal Blog Analytics System from Scratch (umami + Vercel + Heroku)," I used [Vercel](http://vercel.com/) and [Heroku](https://www.heroku.com/) for setup. As someone who enjoys tinkering, we'll use [Railway](https://railway.app/) to build and deploy this comment system.
 
-Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言项目的部署。对于个人项目来说，它每月提供的 5 美元免费额度非常够用，实测了一下，把之前的 [umami 网站数据统计系统](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) 连同 Postgre SQL 数据库实例部署在 Railway 平台，大约一个月 0.7 美元，对于个人使用来说完全足够。
+Railway is similar to Vercel, also a PaaS platform that supports deployment of projects in multiple languages. For personal projects, its $5 monthly free quota is more than enough. After testing, deploying the previous [umami website analytics system](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) along with a PostgreSQL database instance on the Railway platform costs about $0.7 per month, which is completely sufficient for personal use.
 
 ![railway_price](https://image.pseudoyu.com/images/railway_price.png)
 
-比起 Vercel，它同时支持部署数据库实例，可以将数据库与实例一起部署在单个项目中，减少搭建维护成本。下文会对具体搭建部署流程做个记录，因为官方支持 Railway 一键部署方式，整个搭建流程很顺畅。
+Compared to Vercel, it also supports deploying database instances, allowing you to deploy the database and instance together in a single project, reducing setup and maintenance costs. The following will record the specific setup and deployment process, which is very smooth due to official support for one-click deployment on Railway.
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 Supabase 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。
+Given that Railway has discontinued its Free Plan since August last year, if you still want to use it completely free of charge, you can use Vercel/Netlify/Zeabur to deploy the main project for free, and deploy a free PostgreSQL database instance on Supabase, passing the connection as an environment variable to the Cusdis service. The rest of the process remains largely the same.
 
-## 搭建部署说明
+## Setup and Deployment Instructions
 
-### 使用 Railway 一键部署服务与数据库实例
+### One-Click Deployment of Service and Database Instance Using Railway
 
-首先注册一个 Railway 账号，可以用我的[邀请链接](https://railway.app?referralCode=J0F5LQ)。注册登录完成后，点击右上角 New Project 新建项目。
+First, register for a Railway account. You can use my [invitation link](https://railway.app?referralCode=J0F5LQ). After registration and login, click on New Project in the upper right corner to create a project.
 
 ![railway_dashboard](https://image.pseudoyu.com/images/railway_dashboard.png)
 
-然后输入 Cusdis 进行搜索，点击出现的项目即可开始部署。前几步也可以通过点击 [Cusdis 项目仓库](https://github.com/djyde/cusdis) 中的 `Deploy on Railway` 按钮进行一键部署。
+Then search for Cusdis and click on the appearing project to start deployment. The first few steps can also be done by clicking the `Deploy on Railway` button in the [Cusdis project repository](https://github.com/djyde/cusdis) for one-click deployment.
 
 ![new_cusids_starter](https://image.pseudoyu.com/images/new_cusids_starter.png)
 
-开始部署前，需要手动填入三个环境变量：
+Before starting deployment, you need to manually enter three environment variables:
 
 ![deploy_cusdis_on_railway](https://image.pseudoyu.com/images/deploy_cusdis_on_railway.png)
 
-1. USERNAME: 用来登录的账户
-2. PASSWORD: 用来登录的密码
-3. JWT_SECRET: 一个随机字符串
+1. USERNAME: Account for login
+2. PASSWORD: Password for login
+3. JWT_SECRET: A random string
 
-其他一些环境变量已经预先设置默认值，请不要自行修改。
+Other environment variables have been preset with default values, please do not modify them:
 
 1. NEXTAUTH_URL: `${{ RAILWAY_STATIC_URL }}`
 2. DB_TYPE: `pgsql`
 3. DB_URL: `${{ DATABASE_URL }}`
 4. PORT: `3000`
 
-点击部署后，等待完成即可，会自动部署服务并初始化数据库。
+Click deploy and wait for completion. It will automatically deploy the service and initialize the database.
 
 ![cusdis_deploy_done](https://image.pseudoyu.com/images/cusdis_deploy_done.jpg)
 
-### 配置 Cusdis 脚本至个人博客
+### Configuring Cusdis Script for Personal Blog
 
-部署完成后，点击 cusdis 服务生成的链接，点击访问服务 Dashboard。
+After deployment, click on the link generated by the cusdis service to access the service Dashboard.
 
 ![cusdis_login](https://image.pseudoyu.com/images/cusdis_login.png)
 
-此处输入部署前配置的用户名与密码，点击登录。登录完成后，点击 Dashboard，进入项目配置页面。
+Enter the username and password configured before deployment and click login. After logging in, click Dashboard to enter the project configuration page.
 
-初次登录会弹窗提示需要配置第一个网站，输入网站名称即可完成添加。后续当我们需要添加网站时，点击侧边栏 New Website，填写网站名称即可完成添加。
+On first login, a pop-up will prompt you to configure the first website. Enter the website name to complete the addition. In the future, when we need to add a website, click New Website in the sidebar and fill in the website name to complete the addition.
 
 ![add_new_website](https://image.pseudoyu.com/images/add_new_website.png)
 
-因为我已经配置了自己的网站，所以界面会有之前的评论记录。
+Since I have already configured my own website, the interface will show previous comment records.
 
 ![cusdis_dashboard](https://image.pseudoyu.com/images/cusdis_dashboard.png)
 
-下面我们点击上方 Embed Code，复制弹窗中的代码。
+Next, click on Embed Code at the top and copy the code in the pop-up window.
 
 ![cusdis_embed_code](https://image.pseudoyu.com/images/cusdis_embed_code.jpg)
 
-这部份代码需要根据你所用的博客网站类型不同进行部分修改，具体可参考[官方文档](https://cusdis.com/doc#/) 的 Integration 模块进行配置。
+This part of the code needs to be modified partially according to the type of blog website you use. Refer to the Integration module in the [official documentation](https://cusdis.com/doc#/) for specific configuration.
 
-我所用的是 [Hugo](https://gohugo.io)，配置如下：
+I use [Hugo](https://gohugo.io), and the configuration is as follows:
 
 ```html
 <div id="cusdis_thread"
@@ -107,40 +107,40 @@ Railway 和 Vercel 类似，也是一个 PaaS 平台，能够支持多种语言�
 <script async defer src="xxx"></script>
 ```
 
-其中的 `data-host`，`data-app-id` 等都需要以刚复制出的 Embed Code 内容为准。其中 `<script defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>` 主要实现了汉化，不同语言支持详见[文档 i18n 模块](https://cusdis.com/doc#/advanced/i18n)。
+The `data-host`, `data-app-id`, etc., need to be based on the content of the Embed Code just copied. The `<script defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>` mainly implements Chinese localization. For support of different languages, see the [documentation i18n module](https://cusdis.com/doc#/advanced/i18n).
 
-修改后，将其添加到博客的相应位置（一般在最下方），配置部署后，即可看到评论框，呈现效果如下：
+After modification, add it to the appropriate position of your blog (usually at the bottom). After configuration and deployment, you can see the comment box. The presentation effect is as follows:
 
 ![cusdis_display](https://image.pseudoyu.com/images/cusdis_display.png)
 
-### 配置自定义域名
+### Configuring Custom Domain
 
-Railway 部署自动生成的域名比较长，且有一些字符，不方便记忆。我们可以在 Railway 中为项目配置自定义域名。
+The domain automatically generated by Railway deployment is quite long and contains some characters, making it difficult to remember. We can configure a custom domain for the project in Railway.
 
 ![railway_custom_domain](https://image.pseudoyu.com/images/railway_custom_domain.jpg)
 
-填入想要配置的域名/二级域名后，根据官方提示添加 DNS 解析。
+After entering the desired domain/subdomain, add DNS resolution according to the official instructions.
 
 ![railway_domain_dns](https://image.pseudoyu.com/images/railway_domain_dns.jpg)
 
-例如，我使用的是 [Cloudflare](https://www.cloudflare.com) 托管的域名，需要先添加一下域名 CNAME 解析。
+For example, I use a domain hosted by [Cloudflare](https://www.cloudflare.com), so I need to add a CNAME DNS record for the domain first.
 
 ![cloudflare_domain_dns](https://image.pseudoyu.com/images/cloudflare_domain_dns.jpg)
 
-至此，我们的部署已经完成，可以通过域名访问管理后台，进行评论审核管理等。
+At this point, our deployment is complete, and we can access the management backend through the domain to perform comment review and management.
 
-### 更新项目
+### Updating the Project
 
-如前文所述，Cusdis 还是一个正在开发成长的项目，我们想第一时间更新作者发布的新功能。Railway 提供了十分便捷的上游分支管理功能，可以设置项目的父项目，点击即可拉取最新更新，很方便。
+As mentioned earlier, Cusdis is still a developing project, and we want to update the new features released by the author as soon as possible. Railway provides a very convenient upstream branch management function, allowing you to set the parent project for the project and click to pull the latest updates, which is very convenient.
 
 ![railway_update_project](https://image.pseudoyu.com/images/railway_update_project.png)
 
-## 总结
+## Conclusion
 
-以上就是我们为网站添加 Cusdis 评论系统的全流程，配置完成后无需后续维护，可以便捷地通过看板来进行网站管理与评论审核，且数据存储在 Postgre SQL 数据库实例中，方便导出备份与迁移。这是我的博客搭建部署系列教程之一，请持续关注，希望能对大家有所参考。
+The above is the complete process of adding the Cusdis comment system to our website. After configuration, no subsequent maintenance is required. You can conveniently manage your website and review comments through the dashboard. The data is stored in a PostgreSQL database instance, making it easy to export, backup, and migrate. This is one of my blog setup and deployment series tutorials. Please stay tuned, and I hope it can be of reference to everyone.
 
-## 参考资料
+## References
 
-> 1. [Cusdis 项目官网](https://cusdis.com)
-> 2. [Railway 官方网站](https://railway.app)
-> 3. [搭建 umami 收集个人网站统计数据](https://reorx.com/blog/deploy-umami-for-personal-website/)
+> 1. [Cusdis Project Official Website](https://cusdis.com)
+> 2. [Railway Official Website](https://railway.app)
+> 3. [Deploy umami to collect personal website statistics](https://reorx.com/blog/deploy-umami-for-personal-website/)

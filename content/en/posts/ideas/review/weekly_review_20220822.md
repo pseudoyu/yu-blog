@@ -1,5 +1,5 @@
 ---
-title: "周报 #08 - 职业杂谈、404 Not Found 与猫"
+title: "Weekly Review #08 - Career Musings, 404 Not Found, and Cats"
 date: 2022-08-22T10:22:14+08:00
 draft: false
 tags: ["review", "life", "reading", "romance", "love", "emotion", "cat", "career"]
@@ -8,108 +8,108 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-08-16` 到 `2022-08-21` 这周生活的记录与思考。这周工作上依然没那么紧，周中也有了更多时间跟同事交流和聚餐，回家后的时间并不多，所以整体也算休闲。感觉七八月就像是之前放暑假一样，心态上也没有什么负罪感。不过还是读了一些书，并且把阅读时间、频率和方式都更规律化了一点。
+This is a record of and reflection on my life from August 16 to August 21, 2022. Work remained relatively relaxed this week, allowing for more time to converse and dine with colleagues midweek. With limited time at home, the overall pace was leisurely. The atmosphere of July and August felt reminiscent of summer vacations past, unburdened by any sense of guilt. Nevertheless, I managed to read some books and establish a more regular reading routine in terms of time, frequency, and approach.
 
-周中在感情上（可能也有些难再冠之以感情，记忆吧）发生了一些令人低落的事，经过了几天的调整略缓过来一些。对自己的状态有些担心，可能也有在认真地考虑是不是要（再）养一只猫。
+Midweek, I experienced some disheartening events in my emotional life (perhaps it can no longer be called a relationship, but rather memories). After a few days of adjustment, I've recovered somewhat. I'm concerned about my state of mind and have been seriously contemplating whether I should (again) adopt a cat.
 
-## 职业杂谈
+## Career Musings
 
-上周听了这期『[65. 内核恐慌 × 枫言枫语：如果不做程序员我们会做什么？](https://pan.icu/65)』，还挺有感触的。和各位嘉宾不同，其实自己走上程序员这条路才算是阴差阳错，之前并不算长的人生里也经历过数次转折，就像一条条不同的世界线，也常常会想另一个平行世界的自己是过得更开心还是同样迷茫。
+Last week, I listened to the episode "[65. Kernel Panic × Fengyanfengyu: What would we do if we weren't programmers?](https://pan.icu/65)" and found it quite thought-provoking. Unlike the guests, my journey into programming was more of a serendipitous occurrence. In my relatively short life thus far, I've experienced several turning points, like different world lines, and I often wonder if another version of myself in a parallel universe is happier or equally perplexed.
 
-其实自己一直也算不上什么大理想，自小就没有成为“xx 学家”的梦，更真实的倒是有过一段时间想做老师，但在与一个并不友善的小学班主任共度几年之后早已失去了大半兴致，不是说老师这个职业不好，只是害怕自己成为这样的大人。
+In truth, I've never harbored grand ambitions. As a child, I never dreamed of becoming "X scientist." More realistically, I once considered becoming a teacher, but after spending several years with an unkind elementary school homeroom teacher, I lost much of my enthusiasm. It's not that I think teaching is a poor profession; I simply feared becoming that kind of adult.
 
-在高中时随着读书写作变多了，也萌生过成为独立作家或者记者的梦，或许有带着稚气的一些正义感和英雄主义，但总的来说当时没有多宏大或是高尚的想法，如想要“振兴中华文坛”或是“揭露社会丑恶”，而只是单纯地觉得，能把读书和写作兼为自己的爱好和职业该是一件多幸福的事呀。
+In high school, as I read and wrote more, I entertained dreams of becoming an independent writer or journalist. Perhaps there was a touch of naive righteousness and heroism, but overall, I had no grandiose or noble ideas like "revitalizing Chinese literature" or "exposing social ills." I simply thought how wonderful it would be to combine my hobby of reading and writing with my profession.
 
-高考后参加的一个国际支教团中也见到了真正的国际记者，填充了自己对于未来职业的想象。只是随着年龄见长，才慢慢觉得对于成为作家而已自己少了一些想象力，而作为记者似乎又缺了一些勇气。这大概也是成长的代价吧，已经不再能大声说出自己的所谓“理想”了，也不得不承认并面对自己力有不逮之处。
+After the college entrance exam, I participated in an international volunteer teaching program where I met real international journalists, which further shaped my imagination of future careers. However, as I grew older, I gradually realized that I lacked the imagination to become a writer and the courage to be a journalist. This is perhaps the price of growing up - no longer being able to loudly proclaim one's so-called "ideals" and having to acknowledge and face one's limitations.
 
-调剂到了英语专业算是万幸，或多或少在我迷茫未来的时候没有觉得自己是在虚度时光。大一大二时并没有思考那么多未来的事，只是在闲暇之时不断学 ps、pr 等各种软件，活跃在各个社团组织里，做文科学院里所谓的“技术宅”。
+Being assigned to the English major was fortunate in a way, as it didn't make me feel like I was wasting time during my period of uncertainty about the future. In my first two years of university, I didn't think much about the future. Instead, I spent my free time learning various software like Photoshop and Premiere, actively participating in various student organizations, and being the "tech geek" in the liberal arts college.
 
-大多软件的使用逻辑并不复杂，“我亦无他, 唯手熟尔”。慢慢地萌生了一个想法，比起“使用”，是不是“创造”可能更有趣一些？于是从 Python 开始学代码，走了很多弯路，也经历过学了几个月依然只会课后习题，做不出什么完整项目的阶段，慢慢摸索至今才勉强摸到了一些门槛。
+The logic behind most software isn't complex; it's a matter of practice makes perfect. Gradually, an idea formed: rather than just "using" software, wouldn't "creating" it be more interesting? So I started learning to code with Python. I took many detours, experiencing months of only being able to do homework exercises without creating complete projects. It's only now, after much exploration, that I've barely scratched the surface.
 
-那时也并没有把其作为自己的职业目标，可能仅仅觉得自己在做一件挺有趣也很酷的事。到了大三时候一时兴起开始学摄影，买了一台 Sony A7M3 微单（陪伴我至今），一边实习出差一边记录一些风景人文。
+At that time, I didn't consider it as a career goal; I simply thought I was doing something interesting and cool. In my junior year, on a whim, I started learning photography. I bought a Sony A7M3 mirrorless camera (which I still use today) and began documenting landscapes and human interest stories while on business trips during my internship.
 
-当时教我摄影的师父是一位深度记者兼纪录片导演，其实并不会教我构图原理或是参数怎么调这样的基础，而是潜移默化地向我传达即使是一张简单的照片，在拍摄的时候也一定要在心里构思一个主题，就像是含蓄地讲一个故事一样，所有构图、色调或是效果都需要为这个故事服务，这一点持续影响着我。
+The mentor who taught me photography was a deep journalist and documentary director. He didn't teach me basic composition principles or how to adjust parameters. Instead, he subtly conveyed that even for a simple photograph, one must conceive a theme in mind when shooting, like telling a subtle story. All composition, tone, or effects should serve this story. This perspective continues to influence me.
 
-实习结束后回到学校开办了自己的视频工作室，承接一些宣传视频与在线课程的录制剪辑，从打光、布景、绿幕等开始，以一个最小工作流体验了这个行业的各个方面，其实也萌生过是否要将其作为职业的念头，只是最终还是觉得乐趣不足，遂放弃了。
+After my internship, I returned to school and opened my own video studio, taking on promotional video and online course production and editing projects. Starting from lighting, scene setting, green screen, and so on, I experienced various aspects of the industry with a minimal workflow. I did consider making it my profession, but ultimately felt it lacked sufficient interest, so I abandoned the idea.
 
-临近毕业时一直有考虑从事产品经理一职，也了解和体验了一些相关工作，后来依然觉得自己的兴趣是在“创造”与自己真正完成一件事的满足感，而不是在设计与勾画蓝图（同时依然觉得自己缺乏足够的创意），依然没走下去。
+As graduation approached, I consistently considered becoming a product manager. I learned about and experienced some related work, but still felt my interest lay in "creating" and the satisfaction of truly completing something, rather than designing and outlining blueprints (while still feeling I lacked sufficient creativity). So I didn't pursue that path either.
 
-最后跨专业出去留学，回来成为了一名还算合格的程序员。这就是我目前的职业之路，尽管有很多轻描淡写的部分，但各个阶段也真切地体会到了迷茫、挣扎、沮丧等各种感受，能走到现在有幸运有付出的回馈，也让我倍感珍惜。并不能确信自己以后会一直会做程序员，但应该或多或少都会与 Coding 有关，毕竟这是我迄今做过的最有意思的事，还有着无尽的探索空间。故事还在继续，谁又不想体验更多元有趣的生活模式呢？
+Finally, I went abroad to study in a different field and returned to become a fairly competent programmer. This is my current career path. Although there are many aspects I've glossed over, I've genuinely experienced confusion, struggle, dejection, and various other emotions at each stage. Being able to reach this point involves both luck and the rewards of effort, which I deeply cherish. I can't be certain I'll always be a programmer, but it will likely always be related to coding in some way, as it's the most interesting thing I've done so far, with endless room for exploration. The story continues, and who doesn't want to experience a more diverse and interesting lifestyle?
 
 ## 404 Not Found
 
 ![dino](https://image.pseudoyu.com/images/dino.gif)
 
-这可能是一个有些不知所云的标题。
+This might be a somewhat cryptic title.
 
-在网页中，如果内容已经不存在了，一般会显示一个“404 Not Found”页面以起到告知作用。我一直觉得这还挺酷的，之前有把自己随身带的用来装充电宝的包选了 404 的图标样式，也有一段时间把自己的介绍页面加上了 Google 的小恐龙动画（Google Chrome 浏览器在访问网站出问题时会有一个离线的跳跃类小游戏，让访问者等待之时有一些乐趣）。
+On websites, if content no longer exists, a "404 Not Found" page is usually displayed to notify visitors. I've always found this quite cool. I once chose a 404 icon style for the bag I carry my power bank in, and for a while, I added Google's little dinosaur animation to my introduction page (Google Chrome browser has an offline jumping game when there's a problem accessing a website, giving visitors some entertainment while they wait).
 
-大概一直觉得自己在某种意义上是一个容错率很高的人，能够坦然甚至玩笑的方式看待一些小错误插曲，有常常自豪这样的心态。直到，我的感情 404 Not Found 了。
+I've always considered myself a person with a high error tolerance, able to face small mistakes and mishaps calmly or even jokingly, often proud of this attitude. Until my relationship became 404 Not Found.
 
 ![misty_blog_404_not_found](https://image.pseudoyu.com/images/misty_blog_404_not_found.png)
 
-其实自己也并不是没有发现一些被清理或是解除关联的痕迹，也在一天天逝去的时间里在逐渐接受了一些现实，只是当 404 的提示出现在眼前时才发现刺痛感比自己想象得强得多，也撕开了我那么多天伪装的坚强。
+In truth, I wasn't blind to the signs of being cleared out or disassociated, and I was gradually accepting some realities as time passed. But when the 404 prompt appeared before my eyes, I discovered the pain was much stronger than I had imagined, tearing open the facade of strength I had been maintaining for so many days.
 
-我一向来看待感情比起其他事物要乐观得多的，至此也不得不承认感情自带的悲剧属性，曾经的甜成为了如今束缚自己的布满荆棘的牢笼，不去触碰就不会受伤，也失去了迈出去的勇气。
+I've always been more optimistic about relationships compared to other aspects of life. Now I have to acknowledge the inherent tragic nature of relationships. The former sweetness has become a thorny cage constraining me now. Not touching it means not getting hurt, but it also means losing the courage to step forward.
 
-## 猫
+## Cats
 
 ![my_cat_xiao_shu](https://image.pseudoyu.com/images/my_cat_xiao_shu.jpg)
 
-实话说和她一起之前自己并没有想过养猫，大概是觉得连自己都照顾不好的人又怎么有资格对另一个生灵负责，但当真正家里多了一个成员时也才渐渐发现自己享受于这种依赖与被依赖，似乎生活也多了很多目标。
+To be honest, before being with her, I had never thought about keeping a cat. I probably felt that someone who couldn't even take care of themselves had no right to be responsible for another living being. But when we actually had a new family member, I gradually discovered that I enjoyed this dependence and being depended upon, and life seemed to have many more goals.
 
-她离开后，小薯一并被带走了，虽然常常也跟朋友无奈地玩笑说自己“人猫两空”了，但也心知自己之前的照顾确实不如她，这样的选择也无可厚非，只是每次忆及从前又多了一倍的难过。
+After she left, Xiao Shu was taken away too. Although I often jokingly tell friends that I've lost "both person and cat," I know that my care wasn't as good as hers before, so this choice is understandable. It's just that every time I recall the past, I feel twice as sad.
 
-昨晚看了『[喵星人的奇思妙想](http://movie.douban.com/subject/36033619/)』纪录片后也更多了解了之前忽略的很多猫的想法和相处细节，也隐隐萌生出是不是要自己再养一只猫的念头。只是这就像是对小薯的一种背叛，自己也依然没能做好这个心理准备去再次去好好对待一个新的成员，而在自己需要的时候迎接一个新的成员于人于己都很难说是一个负责任的选择。
+After watching the documentary "[The Secret World of Cats](http://movie.douban.com/subject/36033619/)" last night, I learned more about many thoughts and interaction details of cats that I had previously overlooked. It vaguely sparked the idea of whether I should raise a cat again. However, this feels like a betrayal to Xiao Shu, and I'm still not mentally prepared to properly care for a new member. Welcoming a new member when I'm in need is hardly a responsible choice for either the cat or myself.
 
-也许未来某一天吧。
+Perhaps someday in the future.
 
-## 其他
+## Miscellaneous
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my inputs, outputs, and other things I find interesting.
 
-### 学习
+### Learning
 
-这周也还是陆续在按计划看一些学习课程资料，也终于把智能合约这块的课程追完了（32 小时，好长！），不过后面因为已经熟悉了合约，而且很多重复性的代码，就比较少之间上手跟着写了，打算这周看项目源码作一些分析，所以这两周的代码量也少得可怜，都快成为一个 Markdown 工程师了。
+This week, I continued to follow the plan and watch some learning course materials. I finally caught up with the smart contract courses (32 hours, so long!). However, because I'm already familiar with contracts, and there's a lot of repetitive code, I rarely followed along and wrote directly. I plan to analyze the project source code this week, so the amount of code in these two weeks has been pitifully small. I'm almost becoming a Markdown engineer.
 
-### 博客相关
+### Blog Related
 
-之前写的那篇 Stablecoin 相关的还是有一些要修改的，但后半期因为自己状态的影响还没修改，这几天需要调整完善一下了，剩下这周继续完成以下几篇博文（拖了好久了还没动笔）：
+The previous article I wrote about Stablecoin still needs some modifications, but I haven't made the changes yet due to my state in the latter half of the period. I need to adjust and improve it in the next few days. This week, I'll continue to complete the following blog posts (which I've been procrastinating on for a long time):
 
-1. Cosmos 原理与架构
-2. Docker 基础与实践
-3. k8s 基础与实践
+1. Cosmos Principles and Architecture
+2. Docker Basics and Practice
+3. k8s Basics and Practice
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-这周把之前遥远的 Kindle Oasis 2 翻出来了，清理了一下帐号和书籍分类，只留了”To Read“、“Reading”、“Read”三个分类，基本与豆瓣同步，这样每天通勤能看 50 分钟左右，有时候在家也能看一点，也比手机看电子书更有沉浸感和护眼一些。
+This week, I dug out my long-forgotten Kindle Oasis 2, cleaned up the account and book categories, leaving only "To Read," "Reading," and "Read" categories, basically synchronized with Douban. This way, I can read for about 50 minutes during my commute every day, and sometimes a bit at home. It's more immersive and easier on the eyes than reading e-books on my phone.
 
-- **蒂姆库克传**，看完了，书是一般，感觉更多就是信息的堆砌，但是确实让我更多了解到了乔布斯之后的苹果与它践行的价值观
-- **工作、消费主义与新穷人**，一本很有意思的书，读了两个章节了，对自己最近工作状态的一些思考还挺有启发的
-- **九宫格写作法**，[Randy 推荐的一本小书](https://lutaonan.com/blog/read-grid-writing-method/)，这周读一下
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, finished reading. The book is ordinary, feeling more like a pile of information, but it did help me understand more about post-Jobs Apple and the values it practices.
+- **Work, Consumerism and the New Poor**, an interesting book. I've read two chapters, and it's quite inspiring for my recent thoughts on work status.
+- **The Grid Writing Method**, [a small book recommended by Randy](https://lutaonan.com/blog/read-grid-writing-method/), I'll read it this week.
 
-#### 剧集
+#### TV Series
 
-- **非常律师禹英禑**，原先只是看了一个剪辑觉得女主很可爱所以追的剧，竟然完整等周更看完了，自闭症律师是一个挺新的切入点，难能可贵的也并没有仅仅是渲染女主的幸运，也包含到了其他自闭症相关的案子，主线剧情不多但男女主的感情线挺清新自然
+- **Extraordinary Attorney Woo**, I initially started watching this drama after seeing a clip and finding the female lead cute, but surprisingly, I've been following it weekly to the end. An autistic lawyer is quite a new perspective, and commendably, it doesn't just focus on the female lead's fortune but also includes cases related to other autistic individuals. The main plot isn't extensive, but the relationship between the male and female leads is refreshingly natural.
 
-#### 电影
+#### Movies
 
-- **稍微想起一点**，虽然自己还没有到可以很平静地看爱情片的程度，但也算沉浸其中了。能看到一些类似花束中描述的场景与模样，但是少了几分刻意渲染的缘分和矫情，多了一些融在言语举止里的过去与现在的牵绊。另外，深夜的日式街景真的完全满足了我对美好缘分的一切幻想，想去
-- **喵星人的奇思妙想**，有点了解到了猫的一些想法，也能感受到拥有过又抽离出生活后的痛苦，有点考虑等略调整之后再养猫了（总有一些莫名的背叛感）
+- **Small Remembrance**, Although I'm not yet at the stage where I can calmly watch romance movies, I did immerse myself in this one. I could see some scenes and appearances similar to those described in "A Bouquet," but with less deliberate emphasis on fate and sentimentality, and more of the past and present entanglements fused into words and gestures. Additionally, the late-night Japanese street scenes completely fulfilled all my fantasies about beautiful fate. I want to go there.
+- **The Secret World of Cats**, I gained some understanding of cats' thoughts and could feel the pain of having owned a cat and then being separated from it. I'm considering adopting a cat again after I adjust a bit (there's always some inexplicable feeling of betrayal).
 
-#### 动漫
+#### Anime
 
-- **英雄联盟：双城之战**，刚出的时候就想看，结果到现在才补，算是近几年看过的动画里在画面、剧情、节奏和配乐的巅峰了，虽然我不玩英雄联盟，可能少了些对人物剧情的触动，但也能看到一个很好的故事和与之匹配的宏大的世界观，期待下一季了
-- **夏日重现**，越来越精彩了
+- **Arcane: League of Legends**, I wanted to watch it when it first came out but only caught up now. It's the pinnacle of animation I've seen in recent years in terms of visuals, plot, pacing, and soundtrack. Although I don't play League of Legends and might miss some emotional connections to the characters and storylines, I could still see a great story and a matching grand worldview. Looking forward to the next season.
+- **Summer Time Rendering**, It's getting more and more exciting.
 
-#### 游戏
+#### Games
 
-突然发现豆瓣还有记录游戏的功能，修改了一下自己 n8n 的自动化脚本，添加了游戏记录同步的功能，之后也想在自己的日常生活里添加一些能够放松的部分。
+I suddenly discovered that Douban also has a feature to record games. I modified my n8n automation script and added the function of synchronizing game records. In the future, I also want to add some relaxing elements to my daily life.
 
-- **极乐迪斯科**，算是前两年很有名的文学游戏了，制作人是几个作家。之前在 Steam 上玩了一点但是记录没留存了，最近买了 Switch 卡带版好好玩一下，顺便作为收藏，大概玩了两三个小时了，被画风和背后的一些思考吸引了，慢慢玩，也想写点东西
+- **Disco Elysium**, It's a famous literary game from the past two years, created by several writers. I played a bit on Steam before, but the record wasn't saved. Recently, I bought the Switch cartridge version to play properly and also as a collection. I've played for about two or three hours and am attracted by the art style and the thoughts behind it. I'll play slowly and might write something about it.

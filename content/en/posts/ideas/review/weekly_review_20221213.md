@@ -1,5 +1,5 @@
 ---
-title: "周报 #22 - 内卷与焦虑感"
+title: "Weekly Review #22 - Involution and Anxiety"
 date: 2022-12-13T22:24:02+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "balance", "home", "front-end"]
@@ -8,62 +8,62 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-12-07` 到 `2022-12-13` 这周生活的记录与思考。
+This is a record and reflection of my life from `2022-12-07` to `2022-12-13`.
 
-这大概是累计没有踏出家门的第 20 天了，基于当前多个项目并行的工作强度和阴性快要清零的现状，还并没有打算回公司，甚至想在家窝到年前都不出门了，自宅生活也很惬意。
+It's been about 20 cumulative days since I last stepped out of my home. Given the current workload of multiple concurrent projects and the almost-cleared negative status, I haven't planned to return to the office yet. I'm even considering staying at home until before the new year. The self-quarantine life is quite pleasant.
 
-忙碌的各项工作和 Side Project 任务模糊了周末与工作日的界限，但多年残留的习惯依然让我有一种“周末是自己的时间，用来睡觉岂不是太浪费了”的错觉，再加上没有早会的时间压力，也越睡越晚。不过做了不少有意思的事，探索了一些一直想学的东西并且应用到了项目里，还做了一些 Demo 玩具，一直处于还挺开心的状态。
+The busy work and side projects have blurred the line between weekends and workdays. However, years of ingrained habits still give me the illusion that "weekends are my own time, isn't it a waste to just sleep?" Plus, without the pressure of morning meetings, I've been staying up later. Nevertheless, I've done quite a few interesting things, explored some topics I've always wanted to learn and applied them to projects, and even made some demo toys. I've been in a rather happy state throughout.
 
-其他时间里，和远在澳洲的挚友一起连麦看了荷兰的比赛（虽然输了），并得知会收到一个很欣喜的礼物（虽然会寄到香港，暂时拿不到）；一位朋友受到我的影响也开始写周报，互相催更（虽然我又拖延了几天）；猫猫能听懂自己名字了，一句“捏捏过来”就能从家里的各个角落召唤出她，像宝可梦一样；以及很多其他有意思的事。
+In other moments, I watched the Netherlands match with a close friend in Australia via voice call (though they lost), and learned that I'll receive a delightful gift (although it'll be delivered to Hong Kong, and I can't get it for now). A friend of mine, influenced by me, has also started writing weekly reviews, and we're urging each other to update (though I've procrastinated for a few days again). My cat now understands her name, and a simple "Nie Nie, come here" can summon her from any corner of the house, just like a Pokémon. And many other interesting things.
 
-## 内卷与焦虑感
+## Involution and Anxiety
 
-在 [polebug](https://space.bilibili.com/58078997) 最新的一期学习记录视频看到有在谈论卷和焦虑感的话题，其实就个人偏好来说，我不是很喜欢“卷”这个词，自己说自己卷像是带着一种居高临下与自我满足，听到别人如此评价又似乎有一种小时候听到老师说“这孩子不聪明但是一直很用功，值得鼓励”的莫名意味。
+In the latest learning record video by [polebug](https://space.bilibili.com/58078997), I saw a discussion about involution and anxiety. Personally, I'm not very fond of the word "involution". Calling oneself "involuted" seems to carry a sense of superiority and self-satisfaction. Hearing others evaluate it this way reminds me of the peculiar feeling I had as a child when teachers would say, "This child isn't smart, but he's always hardworking and deserves encouragement."
 
-“卷”似乎与现在到处弥漫的焦虑感相生相伴，来自工作项目的压力、对自己方向的迷茫或是不满足于提升速度，以及所谓的 Peer Pressure，我们总是倾向于将自己置于当前所处阶段的消极面，总是去受到一些论调的影响去否认自己的一面，然后通过各种形式的自我满足式付出去挤压自己的空闲时间，常常也身心俱疲。
+"Involution" seems to go hand in hand with the pervasive sense of anxiety nowadays, stemming from work project pressures, confusion about one's direction or dissatisfaction with the pace of improvement, and the so-called peer pressure. We tend to place ourselves on the negative side of our current stage, often influenced by certain arguments to deny ourselves, and then squeeze our free time through various forms of self-satisfying efforts, often ending up physically and mentally exhausted.
 
-我更喜欢的是国外可能更常提及的“[TIL](https://knowyourmeme.com/memes/today-i-learned-til)”的描述，Today I Learned，在完成基础或是重复性的本职工作之外，自己又学到了什么。可以是看了一些闲书或是工具书，可以是学了一项新的技术或是将之前的经验总结成文，可以是着手做一个新项目或是对原有项目进行了一些优化，只要是好奇心与求知欲所及，都可以称为一个个“TIL”。
+I prefer the description of "[TIL](https://knowyourmeme.com/memes/today-i-learned-til)" that's more commonly mentioned abroad. Today I Learned - beyond completing basic or repetitive work duties, what have you learned? It could be reading some leisure books or reference books, learning a new technology or summarizing previous experiences into writing, starting a new project or optimizing existing ones. As long as it's within the realm of curiosity and thirst for knowledge, it can be called a "TIL".
 
-学习和探索本身是一件有趣的事，甚至并不一定是一件与结果/收益直接相关的事，虽然略有些俗套，但我并不丰富的一些阅历和经验让我总是信奉着一种“无用之用”的心态，常常是过去出于兴趣、好奇或是其他纯粹目的所做的一些事在未来的一些阶段带来一些惊喜，要做的常常就是遵守本心和静静等候。
+Learning and exploration itself is an interesting thing, and it doesn't necessarily have to be directly related to results or benefits. Although it might sound a bit cliché, my limited experience has always led me to believe in a kind of "uselessness is useful" mindset. Often, things done out of interest, curiosity, or other pure purposes in the past bring surprises at some stage in the future. What we need to do is often just follow our hearts and wait quietly.
 
-## 与『捏捏』的日常
+## Daily Life with "Nie Nie"
 
-这周依然是一起宅在家的生活，能渐渐感觉到一点点建构起来的信任与情感依赖（同时也放肆了很多），会在我忙在各个会议里时静静躺在键盘前伴着嘈杂的人声与键盘敲击声熟睡，会在我许久没有管她时绕着我的脚撒娇要抱抱，会在我看世界杯时在我面前一起关注着赛场的动向，会在睡前跑酷到我的被子里一起入眠，也会在我赖床不起时直接一脚踩在我脸上“叫醒”我换粮。
+This week has been another stay-at-home life together. I can gradually feel the trust and emotional dependency being built (and she's also become much more unrestrained). She would quietly sleep in front of the keyboard amid the noisy voices and keyboard clicks while I'm busy in various meetings. When I haven't paid attention to her for a long time, she would circle around my feet, craving for a hug. She would watch the World Cup with me, focusing on the movements on the field. She would parkour into my blanket before sleep, and even step on my face to "wake" me up when I'm reluctant to get out of bed to change her food.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_18.jpg" caption="冷知识，猫毛掉进路由器会造成网络拥堵（烂梗）">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_18.jpg" caption="Fun fact: cat hair falling into the router can cause network congestion (bad joke)">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_17.jpg" caption="你不陪我玩，我拿逗猫棒自己逗自己">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_17.jpg" caption="If you won't play with me, I'll use the cat teaser to tease myself">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_19.jpg" caption="荷兰你行不行啊，不然我来？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_19.jpg" caption="Netherlands, can you do it or not? Should I step in?">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_20.jpg" caption="别工作了，给我当枕头">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_20.jpg" caption="Stop working, be my pillow">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg" caption="别工作了，给我当脚垫">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg" caption="Stop working, be my footrest">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_21.jpg" caption="别工作了，要抱抱">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_21.jpg" caption="Stop working, I need a hug">}}
 
-## 其他
+## Other
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record my input and output, as well as other things I find interesting.
 
-### 技术
+### Technology
 
-因为 Side Project 需要，这周跟着 Udemy 上之前买的一些课好好学了下 React，感觉前端现在还是蛮有意思的。大学时候赚外快写过一些网站，还记得当时都还是自己糊的 HTML、CSS、JavaScript，好像用了 JQuery 来获取元素什么的，还记得当时用 ThinkPHP，然后有一个什么 MVC 框架，包括后来做的一个微信小程序也是，现在感觉都有些时代的眼泪了。
+Due to the needs of a side project, I properly studied React this week, following some courses I had previously bought on Udemy. I feel that front-end development is quite interesting now. When I was in college, I earned some extra money by writing websites. I remember at that time, I was cobbling together HTML, CSS, and JavaScript on my own. I think I used jQuery to get elements or something. I remember using ThinkPHP then, and there was some MVC framework. Even the WeChat mini-program I made later feels like a relic of the past now.
 
-因为很久没写过前端，也没什么技术包袱，用了 JavaScript + React + TailWind CSS + daisyUI 糊了一个查找 GitHub 用户和 Repo 的 Demo 练习项目“[GitHub Finder](https://yu-github-finder.vercel.app)”，感觉现在写前端多了好多工具链和库，整个项目就没写几行 CSS，移动端响应做得也不错，有点舒服。
+Because I haven't written front-end for a long time and don't have much technological baggage, I used JavaScript + React + TailWind CSS + daisyUI to cobble together a demo practice project "GitHub Finder" for finding GitHub users and repos. I feel that there are now many more tool chains and libraries for writing front-end. I barely wrote any CSS for the entire project, and the mobile responsiveness is pretty good too. It's quite comfortable.
 
-不过后面项目需要用的是 TypeScript + Next.js + TailWind CSS，所以这个 Demo 也就是打打基础了。
+However, the project I need to use later requires TypeScript + Next.js + TailWind CSS, so this demo is just for building a foundation.
 
-有意思的是这两周 JavaScript 写多了，那天给我一个工作里的小 leader 投屏改 Go 代码的时候取一个数组的长度我下意识就 `.length` 了，报错后好久才反应过来，感受到了来自屏幕对面的困惑，几天不见 Go 都不会了哈哈。
+Interestingly, after writing a lot of JavaScript these two weeks, the other day when I was screen sharing with a small leader in my work to modify Go code, I instinctively used `.length` to get the length of an array. It took me a while to realize after it reported an error. I could feel the confusion from the other side of the screen, as if I had forgotten how to write Go after just a few days away from it, haha.
 
-感觉离自己能糊出一些好玩的小工具越来越近了，开心。
+I feel like I'm getting closer and closer to being able to cobble together some interesting little tools. I'm happy about that.
 
-### 输入
+### Input
 
-#### 动漫
+#### Anime
 
-- **三体**，也还算期待了一阵子的三体动画版，放出了两集，我本身原著应该是看了大半，但算不上什么粉也没太多信仰，整体感觉的话还是挺不错的，画面和节奏都还行。
+- **The Three-Body Problem**, I had been looking forward to the animated version of The Three-Body Problem for a while. Two episodes have been released. I personally have read about half of the original novel, but I'm not a big fan and don't have much "faith" in it. Overall, I think it's pretty good. The visuals and pacing are decent.

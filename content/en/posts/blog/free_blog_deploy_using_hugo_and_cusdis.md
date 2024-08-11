@@ -1,5 +1,5 @@
 ---
-title: "免费的个人博客系统搭建及部署解决方案（Hugo + Cloudflare Pages + Cusdis）"
+title: "Free Personal Blog System Setup and Deployment Solution (Hugo + Cloudflare Pages + Cusdis)"
 date: 2022-03-24T01:19:28+08:00
 draft: false
 tags: ["hugo", "github", "github action", "cusdis", "vercel", "cloudflare", "serverless", "self-host", "blog"]
@@ -8,53 +8,53 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-[Pseudoyu](https://www.pseudoyu.com) 是我的个人博客网站，最早使用 [WordPress](https://wordpress.com/) 搭建在自己的 Vultr vps 上，因为网络访问比较慢所以迁移到了腾讯云服务器上并且进行备案，虽然访问速度有提升，但是发布博客的流程很繁琐，服务器的维护长期也是一笔不小的开支。
+[Pseudoyu](https://www.pseudoyu.com) is my personal blog website. Initially built using [WordPress](https://wordpress.com/) on my Vultr VPS, it was later migrated to a Tencent Cloud server and registered for improved access speed. However, the publishing process remained cumbersome, and server maintenance incurred significant long-term expenses.
 
-因此，一直在探索能够既能保障国内外访问体验，又能够托管在一些平台上，实现部署和发布流程的最优化体验。后来也一直不断在改善博客系统搭建和发布流程，迄今为止对自己的全流程解决方案还是比较满意的，虽然部署和搭建上需要进行一些配置，但后续更新维护都很方便，因此，本文将这套免费、开源的个人博客系统搭建及部署解决方案进行全流程记录，希望对大家有所帮助。
+Thus, I continuously explored solutions that could ensure optimal access experience both domestically and internationally while being hosted on platforms that streamline deployment and publishing processes. I've been constantly refining my blog system setup and publishing workflow. To date, I'm quite satisfied with my comprehensive solution. Although initial deployment and setup require some configuration, subsequent updates and maintenance are quite convenient. Therefore, this article will provide a complete record of this free, open-source personal blog system setup and deployment solution, hoping it proves helpful to others.
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-时隔两年，文章中许多方案已经过时（但依然可用），我更新了系列新的文章，阐述了我与 2024 年 6 月的最新博客解决方案，可供大家参考。
+Two years have passed, and many solutions in this article are now outdated (though still usable). I've updated a series of new articles detailing my latest blog solution as of June 2024, which may serve as a reference for you.
 
-- [2024 年了，我的博客有了什么变化](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)
+- [What Changed in My Blog in 2024](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)
 
-## 解决方案
+## Solution
 
-### 博客平台
+### Blog Platform
 
-目前已经有很多比较成熟的博客平台，如前文所提到的 WordPress，虽然功能强大，但对于个人博客站点来说有些太重了，~~也不够酷~~，经过一番调研，最后选择了 [Hugo](https://gohugo.io) 这个静态网站生成器。
+There are already many mature blog platforms available, such as the aforementioned WordPress. While powerful, it's somewhat heavy for personal blog sites and ~~not cool enough~~. After extensive research, I ultimately chose [Hugo](https://gohugo.io), a static website generator.
 
-Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。
+Hugo is a blogging tool implemented in Go. It uses Markdown for article editing, automatically generates static site files, supports rich theme configurations, and allows plugin embeddings like comment systems through JavaScript, offering high customization. Besides Hugo, there are options like Gatsby, Jekyll, Hexo, Ghost, etc. Their implementations and usage are quite similar, so you can choose based on your preferences.
 
 ![yu_blog_homepage_20240629](https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png)
 
-因为 Hugo 开源社区中 [hugo-theme-den](https://github.com/shaform/hugo-theme-den) 完全在我的审美上，所以我选择了 Hugo 并在这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。
+Because the [hugo-theme-den](https://github.com/shaform/hugo-theme-den) in Hugo's open-source community perfectly matched my aesthetic, I chose Hugo and made some personal customizations and configurations based on this theme to meet my needs.
 
-### 博客托管
+### Blog Hosting
 
-静态博客需要托管在一个平台上才能够实现外部访问，可以是自己的 vps 主机，也可以是 [Cloudflare Pages](https://pages.cloudflare.com/)，[GitHub Pages](https://pages.github.com)，或者是 [Vercel](http://vercel.com) 这样的 Serverless 平台，后两者都可以通过 GitHub 仓库进行关联。
+Static blogs need to be hosted on a platform for external access. This could be your own VPS, or serverless platforms like [Cloudflare Pages](https://pages.cloudflare.com/), [GitHub Pages](https://pages.github.com), or [Vercel](http://vercel.com), the latter two of which can be associated with GitHub repositories.
 
-我选择了 GitHub Pages 这种方式，完全免费且和 GitHub 代码仓库无缝对接，能够满足我博客源文件备份和版本管理的需求，还可以通过强大且同样免费的 [GitHub Action](https://github.com/features/actions) 实现各种 CI/CD 的功能，如提交/更新博客源文件后自动构建生成博客静态文件并推送到 GitHub Pages 仓库进行部署，还可以配合一些定时任务实现自我介绍页面更新等功能。
+I chose GitHub Pages. It's completely free and seamlessly integrates with GitHub code repositories, meeting my needs for blog source file backup and version control. It also allows for various CI/CD functionalities through the powerful and equally free [GitHub Actions](https://github.com/features/actions), such as automatically building and generating blog static files and pushing them to the GitHub Pages repository for deployment after submitting/updating blog source files. It can also be combined with scheduled tasks to update self-introduction pages and other features.
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，并提供了市面上主流的网站构建工具，如 Next.js、Astro、Hugo 等，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。
+As my domain is already hosted on Cloudflare, I tried Cloudflare Pages, a static website hosting service launched by Cloudflare. It's completely free (at least I haven't exceeded the free quota yet) and can directly connect to GitHub code repositories. It provides mainstream website building tools like Next.js, Astro, Hugo, etc., enabling automated deployment functions like GitHub Pages and offering better access routes. It's currently a better solution.
 
-### 博客域名
+### Blog Domain
 
-我们可以通过域名解析配置自己的域名，如我的网站就是解析了 [pseudoyu.com](https://www.pseudoyu.com) 这个域名。
+We can configure our own domain through domain name resolution, such as my website which resolves to [pseudoyu.com](https://www.pseudoyu.com).
 
-~~我的域名是在 [NameSilo](https://www.namesilo.com) 购买的，并通过 [Cloudflare](https://www.cloudflare.com) 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。~~
+~~My domain was purchased on [NameSilo](https://www.namesilo.com) and accelerated via CDN on the [Cloudflare](https://www.cloudflare.com) platform, improving access experience and implementing domain redirection and other features. I'll elaborate on blog access optimization separately later.~~
 
-**[2022-05-29 更新]**
+**[2022-05-29 Update]**
 
-我后来为了方便管理，把 NameSilo 域名迁移到了 Cloudflare，大家可以直接在 Cloudflare 上购买，教程包含在《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》中。
+For easier management, I later migrated my NameSilo domain to Cloudflare. You can directly purchase on Cloudflare. The tutorial is included in "[Deploy Your Blog Using Hugo and GitHub Action](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
 
-### 访客分析
+### Visitor Analytics
 
-作为一个持续更新运营的博客平台，我们一定很好奇我们哪篇文章阅读量最高、哪个关键词检索最频繁等，帮助我们专注在更有价值的内容创作与分享上，类似的工具也很多，我选择了 [splitbee](https://splitbee.io) 与 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重，此外，[Cloudflare](https://www.cloudflare.com) 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性没有前两者强。
+As a continuously updated and operated blog platform, we're naturally curious about which articles have the highest readership, which keywords are most frequently searched, etc., helping us focus on creating and sharing more valuable content. There are many similar tools available. I chose [splitbee](https://splitbee.io) and [Google Search Console](https://search.google.com/search-console) to analyze my visitor information and search weight. Additionally, [Cloudflare](https://www.cloudflare.com) can also analyze network traffic, although it's less relevant than the former two due to much unrelated network traffic like crawlers.
 
 ![splitbee_statistics](https://image.pseudoyu.com/images/splitbee_statistics.png)
 
@@ -62,78 +62,78 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 ![cloudflare_statistics](https://image.pseudoyu.com/images/cloudflare_statistics.png)
 
-**[2022-05-21 更新]**
+**[2022-05-21 Update]**
 
-除了上述直接服务的平台外，我还部署了一个可代替 [Google Analytics](https://analytics.google.com) 的开源服务 [umami](https://umami.is)，实现了访客数据的实时监控，教程为：《[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)》。
+In addition to the above direct service platforms, I also deployed an open-source service [umami](https://umami.is) as an alternative to [Google Analytics](https://analytics.google.com), achieving real-time monitoring of visitor data. The tutorial is: "[Build a Free Personal Blog Data Analysis System from Scratch (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)".
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-后来改为了自部署「[goatcounter](https://www.goatcounter.com/)」这一新的数据统计服务。
+Later, I switched to self-hosting "[goatcounter](https://www.goatcounter.com/)", a new data analytics service.
 
-### 评论系统
+### Comment System
 
-一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 [Disqus](https://disqus.com)，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 [Randy](https://lutaonan.com) 的 [Cusdis](https://cusdis.com)，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 [Heroku](https://www.heroku.com) 的免费 [PostgreSQL](https://www.postgresql.org) 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。
+A blog system naturally needs a comment system. While platforms like WordPress have built-in comment plugins, static blogs need to integrate with some comment systems. I initially chose the third-party [Disqus](https://disqus.com), which is simple to use but comes with many advertisements and isn't minimalist enough. Later, I chose [Randy](https://lutaonan.com)'s [Cusdis](https://cusdis.com), a lightweight open-source comment system solution (the name itself seems inspired by the frustration with Disqus). I self-hosted it through Vercel and linked it to [Heroku](https://www.heroku.com)'s free [PostgreSQL](https://www.postgresql.org) database for comment data storage, achieving a free, stable comment system that also supports email notifications and Telegram Bot alerts/quick replies.
 
 ![cusdis_overview](https://image.pseudoyu.com/images/cusdis_overview.png)
 
-**[2022-05-24 更新]**
+**[2022-05-24 Update]**
 
-Cusdis 部署在 Railway 平台教程已更新：《[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)》。
+The tutorial for deploying Cusdis on the Railway platform has been updated: "[Free and Lightweight Blog Comment System Solution (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)".
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-后来改为了自部署「[Remark42](https://remark42.com/)」这一新的评论系统。
+Later, I switched to self-hosting "[Remark42](https://remark42.com/)", a new comment system.
 
-### 图片管理
+### Image Management
 
-日常发布的文章中可能会涉及很多图片，将图片存储在静态博客源项目仓库中的话会使项目过于庞大，并且很难二次使用和管理，因此，我同样选择了 GitHub 作为图床工具，并使用 [PicGo](https://molunerfinn.com/PicGo/) 客户端进行图床管理，在上传前使用 [TinyPNG](https://tinypng.com) 进行压缩，并使用 [jsDelivr](https://www.jsdelivr.com) 服务为 GitHub 图床进行加速，这样就可以将所有图片存储在 GitHub 图床仓库，文章中以外链的方式嵌入图片。
+Articles published daily may involve many images. Storing images in the static blog source project repository would make the project too large and difficult to reuse and manage. Therefore, I also chose GitHub as an image hosting tool and used the [PicGo](https://molunerfinn.com/PicGo/) client for image bed management. Before uploading, I use [TinyPNG](https://tinypng.com) for compression and [jsDelivr](https://www.jsdelivr.com) service to accelerate the GitHub image bed. This way, all images can be stored in the GitHub image bed repository and embedded in articles as external links.
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-后来使用了 Cloudflare R2 + WebP Cloud 代理优化 + PicGo 这一套图床解决方案。
+Later, I used a set of image bed solutions: Cloudflare R2 + WebP Cloud proxy optimization + PicGo.
 
-## 发布流程
+## Publishing Process
 
-通常 GitHub Pages 发布博客需要本地 `hugo` 命令生成静态站点文件目录，`cd` 到 `public` 目录，并使用 `git add`、`git commit`、`git push` 等命令提交到 GitHub Pages 仓库，实现博客的发布，因为每次更新都需要进行重复操作，且博客源 Markdown 文件无法进行很好的备份和版本管理。
+Typically, publishing a blog on GitHub Pages requires generating static site file directories locally with the `hugo` command, `cd` to the `public` directory, and using commands like `git add`, `git commit`, `git push` to submit to the GitHub Pages repository, achieving blog publication. Because each update requires repeating these operations, and blog source Markdown files cannot be well backed up and version controlled.
 
-因此，我建立了一个博客源文件仓库，通过 GitHub Action 实现了一套自动化发布流程，仅需将 Hugo 博客源文件上传至 GitHub 仓库，会自动触发 CI 生成静态站点文件并推送到 GitHub Pages 仓库。
+Therefore, I established a blog source file repository and implemented an automated publishing process through GitHub Actions. You only need to upload the Hugo blog source files to the GitHub repository, which will automatically trigger CI to generate static site files and push them to the GitHub Pages repository.
 
-**[2022-05-29 更新]**
+**[2022-05-29 Update]**
 
-Hugo 搭建与 GitHub Action 配置教程已更新：《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》
+The tutorial for Hugo setup and GitHub Action configuration has been updated: "[Deploy Your Blog Using Hugo and GitHub Action](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-新增了 Cloudflare Pages 部署方案：《[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)》
+Added Cloudflare Pages deployment solution: "[Deploy Your Blog Using Hugo and GitHub Action](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
 
-发布流程
+Publishing Process
 
-## 总结
+## Conclusion
 
-以上就是我的个人博客解决方案，前期搭建有些繁琐，但一番折腾后，完美实现了我的需求，关于整个过程的详细步骤，~~我将会分多篇文章进行讲解，请持续关注~~，希望能够对大家有所帮助。
+The above is my personal blog solution. The initial setup is somewhat cumbersome, but after some tinkering, it perfectly meets my needs. Regarding the detailed steps of the entire process, ~~I will explain in multiple articles, please stay tuned~~, hoping it can be helpful to everyone.
 
-**[2022-06-02 更新]**
+**[2022-06-02 Update]**
 
-系列教程核心部分已完成：
+The core parts of the tutorial series have been completed:
 
-- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
-- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Build a Free Personal Blog Data Analysis System from Scratch (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Free and Lightweight Blog Comment System Solution (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Deploy Your Blog Using Hugo and GitHub Action](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 
-除此之外，如果不想使用 Hugo 这类静态博客，还可以通过 Ghost 来比较方便地搭建一下：
+Additionally, if you don't want to use static blogs like Hugo, you can also set up a blog quite easily using Ghost:
 
-- [Ghost 5.0 来了，使用 Digital Ocean 一键部署吧](https://www.pseudoyu.com/en/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/)
+- [Ghost 5.0 Is Here, Deploy It on Digital Ocean with One Click](https://www.pseudoyu.com/en/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/)
 
-## 参考资料
+## References
 
-> 1. [Hugo 官方网站](https://gohugo.io)
-> 2. [hugo-theme-den 主题仓库](https://github.com/shaform/hugo-theme-den)
-> 3. [GitHub Pages 官方网站](https://pages.github.com)
-> 4. [GitHub Action 官方网站](https://github.com/features/actions)
-> 5. [Vercel 官方网站](http://vercel.com)
-> 6. [Cusdis 官方网站](https://cusdis.com)
-> 7. [Heroku 官方网站](https://www.heroku.com)
-> 8. [PicGo 官方网站](https://molunerfinn.com/PicGo/)
-> 9. [splitbee 官方网站](https://splitbee.io)
-> 10. [Google Console 官方网站](https://search.google.com/search-console)
-> 11. [Cloudflare 官方网站](https://www.cloudflare.com)
+> 1. [Hugo Official Website](https://gohugo.io)
+> 2. [hugo-theme-den Theme Repository](https://github.com/shaform/hugo-theme-den)
+> 3. [GitHub Pages Official Website](https://pages.github.com)
+> 4. [GitHub Action Official Website](https://github.com/features/actions)
+> 5. [Vercel Official Website](http://vercel.com)
+> 6. [Cusdis Official Website](https://cusdis.com)
+> 7. [Heroku Official Website](https://www.heroku.com)
+> 8. [PicGo Official Website](https://molunerfinn.com/PicGo/)
+> 9. [splitbee Official Website](https://splitbee.io)
+> 10. [Google Search Console Official Website](https://search.google.com/search-console)
+> 11. [Cloudflare Official Website](https://www.cloudflare.com)

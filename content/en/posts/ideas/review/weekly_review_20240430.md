@@ -1,5 +1,5 @@
 ---
-title: "周报 #58 - 远程工作这一年"
+title: "Weekly Review #58 - A Year of Remote Work"
 date: 2024-04-30T16:30:00+08:00
 draft: false
 tags: ["review", "life", "city", "hangzhou", "career"]
@@ -8,107 +8,107 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/fix_you.mp3" caption="《Fix You - Coldplay》" >}}
+{{<audio src="audios/fix_you.mp3" caption="'Fix You - Coldplay'" >}}
 
-## 前言
+## Preface
 
 ![weekly_review_20240430](https://image.pseudoyu.com/images/weekly_review_20240430.png)
 
-本篇是对 `2024-04-10` 到 `2024-04-30` 这几周生活的记录与思考。
+This is a record and reflection of my life from `April 10, 2024` to `April 30, 2024`.
 
-从巴厘岛回来已经是 4 月中旬，迎来了生活的另一大变动，再一次从北京“搬”回杭州和重新租房，生活的节奏也随之有了些微妙的变化，恰恰是上次搬回杭州一年之后，于是想在本篇谈谈远程工作这一年。
+It's already mid-April since returning from Bali, welcoming another major change in life - moving back to Hangzhou from Beijing once again and renting a new place. The rhythm of life has subtly shifted as a result. Coincidentally, it's been a year since I last moved back to Hangzhou, so I'd like to discuss my year of remote work in this piece.
 
-## 远程工作这一年
+## A Year of Remote Work
 
 ![sunset](https://image.pseudoyu.com/images/sunset.jpg)
 
-去年三月经历了一次工作变动，从通勤坐班转为远程工作，也从生活了近两年的北京搬回了杭州。
+Last March, I experienced a job change, transitioning from commuting to an office to working remotely, and moved back to Hangzhou from Beijing, where I had lived for nearly two years.
 
-当时的我急于逃离忙碌却无意义的工作，离开北京只是换一种心情，于我而言，杭州虽是家乡，却也不过是暂留之地，从高中开始就离开了这座城市，后续反倒只有疫情初起那半年才安安心心待在家里，那次回来前匆匆和几位朋友同事见了面道别，父母开车来北京运回了我、捏捏和所有家当，到杭州仅看了一两间房就定了下来，第二天就搬家入住。
+At the time, I was eager to escape a busy yet meaningless job, and leaving Beijing was just a change of scenery. For me, although Hangzhou is my hometown, it was merely a temporary stop. I had left this city since high school, and ironically, only spent that half-year at home when the pandemic first broke out. Before that return, I hastily met with a few friends and colleagues to say goodbye. My parents drove to Beijing to bring back me, Nini, and all our belongings. Upon arriving in Hangzhou, we looked at just one or two apartments before deciding, and moved in the next day.
 
-当时的自己也没想到短短一年会发生那么多事，琐事就不多讲了，更多聊聊感受吧。
+I didn't expect so much to happen in just a short year. I won't dwell on the trivial matters, but rather share more about my feelings.
 
-其实在上一份工作的后期，由于疫情和工作模式的各种因素，已经有一些时间可以不去公司了，但是由于开不完的会议和同事的工作时间，仅算是免去通勤之苦。而刚入职在杭州安顿好后，才真正体会到了远程工作的自由度，那时的我一整个月游荡于武汉、上海、深圳、香港、成都、西安等等多个城市，参加了很多活动，时常为了有完整的工作时间而工作到深夜。
+Actually, towards the end of my previous job, due to various factors like the pandemic and work modes, I already had some time when I didn't need to go to the office. However, because of endless meetings and colleagues' work hours, it merely saved me from the commute. It wasn't until I settled in Hangzhou after starting my new job that I truly experienced the freedom of remote work. During that time, I wandered through multiple cities like Wuhan, Shanghai, Shenzhen, Hong Kong, Chengdu, and Xi'an for an entire month, attending many events, often working late into the night to ensure complete work hours.
 
-仅一两个月后，出行自由的新鲜感就已经褪去大半，开始走向了另一个极端，宅在家里不出门，这时的我花了许多时间学习感兴趣的技术、写博客、看书、陪捏捏玩，乐在其中。可渐渐也发现，虽然我是个 I 人更多依赖与自我对话汲取能量，但长时间的封闭所带来的孤独感与惯性却让积攒起来的能量快速耗尽，尽管时间变多了，工作之外的时间却反倒更难好好利用了，焦虑随之而来。
+After just a month or two, the novelty of free travel had largely worn off, and I started to swing to the other extreme - staying at home and not going out. During this time, I spent a lot of time learning technologies I was interested in, writing blogs, reading books, and playing with Nini, thoroughly enjoying myself. But gradually, I discovered that although I'm an introvert who relies more on self-dialogue to gain energy, the sense of loneliness and inertia brought by long-term isolation quickly depleted the accumulated energy. Despite having more time, it became harder to utilize the time outside of work properly, and anxiety followed.
 
-尔后，随着踏入恋爱，生活的重心渐渐偏移，也不再把自己关在家里，常常往返于北京，工作之外多了更多生活实感，会接送学姐上下班，天气好时会在公园闲逛，回家一起做饭，吃饭时看一些感兴趣的剧或是纪录片。我的工作与生活似乎因为远程办公而实现了某种平衡，似乎美好得令人艳羡。
+Then, as I entered into a relationship, the focus of life gradually shifted, and I no longer confined myself at home. I frequently traveled back and forth to Beijing, gaining more sense of real life beyond work. I would pick up and drop off my senior at work, stroll in the park on nice days, cook together at home, and watch interesting dramas or documentaries while eating. My work and life seemed to have achieved a certain balance due to remote work, appearing enviably beautiful.
 
-但这同样存在问题，正如许多人将工作的情绪代入恋爱或婚姻中所引发的矛盾，远程办公却更容易将生活的状态惯性代入工作。然而，生活总是起起伏伏，工作作为一项团队协作的社会化活动却需要更多稳定的状态与产出。我前些日子就常常陷入这样的困境中，生活短时间内有了许多变动，或许需要更多时间去调节与思考，工作也伴随着项目上线而逐渐忙碌，我试图同时做好两边，却在恶性循环中产生了自我怀疑。
+But this also had its problems. Just as many people bring work emotions into love or marriage causing conflicts, remote work makes it easier to bring life's inertia into work. However, while life always has its ups and downs, work, as a socialized activity of team collaboration, requires a more stable state and output. I often found myself in such a dilemma recently. There have been many changes in life in a short period, perhaps needing more time to adjust and reflect, while work has gradually become busier with project launches. I tried to do well on both fronts but fell into a vicious cycle of self-doubt.
 
-时至今日其实我还是没能找到一个完美的解决方案或是平衡点，但逐渐开始面对和承认自己的精力有限，工作中做不好的事会愿意去寻求帮助，下班后或是周末也会给自己远离电脑单纯放松的时刻；周四有时候会去参加良渚的疯狂星期四见到不同的人，平日里也和学姐约好有一些互不打扰的独处时光，各自去阅读、学习或做自己喜欢的事。
+To this day, I still haven't found a perfect solution or balance point, but I'm gradually beginning to face and acknowledge my limited energy. I'm willing to seek help for things I can't do well at work, and I also give myself moments to relax away from the computer after work or on weekends. Sometimes on Thursdays, I go to Crazy Thursday in Liangzhu to meet different people, and on weekdays, I arrange some undisturbed alone time with my senior, each of us reading, studying, or doing things we like.
 
-也渐渐发现需要给自己和生活设置边界感，没有了上下班的打卡或是通勤也需要有起床的时间，把时间划分为一个个区间来安排任务，也需要给一天的工作一个仪式感的信号，例如回家吃一顿饭或是出门逛个超市。
+I'm also gradually realizing the need to set boundaries for myself and life. Even without punching in or commuting for work, there needs to be a time to get up, dividing time into intervals to arrange tasks, and also needing a ritualistic signal for the end of a day's work, such as going home for a meal or going out to the supermarket.
 
-我依然在探索远程办公给我带来的生活方式的改变，也仍然在适应于这种新的生活节奏，但这一年让我更多专注于自己的内心，生活和家不再是曾经那样工作完暂歇的冷冰冰的避难所，而是自我的延伸，也是一次次接近自我的尝试。
+I'm still exploring the lifestyle changes brought by remote work and still adapting to this new rhythm of life. But this year has made me focus more on my inner self. Life and home are no longer the cold refuges for temporary rest after work as before, but an extension of myself, and also attempts to get closer to myself.
 
-## 第二次搬家
+## Second Move
 
-时隔一年，又一次“搬家”回杭州，这次是由于学姐的工作调动，后续也会常驻在杭州，这次搬家似乎与之前很不同，更有了像是把一个家平移到另一个地方，迎接新的生活的仪式感，会断舍离很多不再需要的物品，会想尽办法在某个角落塞进曾经承载过记忆的酒杯或是小玩意。
+A year later, I'm "moving" back to Hangzhou again. This time it's due to my senior's job transfer, and we'll be based in Hangzhou regularly afterwards. This move seems very different from before, more like moving a home from one place to another, welcoming a new life with a sense of ritual. We're decluttering many things we no longer need, trying to squeeze wine glasses or trinkets that once carried memories into some corner.
 
-我其实并不那么在意城市本身，对城市也没有太多归属感，甚至这次搬家于我而言不过也依然在熟悉的地方，流程也与去年差不多，却对这次搬家和后续的生活充满了更多期待，或许慢慢也理解了小王子中的这句话：
+I'm not really that concerned about the city itself and don't have much sense of belonging to cities. Even this move is just to a familiar place for me, and the process is similar to last year's. Yet I'm full of more expectations for this move and the life that follows. Perhaps I'm slowly understanding this line from The Little Prince:
 
 > "It is the time you have wasted for your rose that makes your rose so important."
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
 
-#### 书籍
+#### Books
 
-- [**读库 2400**](https://book.douban.com/subject/36680227/)，开始订阅读库，第 0 期的访谈录还挺有意思的。
+- [**Duku 2400**](https://book.douban.com/subject/36680227/), I've started subscribing to Duku, and the interview in the 0th issue is quite interesting.
 
-#### 收藏
+#### Collections
 
 - [GitHub - xyhp915/logseq-fenced-code-plus](https://github.com/xyhp915/logseq-fenced-code-plus)
 - [GitHub - supabase/index_advisor](https://github.com/supabase/index_advisor)
 - [EpubKit](https://epubkit.app/)
-- [两个月 $12000 ARR 实践之路 – 硬地骇客](https://book.hardhacker.com/)
+- [Two Months $12000 ARR Practice Guide – Hard Hacker](https://book.hardhacker.com/)
 - [Haye AI - In-context AI assistant for macOS](https://haye.ai/)
 - [Electron](https://www.electronjs.org/)
 - [electron-vite | Next Generation Electron Build Tooling](https://electron-vite.org/)
 
-#### 文章
+#### Articles
 
-- [一个县城高中生，被困在小红书的平行世界里-虎嗅网](https://www.huxiu.com/article/2705104.html)
-- [如何基于 Telegram Channel 快速创建链上内容分享社区？](https://ddaocommunity.notion.site/Telegram-Channel-25f72489ba3c4a4db5d24ca7df720b13#5b041c8e4fff4e38a6411e7396be7703)
-- [我们生活在差异里 | Frost's Blog](https://frostming.com/2024/diversity/)
-- [虚假的自托管爱好者](https://blog.gujiakai.top/2024/04/fake-selfhost-lover)
-- [拒看新闻的生活艺术](https://elizen.me/posts/2024/04/stop-reading-the-news/)
-- [何一致美国法官信件全文：一个更真实的赵长鹏是怎样的？](https://s.foresightnews.pro/article/detail/58768)
-- [给自己人生二次毕业的思考](https://mp.weixin.qq.com/s/XzAjnC1_0Z9JtdrLi3IllA)
+- [A High School Student in a County Town, Trapped in Little Red Book's Parallel World - Huxiu](https://www.huxiu.com/article/2705104.html)
+- [How to Quickly Create an On-chain Content Sharing Community Based on Telegram Channel?](https://ddaocommunity.notion.site/Telegram-Channel-25f72489ba3c4a4db5d24ca7df720b13#5b041c8e4fff4e38a6411e7396be7703)
+- [We Live in Differences | Frost's Blog](https://frostming.com/2024/diversity/)
+- [Fake Self-hosting Enthusiast](https://blog.gujiakai.top/2024/04/fake-selfhost-lover)
+- [The Art of Living Without News](https://elizen.me/posts/2024/04/stop-reading-the-news/)
+- [Full Text of He Yizhi's Letter to American Judge: What Is a More Real Zhao Changpeng Like?](https://s.foresightnews.pro/article/detail/58768)
+- [Thoughts on Giving Myself a Second Graduation in Life](https://mp.weixin.qq.com/s/XzAjnC1_0Z9JtdrLi3IllA)
 - [Useful Personal Rules](https://chengweihu.com/rules/)
-- [在 Electron 中使用 SQLite 的最好方式](https://lutaonan.com/blog/electron-sqlite/)
+- [The Best Way to Use SQLite in Electron](https://lutaonan.com/blog/electron-sqlite/)
 - [Inter-Process Communication](https://www.electronjs.org/docs/latest/tutorial/ipc)
 - [I'm giving up — on open source](https://nutjs.dev/blog/i-give-up)
 
-#### 视频
+#### Videos
 
-- [【硬件科普】NAS 究竟是什么东西？你需要一台 NAS 吗？](https://www.youtube.com/watch?v=BGMY3dn5V4U)
-- [小白成神之路，网络知识看这一期足矣！软路由 桥接 端口转发 旁路由 单臂路由 IPv4 IPv6 DDNS](https://www.youtube.com/watch?v=8J0Up8B7YkU)
-- [vlog #51 | 日常学习与治愈碎片 📷 ｜持续学习英语｜op stack 学习中｜阅读《福格行为模型》｜珠海的春天与大海](https://www.bilibili.com/video/BV1uH4y1T7Bi)
+- [【Hardware Science】What exactly is NAS? Do you need a NAS?](https://www.youtube.com/watch?v=BGMY3dn5V4U)
+- [From Novice to Expert, All You Need to Know About Network Knowledge in This Episode! Soft Router, Bridging, Port Forwarding, Bypass Router, Single-arm Router, IPv4, IPv6, DDNS](https://www.youtube.com/watch?v=8J0Up8B7YkU)
+- [vlog #51 | Daily Learning and Healing Fragments 📷 | Continuous English Learning | Learning OP Stack | Reading "The Fogg Behavior Model" | Spring and Sea in Zhuhai](https://www.bilibili.com/video/BV1uH4y1T7Bi)
 - [Node.js: The Documentary | An origin story](https://www.youtube.com/watch?v=LB8KwiiUGy0)
-- [如何选择你的“人生镜头”？｜ SEL1625G](https://www.bilibili.com/video/BV1ym421x7Py)
-- [北海道独自旅行 VLOG❄️｜属于冬天的白色浪漫，发现不一样的札幌～](https://www.bilibili.com/video/BV1FZ421t7cV)
-- [「黑貓」這會是最合適 Mac 的便攜屏嗎？JSAUX FlipGo 便攜雙屏評測體驗](https://www.youtube.com/watch?v=uIcUi_CF1jg)
-- [一个人游北海道｜漫步小樽&函馆的小众之旅～❄️](https://www.bilibili.com/video/BV1Z1421d7ky)
-- [VLOG #52｜程序员下班后的日常学习记录｜工作累了就去林子看看书吧｜持续英语学习｜OP Stack 学习中｜《福格行为模型》｜在林子里露营的慢生活](https://www.bilibili.com/video/BV17q421F7dA)
+- [How to Choose Your "Life Lens"? | SEL1625G](https://www.bilibili.com/video/BV1ym421x7Py)
+- [Hokkaido Solo Travel VLOG❄️ | A White Romance Belonging to Winter, Discovering a Different Sapporo~](https://www.bilibili.com/video/BV1FZ421t7cV)
+- [Is "Black Cat" the Most Suitable Portable Screen for Mac? JSAUX FlipGo Portable Dual Screen Review and Experience](https://www.youtube.com/watch?v=uIcUi_CF1jg)
+- [Solo Trip to Hokkaido | A Niche Journey Through Otaru & Hakodate~❄️](https://www.bilibili.com/video/BV1Z1421d7ky)
+- [VLOG #52 | Programmer's After-work Daily Learning Records | When Tired of Work, Go to the Woods to Read | Continuous English Learning | Learning OP Stack | "The Fogg Behavior Model" | Slow Life of Camping in the Woods](https://www.bilibili.com/video/BV17q421F7dA)
 - [Backend Developer Roadmap - Everything you need to know in 2023](https://www.youtube.com/watch?v=CWAi_2oLhYg)
-- [专治嘴硬！挑战世界上最恐怖的鬼屋！](https://www.bilibili.com/video/BV1Zt421j7ft)
-- [vlog #53｜程序员下班后的日常学习记录｜工作再忙，也要好好充电呀｜学习各种 DEBUG 工具｜快看完《福格行为模型》啦，这书贼棒｜英语持续学习中](https://www.bilibili.com/video/BV1q1421X7bX)
+- [Curing Stubbornness! Challenging the World's Scariest Haunted House!](https://www.bilibili.com/video/BV1Zt421j7ft)
+- [vlog #53 | Programmer's After-work Daily Learning Records | No Matter How Busy Work Is, We Must Recharge Well | Learning Various DEBUG Tools | Almost Finished "The Fogg Behavior Model", This Book Is Great | Continuous English Learning](https://www.bilibili.com/video/BV1q1421X7bX)
 
-#### 播客
+#### Podcasts
 
-- [EP56 沉浸式翻译背后的故事 | 对话创始人 Owen](https://hardhacker.com/podcasts/661d2dc748c40e2fb07c6b99)
+- [EP56 The Story Behind Immersive Translation | Conversation with Founder Owen](https://hardhacker.com/podcasts/661d2dc748c40e2fb07c6b99)
 
-#### 电影
+#### Movies
 
-- [**沙丘**](http://movie.douban.com/subject/3001114/)，诗意而富有哲理的设定，原始宗教+科技文明+封建帝制的世界观很惊艳，主角的梦境和情感、预言和狂热的迷信交织推动着剧情发展，有一种娓娓道来的宏大叙事感。
-- [**沙丘 2**](http://movie.douban.com/subject/35575567/)，接连看了一二部，总期待这一部能够更多呈现世界观设定与剧情的内核，但看到的更多是酣畅的对决、对主角的考验以及战争，感觉更侧重在个人的变化成长，却少了些叙事，打算去补一下原著了。
+- [**Dune**](http://movie.douban.com/subject/3001114/), Poetic and philosophical settings, with a stunning world view of primitive religion + technological civilization + feudal imperial system. The protagonist's dreams and emotions, prophecies and fanatical superstitions intertwine to drive the plot, giving a sense of grand narrative that unfolds gradually.
+- [**Dune: Part Two**](http://movie.douban.com/subject/35575567/), I watched parts one and two consecutively, always expecting this part to present more of the world view settings and the core of the plot, but saw more of thrilling confrontations, tests of the protagonist, and war. It seems to focus more on personal changes and growth, but lacks some narrative. I plan to read the original novel to supplement.
 
-#### 剧集
+#### TV Series
 
-- [**地球改变之年**](http://movie.douban.com/subject/35417202/)，很有趣的视角，在人类社会视为天灾的疫情对于整个地球与其他物种来说或许无关紧要，又或许少了人类的干预它们又有了更多良性的改变，平静而美好。
-- [**企鹅群里有特务**](http://movie.douban.com/subject/21355794/)，从企鹅的视角看它们迁徙、觅食、繁衍的日常，迁徙、觅食、繁衍以及与它们的天敌们斗智斗勇，好萌！
+- [**The Year Earth Changed**](http://movie.douban.com/subject/35417202/), An interesting perspective, showing that what human society considers as natural disasters like the pandemic might be insignificant or even beneficial for the entire Earth and other species when human intervention is reduced, peaceful and beautiful.
+- [**Spy in the Wild**](http://movie.douban.com/subject/21355794/), Viewing the daily life of penguins from their perspective as they migrate, forage, reproduce, and outsmart their predators. So cute!

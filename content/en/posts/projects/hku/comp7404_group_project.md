@@ -1,5 +1,5 @@
 ---
-title: "xDeepFM for Recommender Systems - 推荐系统"
+title: "xDeepFM for Recommender Systems"
 date: 2020-11-11T16:30:25+08:00
 draft: false
 tags: ["hku", "machine learning", "comp7404"]
@@ -8,7 +8,7 @@ authors:
 - "pseudoyu"
 ---
 
-# xDeepFM for Recommender Systems
+## Preface
 
 eXtreme Deep Factorization Machine ([xDeepFM](https://arxiv.org/abs/1803.05170))
 

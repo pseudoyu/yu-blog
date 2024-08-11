@@ -1,5 +1,5 @@
 ---
-title: "摄影集 #01 - Cat In The Box"
+title: "Photography Collection #01 - Cat In The Box"
 date: 2023-01-01T21:18:03+08:00
 draft: false
 tags: ["photography", "cat", "home", "sony", "a7m3", "pet"]
@@ -8,15 +8,15 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-从 11 月开始一直想好好给捏捏拍照，但家里的采光不太好，当时工作比较匆忙也没刻意去购置布景和打光器材，今天在修图（我其实主要就是微调个色，懒）的时候感觉成片不算很满意，但是在新年第一天的 flag 不能倒，所以找朋友选了几张觉得还可以的，也算是一个好的开始了。
+Since November, I've been wanting to take proper photos of Nini, but the lighting at home isn't ideal. Due to a busy work schedule, I hadn't deliberately purchased backdrop or lighting equipment. Today, while editing the photos (I mainly just adjust the colors, being lazy), I felt the final images weren't entirely satisfactory. However, I can't abandon my New Year's Day resolution, so I asked a friend to select a few photos that seemed acceptable. It's a good start, at least.
 
-我的摄影启蒙来自一位纪实记者与纪录片导演，所以其实更在意画面构图与元素，总希望拍下的每一张照片都有一些故事感和主题（~~低情商：技术不行~~）。因为太喜欢这张在盒子里的照片了，所以给这个特辑取名为『Cat In The Box』；其中也有一个场景正巧站在我看了一半的村上的书上，再联想起当时看到村上的书里对猫咪的描述才有了更迫切的养猫的念头，也有一种奇妙的缘分，所以取名为『猫与村上春树』；还有几张是睡前抓拍的，光线是暗到后期都拯救不回来的程度，但是确实觉得很可爱（是摄影师的问题），所以也当作番外放一下了，取名为『Silence』（没错最近看日剧『静雪』有点上头）。
+My photographic enlightenment came from a documentary journalist and filmmaker, so I actually pay more attention to composition and elements in the frame. I always hope that each photograph I take has a sense of story and theme (~~low EQ: lack of technical skill~~). Because I love this photo of the cat in the box so much, I named this special collection "Cat In The Box". There's also a scene where the cat happens to be standing on a Murakami book I was halfway through reading. Recalling Murakami's descriptions of cats in his books, which initially sparked my urgent desire to have a cat, it feels like a peculiar fate. So I named that one "Cat and Haruki Murakami". There are also a few shots taken before bedtime, where the lighting is so dark that post-processing couldn't salvage it. But I find them genuinely adorable (it's the photographer's problem), so I've included them as extras, titled "Silence" (yes, I've been a bit obsessed with the Japanese drama "Shizuka na Yuki" recently).
 
-其实已经大概两年没好好拿起相机拍东西了，想重新开始记录一下生活，也要在摄影上多下点功夫了（~~之前纯靠玄学审美和模特好看扛着了~~），所以在博客的项目模块新增了一个摄影集栏目，当作自己摄影提升计划打卡了，新年里也要多给捏捏拍照。
+It's been about two years since I last properly picked up a camera to capture anything. I want to start documenting life again and put more effort into photography (~~previously relied purely on mystical aesthetics and photogenic models~~). So I've added a new photography collection column to the project module of my blog, which will serve as a check-in for my photography improvement plan. In the new year, I also want to take more photos of Nini.
 
-> 因为是摄影集作品，这个栏目不想压画质，每张都接近 10M，放在阿里云 OSS 上了（账单警告 ⚠️），加载可能会略慢一些，见谅。
+> As this is a photography collection, I don't want to compromise on image quality. Each photo is close to 10MB, hosted on Alibaba Cloud OSS (billing alert ⚠️). Loading might be a bit slow, please bear with me.
 
 ## Cat In The Box
 
@@ -28,7 +28,7 @@ authors:
 
 {{< figure src="https://image.pseudoyu.com/images/A7_04431.jpg" >}}
 
-## 猫与村上春树
+## Cat and Haruki Murakami
 
 {{< figure src="https://image.pseudoyu.com/images/A7_04451.jpg" >}}
 

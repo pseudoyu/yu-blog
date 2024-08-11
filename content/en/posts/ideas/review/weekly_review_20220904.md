@@ -1,5 +1,5 @@
 ---
-title: "周报 #10 - 重返过去、遗憾与当下"
+title: "Weekly Review #10 - Returning to the Past, Regrets and the Present"
 date: 2022-09-04T23:05:45+08:00
 draft: false
 tags: ["review", "life", "reading", "work", "campus", "regret", "memory", "relationship", "love", "romance", "past"]
@@ -8,82 +8,82 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="《Here After Us - Mayday》" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-08-29` 到 `2022-09-04` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `2022-08-29` to `2022-09-04`.
 
-发现以前拍的照片原片越堆越多，好多都没修，最近在慢慢整理。目前每篇封面图也都会选一张尽量符合主题的作品作为展示，看看后续能不能挑选一些作为特定主题的作品集。
+I've discovered that I've accumulated many unedited original photos from the past. I'm slowly organizing them now. Currently, I'm selecting a work that fits the theme as much as possible for each cover image. I'll see if I can select some as specific themed portfolios later.
 
-挺意外从好几个现实里的朋友这里听说在 follow 我的周报，在聊天时讲到一些话题时会说“你在之前周报里提到过”，也有一位意料之外的人因为周报而恢复了一些联系，自己分享欲的载体慢慢在关联与影响着自己的现实生活，感觉很奇妙。
+I'm quite surprised to hear from several friends in real life that they're following my weekly reviews. When chatting about certain topics, they would say, "You mentioned this in your previous weekly review." There's also an unexpected person who resumed some contact because of the weekly reviews. It feels quite fascinating that the carrier of my desire to share is slowly connecting with and influencing my real life.
 
-## 重返过去、遗憾与当下
+## Returning to the Past, Regrets and the Present
 
 ![back_to_campus](https://image.pseudoyu.com/images/back_to_campus.jpg)
 
-因为一段对话，周五度过了一个未眠之夜，很多学生时代的记忆不断浮现。
+Due to a conversation, I spent a sleepless night on Friday, with many memories from my student days constantly resurfacing.
 
-第二天实在有些心乱，于是重温了一部古早的日剧《求婚大作战》，大概是讲了男主通过照片重返过去来弥补遗憾，却发现不论怎么修补都无法改变结局，最终决定在现实中付诸行动的故事。
+The next day, feeling somewhat unsettled, I rewatched an old Japanese drama "Proposal Daisakusen". It's about the male protagonist returning to the past through photographs to make up for regrets, only to find that no matter how he tries to mend things, he can't change the outcome. He ultimately decides to take action in reality.
 
-其实几年前看的时候一直有些疑惑，在多年后重拾以前的遗憾，去试图达到一个美好的结局是否真的有意义？换言之，这一切会不会只是对记忆滤镜映射出的美好想象的盲目追逐，就像那些用于穿越的照片所散发的青春与美好一样，存在于记忆中，也仅仅存在于记忆中。
+Actually, when I watched it a few years ago, I was always a bit puzzled: Is it really meaningful to pick up old regrets after many years and try to achieve a happy ending? In other words, isn't this just a blind pursuit of the beautiful imagination projected by the filter of memory? Just like the youth and beauty emanating from those time-traveling photographs, they exist in memory, and only in memory.
 
-### 重返过去
+### Returning to the Past
 
-不知道该说是幸运还是不幸，自己曾有过这样一段可以称之为“重返过去”的故事。故事倒并不复杂，初中时喜欢过的女生在大一时因为一些交集再次相遇，也许是重新燃起了一些莫名的情感，在一起了，一个多月后，又分开了。
+I don't know whether to call it fortunate or unfortunate, but I once had an experience that could be called "returning to the past". The story isn't complicated. A girl I liked in middle school crossed paths with me again in my freshman year of college due to some connections. Perhaps it reignited some inexplicable feelings, and we got together, only to break up after a little over a month.
 
-可能因为一切都发生得太快，来不及留下什么美好，只有一条大意为“新鲜感不是和未知的人体验已知的事，而是和已知的人探索未知的事”的说说被遗忘在记忆的某个角落里。
+Perhaps because everything happened too quickly, there wasn't time to leave behind much beauty. Only a post with the general meaning "Freshness isn't experiencing known things with unknown people, but exploring unknown things with known people" was forgotten in some corner of memory.
 
-其实那段感情结束带来的伤害早已不再重要，但它的存在本身却有其特殊的意义。初中的我大概是木讷而迟钝的，对她学不会隐藏自己的喜欢却也只会笨拙地表达，现实中并没有什么男主光环，自然也没有皆大欢喜的结果，但那确实是我第一次感受到了名为“喜欢”的情绪，而“巧”的是大学的这一次“续前缘”也是我的初次恋爱。
+In fact, the hurt brought by the end of that relationship is no longer important, but its existence itself has special significance. The me in middle school was probably dull and slow, unable to hide my liking for her but only able to express it clumsily. There was no protagonist halo in reality, naturally no happy ending, but that was indeed the first time I felt an emotion called "liking". And "coincidentally", this "continuation of fate" in college was also my first relationship.
 
-同一个人带上了两层不同的情感和意义，也许本应是一段佳话，“多年后弥补初次悸动的遗憾”这样百看不厌的爱情主题。但真正进入了这段感情后，却发现并不是如此，当初的喜欢经过了时间和成长的磨损后仅剩的一些执念也被这样的逞强所撕扯得支离破碎。
+The same person carried two different layers of emotion and meaning. Perhaps it should have been a beautiful story, the ever-popular love theme of "making up for the regret of first love after many years". But when I truly entered this relationship, I found it wasn't so. The obsession left after the wear and tear of time and growth on the original liking was torn to shreds by this reckless act.
 
-### 遗憾与当下
+### Regrets and the Present
 
-我们都不存在回到过去改变记忆的超能力，并且因为上述的经历，自己也一直有些害怕重蹈覆辙，我对待那些遗憾像是潘多拉魔盒一般谨慎。一直习惯于将过去的这些事尘封起来，有时候甚至久到觉得自己都已经忘记了，而因为一些事或言语牵动情绪时才发现依然清晰。
+None of us have the superpower to return to the past and change memories, and because of the above experience, I've always been a bit afraid of repeating the same mistakes. I treat those regrets like Pandora's box, with caution. I've always been used to sealing away these past things, sometimes even for so long that I feel I've forgotten them, only to find they're still clear when some events or words stir emotions.
 
-既然聊到这个话题了，我还想讲另一个故事，一个藏在记忆深处的悠长的故事。
+Since we're on this topic, I want to tell another story, a long story hidden deep in memory.
 
-高中文理分科后，进了文科班，一个陌生的环境。脸盲晚期的自己却莫名在第一时间记住了前排的一个小个子女生，笑起来很好看，第一次加好友时别致的“猜猜我是谁”也让我每每想起时都嘴角上扬。一个国庆假期的聊天让我们亲近了许多，一句本是玩笑话的“我打电话到你宿舍呀”让我之后好几个月的周末中午都充满期待。因为常常一聊就是几个小时，我会沿着运河边的小道一直走，踩在落叶上的沙沙声和电话听筒那端的温柔勾画了我记忆中最美好的一个秋天。
+After the division into arts and sciences in high school, I entered the arts class, a strange environment. Despite being severely face-blind, I inexplicably remembered a petite girl in the front row at first sight. She had a beautiful smile, and her unique "Guess who I am" when we first added each other as friends still makes me smile whenever I think of it. A chat during the National Day holiday brought us much closer, and a joking "I'll call your dormitory" made me look forward to every Saturday noon for the next few months. Because we often talked for hours, I would walk along the small path by the canal, the rustling sound of stepping on fallen leaves and the gentleness from the other end of the phone painted the most beautiful autumn in my memory.
 
-后来的记忆以陪伴为主线，夹杂着一些细碎却温暖的日常：每次晚自习下课后默契地一起在走廊看夜空，与喝着 QQ 星牛奶努力长高的她聊日常成为了一天里最幸福的时光；记得一次偶然听到她说一位同学带来的糖葫芦很好吃，不好意思开口问，于是在打探到的同学家住址附近走了几条街，终于根据包装袋找到了一样的，只为看到送到手边时惊喜却又故作淡定的小表情；记得一次学校办手工节义卖，我选了一个很喜欢的蓝色风铃填写了她的名字让他们送到班级，青涩的小心思伴随着风铃轻轻晃动；她 18 岁生日之前几个月我申请了走读，悄悄录制着她身边重要的人的祝福视频以及全班的留言录音，剪辑成一条现在看来可能无比粗糙但当时倾注了许多心意的视频，只是想让这个生日在她的人生中多几分特别；...
+Later memories are mainly of companionship, interspersed with some small but warm daily moments: Every time after evening self-study, we would tacitly watch the night sky together in the corridor. Chatting with her as she drank QQ Star milk, trying hard to grow taller, became the happiest time of the day. I remember once overhearing her say that the candied haws brought by a classmate were delicious, but she was too shy to ask. So I walked several streets near the classmate's home address I had inquired about, and finally found the same ones based on the packaging, just to see her surprised yet pretending to be calm expression when I handed them to her. I remember once during a school handicraft fair, I chose a blue wind chime I really liked and wrote her name on it, letting them deliver it to the class, a shy little thought swaying gently with the wind chime. A few months before her 18th birthday, I applied to be a day student, secretly recording birthday wishes from important people around her and audio messages from the whole class, editing them into a video that might seem incredibly crude now but was filled with a lot of heart at the time, just wanting to make this birthday a bit more special in her life...
 
-似乎只要与她有关，什么都好。
+It seemed that anything related to her was good.
 
-但世间美好往往带着遗憾匆匆收场，最后也没能在一起，让人感慨缘分之无情。
+But the beauty of the world often comes to an abrupt end with regrets, making one sigh at the mercilessness of fate.
 
-高考后，因为一些也许现在看来本可以释怀的事争吵、决裂、互删。尽管后来有问过分数和志愿，几番犹豫之后却鬼迷心窍地避开了所有与她有关的城市。直到大学才打听到了近况，恢复了一些联系，但已经都不是曾经的我们了。
+After the college entrance exam, we argued, broke up, and deleted each other over something that perhaps now seems resolvable. Although I later asked about her scores and college choices, after much hesitation, I inexplicably avoided all cities related to her. It wasn't until university that I inquired about her situation and restored some contact, but we were no longer who we used to be.
 
-其实那么多年一直没法云淡风轻地讲出这段故事，也一直畏惧着那些遗憾和衍生的情绪，直到这些记忆全在这个夜晚涌现，无眠。
+Actually, for so many years, I couldn't calmly tell this story, and I've always been afraid of those regrets and the emotions they evoke. Until all these memories surged on this sleepless night.
 
-过去的这些美好与遗憾造就了现在的自己，《求婚大作战》中的健选择了带着这些面对当下，而我选择写下来。勇气的表现各不相同，但至少，我们都迈出了第一步。
+These past beauties and regrets have shaped who I am now. In "Proposal Daisakusen", Ken chose to face the present with these memories, while I chose to write them down. The manifestations of courage may differ, but at least, we've both taken the first step.
 
-## 其他
+## Other
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my inputs and outputs, as well as other things I find interesting.
 
-### 工作
+### Work
 
-这周工作上主要在忙一个演示的排练，因为要系统操作演示+讲解共计一个多小时，对内容编排和临场应对都有一些考验，难免还是有点紧张，希望正式的时候能够顺利一些；其余时间都在了解新项目，还没正式进入我的开发任务部分，其实以前的时候也常常多任务并行，但大多是同类型，这次因为有很多需要额外了解学习的，略有些力不从心。
+This week at work, I was mainly busy with rehearsing for a demonstration, which involves system operation demonstration and explanation for over an hour. It's quite challenging in terms of content arrangement and on-the-spot response, and I can't help feeling a bit nervous. I hope everything goes smoothly when it's official. The rest of the time was spent understanding new projects, I haven't officially started my development tasks yet. In the past, I often had multiple tasks running in parallel, but they were mostly of the same type. This time, because there's a lot that needs additional understanding and learning, I feel a bit overwhelmed.
 
-其他就是学了一下 PostgreSQL，就想着整理一下工作实践中用到的一些常用技术栈或是工具的使用，也可以作为一个查阅，就当作一个持续更新的系列吧（又是一个 Flag）。不知道什么时候才能更得心应手写一些深度的文章，还差得远呀。
+Other than that, I learned a bit about PostgreSQL, and thought about organizing some commonly used tech stacks or tools in work practice, which can also serve as a reference. Let's consider it an ongoing series (another Flag raised). I wonder when I'll be able to write some in-depth articles more comfortably, still a long way to go.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **黑客与画家**，通勤路上在读的，原本以为像是软技能那样的比较实际的一些内容，是当作路途消遣来看的，但是出乎意料地很多想法挺有趣，文风也很舒服，看了一半左右了，还有些沉浸
-- **送你一颗子弹**，刚开始看，更多想学一下怎么样“审视”身边的人事物
+- **Hackers and Painters**, reading this on my commute. Originally thought it would be some practical content like soft skills, and was reading it as a journey pastime, but surprisingly, many ideas are quite interesting, and the writing style is very comfortable. I'm about halfway through and still immersed in it.
+- **I'll Gift You a Bullet**, just started reading, more wanting to learn how to "scrutinize" the people and things around me.
 
-#### 剧集
+#### TV Series
 
-- **彩排**，看第一集的时候就有在想，参与彩排主角的人真的能以一个新的身份进入角色么？抑或是如果身处彩排其中的人逐渐分不清其和现实的界限会怎么样？很短也很有趣的走向，就像一开始就告诉你这是在表演，少了一些反转的期待却更容易被事情发展吸引到，滑滑梯下来的年龄转换有被惊艳到，以及很多长镜头
-- **求婚大作战**，老剧，因为本周的一些事想到了高中时代，重温了一下这部剧，上次看应该也是大一大二了
-- **医院五日**，讲到医学伦理部分，有些好奇在这样政治环境下的处理方式
-- **龙之家族**，又追了一集，感觉快要弃了
+- **Rehearsal**, when watching the first episode, I was wondering, can the protagonists participating in the rehearsal really enter the role with a new identity? Or what would happen if people involved in the rehearsal gradually can't distinguish between it and reality? It's a short and interesting direction, like telling you from the beginning that this is a performance, less expectation for twists but more easily drawn into the development of events. I was amazed by the age transition coming down the slide, and there are many long shots.
+- **Proposal Daisakusen**, an old drama, rewatched it because of some events this week that reminded me of high school days. The last time I watched it was probably in my freshman or sophomore year of college.
+- **Five Days at Memorial**, talking about medical ethics, curious about how it's handled in such a political environment.
+- **House of the Dragon**, watched another episode, feeling like I might give up soon.
 
-#### 动漫
+#### Anime
 
-- **奇巧计程车**，群像的感觉很不错，围绕着一个主线的各个人之间都有关联。挺喜欢漫才组合的那条线，想到了好久之前看的日剧《火花》，觉得这个职业一直好有意思
-- **夏日重现**，追番中
-- **继母的拖油瓶是我的前女友**，追番中
+- **The Genius Prince's Guide to Raising a Nation Out of Debt**, the ensemble feel is very good, with everyone connected around a main storyline. I quite like the line about the manzai comedy duo, reminds me of the Japanese drama "Spark" I watched a long time ago. Always thought this profession was very interesting.
+- **Summer Time Rendering**, following the series.
+- **My Stepmom's Daughter Is My Ex**, following the series.

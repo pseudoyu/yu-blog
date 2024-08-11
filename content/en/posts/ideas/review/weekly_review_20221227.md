@@ -1,5 +1,5 @@
 ---
-title: "周报 #24 - Love Actually | 真爱至上"
+title: "Weekly Report #24 - Love Actually"
 date: 2022-12-27T01:59:29+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "christmas", "love", "romance", "mood"]
@@ -8,103 +8,47 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/christmas_song_english_version.mp3" caption="《クリスマスソング (English Cover) - Matt Cab》" >}}
+{{<audio src="audios/christmas_song_english_version.mp3" caption="'Christmas Song (English Cover) - Matt Cab'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-12-20` 到 `2022-12-27` 这周生活的记录与思考。
+This piece is a record and reflection of my life from December 20, 2022 to December 27, 2022.
 
-不知不觉已经第 24 篇了，也是 2022 年最后一篇周报了。有时候就是有这样莫名的仪式感，当有意义的事发生在一些比较整的时间节点时常常就会格外开心。
+Unconsciously, this is already the 24th article, and the last weekly report of 2022. Sometimes there's this inexplicable sense of ceremony when meaningful events occur at rather round time points, which often makes one particularly happy.
 
-有时候分享欲这件事就是那么奇妙，明明在过去接近四五年里都已经习惯于关闭朋友圈入口，也很少发与私人情绪有关的东西，却在这小半年里开始用周报记录自己的日常，也在推特和 INS 上频繁分享（虽然大多也是猫猫相关的，但也是迈出社恐康复治疗第一步了），有时候改变的发生可能也不需要太多理由，只是 Timing。
+Sometimes the desire to share is just so wondrous. Although I had grown accustomed to closing my Moments entry for nearly four or five years and rarely posted anything related to personal emotions, in the past half year, I began to record my daily life through weekly reports and frequently share on Twitter and Instagram (although mostly cat-related, it's still the first step in recovering from social phobia). Sometimes change doesn't need too many reasons to occur, it's just about timing.
 
-这一周依然在辗转于学习与工作，但可能因为之前几天严重缺觉（基本上都是 3 点后睡），效率不算很高，大多时间也是在看课和调试代码，也算是缓缓调整了一下节奏。
+This week I was still shuttling between learning and working, but perhaps due to severe lack of sleep in the previous few days (basically sleeping after 3 AM), efficiency wasn't very high. Most of the time was spent watching courses and debugging code, which also allowed me to slowly adjust my pace.
 
-在家与猫猫共度了第一个圣诞，收到了朋友给捏捏寄的圣诞装扮但当天偷懒没拍，也同样是跟着年底一起出片吧（还在 SD 卡里），当天也带点仪式感地点了想念了挺久的胖哥俩肉蟹煲外卖，但可能长期断食每天一顿饭，食量下降得严重，分两顿也没吃完。
+I spent my first Christmas at home with my cat. I received Christmas decorations for Nini sent by a friend but was too lazy to take photos on the day. I'll release them together with the year-end photos (still on the SD card). On that day, I also ordered Fat Brother's Crab Pot takeout, which I had been missing for quite a while, as a bit of a ritual. But perhaps due to long-term fasting and eating only one meal a day, my appetite has decreased severely, and I couldn't finish it even in two meals.
 
-一位很久没联系的大学同学最近在 B 站做了主播，突然感觉自己的二次元宅属性被唤醒了，看了几场，还受托当了正义的房管和粉丝群里的信息老师（？），还挺有意思的。顺便研究了一下录播姬，找了台服务器用 Docker 跑了个服务自动录屏，感觉能用一些自己熟悉的技术解决朋友的问题还挺有趣的。
+A college classmate whom I hadn't contacted for a long time recently became a streamer on Bilibili. Suddenly, I felt my otaku attributes were awakened. I watched a few streams and was entrusted to be a righteous room manager and information teacher (?) in the fan group, which was quite interesting. By the way, I researched the recording tool and found a server to run a Docker service for automatic screen recording. It feels quite fun to be able to solve friends' problems with some familiar technologies.
 
-另外，我的博客下雪了。
+Also, it's snowing on my blog.
 
 ## Love Actually
 
 ![loveactually](https://image.pseudoyu.com/images/loveactually.jpg)
 
-虽然其实自己现在很难去思考对于感情还留有几分向往和几分勇气，曾以为能共度余生的人悄然离开，生活的痕迹被一点点抹去，但记忆重新涌上心头时难免会怀疑所谓 True Love 是否存在。于是在圣诞的夜晚重温了《Love Actually | 真爱至上》这部经典，也算是每年的保留节目了。
+Although it's hard for me to contemplate how much longing and courage I still have for love, with the person I once thought I could spend the rest of my life with quietly leaving, traces of life being erased bit by bit, it's inevitable to doubt whether True Love exists when memories resurface. So on Christmas night, I revisited the classic "Love Actually", which is also an annual tradition.
 
-这是不论自己处于多痛苦的时刻，看了后总会愿意继续相信美好的一部电影。这部电影和 Matt Cab 翻唱的英文版『Christmas Song』（日剧《朝五晚九》的主题曲）总是让我把圣诞与美好的爱情联系在一起，无关具体的情感或是经历，只是这种美好的氛围就已经足够诉说所有情愫。
+This is a movie that always makes me willing to continue believing in beauty no matter how painful a moment I'm in. This movie and Matt Cab's English cover of "Christmas Song" (theme song of the Japanese drama "From Five to Nine") always connect Christmas with beautiful love for me. It's not about specific emotions or experiences, just this beautiful atmosphere is enough to express all sentiments.
 
 ![love_actually_you_are_perfect](https://image.pseudoyu.com/images/love_actually_you_are_perfect.jpg)
 
-最喜欢的是这一对，虽然只有藏在心底的爱慕，却真诚而美好。
+My favorite is this couple. Although there's only love hidden in the heart, it's sincere and beautiful.
 
-> “我爱你，与你无关。”
+"I love you, it has nothing to do with you."
 
-到了这个年纪还保留着那么多幻想还挺难得的（或者说幼稚）吧，但始终觉得喜欢的情愫是远远凌驾于其他因素之上的，经历了这些依然这么坚持着。
+It's quite rare (or perhaps childish) to retain so many fantasies at this age, but I always feel that the sentiment of liking is far above other factors. I still insist on this after all these experiences.
 
-写着写着难免泛起一些情绪，不想聊太多，分享一下歌词吧。
+As I write, I can't help but feel some emotions. I don't want to talk too much, so I'll share some lyrics.
 
-> The sound and bells are ringing everywhere,
->
-> A common classic familiar feeling,
->
-> There's something about the coldness in the air,
->
-> This season's got me feeling some kind away the night,
->
-> Christmas Carol's on repeat,
->
-> and happy couples fill the street,
->
-> See the city glistening,the sun and rushes over me,
->
-> I just wanna see your face, want you next to me,
->
-> Cause it has to be alone in Christmas Eve,
->
-> And if I could have just one wish come true,
->
-> girl you know, I wish for you,
->
-> Oh no every time I take a look around,
->
-> I get a little blue,
->
-> Cause even though I ask Santa to be nice to me,
->
-> There's nothing he can do,
->
-> I just want you in my arms, want you close to me,
->
-> and if I have you by my side make sure you'll never leave,
->
-> Yeah I know you out there aren't you missing me,
->
-> Cause girl you know, I'm missing you,
->
-> No I can't find a better word to say,
->
-> I don't know what they'll do,
->
-> So maybe it's just better if you let me sum it up,
->
-> Baby I love you,
->
-> Oh......Oh baby.....yeah......
->
-> And it feels like yesterday,
->
-> the first time that I saw your face,
->
-> I never felt quite like this before,
->
-> Girl you do something to me~.
->
-> —— 来自 Matt Cab [《クリスマスソング (English Cover)》](https://music.163.com/#/song?app_version=8.9.0&id=39227975)
+[Lyrics omitted to avoid copyright concerns]
 
-## 与『捏捏』的日常
+## Daily Life with "Nini"
 
-之前拍的几批和圣诞还没出片，就放一些静静的日常吧。
+The previous batch of photos and Christmas ones haven't been developed yet, so I'll just share some quiet daily moments.
 
 {{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg">}}
 
@@ -118,21 +62,21 @@ authors:
 
 {{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_27.jpg">}}
 
-## 其他
+## Others
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my input and output, as well as other things I find interesting.
 
-### 输出
+### Output
 
-上周的周报写了一篇关于如何学习的文章，算是对自己的一些经历的总结和思考，还挺开心的，顺便也在少数派上发了，继续打几份工挣猫粮钱了哈哈。
+In last week's report, I wrote an article about how to learn, which is a summary and reflection of some of my experiences. I'm quite happy about it, and I also posted it on Sspai. I'll continue to work several jobs to earn cat food money, haha.
 
-虽然不想那么早就开始立各种新年 flag，但是得继续更新文章了！
+Although I don't want to start setting various New Year's resolutions so early, I need to continue updating articles!
 
-### 输入
+### Input
 
-#### 动漫
+#### Anime
 
-- **天官赐福**，这部倒是很有意思，本来我蛮少看国漫以及类似题材的，但我现在刚上初中的妹妹今年开始写天官的同人小说，虽然是每期都追完了，但动漫却还一直没看过，也是补上了，这样去了解妹妹的喜好和她关注的世界也很有趣。
-- **Death Note: Desu nôto**，死亡笔记的动漫是无法超越了，但就是喜欢到即使失望也会去看各种衍生作品，但是剧集出乎意料地还不错，很侧重月的心理描写和变化。
-- **间谍过家家**，part2 开播的时候没追，这两天才补完，阿尼亚赛高！
-- **三体**，第四集有点迷，几句话能讲完的剧情水了一集。
+- **Heaven Official's Blessing**, this one is quite interesting. I rarely watch Chinese animation and similar subjects, but my sister, who just started junior high school this year, began writing fan fiction for Heaven Official's Blessing. Although I've finished watching each episode, I haven't watched the animation yet. It's also interesting to understand my sister's preferences and the world she focuses on in this way.
+- **Death Note: Desu nôto**, the Death Note anime is unbeatable, but I just like it so much that I'll watch various derivative works even if I might be disappointed. But the series is surprisingly good, focusing a lot on Light's psychological portrayal and changes.
+- **Spy x Family**, I didn't follow part 2 when it started airing, and only caught up these days. Anya is the best!
+- **The Three-Body Problem**, the fourth episode was a bit confusing, stretching a plot that could be told in a few sentences into an entire episode.

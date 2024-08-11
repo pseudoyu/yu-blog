@@ -1,5 +1,5 @@
 ---
-title: "周报 #05 - 工作、时间的掌控感与新朋友"
+title: "Weekly Review #05 - Work, Sense of Time Control, and New Friends"
 date: 2022-07-31T23:55:54+08:00
 draft: false
 tags: ["review", "life", "time", "balance", "work", "friendship"]
@@ -8,96 +8,96 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
 ![bg_computer_room_hellowork](https://image.pseudoyu.com/images/bg_computer_room_hellowork.jpg)
 
-本篇是对 `2022-07-25` 到 `2022-07-31` 这周生活的记录与思考，也是休假回来后恢复工作的第一周。
+This piece is a record and reflection of my life from July 25, 2022, to July 31, 2022, also the first week back to work after a vacation.
 
-经历了一个久违的“小暑假”后还未来得及作状态调整就马上投入了紧张的新项目筹备中，也推动着自己更多思考工作与生活的平衡。
+After experiencing a rare "short summer break," I was immediately thrust into the tense preparation of a new project before I had time to adjust my state, which also prompted me to think more about the balance between work and life.
 
-## 工作与时间的掌控感
+## Work and Sense of Time Control
 
-之前的一篇也有讲到过自己结束学生生涯踏入职场已经一年了，得益于第一个项目极端压力下的锻炼，我工作职责上的事务大多已经上手，即使遇到很临时的会议或是技术方案讲解也能比较从容应对。
+As I mentioned in a previous article, it has been a year since I ended my student life and entered the workforce. Thanks to the training under extreme pressure from the first project, I have mostly mastered my work responsibilities. Even when faced with impromptu meetings or technical proposal explanations, I can handle them with relative ease.
 
-工作中被信任的最大好处是有了不错的自由度，只要自己能够协调安排好整个任务的进度，获得一个不错的结果，就不需要屈从于无意义的卷；上下班时间还算正常，大部分项目的工作压力也并不会长期很大（因为是 to B 业务为主，所以大多赶一些交付节点），也可以在省下来的时间里学习一些其他东西。
+The greatest advantage of being trusted at work is having a good degree of freedom. As long as I can coordinate and arrange the progress of the entire task well and achieve a good result, there is no need to succumb to meaningless competition. The working hours are fairly normal, and the work pressure of most projects is not particularly high for long periods (mainly because it is B2B business, so we mostly rush to meet delivery milestones). I can also use the saved time to learn other things.
 
-原先一直觉得这种模式还不错，但最近的状态慢慢出了一些问题，感觉就像是自己的生活慢慢被吞噬了。
+I originally thought this mode was quite good, but recently my state has slowly developed some problems. It feels as if my life is slowly being devoured.
 
-我对原先预想的下班后闲暇时间并没有办法做到那么好的掌控，随着日子一点点过去，下班时间有时候会更多做一些比较无脑的休闲活动，比如追剧或是刷刷 B 站上的一些微电影（偶尔刷到跟感情相关的又开始 emo）。
+I haven't been able to control the leisure time after work as well as I had originally envisioned. As the days go by, I tend to engage in more mindless leisure activities after work, such as binge-watching dramas or scrolling through some micro-films on Bilibili (occasionally stumbling upon relationship-related content and starting to get emotional).
 
-有时候莫名地几个小时过去了，因为第二天还需要上班，不得不吃点褪黑素睡了；更有几天回来就已经快 10 点了，想着躺下歇一会儿，再次睁眼就已经 1 点多了，起来打开电脑，却也没干什么事。
+Sometimes, hours mysteriously pass by, and because I need to go to work the next day, I have no choice but to take some melatonin and sleep. There are even days when I come back home close to 10 pm, thinking I'll lie down for a bit, only to open my eyes again and find it's already past 1 am. I get up and open my computer, but end up not doing much.
 
-下班时间的生产力因此也就很难保证，甚至有时候是在强迫自己做一些事，对一位群友的描述很有同感：
+As a result, productivity during after-work hours is hard to guarantee. Sometimes, I even force myself to do things. I resonate with a group member's description:
 
-> “我现在有点面向周报学习的意思，每次想彻底躺了的时候，就想着，彻底躺了周报没写的咋办，然后就垂死病中惊坐起了。”
+> "I'm now learning with a focus on weekly reports. Every time I want to completely lie down, I think about what to do if I haven't written the weekly report, and then I sit up in shock as if rising from my deathbed."
 
-我反思了一下产生这种状态的原因，觉得还是自己还是很难从工作中得到自己的想要的提升，反而常常是在消耗自己的精神，下班后的时间也不足够恢复，致使自己的生产力完全被破坏了。虽然确实是没有什么任务量规定或是来自外部的 Deadline，但还是常常有些自我谴责，这与自己所追求的理想生活状态相去甚远。
+Reflecting on the reasons for this state, I feel that I still find it difficult to get the improvement I want from work. Instead, it often consumes my spirit, and the time after work is not enough to recover, causing my productivity to be completely destroyed. Although there are indeed no task quantity regulations or external deadlines, I still often have some self-reproach. This is far from the ideal living state I pursue.
 
-好像是从某个播客中听到这样一个概念，我们都需要找到隐藏在 A 面之后的 B 面。如果把工作项目当作一个 A 面，B 面就是隐藏在其中找到一些点，不论是创新还是一些新的技术尝试都能够让自己有更多的主观意愿去完成；而如果把工作本身当作一个 A 面，那就需要去思考如何去填补这占据了我们绝大多数时间的工作另一面，可以是学习提升，也可以是一个简单的爱好培养。
+I seem to have heard this concept from a podcast: we all need to find the B-side hidden behind the A-side. If we take work projects as an A-side, the B-side is finding some points hidden within it. Whether it's innovation or some new technical attempts, they can give us more subjective willingness to complete them. If we take work itself as an A-side, then we need to think about how to fill the other side of this work that occupies most of our time. It can be learning and improvement, or it can be cultivating a simple hobby.
 
-当然，这种状态的改变并没有一个标准的解决方案，也从来不是一件可以轻易解决的事，但总归是需要去慢慢梳理。但目前是想着自己的下一份工作会更多考虑远程工作的模式，能够更好地平衡自己的节奏，最近也在了解一些相关资讯。
+Of course, changing this state doesn't have a standard solution, and it has never been something that can be easily solved. But it needs to be slowly sorted out anyway. Currently, I'm thinking that my next job will consider more remote work models to better balance my rhythm. I've also been looking into some related information recently.
 
-## 新朋友
+## New Friends
 
-这周的惊喜就是认识了几个 Twitter 上一直有在关注的朋友们，起因只是和 [STRRL](https://twitter.com/strrlthedev) 讨论了一下 cloudflare pages 并且互加了友链，后来又进了小群认识了 [Homura](https://twitter.com/RealAkemiHomura)、[Manjusaka](https://twitter.com/Manjusaka_Lee)、[新一](https://twitter.com/_a_wing) 和 [Xuanwo](https://twitter.com/OnlyXuanwo) 等大佬们，偶尔也会对于生活和技术有一些日常的交流。
+The surprise this week was meeting several friends I've been following on Twitter for a long time. It started with a discussion about Cloudflare Pages with [STRRL](https://twitter.com/strrlthedev) and adding each other as friends. Later, I joined a small group and met big names like [Homura](https://twitter.com/RealAkemiHomura), [Manjusaka](https://twitter.com/Manjusaka_Lee), [Xinyi](https://twitter.com/_a_wing), and [Xuanwo](https://twitter.com/OnlyXuanwo). We occasionally have some daily exchanges about life and technology.
 
-自己在毕业之后好像就很少去主动社交了，现实生活中也不愿意参加有陌生人的聚会，再加上朋友圈入口已经关闭了四五年，也并不了解曾经的同学们现状，更加难以有什么交流的契机，一直处于封闭的状态。反倒是在 Twitter 上倒是从 5 月开始碎碎念很多，也常常惊叹于很多推友的有趣生活与思考深度，但一直也都是默默看着，极少有什么直接的互动。这一次认识了那么多新朋友，还是很开心和惊喜的，也希望之后能够多多交流，人都很 nice。
+It seems that after graduation, I rarely actively socialize. I'm unwilling to participate in gatherings with strangers in real life, and I've closed my WeChat Moments entrance for four or five years. I don't know the current situation of my former classmates, making it even more difficult to have any opportunity for communication. I've been in a closed state for a long time. On the contrary, I've been rambling a lot on Twitter since May, and I'm often amazed by the interesting lives and depth of thought of many Twitter friends. But I've always been quietly watching, with very little direct interaction. This time, meeting so many new friends, I'm very happy and surprised. I hope to have more exchanges in the future. Everyone is very nice.
 
-## 学习与输入
+## Learning and Input
 
-这个部分会记录一下自己觉得有意思的东西以及工作学习的一些进展。
+This section will record some interesting things I've come across and the progress of my work and study.
 
-### 技术学习
+### Technical Learning
 
-这一周先加入了一个新的项目，进行了一些环境搭建，牵扯到了不少和 docker 相关的一些操作，不过因为之前做过类似的，整体还比较顺利。然后因为涉及了 Cosmos 区块链，所以开始看 《区块链架构与实现：Cosmos 详解》，并且做了一些笔记，慢慢看。
+This week, I first joined a new project and did some environment setup, which involved quite a few Docker-related operations. However, because I've done similar things before, the overall process was quite smooth. Then, because it involves the Cosmos blockchain, I started reading "Blockchain Architecture and Implementation: Detailed Explanation of Cosmos" and made some notes. I'm reading it slowly.
 
-但是没几天后就去指派到另一个项目的前期筹备，有很多繁琐的工作，连续加班了几天，但是开发进展不多，希望项目顺利。
+But after a few days, I was assigned to the early preparation of another project. There was a lot of tedious work, and I worked overtime for several consecutive days, but the development progress was not much. I hope the project goes smoothly.
 
-这一周没进行太多其他的技术学习，CSAPP、合约开发和新到的 Go 语言相关的书都需要按照进度推进了。
+I didn't do much other technical learning this week. CSAPP, contract development, and the newly arrived Go language-related books all need to be pushed forward according to the schedule.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **蒂姆库克传**，虽然听说大多是一些报道和信息汇总，不过对苹果这家公司很感兴趣但是却一直对 Tim 很陌生，大概乔布斯的光环太重，所以也想了解一下
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, Although I heard it's mostly a compilation of reports and information, I'm very interested in Apple as a company but have always been unfamiliar with Tim. Perhaps Steve Jobs' halo is too strong, so I want to learn more about him.
 
-#### 剧集
+#### TV Series
 
-1. **The Most Hated Man on the Internet**，Netflix 新出的纪录片，事件中的妈妈强大、自信且有趣，比起之前关于 N 号房的纪录片少了些沉重，多了一些悬疑节奏感。但是深夜看完依然觉得无奈（或者说是无力），只希望这个世界能多点善意和人性吧，哪怕只是变好一点点
-2. **非常律师禹英禑**，女主还是很可爱，男女主也挺好磕
+1. **The Most Hated Man on the Internet**, a new Netflix documentary. The mother in the event is strong, confident, and interesting. Compared to the previous documentary about the Nth Room case, it's less heavy and has more of a suspense rhythm. But after watching it late at night, I still feel helpless (or powerless). I just hope this world can have a little more kindness and humanity, even if it's just a little bit better.
+2. **Extraordinary Attorney Woo**, the female lead is still very cute, and the main couple is quite shippable.
 
-#### 电影
+#### Movies
 
-- **独行月球**，中规中矩的院线喜剧片，配乐和气氛渲染还是挺到位的，剧情的话有些低配版火星救援的感觉，并且结局有些过于核心价值观
+- **Moon Man**, a standard comedy film for theaters. The music and atmosphere rendering are quite in place. As for the plot, it feels like a low-budget version of The Martian, and the ending is a bit too focused on core values.
 
-#### 动漫
+#### Anime
 
-- **夏日重现**，每周都会期待更新的番剧
+- **Summer Time Rendering**, an anime series I look forward to updating every week.
 
-## 折腾小记
+## Tinkering Notes
 
-### 软件折腾
+### Software Tinkering
 
-1. **Arc**，一个新晋网红浏览器，尝试了一下，体验很不一样，目前还没发现什么硬伤，但还是更多只会作为一个辅助浏览器，毕竟 Safari 用得太习惯了
-2. **Arctype**，从某个推荐文章里看到的数据库管理工具，界面很好看，可以分多个工作区，也有一个内置可视化面板功能，还没详细玩，目前主力还是 TablePlus
+1. **Arc**, a newly popular browser. I tried it out, and the experience is very different. Currently, I haven't found any major flaws, but it will still mostly serve as an auxiliary browser. After all, I'm too used to Safari.
+2. **Arctype**, a database management tool I saw in some recommendation article. The interface is very beautiful, and it can be divided into multiple workspaces. It also has a built-in visualization panel function. I haven't played with it in detail yet. Currently, my main tool is still TablePlus.
 
-看了 [STRRL](https://twitter.com/strrlthedev) 上周的周报，也把自己的博客彻底迁移到了 Cloudflare Pages，迁移体验很无缝，后续使用感觉也很棒，至此我的 Serverless 博客系统为：
+After reading [STRRL](https://twitter.com/strrlthedev)'s weekly report last week, I also completely migrated my blog to Cloudflare Pages. The migration experience was very seamless, and the subsequent use feels great. At this point, my serverless blog system consists of:
 
-- Github 作为 Hugo 博客源文件和运行一些 Github Actions 来自动更新 About 页面
-- Cloudflare Pages 托管博客，并且用在 Cloudflare 托管的域名进行解析
-- 在 Railway 和 Vercel 托管了 Cusdis 评论系统和 Umami 数据统计系统
+- GitHub as the source file for the Hugo blog and running some GitHub Actions to automatically update the About page
+- Cloudflare Pages hosting the blog, and using the domain hosted on Cloudflare for resolution
+- Hosting the Cusdis comment system and Umami data statistics system on Railway and Vercel
 
-### 博客相关
+### Blog Related
 
-这周没写什么文章，不过数据上有了一些小小的里程碑，首先是 Google 搜索达到了 1000 次点击。
+I didn't write many articles this week, but there were some small milestones in the data. First, Google searches reached 1000 clicks.
 
 ![blog_google_search_1k](https://image.pseudoyu.com/images/blog_google_search_1k.jpg)
 
-然后也第一次月浏览量达到了 1 万左右，访客 3 千多。
+Then, for the first time, the monthly page views reached about 10,000, with over 3,000 visitors.
 
 ![blog_umami_10k](https://image.pseudoyu.com/images/blog_umami_10k.png)
 
-需要继续加油多写一些了。
+I need to continue to work hard and write more.

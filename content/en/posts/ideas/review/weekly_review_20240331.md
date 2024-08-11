@@ -1,5 +1,5 @@
 ---
-title: "周报 #56 - 面基 Randy 与考科目二"
+title: "Weekly Review #56 - Meeting Randy and Taking the Driver's Test"
 date: 2024-03-31T16:30:00+08:00
 draft: false
 tags: ["review", "life", "randy", "blog", "cusdis", "programmer"]
@@ -8,86 +8,86 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/fix_you.mp3" caption="《Fix You - Coldplay》" >}}
+{{<audio src="audios/fix_you.mp3" caption="'Fix You - Coldplay'" >}}
 
-## 前言
+## Preface
 
 ![weekly_review_20240331](https://image.pseudoyu.com/images/weekly_review_20240331.png)
 
-本篇是对 `2024-03-25` 到 `2024-03-31` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `March 25, 2024` to `March 31, 2024`.
 
-这周最开心的事就是见到了 [Randy](https://twitter.com/randyloop)，追星成功，聊得很开心；因为不想影响工作而连续四五天 5 点多起床出发去驾校练实车，痛苦但一次过了科目二，不亏；继续健身运动，整体身体状况还不错；筹备节后搬家回杭州的事宜，感觉可以更多参加疯狂星期四了；还有很多有意思的事。
+The happiest event this week was meeting [Randy](https://twitter.com/randyloop). My fan dream came true, and we had a delightful conversation. To avoid impacting work, I woke up at 5 AM for four or five consecutive days to practice driving at the school. It was tough, but I passed the second stage of the driver's test in one go - worth it. I continued with fitness and exercise, and my overall physical condition is quite good. I'm preparing to move back to Hangzhou after the holiday, feeling I might be able to participate in more "Crazy Thursdays". There were many other interesting happenings as well.
 
-## 面基 Randy
+## Meeting Randy
 
 ![meet_with_randy](https://image.pseudoyu.com/images/meet_with_randy.jpg)
 
-之前好像有看到过一篇文章说，如果你喜欢一篇文章、一个开源产品或是什么，不要吝于言辞去表达自己的感谢和想法，也许仅仅是一句话就会对作者产生莫大的鼓励，所以其实我还挺喜欢和珍惜能够与屏幕对面的人面对面沟通的机会的。
+I once read an article saying that if you like a piece of writing, an open-source product, or anything, don't be stingy with words to express your gratitude and thoughts. Perhaps just a single sentence can greatly encourage the author. So, I quite cherish the opportunity to communicate face-to-face with the person behind the screen.
 
-而在许久之前看到 Randy 在推上发了一条要来北京，可以找他约咖啡的[推文](https://twitter.com/randyloop/status/1764551037095223590)，上次他去良渚玉鸟集疯狂星期四的时候我刚好不在杭州，一直很遗憾，但真的有了和偶像面对面的时候，却又有些犹疑，既有初次见面的紧张感，又担心没什么话可以聊而浪费了他的时间。
+Long ago, I saw Randy post on Twitter that he was coming to Beijing and could meet for coffee. Last time he went to Liangzhu Yuniao Ji for Crazy Thursday, I happened to be away from Hangzhou and always regretted it. But when I actually had the chance to meet my idol face-to-face, I hesitated. There was the nervousness of a first meeting, and I worried about not having much to talk about and wasting his time.
 
-我初次了解到 Randy 大概是 21 年，是在 [Frost](https://frostming.com/) 写的「[自建、免费、开源的评论系统解决方案](https://frostming.com/2021/04-28/self-host-comment-system/)」一文结尾提到了这一句：
+I first learned about Randy around 2021, from a sentence at the end of an article by [Frost](https://frostming.com/) titled "Self-hosted, Free, Open-source Comment System Solution":
 
-> 最后也推荐一下[作者的博客](https://lutaonan.com/)，内容质量高，非常启发思考。
+> Finally, I also recommend [the author's blog](https://lutaonan.com/), which has high-quality content that greatly inspires thought.
 
-当时初入技术领域，不认识什么开发者，对开源也没什么具体的概念，只是好奇这样一个小众精品的评论系统背后是一个怎样的人，于是点进去了。
+At that time, I was just entering the tech field, didn't know many developers, and had no concrete concept of open source. I was just curious about what kind of person was behind such a niche, high-quality comment system, so I clicked in.
 
-不知不觉就看完了所有的文章，可以说他符合了当时的我对即将成为的程序员这一群体的所有期待。
+Before I knew it, I had read all the articles. I can say he met all the expectations I had at the time for the programmer I was about to become.
 
-他有技术理想和创造力，能够通过技术实现自己想做的事却又不拘于技术；对于生活有自己的见解和追求，代码之外有更多自己的兴趣爱好；乐于分享自己的思考，文字有真诚而具有感染力；不囿于世俗标准和所谓光环，本科退学、大厂裸辞。
+He had technological ideals and creativity, able to realize what he wanted to do through technology yet not confined by it; he had his own views and pursuits about life, with more interests and hobbies beyond code; he was willing to share his thoughts, with sincere and infectious writing; he was not bound by worldly standards and so-called halos, dropping out of undergraduate studies and quitting big tech companies.
 
-而彼时的我还未从香港毕业，即将开始求职面试，对即将到来的技术生涯期待却又迷茫，既担心自己是否能够在这条未知的路走下去，又担心自己会不会在繁重的工作下失去创造力和技术热情。可以说他让我看到了未来自己想成为的样子与可能性，也让我真正开始思考开源、分享和创造的真谛。
+At that time, I had not yet graduated from Hong Kong, was about to start job hunting and interviews, looking forward to yet confused about the upcoming tech career. I was worried about whether I could continue on this unknown path, and whether I would lose my creativity and passion for technology under heavy workload. It can be said that he showed me the kind of person I wanted to become in the future and the possibilities, and also made me truly start thinking about the essence of open source, sharing, and creation.
 
-而之后的我用了他的 Cusdis 评论系统，在他招募 v2 团队的时候也参与了一些微小的开发，第一次有了私聊沟通，得到了一些 code review 和代码指导；跟着他的视频通过 Logseq 搭建了自己的个人项目/知识管理系统；在他发布 [notepal](https://notepal.randynamic.org/)、[epubkit](https://epubkit.app/) 的时候都抢先体验和报一些小 bug；直到这次鼓起勇气去约见面。
+Later, I used his Cusdis comment system, and participated in some minor development when he recruited for the v2 team. We had our first private chat, and I received some code review and guidance; I followed his video to build my own personal project/knowledge management system with Logseq; when he released [notepal](https://notepal.randynamic.org/) and [epubkit](https://epubkit.app/), I was among the first to experience them and report some small bugs; until this time when I mustered the courage to ask for a meeting.
 
 ![lego_hat](https://image.pseudoyu.com/images/lego_hat.jpg)
 
-见面之前想挑选一个礼物作为对他这一路以来对我的启发和帮助的感谢，最后选了哈利·波特分院帽的一款乐高和毛姆的一本「阅读是一座随身携带的避难所」小书。
+Before meeting, I wanted to choose a gift as a thank you for his inspiration and help all along. In the end, I chose a LEGO set of the Harry Potter Sorting Hat and a small book by Maugham titled "Reading is a Portable Sanctuary".
 
-对于刚踏入代码这一“魔法”世界的我来说，前方有着无数的未知和选择，而他就像分院帽一样，让我听从内心的声音，坚定地选择了自己的路。
+For me, just stepping into the world of code, this "magic" world, there were countless unknowns and choices ahead. He was like the Sorting Hat, letting me listen to my inner voice and firmly choose my own path.
 
-见面后开心地聊了三个多小时。听到说他也常看我的周报，惊讶而欣喜；了解了他微软离职后的生活状态与所思所想，咨询了我对于工作规划、发展方向的一些困惑，碰撞了一些关于独立博客、前端学习、自媒体的一些想法，兴奋地计划了一些有意思的事，还有很多很多。
+We happily chatted for over three hours after meeting. I was surprised and delighted to hear that he often reads my weekly reviews; I learned about his life state and thoughts after leaving Microsoft, consulted him about some of my confusions regarding work planning and development direction, collided on some ideas about independent blogs, front-end learning, and self-media, excitedly planned some interesting things, and much more.
 
-三年前刚点开 Randy 博客主页的我一定不会想到有一天能和他在北京的一家咖啡厅里面对面畅谈，追星成功的喜悦之余，也感慨自己一路走来的起伏与变化，一切似乎都值得了。
+The me who first clicked on Randy's blog homepage three years ago would never have imagined that one day I would be face-to-face with him in a coffee shop in Beijing, chatting freely. Besides the joy of successfully meeting my idol, I also marveled at the ups and downs and changes I've been through. Everything seemed worth it.
 
-## 考科目二
+## Taking the Driver's Test
 
 ![kemu2_feichirensheng](https://image.pseudoyu.com/images/kemu2_feichirensheng.jpg)
 
-大四的时候曾在大学附近的一个驾校学过一段时间车，也考完了科目二，但是后续因为毕业、去香港读书和疫情等种种原因，一直拖到过期了。而当时烈日下练车的不好体验让我对学车这件事一直没什么热情，甚至还有些抵触。直到今年才下定决心开始。
+During my senior year, I once learned to drive at a driving school near the university and even passed the second stage of the test. But due to various reasons like graduation, going to Hong Kong for studies, and the pandemic, I kept putting it off until it expired. The unpleasant experience of practicing driving under the scorching sun back then made me lack enthusiasm for learning to drive, and even feel somewhat resistant. It wasn't until this year that I made up my mind to start again.
 
-年前考完了科目一后又拖到了 3 月中旬才开始练车。报名了周四上午的科目二考试，经过了四次 VR 模拟练车后，这周连着三天五点多起床坐班车去驾校实车练习，早起的痛苦和飘忽不定的点位让焦虑在周三达到了峰值，抱着随缘的心态参加了一早的考试，但是满分一次通过了，开心！！！毕业已经有两年多了，感觉很久没体会过的“考试”所带来的压力与成就感在考驾照上倒是找回来了。
+After passing the first stage of the test before the New Year, I procrastinated again until mid-March to start practicing driving. I signed up for the second stage test on Thursday morning, and after four VR simulated driving practices, I woke up at 5 AM for three consecutive days this week to take the shuttle bus to the driving school for real car practice. The pain of early rising and the unpredictable positioning points made my anxiety peak on Wednesday. I took the early morning test with a casual attitude, but passed with a perfect score on the first try, so happy!!! It's been over two years since I graduated, and I feel like I've regained the pressure and sense of achievement brought by "exams" that I haven't experienced for a long time through the driving test.
 
-不过由于上午学车，下午赶工作，第二天还得早起的魔鬼安排，在输入输出上本周有些难以顾及，希望下周的科三能顺利通过吧！
+However, due to the devil's schedule of learning to drive in the morning, rushing work in the afternoon, and having to get up early the next day, it was difficult to take care of input and output this week. I hope I can pass the third stage smoothly next week!
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select a few to list here, feeling more like a newsletter.
 
-#### 书籍
+#### Books
 
-- [**红与黑**](https://book.douban.com/subject/35781152/)，从一个视频看到的讲解，关于于连的自尊和因此表现出来的傲慢的描述印象很深，正在看。
-- [**加缪手记**](https://book.douban.com/subject/34802764/)，刚开始看。
+- [**The Red and the Black**](https://book.douban.com/subject/35781152/), saw an interpretation from a video, the description of Julien's self-esteem and the arrogance he displayed because of it left a deep impression, currently reading.
+- [**Notebooks**](https://book.douban.com/subject/34802764/) by Albert Camus, just started reading.
 
-#### 收藏
+#### Bookmarks
 
 - [GitHub - RSS3-Network/etherface: Ethereum Signature Database](https://github.com/RSS3-Network/etherface)
 
-#### 文章
+#### Articles
 
-- [用 Grafana + InfluxDB 可视化 APR——Binance（币安）和欧易（OKX）简单赚币（理财）对比](https://nova.moe/crypto-simple-earn/)
+- [Visualizing APR with Grafana + InfluxDB — Comparing Binance and OKX Simple Earn](https://nova.moe/crypto-simple-earn/)
 
-#### 视频
+#### Videos
 
-- [study vlog #49 | 越加班越想学习 | 程序员下班后的学习日常｜务必多多记录生活｜英语学习｜看完了《365 天的静心冥想》｜一些碎碎念](https://www.bilibili.com/video/BV1x1421S7Y3)
-- [在世界的尽头，我们重新开始吧！](https://www.bilibili.com/video/BV1fq421A7aj)
+- [study vlog #49 | The more overtime, the more I want to study | A programmer's after-work study routine | Must record life more | English learning | Finished "365 Days of Mindful Meditation" | Some random thoughts](https://www.bilibili.com/video/BV1x1421S7Y3)
+- [At the end of the world, let's start over!](https://www.bilibili.com/video/BV1fq421A7aj)
 
-#### 剧集
+#### TV Series
 
-- [**三体 第一季**](http://movie.douban.com/subject/35196946/)，我不算是三体的原著党，之前看腾讯出的国内版本观感上也没什么怨言，但依然对奈飞版本有挺高的期待，刚出来就花了几天刷完了，整体来说画面、剧情和节奏都还可以，但也没看到什么亮点，算是合格的会让人期待第二季的改编吧。
+- [**The Three-Body Problem Season 1**](http://movie.douban.com/subject/35196946/), I'm not exactly a purist for the original Three-Body Problem novel, and I didn't have many complaints about the viewing experience of the domestic version produced by Tencent before. But I still had quite high expectations for the Netflix version. I binge-watched it in a few days as soon as it came out. Overall, the visuals, plot, and pacing are all acceptable, but I didn't see any highlights. It's a qualified adaptation that will make people look forward to the second season.
 
-#### 音乐
+#### Music
 
 - [**Merry Christmas Mr. Lawrence**](https://open.spotify.com/track/6WY4wvlmgccWapnIg14Vy0) by Ryuichi Sakamoto

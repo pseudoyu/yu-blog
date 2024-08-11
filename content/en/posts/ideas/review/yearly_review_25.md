@@ -1,5 +1,5 @@
 ---
-title: "25 岁的自白：花束般的恋爱"
+title: "Confession at 25: A Love Like a Flower Bouquet"
 date: 2022-06-06T00:01:29+08:00
 draft: false
 tags: ["review", "future", "life", "work", "love", "romance"]
@@ -8,90 +8,90 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
 ![yu_self](https://image.pseudoyu.com/images/yu_self.png)
 
-现在是 2022 年 6 月 6 日，我 25 岁了。其实自两年前的今天发的那篇 『[23 岁的自白：去追寻意义](https://www.pseudoyu.com/en/2020/06/06/yearly_review_23/)』之后，有打算每年都写一篇，算是对自己过去这或许精彩或许碌碌的一年作一个交代。
+Today is June 6, 2022, and I am 25 years old. In truth, since that article I wrote two years ago on this day, "Confessions at 23: Pursuing Meaning," I had intended to write one every year, as a way to account for the year past, whether it was splendid or mundane.
 
-23 岁确实发生了很多事，但每次打开空白文档时都不知如何下笔。跟高中或是大学不同，这一年经历了很多变动，两个亲近的家人相继离世、感情变动、跨专业读研的压力、求职的焦虑...
+Much indeed happened when I was 23, but each time I opened a blank document, I found myself at a loss for words. Unlike high school or university, this year brought many changes: the passing of two close family members, fluctuations in my love life, the pressure of pursuing graduate studies in a different field, the anxiety of job hunting...
 
-已经很难用一个明确的主题或是几个关键词来概括这些经历，挣扎了几次，最终还是放弃了。也安慰自己说，还有跨年，等工作与未来一段时间的生活状态有更多确定性了，自己想说的一定更多吧。却一直拖到了现在。
+It became difficult to encapsulate these experiences under a clear theme or a few keywords. After struggling several times, I ultimately gave up. I consoled myself, thinking there was still the new year, and when work and my life situation for the foreseeable future became more certain, I would surely have more to say. Yet, I procrastinated until now.
 
-那刚刚过去的 24 岁这一年呢？
+What of this past year, my 24th?
 
-## 关于爱情
+## On Love
 
 {{<audio src="audios/I_fell_in_love_like_a_flower_bouquet.mp3" caption="《花束みたいな恋を - 大友良英》" >}}
 
 ---
 
-想来也挺有意思，这一年也发生了很多事，而在回忆的时候，却可以用『花束般的恋爱』这一个词来概括。
+It's quite interesting to reflect on it. Many things happened this year as well, yet in reminiscing, it can all be encapsulated by the phrase "a love like a flower bouquet."
 
-扪心自问，自己并不是一个面对感情很成熟的人，追求自我、常常害怕承诺、人际界限也处理得并不明白，这些可以称之为“渣男”品质的 buff 一个没少。但我又似乎是一个幸运的人，~~遇到了~~遇到过愿意包容并陪着我慢慢成长的她。
+To be honest with myself, I am not a person who handles emotions maturely. I pursue self-interest, often fear commitment, and struggle to manage interpersonal boundaries—these "player" qualities, as they might be called, are all present. Yet, I seem to be a fortunate person, having ~~met~~ once met someone willing to accept and grow alongside me.
 
-这段感情是充满着期待与美好开始的，两个很像的人，有着共同的目标，有着自己热爱的东西，作为同路人携手向前。有很长一段时间我都沉浸在这种幸福的状态中，甚至怀疑自己值不值得这种幸运，毕竟自己曾经真的是一个很烂的人，也做了一些糟糕的事，得到原谅已经是万幸，怎么敢奢求更多。
+This relationship began full of anticipation and beauty—two similar souls with shared goals and passionate interests, walking hand in hand as fellow travelers. For a long time, I was immersed in this state of bliss, even doubting whether I deserved such fortune. After all, I was once truly a flawed person who had done some regrettable things; being forgiven was already a blessing, how could I dare ask for more?
 
-在过去的这一年里，我变了很多，开始变得愿意去思考未来，期待未来，也开始给出一些承诺，不再害怕改变自己的生活。两个人一起来到北京，养猫、存钱、努力工作，装点着忙碌却充实的生活，期待着能一起回杭州的新阶段，勾画着属于两个人的未来。我常常想，这可能就是我的完美爱情了吧。
+Over the past year, I changed a great deal. I began to think about and look forward to the future, to make promises, no longer fearing changes in my life. Together, we came to Beijing, adopted a cat, saved money, worked hard, adorning our busy yet fulfilling lives. We anticipated a new phase of returning to Hangzhou together, sketching out a future that belonged to us both. I often thought, this must be my perfect love.
 
-可是，感情最忌讳的就是自我满足的付出与理所应当的惯性吧。可能自己一直自认为是一个还算合格的男朋友吧，时间空间上做到了陪伴，还算努力工作，她想要的东西也会尽量满足，但可能也就仅此而已了。仔细回想了一下，有多久没有两个人敞开心扉聊聊了，有多久没有在某个特定的节日精心准备惊喜了，又有多久没有两个人一起出去好好地约会了，甚至在最重要的生日，都忘了吹蜡烛许愿，拖到了第二天来弥补，还有很多很多没有做到的。
+However, the most perilous aspects of a relationship are self-satisfied giving and taking things for granted. Perhaps I always considered myself a fairly good boyfriend—present in time and space, working hard, trying to fulfill her desires as much as possible—but maybe that was the extent of it. Thinking back carefully, how long had it been since we opened our hearts to each other? How long since I had meticulously prepared a surprise for a special occasion? How long since we went on a proper date together? Even on the most important birthday, I forgot to light candles and make wishes, postponing it to the next day to make amends. There were so many things I failed to do.
 
-也许有很多理由吧，可以用来让自己稍“心安”一点。比如两个人约好了不整什么虚的，甚至提前列好了未来一年互相送的对方想要的礼物；比如连续两个月每周末都加班，实在是没有心力筹划那么多出去玩的行程；比如两个人都已经从朝夕相处的同专业同学转向了新的工作阶段，已经没有那么多共同话题了；比如，...
+Perhaps there are many reasons to make myself feel a little more at ease. For instance, we had agreed not to do anything superficial, even listing in advance the gifts we wanted to give each other for the coming year. Or that I had been working overtime every weekend for two consecutive months, leaving no energy to plan outings. Or that we had both transitioned from being classmates in the same major who spent every moment together to a new stage of work, with fewer common topics to discuss. Or perhaps...
 
-当这段感情真的以一种戛然而止的方式结束后，我才后知后觉地明白，也许她并没有从中得到属于她的爱情。当爱情的幻想与现实慢慢重叠，当距离冲淡了热恋期的滤镜，当我将自己的情绪与分享欲都寄托在感情上时，也许感情已经慢慢背离了原本的轨道了，只是，我是那个一直被保护的幸福的人罢了。
+It was only after this relationship ended so abruptly that I belatedly realized she might not have found her version of love in it. When the fantasy of love slowly overlapped with reality, when distance diluted the filter of the honeymoon phase, when I invested all my emotions and desire to share in the relationship, perhaps it had already slowly deviated from its original path. Only, I was the one who remained blissfully protected.
 
 ![flowers_movie_screenshot](https://image.pseudoyu.com/images/flowers_movie_screenshot.jpg)
 
-我一直以来都自认为不属于一个典型的浪漫主义者，从没期待着自己的生活能够像书籍电影那样精彩，只是尽可能依从着自己的情感和意愿继续走下去。未曾想我会从这样一部电影里看到这么多自己生活的影子，甚至看到了结局。
+I've always considered myself not to be a typical romantic, never expecting my life to be as exciting as those in books or movies, simply trying to follow my own feelings and wishes as I move forward. I never imagined I would see so many reflections of my own life in such a film, even glimpsing the ending.
 
-但是，事业刚起步的生活阶段和感情真的没办法共存么？
+But is it truly impossible for a budding career and love to coexist?
 
-时至今日，我依然不这么觉得，借用 『[小鹿 Lawrence](https://space.bilibili.com/37029661)』某个视频里的一句话：
+To this day, I still don't believe so. To borrow a line from one of "[Xiao Lu Lawrence](https://space.bilibili.com/37029661)'s" videos:
 
-> 她其实是一个很容易满足的人，喂到了小熊猫，就能开心个好几天，甚至是我不用加班剪片子，也可以高兴到手舞足蹈，也会在看完『花束般的恋爱』后，哭得像个傻子。而我共情的点和米老师不太一样，是他们去书店，男主角一直在看『成功学』的书，因为我最近在看管理学。我理解他是因为，我们不是不喜欢文学了，而是真的有的时候生活只有拼了命的去改变、去适应，才能勉强的，维持现状。
+"She is actually a person easily satisfied. Feeding a red panda could make her happy for days, or even me not having to work overtime editing videos could make her dance with joy. She would also cry like a fool after watching 'A Flower Bouquet-like Love.' My point of empathy differs from Mr. Mi's; it's when they go to the bookstore, and the male lead keeps reading 'success' books, because I've been reading management books lately. I understand him because, it's not that we no longer like literature, but sometimes in life, we have to change and adapt desperately just to barely maintain the status quo."
 
-有时候觉得，“维持现状”这个词真美好呀。在有的阶段我们可以惬意地感受、享受爱情的美好，而在有的阶段，仅仅是维持就已经需要拼了命地改变了。
+Sometimes I think, "maintaining the status quo" is such a beautiful phrase. In some stages of life, we can leisurely feel and enjoy the beauty of love, while in others, merely maintaining requires desperate changes.
 
-总是觉得两个人的喜欢是基于互相的仰慕，对两个人的个性、所做的事、所热爱的东西出自内心的认可。被仰慕的人内心会被填满，而仰慕者眼神和举止都是在发光。也许自己将更少的关注放在对方作为独立个体的一举一动上了，也许自己曾经的很多吸引的点已经被淹没在生活工作琐事中，不再值得了。有很多的也许，但无论接受与否，至少这个阶段的缘分已经结束了。
+I've always felt that the fondness between two people is based on mutual admiration—a heartfelt recognition of each other's personalities, actions, and passions. The admired person feels fulfilled, while the admirer's eyes and gestures radiate light. Perhaps I had placed less focus on the other person's individual actions, perhaps many of my once-attractive qualities had been submerged in the trivialities of life and work, no longer worthy of admiration. There are many perhapses, but regardless of acceptance, at least this phase of our destiny has concluded.
 
-不知不觉已经一个月过去了，令我自己都惊讶的是自己并没有那么理所应当地自暴自弃，就像最近刚看完的一部挺喜欢的剧，『我的解放日志』中的一句话：
+A month has passed imperceptibly, and to my own surprise, I haven't fallen into the expected self-destruction. It's like a line from a drama I recently enjoyed, "My Liberation Notes":
 
-> “但我很想挣脱，我希望我的人生，可以真正幸福快乐起来。所以你来仰慕我吧，这样到了春天，你我都会蜕变。”
+"But I want to break free. I hope my life can truly become happy. So, come and admire me. This way, when spring arrives, both you and I will transform."
 
-其实自己很少会公开讲述自己的感情，没想到以这样的方式碎碎念了那么多。这段感情于我的意义很重大，很遗憾没有在合适的时机分享出来。到了现在，大概已经是过期的糖了。
+In truth, I rarely speak openly about my relationships. I never expected to ramble on so much in this manner. This relationship held great significance for me, and I regret not sharing it at the right moment. Now, it's probably expired sweetness.
 
-我依然在找寻这段感情或是这段人生的救赎，我的内心依然会保留或是重新燃起这份仰慕，直到没有办法继续前进吧，大概吧，无所谓结局，被爱的人内心会被填充，会感受到幸福吧。
+I'm still searching for redemption in this relationship or this phase of life. My heart will continue to preserve or rekindle this admiration until I can no longer move forward, I suppose. Regardless of the outcome, those who are loved will have their hearts filled and experience happiness.
 
-## 关于其他
+## On Other Matters
 
-过去一年的工作历程中，从步入工作的忐忑，到临危受命地负责了一个项目的痛苦挣扎，再到一切渐渐步入正轨。在工作中得到了很多学习成长，遇到了一个很契合的 leader 和一个很有趣的项目团队，另一位 leader 还常常在 Twitter 上鼓励我沉淀成长，很感谢自己的第一份工作遇到了他们。
+In my work journey over the past year, I moved from the trepidation of entering the workforce, through the painful struggle of being thrust into managing a project, to everything gradually falling into place. I gained much learning and growth from work, met a very compatible leader and an interesting project team. Another leader often encourages me on Twitter to consolidate my growth. I'm grateful that my first job allowed me to meet them.
 
-很感慨，虽然也有不少起起伏伏，但现在回想起来却大多无足轻重了，自己却为了这些忽视了生活和情感中真正重要的部分，大概这就是人生吧，永远也不可能在上帝视角下看待自己的一举一动。但至少，自己还在坚持选择的行业里做着喜欢的事，这已经是最大的幸运了吧。
+It's quite emotional to reflect. Although there were many ups and downs, looking back now, most seem trivial. Yet, I neglected truly important aspects of life and emotions because of these. I suppose this is life—it's never possible to view one's every move from God's perspective. But at least I'm still doing what I love in the industry I chose to pursue. This is perhaps the greatest fortune.
 
-有开始重新好好写博客，这一年里发布了 22 篇博文，虽然有一半都是上个月更新的。填了自己一直想写的博客搭建的坑，收到了不少关注和评论，也认识了不少志同道合的朋友。因这几篇文章还入驻了『[少数派](https://sspai.com/u/pseudoyu/posts)』成为了作者，文章被其创始人转了，还收到了约稿邀请，很有意思的体验。
+I began writing blog posts again in earnest. This year, I published 22 blog posts, although half were updated just last month. I filled the gap I had long wanted to write about blog setup, received quite a bit of attention and comments, and met many like-minded friends. Because of these articles, I became an author on "[Sspai](https://sspai.com/u/pseudoyu/posts)", had an article shared by its founder, and even received invitations for commissioned articles—an interesting experience.
 
-新的一年里也还是要继续坚持输出吧。
+In the new year, I should continue to persist in output.
 
 ![yu_blog_update](https://image.pseudoyu.com/images/yu_blog_update.png)
 
-一直想好好做开源，但是没想到却是上个月重新整理了自己的各类工具发布的一个 GitHub 项目『[pseudoyu/yu-tools 个人工具箱](https://github.com/pseudoyu/yu-tools)』，让我收获了第一个 100 star，意外之喜。
+I've always wanted to contribute properly to open source, but unexpectedly, it was a GitHub project I published last month, reorganizing my various tools, "[pseudoyu/yu-tools Personal Toolbox](https://github.com/pseudoyu/yu-tools)", that earned me my first 100 stars—an unexpected joy.
 
-[![Star History Chart](https://api.star-history.com.png?repos=pseudoyu/yu-tools&type=Date)](https://star-history.com/#pseudoyu/yu-tools&Date)
+[![Star History Chart](https://api.star-history.com/png?repos=pseudoyu/yu-tools&type=Date)](https://star-history.com/#pseudoyu/yu-tools&Date)
 
-之后新的一年能沉下心多输入和沉淀，对开源项目能有更多代码贡献吧。
+In the coming year, I hope to focus more on input and consolidation, making more code contributions to open source projects.
 
-大概自己还有着英语专业的魂，在『[GoCN 翻译小组](https://github.com/gocn/translator)』完成了 8 篇 Go 语言相关的技术文章的翻译，参与区块链安全余弦大佬牵头的『[区块链黑暗森林自救手册](https://darkhandbook.io)』，参与完成了英文版本的翻译和全球发布，也算是为区块链行业做了一些微小的贡献。
+Perhaps I still carry the soul of an English major. I completed the translation of 8 Go language-related technical articles in the "[GoCN Translation Group](https://github.com/gocn/translator)", participated in the "[Blockchain Dark Forest Self-Rescue Manual](https://darkhandbook.io)" led by the blockchain security expert Cosine, completing the English version translation and global release. This can be considered a small contribution to the blockchain industry.
 
-大概在技术之路上这些也仅仅是微不足道，但至少有在好好前进吧。
+Perhaps these are merely insignificant steps on the path of technology, but at least I'm moving forward.
 
-## 总结
+## Conclusion
 
-这就是我的 24 岁，平凡却又难忘的一年岁月。
+This was my 24th year, ordinary yet unforgettable.
 
 ![lawrence_comments](https://image.pseudoyu.com/images/lawrence_comments.png)
 
-对于即将来到的 25 岁，我说不上有太多期待。引用一下我对『[小鹿 Lawrence](https://space.bilibili.com/37029661)』一个视频转发评论中所说的话作为结束吧。
+For the upcoming 25th year, I can't say I have too many expectations. Let me end with a quote from my comment on a video by "[Xiao Lu Lawrence](https://space.bilibili.com/37029661)":
 
-> 人生就是有这样的时候，需要勉强努力一个人生活下去。
+"There are times in life when we need to struggle and force ourselves to live on alone."
 
-感谢他作为我最爱的博主在动态下的评论，很受鼓舞。也感谢身边所有关心我的亲人朋友，新的一年，也请多多关照。
+I'm grateful for his comment as my favorite blogger on that post; it was very encouraging. I'm also thankful for all the family and friends who care about me. In the new year, please continue to look after me.

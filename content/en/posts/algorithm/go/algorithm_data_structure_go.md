@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 刷题常用数据结构（Go 篇）"
+title: "Common Data Structures for LeetCode Problem Solving (Go Edition)"
 date: 2021-05-29T00:12:17+08:00
 draft: false
 tags: ["go","algorithm", "leetcode"]
@@ -8,49 +8,49 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-最近重新开始用 Go 刷 LeetCode 算法题，针对工作需求的算法刷题其实主要是锻炼解决问题的思路和代码撰写能力，而不是像算法竞赛那样用复杂的数据结构，所以常用的数据结构和操作并不多，熟练使用也能很好地提升自己的代码质量，特此做一个整理，以便于查阅。
+Recently, I've resumed solving LeetCode algorithm problems using Go. For work-related algorithm practice, the main focus is on honing problem-solving approaches and coding skills, rather than employing complex data structures as in algorithmic competitions. The commonly used data structures and operations are relatively few, but mastering them can significantly improve one's code quality. I've compiled this summary for easy reference.
 
-## 数据结构
+## Data Structures
 
-### 数组
+### Arrays
 
-#### 初始化
+#### Initialization
 
 ```go
-// 初始化一个大小为10，默认值为0的数组
+// Initialize an array of size 10 with default value 0
 nums := make([10]int)
 
-// 初始化一个二位boolean数组
+// Initialize a two-dimensional boolean array
 visited := make([5][10]int)
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```go
 for i := 0; i < len(nums); i++ {
-    // 访问num[i]
+    // Access num[i]
 }
 ```
 
-### 字符串 String
+### Strings
 
-#### 初始化
+#### Initialization
 
 ```go
 s1 := "hello world"
 
-// 创建多行字符串
+// Create a multi-line string
 s2 := `This is a
 multiline
 string.`
 ```
 
-#### 访问字符串
+#### Accessing Strings
 
 ```go
-// 可直接用索引访问字节（非字符）
+// Directly access bytes (not characters) using index
 s1 := "hello world"
 first := s[0]
 
@@ -58,176 +58,175 @@ s2 := []byte(s1)
 first := s2[0]
 ```
 
-#### 修改字符串
+#### Modifying Strings
 
 ```go
-// 字符串的值是不可变的，可以分配一个新字符串值
+// String values are immutable, can assign a new string value
 s := "hello"
 t := s
 
-// 将字符串转为[]byte或[]rune可以进行修改
+// Convert string to []byte or []rune for modification
 s1 := "hello world"
 s2 := []byte(s1)
 s2[0] = 'H'
 s3 := string(s2)
 ```
 
-#### 查询字符是否属于特定字符集
+#### Check if Character Belongs to Specific Character Set
 
 ```go
-    // 判断字符串s的i索引位置字符是否是元音
+    // Check if the character at index i of string s is a vowel
     if strings.Contains("aeiouAEIOU", string(s[i])) {
         // ...
     }
 ```
 
-#### 判断字符串大小
+#### Compare Strings
 
 ```go
 if s1 == s2 {
-    // 相等
+    // Equal
 } else {
-    // 不相等
+    // Not equal
 }
 
-// Compare 函数可以用于比较，1大于，0相等，-1小于
-// EqualFold 函数忽略大小写后比较
+// Compare function can be used for comparison, 1 greater, 0 equal, -1 less
+// EqualFold function compares ignoring case
 ```
 
-#### 拼接字符串
+#### Concatenate Strings
 
 ```go
-// 支持直接用+进行连接，但是效率不高
+// Directly use + for concatenation, but not efficient
 s1 := "hello "
 s2 := s1 + "world"
 ```
 
-#### 高效拼接字符串
+#### Efficient String Concatenation
 
 ```go
-// bytes.Buffer可以一次性连接
+// bytes.Buffer can concatenate at once
 var b bytes.Buffer
 b.WriteString("Hello ")
 b.WriteString("World")
 b1 := b.String()
 
-// 多个字符串拼接
+// Concatenate multiple strings
 var strs []string
 strings.Join(strs, "World")
 ```
 
-#### 整型 (或任意数据类型) 转为字符串
+#### Convert Integer (or Any Data Type) to String
 
 ```go
-// Itoa转换
+// Itoa conversion
 i := 123
 t := strconv.Itoa(i)
 
-// Sprintf转换
+// Sprintf conversion
 i := 123
 t := fmt.Sprintf("%d", i)
 ```
 
-### 切片 slice
+### Slices
 
-#### 初始化
+#### Initialization
 
 ```go
-// 初始化一个存储String类型的切片
+// Initialize a slice storing String type
 slice := make([]string, 0)
 slice := []string
 
-// 初始化一个存储int类型的切片
+// Initialize a slice storing int type
 slice := make([]int, 0)
 slice := []int
 ```
 
-#### 常用方法
+#### Common Methods
 
 ```go
-// 判断是否为空
+// Check if empty
 if len(slice) == 0 {
-    // 为空
+    // Empty
 }
 
-// 返回元素个数
+// Return number of elements
 len()
 
-// 访问索引元素
+// Access element by index
 slice[i]
 
-// 在尾部添加元素
+// Append element at the end
 slice = append(slice, 1)
 ```
 
-### 通过切片模拟栈和队列
+### Simulating Stack and Queue with Slices
 
-#### 栈
+#### Stack
 
 ```go
-// 创建栈
+// Create stack
 stack := make([]int, 0)
-// push压入
+// Push
 stack = append(stack, 10)
-// pop弹出
+// Pop
 v := stack[len(stack) - 1]
 stack = stack[:len(stack) - 1]
-// 检查栈空
+// Check if stack is empty
 len(stack) == 0
 ```
 
-#### 队列
+#### Queue
 
 ```go
-// 创建队列
+// Create queue
 queue := make([]int, 0)
-// enqueue入队
+// Enqueue
 queue = append(queue, 10)
-// dequeue出队
+// Dequeue
 v := queue[0]
 queue = queue[1:]
-// 长度0为空
+// Length 0 is empty
 len(queue) == 0
 ```
 
 ### Map
 
 ```go
-
-// 创建
+// Create
 m := make(map[string]int)
-// 设置kv
+// Set key-value
 m["hello"] = 1
-// 删除k
+// Delete key
 delete(m,"hello")
-// 遍历
+// Iterate
 for k, v := range m{
-    // 操作
+    // Operation
 }
 
-// map键需要可比较，不能为slice、map、function
-// map值都有默认值，可以直接操作默认值，如：m[age]++ 值由0变为1
-// 比较两个map需要遍历，其中的kv是否相同，因为有默认值关系，所以需要检查val和ok两个值
+// Map keys need to be comparable, cannot be slice, map, function
+// Map values have default values, can operate directly on default values, e.g., m[age]++ value changes from 0 to 1
+// To compare two maps, need to iterate and check if kv are the same, due to default value relationship, need to check both val and ok
 ```
 
-### 标准库
+### Standard Library
 
 #### sort
 
 ```go
-// int排序
+// Sort integers
 sort.Ints([]int{})
-// 字符串排序
+// Sort strings
 sort.Strings([]string{})
 ```
 
 #### math
 
 ```go
-// int32 最大最小值
+// int32 max and min values
 math.MaxInt32
 math.MinInt32
-// int64 最大最小值（int默认是int64）
+// int64 max and min values (int defaults to int64)
 math.MaxInt64
 math.MinInt64
 ```
@@ -235,39 +234,39 @@ math.MinInt64
 #### copy
 
 ```go
-// 删除a[i]，可以用 copy 将i+1到末尾的值覆盖到i,然后末尾-1
+// To delete a[i], can use copy to overwrite i to end values to i, then end -1
 copy(a[i:], a[i+1:])
 a = a[:len(a)-1]
 
-// make创建长度，则通过索引赋值
+// make creates length, then assign value by index
 a := make([]int, n)
 a[n] = x
 
-// make长度为0，则通过append()赋值
+// make length 0, then assign value using append()
 a := make([]int, 0)
 a = append(a, x)
 ```
 
-### 类型转换
+### Type Conversion
 
 ```go
-// byte转数字
-s = "12345"  // s[0] 类型是byte
+// byte to number
+s = "12345"  // s[0] is of type byte
 num := int(s[0] - '0') // 1
 str := string(s[0]) // "1"
 b := byte(num + '0') // '1'
 fmt.Printf("%d%s%c\n", num, str, b) // 111
 
-// 字符串转数字
+// string to number
 num, _ := strconv.Atoi()
 str := strconv.Itoa()
 ```
 
-## 总结
+## Conclusion
 
-刷题路漫漫...加油！
+The journey of problem-solving is long... Keep going!
 
-## 参考资料
+## References
 
-> 1. [LeetCode 官网](https://leetcode.com)
+> 1. [LeetCode Official Website](https://leetcode.com)
 > 2. [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern)

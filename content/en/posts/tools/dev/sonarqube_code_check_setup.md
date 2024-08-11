@@ -1,5 +1,5 @@
 ---
-title: "SonarQube 代码质量检查工具配置"
+title: "SonarQube Code Quality Check Tool Configuration"
 date: 2021-10-27T01:57:23+08:00
 draft: false
 tags: ["code check", "devops"]
@@ -8,70 +8,70 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-最近负责公司一部分项目的代码仓库管理及 code review 等，用到了 SonarQube 这一代码质量检查工具，通过集成 GitLab CI，能够实现在每次合并请求/提交时自动执行代码质量检查并输出检测报告。
+Recently, I've been responsible for managing code repositories and conducting code reviews for some of the company's projects. I've been using SonarQube, a code quality check tool that, when integrated with GitLab CI, can automatically perform code quality checks and output inspection reports for each merge request or commit.
 
-本文记录了通过 GitLab 仓库导入项目的配置全流程，以便其他项目配置时参考。
+This article documents the complete configuration process for importing projects through GitLab repositories, serving as a reference for configuring other projects.
 
-## SonarQube 项目配置
+## SonarQube Project Configuration
 
-### 项目面板
+### Project Dashboard
 
 ![sonarqube_homepage](https://image.pseudoyu.com/images/sonarqube_homepage.png)
 
-SonarQube 项目面板如上图所示，会以评级的方式对项目代码质量进行分析。每次进行代码分析后，可以很直观地对代码进行多维度的分析，在合并分支前，提交人员可参照分析结果对代码进行修改完善，减少了代码审阅人员不必要的工作量。
+The SonarQube project dashboard is shown in the image above, which analyzes project code quality using a rating system. After each code analysis, it provides a multi-dimensional analysis of the code in a visually intuitive manner. Before merging branches, submitters can refer to the analysis results to modify and improve their code, reducing unnecessary workload for code reviewers.
 
 ![sonarqube_code_detail](https://image.pseudoyu.com/images/sonarqube_code_detail.png)
 
-点击具体指标则可以深入代码文件对检测出的问题进行标识，为人工 code review 提供了有效参照。
+Clicking on specific metrics allows for a deeper dive into code files, identifying detected issues and providing an effective reference for manual code review.
 
-### 项目配置
+### Project Setup
 
 ![how_to_analyze](https://image.pseudoyu.com/images/how_to_analyze.png)
 
-点击右上角「新增项目」，可选择不同的分析方式，支持 Jenkins, GitLab CI 及 GitHub Actions 等常用代码仓库自动化工作流方式，本文将主要说明 GitLab CI 的配置方式。
+Click "Add Project" in the upper right corner to choose from different analysis methods. It supports common code repository automation workflows such as Jenkins, GitLab CI, and GitHub Actions. This article will primarily explain the configuration method for GitLab CI.
 
 ![import_gitlab_project](https://image.pseudoyu.com/images/import_gitlab_project.png)
 
-选择 GitLab CI 后，选择关联 GitLab 帐号中的项目仓库，进行后续配置。
+After selecting GitLab CI, choose the project repository from your associated GitLab account to proceed with further configuration.
 
 ![project_code](https://image.pseudoyu.com/images/project_code.png)
 
-以 Go 项目为例，首先，我们需要按照提示手动创建 `sonar-project.properties` 文件并粘贴配置信息。
+Taking a Go project as an example, first, we need to manually create a `sonar-project.properties` file and paste the configuration information as instructed.
 
 ![create_token.png](https://image.pseudoyu.com/images/create_token.png.png)
 
 ![config_cicd_var](https://image.pseudoyu.com/images/config_cicd_var.png)
 
-然后需要为项目创建 Token，并在 GitLab 中 「设置」-「CI/CD」-「变量」配置选项中填写 Token 及 URL 变量值。
+Then, we need to create a Token for the project and fill in the Token and URL variable values in GitLab under "Settings" - "CI/CD" - "Variables" configuration options.
 
-### CI 配置
+### CI Configuration
 
-进行基本项目配置后，需要通过 `.gitlab-ci.yml` 配置 GitLab CI 工作流，我的配置如下图所示：
+After the basic project configuration, we need to configure the GitLab CI workflow through `.gitlab-ci.yml`. My configuration is shown in the image below:
 
 ![config_gitlan_ci](https://image.pseudoyu.com/images/config_gitlan_ci.png)
 
-我主要设置了当仓库进行合并请求时，如 `src` 目录下的代码有改变，则执行 `testing` 流水线，通过 SonarQube 进行代码质量检查。
+I have primarily set it up so that when a merge request is made to the repository, if there are changes in the `src` directory, the `testing` pipeline is executed, performing a code quality check through SonarQube.
 
-GitLab CI 中还可以添加部署等脚本，与 SonarQube 工具配合使用，以实现工作流的优化。项目的 CI 脚本需要添加相应的 Runner 运行。
+GitLab CI can also include deployment scripts, used in conjunction with the SonarQube tool to optimize workflows. The project's CI script needs to add corresponding Runners to execute.
 
 ![sonar_check_begin](https://image.pseudoyu.com/images/sonar_check_begin.png)
 
-当检测到合并请求时，sonarqube-check 会被触发执行，最终返回执行结果。
+When a merge request is detected, the sonarqube-check will be triggered and executed, ultimately returning the execution results.
 
 ![sonar_check_success](https://image.pseudoyu.com/images/sonar_check_success.png)
 
 ![sonarqube_status](https://image.pseudoyu.com/images/sonarqube_status.png)
 
-此时点开 SonarQube 中项目的页面，则已经有了分析信息，本次代码质量检查完成。
+At this point, opening the project page in SonarQube will show the analysis information, completing this code quality check.
 
-## 总结
+## Conclusion
 
-以上就是对 GitLab 仓库中现有 Go 项目配置 SonarQube 代码质量检查工具的全流程。代码质量自动化检查是开发运维规范流程中重要的环节，尤其是在团队项目中，好的规范有助于工作流的优化，提升项目的整体质量。
+The above describes the complete process of configuring the SonarQube code quality check tool for an existing Go project in a GitLab repository. Automated code quality checks are an important part of standardized development and operations processes, especially in team projects. Good standards help optimize workflows and improve overall project quality.
 
-后续也将会对工作中用到的开发运维规范开源工具配置与使用进行记录，如有错漏，敬请交流指正。
+In the future, I will continue to document the configuration and use of open-source tools for development and operations standards used in work. If there are any errors or omissions, please feel free to communicate and correct.
 
-## 参考资料
+## References
 
 > 1. [SonarQube Document](https://docs.sonarqube.org/latest/)

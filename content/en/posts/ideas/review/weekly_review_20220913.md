@@ -1,5 +1,5 @@
 ---
-title: "周报 #11 - 心情、旅行与不期而遇"
+title: "Weekly Review #11 - Moods, Travels and Serendipities"
 date: 2022-09-13T12:53:53+08:00
 draft: false
 tags: ["review", "life", "work", "mood", "moment", "travel", "sea", "photography", "movie"]
@@ -8,99 +8,99 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-09-05` 到 `2022-09-12` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `September 5, 2022` to `September 12, 2022`.
 
-过去的这一周不论是周中还是中秋假期都还挺丰富的，工作渐渐变得忙碌但也有趣；日常也有了一些变化，不至于那么乏味和碌碌；也会在即使只有短短几十分钟的车程里习惯性地拿出 Kindle 翻上几页，很快便沉浸其中；出门也变得更多了，即使只是毫无目的地在街上走走。
+The past week was quite enriching, both during the workdays and the Mid-Autumn Festival holiday. Work gradually became busier but also more interesting; daily life saw some changes, no longer so dull and mundane; I've grown accustomed to pulling out my Kindle for a few pages even during short car rides of just a few dozen minutes, quickly becoming immersed; going out has become more frequent, even if it's just aimlessly walking the streets.
 
-大概一切都有在变好。
+Perhaps everything is getting better.
 
-## 心情
+## Mood
 
 ![yu_mood_review_20220913](https://image.pseudoyu.com/images/yu_mood_review_20220913.png)
 
-虽说平时话并不多，但自己大体上还是个挺情绪化的人，会因为一些突然闯入的心绪伤感，因为一部电影的结局而发呆许久，也会因为一些生活中的小小细节而感到莫名地欢喜。
+Though I'm not usually talkative, I'm quite an emotional person overall. I can be saddened by sudden intrusive thoughts, lost in contemplation for a long time because of a movie's ending, and inexplicably delighted by small details in life.
 
-我并不是一个对生活那么乐观的人，现在依旧觉得生活中的不幸远远多过幸运，在遭受痛苦时常常觉得自己理应承担这些。过去一两年经历了很多痛苦的事，有的是天灾人祸，遗憾而不甘；有的是自作自受，自责而悔恨。幸而有这样几位挚友，可能并不一定在身边，但过去的那些共同度过的惬意时光常常像是冬日暖阳般照亮我的至暗时刻。
+I'm not an optimistic person about life. Even now, I feel that misfortunes in life far outweigh the lucky moments, and when suffering, I often feel I deserve to bear these burdens. Over the past year or two, I've experienced many painful events - some were natural disasters or human tragedies, leaving regret and unwillingness; others were self-inflicted, causing self-reproach and remorse. Fortunately, I have a few close friends who, though not always by my side, often illuminate my darkest moments like winter sunshine with those comfortable times we shared in the past.
 
-但有时候也需要踏出自己的角落，走在阳光下。
+But sometimes one needs to step out of their corner and walk in the sunshine.
 
-> 今天早上起来晚了一点 出来上班的时候天已经挺晴的了 不过气温还好 有点风 在一边听歌（五月天的温柔） 突然感觉心情很好很好 已经很久很久没有那么放松 从心底比较愉悦的这种感受了
+> This morning I woke up a bit late. When I came out for work, the sky was already quite bright, though the temperature was still pleasant with a bit of wind. As I was listening to music (Mayday's "Tenderness"), I suddenly felt very, very good. It's been a long, long time since I felt so relaxed, this kind of joy from the bottom of my heart.
 
-我很庆幸能有这样的时刻，哪怕只是很短暂的情绪，也让我感受到自己与内心的某些部分和解了，连带着周遭的时空。
+I'm very grateful to have such moments, even if it's just a fleeting emotion, it makes me feel that I've reconciled with certain parts of myself, along with the surrounding time and space.
 
-## 旅行
+## Travel
 
-自己应该算不上一个旅游爱好者，之前有闲暇的时光大多宅在家里打发了，想到要计划各种出行琐事，兴致早已减了大半，更别说还要忍受热门景区的拥挤和吵闹了。
+I wouldn't consider myself a travel enthusiast. In the past, I mostly spent my free time at home. The thought of planning various travel matters would dampen my enthusiasm by half, let alone having to endure the crowds and noise of popular tourist spots.
 
-买了相机后，开始有了一些出门的念想，在实习和工作之余也常常随身带着相机出去转转，不知不觉走过了很多城市，拍下了很多记忆。后来看了『[小鹿 Lawrence](https://space.bilibili.com/37029661)』的旅拍视频后，在自己的出行清单里列了一条又一条，可始终未能兑现。
+After buying a camera, I started to have some thoughts of going out. I often carried my camera with me when I went out during internships and work, unknowingly walking through many cities and capturing many memories. Later, after watching "[Little Deer Lawrence](https://space.bilibili.com/37029661)"'s travel photography videos, I listed one item after another on my travel list, but never managed to fulfill them.
 
-8 月本来有去青岛旅行的计划，但因为工作和一些细碎的事未能成行（可能更多也是因为懒），而后疫情又开始各地蔓延，只能一拖再拖。所以当中秋第二天突然得知要去青岛出差时，欣喜的情绪甚至盖过了突发工作任务的压力。
+I had plans to travel to Qingdao in August, but couldn't make it due to work and some trivial matters (probably more because of laziness), and then the epidemic started spreading to various places again, so it kept being postponed. So when I suddenly learned that I had to go on a business trip to Qingdao on the second day of the Mid-Autumn Festival, the joy even overshadowed the pressure of the sudden work task.
 
-定了第二天一早的票，一边补眠一边看着沿途的风景。抵达后很幸运遇上了一位本地的出租车司机，攀谈几句后突发奇想地决定改行程，让他带着我绕着海边转一圈，一路走走停停，遇到不错的风景就下来吹吹海风，顺带着拍几张照。
+I booked a ticket for early the next morning, catching up on sleep while watching the scenery along the way. Upon arrival, I was lucky to meet a local taxi driver. After chatting for a bit, I made a spontaneous decision to change my itinerary, asking him to take me on a tour around the seaside. We drove, stopping here and there, getting out to enjoy the sea breeze when we encountered nice scenery, and taking a few photos along the way.
 
-这一个小时的旅程似乎是一个青岛旅游的缩印版本，没有看什么攻略，没有在几个景点之间奔波。有的景错过也就错过了，没有多少遗憾；而有的心绪感受到了，却会成为记忆中很美好的一部分，在许久之后也值得会心一笑。
+This one-hour journey seemed like a condensed version of a Qingdao tour. I didn't look at any travel guides, didn't rush between several scenic spots. Some scenery was missed, but there wasn't much regret; while some emotions were felt, they became a beautiful part of the memory, worth a smile even after a long time.
 
-因为只带了一只轻便的 55mm F1.8，却因为时间关系只能拍远景，所以匆匆几下快门的结果并不那么满意，但至少留下了一些记忆点，也勉强串了一个主题《海边的人们》。
+Because I only brought a light 55mm F1.8 lens, and due to time constraints, I could only take distant shots, so the results of the hurried few shots were not very satisfying. But at least some memory points were left, and I managed to string together a theme "People by the Sea".
 
 {{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_04.png" caption="A man">}}
 {{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_01.png" caption="Shoes">}}
 {{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_02.png" caption="A girl">}}
 {{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_03.png" caption="Family">}}
 
-## 不期而遇
+## Serendipities
 
-其实之前和挚友去泰国也是一样，比起曼谷的繁荣热闹，我们在清迈逗留了更久，有时候只是走在街道找一些不起眼的美食，或是跟着 Pokémon Go 的活动探索着城市的另一面。
+Actually, it was the same when I went to Thailand with my close friends before. Rather than the prosperity and bustle of Bangkok, we stayed longer in Chiang Mai, sometimes just walking on the streets looking for inconspicuous food, or exploring another side of the city following Pokémon Go activities.
 
-愈加觉得对于自己而言，旅行的重点早已不是那些“十佳”、“必去”和“绝美”的景色，而是旅途中的心绪感受，以及陪伴着走过的时光。在这样的心境下，所有的不期而遇反而更加美好。
+I increasingly feel that for me, the focus of travel is no longer those "top ten", "must-visit" and "breathtaking" sceneries, but the emotions felt during the journey, and the time spent with companions. In this state of mind, all the unexpected encounters become even more beautiful.
 
-看了小鹿最新一期视频 —— 《[不做攻略的旅行有多绝望...](https://www.bilibili.com/video/BV1pe411g7om)》，可能，下一站会是云南吧。
+I watched Little Deer's latest video - "[How Desperate is a Trip Without a Plan...](https://www.bilibili.com/video/BV1pe411g7om)". Maybe, the next stop will be Yunnan.
 
-## 其他
+## Others
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my inputs and outputs, as well as other things I find interesting.
 
-### 工作
+### Work
 
-这周工作上做了一些和链交互的开发，还挺有意思的，后面也想再研究一下链上数据处理这一块。也开始要写一些生产级的智能合约了，工作任务挺多的，十一前也得上线两个我负责的新模块，需要加油了。
+This week at work, I did some development involving chain interaction, which was quite interesting. Later, I also want to study more about on-chain data processing. I've also started to write some production-level smart contracts. There are quite a lot of work tasks, and I need to launch two new modules that I'm responsible for before National Day, so I need to work hard.
 
-### 博客
+### Blog
 
-很意外的是自己写的一篇『[PostgreSQL 基础与实践](https://www.pseudoyu.com/en/2022/09/05/database_postgres_basic/)』得到了很多关注和反馈，后面也还会继续写工作实践系列了，目前完成了：
+Surprisingly, an article I wrote "[PostgreSQL Basics and Practice](https://www.pseudoyu.com/en/2022/09/05/database_postgres_basic/)" received a lot of attention and feedback. I will continue to write about work practice series in the future. Currently, I have completed:
 
-- [MySQL 基础与实践](https://www.pseudoyu.com/en/2021/03/29/database_mysql_basic/)
-- [PostgreSQL 基础与实践](https://www.pseudoyu.com/en/2022/09/05/database_postgres_basic/)
-- [Docker 基础与实践](https://www.pseudoyu.com/en/2022/09/07/container_docker_basic/)
+- [MySQL Basics and Practice](https://www.pseudoyu.com/en/2021/03/29/database_mysql_basic/)
+- [PostgreSQL Basics and Practice](https://www.pseudoyu.com/en/2022/09/05/database_postgres_basic/)
+- [Docker Basics and Practice](https://www.pseudoyu.com/en/2022/09/07/container_docker_basic/)
 
-其他的就是还蹭了个 Go 的热点，给 GoCN 首发翻译了一篇文章：
+Other than that, I also caught a Go hot topic and translated an article for GoCN's first release:
 
-- [[译] Go 新漏洞管理工具：govulncheck](https://www.pseudoyu.com/en/2022/09/10/vulnerability_management_for_go/)
+- [[Translation] New Go Vulnerability Management Tool: govulncheck](https://www.pseudoyu.com/en/2022/09/10/vulnerability_management_for_go/)
 
-还有很多想写的主题，后面不能再偷懒了。
+There are still many themes I want to write about, I can't be lazy anymore in the future.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **黑客与画家**，通勤路上在读的，原本以为像是软技能那样的比较实际的一些内容，是当作路途消遣来看的，但是出乎意料地很多想法挺有趣，文风也很舒服。一直觉得代码、绘画或是写作都是创作的不同形式，都能让人感受到创造的快乐，但少有书籍能将这部分那么自然地表达出来。
-- **送你一颗子弹**，正在看
-- **法治的细节**，正在看
+- **Hackers and Painters**, which I'm reading on my commute. I originally thought it would be some practical content like soft skills, and I was reading it as a way to pass time on the journey, but surprisingly, many ideas are quite interesting, and the writing style is very comfortable. I've always felt that coding, painting, or writing are different forms of creation, all of which can make people feel the joy of creation, but few books can express this part so naturally.
+- **I'll Give You a Bullet**, currently reading
+- **The Details of the Rule of Law**, currently reading
 
-#### 电影
+#### Movies
 
-- **蓝色大门**，之前对台湾电影最深的印象应该就是《阳光普照》了，许多对话、独白和长镜头，很多景就像是想把记忆碎片拍下来。假期补了这部《蓝色大门》，早期青春片的质感真的很绝，诠释了“唯美”这一后续被滥用的形容。陈柏霖的《我可能不会爱你》影响了我青春的很多部分，甚至有些想法和品性深入了我的人格本身，对他的印象也多是沉稳而温暖，是自己想成为的样子。在这部看到了一个相似却不一样的他，很喜欢的一点是他总是认真而坚定地重复着自己的话，不论是自我介绍还是带着愠怒的质问，似乎在和自己确认着什么，又带着一些青春特有的胆怯。最后一段独白也很戳，终于找到了之前喜欢的这句话的出处 — “虽然，我闭着眼睛也看不见自己， 但是我却可以看见你。”
-- **驴得水**，又是一部群像的电影，刚好是我最近最喜欢的叙述方式。不知道该归咎于时代还是人性，混乱与可笑的政治正确的秩序交织着影响着事情的各种走向。政治、爱情、女性，包罗了太多主题，却不至于让人感觉到故事的剥离感，喜剧和幽默的部分自一开始就没打算掩盖其悲剧的内核，以至于到了结局虽然有些难过，但更多的还是无力。
+- **Blue Gate Crossing**, my deepest impression of Taiwanese films before should be "A Sun". Many dialogues, monologues, and long shots, many scenes are like trying to capture fragments of memory. I watched "Blue Gate Crossing" during the holiday. The texture of early youth films is really exquisite, interpreting "aesthetic", a description that was later overused. Chen Bolin's "In Time With You" influenced many parts of my youth, and even some ideas and qualities have deeply entered my personality itself. My impression of him is mostly steady and warm, the kind of person I want to become. In this film, I saw a similar but different him. One thing I like is that he always seriously and firmly repeats his words, whether it's self-introduction or angry questioning, as if confirming something with himself, but also with some timidity unique to youth. The last monologue is also very touching, I finally found the source of this sentence I liked before - "Although I can't see myself with my eyes closed, I can see you."
+- **I Am Not Madame Bovary**, another ensemble film, which happens to be my favorite narrative style recently. I don't know whether to blame it on the era or human nature, chaotic and ridiculous political correctness intertwines to influence the various directions of things. Politics, love, women, it encompasses too many themes, but doesn't make people feel the sense of detachment from the story. The comedy and humor parts never intended to cover up its tragic core from the beginning, so that by the end, although there's some sadness, there's more helplessness.
 
-#### 动漫
+#### Anime
 
-- **夏日重现**，追番中
-- **继母的拖油瓶是我的前女友**，追番中
+- **Summer Time Rendering**, following
+- **My Stepmom's Daughter Is My Ex**, following
 
-### 摄影
+### Photography
 
-目前一直在用的是 Sony A7M3，主要看中的是视频性能，也买了大疆稳定器来拍一些视频，但就没法兼顾拍照了。想着之后旅游再有一台设备来进行街拍，对 Fuji Xpro3 有点心动，尤其是光学取景和胶片模拟，太有仪式感了。
+Currently, I'm using Sony A7M3, mainly attracted by its video performance. I also bought a DJI stabilizer to shoot some videos, but then I can't take care of photography. I'm thinking about having another device for street photography when traveling later, and I'm a bit tempted by Fuji Xpro3, especially its optical viewfinder and film simulation, which are so ceremonial.
 
-不过还是先多出门多拍，再更新设备吧。
+But I should go out more and take more photos before updating my equipment.

@@ -1,5 +1,5 @@
 ---
-title: "周报 #36 - 肠胃炎、捏捏近况与新的旅途"
+title: "Weekly Review #36 - Gastroenteritis, Nini's Update, and New Journeys"
 date: 2023-04-02T12:01:26+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "city", "travel", "work", "illness", "adjustment", "friendship", "work"]
@@ -8,103 +8,103 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/dont_stop_the_clocks.mp3" caption="《Don't Stop the Clocks - King Gnu》" >}}
+{{<audio src="audios/dont_stop_the_clocks.mp3" caption="'Don't Stop the Clocks - King Gnu'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-03-25` 到 `2023-04-02` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `2023-03-25` to `2023-04-02`.
 
-万万没想到作为一个在杭州生活了十几年的南方人，居然会在重新回到杭州生活的时候经受严重的水土不服。
+Never did I imagine that as a southerner who lived in Hangzhou for over a decade, I would suffer severe adaptation issues upon returning to live in Hangzhou.
 
-上篇提到经过路途的颠簸等等影响，捏捏有些生病，不过好在经过了一阵子的适应，昨天去进行了一个详细的体检，已经没什么问题了，开了些营养剂进行调养。
+In the previous post, I mentioned that Nini was a bit sick due to the bumpy journey and other factors. Fortunately, after a period of adjustment, we went for a detailed check-up yesterday, and there are no issues anymore. Some nutritional supplements were prescribed for recuperation.
 
-然而，在处理好搬家和各种安顿事宜的第一周我的身体就有了各种反应，但由于自己属于几百年不生病的那种体质，也没太在意，到了松懈下来的时候终于集中爆发。
+However, in the first week of settling in after moving and handling various settlement matters, my body started showing various reactions. Since I'm the type who rarely falls ill, I didn't pay much attention. When I finally relaxed, everything erupted at once.
 
-其他就是在适应新的工作模式和节奏了，感觉由于身体和精神上的一些疲惫，没有给自己留太多缓冲时间，因而在工作和自己其他安排的一些状态上都不算太理想，不过也在自我调整过程中了。
+Other than that, I'm adapting to the new work mode and rhythm. Due to physical and mental fatigue, I didn't leave myself much buffer time, so my state in work and other arrangements hasn't been ideal. However, I'm in the process of self-adjustment.
 
-另外再矫情一句吧：
+One more sentimental note:
 
-> 没有你的四月就要来了。 —— 《四月是你的谎言》
+> April without you is about to arrive. — "Your Lie in April"
 
-## 生病
+## Illness
 
-在脱离了高中住校后日渐不规律的作息和饮食习惯后，自己对于健康这件事一直处于一种既随缘又有些害怕的状态，在大学最忙最多线程的一段时间甚至有“只要我不知道自己身体状况怎么样就可以心安理得地继续作”这样离奇的想法，因此在很长的一段时间都没有体检过。
+After leaving the boarding school life in high school, my increasingly irregular sleep and eating habits led me to have a both casual and somewhat fearful attitude towards health. During the busiest and most multi-threaded time in college, I even had the strange idea that "as long as I don't know my physical condition, I can continue to push myself with peace of mind." Therefore, I didn't have a physical examination for a long time.
 
-反而是 Gap 在家的一些时间里，才尤其关注到，把体检、牙和各种大小问题都稍微处理了一下，之后或多或少都有稍微惜命一点，说来有趣，自己大概一直算是经常作自己的身体但是有些奇迹般地还算健康的那种体质，每天十几个小时高强度看着电脑视力几乎也没变差，没做太多防范也躲过了好几波疫情至今未阳，因此也似乎有了一种我似乎不会生病的错觉。
+It wasn't until I took some time off at home that I started paying attention to it, getting a physical examination, taking care of dental issues, and addressing various big and small problems. Since then, I've been somewhat more careful with my health. Interestingly, I've always been the type to push my body but miraculously remain relatively healthy. Despite spending over ten hours a day staring at a computer screen, my eyesight hasn't deteriorated much. Without taking many precautions, I've dodged several waves of the pandemic and remained uninfected. This led to a false impression that I might not get sick.
 
-或是之前两周高强度的聚餐，或是回来第一周的周末就和友人连喝两天酒，又或是不知道为什么深夜的时候喝了杯冰的鲜奶，从周一就开始有些肠胃不适，但也没怎么在意，既没去医院又没吃药，就这样熬了两天，终于在周三周四的时候有了报应，下午的时候已经疼到需要躺着缩成一团才略有缓解，原本晚睡早起不午睡的习惯硬是被纠正到健康作息了（睡着了就不痛了），也终于在周四乖乖下单了一些药开始吃，第二天才开始略有好转，直到今天挂号去检查的时候才知道应该是急性肠胃炎，硬是被我拖到一切指标都正常了。
+Perhaps it was due to the intense social dining of the previous two weeks, or drinking with friends for two consecutive days on the first weekend back, or maybe drinking a glass of cold fresh milk late at night for some reason. I started feeling some gastrointestinal discomfort on Monday but didn't pay much attention to it. I neither went to the hospital nor took any medication, just endured it for two days. Finally, on Wednesday and Thursday, I faced the consequences. By the afternoon, I was in so much pain that I had to lie down curled up in a ball for slight relief. My habit of staying up late, waking up early, and not napping was forcibly corrected to a healthy schedule (it didn't hurt when I was asleep). I finally obediently ordered some medicine and started taking it on Thursday. It only began to improve slightly the next day. It wasn't until I went for a check-up today that I learned it was probably acute gastroenteritis, which I had dragged out until all indicators were normal.
 
-虽然倒不至于入职第一周就请 sick leave，但这周除了完成了一些基础的没太多难度的工作任务外，其他各个方面都没什么额外的进展，甚至都有些不好意思写周报了。算是临近初愈的当下才真切地觉得健康真好，之后还是好好体检和注意身体吧，各方面状态影响也都还挺大的。
+Although I didn't have to take sick leave in my first week of work, apart from completing some basic, not-too-difficult work tasks, I made no extra progress in other areas this week. I even felt a bit embarrassed to write this weekly review. It's only now, as I'm nearing recovery, that I truly feel how good health is. I'll be sure to have regular check-ups and take care of my body in the future, as it greatly affects various aspects of life.
 
-## 工作
+## Work
 
-工作上由于之前已经熟悉了部分人和项目的一些情况，更多的是根据现有的一些资料和代码自己探索，也通过了一两个小的需求略微熟悉了下开发流程，后续更多是自己选择感兴趣的需求来开发，也算是一种不错的模式。
+At work, since I was already familiar with some of the people and project situations, it was more about exploring on my own based on existing materials and code. I also familiarized myself with the development process through one or two small requirements. Going forward, I'll be able to choose interesting requirements to develop, which is a nice approach.
 
-但原定的好好读代码上手一个新模块的计划被病情打乱了，整体来说还是不太满意，总感觉还是有些没回到专注写代码的状态，所幸周末已经康复差不多了，下一周得多补一些了。
+However, my planned schedule of thoroughly reading code and getting familiar with a new module was disrupted by my illness. Overall, I'm not too satisfied, feeling like I haven't quite returned to the state of focused coding. Fortunately, I've almost fully recovered by the weekend, so I'll need to catch up more next week.
 
-可能由于之前也有不少远程的经验，对于远程办公的工作模式倒是适应得很快，算不上新的体验但是需要更加完善自己的任务管理系统了。
+Perhaps due to my previous remote work experience, I adapted quickly to the remote work mode. It's not a new experience, but I need to refine my task management system further.
 
-## 捏捏近况
+## Nini's Recent Situation
 
-上篇有讲过捏捏生病了，经过了两周的治疗，终于算是康复了，因为不放心所以还是去邻近的宠物医院做了完整的体检，一切安好，精神和食欲也恢复正常了。
+In the previous post, I mentioned that Nini was sick. After two weeks of treatment, she has finally recovered. To be sure, we still took her to a nearby veterinary hospital for a complete check-up. Everything is fine, and her spirit and appetite have returned to normal.
 
 ![nie_nie_in_new_home_01](https://image.pseudoyu.com/images/nie_nie_in_new_home_01.jpg)
 
-在新家的捏捏刚开始还有些拘谨和闷闷不乐。
+At first, Nini was a bit reserved and gloomy in the new home.
 
 ![nie_nie_in_new_home_02](https://image.pseudoyu.com/images/nie_nie_in_new_home_02.jpg)
 
-熟悉后整体感觉状态比北京时还要松弛一些，现在甚至会直接趴在我的肩膀上睡一晚，或者就在我旁边的被子上趴着，觉得适应得比想象得要快，完成了北方猫到南方喵的身份转换。
+After getting familiar with the environment, she seems even more relaxed than when we were in Beijing. Now she even sleeps directly on my shoulder all night or lies on the blanket next to me. I feel she's adapted faster than I imagined, completing the transition from a northern cat to a southern kitty.
 
-直到...
+Until...
 
-一位友人因为最近要出远门一段时间，所以把小猫先送到我家熟悉一下环境照料一下，这样即使我出门的时候我家人也可以帮忙来投喂和收拾。原本以为这样捏捏也会很开心，多了一个玩伴，但是似乎莫名地不合，两只猫在一起的时候总是互相示威、吵架甚至打起来，持续了两天了。
+A friend, who is going on a long trip soon, brought their kitten to my house to familiarize with the environment and for us to take care of. This way, even when I'm out, my family can help feed and clean up. I originally thought Nini would be very happy to have a playmate, but for some reason, they don't get along. The two cats are always intimidating each other, quarreling, and even fighting when they're together. This has been going on for two days.
 
-最开始捏捏作为家里的主人却似乎怂到丢失了地盘，常常在角落里躲着或者默默趴着，但是不知怎的从今晚开始，互相都 A 起来了，打到现在了。
+At first, Nini, as the owner of the house, seemed to cower and lose her territory, often hiding in corners or lying quietly. But for some reason, starting tonight, they both started to attack each other, and they've been fighting until now.
 
 ![two_cats_fighting_01](https://image.pseudoyu.com/images/two_cats_fighting_01.png)
 
 ![two_cats_fighting_02](https://image.pseudoyu.com/images/two_cats_fighting_02.png)
 
-目前双方主人内心毫无波动甚至在观战押注。其实主要是因为他们打到现在甚至没有一下打到对方，全是虚张声势的佯攻，我内心如下：
+Currently, both owners are emotionally unmoved and even watching and betting on the fight. Actually, it's mainly because they haven't landed a single hit on each other even after fighting for so long, it's all just bluffing attacks. My inner thoughts are as follows:
 
 ![two_cats_fighting_03](https://image.pseudoyu.com/images/two_cats_fighting_03.gif)
 
-下周再报告新的战况，或者希望一觉醒来她们就是好朋友了。
+I'll report on the new battle situation next week, or hopefully, they'll wake up as best friends.
 
-## 新的旅程与计划
+## New Journey and Plans
 
 ![meet_with_xiao](https://image.pseudoyu.com/images/meet_with_xiao.png)
 
-这周末在杭州见了一位新朋友 [Xiao](https://twitter.com/gxgexiao)，之前互相看过博客但一直没见过面，就约了个饭，聊了很多很多，从技术到生活，从工作到人生，从理想到现实，从情感到自由，还挺神奇的。
+This weekend, I met a new friend, [Xiao](https://twitter.com/gxgexiao), in Hangzhou. We had read each other's blogs before but never met in person, so we arranged a meal together. We talked about many things, from technology to life, from work to life philosophy, from ideals to reality, from emotions to freedom. It was quite amazing.
 
-之前另一位友人也说这个月要努力认识更多有趣的人，自闭了好多年的自己直到最近才意识到这件事的魅力，和不同经历的人交流常常会得到一些很新的视角和想法，可能这也是求同存异的价值所在。
+Another friend mentioned earlier that they want to make an effort to meet more interesting people this month. Having been introverted for many years, I've only recently realized the charm of this. Communicating with people of different experiences often brings new perspectives and ideas. Perhaps this is the value of seeking common ground while reserving differences.
 
-所以从这个月开始也打算多出去走走，认识更多有意思的人，也算是新阶段的一些计划吧。不过还是需要在意远程办公的一些时间平衡，还在努力尝试中。
+So starting this month, I also plan to go out more and meet more interesting people. It's part of my plans for this new phase. However, I still need to balance the time with remote work, which I'm still trying to figure out.
 
-后面一个月依次会在武汉、上海、深圳、香港、成都和西安，行程很满但是充满期待，有兴趣的朋友可以随缘碰面。
+Over the next month, I'll be in Wuhan, Shanghai, Shenzhen, Hong Kong, Chengdu, and Xi'an in succession. The schedule is packed but I'm full of anticipation. If you're interested, we might meet by chance.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 『[Yu's Life](https://t.me/pseudoyulife)』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
 
-#### 文章
+#### Articles
 
-- [28 岁，我还想生猛下去 | Randy's Blog](https://lutaonan.com/blog/say-in-28/)
-- [如何高效地协作开发：一些 Google 的实践](https://www.instapaper.com/read/1593056407)
+- [28 years old, I still want to live vigorously | Randy's Blog](https://lutaonan.com/blog/say-in-28/)
+- [How to collaborate efficiently in development: Some practices from Google](https://www.instapaper.com/read/1593056407)
 
-#### 视频
+#### Videos
 
-同样的，也有记录一下看过的有意思的视频：
+Similarly, I've also recorded some interesting videos I've watched:
 
-- [一万首歌里选出前 10，图一乐音乐大赛获奖作品公布！](https://www.bilibili.com/video/BV1Rk4y1x7m7)
-- [【把 ChatGPT 做成智能音箱】发短信 发邮件 控制程序 执行指令 任意输出 交互演示 AI 助手](https://www.bilibili.com/video/BV1MX4y1R7w3)
-- [The Legend of Zelda: Tears of the Kingdom – Mr. Aonuma Gameplay Demonstration](https://www.youtube.com/watch?v=a6qna-ZCbxA)
-- [一期杀疯了的吐槽大文豪的脱口秀](https://www.bilibili.com/video/BV1Z24y177MP)
-- [Intro to Foundry | The FASTEST Smart Contract Framework](https://www.youtube.com/watch?v=fNMfMxGxeag)
-- [她不再需要我了！AI 又又又让人失业？【全新 ZV-E1 测评】](https://www.bilibili.com/video/BV1vk4y1i7NC)
-- [为了保护非遗，我把万元瓷器砸成碎片](https://www.bilibili.com/video/BV1984y1g7uV)
-- [把 9 年日记分享给 ChatGPT 后，它到底有多离谱？](https://www.bilibili.com/video/BV1Mg4y1g71v)
-- [孔乙己脱不下的长衫，我给他脱明白了](https://www.bilibili.com/video/BV1v84y1g7jG)
+- [Selecting the top 10 from 10,000 songs, announcing the winners of the music contest!]
+- [【Turn ChatGPT into a smart speaker】Send text messages, emails, control programs, execute commands, arbitrary output, interactive demonstration AI assistant]
+- [The Legend of Zelda: Tears of the Kingdom – Mr. Aonuma Gameplay Demonstration]
+- [A stand-up comedy episode that went wild roasting literary giants]
+- [Intro to Foundry | The FASTEST Smart Contract Framework]
+- [She doesn't need me anymore! AI causes unemployment again?【All-new ZV-E1 Review】]
+- [To protect intangible cultural heritage, I smashed expensive ceramics into pieces]
+- [After sharing 9 years of diaries with ChatGPT, how absurd can it get?]
+- [I figured out how to take off Kong Yiji's long gown that he couldn't remove]

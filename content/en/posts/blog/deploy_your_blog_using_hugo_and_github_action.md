@@ -1,5 +1,5 @@
 ---
-title: "Hugo + GitHub Action，搭建你的博客自动发布系统"
+title: "Hugo + GitHub Action: Building Your Automated Blog Publishing System"
 date: 2022-05-29T20:39:29+08:00
 draft: false
 tags: ["hugo", "github", "github action", "github pages", "cloudflare", "serverless", "self-host", "blog"]
@@ -8,45 +8,45 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-在之前的一篇《[免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)》中，我提到了自己通过 [Hugo](https://gohugo.io) 这个静态网站生成器来真正搭建我的个人博客，并在 Hugo 开源社区中 [hugo-theme-den](https://github.com/shaform/hugo-theme-den) 这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。
+In a previous article, "Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)", I mentioned using Hugo, a static site generator, to truly build my personal blog. I made some personal customizations and configurations based on the hugo-theme-den theme from the Hugo open-source community to meet my needs.
 
-我的方案主要分为以下几个核心部分：
+My solution primarily consists of the following core components:
 
-1. 个人博客源仓库，对博客配置及所有文章 `.md` 源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。
-2. （可选）GitHub Pages 博客发布仓库，以 `username.github.io` 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。
-3. （可选）Cloudflare 账户与 Cloudflare Pages 项目，
-4. Hugo 主题仓库，fork 喜欢的主题，并对自己的个人定制化改造配置进行版本管理，通过 `git submodule` 的方式链接到个人博客源仓库。
-5. 其他组件源仓库，如 [umami 网站数据统计](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)及 [Cusdis 网站评论系统](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)等。
+1. Personal blog source repository for version control of blog configurations and all article .md source files, coupled with GitHub Action for automated deployment, automatically generating static sites and pushing them to the GitHub Pages blog publishing repository.
+2. (Optional) GitHub Pages blog publishing repository, named in the form of username.github.io, using GitHub Pages for website deployment, which can use custom domain names through CNAME resolution configuration.
+3. (Optional) Cloudflare account and Cloudflare Pages project.
+4. Hugo theme repository, fork your favorite theme, and version control your personal customization and configuration, linked to the personal blog source repository via git submodule.
+5. Other component source repositories, such as umami website data statistics and Cusdis website comment system, etc.
 
-下文会对搭建、本地测试、自动化部署维护等过程进行详细讲解，希望对大家所有帮助。
+The following text will provide a detailed explanation of the setup, local testing, automated deployment, and maintenance processes, which I hope will be helpful to everyone.
 
-## 使用 Hugo 搭建博客
+## Building a Blog with Hugo
 
 ![hugo_website](https://image.pseudoyu.com/images/hugo_website.png)
 
-[Hugo](https://gohugo.io) 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。
+Hugo is a blogging tool implemented in Go that uses Markdown for article editing, automatically generates static site files, supports rich theme configurations, and can also embed plugins like comment systems through JavaScript, offering high customization. Besides Hugo, there are other choices like Gatsby, Jekyll, Hexo, Ghost, etc., which are similar in implementation and usage. You can choose according to your preference.
 
-### 安装 Hugo
+### Installing Hugo
 
-我使用的是 macOS，所以使用官方推荐的 homebrew 方式进行 hugo 程序的安装，其他系统也类似。
+I'm using macOS, so I use the official recommended homebrew method to install the Hugo program. The process is similar for other systems.
 
 ```bash
 brew install hugo
 ```
 
-完成后，使用以下命令进行验证：
+After completion, use the following command to verify:
 
 ```bash
 hugo version
 ```
 
-### 创建 Hugo 网站
+### Creating a Hugo Website
 
-通过上述命令安装 hugo 程序后，就可以通过 `hugo new site` 命令进行网站创建、配置与本地调试了。
+After installing the Hugo program using the above command, you can create, configure, and locally debug the website using the hugo new site command.
 
 ```bash
 hugo new site blog-test
@@ -54,13 +54,13 @@ hugo new site blog-test
 
 ![hugo_new_site](https://image.pseudoyu.com/images/hugo_new_site.png)
 
-### 配置主题
+### Configuring the Theme
 
-当通过上文命令创建我们的站点后，需要进行主题配置，Hugo 社区有了很丰富的主题，可以通过官网 [Themes](https://themes.gohugo.io) 菜单选择自己喜欢的风格，查看预览效果，选择后可以进入主题项目仓库，一般都会有很详细的安装及配置说明。下面我就以我目前在使用的 [hugo-theme-den](https://github.com/shaform/hugo-theme-den) 这个主题为例，演示一下配置流程。
+After creating our site using the above command, we need to configure the theme. The Hugo community has a rich selection of themes, which you can choose from the official website's Themes menu based on your preferred style and preview effects. After selection, you can enter the theme project repository, which usually has detailed installation and configuration instructions. Below, I'll demonstrate the configuration process using the hugo-theme-den theme I'm currently using as an example.
 
-#### 关联主题仓库
+#### Linking the Theme Repository
 
-我们可以将主题仓库直接 `git clone` 下来进行使用，但这种方式有一些弊端，当之后自己对主题进行修改后，可能会与原主题产生一些冲突，不方便版本管理与后续更新。我采用的是将原主题仓库 `fork` 到自己的账户，并使用 `git submodule` 方式进行仓库链接，这样后续可以对主题的修改进行单独维护。
+We can directly git clone the theme repository for use, but this method has some drawbacks. When you later modify the theme, it may conflict with the original theme, making version management and subsequent updates inconvenient. I chose to fork the original theme repository to my own account and use git submodule to link the repository. This way, I can maintain the theme modifications separately in the future.
 
 ```bash
 cd blog-test/
@@ -70,33 +70,33 @@ git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-d
 
 ![hugo_init_theme](https://image.pseudoyu.com/images/hugo_init_theme.png)
 
-#### 更新主题
+#### Updating the Theme
 
-如果是 clone 了其他人的博客项目进行修改，则需要用以下命令进行初始化：
+If you've cloned someone else's blog project for modification, you need to use the following command to initialize:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-如果需要同步主题仓库的最新修改，需要运行以下命令：
+If you need to synchronize the latest modifications from the theme repository, run the following command:
 
 ```bash
 git submodule update --remote
 ```
 
-#### 初始化主题配置及发布
+#### Initializing Theme Configuration and Publishing
 
-每个主题一般都会提供一些实例配置与初始页面，开始使用主题时可以将其 `exampleSite/` 目录下的文件复制到站点目录下，在此基础上进行调整配置。
+Each theme usually provides some sample configurations and initial pages. When starting to use a theme, you can copy the files from its exampleSite/ directory to the site directory and adjust the configuration based on that.
 
 ```bash
 cp -rf themes/hugo-theme-den/exampleSite/* ./
 ```
 
-初始化主题基础配置后，我们可以在 `config.toml` 文件中进行站点细节配置，具体配置项参考各主题说明文档。
+After initializing the basic theme configuration, we can configure site details in the config.toml file. Refer to the theme's documentation for specific configuration items.
 
 ![hugo_theme_config](https://image.pseudoyu.com/images/hugo_theme_config.png)
 
-完成后，可以通过 `hugo new` 命令发布新文章。
+After completion, you can publish new articles using the hugo new command.
 
 ```bash
 hugo new posts/blog-test.md
@@ -104,9 +104,9 @@ hugo new posts/blog-test.md
 
 ![hugo_new_post](https://image.pseudoyu.com/images/hugo_new_post.png)
 
-#### 本地调试站点
+#### Local Site Debugging
 
-Hugo 会生成静态网页，我们在本地编辑调试时可以通过 `hugo server` 命令进行本地实时调试预览，无须每次都重新生成。
+Hugo generates static web pages. When editing and debugging locally, we can use the hugo server command for real-time local preview debugging without needing to regenerate each time.
 
 ```bash
 hugo server
@@ -114,70 +114,70 @@ hugo server
 
 ![hugo_server](https://image.pseudoyu.com/images/hugo_server.png)
 
-运行服务后，我们可以通过浏览器 `http://localhost:1313` 地址访问我们的本地预览网页。
+After running the service, we can access our local preview webpage through the browser at http://localhost:1313.
 
 ![hugo_server_preview](https://image.pseudoyu.com/images/hugo_server_preview.png)
 
-### 购买域名
+### Purchasing a Domain Name
 
-作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 [Cloudflare](https://www.cloudflare.com)、[NameSilo](https://www.namesilo.com)、[GoDaddy](https://www.godaddy.com) 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。
+As an externally published website, we need to purchase a domain name and configure its resolution to point to the server where our website is located, allowing the outside world to access it conveniently. There are many domain name purchasing platforms; I've used Cloudflare, NameSilo, GoDaddy, etc. I ultimately prefer Cloudflare because it also provides powerful features like CDN, website data analysis, and custom rules.
 
-首先我们需要注册一个 Cloudflare 账户，登录后选择左侧边栏的“注册域”，并搜索自己想注册的域名。
+First, we need to register a Cloudflare account. After logging in, select "Register Domain" from the left sidebar and search for the domain you want to register.
 
 ![cloudflare_register_domain](https://image.pseudoyu.com/images/cloudflare_register_domain.png)
 
-选择了心仪的域名后，点击并选择购买时限并填写个人信息。
+After selecting your desired domain, click and choose the purchase duration and fill in your personal information.
 
 ![cloudflare_register_domain_choose](https://image.pseudoyu.com/images/cloudflare_register_domain_choose.png)
 
-选择付款方式，建议可以选择自动续订，以免忘记续费。
+Choose a payment method; it's recommended to select automatic renewal to avoid forgetting to renew.
 
 ![cloudflare_register_domain_payment](https://image.pseudoyu.com/images/cloudflare_register_domain_payment.png)
 
-类型选择 Personal 即可，并点击完成购买。
+Select Personal for the type and click to complete the purchase.
 
 ![cloudflare_register_done](https://image.pseudoyu.com/images/cloudflare_register_done.png)
 
-等待 Cloudflare 处理后即可查看信息。
+Wait for Cloudflare to process, and then you can view the information.
 
 ![cloudflare_domain](https://image.pseudoyu.com/images/cloudflare_domain.jpg)
 
-### Cloudflare Pages 发布博客（推荐）
+### Publishing Blog with Cloudflare Pages (Recommended)
 
-**[2024-06-30 更新]**
+**[Updated 2024-06-30]**
 
-#### Cloudflare Pages 介绍
+#### Introduction to Cloudflare Pages
 
-GitHub Pages 已经是一个免费且强大的静态网站托管平台了，且可以和 GitHub 代码仓库无缝对接，但国内的访问速度不是很理想，又由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。
+GitHub Pages is already a free and powerful static website hosting platform that seamlessly integrates with GitHub code repositories. However, its access speed in China is not ideal. Since my domain is already hosted on Cloudflare, I tried Cloudflare Pages, which is a static website hosting service launched by Cloudflare. It's completely free (at least I haven't exceeded the free quota so far) and can directly connect to GitHub code repositories, achieving the same automated deployment functionality as GitHub Pages while providing better access routes. It's currently a better solution.
 
 ![cloudflare_pages_create](https://image.pseudoyu.com/images/cloudflare_pages_create.png)
 
-#### 创建 Cloudflare Pages 项目
+#### Creating a Cloudflare Pages Project
 
-首先我们需要注册 Cloudflare 账号，并且在左侧选择「Worker 和 Pages」菜单，点击创建项目。
+First, we need to register a Cloudflare account, then select the "Workers & Pages" menu on the left and click to create a project.
 
 ![cloudflare_pages_with_git](https://image.pseudoyu.com/images/cloudflare_pages_with_git.png)
 
-下一步会有两个选项，一个是直接把静态文件上传，还有一个是连接 git，第一种通常是适用于一些单页面或者非常低频更新从而不需要 GitHub 托管代码的项目，如一些单 html 页面的网站等；而连接 git 则能够更好地针对我们每一次的博客提交自动构建新的网页，也是我们采用的方式。
+The next step offers two options: directly uploading static files or connecting to git. The first option is usually suitable for single-page or very low-frequency update projects that don't need GitHub code hosting, such as single HTML page websites. Connecting to git allows for better automatic building of new web pages for each blog submission, which is the method we'll use.
 
-#### 构建 Hugo
+#### Building with Hugo
 
 ![yu_blog_test_build_hugo_cloudflare_pages](https://image.pseudoyu.com/images/yu_blog_test_build_hugo_cloudflare_pages.png)
 
-由于 Cloudflare Pages 提供了几乎市面上所有常用的网站构建工具，如 Next.js、Astro、Hugo 等，我们可以选择两种方式来进行部署：
+Since Cloudflare Pages provides almost all common website building tools on the market, such as Next.js, Astro, Hugo, etc., we can choose from two methods for deployment:
 
-1. 直接使用 Cloudflare Pages 提供的构建工具，直接根据仓库代码生成静态网页并部署上线
-2. 以与上文 GitHub Pages 类似的方式生成静态网页的仓库或分支，通过 Cloudflare Page 直接进行部署上线
+1. Directly use the building tools provided by Cloudflare Pages to generate static web pages and deploy them online based on the repository code.
+2. Generate a static web page repository or branch similar to the GitHub Pages method mentioned above, and deploy it online directly through Cloudflare Pages.
 
 ![cloudflare_build_site_hugo_in_progress](https://image.pseudoyu.com/images/cloudflare_build_site_hugo_in_progress.png)
 
 ![cloudflare_pages_build_done](https://image.pseudoyu.com/images/cloudflare_pages_build_done.png)
 
-第一种方式可以大大简化我们的部署流程，因此我们要做的只有将上文所创建的博客源仓库（如我的仓库为 [pseudoyu/yu-blog](https://github.com/pseudoyu/yu-blog)）进行链接，每次提交就会自动构建并部署，只需要等待几十秒即可完成，而无须像 GitHub Pages 那样自己写各种构建 GitHub Actions 命令，很方便，也是最为推荐的方式。
+The first method can greatly simplify our deployment process. All we need to do is link the blog source repository we created above (such as my repository pseudoyu/yu-blog). Each submission will automatically build and deploy, only requiring a wait of a few tens of seconds to complete, without the need to write various GitHub Actions build commands like with GitHub Pages. It's very convenient and the most recommended method.
 
-而第二种方式其实跟 GitHub Pages 的方式类似，比较适用于对于构建过程有一些特殊需求的网站，如我在构建我的个人博客网站时同时在 GitHub Actions 执行了一些 Python 在自动更新我的 About 页面，这些复杂操作就无法直接使用 Cloudflare Pages 提供的构建工具，因此我选择了第二种方式。
+The second method is actually similar to the GitHub Pages approach and is more suitable for websites with special requirements for the build process. For example, when building my personal blog website, I simultaneously execute some Python in GitHub Actions to automatically update my About page. These complex operations cannot be directly handled by the building tools provided by Cloudflare Pages, so I chose the second method.
 
-可以在自己的博客源仓库中直接使用如下简化版的 GitHub Actions:
+You can directly use the following simplified GitHub Actions in your blog source repository:
 
 ```yml
 name: deploy
@@ -217,55 +217,55 @@ jobs:
                   publish_branch: cf-pages
 ```
 
-`on` 表示 GitHub Action 触发条件，我设置了 `push`、`workflow_dispatch` 和 `schedule` 三个条件：
+on indicates the trigger conditions for GitHub Action. I set three conditions: push, workflow_dispatch, and schedule:
 
-- `push`，当这个项目仓库发生推送动作后，执行 GitHub Action
-- `workflow_dispatch`，可以在 GitHub 项目仓库的 Action 工具栏进行手动调用
-- `schedule`，定时执行 GitHub Action，如我的设置为北京时间每天早上执行，主要是使用一些自动化统计 CI 来自动更新我博客的关于页面，如本周编码时间，影音记录等，如果你不需要定时功能，可以删除这个条件
+- push: Execute GitHub Action after a push action occurs in this project repository
+- workflow_dispatch: Can be manually called from the Action toolbar in the GitHub project repository
+- schedule: Execute GitHub Action on a schedule, such as my setting to execute every morning Beijing time, mainly to use some automated statistical CI to automatically update my blog's about page, such as this week's coding time, audio and video records, etc. If you don't need the timing feature, you can delete this condition
 
-`jobs` 表示 GitHub Action 中的任务，我们设置了一个 `build` 任务，`runs-on` 表示 GitHub Action 运行环境，我们选择了 `ubuntu-latest`。我们的 `build` 任务包含了 `Checkout`、`Setup Hugo`、`Build Web` 和 `Deploy Web` 四个主要步骤，其中 `run` 是执行的命令，`uses` 是 GitHub Action 中的一个插件，我们使用了 `peaceiris/actions-hugo@v2` 和 `peaceiris/actions-gh-pages@v3` 这两个插件。其中 `Checkout` 步骤中 `with` 中配置 `submodules` 值为 `true` 可以同步博客源仓库的子模块，即我们的主题模块。
+jobs represents the tasks in GitHub Action. We set up a build task, runs-on indicates the GitHub Action running environment, we chose ubuntu-latest. Our build task includes four main steps: Checkout, Setup Hugo, Build Web, and Deploy Web, where run is the command to execute, and uses is a plugin in GitHub Action. We used the peaceiris/actions-hugo@v2 and peaceiris/actions-gh-pages@v3 plugins. In the Checkout step, setting submodules to true in with can synchronize the submodules of the blog source repository, which is our theme module.
 
-以上 GitHub Actions 会将博客生成的静态文件推送到 `cf-pages` 分支，因为我们在 Cloudflare Pages 中选择该分支进行部署即可，因为如我们需要添加一些额外的步骤，可以在构建之前添加一些自定义的步骤，很灵活，具体应用可以看「[GitHub - yu-blog/.github/workflows/deploy.yml](https://github.com/pseudoyu/yu-blog/blob/master/.github/workflows/deploy.yml)」示例。
+The above GitHub Actions will push the static files generated by the blog to the cf-pages branch, because we choose this branch for deployment in Cloudflare Pages. If we need to add some additional steps, we can add some custom steps before the build, which is very flexible. For specific applications, you can see the "GitHub - yu-blog/.github/workflows/deploy.yml" example.
 
-#### 配置自定义域名
+#### Configuring Custom Domain
 
 ![custom_domain_yu_blog](https://image.pseudoyu.com/images/custom_domain_yu_blog.png)
 
-自定义域名也非常简单，直接在导航栏中选中自定义域，并添加想要绑定的域名。
+Setting up a custom domain is also very simple. Just select custom domain in the navigation bar and add the domain you want to bind.
 
 ![cf_pages_custom_domain_dns](https://image.pseudoyu.com/images/cf_pages_custom_domain_dns.png)
 
-如果是在 Cloudflare 中注册/托管的域名，可以直接选择「激活域」，会自动添加 DNS 解析，如果是其他平台的域名，则手动添加 CNAME 解析即可。
+If it's a domain registered/hosted in Cloudflare, you can directly select "Activate Domain", which will automatically add DNS resolution. If it's a domain from another platform, manually add CNAME resolution.
 
 ![custom_domain_wait_dns](https://image.pseudoyu.com/images/custom_domain_wait_dns.png)
 
-配置 DNS 完成后，等待生效即可。
+After configuring DNS, just wait for it to take effect.
 
-### GitHub Pages 发布博客
+### Publishing Blog with GitHub Pages
 
-#### 创建仓库
+#### Creating a Repository
 
-GitHub Pages 项目需要符合 `username.github.io` 的特殊命名格式，仓库建立完成后，可以在设置中配置自己注册的自定义域名来指向 GitHub Pages 生成的网址。此外，需要将博客站点配置文件 `config.toml` 中的 `baseURL` 改为自己的自定义域名，格式为 `"https://www.pseudoyu.com/"`，这样博客站点才能正常访问 GitHub Pages 生成的网站服务。
+The GitHub Pages project needs to follow the special naming format of username.github.io. After establishing the repository, you can configure your registered custom domain in the settings to point to the URL generated by GitHub Pages. Additionally, you need to change the baseURL in the blog site configuration file config.toml to your custom domain, in the format of "https://www.pseudoyu.com/". This allows the blog site to properly access the website service generated by GitHub Pages.
 
 ![github_pages_repo](https://image.pseudoyu.com/images/github_pages_repo.png)
 
-#### 域名解析
+#### Domain Resolution
 
-按照上文步骤注册好后，需要在域名托管商进行 DNS 解析，在这里我们需要选择 CNAME，指向我们的 GitHub Pages 网址。
+After registering according to the steps above, you need to set up DNS resolution with your domain hosting provider. Here, we need to choose CNAME, pointing to our GitHub Pages URL.
 
 ![cloudflare_cname_config](https://image.pseudoyu.com/images/cloudflare_cname_config.png)
 
-因为 CNAME 解析没办法设置 root 域名，即只能设置 `www.pseudoyu.com` 或其他子域名，而不是 `pseudoyu.com`，因此，我们可以通过 Cloudflare 上自定义规则设置域名重定向，具体配置如下，仅需将我的域名替换成自己的域名即可。即使你是通过 NameSilo 注册的域名，也可以通过 Cloudflare 来添加站点以实现功能，或者其他托管平台也有类似的功能，按照说明配置即可。
+Because CNAME resolution can't set the root domain, meaning you can only set www.pseudoyu.com or other subdomains, not pseudoyu.com, we can use Cloudflare's custom rules to set domain redirection. The specific configuration is as follows, just replace my domain with your own. Even if you registered your domain through NameSilo, you can add a site through Cloudflare to implement this functionality, or other hosting platforms have similar features, just follow their instructions to configure.
 
 ![cloudflare_cname_rule_config](https://image.pseudoyu.com/images/cloudflare_cname_rule_config.png)
 
-完成上述准备工作后，我们现在已经可以通过自定义域名来访问我们的 GitHub Pages 页面了，目前因为项目仓库是空的，访问后会报 `404` 页面。
+After completing the above preparations, we can now access our GitHub Pages through our custom domain. Currently, because the project repository is empty, visiting will show a 404 page.
 
-我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维护服务，更稳定、安全，因此我们需要上传 Hugo 生成的静态网页文件至 GitHub Page 项目仓库。
+We want the static website generated by Hugo to be hosted through the GitHub Pages service, without having to maintain the service ourselves, which is more stable and secure. Therefore, we need to upload the static web page files generated by Hugo to the GitHub Pages project repository.
 
-#### 手动发布
+#### Manual Publishing
 
-当我们编辑博客内容并通过 `hugo server` 本地调试后，就可以通过 `hugo` 命令生成静态网页文件了。
+After editing blog content and debugging locally through hugo server, we can generate static web page files using the hugo command.
 
 ```bash
 hugo
@@ -274,7 +274,7 @@ cd public/
 
 ![hugo_gen_pages](https://image.pseudoyu.com/images/hugo_gen_pages.png)
 
-Hugo 默认会将生成的静态网页文件存放在 `public/` 目录下，我们可以通过将 `public/` 目录初始化为 git 仓库并关联我们的 `pseudoyu/pseudoyu.github.io` 远程仓库来推送我们的网页静态文件。
+Hugo by default stores generated static web page files in the public/ directory. We can initialize the public/ directory as a git repository and associate it with our pseudoyu/pseudoyu.github.io remote repository to push our web page static files.
 
 ```bash
 git init
@@ -285,20 +285,20 @@ git commit -m "add test"
 
 ![hugo_public_init](https://image.pseudoyu.com/images/hugo_public_init.png)
 
-核对文件修改后，即可通过 `git push origin master` 推送到 GitHub Pages 仓库，稍等几分钟即可通过我们的自定义域名来访问我们的博客站点了，和我们 `hugo server` 本地调试完全一致。
+After checking the file modifications, you can push to the GitHub Pages repository using git push origin master. Wait a few minutes, and you can access our blog site through our custom domain, completely consistent with our local hugo server debugging.
 
-#### 自动发布
+#### Automated Publishing
 
-通过上述命令我们可以手动发布我们的静态文件，但还是有以下弊端：
+Through the above commands, we can manually publish our static files, but there are still some drawbacks:
 
-1. 发布步骤还是比较繁琐，本地调试后还需要切换到 `public/` 目录进行上传
-2. 无法对博客 `.md` 源文件进行备份与版本管理
+1. The publishing steps are still cumbersome, requiring switching to the public/ directory for uploading after local debugging.
+2. Unable to backup and version control the blog .md source files.
 
-因此，我们需要简单顺滑的方式来进行博客发布，首先我们初始化博客源文件的仓库，如我的仓库为 [pseudoyu/yu-blog](https://github.com/pseudoyu/yu-blog)。
+Therefore, we need a simple and smooth way to publish the blog. First, let's initialize the repository for the blog source files, such as my repository pseudoyu/yu-blog.
 
-因为我们的博客基于 GitHub 与 GitHub Pages，可以通过官方提供的 GitHub Action 进行 CI 自动发布，下面我会进行详细讲解。GitHub Action 是一个持续集成和持续交付(CI/CD) 平台，可用于自动执行构建、测试和部署管道，目前已经有很多开发好的工作流，可以通过简单的配置即可直接使用。
+Because our blog is based on GitHub and GitHub Pages, we can use the official GitHub Action for CI automatic publishing. I'll explain this in detail below. GitHub Action is a continuous integration and continuous delivery (CI/CD) platform that can be used to automate build, test, and deployment pipelines. Currently, many workflows have been developed, which can be directly used with simple configuration.
 
-配置在仓库目录 `.github/workflows` 下，以 `.yml` 为后缀。我的 GitHub Action 配置为 [pseudoyu/yu-blog deploy.yml](https://github.com/pseudoyu/yu-blog/blob/master/.github/workflows/deploy.yml)，自动发布示例配置如下：
+The configuration is located in the repository directory .github/workflows, with a .yml suffix. My GitHub Action configuration is pseudoyu/yu-blog deploy.yml, and an example configuration for automatic publishing is as follows:
 
 ```yml
 name: deploy
@@ -338,49 +338,49 @@ jobs:
                   commit_message: ${{ github.event.head_commit.message }}
 ```
 
-首先需要将上述 `deploy.yml` 中的 `EXTERNAL_REPOSITORY` 改为自己的 GitHub Pages 仓库，如我的设置为 `pseudoyu/pseudoyu.github.io`。
+First, you need to change the EXTERNAL_REPOSITORY in the above deploy.yml to your own GitHub Pages repository, such as my setting pseudoyu/pseudoyu.github.io.
 
-因为我们需要从博客仓库推送到外部 GitHub Pages 仓库，需要特定权限，要在 GitHub 账户下 `Setting - Developer setting - Personal access tokens` 下创建一个 Token。
+Because we need to push from the blog repository to an external GitHub Pages repository, specific permissions are required. You need to create a Token under GitHub account's Setting - Developer setting - Personal access tokens.
 
 ![github_psersonal_access_token](https://image.pseudoyu.com/images/github_psersonal_access_token.png)
 
-权限需要开启 `repo` 与 `workflow`。
+The permissions need to enable repo and workflow.
 
 ![yu_blog_personal_token](https://image.pseudoyu.com/images/yu_blog_personal_token.png)
 
-配置后复制生成的 Token（注：只会出现一次），然后在我们博客源仓库的 `Settings - Secrets - Actions` 中添加 `PERSONAL_TOKEN` 环境变量为刚才的 Token，这样 GitHub Action 就可以获取到 Token 了。
+After configuration, copy the generated Token (Note: it will only appear once), then add the PERSONAL_TOKEN environment variable as the Token we just created in the Settings - Secrets - Actions of our blog source repository. This way, GitHub Action can access the Token.
 
-完成上述配置后，推送代码至仓库，即可触发 GitHub Action，自动生成博客页面并推送至 GitHub Pages 仓库。
+After completing the above configuration, push the code to the repository, which will trigger GitHub Action, automatically generating blog pages and pushing them to the GitHub Pages repository.
 
 ![yu_blog_ci](https://image.pseudoyu.com/images/yu_blog_ci.png)
 
-而 GitHub Pages 仓库更新后，又会自动触发官方页面部署 CI，实现我们的网站发布。
+When the GitHub Pages repository is updated, it will automatically trigger the official page deployment CI, achieving our website publication.
 
 ![page_build_ci](https://image.pseudoyu.com/images/page_build_ci.png)
 
-经过上述配置，我们已经实现了 Hugo 博客本地搭建及版本管理、GitHub Pages 部署网站发布，Hugp 主题管理及更新等功能，实现了完整的系统。现在每当我们本地通过熟悉的 Markdown 语法完成博客内容编辑后，只需要推送代码，等待几分钟，即可通过我们的自定义域名访问更新后的网站。
+After the above configuration, we have achieved local Hugo blog setup and version control, GitHub Pages website deployment and publishing, Hugo theme management and updates, and other functions, implementing a complete system. Now, whenever we finish editing blog content locally using familiar Markdown syntax, we only need to push the code and wait a few minutes to access the updated website through our custom domain.
 
-### 组件拓展
+### Component Extensions
 
-一个完整的博客系统还需要一些组件，如网站数据统计、评论系统等，我针对这两个核心需求也写了完整的 Serverless 搭建教程，可根据需求进行部署配置。
+A complete blog system also requires some components, such as website data statistics and comment systems. I have written comprehensive Serverless setup tutorials for these two core needs, which you can deploy and configure according to your requirements.
 
-- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Building a Free Personal Blog Data Statistics System from Scratch (umami + Vercel + Heroku)]([https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/))
+- [Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)]([https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/))
 
-## 总结
+## Conclusion
 
-以上就是我通过 Hugo 与 GitHub Action 实现的免费博客自动部署系统，我自己的实现仓库在 [pseudoyu/yu-blog](https://github.com/pseudoyu/yu-blog) 仓库中，我定制化的主题仓库在 [pseudoyu/hugo-theme-den](https://github.com/pseudoyu/hugo-theme-den) 中。
+The above is the free blog automatic deployment system I implemented using Hugo and GitHub Action. My implementation repository is in the pseudoyu/yu-blog repository, and my customized theme repository is in pseudoyu/hugo-theme-den.
 
-我使用 GitHub Action 还实现了很多好玩的自动化个人统计功能，自动更新我的[GitHub Profile](https://github.com/pseudoyu)，项目仓库为 [pseudoyu/pseudoyu](https://github.com/pseudoyu/pseudoyu)，可以进入 `.github/workflows` 中自行探索。这些系统还在不断完善中，欢迎大家参与贡献与交流。
+I've also implemented many interesting automated personal statistics functions using GitHub Action, automatically updating my GitHub Profile. The project repository is pseudoyu/pseudoyu. You can explore .github/workflows on your own. These systems are continuously being improved, and I welcome everyone to contribute and exchange ideas.
 
-## 参考资料
+## References
 
-> 1. [Hugo 官网](https://gohugo.io)
+> 1. [Hugo Official Website](https://gohugo.io)
 > 2. [GitHub Action](https://github.com/features/actions)
 > 3. [GitHub Pages](https://pages.github.com)
-> 4. [Cloudflare 官网](https://www.cloudflare.com)
-> 5. [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-> 6. [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-> 7. [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
-> 8. [我的 Pseudoyu 个人博客](https://www.pseudoyu.com)
-> 9. [我的 GitHub Profile](https://github.com/pseudoyu)
+> 4. [Cloudflare Official Website](https://www.cloudflare.com)
+> 5. [Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)]([https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/))
+> 6. [Building a Free Personal Blog Data Statistics System from Scratch (umami + Vercel + Heroku)]([https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/))
+> 7. [Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)]([https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/))
+> 8. [My Pseudoyu Personal Blog](https://www.pseudoyu.com)
+> 9. [My GitHub Profile](https://github.com/pseudoyu)

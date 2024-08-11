@@ -1,5 +1,5 @@
 ---
-title: "通过状态锁在 Solidity 智能合约中实现两阶段提交"
+title: "Implementing Two-Phase Commit in Solidity Smart Contracts Using State Locks"
 date: 2022-07-01T10:54:57+08:00
 draft: false
 tags: ["blockchain", "ethereum", "solidity", "smart contract", "web3"]
@@ -10,31 +10,31 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
 
-## 前言
+## Preface
 
-在一些牵扯到多个系统或合约交互的智能合约应用场景中，尤其是一些资产/数据准确性较为敏感的业务中，我们需要保证在整个业务流程中数据的原子性。因此，我们需要在合约层面实现类似多阶段提交的机制，即将合约中的状态更改过程分解为预提交和正式提交两个阶段。
+In smart contract applications involving interactions between multiple systems or contracts, particularly in businesses where asset or data accuracy is sensitive, we need to ensure data atomicity throughout the entire business process. Therefore, we need to implement a mechanism similar to multi-phase commit at the contract level, which decomposes the state change process in the contract into two phases: pre-commit and formal commit.
 
-本文通过状态锁的机制实现了一个最小化的两阶段提交模型，完整合约代码参见 [TwoPhaseCommit.sol](https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol)，下文将对本合约核心逻辑进行讲解，并尽量遵循风格指南与最佳实践。
+This article implements a minimalistic two-phase commit model using a state lock mechanism. The complete contract code can be found at [TwoPhaseCommit.sol](https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol). The following will explain the core logic of this contract and strive to follow style guidelines and best practices.
 
-> 注：本合约因初始场景主要考虑的是联盟链中的业务用途，未对 Gas fee 等进行特定优化，仅供学习参考。
+> Note: This contract was primarily designed for business use in consortium chains and has not been specifically optimized for gas fees. It is intended for learning purposes only.
 
-## 合约逻辑
+## Contract Logic
 
-### 合约结构
+### Contract Structure
 
-两阶段提交场景包含以下方法：
-1. set: 两阶段 - 预提交
-2. commit: 两阶段 - 正式提交
-3. rollback: 两阶段 - 回滚
+The two-phase commit scenario includes the following methods:
+1. set: Two-phase - Pre-commit
+2. commit: Two-phase - Formal commit
+3. rollback: Two-phase - Rollback
 
-因 Solidity 语言对于字符串长度判断/比较等有一些限制，为了提升合约代码的可读性，本合约提供了部分辅助方法，主要包含以下方法：
-1. isValidKey: 检查 key 是否合法
-2. isValidValue: 检查 value 是否合法
-3. isEqualString: 比较两个字符串是否相等
+Due to Solidity language limitations on string length judgment and comparison, to enhance the readability of the contract code, this contract provides some auxiliary methods, mainly including:
+1. isValidKey: Check if the key is valid
+2. isValidValue: Check if the value is valid
+3. isEqualString: Compare if two strings are equal
 
-### 两阶段提交核心逻辑
+### Two-Phase Commit Core Logic
 
-在两阶段提交场景中，本合约提供了一套简易的 `set`, `commit`, `rollback` 方法实现，实现了将合约调用传入的 key-value 键值对存储到链上。我们通过状态锁的机制来实现跨链交易的原子性。我们定义了如下数据结构：
+In the two-phase commit scenario, this contract provides a simple set of `set`, `commit`, and `rollback` methods to store key-value pairs passed in contract calls on the chain. We use a state lock mechanism to achieve atomicity of cross-chain transactions. We define the following data structures:
 
 ```solidity
 enum State {
@@ -49,17 +49,17 @@ struct Payload {
 }
 ```
 
-其中，`State` 为枚举类型，记录了链上 key 值的锁定状态，而 `Payload` 结构则会对锁定状态、当前值与正在锁定的值进行存储，并通过如下 `mapping` 结构与 key 进行绑定：
+Here, `State` is an enumeration type that records the lock status of the key on the chain, while the `Payload` structure stores the lock status, current value, and the value being locked. It is bound to the key through the following `mapping` structure:
 
 ```solidity
 mapping (string => Payload) keyToPayload;
 ```
 
-因此，我们可以根据 `keyToPaylaod` 对合约调用中的每一个 key 进行状态跟踪，并在下述 `set`, `commit`, `rollback` 方法中对 key 的状态进行检查，进行一些异常处理。
+Thus, we can track the state of each key in the contract call based on `keyToPayload`, and check the state of the key in the following `set`, `commit`, and `rollback` methods for exception handling.
 
 #### set()
 
-在 `set()` 方法中，我们会检查 key 的状态，如为 `State.LOCKED`，则不会进行存储并抛出异常：
+In the `set()` method, we check the state of the key. If it is `State.LOCKED`, storage will not be performed and an exception will be thrown:
 
 ```solidity
 if (keyToPayload[_key].state == State.LOCKED) {
@@ -67,7 +67,7 @@ if (keyToPayload[_key].state == State.LOCKED) {
 }
 ```
 
-如为 `State.UNLOCKED`，则会将合约调用传入的值存储至 lockValue 中，并将其状态设置为 `LOCKED`，等待后续 `commit` 或 `rollback` 进行解锁。
+If it is `State.UNLOCKED`, the value passed in the contract call will be stored in lockValue, and its state will be set to `LOCKED`, waiting for subsequent `commit` or `rollback` to unlock.
 
 ```solidity
 keyToPayload[_key].state = State.LOCKED;
@@ -76,7 +76,7 @@ keyToPayload[_key].lockValue = _value;
 
 #### commit()
 
-在 `commit()` 方法中，我们会检查 key 的状态，如为 `State.UNLOCKED`，则不会对该 key 进行操作，并抛出异常：
+In the `commit()` method, we check the state of the key. If it is `State.UNLOCKED`, no operation will be performed on this key and an exception will be thrown:
 
 ```solidity
 if (keyToPayload[_key].state == State.UNLOCKED) {
@@ -84,7 +84,7 @@ if (keyToPayload[_key].state == State.UNLOCKED) {
 }
 ```
 
-如为 `State.LOCKED`，我们检查合约调用传入的值是否与 lockValue 相等，如不相等，则抛出异常：
+If it is `State.LOCKED`, we check if the value passed in the contract call is equal to lockValue. If not equal, an exception is thrown:
 
 ```solidity
 if (!isEqualString(keyToPayload[_key].lockValue, _value)) {
@@ -92,7 +92,7 @@ if (!isEqualString(keyToPayload[_key].lockValue, _value)) {
 }
 ```
 
-如值相等，则会将该 key 所对应的 value 存储上链，将 key 的状态设置为 `UNLOCKED`，更新当前值 `value`，同时将 `lockValue` 置空：
+If the values are equal, the value corresponding to this key will be stored on the chain, the state of the key will be set to `UNLOCKED`, the current value `value` will be updated, and `lockValue` will be emptied:
 
 ```solidity
 store[_key] = _value;
@@ -103,7 +103,7 @@ keyToPayload[_key].lockValue = "";
 
 #### rollback()
 
-在 `rollback()` 方法中，我们会检查 key 的状态，如为 `State.UNLOCKED`，则不会对该 key 进行操作，并抛出异常：
+In the `rollback()` method, we check the state of the key. If it is `State.UNLOCKED`, no operation will be performed on this key and an exception will be thrown:
 
 ```solidity
 if (keyToPayload[_key].state == State.UNLOCKED) {
@@ -111,7 +111,7 @@ if (keyToPayload[_key].state == State.UNLOCKED) {
 }
 ```
 
-如为 `State.LOCKED`，我们检查合约调用传入的值是否与 lockValue 相等，如不相等，则抛出异常：
+If it is `State.LOCKED`, we check if the value passed in the contract call is equal to lockValue. If not equal, an exception is thrown:
 
 ```solidity
 if (!isEqualString(keyToPayload[_key].lockValue, _value)) {
@@ -119,16 +119,16 @@ if (!isEqualString(keyToPayload[_key].lockValue, _value)) {
 }
 ```
 
-如值相等，则会将该 key 所对应的 value 存储上链，将 key 的状态设置为 `UNLOCKED`，并将 `lockValue` 置空：
+If the values are equal, the state of the key will be set to `UNLOCKED`, and `lockValue` will be emptied:
 
 ```solidity
 keyToPayload[_key].state = State.UNLOCKED;
 keyToPayload[_key].lockValue = "";
 ```
 
-### 错误处理逻辑
+### Error Handling Logic
 
-在合约执行异常场景中，我们会抛出错误并进行回滚。为了更好地提升错误消息的可读性并方便上层应用人员进行错误捕获与处理，我们采用了错误类型定义的方式，定义了各类异常场景，因为我在错误命名中已经包含了大部分信息，所以未定义错误类型额外参数值，可以根据需求自行定制。
+In contract execution exception scenarios, we throw errors and perform rollbacks. To better improve the readability of error messages and facilitate error capture and handling by upper-layer application personnel, we adopted the error type definition approach, defining various exception scenarios. Since I have already included most of the information in the error naming, no additional parameter values for error types have been defined, which can be customized according to requirements.
 
 ```solidity
 error TwoPhaseCommit__DataKeyIsNull();
@@ -139,7 +139,7 @@ error TwoPhaseCommit__DataIsNotLocked();
 error TwoPhaseCommit__DataIsInconsistent();
 ```
 
-在具体合约逻辑中，我们通过 `revert` 方法抛出异常，如：
+In specific contract logic, we throw exceptions using the `revert` method, such as:
 
 ```solidity
 if (!isValidKey(bytes(_key))) {
@@ -159,14 +159,14 @@ if (!isEqualString(keyToPayload[_key].lockValue, _value)) {
 }
 ```
 
-### 通用参数校验
+### Generic Parameter Validation
 
-我们会对传入参数进行一些合法性校验，为了提供拓展性，我们通过 `isValidKey()` 与 `isValidValue()` 方法对 key 与 value 进行独立校验：
+We perform some validity checks on input parameters. To provide extensibility, we use the `isValidKey()` and `isValidValue()` methods to independently validate keys and values:
 
 ```solidity
 /**
- * @notice 数据键格式校验
- * @param _key 数据 - 键
+ * @notice Data key format validation
+ * @param _key Data - Key
  */
 function isValidKey(bytes memory _key) private pure returns (bool)
 {
@@ -179,8 +179,8 @@ function isValidKey(bytes memory _key) private pure returns (bool)
 }
 
 /**
- * @notice 数据值格式校验
- * @param _value 数据 - 值
+ * @notice Data value format validation
+ * @param _value Data - Value
  */
 function isValidValue(bytes memory _value) private pure returns (bool)
 {
@@ -193,7 +193,7 @@ function isValidValue(bytes memory _value) private pure returns (bool)
 }
 ```
 
-本合约只进行了非空校验，可根据业务需要自行定制业务逻辑，在需要校验的地方调用即可，如：
+This contract only performs non-null checks. You can customize business logic according to business needs and call it where validation is needed, such as:
 
 ```solidity
 if (!isValidKey(bytes(_key))) {
@@ -209,9 +209,9 @@ if (!isValidValue(bytes(store[_key]))) {
 }
 ```
 
-### 事件机制
+### Event Mechanism
 
-此外，我们定义了核心方法对应的 event，并为事件设置了 indexed 以方便上层应用进行监听和处理。
+Additionally, we defined events corresponding to core methods and set indexed for events to facilitate monitoring and processing by upper-layer applications.
 
 ```solidity
 event setEvent(string indexed key, string indexed value);
@@ -220,7 +220,7 @@ event commitEvent(string indexed key, string indexed value);
 event rollbackEvent(string indexed key, string indexed value);
 ```
 
-在合约方法中通过 `emit()` 方法抛出 event，如：
+Events are emitted in contract methods using the `emit()` method, such as:
 
 ```solidity
 emit setEvent(_key, _value);
@@ -229,12 +229,12 @@ emit commitEvent(_key, _value);
 emit rollbackEvent(_key, _value);
 ```
 
-## 总结
+## Conclusion
 
-以上就是我两阶段提交合约的一个最佳实践，关于 Solidity 基础语法可参看『[Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)』，后续我还会对更多合约场景进行实践与讲解，敬请关注。
+The above is a best practice for my two-phase commit contract. For basic Solidity syntax, please refer to "[Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)". I will continue to practice and explain more contract scenarios in the future, so stay tuned.
 
-## 参考资料
+## References
 
-> 1. [TwoPhaseCommit.sol 合约源码](https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol)
-> 2. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-> 3. [Solidity 官方文档](https://docs.soliditylang.org/en/v0.8.15/)
+> 1. [TwoPhaseCommit.sol Contract Source Code](https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol)
+> 2. [Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+> 3. [Solidity Official Documentation](https://docs.soliditylang.org/en/v0.8.15/)

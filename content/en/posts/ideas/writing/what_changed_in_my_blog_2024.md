@@ -1,5 +1,5 @@
 ---
-title: "2024 年了，我的博客有了什么变化"
+title: "In 2024, What Changes Have Come to My Blog"
 date: 2024-06-29T13:48:58Z
 draft: false
 tags: ["hugo", "blog", "writing", "life", "remark42", "goatcounter", "webp cloud", "r2"]
@@ -8,166 +8,166 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-在两年前的这一篇「[2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)」，我聊到了我写博客的缘起、初衷和搭建方案。
+Two years ago, in the post ["It's 2022, Let's Talk About Why I'm Still Blogging"](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/), I discussed the origins, intentions, and setup of my blog.
 
-两年多过去了，初衷仍在，写作也依然坚持下来了，虽没有完成自己所计划的周更，但多少也积淀了些文字。
+More than two years have passed. The original intention remains, and the writing has persevered, though I haven't achieved the weekly updates I planned. Nevertheless, I've accumulated a fair amount of written work.
 
-经历了很多事，似乎渐渐转向了一个「周报博主」，写的内容和风格已经大不同。技术和工具效率主题更少了，分享生活和思考更多了；少了些通宵两天更新四篇技术教程的冲劲，却多了些通过笔触表达情感后的自洽；收到很多关于博客搭建和技术教程的感谢依然会很开心，却也更珍惜和素昧谋面的大家交心的感动。
+Having experienced much, I seem to have gradually transformed into a "weekly review blogger," with content and style that have greatly changed. There are fewer posts about technology and productivity tools, and more sharing of life and reflections. Gone are the days of staying up for two nights to update four technical tutorials; instead, there's a sense of self-reconciliation after expressing emotions through writing. I still feel happy receiving thanks for blog setup and technical tutorials, but I cherish even more the heartfelt exchanges with strangers.
 
-## 周报博主
+## Weekly Review Blogger
 
-可能是有一次开会闲聊 xLog 未来的发展，有位同事突然 cue 我说，你作为一个「周报博主」有什么想法，我一愣，这个称呼倒是第一次听到，翻了翻主页，确实。
+Perhaps it was during a casual meeting discussion about xLog's future development when a colleague suddenly cued me, asking what thoughts I had as a "weekly review blogger." I was taken aback, hearing this title for the first time. Scrolling through my homepage, indeed, it fit.
 
-之前一直自诩是技术博主、工具效率博主，最后留下内容最多，给大家印象最深的似乎还是周报，也不错。
+I used to consider myself a tech blogger, a productivity tool blogger, but in the end, the content that remained the most, leaving the deepest impression on everyone, seems to be the weekly reviews. Not bad.
 
 ![weekly_review_group_chat](https://image.pseudoyu.com/images/weekly_review_group_chat.png)
 
-开始写周报似乎是「[Homura](https://x.com/RealAkemiHomura)」组织了一个周报监督小组，当时不论是在推特还是独立博客群体中都还是个小透明，也希望有更多人进行抱团和交流，当时会每周把自己的周报丢到群里，会有互相被卷到，也有对于他人生活状态的关心，很开心。
+The start of writing weekly reviews seems to have been when "Homura" organized a weekly review supervision group. At that time, I was still a nobody in both Twitter and independent blogging circles, hoping for more group support and communication. I would throw my weekly review into the group, sometimes feeling motivated by others, sometimes concerned about others' life states. It was a happy time.
 
-后来大家都经历了许多生活的工作的变动，群里最后的消息停留在了 23 年 1 月，但那依然是我很快乐的一段时光，也是我后来能继续写周报的动力，因为我知道，即使分享的只是生活的琐碎和一些不成熟的小想法，依然有人在认真读你的文字。
+Later, everyone experienced many changes in life and work. The last message in the group stayed at January 2023, but that remains a very happy period for me. It's also the motivation for me to continue writing weekly reviews because I know that even if I'm only sharing the trivialities of life and some immature little ideas, there are still people reading my words carefully.
 
 ![weekly_view_discuss_with_randy](https://image.pseudoyu.com/images/weekly_view_discuss_with_randy.png)
 
-之前有一次收到 Randy 的催更，他说其实没必要把它定义为周报，不然常常会有压力和束缚，不过我反倒依赖这种输出倒逼输入的模式，这样有了周报作为一个结果导向，才会更有动力把这周过好。
+Previously, I received an update reminder from Randy. He said there's no need to define it as a weekly review, as it often brings pressure and constraints. However, I rely on this output-driven input mode. With the weekly review as a result-oriented goal, I have more motivation to live the week well.
 
-~~虽然我常常重新定义周就是了。~~
+~~Although I often redefine what a week is.~~
 
-## 独立博客
+## Independent Blogging
 
-比起编排精美的书刊杂志，我更享受于访问他人的博客网站，站名名称、主题配色、配乐排版都更真实具体地呈现了一个人格化的存在，而在阅读博文时，我也常常会视为一次穿越时空的对话，会想象写下这些文字碎片的作者当时是怎样的心情，有时甚至也会带些顽皮地脑补他是一个怎样的人，此刻在做些什么。
+Compared to beautifully arranged books and magazines, I enjoy visiting others' blog websites more. The site name, theme color, music arrangement all more authentically present a personalized existence. When reading blog posts, I often view it as a dialogue across time and space, imagining the author's mood when writing these word fragments. Sometimes I even playfully imagine what kind of person they are and what they might be doing at this moment.
 
-独立博客其实是一个说大不大说小不小的圈子，两年过去，我反倒觉得开始搭博客、写博客的人渐渐变得多了，也有了更多有意思的高质量内容。
+Independent blogging is actually a circle that's neither big nor small. Two years have passed, and I feel that more people are starting to set up blogs and write blogs, and there's more interesting, high-quality content.
 
-相比起其他不论是粉丝积累还是互动都更为方便的成熟内容平台来说，不仅仅是平台和写作形式上的独立（我其实也愿意称在 mastodon 或是 misskey 上认真分享内容的人为独立博客作者），而是思想的独立，即好的文章不止授人知识，还引人思考。
+Compared to other mature content platforms that are more convenient for accumulating fans and interaction, it's not just independence in terms of platform and writing form (I'm actually willing to call those who share content seriously on Mastodon or Misskey independent bloggers), but independence of thought. Good articles not only impart knowledge but also provoke thought.
 
 ![dubo_1_intro](https://image.pseudoyu.com/images/dubo_1_intro.png)
 
-还跟 Randy 聊到想为独立博客做一些事，以刊物的形式收录这一段时间内读到的好的文章并为之作序推荐，其实已经筹备好了第一期，但由于两个人错峰的忙碌和更专注地做 EpubKit 产品，迟迟未能发布，这也是希望能够在未来某个节点能够持续做下去的事。
+I also chatted with Randy about wanting to do something for independent blogging, like compiling good articles read during a period of time in the form of a periodical and writing a preface to recommend them. Actually, the first issue has been prepared, but due to the busy schedules of both of us and a more focused effort on the EpubKit product, it hasn't been released yet. This is also something I hope to continue doing at some point in the future.
 
-## 博客系统
+## Blog System
 
-这是两年前写过的几篇关于博客搭建的文章：
+These are a few articles I wrote about blog setup two years ago:
 
-- [2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)
-- [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
-- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [It's 2022, Let's Talk About Why I'm Still Blogging](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)
+- [Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+- [Hugo + GitHub Action, Build Your Blog Automatic Publishing System](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Build a Free Personal Blog Data Analysis System from Scratch (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
-主要是围绕着我使用 Hugo 这一静态网页生成器（SSG）搭建个人博客及一些周边服务的一些记录，也看到很多人通过各种联系方式加到我说根据这一系列教程成功拥有了自己的博客，很开心能够为博客这一已经有些式微的创作方式做出一些小小的贡献。
+These mainly revolved around my records of using Hugo, a static website generator (SSG), to build a personal blog and some peripheral services. I've also seen many people contact me saying they successfully have their own blogs following this series of tutorials. I'm very happy to make a small contribution to blogging, a form of creation that has somewhat declined.
 
-当时写的时候对自己的整套方案很满意，然而时隔两年回头看了下。
+I was very satisfied with my entire set of solutions when I wrote them, but looking back after two years.
 
-- **博客本体**：Hugo 本体没变，部署方案: GitHub Pages + Cloudflare CDN -> Cloudflare Pages
-- **评论系统**：Cusdis -> Remark42，部署平台：Railway -> Vercel + Supabase -> fly.io
-- **统计系统**：Umami -> goatcounter，部署平台：Vercel + Heroku -> Railway -> Netlify + Supabase -> fly.io
-- **图床系统**：GitHub + jsDelivr -> 阿里云 OSS -> VPS 上自部署的 Chevereto + PicGo -> Cloudflare R2 + WebP Cloud + PicGo
-- **内容搜索**：无 -> Pagefind 静态搜索
+- **Blog Body**: Hugo itself hasn't changed, deployment solution: GitHub Pages + Cloudflare CDN -> Cloudflare Pages
+- **Comment System**: Cusdis -> Remark42, deployment platform: Railway -> Vercel + Supabase -> fly.io
+- **Statistics System**: Umami -> goatcounter, deployment platform: Vercel + Heroku -> Railway -> Netlify + Supabase -> fly.io
+- **Image Hosting System**: GitHub + jsDelivr -> Alibaba Cloud OSS -> Self-hosted Chevereto on VPS + PicGo -> Cloudflare R2 + WebP Cloud + PicGo
+- **Content Search**: None -> Pagefind static search
 
-更换的原因很多，有些是由于 Heroku 和 Railway 渐渐取消了免费计划，有些是由于开源项目更新少了缺少功能，也有些单纯是自己想折腾一下更轻量些。
+There are many reasons for the changes. Some are due to Heroku and Railway gradually canceling their free plans, some are due to open-source projects updating less and lacking features, and some are simply because I wanted to tinker around to make things lighter.
 
-想起来当时写这套系列教程的时候主要就是觉得网上能够搜到的方案和教程零散且常常落后，于是想给想搭建博客的读者一站式搭建起来的可行方案，发布后收到了许多人的反馈，有些内容也早该更新，却一直拖到现在才开始重新写，很惭愧。
+I remember when I wrote this series of tutorials, it was mainly because I felt that the solutions and tutorials that could be found online were scattered and often outdated. So I wanted to provide a one-stop solution for readers who wanted to set up a blog. After publication, I received feedback from many people. Some content should have been updated long ago, but I've been putting it off until now to start rewriting, which I feel quite ashamed about.
 
-下文会对当前的方案作一些介绍，后续更新后的系列文章完成后也会追加链接。
+The following text will introduce the current solution, and links to the updated series of articles will be added later when completed.
 
-### 博客本体
+### Blog Body
 
 ![yu_blog_homepage_20240629](https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png)
 
-我使用 [Hugo](https://gohugo.io/) 这个静态网站生成器来搭建我的个人博客，使用并改造了一个比较 retro 的主题「[hugo-theme-den](https://github.com/shaform/hugo-theme-den)」。
+I use [Hugo](https://gohugo.io/), this static website generator, to build my personal blog, using and modifying a rather retro theme "hugo-theme-den".
 
-大体的流程可以参看「[Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)」这篇文章和「[GitHub - yu-blog](https://github.com/pseudoyu/yu-blog)」这个仓库。
+The general process can be referred to in the article ["Hugo + GitHub Action, Build Your Blog Automatic Publishing System"](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/) and the repository ["GitHub - yu-blog"](https://github.com/pseudoyu/yu-blog).
 
-加了一些每天自动更新 About 页面的 GitHub Actions 自动化操作，并且由于 GitHub Pages 托管的网站从国内访问速度几乎不可用了，迁移到了 Cloudflare Pages，免费且体验感好了很多，其他几乎没什么改动了。
+I added some GitHub Actions automated operations to update the About page daily, and because websites hosted on GitHub Pages became almost inaccessible from within China, I migrated to Cloudflare Pages, which is free and provides a much better experience. There haven't been many other changes.
 
-其实倒也不是没想过换框架，之前看到「[Owen](https://www.owenyoung.com/)」和「[PJ Wu](https://pinchlime.com/)」使用的 [Zola](https://www.getzola.org/) 就有些眼馋，甚至也有想过像「[槿呈 Goidea](https://justgoidea.com/)」或是「[Innei](https://innei.in/)」一样自己写一个。
+It's not that I haven't thought about changing frameworks. I was quite envious when I saw "Owen" and "PJ Wu" using [Zola](https://www.getzola.org/), and I even thought about writing one myself like "Goidea" or "Innei".
 
-不过冷静下来一想，自己现在网站积累了不少文章，要是想要保留原有路径免不了一番折腾，再加上确实很喜欢现在的主题，有什么想法干脆就直接去定制和改动主题了，还是少花一些心力在折腾平台，多写些博文比较重要，不然多少有点买椟还珠之嫌，遂作罢。
+But when I calmed down and thought about it, I've accumulated quite a few articles on my current website, and if I wanted to keep the original paths, it would inevitably involve a lot of tinkering. Plus, I really like the current theme, so I might as well just customize and modify the theme directly if I have any ideas. It's better to spend less effort on tinkering with platforms and write more blog posts, otherwise it might be a bit like valuing the casket over the jewels, so I gave up on the idea.
 
-### 评论系统
+### Comment System
 
-在博客诞生之初直到今年四五月我一直使用的都是 [Cusdis](https://cusdis.com/)，整整用了三年。
+From the inception of the blog until April or May this year, I had been using [Cusdis](https://cusdis.com/) consistently for three years.
 
-时至今日依然是十分值得推荐的方案，轻量，方便自部署，风格也简约好看，搭建教程参看「[轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)」。
+To this day, it's still a highly recommendable solution - lightweight, easy to self-deploy, and with a simple and attractive style. For setup instructions, refer to ["Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)"](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/).
 
-不过鉴于 Railway 从去年 8 月起已经取消了 Free Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目，并在 [Supabase](https://supabase.com) 上部署一个免费的 PostgreSQL 数据库实例，把链接作为环境变量传入 Cusdis 服务中即可，其他流程大同小异。
+However, given that Railway has canceled its Free Plan since August last year, if you still want to use it completely free, you can use Vercel/Netlify/Zeabur to deploy the main project for free, and deploy a free PostgreSQL database instance on [Supabase](https://supabase.com), passing the link as an environment variable into the Cusdis service. The rest of the process is largely similar.
 
 ![yu_remark42_preview](https://image.pseudoyu.com/images/yu_remark42_preview.png)
 
-最近有一次由于更换数据库 URI 时 Vercel 部署一直报错，再加上确实需要一些新的功能，于是下定决心从 Cusdis 迁移，调研了一圈后选择了 [reorx](https://reorx.com/) 在「[更换博客评论系统](https://reorx.com/blog/blog-commenting-systems/)」一文中最后选定的 [Remark42](https://remark42.com/)。
+Recently, due to a persistent Vercel deployment error when changing the database URI, plus the need for some new features, I finally decided to migrate from Cusdis. After researching for a while, I chose [Remark42](https://remark42.com/), which was ultimately selected by [reorx](https://reorx.com/) in his article ["Changing Blog Comment Systems"](https://reorx.com/blog/blog-commenting-systems/).
 
-单纯就配置选项来说比起 cusdis 还是丰富了不少，目前配置了常用的几种社交账号登录（GitHub、Twitter、Telegram、邮箱）、可以匿名评论、支持邮件订阅回复提醒并且也设置了 TG bot 提醒，并且部署在 [fly.io](https://fly.io/)，go 单二进制 + 数据库单文件，很舒服的解决方案，完成博文后会在这里更新教程链接。
+In terms of configuration options alone, it's quite a bit richer than Cusdis. Currently, I've configured several common social account logins (GitHub, Twitter, Telegram, email), anonymous commenting is supported, email subscription for reply notifications is available, and I've also set up TG bot notifications. It's deployed on [fly.io](https://fly.io/), with a single Go binary + single file database, a very comfortable solution. I'll update the tutorial link here once the blog post is completed.
 
-**[2024-07-22 更新]**
+**[2024-07-22 Update]**
 
-评论系统搭建详见这篇。
+For details on setting up the comment system, see this post:
 
-- [从零开始搭建你的免费博客评论系统（Remark42 + fly.io）](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+- [Build Your Free Blog Comment System from Scratch (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
 
-### 数据统计系统
+### Data Statistics System
 
-我之前自部署了一个 Umami（参看教程「[从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)」不过后来由于 Heroku 取消了免费 Plan，我最后折腾一圈，选择了 Netlify 部署服务 + Supabase 部署 PostgreSQL 数据库实例部署的方式，其余流程依然适用。
+I previously self-deployed Umami (refer to the tutorial ["Build a Free Personal Blog Data Analysis System from Scratch (umami + Vercel + Heroku)"](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)), but later, due to Heroku canceling its free Plan, I tinkered around and chose to deploy the service on Netlify + deploy a PostgreSQL database instance on Supabase. The rest of the process remains applicable.
 
 ![yu_goatcounter_preview](https://image.pseudoyu.com/images/yu_goatcounter_preview.png)
 
-不过一方面因为我部署得比较早，有一个大版本无法升级，以至于一直停留在自己 fork 的一个旧版本上，另一方面确实也渐渐觉得这种服务和数据库需要分离的方式免不了因为平台规则变动而频繁迁移，有些太重了，所以最后改为了 [goatcounter](https://www.goatcounter.com/)，同样是 go 单二进制 + sqlite 数据库单文件部署在 [fly.io](https://fly.io/)，又是很舒服的部署方案，等更新博文后同样会在这里更新教程链接。
+However, on one hand, because I deployed it quite early, there was a major version that couldn't be upgraded, causing me to stay on an old version I forked. On the other hand, I gradually felt that this kind of service and database separation inevitably led to frequent migrations due to platform rule changes, which felt a bit too heavy. So finally, I switched to [goatcounter](https://www.goatcounter.com/), which is also deployed on [fly.io](https://fly.io/) with a single Go binary + SQLite database file, another very comfortable deployment solution. I'll update the tutorial link here once the blog post is updated.
 
 ![yu_google_console_preview](https://image.pseudoyu.com/images/yu_google_console_preview.png)
 
-另外就是依然使用 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重。
+Additionally, I still use [Google Console](https://search.google.com/search-console) to analyze and statistics my visitor information and search weight.
 
-这个结果很有参考性，我发现一篇关于终端对比的文章「[Warp，iTerm2 还是 Alacritty？我的终端折腾小记](https://www.pseudoyu.com/en/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/)」让我持续不断地有通过搜索引擎来的访客，另外的就是关于个人博客和搭建的系列文章了。
+These results are quite informative. I found that an article comparing terminals ["Warp, iTerm2, or Alacritty? My Terminal Tinkering Notes"](https://www.pseudoyu.com/en/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/) continuously brings me visitors through search engines. The other popular articles are the series about personal blogs and setup.
 
-**[2024-08-06 更新]**
+**[2024-08-06 Update]**
 
-网站数据统计系统搭建详见这篇。
+For details on setting up the website data statistics system, see this post:
 
-- [使用 GoatCounter 与 Zeabur 搭建网站数据统计系统](https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
+- [Setting Up a Website Statistics System Using GoatCounter and Zeabur](https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
 
-### 图床系统
+### Image Hosting System
 
-两年前我其实还没怎么关注图床的问题，图片都是直接丢在 GitHub 仓库里，并且使用 jsDelivr 作为 CDN 加速（后来国内访问也几乎不可用了），不过随着文章数量增多，常常有身边的朋友告诉我说我的博客图片加载不出来，想着还是要兼顾一下阅读体验，于是调研了一圈方案。
+Two years ago, I hadn't really paid much attention to the issue of image hosting. All images were directly thrown into the GitHub repository and used jsDelivr as a CDN for acceleration (which later became almost inaccessible from within China). However, as the number of articles increased, friends often told me that they couldn't load the images on my blog. Thinking about improving the reading experience, I researched various solutions.
 
 ![aliyunoss_invoice](https://image.pseudoyu.com/images/aliyunoss_invoice.jpeg)
 
-先选择了阿里云 OSS 存图，电脑使用 PicGo 上传，方案挺好的，前几个月也没什么问题，直到 23 年初有几篇文章流量比较大，看着月账单上涨的势头，顿感贫穷。
+I first chose Alibaba Cloud OSS for image storage, using PicGo for uploading on the computer. The solution was quite good, and there were no problems for the first few months, until early 2023 when a few articles had relatively high traffic. Seeing the upward trend of the monthly bill, I suddenly felt poor.
 
-于是在线路还不错的搬瓦工服务器上自建了 Chevereto 图床，同样配合 PicGo 的插件进行上传，稳稳地用了一年半。但自己对于自部署服务的稳定性和数据的珍贵性还是有些大意，前几天服务器突然挂了，内核报错直接无法重启，服务挂了倒还好说，但是我这一年半多的数据没有备份，也无法导出。
+So I set up a Chevereto image hosting on a Bandwagon server with good connectivity, still using PicGo's plugin for uploading. It was used steadily for a year and a half. But I was a bit careless about the stability of self-hosted services and the preciousness of data. A few days ago, the server suddenly went down, with a kernel error that prevented rebooting. The service being down was one thing, but I had no backup of my year and a half of data and couldn't export it.
 
-工单联系技术支持，一天只回复了我两次，一次让我重启，一次建议我聘请一个网络管理员排查。只能自力更生，翻遍了网上各种方案，折腾了一天终于算是解决了，但这一次的教训让我对与有重要数据的服务部分和自部署稳定程度都有了全新的认识，于是不敢再用原方案。
+I contacted technical support through a work order, but they only replied twice in a day, once telling me to restart, and once suggesting I hire a network administrator to investigate. I could only rely on myself. After scouring the internet for various solutions and tinkering for a day, I finally managed to solve it. But this lesson gave me a whole new understanding of the importance of services with critical data and the stability of self-hosting, so I dared not use the original solution anymore.
 
 ![yu_webp](https://image.pseudoyu.com/images/yu_webp.png)
 
-最后采用了 [Cloudflare R2](https://www.cloudflare.com/en-gb/developer-platform/r2/) 对象存储来存放图片，每个月 10G 的免费额度很足够，大厂的服务与数据安全也有保障。为了优化用户的访问，又使用了一个「[WebP Cloud](https://webp.se/)」服务对 R2 的图片进行代理，在代理层面进一步减小图片体积，虽然对于国内用户来说速度肯定还是比不上阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。
+Finally, I adopted [Cloudflare R2](https://www.cloudflare.com/en-gb/developer-platform/r2/) object storage to store images. The 10GB free quota per month is more than enough, and the service and data security of a big company are also guaranteed. To optimize user access, I also used a "WebP Cloud" service to proxy the images in R2, further reducing image size at the proxy level. Although the speed for domestic users is certainly not comparable to Alibaba Cloud OSS in terms of connectivity, under the comprehensive conditions of not requiring filing, stability, and being free, this is the best solution I could think of.
 
 ![yu_picgo_pics](https://image.pseudoyu.com/images/yu_picgo_pics.png)
 
-在电脑端通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。
+On the desktop, I can almost one-click upload through the PicGo client and generate markdown image links directly usable for the blog. After configuration, it's very smooth to use.
 
-图床搭建教程见这篇：
+For the image hosting setup tutorial, see this post:
 
-- [从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
+- [Build Your Free Image Hosting System from Scratch (Cloudflare R2 + WebP Cloud + PicGo)](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
 
-**[2024-07-02 更新]**
+**[2024-07-02 Update]**
 
-新写了一篇教程实现了图床添加隐私和版权保护，算是番外篇。
+I've written a new tutorial on implementing privacy and copyright protection for image hosting, which can be considered a bonus chapter.
 
-- [使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护](https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
+- [Adding Privacy and Copyright Protection to Your Image Hosting Using WebP and Cloudflare WAF](https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
 
-### 内容搜索
+### Content Search
 
 ![search_in_my_blog](https://image.pseudoyu.com/images/search_in_my_blog.png)
 
-之前我的博客是没有内容搜索功能的，本来文章也不多，再加上静态博客没有后端，实现起来感觉也不容易，于是一直没支持。但随着后来有时候要查阅自己之前的文章只能用 VS Code 在一堆 markdown 文件中搜索的体验后，觉得还是很有必要的。
+Previously, my blog didn't have a content search function. Initially, there weren't many articles, and since it's a static blog without a backend, it seemed difficult to implement. So I never supported it. But as I sometimes needed to refer to my previous articles and could only search through a bunch of markdown files using VS Code, I felt it was quite necessary.
 
-调研了一圈使用了 [Pagefind](https://pagefind.app/) 这一项目，基于静态文件的搜索库，无须引入或是托管其他后端服务，我只需要在每次发布博客的 CI 中构建全博客的索引文件，就能够很方便地支持搜索，中文搜索效果相对弱一些，不过也是够用的程度，基本上对主流的博客框架都支持。
+After researching, I used [Pagefind](https://pagefind.app/), a search library based on static files. It doesn't require introducing or hosting other backend services. I only need to build an index file for the entire blog in the CI every time I publish a blog post, and it can easily support searching. The Chinese search effect is relatively weak, but it's sufficient. It basically supports most mainstream blog frameworks.
 
-这部分可以参照「[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)」这篇文章。
+This part can be referenced from the article ["How to Add a Search Function to Zola-Generated Static Websites via Pagefind"](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/).
 
-## 总结
+## Conclusion
 
-2024 年了，我大抵还是个爱好写作的人，从早些年的书评影评、技术教程到现在的生活周记，似乎所见所思只有落笔写下才会转为触手可及的真实。而随着上百篇文章的沉淀，个人博客站点也成为了我在这世界的另一个载体，源于我却又独立于我，有时是随手可拾起的记忆碎片，有时又是自己精神的避难所。
+In 2024, I'm still largely a person who loves writing, from book and movie reviews, technical tutorials in earlier years to current life weekly reviews. It seems that what I see and think only becomes tangible reality when put into words. And with the accumulation of hundreds of articles, my personal blog site has become another carrier of me in this world, originating from me yet independent of me. Sometimes it's a memory fragment that can be picked up at will, sometimes it's a spiritual sanctuary for myself.
 
-也希望你们能够继续在我的博客中发现一些有趣的东西，或是知识，或是启发，抑或是一点点小小的共鸣，或许在某个时刻，你们也会想拥有自己的博客站点，让自己的所思所想在这个世界上留下一些痕迹，生根、发芽，也希望这套系列教程能够提供一些帮助。
+I also hope that you can continue to discover some interesting things in my blog, be it knowledge, inspiration, or a little bit of resonance. Perhaps at some moment, you too will want to have your own blog site, to leave some traces of your thoughts in this world, to take root and sprout. I hope this series of tutorials can provide some help.

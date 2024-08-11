@@ -1,5 +1,5 @@
 ---
-title: "Ethereum 核心技术解读"
+title: "Ethereum Core Technology Interpretation"
 date: 2021-02-20T12:12:17+08:00
 draft: false
 tags: ["blockchain", "ethereum"]
@@ -8,55 +8,55 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-比特币作为一种去中心化的数字货币，是极其成功的，但受限于比特币脚本（非图灵完备，只能处理一些简单的逻辑），并不能处理很复杂的业务。而`Ethereum`引入了智能合约，使去中心化的概念能够应用于更丰富的应用场景，因此也被称为区块链 2.0。本文将对以太坊核心技术进行解读，如有错漏，欢迎交流指正。
+Bitcoin, as a decentralized digital currency, has been extremely successful. However, limited by the Bitcoin script (which is not Turing complete and can only handle simple logic), it cannot process very complex business operations. Ethereum introduced smart contracts, allowing the concept of decentralization to be applied to a wider range of application scenarios, thus also being called blockchain 2.0. This article will interpret the core technologies of Ethereum. Any errors or omissions are welcome for discussion and correction.
 
-## Ethereum 系统
+## Ethereum System
 
-2014 年 1 月，俄罗斯开发者 Vitalik Buterin 发布了以太坊白皮书并成立团队，旨在创造一个集成更通用的脚本语言的区块链平台。其中一位成员 Dr. Gavin Wood 发布了一份黄皮书，涉及`Ethereum Virtual Machin(EVM)`以太坊虚拟的相关技术，这就是`Ethereum`的诞生。
+In January 2014, Russian developer Vitalik Buterin published the Ethereum white paper and formed a team, aiming to create a blockchain platform that integrates a more general scripting language. One of the team members, Dr. Gavin Wood, published a yellow paper detailing the technical aspects of the Ethereum Virtual Machine (EVM). This marked the birth of Ethereum.
 
 ![ethereum_overview](https://image.pseudoyu.com/images/ethereum_overview.png)
 
-简单来说，`Ethereum`是一个开源的去中心化系统，使用区块链来存储系统状态变化，因此也被称为“世界计算机”；它支持开发者在区块链上部署运行不可变的程序，称为智能合约，因此可以支持广泛的应用场景；它使用数字货币`Ether`来衡量系统资源消耗，激励更多人参与`Ethereum`系统建设。
+In simple terms, Ethereum is an open-source decentralized system that uses blockchain to store system state changes, hence also known as the "world computer". It allows developers to deploy and run immutable programs on the blockchain, called smart contracts, thus supporting a wide range of application scenarios. It uses the digital currency Ether to measure system resource consumption and incentivize more people to participate in building the Ethereum system.
 
-### 去中心化应用 DApp
+### Decentralized Applications (DApps)
 
-狭义来说，DApp 其实就是一个集成了用户界面、支持智能合约、运行于以太坊区块链上的应用。
+In a narrow sense, a DApp is an application that integrates a user interface, supports smart contracts, and runs on the Ethereum blockchain.
 
 ![ethereum_architecture](https://image.pseudoyu.com/images/ethereum_architecture.png)
 
-如上图所示，`Ethereum`应用实例部署在区块链网络上（智能合约运行于区块链虚拟机中），而 Web 程序只需要通过`Web3.js`对区块链网络进行`RPC`远程调用，这样用户就可以通过浏览器（DApp 浏览器或 MetaMask 等插件工具）访问去中心化服务应用了。
+As shown in the above diagram, Ethereum application instances are deployed on the blockchain network (smart contracts run in the blockchain virtual machine), while the web program only needs to make RPC remote calls to the blockchain network through Web3.js. This way, users can access decentralized service applications through browsers (DApp browsers or plugin tools like MetaMask).
 
-### 账本
+### Ledger
 
-`Ethereum`区块链是一个去中心化的账本（数据库），网络中的所有交易都会存储在区块链中，所有节点都要本地保存一份数据，并且确保每一笔交易的可信度；所有的交易都是公开且不可篡改的，网络中的所有节点都可以查看和验证。
+The Ethereum blockchain is a decentralized ledger (database) where all transactions in the network are stored. All nodes must keep a local copy of the data and ensure the credibility of each transaction. All transactions are public and immutable, and all nodes in the network can view and verify them.
 
-### 账户
+### Accounts
 
-当我们需要登录一个网站或系统（比如邮箱）时，往往需要一个帐号和一个密码，密码通过加密算法以暗文的形式存储在中心化的数据库中。然而，以太坊是一个去中心化的系统，那是怎么生成账户的呢？
+When we need to log into a website or system (such as an email), we often need an account and a password. The password is stored in encrypted form in a centralized database. However, Ethereum is a decentralized system, so how are accounts generated?
 
-和比特币系统原理类似
+Similar to the Bitcoin system principle:
 
-1. 首先生成一个仅有自己知道的私钥，假设为`sk`，采用`ECDSA(Elliptic Curve Digital Signature Algorithm)`椭圆曲线算法生成对应的公钥`pk`
-2. 采用`keccak256`算法对公钥`pk`求哈希值
-3. 截取后 160 位作为以太坊的地址
+1. First, generate a private key known only to yourself, let's say 'sk', and use the Elliptic Curve Digital Signature Algorithm (ECDSA) to generate the corresponding public key 'pk'
+2. Use the keccak256 algorithm to calculate the hash value of the public key 'pk'
+3. Take the last 160 bits as the Ethereum address
 
-用户的私钥和地址一起组成了以太坊的账户，可以存储余额、发起交易等（比特币的余额是通过计算所有的`UTXO`得到的，而不是像以太坊一样存储在账户中）。
+The user's private key and address together form the Ethereum account, which can store balances, initiate transactions, etc. (Bitcoin's balance is obtained by calculating all UTXOs, rather than being stored in the account like Ethereum).
 
-其实`Ethereum`账户分为两种类型，上述方式生成的叫`Externally Owned Accounts(EOA)`，外部账户，也就是常规用户拥有的账户，主要是用来发送/接收`Ether`代币或者向智能合约发送交易（即调用智能合约）。
+In fact, Ethereum accounts are divided into two types. The above method generates what's called Externally Owned Accounts (EOA), which are regular user accounts mainly used to send/receive Ether tokens or send transactions to smart contracts (i.e., calling smart contracts).
 
-而另一种则是`Contract Accounts`，合约账户，不同于外部账户，这种账户是没有对应的私钥的，而是在部署合约的时候生成的，存储智能合约代码。值得注意的是，合约账户必须要被外部账户或者其他合约调用才能够发送或接收`Ether`，而不能自己主动执行交易。
+The other type is Contract Accounts. Unlike external accounts, these accounts do not have corresponding private keys but are generated when deploying contracts and store smart contract code. It's worth noting that contract accounts must be called by external accounts or other contracts to send or receive Ether, and cannot initiate transactions on their own.
 
-### 钱包
+### Wallet
 
-存储和管理`Ethereum`账户的软件/插件称为钱包，提供了诸如交易签名、余额管理等功能。钱包生成主要有两种方式，非确定性随机生成或根据随机种子生成。
+Software/plugins that store and manage Ethereum accounts are called wallets, providing functions such as transaction signing and balance management. Wallets are mainly generated in two ways: non-deterministic random generation or generation based on random seeds.
 
 ### Gas
 
-`Ethereum`网络上的操作也需要“手续费”，称为`Gas`，在区块链上部署智能合约以及转账都需要消耗一定单位的`Gas`，这也是鼓励矿工参与`Ethereum`网络建设的激励机制，从而使整个网络更加安全、可靠。
+Operations on the Ethereum network also require "fees", called Gas. Deploying smart contracts and transferring funds on the blockchain consume a certain amount of Gas. This is also an incentive mechanism to encourage miners to participate in building the Ethereum network, thereby making the entire network more secure and reliable.
 
-每个交易都可以设置相应的`Gas`量和`Gas`的价格，设置较高的`Gas`费则往往矿工会更快处理你的交易，但为了预防交易多次执行消耗大量`Gas`费，可以通过`Gas Limit`来设置限制。`Gas`相关信息可以通过 [Ethereum Gas Tracker](https://etherscan.io/gastracker) 工具进行查询。
+Each transaction can set the corresponding Gas amount and Gas price. Setting a higher Gas fee often means miners will process your transaction faster, but to prevent transactions from consuming a large amount of Gas fee through multiple executions, you can set a limit through Gas Limit. Gas-related information can be queried through tools like the Ethereum Gas Tracker.
 
 ```sh
 If START_GAS * GAS_PRICE > caller.balance, halt
@@ -67,61 +67,61 @@ For negative values, add to GAS_REFUND
 After termination, add GAS_REFUND to caller.balance
 ```
 
-### 智能合约
+### Smart Contracts
 
-上文提到，`Ethereum`区块链不仅仅存储交易信息，还会存储与执行智能合约代码。
+As mentioned earlier, the Ethereum blockchain not only stores transaction information but also stores and executes smart contract code.
 
-智能合约控制应用和交易逻辑，`Ethereum`系统中的智能合约采用专属`Solidity`语言，语法类似于`JavaScript`，除此之外，还有`Vyper`、`Bamboo`等编程语言。智能合约代码会被编译为字节码并部署至区块链中，一旦上链则不可以再编辑。`EVM`作为一个智能合约执行环境，能够保障执行结果的确定性。
+Smart contracts control application and transaction logic. In the Ethereum system, smart contracts use the proprietary Solidity language, with syntax similar to JavaScript. In addition, there are programming languages like Vyper and Bamboo. Smart contract code is compiled into bytecode and deployed to the blockchain, and once on-chain, it cannot be edited. The EVM, as a smart contract execution environment, can ensure the determinism of execution results.
 
-#### 智能合约示例：众筹
+#### Smart Contract Example: Crowdfunding
 
-让我们想象一个更复杂的场景，假设我要众筹 10000 元开发一个新产品，通过现有众筹平台需要支付不菲的手续费，而且很难解决信任问题，于是，可以通过一个众筹的 DApp 来解决这个问题。
+Let's imagine a more complex scenario. Suppose I want to crowdfund 10,000 yuan to develop a new product. Using existing crowdfunding platforms requires paying considerable fees and it's difficult to solve trust issues. Therefore, we can use a crowdfunding DApp to solve this problem.
 
-先为众筹设置一些规则
+First, let's set some rules for crowdfunding:
 
-1. 每个想参与众筹的人可以捐款 10-10000 元的金额
-2. 如果目标金额达成了，金额会通过智能合约发送给我（即众筹发起人）
-3. 如果目标在一定时间内（如 1 个月）没有达成，众筹的资金会原路返回至众筹用户
-4. 也可以设置一些规则，比如一周后，如果目标金额没有达成，用户可以申请退款
+1. Each person who wants to participate in crowdfunding can donate an amount between 10-10,000 yuan
+2. If the target amount is reached, the amount will be sent to me (the crowdfunding initiator) through a smart contract
+3. If the target is not reached within a certain time (e.g., 1 month), the crowdfunding funds will be returned to the crowdfunding users
+4. We can also set some rules, such as after a week, if the target amount is not reached, users can apply for a refund
 
-因为这些众筹条款是通过智能合约实现并部署在公开的区块链上的，即使是发起者也不能篡改条款，且任何人都可以查看，解决了信任问题。
+Because these crowdfunding terms are implemented through smart contracts and deployed on the public blockchain, even the initiator cannot tamper with the terms, and anyone can view them, solving the trust issue.
 
-完整代码可以点击这里查看：[Demo](https://www.toshblocks.com/solidity/complete-example-crowd-funding-smart-contract/)
+You can view the complete code here: [Demo](https://www.toshblocks.com/solidity/complete-example-crowd-funding-smart-contract/)
 
-### 交易
+### Transactions
 
-在`Ethereum`中，一个典型的交易是怎么样的呢？
+What does a typical transaction in Ethereum look like?
 
-1. 开发者部署智能合约至区块链
-2. DApp 实例化合约、传入相应值以执行合约
-3. DApp 对交易进行数字签名
-4. 本地对交易进行验证
-5. 广播交易至网络中
-6. 矿工节点接收交易并进行验证
-7. 矿工节点确认可信区块后广播至网络中
-8. 本地节点与网络进行同步，接收新区块
+1. Developers deploy smart contracts to the blockchain
+2. DApp instantiates the contract, passes in corresponding values to execute the contract
+3. DApp digitally signs the transaction
+4. Local verification of the transaction
+5. Broadcast the transaction to the network
+6. Miner nodes receive the transaction and verify it
+7. Miner nodes confirm trusted blocks and broadcast to the network
+8. Local nodes synchronize with the network and receive new blocks
 
-### 架构
+### Architecture
 
 ![ethereum_architecture_simple](https://image.pseudoyu.com/images/ethereum_architecture_simple.png)
 
-`Ethereum`采用的是一种`Order - Execute - Validate - Update State`的系统架构。在这种架构下，当产生一笔新的交易，矿工会进行`PoW`工作量证明机制的运算；验证完成后，将区块通过`gossip`协议广播至网络中；网络中的其他节点接收到新区块后，也会对区块进行验证；最终，提交至区块链，更新状态。
+Ethereum adopts an "Order - Execute - Validate - Update State" system architecture. Under this architecture, when a new transaction occurs, miners perform Proof of Work (PoW) calculations; after verification, they broadcast the block to the network through the gossip protocol; other nodes in the network receive the new block and also verify it; finally, it is submitted to the blockchain, updating the state.
 
-具体来看，`Ethereum`系统有共识层、数据层、应用层等核心组件，其交互逻辑如下：
+Specifically, the Ethereum system has core components such as the consensus layer, data layer, and application layer. Their interaction logic is as follows:
 
 ![ethereum_architecture_concrete](https://image.pseudoyu.com/images/ethereum_architecture_concrete.png)
 
-如上图所示，`Ethereum`数据由`Transaction Root`和`State Root`组成。`Transaction Root`是所有交易组成的树，包含`From`、`To`、`Data`、`Value`、`Gas Limit`和`Gas Price`；而`State Root`则是所有账户组成的树，包含`Address`、`Code`、`Storage`、`Balance`和`Nonce`。
+As shown in the above diagram, Ethereum data consists of Transaction Root and State Root. Transaction Root is a tree composed of all transactions, including From, To, Data, Value, Gas Limit, and Gas Price; while State Root is a tree composed of all accounts, including Address, Code, Storage, Balance, and Nonce.
 
-## 总结
+## Conclusion
 
-以上就是对`Ethereum`核心技术的一些解读，智能合约的引入给区块链的应用带来了更多可能性，但仍有很多安全性、隐私性和效率问题需要考虑。针对复杂的企业级应用场景，联盟链是更好的选择，后续将会对`Hyperledger Fabric`进行详尽的分析，敬请期待！
+The above is an interpretation of Ethereum's core technologies. The introduction of smart contracts has brought more possibilities to blockchain applications, but there are still many security, privacy, and efficiency issues to consider. For complex enterprise-level application scenarios, consortium chains are a better choice. A detailed analysis of Hyperledger Fabric will be provided in the future, stay tuned!
 
-## 参考资料
+## References
 
 > 1. [COMP7408 Distributed Ledger and Blockchain Technology](https://msccs.cs.hku.hk/public/courses/2020/COMP7408A/), *Professor S.M. Yiu, HKU*
 > 2. [Udacity Blockchain Developer Nanodegree](https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309), *Udacity*
-> 3. [区块链技术与应用](https://www.bilibili.com/video/BV1Vt411X7JF)，*肖臻，北京大学*
-> 4. [区块链技术进阶与实战](https://www.ituring.com.cn/book/2434)，*蔡亮 李启雷 梁秀波，浙江大学 | 趣链科技*
+> 3. [Blockchain Technology and Applications](https://www.bilibili.com/video/BV1Vt411X7JF), *Xiao Zhen, Peking University*
+> 4. [Advanced Blockchain Technology and Practice](https://www.ituring.com.cn/book/2434), *Cai Liang, Li Qilei, Liang Xiubo, Zhejiang University | Hyperchain Technology*
 > 5. [Ethereum Architecture](https://www.zastrin.com/courses/ethereum-primer/lessons/1-5), *zastrin*
 > 6. [Learn Solidity: Complete Example: Crowd Funding Smart Contract](https://www.toshblocks.com/solidity/complete-example-crowd-funding-smart-contract/), *TOSHBLOCKS*

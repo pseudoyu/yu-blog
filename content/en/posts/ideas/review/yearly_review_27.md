@@ -1,5 +1,5 @@
 ---
-title: "27 岁的自白：成长是一件很扫兴的事"
+title: "Confession at 27: Growing Up is a Dispiriting Affair"
 date: 2024-06-06T19:42:26+08:00
 draft: false
 tags: ["review", "work", "life", "romance", "growth", "birthday", "age"]
@@ -8,80 +8,80 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/1988.mp3" caption="《请回答 1988 OST》" >}}
+{{<audio src="audios/1988.mp3" caption="《Reply 1988 OST》" >}}
 
-## 前言
+## Preface
 
 ![yearly_review_27](https://image.pseudoyu.com/images/yearly_review_27_new.png)
 
-现在是 2024 年 6 月 6 日，我 27 岁了。
+It's June 6, 2024, and I'm 27 years old.
 
-周报的想法就是在前年的生日这天萌生的，在去年的总结里也说过这是个一直想坚持下去的栏目和仪式感，如约而至。
+The idea for the weekly review was born on my birthday two years ago. As I mentioned in last year's summary, this is a column and ritual I want to keep up, and it has arrived as promised.
 
-第一年写了 40 篇周报，而去年只有 20 篇了，减少的不仅仅是数量，还有自己的思考、情绪与表达欲。我常常说周报是自己生活和表达欲的载体，当自己生活一团糟的时候是没办法好好写些什么的，但似乎这一年这样“状态不好”的时候未免太多了些，或者换句话说，我对这样的自己太过纵容了些，这很可怕。
+In the first year, I wrote 40 weekly reviews, but last year there were only 20. What decreased wasn't just the quantity, but also my reflections, emotions, and desire for expression. I often say that the weekly review is a vessel for my life and expression, and when my life is in disarray, it's impossible to write anything meaningful. But it seems that there were far too many such "bad state" moments this year, or to put it another way, I was too indulgent with myself in this state, which is frightening.
 
-原以为长大后的一年一年不会再像刚毕业时那样有那么多的变动，甚至做好了准备接受生活终究会归于平淡，但站在此刻回顾这一整年，依然发生了许多事。
+I originally thought that the years after growing up wouldn't have as many changes as right after graduation, and I was even prepared to accept that life would eventually settle into tranquility. But standing here now, looking back on this entire year, many things still happened.
 
-## 月亮与六便士
+## The Moon and Sixpence
 
-学姐曾有一段时间赶在工作日的午后挤出时间去画室画画，连续几天遇到两位学员专注而又放松地闲谈着、画着，略感羡慕，问她们能够在工作日的下午尽情画画的秘诀是什么，一位耸了耸肩说“忍受贫穷就好了呀”。
+For a period of time, my senior would squeeze out time on weekday afternoons to go to the art studio to paint. For several consecutive days, she encountered two students chatting and painting in a focused yet relaxed manner. Feeling a bit envious, she asked them what the secret was to being able to paint freely on weekday afternoons. One of them shrugged and said, "Just endure poverty, that's all."
 
-似乎人是没有办法在抬头看着月亮的时候同时捡拾硬币的。
+It seems that people can't look up at the moon while picking up coins at the same time.
 
-但或许因为我在成长过程中有几分幸运地常常被周遭的人保护着，所以一直是个理想化的人，一直追求的似乎并不是工作的 title 或是收入，而更像是一个能够让我继续做喜欢的事的环境和氛围，是一群可以真诚相待共同成长的同路人。
+But perhaps because I've been fortunate enough to be protected by those around me as I grew up, I've always been an idealistic person. What I've always pursued doesn't seem to be job titles or income, but rather an environment and atmosphere that allows me to continue doing what I love, and a group of like-minded companions with whom I can grow together sincerely.
 
-也很厌弃所谓的职场文化，在上一份工作中就会因不合理的甲方需求与擅于推委责任的项目经理而在全员大会里并不“圆滑”地直接表达不满。许多已是“过来人”的前辈和朋友跟我聊完后常常会提醒我有一些提防之心或是放下这些并不切实际的执念，劝我早些抓住那些更加具象化的看得见的利益，我明白，也知道这有用，但无法说服自己做到。
+I also despise the so-called workplace culture. In my previous job, I would directly express my dissatisfaction at company-wide meetings about unreasonable client demands and project managers who were adept at shirking responsibility, rather than being "smooth". Many "experienced" seniors and friends often remind me after our chats to have some sense of caution or to let go of these impractical obsessions, advising me to grab those more tangible, visible benefits early on. I understand, and I know it's useful, but I can't convince myself to do it.
 
 ![rss3_2024_annual](https://image.pseudoyu.com/images/rss3_2024_annual.jpg)
 
-很幸运，我追求的一切在 RSS3，在我现在的组里随处可见。
+Fortunately, everything I pursue can be found everywhere in RSS3, in my current team.
 
-去年生日后不久，在这里转正答辩成功，正如在之前的一篇「[周报 #58 - 远程工作这一年](https://www.pseudoyu.com/en/2024/04/30/weekly_review_20240430/)」中所述，工作本身有忙碌有闲暇，起起伏伏，不知不觉已经度过了一年了，也期待一起走得更远。
+Shortly after my birthday last year, I successfully passed the probation review here. As mentioned in a previous article "[Weekly Review #58 - A Year of Remote Work](https://www.pseudoyu.com/en/2024/04/30/weekly_review_20230430/)", work itself has had its busy and leisurely times, with ups and downs. A year has passed unknowingly, and I look forward to going further together.
 
-## 小王子与他的玫瑰花
+## The Little Prince and His Rose
 
-同样是去年生日后不久，我恋爱了（参看「[周报 #43 - In the Mood for Love](https://www.pseudoyu.com/en/2023/07/10/weekly_review_20230710/)」），距今也已经一年了，就像小王子与玫瑰花一样，彼此倾注了时间，也让对方变得更为重要。
+Also shortly after my birthday last year, I fell in love (see "[Weekly Review #43 - In the Mood for Love](https://www.pseudoyu.com/en/2023/07/10/weekly_review_20230710/)"), and it's been a year now. Just like the Little Prince and his rose, we've invested time in each other, making each other more important.
 
 ![rss3_huddle_share](https://image.pseudoyu.com/images/rss3_huddle_share.png)
 
-前几天公司里刚好有一个内部分享会，我没选自己更擅长的工具使用或是写作经验之类的话题，而是分享了一个更私人的话题 —— 姐弟恋，才发现，似乎与她有关的一切，才是我分享欲的来源。
+A few days ago, there was an internal sharing session at the company. Instead of choosing topics I'm more proficient in, like tool usage or writing experience, I shared a more personal topic - dating an older woman. Only then did I realize that everything related to her seems to be the source of my desire to share.
 
-这一年里，我们一起去过了很多地方，见过巴厘岛的海浪，骑过内蒙沙漠的骆驼，在北京的啤酒节蹦过迪，在南京的汤山泡过山泉水，在阿那亚的沙滩前赤脚跑着笑着，也在杭州的小河边缓缓漫步；一起学过很多东西，凛冽的冬日六七点起床去上私教课、第一次学拳击、第一次画油画、第一次冲浪...
+This year, we've been to many places together. We've seen the waves in Bali, ridden camels in the Inner Mongolia desert, danced at a beer festival in Beijing, soaked in mountain spring water in Tangshan, Nanjing, run barefoot laughing on the beach in Aranya, and strolled slowly by the small river in Hangzhou. We've learned many things together: getting up at six or seven on frigid winter mornings for private lessons, our first time learning boxing, our first time painting with oils, our first time surfing...
 
-这一年所经历的正像是很喜欢的鲁米的一首诗中所描述的那样：
+What we've experienced this year is just like what's described in a poem by Rumi that I really like:
 
-> 我所问出的问题都关于你，
+> The questions I ask are all about you,
 >
-> 我所踏出的每步都指向你。
+> Every step I take points towards you.
 >
-> 处处皆是你，
+> You are everywhere,
 >
-> 声音所至，目光所及。
+> In every sound I hear, in every sight I see.
 
-## 成长是一件很扫兴的事
+## Growing Up is a Dispiriting Affair
 
-似乎从世俗的角度来说，一切都进展得还算顺利，工作、恋爱和生活这几项人类被赋予的大的命题似乎都在按部就班甚至过于顺利地进行着，我们作为社会、家庭的的一员似乎也都在履行自己的责任，人越长大，似乎对待这个世界越来越温和，却对自己越来越忽视。
+From a worldly perspective, everything seems to be progressing smoothly. Work, romance, and life - these major themes assigned to humans - all seem to be proceeding according to plan, even too smoothly. As members of society and family, we also seem to be fulfilling our responsibilities. As people grow older, they seem to become gentler towards the world, yet more neglectful of themselves.
 
-> “I'm in Kernel Panic.”
+> "I'm in Kernel Panic."
 
-这是我的微信签名，挂了很久很久了，是对自己的警醒，而如今恐慌的缘由依然存在，生活依然存在着许多事与愿违，不论是向内观还是向外求也依然与理想中的自己相距甚远，但似乎我已经与这个世界和解了，或者说是妥协了，让步给了生活中更朴实而具体的东西，比如亲情，比如社交。
+This has been my WeChat signature for a very long time. It's a warning to myself, and the cause of panic still exists today. There are still many things in life that don't go as wished, and whether looking inward or seeking outward, I'm still far from my ideal self. But it seems I've already reconciled with this world, or rather, compromised, giving way to more mundane and concrete things in life, like family affection and social interactions.
 
-在和学姐去内蒙接连几天见各类亲戚把酒言欢、觥筹交错时，我们都开始怀念几年前的自己，那时的我们都能够有那么多的时间看想看的书、学想学的东西，成为想成为的人，而不是作为一个社会和家庭的符号被桎梏在这里。如今，其实我们索求的东西没有变，学姐依然想去一个远离人群的地方画画，我依然想宅在家里学习新的技术或是开发喜欢的产品，但我们都学会了怎么去扮演一个“好”的社会人，却忘记了如何扮演“自己”。
+When we were in Inner Mongolia for several days, drinking and feasting with various relatives, we both started to miss our former selves from a few years ago. Back then, we both had so much time to read the books we wanted to read, learn the things we wanted to learn, and become the people we wanted to become, instead of being confined here as symbols of society and family. Now, what we seek hasn't changed - my senior still wants to go to a place far from crowds to paint, and I still want to stay at home to learn new technologies or develop products I like. But we've both learned how to play the role of a "good" social person, forgetting how to play "ourselves".
 
-意识到这种变化的时候其实有一点难过，并不是难过自己变了，而是难过这才是成长，是家人朋友口中的”你成熟多了“，而成长，本来就是一件很扫兴的事。
+Realizing this change is actually a bit sad. It's not sad that we've changed, but sad that this is what growth is, that this is what family and friends mean when they say "you've matured a lot". And growth, inherently, is a dispiriting affair.
 
-## 其他
+## Other Thoughts
 
 ![birthday_from_strangers](https://image.pseudoyu.com/images/birthday_from_strangers.png)
 
-但依然很感谢在过去的这一年里即使我不再周更还依然关心和关注我的人，甚至今天一早醒来还收到了一位陌生新读者的祝福，字不多，却温暖而感动。
+But I'm still grateful for the people who have cared about and followed me over the past year, even though I no longer update weekly. I even woke up this morning to birthday wishes from a new reader I don't know, few words, yet warm and touching.
 
-成长确实是一件很扫兴的事，但我依然愿意用周报留下曾经这些非黑即白的、从不妥协的日子，也感谢这些时光中陪伴着我的你们。
+Growing up is indeed a dispiriting affair, but I'm still willing to use weekly reviews to document these once black-and-white, uncompromising days, and I'm thankful for all of you who have accompanied me through these times.
 
-祝 27 岁的自己，快乐。
+Happy 27th birthday to myself.
 
-## 特别活动
+## Special Event
 
-用博客来记录生活两年了，留下了许多记忆，也幸运地结识了你们，会在本篇博客的留言中选取 6 位朋友，送上我准备的小礼物，祝愿你们也能够一直快乐。
+I've been using this blog to record my life for two years now, leaving behind many memories and fortunately getting to know all of you. I will select 6 friends from the comments on this blog post and send them small gifts I've prepared, wishing you all continued happiness.
 
-抽签会持续到 UTC +8 时间 6 月 10 日晚上 23:59 分，结果会在 Telegram Channel 「[Yu's Life](https://t.me/pseudoyulife)」 中公布，也会在中选的留言评论中回复，到时候会联系你们，再次感谢大家的陪伴。
+The draw will last until 23:59 on June 10th, UTC +8 time. The results will be announced in the Telegram Channel "[Yu's Life](https://t.me/pseudoyulife)" and will also be replied to in the selected comments. I will contact you then. Thank you all again for your companionship.

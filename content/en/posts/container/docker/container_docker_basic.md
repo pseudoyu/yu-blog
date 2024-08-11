@@ -1,5 +1,5 @@
 ---
-title: "Docker 基础与实践"
+title: "Docker Fundamentals and Practices"
 date: 2022-09-07T01:30:48+08:00
 draft: false
 tags: ["container", "docker", "devops", "programming", "work practice series", "work", "practice", "backend"]
@@ -10,48 +10,51 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
 
-## 前言
+## Preface
 
-这是工作实践系列容器部分的第一篇，主要介绍 Docker 的基础知识与实践。
+This is the first article in the container section of the work practice series, primarily introducing the basic knowledge and practices of Docker.
 
-作为一个后端开发，我刚开始工作的时候其实主要都是在本地调试的，并没有怎么了解过 Docker 的相关使用。直到后来开始接触较为复杂的底层链开发，因为链或其相关工具的依赖关系比较复杂，也涉及很多版本冲突问题，在本机或服务器上每次需要配置复杂的环境，且每次重启后很多服务与配置都需要重新部署，繁琐且容易出现一些莫名的跨平台错误。
+As a backend developer, when I first started working, I mainly debugged locally and hadn't really learned about Docker usage. It wasn't until later when I began to engage with more complex underlying chain development that I encountered issues. Because of the intricate dependency relationships of chains or their related tools, along with version conflict problems, configuring complex environments on local machines or servers each time became necessary. Moreover, many services and configurations needed to be redeployed after every restart, making the process cumbersome and prone to inexplicable cross-platform errors.
 
-因此逐渐开始采用编写项目特定 Dockerfile 并编译镜像的方式进行后续的开发调试，部署的机器仅需安装 Docker 环境（以及 Docker Compose），而不需要本地安装各种依赖，很便捷。后续也和 Leader 一起基于 Docker 镜像、GitLab CI 与 k8s 环境配置了项目的 CI/CD 流程，极大提升了开发调试效率。
+Therefore, I gradually began to adopt the approach of writing project-specific Dockerfiles and compiling images for subsequent development and debugging. Deployment machines only needed to install the Docker environment (and Docker Compose), without the need to install various dependencies locally, which was very convenient. Later, together with my team leader, we configured the project's CI/CD process based on Docker images, GitLab CI, and the k8s environment, greatly improving development and debugging efficiency.
 
-本文将基于这些经验对 Docker 相关的概念与实践进行总结，希望能有所帮助。
+This article will summarize Docker-related concepts and practices based on these experiences, hoping to be of some help.
 
-## Docker 简介
+## Introduction to Docker
 
-我们所开发的服务往往以二进制的方式运行在操作系统中，而 Docker 是一种容器技术，将我们的应用程序及相关依赖打包在一个容器中，容器往往是基于一个较为轻量级的 Linux 镜像，是多层镜像的堆叠，我们的应用往往在最上层，这些依赖关系在 Dockerfile 中进行指定。
+The services we develop often run as binaries in the operating system, while Docker is a container technology that packages our application and related dependencies in a container. Containers are typically based on a lightweight Linux image and are a stack of multiple layers of images. Our application is usually at the top layer, and these dependency relationships are specified in the Dockerfile.
 
-使用容器进行部署比起在本机或远程服务器有很多明显的优势。
+Using containers for deployment has many clear advantages over deploying on local machines or remote servers.
 
-1. 无需在操作系统上安装各类环境和依赖（除了 Docker 自身）。如果采用原有的服务启动模式，开发流程会变得十分繁琐，需要开发与运维不断沟通，配合完成环境配置与部署，并且如果一台机器上部署了多个服务，也极易造成依赖/版本冲突问题。
-2. 可以拥有独立的部署环境。我们通过为不同的项目编写 Dockerfile 来构建镜像，将应用所需环境与依赖打包在镜像中，可以很方便地运行同个应用的不同版本，或为 MySQL 这样的通用服务运行多个实例，并且可以通过 Docker 命令或 Docker Compose 命令进行管理，一键启动/暂停。
-3. Docker 并不强依赖于操作系统本身的版本，同一个 Docker 镜像可以在不同的操作系统（Windows、macOS、不同发行版的 Linux）上运行，易于服务的分享、迁移与跨平台部署等。
-4. 与虚拟机相比，Docker 容器没有内核而只包含应用层，体积更小，启动速度更快，更加轻量级。
+1. No need to install various environments and dependencies on the operating system (except for Docker itself). If we adopt the original service startup mode, the development process would become very cumbersome, requiring constant communication between developers and operations to complete environment configuration and deployment. Moreover, if multiple services are deployed on one machine, it's very easy to cause dependency/version conflict issues.
 
-当然，Docker 容器的兼容性相比操作系统与虚拟机相对更差一些，如 VM 能够运行任意其他操作系统，能满足更特定的一些需求。
+2. Can have independent deployment environments. We build images by writing Dockerfiles for different projects, packaging the required environment and dependencies for the application in the image. This makes it convenient to run different versions of the same application, or run multiple instances of common services like MySQL. These can be managed through Docker commands or Docker Compose commands, allowing one-click startup/pause.
 
-## Docker 基础操作
+3. Docker is not strongly dependent on the version of the operating system itself. The same Docker image can run on different operating systems (Windows, macOS, different distributions of Linux), facilitating service sharing, migration, and cross-platform deployment.
 
-### 安装 Docker
+4. Compared to virtual machines, Docker containers do not have a kernel and only contain the application layer, making them smaller in size, faster to start, and more lightweight.
 
-Docker 的安装很简单，在[官网](https://www.docker.com)下载自己操作系统对应的安装包并按照指引进行安装即可。
+Of course, the compatibility of Docker containers is relatively poorer compared to operating systems and virtual machines. For example, VMs can run any other operating system and can meet more specific needs.
+
+## Basic Docker Operations
+
+### Installing Docker
+
+Installing Docker is simple. Download the installation package corresponding to your operating system from the [official website](https://www.docker.com) and follow the instructions to install.
 
 #### macOS
 
-我个人的 macOS 系统起初是安装了 [Docker Desktop](https://www.docker.com/products/docker-desktop/)，可以通过图形化界面对镜像、容器进行管理，很方便但是占用较高，比较耗电。
+For my personal macOS system, I initially installed [Docker Desktop](https://www.docker.com/products/docker-desktop/), which allows management of images and containers through a graphical interface. It's convenient but consumes more resources and is power-intensive.
 
-后来尝试了 [Colima](https://github.com/abiosoft/colima)，一个较为轻量级的容器运行环境，在 macOS 系统上本机调试十分方便，推荐使用，根据项目官方文档安装并配置环境即可。我直接通过 `brew` 包管理工具来进行安装：
+Later, I tried [Colima](https://github.com/abiosoft/colima), a relatively lightweight container runtime environment. It's very convenient for local debugging on macOS systems. I recommend using it. You can install and configure the environment according to the project's official documentation. I installed it directly using the `brew` package management tool:
 
 ```bash
 brew install colima
 ```
 
-安装完成后运行 `colima start` 即可启动容器，运行 `colima stop` 停止容器，更多命令可以通过 `colima --help` 查看。
+After installation, run `colima start` to start the container, and `colima stop` to stop the container. More commands can be viewed through `colima --help`.
 
-我通过了如下命令启动了自己的常用开发环境，大家可以根据自己的需求自行配置：
+I started my common development environment with the following command, which you can configure according to your own needs:
 
 ```bash
 colima start -c 8 -m 16 -a x86_64 -p docker-amd
@@ -59,7 +62,7 @@ colima start -c 8 -m 16 -a x86_64 -p docker-amd
 
 #### CentOS
 
-比起本机开发，Docker 更常用的应用场景是在服务器上部署应用，我常用的操作系统是 `CentOS 7`，可以通过 `yum` 包管理工具安装：
+Compared to local development, Docker is more commonly used for deploying applications on servers. My frequently used operating system is `CentOS 7`, which can be installed through the `yum` package management tool:
 
 ```bash
 yum install -y yum-utils device-mapper-persistent-data lvm2
@@ -67,20 +70,20 @@ yum-config-manager  --add-repo https://download.docker.com/linux/centos/docker-c
 yum install docker-ce
 ```
 
-安装完成后，启动 Docker 服务并配置其开机自启：
+After installation, start the Docker service and configure it to start automatically on boot:
 
 ```bash
 systemctl enable docker
 systemctl start docker
 ```
 
-### Docker 镜像
+### Docker Images
 
-Docker 主要有镜像和容器两个概念，可以认为镜像是通过 Dockerfile 编译出来的容器的一个模板，而容器是镜像的一个实例。
+Docker mainly has two concepts: images and containers. An image can be considered as a template for a container compiled through a Dockerfile, while a container is an instance of an image.
 
 #### Dockerfile
 
-我们通过 Dockerfile 来指定应用所需环境与依赖，其基本格式如下：
+We use Dockerfile to specify the environment and dependencies required for the application. Its basic format is as follows:
 
 ```dockerfile
 FROM <image>
@@ -95,177 +98,177 @@ COPY . /<app-directory>
 CMD ["<command>", "<entrypoint file>"]
 ```
 
-完成 Dockerfile 编写后，我们可以在同级目录（或指定 Dockerfile）下通过 `docker build` 命令来构建镜像：
+After completing the Dockerfile, we can build the image using the `docker build` command in the same directory (or specify the Dockerfile):
 
 ```bash
-# 镜像构建
+# Build image
 docker build -t <image:tag> .
 ```
 
-#### 存储、加载镜像
+#### Storing and Loading Images
 
-我们可以把本地编译好的镜像存储为 `tar` 包来进行分享：
+We can store locally compiled images as `tar` packages for sharing:
 
 ```bash
 docker save -o <image-name>.tar <image-name>
 ```
 
-当需要使用镜像时则可以通过 `docker load` 命令来加载 tar 包：
+When we need to use the image, we can load the tar package using the `docker load` command:
 
 ```bash
 docker load -i <image-name>.tar
 ```
 
-#### 上传、拉取镜像
+#### Uploading and Pulling Images
 
-当然，通过镜像 `tar` 包的方式来进行分享并不那么便捷，有的镜像可能会很大，传输也不方便。因此，我们可以通过 `docker push` 命令来将镜像推送至官方镜像仓库或企业/个人的私有库（像我所在的项目就是通过 Harbor 来管理镜像），并通过 `docker pull` 命令来进行拉取。
+Of course, sharing through image `tar` packages is not so convenient, and some images may be very large, making transfer inconvenient. Therefore, we can use the `docker push` command to push images to the official image repository or enterprise/personal private repositories (like the project I'm working on uses Harbor to manage images), and use the `docker pull` command to pull them.
 
 ```bash
-# 拉取官方镜像（简写）
+# Pull official image (shorthand)
 docker pull <image:tag>
 
-# 拉取官方镜像（完整命令）
+# Pull official image (full command)
 docker pull docker.io/library/<image:tag>
 
-# 推送镜像至官方镜像仓库 Docker Hub
+# Push image to official image repository Docker Hub
 docker push <image:tag>
 
-# 推送镜像至私有库（需要配置鉴权）
+# Push image to private repository (authentication required)
 docker tag <image:tag> <private-repo-path>/<image:tag>
 docker push <private-repo-path>/<image:tag>
 ```
 
-#### Docker 镜像操作
+#### Docker Image Operations
 
-针对 Docker 镜像，我常用到的操作就是查看、删除与重命名 tag，更多命令可以通过 `docker image --help` 或官网查看。
+For Docker images, the operations I frequently use are viewing, deleting, and renaming tags. More commands can be viewed through `docker image --help` or on the official website.
 
 ```bash
-# 查看所有镜像
+# View all images
 docker images
 
-# 删除镜像
+# Delete image
 docker rmi <image:tag>
 
-# 重命名镜像
+# Rename image
 docker tag <old-image:tag> <new-image:tag>
 ```
 
-### 容器操作
+### Container Operations
 
-#### 查看容器
+#### Viewing Containers
 
-当我们通过 Docker 或 Docker Compose 命令启动镜像后，可以通过以下命令查看服务状态：
+After we start an image through Docker or Docker Compose commands, we can view the service status through the following commands:
 
 ```bash
-# 查看运行中容器
+# View running containers
 docker ps
 
-# 查看所有容器
+# View all containers
 docker ps -a
 ```
 
-#### 通过镜像启动/停止实例
+#### Starting/Stopping Instances from Images
 
-当我们通过 Dockerfile 编译好了所需镜像后，可以通过 `docker run` 命令启动镜像实例，并在命令中加入一些配置来满足我们的服务需求，我的常用操作如下：
+After we have compiled the required image through Dockerfile, we can start an image instance through the `docker run` command, and add some configurations in the command to meet our service needs. My common operations are as follows:
 
 ```bash
-# 运行容器
+# Run container
 docker run <image:tag>
 
-# 运行容器并指定名称
+# Run container and specify name
 docker run --name <server-name> <image:tag>
 
-# 以 detached 模式运行容器
+# Run container in detached mode
 docker run -d <image:tag>
 
-# 端口映射
+# Port mapping
 docker run -p6000:6379 <image:tag>
 
-# 配置环境变量
+# Configure environment variables
 docker run -e USERNAME=admin -e PASSWORD=123456 <image:tag>
 ```
 
-#### 启动/停止容器服务
+#### Starting/Stopping Container Services
 
-当我们通过镜像创建实例后，可以通过如下命令来启动/停止容器服务：
+After we create an instance from an image, we can start/stop the container service through the following commands:
 
 ```bash
-# 启动/重启容器
+# Start/restart container
 docker start <container-id>
 
-# 暂停容器
+# Pause container
 docker stop <container-id>
 ```
 
-#### 查看日志
+#### Viewing Logs
 
-当我们的通过 Docker 启动服务后，还常常需要查看其运行日志以便于调试，可以通过 `docker logs` 进行查看，具体命令如下：
+After we start a service through Docker, we often need to view its running logs for debugging. We can view them through `docker logs`, with specific commands as follows:
 
 ```bash
-# 查看日志
+# View logs
 docker logs <container-id>
 
-# 滚动查看日志
+# View logs in follow mode
 docker logs -f <container-id>
 ```
 
-#### 进入容器
+#### Entering Containers
 
-有时我们还需要进入 Docker 容器服务内部进行服务查看与调试，可以通过 `docker exec` 命令进入容器，具体命令如下：
+Sometimes we need to enter the Docker container service internally for service inspection and debugging. We can enter the container through the `docker exec` command, with specific commands as follows:
 
 ```bash
-# 根据 id 进入特定容器
+# Enter specific container by id
 docker exec -it <container-id> <command>
 ```
 
-#### Docker 网络
+#### Docker Network
 
-Docker 容器实例运行于网络中，我们上文的各个命令未指定网络，所以服务会运行在默认网络下，我们可以通过以下命令来查看网络：
+Docker container instances run within a network. In our previous commands, we didn't specify a network, so the services will run under the default network. We can view networks through the following command:
 
 ```bash
-# 查看所有网络
+# View all networks
 docker network ls
 ```
 
-如果不想运行在默认网络中，我们可以通过如下命令创建自定义网络：
+If we don't want to run in the default network, we can create a custom network through the following command:
 
 ```bash
-# 创建自定义网络
+# Create custom network
 docker network create <network-name>
 ```
 
-创建了我们的自定义网络后，在创建容器实例时我们可以通过 `--network` 参数来指定网络：
+After creating our custom network, we can specify the network through the `--network` parameter when creating container instances:
 
 ```bash
 docker run --network <network-name> <image:tag>
 ```
 
-#### Docker 数据持久化
+#### Docker Data Persistence
 
-使用 Docker 实例运行服务后，我们的数据会保存在容器中，当容器被删除后，数据也会被删除，对于一些需要长期运行的服务来说会造成数据丢失。因此，我们需要进行数据的持久化，我常用 host 挂载与 container 挂载两种方式。
+After running services with Docker instances, our data will be saved in the containers. When the containers are deleted, the data will also be deleted, which can cause data loss for some services that need to run for a long time. Therefore, we need to persist the data. I commonly use host mounting and container mounting.
 
-我们可以通过将宿主机的某个具体的目录挂载映射至容器内的目录来实现持久化：
+We can achieve persistence by mounting a specific directory of the host machine to a directory inside the container:
 
 ```bash
-# 通过宿主机目录挂载容器内目录
+# Mount host directory to container directory
 docker run -v <host-file-path>:<container-file-path> <image:tag>
 ```
 
-也可以通过 container 挂载的方式，使用 volume 来实现持久化：
+We can also use container mounting, using volumes to achieve persistence:
 
 ```bash
-# 可以通过名字来引用 volume
-# Docker 会自动生成一个路径
+# You can reference the volume by name
+# Docker will automatically generate a path
 # Windows: C:\ProgramData\docker\volumes
 # Linux: /var/lib/docker/volumes
 # macOS: /var/lib/docker/volumes
 docker run -v <volume-name>:<container-file-path> <image:tag>
 ```
 
-如果只是需要挂载，不需要对文件进行具体的管理查看等，我们也可以通过 container 匿名挂载的方式，不指定 volume 名称，而使用其自动生成的目录：
+If we only need to mount and don't need specific file management or viewing, we can also use container anonymous mounting, not specifying a volume name, but using its automatically generated directory:
 
 ```bash
-# Docker 会自动生成一个路径
+# Docker will automatically generate a path
 # Windows: C:\ProgramData\docker\volumes
 # Linux: /var/lib/docker/volumes
 # macOS: /var/lib/docker/volumes
@@ -274,13 +277,13 @@ docker run -v <container-file-path> <image:tag>
 
 ## Docker Compose
 
-Docker 提供了丰富的命令供我们使用，但是使用命令行操作不易于记忆，且如果应用依赖多个环境/服务，则需要分别运行与管理多个容器，造成不便。因此，我们可以通过 Docker Compose 工具来进行管理。
+Docker provides rich commands for us to use, but using command-line operations is not easy to remember, and if an application depends on multiple environments/services, it requires running and managing multiple containers separately, causing inconvenience. Therefore, we can use the Docker Compose tool for management.
 
-Docker Compose 是一个用于定义和运行多容器 Docker 应用程序的工具，其通过 `.yaml` 文件来进行配置管理。我在日常工作中使用最高频率的也是 Docker Compose，只有一些很简单的应用才会使用 `docker run` 命令来启动，也便于统一管理和后续的配置调整。
+Docker Compose is a tool for defining and running multi-container Docker applications, which uses `.yaml` files for configuration management. In my daily work, I use Docker Compose most frequently, only using the `docker run` command to start very simple applications, which is also convenient for unified management and subsequent configuration adjustments.
 
-### 安装
+### Installation
 
-macOS 系统如果安装了 Docker Desktop 则已经自带了 Docker Compose，可以直接使用。如果是 Linux 系统则需要单独安装，我这里同样以 `CentOS 7` 为例：
+If you have installed Docker Desktop on macOS, it already comes with Docker Compose, which can be used directly. If it's a Linux system, it needs to be installed separately. Here I'll take `CentOS 7` as an example:
 
 ```bash
 curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -288,11 +291,11 @@ chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
-完成安装后就可以使用 `docker-compose` 命令了。
+After installation, you can use the `docker-compose` command.
 
-### 配置管理
+### Configuration Management
 
-Docker Compose 的配置文件是一个 `yaml` 文件，其基本格式如下：
+The configuration file for Docker Compose is a `yaml` file, with its basic format as follows:
 
 ```yaml
 version: '3'
@@ -318,66 +321,66 @@ volumes:
     	driver: local
 ```
 
-其大部分配置都很直观，如服务名称、镜像名称、端口映射、文件挂载、环境变量等。
+Most of the configurations are intuitive, such as service name, image name, port mapping, file mounting, environment variables, etc.
 
-其中，`version` 表示配置文件的版本，`services` 表示服务列表，`volumes` 表示挂载的卷列表。
+Among them, `version` represents the version of the configuration file, `services` represents the list of services, and `volumes` represents the list of mounted volumes.
 
-在具体的 `services` 中，`image` 表示镜像名称，`ports` 表示端口映射，`volumes` 表示文件挂载，`environment` 表示环境变量，更多配置可以根据项目需要进行查看。
+In specific `services`, `image` represents the image name, `ports` represents port mapping, `volumes` represents file mounting, `environment` represents environment variables. More configurations can be viewed according to project needs.
 
-### 常用命令
+### Common Commands
 
-#### 启动/停止服务
+#### Starting/Stopping Services
 
-跟 `docker run` 命令类似，Docker Compose 也提供了 `up` 和 `down` 命令来启动和停止服务。
+Similar to the `docker run` command, Docker Compose also provides `up` and `down` commands to start and stop services.
 
 ```bash
-# 启动服务
+# Start service
 docker-compose -f <name>.yaml up
 
-# 以 detached 模式启动服务
+# Start service in detached mode
 docker-compose -f <name>.yaml up -d
 
-# 停止服务
+# Stop service
 docker-compose -f <name>.yaml down
 ```
 
-#### 查看日志
+#### Viewing Logs
 
-我们可以通过 `logs` 命令来查看服务的日志。
+We can view service logs through the `logs` command.
 
 ```bash
-# 查看日志
+# View logs
 docker-compose logs <container-id>
 
-# 滚动查看日志
+# View logs in follow mode
 docker-compose logs -f <container-id>
 ```
 
-## 实用操作命令
+## Practical Operation Commands
 
-除了以上基础命令外，我常用的还有以下几个常用命令。
+In addition to the above basic commands, I often use the following common commands.
 
-### 清除无用容器
+### Clearing Unused Containers
 
-当我们因配置或程序运行时调用出错而导致容器实例退出时，其依然会保留，可以通过 `docker ps -a` 命令来查看，我们可以通过以下组合命令进行清理：
+When our container instances exit due to configuration or program runtime errors, they will still be retained. We can view them through the `docker ps -a` command. We can clean them up through the following combined command:
 
 ```bash
 docker rm `docker ps -a | grep Exited | awk '{print $1}'`
 ```
 
-### 批量导入本地镜像
+### Batch Import of Local Images
 
-当我们需要将大量本地镜像导入机器时，如果一个个导入会非常麻烦，我们可以将镜像放入同一个目录并通过以下命令进行批量导入：
+When we need to import a large number of local images into a machine, it would be very troublesome to import them one by one. We can put the images in the same directory and use the following command for batch import:
 
 ```bash
 for i in `ls`; do docker load < $i ; done
 ```
 
-## 总结
+## Conclusion
 
-以上就是我对 Docker 容器技术的基础知识与实用操作的讲解，希望对你有所帮助。其实 Docker 的内容还有很多，如在上一个项目中尝试用到 Docker 的 `Buildkit` 特性，极大减小了最终构建镜像的大小，以及使用到 `buildx` 来实现跨平台兼容等等，本文旨在讲解基础知识与实践中常用的命令，这些拓展部分如果大家感兴趣的话后续再进行更新。
+The above is my explanation of the basic knowledge and practical operations of Docker container technology. I hope it's helpful to you. In fact, there's still a lot more content about Docker. For example, in the previous project, we tried to use Docker's `Buildkit` feature, which greatly reduced the size of the final built image, and used `buildx` to achieve cross-platform compatibility, etc. This article aims to explain basic knowledge and commonly used commands in practice. If you're interested in these extended parts, I'll update them later.
 
-## 参考资料
+## References
 
-> 1. [Docker 官网](https://www.docker.com)
+> 1. [Docker Official Website](https://www.docker.com)
 > 2. [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=3c-iBn73dDE)

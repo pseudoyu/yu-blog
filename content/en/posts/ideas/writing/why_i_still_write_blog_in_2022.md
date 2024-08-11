@@ -1,5 +1,5 @@
 ---
-title: "2022 年了，聊聊我为什么还在写博客"
+title: "Why I'm Still Blogging in 2022"
 date: 2022-06-12T13:48:58Z
 draft: false
 tags: ["hugo", "blog", "write", "university", "hku", "life", "work"]
@@ -8,145 +8,144 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-前段时间发了几篇文章介绍了一下自己的博客搭建流程及组件，有很多朋友跟着我的教程也搭建了自己的博客。同时，也有一些朋友提出了疑问，在 2022 年这个时间节点，已经有那么多成熟的写作与发布平台，为什么我们还要那么大费周章，搭建与更新自己的博客呢？
+Recently, I published several articles introducing my blog setup process and components. Many friends followed my tutorial and set up their own blogs. Meanwhile, some friends raised questions: In 2022, with so many mature writing and publishing platforms available, why do we still go to such lengths to set up and update our own blogs?
 
-我从大一（2015 年）开始写公众号，分享一些关于书、电影与个人生活的文章；2018 年开始使用 [Wordpress](https://wordpress.com/) 搭建了一个自己的个人博客，并于 2019 年迁移到了 [Hugo](https://gohugo.io/) + [Github Pages](https://pages.github.com/) 并维护至今
-。
+I started writing on WeChat Official Account in my freshman year (2015), sharing articles about books, movies, and personal life. In 2018, I began using [Wordpress](https://wordpress.com/) to build my personal blog, which I migrated to [Hugo](https://gohugo.io/) + [Github Pages](https://pages.github.com/) in 2019 and have maintained ever since.
 
-在这两年时间里，我共计更新了 70 篇文章，主要包含课程笔记、技术与效率相关主题，自搭建了网站数据统计系统以来有近万名访客。本文想从我个人经历的角度跟大家讲讲我在写博客过程中的所思所想，也许能够为正在犹豫的你提供一些参考。
+Over these two years, I've updated 70 articles, mainly including course notes, technology, and efficiency-related topics. Since setting up my own website statistics system, there have been nearly 10,000 visitors. In this article, I want to share with you my thoughts on blogging from my personal experience, which might provide some reference for those who are hesitating.
 
-## 写博客的初衷与价值
+## The Initial Intention and Value of Blogging
 
-### 学习笔记发布
+### Publishing Study Notes
 
-可能是因为初高中对语文学科的热忱以及大学时英语专业的耳濡目染，我一直很享受于阅读与分享，很早之前也和故友一起维护过个人公众号，写了一些有关书籍、电影、音乐与个人生活相关的文章。这是我第一次通过文字传达自己的情绪，也体会到了外界反馈带来的欣喜与感动。
+Perhaps due to my passion for Chinese literature in middle and high school and the influence of my English major in university, I've always enjoyed reading and sharing. Long ago, I maintained a personal WeChat Official Account with an old friend, writing articles about books, movies, music, and personal life. This was my first time conveying my emotions through words, and I experienced the joy and touch brought by external feedback.
 
-后来因为一些原因公众号停止更新了，我也很久没再公开发布文章。不过因为当时有转专业的想法，一直在自己学一些新的知识，会定期把笔记与学习心得记在自己的笔记软件中，逐渐也养成了记录的习惯。
+Later, for various reasons, the Official Account stopped updating, and I hadn't published articles publicly for a long time. However, because I had the idea of changing majors at that time, I was constantly learning new knowledge on my own and would regularly record notes and learning insights in my note-taking software, gradually developing a habit of recording.
 
 ![hku_course](https://image.pseudoyu.com/images/hku_course.jpg)
 
-尤其是在香港留学期间，因为是全英授课，课后需要花很多时间来整理回顾，也会分享给很多同学，于是捡起了断更很久的博客，陆续发布了很多学习笔记，收到了很多同学的积极反馈与感谢。后来还加上了网站访问统计、评论等组件，偶尔查看会很惊喜地发现有很多来自搜索引擎的访问者，也给我继续更新提供了很多动力。
+Especially during my study in Hong Kong, because the courses were taught entirely in English, I needed to spend a lot of time reviewing and organizing after class. I also shared with many classmates, so I picked up the long-abandoned blog and successively published many study notes, receiving positive feedback and thanks from many classmates. Later, I added components such as website visit statistics and comments. Occasionally checking, I would be pleasantly surprised to find many visitors from search engines, which provided me with a lot of motivation to continue updating.
 
-博客文章与零散记录的知识点不同，需要有着特定的主题、一定的行文结构与完整的内容。这促使着我在构思与写作时对自己的知识体系进行梳理总结，有时还需要用一些思维导图与流程图来辅助理解，这个过程让我不断巩固所学知识点，帮助我度过了很多作业与考试。
+Blog articles are different from scattered knowledge points. They require specific themes, certain writing structures, and complete content. This prompts me to sort out and summarize my knowledge system when conceiving and writing, sometimes needing to use mind maps and flowcharts to aid understanding. This process constantly reinforces the knowledge points I've learned and helped me through many assignments and exams.
 
-尽管前期阅读的人并不多，但我视其为自己的一个表达渠道，也是自己获取认同感与价值的窗口。因此，一篇文章需要花很多心血来写，让我更自律地放弃了很多无意义的消遣，投入更多时间打磨自己的文章。此外，时间上的紧迫也促进了我对学习方式与效率的思考，在听课或阅读资料时就会自然地从整个知识结构的维度来进行理解与思考。
+Although not many people read it in the early stages, I viewed it as my channel of expression and a window to gain recognition and value. Therefore, writing an article required a lot of effort, making me more disciplined in giving up many meaningless distractions and investing more time in polishing my articles. Moreover, the time pressure also promoted my thinking about learning methods and efficiency, naturally understanding and thinking from the perspective of the entire knowledge structure when listening to lectures or reading materials.
 
-### 工作心得记录
+### Recording Work Insights
 
-工作后，因为我从事的区块链行业是一个新兴的领域，有时候一个小小的知识点需要查阅很多零散的资料才能理解，而且大多是来自于同行业大佬的博文，有时候会追着一位博主的文章时间线从头开始看，获益良多。这时，我便也萌生了自己将这些工作学习中踩过的坑记录并分享出来的想法。
+After starting work, because the blockchain industry I'm engaged in is an emerging field, sometimes a small knowledge point requires consulting many scattered materials to understand, and most of them come from blog posts of industry experts. Sometimes I would follow a blogger's article timeline from the beginning, gaining a lot. At this time, I also had the idea of recording and sharing these pitfalls I encountered in my work and study.
 
-我发现网上区块链相关的资料大多都比较简略、偏底层，没有很详细的步骤讲解，对于入门学习者来说可复现性不强。于是，我开始定期把自己的学习心得与工作经验分主题组织成文在[自己的博客](https://www.pseudoyu.com)上发布，并将区块链相关的单独抽出来为一个[入门指南](https://www.pseudoyu.com/blockchain-guide/)，以便大家学习交流。
+I found that most blockchain-related materials online are relatively brief and biased towards the underlying layer, without very detailed step-by-step explanations, which is not very reproducible for beginners. So, I began to regularly organize my learning insights and work experiences into themes and publish them on [my blog](https://www.pseudoyu.com), and separately extracted blockchain-related content into a [beginner's guide](https://www.pseudoyu.com/blockchain-guide/) for everyone to learn and exchange.
 
-发布后得到了很多反馈，也因此结识了不少志同道合的人，建立了自己的关系网络，对自己的学习与工作发展有了更深的认识，甚至也能获得一些有趣的机会。
+After publishing, I received a lot of feedback and met many like-minded people through this, establishing my own relationship network, gaining a deeper understanding of my learning and career development, and even getting some interesting opportunities.
 
-工作一段时间后，做了一些项目的技术负责人，需要带团队快速接入项目。这时，我的这些博文就可以作为与团队成员共享的培训资料，极大减少了重复工作量，也推动着自己保持稳定的输出节奏。此外，因为这种乐于分享的态度，我还被指派与团队 leader 一起搭建技术团队的文档库，这推动了部门乃至公司内的信息传播与业务发展，对自己的职业发展也有一些帮助。
+After working for a while, I became the technical lead for some projects and needed to quickly onboard the team to the projects. At this time, these blog posts of mine could serve as shared training materials with team members, greatly reducing repetitive workload and also pushing myself to maintain a stable output rhythm. In addition, because of this attitude of willingness to share, I was also assigned to build a technical team documentation library with the team leader, which promoted information dissemination and business development within the department and even the company, and also helped my career development to some extent.
 
-### 效率技巧分享
+### Sharing Efficiency Tips
 
-工作之余，我还是一个效率控，很喜欢折腾各类工具应用，还维护了一个『[pseudoyu/yu-tool 个人工具箱](https://github.com/pseudoyu/yu-tools)』项目。久而久之，很多朋友遇到软硬件相关的问题都会来问我，例如“我想实现这个功能有什么好的软件可以做到？”、“这个要怎么下载安装？”等等，我也会一一给他们解答，但因为有些软件自己使用已经不那么频繁，对细节记忆会有偏差。因此，我会将自己软件系统的搭建、使用过程作详细的记录，组织为博文并发布，以便之后自己查阅或直接分享给需要的朋友。
+In my spare time, I'm also an efficiency enthusiast who loves to tinker with various tool applications and maintains a "[pseudoyu/yu-tool Personal Toolbox](https://github.com/pseudoyu/yu-tools)" project. Over time, many friends would come to me with software and hardware related questions, such as "What good software can achieve this function?" or "How do I download and install this?" and so on. I would answer them one by one, but because I don't use some software as frequently myself, my memory of the details might be biased. Therefore, I would make detailed records of my software system setup and usage process, organize them into blog posts and publish them for my own future reference or direct sharing with friends who need them.
 
 ![yu_new_desk_setup](https://image.pseudoyu.com/images/yu_new_desk_setup.jpg)
 
-我一直觉得记录软硬件与这些折腾的过程并不是一些冷冰冰的条目与截图的堆砌，而是我个人价值观、生活方式以及思维方式的传导，正如我在另一篇文章中的有感而发：
+I've always felt that recording software and hardware and these tinkering processes is not just a pile of cold items and screenshots, but a transmission of my personal values, lifestyle, and way of thinking, as I felt in another article:
 
-> 但当我在日常工作学习中使用自己当初花了很多心思调研和优化的系统后，或当一个突发的需求使用到了我之前的一个折腾过的软件/配置时，会莫名地很开心、很有成就感，这大概就是折腾的意义吧。
+> But when I use the system that I initially spent a lot of thought researching and optimizing in my daily work and study, or when a sudden need uses a software/configuration that I tinkered with before, I feel inexplicably happy and accomplished. This is probably the meaning of tinkering.
 
-### 个人思考与成长
+### Personal Reflection and Growth
 
-经过了学业与工作的各个时期，我发现自己在不同阶段与角色可能会有着截然不同的思考与成长，有时回顾起来也会很有感触。因此，我设立了一个『[思考](https://www.pseudoyu.com/en/category/ideas/)』板块，之前会以每年生日为期记录一下自己的成长，也会在一些特定的时间节点记录自己的所思所想，后续也将以周报/月报的形式记录自己的一些阶段性感悟。
+After going through various stages and roles in my studies and work, I found that I might have completely different thoughts and growth at different stages and roles, and sometimes looking back can be very touching. Therefore, I set up a "[Thoughts](https://www.pseudoyu.com/en/category/ideas/)" section, where I would record my growth on my birthday every year, and also record my thoughts at some specific time points. In the future, I will also record some of my stage insights in the form of weekly/monthly reports.
 
-相信几个月甚至几年后的自己也能从这点点滴滴的记录中找到自己当时的心境。当自己逐渐培养起记录生活的习惯，也会让自己能关注与感受到生活的美好，也能更积极地面对来自未来的挑战。
+I believe that my future self, even after several months or years, can find my state of mind at that time from these bits and pieces of records. When one gradually cultivates the habit of recording life, it also allows one to pay attention to and feel the beauty of life, and to face challenges from the future more positively.
 
 ![warm_comments](https://image.pseudoyu.com/images/warm_comments.png)
 
-个人博客就像自己的一个树洞，在记录与表达自己情绪的同时，也许也会收获一些来自陌生人的温暖。
+A personal blog is like one's own tree hole. While recording and expressing one's emotions, one might also receive some warmth from strangers.
 
-## 如何坚持写作
+## How to Persist in Writing
 
-### 克服心理障碍
+### Overcoming Psychological Barriers
 
-写作并不是一件很容易的事，当我很长时间没动笔之后，常常也会觉得“没有手感”，之前没有写作习惯的朋友们可能会更容易感觉“不知道写什么”、“自己写的东西没有意义”或“会不会没人看”。
+Writing is not an easy thing. When I haven't picked up the pen for a long time, I often feel "out of touch". Friends who didn't have a writing habit before might find it easier to feel "don't know what to write", "what I write is meaningless" or "will anyone read it".
 
-这其实是一个误区，有句话叫“达人须悦己”，写作（尤其是个人博客写作）不应该是一个目的性很强的事，而应该是一个自我记录、自我发现、自我探索与自我表达的过程。我们每个人都处于不同的角色，都有着自己的独特角度与看待事物的眼光。只要多多关注自己所在或感兴趣的领域，收集碎片化的想法，积极思考，对一些有意思的想法用导图等方式进行挖掘，将这些想法组织成文后，仔细打磨自己的文章，以真诚的态度表达出来，就能创作出有价值的内容。
+This is actually a misunderstanding. There's a saying, "The master must please himself". Writing (especially personal blog writing) should not be a strongly purposeful thing, but a process of self-recording, self-discovery, self-exploration, and self-expression. Each of us plays different roles and has our own unique perspective and way of looking at things. As long as we pay more attention to our own or interested fields, collect fragmented ideas, think actively, explore interesting ideas using methods like mind maps, organize these ideas into articles, carefully polish our articles, and express them with a sincere attitude, we can create valuable content.
 
-### 积极分享传播
+### Actively Sharing and Spreading
 
-文章完成后我们可以选择在各个平台发布与传播，积极获取正反馈，也会促进自己更有动力坚持下去。除了个人博客外，我们可以选择简书、知乎、微博这样的内容社区，少数派、即刻等相对垂类的一些内容平台等。
+After completing the article, we can choose to publish and spread it on various platforms, actively obtain positive feedback, which will also promote ourselves to be more motivated to persist. In addition to personal blogs, we can choose content communities like Jianshu, Zhihu, Weibo, or some relatively vertical content platforms like Sspai, Jike, etc.
 
-好的内容也会自然地传播，被更多人看到，我们需要做的就是坚持与持续输出，前期可以给自己制定一个固定频率，如半个月/一个月，给自己一些小小的物质激励，后期再慢慢根据自己的情况与意愿调整。
+Good content will naturally spread and be seen by more people. What we need to do is to persist and continue to output. In the early stage, we can set a fixed frequency for ourselves, such as half a month/one month, give ourselves some small material incentives, and then slowly adjust according to our own situation and wishes in the later stage.
 
-## 个人博客
+## Personal Blog
 
-### 为什么选择个人博客
+### Why Choose a Personal Blog
 
-上文着重讲了我们如何写有价值的博客文章，现在，我们回到最开始的问题：
+The above text focused on how we write valuable blog articles. Now, let's return to the question at the beginning:
 
-> 既然已经有了那么多平台了，为什么我们还要选择搭建个人博客呢？
+> Since there are so many platforms already, why do we still choose to set up a personal blog?
 
-移动互联网与智能手机普及之后，“blogger” 一词似乎已经成为了时代的眼泪，前段时间我还被加入了一个“致敬仍然在写博客的朋友”的列表，有些哭笑不得。
+After the popularization of mobile internet and smartphones, the term "blogger" seems to have become a tear of the times. Some time ago, I was even added to a list of "Salute to friends who are still blogging", which made me laugh and cry.
 
-随着互联网的迅速发展，我们有了更多的表达渠道，却又似乎丧失了表达的欲望。朋友圈、微博等似乎是适合情绪表达的第一阵地，但字数限制与太多的社交关联又让我们望而却步；而知乎、简书这样的平台又似乎太过“专业”，并不适合所有内容，也容易被网络舆论所左右。
+With the rapid development of the internet, we have more channels of expression, but we seem to have lost the desire to express. Moments, Weibo, etc. seem to be suitable first positions for emotional expression, but character limits and too many social connections make us hesitate; while platforms like Zhihu and Jianshu seem too "professional" and are not suitable for all content, and are easily influenced by online public opinion.
 
-个人博客则是一个更完美的选择。我们可以随心所欲地按自己的喜好定制博客的各个模块，而折腾与优化的过程就像装修自己的一个小屋一样，很有成就感。配合个性域名也能打造自己的个人品牌，不管是在个人社交平台还是求职简历上放上自己的个人网站链接都是一个不错的加分项。
+A personal blog is a more perfect choice. We can customize each module of the blog according to our preferences at will, and the process of tinkering and optimizing is like decorating our own little room, which is very fulfilling. Coupled with a personal domain name, we can also build our personal brand. Putting our personal website link on personal social platforms or job resumes is a good bonus point.
 
-还有很重要的一点是，我们在博客上发布的内容与数据都属于我们自己，不会随着平台的消亡而丧失所有数据或经历大规模迁移的痛苦，经历过『虾米音乐』消亡的惨痛教训，我对这一点尤其关注，也会定期备份我的文章数据。
+Another important point is that the content and data we publish on the blog belong to us, and will not lose all data or experience the pain of large-scale migration with the demise of the platform. Having experienced the painful lesson of the demise of "Xiami Music", I pay particular attention to this point and regularly back up my article data.
 
-此外，我们可以对个人博客做一些 SEO 优化而无需被内容平台的算法所左右，读者也许会从一篇文章链接到自己的其他想法与态度的表达，让他们感觉文字背后是一个真实的、有趣的人，而不仅仅是互联网同质化知识的一个分子。
+In addition, we can do some SEO optimization for personal blogs without being influenced by the algorithms of content platforms. Readers may link from one article to other expressions of their own ideas and attitudes, letting them feel that behind the text is a real, interesting person, not just a homogeneous knowledge molecule of the internet.
 
-### 如何搭建个人博客
+### How to Set Up a Personal Blog
 
-我的个人博客最早使用 WordPress 搭建在自己的 Vultr vps 上，因为网络访问比较慢所以迁移到了腾讯云服务器上并且进行备案，虽然访问速度有提升，但是发布博客的流程很繁琐，服务器的维护长期也是一笔不小的开支。
+My personal blog was originally built on my own Vultr VPS using WordPress. Because the network access was relatively slow, I migrated it to Tencent Cloud server and got it registered. Although the access speed improved, the process of publishing blogs was very cumbersome, and the maintenance of the server was a considerable expense in the long term.
 
-因此，我也一直在探索能够既能保障国内外访问体验，又能够托管在一些平台上，实现部署和发布流程的最优化体验。后来也一直不断在改善博客系统搭建和发布流程，迄今为止对自己的全流程解决方案还是比较满意的，虽然部署和搭建上需要进行一些配置，但后续更新维护都很方便，我对博客搭建流程写了一系列文章。
+Therefore, I have been exploring a solution that can ensure both domestic and foreign access experience, and can be hosted on some platforms to optimize the deployment and publishing process. Later, I've been constantly improving the blog system setup and publishing process. So far, I'm quite satisfied with my full-process solution. Although some configuration is needed for deployment and setup, subsequent updates and maintenance are very convenient. I've written a series of articles about the blog setup process.
 
-#### 博客搭建与自动发布系统
+#### Blog Setup and Automatic Publishing System
 
 ![yu_blog_homepage_20240629](https://image.pseudoyu.com/images/yu_blog_homepage_20240629.png)
 
-我通过 Hugo 这个静态网站生成器来搭建我的个人博客。Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。
+I use Hugo, a static website generator, to build my personal blog. Hugo is a blogging tool implemented in Go, using Markdown for article editing, automatically generating static site files, supporting rich theme configuration, and can also embed plugins like comment systems through js, highly customizable.
 
-此外，我还对博客配置及所有文章的源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。搭建教程请参看：
+In addition, I version control the blog configuration and source files of all articles, coupled with GitHub Action for automated deployment, automatically generating static sites and pushing to the GitHub Pages blog publishing repository. For the setup tutorial, please refer to:
 
-- [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Hugo + GitHub Action, Build Your Blog Automatic Publishing System](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 
-#### 博客评论系统
+#### Blog Comment System
 
-一个完整的博客当然需要评论系统，像 WordPress 这种系统自身具备了评论插件，而静态博客则需要自己对接评论系统。我最开始选择的是第三方的 Disqus，简单易用，但是会自带很多广告推广，也不够简约。因此，我选择了 Randy 的 Cusdis，一个注重数据隐私的开源的评论系统，并通过 Railway 进行自部署，搭建教程请参看：
+A complete blog, of course, needs a comment system. Systems like WordPress have their own comment plugins, while static blogs need to interface with comment systems themselves. I initially chose the third-party Disqus, which is simple and easy to use, but comes with a lot of ads and promotions, and is not simple enough. Therefore, I chose Randy's Cusdis, an open-source comment system that focuses on data privacy, and self-deployed it through Railway. For the setup tutorial, please refer to:
 
-- [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
-#### 博客数据统计系统
+#### Blog Data Statistics System
 
-作为一个持续更新运营的博客平台，我们一定很好奇哪篇文章阅读量最高、哪个关键词检索最频繁等，数据统计能帮助我们专注在更有价值的内容创作与分享上。
+As a continuously updated and operated blog platform, we must be very curious about which article has the highest readership, which keyword is searched most frequently, etc. Data statistics can help us focus on more valuable content creation and sharing.
 
 ![splitbee_data](https://image.pseudoyu.com/images/splitbee_data.png)
 
 ![google_console_data](https://image.pseudoyu.com/images/google_console_data.png)
 
-类似的工具也很多，我选择了 [splitbee](https://splitbee.io/) 与 [Google Console](https://search.google.com/search-console) 来统计分析我的访客信息与搜索权重。
+There are many similar tools. I chose [splitbee](https://splitbee.io/) and [Google Console](https://search.google.com/search-console) to analyze my visitor information and search weight.
 
 ![cloudflare_data](https://image.pseudoyu.com/images/cloudflare_data.png)
 
-[Cloudflare](https://www.cloudflare.com/) 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性不强。
+[Cloudflare](https://www.cloudflare.com/) can also analyze network traffic, but because there is a lot of network-unrelated traffic, such as crawlers, etc., it's not very referential.
 
-此外，我选择了一个可代替 Google Analytics 的开源服务 umami，并通过 Vercel 与 Heroku 进行部署，实现了访客数据的实时监控，搭建教程请参看：
+In addition, I chose an open-source service umami that can replace Google Analytics, and deployed it through Vercel and Heroku to achieve real-time monitoring of visitor data. For the setup tutorial, please refer to:
 
-- [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Build a Free Personal Blog Data Statistics System from Scratch (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
 
-## 总结
+## Conclusion
 
-2022 年了，我依然在写博客，并且会继续坚持写下去。博客就像是我的一个私人空间，一篇篇笔记记录了我的变化与成长，也承载了我人生的几段最重要的时光。希望屏幕前的你们也能体会到博客的魅力，让更多的朋友加入我们仍在坚守的“blogger”阵地。
+It's 2022, and I'm still blogging, and I will continue to persist. The blog is like my private space, each note records my changes and growth, and also carries the most important moments of my life. I hope you in front of the screen can also experience the charm of blogging, and let more friends join our still persevering "blogger" camp.
 
-## 参考资料
+## References
 
-> 1. [讲讲我为什么写 blog](https://bytedance.feishu.cn/docs/doccn4sKBEWyyLPziLVyoaudpXd#)
-> 2. [我的 Pseudoyu 个人博客](https://www.pseudoyu.com)
-> 3. [免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-> 4. [从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-> 5. [轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
-> 6. [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
-> 7. [区块链入门指南](https://www.pseudoyu.com/blockchain-guide/)
+> 1. [Why I Write a Blog](https://bytedance.feishu.cn/docs/doccn4sKBEWyyLPziLVyoaudpXd#)
+> 2. [My Pseudoyu Personal Blog](https://www.pseudoyu.com)
+> 3. [Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+> 4. [Build a Free Personal Blog Data Statistics System from Scratch (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+> 5. [Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+> 6. [Hugo + GitHub Action, Build Your Blog Automatic Publishing System](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+> 7. [Blockchain Beginner's Guide](https://www.pseudoyu.com/blockchain-guide/)

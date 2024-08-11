@@ -1,5 +1,5 @@
 ---
-title: "跨链技术原理与实战"
+title: "Cross-Chain Technology Principles and Practice"
 date: 2021-09-06T15:34:40+08:00
 draft: false
 tags: ["blockchain", "crosschain"]
@@ -8,80 +8,79 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-目前区块链底层平台日渐多样，如老牌的 Hyperledger Fabric、Ethereum 等，以及国内的 Hyperchain、Z-ledger 等，而随着区块链应用生态越来越复杂，单链的性能有一定瓶颈，链与链之间的协同与交互（信息同步、共享、合约互操作等）也成为了链和应用生态发展的重要部分。
+Currently, blockchain platforms are becoming increasingly diverse, including established ones like Hyperledger Fabric and Ethereum, as well as domestic platforms such as Hyperchain and Z-ledger. As blockchain application ecosystems grow more complex, single-chain performance faces certain bottlenecks. Consequently, collaboration and interaction between chains (information synchronization, sharing, contract interoperability, etc.) have become crucial aspects of chain and application ecosystem development.
 
-本文是对跨链技术的概念与主流解决方案的梳理。
+This article provides an overview of cross-chain technology concepts and mainstream solutions.
 
-## 跨链技术概览
+## Cross-Chain Technology Overview
 
-因为底层链设计、共识算法、网络结构等组件的相似性，同构区块链之间的交互比较容易，但异构区块链则相对复杂，往往难以直接进行交互，而需要两条链之间有一些辅助平台/服务来进行数据格式转换等。
+Due to similarities in underlying chain design, consensus algorithms, and network structures, interaction between homogeneous blockchains is relatively straightforward. However, interaction between heterogeneous blockchains is more complex, often requiring auxiliary platforms or services for data format conversion between the two chains.
 
-### 跨链机制
+### Cross-Chain Mechanisms
 
-目前跨链主要由以下几种解决方案：
+Currently, there are several main solutions for cross-chain interactions:
 
-1. 公证人机制
-2. 哈希锁定
-3. 分布式私钥控制
-4. 侧链/中继链
+1. Notary mechanism
+2. Hash-locking
+3. Distributed private key control
+4. Sidechains/Relay chains
 
-#### 公证人机制
+#### Notary Mechanism
 
-公证人机制是一种通过第三方中介协助不同链之间交互的机制，本质上是两方共同信任一个第三方，让其对跨链数据或跨链交互操作进行验证和转发。这种方式能很好地支持异构区块链，但是是一种中心化方式。
+The notary mechanism is a method that facilitates interaction between different chains through a third-party intermediary. Essentially, both parties trust a third party to verify and forward cross-chain data or interaction operations. This approach effectively supports heterogeneous blockchains but is centralized in nature.
 
-很多数字货币交易所就是通过这样的方式进行不同数字货币之间的交易和转换，本质上是交易所在撮合交易，效率等都较高，但是存在一定安全风险，且只支持资产的交换。
+Many digital currency exchanges use this method to conduct transactions and conversions between different digital currencies. Fundamentally, the exchange matches trades, offering high efficiency but posing certain security risks and only supporting asset exchange.
 
-#### 哈希锁定
+#### Hash-locking
 
-哈希锁定最早出现在比特币的闪电网络，是通过哈希锁和时间锁保障跨链双方资产的一种方式。其中时间锁是将交易限制在一定时间内，超时则交易失效，从而避免损失，但这种方式同样只能实现资产的交换，而无法实现资产的转移。
+Hash-locking first appeared in Bitcoin's Lightning Network. It uses hash locks and time locks to secure assets for both parties in a cross-chain transaction. Time locks restrict transactions to a specific timeframe, with the transaction becoming invalid if it exceeds the time limit, thus preventing losses. However, this method can only facilitate asset exchange, not asset transfer.
 
-#### 侧链
+#### Sidechains
 
-侧链是一种双向锚定的技术，最开始的侧链是相对于比特币主链而言的，如 BTC-Relay，在这条侧链上可以对比特币进行新特性的研发和测试，且当大量用户在比特币网络上进行交易时，使用侧链可以有效地拓展网络的吞吐量。例如，在 Ethereum 主链上进行资产交易和价值转移，而在 Ethereum 侧链上可以进行一些对 tps 要求较高的 DApp 运行等。
+Sidechain technology involves two-way pegging, initially developed in relation to the Bitcoin main chain, such as BTC-Relay. These sidechains allow for new feature development and testing for Bitcoin, and can effectively expand network throughput when many users are transacting on the Bitcoin network. For example, asset transactions and value transfers can occur on the Ethereum main chain, while DApps requiring higher TPS can run on Ethereum sidechains.
 
-而同一条主链的不同侧链也可以借助主链来进行一些交互，这就是借助测链进行跨链的基本原理。
+Different sidechains of the same main chain can also interact through the main chain, which forms the basic principle of cross-chain interaction via sidechains.
 
-#### 中继链
+#### Relay Chains
 
-中继链则是上述侧链和公证人机制的一种综合应用，通过设定跨链交互机制（如 Cosmos 的 IBC）来实现异构链之间的信息共享与交互。需要进行跨链的各个平行链连接到一个中继链来辅助交易的验证和交互。
+Relay chains represent a comprehensive application of the aforementioned sidechain and notary mechanisms. They achieve information sharing and interaction between heterogeneous chains by establishing cross-chain interaction mechanisms (such as Cosmos' IBC). Parallel chains requiring cross-chain functionality connect to a relay chain to assist with transaction verification and interaction.
 
+## Cross-Chain Technology in Practice
 
-## 跨链技术实践
+### Development Implementation
 
-### 开发实战
-
-目前在做一个 BaaS 平台的跨链功能，其基础架构如下：
+I am currently working on a cross-chain functionality for a BaaS platform. Its basic architecture is as follows:
 
 ![cross_chain_framework](https://image.pseudoyu.com/images/cross_chain_framework.png)
 
-子链主要是实现各类业务和应用的链，当子链要与其他链进行跨链业务交互时，它需要执行跨链合约，而我们提供了一个跨链网关来对这些跨链合约进行监听。针对异构区块链。如 Hyperledger Fabric、Ethereum，我们将提供不同的适配器来实现跨链 SDK 与跨链网关之间的交互，适配器提供跨链合约信息查询功能。当另一条业务链的 SDK 接收到跨链合约方法时，如果是合约互调用或数据传递，则直接调用对应的合约方法。
+Sub-chains primarily implement various businesses and applications. When a sub-chain needs to interact with other chains for cross-chain business, it executes a cross-chain contract. We provide a cross-chain gateway to monitor these cross-chain contracts. For heterogeneous blockchains like Hyperledger Fabric and Ethereum, we offer different adapters to facilitate interaction between the cross-chain SDK and the cross-chain gateway. These adapters provide cross-chain contract information query functionality. When the SDK of another business chain receives a cross-chain contract method, it directly calls the corresponding contract method if it involves contract inter-calling or data transfer.
 
-我主要做的是跨链适配器接口这一部分，适配器作为针对不同链的插件嵌入跨链网关中从而适配不同的应用链，能够很好地协助跨链网关实现对交易的监听、同步与执行。
+My main focus is on the cross-chain adapter interface. The adapter, serving as a plugin for different chains, is embedded in the cross-chain gateway to adapt to various application chains, effectively assisting the cross-chain gateway in monitoring, synchronizing, and executing transactions.
 
-而在具体实现中，如在 Fabric 网络中，则是通过子链调用跨链业务合约，而跨链业务合约统一调用一个适配器的合约，在这个适配器合约中，我们实现了交易信息传入，通过 Fabric 事件机制来进行监听（即在合约中实现 `SetEvent` 方法，而在适配器中对相应事件进行注册，从而实现对跨链合约的监听。
+In specific implementations, such as in a Fabric network, the sub-chain calls the cross-chain business contract, which in turn uniformly calls an adapter contract. Within this adapter contract, we implement transaction information input. Through Fabric's event mechanism, we achieve monitoring of cross-chain contracts (i.e., implementing the `SetEvent` method in the contract and registering corresponding events in the adapter).
 
-关于 Fabric 事件监听相关细节及实现详情见 《[Hyperledger Fabric Go SDK 事件分析](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)》。
+For details on Fabric event monitoring and implementation, refer to "[Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)".
 
-### 功能拓展
+### Functional Extension
 
-目前趣链科技的 [BitXHub 跨链平台](https://meshplus.github.io/bitxhub/bitxhub/introduction/summary/)是业界实现得比较完善的开源跨链解决方案，其架构如下：
+Currently, QulianTech's [BitXHub Cross-Chain Platform](https://meshplus.github.io/bitxhub/bitxhub/introduction/summary/) is one of the industry's more comprehensively implemented open-source cross-chain solutions. Its architecture is as follows:
 
 ![bitxhub_structure](https://image.pseudoyu.com/images/bitxhub_structure.png)
 
-主要通过中继链、网关和插件机制对跨链流程中的功能、安全性和灵活性等进行了优化，并且设计了 IBTP 链间通用传输协议配合“网关+中继链”的架构来解决跨链交易中的验证、路由等问题。
+It primarily optimizes functionality, security, and flexibility in the cross-chain process through relay chains, gateways, and plugin mechanisms. It also designed the IBTP (Inter-Blockchain Transfer Protocol) to work with the "gateway + relay chain" architecture to address verification, routing, and other issues in cross-chain transactions.
 
-## 总结
+## Conclusion
 
-以上就是对跨链技术的概念梳理与实战总结，为了对跨链机制的各个环节有更深入的了解，之后也将会对目前正在做的跨链服务和 BitXHub 平台进行更深入的剖析和源码解读。
+The above summarizes the concepts and practical implementation of cross-chain technology. To gain a deeper understanding of various aspects of cross-chain mechanisms, I will conduct more in-depth analysis and source code interpretation of the cross-chain service I am currently working on and the BitXHub platform in the future.
 
-## 参考资料
+## References
 
-> 1. [关于跨链技术的分析和思考](https://tech.hyperchain.cn/blockchain-interoperability/)
-> 2. [跨链的简要研究：从原理到技术](https://zhuanlan.zhihu.com/p/92667917)
-> 3. [跨链技术平台 BitXHub](https://github.com/gocn/opentalk/tree/main/PhaseTen_BitXHub)
-> 4. [区块链跨链技术之哈希时间锁](https://yuanxuxu.com/2020/08/05/区块链跨链技术之哈希时间锁/)
-> 5. [Hyperledger Fabric Go SDK 事件分析](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
+> 1. [Analysis and Thoughts on Cross-Chain Technology](https://tech.hyperchain.cn/blockchain-interoperability/)
+> 2. [A Brief Study of Cross-Chain: From Principles to Technology](https://zhuanlan.zhihu.com/p/92667917)
+> 3. [Cross-Chain Technology Platform BitXHub](https://github.com/gocn/opentalk/tree/main/PhaseTen_BitXHub)
+> 4. [Blockchain Cross-Chain Technology: Hash Time Locks](https://yuanxuxu.com/2020/08/05/区块链跨链技术之哈希时间锁/)
+> 5. [Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
 > 6. [BitXHub Document](https://meshplus.github.io/bitxhub/bitxhub/introduction/summary/)
-> 7. [十问 BitXHub:谈谈跨链平台的架构设计](https://tech.hyperchain.cn/bitxhub-design-thinking/)
+> 7. [Ten Questions about BitXHub: Discussing the Architectural Design of Cross-Chain Platforms](https://tech.hyperchain.cn/bitxhub-design-thinking/)

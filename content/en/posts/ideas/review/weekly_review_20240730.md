@@ -1,5 +1,5 @@
 ---
-title: "周报 #66 - 10x 工程师、技术热情与个人工具箱"
+title: "Weekly Review #66 - 10x Engineers, Technical Passion and Personal Toolkit"
 date: 2024-07-30T20:30:00+08:00
 draft: false
 tags: ["review", "life", "tools", "epubkit", "work", "painting", "programming"]
@@ -8,71 +8,71 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/photograph.mp3" caption="《Photograph - Ed Sheeran》" >}}
+{{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## 前言
+## Preface
 
 ![weekly_review_20240730](https://image.pseudoyu.com/images/weekly_review_20240730.png)
 
-本篇是对 `2024-07-22` 到 `2024-07-30` 这周生活的记录与思考。
+This piece records and reflects on my life from `2024-07-22` to `2024-07-30`.
 
-经过了异常丰富的 Adventure X 一周活动，算是回归了沉下心写代码的日常。忙于一些工作需求；使用 Cloudflare Worker 继续开发 EpubKit 的 api 部分功能；使用 Go 重构了一年多前就启动但是一直没成型的 side project 后端部分，并开始尝试用 rust 写一个 api server；为自己一个个人工具箱项目「[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)」写了一个 Astro 网页项目「[tools.pseudoyu.com](https://tools.pseudoyu.com/)」；写了 Remark42 部署的教程博客，并经过了一位在搭建博客系统的读者的可行性验证；全家去千岛湖一个水上乐园玩，感觉自己太现充了；尝试水彩画，并启动了车库墙绘项目；还有很多有意思的事。
+After an exceptionally rich Adventure X week of activities, I've returned to the daily routine of coding with focused attention. I've been busy with work requirements; continuing to develop the API portion of EpubKit using Cloudflare Worker; refactoring the backend of a side project I started over a year ago but never fully realized using Go, and beginning to attempt writing an API server in Rust; created an Astro web project "[tools.pseudoyu.com](https://tools.pseudoyu.com/)" for my personal toolkit project "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)"; wrote a tutorial blog on Remark42 deployment, which was validated by a reader in the process of setting up a blog system; went with my family to a water park in Thousand Island Lake, feeling like I'm living quite a fulfilling life; tried watercolor painting and initiated a garage wall painting project; and many other interesting happenings.
 
-## 10x 工程师
+## 10x Engineers
 
 ![randy_10x](https://image.pseudoyu.com/images/randy_10x.png)
 
-Randy 最近上线了一个「[Ask Hackers](https://askhackers.com/)」项目，是一个基于 Hacker News Comments 的搜索工具，感觉从想法萌生到上线推广大概也就一两天，想到了一个叫「10x 工程师」的概念，能够快速将自己的一个想法开发实现，很羡慕。
+Randy recently launched a project called "[Ask Hackers](https://askhackers.com/)", which is a search tool based on Hacker News Comments. It seems that from the inception of the idea to its launch and promotion, it only took about a day or two. This reminded me of the concept of a "10x engineer" - someone who can quickly develop and implement their ideas. I admire this ability.
 
-自己其实前前后后也做了不少工作和个人项目，惭愧地说技术栈接触了不少，都能写一点但也都不深，快速实现和迭代一个产品的能力还是很差，似乎从想法到 Demo/产品之间依然差了一环，也跟 Randy 聊过这个话题，他觉得还是工程经验的问题，他看到某个网站或者 App 的某个效果，基本上能大致猜到实现的方式并复现，而我可能还是得靠去看源码或者咨询 AI 才能勉强做到。
+I've actually worked on quite a few projects, both professionally and personally, and I'm embarrassed to say that while I've touched on many tech stacks and can write a bit in each, I'm not particularly deep in any of them. My ability to quickly implement and iterate on a product is still quite poor. There seems to be a missing link between idea and demo/product for me. I've discussed this topic with Randy, and he thinks it's a matter of engineering experience. When he sees a certain effect on a website or app, he can generally guess how it's implemented and reproduce it, whereas I might still need to look at the source code or consult AI to barely manage it.
 
-## 技术热情
+## Technical Passion
 
-除此之外，我发现热情和动力也左右着我的行为，可能是由于依然没有找到自己的产品 Idea 和方向，总是感觉自己之前做 side projects 的时候仅仅是在“实现”或是技术练习，吸引我的并不是产品成型本身而是在实现过程中的了解学习和技术能力的提升，对于个人来说无可厚非，但对于一个产品来说似乎是缺少了灵魂，就像第一次见 Randy 时我好奇地问他为什么不再更新 Cusdis 了，有不少 Star，也有包括我在内的很多自部署用户，印象里他说除了经济因素外，更多是由于自己没有动力去做了，没办法为一个自己都不会去用/为之付费的产品付出更多的热情。
+Beyond this, I've found that passion and motivation also influence my behavior. Perhaps because I still haven't found my own product idea and direction, I always feel that when I was doing side projects before, I was merely "implementing" or doing technical exercises. What attracted me wasn't the product itself taking shape, but the learning and improvement of technical skills in the implementation process. This is fine for personal growth, but for a product, it seems to lack soul. It's like when I first met Randy and curiously asked him why he wasn't updating Cusdis anymore, which had quite a few stars and many self-deployed users including myself. As I recall, he said that besides economic factors, it was more because he no longer had the motivation to do it, and couldn't muster more enthusiasm for a product he wouldn't use or pay for himself.
 
-其实自己的症结也在于此，似乎依然没有找到会让自己半夜兴奋到睡不着的想法，反倒是在一起开发 EpubKit 时，由于自己也是电子书的多年用户，从自己作为用户的角度出发，能够对产品的迭代有更多想法和热情，也会更有成就感。
+My own dilemma lies in this as well. It seems I still haven't found an idea that would excite me to the point of sleeplessness. On the contrary, when developing EpubKit together, as I've been a long-time user of e-books myself, approaching from the perspective of a user, I have more ideas and enthusiasm for product iteration, and it feels more fulfilling.
 
-自己一定要是产品的第一个用户。
+One must be the first user of their own product.
 
-## 个人工具箱项目
+## Personal Toolkit Project
 
 ![yu_tools_website](https://image.pseudoyu.com/images/yu_tools_website.png)
 
-自己一直是一个各种软硬件的重度折腾爱好者，几乎每一个自己很小众的需求都会花大量的时间挑选出最合适的工具，哪怕检索的时间远远超过了使用工具本身，依然乐在其中。从大学到现在，身边也有无数人会问我类似“有什么推荐的相机/键盘/麦克风/xxx 么”、“我想在手机上做 xxx 有什么推荐的软件么”这类的问题，于是两年多前萌生了自己做一个个人工具箱列表的想法 —— 「[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)」。
+I've always been a heavy tinkerer of various software and hardware. I spend a large amount of time selecting the most suitable tool for almost every niche need I have, even if the time spent researching far exceeds the time using the tool itself. I still enjoy it immensely. From college until now, countless people around me have asked questions like "Do you have any camera/keyboard/microphone/xxx recommendations?" or "I want to do xxx on my phone, are there any recommended apps?" So over two years ago, I had the idea to create a personal toolkit list - "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)".
 
-最开始只是一个简单的 GitHub 项目和一个 `README.md` 文件，后来慢慢添加了一些分类，并为每个条目增加了一条简短的描述，两年里阶段性更新了几次，没想到竟成为了我 star 最多的一个 repo 了。
+Initially, it was just a simple GitHub project with a `README.md` file. Later, I gradually added some categories and a brief description for each item. I updated it periodically over two years, and surprisingly, it became my most starred repo.
 
-之前有看到过自己很喜欢的开发者「[devaslife/Takuya Matsuyama](https://www.craftz.dog/)」做的一个工具箱网站 —— 「[A curated list of the tech I use](https://uses.craftz.dog/)」，为每一个工具拍照并附上使用体验，觉得很有价值，于是也花了一晚上参照他的模板使用 Astro 做了一个网站 —— 「[tools.pseudoyu.com](https://tools.pseudoyu.com/)」，只是会更多地偏向软件和服务，而随着条目增加，也想添加类似「[Ask Hackers](https://askhackers.com/)」的对话搜索功能。
+I had previously seen a toolkit website made by a developer I really like, "[devaslife/Takuya Matsuyama](https://www.craftz.dog/)" - "[A curated list of the tech I use](https://uses.craftz.dog/)". He photographs each tool and adds his usage experience, which I found very valuable. So I spent an evening using Astro to create a website based on his template - "[tools.pseudoyu.com](https://tools.pseudoyu.com/)". It will focus more on software and services, and as the number of entries increases, I also want to add a conversational search function similar to "[Ask Hackers](https://askhackers.com/)".
 
-软硬件的拍摄、截图和介绍是个大工程，持续更新中，有需要的朋友可以关注一下。
+Photographing, screenshotting, and introducing software and hardware is a big project, and it's continuously being updated. Those who are interested can keep an eye on it.
 
-## 个人生活剪影
+## Personal Life Snippets
 
-### 水彩
+### Watercolor
 
 ![rust_painting](https://image.pseudoyu.com/images/rust_painting.jpg)
 
-某次饭后家人一起尝试在扇子上画水彩，也是全新的体验，挑选了 Rust 小螃蟹，在学姐的亿点指导下完成了这幅作品，很开心！！！
+One time after dinner, my family tried painting watercolors on fans together. It was a completely new experience. I chose the Rust little crab, and with a bit of guidance from my senior, I completed this work. I'm very happy!!!
 
-### 车库墙绘
+### Garage Wall Painting
 
 ![wall_painting](https://image.pseudoyu.com/images/wall_painting.jpg)
 
-既上次使用 DALL-E 生成了想要在车间墙绘的图之后，这种终于得空开工，进度 30%，但是由于周一晚刚好组会，是学姐和我妹妹画的，带了相机也没来得及用相机记录下完整过程，有些遗憾，下次会多拍一些流程和细节，期待最终效果。
+Since generating the image I wanted to paint on the workshop wall using DALL-E, we finally found time to start work. Progress is at 30%, but due to a team meeting on Monday night, it was my senior and my sister who did the painting. Although I brought my camera, I didn't have time to record the complete process, which is a bit regrettable. Next time I'll take more photos of the process and details. Looking forward to the final effect.
 
-### 捏捏
+### Nini
 
 ![nienie_on_desktop](https://image.pseudoyu.com/images/nienie_on_desktop.jpg)
 
-最近或许是察觉了我的忙碌，两只小猫都变得更加黏人，每次写代码时捏捏也都静静趴在桌上，时不时伸个懒腰或者发个嗲，松弛而治愈。
+Recently, perhaps sensing my busyness, both kittens have become more clingy. Every time I write code, Nini quietly lies on the desk, occasionally stretching lazily or making a coquettish sound, relaxing and healing.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced to the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I'll still select a few to list here. It feels more like a newsletter now.
 
-#### 收藏
+#### Collections
 
 - [Hono - Ultrafast web framework for the Edges](https://hono.dev/docs/)
 - [Ask Hackers](https://askhackers.com/)
@@ -80,21 +80,20 @@ Randy 最近上线了一个「[Ask Hackers](https://askhackers.com/)」项目，
 - [Vercel AI SDK](https://sdk.vercel.ai/)
 - [Open Source Alternatives To Proprietary Software](https://www.opensourcealternative.to/)
 
-#### 书籍
+#### Books
 
-- [**Shape Up**](https://book.douban.com/subject/34945817/)，可汗学院创始人写的关于 GPT 与教育未来的思考与实践，对日常使用 LLMs 有挺多启发的，除了成为搜索引擎一样的工具向外还有很多想象空间。
+- [**Shape Up**](https://book.douban.com/subject/34945817/), written by the founder of Khan Academy about thoughts and practices on GPT and the future of education. It provides quite a few inspirations for daily use of LLMs. Besides becoming a tool like search engines, there's still much room for imagination.
 
-#### 文章
+#### Articles
 
-- [订阅制搜索引擎: Kagi](https://anotherdayu.com/2024/5837/)
-- [从零开始搭建你的免费博客评论系统（Remark42 + fly.io）](https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+- [Subscription-based Search Engine: Kagi](https://anotherdayu.com/2024/5837/)
+- [Build Your Free Blog Commenting System from Scratch (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
 
-#### 视频
+#### Videos
 
-- [路遇榜一小孩哥，竟要现场给我钱！？](https://www.bilibili.com/video/BV1J4421S7hA)
-- [你有能力变得快乐｜推书《蛤蟆先生去看心理医生》](https://www.bilibili.com/video/BV1s8vKegE66)
+- [Encountered the Top Player Kid on the Street, He Wanted to Give Me Money on the Spot!?](https://www.bilibili.com/video/BV1J4421S7hA)
+- [You Have the Ability to Be Happy | Book Recommendation "Counselling for Toads"](https://www.bilibili.com/video/BV1s8vKegE66)
 
-#### 剧集
+#### TV Series
 
-- [**去有风的地方**](http://movie.douban.com/subject/35662223/)，吃饭的时候看。
-
+- [**Go to the Windy Place**](http://movie.douban.com/subject/35662223/), watched while eating.

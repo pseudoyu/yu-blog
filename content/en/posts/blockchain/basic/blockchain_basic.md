@@ -1,5 +1,5 @@
 ---
-title: "区块链基础知识与关键技术"
+title: "Blockchain Fundamentals and Key Technologies"
 date: 2021-02-12T12:12:17+08:00
 draft: false
 tags: ["blockchain", "guide", "knowledge"]
@@ -8,157 +8,157 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-最近在上 HKU 的`<COMP7408 Distributed Ledger and Blockchain Technology>`课程，对区块链的基础概念有了更系统的认知，结合之前上过的北京大学肖臻老师《[区块链技术与应用](https://www.bilibili.com/video/BV1Vt411X7JF)》公开课，深知区块链知识体系之庞大，打算更新系列文章对区块链、比特币、以太坊等进行系统的知识梳理，如有错漏，欢迎交流指正。
+Recently, I've been taking the course `<COMP7408 Distributed Ledger and Blockchain Technology>` at HKU, which has given me a more systematic understanding of the basic concepts of blockchain. Combined with Professor Xiao Zhen's public course "[Blockchain Technology and Applications](https://www.bilibili.com/video/BV1Vt411X7JF)" from Peking University that I took previously, I've come to realize the vastness of the blockchain knowledge system. I plan to update a series of articles to systematically organize the knowledge of blockchain, Bitcoin, Ethereum, etc. If there are any errors or omissions, please feel free to discuss and correct them.
 
-## 区块链中的密码学原理
+## Cryptographic Principles in Blockchain
 
-区块链和密码学紧密相关，如比特币采用的核心的公私钥加密技术、数字签名、哈希等，包括很多共识算法也是基于复杂的密码学概念，因此，在开始学习区块链之前，要先了解几个核心的密码学概念，从而能够更深入理解其在区块链体系中的应用。
+Blockchain is closely related to cryptography, such as the core public-private key encryption technology, digital signatures, and hashing used in Bitcoin, including many consensus algorithms based on complex cryptographic concepts. Therefore, before starting to learn blockchain, we need to understand several core cryptographic concepts to gain a deeper understanding of their applications in the blockchain system.
 
-### 哈希函数
+### Hash Functions
 
-哈希函数是把一个任意长度的源数据经过一系列算法变成一个固定长度输出值的方法，概念很简单，但其具备的几个特性使它被各个领域广泛应用。
+A hash function is a method that transforms source data of arbitrary length into a fixed-length output value through a series of algorithms. The concept is simple, but its several characteristics make it widely used in various fields.
 
-可以访问这个 [Demo](https://andersbrownworth.com/blockchain/hash) 体验一下哈希函数的工作原理（以`SHA256`为例）！
+You can visit this [Demo](https://andersbrownworth.com/blockchain/hash) to experience how hash functions work (using `SHA256` as an example)!
 
-第一个特性是单向不可逆性。将一个输入 x 进行哈希运算得到值 H(x)，这一过程很容易，但是如果给定一个值 H(x)，几乎不可能逆推得到 x 的取值，这一特性很好地保护了源数据。
+The first characteristic is one-way irreversibility. It's easy to perform a hash operation on an input x to get the value H(x), but given a value H(x), it's almost impossible to reverse-engineer the value of x. This characteristic protects the source data well.
 
-第二个特性是抗碰撞性。给定一个值 x 和另一个值 y，如果 x 不等于 y，那 H(x) 几乎不可能等于 H(y)，并非完全不可能，但是几率非常低，因此，一个数据的 Hash 值几乎是唯一的，这可以很好地用于身份验证等场景。
+The second characteristic is collision resistance. Given a value x and another value y, if x is not equal to y, then H(x) is almost impossible to equal H(y). It's not completely impossible, but the probability is extremely low. Therefore, the hash value of a piece of data is almost unique, which can be well used in scenarios such as identity verification.
 
-第三个特性是哈希计算不可预测。很难根据现有条件推导出哈希值，但是很容易检验是否正确，这一机制主要应用于`PoW`挖矿机制中。
+The third characteristic is that hash calculations are unpredictable. It's difficult to derive the hash value based on existing conditions, but it's easy to verify if it's correct. This mechanism is mainly applied in the `PoW` mining mechanism.
 
-### 加密/解密
+### Encryption/Decryption
 
-加密机制主要分为对称加密和非对称加密两类。
+Encryption mechanisms are mainly divided into two categories: symmetric encryption and asymmetric encryption.
 
-对称加密机制是两方用同一个密钥来进行信息的加密和解密，很方便，效率也很高，但是密钥的分发存在很大的风险，如果通过网络等方式进行分发，很容易会出现密钥泄漏，从而导致信息泄漏。
+Symmetric encryption mechanism is where both parties use the same key for information encryption and decryption. It's convenient and highly efficient, but there's a great risk in key distribution. If distributed through networks or other means, it's easy for the key to be leaked, leading to information leakage.
 
-非对称加密机制主要指的是公私钥加密机制，每个人通过算法生成一对密钥，称为公钥和私钥，如果 A 想发送一个信息给 B，可以用 B 的公钥对文件进行加密，将加密后的信息发给 B，这个过程中，即使信息被截获或出现泄漏，也不会暴露源文件，所以可以用任何方式进行传播，当 B 收到加密文件后，用自己的私钥进行解密，从而获取文件内容。B 的私钥没有经过任何渠道进行传播，仅自己知道，所以具备极高的安全性。
+Asymmetric encryption mechanism mainly refers to the public-private key encryption mechanism. Each person generates a pair of keys through an algorithm, called the public key and the private key. If A wants to send a message to B, they can encrypt the file using B's public key and send the encrypted information to B. During this process, even if the information is intercepted or leaked, the source file will not be exposed, so it can be spread by any means. When B receives the encrypted file, they use their own private key for decryption to obtain the file content. B's private key has not been transmitted through any channel and is only known to themselves, so it has extremely high security.
 
-在现实应用中，对很大的文件进行非对称加密效率较低，所以一般采用一种组合机制：假设 A 想发送一个大文件 D 给 B，则先将文件 D 用一个密钥 K 进行对称加密，再用 B 的公钥对密钥 K 进行非对称加密。A 将加密后的密钥 K 和文件 D 发送给 B，期间即使被截获或泄漏，因为没有 B 的私钥，所以无法得到密钥 K，也就无法访问文件 D。B 收到加密后的文件和密钥后，则先用自己的私钥解密得到密钥 K，再用密钥 K 对文件 D 进行解密，从而获取文件内容。
+In practical applications, asymmetric encryption of very large files is inefficient, so a combination mechanism is generally adopted: Suppose A wants to send a large file D to B, they first symmetrically encrypt file D with a key K, then asymmetrically encrypt key K with B's public key. A sends the encrypted key K and file D to B. Even if intercepted or leaked during transmission, because B's private key is not available, the key K cannot be obtained, and thus file D cannot be accessed. After B receives the encrypted file and key, they first decrypt with their private key to obtain key K, then use key K to decrypt file D, thereby obtaining the file content.
 
-### 数字签名
+### Digital Signatures
 
-数字签名是非对称加密机制的另一种用法，上文讲到每个人拥有一对生成的公钥和私钥，在加密/解密应用中，是用公钥进行加密，用私钥进行解密，而数字签名机制刚好相反，假设一个文件持有者用自己的私钥对文件进行加密，其他人可以用他的公钥进行解密，如果得到结果则可以证明文件的归属权。
+Digital signatures are another use of asymmetric encryption mechanisms. As mentioned above, everyone has a pair of generated public and private keys. In encryption/decryption applications, the public key is used for encryption and the private key for decryption, while the digital signature mechanism is just the opposite. Suppose a file owner encrypts the file with their private key, others can decrypt it with their public key. If a result is obtained, it can prove the ownership of the file.
 
-数字签名机制最典型的应用就是比特币区块链网络中，用私钥证明自己对比特币的归属权，对交易进行签名，其他人则可以用公钥来验证交易是否合法，整个过程无需暴露自己的私钥，保障了资产的安全。
+The most typical application of the digital signature mechanism is in the Bitcoin blockchain network, where private keys are used to prove ownership of bitcoins and sign transactions, while others can use public keys to verify whether the transaction is legal. The entire process does not require exposing one's private key, ensuring the security of assets.
 
-## 区块链基本概念
+## Basic Concepts of Blockchain
 
-随着历史的发展，人们的记账方式从单式记账，发展到复式记账、数字记账，最后到分布式记账，因为传统的中心化数字记账则往往依赖于某个或某些组织的可信度，存在一些信任风险，而区块链技术本质上就是一种分布式账本技术，一群人共同维护着一个去中心化的数据库，通过共识机制来共同记账。区块链很容易追溯历史记录，而因为去中心化信任机制的存在，也几乎不可篡改（或者是篡改的成本远远大于收益）。
+As history has progressed, people's bookkeeping methods have evolved from single-entry bookkeeping to double-entry bookkeeping, digital bookkeeping, and finally to distributed bookkeeping. Traditional centralized digital bookkeeping often relies on the credibility of certain organizations, posing some trust risks. Blockchain technology, in essence, is a distributed ledger technology where a group of people jointly maintain a decentralized database and use consensus mechanisms to keep accounts together. Blockchain makes it easy to trace historical records, and due to the existence of decentralized trust mechanisms, it is almost tamper-proof (or the cost of tampering far exceeds the benefits).
 
-相比于传统的数据库，区块链只有增加和查询两种操作，所有的操作历史记录都会准确地保存在账本中且不可变，具备很高的透明度和安全性，当然，代价就是所有节点必须通过一些机制达成共识（因此效率较低，不适合实时性的操作），而且因为每个节点都要永久保存历史记录，会占据很大的存储空间。
+Compared to traditional databases, blockchain only has two operations: add and query. All historical records of operations are accurately preserved in the ledger and are immutable, providing high transparency and security. Of course, the trade-off is that all nodes must reach consensus through certain mechanisms (thus lower efficiency, unsuitable for real-time operations), and because each node must permanently store historical records, it occupies a large amount of storage space.
 
-### 应用场景
+### Application Scenarios
 
-> 那怎么判断一个公司/业务是否适合采用区块链作为解决方案呢？
+> So how do we determine whether a company/business is suitable for adopting blockchain as a solution?
 
-1. 是否需要数据库？
-2. 是否需要共享写入
-3. 是否需要多方达成信任？
-4. 是否能够脱离第三方机构运作？
-5. 是否能够脱离权限机制运作？
+1. Is a database needed?
+2. Is shared write access required?
+3. Is multi-party trust establishment needed?
+4. Can it operate without third-party institutions?
+5. Can it operate without permission mechanisms?
 
-区块链作为一个分布式数据库，主要做的还是信息存储的工作，只是通过其各类机制，在不需要第三方机构介入的前提下让有共同需求但并不互相信任的实体之间也能以相对较低的代价达成一致，从而满足需求，除此之外，系统还有加密认证、高透明度等特性，能够满足一些业务需求。而如果所涉及到的数据不能公开/数据量非常大/需要外部服务来存储数据，或者是业务规则经常发生变化，那区块链就并不适合作为其解决方案。
+Blockchain, as a distributed database, mainly does the work of information storage. Through its various mechanisms, it allows entities with common needs but not mutual trust to reach consensus at a relatively low cost without the intervention of third-party institutions, thereby meeting needs. In addition, the system also has features such as encrypted authentication and high transparency, which can meet some business needs. However, if the data involved cannot be made public, the data volume is very large, external services are needed to store data, or if business rules change frequently, then blockchain is not suitable as a solution.
 
-> 因此，在以上的标准下，有如下一些需求很适合区块链作为其解决方案：
+> Therefore, under the above criteria, the following needs are very suitable for blockchain as a solution:
 
-1. 需要建立一个共享的数据库，且有多方参与
-2. 参与业务的各方没有建立信任
-3. 现有业务信任一个或者多个信任机构
-4. 现有业务有加密认证的业务需求
-5. 数据需要集成到不同的数据库且业务数字化和一致性的需求迫切
-6. 对于系统参与者有统一的规则
-7. 多方决策是透明的
-8. 需要客观的、不可改变的记录
-9. 非实时性处理业务
+1. Need to establish a shared database with multiple parties involved
+2. Parties involved in the business have not established trust
+3. Existing business trusts one or more trust institutions
+4. Existing business has encrypted authentication needs
+5. Data needs to be integrated into different databases, and the need for business digitization and consistency is urgent
+6. There are unified rules for system participants
+7. Multi-party decision-making is transparent
+8. Objective, immutable records are needed
+9. Non-real-time business processing
 
-但其实在很多应用场景里，企业需要在去中心化和效率之间做一些权衡，且有时候很多复杂的业务对透明度、规则都有不同的需求，因此，基于复杂的商业化需求，也有“联盟链”这样的解决方案，能够更好地与现有的系统结合，以满足业务需求。
+But in fact, in many application scenarios, enterprises need to make some trade-offs between decentralization and efficiency. Sometimes many complex businesses have different requirements for transparency and rules. Therefore, based on complex commercial needs, there are also solutions like "consortium chains" that can better integrate with existing systems to meet business needs.
 
-## 区块链类型
+## Types of Blockchain
 
-区块链也有不同的类型，主要有私有链、公有链、联盟链三种。
+There are different types of blockchain, mainly private chains, public chains, and consortium chains.
 
-私有链主要是应用于某一个特定领域或者只是在某一个企业运行的区块链，主要是用于解决信任问题，如跨部门协作等场景，一般不需要外部机构来访问数据。
+Private chains are mainly applied to a specific field or only run within a certain enterprise, mainly used to solve trust issues, such as cross-departmental collaboration scenarios. Generally, external institutions do not need to access the data.
 
-公有链则是公开的交易，往往用于一些需要交易/数据公开的业务，如认证、溯源、金融等场景，比如比特币、以太坊和`EOS`等。
+Public chains are open transactions, often used in businesses that require transaction/data disclosure, such as authentication, traceability, finance, and other scenarios, like Bitcoin, Ethereum, and `EOS`.
 
-联盟链最大的特征是节点需要验证权限才能参与到区块链网络中，而认证一般都是与其现实角色所关联的，因此，联盟链也具有中心化的属性，但效率、拓展性和交易隐私则大大提升了，满足了企业级应用的需求，其中最广泛使用的就是`Hyperledger Fabric`了。值得一提的是，联盟链往往不需要代币来作为激励，而是将参与的各个节点作为记账节点，通过区块链机制实现跨部门之间的业务协同所带来的经济效益作为内部激励，是一种更健康、更符合企业应用的方式。
+The biggest feature of consortium chains is that nodes need to verify permissions before participating in the blockchain network, and authentication is generally associated with their real-world roles. Therefore, consortium chains also have centralized attributes, but efficiency, scalability, and transaction privacy are greatly improved, meeting the needs of enterprise-level applications. The most widely used among them is `Hyperledger Fabric`. It's worth mentioning that consortium chains often do not need tokens as incentives, but use the participating nodes as bookkeeping nodes, and use the economic benefits brought by cross-departmental business collaboration through blockchain mechanisms as internal incentives, which is a healthier way that is more in line with enterprise applications.
 
-长期来看的话，公有链和联盟链在技术上也会逐渐趋于融合，即使是同一个业务，可以将需要信任的数据放在共有链上，而一些行业数据和私有的数据则可以放在联盟链上，通过权限管理来保障交易隐私。
+In the long run, public chains and consortium chains will gradually converge in technology. Even for the same business, data that needs trust can be placed on public chains, while some industry data and private data can be placed on consortium chains, protecting transaction privacy through permission management.
 
-## 区块链基本框架
+## Basic Framework of Blockchain
 
-> 那一个区块链究竟由哪些部分组成呢？
+> So what parts does a blockchain consist of?
 
-1. 区块
-2. 区块链
-3. P2P 网络
-4. 共识机制
+1. Blocks
+2. Blockchain
+3. P2P network
+4. Consensus mechanism
 5. ...
 
-### 区块
+### Blocks
 
-区块链就是由一个个区块组成的生态系统，每一个区块中包含了前一个区块链的哈希值、时间戳、`Merkle Root`、`Nonce`以及区块数据几个部分，比特币的区块大小为 1 MB。可以访问这个 [Demo](https://andersbrownworth.com/blockchain/block) 来体验一下一个区块的生成过程。
+The blockchain is an ecosystem composed of blocks. Each block contains the hash value of the previous block, timestamp, `Merkle Root`, `Nonce`, and block data. The block size of Bitcoin is 1 MB. You can visit this [Demo](https://andersbrownworth.com/blockchain/block) to experience the process of generating a block.
 
-因为每个区块都包含前一个区块的哈希值，根据前文所述的哈希性质，哪怕是极其微小的改变哈希值也会截然不同，因此很容易检测某个区块是否被篡改；Nonce 值则主要是用于调整挖矿难度，可以把时间控制在 10 分钟左右，以保障安全性。
+Because each block contains the hash value of the previous block, according to the hash properties mentioned earlier, even extremely small changes will result in completely different hash values, making it easy to detect whether a block has been tampered with. The Nonce value is mainly used to adjust the mining difficulty, controlling the time to about 10 minutes to ensure security.
 
-### 区块链
+### Blockchain
 
-所有的区块串联起来就形成了区块链，是一个存储着网络中所有交易历史记录的账本，因为每一个区块都包含着上一个区块的哈希信息（比如比特币系统是将上一个区块的块头取两次哈希），因此如果有交易发生变化则会造成区块链断裂，有一个小 [Demo](https://andersbrownworth.com/blockchain/blockchain) 很好地演示了这一过程，大家可以体验一下！
+All blocks linked together form the blockchain, which is a ledger storing all historical transaction records in the network. Because each block contains the hash information of the previous block (for example, the Bitcoin system takes the block header of the previous block twice), if a transaction changes, it will cause the blockchain to break. There's a small [Demo](https://andersbrownworth.com/blockchain/blockchain) that demonstrates this process well, you can experience it!
 
-### P2P 网络
+### P2P Network
 
-P2P 网络是用于不同用户之间共享信息和资源的一种分布式网络，是一种分布式网络，网络中的每个人都能够得到一份信息备份，而且都有访问权限；而中心化网络是所有人都连接至一个（或一组）中心化网络；去中心化网络是有多个这样的中心网络，但没有一个单点网络可以拥有所有的信息。下图很好地解释了它们之间的区别：
+A P2P network is a type of distributed network used for sharing information and resources between different users. It's a distributed network where everyone can get a copy of the information and has access rights. In contrast, a centralized network is where everyone connects to one (or a group of) centralized network(s); a decentralized network has multiple such central networks, but no single-point network can have all the information. The following image explains well the differences between them:
 
 ![blockchain_network](https://image.pseudoyu.com/images/blockchain_network.png)
 
-### 共识机制
+### Consensus Mechanism
 
-区块链网络是由多个网络节点组成的，其中每个节点都存有一份信息备份，那它们是如何对交易达成一致的呢？也就是说，它们作为独立的节点，需要有一种机制来保障互相信任，这就是共识机制。
+The blockchain network is composed of multiple network nodes, each of which stores a copy of information. So how do they reach agreement on transactions? In other words, as independent nodes, they need a mechanism to ensure mutual trust, which is the consensus mechanism.
 
-常用的共识机制有`PoW(Proof of Work)`工作量证明，`PoS(Proof of Stake)`权益证明，`DPoS(Delegated Proof of Stake`委任权益证明，`DBFT(Delegated Byzantine Fault Tolerance)`等。
+Common consensus mechanisms include `PoW (Proof of Work)`, `PoS (Proof of Stake)`, `DPoS (Delegated Proof of Stake)`, `DBFT (Delegated Byzantine Fault Tolerance)`, etc.
 
-比特币/以太坊主要采用的是工作量证明机制，通过算力比拼来增加恶意节点的作恶成本。通过动态调整挖矿的难度来让一笔交易时间控制在 10 分钟左右（6 个确认），但随着比特币挖矿越来越火热，消耗资源越来越多，对环境造成破坏；有些矿池拥有大量资源，也会造成一些中心化的风险。
+Bitcoin/Ethereum mainly adopts the proof of work mechanism, increasing the cost of malicious nodes through computing power competition. By dynamically adjusting the difficulty of mining, the time for a transaction is controlled to about 10 minutes (6 confirmations), but as Bitcoin mining becomes more and more popular, consuming more and more resources, it causes damage to the environment. Some mining pools with large resources may also cause some centralization risks.
 
-权益证明机制则是通过权益（一般是代币）持有者进行投票来达成共识。这种机制不需要像工作量证明一样进行大量的算力比拼，但是也有一些风险，称为`Nothing at Stake`问题，很多权益持有者会在所有区块都投注并从中获利。为了解决这个问题，系统设置了一些规则，如对同时在多个链创建区块的用户/在错误链上创建区块的用户设置一些惩罚机制。目前以太坊正在向这种共识机制转变。
+The proof of stake mechanism reaches consensus through voting by stake (usually token) holders. This mechanism does not require a large amount of computing power competition like proof of work, but it also has some risks, called the `Nothing at Stake` problem, where many stake holders will bet on all blocks and profit from them. To solve this problem, the system sets some rules, such as setting some punishment mechanisms for users who create blocks on multiple chains simultaneously or create blocks on wrong chains. Ethereum is currently transitioning to this consensus mechanism.
 
-`EOS`则采用了委任权益证明，选出一些代表性的节点来进行投票，这种方式目的是优化社区投票的效率和结果，但带来了一些中心化的风险。
+`EOS` adopts delegated proof of stake, selecting some representative nodes for voting. This method aims to optimize the efficiency and results of community voting, but it brings some centralization risks.
 
-`DBFT`共识机制则是通过对节点分配不同的角色来达成共识，这样可以很大程度降低开销和避免分叉，但是也有核心角色作恶的风险。
+The `DBFT` consensus mechanism reaches consensus by assigning different roles to nodes, which can greatly reduce overhead and avoid forks, but there is also a risk of core roles acting maliciously.
 
-## 区块链安全与隐私
+## Blockchain Security and Privacy
 
-### 安全
+### Security
 
-区块链作为一个较新的技术，也存在很多安全隐患，如对数字货币交易所的攻击、智能合约漏洞、对共识协议的攻击、对网络流量（互联网 ISP）的攻击以及上传恶意数据等。比较著名的案例有 Mt.Gox 事件、以太坊 DAO 事件等，因此，对区块链的安全风险也是区块链的重要研究方向。
+As a relatively new technology, blockchain also has many security vulnerabilities, such as attacks on cryptocurrency exchanges, smart contract vulnerabilities, attacks on consensus protocols, attacks on network traffic (Internet ISP), and uploading malicious data. Famous cases include the Mt.Gox incident and the Ethereum DAO incident. Therefore, the security risks of blockchain are also an important research direction for blockchain.
 
-可以从协议、加密方案、应用、程序开发和系统等角度进行风险分析，提高区块链应用的安全性。例如在以太坊区块链中，可以对`Solidity`编程语言、`EVM`和区块链本身进行一些分析。
+Risk analysis can be conducted from the perspectives of protocols, encryption schemes, applications, program development, and systems to improve the security of blockchain applications. For example, in the Ethereum blockchain, analysis can be performed on the `Solidity` programming language, `EVM`, and the blockchain itself.
 
-如智能合约中的一种叫低成本攻击的方式，就是通过识别以太坊网络中较低`Gas`费用的操作，重复执行以破坏整个网络。
+For example, a type of attack called low-cost attack in smart contracts is to identify operations with relatively low `Gas` fees in the Ethereum network and repeatedly execute them to disrupt the entire network.
 
-对于安全问题，构建一个通用的代码检测器来检查恶意代码将会是一个更通用的解决方案。
+For security issues, building a general code detector to check for malicious code would be a more universal solution.
 
-### 隐私
+### Privacy
 
-在讲区块链概念的时候，提到了它很重要的一个特征，隐私性。也就是说，所有人都能看到链上的交易细节和历史记录，这一特性主要应用在食品、药物等供应链环节，但是对于一些金融场景，如个人账户余额、交易信息，则容易造成一些隐私风险。
+When discussing blockchain concepts, we mentioned one of its important features: privacy. That is, everyone can see the transaction details and historical records on the chain. This feature is mainly applied in supply chain links such as food and medicine, but for some financial scenarios, such as personal account balances and transaction information, it can easily cause some privacy risks.
 
-> 那有哪些技术能够应用于这些存在高价值、敏感信息的隐私保护呢？
+> So what technologies can be applied to protect privacy in these high-value, sensitive information scenarios?
 
-硬件层面，可以采用可信的执行环境，采用一些安全硬件，如`Intel SGX`，很大程度保障了隐私；网络可以采用多路径转发以避免从节点的 ip 地址推算出真实身份。
+At the hardware level, trusted execution environments can be adopted, using some secure hardware such as `Intel SGX`, which greatly ensures privacy; the network can adopt multi-path forwarding to avoid inferring real identities from node IP addresses.
 
-在技术层面，混币技术可以把很多交易进行一些混合，这样不容易找出对应的交易发送方和接收方；盲签技术可以保障第三方机构不能将参与交易的双方联系起来；环签用于保障交易签名的匿名性；零知识证明则可以应用于一方（证明者）向另一方（验证者）证明一个陈述是正确的，而无需透露除该陈述是正确的以外的人和信息；同态加密可以保护原数据，给定 E(x)和 E(y)，可以很容易计算出某些关于 x, y 的加密函数值（同态运算）；基于属性的加密（`Attribute-based Encryption, ABE`）则为各个节点添加一些属性/角色，实现权限控制，从而保护隐私。
+At the technical level, coin mixing technology can mix many transactions, making it difficult to find out the corresponding transaction sender and receiver; blind signature technology can ensure that third-party institutions cannot link the parties involved in the transaction; ring signatures are used to ensure the anonymity of transaction signatures; zero-knowledge proofs can be applied to one party (prover) proving to another party (verifier) that a statement is correct without revealing any information other than the fact that the statement is correct; homomorphic encryption can protect the original data, given E(x) and E(y), it's easy to calculate some encrypted function values about x and y (homomorphic operations); attribute-based encryption (ABE) adds some attributes/roles to each node, implementing permission control, thereby protecting privacy.
 
-值得注意的是，即使一笔交易生成多个 inputs 和 outputs，这些 inputs 和 outputs 的地址也可能被人关联；除此之外，地址账户和现实世界中的真实身份也可能产生关联。
+It's worth noting that even if a transaction generates multiple inputs and outputs, the addresses of these inputs and outputs may still be associated by people; in addition, address accounts and real-world identities may also be associated.
 
-## 总结
+## Conclusion
 
-以上就是对区块链基础知识的一些梳理，主要从概念和原理层面进行了一些学习，后续还会更新对比特币、以太坊、`Hyperledger Fabric`等典型应用的分析与思考，并对 IPFS、跨链、NFT 等热门技术进行一些探究，敬请期待！
+The above is a summary of the basic knowledge of blockchain, mainly focusing on concepts and principles. In the future, I will update analyses and thoughts on typical applications such as Bitcoin, Ethereum, `Hyperledger Fabric`, and explore hot technologies such as IPFS, cross-chain, NFT, etc. Stay tuned!
 
-## 参考资料
+## References
 
 > 1. [COMP7408 Distributed Ledger and Blockchain Technology](https://msccs.cs.hku.hk/public/courses/2020/COMP7408A/), *Professor S.M. Yiu, HKU*
 > 2. [Udacity Blockchain Developer Nanodegree](https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309), *Udacity*
-> 3. [区块链技术与应用](https://www.bilibili.com/video/BV1Vt411X7JF)，*肖臻，北京大学*
-> 4. [区块链技术进阶与实战](https://www.ituring.com.cn/book/2434)，*蔡亮 李启雷 梁秀波，浙江大学 | 趣链科技*
+> 3. [Blockchain Technology and Applications](https://www.bilibili.com/video/BV1Vt411X7JF), *Xiao Zhen, Peking University*
+> 4. [Advanced Blockchain Technology and Practice](https://www.ituring.com.cn/book/2434), *Cai Liang, Li Qilei, Liang Xiubo, Zhejiang University | Hyperchain*

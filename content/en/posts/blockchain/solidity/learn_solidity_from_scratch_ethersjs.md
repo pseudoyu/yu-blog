@@ -1,5 +1,5 @@
 ---
-title: "Solidity 智能合约开发 - 玩转 ethers.js"
+title: "Solidity Smart Contract Development - Mastering ethers.js"
 date: 2022-06-08T00:25:45+08:00
 draft: false
 tags: ["blockchain", "solidity", "ethereum", "web3", "smart contract", "javascript", "ethers.js"]
@@ -8,25 +8,25 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="《後來的我們 - 五月天》" >}}
 
-## 前言
+## Preface
 
-在之前的《[Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)》中，我们学习了 Solidity 的基本语法，并且了解了可以通过 [Brownie](https://github.com/eth-brownie/brownie) 与 [HardHat](https://github.com/NomicFoundation/hardhat) 等框架进行调试。而另一篇《[Solidity 智能合约开发 - 玩转 Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)》中我们也通过 Web3.py 直接与我们本地的 Ganache 节点进行交互了。
+In the previous article "[Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)", we learned the basic syntax of Solidity and understood that we can debug using frameworks like [Brownie](https://github.com/eth-brownie/brownie) and [HardHat](https://github.com/NomicFoundation/hardhat). In another article "[Solidity Smart Contract Development - Mastering Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)", we also interacted directly with our local Ganache node using Web3.py.
 
-原本因为之前比较熟悉 Python 的使用，所以想使用 Brownie 框架进行后续开发。然而经过了一番调研，业界还是使用 HardHat 框架居多，也有更多拓展，且我关注的 Solidity 教程也更新了 [Javascript 版本](https://www.youtube.com/watch?v=gyMwXuJrbJQ)，于是还是打算学习一下。
+Originally, because I was more familiar with Python, I planned to use the Brownie framework for subsequent development. However, after some research, I found that the industry predominantly uses the HardHat framework, which also has more extensions. Additionally, the Solidity tutorial I'm following has updated to a [Javascript version](https://www.youtube.com/watch?v=gyMwXuJrbJQ), so I decided to learn it.
 
-为了更好了解其原理，也为我们后续更好使用框架打好基础，我们这次通过 [ethers.js](https://github.com/ethers-io/ethers.js/) 来与我们部署在 [Alchemy](https://dashboard.alchemyapi.io) 平台上的 Rinkeby 测试网络进行交互。实现了基础的合约编译、部署至 Rinkeby 网络、与合约交互等功能。
+To better understand the principles and lay a good foundation for our subsequent use of the framework, this time we will use [ethers.js](https://github.com/ethers-io/ethers.js/) to interact with our Rinkeby test network deployed on the [Alchemy](https://dashboard.alchemyapi.io) platform. We will implement basic contract compilation, deployment to the Rinkeby network, and interaction with the contract.
 
-可以点击[这里](https://github.com/pseudoyu/learn-solidity/tree/master/ethers_simple_storage)访问本测试 Demo 代码仓库。
+You can click [here](https://github.com/pseudoyu/learn-solidity/tree/master/ethers_simple_storage) to access the code repository for this test demo.
 
 ## ethers.js
 
-ethers.js 是 Javascript 的一个开源库，可以与以太坊网络进行交互，其 GitHub 地址为 [ethers.io/ethers.js](https://github.com/ethers-io/ethers.js/)，可以访问其[官方文档](https://docs.ethers.io/)进行使用。
+ethers.js is an open-source library for Javascript that can interact with the Ethereum network. Its GitHub address is [ethers.io/ethers.js](https://github.com/ethers-io/ethers.js/), and you can visit its [official documentation](https://docs.ethers.io/) for usage.
 
-### 安装
+### Installation
 
-我们可以通过 yarn 安装 `ethers.js`，如下：
+We can install `ethers.js` using yarn, as follows:
 
 ```bash
 yarn add ethers
@@ -34,17 +34,17 @@ yarn add ethers
 
 ![yarn_add_ethers](https://image.pseudoyu.com/images/yarn_add_ethers.png)
 
-### 使用
+### Usage
 
-使用 `require` 导入库即可使用
+Import the library using `require` to use it
 
 ```javascript
 const ethers = require('ethers');
 ```
 
-## Solidity 合约编译
+## Solidity Contract Compilation
 
-### 合约源码
+### Contract Source Code
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -82,25 +82,25 @@ contract SimpleStorage {
 }
 ```
 
-这是一个简单的存储合约，通过一个 People 结构体对象来存储人名和他喜欢数字，通过一个数组来存储多个人的信息，并提供了添加、查找方法。
+This is a simple storage contract that uses a People struct object to store a person's name and their favorite number, uses an array to store information for multiple people, and provides methods for adding and searching.
 
-### 读取合约源文件
+### Reading the Contract Source File
 
-当我们通过 VSCode 或其他编辑器完成 Solidity 合约编写与语法检查后，需要编译合约为 abi 文件与 bytecode。
+After completing the Solidity contract writing and syntax checking through VSCode or other editors, we need to compile the contract into abi file and bytecode.
 
-我们可以通过 `yarn` 安装 `solc` 命令行工具进行编辑，并且可以选择对应版本，命令如下：
+We can install the `solc` command-line tool through `yarn` for editing, and we can choose the corresponding version. The command is as follows:
 
 ```bash
 yarn add solc@0.8.7-fixed
 ```
 
-安装完成后，，我们可以通过 `solcjs` 命令来进行编译，命令如下：
+After installation, we can use the `solcjs` command for compilation. The command is as follows:
 
 ```bash
 yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
 ```
 
-因为编译合约是一个高频操作，我们可以在 `package.json` 中配置 `compile` 脚本命令，如下：
+Since compiling contracts is a high-frequency operation, we can configure the `compile` script command in `package.json` as follows:
 
 ```json
 "scripts": {
@@ -108,15 +108,15 @@ yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleSt
 }
 ```
 
-之后仅需执行 `yarn compile` 即可生成合约编译文件。
+After that, you only need to execute `yarn compile` to generate the contract compilation files.
 
-### 获取编译结果
+### Obtaining Compilation Results
 
-编译完成后会生成 abi 和 bytecode 文件，分别以 `.bin` 和 `.abi` 为后缀。
+After compilation, abi and bytecode files will be generated, with `.bin` and `.abi` as suffixes respectively.
 
-#### 获取 bytecode 与 abi
+#### Obtaining bytecode and abi
 
-Solidity 合约的部署与交互需要 bytecode 与 abi 两个部分，我们可以通过通过以下代码将其写入对应变量供后续操作使用。
+The deployment and interaction of Solidity contracts require two parts: bytecode and abi. We can write them into corresponding variables for subsequent operations through the following code.
 
 ```javascript
 const fs = require('fs-extra');
@@ -125,53 +125,54 @@ const abi = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.abi", "utf-8");
 const binary = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.bin", "utf-8");
 ```
 
-## 创建 Rinkeby 测试网络环境（Alchemy）
+## Creating a Rinkeby Test Network Environment (Alchemy)
 
-智能合约的调试需要将合约部署到实际的链上，我们选择部署到 Alchemy 平台的 Rinkeby 测试网进行后续调试开发，
+Debugging smart contracts requires deploying the contract to an actual chain. We choose to deploy to the Rinkeby test network on the Alchemy platform for subsequent debugging and development.
 
-### Alchemy 平台
+### Alchemy Platform
 
-首先我们访问 [Alchemy 官网](https://dashboard.alchemyapi.io)，注册并登录，会看到其 Dashboard，会展示所有已创建的应用。
+First, we visit the [Alchemy official website](https://dashboard.alchemyapi.io), register and log in, and we will see its Dashboard, which displays all created applications.
 
 ![alchemy_dashboard](https://image.pseudoyu.com/images/alchemy_dashboard.png)
 
-安装完成后选择 Create App 即可快速创建一个 Rinkeby 测试网络节点。
+After installation, select Create App to quickly create a Rinkeby test network node.
 
 ![alchemy_create_app](https://image.pseudoyu.com/images/alchemy_create_app.png)
 
-创建完成后，点击 View Details，可以看到我们刚创建的 App 详细信息，点击右上角 View Key，可以查询我们的节点信息，我们需要记录下 HTTP URL，供后续连接使用。
+After creation, click View Details to see the detailed information of the App we just created. Click View Key in the upper right corner to query our node information. We need to record the HTTP URL for subsequent connection use.
 
 ![alchemy_app_detail](https://image.pseudoyu.com/images/alchemy_app_detail.png)
 
-## 创建 Rinkeby 测试账户（MetaMask）
+## Creating a Rinkeby Test Account (MetaMask)
 
 ### MetaMask
 
-完成了 Rinkeby 测试网络环境的创建，我们需要通过 MetaMask 创建账户，获取一些测试 Token，并且将账户私钥记录下来，以便后续使用。
+After creating the Rinkeby test network environment, we need to create an account through MetaMask, get some test tokens, and record the account's private key for later use.
 
 ![metamask_private_key](https://image.pseudoyu.com/images/metamask_private_key.png)
 
-### 获取测试 Token
+### Obtaining Test Tokens
 
-创建账户后，我们需要一些测试 Token 来进行后续开发调试，我们可以通过以下网址获取：
+After creating an account, we need some test tokens for subsequent development and debugging. We can obtain them through the following URLs:
 
 - https://faucets.chain.link
 - https://rinkebyfaucet.com/
 
-## 连接测试节点与钱包
+## Connecting to Test Node and Wallet
 
-### 连接节点
+### Connecting to Node
 
-`ethers.js` 提供了库可以方便地连接到我们的测试节点，其中 `process.env.ALCHEMY_RPC_URL` 为我们在 Alchemy 平台创建 App 的 HTTP URL：
+`ethers.js` provides a library that can easily connect to our test node, where `process.env.ALCHEMY_RPC_URL` is the HTTP URL of the App we created on the Alchemy platform:
 
 ```javascript
 const ethers = require('ethers');
 
 const provider = new ethers.providers.JsonRpcProvider(process.env.ALCHEMY_RPC_URL);
 ```
-### 连接钱包
 
-`ethers.js` 也提供了方法可以连接到我们的测试钱包，其中 `process.env.RINKEBY_PRIVATE_KEY` 为我们从 MetaMask 复制的私钥。
+### Connecting to Wallet
+
+`ethers.js` also provides a method to connect to our test wallet, where `process.env.RINKEBY_PRIVATE_KEY` is the private key we copied from MetaMask.
 
 ```javascript
 const ethers = require('ethers');
@@ -182,36 +183,36 @@ const wallet = new ethers.Wallet(
 );
 ```
 
-## Solidity 合约部署
+## Solidity Contract Deployment
 
-### 创建合约
+### Creating Contract
 
-我们可以通过 `ethers.js` 库创建合约。
-
-```javascript
-const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
-```
-
-### 部署合约
-
-下面我们介绍一下如何通过 `ethers.js` 库部署合约，其中 `SimpleStorage` 合约的 ABI 和 BIN 文件已经在上面的代码中读取过了。
-
-#### 创建合约
+We can create a contract through the `ethers.js` library.
 
 ```javascript
 const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
 ```
 
-#### 部署合约
+### Deploying Contract
+
+Below we will introduce how to deploy a contract through the `ethers.js` library, where the ABI and BIN files of the `SimpleStorage` contract have been read in the code above.
+
+#### Creating Contract
+
+```javascript
+const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
+```
+
+#### Deploying Contract
 
 ```javascript
 const contract = await contractFactory.deploy();
 await contract.deployTransaction.wait(1);
 ```
 
-### 与合约交互
+### Interacting with Contract
 
-我们也可以通过 `ethers.js` 来与合约进行交互。
+We can also interact with the contract through `ethers.js`.
 
 #### retrieve()
 
@@ -226,11 +227,11 @@ const transactionResponse = await contract.store("7")
 const transactionReceipt = await transactionResponse.wait(1);
 ```
 
-### 从 raw data 构造交易
+### Constructing Transaction from Raw Data
 
-除了直接调用部署合约方法等，我们也可以自己构造交易。
+In addition to directly calling methods to deploy contracts, we can also construct transactions ourselves.
 
-#### 构造交易
+#### Constructing Transaction
 
 ```javascript
 const nonce = await wallet.getTransactionCount();
@@ -245,28 +246,28 @@ const tx = {
 };
 ```
 
-#### 签名交易
+#### Signing Transaction
 
 ```javascript
 const signedTx = await wallet.signTransaction(tx);
 ```
 
-#### 发送交易
+#### Sending Transaction
 
 ```javascript
 const sentTxResponse = await wallet.sendTransaction(tx);
 await sentTxResponse.wait(1);
 ```
 
-## 总结
+## Conclusion
 
-以上就是我们通过 `ethers.js` 库与 Alchemy 的 Rinkeby 测试网络进行交互的步骤，在真正的生产项目开发中我们一般不会直接使用 `ethers.js` 这样的库，而是会使用 Brownie、HardHat 这样进一步封装的框架，但了解 `Web3.py` 或 `ethers.js` 等库的使用方法也非常重要。后续我还会对 HardHat 框架的使用作进一步讲解。
+The above are the steps for interacting with the Rinkeby test network of Alchemy through the `ethers.js` library. In actual production project development, we generally do not directly use libraries like `ethers.js`, but instead use further encapsulated frameworks like Brownie and HardHat. However, understanding how to use libraries like `Web3.py` or `ethers.js` is also very important. I will further explain the use of the HardHat framework in the future.
 
-## 参考资料
+## References
 
-> 1. [Solidity 智能合约开发 - 基础](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-> 2. [Solidity 智能合约开发 - 玩转 Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
-> 3. [Solidity, Blockchain, and Smart Contract - Javascript 版本](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
-> 4. [ethers.js 项目仓库](https://github.com/ethers-io/ethers.js/)
-> 5. [ethers.js 官方文档](https://docs.ethers.io/)
-> 6. [Alchemy 官网](https://dashboard.alchemyapi.io)
+> 1. [Solidity Smart Contract Development - Basics](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+> 2. [Solidity Smart Contract Development - Mastering Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
+> 3. [Solidity, Blockchain, and Smart Contract - Javascript Version](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
+> 4. [ethers.js Project Repository](https://github.com/ethers-io/ethers.js/)
+> 5. [ethers.js Official Documentation](https://docs.ethers.io/)
+> 6. [Alchemy Official Website](https://dashboard.alchemyapi.io)

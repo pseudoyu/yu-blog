@@ -1,5 +1,5 @@
 ---
-title: "26 岁的自白：推石头的人"
+title: "Confession at 26: The Stone-Pusher"
 date: 2023-06-06T19:42:26+08:00
 draft: false
 tags: ["review", "work", "life", "romance", "growth", "birthday", "age"]
@@ -8,58 +8,58 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 26 岁的自白：推石头的人
+## Confession at 26: The Stone-Pusher
 
-现在是 2023 年 6 月 6 日，我 26 岁了，其实随着年龄渐长，对于生日本身已经没有太多仪式感或是期待，只是依然像是个节点一样提醒着自己，一年又过去了。从去年开始决定每年生日和跨年都留下些文字，算是对过去这段时光的交代。
+It is now June 6, 2023, and I am 26 years old. As I grow older, I no longer feel much ceremony or anticipation for my birthday itself. Yet, it still serves as a milestone, reminding me that another year has passed. Since last year, I decided to leave some words on my birthday and New Year's Eve, as a way to account for the time that has elapsed.
 
-其实过去的一年里也陆续写了 40 篇周报，原以为已经习惯去分享自己的情绪，但下笔时依然有些恍惚，不知道从何说起。
+In fact, over the past year, I have written 40 weekly reports. I thought I had grown accustomed to sharing my emotions, but as I put pen to paper, I still feel a sense of bewilderment, unsure where to begin.
 
-2022 年后半段发生的事在「[2022 年末回顾 - 迷茫、低谷与改变](https://www.pseudoyu.com/en/2022/12/31/yearly_review_2022/)」这一篇总结中有很详细的叙述，今年经历的一些改变在断断续续的周报中也或多或少有所提及，不想赘述、抑或是怯于回忆，我在这生日之际只想谈谈生活本身。
+The events of the latter half of 2022 were detailed in my year-end review, "[2022 Year-End Review - Confusion, Low Points, and Change](https://www.pseudoyu.com/en/2022/12/31/yearly_review_2022/)". The changes I've experienced this year have been mentioned to varying degrees in my intermittent weekly reports. Not wishing to be redundant, or perhaps hesitant to reminisce, on this birthday, I only want to discuss life itself.
 
-就像我每周都会试图给周报定几个关键词一样，我总是想给过去自己走过的痕迹定一个主题，想了良久，决定命名为「推石头的人」，源于西西弗斯的故事，一个不断将巨石推到山顶，又不得不经受巨石滚落，再将石头推到山顶，努力、荒诞却又周而复始的故事。
+Just as I try to assign a few keywords to each weekly report, I always attempt to give a theme to the path I've traversed in the past. After much contemplation, I decided to name it "The Stone-Pusher", derived from the story of Sisyphus - a tale of ceaseless effort, absurdity, and repetition, where one continuously pushes a boulder to the mountaintop, only to watch it roll down again, and then push it back up once more.
 
-去年生日前经历了一场分手，当天收到生日祝福后才想起来原来生日已经到了，挣扎着起来回复了朋友们的祝福，回忆了一下自己究竟是一个月还是两个月没有踏出房门了，嚼了几片褪黑素又继续回到难眠之夜中。大概是由于太过可怜，白天的时候有朋友送了一束花和一个蛋糕，由于没什么胃口，赶在生日结束前的几分钟仪式感地尝了一口，很甜却无法下咽。
+Last year, I experienced a breakup just before my birthday. On the day itself, I only remembered it was my birthday after receiving well-wishes. I struggled to get up and respond to my friends' greetings, recalling whether it had been one or two months since I last stepped out of my room. I chewed a few melatonin tablets and returned to another sleepless night. Perhaps out of pity, a friend sent me a bouquet of flowers and a cake during the day. Due to lack of appetite, I ritualistically tasted a bite just minutes before my birthday ended. It was sweet but impossible to swallow.
 
-过去的一年里各个阶段都常常有人问“你走出来了么”，问题不难，我却其实一直不知道怎么回答。
+Throughout the past year, people often asked at various stages, "Have you moved on?" The question wasn't difficult, but I never really knew how to answer.
 
-大概是从 7 月回杭州散心、换发色、见朋友开始，自己算是决定继续生活了吧？闲置的时间都用来看各种课、学各种技术，无处安放的分享欲也倾泻到了博客文章和推特动态上，当时的我似乎觉得只要把自己的时间挤压到无暇回忆，就能够渐渐走出吧。几个月过去，当我自己都认为似乎也不是那么难以接受时，当我觉得似乎已经能够在新的生活轨迹上缓缓前行时，突然又因为想起一件过去相处的小事，小到我现在都不太能准确描述的事，一切都回到了原点。
+I suppose it was around July when I returned to Hangzhou to clear my mind, changed my hair color, and met friends, that I decided to continue living? I filled my idle time with various courses and learning new technologies, pouring my pent-up desire to share into blog posts and Twitter updates. At the time, I seemed to believe that if I compressed my time to leave no room for reminiscence, I could gradually move on. Months passed, and when I thought I had come to terms with everything, when I felt I could slowly progress on a new life trajectory, suddenly, a small memory of our past interaction - so small that I can't even accurately describe it now - brought everything back to square one.
 
-我这才发现，原来自己一直像是在做和西西弗斯一样的事，在努力地推着巨石，又不得不看着一切崩塌。过去的一年里很多事都如是。
+It was then that I realized I had been doing something akin to Sisyphus all along, pushing the boulder with all my might, only to watch everything crumble. Many things in the past year have been like this.
 
-我在杭州的租屋里有一盆绿植，不了解但应该是很好养的品种吧，入住的时候送的，摆在很显眼的地方，因为是远程办公，我每天都能看见却似乎也不会刻意注意，直到前两天有朋友从北京来杭州玩，邀请来家里撸猫，想着稍稍收拾一下，才看到有很多叶子已经枯了，泥土也已经干得不行，正要浇水时还不小心打翻了，散落一地，联想起了之前写的一句随想。
+In my rented apartment in Hangzhou, there's a potted plant. I don't know much about it, but it should be an easy-to-care-for variety. It came with the apartment and sits in a conspicuous spot. Working remotely, I see it every day, yet I never really paid attention to it. It wasn't until a few days ago when a friend visited from Beijing to play with my cat that I thought to tidy up a bit. I noticed many leaves had withered, and the soil had dried out completely. As I was about to water it, I accidentally knocked it over, scattering soil everywhere. This reminded me of a random thought I had written before.
 
 ![random_thoughts_20220530](https://image.pseudoyu.com/images/random_thoughts_20220530.png)
 
-突然间情绪到了谷底，烦躁，压抑，无法平复。“这一年失去的东西太多太多，任何一点细小的死亡与崩坏，都会变得不可承受”，年初在鹿哥的视频里看到这句话的时候，不由得哽咽了，这大概就是最恰如其分的形容了，我也才发现自己其实一直在“接受失去”这件事上没什么长进。
+Suddenly, my emotions hit rock bottom. Irritation, depression, beyond consolation. "I've lost too much this year. Any small death or breakdown becomes unbearable." When I saw this sentence in Brother Lu's video at the beginning of the year, I couldn't help but choke up. Perhaps this is the most apt description. I realized I hadn't made much progress in "accepting loss" at all.
 
-然而生活也还要继续，要说这一年自己真正学会的，大概就只有“真实地去面对生活本身”了吧。
+Yet, life must go on. If there's one thing I've truly learned this year, it's probably just "to face life itself honestly."
 
 ![nienie_painting](https://image.pseudoyu.com/images/nienie_painting.jpg)
 
-我养了一只可爱的猫，叫捏捏。
+I adopted a lovely cat named Nini.
 
-独自养猫对我来说一直是需要勇气去做的一件事，毕竟我觉得我自己对于生活品质的要求可能还不如猫，但依然去选择了对一个新的生活伙伴负责。虽然在她生病时担心到吃不下饭，带去绝育时也连签手术单的手都在发抖，经历过一些烦恼的时刻，但她陪伴着我，常常会抚慰我的心绪，也教会我如何去爱。
+Raising a cat alone has always been something that required courage for me. After all, I felt that my own standards for quality of life might not even match a cat's. But I still chose to take responsibility for a new life companion. Although I worried to the point of losing my appetite when she fell ill, and my hand trembled when signing the consent form for her spaying surgery, experiencing some troublesome moments, she has accompanied me, often soothing my emotions, and teaching me how to love.
 
-捏捏给予了我继续生活的勇气。
+Nini gave me the courage to continue living.
 
 ![yu_new_desk_setup](https://image.pseudoyu.com/images/yu_new_desk_setup.jpg)
 
-去年在北京的这大半年工作时光里，有对我很好的朋友，有一些相熟的同事，有意气相投的 leader，给了我不错的自由度，然而自我的各个方面没有得到如预期的成长，对方向也日渐迷茫，却也始终忙碌到连生活都无暇顾及。随着这样的情绪积累越来越多，我决定离开。
+During my work in Beijing for most of last year, I had friends who treated me well, some familiar colleagues, and like-minded leaders who gave me considerable freedom. However, I didn't grow in various aspects as expected, and I became increasingly confused about my direction. I was constantly busy to the point of neglecting my life. As these emotions accumulated, I decided to leave.
 
-回到杭州后的生活和工作平静、简单却又不乏乐趣，在租屋中和捏捏相依为命，各自沉浸在自己的世界里；远程办公的模式有了更多自由的时间去参加很多好玩的活动，去香港听五月天的演唱会，去西安跟许久未见的舍友喝酒畅聊；不错的技术氛围让我可以不断探索新的技术栈，也会久违地为一个需求或是技术问题通宵死磕。
+Life and work after returning to Hangzhou have been calm, simple, yet not without joy. I live with Nini in my rented apartment, each of us immersed in our own world. The remote work mode has given me more free time to participate in many interesting activities, like going to Hong Kong for Mayday's concert, or drinking and chatting with long-unseen roommates in Xi'an. The good technical atmosphere allows me to constantly explore new tech stacks, and I would occasionally stay up all night tackling a requirement or technical problem, just like old times.
 
-然而，大概是由于距去年那段至暗时刻恰好一年过去了，这两个月又逐渐发现自己陷入到了过去循环往复的状态。睡眠被剥夺，四五点都已经是常态；社交封闭，常常一两周连门都不出；莫名焦虑，急于求成地想要改变，却又不知如何下手，频频受挫。
+However, perhaps because it's been exactly a year since that darkest period last year, I've gradually found myself falling back into the same repetitive state over the past two months. Sleep deprivation has become the norm, with 4 or 5 am wake-ups being common. Social isolation, often not leaving the house for one or two weeks. Inexplicable anxiety, eager to change but not knowing how to start, frequently frustrated.
 
-过去的一年就是很难啊，自己就还是常常脆弱、敏感地依然沉溺在感情结束的情绪中啊，自己就是还是没能学会如何重新捡起生活啊，年初立的很多 Flag 还是没什么进展啊，明明时间变多了看的书和电影却变少了啊，又是天天熬夜到身心俱疲却也无法改变啊，依然没能成为理想中的自己，依然没能找到生活的意义啊。
+The past year has indeed been difficult. I still often find myself fragile and sensitive, still dwelling on the emotions of a ended relationship. I still haven't learned how to pick up life again. Many of the goals I set at the beginning of the year haven't made much progress. Despite having more time, I've read fewer books and watched fewer movies. I still stay up late every day until I'm physically and mentally exhausted, yet unable to change. I still haven't become the ideal version of myself, still haven't found the meaning of life.
 
-但这就是生活本身呀，它公平、残酷地面对每一个人。
+But this is life itself. It faces everyone fairly and cruelly.
 
-我已经渐渐不会再去埋怨，而是真诚而热烈地拥抱它。
+I have gradually stopped complaining and instead embrace it sincerely and passionately.
 
-巨石总会滚落，而明天一早睁眼，我们依旧要推着巨石往上。
+The boulder will always roll down, but when we open our eyes early tomorrow morning, we still have to push it up again.
 
 ![birthday_cake_26](https://image.pseudoyu.com/images/birthday_cake_26.jpg)
 
-祝 26 岁的自己，快乐。
+Happy 26th birthday to myself.

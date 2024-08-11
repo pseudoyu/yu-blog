@@ -1,5 +1,5 @@
 ---
-title: "周报 #16 - 纯粹性学习"
+title: "Weekly Review #16 - Pure Learning"
 date: 2022-10-27T00:28:15+08:00
 draft: false
 tags: ["review", "life", "work", "study", "course", "book", "learn"]
@@ -8,64 +8,64 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-10-19` 到 `2022-10-27` 这周生活的记录与思考。
+This piece is a record and reflection of my life from October 19 to October 27, 2022.
 
-这一周工作项目很忙，连续好几天都在加班，不过总算是完成了自己部分的需求。但是在闲隙时间里，倒是把几个之前一直想学的语言的入门教程看了，很有意思。然后公司安排作了一次技术分享，讲智能合约这一块，还是好好做了 ppt，不得不说 Apple 的 Keynote 真好用，神奇移动和一些内置的动画效果都很顺滑。
+This week has been busy with work projects, with several consecutive days of overtime, but I've finally completed my part of the requirements. However, during the spare moments, I managed to go through introductory tutorials for several languages I've long wanted to learn, which was quite interesting. Additionally, the company arranged for me to give a technical presentation on smart contracts. I put effort into making a good PowerPoint presentation, and I must say, Apple's Keynote is truly excellent - the magic move and some built-in animation effects are incredibly smooth.
 
-又折腾了好几个小网站和系统，自己的 starter page 也越来越丰富啦。其他就是因为一些个人的规划问题，打算把之前的一些项目和文章做一下双语版本了，后面可能除了周报外其他的技术文章也会先写英文再翻译一版中文（或者反过来？），感觉压力很大，不过还是要坚持下去。
+I've also tinkered with several small websites and systems, making my starter page increasingly rich. Apart from that, due to some personal planning issues, I've decided to create bilingual versions of some of my previous projects and articles. In the future, I might write technical articles in English first and then translate them into Chinese (or vice versa?), except for weekly reviews. It feels like a lot of pressure, but I have to persist.
 
-## 纯粹性学习
+## Pure Learning
 
-这周沉迷学了好多新技术，把一直有些好奇的 Lua 基础语法看了，感觉能用来写点脚本和小游戏；C++ 进行了一些入门学习，这个主要想深入一些语言的机制，这次学反而更加能体会到一些语言设计的精巧；Rust 也把基础语法又巩固了一下，算是第二次冲击入门了；因为要写一些 DApp，React 和 TypeScript 也在进行中。
+This week, I've been engrossed in learning many new technologies. I've looked into the basic syntax of Lua, which I've been curious about for a while - it seems useful for writing scripts and small games. I've also done some introductory learning of C++, mainly to delve deeper into language mechanisms; this time, learning it has made me appreciate the ingenuity of language design even more. I've also reinforced my understanding of Rust's basic syntax, which could be considered my second attempt at mastering it. Because I need to write some DApps, I'm also in the process of learning React and TypeScript.
 
-继续在读那几本很难啃的书，像是《深入理解计算机系统（CSAPP）》和新出的《计算机体系结构：量化研究方法（第六版）》进展都有点缓慢，但是慢慢来吧。
+I continue to read those challenging books, like "Computer Systems: A Programmer's Perspective (CSAPP)" and the newly released "Computer Architecture: A Quantitative Approach (6th Edition)". Progress is a bit slow, but I'll take it step by step.
 
-其实学这些倒也没有那么强的目的性，大部分在工作中也不会马上用到（这也是时常觉得工作有时候有些无趣的主要原因），可能没有很多实际应用的话也会常常忘记，但是本身学习过程就很有意思。慢慢还挺喜欢 Crash Course 这种形式，几个小时揭开了一些神秘名词的面纱，或是掌握一些奇奇怪怪的技能，能感受到一种很纯粹的学习乐趣。
+In fact, learning these doesn't have such a strong purpose; most of them won't be used immediately at work (which is often the main reason why I sometimes find work a bit uninteresting). Without much practical application, I might often forget them, but the learning process itself is very interesting. I'm gradually becoming fond of the Crash Course format - spending a few hours unveiling the mystery behind some technical terms or mastering some peculiar skills, feeling a sense of pure learning joy.
 
-这个好像是一直以来的习惯，大学时候就鼓捣着学习好几种新的外语（当然，学了一阵子后就放弃了，德语作为二外算是入门了吧，但不知道什么时候才能捡起来，有点后悔没好好学），以及把 Adobe 全家桶都学一遍（好多确实有点鸡肋，但有用的确实学得差不多了）。比起一项技能或是一类知识能够给自己带来的实际益处，似乎探索带来的动力更为重要。
+This seems to have been a long-standing habit. In university, I dabbled in learning several new foreign languages (of course, I gave up after a while; German as a second foreign language was somewhat mastered, but I don't know when I'll pick it up again - I regret not learning it properly), and learned the entire Adobe suite (many were a bit superfluous, but I did learn the useful ones quite well). Rather than the practical benefits a skill or a type of knowledge can bring, the motivation from exploration seems more important.
 
-目前也很想能做出一些有意思的东西，希望能一直从自己做的事中找到乐趣吧。
+Currently, I also want to create some interesting things. I hope I can always find joy in what I do.
 
-## 其他
+## Miscellaneous
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record my inputs and outputs, as well as other things I find interesting.
 
-### Twitter 统计系统
+### Twitter Statistics System
 
-跟着推友[象牙山刘能](https://twitter.com/disksing)的『[twiyou](https://github.com/disksing/twiyou)』项目搭建了自己的统计系统，很有意思。
+Following the "twiyou" project by Twitter friend [Ivory Mountain Liu Neng](https://twitter.com/disksing), I set up my own statistics system, which is quite interesting.
 
 ![yu_twitter_monitor](https://image.pseudoyu.com/images/yu_twitter_monitor.png)
 
-### 博客系统
+### Blog System
 
-之前虽然也经常魔改一些主题设置，还给我用的 hugo 主题提过 pr，但其实一直没深入研究过 hugo 的模板系统，这几天好好研究了一下，打算写一些 shortcode 来供使用，还是挺强大的。
+Although I've often modified some theme settings before and even submitted PRs for the Hugo theme I use, I've never really delved into Hugo's template system. I've spent the past few days studying it thoroughly and plan to write some shortcodes for use. It's quite powerful.
 
-文章的部分闲置了好久，其实都在 Logseq 中有记录，但是一直没细致整理，后面有些不一定很成文的可能就放在 Notes 模块了，持续更新下。
+The article section has been idle for a long time. I've actually been keeping records in Logseq, but I haven't organized them meticulously. In the future, some content that may not be fully formed might be placed in the Notes module, which will be continuously updated.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **乌合之众**，正在重温。
-- **Programming in Lua, Fourth Edition**，学了一点 Lua，感觉是个很有意思的语言。
-- **计算机体系结构：量化研究方法（第 6 版）**
+- **The Crowd: A Study of the Popular Mind**, currently revisiting.
+- **Programming in Lua, Fourth Edition**, learned a bit of Lua, feels like an interesting language.
+- **Computer Architecture: A Quantitative Approach (6th Edition)**
 
-#### 电影
+#### Movies
 
-- **溺水小刀**，画面还不错，有几个经典场景常有在混剪中看到，但是剧情和节奏还是挺平庸的。全程也就是在欣赏音乐了，歌单添加了好几首，很适合做视频的 bgm。
-- **罗马**，节奏和画面都无比缓慢的一部电影，像是一部个人的回忆录，在当时的环境下又有一些微妙的隐喻，也正如在时代下无从适从的当下的我们。
-- **瞬息全宇宙**，前几个月火到不行，今晚一边补周报一边看了，很失望，有点不明所以，情绪转折和反转都很莫名，有种想表达的太多，也立意太高，反而撑不起内核的感觉。
+- **Au Revoir L'été**, the visuals are quite good, with several classic scenes often seen in mixes, but the plot and pacing are quite mediocre. I spent most of the time just enjoying the music, adding several songs to my playlist - they're great for video background music.
+- **Roma**, a movie with incredibly slow rhythm and visuals, like a personal memoir, with some subtle metaphors in the context of the time, much like us who are at a loss in the current era.
+- **Everything Everywhere All at Once**, it was incredibly popular a few months ago. I watched it tonight while working on my weekly review, and I was disappointed. It's a bit bewildering, with inexplicable emotional transitions and plot twists. It feels like it's trying to express too much and aims too high, but fails to support its core.
 
-#### 剧集
+#### TV Series
 
-- **串流先锋**，故事总是相似，虽然在心目中还远比不上《社交网络》，但作为一个互联网创业故事很难得地没有仅仅专注于程序员，很新颖。崇拜 The Coder 中的科技宅们但是最喜欢的还是 Martin，毫无拘束，商业和现实世界不仅仅只是二进制，需要有人来为其理想主义而背负代价。另外，The Lawyer 中的许多转场画面很惊艳。
-- **龙之家族**，我本身也不算权游的爱好者吧，当时看到第五还是第六季听说烂尾了就没追了，书倒是看了大半。前几个月比较热门所以追了，前几集几度想要弃坑，零碎着看完了，感觉这么宏大的世界观可能还是书更适合铺垫，剧集总有一些断续感。
+- **The Playlist**, stories are often similar, although it doesn't compare to "The Social Network" in my mind, but as an internet startup story, it's remarkably not solely focused on programmers, which is refreshing. I admire the tech geeks in "The Coder", but my favorite is still Martin - unrestrained, understanding that the business and real world are not just binary, and someone needs to bear the cost for its idealism. Also, many transition scenes in "The Lawyer" are stunning.
+- **House of the Dragon**, I'm not really a Game of Thrones enthusiast. I stopped watching around the fifth or sixth season when I heard it had a bad ending, but I did read most of the books. I followed this because it was quite popular a few months ago. I almost gave up several times in the first few episodes, but I watched it sporadically to the end. I feel that such a grand worldview might be better suited for books to lay the groundwork, as the TV series always feels a bit disjointed.
 
-#### 动漫
+#### Anime
 
-- **朝花夕誓**，也是被朋友推荐，略带些奇幻的不老一族的设定。宏大的世界观下却只是从时间流逝与缘起缘尽的人情讲述整个故事，有一种不一样的视角。
-- **万神殿**，同事说这部动漫有并行计算，资源池、死锁、互斥锁，于是好奇来看看。前几集很有意思，临近结尾有些抽象，看得很累，可能也是因为在午休闲隙看的没能细细琢磨，但总体还是很值得一看的。
+- **Maquia: When the Promised Flower Blooms**, also recommended by a friend, with a slightly fantastical setting of an ageless clan. Under the grand worldview, it tells the entire story from the perspective of the passage of time and the beginning and end of human relationships, offering a different viewpoint.
+- **Pantheon**, a colleague mentioned that this anime involves parallel computing, resource pools, deadlocks, and mutual exclusion locks, so I was curious to watch it. The first few episodes were very interesting, but it became somewhat abstract towards the end, making it tiring to watch. Perhaps it's because I watched it during lunch breaks and couldn't ponder it carefully, but overall it's still worth watching.

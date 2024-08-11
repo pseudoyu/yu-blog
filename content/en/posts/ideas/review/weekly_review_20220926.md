@@ -1,5 +1,5 @@
 ---
-title: "周报 #13 - 忙里偷闲的乐趣"
+title: "Weekly Review #13 - The Joy of Stealing Time from a Busy Schedule"
 date: 2022-09-26T23:19:25+08:00
 draft: false
 tags: ["review", "life", "work", "movie", "book", "time", "time management", "joy"]
@@ -8,80 +8,80 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-09-19` 到 `2022-09-26` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `2022-09-19` to `2022-09-26`.
 
-这一周异常忙碌，有好几天都很晚才到家，但是神奇的是倒是只有在这样的时候才似乎更有动力做更多，看完了一本书，补了好多电影和剧集，还完成了不少大大小小的事，其余倒是没有太多事发生，以至于周报都有些拖沓。
+This week was unusually busy, with several days where I returned home quite late. Yet, strangely, it's during such times that I seem to find more motivation to do more. I finished a book, caught up on many movies and TV series, and accomplished numerous tasks, both big and small. Besides that, not much else happened, to the point where even writing this weekly review felt a bit dragging.
 
-## 忙里偷闲的乐趣
+## The Joy of Stealing Time from a Busy Schedule
 
-今天刷推时偶尔看到[象牙山刘能](https://twitter.com/disksing)和[云风](https://twitter.com/cloudwu)的一段对话，觉得很有意思：
+Today, while scrolling through Twitter, I stumbled upon an interesting conversation between [Ivory Mountain Liu Neng](https://twitter.com/disksing) and [Cloud Wind](https://twitter.com/cloudwu):
 
-> **象牙山刘能**：平时上班干活的时候总想着做 side project，真到了周末只想打游戏看剧...
+> **Ivory Mountain Liu Neng**: During work hours, I always think about doing side projects, but when the weekend comes, all I want to do is play games and watch shows...
 >
-> **云风**：不如上班永远做 side project ，周末工作。这样就不会打游戏看剧了，因为周末再不做，就真的什么工作都没做了。这样做还有一个好处：如果你的工作和同事是相互依赖的，那么这样没有并行，所以永远不会产生冲突。你还可以充分考虑产品多变的需求后才开始动手。
+> **Cloud Wind**: Why not always work on side projects during work hours, and do actual work on weekends? This way, you won't play games or watch shows, because if you don't work on the weekend, you'll have done no work at all. There's another benefit to this approach: if your work is interdependent with colleagues, there won't be any conflicts since there's no parallelism. You can also fully consider the ever-changing product requirements before starting.
 >
-> **网友**：这个想法的侧面是，工作两天就能做完
+> **Netizen**: The implication of this idea is that the work can be done in two days.
 >
-> **云风**：一个长期工程的实际有效工作量远小于 2/5 吧。如果实在做不完，可以适当延长周末工作时间。另外，每周有长达五天时间去自习估算这个工作量，一般不会错了。所以，这个方法实质上指：多想少做。
+> **Cloud Wind**: The actual effective workload of a long-term project is far less than 2/5, I'd say. If it really can't be finished, you can extend your weekend work hours accordingly. Also, having five days a week to estimate this workload usually means you won't get it wrong. So, in essence, this method suggests: think more, do less.
 >
-> **象牙山刘能**：多想少做这点确实是的，经常拖得越久做起来就越顺利。不过只在周末做正经工作这个难度有点高，我还以为你在讲段子哈哈。而且应该很多人都不适合，比如说我如果工作都推到周末估计会因为压力太大直接摆烂😳
+> **Ivory Mountain Liu Neng**: The point about thinking more and doing less is indeed true. Often, the longer you delay, the smoother it goes when you finally start. However, doing serious work only on weekends seems quite challenging. I thought you were just joking, haha. And it probably wouldn't suit many people. For instance, if I pushed all my work to the weekends, I'd probably end up slacking off due to the overwhelming pressure. 😳
 >
-> **云风**：一半是段子 :) 不过我这些年不少关键工作的确是周末/法定假日做的。
+> **Cloud Wind**: It's half a joke :) But in recent years, I've indeed done a lot of key work on weekends/public holidays.
 
-仔细回想，自己似乎总是有这样的倾向，大二备考专四和软考时，尽管复习时间已经十分紧张了，却好像拿这段时间来学了很多无关（但也不至于无用）的东西，能够感受到挤压出来的时间尤其珍贵，做什么事都有额外的乐趣。
+Upon reflection, I seem to have always had this tendency. In my sophomore year, when preparing for the TEM-4 and the software qualification exam, despite the already tight revision schedule, I somehow found time to learn many unrelated (but not entirely useless) things. The time squeezed out felt particularly precious, and everything I did carried an extra sense of joy.
 
-在忙到爆炸争分夺秒时，常常会有这样的念头，“原来我这短短的一周能够完成那么多事，那等我考完/假期/闲下来，有了大把能够支配的时间，那一定能学完/做完 xxx”。但其实当那个节点真正来到时，反而开始“摆烂”了。
+When I'm incredibly busy and fighting for every minute, I often have this thought: "I can accomplish so much in this short week, so when I'm done with exams/on holiday/have free time, I'll surely be able to learn/finish xxx." But when that moment actually arrives, I end up "slacking off" instead.
 
-仔细想想自己的大部分额外的技能或是学习的东西都是“不务正业”时完成的，甚至在很久后的现在都还受益良多，而真正那些正经任务却经常是积累到 deadline 的最后时刻完成的，似乎也有不错的结果，这不禁让我困惑时间与效率之间的相关性以及心态对自己做一件事动力的影响。
+Thinking carefully, most of my extra skills or learned things were accomplished while "neglecting my duties." Even now, long after, I still benefit greatly from them. Yet, those official tasks are often completed at the last minute before the deadline, seemingly with good results. This makes me ponder the correlation between time and efficiency, and how mindset affects one's motivation to do something.
 
-每个人对于任务安排与时间管理的模式各不相同，我可能是个效率控，但绝对不是一个对于时间安排极度细致的人。某种程度上我享受于一种并不有序却又能恰好完成所有事的一种随意感，这让我觉得自己不是在被任务清单上一个个条目所奴役，而是在支配着自己的时间。作为这种模式产生的副作用，我常常会有不得不“力挽狂澜”的时候，久而久之倒是心态也变得更稳了，或者说对于自己解决问题的能力有了一些衡量标准与累积的信心。
+Everyone has different patterns for task arrangement and time management. I might be an efficiency freak, but I'm definitely not someone who's extremely meticulous about time arrangements. To some extent, I enjoy a sense of randomness that somehow manages to complete everything, rather than feeling enslaved by a task list. As a side effect of this mode, I often find myself having to "turn the tide" at the last moment. Over time, my mentality has become more stable, or rather, I've accumulated some standards and confidence in my problem-solving abilities.
 
-另外，惯性与乐趣也在其中扮演了重要角色。
+Additionally, inertia and enjoyment play important roles in this process.
 
-这在五六月我被疫情封锁在家中，接近 50 天未出门的那一段经历中表现得尤其明显。那段时间因为自己的精神状态也并不好，一心投入了工作中，在很多会议或是任务项的间隙，却一直在学很多额外的部分，同时也重新开始写博客记录，似乎自己要在极其有限的时间里消耗完全部精力，而现在依然从那一段时间的很多积累、决定和培养的习惯中获益。而到了七八月项目结束略空闲的时期，尽管还是有在按照计划做一些事，却很难找到当时的沉浸感。
+This was particularly evident during the period from May to June when I was locked down at home due to the pandemic, unable to go out for nearly 50 days. During that time, because my mental state wasn't great, I threw myself into work. In the intervals between many meetings or tasks, I was constantly learning many extra things, and also started writing blogs to record again. It seemed as if I wanted to exhaust all my energy in extremely limited time. Even now, I still benefit from many of the accumulations, decisions, and habits cultivated during that period. But in the slightly idle period of July and August after the project ended, although I was still doing some things according to plan, it was hard to find the same sense of immersion as before.
 
-后来发现这取决于如何看待这些事，在工作忙碌时的学习或是放松是一种额外的状态出口，能够从繁重而重复的日常中脱离，当然也更容易感受到乐趣所在，而且这时并不需要太多状态调整或是筹备的前期步骤，依靠工作状态的惯性也更容易切换。而到了真正可以支配的自由时间时，我们却不得不将其看待为任务项，需要为其安排出时间并将自己从休息或是娱乐的状态中切换回来，成本更高，阻力也更多。
+Later, I realized it depends on how you view these things. Learning or relaxing during busy work times is an extra state outlet, allowing escape from the heavy and repetitive daily routine, making it easier to feel the joy in it. Moreover, it doesn't require much state adjustment or preparation steps at this time, and it's easier to switch relying on the inertia of the work state. However, when it comes to truly disposable free time, we have to treat it as a task item, needing to arrange time for it and switch ourselves back from a state of rest or entertainment, which costs more and encounters more resistance.
 
-所以之后在工作日回家的可能并不那么完整的时间里，也会尽量安排一些 side project 或是学习的部分，而周末则希望更完整用来外出或是书籍、电影、剧集或是游戏这样的输入活动，更好将自己的状态作一些切分似乎也是不错的方式，会尝试探索一下。
+Therefore, in the possibly incomplete time after returning home on workdays, I will try to arrange some side projects or learning parts. Weekends, on the other hand, I hope to use more completely for outings or input activities like books, movies, TV series, or games. It seems that better segmenting my state might be a good approach, and I will try to explore it.
 
-## 其他
+## Miscellaneous
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my inputs and outputs, as well as other things I find interesting.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **法治的细节**，之前看过一些罗翔老师的视频，也读过他的一本《圆圈正义》，我觉得与其说“清醒”，我更觉得罗老师只是保持了对于一切的“敬畏”与“谦卑”，在此之上，尽管觉得自己永远做不到，无法画出一个完美的圆，但始终在追寻。受益很多。读经典的这一部分读得很吃力，重看了几遍还是没办法消化，“自由、平等与博爱”那么大的主题却能那么娓娓道来，果然还是需要更多积累吧。
-- **送你一颗子弹**，正在看，太喜欢刘瑜的讲话风格了。
+- **The Details of the Rule of Law**, I had watched some videos of Professor Luo Xiang before and read his book "Circle of Justice". Rather than saying he's "clear-headed", I think Professor Luo just maintains a sense of "awe" and "humility" towards everything. On top of that, although he feels he can never achieve it, cannot draw a perfect circle, he's always in pursuit. I've benefited a lot. The part about reading classics was very difficult, I reread it several times but still couldn't digest it. Such big themes as "freedom, equality, and fraternity" can be narrated so eloquently, indeed more accumulation is needed.
+- **I'll Give You a Bullet**, currently reading, I really like Liu Yu's speaking style.
 
-#### 播客
+#### Podcasts
 
-- **Fork It - #22 - PoW vs PoS**，随着 “The Merge”的发生，这个话题又变得热门起来，一期很好的概念梳理探究，值得反复听和记笔记。
-- **Fork It - #23 - PoS 是谎言么？**，前后花了三天的通勤才完整听完，有几个概念解释不断回退反复听，还是发现了很多理解上的漏洞，打算看看 BTC Study 补补了。
-- **科技乱炖：你被羊了个羊骗了么？**，最近挺现象级的一个游戏，但自己又没什么兴趣，通过主播们的这期了解一下，很短，但作为科普话题也还算有意思。
+- **Fork It - #22 - PoW vs PoS**, With the occurrence of "The Merge", this topic has become popular again. It's a very good episode for concept clarification and exploration, worth listening to repeatedly and taking notes.
+- **Fork It - #23 - Is PoS a Lie?**, It took three days of commuting to listen to it completely. I repeatedly went back to listen to several concept explanations and still found many loopholes in my understanding. I plan to look at BTC Study to supplement.
+- **Tech Hodgepodge: Have You Been Fooled by 'Sheep a Sheep'?**, A quite phenomenal game recently, but I'm not very interested. I learned about it through this episode from the hosts. It's very short, but quite interesting as a popular science topic.
 
-#### 电影
+#### Movies
 
-- **春天不是读书天**，刚开始看还觉得男主有些太跳了，后面慢慢发现这才是不设限的生活方式，太快乐了。和《早餐俱乐部》连着看，感觉内心的叛逆都被唤醒了。
-- **鹬**，最近加班加到有点心累，想起了一些一直躺在列表里的动画短片，莫名好治愈。
-- **达拉斯买家俱乐部**，片子里对于绝望与窒息感的刻画太细了，耳鸣的音效和逼仄的画面，代入感极强。看到了一个 cowboy 的生活态度，好像厌倦一切却真真切切地热爱着人生，似乎漠不关心他人却又愿意付诸真心，太酷了。另外，虽然没什么爱情戏，但后半段和女主的几次眼神和神态交流也真的很够回味许久的，好配。
-- **花样年华**，一次次重复的走过巷子与擦肩的镜头描写，点到为止的情欲和欲言又止的情愫，原来爱是真的能从眉眼间滋生和蔓延的。能感受到其魅却又不至于艳俗，拿捏得刚好，可能这也是香港和那个时代特有的气质了。另外，真的很喜欢这部的英文片名，In the mood for love，太美了。
-- **爱乐之城**，说来有意思，爱乐之城组曲的现场音乐会都去了两次，电影却才第一次真正看完。遥远的 16 年，刚上映的那个情人节订了电影票却因故错过，后来也一直没补上。最近听朋友提到，就分了两个夜晚看完了，也才真正感受到那曲《City Of Stars》的韵味，一曲便走完了想象中的一生。
-- **卡萨布兰卡**，看《爱乐之城》的时候女主提到小时候看了这部电影反复模仿，也在之前自己的列表里所以就翻出来看了下。不得不说那个年代的片子还是经典，不需要太多拖沓的剧情，对话就已经足够展现大多数主题了，最后机场的那场三个人的对话，关于革命、民族与爱情，寥寥几句就把各自性格和对应的选择呈现得很具象，特有的魅力了。
-- **敦刻尔克**，没有什么宏大的战争场面，只是海滩上战争的狼藉、海上义无反顾的小船和天空中战斗机的周旋几个场景不断切换，形成了一种异样的美感。最后燃烧的飞机和驶在国土上的火车的对比，隐于发言稿之下战争的代价让人心痛。
-- **Nope 不**，大概分三次才看完，叙事确实有些乱，看了一半还是有些不明所以，可能缺少渲染，剧情推动上如果是那个导演可能还合理一点（但是很轻描淡写），只是那对兄妹做这些事的动机实在不足（可能是什么奇妙的家族骄傲），以至于到了最后也没能很理解。
+- **Spring Fever**, At first, I felt the male lead was a bit too jumpy, but later I slowly realized that this is a lifestyle without limits, so joyful. Watching it back-to-back with "The Breakfast Club", I felt my inner rebellion was awakened.
+- **Piper**, Recently, I've been working overtime to the point of mental exhaustion. I remembered some animated short films that had been lying in my list for a long time. Somehow very healing.
+- **Dallas Buyers Club**, The film's depiction of despair and suffocation is too detailed. The sound effect of tinnitus and the cramped frame create a strong sense of immersion. I saw a cowboy's attitude towards life, seeming to be tired of everything yet truly loving life, appearing indifferent to others yet willing to devote true feelings, so cool. Also, although there's not much romance, the eye contact and expressions exchanged with the female lead in the latter half are really worth savoring for a long time, such a good match.
+- **In the Mood for Love**, The repeated shots of walking through the alley and brushing past each other, the restrained depiction of desire and unspoken feelings, it turns out that love can truly grow and spread from the eyes and brows. You can feel its charm without it becoming vulgar, the grasp is just right, perhaps this is also the unique temperament of Hong Kong and that era. Also, I really like the English title of this film, "In the mood for love", it's so beautiful.
+- **La La Land**, Interestingly, I've been to the live concert of the La La Land suite twice, but this was the first time I've really watched the movie in full. Back in the distant 2016, I booked movie tickets for Valentine's Day when it first came out but missed it due to circumstances, and never made it up afterwards. Recently, a friend mentioned it, so I watched it over two nights, and only then did I truly feel the charm of the song "City Of Stars", one song that walked through an imagined lifetime.
+- **Casablanca**, When watching "La La Land", the female lead mentioned watching this movie repeatedly as a child and imitating it, and it was also on my list before, so I dug it out to watch. I have to say that films from that era are indeed classic, not needing too much drawn-out plot, the dialogue is enough to present most themes. The final scene at the airport with the conversation between the three people, about revolution, nationality, and love, in just a few words, vividly presents each character's personality and corresponding choices, a unique charm.
+- **Dunkirk**, There are no grand war scenes, just the constant switching between the devastation of war on the beach, the unwavering small boats at sea, and the dogfights in the sky, creating a strange sense of beauty. The contrast between the burning plane and the train running on the homeland at the end, the cost of war hidden beneath the speech, is heartbreaking.
+- **Nope**, It took me about three times to finish watching it. The narrative is indeed a bit messy. Even halfway through, I was still somewhat confused. Perhaps it lacks build-up, and if it were that director, the plot progression might make more sense (but it's very understated). It's just that the motivation for the sibling pair to do these things is really insufficient (maybe it's some kind of strange family pride), to the extent that even at the end, I still couldn't quite understand.
 
-#### 剧集
+#### TV Series
 
-- **人生切割术**，前段时间风评不错的剧，整体风格节奏很喜欢，尤其是片头，太惊艳了。故事设定上蛮新的，对一种扭曲的“Work Life Balance”科技的反叛，但可能是因为第一季的戛然而止，总感觉有些动机不足，期待后续发展了。
-- **真相捕捉**，同类型里的最经典还是《疑犯追踪》，但英剧特有的紧凑节奏感也很适合这样的叙事方式，感觉第一季可能都是几年前看的了，衔接剧情上也没什么问题，看了一半左右大概就能猜到结局，但真正最后反转的大型 show 上演时还是燃起来了，只能说不愧是 BBC 剧里的 BBC，很强。
+- **Severance**, A series with good reviews recently. I really like the overall style and pace, especially the opening, it's so stunning. The story setting is quite new, a rebellion against a distorted "Work-Life Balance" technology, but maybe because of the abrupt end of the first season, I always feel there's some lack of motivation. Looking forward to future developments.
+- **Capture**, Among similar types, the most classic is still "Person of Interest", but the unique compact rhythm of British dramas is also very suitable for this narrative style. I feel like I might have watched the first season several years ago, but there's no problem with connecting the plot. About halfway through, I could roughly guess the ending, but when the final twist of the large-scale show unfolded, it still got me fired up. I can only say, as expected of the BBC among BBC dramas, very strong.
 
-#### 动漫
+#### Anime
 
-- **红辣椒**，补一下今敏的作品，原本主要是想看看分镜和转场，发现真的藏了好多隐喻和想象力的部分，也可以理解之后那么多的致敬今敏的一些由来了。
-- **夏日重现**，追番中，要结局了，潮也太好了。
+- **Paprika**, Catching up on Satoshi Kon's works. Originally, I mainly wanted to look at the storyboards and transitions, but I found that it really hid many metaphors and imaginative parts. I can also understand the origin of so many tributes to Kon afterwards.
+- **Summer Time Rendering**, Currently following the series, it's about to end. Ushio is too good.

@@ -1,5 +1,5 @@
 ---
-title: "周报 #04 - 休假、亲情与城市的归属感"
+title: "Weekly Review #04 - Vacation, Family Bonds and Sense of Belonging in Cities"
 date: 2022-07-24T23:31:27+08:00
 draft: false
 tags: ["review", "life", "home", "city", "relationship", "belonging", "vacation"]
@@ -8,95 +8,94 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here, After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
 ![one_way_street_books](https://image.pseudoyu.com/images/one_way_street_books.jpg)
 
-本篇是对 `2022-07-11` 到 `2022-07-24` 这两周生活的记录与思考。至于延迟的理由 —— **我休假了！！！**
+This piece is a record and reflection of my life from `July 11, 2022` to `July 24, 2022`. As for the reason for the delay - **I was on vacation!!!**
 
-## 休假
+## Vacation
 
-算上实习工作已经一年有余了，但因为项目一直在持续进行中，除了春节几乎没有完整的假期，也攒了不少调休。恰逢第二个项目圆满收尾，我向 leader 申请了休假，7 个工作日 + 2 个周末，有一种久违的放暑假的感觉。
+Including my internship, I've been working for over a year now, but because projects have been ongoing, I've had hardly any complete holidays except for the Spring Festival, and I've accumulated quite a few compensatory days off. Coinciding with the successful completion of the second project, I applied to my leader for leave - 7 working days + 2 weekends, giving me a long-lost feeling of summer vacation.
 
-### 我与家人
+### My Family and I
 
-虽然疫情时而有反复，最后还是决定回杭州，回家。感觉自 20 年中离家之后，每次回来总是匆匆的，上一次还是国庆了，大约也就待了 3 天，除去亲戚之间的聚会，真正陪伴在家人身边的时间折下来大概也就凑不满完整的一天，只够将自己的近况和想法简单聊聊，似乎就踏上了归途。这次大概也是因为这大半年自己身上发生了不少事，有些疲倦了，只想好好地待在家里休息调整下，同时想多陪陪家人（主要是带我妹妹出去玩）。
+Although the pandemic occasionally flares up, I ultimately decided to return to Hangzhou, to return home. Since leaving home in mid-2020, every visit back has felt hurried. The last time was during the National Day holiday, and I only stayed for about 3 days. Excluding gatherings with relatives, the time actually spent with family probably doesn't even add up to a full day, just enough to briefly discuss my recent situation and thoughts before embarking on the return journey. This time, perhaps because quite a lot has happened to me in the past six months, I felt somewhat tired and just wanted to rest and adjust at home, while also wanting to spend more time with my family (mainly taking my sister out to play).
 
-其实自己没有那么显著地意识到自己的长大，但在家庭聚餐的饭桌上似乎已经成为带头向各个长辈敬酒的主力，小辈们出去聚会玩耍时也已经是自己在安排了，就连印象里一直都很小的妹妹过了暑假也要步入初中学堂了。就好像从某个时间起，时间就在加速流逝了，在匆忙的学业和工作中并没有什么感知，而只有当自己回到家体会慢下来的时光或是偶尔想起深藏在记忆里的零星小事时，才会感慨两句。
+I haven't really noticed my own growth that significantly, but at family dinner tables, I seem to have become the main force in leading toasts to various elders. When the younger generation gathers to play, it's now me making the arrangements. Even my sister, who always seemed so little in my memory, will be entering junior high school after this summer vacation. It's as if from some point on, time began to flow by more rapidly. In the midst of busy studies and work, there wasn't much awareness of this, and it's only when I return home to experience slowed-down time or occasionally recall bits and pieces deeply hidden in memory that I feel a twinge of sentiment.
 
-### 我与妹妹
+### My Sister and I
 
-我有一个小我 13 岁的妹妹，每每提及都会让同学朋友羡慕。这个年龄差不至于会有什么争吵冲突，而随着自己长大也能多照顾一些。高中时因为住校和备战高考，也算不上有很多陪伴，而大学之后更是四处奔波，大概只有寒暑假会稍完整一些。而工作后更是聚少离多，只有每天微信群里的闲谈和偶尔的电话，不知道她对我这个哥哥的角色如何评价，希望能合格吧。
+I have a sister who is 13 years younger than me, which often makes my classmates and friends envious. This age difference isn't so great as to cause any arguments or conflicts, and as I've grown up, I've been able to take care of her more. During high school, because of living at school and preparing for the college entrance exam, I couldn't really be there for her much, and after college, I was even more scattered about, only having somewhat complete time together during winter and summer breaks. After starting work, we've spent even less time together, with only daily casual chats in WeChat groups and occasional phone calls. I don't know how she evaluates my role as a brother; I hope I'm doing an adequate job.
 
-所以这次回家带妹妹去拍了一些照、逛了步行街、做了手工、去了海洋馆以及一起去单向空间书店看书。有很多事似乎很稀松平常，但大概因为之前自己也还是太宅了而缺席，所以都还是挺新奇的体验，每次出游或是玩耍结束后手牵着手回家时能从中感受到一种静谧的美好。
+So this time when I came home, I took my sister to take some photos, stroll along the pedestrian street, do some handicrafts, visit the aquarium, and go to the One Way Street Bookstore to read together. Many of these things seem quite ordinary, but perhaps because I was too much of a homebody before and missed out, they were all quite novel experiences. Every time we finished an outing or playtime and walked home hand in hand, I could feel a kind of serene beauty in it.
 
-这次还带了相机回来，又琢磨了下新买的大疆 RS3 稳定器（真的很好用！！！），拍了很多照片和视频，也算是为她接近尾声的童年留下了一些记忆碎片。
+This time I also brought my camera back, and tinkered with the newly bought DJI RS3 stabilizer (it's really good to use!!!), taking many photos and videos, which also serves to leave some memory fragments for her childhood that's drawing to a close.
 
-### 我与老师
+### My Teacher and I
 
-初中毕业虽然也已经近十年了，但每次寒暑假或是这样休假的时候都会约初中班主任春哥出来吃饭、聊天，只是以往都有倪和占一起，而如今都已经四散在海外，之后的时间恐怕也比较难聚齐。大概是因为见面得很频繁，这么多年过去的竟也没感觉彼此有太多变化，也都像是朋友一样从学业、工作聊到感情、想法，常常不知不觉就四五个小时，也常常感慨竟然相识已经 13 年之久。
+Although it's been nearly ten years since graduating from junior high school, every winter and summer vacation or during breaks like this, I would meet up with my junior high homeroom teacher, Brother Chun, for meals and chats. However, in the past, Ni and Zhan would always be there too, but now they're all scattered overseas, and it might be quite difficult to gather together in the future. Perhaps because we meet quite frequently, even after so many years, it doesn't feel like there have been many changes between us. We talk like friends about everything from studies and work to relationships and thoughts, often losing track of time for four or five hours, and often marveling that we've known each other for 13 years now.
 
-## 城市的归属感
+## Sense of Belonging in Cities
 
 ![dayuecheng](https://image.pseudoyu.com/images/dayuecheng.jpg)
 
-说来有趣，因为高中毕业后前往武汉读了大学，后续又在上海、厦门等城市进行过为期不短的实习，没多久就赴香港读研，结束后又很快去北京实习工作了，也算是待了不少城市，但不论就环境还是对城市中人的感情来说，都很难承认自己属于哪里。
+It's interesting to note that after graduating from high school, I went to Wuhan for university, and subsequently did internships of considerable duration in cities like Shanghai and Xiamen. Not long after, I went to Hong Kong for graduate studies, and soon after finishing, I went to Beijing for an internship and work. I've lived in quite a few cities, but in terms of both environment and emotional connection to the people in these cities, it's hard for me to claim that I belong to any particular place.
 
-待得最长的杭州因为大学时期的缺席，有联系的初高中同学已经少之又少，最亲近的几个朋友也都纷纷离开杭州，大多在海外，这次回来后发现竟然连可以出来吃个饭喝点东西的人都一时难以想到，只好作罢；毕业后因为自己当时的学生创业还回去过几次武汉，毕业后尚有联系的也就几个导师、舍友和原本经常一起玩的四人组，然而也都分布在各地，只有出差才能见上一两面，而后续因为疫情爆发，也有两年多没有再回去；香港这一年则充满了紧迫感，除了感情外自己似乎也没有结识太多人，相处时间短暂，毕业后也渐渐没了联系；反倒是在北京因为本来就有几个好友，也因为工作项目与同事和一些工作伙伴结下了不错的友谊。
+Hangzhou, where I've lived the longest, lacks my presence during the university years, and I have very few connections left with junior and senior high school classmates. Most of my closest friends have also left Hangzhou, mostly overseas. When I came back this time, I found that I couldn't even think of anyone to go out for a meal or drinks with, so I had to give up on that idea. After graduation, I returned to Wuhan a few times due to my student entrepreneurship at the time. After graduation, I only kept in touch with a few mentors, roommates, and the original group of four that I often played with, but they're all scattered in various places now, only able to meet once or twice when on business trips. Subsequently, due to the outbreak of the pandemic, I haven't been back for more than two years. The year in Hong Kong was full of a sense of urgency, and apart from romantic relationships, I didn't seem to have met many people, and the time spent together was brief, gradually losing touch after graduation. Ironically, in Beijing, because I originally had a few good friends, and also formed some good friendships with colleagues and work partners due to work projects.
 
-我一直比较宅，对城市气候或是风貌其实感知并不明显，对环境的适应力也还算不错，所以从来没有把城市作为自己考虑各种事情的重要因素，但这次回去后的很多想法也有所变化了。
+I've always been quite a homebody, and I don't really have a strong perception of a city's climate or features. I also have pretty good adaptability to environments, so I've never considered the city as an important factor in my various decisions. However, after this trip back, many of my thoughts have changed.
 
 ![xinfeng_food](https://image.pseudoyu.com/images/xinfeng_food.jpg)
 
-只身一人在北京时虽然不至于会感觉有多苦，但总感觉一草一木都少了一些牵挂，似乎这些都与自己无关。而回到杭州哪怕只是河边走走，也能感觉到一些亲切；也会去自己常去的店看看，或是坐上 30 分钟的公交去吃心心念了很久的新丰小吃，抑或是在单向空间的书店里坐上几个小时重温以前在书店一坐一下午的惬意时光。
+When I was alone in Beijing, although it wasn't particularly miserable, I always felt that every blade of grass and every tree lacked some kind of attachment, as if all these had nothing to do with me. But when I returned to Hangzhou, even just walking by the river, I could feel some familiarity. I would also visit the shops I used to frequent, or take a 30-minute bus ride to eat at Xinfeng Restaurant that I had been craving for a long time, or sit for several hours in the One Way Street Bookstore, reliving the leisurely times of spending entire afternoons in bookstores in the past.
 
-这可能就是一个城市所给人带来的温度与归属感吧，年纪越大对这些也更为在意。
+This might be the warmth and sense of belonging that a city brings to people. As we grow older, we tend to care more about these things.
 
+## Learning, Input, and Output
 
-## 学习、输入与输出
+This section will record some interesting things I've encountered and the progress of my work and studies.
 
-这个部分会记录一下自己觉得有意思东西以及工作学习的一些进展。
+### Technical Learning
 
-### 技术学习
+The first week was mainly spent on wrapping up some project work and preparing for new projects. There wasn't much development work to do, but I bought some technical books, planning to delve into them properly after the vacation.
 
-第一周主要是在进行项目的一些收尾工作以及新项目的筹备，没有太多需要开发的部分，不过买了一些技术的书，准备休假回来好好沉淀一下。
+The technical books are mainly "**Writing a Compiler in Go**", "**Writing an Interpreter in Go**", "**The Road to Go Language Proficiency**", and a book I've been planning to read for a long time but never got around to, "**Refactoring: Improving the Design of Existing Code**". I feel that reading these books after having some project experience will be more profound.
 
-技术类的主要是《**用 Go 语言自制编译器**》、《**用 Go 语言自制解释器**》、《**Go 语言精进之路**》这几本新书和一个自己计划很久但一直没读的《**重构：改善既有代码的设计**》，有了一些项目经验之后再读这些书感觉会更加深刻。
+For non-technical books, I bought a set related to thinking, "**The Pyramid Principle**", for cultivating some thinking methods. I'll make some notes on all of these later.
 
-非技术的则买了一套思维相关的《**金字塔原理**》，作为一些思维方式的培养，后续都会做一些笔记。
+Two days before the vacation, I participated in the technical sharing I mentioned before, mainly talking about some of my experiences and insights in learning blockchain. The overall feeling was good, and I'll rearrange the lecture notes into a blog post later. I originally wanted to organize it right after the talk, but the vacation was about to start. Although I brought my laptop, I basically didn't work or study, just purely relaxed.
 
-休假前两天参加了之前所说的技术分享，主要讲了自己区块链学习的一些经历和经验，整体感觉还可以，后续也会将讲稿重新编排成博文发布。本来讲完就想整理了，但是马上休假了，虽然带了电脑，但基本没有工作或是学习，纯粹的放松了。
+### Input
 
-### 输入
+#### Books
 
-#### 书籍
+In terms of books, I'm continuing to read "The Stolen Bicycle". I should be able to finish it this week. Then I also plan to read several books that are more information-oriented:
 
-书籍方面，继续在看『房思琪的初恋乐园』，应该这周能看完。然后也同时打算看几本偏向于信息的书：
+- **Working in Public**, which talks about open-source software
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, although I've heard it's mostly a compilation of reports and information, I'm very interested in Apple as a company but have always been unfamiliar with Tim, perhaps because Steve Jobs' halo is too strong, so I want to learn more about him
 
-- **Working in Public**，讲开源软件相关的
-- **蒂姆库克传**，虽然听说大多是一些报道和信息汇总，不过对苹果这家公司很感兴趣但是却一直对 Tim 很陌生，大概乔布斯的光环太重，所以也想了解一下
+Apart from these, I saw a book at One Way Street Bookstore that I had read several years ago, "Stoner". I flipped through it and suddenly felt like revisiting it, feeling that I might gain new insights in terms of self-discovery.
 
-除了这些外，在单向空间看到一本自己好几年前看过的《斯通纳》，翻了一下，突然很想重温一下，感觉在自我寻找这一块会有新的感触。
+#### TV Series
 
-#### 剧集
+1. **Normal People**, I had watched more than half of it before, but for some reason put it aside. Normal People tells the story of a male and female protagonist from the same town and some stories about their surroundings. I don't know if it's because the male lead is an English major or has the same fragile and sensitive qualities, but I feel like I've seen a lot of myself in him
+2. **Extraordinary Attorney Woo**, a Korean drama with a legal theme. I mainly watched it because I found the female lead's character setting quite cute from a brief introduction
+3. **The Bear**, a story about a chef returning to run a family restaurant. It's not long, with a very good pace. I watched it on the high-speed train on the way back
 
-1. **Normal People**，普通人，之前看了一半多，后来莫名搁置了，Normal People，讲述了来自同一个小镇男女主及他们周边的一些故事，不知道是不是因为男主是英语专业或者是有同样的脆弱敏感的特质，感觉看到了很多自己的影子
-2. **非常律师禹英禑**，一个律政题材的韩剧，主要是看了一点简介觉得女主人设比较可爱所以看了下
-3. **The Bear**，熊家餐厅，讲一个大厨回来经验家庭餐厅的故事，不长，节奏很不错，回程的高铁上看的
+#### Movies
 
-#### 电影
+1. **Newness**, which offers some reflections on emotions and social interactions in today's society, mainly talking about hook-up culture. However, I felt the expression and twists were strange, not recommended
+2. **The Gray Man**, an action movie that's quite popular recently. It's said to be Netflix's highest-budget film. Watching it gave me a bit of a John Wick feel
 
-1. **新奇**，对现在社会的感情、社交相关进行了一些思考，主要讲约炮文化的，但是感觉表达和转折都很奇怪，不推荐
-2. **灰影人**，动作片，最近挺火的，据说是奈飞投入最高的电影，看下来有点 john Wick 的感觉
+#### Anime
 
-#### 动漫
+1. **Demon Slayer**, I really liked the first season, but hadn't followed up for a while. This time I caught up with the Mugen Train Arc and the Entertainment District Arc, really enjoyed them
+2. **Weathering with You**, I've wanted to watch it for a long time. I've seen many edited and remade versions, but never the original. Finally watched it, very Makoto Shinkai style
+3. **Summer Time Rendering**, still following it, the plot is getting more and more intense and unpredictable, very pleasantly surprised
 
-1. **鬼灭之刃**，第一季很喜欢，后来一直没追了，这次把无限列车篇和游郭篇都补了，很喜欢
-2. **天气之子**，之前一直想看，剪辑和翻拍都看了好多版本了，正片一直没看，补上了，很新海诚
-3. **夏日重现**，还在追，剧情越来越紧凑和想象不到后续发展，很惊喜了
+## Others
 
-## 其他
-
-最后发色选择了灰绿色，漂了两次染了一次，自己感觉还挺不错的，虽然略有点点浮夸，但是很动漫，大概自己迟到的叛逆期终于来了，后面也可以多试试其他风格了。
+In the end, I chose a gray-green color for my hair. It took two bleaching sessions and one dyeing session. I think it looks quite good, although it's a bit flamboyant, but very anime-like. Perhaps my delayed rebellious phase has finally arrived, and I can try more styles in the future.

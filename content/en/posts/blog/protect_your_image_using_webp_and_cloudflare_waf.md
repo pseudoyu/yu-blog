@@ -1,5 +1,5 @@
 ---
-title: "使用 WebP Cloud 与 Cloudflare WAF 为你的图床添加隐私和版权保护"
+title: "Adding Privacy and Copyright Protection to Your Image Hosting with WebP Cloud and Cloudflare WAF"
 date: 2024-07-02T06:12:47+08:00
 draft: false
 tags: ["image-hosting", "cloudflare", "waf", "webp cloud", "serverless", "blog"]
@@ -8,125 +8,125 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-在「[从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)」一文中，我用 Cloudflare R2 搭建了一个免费的图床系统，并通过 [WebP Cloud](https://webp.se/) 进行图片优化。
+In the article "Building Your Free Image Hosting System from Scratch (Cloudflare R2 + WebP Cloud + PicGo)", I constructed a free image hosting system using Cloudflare R2 and optimized images through [WebP Cloud](https://webp.se/).
 
-在使用 WebP Cloud 的过程中，我发现它还提供了自定义 Proxy User Agent、水印等功能，于是萌生了一个想法，是不是可以通过 WebP Cloud 对我的图床源站链接进行保护，使 WebP Cloud 的代理链接成为访问我所有图片的唯一入口，并统一添加我的专属版权水印。
+While using WebP Cloud, I discovered it offered features like custom Proxy User Agent and watermarking. This sparked an idea: could I use WebP Cloud to protect the source links of my image hosting, making WebP Cloud's proxy links the sole entry point for accessing all my images, while also uniformly adding my exclusive copyright watermark?
 
-本文是对这一实践的记录，也算是图床搭建番外篇了。
+This article documents this practice, serving as a supplementary chapter to the image hosting setup.
 
-## 需求分析
+## Requirement Analysis
 
 ![webp_proxy_info](https://image.pseudoyu.com/images/webp_proxy_info.png)
 
-我目前的图床方案是将图片都托管在 Cloudflare R2 上，并且通过 WebP Cloud 这一强大的图片代理工具进行访问优化，但其实使用代理链接 `image.pseudoyu.com` 与源站链接 `images.pseudoyu.com` 都可以访问我的图片，只是前者被优化过，后者则是我保存的原图。
+My current image hosting solution involves hosting images on Cloudflare R2 and accessing them through WebP Cloud, a powerful image proxy tool for optimization. However, both the proxy link `image.pseudoyu.com` and the source link `images.pseudoyu.com` can access my images, with the former being optimized and the latter being the original image I saved.
 
-### 隐私保护
+### Privacy Protection
 
-事实上我们通过手机、数码相机等设备拍摄的照片都会携带 EXIF(EXchangeable Image File Format) 信息，通常会包含拍摄设备、时间和地点等敏感信息，我们可以通过一些技术方式手动去除这些元数据，但操作十分繁琐且容易遗漏。
+In fact, photos taken with our phones, digital cameras, and other devices carry EXIF (EXchangeable Image File Format) information, which usually includes sensitive data such as the shooting device, time, and location. We can manually remove this metadata through some technical means, but the process is cumbersome and prone to oversight.
 
 ![webp_exif_remove](https://image.pseudoyu.com/images/webp_exif_remove.png)
 
-我查阅了一下 WebP Cloud 的文档，发现它果然提供自动擦除 EXIF 信息的功能，无须额外配置操作，但其实访客依然可以可以通过 Cloudflare R2 暴露出的源站信息访问到原图，为了避免这一点，我需要限制用户只能通过 WebP Cloud 代理链接进行请求，访问 Cloudflare R2 源站链接时获取不到任何有用信息。
+Upon consulting WebP Cloud's documentation, I found that it indeed provides automatic EXIF information erasure without additional configuration. However, visitors can still access the original image through the source link exposed by Cloudflare R2. To prevent this, I need to restrict users to only request through WebP Cloud proxy links, ensuring they cannot obtain any useful information when accessing the Cloudflare R2 source links.
 
-### 版权保护
+### Copyright Protection
 
 ![randy_pic_copyright](https://image.pseudoyu.com/images/randy_pic_copyright.png)
 
-之前在推上看到 Randy 自己拍的 desk setup 图被盗用的经历。
+I previously saw Randy's experience on Twitter of his own desk setup photo being misused.
 
-而自己也玩一些摄影，虽没什么特别的商业价值，但终究是自己的作品，理应保护版权，因此我想在图片上统一添加自己的版权水印，以防止被他人盗用。
+As someone who dabbles in photography myself, although my work may not have particular commercial value, it is still my creation and deserves copyright protection. Therefore, I want to uniformly add my own copyright watermark to the images to prevent unauthorized use by others.
 
-## 实现方案
+## Implementation Plan
 
-需求清晰了，其实主要分为两部分：
+With the requirements clear, the task essentially divides into two parts:
 
-1. 让用户只能通过 WebP Cloud 代理链接访问到我的图片，禁止直接访问原图链接
-2. 在 WebP Cloud 代理层面为所有的图片统一自动添加自己的版权水印，无须手动操作
+1. Ensure users can only access my images through WebP Cloud proxy links, prohibiting direct access to original image links.
+2. Automatically add my copyright watermark to all images at the WebP Cloud proxy level, without manual intervention.
 
-以下是我的实现方案与详细步骤。
+Below is my implementation plan with detailed steps.
 
-### WebP 自定义 User Agent + Cloudflare WAF
+### WebP Custom User Agent + Cloudflare WAF
 
-和 [WebP Cloud](https://webp.se/) 的开发者 [Nova Kwok](https://x.com/n0vad3v) 聊了一下，发现 WebP Cloud 提供了自定义「Proxy User Agent」的功能，并推荐在 Cloudflare WAF 中配置对应规则以保护图片安全，文档中有详细说明 -- 「[Security | WebP Cloud Services Docs](https://docs.webp.se/webp-cloud/security/#cloudflare)」。
+After chatting with [Nova Kwok](https://x.com/n0vad3v), the developer of [WebP Cloud](https://webp.se/), I discovered that WebP Cloud provides a custom "Proxy User Agent" feature. He recommended configuring corresponding rules in Cloudflare WAF to protect image security, as detailed in the documentation -- "[Security | WebP Cloud Services Docs](https://docs.webp.se/webp-cloud/security/#cloudflare)".
 
-#### WebP Cloud 配置
+#### WebP Cloud Configuration
 
-当我们访问互联网上的网页或图片链接时，请求通常会包含一个 User Agent 字段，一般包含浏览器版本等信息，网站可针对不同的 User Agent 进行一些特定逻辑处理。
+When we access web pages or image links on the internet, the request usually includes a User Agent field, generally containing information such as browser version. Websites can perform specific logic processing for different User Agents.
 
-WebP Cloud 默认会使用 `WebP Cloud Services/1.0` 作为值，也就是不论用户访问图片时使用的是什么终端设备和浏览器，请求到 Cloudflare R2 时都会被统一为 WebP Cloud 定义的 User Agent 值，而这个值又是用户可以自定义的。
+WebP Cloud defaults to using `WebP Cloud Services/1.0` as the value, meaning that regardless of what terminal device or browser the user is using to access the image, the request to Cloudflare R2 will be unified as the User Agent value defined by WebP Cloud, which is customizable by the user.
 
 ![webp_custom_user_agent](https://image.pseudoyu.com/images/webp_custom_user_agent.png)
 
-因此，我们登录 WebP Cloud 的控制台，将「Proxy User Agent」字段设置为一个自定义值，如 `pseudoyu.com/1.0`。
+Therefore, we log into the WebP Cloud console and set the "Proxy User Agent" field to a custom value, such as `pseudoyu.com/1.0`.
 
-#### Cloudflare WAF 配置
+#### Cloudflare WAF Configuration
 
 ![cloudflare_waf_intro](https://image.pseudoyu.com/images/cloudflare_waf_intro.png)
 
-[WAF（Web Application Firewall）](https://developers.cloudflare.com/waf) 是 Cloudflare 提供的一个防火墙服务，可以自定义规则来限制特定请求以保护网站安全，登录 Cloudflare 后在左侧边栏点击「网站」，点击进入需要保护的域名，选择侧边栏「安全性」 - 「WAF」即可免费使用（注：不是最外层的账户级 WAF），免费账户可设定五个自定义规则。
+[WAF (Web Application Firewall)](https://developers.cloudflare.com/waf) is a firewall service provided by Cloudflare that allows custom rules to be set to restrict specific requests for website security. After logging into Cloudflare, click on "Websites" in the left sidebar, enter the domain name you want to protect, select "Security" - "WAF" in the sidebar to use it for free (Note: This is not the account-level WAF on the outermost layer). Free accounts can set up to five custom rules.
 
 ![waf_create_rule](https://image.pseudoyu.com/images/waf_create_rule.png)
 
-点击「创建规则」，进入设置页面。
+Click "Create Rule" to enter the settings page.
 
 ![user_agent_protection_waf](https://image.pseudoyu.com/images/user_agent_protection_waf.png)
 
-点击「表达式预览」右侧的「编辑表达式」，填入以下规则：
+Click "Edit Expression" to the right of "Expression Preview" and enter the following rule:
 
 ```plaintext
 (http.user_agent ne "pseudoyu.com/1.0") and (http.host eq "images.pseudoyu.com")
 ```
 
-首先，需要把其中 `pseudoyu.com/1.0` 这部分填入上文在 WebP Cloud 中你自定义的 User Agent 值；另外，为了防止我在同一域名下的其他自部署服务的图片无法正常显示，我添加了 `(http.host eq "images.pseudoyu.com")` 条件，即只对图床的访问链接生效，这部分需要替换为自己的图床域名 host。
+First, you need to replace `pseudoyu.com/1.0` with the custom User Agent value you set in WebP Cloud earlier. Additionally, to prevent images from other self-deployed services on the same domain from being affected, I added the condition `(http.host eq "images.pseudoyu.com")`, which only applies to the access link of the image hosting. This part needs to be replaced with your own image hosting domain host.
 
-并且在「选择操作」下拉选择「阻止」，这样会匹配我们的规则并阻止特定网络请求，编辑完成后点击「部署/保存」即可。
+Select "Block" from the "Select Action" dropdown. This will match our rule and block specific network requests. Click "Deploy/Save" after editing.
 
-我使用的是目前 WebP Cloud 官方文档提供的[推荐规则](https://docs.webp.se/webp-cloud/security/#cloudflare)，后续或许会针对新的功能有所调整，可以直接参考文档。
+I'm using the [recommended rule](https://docs.webp.se/webp-cloud/security/#cloudflare) currently provided in the official WebP Cloud documentation. It may be adjusted for new features in the future, so you can refer directly to the documentation.
 
 ![block_by_waf_example](https://image.pseudoyu.com/images/block_by_waf_example.png)
 
-完成配置后，当我们再次访问以 `images.pseudoyu.com` 开头的源站链接时会被 WAF 拦截，例如：
+After completing the configuration, when we try to access source links starting with `images.pseudoyu.com` again, they will be blocked by WAF, for example:
 
 [images.pseudoyu.com/images/new_mbp_setup.jpg](https://images.pseudoyu.com/images/new_mbp_setup.jpg)
 
-而经 WebP Cloud 代理过的链接则可以正常访问，例如：
+However, links proxied through WebP Cloud can be accessed normally, for example:
 
 [image.pseudoyu.com/images/new_mbp_setup.jpg](https://image.pseudoyu.com/images/new_mbp_setup.jpg)
 
-完美实现了我们的需求。
+This perfectly meets our requirements.
 
-### 使用 WebP Cloud 为图片添加版权水印
+### Adding Copyright Watermark to Images Using WebP Cloud
 
-经过了上文的操作，我们已经确保用户只能经过 WebP Cloud 代理链接访问到我们的图片了，接下来就是为图片添加版权水印。
+After the operations above, we have ensured that users can only access our images through WebP Cloud proxy links. The next step is to add copyright watermarks to the images.
 
 ![webp_watermark_feature](https://image.pseudoyu.com/images/webp_watermark_feature.png)
 
-同样是查阅了 WebP Cloud 的文档，发现它在「Visual Effects」模块中提供了「Watermark」功能，可以为图片添加自定义的水印，使用 `Fabric.js` 库实现，提供了可视化编辑的一些选项，还写了一篇有意思的博客 -- 「[使用 Fabric.js 实现实时水印预览](https://blog.webp.se/dashboard-fabric-zh/)」。
+Again, upon consulting WebP Cloud's documentation, I found that it provides a "Watermark" feature in the "Visual Effects" module, which can add custom watermarks to images. It uses the `Fabric.js` library for implementation and offers some visual editing options. They even wrote an interesting blog post -- "[Implementing Real-time Watermark Preview with Fabric.js](https://blog.webp.se/dashboard-fabric-zh/)".
 
 ![watermark_list_webp](https://image.pseudoyu.com/images/watermark_list_webp.png)
 
-进入 WebP 控制台，选择左侧「Visual Effects」，并点击右上角「Create Watermark」，就可以进行一些自定义水印样式配置了。
+Enter the WebP console, select "Visual Effects" on the left, and click "Create Watermark" in the upper right corner to configure some custom watermark styles.
 
 ![pseudoyu_copyright](https://image.pseudoyu.com/images/pseudoyu_copyright.png)
 
-这是我的配置，即在图片的底部中间添加一个浅灰色的 `@pseudoyu` 字样。
+This is my configuration, which adds a light gray `@pseudoyu` text at the bottom center of the image.
 
 ![webp_purge_all_cache](https://image.pseudoyu.com/images/webp_purge_all_cache.png)
 
-需要注意的是，WebP Cloud 会为用户缓存图片数据，因此若想要之前上传的图片也应用水印或更新了新的水印则需要在代理配置中点选「Purge All Cache」来清理缓存。
+Note that WebP Cloud caches image data for users. Therefore, if you want previously uploaded images to apply the watermark or update to a new watermark, you need to click "Purge All Cache" in the proxy configuration to clear the cache.
 
 ![apply_watermark_webp](https://image.pseudoyu.com/images/apply_watermark_webp.png)
 
-编辑完水印后，进入代理的详细配置页面，下拉到「Watermark Setting」模块，选取刚创建的水印，点击右上角「Save」即可。
+After editing the watermark, go to the detailed configuration page of the proxy, scroll down to the "Watermark Setting" module, select the watermark you just created, and click "Save" in the upper right corner.
 
-效果就不单独展示了，本文所有配图都通过这种方式添加了水印。
+I won't demonstrate the effect separately, as all the images in this article have had watermarks added in this way.
 
-## 总结
+## Conclusion
 
 ![webp_thoughts](https://image.pseudoyu.com/images/webp_thoughts.png)
 
-使用 [WebP Cloud](https://webp.se/) 才第三天，最开始一直以为只是一个类 CDN 图片加速访问工具，经过折腾后发现了很多有意思的地方，并且为个人免费用户提供的 Free Quota 足够到大家拥有更好的图片体验，也就是他们所坚持的「做正确的事」。
+It's only been three days since I started using [WebP Cloud](https://webp.se/), and initially, I thought it was just a CDN-like tool for accelerating image access. After tinkering with it, I discovered many interesting aspects. The Free Quota provided for individual free users is sufficient to give everyone a better image experience, which aligns with their principle of "doing the right thing".
 
-团队更多是做一些技术沉淀和实践，写了许多博客 -- 「[WebP Cloud Services Blog](https://blog.webp.se/)」，闲时读读也能感受到他们的热情，最近因为「[周报 \#63 - 不愉快的订花经历、商家和消费者与日渐 AI 化的人](https://www.pseudoyu.com/en/2024/07/01/weekly_review_20240701/)」这一篇中的经历而在思考「劣币驱逐良币」这一问题，我觉得坚持做正确的事不向商业做过多妥协的团队理应被更多人看到，理应过得更好，我人微言轻，仅以这些教程来让更多的人了解到他们。
+The team focuses more on technical accumulation and practice, writing numerous blog posts -- "[WebP Cloud Services Blog](https://blog.webp.se/)". Reading these in leisure time, one can feel their enthusiasm. Recently, due to an experience shared in "Weekly Review #63 - An Unpleasant Flower Ordering Experience, Merchants and Consumers, and the Increasingly AI-driven World", I've been pondering the issue of "bad money driving out good". I believe teams that insist on doing the right thing without making too many compromises to commercialization deserve to be seen by more people and deserve to fare better. Though my influence is limited, I hope these tutorials can help more people learn about them.

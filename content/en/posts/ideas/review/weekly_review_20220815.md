@@ -1,5 +1,5 @@
 ---
-title: "周报 #07 - 学习、考证与工作追求"
+title: "Weekly Review #07 - Learning, Certification and Career Pursuit"
 date: 2022-08-15T12:36:14+08:00
 draft: false
 tags: ["review", "life", "time", "certificate", "devops", "remote"]
@@ -8,84 +8,84 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-08-08` 到 `2022-08-15` 这周生活的记录与思考。这周的工作还是筹备项目需要参加的一个测评，主要是方案讲解，下班时间都还算正常，也渐渐恢复了不错的生活节奏。
+This is a record and reflection of my life from `2022-08-08` to `2022-08-15`. This week's work still revolved around preparing for an evaluation of the project, mainly focusing on explaining the proposal. Work hours were relatively normal, and I gradually regained a good life rhythm.
 
-但是感觉下班回家宅习惯了后就很缺乏出门的动力，原定的练习滑板和夜跑也都暂搁了，不过比起之前也还是出门了几次，工作日几个晚上有聚餐，周末去了趟南锣鼓巷，晚上还去了什刹海散步，一直觉得这个地名很美，终于得以一见。
+However, I felt that after getting used to staying at home after work, I lacked the motivation to go out. The planned skateboarding practice and night runs were put on hold. Compared to before, I did go out a few times - dinner gatherings on some weekday evenings, a trip to Nanluoguxiang on the weekend, and an evening stroll at Shichahai. I've always thought this place name was beautiful, and finally got to see it.
 
-经过了上周的调整，这周也安排进了不少学习计划，并且决定通过考一个证书来检验自己的学习，也算是一种外部激励吧。其他就是与几个朋友聊了一下关于工作调整、远程工作与工作追求相关的事。
+After last week's adjustment, I scheduled quite a few learning plans this week and decided to validate my learning by taking a certification exam, which is also a form of external motivation. Besides that, I chatted with a few friends about work adjustments, remote work, and career pursuits.
 
-## 学习与考证
+## Learning and Certification
 
-之前的两个工作项目里就经常有用到 docker 与 k8s，对他们的基本命令与配置文件编写都比较熟悉，但一直没有对它们的架构与技术细节有系统性学习，上周看了 YouTube 上『[TechWorld with Nana](https://www.techworld-with-nana.com)』频道的一些讲解，补齐了很多知识盲点。
+In my previous two work projects, I frequently used Docker and Kubernetes, and I'm quite familiar with their basic commands and configuration file writing. However, I never had a systematic study of their architecture and technical details. Last week, I watched some explanations on the YouTube channel "[TechWorld with Nana](https://www.techworld-with-nana.com)", which filled in many knowledge gaps.
 
-但是因为 k8s 涉及到的组件和操作太多，稍一阵子不用就会忘记，而且不上手练习也不利于记忆，然后自己也对 Devops 这一块很感兴趣，经常折腾一些自动化工具和 Serverless 应用。于是打算更系统地学习一下，考一个 Certified Kubernetes Application Developer （CKAD）认证，一个由 CNCF 与 Linux 基金会共同开发的认证项目。这个项目主要面向开发者，涉及了很多知识点：
+But because Kubernetes involves so many components and operations, it's easy to forget if not used for a while, and it's not conducive to memory without hands-on practice. Moreover, I'm very interested in the DevOps field and often tinker with some automation tools and serverless applications. So I decided to study more systematically and take the Certified Kubernetes Application Developer (CKAD) certification, a certification project jointly developed by CNCF and the Linux Foundation. This project is mainly aimed at developers and covers many knowledge points:
 
 ![ckad_topics](https://image.pseudoyu.com/images/ckad_topics.png)
 
-比较特殊的是这个认证考试最后是 19 道上机实操题，也可以查看 k8s 官方文档，没有什么需要死记硬背的部分，很适合作为学习成果的检验。买了 Udemy 平台的『[Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)』，最近就一直沉浸在刷它附带的 Lab，因为是一个在线环境就很方便，找回了当时读书的时候写作业赶 due 的心境。
+What's special is that this certification exam ends with 19 hands-on practical questions, and you can also check the official Kubernetes documentation. There's nothing that needs to be memorized by rote, which is very suitable for testing learning outcomes. I bought the "[Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)" course on the Udemy platform, and I've been immersed in doing the Labs it comes with recently. Because it's an online environment, it's very convenient, reminiscent of the feeling of rushing to finish assignments before deadlines back in school.
 
-其实我大学时候好像莫名地考过不少证，印象比较深的是一个软考中级（软件设计师）证书，因为上午考理论综合，下午考实务，通过率也只有 30%不到，刚报考时很紧张，早早地买了书和各种资料，但是一直拖延，直到只剩半个月了才开始紧急预习和刷题，最后压分通过了。因为大学时候是非科班 CS，那次考试最深的体验就是在备考过程对软件工程、操作系统、计算机组成原理以及各个编程语言都有了比较系统的认识，也给后面跨专业学习提供了很多帮助。
+Actually, I seemed to have taken quite a few certifications in college. One that left a deep impression was an intermediate software qualification (Software Designer) certificate. Because it had a theoretical comprehensive exam in the morning and a practical exam in the afternoon, with a pass rate of less than 30%, I was very nervous when I first registered. I bought books and various materials early on, but I kept procrastinating until only half a month was left before I started urgent revision and practice questions, finally passing with a borderline score. Because I wasn't majoring in CS in college, the deepest experience from that exam was gaining a systematic understanding of software engineering, operating systems, computer organization principles, and various programming languages during the preparation process, which provided a lot of help for my later cross-disciplinary studies.
 
-后来因为本科主修的是英语专业，也考了英语专业四级、英语专业八级、雅思等，越来越感知到学习目标与计划对于了解一个新领域或掌握一个新知识的重要性，跟之前提到的面向周报或面向博客学习的模式也类似，有一个产出标准会会让自己在学习的过程中能更体系化，思路也会更清晰。最近的应该就是 CKAD 和日语 N2 了吧，其他的可以再探索一下（不过有的认证真的好贵）。
+Later, because my undergraduate major was English, I also took TEM-4, TEM-8, IELTS, etc. I increasingly realized the importance of learning goals and plans for understanding a new field or mastering new knowledge. Similar to the previously mentioned mode of learning oriented towards weekly reviews or blogs, having an output standard makes the learning process more systematic and the thought process clearer. The most recent ones should be CKAD and Japanese N2. I can explore others further (though some certifications are really expensive).
 
-## 工作与状态调整
+## Work and State Adjustment
 
-这周和两个朋友聊了一下工作相关的事宜，一位正在换工作，来了解一些 web3 相关的资讯，另一位近几个月刚进入 web3 团队工作，采访了他们的一些对于工作的想法，很羡慕，也觉得很有意思：
+This week, I chatted with two friends about work-related matters. One is changing jobs and came to learn about some web3-related information. The other has been working in a web3 team for the past few months. I interviewed them about their thoughts on work, which I found very enviable and interesting:
 
-> “可以认识更多有热情/有趣的人”
+> "You can meet more passionate/interesting people"
 
-> “我现在也不午睡了，更愿意去把工作的事情做好，甚至感觉这不是工作”
+> "I don't take naps anymore, I'm more willing to do my work well, it doesn't even feel like work"
 
-> “讲究主动性，同时也有挑战”
+> "It emphasizes initiative, while also being challenging"
 
-> “开会也少，自由度也够，写代码有时不知不觉写到凌晨一两点，久违的感觉”
+> "Fewer meetings, more freedom, sometimes I write code until one or two in the morning without realizing it, a long-lost feeling"
 
-可以从字里行间感受到他们的热爱与期待，除了作为谋生赚钱的工具外，他们对工作氛围、模式与内容也有自己的追求与想法，这也很大程度影响到了我对日后工作的一些定义与标准。
+You can feel their passion and expectations between the lines. Besides being a tool for making a living, they have their own pursuits and ideas about the work atmosphere, mode, and content, which has greatly influenced my definition and standards for future work.
 
-这几天的学习和工作状态有所缓解，但睡眠依旧有些糟糕，常常有断断续续的梦境，夹杂着不少过去的记忆，真实到醒来后依然很难缓过来。体检要开始预约了，想在八月完成。
+My learning and work state have improved in the past few days, but sleep is still somewhat problematic. I often have intermittent dreams, mixed with many past memories, so real that it's hard to recover even after waking up. It's time to start booking for the physical examination, I want to complete it in August.
 
-## 其他
+## Miscellaneous
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my input and output, as well as other things I find interesting.
 
-### 学习
+### Learning
 
-如上文所述，这周主要是在学习 Devops 这一块以及备考 CKAD，同时对 GitLab CI/CD、GitHub Action、Ansible 等自动部署、运维工具做了一些学习记录，还在整理。
+As mentioned above, this week was mainly about learning DevOps and preparing for CKAD. At the same time, I did some learning and recording on automatic deployment and operation and maintenance tools such as GitLab CI/CD, GitHub Action, Ansible, etc., which are still being organized.
 
-另外把修图（Adobe Photoshop + Affinity Photo）和剪辑（Final Cut Pro X + Davince Resolve）这一些技能点重新捡起来，开始慢慢重新计划自己的一些生活记录了。
+In addition, I picked up photo editing (Adobe Photoshop + Affinity Photo) and video editing (Final Cut Pro X + Davinci Resolve) skills again, and started to slowly re-plan some of my life records.
 
-### 博客相关
+### Blog Related
 
-在拖了我的少数派编辑一个多月的稿（并且还已读不回）后，我终于良心发现，把之前约稿的那篇 Stablecoin（稳定币）相关的文章写好初稿发过去了，再根据反馈进行一些修改补充就可以了，感觉心里一块大石头放下了。
+After keeping my Sspai editor waiting for more than a month (and leaving messages on read), I finally had a pang of conscience and finished the draft of the previously commissioned article about Stablecoin and sent it over. After some revisions and additions based on feedback, it will be ready. I feel like a huge weight has been lifted off my chest.
 
-之前写的那篇『[基于 frp 内网穿透的瘦客户端开发工作流](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)』终于在这周发布了，被收录在[会员专享](https://sspai.com/prime/story/thin-client-solution-with-frp)内容中，也是一个小小成就了。
+The article I wrote before, "[Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)", was finally published this week and included in the [member-exclusive](https://sspai.com/prime/story/thin-client-solution-with-frp) content, which is a small achievement.
 
-剩下这周继续完成以下几篇博文（可能更多是对实践的笔记吧）：
+The remaining plan is to complete the following blog posts this week (maybe more notes on practice):
 
-1. Cosmos 原理与架构
-2. Docker 基础与实践
-3. k8s 基础与实践
+1. Cosmos Principles and Architecture
+2. Docker Basics and Practice
+3. Kubernetes Basics and Practice
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **蒂姆库克传**，快看完了，感觉也更深入了解到了苹果产品背后的一些理念和哲学
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, almost finished, feeling a deeper understanding of the philosophy behind Apple products
 
-#### 剧集
+#### TV Series
 
-- **非常律师禹英禑**，开始虐了，也有了一些剧情冲突点，小鲸鱼也是真的可爱
-- **石子和羽男-这种事情也好告么？**，一个新日剧，也是律政题材的，其实对男主人设比较无感，但因为女主是有村架纯，有想看的理由
+- **Extraordinary Attorney Woo**, it's starting to get emotional, with some plot conflicts emerging, and the little whale is really cute
+- **Stone and Cocco: Is it Okay to File a Case Like This?**, a new Japanese drama, also in the legal genre. Actually, I'm not very impressed with the male lead's character setting, but because the female lead is Kasumi Arimura, there's a reason to watch
 
-#### 电影
+#### Movies
 
-- **分手的决心**，镜头语言和整体节奏感很舒服，对犯罪和心理的描述占据了绝大部分，但剧情发展和心态变化上缺少了一些呈现，乐趣就是在其中找苹果设备的各种用法了
+- **Decision to Leave**, the cinematography and overall rhythm are very comfortable. The description of crime and psychology occupies the vast majority, but there's a lack of presentation in plot development and mental changes. The fun part is finding various uses of Apple devices in it
 
-#### 动漫
+#### Anime
 
-- **夏日重现**，继续蹲后面的剧情发展
-- **继母的拖油瓶是我的前女友**，我是还挺喜欢这种恋爱番的
+- **Summer Time Rendering**, continuing to wait for the development of the later plot
+- **My Stepmom's Daughter is My Ex**, I quite like this kind of romance anime

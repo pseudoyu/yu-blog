@@ -1,5 +1,5 @@
 ---
-title: "周报 #64 - 生活在此处（《斯通纳》与《Normal People》）"
+title: "Weekly Review #64 - Life Is Here (Stoner and Normal People)"
 date: 2024-07-10T08:30:00+08:00
 draft: false
 tags: ["review", "life", "blog", "book", "meaning", "work"]
@@ -8,95 +8,95 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/photograph.mp3" caption="《Photograph - Ed Sheeran》" >}}
+{{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## 前言
+## Preface
 
 ![weekly_review_20240710](https://image.pseudoyu.com/images/weekly_review_20240710.png)
 
-本篇是对 `2024-07-01` 到 `2024-07-09` 这周生活的记录与思考。
+This piece is a reflection on life from July 1st to July 9th, 2024.
 
-这一周坚持了几天早起读书学习，效率很高，不过要养成规律依然需要时间调整，也还在探究如何更快地进入/切换工作状态；在同步看几本书，《阿特拉斯耸耸肩》、《Normal People》与《What My Bones Know》，和学姐聊到她正在看的斯通纳，有了一些关于人生各个维度的思考；还有很多有意思的事。
+This week, I maintained an early rising routine for several days, dedicating time to reading and studying with high efficiency. However, establishing a regular pattern still requires time and adjustment. I'm also exploring how to enter and switch work modes more swiftly. I'm simultaneously reading several books: "Atlas Shrugged", "Normal People", and "What My Bones Know". A conversation with my senior about her current read, "Stoner", sparked some thoughts about various dimensions of life. Many other interesting events unfolded as well.
 
-## Normal People 与斯通纳
+## Normal People and Stoner
 
 ![normal_people](https://image.pseudoyu.com/images/normal_people.webp)
 
-《Normal People》是一部好久之前的英剧了，大概是 20 年还是 21 年的时候看的，印象很深，最近突然想起就看了下原著，虽说内容大多关于爱情与学校的琐事，我却能够在男主身上看到许多自己，根植于内心深处的怯懦与不安，对于生活迷茫却又不甘平凡的执念，以及最终又承认生活本就如此的释然；《斯通纳》则是前段时间抽奖的书籍盲盒中我挑选的其中一本，之前已经看了两遍，剧情已经记不太清，却有一种回想起来常看常新的感觉，用平淡的笔触勾勒生活原本的样子。
+"Normal People" is an English TV series I watched long ago, perhaps in 2020 or 2021. It left a deep impression on me. Recently, recalling it, I decided to read the original novel. Although much of the content revolves around love and school trivialities, I saw much of myself in the male protagonist - the timidity and insecurity rooted deep within, the obsession with life's perplexities yet unwillingness to be ordinary, and ultimately, the resignation to life as it is. "Stoner" was one of the books I chose from a recent lucky draw book blind box. I've read it twice before, and while the plot details have faded, there's a sense of renewed insight with each recollection. It uses plain strokes to outline life in its original form.
 
-这两本书连在一起，让我重新思考了一些关于自我与人生的价值命题。
+These two books, when connected, led me to reconsider some value propositions about self and life.
 
-### 生活在此处
+### Life Is Here
 
-昨晚和学姐久违地找了周遭一家日料店出门约会，我们各自从家出发，对方的打扮都很搞笑，她上身穿着华丽的连衣裙，却踏着一双拖鞋；我也没好到哪去，上身衬衫，下身运动短裤加拖鞋。坐在吧台等餐聊天时，有一种一半仪式感一半生活的混搭感，却又不显得怪异，就像个生活搭子。
+Last night, my senior and I had a rare outing to a nearby Japanese restaurant. Our attire was quite amusing as we set out from our respective homes. She wore an elegant dress on top, paired with slippers; I wasn't much better, sporting a dress shirt with athletic shorts and slippers. As we sat at the counter waiting for our meal and chatting, there was a sense of half ceremony, half everyday life in our mismatched outfits, yet it didn't feel strange - just like life companions.
 
-我们常常说“生活在别处”，意为别处的生活似乎总是吸引着我们，但其实回望看看，此处的生活其实也别具魅力。
+We often say "life is elsewhere", implying that life elsewhere always seems more attractive. But looking back, life right here has its own unique charm.
 
-我们聊到现在的生活，感觉似乎并没有什么太值得埋怨的，她在不算喜欢也不算讨厌的工作中能做得很好，我在自己的领域中自得其乐；在杭州的生活节奏好过北京的纷扰，时常能漫步或是回家吃上一顿家常。但我们似乎都有所期待，她想去画画，我也想离开这个舒适圈去另一个国度开启新的生活篇章，只是这种期待被还不错的生活现状所掩盖，反倒有些难以抽身了，毕竟没有现实需求驱动的决定总是会更难一些的，似乎自己总要背负着打破生活平静的责任。
+We talked about our current lives, feeling there isn't much to complain about. She's doing well in a job she neither particularly likes nor dislikes, while I'm content in my own field. The pace of life in Hangzhou is better than the bustle of Beijing; we often take walks or enjoy home-cooked meals. Yet we both seem to have expectations - she wants to paint, and I want to leave this comfort zone to start a new chapter of life in another country. But these expectations are masked by our satisfactory current state of life. It's harder to extricate ourselves, after all, decisions not driven by real needs are always more difficult, as if we bear the responsibility of disrupting the tranquility of life.
 
-### 虚无的意义
+### The Illusory Meaning
 
-读书和刚毕业那一两年常有很多学弟学妹来问我关于转码、人生选择的一些建议，乃至现在也有一些从技术教程或是课程了解到我的朋友来问我关于 Web3 学习和行业的一些问题，我一直都很谨慎而认真地对待他们，因为常常想到当年我如果能早些得到一些建议，或许就能够少走一些弯路，但有警惕自己的语气与姿态，不愿因幸存者偏差而变得“好为人师”。
+During my college years and the first couple of years after graduation, I often had juniors asking for advice about switching to coding or making life choices. Even now, some friends who know me from technical tutorials or courses ask about learning Web3 and industry insights. I've always been cautious and sincere in responding to them, often thinking that if I had received some advice earlier, I might have avoided some detours. But I'm wary of my tone and stance, not wanting to become "preachy" due to survivor bias.
 
-于是常常条分缕析地根据他们每个人的情况列出一些利弊和我自己的想法，连续七八条消息过去，还生怕有些什么遗漏，可十之八九，最终他们都会以这么几句来追问，仿佛我说的那些都无关紧要，也并不是他们想要的答案，颇有些图穷匕见的荒谬感：
+So I often meticulously list out pros and cons and my own thoughts based on their individual situations, sending seven or eight consecutive messages, still worried I might have missed something. But in eight or nine out of ten cases, they would end up asking these few questions, as if everything I said was irrelevant and not the answer they wanted, with a sense of absurd revelation:
 
-> “计算机是不是很赚钱啊，我怎么样才能转码成功啊？”
+> "Is computer science very lucrative? How can I successfully switch to coding?"
 >
-> “Web3 工资是不是很高啊？”
+> "Are Web3 salaries really high?"
 
-之前很喜欢一句话，来自很久之前某个很欣赏但却早已停更的文字博主每篇文章结尾，大意是：
+I used to like a quote from a long-ago admired but now inactive blog writer, which appeared at the end of each article. It roughly meant:
 
-> 「我把我知道的道理全都告诉你，为的是让你过不好这一生」。
+> "I tell you all the truths I know, so that you won't live this life well."
 
-有时我常常在想，是不是正是因为我过于追求虚无的意义，徒有一些原则，反而让自己不那么开心了，人总是知道的愈多愈加难以前行，人生不过三万天，或许甘于外物，甘于生活本身，人生会“松弛”许多。
+Sometimes I wonder if it's precisely because I pursue illusory meaning too much, merely clinging to some principles, that I've made myself less happy. The more one knows, the harder it becomes to move forward. Life is but thirty thousand days; perhaps if we were content with external things, content with life itself, life would be more "relaxed".
 
-于是也有过很长一段时间的沉默，不再向自我和这个世界提问，享受当下，收获的却是更多虚无。
+So there was a long period of silence, no longer questioning myself and the world, enjoying the present, only to harvest more emptiness.
 
-## 其他
+## Other Matters
 
-### 工作状态
+### Work State
 
-最近工作在做一个有点麻烦的需求，大概有一周了，其实技术上倒也没什么特别的难点，无非就是从链上读取配置，并且调度各个服务重启（但是不能从 k8s 或者其他部署层面，而是需要程序内部自己处理），因而链路有很多细节要考虑，需要很专注和细致。
+Recently, I've been working on a somewhat troublesome requirement for about a week. Technically, there aren't any particularly difficult points - it's mainly about reading configurations from the blockchain and scheduling various service restarts (but not from the k8s or other deployment level, rather the program needs to handle it internally). Therefore, there are many details to consider in the chain, requiring focus and meticulousness.
 
-而这周又实践了一段时间的 5 点起床沉浸式写博客、阅读、学习 Rust 等，到 9 点多开始逐渐调整到工作状态，一直到晚上。因为早起的效率还挺高的，反而发现从学习状态切换到完全的专注工作状态其实很难/很慢，也就是之前代码之外一周年直播里面 Randy  提到的“单线程”和“上下文切换”，没有办法同时深度思考和做两件事。
+This week, I also practiced getting up at 5 AM for immersive blog writing, reading, learning Rust, etc., gradually adjusting to work mode around 9 AM until evening. Because the efficiency of early rising is quite high, I found it actually difficult/slow to switch from a learning state to a fully focused work state. This is what Randy mentioned in last week's "Code Outside" anniversary live stream about "single-threading" and "context switching" - the inability to deeply think about and do two things simultaneously.
 
-又想到上周跟同事 Ares 去良渚咖啡厅里办公，虽然工作过程中只是闲谈几句，跟正在做的工作内容也不强相关，但似乎一下子就会拉入了良好的工作的氛围中，而自己在家有时候就并不那么容易做到这样，这大概也是远程办公的一种弊端吧。
+I also recall last week when I went to work with my colleague Ares at a coffee shop in Liangzhu. Although we only chatted casually during work, not strongly related to the work content, it seemed to immediately draw us into a good work atmosphere. Sometimes it's not so easy to achieve this at home, which is probably one of the drawbacks of remote work.
 
-### 生活日常
+### Daily Life
 
 ![mats_cat](https://image.pseudoyu.com/images/mats_cat.jpg)
 
-最近家门口地垫是这个（当代年轻人精神状况 🤣
+Recently, the doormat at home is this (The mental state of contemporary young people 🤣)
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I still select some to list here, feeling more like a newsletter.
 
-#### 收藏
+#### Bookmarks
 
 - [webp-sh/webp_server_go](https://github.com/webp-sh/webp_server_go)
 
-#### 书籍
+#### Books
 
-- [**Normal People**](https://book.douban.com/subject/34453257/)，很喜欢这个英剧，这两天看其他书的时候突然想到了这本，打算补一下原著。
-- [**What My Bones Know**](https://book.douban.com/subject/35754687/)，去年看了一小半，这两天想到关于家庭和心理疗愈的问题，每天看一章左右。
-- [**阿特拉斯耸耸肩**](https://book.douban.com/subject/33445309/)，读者送的，读了前两张章了。
+- [**Normal People**](https://book.douban.com/subject/34453257/), I really liked this English TV series, and these days while reading other books, I suddenly thought of this one and decided to read the original novel.
+- [**What My Bones Know**](https://book.douban.com/subject/35754687/), I read about half of it last year. These days, thinking about family and psychological healing issues, I'm reading about a chapter a day.
+- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), a gift from a reader, I've read the first two chapters.
 
-#### 文章
+#### Articles
 
 - [Xuanwo's VISION: Data Freedom](https://xuanwo.io/2024/04-xuanwo-vision/)
 
-#### 播客
+#### Podcasts
 
-- [Ep 47. 和 Yuchen 聊聊 Cloudflare 的新框架 Pingora](https://www.listennotes.com/e/efc189e08c08408fb4ded5e34ac017f2)
+- [Ep 47. Chatting with Yuchen about Cloudflare's new framework Pingora](https://www.listennotes.com/e/efc189e08c08408fb4ded5e34ac017f2)
 
-#### 电影
+#### Movies
 
-- [**泳者之心**](http://movie.douban.com/subject/26656728/)，感觉对于片名「Young Woman and the Sea」中文翻译「泳者之心」有些过于平淡，看完后可能觉得「老娘与海」比较适合 🤣 体育精神、女性、励志，主题上算不上有多新颖，但对于女主的成长和她身边的支撑刻画得恰到好处，女主的妈妈和教练艾比也让人印象深刻。学姐之前曾报名横渡香港维港，现在也在备战横渡杭州钱塘江，难度与英吉利海峡自然不可比，但看完后似乎更能理解了这其中的执念与魅力。
+- [**The Swimmer**](http://movie.douban.com/subject/26656728/), I feel the Chinese translation of the title "Young Woman and the Sea" as "The Swimmer's Heart" is a bit too bland. After watching, "The Old Lady and the Sea" might be more fitting 🤣 The themes of sportsmanship, femininity, and inspiration aren't particularly novel, but the portrayal of the protagonist's growth and her support system is just right. The protagonist's mother and coach Abby are also impressive. My senior had previously signed up for the Hong Kong Victoria Harbour cross-harbour swim and is now preparing for the Qiantang River swim in Hangzhou. While the difficulty can't compare to the English Channel, watching this seems to have given me a better understanding of the obsession and charm involved.
 
-#### 视频
+#### Videos
 
-- [中国的驾校已经发展到这个程度了？日本记者震惊：智能化超乎想象](https://www.bilibili.com/video/BV1Vr421M77c)
-- [和同事成为最好的朋友，我疯了吗？！](https://www.bilibili.com/video/BV1i1421b7Mr)
+- [Has China's driving school developed to this extent? Japanese reporter shocked: The level of intelligence is beyond imagination](https://www.bilibili.com/video/BV1Vr421M77c)
+- [Becoming best friends with colleagues, am I crazy?!](https://www.bilibili.com/video/BV1i1421b7Mr)

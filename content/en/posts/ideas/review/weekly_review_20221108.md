@@ -1,5 +1,5 @@
 ---
-title: "周报 #18 - 陪伴与另一种生活"
+title: "Weekly Review #18 - Companionship and Another Way of Life"
 date: 2022-11-08T13:04:41+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "relationship", "adjustment"]
@@ -8,68 +8,68 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-11-01` 到 `2022-11-08` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `2022-11-01` to `2022-11-08`.
 
-这周是和猫相处的第一周，因为双十一买了很多猫的各种设施和吃的，快递很多，大概有一半多的时间是在居家办公收快递，所以也能有更多的相处时间，太乖了；周末带去体检了，整体还算健康，眼睛和肠胃有一些令人忧心的指标问题，开药进行了一些治疗，下周再去复查。
+This week marked the first week of living with my cat. Due to the Double 11 shopping festival, I bought many cat facilities and food. With numerous deliveries arriving, I spent about half of my time working from home and receiving packages, which allowed for more bonding time. The cat is incredibly well-behaved. Over the weekend, I took her for a health check-up. Overall, she's healthy, though there are some concerning indicators regarding her eyes and digestive system. Medication was prescribed for treatment, and we'll go back for a follow-up next week.
 
-工作上这周进展不错，两个项目并行且都有了一些进展，写了一个合约并上生产环境使用了，并且针对一些常用的日常活动写了一些实用脚本，减少了很多重复性的繁琐工作，还挺开心的。
+Work-wise, I made good progress this week. Two projects are running concurrently, both with some advancements. I wrote a contract that was deployed to the production environment and created some practical scripts for common daily activities, significantly reducing repetitive and tedious tasks. I'm quite pleased with the outcome.
 
-## 陪伴
+## Companionship
 
-这是与猫度过的完整的第一周，因为也很不放心在家时候的状态，所以一半时间居家在家了，在公司上班的时候也时长开着摄像头观察一举一动（虽然大部分时间都是趴在椅子上睡觉的非静止画面，依然能盯着看很久），有一种莫名的牵挂。
+This was the first full week spent with the cat. Concerned about her state when I'm away, I worked from home half the time. When at the office, I frequently monitored her through a camera (though most of the time, it was a non-static image of her napping on a chair, I could still watch for hours). There's an inexplicable sense of attachment.
 
 {{< figure src="https://image.pseudoyu.com/images/my_cute_cat_1.jpg" caption="Cat On Bed">}}
 
-常常以为自己是很能独处的一个人，并不需要太多陪伴，探索一些有趣的东西、或是看看电影书籍似乎已经足够填满我的大部分闲暇时光。但渐渐地发现其实自己是属于一个情绪隔绝的状态，低落和消沉的情绪逐步积累，却也不会影响我的正常生活工作，而从日常或是工作中获取的愉悦感也无法反向去消减我的负面。长此以往，有时甚至我自己都能够清晰地触摸到我的情绪值。
+I often thought of myself as someone who could handle solitude well, not requiring much companionship. Exploring interesting things or reading books and watching movies seemed sufficient to fill most of my leisure time. But gradually, I realized I was in a state of emotional isolation. Negative emotions slowly accumulated, yet they didn't affect my normal life and work. Conversely, the joy derived from daily life or work couldn't offset my negative feelings. Over time, I could sometimes clearly sense my emotional state.
 
-而这一周和猫的共处中，我能够感受到自己有在依赖这种感觉，一边开着会议一边抱着猫，或者看着她在旁边玩耍，时间流动得缓慢而美好，慢慢地才意识到这种感觉多么久违。
+During this week of cohabitation with the cat, I could feel myself relying on this feeling. Holding the cat while in a meeting or watching her play nearby made time flow slowly and beautifully. I slowly realized how long it had been since I last experienced such a feeling.
 
-人和猫的羁绊真的很神奇，语言不通，情绪也很难共感，却似乎有一种隐隐的默契，一个将自己的被需要感寄托，一个静静地陪伴着。后面也慢慢打算捡起相机多拍摄一些自己的生活与猫的日常，似乎每天也都能有所期待了。
+The bond between humans and cats is truly magical. Despite the language barrier and difficulty in empathizing emotionally, there seems to be a subtle understanding. One entrusts their sense of being needed, while the other quietly accompanies. I also plan to pick up my camera again to capture more of my daily life and the cat's routines. It seems I have something to look forward to every day now.
 
 {{< figure src="https://image.pseudoyu.com/images/my_cute_cat_2.jpg" caption="Cat With Me">}}
 
-## 另一种生活
+## Another Way of Life
 
-这周和之前在香港结识，并且现在同样北漂的学姐吃了饭，一年可能也就会约三四次饭，每次却都有挺不一样的体会，大概是每次都能从中获取自己对另一种生活方式的想象与期待。
+This week, I had dinner with a senior schoolmate whom I met in Hong Kong and who is now also living in Beijing. We might only meet three or four times a year, but each time brings quite different insights. Perhaps it's because each time I gain a new perspective on another way of life that I imagine and anticipate.
 
-大概从经历和性格上来说完全是两个不一样的人，我有自己专注的东西，似乎工作内容本身和沿着这个方向领域的许多事宜都是我所享受其中的，可以说是某种程度上的幸运，却也常常有些好奇如果没有走这条路，自己的生活又会是什么模样。
+We are completely different people in terms of experiences and personalities. I have my own areas of focus, and I enjoy the work content itself and many things along this direction and field. It could be said that I'm fortunate in some ways, yet I often wonder what my life would be like if I hadn't taken this path.
 
-自己大概原本是一个所谓的挺“斜杠青年”的人，常常去学习体验一些全新的东西，有时候是享受于学会一项新东西的愉悦，有时候仅仅是沉浸于在学东西的过程。后来陷入了挺深的迷茫，纠结于“知识和体验是要更加追求深度还是广度”，最后还是选择了一个更专精的领域，同时，某种程度上来说也放弃了其他的可能性。
+I was originally what you might call a "slash youth", often learning and experiencing new things. Sometimes it was for the joy of mastering something new, sometimes simply for the immersion in the learning process. Later, I fell into a deep state of confusion, struggling with whether to pursue depth or breadth in knowledge and experience. In the end, I chose a more specialized field, and to some extent, gave up other possibilities.
 
-而学姐则是一个可以把自己的事做好，却也很能把自己的工作与自我追求分离的人，会在周末和闲暇的时候去攀岩、跳舞、游泳、冲浪、打拳，以及最重要的画画，在自己的各种兴趣爱好中尽情探索，不在意那么多得失，也不去纠结那么多意义，只是享受过程，同时享受着自我的补全。
+My senior, on the other hand, is someone who can do her job well while also separating work from personal pursuits. On weekends and during leisure time, she goes rock climbing, dancing, swimming, surfing, boxing, and most importantly, painting. She explores her various interests and hobbies to the fullest, not caring too much about gains and losses, not pondering too much on meaning, but simply enjoying the process while simultaneously enjoying self-completion.
 
-而明明处于事业和个人发展都令人羡慕的阶段，却充满着热情跟我讲着在计划明年 gap 一年去美院参加一年全日制项目学画画，也不为了什么转型或是方向调整，只是喜欢。一时竟分不出自己是在羡慕能为了这样仅仅是“喜欢”的追求而能够做到这种程度还是能够找到这样的喜欢。
+Despite being at an enviable stage in her career and personal development, she enthusiastically told me about her plan to take a gap year next year to attend a one-year full-time program at an art academy to study painting. It's not for any career change or direction adjustment, but simply because she likes it. For a moment, I couldn't tell if I was envying her ability to pursue something she "simply likes" to such an extent, or her ability to find such a passion.
 
-也许自己也在一些阶段做出了一些转变，不论是学业还是工作的方向，似乎也需要一些所谓的勇气，但内心深知自己已经平衡了其中的成本与得失，自己似乎已经好久好久没有为自己的内心追求与纯粹的喜欢去做一些事了。学姐所在体验与践行的就是曾经的我所向往的另一种生活，也让我看到了另一种生活的可能性。
+Perhaps I've also made some transitions at certain stages, whether in academics or career direction. It seems to require a certain kind of courage, but deep down I know I've already balanced the costs and gains. It seems I haven't done anything for my inner pursuit and pure liking for a long, long time. The life my senior is experiencing and practicing is the other kind of life I once aspired to, and it shows me the possibility of another way of living.
 
-## 其他
+## Miscellaneous
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record some of my inputs and outputs, as well as other things I find interesting.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-收到了一位读者 seyee 的评论：
+I received a comment from a reader named seyee:
 
-> 好奇一下这些书你都会读完嘛（没有质疑的意思，只是作为社畜觉得一周读这么多书好厉害）
+> I'm curious if you actually finish all these books (I don't mean to question you, it's just that as a working-class person, I find it amazing to read so many books in a week)
 
-其实当然是不可能一周读那么多的书哈哈，只是我有并行读书的习惯，尤其是一些非小说类的书籍我可能会每天读部分章节，也根据时段和心情不同选择读不同的书，平均下来一本完整的书读完会在 2 周左右，但是遇到感兴趣的剧情类的可能一下午或者一晚上就会读完，或是两三个通勤时段，列举出来的大多是刚好在这周读完或是有读部分篇章的书。
+Of course, it's impossible to read so many books in a week. I have a habit of reading multiple books in parallel, especially for non-fiction books. I might read certain chapters every day, choosing different books based on the time of day and my mood. On average, it takes about two weeks to finish a complete book. However, if I come across an interesting fiction book, I might finish it in an afternoon or evening, or in two or three commuting periods. Most of the books listed are either just finished this week or have had some chapters read.
 
 {{< figure src="https://image.pseudoyu.com/images/reading_book_yizang.jpg" caption="Reading Book">}}
 
-对于读书这件事从并不想以量或是产出作为自己的压力或是限制，而是更多作为自己的一种输入渠道和某种程度上的放松手段（当然在之前读《房思琪的初恋乐园》的时候也会 emo 好几天），尽量会达到一种情绪平衡吧。也是因为来自工作和多个方面的压力才寄托在书籍、电影这些媒介上，更像自己的一方净土吧。
+Regarding reading, I don't want to pressure or restrict myself with quantity or output. Instead, it serves more as an input channel and, to some extent, a means of relaxation (although I did feel emotional for several days after reading "The Stolen Bicycle"). I try to achieve a kind of emotional balance. It's also because of the pressure from work and various aspects that I take refuge in books, movies, and other media. It's more like my own pure land.
 
-- **我的职业是小说家**，正在读。
-- **常识**，正在读。
-- **自学大全**，其实自己好像不算很喜欢像是《如何阅读一本书》这类的偏工具技巧类书籍，但确实有挺多经验可取的地方，这本书最近也比较火，刚开始看看，希望能有些方法上的参照。
-- **what if，那些古怪又让人忧心的问题**，发现是那个火柴人的作者，真的讲了好多我小时候一些很好奇的疑问。
+- **My Profession is a Novelist**, currently reading.
+- **Common Sense**, currently reading.
+- **The Art of Self-Learning**, I don't particularly like books that focus on tools and techniques, like "How to Read a Book", but there are indeed many useful experiences to draw from. This book has been popular recently, so I've just started reading it, hoping to find some methodological references.
+- **What If?: Serious Scientific Answers to Absurd Hypothetical Questions**, I discovered it's by the author of those stick figure comics. It really addresses many questions I was curious about as a child.
 
-#### 剧集
+#### TV Series
 
-- **Hacking Google**，意外地节奏感很不错，虽然没有深入技术细节，但有把安全链条中的各个环节很清晰地呈现出来，很向往。
-- **边缘世界**，正在追，但是感觉从第三集开始有些节奏一般，不过应该还是会追完。
+- **Hacking Google**, surprisingly good pacing. Although it doesn't delve into technical details, it clearly presents various links in the security chain. Very inspiring.
+- **Peripheral**, currently watching, but the pace seems to have slowed down from the third episode. However, I'll probably finish it.

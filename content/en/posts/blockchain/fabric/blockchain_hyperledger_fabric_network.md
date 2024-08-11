@@ -1,5 +1,5 @@
 ---
-title: "Hyperledger Fabric 网络与安全体系浅析"
+title: "A Brief Analysis of Hyperledger Fabric Network and Security System"
 date: 2021-03-23T12:12:17+08:00
 draft: false
 tags: ["blockchain", "hyperledger fabric", "security"]
@@ -8,126 +8,126 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-上一篇文章《[Hyperledger Fabric 架构详解](https://www.pseudoyu.com/en/2021/03/20/blockchain_hyperledger_fabric_structure/)》对`Fabric`的架构和工作原理进行了详细的解读与分析，那作为一个企业级的区块链系统，它是如何根据复杂的业务需求搭建网络，在运行过程中存在哪些安全问题，以及`Fabric`是如何从机制上进行预防的呢？
+In the previous article, "[Detailed Explanation of Hyperledger Fabric Architecture](https://www.pseudoyu.com/en/2021/03/20/blockchain_hyperledger_fabric_structure/)", we provided a comprehensive interpretation and analysis of Fabric's architecture and operational principles. As an enterprise-grade blockchain system, how does it construct networks based on complex business requirements? What security issues exist during its operation, and how does Fabric preventively address these issues through its mechanisms?
 
-本文将通过实例阐释一个简化版的企业`Fabric`网络是如何构建的，并对其网络与安全体系进行分析，如有错漏，欢迎交流指正。
+This article will illustrate how a simplified enterprise Fabric network is constructed through examples, and analyze its network and security system. Any errors or omissions are welcome for discussion and correction.
 
-## Hyperledger Fabric 网络
+## Hyperledger Fabric Network
 
-### Hyperledger Fabric 应用场景实例
+### Hyperledger Fabric Application Scenario Example
 
-#### 业务角色
+#### Business Roles
 
-假设有一个采用`Fabric`系统的应用场景里。
+Let's consider an application scenario using the Fabric system.
 
-有 4 个组织`R1`, `R2`, `R3`和`R4`，`R4`是网络启动者，`R1`和`R4`共同担任网络管理员角色。
+There are four organizations: R1, R2, R3, and R4. R4 is the network initiator, while R1 and R4 jointly serve as network administrators.
 
-系统设置了 2 个通道，分别为`C1`和`C2`。`R1`和`R2`使用`C1`通道，`R2`和`R3`使用`C2`通道。
+The system has set up two channels, C1 and C2. R1 and R2 use channel C1, while R2 and R3 use channel C2.
 
-应用`A1`属于组织`R1`，于`C1`通道运行；应用`A2`属于组织`R2`，同时于`C1`通道和`C2`通道运行；应用`A3`属于组织`R3`，于`C2`通道运行。
+Application A1 belongs to organization R1 and runs on channel C1; application A2 belongs to organization R2 and runs on both channels C1 and C2; application A3 belongs to organization R3 and runs on channel C2.
 
-`P1`、`P2`和`P3`分别是组织`R1`、`R2`和`R3`的节点。
+P1, P2, and P3 are nodes of organizations R1, R2, and R3, respectively.
 
-排序节点由`O4`提供，属于组织`R4`.
+The ordering node is provided by O4, belonging to organization R4.
 
-#### 搭建过程
+#### Construction Process
 
-与真正的商业应用场景相比，角色和商业和逻辑都很简化，但很适合用来理解不同节点和角色之间的功能和交互。接下来，我将一步一步说明网络的搭建过程。
+Compared to real commercial application scenarios, the roles and business logic are greatly simplified, but this is suitable for understanding the functions and interactions between different nodes and roles. Next, I will explain the network construction process step by step.
 
-> 创建网络并添加网络管理员
+> Create network and add network administrators
 
-每一个组织需要通过`MSP`中的 CA 机构颁发的证书才能加入网络，因此，每个节点都需要有相应的 CA。
+Each organization needs a certificate issued by the CA authority in the MSP to join the network, so each node needs to have a corresponding CA.
 
-`R4`作为网络启动者，需要先配置网络并设立`O4`排序节点！网络创建后，添加`R1`作为网络管理员，因此，`R1`和`R4`可以对网络进行配置（`NC4`）。
+As the network initiator, R4 needs to configure the network first and establish the O4 ordering node! After the network is created, R1 is added as a network administrator, so R1 and R4 can configure the network (NC4).
 
 ![fabric_network_example_1](https://image.pseudoyu.com/images/fabric_network_example_1.png)
 
-> 定义联盟并创建通道
+> Define consortium and create channel
 
-`R1`和`R2`将通过`C1`进行业务交互，因此需要在网络中定义联盟，因为现在`R1`和`R4`都可以对网络进行配置，因此都可以定义联盟。
+R1 and R2 will interact through C1, so a consortium needs to be defined in the network. Since both R1 and R4 can now configure the network, both can define the consortium.
 
-接着为这个联盟创建通道`C1`（连接至排序服务`O4`）。
+Then create channel C1 for this consortium (connected to ordering service O4).
 
 ![fabric_network_example_2](https://image.pseudoyu.com/images/fabric_network_example_2.png)
 
-> 加入节点、部署智能合约与应用
+> Join nodes, deploy smart contracts and applications
 
-`P1`节点加入已经建立的通道`C1`，维护着一个账本`L1`。
+Node P1 joins the established channel C1, maintaining a ledger L1.
 
-这时候就可以在节点上安装和实例化智能合约了。`Fabric`的智能合约是链码，把链码存储在节点的文件系统上称为安装智能合约，安装后还需要在特定的通道上启动和实例化链码，至此，应用可以发送交易 proposal 至背书节点了（需要遵守链码设置的背书策略）。
+At this point, smart contracts can be installed and instantiated on the node. Fabric's smart contracts are chaincodes. Storing chaincode on the node's file system is called installing a smart contract. After installation, the chaincode needs to be launched and instantiated on a specific channel. At this point, applications can send transaction proposals to endorsing nodes (following the endorsement policy set by the chaincode).
 
-如下图所示，`P1`节点安装链码`S5`并在通道`C1`实例化后，就可以响应来自应用`A1`的链码调用了;`P2`节点安装链码`S5`并在通道`C1`实例化后，就可以响应来自应用`A2`的链码调用了。
+As shown in the figure below, after node P1 installs chaincode S5 and instantiates it on channel C1, it can respond to chaincode invocations from application A1; after node P2 installs chaincode S5 and instantiates it on channel C1, it can respond to chaincode invocations from application A2.
 
-通道中的每一个节点都是提交节点，可以接收新区块（来自排序节点）进行验证，并提交至账本；而部署了链码的一些节点则可以成为背书节点。
+Every node in the channel is a committing node, capable of receiving new blocks (from ordering nodes) for validation and committing to the ledger; some nodes with deployed chaincodes can become endorsing nodes.
 
 ![fabric_network_example_4](https://image.pseudoyu.com/images/fabric_network_example_4.png)
 
-> 定义新联盟、创建新通道
+> Define new consortium, create new channel
 
-在网络中定义新联盟并加入`C2`通道。
+Define a new consortium in the network and join channel C2.
 
 ![fabric_network_example_5](https://image.pseudoyu.com/images/fabric_network_example_5.png)
 
-> 加入新节点并部署智能合约与应用
+> Join new nodes and deploy smart contracts and applications
 
-值得注意的是，有些节点会同时加入多个通道，在不同的业务中扮演不同的角色，其他流程同上。
+It's worth noting that some nodes will join multiple channels, playing different roles in different businesses. Other processes are the same as above.
 
 ![fabric_network_example_6](https://image.pseudoyu.com/images/fabric_network_example_6.png)
 
-> 网络搭建完成
+> Network construction complete
 
 ![hyperledger_fabric_network_example](https://image.pseudoyu.com/images/hyperledger_fabric_network_example.png)
 
-`Fabric`采用权限管理、通道等机制，并通过对不同节点功能分工，提升了系统的运行效率，并保障了复杂业务场景中的安全和隐私；强大的链码和可自定义的背书策略等也保障了系统的拓展性，可以处理复杂的业务逻辑。
+Fabric adopts mechanisms such as permission management and channels, and improves system operational efficiency through functional division of different nodes, while ensuring security and privacy in complex business scenarios. Powerful chaincodes and customizable endorsement policies also ensure the system's scalability and ability to handle complex business logic.
 
-## Hyperledger Fabric 安全分析
+## Hyperledger Fabric Security Analysis
 
-### Fabric 安全机制
+### Fabric Security Mechanisms
 
-`Fabric`设计了很多机制来保障系统的安全性。
+Fabric has designed many mechanisms to ensure system security.
 
-#### 系统配置与成员管理
+#### System Configuration and Membership Management
 
-区别于比特币、以太坊等公链，加入`Fabric`网络需要进行权限验证，`Fabric CA`为成员管理使用`X.509`证书机制以保障其权限，避免潜在`Spoofing`攻击等。
+Unlike public chains such as Bitcoin and Ethereum, joining the Fabric network requires permission verification. Fabric CA uses the X.509 certificate mechanism for membership management to ensure its permissions and avoid potential spoofing attacks.
 
-现有的系统成员需要制定加入新成员的规则，比如进行多数投票等；现有成员也需要决定网络和智能合约的更新和改变，这样能够很大程度上防止恶意节点破坏系统安全性；现有节点不能自行升级权限；除此之外，还需要决定系统的通用数据模型等设置。
+Existing system members need to establish rules for adding new members, such as majority voting; existing members also need to decide on network and smart contract updates and changes, which can greatly prevent malicious nodes from compromising system security; existing nodes cannot upgrade permissions on their own; in addition, they need to decide on system-wide data models and other settings.
 
-`Fabric`的网络传输采用`TLSv1.2`，可以保障数据的安全性；且系统中的操作，如发起交易、背书等都会通过数字签名技术来记录，很容易追溯一些恶意操作。但值得注意的是，排序节点可以获取系统中所有节点的交易数据，因此，排序服务节点的设定对于整个系统的安全性尤其重要，它的公正性会很大程度影响整个系统的运作，甚至决定了整个系统是否值得信任，因此，需要根据业务和系统结构慎重选择。
+Fabric's network transmission uses TLSv1.2, which can ensure data security; operations in the system, such as initiating transactions and endorsements, will be recorded through digital signature technology, making it easy to trace some malicious operations. However, it's worth noting that ordering nodes can access transaction data from all nodes in the system. Therefore, the setting of ordering service nodes is particularly important for the security of the entire system. Its impartiality will greatly affect the operation of the entire system and even determine whether the entire system is trustworthy. Therefore, it needs to be carefully selected based on business and system structure.
 
-公链系统中，所有节点都有区块链账本的副本，并且执行智能合约；而在`Fabric`系统中，业务相关节点会形成节点组，存储与其交易（业务）相关的账本，而通过链码对账本的更新也会被限制在节点组的范围内，从而保障整个系统的稳定性。
+In public chain systems, all nodes have a copy of the blockchain ledger and execute smart contracts; in the Fabric system, business-related nodes form node groups, storing ledgers related to their transactions (business), and updates to the ledger through chaincode are also limited to the scope of the node group, thereby ensuring the stability of the entire system.
 
-智能合约的执行称为交易，对于`Fabric`系统内的交易，也必须要保持其一致性，往往采用密码学技术来防止交易被篡改，如采用`SHA256`、`ECDSA`等检测修改；`Fabric`采取模块化、可插拔的设计，将交易的执行、验证共识进行分离，因此，可以采取不同的共识机制或规则，不仅能够根据需求选择不同的共识机制，更具拓展性，也能提高系统安全性。
+The execution of smart contracts is called a transaction. For transactions within the Fabric system, consistency must also be maintained. Cryptographic techniques are often used to prevent transactions from being tampered with, such as using SHA256, ECDSA, etc., to detect modifications. Fabric adopts a modular, pluggable design, separating transaction execution, validation, and consensus, so different consensus mechanisms or rules can be adopted. This not only allows for the selection of different consensus mechanisms according to needs, providing more scalability, but also improves system security.
 
-这些配置和规则共同决定了系统的安全性，需要在业务需求、效率和安全性上作权衡。
+These configurations and rules collectively determine the security of the system and need to be balanced against business requirements, efficiency, and security.
 
-#### 智能合约安全
+#### Smart Contract Security
 
-`Fabric`的链码需要安装在节点上并且实例化，安装链码需要有 CA 的验证，因此要注意权限管理；启动后是运行在独立的 Docker 容器中的，更轻量级，但是因为它能够访问`Fabric`网络，如果没经过严格的代码审计以及对网络进行隔离，会造成一些恶意后果。
+Fabric's chaincode needs to be installed on nodes and instantiated. Installing chaincode requires CA verification, so permission management needs to be considered; once launched, it runs in an independent Docker container, which is more lightweight, but because it can access the Fabric network, it can cause some malicious consequences if it hasn't undergone strict code auditing and network isolation.
 
-`Fabric`的链码可以用多种通用型的编程语言撰写，例如`Go`、`Java`等，这让系统有了更强的拓展性，也更容易接入现有系统和工具，但因为其执行结果是不缺性的，编程语言的一些特性（如随机数、系统时间戳、指针等）可能会造成不同背书节点执行结果不同，造成系统不一致性；此外，因为链码可以访问一些外部的 Web 服务、系统命令、文件系统和第三方库等，也会造成一些潜在的风险。因此，用这些通用语言开发的链码需要相对独立且加强代码审计，以避免一些因编程语言带来的安全风险。
+Fabric's chaincode can be written in multiple general-purpose programming languages, such as Go, Java, etc., which gives the system stronger scalability and makes it easier to integrate with existing systems and tools. However, because its execution results are deterministic, some features of programming languages (such as random numbers, system timestamps, pointers, etc.) may cause different endorsing nodes to produce different execution results, leading to system inconsistency. In addition, because chaincode can access some external Web services, system commands, file systems, and third-party libraries, it can also pose some potential risks. Therefore, chaincodes developed in these general-purpose languages need to be relatively independent and undergo enhanced code auditing to avoid some security risks brought by programming languages.
 
-#### 交易隐私
+#### Transaction Privacy
 
-`Fabric`采用了通道机制来划分整个系统为多个子区块链（账本），只有加入通道的节点才能查看和存储交易信息，但排序节点可以看到。
+Fabric uses a channel mechanism to divide the entire system into multiple sub-blockchains (ledgers), and only nodes that join the channel can view and store transaction information, but ordering nodes can see it.
 
-> 那有什么办法在通道中保障一些私有数据的隐私呢？
+> So how can privacy of some private data be ensured within a channel?
 
-`Fabric`提供了一种存储私有数据的方式，使通道中的节点可以选择特定的数据分享对象（节点）。
+Fabric provides a way to store private data, allowing nodes in the channel to choose specific data sharing objects (nodes).
 
 ![fabric_security_private_data](https://image.pseudoyu.com/images/fabric_security_private_data.png)
 
-在这种机制下，真实的数据会通过`gossip`协议发送到指定的节点，数据存放私有数据库中，只有授权节点可以通过链码进行访问，因为这个过程并没有涉及到排序服务，所以排序节点也无法获取。
+Under this mechanism, real data is sent to specified nodes through the gossip protocol and stored in a private database, which can only be accessed through chaincode by authorized nodes. Because this process does not involve the ordering service, ordering nodes cannot obtain the data.
 
-而在系统内传播、排序与写入账本的数据是经过哈希加密的版本，因此交易仍然可以被各个节点验证，但因为哈希的特性，可以有效保护原数据不被泄漏。
+The data propagated, ordered, and written to the ledger within the system is a hashed version, so the transaction can still be verified by each node, but due to the nature of hashing, it can effectively protect the original data from being leaked.
 
-但值得注意的是，如果在背书节点模拟交易过程中需要使用到数据，那需要采取额外的机制来保障数据对于背书节点的可读性和对其他节点的不可见性（如非对称加密等）。
+However, it's worth noting that if data needs to be used during the transaction simulation process on endorsing nodes, additional mechanisms need to be adopted to ensure the readability of the data to endorsing nodes and its invisibility to other nodes (such as asymmetric encryption).
 
-## 总结
+## Conclusion
 
-以上就是对`Hyperledger Fabric`网络搭建和安全体系分析了，接下来将会开始学习`Go`和链码的开发，通过项目实战来对其进行深入了解学习！
+The above is an analysis of Hyperledger Fabric network construction and security system. Next, I will start learning Go and chaincode development, gaining a deeper understanding through project practice!
 
-## 参考资料
+## References
 
 > 1. [FITE3011 Distributed Ledger and Blockchain](https://www.cs.hku.hk/index.php/programmes/course-offered?infile=2019/fite3011.html), *Allen Au，HKU*

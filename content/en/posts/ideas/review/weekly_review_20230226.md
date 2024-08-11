@@ -1,5 +1,5 @@
 ---
-title: "周报 #32 - 武汉、久别重逢与流动的心绪"
+title: "Weekly Review #32 - Wuhan, Long-Awaited Reunions, and Flowing Emotions"
 date: 2023-02-26T15:24:25+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "university", "change", "friend", "wuhan"]
@@ -8,99 +8,99 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/christmas_song_english_version.mp3" caption="《クリスマスソング (English Cover) - Matt Cab》" >}}
+{{<audio src="audios/christmas_song_english_version.mp3" caption="'クリスマスソング (English Cover) - Matt Cab'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-02-21` 到 `2023-02-26` 这周生活的记录与思考。
+This is a record and reflection of my life from `2023-02-21` to `2023-02-26`.
 
-这一周工作上比较日常，并没有太紧急的任务，由于一些自己的事而处于有些紧绷的状态，但焦虑感和低迷的情绪却少了很多，大概有一种一切都在正轨上的感觉了吧。
+This week was relatively routine in terms of work, with no particularly urgent tasks. Despite being in a somewhat tense state due to personal matters, I felt less anxious and depressed. Perhaps there was a sense that everything was on the right track.
 
-前两周静茹突然发消息说 23-25 这个周末能不能来武汉，刚好和屈都在，想着能一起见一面，没什么犹豫，又有了一场随心的“旅行”，也重新回到学校、学院见了一些老师朋友。因为有了失去的疫情三年，似乎现在盘点和一些朋友的上一次见面都会恍惚良久，原来都是三四年前的事了。
+Two weeks ago, Jingru suddenly messaged asking if I could come to Wuhan on the weekend of the 23rd-25th, as she and Qu would both be there. The thought of seeing each other again led to another spontaneous "trip" without much hesitation. I returned to the school and college, meeting some old teachers and friends. Due to the lost three years of the pandemic, it now seems that when I recall the last time I met some friends, it's been a bewildering three or four years.
 
-这次在武汉也仅仅度过了周五周六两天，时间很短，却是自己这两年里第一次纯粹的旅行，有种很奇妙的感觉，似乎重新感受到了生活和自己心绪的流动，也从另一面映射出了自己的变化。
+This time in Wuhan, I only spent Friday and Saturday, a short time, yet it was my first purely leisure trip in two years. There was a peculiar feeling, as if I was once again sensing the flow of life and my own emotions, while also reflecting on my own changes from another perspective.
 
-## 武汉
+## Wuhan
 
-15 年的 6 月，自己填志愿时翻阅了学校发的一本小册子，里面有所有学校的介绍与历年分数线，带着些草率地选择着未来几年要朝夕相处的城市。其实没花多久就决定了武汉，大概多少源于自己曾向往武大的人文气息（分数差点，没去成，所以选择的学校多了两个字），进而觉得这个城市也带上了一些别样的吸引力。
+In June 2015, as I filled out my college application, I flipped through a small booklet issued by the school, which contained introductions to all universities and their historical admission scores. I somewhat hastily chose the city where I would spend the next few years. It didn't take long to decide on Wuhan, probably partly due to my longing for the humanistic atmosphere of Wuhan University (I fell short on scores, so I chose a school with two more characters in its name), which in turn gave the city a unique appeal.
 
-虽然我会觉得学业上自己有些惭愧地并没有付出太多，也没有什么记忆深刻的成就，但在武汉度过的时光却不知不觉成为了我生命中很重要的一段时光。毕业时因为身边大多人也离开了武汉四散各方，我也曾想过说即使之后与这个城市再无交集似乎也没什么，重要的是这些记忆与关系。
+Although I feel somewhat ashamed that I didn't put much effort into my studies and don't have any particularly memorable achievements, the time I spent in Wuhan has unconsciously become a very important part of my life. When I graduated, since most people around me had also left Wuhan for various places, I once thought that even if I had no more connection with this city in the future, it wouldn't matter much. What's important are the memories and relationships.
 
-而这次回武汉，从武汉站下车，到换乘地铁途经一个个熟悉的站名，再到那条走过几千遍的工大路与学院教室，才发现原来这个城市和里面的一草一木原来也已经刻入了自己的生活中，久违地感受到了一种“回归”的感觉。
+But on this return to Wuhan, from getting off at Wuhan Station, to changing subway lines and passing through familiar station names, to that street I had walked thousands of times and the college classrooms, I realized that this city and everything in it had already been etched into my life. I felt a long-lost sense of "return".
 
-也许算不上归属感，从独自拖着行李箱来到这个城市的那一刻，我就明白我终究是客居于此，甚至都没对这个城市抱有太多期望，直到离开时其实难过的也只是与这些熟悉的人分别本身。但不久后，疫情爆发了，封城、方舱、许多令人悲痛的消息甚至就发生在认识的人身边，这个城市似乎渐渐蒙上了一层灰色。
+Perhaps it's not quite a sense of belonging. From the moment I arrived in this city alone, dragging my suitcase, I knew I was just a temporary resident here. I didn't even have many expectations for this city, and when I left, what saddened me was only the parting from these familiar people. But soon after, the pandemic broke out. Lockdowns, makeshift hospitals, and many heartbreaking news even happened to people I knew, and the city seemed to gradually be covered in a layer of gray.
 
-当时我人在杭州，看着网络上铺天盖地的负面消息，以及更多对武汉的谩骂与隐性歧视，切实地感受到了一种心疼与无奈，一个原本充满那么多色彩的城市现今却以这样的方式展示在所有人的面前。提到武汉明明有那么多值得说的，粮道街的“过早”文化、热干面与周黑鸭、自带气场的武汉话，暴躁却直爽的武汉公交司机（虽然真的有被一个刹车从最后一排差点飞到了中间）、传说走过就能携手白头的长江大桥（走过几次，风挺大、挺锻炼身体的，其他并没什么用）、江汉路的繁华与江边的惬意时光，光谷的热闹与成谜的交通状况。还有很多有趣或是会拿来的调侃的点，会跟朋友说这个城市很值得自己去体验一下，多面而别具魅力。却因为这一场疫情，武汉似乎已经渐渐失去了这种神秘感，甚至让一些人有了些固有印象，心情还是挺复杂的。
+At that time, I was in Hangzhou, watching the flood of negative news online, as well as more insults and implicit discrimination against Wuhan. I felt a real sense of heartache and helplessness. A city that was once full of so many colors was now being presented to everyone in this way. There are so many things worth mentioning about Wuhan: the "early breakfast" culture of Liangdao Street, hot dry noodles and Zhou Heiya, the imposing Wuhan dialect, the hot-tempered yet straightforward Wuhan bus drivers (although I was nearly thrown from the back to the middle by one sudden brake), the Yangtze River Bridge that legend says will lead to lifelong companionship if you walk across it together (I've walked it a few times, it's quite windy and good exercise, but not much else), the prosperity of Jianghan Road and the leisurely moments by the river, the bustle of Optics Valley and its puzzling traffic conditions. There are many interesting points or things to joke about, and I would tell friends that this city is worth experiencing for themselves, multifaceted and uniquely charming. But because of this pandemic, Wuhan seems to have gradually lost this sense of mystery, and even left some people with fixed impressions, which makes me feel quite complex.
 
-武汉并不会成为我第二个家，却始终会是我归途的栖息之所，累了，也许就会回去看看，重新捡起自己的生活。
+Wuhan will not become my second home, but it will always be a resting place on my journey home. When I'm tired, perhaps I'll go back to see it and pick up my life again.
 
-## 久别重逢与流动的心绪
+## Long-Awaited Reunions and Flowing Emotions
 
-曾经在『[周报 #09 - 没有色彩的 Yu 和他的巡礼之年](https://www.pseudoyu.com/en/2022/08/29/weekly_review_20220829/)』这一篇文章中有提到过这样一群人：
+In a previous article, "[Weekly Review #09 - Colorless Yu and His Year of Pilgrimage](https://www.pseudoyu.com/en/2022/08/29/weekly_review_20220829/)", I mentioned a group of people:
 
 ![four_people_relationship](https://image.pseudoyu.com/images/four_people_relationship.png)
 
-> 人在各个阶段似乎总是会有抱团的倾向，而一旦依赖于一个群体又不免遭受来自关系的压力与挫折。大学时我曾有这样一个四人小团体，两男两女，总是形影不离，到辅导员或是同学发现缺人都会很自然地询问其余的人。
+> People always seem to have a tendency to form groups at various stages, and once dependent on a group, one inevitably suffers from the pressure and frustration of relationships. In college, I had such a group of four, two boys and two girls, always inseparable. When the counselor or classmates found someone missing, they would naturally ask the others.
 >
-> 但我在一段时间后感受到了明显的压力，剩下三位似乎是更风云一点的人物，总是在人群中耀眼的那一个，而我却似乎总是缺乏存在感，而内心又不想成为这样出于习惯而依附其中的多余之人。于是我开始刻意回避和逃离，当然，表现拙劣的我并不懂如何隐藏，很快就被察觉。
+> But after a while, I felt obvious pressure. The other three seemed to be more prominent figures, always the ones shining in the crowd, while I always seemed to lack presence. Internally, I didn't want to be the redundant one who was there out of habit. So I started to deliberately avoid and escape, of course, my clumsy performance couldn't hide it, and it was quickly noticed.
 >
-> 可以说比起多崎作我是幸运的，没有被抛弃，也没有什么误会，另外三位在一个夜晚把我堵在男生宿舍楼下让我讲出心结，并逐一进行排解，关于个性和存在感的回应我可能依旧觉得是安慰，但有感受到自己有被这段关系和模式所需要，自己的情绪有被他们所认真看待，我们的关系有被珍惜。即使后续因为城市和很多原因已经少有共同行动的机会了，但是依然有着不错的联系，以及到了任一成员所在的城市所首先会想到的人。
+> I was luckier than Tsukuru Tazaki in that I wasn't abandoned, nor were there any misunderstandings. The other three cornered me at the boys' dormitory one night and made me speak out my concerns, addressing them one by one. I might still feel that the responses about personality and presence were just comfort, but I felt that I was needed in this relationship and pattern, that my emotions were taken seriously by them, that our relationship was cherished. Even though we later had few opportunities to act together due to cities and many reasons, we still maintain good contact, and they are the first people we think of when we arrive in any member's city.
 
-这次回武汉见的就是他们。
+These are the people I met in Wuhan this time.
 
 ![photo_with_ru_qu_and_lei](https://image.pseudoyu.com/images/photo_with_ru_qu_and_lei.jpg)
 
-自己其实一直都很珍惜这种自然惬意的关系，似乎是谁一句“想你了”就能见面的那种，不需要太多刻意的陈词铺垫或是安排，倪、占、晓瑜和他们都是，即使由于疫情其实已经都三四年没能见面了。
+I've always cherished this kind of natural and comfortable relationship, the kind where a simple "I miss you" can lead to a meeting. It doesn't need much deliberate rhetoric or arrangement. Ni, Zhan, Xiaoyu and them are all like this, even though we haven't been able to meet for three or four years due to the pandemic.
 
-在香港时也有在一晚接到一个突然的视频电话，他们三个在武汉相聚，我在微信视频中远程合影，而这次，终于我也能够在现场了。吃吃喝喝，闲散地逛着校园，讲着过去和现在的事，一切如旧。行程匆忙，周日就回了北京，希望也能再多相见。
+When I was in Hong Kong, I received a sudden video call one night, the three of them were gathering in Wuhan, and I took a remote group photo via WeChat video. This time, I was finally able to be there in person. Eating, drinking, wandering leisurely around the campus, talking about the past and present, everything was as before. The trip was hurried, I returned to Beijing on Sunday, hoping we can meet more often.
 
-除了见面外，在这次短暂出行中似乎发现自己有了一些变化，会更愿意去感受身边的事物，会更频繁地因为一些不起眼的小事或者甚至是在走过某条路时恰好听到的一首歌而愉悦，明明目前被一些很值得焦虑的事包围着，但心绪却似乎渐渐随着旅程流动了起来。
+Apart from meeting, I seem to have discovered some changes in myself during this brief trip. I'm more willing to feel the things around me, more frequently delighted by some inconspicuous little things or even a song I happen to hear while walking down a certain road. Even though I'm currently surrounded by some anxiety-worthy things, my emotions seem to have gradually started flowing with the journey.
 
-也后面也希望能有更多旅行的机会，
+I hope to have more opportunities for travel in the future.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 赛博搬家
+### Cyber Moving
 
-大概多少是对国内的互联网公司以及一些面向国内的服务有些心存疑虑，这半年陆续在把自己所依赖的服务都尽可能搬到了国外，虽然大多还是中心化的，至少能少一些审查及隐私保护方面的担心吧。
+Perhaps it's due to some doubts about domestic internet companies and some services oriented towards China, over the past six months I've been gradually moving all the services I rely on overseas as much as possible. Although most are still centralized, at least there's less concern about censorship and privacy protection.
 
-而在武汉的这一周终于把依赖最重且搬家最麻烦的 iCloud 从云上贵州搬到了港区，还经过了不少波折，不得不说 Apple 在帐号管理和云服务同步这一块做的实在是不太行。
+During this week in Wuhan, I finally moved iCloud, which I relied on the most and was the most troublesome to move, from Guizhou Cloud to the Hong Kong region. It went through quite a few twists and turns. I have to say that Apple's account management and cloud service synchronization are really not good in this aspect.
 
-因为我的帐号买了很多软件（包括 Final Cut Pro X 等全家桶），所以其实并不想开一个新的号来专门迁移，幸好 Apple 的换区是能够保留已购买项目的，且我所有在国区买的 App 在港区也都有，这一点上其实还是比较无缝的。
+Because my account has bought many software (including Final Cut Pro X and other suite products), I didn't want to open a new account just for migration. Fortunately, Apple's region change can retain purchased items, and all the Apps I bought in the China region are also available in the Hong Kong region, which is actually quite seamless in this respect.
 
-但 Apple 的家庭共享就没有那么方便了，之前是我的帐号开了一个 Family，共享了 iCloud 200G 给倪和占共同使用，并且还监护了我妹妹的帐号（因为未满 14 岁），在我想换区时，则是需要先把我妹妹的帐号迁移到另一个家庭，以及我订阅的 Apple Music 到期（甚至不能提前，只能等到当月订阅周期结束，有点离谱），然后再用港区的支付方式与各类信息来更换区域，再启用港区的家庭共享 iCloud。
+But Apple's family sharing is not so convenient. Previously, my account opened a Family and shared 200G iCloud with Ni and Zhan for common use, and also monitored my sister's account (because she's under 14). When I wanted to change regions, I needed to first transfer my sister's account to another family, and wait for my subscribed Apple Music to expire (couldn't even do it in advance, could only wait until the end of the current month's subscription cycle, which is a bit ridiculous), then use Hong Kong region payment methods and various information to change the region, and then enable Hong Kong region family sharing iCloud.
 
-不仅是过程有些麻烦，而且在重新登录帐号时 iPhone 还出现了验证错误的情况，查了很多资料，都说只能恢复出厂设置，于是只能折腾了一晚上软件，幸好之前在[工具箱项目](https://github.com/pseudoyu/yu-tools)中有过记录，但所有权限/应用都要重新设置也很痛苦，幸好最终还是解决了，总觉得这也是一件迟早要做的事。
+Not only was the process somewhat troublesome, but when logging in to the account again, the iPhone also had a verification error. After checking a lot of information, they all said it could only be restored to factory settings, so I had to spend a night tinkering with the software. Fortunately, I had recorded it in the [toolbox project](https://github.com/pseudoyu/yu-tools) before, but it was still painful to reset all permissions/applications. Fortunately, it was finally resolved. I feel this is something that had to be done sooner or later.
 
-另一部手机是 OnePlus 7 Pro，好几年前买的了，也是一到手就折腾刷了海外版氧 OS 来使用 Google 全家桶，可能国内厂商和一些服务已经让我到了有些精神洁癖的地步了。
+The other phone is OnePlus 7 Pro, which I bought several years ago. As soon as I got it, I tinkered with it and flashed the overseas version of Oxygen OS to use the Google suite. Maybe domestic manufacturers and some services have made me reach a point of mental cleanliness.
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 『[Yu's Life](https://t.me/pseudoyulife)』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synchronized in the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
 
-#### 文章
+#### Articles
 
-- [Dapp 状态去哪了 - HackMD](https://hackmd.io/@zV4fWkDaSii_Wz7rS5R5SQ/S1sjKhKUi)
+- [Where Did the Dapp State Go - HackMD](https://hackmd.io/@zV4fWkDaSii_Wz7rS5R5SQ/S1sjKhKUi)
 - [How Douyin Bootstrapped Its Flywheel](https://tieshunroquerre.com/blog/douyin)
 
-#### 视频
+#### Videos
 
-同样的，也有记录一下看过的有意思的视频：
+Similarly, I've also recorded some interesting videos I've watched:
 
-- [对话 RSS3 创始人 Joshua：从 ChatGPT、AI 与 Web3、Web3 Social、Open Web 概念到 RSS3 发展思路【Rex Talk】](https://www.youtube.com/watch?v=FcZIdh-MRNQ)
+- [Dialogue with RSS3 Founder Joshua: From ChatGPT, AI and Web3, Web3 Social, Open Web Concept to RSS3 Development Ideas【Rex Talk】](https://www.youtube.com/watch?v=FcZIdh-MRNQ)
 - [Microsoft vs Google: AI War Explained | tech news](https://www.youtube.com/watch?v=BdHaeczStRA)
-- [我们是倦怠的一代人，对内剥削自我，对外孤立自我](https://www.bilibili.com/video/BV1Ls4y1b7UE)
+- [We are a burnt-out generation, exploiting ourselves internally and isolating ourselves externally](https://www.bilibili.com/video/BV1Ls4y1b7UE)
 
-## 个人生活剪影
+## Personal Life Snapshots
 
-因为要去武汉，所以把捏捏寄养到了学姐家，自己就没拍什么照片，倒是因为她待得有点乐不思蜀了，我还拍了张在武汉的咖啡馆抱别的小猫的照片给她看：
+Because I was going to Wuhan, I sent Nini to my senior's house for pet-sitting, so I didn't take many photos myself. But because she seemed to be enjoying herself a bit too much there, I even took a photo of myself hugging another cat in a café in Wuhan to show her:
 
 ![yu_hug_other_cat](https://image.pseudoyu.com/images/yu_hug_other_cat.jpg)
 
-然后她惬意躺在新家沙发上，一副 Who Cares 的样子：
+Then she was comfortably lying on the sofa in her new home, with a "Who Cares" look:
 
 ![nie_nie_with_boyi](https://image.pseudoyu.com/images/nie_nie_with_boyi.jpg)
 
 ![nie_nie_and_other_cat](https://image.pseudoyu.com/images/nie_nie_and_other_cat.png)
 
-这只没良心的小猫。
+This ungrateful little cat.

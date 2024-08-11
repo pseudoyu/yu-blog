@@ -1,5 +1,5 @@
 ---
-title: "区块链服务平台（BaaS）简介及架构"
+title: "Introduction and Architecture of Blockchain as a Service (BaaS) Platforms"
 date: 2021-09-07T10:00:52+08:00
 draft: false
 tags: ["blockchain", "hyperledger fabric", "baas"]
@@ -8,64 +8,64 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-目前工作中负责一个针对 Hyperledger Fabric 的区块链即服务 (Blockchain as a Service, BaaS) 平台的链码管理部分，对这 BaaS 平台的架构与实现很感兴趣，作为一个能为开发者提供一站式应用创建、管理和维护区块链的平台，其架构是怎么样的呢？
+In my current work, I am responsible for the chaincode management portion of a Blockchain as a Service (BaaS) platform for Hyperledger Fabric. I'm quite interested in the architecture and implementation of BaaS platforms. As a platform that provides developers with one-stop creation, management, and maintenance of blockchain applications, what does its architecture look like?
 
-本文是对 BaaS 平台架构的总结和梳理。
+This article is a summary and analysis of the BaaS platform architecture.
 
-## BaaS 简介
+## Introduction to BaaS
 
-区块链是一个复杂的分布式系统，尤其是像 Hyperledger Fabric 这样的企业联盟链平台，其部署和运维都非常复杂，作为应用开发者需要处理许多环境问题（如证书、docker 环境等），带来了许多挑战。
+Blockchain is a complex distributed system, especially enterprise consortium chain platforms like Hyperledger Fabric, where deployment and operation are extremely intricate. As application developers, we need to handle many environmental issues (such as certificates, Docker environments, etc.), which brings numerous challenges.
 
-因此，BaaS 平台应运而生，它是一种帮助用户创建、管理和维护企业级区块链的应用平台，用户能够通过友好的 Web 界面对区块链进行操作。通过 BaaS 平台，用户可以很灵活地搭建区块链网络、管理区块链业务和各个模块的功能、进行智能合约的研发和部署以及实时监控和运维。
+Therefore, BaaS platforms have emerged. They are application platforms that help users create, manage, and maintain enterprise-level blockchains. Users can operate the blockchain through a user-friendly web interface. Through BaaS platforms, users can flexibly build blockchain networks, manage blockchain business and various module functions, develop and deploy smart contracts, and perform real-time monitoring and operation.
 
-通过 BaaS 平台，开发者可以快速进行区块链业务的研发，综合成本大大降低，且有助于系统稳定性、安全性和易用性等的提升。
+With BaaS platforms, developers can quickly conduct blockchain business development, greatly reducing overall costs, and helping to improve system stability, security, and usability.
 
 ![baas_framework](https://image.pseudoyu.com/images/baas_framework.png)
 
-## 平台架构
+## Platform Architecture
 
-BaaS 平台作为一个一站式应用服务，自下而上主要分为以下几层：
+As a one-stop application service, a BaaS platform is primarily divided into the following layers from bottom to top:
 
-1. 资源层
-2. 监控运维层
-3. 区块链底层
-4. 区块链服务层
-5. 应用层
+1. Resource Layer
+2. Monitoring and Operations Layer
+3. Blockchain Underlying Layer
+4. Blockchain Service Layer
+5. Application Layer
 
-而根据每个系统的业务差异，各个层的架构与功能模块会有所差异，下面将会对几大主流平台层次结构做一些描述。
+Depending on the business differences of each system, the architecture and functional modules of each layer will vary. Below, I will describe the hierarchical structures of several mainstream platforms.
 
 ### Hyperledger Cello
 
 ![hyperledger_cello_overview](https://image.pseudoyu.com/images/hyperledger_cello_overview.png)
 
-[Hyperledger Cello](https://github.com/hyperledger/cello) 作为 IBM Hyperledger 的顶级项目之一，是一个开源区块链管理平台，支持部署、运行时管理和数据分析等功能。
+[Hyperledger Cello](https://github.com/hyperledger/cello), as one of IBM Hyperledger's top-level projects, is an open-source blockchain management platform that supports deployment, runtime management, and data analysis functions.
 
-Cello 目前支持 Hyperledger Fabric 区块链，可以有效管理 Fabric 链的生命周期，主要包含以下模块：
+Cello currently supports Hyperledger Fabric blockchain and can effectively manage the lifecycle of Fabric chains. It mainly includes the following modules:
 
 ![hyperledger_cello_architecture](https://image.pseudoyu.com/images/hyperledger_cello_architecture.png)
 
-除了高效地创建部署网络外，Cello 提供了一些对于区块链的管理功能：
+In addition to efficiently creating and deploying networks, Cello provides some management functions for blockchains:
 
-- 区块链生命周期管理
-- 底层支持多种架构，如 Docker、Swarm、Kubernetes 等
-- 支持多种底层区块链平台并可以自定义配置
-- 支持运行时监控与运维
-- 可插拔的框架设计，可以通过插件的形式拓展第三方功能，如资源调度、驱动代理等
+- Blockchain lifecycle management
+- Support for multiple underlying architectures such as Docker, Swarm, Kubernetes, etc.
+- Support for multiple underlying blockchain platforms with customizable configurations
+- Runtime monitoring and operations support
+- Pluggable framework design, allowing extension of third-party functions through plugins, such as resource scheduling, driver agents, etc.
 
-### 趣链 BaaS
+### Hyperchain BaaS
 
-根据官网介绍，BlocFace 是由趣链科技为企业及开发者全新推出的区块链服务平台，为用户提供一键部署联盟链、可视化监控运维和智能合约研发等一站式研发服务，其平台架构如下：
+According to the official website, BlocFace is a blockchain service platform newly launched by Hyperchain Technology for enterprises and developers. It provides users with one-click deployment of consortium chains, visual monitoring and operations, and smart contract development, among other one-stop development services. Its platform architecture is as follows:
 
 ![hyperchain_baas](https://image.pseudoyu.com/images/hyperchain_baas.png)
 
-## 总结
+## Conclusion
 
-以上就是对区块链服务平台 (BaaS) 的简介及架构分析，因为目前的 Leader 是 Hyperledger Cello 的项目发起人和核心开发者，鼓励我积极参与 Cello 的开源建设，要加油啦！
+The above is an introduction and architectural analysis of Blockchain as a Service (BaaS) platforms. As my current leader is the project initiator and core developer of Hyperledger Cello, I am encouraged to actively participate in Cello's open-source development. Time to work hard!
 
-## 参考资料
+## References
 
-> 1. [区块链原理、设计与应用](https://book.douban.com/subject/27127839/)
-> 2. [Hyperledger Cello 项目地址](https://github.com/hyperledger/cello)
-> 3. [BlocFace 官网](https://www.hyperchain.cn/products/blocface)
+> 1. [Blockchain: Principles, Design and Applications](https://book.douban.com/subject/27127839/)
+> 2. [Hyperledger Cello Project Repository](https://github.com/hyperledger/cello)
+> 3. [BlocFace Official Website](https://www.hyperchain.cn/products/blocface)

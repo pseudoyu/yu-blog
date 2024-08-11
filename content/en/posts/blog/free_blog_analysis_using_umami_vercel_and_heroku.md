@@ -1,5 +1,5 @@
 ---
-title: "从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）"
+title: "Building a Free Personal Blog Analytics System from Scratch (umami + Vercel + Heroku)"
 date: 2022-05-21T16:56:47+08:00
 draft: false
 tags: ["hugo", "umami", "heroku", "vercel", "serverless", "self-host", "blog"]
@@ -8,163 +8,163 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
 ![umami_dashboard_white](https://image.pseudoyu.com/images/umami_dashboard_white.png)
 
-之前写了一篇《[免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)》，讲述了一下我使用 Serverless 和一些开源项目搭建的博客系统，也开了个系列来记录搭建过程。
+Previously, I wrote an article titled "Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)", detailing my blog system built using Serverless and some open-source projects. I also started a series to document the setup process.
 
-前几天看到 [Reorx](https://reorx.com) 写的一篇 《[搭建 umami 收集个人网站统计数据](https://reorx.com/blog/deploy-umami-for-personal-website/)》，他介绍了 [umami](https://umami.is) 这个项目，并使用 [Railway](https://railway.app) 进行无服务搭建部署。
+A few days ago, I came across an article by [Reorx](https://reorx.com) titled "Deploy umami for Personal Website Analytics". He introduced the [umami](https://umami.is) project and demonstrated its serverless deployment using [Railway](https://railway.app).
 
-只不过我因为之前部署 [Cusdis](https://cusdis.com) 的时候使用的是 [Heroku](https://www.heroku.com/) 提供的免费 Postgres 数据库服务并用 [Vercel](http://vercel.com/) 进行部署，于是在部署 umami 的时候还是想沿用原来的平台，减少搭建和维护成本。
+However, since I had previously used [Heroku](https://www.heroku.com/)'s free Postgres database service and deployed with [Vercel](http://vercel.com/) when setting up [Cusdis](https://cusdis.com), I wanted to continue using these platforms for umami to reduce setup and maintenance costs.
 
-下文会对具体搭建部署流程做个记录，因为官方支持一键部署方式，整个搭建流程很顺畅。
+The following text will record the specific setup and deployment process. Thanks to the official one-click deployment method, the entire setup process was very smooth.
 
-**[2024-06-30 更新]**
+**[2024-06-30 Update]**
 
-后来由于 Heroku 取消了免费 Plan，如果依然想完全免费使用，可以使用 Vercel/Netlify/Zeabur 免费部署主项目 + Supabase 部署 PostgreSQL 数据库实例部署的方式，把链接作为环境变量传入 Umami 服务中即可，其余流程依然适用。
+Later, as Heroku discontinued its free plan, if you still want to use it completely free, you can use Vercel/Netlify/Zeabur for free deployment of the main project + Supabase for deploying PostgreSQL database instances. Pass the link as an environment variable to the Umami service. The rest of the process remains applicable.
 
-## 搭建部署说明
+## Setup and Deployment Instructions
 
-### 使用 Heroku 创建 Postgres 数据库
+### Creating a Postgres Database with Heroku
 
-#### 创建 Postgres 数据库
+#### Creating the Postgres Database
 
-首先注册一个 Heroku 账号，登录成功后，点击右上角按钮创建一个新的应用。
+First, register for a Heroku account. After logging in successfully, click the button in the upper right corner to create a new application.
 
 ![cretae_app_in_heroku_1](https://image.pseudoyu.com/images/cretae_app_in_heroku_1.png)
 
-输入实例名称，地区可以自行选择，我选择的是 United States，点击创建。
+Enter the instance name, and choose the region as you prefer. I selected United States. Click create.
 
 ![cretae_app_in_heroku_2](https://image.pseudoyu.com/images/cretae_app_in_heroku_2.png)
 
-创建完成后，在 Resources Tab 的 Adds-on 中搜索选择 Postgres 数据库。
+After creation, search and select the Postgres database in the Adds-on section of the Resources Tab.
 
 ![add_heroku_postgres](https://image.pseudoyu.com/images/add_heroku_postgres.png)
 
-选择 Free Plan 即可，Heroku 中的 Postgres 数据库是免费的，可以持续使用，免去了搭建维护成本。
+Choose the Free Plan. The Postgres database in Heroku is free and can be used continuously, eliminating setup and maintenance costs.
 
 ![heroku_postgres_plan](https://image.pseudoyu.com/images/heroku_postgres_plan.png)
 
-创建完成后，在 Setting 中查看 `DATABASE_URL`，后面部署要用到。
+After creation, check the `DATABASE_URL` in Settings, which will be used later for deployment.
 
 ![postgres_data_url](https://image.pseudoyu.com/images/postgres_data_url.jpg)
 
-点击新增的 Postgres add-on 跳转进行设置。
+Click on the newly added Postgres add-on to proceed with settings.
 
 ![postgres_addon_details](https://image.pseudoyu.com/images/postgres_addon_details.png)
 
-进入后，选择 Setting 页面的 View Credentials，并且记录配置参数。
+Once inside, select View Credentials in the Settings page and record the configuration parameters.
 
 ![heroku_credentials](https://image.pseudoyu.com/images/heroku_credentials.png)
 
 ![postgres_settings](https://image.pseudoyu.com/images/postgres_settings.jpg)
 
-#### 初始化 Postgres 数据库
+#### Initializing the Postgres Database
 
-因为需要初始化数据库，我使用的是 DataGrip 数据库管理工具进行连接，比较方便，也可以通过 Heroku CLI 进行连接和配置。
+As database initialization is required, I used the DataGrip database management tool for connection, which is quite convenient. You can also connect and configure through the Heroku CLI.
 
 ![postgres_config](https://image.pseudoyu.com/images/postgres_config.jpg)
 
-umami 需要通过官方提供的 [umami/sql/schema.postgresql.sql](https://github.com/mikecao/umami/blob/master/sql/schema.postgresql.sql) 脚本进行初始化。
+Umami needs to be initialized using the official [umami/sql/schema.postgresql.sql](https://github.com/mikecao/umami/blob/master/sql/schema.postgresql.sql) script.
 
 ![postgres_init_script](https://image.pseudoyu.com/images/postgres_init_script.png)
 
-执行完成后，数据库有了五张表与初始化数据，可以进行后续部署工作。
+After execution, the database will have five tables with initialized data, and you can proceed with subsequent deployment work.
 
-### 使用 Vercel 一键部署 umami 服务
+### One-Click Deployment of umami Service Using Vercel
 
-#### 部署 umami 服务
+#### Deploying the umami Service
 
-创建好数据库实例之后，可以通过 Vercel 一键部署 umami 服务了。
+After creating the database instance, you can deploy the umami service with one click through Vercel.
 
-访问 [umami 官方文档](https://umami.is) 的 [Running on Vercel](https://umami.is/docs/running-on-vercel) 模块，有操作说明与一键部署脚本。
+Visit the [Running on Vercel](https://umami.is/docs/running-on-vercel) module in the [umami official documentation](https://umami.is) for operation instructions and one-click deployment script.
 
 ![running_on_vercel](https://image.pseudoyu.com/images/running_on_vercel.png)
 
-点击一键部署按钮后，会跳转至 Vercel 的一键部署页面，创建 umami 的 Github 仓库。
+After clicking the one-click deployment button, you will be redirected to Vercel's one-click deployment page to create a Github repository for umami.
 
 ![vercel_create_umami_repo](https://image.pseudoyu.com/images/vercel_create_umami_repo.png)
 
-接下来需要填入之前在部署 Heroku Postgres 实例时记录到 `DATABASE_URL` 参数地址，并且需要填写一个自定义字符串 `HASH_SLAT`。
+Next, you need to enter the `DATABASE_URL` parameter address recorded when deploying the Heroku Postgres instance earlier, and you need to fill in a custom string `HASH_SLAT`.
 
 ![vercel_config_umami](https://image.pseudoyu.com/images/vercel_config_umami.png)
 
-点击 Deploy 进行部署，等待几分钟后部署完成即可。
+Click Deploy to start deployment. It will be completed in a few minutes.
 
 ![vercel_deploy](https://image.pseudoyu.com/images/vercel_deploy.png)
 
 ![vecel_deploy_done](https://image.pseudoyu.com/images/vecel_deploy_done.png)
 
-#### 访问 umami 服务
+#### Accessing the umami Service
 
-部署完成后，点击 Dashboard 或分配的 Vercel 域名访问服务，可以看到 umami 的登录界面。
+After deployment, click Dashboard or the assigned Vercel domain to access the service. You will see the umami login interface.
 
 ![umami_login](https://image.pseudoyu.com/images/umami_login.png)
 
-初次登录输入默认用户名 `admin` 与默认密码 `umami`，登录成功后，会跳转至 umami 的管理页面，登录后可以点击右上角头像自行修改密码。
+For the first login, enter the default username `admin` and default password `umami`. After successful login, you will be redirected to the umami management page. You can click on the avatar in the upper right corner to change your password.
 
 ![umami_change_password](https://image.pseudoyu.com/images/umami_change_password.png)
 
-#### 配置个人网站至 umami 服务
+#### Configuring Personal Website to umami Service
 
-完成基础帐号配置后，点击侧边栏网站 Tab，点击添加网站。
+After completing the basic account configuration, click on the Websites tab in the sidebar, then click Add Website.
 
 ![umami_add_website_1](https://image.pseudoyu.com/images/umami_add_website_1.png)
 
-填写网站基本信息，如果勾选共享链接可以生成一个可公开访问的网址，我把它添加了一个书签放在 iPad 主屏幕上，作为一个数据看板也很不错。
+Fill in the basic website information. If you check the share link, it will generate a publicly accessible URL. I added it as a bookmark on my iPad's home screen, which also works great as a data dashboard.
 
 ![umami_add_website_2](https://image.pseudoyu.com/images/umami_add_website_2.png)
 
-#### 配置 umami 脚本至个人博客网站
+#### Configuring umami Script to Personal Blog Website
 
-网站创建完成，获取 umami 脚本。
+After creating the website, obtain the umami script.
 
 ![get_umami_script](https://image.pseudoyu.com/images/get_umami_script.jpg)
 
-获取后，在个人网站添加 umami 脚本。我使用的是静态博客 Hugo，在主题中的 `<head>` 标签内添加。
+Once obtained, add the umami script to your personal website. I use the static blog Hugo, adding it within the `<head>` tag in the theme.
 
 ![set_umami_script](https://image.pseudoyu.com/images/set_umami_script.jpg)
 
-配置完成部署，即可开始追踪网站数据。
+After configuration and deployment, you can start tracking website data.
 
 ![umami_dashboard_white](https://image.pseudoyu.com/images/umami_dashboard_white.png)
 
-#### 配置自定义脚本名称
+#### Configuring Custom Script Name
 
-使用官方的 `umami.js` 脚本名称，可能会被一些过滤规则拦截，因此我们可以自定义脚本名称，实现更准确地网站数据追踪。
+Using the official `umami.js` script name might be blocked by some filtering rules. Therefore, we can customize the script name to achieve more accurate website data tracking.
 
-官方也提供了便捷的修改方式，可以在 Vercel 中已经部署的 umami 服务中增加 `TRACKER_SCRIPT_NAME` 环境变量，配置为自定义名称。
+The official also provides a convenient modification method. You can add the `TRACKER_SCRIPT_NAME` environment variable in the umami service already deployed in Vercel, configuring it to a custom name.
 
 ![umami_script_environment_varible](https://image.pseudoyu.com/images/umami_script_environment_varible.png)
 
-配置完成后重新部署，再在个人网站脚本中更改脚本名称即可。
+After configuration, redeploy, and then change the script name in your personal website script.
 
 ![change_umami_script](https://image.pseudoyu.com/images/change_umami_script.jpg)
 
-#### 配置自定义域名
+#### Configuring Custom Domain
 
-如果不想要使用 Vercel 提供的 `vercel.app` 域名，可以在 Vercel 中添加自定义域名，按照 Vercel 官方指引对域名提供商进行 `CANME` 等配置。
+If you don't want to use the `vercel.app` domain provided by Vercel, you can add a custom domain in Vercel. Follow the official Vercel guide to configure `CNAME` etc. for your domain provider.
 
 ![set_custom_domain](https://image.pseudoyu.com/images/set_custom_domain.png)
 
-例如，我使用的是 [Cloudflare](https://www.cloudflare.com) 托管的域名，需要先添加一下域名解析。
+For example, I use a domain hosted by [Cloudflare](https://www.cloudflare.com), so I need to add domain resolution first.
 
 ![cloudflare_canme_config](https://image.pseudoyu.com/images/cloudflare_canme_config.png)
 
-根据官方说明，Cloudflare 还需要添加一个页面规则，配置完成后即可完成自定义域名配置。
+According to the official instructions, Cloudflare also needs to add a page rule. After configuration, you can complete the custom domain configuration.
 
 ![cloudflare_page_rule](https://image.pseudoyu.com/images/cloudflare_page_rule.png)
 
-## 总结
+## Conclusion
 
-以上就是我们为网站添加 umami 网站统计服务的全流程，配置完成后无需后续维护，可以便捷地通过看板来进行网站数据追踪。这是我的博客搭建部署系列教程之一，请持续关注，希望能对大家有所参考。
+The above is the complete process of adding the umami website statistics service to our website. Once configured, it requires no subsequent maintenance and allows for convenient website data tracking through the dashboard. This is one of my blog setup and deployment series tutorials. Please stay tuned, and I hope it can be of reference to everyone.
 
-## 参考资料
+## References
 
 > 1. [umami](https://umami.is)
-> 2. [搭建 umami 收集个人网站统计数据](https://reorx.com/blog/deploy-umami-for-personal-website/)
-> 3. [Vercel 官方网站](http://vercel.com)
-> 4. [Heroku 官方网站](https://www.heroku.com)
+> 2. [Deploy umami for Personal Website Analytics](https://reorx.com/blog/deploy-umami-for-personal-website/)
+> 3. [Vercel Official Website](http://vercel.com)
+> 4. [Heroku Official Website](https://www.heroku.com)

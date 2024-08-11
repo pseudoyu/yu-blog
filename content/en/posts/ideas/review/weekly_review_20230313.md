@@ -1,5 +1,5 @@
 ---
-title: "周报 #34 - Don't Stop the Clocks"
+title: "Weekly Review #34 - Don't Stop the Clocks"
 date: 2023-03-13T17:29:49+08:00
 draft: false
 tags: ["review", "life", "home", "time", "memory", "plan", "work", "future", "chatgpt"]
@@ -8,79 +8,79 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/dont_stop_the_clocks.mp3" caption="《Don't Stop the Clocks - King Gnu》" >}}
+{{<audio src="audios/dont_stop_the_clocks.mp3" caption="'Don't Stop the Clocks - King Gnu'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-03-08` 到 `2023-03-13` 这周生活的记录与思考。
+This piece is a record and reflection of my life from `2023-03-08` to `2023-03-13`.
 
-本周主要是工作的一些交接，相比起之前算不上忙碌，但紧迫的时间和后续要处理的事务依然带来了不少压力。毕竟还是即将离开一个生活了近两年的城市，更多的时间留给了一些聊天和聚餐，倒也是久违的放松时刻，然而就好像一直在走动的时钟在这两周突然停摆，觉得自己也还挺有意思的，忙碌的时候很想休息放松，而真正能卸下一些包袱的时候却又有些无所适从。
+This week was primarily focused on work handovers, which wasn't as busy as before, but the pressing time and impending tasks still brought considerable pressure. After all, I'm about to leave a city I've lived in for nearly two years. More time was spent on conversations and gatherings, which were rare moments of relaxation. Yet, it feels as if the constantly moving clock suddenly stopped these two weeks. I find myself quite interesting - when busy, I long for rest and relaxation, but when I can truly unburden myself, I feel somewhat at a loss.
 
-上篇刚写完就没长记性，又经历了一次喝断片，不过倒是是上演了同事们集中从各种线索里找我家地址最后虚惊一场的经历，也是一个有些奇妙的记忆点了；眼镜断了，但是因为本来度数不高，所以干脆几天没戴，有些不适应变得略模糊的世界但也还好；晓瑜打了电话，讲了很多近况；见了一些新老朋友，家里还当作猫咖迎接了两波朋友；还有很多有意思的事。
+Just after writing the last piece, I didn't learn my lesson and experienced another blackout from drinking. However, it led to an interesting experience of my colleagues piecing together clues to find my home address, which turned out to be a false alarm. It's become a peculiar memory point. My glasses broke, but since my prescription isn't strong, I simply went without them for a few days. The slightly blurry world took some getting used to, but it was manageable. Xiaoyu called and shared a lot about her recent situation. I met some new and old friends, and my home even served as a cat cafe welcoming two groups of friends. There were many other interesting happenings as well.
 
 ## Don't Stop the Clocks
 
 ![steve-johnson-clock](https://image.pseudoyu.com/images/steve-johnson-clock.jpg)
 
-跟晓瑜电话时，因为有提到说后面可能计划去日本一边远程办公一边重返学校学个摄影这样自己喜欢的专业，她突然提到一句，从高一认识以来，也许是因为想做或是想做到的事太多，似乎我一直在向前走着，一直都不愿意停下。
+During the phone call with Xiaoyu, when I mentioned my potential plan to go to Japan for remote work and return to school to study photography - a subject I'm fond of - she suddenly remarked that since we met in high school, perhaps because of the many things I wanted to do or achieve, I've always been moving forward, never willing to stop.
 
-回想了一下，确实。即使在 19 年本科毕业时所谓的 gap year 也忙忙碌碌做了不少事，攒够了学费。其实也不是什么压力所迫，家人一直以来也很支持我的选择，只是自己似乎大概在大二大三开始真正思考自己想做什么，想成为什么的时候，就不自觉地一直处于向前走的状态，想自由且独立地决定自己的人生，经历过一些否认和挫折因此也更想做到，或者说更不愿意输，太过习惯这样的节奏以至于不知道怎么样停下来。
+Reflecting on it, it's indeed true. Even during my so-called gap year after graduating from university in 2019, I was busy doing many things, saving up for tuition. It wasn't really due to any pressure; my family has always been supportive of my choices. It's just that around my sophomore or junior year, when I truly started to ponder what I wanted to do and who I wanted to become, I unconsciously found myself in a constant state of moving forward. I wanted to make decisions about my life freely and independently. Having experienced some denials and setbacks made me want to achieve even more, or perhaps made me less willing to lose. I've become so accustomed to this rhythm that I don't know how to stop.
 
-想起常听的一首歌的歌名，『Don't Stop the Clocks』。之前自己的生活似乎像是一座时钟，似乎只有在转动时才能感受到意义。
+It reminds me of a song I often listen to, "Don't Stop the Clocks". Previously, my life seemed like a clock, only feeling meaningful when it was turning.
 
-中学时代没想那么多，基础不算太好的自己似乎只有不断努力去追寻更好的成绩；本科时知道明明不是喜欢的专业，其实也有大把的时间，却没有过多花在方向探索上，反而是过于努力地去参与各种学生组织来追求那个环境下的“最优解”，最多的时候四个社团，一周五六个会；在即将迈入大四，似乎可以闲下来的时候开始了自己的视频工作室创业，重新回到了忙碌的状态；毕业的时候才发现自己其实依然不愿意草草地从事一个自己并不喜欢的岗位，所以开启了 gap year，筹备留学申请，即使早早拿到了 offer 却也总是患得患失；去香港前反复告诫自己，可能是自己最后的学生生活了，要好好享受其中，其实也没能做好，从 1 月开启第二个学期后，就不断地开始焦虑实习、工作；工作后由于是自己的第一份正式的技术工作，从未敢松懈，似乎为了向他人和自己证明自己是能够好好走这条路的。
+In my school days, I didn't think too much about it. With a not-so-strong foundation, I seemed to only strive continuously for better grades. During university, knowing it wasn't a major I liked, I actually had plenty of time but didn't spend much of it exploring directions. Instead, I was overly diligent in participating in various student organizations, pursuing what seemed to be the "optimal solution" in that environment. At most, I was in four clubs, with five or six meetings a week. Just as I was about to enter my senior year, when I could have slowed down, I started my own video studio business, returning to a busy state. Upon graduation, I realized I still wasn't willing to casually take up a job I didn't like, so I embarked on a gap year, preparing for graduate school applications. Even after receiving an offer early, I was always anxious. Before going to Hong Kong, I repeatedly told myself that it might be my last student life experience and that I should enjoy it fully, but I couldn't really do so. From January, when the second semester started, I constantly worried about internships and jobs. After starting work, being my first formal technical job, I never dared to slack off, seemingly trying to prove to others and myself that I could walk this path well.
 
-其实就结果论而言似乎这些前进都是有意义的，带来了还不错的高考成绩让我进入了一个还可以的大学环境，带来了不错的本科绩点和履历让我申请留学时至少不那么制约，带来了还不错的技术积累让自己也还有机会去追求自己喜欢的方向，也带来了很多很多其他的。但代价就像晓瑜说的，“感觉你一直好累哦”。是啊，其实挺累的，也不想很鸡汤地说什么一切都值得之类的，一路有得有失罢了。
+In terms of results, all this progress seems to have been meaningful. It brought decent college entrance exam scores that allowed me to enter a good university environment, good undergraduate grades and resume that didn't constrain me when applying for graduate school, decent technical accumulation that gives me the opportunity to pursue directions I like, and many other things. But the cost, as Xiaoyu said, was "You always seem so tired." Indeed, it has been quite tiring. I don't want to say something cliché like it was all worth it; it's just a journey with gains and losses.
 
-现在身处在两份工作之间有些难的可贵的 gap week 中，却才真正愿意放缓自己的时间，不带那么多得失心去做、去思考一些事。会熬夜刷剧，第二天早上和试图叫我起床换粮的捏捏僵持；会把自己的租屋当成猫咖，一个周末接待了两波访客；会打开几个月都没动过的 Switch，和朋友打一下午的双人成行（真好玩！）。
+Now, in this rare and precious gap week between two jobs, I'm finally willing to slow down my pace, to do and think about things without so much concern for gain or loss. I stay up late binge-watching shows, then stubbornly resist Nini's attempts to wake me up for breakfast the next morning. I turn my rental into a cat cafe, hosting two groups of visitors in one weekend. I open my Switch that hasn't been touched for months and spend an afternoon playing "It Takes Two" with a friend (it's really fun!).
 
 > 時計の針を進めて。
-> 时钟的指针继续向前走吧。
+> Let the clock's hands continue to move forward.
 
-即使到了现在，我依然会跟自己说，“Don't Stop the Clocks”，因为未来依然有很多有意思的事值得自己去追寻，只是也会常常告诫自己，也别总是看向前方，偶尔也多体会身边的人事物，他们才是自己生活流动、让生命有意义的刻度，一切时光都值得被珍惜，即使是“虚度”的。
+Even now, I still tell myself, "Don't Stop the Clocks," because there are still many interesting things in the future worth pursuing. However, I also often remind myself not to always look ahead, but to experience more of the people and things around me. They are the markings that make life flow and give it meaning. Every moment is worth cherishing, even the "wasted" ones.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 『[Yu's Life](https://t.me/pseudoyulife)』Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
 
-#### 文章
+#### Articles
 
 - [Why Write?](https://fs.blog/why-write/)
-- [当稳定币不再稳定 - Atlas](https://atlas-thinking.xlog.app/when-stablecoin-is-not-stable)
-- [使用 Cloudflare Workers 解决 OpenAI 和 ChatGPT 的 API 无法访问的问题](https://github.com/noobnooc/noobnooc/discussions/9)
+- [When Stablecoins Are Not Stable - Atlas](https://atlas-thinking.xlog.app/when-stablecoin-is-not-stable)
+- [Solving OpenAI and ChatGPT API Access Issues with Cloudflare Workers](https://github.com/noobnooc/noobnooc/discussions/9)
 - [OKR + GTD + Note => Logseq · BMPI](https://www.bmpi.dev/self/okr-gtd-note-logseq/)
 
-#### 视频
+#### Videos
 
-同样的，也有记录一下看过的有意思的视频：
+Similarly, I've also recorded some interesting videos I've watched:
 
 - [Web Development In 2023 - A Practical Guide](https://www.youtube.com/watch?v=u72H_zZzkcw)
-- [和家人一起旅行，有多崩溃？！【西双版纳摆烂游】](https://www.bilibili.com/video/BV1e24y1G7ri)
-- [人只有一个使命：走向自我｜德米安【推书】](https://www.bilibili.com/video/BV1q24y1g7AJ)
-- [像我们这种怪人，会有朋友吗？](https://www.bilibili.com/video/BV19g4y1t7gg)
+- [How Chaotic Can Traveling with Family Be?! 【Xishuangbanna Lazy Tour】](https://www.bilibili.com/video/BV1e24y1G7ri)
+- [Humans Have Only One Mission: To Move Towards Self | Demian 【Book Recommendation】](https://www.bilibili.com/video/BV1q24y1g7AJ)
+- [Will Odd People Like Us Have Friends?](https://www.bilibili.com/video/BV19g4y1t7gg)
 
-#### 剧集
+#### TV Series
 
-- **黑暗荣耀**，可能因为看韩剧算少，感觉制作还挺精良的。一次性看完觉得剧情呈现还算完整但有些老套，只是周汝正人设有点喜欢诶，不逾矩的爱，还挺配的，基本上只想看他们谈恋爱。
+- **The Glory**, perhaps because I watch few Korean dramas, I found the production quite exquisite. Watching it all at once, the plot presentation felt complete but somewhat cliché. I quite like Joo Yeo-jeong's character design though. His love, which never crosses the line, seems quite fitting. Basically, I just wanted to watch their romance.
 
-## 个人生活剪影
+## Personal Life Snapshots
 
 ![tweet_about_chatgpt_and_chunge](https://image.pseudoyu.com/images/tweet_about_chatgpt_and_chunge.png)
 
-> 初中班主任想给学生演示 ChatGPT，但是国内访问和各种登录限制是挺大的问题，折腾了一圈，最后采用了 Vercel 自部署 + GPT-3.5 Turbo API
+> My middle school homeroom teacher wanted to demonstrate ChatGPT to his students, but access and login restrictions in China are quite problematic. After much effort, he finally adopted Vercel self-deployment + GPT-3.5 Turbo API
 >
 > <https://github.com/ddiu8081/chatgpt-demo>
 >
-> 并且根据这篇教程使用 Cloudflare Workers 配置 openai 代理
+> And according to this tutorial, used Cloudflare Workers to configure an OpenAI proxy
 >
 > <https://github.com/noobnooc/noobnooc/discussions/9>
 >
-> 终于有了不错的体验，有点小开心。
+> Finally got a good experience, feeling a bit happy.
 
-初中班主任春哥因为想给学生演示 ChatGPT（也可能想偷懒让 ChatGPT 帮忙备课），所以我就搭建了一个服务供国内网络环境下直接访问使用，花了半个上午，真正用上的时候还挺开心的。
+My middle school homeroom teacher, Brother Chun, wanted to demonstrate ChatGPT to his students (or maybe he wanted to use ChatGPT to help with lesson preparation lazily), so I set up a service for direct access in the domestic network environment. It took half a morning, but when it was finally put to use, I felt quite happy.
 
-自己之前还挺常被戏称是小叮当，或者最近还多了个称号，被怀疑是人工 ChatGPT，似乎总是能用奇奇怪怪的方式实现朋友们的一些需求，还挺有趣的，也很享受其中。
+I used to be often jokingly called Doraemon, and recently I've gained a new title - being suspected of being a human ChatGPT. It seems I can always use strange ways to meet my friends' needs, which is quite interesting. I really enjoy it.
 
-然后就是希望下一周一切顺利了。
+Then, I hope everything goes well in the next week.

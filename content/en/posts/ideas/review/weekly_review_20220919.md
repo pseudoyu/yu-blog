@@ -1,5 +1,5 @@
 ---
-title: "周报 #12 - 赛博空间、自我定义与界限"
+title: "Weekly Review #12 - Cyberspace, Self-Definition and Boundaries"
 date: 2022-09-19T12:53:53+08:00
 draft: false
 tags: ["review", "life", "work", "internet", "cyber space", "ego", "self definition"]
@@ -8,92 +8,92 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-09-13` 到 `2022-09-18` 这周生活的记录与思考。
+This is a record and reflection of my life from `2022-09-13` to `2022-09-18`.
 
-过去这一周有些忙碌，在几个项目中反复徘徊，所以也没能有很多输入。周末要加班但不想一直窝在家里，所以外出了，意外发现了一家挺不错的咖啡厅，度过了惬意的一天。
+The past week has been somewhat busy, oscillating between several projects, so I haven't had much input. I had to work over the weekend but didn't want to stay cooped up at home, so I went out and unexpectedly found a nice café where I spent a pleasant day.
 
-## 赛博空间
+## Cyberspace
 
-之前从 [Reorx](https://twitter.com/novoreorx) 的这一篇『[使用自动化工作流聚合信息摄入和输出](https://reorx.com/blog/sharing-my-footprints-automation/)』了解到了“[赛博空间](https://en.wikipedia.org/wiki/Cyberspace)” 这一概念，原话是：
+I previously learned about the concept of "cyberspace" from [Reorx](https://twitter.com/novoreorx)'s article "[Using Automated Workflows to Aggregate Information Intake and Output](https://reorx.com/blog/sharing-my-footprints-automation/)". The original quote is:
 
-> 赛博空间构成了我的精神世界。
+> Cyberspace constitutes my spiritual world.
 
-很难不赞同这一描述。
+It's hard not to agree with this description.
 
-不知道从什么时候起，自己其实能很明显感受到自己对网络世界信息的依赖。可能有别于游戏瘾或是经常被诟病的短视频算法鸦片，我的这种依赖并不是机械性地刷刷刷，或是面对焦虑时的逃避，而是一种对于信息获取的渴求，甚至内化为了一种生活方式。
+I'm not sure when it began, but I can clearly feel my dependence on information from the online world. Unlike gaming addiction or the often-criticized short video algorithm opium, my dependence isn't about mindlessly scrolling or escaping anxiety. It's a craving for information acquisition that has become internalized as a way of life.
 
-依赖于网络世界其实最难免的是与社交媒体与算法的抗争，一方面是要避免自己被过载的贩卖焦虑的信息或是熟人社交圈的“Peer Pressure”所困扰，另一方面也需要警惕算法所构造的信息茧房。
+Relying on the online world inevitably involves struggling with social media and algorithms. On one hand, we need to avoid being troubled by overwhelming anxiety-inducing information or "peer pressure" from our social circles. On the other hand, we must be vigilant against the information cocoons constructed by algorithms.
 
-实话说这一点挺难做到，即使自己多少算是具备一些克制和过滤信息的能力并有意识在这样做，但依然难以避免被其所扰乱思绪或是引导。我最后采取了一种简单却也行之有效的方式 —— 关闭微信朋友圈入口与大部分软件通知提醒。
+To be honest, this is quite difficult to achieve. Even though I have some ability to restrain myself and filter information, and I'm consciously trying to do so, it's still hard to avoid being disturbed or guided by it. I eventually adopted a simple yet effective method - turning off the WeChat Moments entry and most app notifications.
 
-大概是从大三的一个晚上我关闭了朋友圈的入口，具体的情境与动机已经有些模糊，但这一偶然之举也奇迹般成为了一个我坚持至今的习惯。想说的是，这并不意味着我不再关注朋友或是周围人的动态，在关闭朋友圈之后，常常在阶段性想起一些人的时候会点进他们的头像去看看近况，也许会就一些内容开启一次对话。
+I turned off my Moments entry one night in my junior year. The specific context and motivation are a bit blurry now, but this accidental act miraculously became a habit I've stuck to until now. I want to say that this doesn't mean I no longer care about my friends or the people around me. After closing Moments, I often click into their avatars to check on their recent status when I think of certain people periodically, and maybe start a conversation about some content.
 
-也许听起来有些多余，比起一个即时的小红点提醒，我们需要经历“想起某个具体的人/事 -> 找到对话框 -> 点进头像 -> 查看朋友圈 -> 了解近况”这样繁琐的过程。但于我而言，如同一种仪式感的隐喻，这种刻意制造的麻烦不断提醒着我维护一段关系所需要付出的部分，渐渐地，朋友越来越少，但留存的人也愈加重要。
+It might sound redundant. Compared to an instant red dot notification, we need to go through the cumbersome process of "remembering a specific person/thing -> finding the chat box -> clicking on the avatar -> viewing Moments -> understanding recent status". But for me, it's like a metaphor for ritual. This deliberately created trouble constantly reminds me of the effort needed to maintain a relationship. Gradually, I have fewer friends, but the remaining ones become increasingly important.
 
-而近两年也做了一些另外的改变，关闭了除了即时通讯软件（微信、Telegram）和邮件以外的所有软件消息提醒，并且把大部分不带社交属性而仅仅是用于信息获取的平台（如 B 站、微博等）的关注数量控制在 100 以内，如果新增则筛选优化之前的关注，减少无关内容的干扰。
+In the past two years, I've made some other changes. I turned off all app notifications except for instant messaging apps (WeChat, Telegram) and email. I also limited the number of follows on platforms that are mainly used for information acquisition without social attributes (such as Bilibili, Weibo) to within 100. If I add new ones, I filter and optimize previous follows to reduce irrelevant content interference.
 
-## 我的信息流
+## My Information Flow
 
-通过这一篇『[使用自动化工作流聚合信息摄入和输出](https://reorx.com/blog/sharing-my-footprints-automation/)』和后续的『[使用 Railway 和 Supabase 零成本搭建 n8n 自动化平台](https://reorx.com/blog/0-cost-self-hosted-n8n-with-railway-and-supabase/)』迭代升级，我也通过 n8n 和 Telegram 搭建了自己的自动化信息流平台 —— 『[Yu's Life](https://t.me/pseudoyulife)』，
+Through this article "[Using Automated Workflows to Aggregate Information Intake and Output](https://reorx.com/blog/sharing-my-footprints-automation/)" and the subsequent "[Building a Zero-Cost n8n Automation Platform with Railway and Supabase](https://reorx.com/blog/0-cost-self-hosted-n8n-with-railway-and-supabase/)" iteration upgrade, I also built my own automated information flow platform - "[Yu's Life](https://t.me/pseudoyulife)" using n8n and Telegram.
 
-参照着 Reorx 的列表，我也整理了自己的输入输出源：
+Referring to Reorx's list, I also sorted out my input and output sources:
 
-- **Telegram**，采集我零散在各个平台的信息输入输出，并且最近还会将我对电影、书籍的观后感以及自己其他一些所思所想发在频道里。也关注了一些频道和群组获取一些资讯或是认识一些志同道合的人，偶尔会手动转发。
-- **Blog**，目前最用心在维护的输出渠道了，现在更像是一种生活日志。
-- **Twitter**，我目前主要在使用的社交平台，也是分享欲的载体，认识和关注了很多有意思的朋友。
-- **Instagram**，最近才打算恢复使用，主要想分享一下自己的摄影成果和一些日常生活。
-- **YouTube**，也是重度用户了，看技术相关教程和数码资讯比较多，偶尔也有很多好玩的内容。
-- **Bilibili**，主要保留了自己这么多年一直在关注的一些博主，看旅拍比较多，只看动态不看首页和热门，之前倒是有自己经营帐号的计划，暂时没有什么好的想法。
-- **Pinboard**，书签和网站保存管理工具，才开始用几个月就保存了很多重要的内容，重度依赖了。
-- **Instapaper**，管理稍后读，主要是一些精品或是长文的保存。
-- **GitHub**，也是日常刷了，看一些好的项目，也用列表在管理 Star。
-- **Apple Music**，日常听歌软件（毕竟全家桶还是方便），但是列表这些交互感觉很一般。
-- **YouTube Music**，订阅了 YouTube 会员所以附带了这个，用得不算多，但偶尔用于检索。
-- **Spotify**，在上述两个音乐软件听到的好歌会在 Spotify 标注一下并且自动同步到频道。
-- **豆瓣**，记录自己的书籍、剧集、电影、动漫和游戏，也是重度使用了，也在尝试每一个看过/玩过的作品都写一下自己的评价。
-- **微博**，很少发，也依然是保留了一些熟人关注，偶尔会同步分享一些动态吧但是没有太多动力。
-- **微信朋友圈**，摄影以及一些自己写得比较开心的文章会发，基本是偶尔证明自己还活着的频率。
+- **Telegram**, collecting my scattered information input and output on various platforms, and recently I've been posting my thoughts on movies, books, and other reflections in the channel. I also follow some channels and groups to get some information or meet like-minded people, occasionally forwarding manually.
+- **Blog**, currently the output channel I'm most attentive to, now more like a life journal.
+- **Twitter**, the main social platform I'm using now, also a carrier of my desire to share, where I've met and followed many interesting friends.
+- **Instagram**, I just decided to resume using it recently, mainly to share some of my photography results and daily life.
+- **YouTube**, I'm a heavy user, watching a lot of technical tutorials and digital news, occasionally there's also a lot of fun content.
+- **Bilibili**, mainly retained some bloggers I've been following for many years, watching travel vlogs more, only viewing dynamics not homepage and hot topics. I had plans to run my own account before, but don't have any good ideas at the moment.
+- **Pinboard**, a bookmark and website saving management tool, I've saved a lot of important content in just a few months of use, heavily dependent on it.
+- **Instapaper**, managing read-it-later, mainly for saving some high-quality or long articles.
+- **GitHub**, also browsing daily, looking at some good projects, also using lists to manage Stars.
+- **Apple Music**, daily music software (after all, the ecosystem is convenient), but the interaction with playlists feels very average.
+- **YouTube Music**, subscribed to YouTube Premium so it came with this, don't use it much, but occasionally use it for retrieval.
+- **Spotify**, mark good songs heard on the above two music softwares in Spotify and automatically sync to the channel.
+- **Douban**, recording my books, TV series, movies, anime and games, also heavily used, trying to write my own review for every work I've watched/played.
+- **Weibo**, rarely post, also retained some familiar follows, occasionally will sync and share some updates but don't have much motivation.
+- **WeChat Moments**, post photography and some articles I'm happy with writing, basically at a frequency of occasionally proving I'm still alive.
 
-自己就像是有一种信息整理的强迫症，在看到自己这些零散的数字痕迹被归集到自己的个人小空间时会感到由衷的快乐，写周报时候往回翻翻也能捡起不少有意思的点，希望之后也能积累越来越多的东西。
+I'm like having an obsessive-compulsive disorder for information organization. I feel genuinely happy when I see these scattered digital traces of mine gathered into my personal little space. Flipping back when writing weekly reviews can also pick up quite a few interesting points. I hope to accumulate more and more things in the future.
 
-## 自我定义与界限
+## Self-Definition and Boundaries
 
-这周末可能有点叛逆，看了两部青少年电影，《[早餐俱乐部](https://movie.douban.com/subject/1295728/)》和《[春天不是读书天](https://movie.douban.com/subject/1295437/)》，都是很老的片子了。主题上跟自己看了好几遍的《[死亡诗社](https://movie.douban.com/subject/1291548/)》一样，有对于自己个性的坚持、对权威的认知与反抗、对生活与未来可能性界限的冲击，但相比起来可能更加轻松与诙谐。
+This weekend I might have been a bit rebellious, watching two teenage movies, "[The Breakfast Club](https://movie.douban.com/subject/1295728/)" and "[Ferris Bueller's Day Off](https://movie.douban.com/subject/1295437/)", both very old films. The themes are similar to "[Dead Poets Society](https://movie.douban.com/subject/1291548/)" which I've watched several times - the insistence on one's own personality, the cognition and rebellion against authority, the impact on the boundaries of life and future possibilities, but perhaps more relaxed and humorous in comparison.
 
-随着经历见长，自己可能在面对生活与变动已经不算怯懦，也常常踏出一些不一样的选择，但即使到了现在我依然觉得自己还是一个被内心界限所定义的人，以及会用这样的方式与习惯去定义周遭的一切。
+As experiences grow, I may not be timid in facing life and changes, and often make some different choices. But even now, I still feel that I am a person defined by inner boundaries, and I use this way and habit to define everything around me.
 
-我不认为自己是有很强“创造力”的人，所以常常在遇到相关事情或是选择时本能逃避；我认为“友善”和“礼貌”是自己的标签所以常常在一些交流中不愿意破坏，“理性”和应有的“坚持”常常为之让步；我可能愿意为自己的一些看似疯狂的选择负责但其实已经在内心评估过其代价与是否能承受，所以其实也缺少真正“冒险”的勇气。
+I don't consider myself a person with strong "creativity", so I often instinctively avoid related things or choices. I consider "friendliness" and "politeness" as my labels, so I'm often unwilling to break them in some communications, and "rationality" and due "persistence" often give way to them. I might be willing to take responsibility for some of my seemingly crazy choices, but actually, I've already assessed their cost and whether I can bear it in my heart, so I actually lack the courage to truly "take risks".
 
-在亲情、友谊与亲密关系上其实也是如此，我似乎在内心为每段关系下了自己的一些定义，并自认为遵守着其中的界限，但其实情感并非如此分明，自己有意无意地忽略了这一点，却还觉得自己在维系着这样的平衡。
+It's the same with family, friendship, and intimate relationships. I seem to have made some definitions for each relationship in my heart, and I believe I'm following the boundaries within them. But emotions are not so clear-cut, I've intentionally or unintentionally ignored this point, yet still feel that I'm maintaining this balance.
 
-本周自己与身边的一些关系发生了微妙的变化，自己的第一感是无所适从，就像是面对变化的本能的恐惧，在克服之余却也很难马上梳理清楚自己的情绪与想法，可能这种状态可以称之为“情绪过载”吧。自己在这样反复的过程中也常常会思考着是不是自己一直太执着于界限本身而放弃了感受情绪和情感的真实变化，抑或是界限本就是一种自我保护的机制。
+This week, some subtle changes occurred in my relationships with people around me. My first feeling was at a loss, like the instinctive fear of facing changes. In addition to overcoming it, it's also very difficult to immediately sort out my emotions and thoughts. Perhaps this state can be called "emotional overload". In this repeated process, I often wonder if I've always been too obsessed with boundaries themselves and given up feeling the real changes in emotions and feelings, or if boundaries are just a self-protection mechanism.
 
-好难。
+It's so hard.
 
-## 其他
+## Others
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This part will record some of my input and output and other things I find interesting.
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **送你一颗子弹**，正在看
-- **法治的细节**，正在看
+- **"Sending You a Bullet"**, currently reading
+- **"Details of the Rule of Law"**, currently reading
 
-#### 剧集
+#### TV Series
 
-- **医院五日**，讲美国卡特里娜飓风时候的一些事，难免不让人联想到武汉疫情当时的一些事。就医学伦理或是法律相关的知识储备都不足以让我来评价紧急情况下安乐死的正当与否，只是在其中也确实看到了政治家的傲慢、人性的真实与小人物在其中的卑微。就像其中所说的，没有亲历常常也是没有资格去居高临下评判其对错的。
+- **"Five Days at Memorial"**, it talks about some events during Hurricane Katrina in the United States. It inevitably reminds people of some things during the Wuhan epidemic. I don't have enough knowledge reserves on medical ethics or law to evaluate the justification of euthanasia in emergency situations. I just indeed saw the arrogance of politicians, the authenticity of human nature, and the insignificance of ordinary people in it. As it says in it, often without personal experience, one doesn't have the right to judge its rights and wrongs condescendingly.
 
-#### 电影
+#### Movies
 
-- **早餐俱乐部**，可能老片的年代感和主题上会让我稍稍想起《死亡诗社》，但是更轻松有趣，学生的视角、一个有限的空间场景和足量的对话这样结合的表达方式会让人很容易代入，叛逆与对权威（家庭、校园）的本能畏惧展现得很自然，而最后的集体独白也令人会心一笑 — 一群并不愿意被定义的青少年。
+- **"The Breakfast Club"**, the sense of era and theme of old films might remind me a little of "Dead Poets Society", but it's more relaxed and interesting. The student's perspective, a limited space scene, and a sufficient amount of dialogue combined in this way of expression make it easy for people to empathize. The natural display of rebellion and instinctive fear of authority (family, school), and the collective monologue at the end also makes one smile knowingly - a group of teenagers who don't want to be defined.
 
-#### 动漫
+#### Anime
 
-- **赛博朋克：边缘行者**，剧情比较常规，画风也算不上喜欢，但有些造型和场景美术还可以。可能因为没玩过游戏本体，对其中世界观和人物的部分没有太多代入。算是中规中矩的游戏周边动画吧。
-- **夏日重现**，追番中
+- **"Cyberpunk: Edgerunners"**, the plot is relatively conventional, and the art style is not particularly likable, but some designs and scene art are okay. Maybe because I haven't played the game itself, I don't have much empathy for the worldview and characters in it. It's a standard game peripheral animation.
+- **"Summer Time Rendering"**, following the series

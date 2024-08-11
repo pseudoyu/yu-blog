@@ -1,5 +1,5 @@
 ---
-title: "周报 #20 - 丧失的消费欲"
+title: "Weekly Review #20 - The Loss of Desire to Consume"
 date: 2022-11-27T21:08:00+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "sleep", "balance", "career", "consume", "shopping"]
@@ -8,64 +8,64 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-11-18` 到 `2022-11-27` 这周生活的记录与思考。
+This piece is a record and reflection of my life from November 18 to November 27, 2022.
 
-刚好到周末了，难得一天没有集中的开发工作量，饱饱地睡了一觉，下午补了落下的剧的一些进度，终于开始写周报，好像每周拖延几天（偷偷）磨掉了一周的周报哈哈，又回到了周日，新的轮回开始了。
+The weekend has arrived, and for once, I had no concentrated development work. I slept soundly, caught up on some missed episodes in the afternoon, and finally began writing my weekly review. It seems I've been delaying it for a few days each week, sneakily erasing a week's worth of reviews. We're back to Sunday, and a new cycle begins.
 
-这周是魔鬼作息，日常都是凌晨三四点睡，早上八九点起，有两三天甚至直接到了早上六点多才睡，然后又是一整天的工作量，周而复始，不过有猫猫的陪伴倒也算不上多苦，而且一直居家，反而多了一些相依为命的情谊。
+This week has been a devilish schedule. I normally sleep at three or four in the morning and wake up at eight or nine. On two or three days, I didn't sleep until after six in the morning, followed by a full day's work. This cycle repeated itself. However, with my cat's companionship, it wasn't too unbearable. Being at home continuously even fostered a sense of mutual dependence.
 
-可能因为确实过得太工作狂+生活佛系，又刚好要帮之前提过的酷学姐把一个她的画作上架成 NFT，所以让我带着猫猫去家里玩，体验了一下 “WeWork + 猫咖”，还蹭了两顿饭，是这周中为数不多的惬意时刻，也再次感慨自己的生活方式和品质和她的差距之大，不过也各有各的乐趣。
+Perhaps due to my workaholic and laid-back lifestyle, and coincidentally helping the cool senior I mentioned before to list one of her artworks as an NFT, I took my cat to her place to experience a "WeWork + cat cafe" setup. I also enjoyed two meals there. It was one of the few leisurely moments this week, and once again, I marveled at the vast difference between our lifestyles and quality of life. But each has its own joys.
 
-倒是猫猫是真的没良心，一点也不认生，一点好吃的好玩的就被收买了，四处好奇地探索，走的时候还不舍得，白养了，以后一定努力改善生活环境哈哈（卑微铲屎官的觉悟）。
+As for the cat, it's truly ungrateful. It wasn't shy at all, easily won over by good food and fun things. It curiously explored everywhere and was reluctant to leave. All my efforts wasted. I'll definitely strive to improve our living environment in the future (the realization of a humble cat servant).
 
-## 丧失的消费欲
+## The Loss of Desire to Consume
 
-其实自己以前一直算是个消费欲比较强的人，更多像是一种压制之下的报复性消费。因为家庭教育方式的问题，自己在学生时代一直是没有常规意义上的零用钱的，也不会有什么考好后的奖励这些（当然，与之相对的也是没有考不好后的批评和惩罚，很公平），而是有什么需要的会去跟父母说然后直接买，可能也是一种还不错的模式，但一些额外或是无用的消费也不太好跟家人提。
+I used to be someone with a strong desire to consume, more like a repressed retaliatory consumption. Due to family education methods, I never had regular pocket money as a student, nor rewards for good grades (of course, there were no criticisms or punishments for poor performance either, which was fair). Instead, if I needed something, I would tell my parents, and they would buy it directly. It might have been a good model, but it was difficult to propose extra or unnecessary consumption to family members.
 
-至今仍然记忆犹新（或者说是耿耿于怀哈哈）小学时期待了半年的一个礼物，原本一直以为会是 GBA SP（就是那个翻盖、有背光的 GBA 掌机，因为一直想来打口袋妖怪），但是收到后是一个遥控直升机，当时很失望。现在想想其实也挺好的，后面学无人机也有了一些基础直接上手了。
+I still vividly remember (or perhaps I'm still hung up on) a gift I waited half a year for in primary school. I had always thought it would be a GBA SP (the flip-top, backlit GBA handheld, as I always wanted to play Pokemon), but when I received it, it was a remote-controlled helicopter. I was very disappointed at the time. Thinking about it now, it wasn't bad; it gave me some foundation when I later learned about drones.
 
-不过就是因为当下想要的东西总是没法第一时间获得，总是一种对于消费欲的压抑，而从大三开始经济独立，因为都是自己赚的钱所以可以很自由地支配，所以陆续买了很多东西，尤其是各种电子/数码产品，其实有些也并不是刚需或是真的很想要的东西，只是享受于能够自由拥有的感觉，甚至还有收藏各种包装盒的习惯（现在还都整齐地堆在书架顶上）。
+However, because I couldn't immediately get what I wanted at the time, there was always a suppression of the desire to consume. When I became financially independent in my junior year, I could freely dispose of my own earnings, so I successively bought many things, especially various electronic/digital products. Some weren't really necessities or things I truly wanted; I just enjoyed the feeling of being able to own them freely. I even developed a habit of collecting various packaging boxes (which are still neatly stacked on top of my bookshelf).
 
-工作后其实也更加是，毕竟也是一个算是天天和软硬件打交道的职业，再加上自己喜欢折腾各种工具应用，在有了一定经济能力后也都支持正版，在电子设备和软件上一直都有不小的开销，甚至还维护了一个还算小有热度的『[个人工具箱 - pseudoyu/yu-tools](https://github.com/pseudoyu/yu-tools)』项目，也在持续更新中；同时，也常常会买一些感兴趣的 Switch 游戏，虽然有好多甚至都还没来得及打开，也少了很多沉下来慢慢品味的心境。
+After starting work, this tendency intensified. After all, I'm in a profession that deals with software and hardware daily. Combined with my love for tinkering with various tools and applications, once I had a certain financial capacity, I started supporting genuine versions. I've always had significant expenses on electronic devices and software, and I even maintain a relatively popular project called "Personal Toolbox - pseudoyu/yu-tools", which is continuously updated. At the same time, I often buy interesting Switch games, although many haven't even been opened yet, and I've lost much of the mindset to slowly savor them.
 
-我似乎是一个不吝在爱好和喜欢的事物上消费的人，比起这些，反倒是自己的日常饮食或是生活起居才算是比较敷衍。但感觉近半年来，自己的消费欲在逐渐丧失，似乎再没有那种为了一个硬件产品期待好多天蹲发布、看评测和等收获的热情了，虽然常常嚷着自己的 16 寸 Intel 笔记本是被 Apple 背刺了，但也没那么在意所谓的 M 系列和它背后的数字了，更多就像是一种习惯一样看看发布的参数和跑分，提升了哪些哪些，然后自己来一句，“哦好，下一代再说吧”。
+I seem to be someone who doesn't hesitate to spend on hobbies and things I like. Compared to these, my daily diet and living arrangements are rather perfunctory. But I feel that in the past six months, my desire to consume has been gradually diminishing. I no longer seem to have that enthusiasm to eagerly await hardware product releases for days, watching reviews and waiting for delivery. Although I often complain that my 16-inch Intel laptop was betrayed by Apple, I don't care so much about the so-called M series and the numbers behind it anymore. It's more like a habit to look at the released parameters and benchmarks, see what improvements have been made, and then say to myself, "Oh, okay, maybe next generation."
 
-前段时间参加了双十一，因为刚刚把猫领回家，所以买了很多相关用品，倒是接连收了几天快递。然而在都安置好了，想着要不要给自己买点什么时，却好像陷入了一种空白，好像并不缺什么，也没有什么想要的，后来只好作罢；最近也是到了黑五，跟往年一样打开一些推文和文章看看有什么打折的软件数码，看了好半天最后也就买了两门和最近工作相关的课和一个笔记软件 Craft 的个人订阅会员，大部分期限也快结束了，自己也没什么感觉；可能双十二会买个体检套餐吧。
+I participated in the Double Eleven shopping festival recently. Since I had just brought the cat home, I bought many related supplies and received packages for several consecutive days. However, when everything was settled and I thought about buying something for myself, I seemed to fall into a kind of blank state. It felt like I didn't lack anything and didn't want anything, so I gave up in the end. Recently, it's also been Black Friday. Like previous years, I opened some tweets and articles to see what software and digital products were on sale. After looking for quite a while, I only ended up buying two courses related to my recent work and a personal subscription to the note-taking software Craft. Most subscriptions are about to expire, but I don't feel much about it. Maybe I'll buy a physical examination package on Double Twelve.
 
-物欲的降低说不上是一件好事还是坏事，可能是因为现在自己已经不需要太多实体的、能触摸到的东西所带来的实感来填补自己的内心需要，慢慢地转向了一些可以内化的部分；可能是因为自己将许多需求的部分寄托到了猫猫和一些依赖关系上，并没有像以前那样有更多心思来关注自己的一些一时的满足；抑或是自己在日渐饱和的工作与日常中已经慢慢被磨灭了一些好奇心与探索的动力。
+It's hard to say whether the decrease in material desire is a good thing or a bad thing. Perhaps it's because I no longer need too many tangible, touchable things to fill my inner needs, and I'm slowly turning to some parts that can be internalized. Maybe it's because I've entrusted many of my needs to my cat and some dependent relationships, and I don't have as much energy as before to focus on some momentary satisfactions. Or perhaps in the increasingly saturated work and daily life, I've gradually lost some curiosity and motivation to explore.
 
-## 与『捏捏』的日常
+## Daily Life with "Nie Nie"
 
-这周忙到书也没看，剧也只有周末的时候追了一部，其他也是什么都没顾上，但还是抽出时间带捏捏去体检了，依然有一些令人担心的小问题，也在继续吃药治疗了，希望能一直健健康康的，真的是有一点点小问题都会无比担心。
+This week was so busy that I didn't read any books, and only caught up on one drama over the weekend. I didn't manage anything else, but I did make time to take Nie Nie for a check-up. There are still some concerning minor issues, and we're continuing with medication treatment. I hope it can always be healthy. I get incredibly worried even about the slightest problems.
 
-而因为一直都居家办公，陪伴的时间长了很多，有很多很棒的时刻值得记录，很不得每天都发好几条日常，像是一个晒娃狂魔，于是打算周报开一个小模块，日常记录这些瞬间，后面也想弄一些类似相册来记录下这些宝贵的时光。
+Because I've been working from home, I've had much more time to spend together. There have been many great moments worth recording. I feel like posting several daily updates, like someone obsessed with showing off their child. So I plan to open a small section in the weekly review to record these moments daily. Later, I also want to make something like photo albums to document these precious times.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_04.jpg" caption="来，帮我开会">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_04.jpg" caption="Come on, help me with the meeting">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_05.jpg" caption="优雅的姿态">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_05.jpg" caption="Elegant posture">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_06.jpg" caption="藏在被子里的小可爱">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_06.jpg" caption="Little cutie hiding in the blanket">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_07.jpg" caption="这个无线充是给我充电用的么？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_07.jpg" caption="Is this wireless charger for me to charge?">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_08.jpg" caption="你是要讲道理还是要我">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_08.jpg" caption="Do you want to reason or do you want me?">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_09.jpg" caption="熟睡的捏捏">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_09.jpg" caption="Sleeping Nie Nie">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_10.jpg" caption="三顿半和猫猫续命">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_10.jpg" caption="San Dun Ban and cat for life extension">}}
 
-## 其他
+## Other
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record my input and output, as well as other things I find interesting.
 
-### 输入
+### Input
 
-#### 剧集
+#### TV Series
 
-- **初恋，First Love**，出租车司机的设定让我想到之前看的《稍微想起一点》、《驾驶我的车》和一部动漫《奇巧计程车》，觉得这个还真的是能看到人世间百态的职业。这部期待了挺久的其实，围绕着音乐的展开、回忆和当下交错的呈现方式和满岛光，都是吸引的点，有好几个转场有被惊艳到。不过轮剧情上很难说出彩，只是现在越来越受不得虐，觉得这样甜甜的也挺好，毕竟看隔壁在播的《静雪》天天都在心疼男二和女二，果然年纪大了，还是适合甜甜恋爱的展开。总体来说还是蛮值得一追的。
-- **静雪**，正在追，真的是被虐到，一直到更能带入一点男二却要被刀。
-- **边缘世界**，正在追。
+- **First Love**: The taxi driver setting reminds me of previously watched "I Remember a Little", "Drive My Car", and an anime "The Magical Taxi". I think this is truly a profession that can see all aspects of human life. I've been looking forward to this for quite a while. The development around music, the presentation style of interweaving memories and the present, and Hikari Mitsushima are all attractive points. There were several scene transitions that amazed me. However, in terms of plot, it's hard to say it stands out. But now I'm increasingly unable to bear cruelty, so I think this sweet story is quite good. After all, looking at "The Quiet Snow" playing next door, I feel sorry for the second male and female leads every day. As I get older, I guess I'm more suited to sweet love stories. Overall, it's quite worth watching.
+- **The Quiet Snow**: Currently watching. It's really heartbreaking. I've always been able to empathize more with the second male lead, but he's getting hurt.
+- **Peripheral**: Currently watching.

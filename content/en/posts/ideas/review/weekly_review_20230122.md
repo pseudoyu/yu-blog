@@ -1,5 +1,5 @@
 ---
-title: "周报 #27 - 何以为家"
+title: "Weekly Review #27 - What Makes a Home"
 date: 2023-01-22T21:39:12+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "family", "relationship"]
@@ -8,87 +8,87 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-01-16` 到 `2023-01-22` 这周生活的记录与思考。
+This is a record and reflection of my life from `2023-01-16` to `2023-01-22`.
 
-这周的时间三等分了，在北京、杭州和江苏老家三地奔波周折。作为已经几乎三个月没出门的自己来说，路途还是带来了不少疲劳感，但却发现自己其实对于这种很长一段时间固有生活节奏的变化其实并不抵触，甚至有些新奇与期待。
+This week, my time was equally divided between Beijing, Hangzhou, and my hometown in Jiangsu, traveling back and forth. For someone who hasn't left home for almost three months, the journey brought some fatigue, but I found that I'm not actually averse to such a long-standing change in my life rhythm, and even feel some novelty and anticipation.
 
-把捏捏送到了同事家寄养，很担心；回了杭州，陪伴了父母和妹妹，见了一些朋友；又急匆匆地回了江苏老家过春节，可能因为心境有所好转，今年对待新年和春节跨年态度积极了许多，给朋友发了一些跨年祝福，捡回了一些仪式感；也发现了我的朋友们讲话都还挺有意思的，最近倒是更多把这些日常 po 到推上，大概也是之前提到过的分享欲的恢复吧；还有很多其他有意思的事。
+I sent Nini to a colleague's house for fostering, which worried me; returned to Hangzhou, accompanied my parents and sister, met some friends; then hurriedly returned to my hometown in Jiangsu for the Spring Festival. Perhaps due to an improvement in my mental state, I've become more positive about the New Year and Spring Festival this year, sent some New Year's greetings to friends, and regained some sense of ritual. I also discovered that my friends have quite interesting ways of speaking, and I've been posting more of these daily occurrences on Twitter recently, which is probably the recovery of the desire to share that I mentioned before. There were many other interesting things as well.
 
-## 何以为家
+## What Makes a Home
 
 ![sunset_and_trees_in_jiangsu](https://image.pseudoyu.com/images/sunset_and_trees_in_jiangsu.jpg)
 
-> 回家第一天偶然拍到的夕阳，拍完感觉田野的天还是别有一番感觉的，这个意境有些联想到《Flipped》的封面图。
+> A sunset I accidentally captured on my first day back home. After taking it, I felt that the sky over the fields has a unique feeling. This scene reminds me a bit of the cover image of "Flipped".
 
-其实提到回家或是回老家这件事，多少是带有些复杂心情的。或者更抽象一点说，对于『家』和『家人』的归属感，自己也经历了很多思考与改变。
+When it comes to going home or returning to one's hometown, there are always complex emotions involved. Or to put it more abstractly, I've gone through a lot of thinking and changes regarding the sense of belonging to "home" and "family".
 
-自己虽在杭州出生，但童年大部分的时光是在江苏老家度过的，父母都在杭州发展事业，也许对于那个年代的年轻人来说，也还算是一个比较合理的选择吧。在我已经有些淡忘的幼时记忆里，其实父母的形象并不那么清晰。直到小学二年级，我 9 岁的时候，才到杭州和父母一起生活。
+Although I was born in Hangzhou, I spent most of my childhood in my hometown in Jiangsu. My parents were developing their careers in Hangzhou, which was probably a reasonable choice for young people of that era. In my somewhat faded childhood memories, the image of my parents is not very clear. It wasn't until I was in second grade, at the age of 9, that I came to live with my parents in Hangzhou.
 
-或多或少有一些亲近感的影响，自己一直以来算是比较独立地生活的，从大概初中开始，不论是中考志愿、高中自主招生、高考志愿、城市选择这些重要节点选择，还是日常的什么琐碎事宜，似乎都是需要自己去独立做决定，父母极少会给我建议，更别说是帮做决定了，当然，好处就是同样也不会因为成绩或者早恋这样的事来干涉我（~~甚至帮我掩护~~）。
+Perhaps due to the influence of some sense of closeness, I've always lived quite independently. From around junior high school, whether it was choosing middle school entrance exam preferences, high school independent recruitment, college entrance exam preferences, city choices at these important decision points, or daily trivial matters, it seemed that I always had to make decisions independently. My parents rarely gave me advice, let alone make decisions for me. Of course, the advantage was that they also wouldn't interfere with things like my grades or puppy love (~~they even covered for me~~).
 
-记得最清晰的一次是在高三，自己的成绩排名刚好可以选择去『南方科技大学』，一个当时刚建校不久但挺有意思的学校的自主招生机会，其实还是挺心动的，但对于当时甚至极少离开江浙的我来说，要在有着不小高三课业压力的情况下去这样一个陌生的城市面试，还是有些难以果断地作出什么决定的，于是还是拨通了我爸的电话，跟他简单陈述了情况，想问问他的建议，换来的只有一句“你自己决定就好”，然后挂断了。
+The clearest memory I have is from my senior year of high school. My grades ranking just qualified me for the opportunity of independent recruitment to "Southern University of Science and Technology", an interesting school that had just been established at that time. I was quite tempted, but for someone who had rarely left Jiangsu and Zhejiang at that time, it was difficult to make a decisive decision to go to such an unfamiliar city for an interview under the considerable pressure of senior year coursework. So I still dialed my dad's number, briefly stated the situation to him, wanting to ask for his advice. The response I got was just a "You decide for yourself", then he hung up.
 
-说没有一丝难过与埋怨是假的，尤其是看着周遭电话亭同学与父母在热烈地对备选的几所学校机会进行了各种权衡和商讨，自己似乎第一次感受到那么无助。回到候选教室后，没再说一句话，签署放弃了所有机会。
+It would be a lie to say there wasn't a hint of sadness and resentment, especially seeing classmates around the phone booth enthusiastically discussing and weighing the opportunities of several candidate schools with their parents. I seemed to feel so helpless for the first time. After returning to the candidate classroom, I didn't say another word and signed to give up all opportunities.
 
-高考结束后的志愿也是，当时自己因为一些情感上的问题避开了浙江和上海的所有选项，大概只花了下午两三个小时对着那本粉色的历届招生手册选了几所省外从未了解过但是分数差不多够的学校，父母知道缘由，但也同样没有给予什么干涉。也许还是带着一些赌气的成分吧，当时的自己还是挺幼稚的。
+It was the same with the college entrance exam preferences after the exam. At that time, I avoided all options in Zhejiang and Shanghai due to some emotional issues, probably only spent two or three hours in the afternoon choosing several out-of-province schools I had never known about but had scores that roughly matched from that pink book of previous years' admissions handbook. My parents knew the reason but also didn't intervene much. Maybe there was still some element of spite, I was quite immature at that time.
 
-可能直到大三，当时自己忙于创业和一些实习差旅，有一次刚巧到杭州出差，赶着一个晚上回家住了。已经临近一点了，到家后发现妈妈仍然在等我，而我爸刚好因为有些应酬而喝醉先睡了。当时不知道出于什么缘由，坐在床边和妈妈聊起了各种过去，才发现自己似乎没有真正去了解过父母的内心或是去试图沟通。
+It wasn't until my junior year of college, when I was busy with entrepreneurship and some internship travel, that I happened to be on a business trip to Hangzhou and rushed home to stay for one night. It was almost one o'clock, and when I got home, I found my mom still waiting for me, while my dad had just gotten drunk from some social engagements and went to bed first. At that time, for some reason, sitting on the edge of the bed, I started talking with my mom about various things from the past, and only then did I realize that I had never really tried to understand my parents' inner thoughts or tried to communicate.
 
-我爸妈都是 75 后，与我的同龄朋友相比算是比较年轻的了。妈妈说他们也是第一次做父母，并没有什么经验，而又心怀愧疚地因为自己的工作而没能陪伴我度过童年时光，等我到了杭州后，他们也有些不知所措该以怎样的态度来面对这样一个熟悉却又有些陌生的个体，最后，他们选择了『尊重』，也讲了很多很多这些年来相处的细节。
+My parents are both born after 1975, which is considered quite young compared to the parents of my peers. Mom said it was their first time being parents, and they had no experience. They felt guilty for not being able to accompany me through my childhood due to their work. When I came to Hangzhou, they were also at a loss as to how to face this familiar yet somewhat strange individual. In the end, they chose "respect", and also talked about many details of our interactions over the years.
 
-说实话我第一次听到这句话的时候，有些意外。我之前有过不少很自我的猜测，总觉得也许是因为没有从小在身边长大，感情没那么深，因而似乎少了些父母与子女之间的情感纽带，也许是很难弥补的。
+To be honest, when I first heard this, I was a bit surprised. I had made many self-centered guesses before, always feeling that perhaps because I didn't grow up by their side from a young age, the feelings weren't as deep, and thus seemed to lack some of the emotional bonds between parents and children, which might be difficult to make up for.
 
-也有些恍然，其实父母在潜移默化间带给了我非常多。从我记事以来的十几年里，我从未见父母吵架过，甚至到了现在恩爱也并未随着年月而消减，让我对家庭仍保留着许多美好幻想；爸爸性格十分宽容，从小到大都未对我进行任何打骂，但对时间观念与承诺尤其严格，当我违背时总会反复强调，直至我将之刻入本能；妈妈虽大多事交由爸爸决定，她性格中的善良与温和极大地影响了我，让我在面临各种选择时至少善恶为先，对他人也真诚以待；而之前我有些埋怨的关于我需要一直自己独立做决定的方面，其实在大三大四后的许多人生选择里，让我得以坚定地独自前行，可以说我后来的创业、跨专业申请、去香港读研、来北京工作，以及后面会作出的各种或许会被称之为勇敢的决定，也都缘于此。
+I also had some realizations. In fact, my parents have given me a lot imperceptibly. In the dozen or so years since I can remember, I have never seen my parents argue, and even now their love has not diminished with the years, leaving me with many beautiful fantasies about family. My father is very tolerant, he has never beaten or scolded me from childhood to adulthood, but he is particularly strict about time consciousness and promises. When I violate these, he always repeatedly emphasizes them until they become ingrained in me. Although my mother leaves most decisions to my father, her kindness and gentleness in character have greatly influenced me, making me at least prioritize good and evil when facing various choices, and treat others with sincerity. As for the aspect I used to resent about always having to make decisions independently, it actually allowed me to move forward firmly on my own in many life choices after my junior and senior years of college. It can be said that my later entrepreneurship, cross-major application, going to Hong Kong for graduate studies, coming to Beijing to work, and various decisions that might be called brave that I will make later, all stem from this.
 
-在这次长谈之后，似乎已经习惯了这样的方式，每次回家总会畅聊到深夜，或关于我在各个地方的见闻，或家长里短，就像是朋友一样相处，也会互相调侃（~~比如我妈一直觉得我是个渣男~~）。我依然作为一个个体浪迹在各个城市过着自己的生活，只是家对于我来说不再是一个暂时的栖息之所，而是有了一种归属的寄托，独立却又并不疏离。
+After this long talk, it seems I've gotten used to this way of interacting. Every time I go home, we always chat until late at night, whether about my experiences in various places or family matters, interacting like friends, and even teasing each other (~~for example, my mom always thinks I'm a playboy~~). I still wander in various cities living my own life as an individual, but home is no longer just a temporary resting place for me, but has become a kind of belonging to rely on, independent yet not estranged.
 
-而对于老家，其实可以说是幸运眷顾吧，截至 2021 年初，在我已经度过的二十多年里，并未经历过任何刻骨铭心的离别，也就认为这是一件非常理所应当的事。而在一个清晨收到爸爸的一句『外婆走了』的简短却又刺痛的四个字时，才真正感受到一种精神与情绪的撕裂感。
+As for my hometown, it can be said that I was fortunate. Until early 2021, in the more than twenty years I had lived, I had not experienced any heart-wrenching farewells, and therefore thought this was a very natural thing. It wasn't until I received a short but painful four words from my father one morning saying "Grandmother has passed away" that I truly felt a sense of spiritual and emotional tearing.
 
-甚至当时因为在香港读研，没办法赶上最后一面，而之后的一年也因故无法返回，一拖，甚至就已经是第三年。以至于越到临近回家的时候，自己越是愧疚与害怕。从小也在外婆身边长大，我的情感自是无需多言，但也更难想象到妈妈的心情之痛，回老家也因此带上了一些不一样的意义。
+At that time, because I was studying for my master's degree in Hong Kong, I couldn't make it for the last farewell, and for the following year, I couldn't return for various reasons. As it dragged on, it's already been three years. As I got closer to going home, I felt more guilty and afraid. Having grown up by my grandmother's side since childhood, my emotions need no elaboration, but it's even harder to imagine the pain in my mother's heart. Returning to my hometown thus took on a different meaning.
 
 ![yu_tweet_about_camera](https://image.pseudoyu.com/images/yu_tweet_about_camera.png)
 
-有部电影叫『何以为家』，故事本身倒没什么相似之处，只是对这个标题有些印象深刻，每个人的家都不同，却总是需要不断寻找这样一个存在，或谓之为起源，或谓之为归属。
+There's a movie called "Capernaum", the story itself doesn't have much in common, but I was quite impressed by this title. Everyone's home is different, but we always need to keep searching for such an existence, whether it's called origin or belonging.
 
-## 个人生活剪影
+## Personal Life Snippets
 
-### 捏捏近况
+### Nini's Recent Situation
 
 ![leave_my_cute_cat_nienie](https://image.pseudoyu.com/images/leave_my_cute_cat_nienie.jpg)
 
-捏捏寄养到我项目的小 leader 家了，17 号的时候他还很贴心地开车过来接了，我装了好多好多东西，各种嘱咐，完全舍不得，即使只是短途的分离。不过好在适应得还算可以，虽然白天不那么活跃，但是晚上还是会出来探索，饮食也很正常，算了稍稍放心了一些。
+Nini is being fostered at the home of the small leader of my project. He was very thoughtful and drove over to pick her up on the 17th. I packed so many things, gave all sorts of instructions, completely reluctant to part, even though it's just a short separation. However, she seems to be adapting quite well. Although she's not very active during the day, she still comes out to explore at night, and her diet is normal, which has somewhat put my mind at ease.
 
-完全是一种老父亲的心态了，既担心不那么适应而受苦，又觉得如果太过适应会有些怅然若失（~~不会那么没良心吧，不会吧~~）。朋友们表示我以后可别养女儿了，得心疼死。
+It's completely an old father's mentality. I'm worried that she might suffer if she doesn't adapt well, but also feel a bit lost if she adapts too well (~~she won't be that heartless, right?~~). My friends say I'd better not raise a daughter in the future, I'd worry myself to death.
 
-倒是在他家似乎看上了他们家养在鸟笼里的鸟，他总觉得捏捏想吃掉她，我花了好久解释捏捏那么可爱友善，可能就是喜欢她想跟她玩，~~我也不知道他信了没~~。
+But it seems she's taken a liking to the bird they keep in a cage at their house. He always thinks Nini wants to eat her, I spent a long time explaining that Nini is so cute and friendly, she probably just likes her and wants to play with her, ~~I don't know if he believed me~~.
 
-想回去接她了。
+I want to go back and pick her up.
 
-### 见朋友
+### Meeting Friends
 
-回杭州第一天去见了一起做 side project 的学弟。大概六七月份因为我写周报发在即刻上而结识，聊了几句惊奇地发现是本科的学弟，不得不说世界还是蛮小的，后来聊了不少想法，也作为主程深度参与了一个创业项目，其实自己之前虽然有过一些各个岗位的粗浅经验，也做过一些创业，但实在是对那些繁琐的部分有些厌倦，而他又恰恰十分擅长这些，可以让我只需要专注在工程实现上，且最早项目的想法也源于我个人信息管理的一些需求，也是一种莫名的契合了。这次终于线下见到了，交流了些想法，过年也有不少任务量和安排，不过年三十和初一还算是摆过去了（~~主要是太冷了~~）。
+On the first day back in Hangzhou, I met with a junior who's doing a side project with me. We met around June or July because I posted my weekly review on Jike, and after chatting a bit, we surprisingly found out he's a junior from my undergraduate university. I have to say the world is quite small. Later we talked about a lot of ideas, and he also deeply participated in a startup project as the main programmer. Actually, although I had some shallow experience in various positions before and had done some entrepreneurship, I was really tired of those tedious parts. He happens to be very good at these things, allowing me to focus only on the engineering implementation. Also, the earliest idea of the project came from some of my personal information management needs, which is a kind of unexpected fit. We finally met offline this time, exchanged some ideas, and have quite a few tasks and arrangements for the New Year, but we managed to slack off on New Year's Eve and the first day of the New Year (~~mainly because it was too cold~~).
 
-终于见到了 [STRRL](https://twitter.com/strrlthedev)，算起来自己刚开始玩推的时候还是一个小小透明，是和 STRRL 一次交换友链结识，还带我进了 [Homura](https://twitter.com/RealAkemiHomura) 组建的一个周报群，和大家有了更多交流，逐渐才成为自己表达欲的出口。
+I finally met [STRRL](https://twitter.com/strrlthedev). When I first started playing with Twitter, I was just a small nobody. I met STRRL through exchanging blog links, and he brought me into a weekly review group created by [Homura](https://twitter.com/RealAkemiHomura), where I had more interactions with everyone, gradually becoming an outlet for my desire to express.
 
-自己作为一个深度社恐，虽然也有（且仅有）之前在北京面基 Homura 的经历在先，但在见面前其实多少还是有些害怕。约在了杭州一个小商圈吃中饭，见面后发现他很酷很有意思，聊了不少之前的有趣经历和一些规划，没有太多拘谨的感觉，反倒是有蛮多方面的共同点，很成功的一次面基交流！（~~感觉其实真正见面了我话还是不少的~~）
+As a deeply socially anxious person, although I had (and only had) the experience of meeting Homura face-to-face in Beijing before, I was still somewhat afraid before meeting. We arranged to have lunch at a small commercial area in Hangzhou. After meeting, I found him to be very cool and interesting. We talked about a lot of interesting experiences from before and some plans, without feeling too restrained. On the contrary, we found quite a few common points. It was a very successful face-to-face exchange! (~~I feel like I actually talk quite a lot when I really meet people~~)
 
-### 输入
+### Input
 
-#### 书籍
+#### Books
 
-- **我的职业是小说家**，在读，但是进度缓慢。
-- **世界尽头与冷酷仙境**，回程的高铁上在读，读的篇章不算很多，但对被这种交错的叙事方式以及其中很多描述方式所吸引，这几天会读完。
-- **始于极限**，其实自己还是蛮少直接看女性主义相关的书籍的，毛姆的《面纱》算是印象里比较相关的，这本被朋友强烈推荐，且是书简的形式，看了个开头觉得还不错，也并行在读了。
+- **What I Talk About When I Talk About Running**, still reading, but progress is slow.
+- **Hard-Boiled Wonderland and the End of the World**, reading on the high-speed train on the way back. Haven't read many chapters, but I'm attracted by this kind of interwoven narrative method and many of its descriptive methods. I'll finish it in the next few days.
+- **Outrageous Acts and Everyday Rebellions**, I actually rarely read books directly related to feminism. Somerset Maugham's "The Painted Veil" is probably the most related one in my impression. This book was strongly recommended by a friend, and it's in the form of letters. I read the beginning and found it quite good, so I'm reading it in parallel.
 
-#### 动漫
+#### Anime
 
-- **文豪野犬**，在追番，对于这种以作家与文学作品为任务和技能的设定感觉还挺有意思的，晚上会稍看几集。
-- **三体 动画版**，动画版真的是随缘看了。
+- **Bungo Stray Dogs**, following the series. I find the setting of using writers and literary works as tasks and skills quite interesting. I watch a few episodes at night.
+- **The Three-Body Problem Animated Version**, I'm really watching the animated version casually.
 
-#### 剧集
+#### TV Series
 
-- **三体**，电视剧版的感觉确实还可以，可能主要是还挺喜欢于和伟的（对《觉醒年代》里演绎的陈独秀先生印象深刻），所以反而是晚上抽空就看看更新，但是节奏太慢了倒是，希望至少能稳定发挥一下，别像动画版那样不知所云。
+- **The Three-Body Problem**, the TV series version actually feels quite good. Maybe it's mainly because I quite like Yu Hewei (I was deeply impressed by his portrayal of Chen Duxiu in "The Age of Awakening"), so I watch the updates in my spare time at night. But the pace is too slow. I hope it can at least maintain a stable performance, and not become incomprehensible like the animated version.

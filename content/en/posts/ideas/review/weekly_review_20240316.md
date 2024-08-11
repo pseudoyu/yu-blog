@@ -1,5 +1,5 @@
 ---
-title: "周报 #54 - 漂流计划、钱包被盗与 Home Server"
+title: "Weekly Review #54 - Drifting Plan, Stolen Wallet, and Home Server"
 date: 2024-03-16T05:20:00+08:00
 draft: false
 tags: ["review", "life", "travel", "computer", "work", "love", "home assistant", "home server"]
@@ -8,102 +8,102 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/photograph.mp3" caption="《Photograph - Ed Sheeran》" >}}
+{{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## 前言
+## Preface
 
 ![weekly_review_20240316_cover](https://image.pseudoyu.com/images/weekly_review_20240316_cover.png)
 
-本篇是对 `2024-03-01` 到 `2024-03-16` 这两周生活的记录与思考。
+This piece is a record and reflection of my life from `2024-03-01` to `2024-03-16`.
 
-如上篇周报所述，我开启了一段漂流计划，最后以「杭州 -> 上海 -> 湖州 -> 南京 -> 北京」这样近两周的旅程告一段落，几乎都处在江浙，没什么特殊的风景，更多还是关于人和事；由于主钱包被盗且没找出原因，重装了两台主力电脑，也刚好重新整理开发环境配置；把家里的 Mac Studio 作为 7/24 的 Home Server，跑了 Home Assistant 等常驻应用控制智能家居，折腾却也有趣；工作上组里忙了许久的 Alpha 主网上线，久违的兴奋感；还有很多有意思的事。
+As mentioned in the previous weekly review, I embarked on a drifting plan, which concluded with a nearly two-week journey through "Hangzhou -> Shanghai -> Huzhou -> Nanjing -> Beijing". Mostly confined to Jiangsu and Zhejiang, there weren't any extraordinary landscapes; it was more about people and events. Due to my main wallet being stolen without determining the cause, I reinstalled two primary computers, which provided an opportunity to reorganize my development environment configuration. I set up the Mac Studio at home as a 24/7 Home Server, running constant applications like Home Assistant to control smart home devices - a tinkering process that proved quite interesting. At work, our team's long-awaited Alpha mainnet went live, bringing back a sense of excitement I hadn't felt in a while. There were many other intriguing occurrences as well.
 
-## 漂流计划
+## Drifting Plan
 
 ![tianmushan_view](https://image.pseudoyu.com/images/tianmushan_view.jpg)
 
-年后开启的漂流计划第一站是上海，这些年前前后后去过大概也有几十次了，有过一两个月实习的长居也有偶尔的短暂停留，通常都是有事要办或是有人要见，真正“生活”可能还是少有的机会，没选什么繁华的区域，也没安排什么特别出行的计划，只是选了个离朋友还算接近的地点定了一周的民宿，就又回归了正常工作学习的节奏。
+The first stop of my post-New Year drifting plan was Shanghai. Over the years, I've been there dozens of times, from one or two-month internships to brief stopovers. Usually, these visits were for specific purposes or to meet people. Truly "living" there was a rare opportunity. This time, I didn't choose a bustling area or plan any special outings. Instead, I booked a week-long stay at a rental near a friend and resumed my normal work and study routine.
 
-偶尔下楼到周遭的商圈觅食，到了周末也和许久未见的大学舍友约饭，剩余时间依旧宅在酒店里工作，顺便还刷完了 mark 已久的「西部世界」，很巧的是刚好有个同事住在离我一两公里的地方，于是也有了一次小小的三人团建。
+Occasionally, I'd venture out to nearby commercial areas for food. On weekends, I met up with long-unseen college roommates for meals. The rest of the time, I worked from the hotel, even managing to finish the long-awaited "Westworld" series. Coincidentally, a colleague lived just a kilometer or two away, leading to a small three-person team gathering.
 
-接下来去了趟湖州，在朋友 [Xiao](https://twitter.com/gxgexiao) 家里住了一周。和他的相逢是源自一年前的某天他在[各地巡游溜达](https://www.gexiao.me/2023/07/01/lets-wander/)的时候发了一条在杭州的朋友可以约见面的推文，彼时的我刚回杭，对未来的生活充满着许多的未知和期待，鼓起勇气约了一次晚饭和西湖边漫步，虽然是第一次见面并且也没什么交集，却真诚而信任。
+Next, I visited Huzhou, staying at my friend [Xiao](https://twitter.com/gxgexiao)'s place for a week. Our encounter stemmed from a tweet he posted a year ago during his [wanderings across various places](https://www.gexiao.me/2023/07/01/lets-wander/), inviting friends in Hangzhou to meet. At that time, I had just returned to Hangzhou, full of uncertainty and anticipation for my future life. Mustering courage, I arranged a dinner and a stroll by West Lake. Despite it being our first meeting and having little in common, it was genuine and trusting.
 
-后来他搬到了湖州，我 8 月曾约了一次相见却因为种种缘由而没能成行，有些遗憾，于是趁着这次漂流赴约。在莫干山走野路上山，在安吉云上草原的悬崖上漫步，也去了两个数字游民公社参观，对他们的社区氛围很是心动。感觉今年的我似乎找到了一种久违的生活上的松弛感，会更愿意去见一些人和体验一些事，生活也不仅仅是工作和学习，人和与人有关的一切都对我产生了更多的吸引力，也由于和许多“网友”有了更深的链接，自己线上和线下的关系也变得逐渐模糊。
+Later, he moved to Huzhou. I had planned to visit in August but couldn't make it due to various reasons, which left me feeling regretful. So, I took this drifting opportunity to fulfill that promise. We hiked off-trail in Moganshan, walked along the cliffs of Anji's Cloud Prairie, and visited two digital nomad communes. I was quite drawn to their community atmosphere. This year, I seem to have rediscovered a long-lost sense of relaxation in life, becoming more willing to meet people and experience new things. Life is no longer just about work and study; people and everything related to human connections have become more appealing to me. Due to deeper connections with many "online friends," the boundaries between my online and offline relationships have gradually blurred.
 
-得益于公司每周三的「Work Together 1 Hour」，一位同事推荐了汤山的温泉和莫干山的森林书屋，于是和学姐相约在南京会和，度过了惬意的一周，也开始探索一些周末行的去处，生活变得更加具体。
+Thanks to the company's "Work Together 1 Hour" every Wednesday, a colleague recommended the hot springs in Tangshan and the forest library in Moganshan. So, I arranged to meet with a senior schoolmate in Nanjing, enjoying a leisurely week and starting to explore some weekend getaway destinations. Life has become more tangible.
 
-## 钱包被盗与设备重装
+## Stolen Wallet and Device Reinstallation
 
-最近把自己的笔记本和家里的台式都重装了一下系统，起因是自己的主钱包不幸被盗了。看链上记录大概是年初一的中午，钱包里所有资产（包括一些参与开源项目的空投）都被转为 ETH 和 BNB 后转走了，钱包里还有自己的 ens 和一些 NFT（~~不过黑客看不上所以还留着就是了~~），整体的金钱损失不大，但因为找不出是哪里泄漏的私钥，不得不将所有设备环境都重装一遍，可以说是个大工程。
+Recently, I reinstalled the systems on both my laptop and home desktop. The catalyst was the unfortunate theft of my main wallet. Based on the blockchain records, it happened around noon on the first day of the Lunar New Year. All assets in the wallet (including some airdrops from participating in open-source projects) were converted to ETH and BNB before being transferred out. The wallet still contained my ENS and some NFTs (~~which the hacker apparently didn't care for~~). The overall financial loss wasn't significant, but because I couldn't pinpoint how the private key was leaked, I had no choice but to reinstall all device environments - a major undertaking.
 
-因为都是 macOS 系统，所以系统设置和软件方面倒是轻车熟路，主体还是参照我的个人工具箱项目「[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)」，但在这个基础上做了不少的减法，更多只保留了刚需的一些，发现把 [Rewind](https://www.rewind.ai/) 卸载后我的 MacBook Pro 续航恢复了很多，出门几乎可以不用带充电器了。
+Since both systems were macOS, the system settings and software aspects were fairly straightforward. I mainly referred to my personal toolbox project "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)", but made quite a few subtractions, keeping only the essentials. I discovered that after uninstalling [Rewind](https://www.rewind.ai/), my MacBook Pro's battery life improved significantly - I can now go out almost without needing to bring a charger.
 
 ![x-cmd_env_install](https://image.pseudoyu.com/images/x-cmd_env_install.png)
 
-另外也正好趁机整理了自己的软件安装来源、开发环境管理和命令行配置等，正好尝试了朋友公司开发的「[x-cmd](https://cn.x-cmd.com/)」项目。
+I also took this opportunity to organize my software installation sources, development environment management, and command-line configurations. I tried out the "[x-cmd](https://cn.x-cmd.com/)" project developed by a friend's company.
 
 ![zshrc_config](https://image.pseudoyu.com/images/zshrc_config.png)
 
-配合 ohmyzsh 把自己的命令行配置简化到了短短的十几行，后面都可以通过 `x env` 等命令来管理各种环境和命令行工具，很易用。
+Combined with ohmyzsh, I simplified my command-line configuration to just a dozen or so lines. Later, I can manage various environments and command-line tools through commands like `x env`, which is very user-friendly.
 
 ![x-cmd-env-ls](https://image.pseudoyu.com/images/x-cmd-env-ls.png)
 
-最后使用 `x env` 来管理了自己的 Go、Node、Python 开发环境，免去了各种需要自己安装 nvm、设置环境变量等步骤，也体验到了企业级客户支持（指遇到问题直接 tg 轰炸朋友来解决 🤣），后面也会成为自己的装机标配，还在持续深度体验中。
+Finally, I used `x env` to manage my Go, Node, and Python development environments, eliminating the need for various steps like installing nvm and setting environment variables. I also experienced enterprise-level customer support (referring to bombarding my friend on Telegram to solve problems 🤣). It will become part of my standard setup in the future, and I'm still in the process of deep exploration.
 
-另外就是把 ssh key、GPG 签名等在两台设备之间统一管理了，配合 Elpass 进行密码管理和服务器自动登录，获得了通勤和宅家无缝切换的体验。
+Additionally, I unified the management of ssh keys and GPG signatures between the two devices. Combined with Elpass for password management and automatic server login, I achieved a seamless experience switching between commuting and staying at home.
 
 ## Home Server & Home Assistant
 
-~~大概是年纪慢慢上来了~~，终究逃不过路由器、充电头、NAS 这三大魔咒。路由器用了去年从 [STRRL](https://twitter.com/strrlthedev) 哥哥那淘来的 Asus AC86U，刷了新版梅林固件，很够用，就没再折腾软路由什么的了；充电头/充电器则是在体验了闪极全透明充电宝、100W 氮化镓充电头和硬糖工厂小电拼（~~现在有点不敢用了~~）后也退烧了。
+~~Perhaps as I'm getting older~~, I couldn't escape the three great temptations: routers, charging heads, and NAS. For the router, I'm using the Asus AC86U I bought from [STRRL](https://twitter.com/strrlthedev) last year, flashed with the latest Merlin firmware, which is quite sufficient, so I didn't bother with software routers. As for charging heads/chargers, after experiencing the Flashex fully transparent power bank, 100W GaN charger, and Hard Candy Factory mini charger (~~which I'm a bit wary of using now~~), I've cooled off on that front as well.
 
-终于还是把魔爪伸向了 NAS，在跟我们组可靠的运维 & NAS 深度 DIY 玩家 Ares 聊了好一阵子，决定先把家里的 Mac Studio 作为一个 Home Server。
+Finally, I extended my reach towards NAS. After a long chat with Ares, our reliable ops & deep NAS DIY enthusiast in our team, I decided to first use the Mac Studio at home as a Home Server.
 
 ![yu_home_assistant_macstudio](https://image.pseudoyu.com/images/yu_home_assistant_macstudio.png)
 
-首先做的是把家里的智能设备都连上 Home Assistant，但是由于是 Apple M1 芯片，没有现成的官方解决方案，在折腾了好一番后，最终参照「[Run Home Assistant on macOS With a Debian 12 Virtual Machine](https://siytek.com/home-assistant-macos-utm-debian-12/)」这一篇文章使用 UTM 安装了一个 Arm 架构的 Debian 的虚拟机，在里面跑了满血版 Home Assistant，并且用 frp 把接口映射到了公网，最后使用 iOS app 以及网页版本直接进行操作，目前的方案可能因为虚拟机网络模式问题，目前没办法通过 HomeKit Bridge 添加到 Apple 的家庭 App 中，不过能够把所有的小米、Yeelight 和小佩宠物设备链接起来，目前阶段也已经够用了。
+The first thing I did was connect all the smart devices at home to Home Assistant. However, due to the Apple M1 chip, there was no ready-made official solution. After much tinkering, I finally followed the article "[Run Home Assistant on macOS With a Debian 12 Virtual Machine](https://siytek.com/home-assistant-macos-utm-debian-12/)" to install an Arm architecture Debian virtual machine using UTM. I ran a full version of Home Assistant inside it and used frp to map the interface to the public network. Finally, I operate it directly using the iOS app and web version. The current solution might have issues with the virtual machine's network mode, so I can't add it to the Apple Home App via HomeKit Bridge yet, but being able to link all the Xiaomi, Yeelight, and Petkit pet devices is sufficient for now.
 
-另外作为一个 Home Server，保持了 7/24 小时常驻，在噪音和耗电上都几乎无感，开启了 smb 文件共享、ssh 远程登录和远程 vnc 桌面控制，并且通过内网穿透保障我在外面也能够访问到家里的设备。
+As a Home Server, it maintains 24/7 operation with barely noticeable noise and power consumption. I enabled smb file sharing, ssh remote login, and remote vnc desktop control, and ensured I could access home devices from outside through intranet penetration.
 
-为了保障安全性和稳定性，我同时采用了三种不同的内网穿透方案。
+To ensure security and stability, I adopted three different intranet penetration solutions simultaneously:
 
 1. frp
 2. Surge Ponte
 3. Cloudflare Argo Tunnel
 
-第一种方案我已经使用了近两年，在「[基于 frp 内网穿透的瘦客户端开发工作流](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)」一文中有很详细的介绍，要求有个公网服务器，但配置简单且稳定，目前我只是保留了 ssh 与 Home Assistant 的端口。
+I've been using the first solution for nearly two years, as detailed in the article "[Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)". It requires a public network server but is simple to configure and stable. Currently, I've only retained the ports for ssh and Home Assistant.
 
-第二种方案则是通过 Surge 软件在 macOS/iOS 设备之间便捷地实现内网穿透，可以在「[Surge Ponte Guide](https://kb.nssurge.com/surge-knowledge-base/guidelines/ponte)」看到其详细介绍，需要有支持 UDP 的代理线路，除此之外几乎开箱即用，我用其来访问家里 Mac Studio 的文件和本地的一些服务，也可以在外部直接访问配置家里内网路由器等，更多是自用。
+The second solution achieves convenient intranet penetration between macOS/iOS devices through the Surge software. You can see its detailed introduction in "[Surge Ponte Guide](https://kb.nssurge.com/surge-knowledge-base/guidelines/ponte)". It requires a proxy line that supports UDP, but is otherwise almost plug-and-play. I use it to access files on the home Mac Studio and some local services, and can also directly access and configure home intranet routers from outside, mainly for personal use.
 
-而第三种方案则是最近看到「[使用 Cloudflare Argo Tunnel\(cloudflared\) 来加速和保护你的网站](https://nova.moe/accelerate-and-secure-with-cloudflared/)」文章时才新加的，之前都是通过 cloudflared 命令行工具手动配置的，多少还是有些麻烦于是没实践，最近 Cloudflare 把它集成到了 [Zero Trust](https://developers.cloudflare.com/cloudflare-one/) 中，几乎可以在界面完成各种操作配置，我用来在家里服务器运行一些需要对外暴露的公网服务，例如前几天使用 [ollama](https://ollama.com/) 跑了一个 [codellama:70b](https://ollama.com/library/codellama:70b)，然后再通过 [ChatKit](https://chatkit.app/) 直接访问，体验很不错，就是生成得太慢了，所以也就尝尝鲜。
+The third solution was recently added after seeing the article "[Accelerate and Secure Your Website with Cloudflare Argo Tunnel (cloudflared)](https://nova.moe/accelerate-and-secure-with-cloudflared/)". Previously, I had been manually configuring it using the cloudflared command-line tool, which was somewhat troublesome, so I hadn't put it into practice. Recently, Cloudflare integrated it into [Zero Trust](https://developers.cloudflare.com/cloudflare-one/), allowing almost all operations to be configured through the interface. I use it to run some services that need to be exposed to the public network on the home server. For example, the other day I ran a [codellama:70b](https://ollama.com/library/codellama:70b) using [ollama](https://ollama.com/), and then accessed it directly through [ChatKit](https://chatkit.app/). The experience was quite good, just a bit slow in generation, so it was more of a trial run.
 
-刚好最近我们厂的[Alpha 主网](https://rss3.io/blog/en/introducing-rss3-alpha-mainnet)上线了，打算等后面公益节点的时候用 Home Server 自己跑一个，现在跑不起 🤣。
+Coincidentally, our company's [Alpha mainnet](https://rss3.io/blog/en/introducing-rss3-alpha-mainnet) has just gone live. I plan to run one myself on the Home Server when the public node is available, but can't afford to run it now 🤣.
 
-## VR 学车
+## VR Driving Lessons
 
 ![vr_car_learn](https://image.pseudoyu.com/images/vr_car_learn.png)
 
-因为即将要有一些自驾的需求，又重新报名了驾校开始学习，这次的驾校有 VR 练车设施，没有自己想象得那么抗拒了。
+Due to some upcoming self-driving needs, I re-enrolled in driving school to start learning. This driving school has VR driving facilities, which I found less intimidating than I had imagined.
 
-## 其他
+## Other Matters
 
-其他似乎没有太多有意思的事，处在忙碌和想做的事做不完而焦虑的反复中，不过一切也都在慢慢变好。
+There don't seem to be many other interesting things to mention. I find myself alternating between busyness and anxiety over not being able to do all the things I want to do, but everything is slowly getting better.
 
-GitHub 给了 Copilot 的开源免费 License，可以继续白嫖代码补全和 Copilot Chat，配合上 Claude 3 Sonnet 和在「[burn.hair](https://burn.hair/register?aff=isWf)」中白嫖的 GPT4 Token，已经能够满足我所有的代码和各类需求。
+GitHub provided a free Copilot license for open source, allowing me to continue freeloading on code completion and Copilot Chat. Combined with Claude 3 Sonnet and the free GPT4 tokens from "[burn.hair](https://burn.hair/register?aff=isWf)", I can now meet all my coding and various other needs.
 
-哦对，还约到了我的偶像程序员「[Randy](https://lutaonan.com/)」月底在北京见面！！！
+Oh, and I managed to arrange a meeting with my idol programmer "[Randy](https://lutaonan.com/)" in Beijing at the end of the month!!!
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select a few to list here, making it feel more like a newsletter.
 
-#### 书籍
+#### Books
 
-- [**The Monk and the Philosopher**](https://book.douban.com/subject/2228297/)，关于宗教和哲学的一些思考，聊到所以刚开始看一点。
-- [**红与黑**](https://book.douban.com/subject/35781152/)，从一个视频看到的讲解，关于于连的自尊和因此表现出来的傲慢的描述印象很深，正在看。
+- [**The Monk and the Philosopher**](https://book.douban.com/subject/2228297/), some thoughts on religion and philosophy, just started reading a bit as it came up in conversation.
+- [**The Red and the Black**](https://book.douban.com/subject/35781152/), saw an interpretation in a video, deeply impressed by the description of Julien's self-esteem and the arrogance it manifests, currently reading.
 
-#### 收藏
+#### Collections
 
 - [Million Lint is in public beta | Million.js](https://million.dev/blog/lint)
 - [Discover Daily by Perplexity](https://discoverdaily.ai/)
@@ -111,37 +111,36 @@ GitHub 给了 Copilot 的开源免费 License，可以继续白嫖代码补全�
 - [RSS3 Alpha Mainnet](https://rss3.io/blog/en/introducing-rss3-alpha-mainnet)
 - [Velja — Sindre Sorhus](https://sindresorhus.com/velja)
 
-#### 文章
+#### Articles
 
-- [幸福的积分 – 虹线](https://1q43.blog/post/5322)
-- [我为什么喜欢 road trip | 椒盐豆豉](https://blog.douchi.space/road-trip/)
+- [The Integral of Happiness – Rainbow Line](https://1q43.blog/post/5322)
+- [Why I Love Road Trips | Douban Pea](https://blog.douchi.space/road-trip/)
 - [Software Has Eaten The Media](https://www.wheresyoured.at/the-anti-economy/)
-- [无风险年化 360%？小白也能懂的 Crypto 套利 - TARESKY](https://taresky.com/crypto-arbitrage)
+- [Risk-free 360% Annual Return? Crypto Arbitrage for Beginners - TARESKY](https://taresky.com/crypto-arbitrage)
 - [How NAT traversal works](https://tailscale.com/blog/how-nat-traversal-works)
-- [一个六岁开源项目的崩溃与新生 - DIYgod](https://diygod.cc/6-year-of-rsshub)
-- [用 Notion Calendar 打造高效 daily quest 系统 | 椒盐豆豉](https://blog.douchi.space/notion-calendar-daily-quest/#gsc.tab=0)
+- [The Collapse and Rebirth of a Six-Year-Old Open Source Project - DIYgod](https://diygod.cc/6-year-of-rsshub)
+- [Build an Efficient Daily Quest System with Notion Calendar | Douban Pea](https://blog.douchi.space/notion-calendar-daily-quest/#gsc.tab=0)
 - [Run Home Assistant on macOS with a Debian 12 Virtual Machine – Siytek](https://siytek.com/home-assistant-macos-utm-debian-12/)
-- [使用 Cloudflare Argo Tunnel\(cloudflared\) 来加速和保护你的网站 | Nova Kwok's Awesome Blog](https://nova.moe/accelerate-and-secure-with-cloudflared/)
+- [Accelerate and Secure Your Website with Cloudflare Argo Tunnel (cloudflared) | Nova Kwok's Awesome Blog](https://nova.moe/accelerate-and-secure-with-cloudflared/)
 
-#### 视频
+#### Videos
 
-- [我悟了，原来最好的转运方式是结婚！](https://www.bilibili.com/video/BV1cF4m157Cy)
-- [study vlog #48 | 26 岁新的开始｜程序员晚间日常学习｜一些小礼物希望你们喜欢](https://www.bilibili.com/video/BV1Lj421Z7Vz)
+- [I've Got It, The Best Way to Change Your Luck is to Get Married!](https://www.bilibili.com/video/BV1cF4m157Cy)
+- [study vlog #48 | A New Start at 26 | Programmer's Evening Study Routine | Some Small Gifts Hope You Like](https://www.bilibili.com/video/BV1Lj421Z7Vz)
 
-#### 电影
+#### Movies
 
-- [**怪物**](http://movie.douban.com/subject/35797709/)，确实符合是枝裕和想要去描述的主题，但是可能加上了太多隐喻的部分，反倒是没能很传达到，也感受到剧情和情绪节奏的割裂。
-- [**周处除三害**](http://movie.douban.com/subject/36151692/)，台湾拍犯罪倒是确实是别有风味，主题和画面也确实很敢，不过更多还是视觉的爽片吧，对人物人格的呈现和变化展现得有些仓促。
-- [**西部世界**](http://movie.douban.com/subject/35042913/)，还是更喜欢第一二季的乐园 part，包括威廉的变化，后两季可能也是由于想要展现太过宏大的意识觉醒和自我选择，反倒是有些过家家。
+- [**Monster**](http://movie.douban.com/subject/35797709/), indeed fits the theme Hirokazu Kore-eda wanted to describe, but perhaps with too many metaphors added, it didn't quite convey as intended, also felt a disconnect in the plot and emotional rhythm.
+- [**The Pig, the Snake and the Pigeon**](http://movie.douban.com/subject/36151692/), Taiwan certainly has a unique flavor in crime films, the theme and visuals are indeed daring, but it's more of a visually satisfying film, the presentation and changes in character personalities feel somewhat rushed.
+- [**Westworld**](http://movie.douban.com/subject/35042913/), still prefer the park parts of the first two seasons, including William's transformation. The latter two seasons, perhaps due to wanting to show too grand a scale of consciousness awakening and self-choice, ended up feeling a bit like playing house.
 
-#### 剧集
+#### TV Series
 
-- [**舞伎家的料理人**](http://movie.douban.com/subject/35727023/)，在看。
+- [**Maiko in the Kitchen**](http://movie.douban.com/subject/35727023/), currently watching.
 
-#### 音乐
+#### Music
 
 - [**Photograph**](https://open.spotify.com/track/1HNkqx9Ahdgi1Ixy2xkKkL) by Ed Sheeran
-- [**温和表面**](https://open.spotify.com/track/4EP4BmTjXvMGKzhBwKzWu5) by 趙登凱
+- [**Mild Surface**](https://open.spotify.com/track/4EP4BmTjXvMGKzhBwKzWu5) by Zhao Dengkai
 - [**Different Lives**](https://open.spotify.com/track/7e7JVMegy4WBMnzuZE9Srq) by Fly By Midnight
-- [**After the Love Has Gone**](https://open.spotify.com/track/7e7JVMegy4WBMnzuZE9Srq) by Earth, Wind & Fire
-- [**IN THIS WORLD - feat. 坂本龍一 Vocal : 満島ひかり**](https://open.spotify.com/track/5FMRUnWOXZXXtTjaxpMxl3) by Mondo Grosso
+- [**After the Love Has Gone**](https://open.spotify.com/track/7e7JVMegy4WBMn

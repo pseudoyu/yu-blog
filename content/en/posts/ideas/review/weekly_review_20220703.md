@@ -1,5 +1,5 @@
 ---
-title: "周报 #02 - 工作、焦虑与成长"
+title: "Weekly Review #02 - Work, Anxiety and Growth"
 date: 2022-07-03T12:54:39+08:00
 draft: false
 tags: ["review", "life", "work", "responsibility", "growth"]
@@ -8,81 +8,81 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
 ![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpg)
 
-从实习开始，来到北京开始工作已经满一周年了。
+It's been a full year since I started working in Beijing after my internship.
 
-自己一直是一个有着莫名仪式感的人，在这个节点也会频繁回顾这一年的所思所想与所得，当然，也包括那些焦虑与遗憾。我常常想，一年前的今天，那个带着紧张与期待的自己，会想从未来这一年得到些什么？
+I've always been a person with an inexplicable sense of ritual. At this juncture, I frequently reflect on my thoughts, gains, anxieties, and regrets from this past year. I often wonder, on this day a year ago, what would that nervous yet expectant version of myself have hoped to gain from the year ahead?
 
-于是，本篇就来聊聊工作、焦虑与成长。
+So, in this piece, let's discuss work, anxiety, and growth.
 
-## 关于工作
+## On Work
 
-### 入职
+### Starting the Job
 
-自己其实并不是一个很认真对待求职这件事的人，大概也因为即使是北京，可选的区块链公司也并不多，从香港回深圳隔离的酒店里一共也只参加了大概五六场面试，不过有些印象还比较深。
+I wasn't particularly diligent in my job search, perhaps because even in Beijing, there weren't many blockchain companies to choose from. While quarantining in a hotel in Shenzhen after returning from Hong Kong, I only participated in about five or six interviews, though some left quite an impression.
 
-其中一家没有什么常规流程，第一轮就与一位美国的面试官共享屏幕，两个小时完成一个 ERC20 Token 智能合约的编写、测试与发布，而第二轮则也是通过 Shell 脚本完成一个系统级定时任务的编写；另一家则是问了许多关于 EVM 底层优化及如何避免合约中的无限循环相关的问题。
+One company had no conventional process. The first round involved sharing my screen with an American interviewer, spending two hours writing, testing, and deploying an ERC20 Token smart contract. The second round required writing a system-level scheduled task using a Shell script. Another company asked many questions about EVM low-level optimization and how to avoid infinite loops in contracts.
 
-而最终选择的这家则是由两个技术 leader 共同参与的，一位问了一些 Go 语言相关问题，而另一位则问了许多 Hyperledger Fabric 与 Ethereum 相关的问题（后来知道他是之前 IBM Fabric 团队的开发者），后来还聊了许多和之后发展方向有关的事，一共大概持续了近一个半小时外加一场半小时的算法笔试。
+The company I ultimately chose had two technical leaders jointly conducting the interview. One asked questions related to Go language, while the other inquired about Hyperledger Fabric and Ethereum (I later learned he was a former developer from the IBM Fabric team). We also discussed many topics related to future development directions, lasting nearly an hour and a half, followed by a half-hour algorithm test.
 
-我其实挺享受并珍惜这种能够从面试中获得一些从未接触过的工程相关知识，或是能与面试官相对平等沟通的机会的，也会让自己在其中快速学习，或至少能稍明确一些方向。
+I genuinely enjoy and cherish opportunities to gain new engineering knowledge from interviews or to communicate relatively equally with interviewers. It allows me to learn quickly or at least gain some clarity on directions.
 
-到了北京后又参加了一场 HR 面后就正式作为实习生入职了，就这样开始了自己的第一份正式技术实习。
+After arriving in Beijing, I attended an HR interview and officially joined as an intern, thus beginning my first formal technical internship.
 
-### 实习
+### Internship
 
-初接触技术岗，前期的忐忑多于新奇，对于从学校的理论走向企业工程实践这一部分自己并没有太多信心，Go 语言也只是应对面试学了几个月的大概，甚至也没有参与编写过一个用于生产的应用。
+Upon first encountering a technical position, the initial trepidation outweighed the novelty. I lacked confidence in transitioning from theoretical knowledge in school to practical enterprise engineering. I had only studied Go language for a few months to prepare for interviews and had never even participated in writing a production application.
 
-作为一个刚入行的 CRUD Boy，最开始也是 leader 成哥带着我从写业务接口开始熟悉的。主要是一个 BaaS 平台的研发，七个接口写了两周，有的复杂 sql 反复测试优化；也完整体验了 git 提交规范、Code Review 和代码合并流程。其实还是一个挺有乐趣的过程，自己写的代码运行在生产项目中，自己所学的各种知识能够很快应用在工作中获取一些实时的反馈，以及一个团队共同为了一个目标和节点向前推进。
+As a newcomer to the CRUD realm, I started by writing business interfaces under the guidance of our leader, Brother Cheng, to familiarize myself with the work. We mainly developed a BaaS platform, writing seven interfaces over two weeks, repeatedly testing and optimizing complex SQL queries. I also fully experienced the git commit standards, code review, and code merging processes. It was quite an enjoyable process, seeing my code running in production projects and quickly applying various learned knowledge in work to get real-time feedback, as well as a team working together towards a common goal and milestone.
 
-这个项目的主要开发工作完成后，我想去做一些链相关的开发，于是申请了参与另一个组的自研链智能合约执行引擎性能优化项目，不过因为并不熟悉 java，只能边对理论做一些学习研究边尝试写一些测试，这是当时做的博文记录，『[Ethereum MPT（Merkle Patricia Tries）详解](https://www.pseudoyu.com/en/2021/08/16/blockchain_ethereum_mpt/)』，也是这段时间经历才意识到原来刷 LeetCode 时那些枯燥的算法原理真的会那么快用上。
+After completing the main development work for this project, I wanted to do some chain-related development. So I applied to participate in another group's project on optimizing the performance of a self-developed chain smart contract execution engine. However, unfamiliar with Java, I could only attempt to write some tests while studying and researching the theory. This was the blog post I recorded at the time, "Ethereum MPT (Merkle Patricia Tries) Explained in Detail". It was during this period that I realized how quickly those dry algorithm principles from LeetCode would actually be put to use.
 
-可能因为是实习，工作节奏并不是很快，还有很多时间可以自己对感兴趣的领域或技术进行了解，写了如下博文进行记录：
+Perhaps due to being an intern, the work pace wasn't very fast, leaving plenty of time to explore interesting fields or technologies. I wrote the following blog posts to record my learnings:
 
-1. [区块链服务平台（BaaS）简介及架构](https://www.pseudoyu.com/en/2021/09/07/blockchain_baas_platform/)
-2. [分布式系统与区块链共识机制](https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/)
-3. [跨链技术原理与实战](https://www.pseudoyu.com/en/2021/09/06/blockchain_crosschain/)
-4. [BitXHub 跨链插件（Fabric）源码解读](https://www.pseudoyu.com/en/2021/09/09/blockchain_crosschain_bitxhub/)
+1. [Introduction and Architecture of Blockchain-as-a-Service (BaaS) Platform](https://www.pseudoyu.com/en/2021/09/07/blockchain_baas_platform/)
+2. [Distributed Systems and Blockchain Consensus Mechanisms](https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/)
+3. [Cross-Chain Technology Principles and Practice](https://www.pseudoyu.com/en/2021/09/06/blockchain_crosschain/)
+4. [Source Code Analysis of BitXHub Cross-Chain Plugin (Fabric)](https://www.pseudoyu.com/en/2021/09/09/blockchain_crosschain_bitxhub/)
 
-很有意思的是，因为公司内部并没有一个内容发布平台，我这段时间常常给我们友商的区块链技术博客平台投稿并且获取他们技术核心人员的一些学习反馈，在跨链这一块受益良多，也让我感觉到技术的开放性。
+Interestingly, because the company didn't have an internal content publishing platform, I often submitted articles to our competitors' blockchain technology blog platforms during this period and received learning feedback from their core technical personnel. I benefited greatly in the cross-chain area, which also made me feel the openness of technology.
 
-其实这个时候还没决定是否要留下来，也与其他心仪的一些公司有一些联系。不过紧接着，跟着另一个 leader 涛哥参与了另一个跨链项目，随着和他接触越来越多，我看到了一个技术人的热忱与无限可能性。我们同样爱折腾各种新奇的工具和技术，时常互相分享；他知道我时常焦虑于缺乏足够的工程经验和能力，于是让我参与到各个项目实战，有时在周末还会带着我 Pair Programming。
+At this point, I hadn't decided whether to stay, and I had some contact with other desirable companies. However, soon after, I participated in another cross-chain project with another leader, Brother Tao. As I interacted with him more, I saw the enthusiasm and infinite possibilities of a technologist. We both loved tinkering with various novel tools and technologies, often sharing with each other. Knowing that I often felt anxious about lacking sufficient engineering experience and ability, he involved me in various project practices, sometimes even leading me in pair programming on weekends.
 
-他是 [Hyperledger Cello](https://github.com/hyperledger/cello) 的核心开发者，会鼓励我参与开源，当时说过的一句话我依然记忆犹新，大意是，作为一个技术人，除了完成自己一项项工作任务外，总需要在自己的技术生涯中有几个标签，比如“某某开源项目核心贡献者”等等，我也需要不断努力去找到自己的标签。这一点对我影响很深，在后续的工作学习中，我也开始持续关注开源社区并且慢慢参与其中。
+He is a core developer of [Hyperledger Cello](https://github.com/hyperledger/cello) and encouraged me to participate in open source. A sentence he said at the time still remains vivid in my memory. The gist was that as a technologist, besides completing one work task after another, one always needs to have several labels in their technical career, such as "core contributor to a certain open source project" and so on. I also need to continuously strive to find my own labels. This point deeply influenced me, and in subsequent work and study, I began to continuously pay attention to and slowly participate in the open source community.
 
-一个可遇不可求的 leader 在影响我选择的因素中占据了更大的比重，所以其实没有太多犹豫，我留下了。
+An irreplaceable leader became a more significant factor influencing my choice, so without much hesitation, I stayed.
 
-### 工作
+### Work
 
-紧接着就参与了我严格意义上的第一个完整的、也几乎贯穿了我工作第一年大部分时光的项目，是一个底层跨链项目。
+Soon after, I participated in what was strictly my first complete project, which also occupied most of my first year of work - a underlying cross-chain project.
 
-大概是得益之前工作之余对跨链的学习了解，我在刚实习转试用之际就莫名地担任了项目负责人，参与技术方案探讨、前期系统设计、底层链部分的开发改造、开发流程的规范化、Devops 环境的使用、讲解演示以及项目交付相关的文档与沟通相关工作。这带来了工作之初我未曾设想的压力和焦虑，同时，也带来了我的快速成长。
+Perhaps due to my previous after-hours study and understanding of cross-chain, I inexplicably became the project leader just as I transitioned from intern to probationary employee. I participated in technical solution discussions, early system design, underlying chain development and modification, development process standardization, use of DevOps environments, explanations and demonstrations, as well as project delivery-related documentation and communication work. This brought pressure and anxiety I had never anticipated at the start of my work, but it also brought about my rapid growth.
 
-白天的各种会议一开就是大半天，几乎只有晚上才能沉下心写几行代码；为了赶一个个项目节点，熬夜甚至通宵都已经成为了常态；遇到许多技术难点可能一卡就是几天，却也不得不同时兼顾其他部分的开发任务进度；与之相伴的还有很多很多情绪的压抑与生活节奏的失控。
+Daytime meetings could last half a day, leaving only evenings to concentrate on writing code. Staying up late or even all night became the norm to meet project milestones. Technical difficulties could stall progress for days, yet I had to juggle other development task schedules simultaneously. Accompanying this were many emotional suppressions and loss of control over life rhythms.
 
-但当自己真正和团队一起完成了这个项目的最终交付时，那种喜悦感与成就感也是从未体验到的，可能这对于我的意义尤其特别，从本科的英语专业、到去留学转至计算机，在很多课程学习中常常有受挫的时候，期间也不止一次质疑过自己能否在这条路走下去。而这个项目虽然过程磕磕绊绊，我们终究还是做到了，这也给了我莫大的信心。
+But when I truly completed the final delivery of this project with the team, that sense of joy and achievement was unprecedented. This might have special significance for me. From my undergraduate English major to studying abroad and switching to computer science, I often felt frustrated during many course studies and questioned more than once whether I could continue on this path. Although the process of this project was bumpy, we ultimately succeeded, which gave me tremendous confidence.
 
-### 相处
+### Interactions
 
-值得一提的是工作之后人与人的相处模式，我似乎一直没有褪去身上那一份学生气，不论是面对 leader、同事还是项目合作伙伴，似乎都是以一种比较直接与坦诚的方式进行交流的。在五月自己的生活经历了一些变故时，团队的小伙伴承担了更多工作职责让我可以自己有所调整；刚结束的项目的一个客户负责人会打电话给我聊三四个小时安慰我；而另一个在建项目的负责人也在帮我申请能否去出差以稍缓一下心情。工作其实也并没有那些贩卖焦虑的推文描述的那般沉闷，我也始终觉得不论处于什么环境或是场合，关系与相处都是互相的，真诚相待其实也能够同样收获一些信任与真心。
+It's worth mentioning the mode of interaction between people after starting work. I seem to have never shed that student air about me, always communicating in a rather direct and candid manner whether facing leaders, colleagues, or project partners. When my life experienced some changes in May, team members took on more work responsibilities to allow me time to adjust. A client leader from a recently completed project would call me for three to four hours to comfort me. And a leader from another ongoing project was helping me apply for a business trip to ease my mood a bit. Work isn't actually as dull as those anxiety-inducing articles describe. I've always felt that regardless of the environment or occasion, relationships and interactions are mutual. Treating others sincerely can indeed equally gain some trust and sincerity in return.
 
-### 收获、困境与改变
+### Gains, Challenges, and Changes
 
 ![dev_guide](https://image.pseudoyu.com/images/dev_guide.png)
 
-一年过去了，第二个项目也即将结束了，我从这一年里学到了很多，也想以自己的方式为部门留下些什么，于是决定写了一份技术指南。除了开发规范外，还包括了这几年我对区块链的一些学习记录，以及一些从工作中学到的实战记录，这些都是我刚步入这份工作时希望能学到的，也希望能够告诉新加入的成员。
+A year has passed, and the second project is about to end. I've learned a lot from this year and wanted to leave something for the department in my own way, so I decided to write a technical guide. In addition to development specifications, it also includes some of my learning records about blockchain over the past few years, as well as some practical records learned from work. These are all things I had hoped to learn when I first entered this job, and I hope to tell new members about them.
 
 ![dev_guide_content](https://image.pseudoyu.com/images/dev_guide_content.png)
 
-尽管工作才过去了一年，技术与经验上还有很多想提升与成长的，但对于方向却多少有了一些迷茫。想钻研一下区块链底层技术，打磨公司或个人的产品，以及更多参与到开源建设中，但工作之中也常常疲于一个个项目交付时间节点，很难有完整的时间学习研究，这也是后续的工作生涯中我需要克服与调整的难题。
+Although only a year has passed in my work, with much room for improvement and growth in technology and experience, I've become somewhat confused about direction. I want to delve into underlying blockchain technology, polish the company's or personal products, and participate more in open source construction. But work often leaves me exhausted by project delivery deadlines, making it difficult to have complete time for learning and research. This is a challenge I need to overcome and adjust in my future career.
 
-所幸另一个 leader 楷哥很关注开源和技术底层这一部分，偶尔的交流也都为我指明了一些方向，还有很多需要去学习提升的，技术之路漫漫，任重而道远。
+Fortunately, another leader, Brother Kai, pays great attention to open source and underlying technology. Our occasional exchanges have pointed out some directions for me. There's still much to learn and improve upon; the road of technology is long, with great responsibility and a long way to go.
 
-## 总结
+## Conclusion
 
-以上就是我在现在这个时间节点对于工作的一些总结，现在也渐渐享受于以这样的方式梳理、记录自己的生活、工作与心境，也希望在下一年回望正在经历的这一年时，能够看到自己更多改变与成长，共勉。
+The above is my summary of work at this point in time. I'm gradually enjoying organizing and recording my life, work, and state of mind in this way. I hope that when I look back on this year I'm experiencing in the next year, I'll see more changes and growth in myself. Let's encourage each other.

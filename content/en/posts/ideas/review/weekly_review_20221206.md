@@ -1,5 +1,5 @@
 ---
-title: "周报 #21 - 重新捡起的生活"
+title: "Weekly Review #21 - Life Picked Up Again"
 date: 2022-12-06T21:48:50+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "gocn", "balance", "telegram", "chatgpt"]
@@ -8,75 +8,75 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2022-11-28` 到 `2022-12-06` 这周生活的记录与思考。
+This is a record and reflection of my life from `2022-11-28` to `2022-12-06`.
 
-都说 21 天可以养成一个习惯，然而到了第 21 篇周报，却依然没能如期更新，每周都是花式拖更理由了。
+They say it takes 21 days to form a habit, yet by the 21st weekly review, I still haven't managed to update on schedule. Each week brings a creative excuse for the delay.
 
-过去的一周工作上其实算不上多忙碌，为活动开发的功能都顺利上线而进入了日常维护阶段，但是睡眠状况依然堪忧，几乎也都还是 3 点后才睡。之前提到过的和学弟一起做的项目筹备得差不多，也逐步启动了，却更多地感觉是在忙自己喜欢的事，所以也算是幸福的负担了。但前前后后堆积的事还是不少，即使是习惯了多线程的自己也频繁感觉到有些力不从心，好在身体健康状况感觉还行。
+The past week wasn't particularly busy work-wise, with features developed for events successfully launched and entering the routine maintenance phase. However, my sleep patterns remained concerning, with bedtime still mostly after 3 AM. The project I mentioned earlier, undertaken with a junior, is well-prepared and gradually launching. It feels more like I'm busy with things I enjoy, so it's a happy burden. But with things piling up here and there, even someone accustomed to multitasking like myself often feels overwhelmed. Fortunately, my physical health seems fine.
 
-仍然因为疫情而居家远程办公（已经整整 15 天没有出门了），继续和捏捏共度时光，与之前的一篇周报主题“[被搁置的生活与自我](https://www.pseudoyu.com/en/2022/10/09/weekly_review_20221009/)”相对应，我的生活似乎重新被捡起来了，多了许多明媚时光。
+Still working remotely from home due to the pandemic (it's been exactly 15 days since I last went out), continuing to spend time with Nie Nie. In contrast to a previous weekly review theme "[Life and Self Put on Hold](https://www.pseudoyu.com/en/2022/10/09/weekly_review_20221009/)", my life seems to have been picked up again, filled with many bright moments.
 
-## 重新捡起的生活
+## Life Picked Up Again
 
-其实即使自己并没有怎么意识到，在接捏捏回家后的这 40 天中，自己发生了很多变化。因为前段时间分别忙碌于工作，和一位友人一个多月没有联系，这次刚好我帮忙解决一个电脑问题，聊了几句，有了如下对话：
+Even though I hadn't really noticed it myself, in the 40 days since bringing Nie Nie home, I've undergone many changes. Due to being busy with work recently, I hadn't been in touch with a friend for over a month. This time, I happened to help solve a computer issue, and we chatted briefly, resulting in the following conversation:
 
 ![chat_with_jmadeinapril](https://image.pseudoyu.com/images/chat_with_jmadeinapril.png)
 
-虽然也没有说的忧郁气质那么夸张，但我总体来说是个不那么积极阳光的人，对于生活和很多事都有着一种置身事外感，并不是不关心或是无法共情，只是不会有那么大的情绪投入，就像是一种角色扮演游戏，我扮演着我自己。而与他人的对话中其实更加不会过多展现自己的内心部分，同样，并不是因为不信任或是蓄意隐瞒所打造什么人设，只是不习惯。
+Although it's not as dramatic as the melancholic temperament mentioned, I am generally not a particularly positive or sunny person. I have a sense of detachment from life and many things. It's not that I don't care or can't empathize, but I don't have such strong emotional investment. It's like a role-playing game where I'm playing myself. In conversations with others, I don't tend to reveal much of my inner self. Again, it's not due to distrust or deliberate concealment to create some persona, I'm just not accustomed to it.
 
-而现在，即使自己好像并没有刻意改变什么，却依然能从哪怕只是日常的对话中让人感觉到情绪，是一种渐渐从自己的言语中溢出的满足感和充盈感。虽说决定再次养猫这件事也经过了反复思虑和权衡，但也未曾想这是一件会对我改变那么大的事，作为宠物和舍友责任与牵挂之余，她已然成为了我生活密不可分的一部分。
+Now, even though I don't seem to have consciously changed anything, people can sense emotions even in casual conversations. It's a kind of satisfaction and fullness that gradually overflows from my words. Although the decision to adopt a cat again involved repeated consideration and weighing of options, I never imagined it would be something that would change me so much. Beyond being a pet and a roommate with responsibilities and concerns, she has become an inseparable part of my life.
 
-和另一位挚友聊天时被问到一句：
+While chatting with another close friend, I was asked:
 
-> “有了捏捏后会不会更安于现在的生活而不愿意做什么改变？”
+> "After getting Nie Nie, will you become more content with your current life and unwilling to make any changes?"
 
-其实我的感知恰恰相反，最近有更加频繁和主动地去重新规划自己的生活节奏与未来目标，包括后续的工作形式、地域和内容。似乎对于之前的我来说，在哪个城市或是做怎样的工作，只要是自己喜欢做的事，只要是和自己在意的人一起，就已经足够满足，其他的没太太所谓。而现在则在自我独处以及和捏捏的“虚度时光”中逐渐更加能找到令自己舒适的生活状态与模式，也更加会在意生活本身的意义，生活不仅仅是自己爱好与工作的附属品，而是本身就值得被尊重和去好好探索的珍贵存在。
+My perception is actually quite the opposite. Recently, I've been more frequently and proactively re-planning my life rhythm and future goals, including future work forms, locations, and content. It seems that for the previous me, as long as I was doing what I liked and was with people I cared about, it was satisfying enough, regardless of which city I was in or what kind of work I was doing. Other things didn't matter much. Now, I'm gradually finding a more comfortable state and mode of life in my solitude and "idle time" with Nie Nie. I'm also more concerned with the meaning of life itself. Life is not just an appendage to my hobbies and work, but a precious existence that deserves respect and exploration in its own right.
 
-虽然并不想说得那么深沉，但捏捏似乎就像是在我生活的灰暗时刻突然出现的救赎，我在照顾之余也寄托了太多太多情绪与情感。所以其实会更加对未来会一起度过的生活有着更多期待，至少会更尽力工作来挣猫粮钱和争取更高的时间支配权来给予更多陪伴。
+Although I don't want to sound too profound, Nie Nie seems like a sudden redemption appearing in the gloomy moments of my life. I've invested too many emotions and feelings in caring for her. So, I actually have more expectations for the future life we'll spend together. At the very least, I'll work harder to earn money for cat food and strive for more control over my time to provide more companionship.
 
-## 与『捏捏』的日常
+## Daily Life with "Nie Nie"
 
-之前看过一部纪录片，《喵星人的奇思妙想》，是在解读猫的行为和背后潜藏的想法，自己最近似乎也有一些这样的倾向，在一些生活中的有趣时刻会拍下一张照片，并配上自己的猫语解读，是一种很有意思的体验，似乎猫和人都在互相揣测对方的想法。
+I watched a documentary before, "The Secret Life of Cats", which interprets cats' behaviors and the thoughts behind them. Recently, I seem to have developed a similar tendency. In some interesting moments of life, I would take a photo and caption it with my interpretation of cat language. It's a very interesting experience, as if both cats and humans are trying to guess each other's thoughts.
 
-因为她眼角分泌物比较多，咨询了医生说可能蛋白质摄入过多，所以开始换粮并减少了一些零食的投喂，第一天她发现吃的没有以前丰盛了，就一直趴在我电脑上用下图眼神看着我。
+Because her eye secretions were quite heavy, I consulted a doctor who said it might be due to excessive protein intake. So I started changing her food and reducing some treats. On the first day, when she found that her meals weren't as lavish as before, she kept lying on my computer and looking at me with the expression in the picture below.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpg" caption="刚来的时候感觉你家伙食很好的？不会是养不起我了吧？">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpg" caption="When I first came, I thought the food here was quite good? Don't tell me you can't afford to keep me anymore?" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpg" caption="别工作了，看看我嘛">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpg" caption="Stop working, look at me" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpg" caption="你的小可爱想引起你的注意力">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpg" caption="Your little darling wants to get your attention" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpg" caption="猫和老鼠都是你们人看着玩的，本猫都看困了">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpg" caption="Tom and Jerry are for you humans to watch, I'm getting bored" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpg" caption="不许在我睡觉的时候卷我">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpg" caption="Don't work while I'm sleeping" >}}
 
-## 其他
+## Others
 
-这个部分会记录一下自己的输入输出以及其他觉得有意思的东西。
+This section will record my input and output, as well as other things I find interesting.
 
-### 输出
+### Output
 
-发现好久没正经写技术博客了，其实很多都已经打了草稿和笔记，只是还没有梳理成文，要继续加紧输出了。不过最近倒是和 GoCN 的小伙伴们一起翻译了一个 『[Google Go 编程规范](https://gocn.github.io/styleguide/)』，还连同之前的『[How To Code In Go](https://gocn.github.io/How-To-Code-in-Go/)』发布了在线版本和 pdf 版本，今天还接到了极客时间的合作邀请（顺便小组成员都能白嫖一个专栏），也算是很开心的一个小成就了。
+I realized it's been a long time since I wrote a proper technical blog. Actually, I've drafted and taken notes on many topics, but haven't organized them into articles yet. I need to speed up my output. However, recently I've been translating the "[Google Go Style Guide](https://gocn.github.io/styleguide/)" with my colleagues from GoCN. Along with the previously translated "[How To Code In Go](https://gocn.github.io/How-To-Code-in-Go/)", we've published online and PDF versions. Today, we even received a collaboration invitation from GeekTime (and incidentally, all team members can get a free column). It's quite a happy little achievement.
 
 ![gocn_trans_book](https://image.pseudoyu.com/images/gocn_trans_book.png)
 
-不知不觉自己的 Telegram 频道『[Yu's Life](https://t.me/pseudoyulife)』刚满了 200 订阅了，其实挺神奇的，只是一个自动化同步自己各个平台输入输出的一个小频道，慢慢积累了一些关注，也常常收到各个平台来的读者们的私信或是加好友申请，说频道有为他们带来一些不一样的视角和思考，还挺荣幸当时的一个小小的想法能够产生这样有趣的结果的，前几周忙碌于工作也少了很多输入输出，也希望继续坚持下去了。
+Without realizing it, my Telegram channel "[Yu's Life](https://t.me/pseudoyulife)" just reached 200 subscribers. It's quite amazing actually. It's just a small channel that automatically synchronizes my input and output from various platforms, but it has slowly accumulated some followers. I often receive private messages or friend requests from readers on various platforms, saying that the channel has brought them some different perspectives and thoughts. I'm quite honored that a small idea at the time could produce such interesting results. I've had less input and output in the past few weeks due to being busy with work, but I hope to continue persevering.
 
 ![yu_life_tg_subs_100](https://image.pseudoyu.com/images/yu_life_tg_subs_100.png)
 
-这周的另一个小爱好就是调戏 ChatGPT，现在的 AI 聊天机器人也太强了，要是 GitHub Copilot 可能更多只是能够辅助一下写一些工具方法，但是 ChatGPT 是真能把整个程序给写出来（并且忽略了我的拼写错误正确理解了），要失业咯。
+Another small hobby this week is teasing ChatGPT. The AI chatbots now are too powerful. While GitHub Copilot might be more helpful in writing some utility methods, ChatGPT can actually write out the entire program (and it correctly understood my intention despite my spelling errors). We might be out of jobs soon.
 
 ![chatgpt_help_me_code_golang](https://image.pseudoyu.com/images/chatgpt_help_me_code_golang.png)
 
-### 输入
+### Input
 
-#### 剧集
+#### TV Series
 
-- **唐朝诡事录**，被朋友推荐来看的，好像这种题材看得蛮少的，有些惊喜感，集中一个周末就刷完了，剧情大多还算经得起推敲，人物都很讨喜，喜君和小薛环都太可爱了！
-- **边缘世界**，前几集虽然有点缝合但是感觉呈现形式挺不错的，后面越看越混乱，既没有了像是头号玩家那样的爽感，也算不上有什么深度，最后也算烂尾了。
-- **Wednesday，星期三**，忘记从哪看到的推荐，工作间隙看完了，除了最开始的设定初见还比较新颖，后面有些不明所以，有点失望但还是追完了。
-- **静雪**，正在追，侧重于情感渲染，所以后续节奏也比较慢，只求别再虐男二了。
+- **The Untamed**, recommended by a friend. I haven't watched much of this genre, so it was quite a pleasant surprise. I binge-watched it over a weekend. Most of the plot holds up to scrutiny, and the characters are all very likable. Xiao Xue Huan and Xi Jun are too cute!
+- **Periphery**, the first few episodes seemed a bit patchwork but the presentation was quite good. It got more chaotic as it went on, lacking both the thrill of something like Ready Player One and any real depth. It ended up being a bit of a flop in the end.
+- **Wednesday**, I forgot where I saw the recommendation. I finished it during work breaks. Apart from the initial setting being relatively novel, it became somewhat confusing later on. It was a bit disappointing, but I still finished it.
+- **Silence of Snow**, currently watching. It focuses on emotional rendering, so the subsequent pace is also slower. I just hope they stop torturing the second male lead.

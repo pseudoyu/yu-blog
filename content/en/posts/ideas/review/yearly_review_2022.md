@@ -1,5 +1,5 @@
 ---
-title: "2022 年末回顾 - 迷茫、低谷与改变"
+title: "2022 Year-End Review - Confusion, Low Points and Change"
 date: 2022-12-31T14:18:37+08:00
 draft: false
 tags: ["review","future","university", "life", "romance", "mood", "change"]
@@ -8,197 +8,195 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-![yearly_review_2022_photo](https://image.pseudoyu.com/images/yearly_review_2022_photo.png)
+Today is the last day of 2022. As I mentioned in my previous weekly review:
 
-今天是 2022 年的最后一天了，如之前周报所说：
+> There will be an annual summary, covering various events of my year - things lost, things gained, things to be grateful for, and inevitable regrets. Though I hesitated about bringing up certain topics again, I decided to face them truthfully. After all, everything expires, even canned pineapples. This year too shall pass. It was these joys and sorrows that shaped my 2022, and shaped a more complete version of myself.
 
-> 年度总结也会有，会有自己这一年的各种事，失去的、得到的、值得感谢的、难免遗憾的，虽然也犹豫过要不要再提一些东西，但还是决定更真实地面对吧。毕竟所有东西都会过期，凤梨罐头也是，这一年也是，是这些喜怒哀乐构成了我的 2022，也构成了一个更加完整的我。
+I set the goal of writing a year-end review early on, intending to spend a few days crafting it carefully. Yet I (unsurprisingly) procrastinated until the afternoon of the 31st.
 
-早早立下了年终总结的 flag，本想花上几天好好雕琢一下，却（~~毫无意外地~~）拖延到了 31 号下午。
+During my gap year in 2019, my job at the time often required travel. In half a year, I flew over 30 times. When the trips were frequent, I would often wake up disoriented on planes, not knowing which city I was in or what I was doing for a few seconds. Though I spent most of this year in my little room, I experienced a similar feeling.
 
-19 年 Gap Year 的时候，当时的那份工作常常要出差，大半年里飞了三十多趟，行程密集时常常在飞机上一觉醒来会有几秒的恍惚，不知道自己在哪个城市、在做什么。这一年的生活其实大多时间在自己的小屋里，却也有同样的感觉。
+It seems that ever since graduating from university, unexpected events occur every year that can easily alter the course of my life. But perhaps that's what makes life interesting.
 
-似乎从大学毕业的那一年开始，每年总会发生很多计划之外的事，甚至一些事也会很轻易地改变自己的人生，但可能这也是生活的有趣之处。
+Maybe it's because I've found an outlet for my desire to share through the people around me. In previous years, I felt life was already beautiful and sufficient, so I didn't treat the new year as a particularly meaningful milestone. But this year, I feel compelled to record something. I suppose I've reached the age where I use words to combat forgetfulness. As I began writing this review, I realized this past year has been a turning point for me in various aspects, in a curious way.
 
-也许是因为分享欲有了身边人的寄托，之前的几年里感觉生活已然美好而自足，所以没把跨年本身作为一个很有仪式感的节点，但今年却总想记录些什么，大概也到了以文字来对抗遗忘的年纪了吧。开始写回顾时才发现过去的一年奇妙地是自己各个方面的转折点。
+Although I couldn't attend the graduation ceremony in person, I received my degree and international student certification from HKU in January, officially leaving school. Also in early January, I applied for a permanent position, starting my first blockchain development job. In April, I successfully delivered my first project as the technical lead. In May, I went through a breakup. In June, I revived my long-abandoned blog, started writing weekly reviews, and began using Twitter to document my daily life. In July, I went back home for a visit, regaining a sense of belonging in life. In October, I adopted a cat - a lovely silver tabby - which brightened up my life considerably. In December, due to the pandemic, I've been staying at home spending time with "Nini" and started working on some side projects, bringing me a little closer to my dream of independent development.
 
-虽然没能回去参加毕业典礼，但 1 月拿到了港大的毕业证与留学生认证，正式离开了学校；同样在 1 月初申请了岗位转正，开启了自己的第一份区块链研发工作；4 月，自己作为技术负责人的第一个项目顺利交付；5 月，分手了；6 月，重新捡起断更了很久的博客，开始写周报，并开始启用 Twitter 记录生活日常；7 月，回了趟家，重新体会到生活的一些归属。10 月，重拾心情养了猫，一只可爱的银渐层，生活明媚了许多；12 月，因为疫情在一直在家和“捏捏”共度时光，也开始做一些 side projects，算是离独立开发的梦更近了一些。
+It seems I've taken on many new identities and experienced numerous emotional changes this year, from the confusion of starting work to the lowest point in my life, then to regaining my spirits and making changes. Looking back from this vantage point, I'm surprised at how much can happen in just a few short months. If I had to choose a theme for this year, I would pick "Transitions."
 
-似乎这一年转换了很多身份，也经历了很多心境变化，从初工作的迷茫到生活的最低谷，再到重拾心情改变，站在这个节点回看也会感到讶异，原来短短几个月会发生那么多事。如果要给这一年设定一个主题，我会选择『变动』吧。
+## People I'm Grateful For
 
-## 感谢的人
+There are many people I'm thankful for in my life this year.
 
-这一年的生活里有很多值得感谢的人。
+I'm grateful to my sweet partner for accompanying me through the most confusing and anxious period in the first half of the year. Even though we couldn't continue our journey together, I hope she's doing well. Despite being in three different locations, Ni and Zhan listened to my confessions during many late nights, keeping me company in my sadness. Many of my subsequent thoughts on life and relationships stem from their encouragement. Although Xiaoyu and I often disappear from each other's lives, it seems we can always have a heart-to-heart conversation that lasts all night with just one phone call. Each time we talk, I regain my anticipation for life. At the same time, she has both assisted and witnessed the budding and fruition of a relationship - I hope she continues to be happy. My parents' daily care always makes me feel warm, and chatting with my sister Xuanxuan brings me a lot of joy. Every time I return to Hangzhou, I look forward to meeting with my middle school homeroom teacher, Brother Chun. It seems only this kind of friendship-like interaction that has remained unchanged for over a decade can make me feel as if time has stood still (although he's always most curious about my romantic experiences and then scolds me for being a scoundrel).
 
-感谢甜崽陪我度过了上半年最迷茫和焦虑的一段时光，即使没能继续走下去，也希望能够一直好好的；虽然身处三地，倪和占在很多个深夜里听我倾诉，陪我难过，后来的这些对于生活、感情观的思考也都源于他们的 push；和晓瑜虽然常常各自消失，但似乎不论什么时候只要一个电话就能够畅聊整晚，每次聊完也都能重新拾起对生活的期待，同时也算助力和见证了一段感情的萌生与结果，一定要继续幸福下去；父母日常的关心总是能够让我感受到温暖，与妹妹萱萱的聊天也让我多了很多乐趣；每次回杭也会期待与初中班主任春哥的相聚，似乎这样十几年如一日像朋友般的相处模式才能让我感觉到时间的静止（虽然每次都是最好奇我的感情经历然后骂我渣男）。
+The daily interactions and somewhat literary exchanges with Ledi make us feel as if we've returned to our university days. We also strategize for each other's "relationships," although they all end in tragedy. Senior Xiaoyu and Xuchong accompanied me to drink and vent at my emotional low point. Of course, I gradually realized that alcohol doesn't solve problems, so I quit. The care from Xiaoyu, Caomuhuii, Jingru, and Tu'er makes me feel that I'm still worthy of having some friends. Senior Boyi's lifestyle makes me believe that work and life can truly be balanced. I'm also grateful for the several times she hosted me for meals, making me feel that Beijing isn't so lonely after all. And many, many more.
 
-与乐迪的日常和带些文青属性的交流让我们感觉似乎回到了大学时光，也相互为对方的“感情”出谋划策，尽管都以悲剧收场；小雨学姐和许翀在我情绪的最低谷陪我喝酒排解，当然，后来也渐渐发现酒并不能解决问题，戒了；来自小宇、草木灰、静茹和徒儿的关心让我觉得似乎自己也还值得拥有一些朋友；博译学姐的生活状态让我相信 work 和 life 真的能 balance，也感谢数次收留我去蹭饭，让我觉得北京似乎也不是那么无依无靠；还有很多很多。
+I'm thankful for everyone's companionship and the emotions they've stirred in me this year. I hope in the days to come, you'll all be safe and happy, and that life treats you gently.
 
-感谢这一年里大家给予我的陪伴与感动，也希望在未来的日子里平安喜乐，都能被生活温柔相待。
+## Relationships and Renewed Living
 
-## 感情与重新生活
+In the days after parting, I spent several months slowing down, sincerely experiencing and feeling life itself, trying to recover those bits and pieces I had lost while moving forward in confusion.
 
-在分开后的日子，自己花了几个月的时间放慢脚步，用心去体会与感受生活本身，去找回自己在迷茫中前行时丢失的那些点滴。
+Starting from the birthday summary "A Confession at 25: Love Like a Bouquet" that I wrote with great emotional turmoil at the time but now seems somewhat overly ornate in retrospect, I pondered on "Emotions, Security, and Living Seriously", attempting to regain my "Health, Goals, and Rhythm of Life".
 
-从『[25 岁的自白：花束般的恋爱](https://www.pseudoyu.com/en/2022/06/06/yearly_review_25/)』这篇当时写完心情起伏很大但后来回顾却虚有些华丽的生日总结开始，思考了『[情感、安全感与认真生活](https://www.pseudoyu.com/en/2022/06/28/weekly_review_20220626/)』，试图找回自己『[健康、目标与生活的节奏感](https://www.pseudoyu.com/en/2022/07/11/weekly_review_20220711/)』。
+Taking advantage of a short holiday after a project ended, I went back to Hangzhou and reflected on "Family Bonds and the Sense of Belonging to a City". Occasionally, there would be emotional ripples caused by the quiet erasure of traces of our time together. After discovering that those past lives and connections were "404 Not Found", I began planning to adopt another cat to give myself something to look forward to and depend on.
 
-趁着项目结束的小长假回了趟杭州，思考了『[亲情与城市的归属感](https://www.pseudoyu.com/en/2022/07/24/weekly_review_20220724/)』。偶尔会有因为曾经一起的痕迹被悄然抹去引起的情绪波澜，当发现过去的那些生活与关联『[404 Not Found](https://www.pseudoyu.com/en/2022/08/22/weekly_review_20220822/)』后，也重新开始计划再养一只猫而让自己有所寄托与期待。
+Inspired by a book by Murakami, I started to contemplate my "Personality and the Essence of Life". Several sleepless nights of chatting with old friends made me think of the more distant past, reminiscing about "The Past, Regrets, and the Present".
 
-因为村上的一本书开始思考自己的『[人格与生活的本质](https://www.pseudoyu.com/en/2022/08/29/weekly_review_20220829/)』，因为和故友的几次聊天不眠夜开始想起更加遥远的过去，回想了『[过去、遗憾与当下](https://www.pseudoyu.com/en/2022/09/04/weekly_review_20220904/)』。
+During an unexpected business trip to Qingdao, I designed "An Unexpected Journey" for myself, experiencing beauty during the trip and reconciling with a part of my inner obsessions. During the National Day holiday, due to a sudden emotional fluctuation, my life that had just started to improve took a noticeable downturn. I went through a difficult time, "Putting Life and Self on Hold".
 
-趁着一次突发的青岛出差给自己设计了一场『[不期而遇的旅行](https://www.pseudoyu.com/en/2022/09/13/weekly_review_20220913/)』，在旅途中感受美好，并与自己的一部分内心执念和解了。国庆时由于突发的情绪波动，刚刚好转起来的生活又有了明显的颓势，度过了一阵艰难的时光，『[搁置了生活与自我](https://www.pseudoyu.com/en/2022/10/09/weekly_review_20221009/)』。
+I increasingly realized the weight of accumulated emotions. So shortly after returning to Beijing, I went to a cat shelter and, due to an instant connection, adopted a lovely silver tabby that week, returning to "The Life of Him and His Cat".
 
-也愈加发现情绪积累之重，于是回北京后不久就去猫舍看了，因为合眼缘当周就养了一只可爱的银渐层，重新过上了『[他和他的猫](https://www.pseudoyu.com/en/2022/10/31/weekly_review_20221031/)』的生活。
+The days spent with the cat are quiet and beautiful. I've experienced "Companionship and Another Kind of Life", and slowly started to pick up my phone and camera again to casually record the beautiful moments in life. I never imagined a cat could bring such a big change to me, as if I had "Picked Up Life Again". On Christmas Eve, I watched "Love Actually" and reconsidered love and life.
 
-与猫猫共处的日子静谧而美好，感受到了『[陪伴与另一种生活](https://www.pseudoyu.com/en/2022/11/08/weekly_review_20221108/)』，也慢慢开始重新拿起手机和相机随手记录一些生活点滴美好，其实未曾设想猫能给自己带来那么大的变化，就像自己『[重新捡起了生活](https://www.pseudoyu.com/en/2022/12/06/weekly_review_20221206/)』，也在圣诞的深夜看着『[Love Actually | 真爱至上](https://www.pseudoyu.com/en/2022/12/27/weekly_review_20221227/)』并重新思索爱情与生活。
+I'm somewhat glad that I decided to start recording everything in the form of weekly reviews at that time. When looking back, I can string together the scattered thoughts and feelings I recorded over the past six months into a line, seeing my changes and the flow of life. I don't know where and how I'll feel in the new year, how I'll change in various aspects, but I'll continue to record these fragments of my growth.
 
-有些庆幸当时决定以周报的形式开始记录一切，在回顾时也能够将自己在这半年里零碎记录下的想法与感受串成一条线，能看到自己的变化，也能看到生活的流动。不知道新的一年会在哪里有怎样的感受，各个方面是会有怎样的改变，但依然会继续记录这些自己成长的碎片。
-
-## 性格与改变
+## Personality and Change
 
 ![yu_personality_infj](https://image.pseudoyu.com/images/yu_personality_infj.png)
 
-昨晚突然想到很久没有做性格测试了，可能也有了不少改变，就做了一下。还记得大学时候的自己是个 ENTJ，后来短暂有变成 INTJ，但也时常徘徊，经过了这一两年的各种事，自己竟然已经是 INFJ 了，有些惊讶。
+Last night, I suddenly realized it had been a long time since I took a personality test. I might have changed quite a bit, so I took one. I remember being an ENTJ in college, then briefly changing to INTJ, but often wavering. After all the events of the past year or two, I've surprisingly become an INFJ. I was quite shocked.
 
-可能是由于更多把自我的一些追寻和探索转向『[内观而非外求](https://www.pseudoyu.com/en/2022/10/18/weekly_review_20221018/)』，而周报也是多偏内心与情绪，我的内向与偏重感受的倾向变的越来越明显。
+Perhaps it's because I've turned more of my self-pursuit and exploration towards "introspection rather than external seeking", and my weekly reviews also lean more towards inner thoughts and emotions. My introverted tendencies and inclination towards feelings have become increasingly apparent.
 
-之前的自己大概是一个有些过分追求自我、某些时候理性到甚至有些冷漠的人，对他人的生活总是仅仅给予礼貌限度的关心，即使是最亲近的人，优先级似乎也常常在自我之下。这一点也许在独自前行时能够有一些助力，但生活是复杂的也是流动的，人与人的关系常常也并不只是单方的妥协，简单的道理，身处其中却也很难做到。
+I used to be someone who perhaps pursued self-interest excessively, sometimes rational to the point of seeming cold. I would only show polite concern for others' lives, even for those closest to me, often prioritizing myself. This trait might have been helpful when forging ahead alone, but life is complex and fluid. Relationships between people are often not just about one-sided compromise. It's a simple truth, but difficult to achieve when you're in the midst of it.
 
-## 改变最大的三件事
+## The Three Things That Changed the Most
 
-常常会看到在年终时总结自己这一年的变化，我也跟风列举三项，不是什么深思熟虑后的重大事件，只是回顾时记忆深刻的一些。当然，上文已经提过不少，所以不想过多提及感情。
+I often see people summarizing their changes over the year during year-end reviews. I'll follow suit and list three items. These aren't carefully considered major events, just some things that stood out in my memory upon reflection. Of course, I've already mentioned a lot about relationships above, so I don't want to dwell on that topic too much.
 
-### 抚养捏捏
+### Raising Nini
 
 ![my_cat_nie_nie_28](https://image.pseudoyu.com/images/my_cat_nie_nie_28.jpg)
 
-“捏捏”是我家的猫猫，从 10 月 30 日带回家后已经一起相处了两个月。
+"Nini" is my cat. We've been living together for two months since I brought her home on October 30th.
 
-独自养猫这件事本身对于我来说其实也是一个很大的挑战（毕竟我是真的能两三天不吃饭不怎么睡觉在电脑前沉迷在自己的世界的，生活无比粗糙），也经过了很多犹豫，但见到她的当下，几乎就已经下了决心。
+Raising a cat alone is actually quite a challenge for me (after all, I'm truly capable of not eating for two or three days, barely sleeping, and being immersed in my own world in front of the computer, living an extremely rough life). I went through a lot of hesitation, but the moment I saw her, I had almost made up my mind.
 
-一切似乎都是从头开始学，两个月的时间改变了我很多，也希望新的一年里都能够继续健康生活下去。
+Everything seemed to start from scratch. I've learned a lot in these two months, and it has changed me in many ways. I hope we can continue to live healthily in the new year.
 
-圣诞装扮因为快递延迟了一些，所以还没出，明天会更新之前拍的一套『Cat In the Box』系列照片，~~只想看捏捏的可以退出了~~。
+The Christmas decorations were delayed due to shipping, so they haven't arrived yet. Tomorrow I'll update with a series of "Cat In the Box" photos I took earlier. (If you're only interested in seeing Nini, you can stop reading now.)
 
-### 使用双拼输入法
+### Using Shuangpin Input Method
 
 ![shuangpin_input_preview](https://image.pseudoyu.com/images/shuangpin_input_preview.png)
 
-从小学接触电脑开始，我就用的拼音输入法（全拼），也就是我们常用的九宫格和 26 键那种，一个维系了十几年的习惯，在 5 月突然想有所改变，其实倒也不是纯粹去追求打字速度的提升，只是想尝试一下，改变一个早已习以为常甚至已经融入本能的生活习惯有多难（~~这个人句句不提感情，但句句不离感情~~）。
+Since I first encountered computers in elementary school, I've been using pinyin input method (full pinyin), which is the common nine-key or 26-key layout we're used to. This habit had persisted for over a decade. In May, I suddenly wanted to make a change. It wasn't purely about improving typing speed, I just wanted to try something new, to see how hard it is to change a habit that has become second nature (this person keeps saying he's not talking about relationships, but every sentence is about relationships).
 
-双拼是一种不同的键位分布，打任何一个字都只需要敲击两下键盘（声母+韵母），所以前期还是会有很多不适应的地方，虽然记忆键位只用了一个下午，但转换习惯大概花了半个月，也无数次想要切换回来，但过了阵痛期后原来也没有那么难。
+Shuangpin is a different key layout where you only need to press two keys (initial consonant + final vowel) to type any character. So there were many things to get used to at first. Although it only took an afternoon to memorize the key positions, it took about half a month to convert the habit. I wanted to switch back countless times, but after getting through the painful period, it turned out not to be that difficult.
 
-是吧，其实也没有那么难。
+See? It's not that difficult after all.
 
-### 换了新发色
+### New Hair Color
 
 ![yu_selfish_2022](https://image.pseudoyu.com/images/yu_selfish_2022.jpg)
 
-> 实在是很少有自己的照片，而且拍完才发现镜子已经脏到不需要打码了。
+> I rarely have photos of myself, and I only realized after taking this that the mirror was so dirty it didn't need to be censored.
 
-这个本身虽然倒不是一个多大的改变，但我是比较少做这样的尝试，在 7 月的时候换了绿色发色，褪色差不多后又在 10 月换了蓝色，后者感觉更像个动漫死宅了，也算是圆了自己的一个二次元梦了，不过也就现在头发多所以还能折腾折腾，目前还是会保留蓝色吧。
+This change itself isn't a big one, but I rarely make such attempts. In July, I dyed my hair green, and after it faded, I changed to blue in October. The latter makes me feel more like an anime otaku, fulfilling a sort of second dimension dream. I suppose I can only experiment like this now while I still have a lot of hair. For now, I'll keep the blue color.
 
-也算是通过改变换一下心情吧。
+It's also a way to change my mood through change.
 
-## 学习、输入与输出
+## Learning, Input, and Output
 
-### 工作
+### Work
 
-今年和 leader 涛哥在项目上的接触少了，但他的一些对于技术的想法态度还是有在深深影响着我，后面大概还是在几个项目的折磨下提升了不少 Go 开发的工程能力吧，还对 docker、k8s 以及各种 ci/cd 有了不错的基础，也自己做了不少探索。
+This year, I had less contact with my leader, Tao, on projects, but his ideas and attitudes towards technology still deeply influence me. I've probably improved my Go development engineering skills quite a bit under the torment of several projects, and I've also gained a good foundation in docker, k8s, and various CI/CD tools, as well as doing a lot of exploration on my own.
 
-系统学习了 Solidity 智能合约开发的一些知识，也出了相关的入门系列教程 —— 『[区块链入门指南](https://guide.pseudoyu.com/)』，在下半年的项目中也做合约开发和与链交互相关的一些工作任务，总体是挺开心挺有成长的一年。
+I systematically learned some knowledge about Solidity smart contract development and produced a related introductory tutorial series - "Blockchain Beginner's Guide". In the second half of the year's projects, I also did some work tasks related to contract development and chain interaction. Overall, it's been a happy and growth-filled year.
 
-虽然工作氛围和方式已经是较为自由了，但也常常会感受到来自工作的一些消耗，有在考虑一些 Web3 远程工作的形式或是新的机会，大概也可能会回香港吧，新的一年，也许也适合做一些改变。
+Although the work atmosphere and methods are already quite free, I often feel some drain from work. I'm considering some forms of Web3 remote work or new opportunities, and I might possibly return to Hong Kong. In the new year, it might be appropriate to make some changes.
 
-### 技术
+### Technology
 
-工作之外，自己还是做了一些好玩的探索，算是解锁了前端开发的一些基础技能，能够结合着原有的技术栈做一些小项目和工具了，以后介绍就可以加上“一个会糊点前端的后端”了，~~或者厚颜无耻地加上一个伪全栈（pseudo full-stack）了~~。
+Outside of work, I've done some fun explorations, unlocking some basic frontend development skills. I can now do some small projects and tools combining with my existing technology stack. In the future, I can introduce myself as "a backend developer who can cobble together some frontend" or maybe shamelessly add "pseudo full-stack".
 
-倒不是前端技术学习本身有多么让人欣喜，只是这样就可以独立做一些自己的产品，也能更好地解决一些问题，更接近自己想做技术的初衷了。
+It's not that learning frontend technology itself is particularly exciting, but it allows me to independently create some of my own products and better solve some problems, getting closer to my original intention of doing technology.
 
-Rust 学了基础，但是还没在实践中用到，新年希望能有所精进；倒是计划好的 LeetCode 算法刷题一直没实践，也是新的一年的重点计划了，~~虽然确实很难坚持~~。
+I've learned the basics of Rust, but haven't used it in practice yet. I hope to make some progress in the new year. As for the planned LeetCode algorithm practice, I haven't implemented it yet. It's also a key plan for the new year, although it's indeed hard to persist.
 
-在 [GoCN](https://gocn.vip/) 翻译团队继续贡献了接近 10 篇文章和参与了两本书，也承包了各种 ci/cd；参与了慢雾的『[区块链黑暗森林自救手册](https://darkhandbook.io/)』英文翻译团队，也算是为 Web3 作了一些微小的贡献。
+I continued to contribute nearly 10 articles and participated in two books in the [GoCN](https://gocn.vip/) translation team, and also took charge of various CI/CD tasks. I participated in the English translation team for SlowMist's "Blockchain Dark Forest Self-Rescue Manual", making some small contributions to Web3.
 
-### 语言
+### Language
 
-今年的很多重心放在了英语听读写的培养上，算是有了一些进步，可以 1.5 倍速看英文教程与 Podcasts，无字幕刷《硅谷》美剧，一些技术翻译和写作也还算得心应手，但口语还是有些欠缺，再加上很少练习，算是比较薄弱的一环了，离开了英语环境的提升也很依靠毅力了。
+This year, I focused a lot on cultivating my English listening, reading, and writing skills. I've made some progress. I can watch English tutorials and podcasts at 1.5x speed, watch the American TV series "Silicon Valley" without subtitles, and handle some technical translations and writings quite well. However, my spoken English is still somewhat lacking. Plus, I rarely practice, so it's a relatively weak link. Improving outside an English environment really depends on willpower.
 
-原本计划好的日语复习（~~其实基本也等于预习了~~）也搁置了，新年开始要在周报打卡学习进度了。
+The originally planned Japanese review (which is basically equivalent to preview) has been put on hold. I'll start tracking my learning progress in the weekly review in the new year.
 
-德语也只复习到一些基本词汇短语，早知道当年学二外的时候更加认真了，~~现在就是很后悔~~，这个不立 flag，随缘了。
+I've only reviewed some basic German vocabulary and phrases. If only I had been more serious when learning a second foreign language back then. Now I really regret it. I won't set any goals for this one, it'll be up to fate.
 
-### 阅读与影音
+### Reading and Media
 
-为了 Telegram 频道的同步，我今年开始用豆瓣记录自己的一些读书、影音和游戏，影音因为有一部分是补标的，数据没什么参考性，就不放了。
+To synchronize with my Telegram channel, I started using Douban this year to record my reading, media consumption, and gaming. The media data isn't very meaningful as some of it was retroactively added, so I won't include it here.
 
 ![yu_2022_review_book](https://image.pseudoyu.com/images/yu_2022_review_book.png)
 
-今年后半年还算是读了蛮多书，大多时间是在通勤和午休的时候看的，没有刻意去追求什么量，整理时却突然发现也已经有 30 本之多，感觉慢慢找回了一些阅读写作的心境和乐趣。我最喜欢的作家是毛姆，他有一本读书随笔中有一句话叫“阅读是一座随身携带的避难所”，这半年也深有体会，书中可以看到很多不一样的世界，也有很多不一样的人生，真好。
+I read quite a few books in the second half of this year, mostly during commutes and lunch breaks. I didn't deliberately pursue any quantity, but when I organized it, I suddenly found that I had already read 30 books. I feel like I've regained some of the mood and joy of reading and writing. My favorite author is Maugham. In one of his reading essays, there's a line that says "Reading is a portable sanctuary", which I've deeply felt in the past half year. In books, you can see many different worlds and many different lives. It's wonderful.
 
-也刷了不少剧，各种电影、剧集和动漫加起来应该有超过 100 部吧，也尽量有在认真体会。大概自己豆瓣文青的人设已经稳稳的了，收到了分别两个朋友送的豆瓣电影日历和一个电影放映周历，未来的一年也会继续多看一些。
+I've also watched quite a few shows. Various movies, TV series, and anime add up to probably over 100. I've tried to appreciate them seriously. I guess my Douban literary persona is pretty solid now. I received two Douban movie calendars and a movie screening weekly calendar from two different friends. I'll continue to watch more in the coming year.
 
-因为想记录下这些痕迹，所以也开始在看完的书籍和影音后加上自己的感想发在豆瓣，感觉这种方式也有让自己在看的时候会更用心，虽然都是短评，累积下来不知不觉也有 8932 字。
+Because I wanted to record these traces, I also started adding my thoughts on Douban after finishing books and media. I feel this method also makes me more attentive when watching or reading. Although they're all short comments, they've accumulated to 8,932 words without me realizing it.
 
-## 年终数据
+## Year-End Data
 
-大概还是受到了她的一些影响，原本比较随意无序的自己今年似乎也想以数据化的方式展现一些小小成长。
+I guess I've been influenced by her to some extent. My formerly casual and disorderly self seems to want to present some small growth in a data-driven way this year.
 
-### 重新捡起的博客
+### Revived Blog
 
 ![yu_2022_review_umami_data](https://image.pseudoyu.com/images/yu_2022_review_umami_data.png)
 
-自己很早开始写公众号和博文，但是就之前的更新频率和内容来说也很难称为独立博客。从五月的一篇『[2022 年了，聊聊我为什么还在写博客](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)』开始，重新捡起了[我的博客](https://www.pseudoyu.com/)，这一年里正好更新了 48 篇博文，虽然几乎都是下半年更新的，~~但四舍五入我周更了~~，其中周报和一些心绪相关的文章与技术博文和效率工具相关的文章刚巧约一半一半，也符合了我对于内容输出与分享欲的定位，不错的开端。
+I started writing on WeChat Official Accounts and blogs very early on, but given the frequency of updates and content in the past, it could hardly be called an independent blog. Starting with an article "It's 2022, Let's Talk About Why I'm Still Blogging" in May, I revived [my blog](https://www.pseudoyu.com/). This year, I updated exactly 48 blog posts, although almost all were updated in the second half of the year (but rounded up, I updated weekly). About half of these were weekly reviews and articles related to thoughts and emotions, while the other half were technical blogs and articles about productivity tools. This aligns well with my positioning for content output and desire to share. It's a good start.
 
-随着博文的持续更新，稍得到了一些读者的关注。从 6 月中旬通过 umami 搭建了一个数据统计系统，随着每个月更用心地输出，月 pv(page view) 已经到了 12k+，月 uv(unique visitor) 也到了 4k+，并且保持着不错的增长态势，能够看到自己的输出得到了一些认可，也常常在半夜打开统计界面时看到“当前在线 5 人”这样的提示时会心一笑。
+With the continuous update of blog posts, I've gained some readers' attention. From mid-June, I set up a data statistics system through umami. As I put more effort into output each month, the monthly page views (PV) have reached 12k+, and monthly unique visitors (UV) have reached 4k+, maintaining a good growth trend. It's gratifying to see that my output has received some recognition. I often smile when I open the statistics interface at midnight and see prompts like "5 people currently online".
 
-常常也会收到一些感谢或是鼓励的评论，不知不觉也积累了好多页，很感谢这些素昧平生的陌生人用心的留言与评论，很开心自己的文字能够改变或是启发一些人，也感谢在博客已经式微的当下，他们依然愿意“浪费”自己的一些时间通过这种方式向我传达一些想法，即使只是简单的一句祝福与感谢。也在年度回顾之际精选一些以作分享（见文末），希望未来的一年还有你们相伴。
+I also often receive comments of thanks or encouragement. Before I knew it, there were many pages of comments. I'm very grateful for the heartfelt messages and comments from these strangers I've never met. I'm happy that my words can change or inspire some people. I also appreciate that in an era when blogs are declining, they are still willing to "waste" some of their time to convey some thoughts to me in this way, even if it's just a simple blessing or thanks. I've selected some to share at the end of this annual review. I hope you'll continue to accompany me in the coming year.
 
-### 推特
+### Twitter
 
 ![yu_2022_review_twitter](https://image.pseudoyu.com/images/yu_2022_review_twitter.png)
 
-也许是因为渐渐习惯了博客这种对外输出的方式，也许是因为随着生活变动分享欲无处安放，从年中启用了自己的推特帐号，原本只是想作为一个像是私密微博，前期也只是发一些深夜情绪。
+Perhaps it's because I gradually got used to the way of outputting to the outside world through my blog, or perhaps it's because my desire to share had nowhere to go as my life changed. I activated my Twitter account in the middle of the year. Originally, I just wanted it to be like a private Weibo. In the early stages, I only posted some late-night emotions.
 
-后来随着和 [STRRL](https://twitter.com/strrlthedev)、[Homura](https://twitter.com/RealAkemiHomura)、[Manjusaka](https://twitter.com/Manjusaka_Lee)、[新一](https://twitter.com/_a_wing)和 [Xuanwo](https://twitter.com/OnlyXuanwo) 等朋友一起分享自己的周报和闲聊，感受到了大家的友好，也更多开始分享自己的日常，不知不觉也发了 514 条推文（~~这个人废话还挺多的~~），收获了 600+ 朋友的关注，居然也能和 [yihong](https://twitter.com/yihong0618)、[GeekPlux](https://twitter.com/GeekPlux) 这些之前仅存在我仰望的关注列表里的技术博主互关，偶尔也能有一些很有趣的互动。
+Later, as I shared my weekly reports and chatted with friends like [STRRL](https://twitter.com/strrlthedev), [Homura](https://twitter.com/RealAkemiHomura), [Manjusaka](https://twitter.com/Manjusaka_Lee), [Xinyi](https://twitter.com/_a_wing) and [Xuanwo](https://twitter.com/OnlyXuanwo), I felt everyone's friendliness and started sharing more of my daily life. Before I knew it, I had posted 514 tweets (this person talks quite a lot), gained 600+ followers, and even managed to mutually follow tech bloggers like [yihong](https://twitter.com/yihong0618) and [GeekPlux](https://twitter.com/GeekPlux) who were previously only in my aspirational following list. Occasionally, we have some very interesting interactions.
 
-感谢这些朋友不嫌弃我。
+Thank you to these friends for not minding me.
 
-### Telegram 频道
+### Telegram Channel
 
 ![yu_2022_review_tg](https://image.pseudoyu.com/images/yu_2022_review_tg.png)
 
-在之前的一篇周报『[周报 #12 - 赛博空间、自我定义与界限](https://www.pseudoyu.com/en/2022/09/19/weekly_review_20220919/)』里，我提到有搭建自己的一个 Telegram 频道，用来同步自己的各种 Twitter、评论、点赞等，原本也只是用于自己每周周报找素材的一份存档，不知不觉也有了 251 位订阅者，也收到了其中一些人对我频道的感谢，似乎自己不经意间做的一些事竟然也给别人创造了一些价值，很惊喜，会继续坚持输出的。
+In a previous weekly review "Weekly Report #12 - Cyberspace, Self-Definition and Boundaries", I mentioned that I had set up my own Telegram channel to synchronize my various Twitter posts, comments, likes, etc. Originally, it was just an archive for me to find material for my weekly reports, but before I knew it, it had 251 subscribers. I've also received thanks from some of them for my channel. It seems that some things I did unintentionally have created some value for others. I'm surprised and will continue to persist in outputting.
 
 ### GitHub
 
 ![yu_2022_review_github_data](https://image.pseudoyu.com/images/yu_2022_review_github_data.png)
 
-GitHub 也是年中才好好用起来的，2022 年有 1.1k 次代码提交，给 12 个项目贡献了 36 个 PR，收获了 260 个关注者。最开心的还是给自己在用了好几年的 hugo 主题项目提了一些优化和新增特性的 PR，经过了和开发者的一些交流后合并进了主分支，有一种很奇妙的参与感，可能这就是开源的魅力吧。
+I only started using GitHub properly in the middle of the year. In 2022, I had 1.1k code commits, contributed 36 PRs to 12 projects, and gained 260 followers. What made me happiest was submitting some PRs for optimizations and new features to the hugo theme project I had been using for several years. After some communication with the developers, it was merged into the main branch. There's a curious sense of participation, perhaps this is the charm of open source.
 
 ![yu_2022_review_yu_tools](https://image.pseudoyu.com/images/yu_2022_review_yu_tools.png)
 
-自己的一个工具箱项目『[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)』也让我收获了 400+ stars（~~别骂了，是 markdown 项目~~），再加上自己做了一些区块链相关的项目，总 stars 终于破 500 了，还是蛮开心的，新年会为这个工具箱项目写一个网站，呈现更多工具介绍和使用体验。
+My toolbox project "GitHub - yu-tools" also earned me 400+ stars (don't scold me, it's a markdown project). Along with some blockchain-related projects I did, my total stars finally broke 500, which I'm quite happy about. In the new year, I'll write a website for this toolbox project, presenting more tool introductions and user experiences.
 
-### 少数派
+### Sspai
 
 ![yu_2022_review_sspai](https://image.pseudoyu.com/images/yu_2022_review_sspai.png)
 
-少数派是一个我看了好几年的平台，有很多效率工具类的优质文章，其实没想到自己能成为入驻作者。这一年写了 12 篇文章（包括了前几篇从博客搬运过来的），累计 38660 字，得到了 7 篇推荐，其中 4 篇首页推荐，1 篇会员专享，文章总阅读量达到 20w+，收获了 150 左右的关注，还收获了几千的稿费。新的一年也会继续产出一些文章，猫罐头就有了（~~为了养猫真是成为了打工战士~~），很感谢少数派的编辑『[北鸮](https://sspai.com/u/thebaldingken/updates)』，很耐心也很友好，还向他学习了一些双拼输入法经验。
+Sspai is a platform I've been reading for several years. It has many high-quality articles about productivity tools. I actually didn't expect to become a resident author. This year, I wrote 12 articles (including a few that were moved from my blog), totaling 38,660 words. I received 7 recommendations, including 4 homepage recommendations and 1 member-exclusive. The total reading volume of the articles reached 200k+, and I gained about 150 followers, as well as a few thousand in remuneration. In the new year, I will continue to produce some articles. The cat food is secured (I've really become a working warrior for the sake of raising a cat). I'm very grateful to the editor of Sspai, "Bei Xiao", who is very patient and friendly. I also learned some experiences about Shuangpin input method from him.
 
-## 总结
+## Conclusion
 
-2022 年经历了许多许多，即使有了这些记录和数据，回顾的时候仍觉得有些恍若隔世。
+I experienced a lot in 2022. Even with these records and data, it still feels somewhat surreal when I look back.
 
-新的一年就要开始了，祝 2023 年的自己，快乐。
+A new year is about to begin. I wish myself in 2023, happiness.
 
-## 附录
+## Appendix
 
-### 博客评论展示
+### Blog Comment Showcase
 
 ![yu_2022_review_cusdis_comment_1](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_1.png)
 ![yu_2022_review_cusdis_comment_2](https://image.pseudoyu.com/images/yu_2022_review_cusdis_comment_2.png)

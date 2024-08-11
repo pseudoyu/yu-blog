@@ -1,5 +1,5 @@
 ---
-title: "周报 #37 - 浮生半月闲（ 武汉 | 香港 | 五月天）"
+title: "Weekly Review #37 - A Fortnight of Leisure (Wuhan | Hong Kong | Mayday)"
 date: 2023-04-18T11:39:21+08:00
 draft: false
 tags: ["review", "life", "home", "city", "travel", "work", "wuhan", "hongkong", "mayday", "web3", "friend"]
@@ -8,65 +8,65 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-04-03` 到 `2023-04-18` 这两周生活的记录与思考。
+This piece chronicles my life and reflections from April 3rd to April 18th, 2023.
 
-大约是因为刚换了一种生活状态，早在 3 月就给自己安排了很多行程，从 4 月初就四处游荡，浮生半月闲。这次的路线像是一场回归之旅，从生养的杭州出发，到第一次长期离开家的武汉看望老师和故友，再到度过了奇妙岁月的香港参加展会和活动。
+Perhaps due to my recent change in lifestyle, I had planned numerous engagements as early as March. From the beginning of April, I found myself wandering, experiencing a fortnight of leisure. This journey was akin to a homecoming - departing from Hangzhou where I was raised, to Wuhan, the first place I left home for an extended period, to visit my professor and old friends, and finally to Hong Kong, where I spent some remarkable years, to attend exhibitions and events.
 
-其实也远远算不上忙里偷闲，因为没有请假，好几天的工作日在学校边的酒店或是会展中心的某个角落度过，大多出行也是匆匆赶场。感觉其实也并没有做太多事，却直到现在才得以稍稍缓过来一些，整理这几天的见闻心绪。
+It was hardly stolen moments of leisure amidst busyness, as I didn't take time off work. Several workdays were spent in hotel rooms near schools or in corners of convention centers, and most travels were hurried affairs. In truth, it doesn't feel like I accomplished much, yet it's only now that I've found a moment to gather my thoughts and experiences from these days.
 
-半月的旅途算是有趣和值得，看望了许久未见的老师，补上了一节久违的「English Writing」 课；跟博译学姐逛了一下校园，感慨时间流逝之快；匆匆在上海逗留一晚，和小宇约上了一场饭，也给学姐过了一个简陋的生日；在深圳辗转，见到了很多仅存在工作群中的同事，大型网友见面了；在香港参加了 Web3 Festival，虽然没认识什么有趣的开发者，但见到了一些好玩的项目，也约见了一些新老朋友；回港大走了走曾经的一些记忆点，依然美好而珍贵；在上环和公园见了占，久别重逢；看了气氛超 high 的五月天演唱会；还有很多有意思的事。
+The half-month journey was interesting and worthwhile. I visited my long-unseen professor and attended a nostalgic "English Writing" class; strolled around campus with senior Boyi, marveling at how swiftly time passes; briefly stayed in Shanghai for a night, dining with Xiaoyu and celebrating senior's birthday in a modest way; transited through Shenzhen, meeting many colleagues who previously existed only in work chats - a grand "online friends meetup"; attended the Web3 Festival in Hong Kong, and while I didn't meet many interesting developers, I saw some intriguing projects and caught up with both old and new friends; revisited some memory spots at HKU, still beautiful and precious; met up with Zhan in Sheung Wan and the park after a long separation; attended an electrifying Mayday concert; and many other interesting happenings.
 
-回到原本的生活状态了，周报和其他输入输出频率即将恢复正常了（~~但愿！~~
+Now that I've returned to my usual routine, the frequency of weekly reviews and other inputs and outputs should return to normal (hopefully!).
 
-## 武汉记事
+## Wuhan Chronicles
 
-其实 2 月已经回过一趟武汉，但因故没见到亮亮老师，所以在隔了短短一个月又重返了。上一次的路途上还在因面试而有些焦虑，这次已经一切落定，多了些闲适的心情，连步伐也都放缓了。
+I actually returned to Wuhan in February, but due to circumstances, I didn't get to see Professor Liang. So, after a short month, I found myself back again. During my previous journey, I was anxious about interviews, but this time, with everything settled, I felt more at ease, even slowing my pace.
 
-总觉得外国语学院在我的人生或是记忆中是一个神奇的存在，有过一段时间因为职业方向上的限制，我总是特别不愿意提起，似乎在后悔自己为什么没有读一个更“有用”的专业；也有过一段时间，似乎别人问起我文科转码的经历时总是会带上一些惊诧，诚实来讲那个阶段的自己是有些享受于这个标签的；而到了现在，见到了很多有趣的奇怪经历的人，工作也步入正轨，渐渐后面的职业不再受阻于学业，自己对于曾在外院度过的四年大学时光多了一些珍惜。
+The School of Foreign Languages has always held a peculiar place in my life and memories. For a time, due to career path limitations, I was particularly reluctant to mention it, seemingly regretting why I hadn't chosen a more "useful" major. There was also a period when others would express surprise at my transition from liberal arts to coding, and to be honest, I somewhat enjoyed this label at that stage. Now, having met many interesting people with unusual experiences and having settled into my career, my past education no longer hinders my professional life. I've gradually come to cherish the four years I spent at the School of Foreign Languages.
 
-随着步履踏过校园的很多角落，看过自己所待过的一个个学生组织、教室和工作室的痕迹，才真正感受到时间的流逝，原来一些熟悉的事已经需要用五年、七年为尺度来回忆，一些人也已经许久许久未曾相见了，但自己多多少少还是个念旧的人，明明知道遗忘是自然规律却也常常还是想留住一些，不知道是眷恋那段时光还是羡慕身处那段时间中的自己 —— 虽然依然难免有所忧虑，却不乏探索的好奇与改变的信心。
+As my steps traced the many corners of the campus, observing the traces of various student organizations, classrooms, and studios I had been part of, I truly felt the passage of time. Some familiar events now need to be recalled in terms of five or seven years, and it's been a long time since I've seen some people. I'm still somewhat sentimental, often wanting to hold onto things despite knowing that forgetting is natural. I'm not sure if I'm attached to that period or if I envy the self that existed then - although inevitably worried, that self was full of curiosity to explore and confidence to change.
 
 ![whut_english_writing](https://image.pseudoyu.com/images/whut_english_writing.jpg)
 
-亮亮老师是在我的不论是学生生涯还是人生中都尤其重要的一个存在。
+Professor Liang is a particularly important figure in both my student career and life.
 
-学业上，她对于教学的理念方法才真正让我感受到 University 和 High School 的差异，也完成了自己学习思维与态度上的转变；私交上，会支持我各个方向的探索，会在我只身前往一个陌生地方的时候委托以前的学生照顾我，也会跟我八卦各种有趣的事。
+Academically, her teaching philosophy and methods truly made me feel the difference between University and High School, and completed the transformation of my learning mindset and attitude. On a personal level, she would support my explorations in various directions, entrust former students to look after me when I ventured alone to unfamiliar places, and gossip with me about all sorts of interesting things.
 
-她也是我这次回武汉的主要念想，约了一次上课时间去旁听了一节写作课，似乎又回到了那段时光。那时的自己忙碌、奔波于各种事，迷茫却也不曾畏惧。惭愧地说当时的很多课我都觉得于自己无益而逃了或是没听，从现在的角度来看还是挺后悔的，英国文学、美国文学、诗歌这些反而是到了毕业之后才慢慢开始吸引我，却再也没有了那样大把的时间来细细品读。
+She was also my main reason for returning to Wuhan this time. I arranged to sit in on a writing class during her teaching time, seemingly returning to that period. Back then, I was busy, rushing about various affairs, confused but never afraid. I shamefully admit that I skipped or didn't listen to many classes at that time, thinking they were of no use to me. Looking back now, I regret it quite a bit. English literature, American literature, poetry - these only began to attract me after graduation, but I no longer had the luxury of time to read and appreciate them carefully.
 
-## 香港记事
+## Hong Kong Chronicles
 
-另一个主要的行程则是香港了，自 21 年离开后，总想着回去看看，却总是各种拖延，再加上很多生活的变动，计划已经渐渐搁置了。而这次恰逢香港的 Web3 Festival，就迅速决定前往了。
+Another major part of my itinerary was Hong Kong. Since leaving in 2021, I've always wanted to go back for a visit, but kept procrastinating. Add to that many changes in life, and the plan had gradually been shelted. This time, coinciding with the Web3 Festival in Hong Kong, I quickly decided to go.
 
-刚刚安顿好就决定去港大逛一圈。这是一年奇妙的时光，自己的各个方面都改变了很多，明明很久不用朋友圈的自己也渐渐开始发一些日常。看了一下当时发的一些动态，虽然总共也就寥寥数条，却似乎将这段生活划分成了好几个阶段，即使也已经过去近两年了，回忆依旧澄澈。
+As soon as I settled in, I decided to take a stroll around HKU. This was a magical year, where various aspects of myself changed significantly. I, who had long ceased using Moments, gradually began to post some daily life updates. Looking back at the few posts I made then, it seems to have divided this period of life into several stages. Even though it's been nearly two years, the memories remain crystal clear.
 
-### 初来乍到
+### First Arrival
 
 ![just_went_to_hk_2020](https://image.pseudoyu.com/images/just_went_to_hk_2020.png)
 
-初到香港的时光充满了忐忑与期待，对这个城市的一切都充满了好奇与探索欲。常常会沿着维港走走停停，拍下这个城市的活力；会在自己的小屋子里做饭、学习、写作，安然自得。
+The early days in Hong Kong were filled with trepidation and anticipation, curious and eager to explore every aspect of this city. I would often walk along Victoria Harbour, stopping here and there, capturing the city's vitality; in my small room, I would cook, study, write, content in my solitude.
 
-说实话香港算不上是一个很温暖的城市，所有人似乎总是步履匆匆，忙于自己的生活与工作，给予他人礼貌却极其克制的关心，狭小逼仄的空间也很难让人感觉到多舒适。
+To be honest, Hong Kong isn't exactly a warm city. Everyone always seems to be in a hurry, busy with their own lives and work, offering others polite but extremely restrained care. The cramped, confined spaces also make it difficult to feel truly comfortable.
 
 ![note_from_hk_landlord](https://image.pseudoyu.com/images/note_from_hk_landlord.png)
 
-不过那个时候的我似乎还是一个积极的人，总是会在日常中找到一些有意思的点，让生活中的光亮驱散阴影。尤其印象深的是房东的一张字条，记了很多年。
+However, at that time, I seemed to still be a positive person, always finding interesting points in daily life, letting the light in life dispel the shadows. Particularly memorable was a note from the landlord, which I've kept for many years.
 
-### 花样年华
+### Days of Splendor
 
 ![happy_life_in_hku](https://image.pseudoyu.com/images/happy_life_in_hku.png)
 
-经过了一小段时间的适应，自己逐渐开始享受香港的新生活，也度过了很长的一段快乐时光。
+After a short period of adjustment, I gradually began to enjoy my new life in Hong Kong, and went through a long period of happy times.
 
-惊叹于深夜的港大校园风光，对铜锣湾好吃的韩国烤肉念念不忘，在港大的星巴克中集各种周边，去中环吃 Shake Shack 和看电影，会去兰桂坊的 Quinary Bar 小酌，也会在某个极限赶完的 due 后带着很多零食和酒在维港喝到天亮看日出。
+I marveled at the night views of the HKU campus, couldn't forget the delicious Korean barbecue in Causeway Bay, collected various merchandise at the HKU Starbucks, went to Central to eat Shake Shack and watch movies, would have a drink at Quinary Bar in Lan Kwai Fong, and after rushing to meet a deadline, would bring lots of snacks and drinks to Victoria Harbour to drink until sunrise.
 
-常常还是庆幸于自己 Gap 了一年才重返校园，会更珍惜这样来之不易的节奏与校园生活，也成为了自己人生中特殊而美好的一段经历。
+I often feel fortunate that I took a gap year before returning to campus, as it made me cherish this hard-earned pace and campus life more, becoming a special and beautiful experience in my life.
 
-记忆尤其深的是学校旁边的一家「周记点心」，吃过很多次，这次回来再吃的时候似乎又尝到了旧时香港味道。
+Particularly memorable is a dim sum restaurant called "Chau Kee" near the school, which I ate at many times. When I ate there again on this trip, it seemed I could taste the old Hong Kong flavor again.
 
 ![zhouji_food_01](https://image.pseudoyu.com/images/zhouji_food_02.jpg)
 
@@ -74,47 +74,47 @@ authors:
 
 ![zhouji_food_03](https://image.pseudoyu.com/images/zhouji_food_01.jpg)
 
-### 长夜将近
+### The Long Night Approaches
 
-当然，生活总是有些起起伏伏伏伏的。
+Of course, life always has its ups and downs.
 
-快乐的时光并没有持续太久的，生活也总会倾向于在我们自以为步入正轨的时候悄然崩塌。
+The happy times didn't last too long, and life tends to quietly crumble just when we think we've gotten on track.
 
 ![struggle_in_hk](https://image.pseudoyu.com/images/struggle_in_hk.png)
 
-20 年末结束了一段四年的感情，21 年初失去了至亲外婆，年中失去了一起长大的表哥，同时也经历了一些其他情感和情绪上的至暗时刻。生活总是这样，当你觉得已经很糟糕的时候，意外总会接踵而至。那段时间常常想到的就是一句话：
+At the end of 2020, a four-year relationship ended. In early 2021, I lost my beloved grandmother, and in the middle of the year, I lost my cousin who grew up with me. At the same time, I experienced some other emotional and psychological dark moments. Life is always like this - when you think things are already bad, unexpected events tend to come one after another. During that time, I often thought of a saying:
 
-> 「永远不知道意外和明天哪个会先来临」。
+> "You never know whether an accident or tomorrow will come first."
 
-之后的日子其实过得有些模糊，一部分是繁重的课业与求职压力，一部分是各种情绪积压给自己带来的负面影响，现在回想依然觉得那段时间很不像自己，脆弱、敏感却又冷漠。
+The days that followed are somewhat blurry in my memory, partly due to the heavy coursework and job-seeking pressure, and partly due to the negative impact of various emotions piling up. Looking back now, I still feel that I was very unlike myself during that time - fragile, sensitive, yet cold.
 
-因此香港的后半期时光过得很快，也很虚渺，没留下太多视频和照片，几个月没有发布什么动态，以至于到了现在回忆也在渐渐消散，这也是自己之后的一年多里常常遗憾的事。
+Therefore, the latter half of my time in Hong Kong passed very quickly and hazily. I didn't leave many videos or photos, and didn't post any updates for several months. Even now, as I try to recall, these memories are gradually fading. This has been something I've often regretted in the year and more since then.
 
-### 久别重逢
+### Long-Awaited Reunion
 
-#### 港大
+#### HKU
 
 ![hku_zhihua_gate](https://image.pseudoyu.com/images/hku_zhihua_gate.jpg)
 
-要说整个香港时期记忆最深刻的当属清晨的智华馆了，在这两点一线直接度过了无数时光。每天早上为了占座，会早早赶在智华馆开门前到达，常常会和看管入口的大爷说一句“zousen（早上好）”，因为只说这句，以至于学期过了一半多他还以为我是个 local。
+If I had to say what I remember most vividly from my entire Hong Kong period, it would be the early mornings at Chi Wah Learning Commons. I spent countless hours there, going back and forth between just two points. Every morning, to secure a seat, I would arrive early before Chi Wah opened. I often greeted the guard at the entrance with a "zousen" (good morning). Because I only said this one phrase, even halfway through the semester, he still thought I was a local.
 
 ![hku_starbucks](https://image.pseudoyu.com/images/hku_starbucks.jpg)
 
-学校里面的咖啡厅也是承载了很多记忆点的地方，每天早上或是午后都会去点一杯，这次去的时候依然拿出了学生证享受了折扣。当时也常常会因为一些香港限定的周边而疯狂充值卡，可惜的是像是马克杯这种有些最终离开的时候没能带回。
+The coffee shop in the school is also a place that carries many memory points. I would go there every morning or afternoon for a cup of coffee. When I went this time, I still took out my student card to enjoy the discount. Back then, I would often go crazy recharging my card for some Hong Kong-limited merchandise. It's a pity that I couldn't bring back some items like mugs when I finally left.
 
-想起来当时离开香港的时候不论是八达通还是星巴克卡中都剩余了一些，但是想着香港会是一个自己时常眷念与回忆的地方，有机会也都会常回来玩，所以就任凭留着了，没想到再一次回来就已经是接近两年后的现在，早已一切不复。所以，这次也像是什么执念一样把星巴克卡里的余额清零了，像是一次道别，对过去的那段时光与记忆。
+I remember when I left Hong Kong, there was still some balance left on both my Octopus card and Starbucks card. But thinking that Hong Kong would be a place I would often miss and revisit, and that I would have opportunities to come back and play often, I just left them as they were. I didn't expect that the next time I came back would be almost two years later, and everything would no longer be the same. So, this time, as if fulfilling some kind of obsession, I cleared the balance on my Starbucks card. It was like a farewell, to that past time and memory.
 
-#### 五月天好好好想见到你
+#### Mayday, How I've Longed to See You
 
-这次回香港其实主要的原因是五月天的一场「好好好想见到你」的演唱会，他们的歌在我的各个阶段都对不论是情感还是生活都有着特殊的意义，陪伴着我度过了几个难熬的阶段，而有了疫情三年的各种限制，似乎这样的现场显得尤其珍贵，直到抵达现场都还有一种不真实感。
+The main reason for returning to Hong Kong this time was actually a Mayday concert called "How I've Longed to See You". Their songs have had a special significance for both my emotions and life at various stages, accompanying me through several difficult periods. With the various restrictions of the three-year pandemic, such a live performance seemed particularly precious. Even until I arrived at the venue, it still felt unreal.
 
-其实感觉这段时间的状态也并不好，处于一种情绪积压后的放纵中，没能沉下心好好做自己想做的事，却也不想再陷入恶性循环，于是干脆把这次历时半个月的“旅行”当作是一场自我疗愈。但其实结果不尽人意，在武汉的时光很享受，但是是一种回到过去时光的慢，也像是一种家园似的安心，美好却短暂，离开后也不得不再去面对人生海海。
+To be honest, I feel my state hasn't been very good during this period. I've been in a kind of indulgence after emotional accumulation, unable to settle down to do the things I want to do properly, but also not wanting to fall into a vicious cycle again. So I simply treated this half-month "journey" as a self-healing process. But the result wasn't as satisfying as I had hoped. I really enjoyed the time in Wuhan, but it was a kind of slowness of returning to the past, also like the comfort of a home, beautiful but brief. After leaving, I had to face the vast sea of life again.
 
-经过一阵子的劳顿后，其实发现自己也并不能那么享受于这样的“自由”，也很难从中得到什么纯粹的快乐，甚至开始有些期盼着回家，回到那种专注在自己世界的状态中。可能时隔那么久才有这样的出行，我才意识到自己原来也已经常常在逃避这种生活的变动与不安感，人也总是有自己的舒适区。
+After a period of toil, I actually found that I couldn't really enjoy such "freedom", and it was hard to get any pure happiness from it. I even started to look forward to going home, returning to that state of focusing on my own world. Maybe it's because it's been so long since I've had such an outing that I realized I've actually been often avoiding such changes and insecurity in life. People always have their comfort zones.
 
-旅程的终点是五月天的演唱会，带了相机，在即将进场时却被告知不能带入，需要到很远的一个地方寄存，在飞奔着赶着的时候自己突然感受到了这趟旅行中自己一直在追寻的那种放松和快乐。在后面几个小时的演出中，也一直处于这种有些奇妙的状态，似乎一条曲线从谷底渐渐回升了。
+The end point of the journey was the Mayday concert. I brought a camera, but was told at the entrance that it couldn't be brought in and needed to be stored in a place far away. As I was running to make it in time, I suddenly felt that relaxation and happiness I had been seeking throughout this journey. During the several hours of the performance that followed, I was in this somewhat magical state, as if a curve was gradually rising from the bottom.
 
-在挥着应援棒、跟着五月天一起唱一起蹦的时候突然意识到其实生活本身也没有那么多答案，许多意义潜藏在体验和感受之中，有时候更多需要的是放下心防去融入、去探索。
+As I was waving the light stick and singing and jumping along with Mayday, I suddenly realized that life itself doesn't have that many answers. Many meanings are hidden in experiences and feelings. Sometimes what we need more is to let down our guard and immerse ourselves, to explore.
 
 ![mayday_in_hk_01](https://image.pseudoyu.com/images/mayday_in_hk_01.jpg)
 
@@ -136,52 +136,50 @@ authors:
 
 ![mayday_in_hk_10](https://image.pseudoyu.com/images/mayday_in_hk_10.jpg)
 
-回到家后才开始动笔写下这两周的见闻，自己在周报中总是希望能够出自内心感受而不是仅仅记录一些生活碎片与痕迹，旅途中几次想动笔却总是有些不顺，于是干脆搁置了。
+It wasn't until I got home that I started to write down my experiences from these two weeks. In my weekly reviews, I always hope to express genuine feelings rather than just record some fragments and traces of life. Several times during the journey I wanted to start writing but it always felt a bit off, so I simply put it aside.
 
 #### Web3 Festival
 
-另外还去参加了 Web3 Festival。换工作后出门的欲望尤其强烈，想认识一些新的人，也更想通过这次机会看看这个行业更多的可能性。
+I also attended the Web3 Festival. After changing jobs, I felt a particularly strong desire to go out, to meet new people, and to use this opportunity to see more possibilities in this industry.
 
-见到了很多同事，由于一直是远程办公所以大多都是“网友”，这次刚好有这样的机会可以见面，是很有趣的体验。参展的项目很多，也跟很多团队聊了聊，真正好玩的并不多，也没认识到什么新的有趣的开发者，算是有些遗憾的点。
+I met many colleagues. Since we've always been working remotely, most of them were just "online friends". It was an interesting experience to have this opportunity to meet face-to-face. There were many projects on display, and I chatted with many teams. Truly interesting ones were few, and I didn't meet any new interesting developers, which was a bit disappointing.
 
-倒是有意思的是在会场闲逛的时候，被一位万万没想到的朋友叫住了，文理分班前的同学，大概也得有 10 年没怎么联系了，说看着有点眼熟所以翻了下朋友圈看到是蓝色头发所以就来打招呼了。聊了一下发现还是我司最亲近合作伙伴的前员工，奇妙的缘分。
+Interestingly, while wandering around the venue, I was called out to by a friend I never expected to see - a classmate from before we were divided into science and liberal arts streams, whom I hadn't been in touch with for about 10 years. He said I looked a bit familiar, so he checked my Moments and saw my blue hair, so he came to say hello. After chatting, I found out he was a former employee of our company's closest partner. What a curious coincidence.
 
-## 捏捏近况
+## Nie Nie's Recent Situation
 
 ![nie_nie_with_friend](https://image.pseudoyu.com/images/nie_nie_with_friend.jpg)
 
-半个月没见了，很想念。所幸家人把两只小猫照顾得都很好，两只小猫（同事寄养的）也成为了好朋友，回来开始继续多多更新和捏捏的日常了。
+It's been half a month since I've seen her, and I miss her very much. Fortunately, my family has taken good care of both kittens, and the two kittens (one being fostered for a colleague) have become good friends. Now that I'm back, I'll continue to update more about my daily life with Nie Nie.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 玩具
-
-自己大概也多少有些松鼠的属性，已经很久没有打开各种主机掌机玩了却总还是会收藏一些卡带和周边。要说 Switch 里面玩得最入迷的除了宝可梦系列就是火焰纹章了，正逢新作发售，于是入了「火焰纹章：Engage」和「歧路旅人 2」典藏版。
+Coinciding with the release of a new title, I purchased the collector's editions of "Fire Emblem: Engage" and "Octopath Traveler II".
 
 ![octopath_2_collector_edition](https://image.pseudoyu.com/images/octopath_2_collector_edition.jpg)
 
 ![fire_emble_engage](https://image.pseudoyu.com/images/fire_emble_engage.jpg)
 
-由于是从日本寄回来，等待了很久，但周边确实很精致，歧路旅人的包很快这次旅途就用上了，超级方便。
+As they were shipped from Japan, I had to wait for quite a while, but the merchandise is indeed exquisite. I've already put the Octopath Traveler bag to use on this trip - it's incredibly convenient.
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
 
-#### 文章
+#### Articles
 
 - [BeyondStorage: why we failed](https://xuanwo.io/2023/01-beyond-storage-why-we-failed/)
-- [不想当作家的程序员写不出 Redis | 程序员的喵](https://catcoding.me/p/redis-antriez/)
+- [A programmer who doesn't want to be a writer can't write Redis | Programmer's Meow](https://catcoding.me/p/redis-antriez/)
 - [Anthropic | Introducing Claude](https://www.anthropic.com/index/introducing-claude)
 - [The End of Front-End Development](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)
-- [令我痛心的三部反乌托邦动漫 - DIYgod](https://diygod.me/dystopian-anime)
-- [「CN」ABCDE：香港大会，重新思考 3 个热门赛道](https://medium.com/@ABCDE.com/cn-abcde-%E9%A6%99%E6%B8%AF%E5%A4%A7%E4%BC%9A-%E9%87%8D%E6%96%B0%E6%80%9D%E8%80%833%E4%B8%AA%E7%83%AD%E9%97%A8%E8%B5%9B%E9%81%93-14a3f996f10f)
+- [Three dystopian animes that pain me - DIYgod](https://diygod.me/dystopian-anime)
+- ["CN" ABCDE: Hong Kong Conference, Rethinking 3 Popular Tracks](https://medium.com/@ABCDE.com/cn-abcde-%E9%A6%99%E6%B8%AF%E5%A4%A7%E4%BC%9A-%E9%87%8D%E6%96%B0%E6%80%9D%E8%80%833%E4%B8%AA%E7%83%AD%E9%97%A8%E8%B5%9B%E9%81%93-14a3f996f10f)
 
-#### 视频
+#### Videos
 
-同样的，也有记录一下看过的有意思的视频：
+Similarly, I've also recorded some interesting videos I've watched:
 
 - [I made a FULL-BODY keyboard!](https://www.youtube.com/watch?v=h376W93gQq4)
-- [好巧，我也喜欢你｜西双版纳旅拍](https://www.bilibili.com/video/BV1vv4y1J7vW)
-- [我们对这个世界知道的越多就越不理解它](https://www.bilibili.com/video/BV1jT411W7XF)
-- [ChatGPT 爆火，为什么英伟达又赢麻了？](https://www.bilibili.com/video/BV1na4y1T732)
+- [What a coincidence, I like you too | Xishuangbanna travel photography](https://www.bilibili.com/video/BV1vv4y1J7vW)
+- [The more we know about this world, the less we understand it](https://www.bilibili.com/video/BV1jT411W7XF)
+- [ChatGPT is on fire, why is NVIDIA winning big again?](https://www.bilibili.com/video/BV1na4y1T732)

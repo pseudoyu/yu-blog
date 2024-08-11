@@ -1,5 +1,5 @@
 ---
-title: "Cosmos 区块链架构与 Tendermint 共识机制"
+title: "Cosmos Blockchain Architecture and Tendermint Consensus Mechanism"
 date: 2023-02-10T20:00:03+08:00
 draft: false
 tags: ["blockchain", "crosschain", "cosmos", "tendermint", "consensus"]
@@ -8,122 +8,122 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
 ![cosmos_introduction_and_explaination_photo](https://image.pseudoyu.com/images/cosmos_introduction_and_explaination_photo.png)
 
-工作中我主要参与的是跨链项目的方案架构设计与实现，因为公司既有方案是基于 Cosmos 区块链的，我在一年多的项目中基于 Cosmos SDK 作了一些底层链开发改造，对其技术实现有了一些了解，但由于开发周期比较赶，一直没能对 Cosmos 的架构设计与 Tendermint 共识机制有一个系统的了解。
+In my work, I am primarily involved in the architectural design and implementation of cross-chain projects. As our company's existing solution is based on the Cosmos blockchain, I have spent over a year working on some underlying chain development modifications using the Cosmos SDK. This has given me some understanding of its technical implementation. However, due to the tight development schedule, I never had the opportunity to gain a systematic understanding of Cosmos' architectural design and the Tendermint consensus mechanism.
 
-项目结束后，终于得闲读了一下《区块链架构与实现：Cosmos 详解》，本文则是我自己对 Cosmos、Tendermint 的理解和总结。
+After the project concluded, I finally found time to read "Blockchain Architecture and Implementation: Cosmos Explained". This article represents my own understanding and summary of Cosmos and Tendermint.
 
-## 区块链技术发展
+## Blockchain Technology Development
 
-在讲具体的 Cosmos 区块链之前，我们先梳理一下区块链发展的历程，以及目前业界主流的区块链技术。
+Before delving into the specifics of the Cosmos blockchain, let's first review the history of blockchain development and the current mainstream blockchain technologies in the industry.
 
-### 技术限制
+### Technical Limitations
 
-区块链发展至今已经有十几年的历程，从最开始的比特币，到红极一时的 EOS，再到后来渐渐成为主流的以太坊，各有特色却也都有其限制之处。
+The blockchain has been developing for over a decade now, from the initial Bitcoin to the once-popular EOS, and then to Ethereum, which has gradually become mainstream. Each has its own characteristics but also its limitations.
 
-- 基于比特币或以太坊的方式由于需要实现 p2p 网络、密码学、共识算法等，需要相对比较高的技术门槛；
-- 基于 PoW（工作量证明）机制的底层链对于算力（电力）消耗也越来越大，对于资源与环境并不友好；
-- 随着链上应用数量与规模的不断增加，链的性能瓶颈越来越明显；
-- 随着业务场景复杂度提升与需求不断增加，链的共识算法也需要根据具体场景而变化；
-- 不同链的底层架构差异较大，不同链之间也是孤岛，难以互相通信，跨链技术方案落地也是一个难题。
+- Building on Bitcoin or Ethereum requires relatively high technical expertise due to the need to implement p2p networks, cryptography, consensus algorithms, etc.
+- Underlying chains based on the PoW (Proof of Work) mechanism are increasingly consuming more computing power (and electricity), which is not friendly to resources and the environment.
+- As the number and scale of on-chain applications continue to increase, the performance bottlenecks of chains are becoming more apparent.
+- As business scenarios become more complex and demands increase, the consensus algorithms of chains also need to evolve according to specific scenarios.
+- The underlying architectures of different chains vary greatly, and different chains are isolated, making it difficult to communicate with each other. The implementation of cross-chain technology solutions is also a challenge.
 
-### 技术发展
+### Technological Advancements
 
-为了解决上述问题，业界也有不少的技术方案。
+To address these issues, the industry has developed numerous technical solutions.
 
-- 由于 PoW 对于资源的大量消耗，许多链采用了 PoS（权益证明）机制，如 EOS 的 DPoS 与以太坊刚升级不久的 PoS，发展也日益成熟；
-- 为了解决底层链限制问题，从类似比特币这样为单个应用构建单独链的模式也渐渐发展到了利用智能合约构建 ÐApp；
-- 对于性能限制问题，比特现金采用了增加区块容量的方案，EOS 采用提升 TPS 的方案（号称百万 TPS），而以太坊则通过分片（Sharding）的方式对链上交易进行并行处理；
-- 跨链技术方面，哈希锁定（散列锁）的方式在比特币与 Algorand 项目中有应用，除此之外还有公证人、中继链等方案。
+- Due to the massive resource consumption of PoW, many chains have adopted the PoS (Proof of Stake) mechanism, such as EOS's DPoS and Ethereum's recently upgraded PoS, which are becoming increasingly mature.
+- To overcome the limitations of underlying chains, the model has gradually evolved from building separate chains for single applications (like Bitcoin) to building ÐApps using smart contracts.
+- To address performance limitations, Bitcoin Cash adopted a solution to increase block capacity, EOS adopted a solution to improve TPS (claiming millions of TPS), while Ethereum uses sharding to process on-chain transactions in parallel.
+- In terms of cross-chain technology, hash locking has been applied in Bitcoin and Algorand projects. Besides this, there are also solutions like notaries and relay chains.
 
-## Cosmos 区块链框架
+## Cosmos Blockchain Framework
 
-### 概述
+### Overview
 
-Cosmos 是一个由 Tendermint 公司开发构建的开源区块链底层框架项目，其目标是为了解决区块链技术发展过程中遇到的各类问题，提供一个高性能、高可扩展、易于开发的区块链框架，其开源地址如下：
+Cosmos is an open-source blockchain infrastructure project developed by Tendermint Inc. Its goal is to solve various problems encountered in the development of blockchain technology, providing a high-performance, highly scalable, and easy-to-develop blockchain framework. Its open-source address is as follows:
 
 - [GitHub - cosmos/cosmos: Internet of Blockchains](https://github.com/cosmos/cosmos)
 
-Cosmos 可以看作一种多链网络，旨在实现“互链网”远景，而 Tendermint 和 Cosmos SDK 则是其技术手段与实现路径。
+Cosmos can be seen as a multi-chain network, aiming to realize the vision of an "Internet of Blockchains", with Tendermint and Cosmos SDK being its technical means and implementation path.
 
-对于资源消耗与交易问题，Cosmos 采用了 BFT（拜占庭容错） + PoS（权益证明）的方式来解决；同时，为了降低区块链搭建与基于区块链的应用开发门槛，Cosmos 采用了较为通用的项目构建方式，使基于 Cosmos 进行链开发更加模块化与工程化，其主要由 Tendermint Core、IBC、Cosmos SDK 三部分组成。
+To address resource consumption and transaction issues, Cosmos adopted a BFT (Byzantine Fault Tolerance) + PoS (Proof of Stake) approach. Meanwhile, to lower the threshold for blockchain construction and blockchain-based application development, Cosmos adopted a more general project construction method, making chain development based on Cosmos more modular and engineered. It mainly consists of three parts: Tendermint Core, IBC, and Cosmos SDK.
 
-### Cosmos SDK 组件
+### Cosmos SDK Components
 
-虽然名称叫作“SDK”，容易引起一些误解，认为其仅仅是与链交互的一个库/组件，但其实 Cosmos SDK 可以说是一个完整的架构，开发者可以通过其来快速搭建自己的区块链，是 Cosmos 生态体系中的重要组成部分的。其开源地址如下：
+Although named "SDK", which can easily lead to some misunderstandings that it's merely a library/component for interacting with the chain, Cosmos SDK can actually be considered a complete architecture. Developers can use it to quickly build their own blockchain, making it an important part of the Cosmos ecosystem. Its open-source address is as follows:
 
 - [GitHub - cosmos/cosmos-sdk: A Framework for Building High Value Public Blockchains](https://github.com/cosmos/cosmos-sdk)
 
-Cosmos SDK 主要实现了区块链中的一些通用模块，如账户体系、交易、链上治理等，开发者又可以便捷地基于其快速构建新的功能模块。
+Cosmos SDK mainly implements some common modules in blockchain, such as account systems, transactions, on-chain governance, etc. Developers can conveniently build new functional modules based on it.
 
-其主要模块如下：
+Its main modules are as follows:
 
-- 账户与交易相关模块
-  - auth：系统账户管理
-  - bank：链上资产转移
-- 辅助功能模块
-  - genutil：创世区块
-  - supply：资产总量管理
-  - crisis：所有模块不变量管理
-  - params：所有模块的参数管理
-- 链上治理模块
-  - gov：链上治理机制
-  - upgrade：链升级
-- PoS 模块
-  - staking：链上资产抵押
-  - slashing：对验证者的被动作恶进行惩罚
-  - evidence：对验证者的主动作恶进行惩罚
-  - mint：链上资产铸造
-  - distribution：区块奖励管理
-  - IBC 协议模块
-  - ibc/core：跨链通信功能
+- Account and transaction-related modules
+  - auth: System account management
+  - bank: On-chain asset transfer
+- Auxiliary function modules
+  - genutil: Genesis block
+  - supply: Total asset management
+  - crisis: Invariant management for all modules
+  - params: Parameter management for all modules
+- On-chain governance module
+  - gov: On-chain governance mechanism
+  - upgrade: Chain upgrade
+- PoS modules
+  - staking: On-chain asset staking
+  - slashing: Punishing validators for passive malicious behavior
+  - evidence: Punishing validators for active malicious behavior
+  - mint: On-chain asset minting
+  - distribution: Block reward management
+  - IBC protocol module
+  - ibc/core: Cross-chain communication functionality
 
-可以看到，Cosmos SDK 框架设计出于 Object-Capability Model 安全理念的考量，设计高度模块化，每个模块都有自己的存储空间且对外仅暴露必要接口。
+As we can see, the Cosmos SDK framework is highly modularized due to the Object-Capability Model security philosophy. Each module has its own storage space and only exposes necessary interfaces externally.
 
-Cosmos SDK 中有一个特定的 Keeper 角色，用于维护更新状态。通过这种管理方式，模块之间彼此隐藏了具体实现细节，而仅仅通过 keeper 来互相调用，且每个模块内部也都只会被 keeper 进行更新，有效保障了链上状态的一致性。
+There is a specific Keeper role in Cosmos SDK, used to maintain and update states. Through this management method, modules hide specific implementation details from each other and only call each other through keepers. Moreover, each module's internal state is only updated by its keeper, effectively ensuring the consistency of on-chain states.
 
-### Tendermint 组件
+### Tendermint Component
 
-Tendermint 是 Cosmos 的核心组件，是一个高性能的区块链底层共识引擎，从架构上来说，其主要分为对等网络通讯层、共识协议层与上层应用层三大部分，其中共识协议层是其关键部分。
+Tendermint is the core component of Cosmos, a high-performance blockchain underlying consensus engine. Architecturally, it is mainly divided into three parts: peer-to-peer network communication layer, consensus protocol layer, and upper application layer, with the consensus protocol layer being its key part.
 
-Tendermint 在共识时并不关心具体交易细节，而只是将交易当作字节打包成区块，然后通过各节点之间的的机制达成共识。其要求上层应用状态更新为确定性过程，即从相同初始状态开始，在全网环境下交易顺序达成一致（即对于一个序列的消息所有的正常节点都会以相同的顺序进行处理），上层应用的状态在全网之间也应保持一致，区块链会包含上层应用的数字指纹来进行验证。
+When reaching consensus, Tendermint does not care about the specific transaction details, but only packages transactions as bytes into blocks, and then reaches consensus through mechanisms between nodes. It requires the upper application state update to be a deterministic process, that is, starting from the same initial state, the transaction order is consistent across the network (i.e., all normal nodes will process a sequence of messages in the same order), and the state of the upper application should remain consistent across the network. The blockchain will include digital fingerprints of the upper application for verification.
 
-Tendermint 共识可以支持在上百个节点规模的区块链网络中实现秒级出块，其提供了逐块最终化（Finality）的特性，即一个块确认后可以保障其之前的所有块都不会被修改，保障了区块链网络安全性。
+Tendermint consensus can support second-level block production in blockchain networks with hundreds of nodes. It provides the feature of block-by-block finality, meaning that after a block is confirmed, it can guarantee that all previous blocks will not be modified, ensuring the security of the blockchain network.
 
-区块提交后，Tendermint 共识协议层通过 ABCI（应用层与共识层交互所抽象出来的接口）与上层进行互动，完成交易处理并返回结果。其将区块执行过程划分为多个步骤，上层应用拥有自主权来定义业务交互逻辑，通过特定接口进行开发与实现（如可以实现筛选验证者逻辑或复用 Tendermint Core 的共识协议与对等网络通信来实现链业务需求）。
+After a block is submitted, the Tendermint consensus protocol layer interacts with the upper layer through ABCI (an interface abstracted for interaction between the application layer and the consensus layer) to complete transaction processing and return results. It divides the block execution process into multiple steps, and the upper application has the autonomy to define business interaction logic, developing and implementing through specific interfaces (such as implementing validator screening logic or reusing Tendermint Core's consensus protocol and peer-to-peer network communication to implement chain business requirements).
 
-关于 Tendermint 共识算法具体机制可以阅读以下论文进行了解：
+For a detailed understanding of the Tendermint consensus algorithm mechanism, you can read the following paper:
 
 - [The latest gossip on BFT consensus - Tendermint](https://arxiv.org/pdf/1807.04938.pdf)
 
-其特有的一些机制带来了区块链共识过程中的显著优势。
+Its unique mechanisms bring significant advantages in the blockchain consensus process.
 
-首先，Tendermint 源于 PBFT SMR（State Machine Replication）算法，但对其机制进行了简化，其共识主要基于区块而不是用户请求，并且在机制上将 PBFT 常规流程与视图切换流程进行了统一，使其更容易理解与实现。
+Firstly, Tendermint originates from the PBFT SMR (State Machine Replication) algorithm but simplifies its mechanism. Its consensus is mainly based on blocks rather than user requests, and mechanically unifies PBFT's regular process and view-change process, making it easier to understand and implement.
 
-它提供了坚实的基础设施与良好的用户体验，是较早能够支持在上百个节点规模的区块链网络中支持秒级出块的底层，同时也通过逐块最终化（Finality）的方式确保之前的所有块都不会被修改，保障区块链网络安全性。
+It provides solid infrastructure and good user experience, being one of the earliest underlying technologies capable of supporting second-level block production in blockchain networks with hundreds of nodes. At the same time, it ensures that all previous blocks will not be modified through block-by-block finality, guaranteeing the security of the blockchain network.
 
-其节点之间通过 Gossip 协议进行通讯交互，不要求节点之间的全连接，而是通过 gossip 对等网络进行通信，这样可以有效降低节点之间的通讯成本，同时也可以有效提高网络的容错性。
+Nodes communicate with each other through the Gossip protocol, not requiring full connectivity between nodes, but communicating through a gossip peer-to-peer network. This can effectively reduce the communication cost between nodes while also effectively improving the fault tolerance of the network.
 
-Tendermint 算法实现细节与机制将在之后的系列文章中具体讲解。
+The implementation details and mechanisms of the Tendermint algorithm will be explained specifically in later series of articles.
 
-### IBC 协议组件
+### IBC Protocol Component
 
-IBC 协议属于 Cosmos SDK 中一个特殊的模块，其主要为 Cosmos 提供了区块链之间的跨链能力，其主要原理是通过密码学技术来向其他链证明自己的链上事件，可以理解为跨链双方彼此为对方的一个轻节点（轻客户端），而两条链的通讯则是通过 relayer 实现，从而实现跨链通讯/交易。
+The IBC protocol is a special module in Cosmos SDK, mainly providing cross-chain capabilities between blockchains for Cosmos. Its main principle is to prove its own on-chain events to other chains through cryptographic technology. It can be understood that the cross-chain parties are light nodes (light clients) for each other, and the communication between the two chains is realized through relayers, thus achieving cross-chain communication/transactions.
 
-这一部分细节较多，且与跨链较为相关，会单独出文章进行详细讲解。
+This part involves many details and is closely related to cross-chain, so it will be explained in detail in a separate article.
 
-## 总结
+## Conclusion
 
-本文为 Cosmos 及 Tendermint 共识系列第一篇，主要介绍了区块链的技术发展、Cosmos 区块链框架中的 Tendermint 和 Cosmos SDK 等核心组件，并对 Tendermint 共识协议的原理和各机制进行了一些概述。受限于篇幅，主要以概念讲解与流程梳理为主，未涉及具体的技术实现细节与代码讲解，将会在后续的系列文章中对 Tendermint 共识算法/机制及 Cosmos SDK 代码实现进行补充。
+This article is the first in the Cosmos and Tendermint consensus series, mainly introducing the technological development of blockchain, core components such as Tendermint and Cosmos SDK in the Cosmos blockchain framework, and providing an overview of the principles and mechanisms of the Tendermint consensus protocol. Due to space limitations, it mainly focuses on concept explanation and process overview, without involving specific technical implementation details and code explanation. These will be supplemented in subsequent series of articles on the Tendermint consensus algorithm/mechanism and Cosmos SDK code implementation.
 
-## 参考资料
+## References
 
-1. > 《[区块链架构与实现：Cosmos 详解 - 温隆/贾音](https://book.douban.com/subject/35571980/)》
+1. > "Blockchain Architecture and Implementation: Cosmos Explained - Wen Long/Jia Yin"
 2. > [Cosmos: The Internet of Blockchains](https://cosmos.network/)
 3. > [Whitepaper - Resources - Cosmos Network](https://v1.cosmos.network/resources/whitepaper)
-4. > [分布式系统与区块链共识机制 · Pseudoyu](https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/)
-5. > [走进 Cosmos 之 Tendermint](https://tech.hyperchain.cn/cosmos-5/)
-6. > [走进 Cosmos 之 Cosmos SDK](https://tech.hyperchain.cn/cosmos-4/)
+4. > [Distributed Systems and Blockchain Consensus Mechanisms · Pseudoyu](https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/)
+5. > [Exploring Cosmos: Tendermint](https://tech.hyperchain.cn/cosmos-5/)
+6. > [Exploring Cosmos: Cosmos SDK](https://tech.hyperchain.cn/cosmos-4/)

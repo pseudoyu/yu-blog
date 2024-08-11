@@ -1,5 +1,5 @@
 ---
-title: "分布式系统与区块链共识机制"
+title: "Distributed Systems and Blockchain Consensus Mechanisms"
 date: 2021-09-08T11:03:55+08:00
 draft: false
 tags: ["blockchain", "consensus", "distributed system"]
@@ -8,161 +8,161 @@ authors:
 - "pseudoyu"
 ---
 
-## 前言
+## Preface
 
-随着互联网系统日益复杂，大多数系统都从单体架构转向分布式架构，而在区块链这样以分布式技术为基础的技术更是高度依赖数据一致性和共识机制。
+As internet systems grow increasingly complex, most have shifted from monolithic to distributed architectures. Blockchain technology, which is fundamentally based on distributed systems, heavily relies on data consistency and consensus mechanisms.
 
-本文将介绍分布式系统一致性、共识的概念与其在区块链中的实际应用与发展。
+This article will introduce the concepts of consistency and consensus in distributed systems, as well as their practical applications and developments in blockchain technology.
 
-## 分布式系统
+## Distributed Systems
 
-### 一致性问题
+### The Consistency Problem
 
-随着业务场景的复杂化，同一个业务往往也由多台服务器组成集群提供服务，但如何在这些物理位置和运行状态都不同的系统中达成一致成为了分布式领域的重要问题。
+As business scenarios become more complex, a single service is often provided by multiple servers forming a cluster. However, achieving consensus among these systems with different physical locations and operating states has become a crucial issue in the distributed domain.
 
-一般而言，分布式系统达成一致有以下三点规范：
+Generally, there are three criteria for achieving consensus in distributed systems:
 
-1. 可终止性
-2. 约同性
-3. 合法性
+1. Termination
+2. Agreement
+3. Validity
 
-分布式事务需要保障能在有限的时间内达成一致的结果，该结果必须是由某个节点提出的提案且不同节点必须完成相同的决策。
+Distributed transactions must ensure that consensus is reached within a finite time, the result must be a proposal made by one of the nodes, and different nodes must complete the same decision.
 
-### 强一致性
+### Strong Consistency
 
-想在单体应用或者各个节点的性能、网络带宽等配置在理想状况下做到这一点很容易，然而，在真实的业务场景中，要实现这样的强一致性成本非常高，需要保障系统的绝对稳定性、系统与系统之间的通讯没有延迟，此外，强一致性也会降低系统的性能和拓展性。
+Achieving this in a single application or when the performance, network bandwidth, and other configurations of each node are ideal is easy. However, in real business scenarios, implementing such strong consistency is very costly. It requires ensuring absolute system stability and zero communication delays between systems. Moreover, strong consistency also reduces system performance and scalability.
 
-在强一致性情况下，任何时刻所有节点中的数据都是一样的。强一致性通常又包括顺序一致性和线性一致性两种。
+Under strong consistency, data across all nodes is the same at any given moment. Strong consistency typically includes two types: sequential consistency and linearizability.
 
-#### 顺序一致性
+#### Sequential Consistency
 
-顺序一致性要求所有进程的全局执行顺序和各个进程自身的顺序保持一致，但并不要求物理时间上对各个进程保持全局的顺序。因此，这也是一种相对实践性较强的做法。
+Sequential consistency requires that the global execution order of all processes is consistent with each process's own order, but does not require maintaining a global order for each process in physical time. Therefore, this is a relatively practical approach.
 
-#### 线性一致性
+#### Linearizability
 
-线性一致性在顺序一致增加了需要对进程间进行全局排序的规则，要求所有时刻所有进程的操作都是实时同步的。这种绝对一致性往往在实践中很难实现，需要通过全局锁或者一些复杂的同步算法实现，且往往以牺牲性能为代价。
+Linearizability adds the rule of global ordering between processes on top of sequential consistency, requiring real-time synchronization of operations across all processes at all times. This absolute consistency is often difficult to achieve in practice and requires implementation through global locks or complex synchronization algorithms, often at the cost of performance.
 
-### 弱一致性
+### Weak Consistency
 
-而在真实的业务场景里，往往并不需要实时同步这样的绝对一致状态，因此可以容忍部分访问或在一段时间后最终达成一致。这些在某些方面弱化了的一致性称为弱一致性。
+In real business scenarios, such absolute consistent states with real-time synchronization are often unnecessary. Therefore, it is acceptable to tolerate partial access or eventual consistency after a period of time. These consistencies that are weakened in some aspects are called weak consistency.
 
-### 共识机制
+### Consensus Mechanisms
 
-共识机制是指在分布式系统中多个节点对某个事务达成一致的机制，关于共识的达成，有以下几种理论和原则：
+A consensus mechanism refers to the process by which multiple nodes in a distributed system reach agreement on a transaction. Regarding the achievement of consensus, there are several theories and principles:
 
-- FLP 不可能原理
-- CAP 原则
-- ACID 原则
-- BASE 理论
-- 多阶段提交
+- FLP Impossibility
+- CAP Theorem
+- ACID Principles
+- BASE Theory
+- Multi-phase Commit
 
-#### FLP 不可能原理
+#### FLP Impossibility
 
-FLP 不可能原理是 Fischer、Lynch 和 Patterson 三位科学家提出的一种理论，即在一个网络可靠但允许节点失效（如停机）的异步系统中，不可能在有限时间内完成共识。
+The FLP Impossibility, proposed by scientists Fischer, Lynch, and Patterson, states that in an asynchronous system with reliable networks but allowing node failures (such as crashes), it is impossible to achieve consensus in finite time.
 
-异步是指系统各个节点之间的时间等存在差异性，导致无法判断消息未响应是由于节点故障还是传输过程中的故障，因此无法判断消息是否丢失。
+Asynchrony refers to differences in time and other factors between system nodes, making it impossible to determine whether a non-responsive message is due to node failure or transmission failure, thus making it impossible to determine if a message is lost.
 
-#### CAP 原则
+#### CAP Theorem
 
-而在工程实践中，往往会弱化某一部分的需求以满足真实业务场景的需求。CAP 原则就是来解决这一问题，CAP 是指：
+In engineering practice, one aspect of requirements is often weakened to meet the needs of real business scenarios. The CAP theorem addresses this issue, where CAP stands for:
 
-- Consistency，一致性
-- Availability，可用性
-- Partition，分区容错性
+- Consistency
+- Availability
+- Partition tolerance
 
-分布式系统无法同时保障这三点，最多能保障其中两个特性，那这个原理有哪些实际应用呢？
+Distributed systems cannot simultaneously guarantee all three points; at most, they can ensure two of these characteristics. So how is this principle applied in practice?
 
-1. AP 系统，在静态网站、非实时性数据库等业务场景下，可以弱化其一致性，如新版本上线后一段时间才达成一致。
-2. CP 系统，在银行转账等对一致性要求绝对敏感的场景下，可以弱化其可用性，如当系统故障或失败时拒绝服务。
-3. AC 系统，两阶段提交和一些关系性数据库则弱化网络分区，如 ZooKeeper 等。
+1. AP systems: In business scenarios such as static websites and non-real-time databases, consistency can be weakened, such as achieving consistency some time after a new version is launched.
+2. CP systems: In scenarios absolutely sensitive to consistency, such as bank transfers, availability can be weakened, such as refusing service when the system fails or malfunctions.
+3. AC systems: Two-phase commit and some relational databases weaken network partitioning, such as ZooKeeper.
 
-#### ACID 原则
+#### ACID Principles
 
-分布式数据库的事务需要牺牲部分可用性来达到一致性，需要遵循 ACID 原则，具体如下：
+Transactions in distributed databases need to sacrifice some availability to achieve consistency and must follow the ACID principles:
 
-- Atomicity，原子性。事务的所有操作要么全部执行，要么全部不执行，失败则全部回退。
-- Consistency，一致性。事务执行前后状态需要一致，不存在中间状态。
-- Isolation，隔离性。多个事务可以并发执行但彼此之间相互独立。
-- Durability，持久性。状态改变是永久的。
+- Atomicity: All operations in a transaction must either be fully executed or not executed at all; if failed, all should be rolled back.
+- Consistency: The state before and after transaction execution must be consistent, with no intermediate states.
+- Isolation: Multiple transactions can execute concurrently but are independent of each other.
+- Durability: State changes are permanent.
 
-#### BASE 原则
+#### BASE Principles
 
-BASE 原则是指：
+The BASE principles stand for:
 
-- Basically Available，基本可用
-- Soft State，软状态
-- Eventual Consistency，最终一致
+- Basically Available
+- Soft State
+- Eventual Consistency
 
-这是一种牺牲强一致性来实现整个系统的方案，即只保障最终一致性。
+This is an approach that sacrifices strong consistency to implement the entire system, ensuring only eventual consistency.
 
-#### 多阶段提交
+#### Multi-phase Commit
 
-两阶段提交是将事务提交过程分解为预提交和正式提交两个阶段以避免冲突，但仍然存在同步阻塞、单点故障、数据一致性等问题。
+Two-phase commit divides the transaction commit process into pre-commit and formal commit phases to avoid conflicts, but still has issues with synchronous blocking, single point of failure, and data consistency.
 
-TCC 事务机制则主要分为：
+The TCC (Try-Confirm-Cancel) transaction mechanism mainly consists of:
 
-- Try 阶段
-- Confirm 阶段
-- Cancel 阶段
+- Try phase
+- Confirm phase
+- Cancel phase
 
-在 Try 阶段对业务进行检查并预留业务资源，在 Confirm 阶段使用资源执行业务，Cancel 阶段取消执行并释放资源。这种方式是对两阶段提交多作了一些业务上的处理，但因为拆分成了三个接口进行，代码复杂性提升了。
+In the Try phase, the business is checked and business resources are reserved. In the Confirm phase, resources are used to execute the business. In the Cancel phase, execution is cancelled and resources are released. This method adds more business processing to the two-phase commit, but because it is split into three interfaces, the code complexity increases.
 
-三阶段提交引入了超时机制，并在两阶段提交的第一阶段加入了一个尝试预提交环节，主要解决了单点故障和阻塞问题。
+Three-phase commit introduces a timeout mechanism and adds a tentative pre-commit step to the first phase of two-phase commit, mainly solving single point of failure and blocking problems.
 
-## 共识算法
+## Consensus Algorithms
 
-根据容错类型（是否会有恶意节点），我们把共识算法分为非拜占庭容错（Crash Fault Tolerance, CFT）和拜占庭容错（BFT, Byzantine Fault Tolerance）两种。
+Based on the type of fault tolerance (whether there are malicious nodes), we divide consensus algorithms into Crash Fault Tolerance (CFT) and Byzantine Fault Tolerance (BFT).
 
 ### CFT (Crash Fault Tolerance)
 
-分布式系统中存在故障节点但不存在错误节点的场景称为 CFT，在这种场景下，消息可能丢失或者重复，但不会错误，在这种条件下如何达成共识是真实世界中非常常见的需求。
+Scenarios in distributed systems where faulty nodes exist but erroneous nodes do not are called CFT. In these scenarios, messages may be lost or duplicated but not erroneous. Achieving consensus under these conditions is a very common requirement in the real world.
 
 #### Paxos
 
-Paxos 算法原理类似于两阶段提交，设定了三种逻辑节点，提案者、接受者和学习者。由提案者提出提案，接受者对提案进行投票并接受提案，而学习者获取提案结果并广播。
+The Paxos algorithm principle is similar to two-phase commit, setting three logical nodes: proposer, acceptor, and learner. The proposer proposes proposals, the acceptor votes on and accepts proposals, and the learner obtains and broadcasts proposal results.
 
-只有提案者提出的提案才可能会批准，而所有节点都可以竞选成为提案者，但每一轮共识只有唯一的一个提案者提提案，这种机制保障了一定的公平性。
+Only proposals made by proposers can be approved, and all nodes can compete to become proposers, but only one proposer can make a proposal in each round of consensus. This mechanism ensures a certain degree of fairness.
 
-然而，Paxos 只能保障一定条件下的共识，当超过半数的节点参与时才会正常运作。
+However, Paxos can only guarantee consensus under certain conditions and operates normally only when more than half of the nodes participate.
 
 #### Raft
 
-由于 Paxos 算法实现起来比较困难，出现了许多变体，如 Fast Paxos、Multi-Paxos 等，其中比较有代表性的就是 Raft 算法。
+Due to the difficulty in implementing the Paxos algorithm, many variants have emerged, such as Fast Paxos, Multi-Paxos, etc., among which the Raft algorithm is quite representative.
 
-Raft 将一致性过程拆分为领导者选举、日志复制和安全性三个子问题，设定了领导者、候选者和跟随者三种逻辑节点。
+Raft divides the consistency process into three sub-problems: leader election, log replication, and safety, and sets three logical nodes: leader, candidate, and follower.
 
-所有节点的初始状态都是跟随者，想参与领导者竞选则转变为候选者并提出选举请求，如超过一半票数则成功在本次任期称为领导者。
+The initial state of all nodes is follower. Those wishing to participate in leader election transform into candidates and propose election requests. If more than half of the votes are received, they successfully become the leader for this term.
 
-领导者会处理所有请求并将日志同步至跟随者，并且会定期给所有跟随者发送心跳消息，如果出现故障，心跳消息超时未收到，则会发起新的选举过程。
+The leader handles all requests and synchronizes logs to followers, and periodically sends heartbeat messages to all followers. If a failure occurs and heartbeat messages are not received after timeout, a new election process is initiated.
 
 ### BFT (Byzantine Fault Tolerance)
 
 #### Byzantine Fault Tolerance, BFT
 
-拜占庭容错算法则主要是用来处理网络中存在恶意节点的场景，主要是对拜占庭问题的解决，在恶意节点不超过 1/3 的情况下可以有效达成共识，但复杂度非常高（指数级）。
+The Byzantine Fault Tolerance algorithm is mainly used to handle scenarios where malicious nodes exist in the network, primarily solving the Byzantine problem. It can effectively achieve consensus when malicious nodes do not exceed 1/3, but the complexity is very high (exponential).
 
 #### Practical Byzantine Fault Tolerance, PBFT
 
-PBFT 是对 BFT 算法的优化，采用了 RSA 签名算法、消息验证、摘要等密码学技术，结合 Paxos 等相关算法，最后将算法复杂度降到了平方级。
+PBFT is an optimization of the BFT algorithm, adopting cryptographic techniques such as RSA signatures, message verification, and digests, combined with related algorithms like Paxos, ultimately reducing the algorithm complexity to a square level.
 
-在 PBFT 算法实现中，首先选取（随机/轮换）某个节点，设定其逻辑节点为主节点。主节点在自己的 View 内接收客户端的请求并广播（使用三阶段提交机制，见上文）至其他节点，当所有节点完成处理请求后将结果返回给客户端，如果收到了至少来自 2f + 1 个不同节点的相同结果，则共识完成。
+In the PBFT algorithm implementation, a certain node is first selected (randomly/rotating) and set as the primary node. The primary node receives client requests within its own View and broadcasts (using a three-phase commit mechanism, see above) to other nodes. When all nodes complete processing the request, the results are returned to the client. If at least 2f + 1 identical results are received from different nodes, consensus is achieved.
 
-- 尝试预提交：主节点收到消息后进行签名并向其他节点广播
-- 预提交：其他节点收到消息后进行核对，合法则向签名并向其他节点广播，其他节点也进行核对
-- 正式提交：对消息签名并广播提交状态，如经过 2f + 1 个验证，则系统完成共识
+- Tentative pre-commit: After receiving the message, the primary node signs and broadcasts to other nodes
+- Pre-commit: After receiving the message, other nodes verify, sign if legal, and broadcast to other nodes, which also verify
+- Formal commit: Sign the message and broadcast the commit status; if verified by 2f + 1 nodes, the system completes consensus
 
-#### 其他
+#### Others
 
-除了 PBFT 外，PoW、PoS、HotStuff 等也广泛应用于比特币、以太坊、Libra 等区块链项目，并在不断优化中，拜占庭容错类算法因为效率不高，大多用于公有链环境，而联盟链则多采用 非拜占庭容错的方式，辅之以权限控制等方式来平衡性能和安全性。
+In addition to PBFT, PoW, PoS, HotStuff, etc., are widely used in blockchain projects such as Bitcoin, Ethereum, Libra, and are constantly being optimized. Byzantine fault-tolerant algorithms are mostly used in public chain environments due to their low efficiency, while consortium chains often adopt non-Byzantine fault-tolerant methods, supplemented by access control and other methods to balance performance and security.
 
-## 总结
+## Conclusion
 
-以上就是对分布式系统与区块链共识机制的概念和实际应用总结，之后也会对各类业界投入使用的共识算法作更深入的剖析。
+The above is a summary of the concepts and practical applications of distributed systems and blockchain consensus mechanisms. In the future, I will also provide a more in-depth analysis of various consensus algorithms used in the industry.
 
-## 参考资料
+## References
 
-> 1. [区块链原理、设计与应用](https://book.douban.com/subject/27127839/)
-> 2. [分布式事务，这一篇就够了](https://xiaomi-info.github.io/2020/01/02/distributed-transaction/)
-> 3. [理解 TCC、2PC 和 3PC](http://anruence.com/2018/03/05/tcc-2pc-3pc/)
-> 4. [【共识专栏】共识的分类（上）](https://tech.hyperchain.cn/gong-shi-zhuan-lan-gong-shi-de-fen-lei-shang/)
-> 5. [【共识专栏】共识的分类（下）](https://tech.hyperchain.cn/gong-shi-zhuan-lan-gong-shi-de-fen-lei-xia/)
+> 1. [Blockchain: Principle, Design and Application](https://book.douban.com/subject/27127839/)
+> 2. [Distributed Transactions, This Article Is Enough](https://xiaomi-info.github.io/2020/01/02/distributed-transaction/)
+> 3. [Understanding TCC, 2PC and 3PC](http://anruence.com/2018/03/05/tcc-2pc-3pc/)
+> 4. [【Consensus Column】Classification of Consensus (Part 1)](https://tech.hyperchain.cn/gong-shi-zhuan-lan-gong-shi-de-fen-lei-shang/)
+> 5. [【Consensus Column】Classification of Consensus (Part 2)](https://tech.hyperchain.cn/gong-shi-zhuan-lan-gong-shi-de-fen-lei-xia/)

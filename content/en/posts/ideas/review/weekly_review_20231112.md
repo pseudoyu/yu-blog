@@ -1,5 +1,5 @@
 ---
-title: "周报 #49 - 烧焦的键盘、庞贝神话展、健康调整与神奇的梦"
+title: "Weekly Review #49 - Burnt Keyboard, Pompeii Myth Exhibition, Health Adjustments and Magical Dreams"
 date: 2023-11-12T21:23:29+08:00
 draft: false
 tags: ["review", "life", "love", "chiangmai", "work", "cat"]
@@ -8,111 +8,110 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/tenderness.mp3" caption="《温柔 - 五月天》" >}}
+{{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-11-08` 到 `2023-11-12` 这几周生活的记录与思考。
+This piece is a record and reflection of life from `2023-11-08` to `2023-11-12`.
 
-这周回到了正常节奏，工作方面主要任务是在方案探讨和设计，没有太多代码的部分；另一个 AI 相关的项目写了一些智能合约与调用链相关的后端 api 代码，其实虽然也写了不少合约，但是完整串整个流程的非 demo 项目机会还是不那么多的；运动方面上了两节私教课，状态还算不错；生活方面做了几餐饭，学姐弄了一个在线文档记录下了食谱和菜单，能感觉似乎厨艺有在进步；整理了一下之前拍的视频素材，打算努力剪出一版来，算是视频版的 review 了；重新布置了在北京的办公环境，舒服了很多；去逛街买了一些换季的衣服；还有很多有意思的事。
+This week, I returned to a normal rhythm. Work-wise, the main task was discussing and designing solutions, without much coding involved. For another AI-related project, I wrote some backend API code related to smart contracts and call chains. Although I've written quite a few contracts, opportunities for non-demo projects that string together the entire process are still rare. In terms of exercise, I had two personal training sessions, and my condition was quite good. In terms of life, I cooked a few meals, and my senior created an online document to record recipes and menus. I can feel that my culinary skills seem to be improving. I sorted out some previously shot video materials, planning to edit a version, which would be a video version of the review. I rearranged my office environment in Beijing, making it much more comfortable. I went shopping and bought some seasonal clothes. There were many interesting things happening.
 
-## 烧焦的键盘
+## The Burnt Keyboard
 
 ![hanwen_keyboard_burnt](https://image.pseudoyu.com/images/hanwen_keyboard_burnt.jpg)
 
-这周最有意思（？）的事应该就是一天晚上自己在加班工作的时候突然感觉到一阵什么东西烧焦了的味道，我跟学姐大喊了一声“好像有什么东西烧焦了”，接着写；过了一会儿感觉糊味好像离自己很近，又大喊“可能是我电脑或者键盘烧了”，然后接着写；又过了一会儿，键盘断触了，我拿起来闻了闻，一阵很浓厚的焦味，原来真的是键盘烧了。
+The most interesting (?) thing this week was probably when I was working overtime one night and suddenly smelled something burning. I shouted to my senior, "Something seems to be burning!" and continued writing. After a while, the burning smell seemed very close to me, and I shouted again, "It might be my computer or keyboard burning," and then continued writing. A bit later, the keyboard stopped responding. I picked it up and sniffed it, and there was a strong burning smell. It turned out that the keyboard really did burn.
 
-当下还不觉得有什么，后来想想我的反应还是挺搞笑的，可能刚好在调试一个 bug，处在一个专注状态里，所以对于周遭的反应都像是一种程式化的输出了，大概我就是那种地震了第一反应是 `git commit` + `git push` 的人吧。
+At that moment, I didn't think much of it, but looking back, my reaction was quite funny. Perhaps I was debugging a bug and was in a focused state, so my reactions to the surroundings were like programmed outputs. I guess I'm the type of person whose first reaction to an earthquake would be to `git commit` + `git push`.
 
 ![hanwen_chat_with_support](https://image.pseudoyu.com/images/hanwen_chat_with_support.jpg)
 
-这个键盘用了也快一年了，是稚晖君设计的「[【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】](https://www.bilibili.com/video/BV19V4y1J7Hx/)」中的翰文 75，外观和手感都还挺不错的，跟客服联系了一下，说估计是排线烧了，还要联系售后检修，说这是他遇到的第一例。
+I've been using this keyboard for almost a year. It's the Hanwen 75 from "【Self-made】I Made a Modular Mechanical Keyboard!【Soft Core】" designed by Zhi Hui Jun. The appearance and feel were quite nice. I contacted customer service, and they said it was probably a burnt cable and that I needed to contact after-sales for inspection. They said this was the first case they had encountered.
 
-~~我的代码功力大概是成了，都把键盘写烧了。~~
+~~I guess my coding skills have really improved, I even managed to burn the keyboard with my code.~~
 
-学姐：“要不要给你买个保险？程序员真是高危行业。” 🤣
+My senior: "Do you want me to buy you insurance? Being a programmer is truly a high-risk occupation." 🤣
 
-## 庞贝神话
+## The Myth of Pompeii
 
 ![pompeii_01](https://image.pseudoyu.com/images/pompeii_01.jpg)
 
-学姐的公司有一些艺术展览的福利，可以带家属，想着周末不能总是宅家，于是挑选约了周六去了国家典籍馆参加一个「庞贝神话——意大利那不勒斯国家考古博物馆藏古希腊古罗马珍品文物展」，
-包含“梦回盛世”“古希腊罗马时期的爱情神话”“快意人生：古罗马人对美好生活的热爱”“古代艺术中的美的概念”“神话再现”几个部分。
+My senior's company had some art exhibition benefits that could include family members. Thinking we shouldn't always stay at home on weekends, we chose to go to the National Library of China on Saturday to attend an exhibition called "The Myth of Pompeii — Treasures from the National Archaeological Museum of Naples, Italy". It included several sections: "Back to the Golden Age", "Love Myths in Ancient Greece and Rome", "The Joy of Life: Ancient Romans' Love for the Good Life", "The Concept of Beauty in Ancient Art", and "The Rebirth of Myths".
 
 ![pompeii_02](https://image.pseudoyu.com/images/pompeii_02.jpg)
 
-因为包含了导览讲解，一路听着奇幻的古希腊神话，又看着那个时代人们普通却又不朴素的日常，有一种很神奇的协调感。我想比起国内只有皇室才能有资格享有的古墓群，这种突然消失的城市似乎更能展现出一个城市本来的面貌，更加有真实感。
+Because it included a guided tour, we listened to fantastic Greek myths while looking at the ordinary yet not simple daily life of that era, creating a strange sense of harmony. I think compared to the ancient tomb groups in China that only royalty could enjoy, this suddenly disappeared city seems to better showcase the original face of a city, giving it a more authentic feel.
 
 ![pompeii_03](https://image.pseudoyu.com/images/pompeii_03.jpg)
 
-在我们的想象中，似乎 2000 年前是很遥远的世代，但其实就庞贝城所展现出来的状态来说，他们对与生活的追求甚至远超过现在的我们，美食、在餐具上的绘画、各类关于所信仰神的画作和雕塑，以及很有意思的，小小的庞贝城有二十多家妓院，还有很多展现性爱的壁画，他们对于性和欲望的开放程度甚至要远高过当下。
+In our imagination, 2000 years ago seems like a distant era, but judging from the state of Pompeii, their pursuit of life far exceeds ours today. The gourmet food, paintings on tableware, various paintings and sculptures of the gods they believed in, and interestingly, the small city of Pompeii had more than twenty brothels and many murals depicting sexual love. Their openness to sex and desire was even far greater than today.
 
 ![pompeii_06](https://image.pseudoyu.com/images/pompeii_06.jpg)
 
-火山爆发让时光永久地停留在这一刻，而不用体验衰老和缓慢死亡，或许也恰恰符合了他们的生活态度，他们的日常生活也无不体现着“及时行乐”与“对美的极致追求”，他们对于爱情本身的憧憬与歌颂也无不体现在他们的艺术作品中，我想除了宗教外，他们同时笃信着美好生活与爱本身。
+The volcanic eruption permanently stopped time at this moment, without having to experience aging and slow death, which perhaps precisely fits their attitude towards life. Their daily life embodies "seize the day" and "the ultimate pursuit of beauty". Their longing and praise for love itself are also reflected in their artworks. I think besides religion, they also firmly believed in a good life and love itself.
 
-## 神奇的梦
+## A Magical Dream
 
-周日夜里还发生了一件很神奇的事。
+Something very magical happened on Sunday night.
 
-因为想着夜里把周报写完，但刚健身和逛街完折腾了一整天又很困倦，想着把电脑放在床头，睡到三点左右起来写（~~最后也没起来~~）。深夜自己做了一个梦，大概是因为什么原因自己的 Macbook 不小心摔折成了两瓣，当时梦里的最后一瞬间应该是在后悔没有买 Apple Care，惊醒后手猛地一抓，刚好抓住了正要从枕头滑落到地上的笔记本。
+I was thinking of finishing the weekly report at night, but I was very tired after a whole day of working out and shopping. I thought about putting the computer by the bedside and waking up around three o'clock to write (~~but I didn't wake up in the end~~). I had a dream in the middle of the night, probably because for some reason my MacBook accidentally broke into two halves. The last moment in the dream was probably regretting not buying AppleCare. When I woke up startled, my hand grabbed the laptop that was about to slip from the pillow to the ground.
 
-大概是已经和电脑心意相通了，它察觉到了危险托梦给我来救它吧，很神奇的梦，再加上这周 Openai 的 GPTs 和一系列新特性的发布以及刚看了 PLUTO 这一讲人类与机器人的动漫，一时竟分不清我对此未来是期待还是畏惧了。
+Perhaps I've become so in tune with my computer that it sensed the danger and sent me a dream to save it. It was a very magical dream. Adding to this week's release of OpenAI's GPTs and a series of new features, and having just watched PLUTO, an anime about humans and robots, I suddenly couldn't tell whether I was looking forward to or fearing this future.
 
-## 健康调整
+## Health Adjustments
 
-### 健身
+### Fitness
 
-大约一个月前，开始了一周两次的健身房私教课。其实自己这么多年来对于身体是不那么关心的，也得益于还不错的体质，连小病小痛都很少有。高中大学时会在寝室做一些基础的仰卧起坐、俯卧撑之类的，也大概能保持不错的体能与体型。只是随着年纪渐长以及作息随着工作和生活的一些额外因素而越来越不可控，也逐渐开始想着能增加运动的频次和量。
+About a month ago, I started twice-weekly personal training sessions at the gym. Actually, I haven't been very concerned about my body for many years, and thanks to a fairly good constitution, I rarely even had minor illnesses. In high school and college, I would do some basic sit-ups and push-ups in the dorm, which could probably maintain good fitness and physique. However, as I grew older and my routine became increasingly uncontrollable due to some extra factors in work and life, I gradually started thinking about increasing the frequency and amount of exercise.
 
 ![yu_body_params](https://image.pseudoyu.com/images/yu_body_params.png)
 
 ![yu_body_param_2](https://image.pseudoyu.com/images/yu_body_param_2.png)
 
-综合考虑后，报了健身房私教课，一般一周两节，周三/周四的早 7-8 点以及周日的下午 2-3 点，基本上能覆盖到全身想锻炼的一些点，现在已经上了 7 节课，这是第一节课前测量的身体状况，应该再上一两节后会再测一下，看看有没有什么进步。
+After comprehensive consideration, I signed up for personal training at the gym, usually two sessions a week, from 7-8 am on Wednesday/Thursday and 2-3 pm on Sunday, basically covering all the points I want to exercise. Now I've had 7 sessions, and this is the body condition measured before the first session. I should measure again after one or two more sessions to see if there's any improvement.
 
-健身还真的是一件挺有趣的活动，前两次很新奇，每项都会想着能多做一点突破自己的极限，上了几节课后就会偶有倦怠和状态不好的时候，时常会在一些有些勉强的动作时瞥一下墙上的钟表，想着也太漫长了，而现在在已经能明显看到一些成效时，又稍微有些习惯甚至期待锻炼后的那种感觉。
+Working out is really quite an interesting activity. The first two times were very novel, trying to do a little more in each item to break my own limits. After a few sessions, there would occasionally be times of weariness and poor condition. I would often glance at the clock on the wall during some difficult movements, thinking it was too long. Now that I can clearly see some results, I'm somewhat accustomed to and even looking forward to that feeling after exercise.
 
-### 饮食
+### Diet
 
 ![food_weekly_review_20231113](https://image.pseudoyu.com/images/food_weekly_review_20231113.png)
 
-随着健身和生活节奏的趋于稳定，我也开始更多自己做饭，虽然每天会多花点时间，但感觉还是挺有意思的体验，生活也似乎变得更具体了。
+As my fitness and life rhythm have become more stable, I've started cooking more for myself. Although it takes a bit more time every day, I feel it's quite an interesting experience, and life seems to have become more concrete.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 逛街与情侣装
+### Shopping and Couple Outfits
 
-北京其实已经入冬了，这几天气温骤降，不过也还没准备什么厚实的衣服，周末健身完想着换季了，该去买一些了。
+Beijing has actually entered winter, and the temperature has dropped sharply these days, but I haven't prepared any thick clothes yet. After working out on the weekend, I thought it was time for a seasonal change and should go buy some.
 
-于是到了家附近的商场，和学姐逛了几个小时，买完后才突然意识到这似乎是我们真正意义上的第一次逛街买衣服，还挺神奇的，似乎已经相处了很久，但依然能发现很多没做过的新鲜的事，和关系亲密与否无关，可能更多还是相处模式上，两个人都没有很刻意要去打卡什么“一定要做的 x 件事”，一切自然而然地就发生了。
+So we went to the mall near home, and my senior and I shopped for a few hours. It wasn't until after we finished that I suddenly realized this was probably our first real shopping trip to buy clothes together. It's quite amazing, it seems like we've been together for a long time, but we can still discover many new things we haven't done. It's not related to how close the relationship is, maybe it's more about the mode of interaction. Neither of us deliberately tries to check off "x things that must be done", everything just happens naturally.
 
-然后去支持了 Cali 的佐玩商城，买了一套「[404 Not Found](https://shop.zolplay.cn/products/404-not-found-hoodie-y23)」的情侣衫，期待到货效果。
+Then we went to support Cali's Zolplay Mall and bought a set of "[404 Not Found](https://shop.zolplay.cn/products/404-not-found-hoodie-y23)" couple hoodies. Looking forward to seeing them when they arrive.
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synchronized in the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I'll still select a part to list here, which feels more like a newsletter.
 
-#### 书籍
+#### Books
 
-- **Building a Second Brain**，正在阅读。
-- **Elon Mask**，正在阅读。
+- **Building a Second Brain**, currently reading.
+- **Elon Musk**, currently reading.
 
-#### 文章
+#### Articles
 
-- [一个普通周末 - Boyi](https://www.boyilu.com/a-normal-weekend)
+- [A Normal Weekend - Boyi](https://www.boyilu.com/a-normal-weekend)
 - [Implementing a High-Performance Arweave Bundle Parser](https://docs.rss3.io/docs/implementing-a-high-performance-arweave-bundle-parser)
 
-#### 视频
+#### Videos
 
-- [赚大了！0 基础也能学会用无人机拍大片【航拍教程】](https://www.bilibili.com/video/BV1GC4y1U7qU)
-- [人生第一次 我跟一位杀人犯坐下谈心](https://www.bilibili.com/video/BV12B4y1R7Fs)
-- [study vlog #37｜女程序员下班后的学习日常｜本期🐱含量超标｜读未来简史 ｜TEDxTalks 共读：自控的秘诀/人格的难题/科技是救世主还是杀手](https://www.bilibili.com/video/BV1jC4y1E77p)
+- [Hit the Jackpot! Even Beginners Can Learn to Shoot Blockbusters with Drones 【Aerial Photography Tutorial】](https://www.bilibili.com/video/BV1GC4y1U7qU)
+- [For the First Time in My Life, I Sat Down to Talk with a Murderer](https://www.bilibili.com/video/BV12B4y1R7Fs)
+- [study vlog #37｜A Female Programmer's After-work Study Routine｜This Episode's Cat Content is Off the Charts｜Reading "A Brief History of Tomorrow" ｜TEDxTalks Co-reading: The Secret of Self-control/The Dilemma of Personality/Is Technology a Savior or a Killer](https://www.bilibili.com/video/BV1jC4y1E77p)
 
-#### 动漫
+#### Anime
 
-- **冥王 PLUTO**，一个挺有意思的题材，关于机器人和人类的共生关系的，看了第一集觉得还不错。
+- **PLUTO**, an interesting subject about the symbiotic relationship between robots and humans. I watched the first episode and thought it was pretty good.
 
-#### 剧集
+#### TV Series
 
-- **机智的监狱生活**，和《请回答 1988》同个导演，也是吃饭的时候休闲看的，觉得是不同的风格，但也还挺有意思的。
+- **Prison Playbook**, by the same director as "Reply 1988". I watch it casually while eating. It's a different style, but also quite interesting.

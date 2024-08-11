@@ -1,5 +1,5 @@
 ---
-title: "个人工具箱（2022 年 5 月）"
+title: "Personal Toolkit (May 2022)"
 date: 2022-05-08T15:47:16+08:00
 draft: false
 tags: ["devices","tools","macOS","iOS","workflow", "pkm"]
@@ -8,372 +8,372 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/here_after_us.mp3" caption="《后来的我们 - 五月天》" >}}
+{{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## 前言
+## Preface
 
-自己一直是个工具控，也一直信奉着“工欲善其事，必先利其器”的理念，总是不断折腾和优化自己的硬件与软件，针对自己的一个特定需求会试图找到最优解，现在也慢慢找到了最适合自己使用习惯的解决方案。因为工作、学习和个人兴趣，设备经过很多次迭代，在这个时间节点作一下记录，后续也会不断更新，希望能够对其他人有所参考。
+I've always been a tool enthusiast, firmly believing in the principle "to do a good job, one must first sharpen one's tools." I constantly tinker with and optimize my hardware and software, seeking the best solution for each specific need. Now, I've gradually found solutions that best suit my usage habits. Due to work, study, and personal interests, my devices have gone through many iterations. I'm making a record at this point in time, and will continue to update it in the future, hoping it can be a reference for others.
 
-***本文仅为 2022 年 5 月所整理的软硬件工具箱，最新版本请访问我在 GitHub 上维护的个人工具箱项目 『[GitHub - pseudoyu/yu-tools](https://github.com/pseudoyu/yu-tools)』。***
+***This article is only a compilation of hardware and software toolkits as of May 2022. For the latest version, please visit my personal toolkit project maintained on GitHub: "[GitHub - pseudoyu/yu-tools](https://github.com/pseudoyu/yu-tools)".***
 
-> 注：下文所提及的所有软件服务均为本人购买/订阅或学生资格所享有的教育授权，请支持正版！
+> Note: All software services mentioned below are purchased/subscribed by me or educational licenses enjoyed through student status. Please support genuine versions!
 
-## 主要设备
+## Main Devices
 
 ![yu_new_desk_setup](https://image.pseudoyu.com/images/yu_new_desk_setup.jpg)
 
-### :computer: 电脑及配件
+### :computer: Computers and Accessories
 
-- **Apple Mac Studio (2022)，M1 Max，64GB RAM，1T SSD**，家里主力电脑，疫情在家很提升工作学习幸福感
-- **Apple MacBook Pro (16-inch，2019) 银色，2.4 GHz 八核 Intel Core i9，32GB RAM，2T SSD**，高频使用，基本走哪都会背着，在公司外接显示屏使用
-- **明基（BenQ）EW3270U 4K 显示器**，配合 Mac Studio 使用，在这个价位的 4K 里已经很不错了
-- **明基（BenQ）ScreenBar Halo 屏幕挂灯**，有了这个后基本上家里没开过主光源了，可以无线控制调节，很有氛围感
-- **HHKB Professional Hybrid Type-S 双模静音版键盘，白色有刻**，目前最爱的键盘
-- **RealForce PFU 联名版 87 键，黑色**，备用键盘，也是静电容经典了，但是没有很习惯，可能后面玩游戏会用，毕竟 HHKB 键位特殊
-- ~~**MM-Studio Class65 V2 客制化双模机械键盘，复古白**（原本想通过这把入坑客制化，但是没心情折腾了，等了三个月发团，刚到手就原价转卖了）~~
-- **Apple Magic Keyboard 键盘，白色**，开始用 HHKB 后就基本上不用了
-- **Logitech MX Master 3 鼠标，灰色**，主力鼠标，手感和侧键功能都很棒，配合剪视频也很棒
-- **Apple Magic Mouse 2 鼠标，白色**，手感不太行，基本上不用了
-- **Apple Magic Trackpad 触控板，白色**，在家配合着鼠标使用，体验感不错
-- **闪极 100W Pro 氮化镓 GaN 充电器，黄色**，外出携带，终于摆脱了苹果 96w 的大块头充电器
+- **Apple Mac Studio (2022), M1 Max, 64GB RAM, 1T SSD**, main computer at home, greatly enhances work and study satisfaction during the pandemic
+- **Apple MacBook Pro (16-inch, 2019) Silver, 2.4 GHz 8-core Intel Core i9, 32GB RAM, 2T SSD**, frequently used, basically carried everywhere, connected to an external monitor at the company
+- **BenQ EW3270U 4K Monitor**, used with Mac Studio, very good in this price range for 4K
+- **BenQ ScreenBar Halo Monitor Light**, haven't turned on the main light at home since getting this, can be wirelessly controlled and adjusted, very atmospheric
+- **HHKB Professional Hybrid Type-S Silent Keyboard, White with Printed Keycaps**, currently my favorite keyboard
+- **RealForce PFU Limited Edition 87 Keys, Black**, backup keyboard, also a classic electrostatic capacitive, but not very used to it, might use it for gaming later, after all, HHKB has special key layout
+- ~~**MM-Studio Class65 V2 Custom Dual-mode Mechanical Keyboard, Retro White** (Originally wanted to enter the world of custom keyboards with this, but didn't have the mood to tinker, waited three months for group buy, sold it at original price as soon as it arrived)~~
+- **Apple Magic Keyboard, White**, basically not used since starting to use HHKB
+- **Logitech MX Master 3 Mouse, Gray**, main mouse, great feel and side button functions, also great for video editing
+- **Apple Magic Mouse 2, White**, not very comfortable, basically not used anymore
+- **Apple Magic Trackpad, White**, used in combination with the mouse at home, good experience
+- **Flash 100W Pro GaN Charger, Yellow**, carried when going out, finally got rid of Apple's bulky 96w charger
 
-### :iphone: 手机及平板
-- **Apple iPhone 13 蓝色，256GB**，主力手机，配合苹果全家桶体验很好，不过手机基本上戒了，主要就用作沟通和看看资讯，应该很久都不会换了
-- **OnePlus 7 Pro，6.67"，Snapdragon 855，256GB**，之前在香港的时候刷机 Root 了，配合 Google 全家桶很适合留学用，而且拍照风格很自然，不过现在也很少用了
-- **Apple iPad Air (第三代)，256GB**，主要用来作拓展屏或者放视频了，很少作什么生产力工具使用，大部分电脑能做的都不会放到 iPad 上做
+### :iphone: Phones and Tablets
+- **Apple iPhone 13 Blue, 256GB**, main phone, works well with the Apple ecosystem, but I've basically quit using my phone, mainly used for communication and checking information, probably won't change for a long time
+- **OnePlus 7 Pro, 6.67", Snapdragon 855, 256GB**, previously rooted when I was in Hong Kong, works well with Google ecosystem for studying abroad, and the photo style is very natural, but rarely used now
+- **Apple iPad Air (3rd generation), 256GB**, mainly used as an extended screen or for watching videos, rarely used as a productivity tool, most things that can be done on a computer won't be done on the iPad
 
-### :movie_camera: 相机及配件
-- **Sony A7M3 微单相机，黑色**，大学攒了好久才买的第一台微单，摄影和视频都很全能，跟着我好多年了，到现在依然很够用
-- **Sony 24-105mm F4 相机镜头**，跟相机一起买的，出门基本上这一只大师镜头就足够应对绝大多数场景，虽然光圈只有 F4，但是成像品质真的高
-- **Sony 55mm F1.8 蔡司相机镜头**，收到的礼物，也是最喜欢的定焦镜头，主要用来拍人像
-- **罗德 Wireless Go 无线麦克风**，之前录视频用得比较多，便携易用，声音也很不错，后面会考虑多录一些视频
+### :movie_camera: Cameras and Accessories
+- **Sony A7M3 Mirrorless Camera, Black**, my first mirrorless camera that I saved up for a long time in college, very capable for both photography and video, has been with me for many years, still very sufficient now
+- **Sony 24-105mm F4 Camera Lens**, bought with the camera, basically this one master lens is enough to handle most scenes when going out, although the aperture is only F4, the image quality is really high
+- **Sony 55mm F1.8 Zeiss Camera Lens**, received as a gift, also my favorite prime lens, mainly used for portraits
+- **Rode Wireless Go Wireless Microphone**, used more for video recording before, portable and easy to use, sound is also very good, will consider recording more videos later
 
-### :headphones: 音箱及耳机
-- **Apple Airpods Pro 降噪耳机**，原本不太习惯入耳式，后来体验了降噪后就离不开了
-- **Apple HomePod mini 音箱**，家里电脑主要输出设备，家里 Mac Studio 和显示器自带音质都不太行
-- **Divoom Ditoo 像素复古音箱**，收到的礼物，现在放在桌面作装饰，基本上没放过音乐
-- **小爱智能音箱**，联动家里的各类智能家居
+### :headphones: Speakers and Headphones
+- **Apple Airpods Pro Noise-cancelling Headphones**, originally not very used to in-ear style, but after experiencing noise cancellation, can't live without it now
+- **Apple HomePod mini Speaker**, main output device for home computer, the built-in audio quality of Mac Studio and monitor at home is not very good
+- **Divoom Ditoo Pixel Retro Speaker**, received as a gift, now placed on the desk as decoration, basically haven't played any music
+- **Xiaomi AI Speaker**, linked with various smart home devices at home
 
-### :package: 存储设备
-- **三星 T5 SSD，1TB**，主要用来存储摄影和视频素材，很小，传输速度很快
-- **希捷移动硬盘，1TB**，Mac Studio 用来 Time Machine 备份使用的
+### :package: Storage Devices
+- **Samsung T5 SSD, 1TB**, mainly used to store photography and video materials, very small, fast transfer speed
+- **Seagate Portable Hard Drive, 1TB**, used for Time Machine backup with Mac Studio
 
-### 🎮 休闲娱乐
-- **Kindle Oasis 2 电子书阅读器**，以前看得比较多，现在基本上看实体书以及手机 Books 上看
-- **Nintendo Switch 主机，动物森友会特别版**，主要用来玩宝可梦，[从 18 年开始陆陆续续也买了不少游戏](https://pseudoyu.notion.site/f5f9e6e31b4744a7a1284eaf55451462?v=6e3be0ced2f44305b9ff3a8298e72de5)，很多都还没来得及玩，卡带收藏爱好者
-- **Nintendo Switch Pro 手柄，任天堂明星大乱斗特别版**，体验感比自带的 Joy-Con 好多了
+### 🎮 Leisure and Entertainment
+- **Kindle Oasis 2 E-reader**, used to read more before, now basically read physical books and on the phone's Books app
+- **Nintendo Switch Console, Animal Crossing Special Edition**, mainly used to play Pokemon, [have bought quite a few games since 2018](https://pseudoyu.notion.site/f5f9e6e31b4744a7a1284eaf55451462?v=6e3be0ced2f44305b9ff3a8298e72de5), many haven't had time to play yet, game cartridge collector
+- **Nintendo Switch Pro Controller, Super Smash Bros. Ultimate Special Edition**, experience is much better than the included Joy-Con
 
-## 软件工具
+## Software Tools
 
 ![my_softwares_in_may_2022](https://image.pseudoyu.com/images/my_softwares_in_may_2022.png)
 
-### 🛠 系统拓展
+### 🛠 System Extensions
 
-- **CleanMyMac X**，电脑管家，主要用来清理缓存和软件卸载
-- **AppCleaner**，功能很单一的应用卸载工具
-- **One Switch**，菜单栏快捷工具，主要用来组织电脑休眠使用的
-- **Alfred 4**，快捷启动工具，配合一些 Workflow 功能很丰富，现在主要还用了它的剪贴板历史功能
-- **Hammperspoon**，主要用来通过 `Option + hjkl` 组合键来弥补 HHKB 没有上下左右键的一些场景
-- **Bartender 4**，菜单栏管理工具，主要隐藏一些软件服务菜单栏图标
-- **BetterTouchTool**，触控板及 Touchbar 管理，主要给 Macbook Pro 配置触控版用的
-- **Magnet**，分屏工具
-- **iStat Menus**，系统状态显示，主要显示 CPU、内存和网络等状态
-- **AirBuddy**，耳机管理工具，感觉连接耳机更顺滑了一些
-- **HazeOver**，桌面效果工具，显示效果很不错
-- **Plash**，动态桌面拓展，在主屏幕放了一个简约的动态时间显示，也几乎不耗资源
-- **DaisyDisk**，磁盘管理，偶尔用来追踪大文件
-- **Menubar X**，菜单栏网页拓展，之前偶尔挂一些小工具，现在用得也少了
-- **Logi Options+**，罗技配置工具，配置鼠标功能按键用的，不过基本上用的默认值
+- **CleanMyMac X**, computer manager, mainly used for clearing cache and uninstalling software
+- **AppCleaner**, a very simple application uninstall tool
+- **One Switch**, menu bar shortcut tool, mainly used to organize computer sleep
+- **Alfred 4**, quick launch tool, very rich in functions with some Workflows, now mainly use its clipboard history function
+- **Hammperspoon**, mainly used to compensate for HHKB's lack of arrow keys in some scenarios through `Option + hjkl` combination keys
+- **Bartender 4**, menu bar management tool, mainly hides some software service menu bar icons
+- **BetterTouchTool**, touchpad and Touchbar management, mainly used to configure touchpad for Macbook Pro
+- **Magnet**, split-screen tool
+- **iStat Menus**, system status display, mainly displays CPU, memory, and network status
+- **AirBuddy**, headphone management tool, feels smoother when connecting headphones
+- **HazeOver**, desktop effect tool, very nice display effect
+- **Plash**, dynamic desktop extension, put a minimalist dynamic time display on the main screen, also hardly consumes resources
+- **DaisyDisk**, disk management, occasionally used to track large files
+- **Menubar X**, menu bar web extension, used to hang some small tools before, now used less
+- **Logi Options+**, Logitech configuration tool, used to configure mouse function buttons, but basically use default values
 
-### 📁 文件管理
+### 📁 File Management
 
-- **OneDrive**，5TB 空间，存储大部分个人数据，通过客户端挂载本地目录来同步，速度不错
-- **iCloud**，200GB 空间，主要用于照片备份与软件数据同步
-- **Dropbox**，2GB 空间，主要配合 Cryptomator 对敏感数据加密备份
-- ~~**Google Drive**，1TB 空间（因学校从 Google 服务转向 Microsoft 服务，已弃用）~~
-- ~~**百度网盘**，存储影音及备份工具（以前存储大量视频剪辑文件用，已弃用）~~
+- **OneDrive**, 5TB space, stores most personal data, synced through client mounting local directory, good speed
+- **iCloud**, 200GB space, mainly used for photo backup and software data synchronization
+- **Dropbox**, 2GB space, mainly used in combination with Cryptomator for encrypted backup of sensitive data
+- ~~**Google Drive**, 1TB space (abandoned as school switched from Google services to Microsoft services)~~
+- ~~**Baidu Netdisk**, used to store audio-visual and backup tools (used to store a large number of video editing files before, abandoned)~~
 
-### 🔐 安全工具
+### 🔐 Security Tools
 
-- **ElPass**，密码管理工具，界面很喜欢，OTP 以及 Server 管理功能很惊艳，现在所有帐号、密码、证件和银行卡都在这里管理了，用 iCloud 和 Dropbox 进行同步和备份
-- **GPG Keychain**，macOS GPG 加密工具客户端，主要用来为 Git 提交进行签名
-- **Cryptomator**，文件目录加密工具，用于加密备份证件等隐私数据，配合网盘使用
-- **DAMA**，图片隐私打码工具，通过 TestFlight 尝鲜了测试版
+- **ElPass**, password management tool, love the interface, OTP and server management functions are very impressive, now manage all accounts, passwords, documents, and bank cards here, using iCloud and Dropbox for synchronization and backup
+- **GPG Keychain**, macOS GPG encryption tool client, mainly used to sign Git commits
+- **Cryptomator**, file directory encryption tool, used to encrypt and backup private documents and other sensitive data, used in combination with cloud storage
+- **DAMA**, image privacy masking tool, tried the beta version through TestFlight
 
-### 🌏 网络工具
+### 🌏 Network Tools
 
-- **Surge**，网络代理、调试工具，家里的 Mac Studio 通过 Surge 来作为家里 Wifi 的 DHCP 服务器，接管家里的网络实现全网代理，主要给 iPad 访问外网以及 Switch 下载游戏加速用
-- **AdGuard Home**，通过网络流量过滤与 DNS 实现去广告，很强大
-- **ClashX**，网络代理工具，买 Surge 前主力用的，现在留了一个备用线路
-- **OpenVPN Connect**，openvpn 客户端，连接公司内网服务器使用
-- ~~**Tunnelblick**，上一个项目在用，不过界面没有上面的好，已弃用~~
-- **Safari**，主力浏览器，通过 iCloud 多设备同步
-  - **AdGuard Home**，去广告插件
-  - **Elpass**，自动填充密码
-  - **Downie**，下载插件，一键识别媒体并下载
-  - **NetNewsWire**，自动抓取网站订阅链接
-  - **Vinegar+Baking Soda**，把 YouTube 以及其他一些视频网站的视频播放器转回 HTML5 播放器，简约，体验感很不错
+- **Surge**, network proxy and debugging tool, home Mac Studio uses Surge as the DHCP server for home Wifi, taking over the home network to achieve full network proxy, mainly used for iPad to access external networks and Switch to accelerate game downloads
+- **AdGuard Home**, achieves ad-blocking through network traffic filtering and DNS, very powerful
+- **ClashX**, network proxy tool, mainly used before buying Surge, now kept as a backup line
+- **OpenVPN Connect**, openvpn client, used to connect to company internal network servers
+- ~~**Tunnelblick**, used in the previous project, but the interface is not as good as the above, abandoned~~
+- **Safari**, main browser, synced across multiple devices through iCloud
+  - **AdGuard Home**, ad-blocking plugin
+  - **Elpass**, auto-fill passwords
+  - **Downie**, download plugin, one-click media identification and download
+  - **NetNewsWire**, automatically fetches website subscription links
+  - **Vinegar+Baking Soda**, turns the video player of YouTube and some other video sites back to HTML5 player, minimalist, very nice experience
 - **Brave**
-  - **MetaMask**，钱包插件
-  - **Elpass**，自动填充密码
-  - **豆伴**，备份和查看豆瓣数据
-  - **YouTube Dual Subtitles**，支持多语言字幕
-  - **YouTubeEnhancer**，增强 YouTube 播放器功能
-- ~~**Chrome**（迁移至 Brave，已弃用）~~
+  - **MetaMask**, wallet plugin
+  - **Elpass**, auto-fill passwords
+  - **Douban Companion**, backup and view Douban data
+  - **YouTube Dual Subtitles**, supports multi-language subtitles
+  - **YouTubeEnhancer**, enhances YouTube player functionality
+- ~~**Chrome** (migrated to Brave, abandoned)~~
 
-### 🧰 实用工具
+### 🧰 Practical Tools
 
-- **Bob**，划词/截图翻译工具，配合 [DeepL X 拓展插件](https://github.com/clubxdev/bob-plugin-deeplx)和 [zu1k](https://zu1k.com) 大佬发布的 [DeepL Free Api Docker 镜像](https://github.com/zu1k/deepl-api-rs)，完美体验，后面还更新了独立的 OCR 功能，更强大了
-- **Tern-Subtitle File Translator**，我配合了 IBM 提供的 API，进行字幕自动中英翻译
-- **qBittorrent**，通过 RSS 管理器来订阅特定 PT 站的番剧等媒体资源，自动更新下载
-- **Downie**，视频源下载工具，下载 YouTube 或者 B 站的一些视频，作剪辑素材用
-- **PicGo**，图床管理工具，主要写博客的时候上传图片到 GitHub 图床并且生成自定义的 Markdown 格式，可以直接嵌入文章
-- **BetterZip**，压缩/解压工具，基本上装机必备了，目前遇到的格式都支持了
-- **PDF Expert**，PDF 查看编辑工具，主要用来做一些合并和编辑，查看的话经常还是用自带的 Preview
-- **PDF Squeezer**，PDF 压缩工具，压缩效果很不错，使用也很方便
-- **Image Smith**，图片压缩工具，刚尝试的一个新工具，很不错，之后作主力压缩了
-- **TinyPNG4Mac**，之前博客图片上传前都会压一些，功能很简单，现在作为备用了
-- **Rime 鼠须管**，定制化输入法，体验很好且数据本地保存，安全稳定
-- **Time Machine**，备份工具，主要给 Mac Studio 作实时备份用
-- **brew**，Homebrew 安装工具，基本上开发有关的都用 brew 装了，方便管理升级
-- **TestFlight**，尝鲜一些测试版软件用
+- **Bob**, word/screenshot translation tool, perfect experience with [DeepL X extension plugin](https://github.com/clubxdev/bob-plugin-deeplx) and [DeepL Free Api Docker image](https://github.com/zu1k/deepl-api-rs) released by [zu1k](https://zu1k.com), later updated with independent OCR function, more powerful
+- **Tern-Subtitle File Translator**, I use it with the API provided by IBM for automatic Chinese-English translation of subtitles
+- **qBittorrent**, use RSS manager to subscribe to specific PT site anime and other media resources, automatically update downloads
+- **Downie**, video source download tool, download some videos from YouTube or Bilibili, used as editing materials
+- **PicGo**, image bed management tool, mainly upload images to GitHub image bed and generate custom Markdown format when writing blogs, can be directly embedded in articles
+- **BetterZip**, compression/decompression tool, basically a must-have for computer setup, currently supports all formats encountered
+- **PDF Expert**, PDF viewing and editing tool, mainly used for some merging and editing, often still use the built-in Preview for viewing
+- **PDF Squeezer**, PDF compression tool, very good compression effect, easy to use
+- **Image Smith**, image compression tool, just tried a new tool, very good, will be the main compression tool later
+- **TinyPNG4Mac**, previously used to compress blog images before uploading, very simple function, now used as a backup
+- **Rime Squirrel**, customizable input method, good experience and data saved locally, safe and stable
+- **Time Machine**, backup tool, mainly used for real-time backup of Mac Studio
+- **brew**, Homebrew installation tool, basically all development-related things are installed with brew, convenient for management and upgrade
+- **TestFlight**, used to try some beta software
 
-### 📝 记录工具
+### 📝 Recording Tools
 
-- **Logseq**，现在主力的生活记录、任务管理和笔记工具，基于双向链接打造了自己的信息管理系统，而且通过 Journal 以文本条目的形式记录没有心智负担，建议可以看一下 [Randy](https://lutaonan.com) 的 <[我如何使用 Logseq 管理我的生活和笔记](https://www.bilibili.com/video/BV1X44y1K7X1)>，很有启发
-- **Notion**，原本作笔记和任务管理，后来都迁移到了 Logseq，所以就只作为软件订阅管理、游戏记录的一些工具，数据库还是很强大的
-- **Hook**，文件资源双向链接工具，目前主要用来追踪本地的一些视频之类的大文件，可以以链接的形式嵌入到 Logseq 里
-- **Office 365**，主要文档/PPT/表格处理工具，其实工作后已经主要都是 Markdown 写为主了，但是最后还是得通过 Word 来排版
-- **iWork 全家桶**，Apple 自带文档处理工具
-- **Typora**，主要 Markdown 编辑器，最完美的 Markdown 编辑器了，偶尔要转存一些文本的时候也会通过 Alfred 唤出来
-- **MarginNote 3**，用来阅读一些论文、书籍的工具，用得不算很多
-- **XMind8 Pro**，主要思维导图工具，之前在学校的时候做笔记用的比较多，工作后反而系统性学习整理得少了，需要保持习惯
+- **Logseq**, now the main tool for life recording, task management and note-taking, built my own information management system based on bidirectional links, and recording in text entries through Journal has no mental burden, it's recommended to watch [Randy](https://lutaonan.com)'s <[How I Use Logseq to Manage My Life and Notes](https://www.bilibili.com/video/BV1X44y1K7X1)>, very inspiring
+- **Notion**, originally used for note-taking and task management, later migrated to Logseq, so now only used as a tool for software subscription management, game recording, the database is still very powerful
+- **Hook**, file resource bidirectional link tool, currently mainly used to track some local large files like videos, can be embedded in Logseq in the form of links
+- **Office 365**, main document/PPT/spreadsheet processing tool, actually after work, it's mainly Markdown writing, but in the end still need to use Word for layout
+- **iWork Suite**, Apple's built-in document processing tools
+- **Typora**, main Markdown editor, the most perfect Markdown editor, occasionally when need to convert some text will also invoke it through Alfred
+- **MarginNote 3**, used to read some papers, books, not used very much
+- **XMind8 Pro**, main mind mapping tool, used more for note-taking when in school, after work, systematic learning and organizing has become less, need to maintain the habit
 
-### 👨🏻‍💻 开发工具
+### 👨🏻‍💻 Development Tools
 
-- 编辑器
-  - **JetBrains GoLand**，主力工作 Go 开发 IDE，很强大，目前用 Edu 身份订阅着全家桶，希望后面能通过开源项目续着
-    - **Material Theme UI + Atom Material Icons**，很美观的主题
-    - **GitHub Copilot**，代码 AI 补全，很智能
-    - **GitToolBox**，提示一些 Git 状态信息
-    - **IdeaVim**，配置 Vim 键位
-    - **PlantUML Integration**，用来画 UML 图，目前感觉写和预览体验最好的平台了
-    - **WakaTime**，用来记录编码项目、语言和所用时间
-  - **VS Code**，代码编辑工具，辅助开发
-    - **Serendipity**，新尝试的一个很喜欢的主题
-    - **GitHub Copilot**，代码 AI 补全，重度依赖
-    - **Beancount**，用来复式记账，配合 fava 工具进行可视化
-    - **Markdown All in One**，用来增强对 Markdown 的支持，主要用来写博客
-    - **Rainbow Brackets**，给配对的括号加上颜色
-    - **go**，Go 语言环境支持
-    - **solidity**，智能合约编写支持
-    - **WakaTime**，用来记录编码项目、语言和所用时间
+- Editors
+  - **JetBrains GoLand**, main work Go development IDE, very powerful, currently subscribed to the whole family with Edu identity, hope to continue with open source projects later
+    - **Material Theme UI + Atom Material Icons**, very beautiful theme
+    - **GitHub Copilot**, code AI completion, very intelligent
+    - **GitToolBox**, prompts some Git status information
+    - **IdeaVim**, configure Vim key bindings
+    - **PlantUML Integration**, used to draw UML diagrams, currently feel it's the best platform for writing and previewing experience
+    - **WakaTime**, used to record coding projects, languages and time spent
+  - **VS Code**, code editing tool, auxiliary development
+    - **Serendipity**, a newly tried and very liked theme
+    - **GitHub Copilot**, code AI completion, heavily dependent
+    - **Beancount**, used for double-entry bookkeeping, combined with fava tool for visualization
+    - **Markdown All in One**, used to enhance support for Markdown, mainly used to write blogs
+    - **Rainbow Brackets**, adds color to paired brackets
+    - **go**, Go language environment support
+    - **solidity**, smart contract writing support
+    - **WakaTime**, used to record coding projects, languages and time spent
   - **Atom**
-    - **go-plus**，Go 语言环境支持
-    - **fabric-go**，用来调试 fabric 1.4 版本的链码，可以自动通过镜像部署，很方便，这也是我 Atom 编辑器的唯一用途了
-    - **wakatime**，用来记录编码项目、语言和所用时间
-  - **JetBrains PyCharm Professional Edition**，Python 编辑器
-    - **Material Theme UI + Atom Material Icons**，很美观的主题
-    - **GitHub Copilot**，代码 AI 补全，很智能
-    - **GitToolBox**，提示一些 Git 状态信息
-    - **IdeaVim**，配置 Vim 键位
-    - **WakaTime**，用来记录编码项目、语言和所用时间
-  - **Xcode**，macOS 及 iOS 开发 IDE
-- 终端
-  - **Warp**，新尝试的 Rust 编写的终端，体验感很棒，完全作为主力终端了
-  - **iTerm2**，之前一直用，现在主要用来切多个服务器
-- 服务器管理
-  - **ssh**，配合 Warp 和 iTerm2 的 Profile 来连接服务器用
-  - **Termius**，服务器管理工具，主要是可以云端同步配置，跟公司同事调试测试的时候都不需要自己再配本地环境，比较方便，然后也使用 SFTP 来传文件
-  - **ServerCat**，服务器状态监控，界面很不错
-  - **Fetch**，备用远程文件传输工具，很老牌了
-- 数据库管理
-  - **Sequel Ace**，主力数据库管理工具，是之前开源版本 Sequel Pro 的一个维护版本，界面简约但是功能很强大
-  - **JetBrains DataGrip**，主要通过 Groovy 脚本来自动导出数据库的 Markdown 文件，很方便写文档
-- 接口调试
-  - **Paw**，主力接口调试工具，限免的时候注册的，速度很快，多环境以及分支管理很强大
-  - ~~**Postman**，以前用的接口调试工具，但是界面太繁杂了，而且反应有点慢，弃用了~~
-- 文档查看: **Dash**，配合 Alfred 查文档很方便
-- 容器: **Docker Desktop**，虽然占资源很高，但是确实方便
-- 绘图工具
-  - **PlantUML**，配合 GoLand 里插件通过语法画流程图，修改和版本维护很方便
-  - **Draw.io**，一些很复杂的架构图和部署图通过这个客户端画，有点简陋但是够用
-- 版本控制
-  - **git**，版本管理工具
-    - [git-cz](https://github.com/commitizen/cz-cli)，交互式规范化提交信息
-    - [git-chglog](https://github.com/git-chglog/git-chglog)，用来自动生成格式化 CHANGELOG
-  - ~~**Fork**，git 客户端工具（已弃用，改为命令行配合 alias）~~
-  - **GitHub**，我的个人博客、图床以及开发项目都通过 GitHub 管理
-  - **GitLab**，工作项目通过公司 GitLab 进行管理
+    - **go-plus**, Go language environment support
+    - **fabric-go**, used to debug fabric 1.4 version chaincode, can automatically deploy through images, very convenient, this is also the only use of my Atom editor now
+    - **wakatime**, used to record coding projects, languages and time spent
+  - **JetBrains PyCharm Professional Edition**, Python editor
+    - **Material Theme UI + Atom Material Icons**, very beautiful theme
+    - **GitHub Copilot**, code AI completion, very intelligent
+    - **GitToolBox**, prompts some Git status information
+    - **IdeaVim**, configure Vim key bindings
+    - **WakaTime**, used to record coding projects, languages and time spent
+  - **Xcode**, macOS and iOS development IDE
+- Terminal
+  - **Warp**, newly tried terminal written in Rust, great experience, completely used as the main terminal
+  - **iTerm2**, used for a long time before, now mainly used to switch multiple servers
+- Server Management
+  - **ssh**, used in combination with Warp and iTerm2's Profile to connect to servers
+  - **Termius**, server management tool, mainly can synchronize configurations in the cloud, don't need to configure local environment when debugging and testing with company colleagues, quite convenient, and also use SFTP to transfer files
+  - **ServerCat**, server status monitoring, very nice interface
+  - **Fetch**, backup remote file transfer tool, very classic
+- Database Management
+  - **Sequel Ace**, main database management tool, a maintained version of the previous open source version Sequel Pro, simple interface but very powerful functions
+  - **JetBrains DataGrip**, mainly used to automatically export database Markdown files through Groovy scripts, very convenient for writing documentation
+- API Debugging
+  - **Paw**, main API debugging tool, registered when it was free, very fast, powerful multi-environment and branch management
+  - ~~**Postman**, previously used API debugging tool, but the interface is too complex and a bit slow, abandoned~~
+- Documentation Viewing: **Dash**, convenient to check documentation with Alfred
+- Containers: **Docker Desktop**, although it occupies high resources, it is indeed convenient
+- Drawing Tools
+  - **PlantUML**, draw flowcharts through syntax in combination with GoLand plugin, convenient for modification and version maintenance
+  - **Draw.io**, draw some complex architecture diagrams and deployment diagrams through this client, a bit crude but sufficient
+- Version Control
+  - **git**, version management tool
+    - [git-cz](https://github.com/commitizen/cz-cli), interactive standardized commit messages
+    - [git-chglog](https://github.com/git-chglog/git-chglog), used to automatically generate formatted CHANGELOG
+  - ~~**Fork**, git client tool (abandoned, changed to command line with alias)~~
+  - **GitHub**, manage my personal blog, image bed and development projects through GitHub
+  - **GitLab**, manage work projects through company GitLab
 
-### 📹 视频剪辑
+### 📹 Video Editing
 
-- **Final Cut Pro X**，当时优惠价买了全家桶，从 PR 转到了 FCPX 作为主力剪辑工具，在 macOS 上比 PR 体验好多了
-- **剪映专业版**，语音识别智能匹配字幕的功能很强大，3.0 版本还支持导出 `.srt` 格式了，再通过一个开源的 [srt2fcpxml](https://github.com/GanymedeNil/srt2fcpxml) 工具转回 FCPX 兼容的的字幕格式导入回 FCPX，简化字幕制作工作流，再也不用自己一点点对时间轴了
-- **Compressor**，主力压制工具，配合 FCPX 一些预设可以很便捷联动导出
-- **HandBrake**，备用开源视频压制工具，作一些简单压缩转码使用了
-- **大拍档剪辑助手**，用来清理 FCPX 的缓存，也有一些无版权音乐下载、素材管理的小工具
-- ~~**IINA**，之前的主力视频播放器，订阅了 Infuse 后弃用了~~
+- **Final Cut Pro X**, bought the whole suite at a discounted price at the time, switched from PR to FCPX as the main editing tool, much better experience than PR on macOS
+- **Jianying Pro**, the function of intelligent subtitle matching through speech recognition is very powerful, version 3.0 also supports exporting `.srt` format, then through an open source [srt2fcpxml](https://github.com/GanymedeNil/srt2fcpxml) tool to convert back to FCPX compatible subtitle format and import back to FCPX, simplifying the subtitle production workflow, no need to manually adjust the timeline anymore
+- **Compressor**, main compression tool, can conveniently link and export with some FCPX presets
+- **HandBrake**, backup open source video compression tool, used for some simple compression and transcoding
+- **FCPX Assistant**, used to clean up FCPX cache, also has some small tools for royalty-free music download and material management
+- ~~**IINA**, previous main video player, abandoned after subscribing to Infuse~~
 
-### 📷 图片处理
+### 📷 Image Processing
 
-- **Affinity Photo**，替代 Photoshop 的修图和调色工具，我拍完照后会用来处理和套 Luts
-- **Pixelmator Pro**，黑五半价买的，据说很强大，不过还没怎么用
-- **Luminar 4**，做一些简单的效果处理会比 Affinity Photo 这些便捷一些
+- **Affinity Photo**, Photoshop alternative for photo editing and color grading, I use it to process and apply LUTs after taking photos
+- **Pixelmator Pro**, bought at half price on Black Friday, said to be very powerful, but haven't used it much yet
+- **Luminar 4**, more convenient than Affinity Photo and others for doing some simple effect processing
 
-### 📮 邮件管理
+### 📮 Email Management
 
-- **Spark**，电子邮件聚合工具，多端同步也很快，现在所有邮箱都通过 Spark 来管理了
-- **Alimail**，工作用邮箱
-- **Outlook**，主要用来管理 Office365 开发者帐号
-- **Mail**，Apple 自带邮件客户端
+- **Spark**, email aggregation tool, multi-device synchronization is also very fast, now all mailboxes are managed through Spark
+- **Alimail**, work email
+- **Outlook**, mainly used to manage Office365 developer account
+- **Mail**, Apple's built-in email client
 
-### 📨 信息管理
+### 📨 Information Management
 
-- **NetNewsWire**，RSS 订阅工具，多端同步很方便，慢慢转向 RSS 为自己的主要信息输入了
-- **TweetBot**，在电脑端用来发布和刷 Twitter 的客户端，主要是可以通过时间轴排列
-- **Books**，Apple 自带图书应用，可导入 epub 或 pdf 文件阅读
-- 域名及个人网站
-  - **GitHub Pages**，配合 GitHub Action 实现自动部署
-  - **Cloudflare**，管理域名，以及对网站进行 CDN 加速
-  - **Vercel**，配合 Heroku 的数据库部署了博客的 Cusdis 评论系统
-- [**豆瓣**](https://www.douban.com/people/pseudo-yu)，通过 GitHub Action 每天抓取豆瓣提供的 RSS，统计我的影音和书籍并更新到 GitHub 主页和个人网站介绍页里，也通过 Brave 的一个叫“豆伴”的插件来定时备份和导出
+- **NetNewsWire**, RSS subscription tool, multi-device synchronization is very convenient, gradually turning to RSS as my main information input
+- **TweetBot**, client used to post and browse Twitter on computer, mainly can be arranged by timeline
+- **Books**, Apple's built-in book application, can import epub or pdf files to read
+- Domain and Personal Website
+  - **GitHub Pages**, achieve automatic deployment with GitHub Action
+  - **Cloudflare**, manage domain names and accelerate websites with CDN
+  - **Vercel**, deployed the blog's Cusdis comment system with Heroku's database
+- [**Douban**](https://www.douban.com/people/pseudo-yu), use GitHub Action to fetch RSS provided by Douban every day, count my audio-visual and books and update to GitHub homepage and personal website introduction page, also use a Brave plugin called "Douban Companion" to regularly backup and export
 
-### 💬 通讯社交
+### 💬 Communication and Social
 
-- **微信**，生活和工作大部分都还是会通过微信沟通
-- **腾讯会议**，工作用，主要会议工具
-- **Microsoft Teams**，偶尔参加一些线上研讨会使用
-- **Gather**，有趣的线上交流，正在推荐身边的朋友用，像宝可梦一样，能减轻疫情带来的距离感
-- **钉钉**，工作沟通以及偶尔处理我妹妹学校的一些信息用
-- **Telegram**，主要加了一些科技资讯、软件技巧的群，偶尔看看
-- **Discord**，主要参加一些项目获取资讯用的
-- ~~**QQ**，大学时学校常用，已弃用~~
+- **WeChat**, most of life and work communication is still through WeChat
+- **Tencent Meeting**, used for work, main meeting tool
+- **Microsoft Teams**, occasionally used to participate in some online seminars
+- **Gather**, interesting online communication, recommending to friends around, like Pokemon, can reduce the sense of distance brought by the pandemic
+- **DingTalk**, work communication and occasionally handle some information for my sister's school
+- **Telegram**, mainly joined some groups for technology news and software tips, occasionally check
+- **Discord**, mainly used to participate in some projects to get information
+- ~~**QQ**, commonly used by school during university, abandoned~~
 
-### 🎸 影音娱乐
+### 🎸 Audio-Visual Entertainment
 
-- **Infuse**，视频播放及媒体管理工具，全平台可用且支持格式很多，配合 Plex 这些媒体服务器可以建立自己本地的动漫、电影和剧集库
-- **Plex Media Server**，流媒体管理服务器，可以指定本地目录自动获取元数据进行媒体库管理
-- **Apple Music**，主要听歌软件，配合 iOS 上的 Music Mate 慢慢建立自己的音乐库
-- **Apple Podcasts**，主要用来听一些博客
-- **爱奇艺**，送的会员，偶尔用来追一些热门自制剧
-- **Netflix**，用来追一些最新剧集，新加坡订阅
-- **Disney+**，用来看一些迪士尼动画、漫威剧集和电影，不过用得也不多了，也是新加坡订阅
+- **Infuse**, video playback and media management tool, available on all platforms and supports many formats, can build your own local anime, movie and TV series library with media servers like Plex
+- **Plex Media Server**, streaming media management server, can automatically obtain metadata for media library management by specifying local directories
+- **Apple Music**, main music software, slowly building my own music library with Music Mate on iOS
+- **Apple Podcasts**, mainly used to listen to some blogs
+- **iQIYI**, given membership, occasionally used to follow some popular self-produced dramas
+- **Netflix**, used to follow some latest series, Singapore subscription
+- **Disney+**, used to watch some Disney animations, Marvel series and movies, but not used much now, also Singapore subscription
 
-### 📲 手机 App
+### 📲 Mobile Apps
 
 ![yu_ios_apps](https://image.pseudoyu.com/images/yu_ios_apps.png)
 
-- 🛠 系统拓展
-  - **熊猫吃短信**，过滤垃圾短信，很好用
-  - **AdGuard**，浏览网页去广告工具
-  - **AT**，重要日期纪念日/倒计时
-  - **OffScreen**，使用手机时间追踪
-  - **谜底时钟**，个性化时钟组件
-  - **谜底黑胶**，个性化音乐播放组件
-  - **谜底空白**，在屏幕中设置空白位置
-  - **Vinegar+Baking Soda**，浏览器看视频使用 HTML5 播放器插件
-- 📁 文件管理
-  - **文件**，Apple 自带本地及 iCloud 文件管理
-  - **OneDrive**，iOS 端
-- 🔐 安全工具
-  - **Elpass**，密码管理工具 iOS 端，支持双重验证
-  - **Google Authenticator**，Google 双重验证工具
-  - **Microsoft Authenticator**，Microsoft 双重验证工具
-  - **DAMA**，图片隐私打码工具
-- 🌏 网络工具
-  - **Surge**，Surge 代理工具 iOS 端
-  - **Shadowrocket**，备用代理工具
-  - **Speedtest**，网络测速工具
-  - **小米 WIFI**，管理家庭 Wifi 及设备
-- 🧰 实用工具
-  - **欧陆词典**，字典应用，可导入不同源
-  - **翻译**，苹果自带翻译工具
-  - **ServerCat**，服务器状态检测工具移动端
-  - **快捷指令**，进行各类自动化操作
-  - **TestFlight**，尝鲜一些测试版应用
-- 📝 记录工具
-  - **Logseq**，iOS 端，主要用来查看
-  - **Office 365**，iOS 端，通过 Office365 帐号和 OneDrive 进行同步
-  - **iWork 全家桶**，iOS 端
-  - **Notability**，笔记工具
-- 🪙 数字资产
-  - **imToken**，iOS 数字钱包
-  - **TokenPocket**，iOS 数字钱包
-  - **币安**，Binance 交易所 iOS 客户端
-  - **欧易**，OKEX 交易所 iOS 客户端
-  - **火币**，Huobi 交易所 iOS 客户端
-- 🏚 家庭管理
-  - **Home**，苹果自带家庭应用，目前主要用来管 HomePod mini
-  - **米家**，管理小米智能家居设备
-  - **小爱音箱**，连接和管理小爱智能音箱，语音控制智能家居
-  - **点音**，Divoom 像素音箱管理
-  - **Yeelight**，控制氛围灯模式
-  - **小佩宠物**，控制宠物智能家居
-  - **Health**，苹果自带健康数据记录应用，主要用来记录睡眠
-  - **Grow**，联动健康应用，生成健康数据
-  - **Zepp Life**，联动小米体重秤等，记录健康数据
-- 📨 信息管理
-  - **Spark**，iOS 端
-  - **NetNewsWire**，iOS 端
-  - **Apple Books**，电子书阅读器，主要导入 epub 格式看
-  - **Patreon**，订阅及赞助支持某些技术大佬的平台
-  - **Twitter**，iOS 端，主要国外资讯获取与发布平台
-  - **Instagram**，iOS 端，主要用来发布摄影和日常照片
-  - **Facebook**，iOS 端，个人状态更新平台，离开香港后用得比较少
-  - **微博**，官方客户端，主要股票内资讯获取与发布平台
-  - **豆瓣**，iOS 端
-  - **少数派**，用来看一些工具类资讯
-  - **Outlook**，iOS 端
-  - **Mail**，苹果自带邮件应用
-- 👨🏻‍💻 工作求职
-  - **LinkedIn**，看一些外企的机会
-  - **BOSS 直骋**，国内找工作主要用
-  - **脉脉**，查询一些公司资讯用
-- 💰 支付工具
-  - **支付宝**，日常最主要支付工具
-  - **招商银行**，招行卡管理
-  - **掌上生活**，招行信用卡管理
-  - **中国工商银行**，工行卡管理
-  - **AlipayHK**，香港支付宝账户
-- 🚆 交通出行
-  - **Maps**，苹果自带地图应用，主要用来搜路线
-  - **高德地图**，公司加班打车用这个
-  - **携程旅行**，用来定机票和酒店
-  - **铁路 12306**，用来定高铁票，不过后面大多在携程里直接定了
-  - **航旅纵横 Pro**，用来查询航班信息、值机以及统计自己的出行，很好用
-- 🛍 生活工具
-  - **饿了么**，点外卖和水果
-  - **淘宝**，买一些日常用品
-  - **京东**，主要买数码产品和小家电
-  - **大众点评**，查询一些店的评价
-  - **大麦**，看一些演出展览
-  - **闲鱼**，偶尔会看下一些二手
-  - **当当**，买纸质书，大多技术为主
-  - **个人所得税**，年度汇算用的
-- 💬 通讯社交
-  - **微信**，iOS 端
-  - **腾讯会议**，iOS 端
-  - **钉钉**，iOS 端
-  - **Telegram**，iOS 端
-  - **Discord**，iOS 端
-  - **Clubhouse**，语音聊天室工具，热度过去了现在用得也比较少了
-  - ~~**QQ**，iOS 客户端，已弃用~~
-- 🎸 影音娱乐
-  - **Infuse**，iOS 端，可以局域网连接 Mac Studio 的 Plex 媒体库服务器
-  - **YouTube**，用来看各类国外博主与技术视频
-  - **哔哩哔哩**，主要用来看关注的各类博主更新
-  - **爱奇艺**，iOS 客户端
-  - **Apple Music**，iOS 端
-  - **Music Mate**，探索新音乐，慢慢建立自己的音乐库
-  - **Apple Podcasts**，主要通过 iOS 端收听播客
-  - **Pokémon Go**，最爱的游戏了，在香港留下了很多记忆，可惜回来后玩不了了
+- 🛠 System Extensions
+  - **Panda Eats SMS**, filter spam messages, very useful
+  - **AdGuard**, web browsing ad-blocking tool
+  - **AT**, important date anniversary/countdown
+  - **OffScreen**, track phone usage time
+  - **Puzzle Clock**, personalized clock widget
+  - **Puzzle Vinyl**, personalized music player widget
+  - **Puzzle Blank**, set blank positions on the screen
+  - **Vinegar+Baking Soda**, browser plugin for using HTML5 player to watch videos
+- 📁 File Management
+  - **Files**, Apple's built-in local and iCloud file management
+  - **OneDrive**, iOS version
+- 🔐 Security Tools
+  - **Elpass**, password management tool iOS version, supports two-factor authentication
+  - **Google Authenticator**, Google two-factor authentication tool
+  - **Microsoft Authenticator**, Microsoft two-factor authentication tool
+  - **DAMA**, image privacy masking tool
+- 🌏 Network Tools
+  - **Surge**, Surge proxy tool iOS version
+  - **Shadowrocket**, backup proxy tool
+  - **Speedtest**, network speed test tool
+  - **Mi WiFi**, manage home WiFi and devices
+- 🧰 Practical Tools
+  - **Eudict**, dictionary application, can import different sources
+  - **Translate**, Apple's built-in translation tool
+  - **ServerCat**, server status detection tool mobile version
+  - **Shortcuts**, perform various automated operations
+  - **TestFlight**, try some beta applications
+- 📝 Recording Tools
+  - **Logseq**, iOS version, mainly used for viewing
+  - **Office 365**, iOS version, synchronized through Office365 account and OneDrive
+  - **iWork Suite**, iOS version
+  - **Notability**, note-taking tool
+- 🪙 Digital Assets
+  - **imToken**, iOS digital wallet
+  - **TokenPocket**, iOS digital wallet
+  - **Binance**, Binance exchange iOS client
+  - **OKX**, OKEX exchange iOS client
+  - **Huobi**, Huobi exchange iOS client
+- 🏚 Home Management
+  - **Home**, Apple's built-in home application, currently mainly used to manage HomePod mini
+  - **Mi Home**, manage Xiaomi smart home devices
+  - **Xiao AI Speaker**, connect and manage Xiao AI smart speaker, voice control smart home
+  - **Divoom**, manage Divoom pixel speaker
+  - **Yeelight**, control ambient light mode
+  - **Xiaopei Pet**, control pet smart home
+  - **Health**, Apple's built-in health data recording application, mainly used to record sleep
+  - **Grow**, linked with health application, generate health data
+  - **Zepp Life**, linked with Xiaomi weight scale etc., record health data
+- 📨 Information Management
+  - **Spark**, iOS version
+  - **NetNewsWire**, iOS version
+  - **Apple Books**, e-book reader, mainly import epub format to read
+  - **Patreon**, subscription and sponsorship platform to support some tech experts
+  - **Twitter**, iOS version, main platform for obtaining and publishing foreign information
+  - **Instagram**, iOS version, mainly used to publish photography and daily photos
+  - **Facebook**, iOS version, personal status update platform, used less after leaving Hong Kong
+  - **Weibo**, official client, main platform for obtaining and publishing stock internal information
+  - **Douban**, iOS version
+  - **Sspai**, used to read some tool-related information
+  - **Outlook**, iOS version
+  - **Mail**, Apple's built-in mail application
+- 👨🏻‍💻 Work and Job Hunting
+  - **LinkedIn**, look for some foreign company opportunities
+  - **BOSS Direct Hiring**, mainly used for job hunting in China
+  - **Maimai**, used to query some company information
+- 💰 Payment Tools
+  - **Alipay**, main daily payment tool
+  - **China Merchants Bank**, CMB card management
+  - **Life of CMB**, CMB credit card management
+  - **ICBC**, ICBC card management
+  - **AlipayHK**, Hong Kong Alipay account
+- 🚆 Transportation and Travel
+  - **Maps**, Apple's built-in map application, mainly used to search routes
+  - **Gaode Maps**, company uses this for overtime taxis
+  - **Ctrip**, used to book flights and hotels
+  - **12306**, used to book high-speed rail tickets, but later mostly booked directly in Ctrip
+  - **Umetrip Pro**, used to check flight information, check-in and count my travels, very useful
+- 🛍 Life Tools
+  - **Ele.me**, order takeout and fruits
+  - **Taobao**, buy some daily necessities
+  - **JD.com**, mainly buy digital products and small appliances
+  - **Dianping**, check reviews of some stores
+  - **Damai**, check some performances and exhibitions
+  - **Xianyu**, occasionally look at some second-hand goods
+  - **Dangdang**, buy physical books, mostly technical
+  - **Personal Income Tax**, used for annual settlement
+- 💬 Communication and Social
+  - **WeChat**, iOS version
+  - **Tencent Meeting**, iOS version
+  - **DingTalk**, iOS version
+  - **Telegram**, iOS version
+  - **Discord**, iOS version
+  - **Clubhouse**, voice chat room tool, the heat has passed and now used less
+  - ~~**QQ**, iOS client, abandoned~~
+- 🎸 Audio-Visual Entertainment
+  - **Infuse**, iOS version, can connect to Mac Studio's Plex media library server through local network
+  - **YouTube**, used to watch various foreign bloggers and technical videos
+  - **Bilibili**, mainly used to watch updates from various followed bloggers
+  - **iQIYI**, iOS client
+  - **Apple Music**, iOS version
+  - **Music Mate**, explore new music, slowly build my own music library
+  - **Apple Podcasts**, mainly listen to podcasts through iOS version
+  - **Pokémon Go**, favorite game, left many memories in Hong Kong, pity can't play after coming back
 
-## 总结
+## Conclusion
 
-以上就是我在 2022 年 5 月所自用的工具箱，花了好几天，把电脑和手机的 App 都彻底整理分类了一遍，随着使用时间越来越长，一直在做减法，也在不断优化自己的使用，希望能够对大家有所参考。
+The above is my toolkit that I personally use in May 2022. I spent several days thoroughly organizing and categorizing the apps on my computer and phone. As the usage time gets longer, I've been constantly subtracting and continuously optimizing my usage. I hope this can be a reference for everyone.
 
-## 参考资料
+## References
 
-> 1. [個人工具箱（2021 十二月）](https://blog.gasolin.idv.tw/tools/tooling-in-2021-Dec)
+> 1. [Personal Toolkit (December 2021)](https://blog.gasolin.idv.tw/tools/tooling-in-2021-Dec)
 > 2. [GitHub - pseudoyu/yu-tools](https://github.com/pseudoyu/yu-tools)

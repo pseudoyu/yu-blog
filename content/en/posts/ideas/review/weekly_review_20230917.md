@@ -1,5 +1,5 @@
 ---
-title: "周报 #47 - 采访、拳击与工作状态"
+title: "Weekly Review #47 - Interview, Boxing and Work Status"
 date: 2023-09-17T18:42:36+08:00
 draft: false
 tags: ["review", "life", "love", "boxing", "work"]
@@ -8,72 +8,72 @@ authors:
 - "pseudoyu"
 ---
 
-{{<audio src="audios/tenderness.mp3" caption="《温柔 - 五月天》" >}}
+{{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## 前言
+## Preface
 
-本篇是对 `2023-09-13` 到 `2023-09-17` 这几周生活的记录与思考。
+This piece is a record and reflection of my life from September 13 to September 17, 2023.
 
-周一去看了期待已久的「奥本海默」很久没去影院看电影了；周六去圆明园写生，完整现充的一天；周日第一次去拳馆上了一节拳击课，很新奇的体验；周中终于见到了 Atlas，聊到了不少关于工作和生活的话题；生活状态逐渐回到正轨，工作状态却有些问题，进行了一些调整；在 polebug 的频道客串了一次采访，聊了很多关于 Web3 与合约开发相关的话题；还有很多有意思的事。
+On Monday, I went to see the long-awaited "Oppenheimer" - it had been a while since I last went to the cinema. Saturday was spent sketching at the Old Summer Palace, a fully immersive day. Sunday marked my first boxing class at a boxing gym, quite a novel experience. Midweek, I finally met Atlas and discussed various topics about work and life. My life routine is gradually returning to normal, though there are some issues with my work status that required adjustments. I made a guest appearance for an interview on polebug's channel, discussing many topics related to Web3 and contract development. There were many other interesting happenings as well.
 
-## 采访
+## Interview
 
-在 [polebug](https://twitter.com/polebug) 的 [B 站频道](https://space.bilibili.com/58078997)里聊了一下之前的学习经历、Web3 与智能合约相关的话题，不知不觉竟然也接近 30 分钟了，很有意思的聊天体验，也算是对自己一些学习的小小总结了。
+I had a chat on [polebug's](https://twitter.com/polebug) [Bilibili channel](https://space.bilibili.com/58078997) about my previous learning experiences and topics related to Web3 and smart contracts. Before I knew it, we had talked for nearly 30 minutes. It was an interesting conversational experience and also served as a small summary of some of my learning.
 
-- [和 web3 从业者聊聊天 #4｜从英语专业到智能合约开发的 pseudoyu 🐙｜为什么选择去港大学习区块链｜智能合约相关的学习资料分享｜对于跨考计算机的建议](https://www.bilibili.com/video/BV1wV411N7eQ)
+- [Chatting with a Web3 practitioner #4 | From English major to smart contract developer - pseudoyu 🐙 | Why choose to study blockchain at HKU | Sharing smart contract learning resources | Advice for those switching to computer science](https://www.bilibili.com/video/BV1wV411N7eQ)
 
-## 拳击
+## Boxing
 
-很久之前在学姐的「[运动 | 有哪些事是学拳击以后才知道的？](https://www.boyilu.com/boxing-beginner)」这篇文章中看到这这项运动，不过自己作为资深死宅也是连西洋拳击、泰拳、巴西柔术这些都不太分得清，更别说去尝试了。直到最近想找一些一起的运动，想着先从拳击开始试试。于是约了一个周末的下午，换上运动装就去拳馆了。
+Long ago, I read about this sport in my senior's article "[Sports | What are some things you only know after learning boxing?](https://www.boyilu.com/boxing-beginner)". However, as a hardcore homebody, I couldn't even distinguish between Western boxing, Muay Thai, and Brazilian Jiu-Jitsu, let alone try them. It wasn't until recently when I wanted to find some group activities that I thought of starting with boxing. So, I made an appointment for a weekend afternoon, changed into sports attire, and headed to the boxing gym.
 
-自己之前玩了很多年的轮滑，也玩过一段时间的滑板，对于其他运动算是少有接触，上课前还是带着一些畏难心理的。果然在步法和出拳的配合上因为没怎么接触过这类运动而有些不一致，协调性也不太好，发现可能在自己的思维定势里太久了，一开始恨不得做个导图把各个动作的先后排列出来，也有因为肢体和思维不太一致而有些小沮丧，但是在经过一小阵子的练习后勉强能跟得上练习节奏了。
+I had rollerbladed for many years before and skateboarded for a while, but had little exposure to other sports. I approached the class with some apprehension. As expected, I struggled with coordinating footwork and punches due to lack of experience with this type of sport. My coordination wasn't great either. I realized I might have been stuck in my own thought patterns for too long - at first, I almost wanted to make a mind map to lay out the sequence of various movements. I felt a bit discouraged when my body and mind weren't in sync, but after a bit of practice, I managed to keep up with the training rhythm.
 
-学姐还拍了一小段我练习出拳的视频，放在了[频道](https://t.me/pseudoyulife/)里：<https://t.me/pseudoyulife/2360>
+My senior even recorded a short video of me practicing punches, which I posted in my [channel](https://t.me/pseudoyulife/): <https://t.me/pseudoyulife/2360>
 
-第一节课就能体验出拳的快感还是很正反馈的，整体来说还是一个很有趣和解压的运动，也没有想象得那么困难，很多步法和细节动作还是需要继续练习，也想继续坚持下去训练。
+Being able to experience the satisfaction of punching in the first lesson was very rewarding. Overall, it's an interesting and stress-relieving sport, and not as difficult as I had imagined. Many footwork and detailed movements still need more practice, and I want to continue training.
 
-## 工作状态调整
+## Work Status Adjustment
 
-其实这几周的生活状态逐渐回到正轨，从周报的更新频率也能稍稍看出来，开始恢复看一些书和电影，终于也踏出了运动的第一步，周末也会慢慢地去参与一些户外的活动，情绪似乎一直在不错的状态。
+My life routine has been gradually returning to normal these past few weeks, which can be seen from the frequency of my weekly reviews. I've started reading books and watching movies again, finally took the first step towards exercise, and have been slowly participating in some outdoor activities on weekends. My emotions seem to be in a good state.
 
-但是却察觉到工作状态有些问题，倒不是工作方向或是内容，只是想做的事太多，又似乎都想去探索，但自己的时间精力终究还是有限的，反而失了重心，效率也受到不少影响，和组长/同事聊了后，开始做一些调整。
+However, I've noticed some issues with my work status. It's not about the direction or content of the work, but rather that there are too many things I want to do, and I seem to want to explore them all. But my time and energy are ultimately limited, causing me to lose focus and affecting my efficiency. After talking with my team leader and colleagues, I've started making some adjustments.
 
-似乎又到了自我的调整的周期了。
+It seems I've reached another cycle of self-adjustment.
 
-## 个人生活剪影
+## Personal Life Snapshots
 
-### 奥本海默
+### Oppenheimer
 
-因为订阅了国内外各个流媒体服务，也基本上不追什么热点，就很少去影院了，周一下班后久违地去看了电影，期待已久的「奥本海默」。上一次印象比较深的还是三个小时的蝙蝠侠，同样地长，也同样地喜欢。
+Because I subscribe to various streaming services both domestic and foreign, and generally don't follow trending topics, I rarely go to the cinema. After work on Monday, I went to see a movie for the first time in a while - the long-anticipated "Oppenheimer". The last memorable experience was the three-hour Batman film, equally long and equally enjoyable.
 
-诺兰的「星际穿越」和蝙蝠侠三部曲算是自己最喜欢的几部电影了，他对于临场感的追求和情绪的把控是很适合深沉一些的传记、历史和英雄题材的，主角抢眼却也真实，配角也各自有自己的故事感。印象最深的还是刻意打乱的时空叙事，黑白与彩色的交织画面以及长长的对话。作为一个传记很难指望能有一个鲜明的故事线与发展节奏的，略带混乱和复杂度的画面构成了很“诺兰”的剪辑风格，也因此 get 到了好几个埋藏的剧情转折和伏笔。
+Nolan's "Interstellar" and the Batman trilogy are among my favorite films. His pursuit of immersion and control of emotions is well-suited for more profound biographical, historical, and heroic themes. The protagonist is striking yet realistic, and the supporting characters each have their own story arcs. What impressed me most was the deliberately disjointed narrative, the interweaving of black-and-white and color images, and the long dialogues. As a biography, it's hard to expect a clear storyline and developmental rhythm, but the somewhat chaotic and complex imagery constitutes a very "Nolan-esque" editing style, which allowed me to catch several hidden plot twists and foreshadowing.
 
-### 圆明园写生
+### Sketching at the Old Summer Palace
 
 ![boyi_yuanmingyuan_draw](https://image.pseudoyu.com/images/boyi_yuanmingyuan_draw.jpg)
 
-周末另外好玩的还是周六陪学姐去参加了圆明园写生，算起来也是第一次去圆明园，虽然带了相机但也没怎么四处拍照，简单拍了一些，不过倒是试用了新买的想用来一起记录生活的 Sony ZV1 Mark II，很小巧的卡片机，比之前用过的 ZV1 在焦段和易用性上还是提升了不少的，调了 HLG3，和相机的参数一致，之后可以配合着拍一些视频了，或许会定期记录一些 vlog 什么的。
+Another fun weekend activity was accompanying my senior to sketch at the Old Summer Palace on Saturday. It was my first time visiting the Old Summer Palace. Although I brought my camera, I didn't take many photos around. However, I did try out the newly purchased Sony ZV1 Mark II, which I intend to use for recording our life together. It's a very compact point-and-shoot camera, with improvements in focal length and usability compared to the ZV1 I used before. I set it to HLG3, consistent with my camera's parameters, so I can shoot some videos with it in the future. Perhaps I'll regularly record some vlogs or something similar.
 
-## 有趣的事与物
+## Interesting Things and Objects
 
-### 输入
+### Input
 
-虽然大部分有意思的输入会在 「[Yu's Life](https://t.me/pseudoyulife)」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。
+Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
 
-#### 书籍
+#### Books
 
-- **Building a Second Brain**，正在基于他的理论构建自己的知识管理系统，继续阅读。
-- **Elon Mask**，还是挺期待的传记，刚翻阅了一点点。
+- **Building a Second Brain**, I'm continuing to read while building my own knowledge management system based on his theory.
+- **Elon Musk**, I'm quite looking forward to this biography, just started browsing through it a bit.
 
-#### 文章
+#### Articles
 
 - [WordPress blogs can now be followed in the fediverse, including Mastodon | TechCrunch](https://techcrunch.com/2023/09/14/wordpress-blogs-can-now-be-followed-in-the-fediverse-including-mastodon/)
 
-#### 视频
+#### Videos
 
-- [350w 粉 UP 主每月要花多少钱？时隔 5 年的读评论！](https://www.bilibili.com/video/BV1wj411y7pq)
-- [和 web3 从业者聊聊天 #4｜从英语专业到智能合约开发的 pseudoyu 🐙｜为什么选择去港大学习区块链｜智能合约相关的学习资料分享｜对于跨考计算机的建议](https://www.bilibili.com/video/BV1wV411N7eQ)
+- [How much does a YouTuber with 3.5 million followers spend each month? Reading comments after 5 years!](https://www.bilibili.com/video/BV1wj411y7pq)
+- [Chatting with a Web3 practitioner #4 | From English major to smart contract developer - pseudoyu 🐙 | Why choose to study blockchain at HKU | Sharing smart contract learning resources | Advice for those switching to computer science](https://www.bilibili.com/video/BV1wV411N7eQ)
 
-#### 电影
+#### Movies
 
-- **奥本海默**，见上文主题部分。
+- **Oppenheimer**, see the main text above.
