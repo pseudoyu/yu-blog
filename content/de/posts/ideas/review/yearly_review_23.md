@@ -1,0 +1,47 @@
+---
+title: "Geständnisse mit 23: Auf der Suche nach Sinn"
+date: 2020-06-06T00:00:00+08:00
+draft: false
+tags: ["review","future","university", "life", "romance"]
+categories: ["Ideas"]
+authors:
+- "pseudoyu"
+---
+
+## Geständnisse eines 23-Jährigen: Auf der Suche nach Sinn
+
+![mtr_window_me](https://image.pseudoyu.com/images/mtr_window_me.jpg)
+
+Heute ist der 6. Juni 2020, und ich bin 23 Jahre alt. Dieses Alter scheint eine merkwürdige Existenz zu sein. Definiert man es nach Lebensabschnitten, liegt mein Universitätsabschluss bereits ein Jahr zurück, doch für zwei Tierkreiszeichen ist es noch zu früh. Meine Lebenserfahrung reicht bei weitem nicht aus, um anderen Ratschläge zu erteilen, dennoch möchte ich etwas schreiben, um über meine vergangenen Jahre Rechenschaft abzulegen.
+
+Die drei Jahre des Gymnasiums lassen sich leicht zusammenfassen. Kontinuierliches Lernen, um bessere Noten zu erzielen, genügte, um den Großteil des Lebenssinns zu füllen. Glücklicherweise gewann ich auch einen engen Freund und eine unerwiderte Liebe, die nicht perfekt war. Die Aufnahmeprüfung für die Universität glich eher einer Zäsur, die das ursprüngliche Gleichgewicht des Lebens durchbrach, ohne mir viel Zeit zum Luftholen zu lassen, und dann schien alles abrupt zu enden. Ich hatte Angst, was würde danach der Sinn des Lebens sein?
+
+In den Sommerferien nach der Aufnahmeprüfung schloss ich mich mit meinem engen Freund einem internationalen Freiwilligenteam an, um in Hunan zu unterrichten. Zu dieser Zeit hatte ich die Idee, Journalismus zu studieren, doch meine Note, die gerade die Grenze überschritten hatte, erlaubte mir nur, zwischen Englisch und Sozialarbeit an der Technischen Universität Wuhan zu hoffen. Noch bevor ein neuer Lebensabschnitt begonnen hatte, war ich bereits in Verwirrung verloren.
+
+Im September reiste ich allein mit meinem Gepäck nach Wuhan - einer Stadt, zu der ich in den vergangenen Dutzend Jahren keine Verbindung hatte. Das Gefühl der Fremdheit und Neuheit verwandelte sich nach den ersten Wochen allmählich in Verwirrung und Panik. Wenn man nicht weiß, wonach man sucht, streben Menschen oft nach einem einfachen Ersatzziel. Zu jener Zeit wählte ich die Studentenarbeit.
+
+Ehrlich gesagt war ich in Bezug auf Eloquenz und Persönlichkeit vielen meiner Kommilitonen weit unterlegen. Ich war auf der Bühne so nervös, dass ich stolperte, stotterte in Besprechungen und errötete, wenn ich neue Freunde kennenlernte. Glücklicherweise entdeckte ich nach einigen routinemäßigen Aktivitäten vage, dass dies etwas war, in das ich Energie und Zeit investieren konnte, um es gut zu machen. Also begann ich, Fotobearbeitung, Posterdesign, PowerPoint-Präsentationen und Videobearbeitung zu lernen, und strebte nach jeder Aufgabe, die die Möglichkeit bot, etwas zu bewirken, und erzielte letztendlich gute Ergebnisse.
+
+Ehe ich mich versah, war es Zeit für einen Studiengangwechsel, doch ich zögerte erneut. Wenn Journalismus nur eine Laune gewesen war und die Wahl, für die ich hart gearbeitet hatte, nicht das war, was ich letztendlich wollte, sondern nur eine Form der Flucht, würde es dann noch sinnvoll sein? Am Ende gab ich die Bewerbung auf, was ich jetzt auch als eine Art Flucht vor dem Unbekannten betrachte.
+
+In meinem zweiten und dritten Studienjahr übernahm ich nach und nach wichtige Rollen in verschiedenen studentischen Organisationen der Universität und Fakultät, wurde stellvertretender Stationsleiter des universitären Yiban, Präsident der Herz-Vereinigung der Fakultät und Leiter der Lernabteilung der Studentenvereinigung. Dies wurden prominente Etiketten an mir. Drei oder vier Besprechungen pro Woche, endlose WeChat-Beiträge zum Überprüfen, bis spät in die Nacht Videos bearbeiten und Veranstaltungen planen wurden zur Norm. Es war wirklich harte Arbeit, aber damit kam die Gelegenheit, viele interessante Weggefährten und bewundernswerte Mentoren kennenzulernen. Bis heute empfinde ich diese Zeit als den Höhepunkt meiner Studienzeit.
+
+Als die Kurse allmählich langweilig wurden und die Studentenarbeit sich stabilisierte, verfiel mein Herz erneut in extreme Angst und Panik. Mein Interesse und meine Bemühungen im Englischen konnten mich nur bis zum Ende meines Grundstudiums tragen, aber ich hatte keine Ahnung von Berufspositionen. Ich wollte mehr Möglichkeiten für die Zukunft erkunden, aber es war schwierig, in verschiedenen Bereichen genügend Wettbewerbsfähigkeit zu haben, und ich wusste nicht einmal, für welches Ziel ich vorwärts streben sollte.
+
+Zu jener Zeit hatte ich die Angewohnheit, Artikel auf verschiedenen Internetplattformen zu schreiben. Durch Zufall traf ich einige Praktiker aus der Blockchain-Branche, von denen einer mich zu einem Vorstellungsgespräch einlud. Ich war überrascht, aber auch ängstlich. Nach langem Zögern entschied ich mich, nach Xiamen zu fliegen und eine neue Reise zu beginnen. Von da an besuchte ich verschiedene Unternehmen für Praktika, nahm an Konferenzen teil und beteiligte mich allmählich an der Vorbereitung und Entscheidungsfindung einiger Projekte. Ich bin immer noch gut befreundet mit vielen der Chefs und Kollegen aus jener Zeit, obwohl die meisten im Alter meines Vaters sind. Aus meiner heutigen Perspektive betrachtet, erschreckt mich diese "Soloaktion", aber ich bin auch heimlich dankbar für die Erfahrungen und Veränderungen, die meine Impulsivität damals mit sich brachte.
+
+![trip](https://image.pseudoyu.com/images/trip.jpg)
+
+In dieser Zeit kaufte ich eine Kamera, um die Landschaften und Gemütszustände unterwegs festzuhalten. Für eine sehr kurze Zeit fühlte ich, dass dies mein idealer Lebenszustand war - genug Freiheit, genug Wachstum. Doch als ich allmählich in mein letztes Studienjahr kam, brachte mich der starke Druck durch die Ungewissheit der Zukunft zurück in einen Zustand, in dem ich alles in Frage stellte. Alles um mich herum sagte mir, dass ich schnell einen guten Job finden sollte, um ein Leben zu führen, das andere loben würden, aber ich wusste immer noch nicht, wohin ich gehen sollte. Also machte ich mich daran, mein eigenes Online-Bildungs-Startup aufzubauen. Es gab Lehrer, die das Unternehmertum sehr unterstützten, und jüngere Studenten, die bei der Aufnahme und Bearbeitung mitarbeiteten. Alles lief viel reibungsloser als erwartet. So verfiel ich in einen geschäftigen, aber vermeidenden Zustand, oft selbstironisch denkend, dass ich nun ein Unternehmer sei, groß oder klein, und fragte mich, ob ich dem Druck von Beschäftigung und Ungewissheit entgehen könnte. Meine vergangenen Erfahrungen und meine immer noch lobenswerte Selbstdisziplin erlaubten es mir, einige ungestüme Gedanken zu eliminieren und nicht nach schnellem Erfolg zu streben, aber sie konnten mir immer noch nicht sagen, wohin ich gehen sollte.
+
+Drei Monate vor dem Abschluss wurde mir plötzlich klar, dass das, was ich tat, nur ein Verstecken in meiner eigenen Welt und Selbstzufriedenheit war. Es gibt viele verschiedene Lebensweisen, und mir fehlte letztendlich der Denkprozess, der aus Erfahrung kommt. Kündigen, nach Wuhan zurückkehren, sich für ein Masterstudium in Informatik in Taiwan bewerben - diese Entscheidungen waren tatsächlich nicht so schwierig, wie ich es mir vorgestellt hatte. Ende Mai, als ich eine frühe Laboreinladung von einem Professor der Nationaluniversität Taiwan erhielt, war ich wirklich glücklich, nervös glücklich, als ob ich immer vom Glück begünstigt wäre, auch wenn ich viele Umwege genommen hatte. Das offizielle Ergebnis kam während einer Reise heraus. Als ich das Bewerbungssystem öffnete, waren die drei Worte "Nicht zugelassen" ein wenig grell. Ich bin mir über meine genauen Gefühle zu diesem Zeitpunkt etwas unklar, aber es war wahrscheinlich das Gefühl der Verzweiflung, das von einem Höhepunkt herabfiel. Ich schrieb dem Professor eine E-Mail, erhielt aber keine Antwort.
+
+![hku_offer_letter](https://image.pseudoyu.com/images/hku_offer_letter.jpg)
+
+Ich empfand nicht wirklich viel bei meinem Abschluss, es schien nur, als würde ich mich von einigen Menschen verabschieden, ohne zu wissen, ob ich sie wiedersehen würde. Ich konnte dem allgemeinen Gefühl auch nicht entkommen - arbeitslos, nicht in der Schule, es schien, als wäre ich als Versager abgestempelt. Ich verbrachte zwei Monate in Depression. Ich kehrte zu meiner ursprünglichen Arbeit zurück, führte die Geschäfte des Studios fort, bereitete mich auf IELTS vor, überarbeitete wiederholt mein persönliches Statement und bewarb mich für ein Studium in Hongkong. Als ich das Angebot der Informatik-Abteilung der Universität Hongkong erhielt, empfand ich gemischte Gefühle, aber mit mehr Gewissheit. Also war ich doch wirklich würdig.
+
+Ich habe immer noch nicht das Gefühl, den Sinn berührt zu haben, nach dem ich gesucht habe. Alle gegenwärtigen Erfolge und Misserfolge sind nur Antworten, die durch Kompromisse entstanden sind. Vielleicht werde ich ihn nie finden, aber dieser Prozess hat mir den Mut gegeben, vorwärts zu gehen. Vielleicht ist das Denken selbst der Prozess der Sinnkonstruktion, ohne zu erwarten, in einem bestimmten Moment eine Erleuchtung zu haben, nur in der Hoffnung, weiter voranzukommen, mein eigenes Leben zu erfahren und zu verfolgen.
+
+![sea_kids](https://image.pseudoyu.com/images/sea_kids.jpg)
+
+Ich wünsche meinem 23-jährigen Ich Glück.

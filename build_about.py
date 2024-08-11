@@ -126,6 +126,7 @@ def fetch_blog_entries():
 if __name__ == "__main__":
     about_zh = root / "content/zh/about.md"
     about_en = root / "content/en/about.md"
+    about_de = root / "content/de/about.md"
     project_releases = root / "releases.md"
     releases = fetch_releases(TOKEN)
     releases.sort(key=lambda r: r["published_at"], reverse=True)
@@ -141,6 +142,9 @@ if __name__ == "__main__":
 
     about_en_contents = about_en.open().read()
     rewritten_en = replace_chunk(about_en_contents, "recent_releases", md)
+
+    about_de_contents = about_de.open().read()
+    rewritten_de = replace_chunk(about_de_contents, "recent_releases", md)
 
     # Write out full project-releases.md file
     project_releases_md = "\n".join(
@@ -166,6 +170,7 @@ if __name__ == "__main__":
 
     rewritten_zh = replace_chunk(rewritten_zh, "code_time", code_time_text)
     rewritten_en = replace_chunk(rewritten_en, "code_time", code_time_text)
+    rewritten_de = replace_chunk(rewritten_de, "code_time", code_time_text)
 
     doubans = fetch_douban()[:5]
 
@@ -175,6 +180,7 @@ if __name__ == "__main__":
 
     rewritten_zh = replace_chunk(rewritten_zh, "douban", doubans_md)
     rewritten_en = replace_chunk(rewritten_en, "douban", doubans_md)
+    rewritten_de = replace_chunk(rewritten_de, "douban", doubans_md)
 
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
@@ -186,3 +192,6 @@ if __name__ == "__main__":
 
     rewritten_en = replace_chunk(rewritten_en, "blog", entries_md)
     about_en.open("w").write(rewritten_en)
+
+    rewritten_de = replace_chunk(rewritten_de, "blog", entries_md)
+    about_de.open("w").write(rewritten_de)

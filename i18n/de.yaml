@@ -47,11 +47,19 @@
   translation: Artikel markiert
 
 - id: error_404
-  translation: 'Fehler 404 - Seite nicht gefunden'
+  translation: "Fehler 404 - Seite nicht gefunden"
 
 - id: in_category
-  translation: 'In den Kategorien:'
+  translation: "Kategorie: "
 
+- id: words
+  translation: Wörter
+
+- id: minutes
+  translation: Minuten
+
+- id: comments
+  translation: Kommentare
 
 - id: latest_posts
   translation: Neueste Beiträge
@@ -66,7 +74,7 @@
   translation: Weiter
 
 - id: author_by
-  translation: Von
+  translation: "Autor: "
 
 - id: related
   translation: Verwandte Beiträge
@@ -76,3 +84,6 @@
 
 - id: translations
   translation: "Übersetzungen: "
+
+- id: author
+  translation: Autor

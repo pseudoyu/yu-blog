@@ -4,12 +4,12 @@
 baseURL = "https://www.pseudoyu.com/"
 title = "Pseudoyu"
 theme = "hugo-theme-den"
-enableRobotsTXT = true      # generate robots.txt
-enableEmoji = true           # use emoji support
-hasCJKLanguage = true        # detect CJK languages for word count etc.
-preserveTaxonomyNames = true # do not make tag names lowercase
+enableRobotsTXT = true                # generate robots.txt
+enableEmoji = true                    # use emoji support
+hasCJKLanguage = true                 # detect CJK languages for word count etc.
+preserveTaxonomyNames = true          # do not make tag names lowercase
 # uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
-rssLimit = 100                # limit number of entries in RSS feeds
+rssLimit = 100          # limit number of entries in RSS feeds
 page_view_conter = true
 
 # Copyright, appears in the footer
@@ -23,208 +23,257 @@ paginatePath = "page"
 
 # Syntax Hightlight
 PygmentsCodeFences = true
-PygmentsUseClasses = true    # required for shhighlight shortcode
+PygmentsUseClasses = true # required for shhighlight shortcode
 
 # service plugins
-disqusShortname = ""         # disqus_shortname
-googleAnalytics = ""         # UA-XXXXXXXX-X
+disqusShortname = "" # disqus_shortname
+googleAnalytics = "" # UA-XXXXXXXX-X
 
 # language support # en / zh / other... translations present in i18n/
-defaultContentLanguage = "zh"           # Default language to use
+defaultContentLanguage = "zh"         # Default language to use
 defaultContentLanguageInSubdir = true
 
 # Links format
 [permalinks]
-  posts = "/:year/:month/:day/:filename/"
-  categories = "/category/:slug/"      # required
-  tags = "/tag/:slug/"                # required
-  pages = "/:slug/"
+posts = "/:year/:month/:day/:filename/"
+categories = "/category/:slug/"         # required
+tags = "/tag/:slug/"                    # required
+pages = "/:slug/"
 
-[author]                     # required
-  name = "Yu Zhang"
+[author] # required
+name = "Yu Zhang"
 
-[sitemap]                    # required
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+[sitemap] # required
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
 
 # ------------------------------------- #
 # ---- Other Params ------------------- #
 # ------------------------------------- #
 
 [params]
-  since = "2020"             # Site creation time
-  rssFullContent = true      # set true to use full content instead of summary
+since = "2020"        # Site creation time
+rssFullContent = true # set true to use full content instead of summary
 
-  # site info (optional)
-  keywords = ["hugo","blockchain","programming"]
-  description = "Blockchain | Programming | Photography | Boyi"
-  logoTitle = "Pseudoyu" # shown on top-left, default: title
-  siteLogoImage = "https://image.pseudoyu.com/images/fly.png"     # shown besides logoTitle
-  # headerTitle = "Pseudoyu"                   # default: title
-  headerImage = "images/background.webp"
-  showAuthorCard = true # Whether to show author information below the article
+# site info (optional)
+keywords = ["hugo", "blockchain", "programming"]
+description = "Blockchain | Programming | Photography | Boyi"
+logoTitle = "Pseudoyu"                                        # shown on top-left, default: title
+siteLogoImage = "https://image.pseudoyu.com/images/fly.png"   # shown besides logoTitle
+# headerTitle = "Pseudoyu"                   # default: title
+headerImage = "images/background.webp"
+showAuthorCard = true                  # Whether to show author information below the article
 
-  showMenuLanguages = true
+showMenuLanguages = true
 
-  autoLoadComments = false # auto load comment when scrolling down
+autoLoadComments = false # auto load comment when scrolling down
 
-  # paginate style, default use numbered pagination links
-  # if true, use original "Previous" and "Next" links.
-  paginateOriginalStyle = true
+# paginate style, default use numbered pagination links
+# if true, use original "Previous" and "Next" links.
+paginateOriginalStyle = true
 
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+# The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+dateFormatToUse = "2006-01-02"
 
-  google_verification = ""  # Google_Verification
+google_verification = "" # Google_Verification
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = ['custom.css']             # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
+# Link custom CSS and JS assets
+#   (relative to /static/css and /static/js respectively)
+customCSS = [
+  'custom.css',
+] # if ['custom.css'], load '/static/css/custom.css' file
+customJS = [] # if ['custom.js'], load '/static/js/custom.js' file
 
-  [markup]
-      [markup.goldmark]
-        [markup.goldmark.renderer]
-          unsafe = true
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 # ------------------------------------- #
 # ---- Related Articles --------------- #
 # ------------------------------------- #
 [related]
-  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
-  threshold = 50
+# Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+threshold = 50
 
-  # To get stable "See also" sections we, by default, exclude newer related pages.
-  includeNewer = true
+# To get stable "See also" sections we, by default, exclude newer related pages.
+includeNewer = true
 
-  # Will lower case keywords in both queries and in the indexes.
-  toLower = true
-
-[[related.indices]]
-  name = "categories"
-  weight = 200
+# Will lower case keywords in both queries and in the indexes.
+toLower = true
 
 [[related.indices]]
-  name = "keywords"
-  weight = 150
+name = "categories"
+weight = 200
 
 [[related.indices]]
-  name = "tags"
-  weight = 100
+name = "keywords"
+weight = 150
+
+[[related.indices]]
+name = "tags"
+weight = 100
 
 [languages.en]
-  languageCode = "en"
-  languageName = "English"
-  contentDir = "content/en"
-  weight = 2
+languageCode = "en"
+languageName = "EN"
+contentDir = "content/en"
+weight = 2
 
-  [[languages.en.menu.main]]
-    name = "Idea"
-    weight = 10
-    identifier = "ideas"
-    url = "category/ideas/"
-  [[languages.en.menu.main]]
-    name = "Tool"
-    weight = 20
-    identifier = "tools"
-    url = "category/tools/"
-  [[languages.en.menu.main]]
-    name = "Develop"
-    weight = 30
-    identifier = "develop"
-    url = "category/develop/"
+[[languages.en.menu.main]]
+name = "Idea"
+weight = 10
+identifier = "ideas"
+url = "category/ideas/"
+[[languages.en.menu.main]]
+name = "Tool"
+weight = 20
+identifier = "tools"
+url = "category/tools/"
+[[languages.en.menu.main]]
+name = "Develop"
+weight = 30
+identifier = "develop"
+url = "category/develop/"
 
-  [[languages.en.menu.social]]
-    name = "Telegram"
-    weight = 10
-    identifier = "telegram"
-    url = "https://t.me/pseudoyulife"
-  [[languages.en.menu.social]]
-    name = "Twitter"
-    weight = 20
-    identifier = "twitter"
-    url = "https://twitter.com/pseudo_yu"
-  [[languages.en.menu.social]]
-    name = "Instagram"
-    weight = 30
-    identifier = "instagram"
-    url = "https://www.instagram.com/pseudo.yu/"
-  [[languages.en.menu.social]]
-    name = "BiliBili"
-    weight = 40
-    identifier = "bilibili"
-    url = "https://space.bilibili.com/5374948/"
+[[languages.en.menu.social]]
+name = "Telegram"
+weight = 10
+identifier = "telegram"
+url = "https://t.me/pseudoyulife"
+[[languages.en.menu.social]]
+name = "Twitter"
+weight = 20
+identifier = "twitter"
+url = "https://twitter.com/pseudo_yu"
+[[languages.en.menu.social]]
+name = "Instagram"
+weight = 30
+identifier = "instagram"
+url = "https://www.instagram.com/pseudo.yu/"
+[[languages.en.menu.social]]
+name = "BiliBili"
+weight = 40
+identifier = "bilibili"
+url = "https://space.bilibili.com/5374948/"
 
-  [[languages.en.menu.links]]
-    name = "Yu's GitHub"
-    weight = 10
-    identifier = "github"
-    url = "https://github.com/pseudoyu"
-  [[languages.en.menu.links]]
-    name = "Yu's Services"
-    weight = 20
-    identifier = "services-status"
-    url = "https://uptime.pseudoyu.com/status/services"
-  [[languages.en.menu.links]]
-    name = "M1sty's Blog"
-    weight = 30
-    identifier = "m1sty"
-    url = "https://www.m1sty.com/"
+[[languages.en.menu.links]]
+name = "Yu's GitHub"
+weight = 10
+identifier = "github"
+url = "https://github.com/pseudoyu"
+[[languages.en.menu.links]]
+name = "Yu's Services"
+weight = 20
+identifier = "services-status"
+url = "https://uptime.pseudoyu.com/status/services"
 
-  [languages.zh]
-  languageCode = "zh"
-  languageName = "中文"
-  contentDir = "content/zh"
-  weight = 1
+[languages.zh]
+languageCode = "zh"
+languageName = "简"
+contentDir = "content/zh"
+weight = 1
 
-  [languages.zh.params]
-    description = "Blockchain | Programming | Photography | Boyi"
+[languages.zh.params]
+description = "Blockchain | Programming | Photography | Boyi"
 
-  [[languages.zh.menu.main]]
-    name = "思考"
-    weight = 10
-    identifier = "ideas"
-    url = "category/ideas/"
-  [[languages.zh.menu.main]]
-    name = "工具"
-    weight = 20
-    identifier = "tools"
-    url = "category/tools/"
-  [[languages.zh.menu.main]]
-    name = "编程"
-    weight = 30
-    identifier = "develop"
-    url = "category/develop/"
+[[languages.zh.menu.main]]
+name = "思考"
+weight = 10
+identifier = "ideas"
+url = "category/ideas/"
+[[languages.zh.menu.main]]
+name = "工具"
+weight = 20
+identifier = "tools"
+url = "category/tools/"
+[[languages.zh.menu.main]]
+name = "编程"
+weight = 30
+identifier = "develop"
+url = "category/develop/"
 
-  [[languages.zh.menu.social]]
-    name = "Telegram"
-    weight = 10
-    identifier = "telegram"
-    url = "https://t.me/pseudoyulife"
-  [[languages.zh.menu.social]]
-    name = "Twitter"
-    weight = 20
-    identifier = "twitter"
-    url = "https://twitter.com/pseudo_yu"
-  [[languages.zh.menu.social]]
-    name = "Instagram"
-    weight = 30
-    identifier = "instagram"
-    url = "https://www.instagram.com/pseudo.yu/"
-  [[languages.zh.menu.social]]
-    name = "BiliBili"
-    weight = 40
-    identifier = "bilibili"
-    url = "https://space.bilibili.com/5374948/"
+[[languages.zh.menu.social]]
+name = "Telegram"
+weight = 10
+identifier = "telegram"
+url = "https://t.me/pseudoyulife"
+[[languages.zh.menu.social]]
+name = "Twitter"
+weight = 20
+identifier = "twitter"
+url = "https://twitter.com/pseudo_yu"
+[[languages.zh.menu.social]]
+name = "Instagram"
+weight = 30
+identifier = "instagram"
+url = "https://www.instagram.com/pseudo.yu/"
+[[languages.zh.menu.social]]
+name = "BiliBili"
+weight = 40
+identifier = "bilibili"
+url = "https://space.bilibili.com/5374948/"
 
-  [[languages.zh.menu.links]]
-    name = "Yu's GitHub"
-    weight = 10
-    identifier = "github"
-    url = "https://github.com/pseudoyu"
-  [[languages.zh.menu.links]]
-    name = "Yu's Services"
-    weight = 20
-    identifier = "services-status"
-    url = "https://uptime.pseudoyu.com/status/services"
+[[languages.zh.menu.links]]
+name = "Yu's GitHub"
+weight = 10
+identifier = "github"
+url = "https://github.com/pseudoyu"
+
+[languages.de]
+languageCode = "de"
+languageName = "DE"
+contentDir = "content/de"
+weight = 3
+
+[languages.de.params]
+description = "Blockchain | Programmierung | Fotografie | Boyi"
+
+[[languages.de.menu.main]]
+name = "Ideen"
+weight = 10
+identifier = "ideas"
+url = "category/ideas/"
+
+[[languages.de.menu.main]]
+name = "Tools"
+weight = 20
+identifier = "tools"
+url = "category/tools/"
+
+[[languages.de.menu.main]]
+name = "Code"
+weight = 30
+identifier = "develop"
+url = "category/develop/"
+
+[[languages.de.menu.social]]
+name = "Telegram"
+weight = 10
+identifier = "telegram"
+url = "https://t.me/pseudoyulife"
+
+[[languages.de.menu.social]]
+name = "Twitter"
+weight = 20
+identifier = "twitter"
+url = "https://twitter.com/pseudo_yu"
+
+[[languages.de.menu.social]]
+name = "Instagram"
+weight = 30
+identifier = "instagram"
+url = "https://www.instagram.com/pseudo.yu/"
+
+[[languages.de.menu.social]]
+name = "BiliBili"
+weight = 40
+identifier = "bilibili"
+url = "https://space.bilibili.com/5374948/"
+
+[[languages.de.menu.links]]
+name = "Yu's GitHub"
+weight = 10
+identifier = "github"
+url = "https://github.com/pseudoyu"
