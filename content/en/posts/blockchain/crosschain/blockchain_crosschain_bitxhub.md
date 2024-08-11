@@ -1,5 +1,3 @@
-Here is the translated English version of the blog post, maintaining the markdown format and metadata:
-
 ---
 title: "BitXHub Cross-chain Plugin (Fabric) Source Code Analysis"
 date: 2021-09-09T15:14:26+08:00
