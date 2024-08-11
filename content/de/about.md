@@ -38,11 +38,11 @@ Ich hoffe, ich kann mehr Inputs wie neues Wissen und Ideen aufnehmen und mehr ku
 ### 🎧 Aktuelle Eindrücke
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/1293749/' target='_blank'>Gesehen: Ist das Leben nicht schön?</a> - 2024-08-11
-* <a href='https://book.douban.com/subject/26362836/' target='_blank'>Lese gerade: Blumen für Algernon</a> - 2024-08-08
-* <a href='http://movie.douban.com/subject/35956190/' target='_blank'>Gesehen: Gehen, Anhalten</a> - 2024-08-04
-* <a href='http://movie.douban.com/subject/35662223/' target='_blank'>Schaue gerade: Gehe dorthin, wo der Wind weht</a> - 2024-07-27
-* <a href='http://movie.douban.com/subject/25777620/' target='_blank'>Gesehen: Genie: Die Regeln des Spiels</a> - 2024-07-27
+* <a href='http://movie.douban.com/subject/1293749/' target='_blank'>看过生活多美好</a> - 2024-08-11
+* <a href='https://book.douban.com/subject/26362836/' target='_blank'>最近在读献给阿尔吉侬的花束</a> - 2024-08-08
+* <a href='http://movie.douban.com/subject/35956190/' target='_blank'>看过走走停停</a> - 2024-08-04
+* <a href='http://movie.douban.com/subject/35662223/' target='_blank'>在看去有风的地方</a> - 2024-07-27
+* <a href='http://movie.douban.com/subject/25777620/' target='_blank'>看过天才：游戏的法则</a> - 2024-07-27
 <!-- douban ends -->
 
 ### 👨🏻‍💻 Diese Woche programmiere ich mit
@@ -62,13 +62,13 @@ JSON       52 mins        ▉░░░░░░░░░░░░░░░░░
 
 <!-- recent_releases starts -->
 * <a href=https://github.com/djyde/icondog/releases/tag/v0.0.1 target='_blank'>icondog 0.0.1</a>
-* <a href=https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0 target='_blank'>blockchain-guide Einführungshandbuch für Blockchain</a>
-* <a href=https://github.com/pseudoyu/yu-tools/releases/tag/v0.1 target='_blank'>yu-tools Persönliche Toolbox</a>
-* <a href=https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0 target='_blank'>top-blockchain-projects Rangliste hochwertiger Blockchain-Projekte</a>
-* <a href=https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0 target='_blank'>learn-solidity Solidity Smart Contract Entwicklung Lernen</a>
-* <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python Kurscode</a>
-* <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food WeChat Mini-Programm: Was soll ich essen?</a>
-* <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B Kurscode</a>
-* <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 Kurscode</a>
-* <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain Eine Blockchain von Grund auf implementieren</a>
+* <a href=https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0 target='_blank'>blockchain-guide 区块链入门指南</a>
+* <a href=https://github.com/pseudoyu/yu-tools/releases/tag/v0.1 target='_blank'>yu-tools 个人工具箱</a>
+* <a href=https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0 target='_blank'>top-blockchain-projects 优质区块链项目排行榜</a>
+* <a href=https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0 target='_blank'>learn-solidity Solidity 智能合约开发学习</a>
+* <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>
+* <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food 微信小程序：吃什么呀</a>
+* <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
+* <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
+* <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain 从零实现一个区块链</a>
 <!-- recent_releases ends -->
