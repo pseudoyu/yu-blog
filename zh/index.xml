@@ -4168,7 +4168,6 @@
 <p>跟朋友分享后，捏捏以一猫之力拉高了别人家的小猫吃猫粮的标准，哈哈。</p>
 <p><img src="https://image.pseudoyu.com/images/my_very_cute_nie_nie_on_mac_tg_chat.png" alt="my_very_cute_nie_nie_on_mac_tg_chat"></p>
 ]]></content:encoded></item><item><title>Cosmos 区块链架构与 Tendermint 共识机制</title><link>https://www.pseudoyu.com/zh/2023/02/10/cosmos_introduction_and_explaination/</link><pubDate>Fri, 10 Feb 2023 20:00:03 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2023/02/10/cosmos_introduction_and_explaination/</guid><description>前言 工作中我主要参与的是跨链项目的方案架构设计与实现，因为公司既有方案是基于 Cosmos 区块链的，我在一年多的项目中基于 Cosmos SDK 作了一些底层链开发改造，对</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p><img src="https://image.pseudoyu.com/images/cosmos_introduction_and_explaination_photo.png" alt="cosmos_introduction_and_explaination_photo"></p>
 <p>工作中我主要参与的是跨链项目的方案架构设计与实现，因为公司既有方案是基于 Cosmos 区块链的，我在一年多的项目中基于 Cosmos SDK 作了一些底层链开发改造，对其技术实现有了一些了解，但由于开发周期比较赶，一直没能对 Cosmos 的架构设计与 Tendermint 共识机制有一个系统的了解。</p>
 <p>项目结束后，终于得闲读了一下《区块链架构与实现：Cosmos 详解》，本文则是我自己对 Cosmos、Tendermint 的理解和总结。</p>
 <h2 id="区块链技术发展">区块链技术发展</h2>
