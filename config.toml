@@ -62,8 +62,8 @@ description = "Blockchain | Programming | Photography | Boyi"
 logoTitle = "Pseudoyu"                                        # shown on top-left, default: title
 siteLogoImage = "images/icon.png"                             # shown besides logoTitle
 # headerTitle = "Pseudoyu"                   # default: title
-headerImage = "images/background.webp"
-showAuthorCard = true                  # Whether to show author information below the article
+headerImage = "images/background.png"
+showAuthorCard = true                 # Whether to show author information below the article
 
 showMenuLanguages = true
 
