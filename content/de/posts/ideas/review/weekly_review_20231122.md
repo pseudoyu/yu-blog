@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #50 - A Stroll in the Temple of Heaven, Rediscovering Reading, and the Feynman Technique"
+title: "Wochenrückblick #50 - Ein Spaziergang im Himmelstempel, Wiederentdeckung des Lesens und die Feynman-Technik"
 date: 2023-11-21T09:41:26+08:00
 draft: false
 tags: ["review", "life", "reading", "work", "learn"]
@@ -10,93 +10,89 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from November 13 to November 21, 2023.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 13. bis 21. November 2023.
 
-This week had quite a bit of discussion and development at work, maintaining a normal rhythm. My days were largely occupied by work, study, and additional reading, giving me a sense of fulfillment. As I plan to spend more evenings reading books, I hurried to finish the few dramas and anime I was watching. Over the weekend, I took a stroll in the Temple of Heaven Park and discovered a delicious mushroom hotpot in the evening. I also gave two 4-hour Solidity Bootcamp sessions for OpenBuild, and the preparation process was quite interesting. Next week, I'll be participating in a podcast recording as part of the 2023 Podcast Festival, which I'm looking forward to. There were many other interesting happenings as well.
+Diese Woche gab es bei der Arbeit recht viele Diskussionen und Entwicklungen, wobei ein normaler Rhythmus beibehalten wurde. Meine Tage waren größtenteils mit Arbeit, Studium und zusätzlicher Lektüre ausgefüllt, was mir ein Gefühl der Erfüllung gab. Da ich plane, mehr Abende mit Bücherlesen zu verbringen, beeilte ich mich, die wenigen Dramen und Anime, die ich gerade schaute, zu beenden. Am Wochenende unternahm ich einen Spaziergang im Himmelstempel-Park und entdeckte am Abend einen köstlichen Pilz-Hotpot. Ich gab auch zwei vierstündige Solidity-Bootcamp-Sitzungen für OpenBuild, und der Vorbereitungsprozess war recht interessant. Nächste Woche werde ich als Teil des Podcast-Festivals 2023 an einer Podcast-Aufnahme teilnehmen, worauf ich mich schon freue. Es gab auch viele andere interessante Ereignisse.
 
-## A Stroll in the Temple of Heaven
+## Ein Spaziergang im Himmelstempel
 
-Autumn in Beijing is fleeting, but perhaps the only truly pleasant season of the year. It's cool but not cold enough to require layers of thick clothing, perfect for a leisurely walk.
+Der Herbst in Peking ist flüchtig, aber vielleicht die einzige wirklich angenehme Jahreszeit. Es ist kühl, aber nicht kalt genug, um dicke Kleidungsschichten zu erfordern - perfekt für einen gemütlichen Spaziergang.
 
-Before setting out, my senior suddenly suggested I leave my camera behind, adding, "Every time you bring the camera, you're not as relaxed during the stroll." I paused, realizing she was right. It seems that after developing the habit of documenting, I tend to think more about capturing or writing down moments I find joyful or interesting, sometimes neglecting to fully enjoy the present beauty. Like when we went to Aranya, walking on the beach as dusk fell, I was so focused on getting good shots quickly that I spent a long time photographing each scenic spot. In the end, I did get some nice photos, but I missed out on the true essence of a "stroll". The 55mm focal length of the camera inadvertently created a sense of distance.
+Bevor wir aufbrachen, schlug meine Vorgesetzte plötzlich vor, ich solle meine Kamera zurücklassen, und fügte hinzu: "Jedes Mal, wenn du die Kamera mitbringst, bist du beim Spazierengehen nicht so entspannt." Ich hielt inne und erkannte, dass sie Recht hatte. Es scheint, dass ich nach der Entwicklung der Gewohnheit des Dokumentierens dazu neige, mehr darüber nachzudenken, Momente festzuhalten oder aufzuschreiben, die ich als freudig oder interessant empfinde, und manchmal vergesse, die gegenwärtige Schönheit in vollem Umfang zu genießen. Wie damals, als wir nach Aranya gingen und bei Einbruch der Dämmerung am Strand spazierten, war ich so darauf fokussiert, schnell gute Aufnahmen zu machen, dass ich lange Zeit damit verbrachte, jede Sehenswürdigkeit zu fotografieren. Am Ende bekam ich zwar einige schöne Fotos, verpasste aber die wahre Essenz eines "Spaziergangs". Die 55mm Brennweite der Kamera schuf unbeabsichtigt ein Gefühl der Distanz.
 
-This time, I went without any particular purpose, just for a walk. We followed the park visitors doing tai chi, competed to see who could throw pine cones into a circle made of grass, and watched a few chickens with feathers as vibrant as peacocks scurrying about in the woods, perhaps in courtship. Though I've always thought of myself as someone not particularly drawn to natural landscapes, preferring themed street photography, this leisurely stroll in the company of others brought many pleasant surprises. It helped alleviate some of the recent tension and anxiety, making time feel especially slow.
+Diesmal ging ich ohne besondere Absicht, einfach nur zum Spazieren. Wir folgten den Parkbesuchern beim Tai Chi, wetteiferten darum, wer Tannenzapfen in einen Kreis aus Gras werfen konnte, und beobachteten ein paar Hühner mit Federn so lebendig wie Pfauen, die im Wald umherhüpften, vielleicht auf Brautschau. Obwohl ich mich selbst immer für jemanden gehalten habe, der nicht besonders von Naturlandschaften angezogen wird und thematische Straßenfotografie bevorzugt, brachte dieser gemütliche Spaziergang in Gesellschaft viele angenehme Überraschungen. Er half, etwas von der jüngsten Anspannung und Angst zu lindern und ließ die Zeit besonders langsam erscheinen.
 
-Afterwards, we ate at a Yunnan mushroom hotpot restaurant called "Tang Ba Shi" that I had been craving for a long time. Highly recommended!
+Anschließend aßen wir in einem Yunnan-Pilz-Hotpot-Restaurant namens "Tang Ba Shi", nach dem ich mich schon lange gesehnt hatte. Sehr empfehlenswert!
 
-### Rediscovering Reading
+### Wiederentdeckung des Lesens
 
-Recently, I've spent most of my dinner and post-dinner time watching or rewatching some TV series: "Reply 1988", "Nirvana in Fire", and "Prison Playbook". While enjoyable and relaxing, time seemed to slip away quickly. So, after making an effort to finish these, I decided not to start any new series and instead return to reading.
+In letzter Zeit habe ich die meiste Zeit beim Abendessen und danach damit verbracht, einige Fernsehserien anzusehen oder wieder anzusehen: "Reply 1988", "Nirvana in Fire" und "Prison Playbook". Obwohl es angenehm und entspannend war, schien die Zeit schnell zu vergehen. Nachdem ich mich bemüht hatte, diese zu beenden, beschloss ich, keine neuen Serien zu beginnen und stattdessen zum Lesen zurückzukehren.
 
-Last year, I read many books, accompanied by my Kindle during subway commutes. Despite the harsh environment, I found joy in it, sometimes reading 1-2 books a week. However, in the past six months, without the need to commute, I lost some of that reading mindset, mainly focusing on reference books. These past few evenings, as I started reading again, I found I could once again enjoy it. While it might not be possible to complete my reading goals set at the beginning of the year, rediscovering the pleasure of reading is a greater gain.
+Letztes Jahr las ich viele Bücher, begleitet von meinem Kindle während der U-Bahn-Fahrten. Trotz der rauen Umgebung fand ich darin Freude und las manchmal 1-2 Bücher pro Woche. In den letzten sechs Monaten jedoch, ohne die Notwendigkeit zu pendeln, verlor ich etwas von dieser Lesementalität und konzentrierte mich hauptsächlich auf Nachschlagewerke. In den letzten Abenden, als ich wieder zu lesen begann, stellte ich fest, dass ich es wieder genießen konnte. Auch wenn es vielleicht nicht möglich sein wird, meine zu Jahresbeginn gesetzten Leseziele zu erreichen, ist die Wiederentdeckung der Freude am Lesen ein größerer Gewinn.
 
-I first finished "Building A Second Brain" and "PARA Method", the latter being a supplement to the former. Both are about personal knowledge management, with the former focusing more on concepts and methodologies, and the latter on specific practical methods. Being tool and practice-oriented, they were not difficult to read, and provided some additions to my current system using Logseq + Readwise + Heptabase.
+Zuerst beendete ich "Building A Second Brain" und "PARA Method", wobei letzteres eine Ergänzung zum ersteren ist. Beide handeln von persönlichem Wissensmanagement, wobei sich ersteres mehr auf Konzepte und Methoden konzentriert und letzteres auf spezifische praktische Methoden. Da sie tool- und praxisorientiert sind, waren sie nicht schwer zu lesen und boten einige Ergänzungen zu meinem derzeitigen System mit Logseq + Readwise + Heptabase.
 
-A colleague in our group chat mentioned "Homo Deus", reminding me that I had read this and "Sapiens" a few years ago. Personally, I'm not as fond of such grand narrative topics compared to literary works, but this series is exceptionally engaging. I considered revisiting them, but then noticed "21 Lessons for the 21st Century" on my bookshelf and decided to read it first, having gone through the first few chapters.
+Ein Kollege in unserem Gruppenchat erwähnte "Homo Deus" und erinnerte mich daran, dass ich dies und "Sapiens" vor einigen Jahren gelesen hatte. Persönlich bin ich nicht so sehr für solch große narrative Themen zu haben wie für literarische Werke, aber diese Reihe ist außergewöhnlich fesselnd. Ich überlegte, sie erneut zu lesen, bemerkte dann aber "21 Lektionen für das 21. Jahrhundert" in meinem Bücherregal und beschloss, es zuerst zu lesen, nachdem ich die ersten Kapitel durchgegangen war.
 
-### The Feynman Technique
+### Die Feynman-Technik
 
-Recently, I've been involved in teaching a course called "[[OpenBuild Bootcamp] Solidity from Beginner to Expert](https://openbuild.xyz/learn/courses/95)", responsible for two sessions. As it's during after-work hours and weekends, I'm using the Chinese version of the training materials from the previous Chiang Mai Workshop.
+In letzter Zeit bin ich in den Unterricht eines Kurses namens "[[OpenBuild Bootcamp] Solidity von Anfänger bis Experte](https://openbuild.xyz/learn/courses/95)" involviert und für zwei Sitzungen verantwortlich. Da es nach der Arbeit und am Wochenende stattfindet, verwende ich die chinesische Version der Schulungsunterlagen vom vorherigen Chiang Mai Workshop.
 
-I seem to be quite enthusiastic about participating in education and sharing, which is also a practice of the Feynman Technique. Its core lies in:
+Ich scheine recht begeistert davon zu sein, an Bildung und Austausch teilzunehmen, was auch eine Praxis der Feynman-Technik ist. Ihr Kern liegt in:
 
-> When you prepare to learn new knowledge, you must stand in the position of a teacher, assuming you need to explain this knowledge to others.
+> Wenn du dich darauf vorbereitest, neues Wissen zu erlernen, musst du dich in die Position eines Lehrers versetzen und davon ausgehen, dass du dieses Wissen anderen erklären musst.
 
-So, especially when I'm still in the learning stage myself, I cherish opportunities to share and teach. Last May, I gave a technical presentation for Chainlink and wrote several blog posts. This year, I was a mentor in Chiang Mai and participated in a workshop. Compared to before, I now have a more solid grasp of core concepts.
+Daher schätze ich besonders, wenn ich mich selbst noch in der Lernphase befinde, Gelegenheiten zum Teilen und Lehren. Letzten Mai hielt ich eine technische Präsentation für Chainlink und schrieb mehrere Blogbeiträge. Dieses Jahr war ich Mentor in Chiang Mai und nahm an einem Workshop teil. Im Vergleich zu früher habe ich jetzt ein solideres Verständnis der Kernkonzepte.
 
-Speaking of my learning path for Solidity, I've completed all three of Patrick Collins' Solidity tutorials on YouTube, each lasting several dozen hours.
+Was meinen Lernweg für Solidity betrifft, so habe ich alle drei Solidity-Tutorials von Patrick Collins auf YouTube abgeschlossen, die jeweils mehrere Dutzend Stunden dauern.
 
-The first was the Brownie (Python) version, which I watched in June 2021 while in quarantine after returning to Shenzhen from Hong Kong. At that time, I didn't understand many concepts and had little practical experience. I chose it over Truffle, which I had used for my graduation project, mainly because Python's syntax for writing tests seemed simpler. I roughly went through it in about a month, managing to handle a few smart contract development job interviews. Later, as I started working on consortium chains, I didn't use it much.
+Das erste war die Brownie (Python) Version, die ich im Juni 2021 während der Quarantäne nach meiner Rückkehr von Hongkong nach Shenzhen angeschaut habe. Zu diesem Zeitpunkt verstand ich viele Konzepte nicht und hatte wenig praktische Erfahrung. Ich wählte es anstelle von Truffle, das ich für mein Abschlussprojekt verwendet hatte, hauptsächlich weil die Python-Syntax zum Schreiben von Tests einfacher erschien. Ich ging es in etwa einem Monat grob durch und konnte einige Vorstellungsgespräche für Smart-Contract-Entwicklung bewältigen. Später, als ich anfing, an Konsortialketten zu arbeiten, benutzte ich es nicht mehr viel.
 
-The second was the Hardhat (Javascript) version, which I watched in May 2022 while in home quarantine. By then, I had a better understanding of smart contracts and had written quite a few practical ones, so it was more of a reinforcement. It took only about half a month, and I produced several blog articles. Patrick himself noticed and contacted me, leading to many subsequent opportunities.
+Die zweite war die Hardhat (Javascript) Version, die ich im Mai 2022 während der häuslichen Quarantäne anschaute. Zu diesem Zeitpunkt hatte ich ein besseres Verständnis von Smart Contracts und hatte bereits einige praktische geschrieben, so dass es eher eine Verstärkung war. Es dauerte nur etwa zwei Wochen, und ich produzierte mehrere Blogartikel. Patrick selbst bemerkte es und kontaktierte mich, was zu vielen nachfolgenden Möglichkeiten führte.
 
-The recently completed Foundry (Solidity) version came after I had already worked on quite a few projects and was familiar with most concepts. However, it took nearly two to three months, with much of it watched in parts. I feel that as I've written fewer technical blogs, there's been a noticeable decline in my concentration and state of learning knowledge. I need to pick it up again.
+Die kürzlich abgeschlossene Foundry (Solidity) Version kam, nachdem ich bereits an ziemlich vielen Projekten gearbeitet hatte und mit den meisten Konzepten vertraut war. Allerdings dauerte es fast zwei bis drei Monate, wobei viel davon in Teilen angeschaut wurde. Ich habe das Gefühl, dass ich, da ich weniger technische Blogs geschrieben habe, einen merklichen Rückgang meiner Konzentration und meines Zustands des Wissenserwerbs erlebt habe. Ich muss das wieder aufgreifen.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
-### Podcast Festival
+### Podcast-Festival
 
-This week, I have the opportunity to record a podcast, which will be part of the "2023 Tech Podcast Festival". Other participants include podcasts I really enjoy like "Maple Syrup", "Beyond Code", "Jinjinledao", "Kernel Panic", and more. Last year, I listened to various themes from this event, and I never imagined I'd have the chance to participate this year. It's quite amazing.
+Diese Woche habe ich die Gelegenheit, einen Podcast aufzunehmen, der Teil des "2023 Tech Podcast Festivals" sein wird. Andere Teilnehmer sind Podcasts, die ich wirklich gerne höre, wie "Maple Syrup", "Beyond Code", "Jinjinledao", "Kernel Panic" und weitere. Letztes Jahr hörte ich verschiedene Themen von dieser Veranstaltung, und ich hätte nie gedacht, dass ich dieses Jahr die Chance haben würde, teilzunehmen. Es ist ziemlich erstaunlich.
 
 ### Input
 
-Although most interesting inputs are automatically synchronized on the "Yu's Life" Telegram channel, I'll still select a few to list here, making it feel more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch auf dem "Yu's Life" Telegram-Kanal synchronisiert werden, werde ich trotzdem einige auswählen, um sie hier aufzulisten, damit es sich mehr wie ein Newsletter anfühlt.
 
-#### Books
+#### Bücher
 
-- **Building a Second Brain**, I've actually already learned about and practiced the methods mentioned in the book through other blogs. I was more interested in understanding the author's thought process and practical methods, but found it to be more theoretical.
-- **The PARA Method**, compared to "Building a Second Brain", this book is more concise and easy to read, with a strong focus on practical methods. The principles regarding using a system across multiple platforms and the flow of information between PARA have significant reference value for my current system.
-- **21 Lessons for the 21st Century**, the last book in the trilogy
-- **Uniswap V2 Book | RareSkills**, I've always wanted to understand Uniswap in more detail
-- **ZK Book | RareSkills**, learning about ZK
+- **Building a Second Brain**, ich habe die in dem Buch erwähnten Methoden eigentlich schon durch andere Blogs gelernt und praktiziert. Ich war mehr daran interessiert, den Denkprozess des Autors und die praktischen Methoden zu verstehen, fand es aber theoretischer.
+- **The PARA Method**, im Vergleich zu "Building a Second Brain" ist dieses Buch prägnanter und leichter zu lesen, mit einem starken Fokus auf praktische Methoden. Die Prinzipien bezüglich der Verwendung eines Systems über mehrere Plattformen hinweg und der Informationsfluss zwischen PARA haben einen signifikanten Referenzwert für mein aktuelles System.
+- **21 Lektionen für das 21. Jahrhundert**, das letzte Buch der Trilogie
+- **Uniswap V2 Book | RareSkills**, ich wollte Uniswap schon immer detaillierter verstehen
+- **ZK Book | RareSkills**, Lernen über ZK
 
-#### Articles
+#### Artikel
 
-- [Stability, It's Not the Technology That's Difficult, But...](https://mp.weixin.qq.com/s/9rAhbG6lu-flNIGQEF5w0g)
-- [Effective Neovim setup for web development towards 2024](https://www.devas.life/effective-neovim-setup-for-web-development-towards-2024/)
-- [Exit games for EVM validiums: the return of Plasma](https://vitalik.eth.limo/general/2023/11/14/neoplasma.html)
-- [The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
-- [A comprehensive guide to the ERC721 standard and related security issues](https://www.rareskills.io/post/erc721)
-- [Great Library #9 Book Review of "Streaming Systems"](https://mp.weixin.qq.com/s/6jxnKYuunU1MuO1wfNyrPQ)
+- [Stabilität, Es ist nicht die Technologie, die schwierig ist, sondern...](https://mp.weixin.qq.com/s/9rAhbG6lu-flNIGQEF5w0g)
+- [Effektives Neovim-Setup für Webentwicklung bis 2024](https://www.devas.life/effective-neovim-setup-for-web-development-towards-2024/)
+- [Exit-Spiele für EVM-Validiums: die Rückkehr von Plasma](https://vitalik.eth.limo/general/2023/11/14/neoplasma.html)
+- [Die Architektur einer Web 3.0-Anwendung](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
+- [Ein umfassender Leitfaden zum ERC721-Standard und damit verbundenen Sicherheitsproblemen](https://www.rareskills.io/post/erc721)
+- [Great Library #9 Buchbesprechung von "Streaming Systems"](https://mp.weixin.qq.com/s/6jxnKYuunU1MuO1wfNyrPQ)
 
 #### Videos
 
-- [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (12 - 15)](https://www.youtube.com/watch?v=wUjYK5gwNZs)
-- [study vlog #38 | Enjoying the tranquility and reflection brought by evening reading | A female programmer's learning routine | TEDxTalks: The power of introverted personalities / About sleep | Homo Deus | English learning](https://www.bilibili.com/video/BV1NH4y127U2)
-- [How to Make Learning as Addictive as Social Media | Luis Von Ahn | TED](https://www.youtube.com/watch?v=P6FORpg0KVo)
-- [Ilya: the AI scientist shaping the world](https://www.youtube.com/watch?v=9iqn1HhFJ6c)
+- [Lerne Solidity, Blockchain-Entwicklung & Smart Contracts | Powered By AI - Vollständiger Kurs (12 - 15)](https://www.youtube.com/watch?v=wUjYK5gwNZs)
+- [Studien-Vlog #38 | Genießen der Ruhe und Reflexion durch abendliches Lesen | Lernroutine einer Programmiererin | TEDxTalks: Die Kraft introvertierter Persönlichkeiten / Über Schlaf | Homo Deus | Englischlernen](https://www.bilibili.com/video/BV1NH4y127U2)
+- [Wie man Lernen so süchtig macht wie Social Media | Luis Von Ahn | TED](https://www.youtube.com/watch?v=P6FORpg0KVo)
+- [Ilya: der KI-Wissenschaftler, der die Welt formt](https://www.youtube.com/watch?v=9iqn1HhFJ6c)
 
 #### Anime
 
-- **Pluto**, an anime about robots and humans that I came across on Netflix. I've always been interested in this genre. I finished it during lunch breaks and weekends. It deals with hatred and love, with the hatred aspect being quite grand, running through the theme "hatred leads nowhere" and a heroic protagonist group. What left a deeper impression on me was actually the love between the law enforcement robot and his wife, and between Gesicht and Helena at the beginning. For them, simply choosing to remember was already the most difficult and great choice.
-- **Spy x Family Season 2**, Anya is the best!
+- **Pluto**, ein Anime über Roboter und Menschen, auf den ich auf Netflix gestoßen bin. Ich war schon immer an diesem Genre interessiert. Ich habe es während der Mittagspausen und am Wochenende beendet. Es behandelt Hass und Liebe, wobei der Hass-Aspekt ziemlich großartig ist und sich durch das Thema "Hass führt nirgendwohin" und eine heroische Protagonistengruppe zieht. Was bei mir einen tieferen Eindruck hinterließ, war tatsächlich die Liebe zwischen dem Strafverfolgungsroboter und seiner Frau sowie zwischen Gesicht und Helena am Anfang. Für sie war es bereits die schwierigste und größte Wahl, sich einfach dafür zu entscheiden, sich zu erinnern.
+- **Spy x Family Staffel 2**, Anya ist die Beste!
 
-#### TV Series
+#### TV-Serien
 
-- **Prison Playbook**, a work by the same director as "Reply 1988", which I chose for after-dinner relaxation. It's funny while maintaining its style. Although it's a male-led script, the presentation is a group portrait that I really like. Many of the supporting characters, even with limited screen time, leave a deep impression. Another aspect I appreciate is that the series doesn't deliberately beautify human nature, like the drug addict who immediately returns to drugs after being released. It also doesn't pursue perfection, such as the male lead not winning his first comeback match. It's more about showcasing the diversity and growth of people.
-
-#### Music
-
-- [Nidome no Hatsukoi by KO-SUKE](https://open.spotify.com/track/6LpsABDodctW0sFs1U2qPq)
+- **Prison Playbook**, ein Werk dessel

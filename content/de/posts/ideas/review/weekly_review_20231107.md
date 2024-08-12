@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #48 - Inner Mongolia Trip, Chiang Mai Digital Nomads, Restarting Weekly Reviews and Life"
+title: "Wochenrückblick #48 - Reise in die Innere Mongolei, Digitale Nomaden in Chiang Mai, Neustart der wöchentlichen Rückschau und des Lebens"
 date: 2023-11-07T17:01:36+08:00
 draft: false
 tags: ["review", "life", "love", "chiangmai", "work", "cat"]
@@ -10,261 +10,261 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection on my life from `2023-09-17` to `2023-11-07`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `17.09.2023` bis zum `07.11.2023`.
 
-It's been a while since I last put pen to paper, almost a month and a half. A lot happened in the first couple of weeks, and there were many things I wanted to record, but I never managed to find a few hours to complete the weekly review. I thought I'd have time during the National Day holiday, but I went to Inner Mongolia, and after returning, I went to Aranya to celebrate the 100-day anniversary with my girlfriend. The trips were enjoyable but draining; before I could recover from the journey, I caught an early morning flight to Chiang Mai to attend an event, where I met many familiar yet never-before-seen friends from the internet and gave my first English workshop. Then I returned to Hangzhou to meet old friends, attend a friend's wedding, and reunite with high school classmates. During this time, an elderly family member had an accident, and my parents often had to travel back and forth to my hometown, leaving them unable to care for Nini, so I brought her back to Beijing. Thankfully, the journey went smoothly, and we can be together again. At the same time, I was still somewhat dissatisfied with my work status and focus, and it took nearly a month of gradual adjustment to get back on track. There were many other things too.
+Es ist eine Weile her, seit ich zuletzt zur Feder gegriffen habe, fast anderthalb Monate. In den ersten paar Wochen ist viel passiert, und es gab vieles, das ich aufzeichnen wollte, aber ich habe es nie geschafft, ein paar Stunden zu finden, um die wöchentliche Rückschau zu vervollständigen. Ich dachte, ich hätte während des Nationalfeiertags Zeit, aber ich fuhr in die Innere Mongolei, und nach meiner Rückkehr ging ich nach Aranya, um den 100-Tage-Jahrestag mit meiner Freundin zu feiern. Die Reisen waren angenehm, aber ermüdend; bevor ich mich von der Reise erholen konnte, nahm ich einen frühen Morgenflug nach Chiang Mai, um an einer Veranstaltung teilzunehmen, wo ich viele vertraute, aber nie zuvor gesehene Freunde aus dem Internet traf und meinen ersten englischsprachigen Workshop gab. Dann kehrte ich nach Hangzhou zurück, um alte Freunde zu treffen, an der Hochzeit eines Freundes teilzunehmen und mich mit Schulkameraden aus der Oberschule zu treffen. Während dieser Zeit hatte ein älteres Familienmitglied einen Unfall, und meine Eltern mussten oft in meine Heimatstadt hin- und herreisen, sodass sie sich nicht um Nini kümmern konnten, also brachte ich sie zurück nach Peking. Glücklicherweise verlief die Reise reibungslos, und wir können wieder zusammen sein. Gleichzeitig war ich mit meinem Arbeitsstatus und meiner Konzentration immer noch etwas unzufrieden, und es dauerte fast einen Monat schrittweiser Anpassung, um wieder auf Kurs zu kommen. Es gab noch viele andere Dinge.
 
-It was then that I deeply realized that cultivating a habit takes a long time, but breaking it often happens in an instant. Life and love have gradually become more concrete, but the desire to express has become elusive. Fortunately, starting this week, I'll have a more stable life state and pattern, and everything is back on track. So, with this weekly review as a boundary, I'm picking up the blank month-plus of life again.
+Da wurde mir zutiefst bewusst, dass es lange dauert, eine Gewohnheit zu pflegen, aber sie oft in einem Augenblick gebrochen wird. Leben und Liebe sind allmählich konkreter geworden, aber der Wunsch, sich auszudrücken, ist schwer fassbar geworden. Glücklicherweise werde ich ab dieser Woche einen stabileren Lebenszustand und -rhythmus haben, und alles ist wieder auf Kurs. Also nehme ich mit dieser wöchentlichen Rückschau als Grenze den leeren Monat-plus des Lebens wieder auf.
 
-## Chaoyang Beer Festival
+## Chaoyang Bierfestival
 
 ![chaoyang_beer_01](https://image.pseudoyu.com/images/chaoyang_beer_01.jpg)
 
-I spent a lot of time in Beijing in September. Besides regular dating on weekends, we also wanted to participate in some fun activities. While ordering at a restaurant, we overheard waiters discussing a beer festival being held in Chaoyang Park. After checking the event details on Xiaohongshu, we decided to go and even prepared homemade sandwiches.
+Ich verbrachte im September viel Zeit in Peking. Neben regelmäßigen Verabredungen an den Wochenenden wollten wir auch an einigen unterhaltsamen Aktivitäten teilnehmen. Während wir in einem Restaurant bestellten, hörten wir zufällig Kellner über ein Bierfestival sprechen, das im Chaoyang-Park stattfand. Nachdem wir die Details der Veranstaltung auf Xiaohongshu überprüft hatten, beschlossen wir hinzugehen und bereiteten sogar selbstgemachte Sandwiches vor.
 
 ![chaoyang_beer_03](https://image.pseudoyu.com/images/chaoyang_beer_03.jpg)
 
-The scene was very lively. The DJ, dressed like a big guy from the Northwest, spread joy to everyone present, and people started dancing wildly on the lawn. An enthusiastic foreign girl came to greet us, and we even witnessed the entire process of a guy chatting up a girl and getting her contact information, front-row spectators to the scene.
+Die Szene war sehr lebendig. Der DJ, gekleidet wie ein großer Kerl aus dem Nordwesten, verbreitete Freude an alle Anwesenden, und die Leute begannen wild auf dem Rasen zu tanzen. Ein enthusiastisches ausländisches Mädchen kam, um uns zu begrüßen, und wir wurden sogar Zeugen des gesamten Prozesses, wie ein Typ ein Mädchen ansprach und ihre Kontaktinformationen bekam, Zuschauer in der ersten Reihe der Szene.
 
-I had two craft beers, not enough to get drunk, but on the slightly tipsy journey home, we opened up and chatted about many interesting things in our lives. When we saw the moon, we would lean on the bridge and look at it for ten or fifteen minutes, competing to see who could come up with more related idioms or poems. It was ordinary, but we enjoyed the long-lost sense of relaxation and simple happiness.
+Ich trank zwei Craft-Biere, nicht genug, um betrunken zu werden, aber auf der leicht angeheiterten Heimreise öffneten wir uns und plauderten über viele interessante Dinge in unserem Leben. Als wir den Mond sahen, lehnten wir uns auf die Brücke und betrachteten ihn zehn oder fünfzehn Minuten lang, wetteiferten darum, wer mehr verwandte Redewendungen oder Gedichte einfallen würden. Es war gewöhnlich, aber wir genossen das lang vermisste Gefühl von Entspannung und einfachem Glück.
 
-## Trip to Inner Mongolia
+## Reise in die Innere Mongolei
 
 ![neimeng_01](https://image.pseudoyu.com/images/neimeng_01.jpg)
 
-It wasn't really a deliberate arrangement, but by coincidence, our National Day holiday trip was set for Ordos, Inner Mongolia. On one hand, I wanted to see the great desert (something I hadn't seen as a southerner), and on the other hand, it's my girlfriend's hometown, so I thought we could stay for a few days and see where she grew up. In the previous post, I mentioned cutting off my long blue hair due to circumstances, and this was one of those "circumstances".
+Es war nicht wirklich eine bewusste Planung, aber durch Zufall wurde unsere Nationalfeiertagsreise nach Ordos in der Inneren Mongolei festgelegt. Einerseits wollte ich die große Wüste sehen (etwas, das ich als Südländer noch nicht gesehen hatte), und andererseits ist es die Heimatstadt meiner Freundin, also dachte ich, wir könnten ein paar Tage bleiben und sehen, wo sie aufgewachsen ist. Im vorherigen Beitrag erwähnte ich, dass ich mir aufgrund von Umständen meine langen blauen Haare abschneiden ließ, und dies war einer dieser "Umstände".
 
-We left at noon, and the three-hour high-speed train journey from Beijing was quite comfortable. I was a bit nervous and at a loss on the way, but I managed to capture a lot of interesting footage with my newly bought Sony ZV1 Mark II (all still on the SD card, haven't had time to sort through it yet - ~~let's focus on getting back to regular weekly reviews before thinking about vlogs~~). The climate and landscape of Inner Mongolia are indeed quite different from Jiangsu and Zhejiang, dry and windy, but with vast skies and high clouds, possessing a kind of clean beauty.
+Wir fuhren mittags los, und die dreistündige Hochgeschwindigkeitszugfahrt von Peking war recht komfortabel. Ich war auf dem Weg etwas nervös und ratlos, aber es gelang mir, viele interessante Aufnahmen mit meiner neu gekauften Sony ZV1 Mark II zu machen (alles noch auf der SD-Karte, hatte noch keine Zeit, es durchzusehen - ~~konzentrieren wir uns darauf, zu regelmäßigen wöchentlichen Rückschauen zurückzukehren, bevor wir an Vlogs denken~~). Das Klima und die Landschaft der Inneren Mongolei sind in der Tat ganz anders als in Jiangsu und Zhejiang, trocken und windig, aber mit weitem Himmel und hohen Wolken, eine Art saubere Schönheit besitzend.
 
-My girlfriend's parents came to pick us up, and we chatted casually along the way. Because I couldn't quite understand the dialect of Dalate Banner, and they didn't know how to explain some words in Mandarin, and since all four of us were English majors (my girlfriend's parents are English teachers, and although my girlfriend and I later strayed from our major, we also came from English backgrounds), we ended up with the curious scene of using English to explain dialect, leaving us with some interesting memory points.
+Die Eltern meiner Freundin kamen uns abholen, und wir plauderten zwanglos auf dem Weg. Weil ich den Dialekt von Dalate Banner nicht ganz verstehen konnte, und sie nicht wussten, wie sie einige Wörter auf Mandarin erklären sollten, und da wir alle vier Englisch-Absolventen waren (die Eltern meiner Freundin sind Englischlehrer, und obwohl meine Freundin und ich später von unserem Hauptfach abwichen, kamen wir auch aus einem englischen Hintergrund), endeten wir mit der kuriosen Szene, Englisch zu benutzen, um Dialekt zu erklären, was uns einige interessante Erinnerungspunkte hinterließ.
 
-Knowing I came from the south, they wanted to cater to my tastes, so on the first night, we went to a fishing village to eat Yellow River carp. Over the next few days, we met some relatives and friends, inevitably had a few drinks, but could really feel the warmth and hospitality that went beyond words. We went to the early morning market and ate a lot of beef and mutton and local specialties, which really satisfied my imagination of the Great Northwest.
+Da sie wussten, dass ich aus dem Süden kam, wollten sie sich meinem Geschmack anpassen, also gingen wir am ersten Abend in ein Fischerdorf, um Gelben-Fluss-Karpfen zu essen. In den nächsten Tagen trafen wir einige Verwandte und Freunde, tranken unvermeidlich ein paar Gläser, konnten aber wirklich die Wärme und Gastfreundschaft spüren, die über Worte hinausging. Wir gingen zum frühmorgendlichen Markt und aßen viel Rind- und Hammelfleisch und lokale Spezialitäten, was wirklich meine Vorstellung vom Großen Nordwesten befriedigte.
 
-We returned to Beijing a few days later, happy but indeed a bit tired. Perhaps my homebound self was still a bit drained from meeting so many people and doing so many things at once, but we recorded many interesting things and precious memory moments, so maybe we can look forward to a vlog.
+Wir kehrten ein paar Tage später nach Peking zurück, glücklich, aber in der Tat etwas erschöpft. Vielleicht war mein heimgebundenes Selbst noch etwas erschöpft davon, so viele Menschen zu treffen und so viele Dinge auf einmal zu tun, aber wir haben viele interessante Dinge und kostbare Erinnerungsmomente aufgezeichnet, also können wir uns vielleicht auf ein Vlog freuen.
 
-~~In the end, we didn't make it to the great desert. Why did I go to Inner Mongolia again?~~
+~~Am Ende haben wir es nicht in die große Wüste geschafft. Warum bin ich nochmal in die Innere Mongolei gefahren?~~
 
-## Trip to Aranya & 100 Days
+## Reise nach Aranya & 100 Tage
 
 ![boyi_anaya_01](https://image.pseudoyu.com/images/boyi_anaya_01.png)
 
-After returning to Beijing and resting for a day, because October 7th happened to be our 100th day together, we drove to Aranya in Qinhuangdao on the 6th. It's an interesting seaside community/resort. I think compared to digital nomad communities like Dali and Chiang Mai, the petite bourgeois atmosphere deliberately created here is stronger. Duplex houses, large lawns in front with families frolicking, occasional people riding bicycles passing by, and foreigners jogging, very cinematic.
+Nachdem wir nach Peking zurückgekehrt waren und einen Tag geruht hatten, fuhren wir am 6. nach Aranya in Qinhuangdao, weil der 7. Oktober zufällig unser 100. Tag zusammen war. Es ist eine interessante Küstengemeinde/Resort. Ich denke, im Vergleich zu digitalen Nomadengemeinden wie Dali und Chiang Mai ist die hier absichtlich geschaffene Petit-Bourgeois-Atmosphäre stärker. Doppelhäuser, große Rasenflächen davor mit spielenden Familien, gelegentlich vorbeiradelnde Menschen und joggenden Ausländer, sehr filmisch.
 
 ![boyi_anaya_02](https://image.pseudoyu.com/images/boyi_anaya_02.png)
 
-The hotel balcony directly overlooks the beach, and it's just a few steps to the internet-famous "Aranya Chapel" and "Lonely Library". However, my girlfriend and I didn't join the crowd for these popular spots. The library might indeed be lonely, but surrounded by tourists lining up to check in and take photos, there was a strange sense of dissonance. However, in today's world, it seems that being "photogenic" is its greatest value. What attracted us more was a row of swings on the beach, swinging back and forth watching the waves crash against the shore, very leisurely.
+Der Hotelbalkon überblickt direkt den Strand, und es sind nur ein paar Schritte zur internetberühmten "Aranya-Kapelle" und "Einsamen Bibliothek". Allerdings haben meine Freundin und ich uns nicht der Menge für diese beliebten Orte angeschlossen. Die Bibliothek mag in der Tat einsam sein, aber umgeben von Touristen, die sich anstellen, um einzuchecken und Fotos zu machen, gab es ein seltsames Gefühl der Dissonanz. In der heutigen Welt scheint jedoch "fotogen" zu sein ihr größter Wert zu sein. Was uns mehr anzog, war eine Reihe von Schaukeln am Strand, auf denen wir hin und her schwangen und zusahen, wie die Wellen gegen das Ufer schlugen, sehr gemächlich.
 
 ![boyi_anaya_03](https://image.pseudoyu.com/images/boyi_anaya_03.png)
 
-Since falling in love, there's been a feeling of both distance and closeness. It seems like we just got together a few days ago, yet it also feels like we've been together for a very long time. However, 100 days still has some sense of ceremony. My girlfriend secretly bought balloons in advance, and we commemorated with instant photos. Love is really a wonderful thing; even small daily occurrences become especially precious.
+Seit ich verliebt bin, gibt es ein Gefühl von sowohl Distanz als auch Nähe. Es scheint, als wären wir gerade erst vor ein paar Tagen zusammengekommen, aber es fühlt sich auch an, als wären wir schon sehr lange zusammen. Dennoch haben 100 Tage immer noch ein gewisses Gefühl der Zeremonie. Meine Freundin kaufte heimlich im Voraus Luftballons, und wir gedachten mit Sofortbildern. Liebe ist wirklich eine wunderbare Sache; selbst kleine tägliche Ereignisse werden besonders kostbar.
 
-## Chiang Mai Digital Nomads
+## Digitale Nomaden in Chiang Mai
 
-I had confirmed long ago that I would go to muChiangmai, a Web3 digital nomad co-living event, as a mentor. For details about the event, you can read my online neighbor ivy's article "Coder Migrates to the Ancient City Wall: muChiangmai Memories - ivyheretochill", which gives a detailed account of various experiences over a month. I only stayed for a short week and spent a lot of time in the hotel dealing with work, so I'll share more about life itself. This time, I tried to continuously update small essays on the Telegram channel "Yu's Life" to avoid forgetting, so I'll compile them here.
+Ich hatte schon lange bestätigt, dass ich als Mentor zu muChiangmai, einer Web3 Digital Nomad Co-Living-Veranstaltung, gehen würde. Für Details über die Veranstaltung können Sie den Artikel meiner Online-Nachbarin ivy "Programmierer migriert zur alten Stadtmauer: muChiangmai-Erinnerungen - ivyheretochill" lesen, der einen detaillierten Bericht über verschiedene Erfahrungen über einen Monat gibt. Ich blieb nur für eine kurze Woche und verbrachte viel Zeit im Hotel mit der Bearbeitung von Arbeit, also werde ich mehr über das Leben selbst teilen. Dieses Mal versuchte ich, kontinuierlich kleine Aufsätze auf dem Telegram-Kanal "Yu's Life" zu aktualisieren, um nicht zu vergessen, also werde ich sie hier zusammenstellen.
 
-### Arriving in Chiang Mai - 20231008
+### Ankunft in Chiang Mai - 20231008
 
 ![chiangmai_1008](https://image.pseudoyu.com/images/chiangmai_1008.jpg)
 
-After more than three years, I'm back in Chiang Mai. Last time was during the pandemic when I was sending Ni to Australia and needed to transit in a third country for 14 days. This time is mainly for a developer event, plus I still have quite a few work tasks, so I don't have any plans for sightseeing. I just packed lightly, carrying only one big bag when I set off.
+Nach mehr als drei Jahren bin ich wieder in Chiang Mai. Das letzte Mal war während der Pandemie, als ich Ni nach Australien schickte und 14 Tage in einem Drittland transitieren musste. Dieses Mal bin ich hauptsächlich für eine Entwicklerveranstaltung hier, und ich habe immer noch einige Arbeitsaufgaben, also habe ich keine Pläne für Besichtigungen. Ich packte nur leicht, trug nur eine große Tasche, als ich losfuhr.
 
-I chose a midnight flight, arriving in the morning. After visa-free entry, it was very convenient, just passing through with a passport, no additional procedures. After leaving the airport, I took a Bolt taxi to the hotel, checked in, freshened up, took out my laptop, and started working. Since I wasn't very hungry, I only thought about going out for a stroll when it was nearly evening and I had finished the tasks at hand. I'm staying near Tha Pae Gate, which is quite lively. I randomly chose a restaurant not too far away for my first meal here, and it was a pleasant surprise.
+Ich wählte einen Mitternachtsflug und kam am Morgen an. Nach der visumfreien Einreise war es sehr bequem, einfach mit einem Pass durchzugehen, keine zusätzlichen Verfahren. Nach Verlassen des Flughafens nahm ich ein Bolt-Taxi zum Hotel, checkte ein, frischte mich auf, nahm meinen Laptop heraus und begann zu arbeiten. Da ich nicht sehr hungrig war, dachte ich erst daran, einen Spaziergang zu machen, als es fast Abend war und ich die Aufgaben erledigt hatte, die ich zur Hand hatte. Ich wohne in der Nähe des Tha Pae-Tors, das recht lebhaft ist. Ich wählte zufällig ein Restaurant nicht allzu weit entfernt für meine erste Mahlzeit hier, und es war eine angenehme Überraschung.
 
-Actually, compared to holidays with large chunks of time deliberately arranged for travel, I prefer coming to places like Chiang Mai that don't give people too much of a sense of being in a foreign land. There's no need to switch roles or adjust my mindset like on a vacation. During the day, I still stay at home and work like before, and in the evening, if I feel like it, I look for small street-side restaurants to explore food. While changing environments adds some color to life, it also reduces the sense of invasion into life.
+Eigentlich bevorzuge ich im Vergleich zu Urlauben mit großen Zeitblöcken, die bewusst für Reisen arrangiert sind, Orte wie Chiang Mai, die den Menschen nicht zu sehr das Gefühl geben, in einem fremden Land zu sein. Es ist nicht nötig, Rollen zu wechseln oder meine Denkweise wie im Urlaub anzupassen. Tagsüber bleibe ich immer noch zu Hause und arbeite wie zuvor, und am Abend suche ich, wenn ich Lust habe, kleine Straßenrestaurants, um Essen zu erkunden. Während der Wechsel der Umgebung dem Leben etwas Farbe verleiht, reduziert er auch das Gefühl der Invasion ins Leben.
 
-### Kindness Hidden in the Corners of Life - 20231009
+### Güte in den Ecken des Lebens verborgen - 20231009
 
 ![chaingmai_1009](https://image.pseudoyu.com/images/chaingmai_1009.jpg)
 
-Today I didn't have any extra plans either, just stayed in the hotel working. At noon, I thought I should go out for a stroll, so I chose a local small restaurant called "Sailomjoy Restaurant". Based on my impression of Thai food, I ordered stir-fried morning glory and rice noodles, which were delicious. I feel like I've always had some luck in blindly choosing good food.
+Heute hatte ich auch keine zusätzlichen Pläne, blieb einfach im Hotel und arbeitete. Mittags dachte ich, ich sollte einen Spaziergang machen, also wählte ich ein kleines lokales Restaurant namens "Sailomjoy Restaurant". Basierend auf meinem Eindruck von thailändischem Essen bestellte ich gebratenen Wasserspinat und Reisnudeln, die köstlich waren. Ich habe das Gefühl, dass ich immer Glück hatte, wenn ich blind gutes Essen auswählte.
 
-The restaurant was quite busy at lunchtime, so I chose a corner seat to sit alone and eat. A guy with a very pure British accent came over with a plate, pointed at the sauce on my table, and said, "May I?" After adding it, he smiled and said to me, "Thank you! Enjoy!" My mood instantly lifted.
+Das Restaurant war zur Mittagszeit recht voll, also wählte ich einen Ecksitz, um allein zu sitzen und zu essen. Ein Typ mit einem sehr reinen britischen Akzent kam mit einem Teller herüber, zeigte auf die Sauce auf meinem Tisch und sagte: "Darf ich?" Nachdem er sie hinzugefügt hatte, lächelte er und sagte zu mir: "Danke! Guten Appetit!" Meine Stimmung hob sich sofort.
 
-I remember when I first moved into a small, dark rented room in Hong Kong, I felt very depressed. Every day I would return home late from the library, and I hadn't gotten around to fixing the broken light in the room. I mentioned it to the landlady, and when I returned home that night, I found it fixed, with an apple and a note on the table that read "Light fix". It seemed that suddenly, the time in this rented room, along with my entire life, brightened up along with the fixed light.
+Ich erinnere mich, als ich zum ersten Mal in ein kleines, dunkles gemietetes Zimmer in Hongkong zog, fühlte ich mich sehr deprimiert. Jeden Tag kehrte ich spät aus der Bibliothek nach Hause zurück, und ich hatte es noch nicht geschafft, das kaputte Licht im Zimmer zu reparieren. Ich erwähnte es der Vermieterin, und als ich an diesem Abend nach Hause kam, fand ich es repariert vor, mit einem Apfel und einer Notiz auf dem Tisch, auf der stand "Licht repariert". Es schien, als ob plötzlich die Zeit in diesem gemieteten Zimmer, zusammen mit meinem ganzen Leben, sich zusammen mit dem reparierten Licht aufhellte.
 
-I also remember attending a concert in Beijing earlier this year. As I was navigating through the crowd to find my seat, a handsome guy said to his companion, "I love his hair! It's cool." It seems that foreigners are more willing to express their kindness towards others and the world through their words.
+Ich erinnere mich auch daran, dass ich Anfang dieses Jahres ein Konzert in Peking besuchte. Als ich mich durch die Menge navigierte, um meinen Platz zu finden, sagte ein gutaussehender Typ zu seinem Begleiter: "Ich liebe seine Haare! Sie sind cool." Es scheint, dass Ausländer eher bereit sind, ihre Freundlichkeit gegenüber anderen und der Welt durch ihre Worte auszudrücken.
 
-I feel like I've always liked and appreciated these little moments of happiness hidden in the corners of life. When making personal plans, I also added a point about "random kindness", hoping that I can also bring some changes to others, more or less.
+Ich habe das Gefühl, dass ich diese kleinen Momente des Glücks, die in den Ecken des Lebens verborgen sind, immer gemocht und geschätzt habe. Bei der Erstellung persönlicher Pläne habe ich auch einen Punkt über "zufällige Freundlichkeit" hinzugefügt, in der Hoffnung, dass ich auch anderen mehr oder weniger Veränderungen bringen kann.
 
-### Memory Randomly Connects - 20231010
+### Erinnerung verbindet zufällig - 20231010
 
 ![chiangmai_1010](https://image.pseudoyu.com/images/chiangmai_1010.jpg)
 
-Today was another day where I didn't go out for most of it. Around 4 pm, I was really hungry, and I had a team meeting in the evening, so I went out early to find food. Suddenly I felt like eating Western food, so I chose an Italian restaurant called "Pulcinella da Stefano" a few hundred meters from the hotel.
+Heute war wieder ein Tag, an dem ich die meiste Zeit nicht ausgegangen bin. Gegen 16 Uhr war ich wirklich hungrig, und ich hatte am Abend ein Teammeeting, also ging ich früh raus, um Essen zu finden. Plötzlich hatte ich Lust auf westliches Essen, also wählte ich ein italienisches Restaurant namens "Pulcinella da Stefano" ein paar hundert Meter vom Hotel entfernt.
 
-After entering, I randomly chose a seat by the side. As I picked up the menu and glanced at it, a strange sense of familiarity came over me. Suddenly I remembered that I might have eaten at this place when I came to Tha Pae Gate three years ago, and I even found the "Milan-style braised veal shank" that I thought was very novel at the time. Indeed, I was even sitting in the same spot as today. It's quite amazing.
+Nach dem Betreten wählte ich zufällig einen Seitenplatz. Als ich die Speisekarte aufhob und einen Blick darauf warf, überkam mich ein seltsames Gefühl der Vertrautheit. Plötzlich erinnerte ich mich, dass ich vielleicht in diesem Lokal gegessen hatte, als ich vor drei Jahren zum Tha Pae-Tor kam, und ich fand sogar die "Mailänder geschmorte Kalbshaxe", die ich damals für sehr neuartig hielt. Tatsächlich saß ich sogar an derselben Stelle wie heute. Es ist ziemlich erstaunlich.
 
-I always thought I had been to many places and changed a lot in these few years, but often there are moments that randomly connect me with memories from the past. Some might be inconspicuous objects or very subtle feelings, but they give me a sense of time flowing slowly.
+Ich dachte immer, ich sei in diesen wenigen Jahren an vielen Orten gewesen und hätte mich viel verändert, aber oft gibt es Momente, die mich zufällig mit Erinnerungen aus der Vergangenheit verbinden. Einige mögen unauffällige Objekte oder sehr subtile Gefühle sein, aber sie geben mir ein Gefühl von langsam fließender Zeit.
 
-But really, one shouldn't order food when very hungry. You'll definitely order too much. I'll try to go out for lunch tomorrow.
+Aber wirklich, man sollte kein Essen bestellen, wenn man sehr hungrig ist. Man wird definitiv zu viel bestellen. Ich werde versuchen, morgen zum Mittagessen auszugehen.
 
-### Short Essays and Compilations - 20231011
+### Kurze Aufsätze und Zusammenstellungen - 20231011
 
 ![chiangmai_1012](https://image.pseudoyu.com/images/chiangmai_1012.jpg)
 
-Before the National Day holiday, I put aside the weekly review due to being busy with some work tasks, then went through the holiday, then came to Chiang Mai, and a series of arrangements. When I wanted to write again, I had lost the mood to record at that time, but not updating for so long brought a lot of psychological pressure. It always felt like something was left hanging in my heart, but I didn't want to perfunctorily get it over with.
+Vor dem Nationalfeiertag legte ich die wöchentliche Rückschau beiseite, weil ich mit einigen Arbeitsaufgaben beschäftigt war, dann ging ich durch den Feiertag, dann kam ich nach Chiang Mai, und eine Reihe von Arrangements. Als ich wieder schreiben wollte, hatte ich die Stimmung verloren, zu diesem Zeitpunkt aufzuzeichnen, aber so lange nicht zu aktualisieren, brachte viel psychologischen Druck. Es fühlte sich immer an, als ob etwas in meinem Herzen unerfüllt blieb, aber ich wollte es nicht oberflächlich erledigen.
 
-Actually, the mood to share has a timeliness, just like having an interesting dream right after waking up, it's fleeting. Suddenly I saw @strrlthedev's "Gap Year Wrapped - Timeline", and it occurred to me that I could actually record some things every day/period of time, write some short essays, and then do a compiled weekly review on the weekend plus some overall thoughts. This would reduce the pressure of large blocks of time brought by weekly reviews, while also capturing some interesting ideas. Consider the channel as a preview.
+Eigentlich hat die Stimmung zum Teilen eine Aktualität, genau wie wenn man direkt nach dem Aufwachen einen interessanten Traum hat, ist es flüchtig. Plötzlich sah ich @strrlthedevs "Gap Year Wrapped - Timeline", und es fiel mir ein, dass ich tatsächlich jeden Tag/Zeitraum einige Dinge aufzeichnen, einige kurze Aufsätze schreiben und dann am Wochenende eine zusammengestellte wöchentliche Rückschau plus einige Gesamtgedanken machen könnte. Dies würde den Druck großer Zeitblöcke, die wöchentliche Rückschauen mit sich bringen, reduzieren und gleichzeitig einige interessante Ideen einfangen. Betrachten Sie den Kanal als eine Vorschau.
 
-By the way, let me add yesterday's record. It was a day of failed attempts to go out and eat normally. I still worked in the hotel, still only ate one meal, but it was still very delicious, called "Kat's Kitchen", Thai cuisine.
+Übrigens, lassen Sie mich die gestrige Aufzeichnung hinzufügen. Es war ein Tag erfolgloser Versuche, normal auszugehen und zu essen. Ich arbeitete immer noch im Hotel, aß immer noch nur eine Mahlzeit, aber es war immer noch sehr lecker, hieß "Kat's Kitchen", thailändische Küche.
 
 ### Coworking - 20231012
 
 ![chiangmai_1012_2](https://image.pseudoyu.com/images/chiangmai_1012_2.jpg)
 
-Although the main purpose this time was muChiangmai, it wasn't until the afternoon that I first went to the PunSpace venue. The event organizers and OpenBuild colleagues warmly came to pick me up and tell me about some event matters. It turns out this is that kind of large public space where everyone works together. The network and environment are good, with a strong tech atmosphere. If I had known earlier, I would have come over to play together for the past few days. I feel like work efficiency is quite high, and I even met online neighbors like ivyFanshao and CaptainZ! Happy!
+Obwohl der Hauptzweck dieses Mal muChiangmai war, ging ich erst am Nachmittag zum ersten Mal zum PunSpace-Veranstaltungsort. Die Veranstalter und OpenBuild-Kollegen kamen warmherzig, um mich abzuholen und mir einige Veranstaltungsangelegenheiten zu erzählen. Es stellt sich heraus, dass dies eine Art großer öffentlicher Raum ist, in dem alle zusammen arbeiten. Das Netzwerk und die Umgebung sind gut, mit einer starken Tech-Atmosphäre. Wenn ich es früher gewusst hätte, wäre ich in den letzten Tagen hergekommen, um gemeinsam zu spielen. Ich habe das Gefühl, dass die Arbeitseffizienz ziemlich hoch ist, und ich traf sogar Online-Nachbarn wie ivyFanshao und CaptainZ! Glücklich!
 
-I've been working remotely for more than half a year now, and although the time arrangement is very free, sometimes when I stay by myself for too long, I fall into a kind of low-pressure state. It's not about emotions, it just seems like my perception of the world is diminished, like the lonely feeling of suddenly waking up from an afternoon nap to find that the sky outside has already darkened. So sometimes I actively seek some changes, like taking an hour-long subway ride every Thursday to Liangzhu Village in Hangzhou to work together with others, or changing environments like this to feel the flow of life.
+Ich arbeite jetzt seit mehr als einem halben Jahr remote, und obwohl die Zeitgestaltung sehr frei ist, falle ich manchmal, wenn ich zu lange allein bleibe, in einen Zustand niedriger Spannung. Es geht nicht um Emotionen, es scheint nur, als ob meine Wahrnehmung der Welt vermindert ist, wie das einsame Gefühl, plötzlich aus einem Mittagsschlaf aufzuwachen und festzustellen, dass der Himmel draußen bereits dunkel geworden ist. Also suche ich manchmal aktiv nach einigen Veränderungen, wie eine einstündige U-Bahn-Fahrt jeden Donnerstag zum Liangzhu-Dorf in Hangzhou, um mit anderen zusammenzuarbeiten, oder Umgebungswechsel wie dieser, um den Fluss des Lebens zu spüren.
 
-In the evening, I went to eat at a restaurant I had been to on the first night, "Airniversary". Last time I had Thai food, today I tried completely different dishes, steak with Thai sweet and spicy sauce and a super large coconut (strange way of eating), unexpectedly delicious.
+Am Abend ging ich in ein Restaurant, in dem ich am ersten Abend gewesen war, "Airniversary". Letztes Mal hatte ich thailändisches Essen, heute probierte ich völlig andere Gerichte, Steak mit thailändischer süß-scharfer Sauce und eine super große Kokosnuss (seltsame Art zu essen), unerwartet lecker.
 
-### Fixing a Small Bug All Day 🤡 - 20231013
+### Den ganzen Tag einen kleinen Fehler beheben 🤡 - 20231013
 
 ![chiangmai_1013](https://image.pseudoyu.com/images/chiangmai_1013.jpg)
 
-I woke up from a nightmare at around 5 am today and thought I might as well get up and work. Just then, a colleague in the US saw that I was online and asked me to help solve a bug together. Because I'm not very familiar with this repository, it took time to set up the environment and debug. In between, I had a quarterly meeting and did some other work. It dragged on until now before it was truly resolved. Spending a whole day fixing one lousy bug 🤣
+Ich wachte heute gegen 5 Uhr morgens aus einem Albtraum auf und dachte, ich könnte genauso gut aufstehen und arbeiten. Genau dann sah ein Kollege in den USA, dass ich online war, und bat mich, gemeinsam einen Fehler zu lösen. Da ich mit diesem Repository nicht sehr vertraut bin, brauchte es Zeit, die Umgebung einzurichten und zu debuggen. Zwischendurch hatte ich ein Quartalstreffen und erledigte einige andere Arbeiten. Es zog sich bis jetzt hin, bevor es wirklich gelöst war. Einen ganzen Tag damit zu verbringen, einen lausigen Fehler zu beheben 🤣
 
-I took some time at noon to eat some mango sticky rice, delicious!
+Ich nahm mir mittags etwas Zeit, um Klebreis mit Mango zu essen, lecker!
 
-A long week has ended, but because there's a urgent project next week, I'll be working overtime on the weekend, catching up on the weekly review, and preparing for Monday's workshop. Busy.
+Eine lange Woche ist zu Ende gegangen, aber weil es nächste Woche ein dringendes Projekt gibt, werde ich am Wochenende Überstunden machen, die wöchentliche Rückschau nachholen und mich auf den Workshop am Montag vorbereiten. Beschäftigt.
 
 ### The Lost Book Shop - 20231014
 
 ![chiangmai_1014](https://image.pseudoyu.com/images/chiangmai_1014.jpg)
 
-I went to a second-hand bookstore on the street called "The Lost Book Shop". True to its name, it's very vintage. The first floor is narrow but orderly, and after climbing a staircase, there's a suddenly spacious second floor. As a Maugham fan, I really love this series' cover design and binding. I somewhat regret only bringing a bag and not a suitcase, as I can't carry many things. After much deliberation, besides "The Razor's Edge", I chose a few books I haven't read before.
+Ich ging in einen Secondhand-Buchladen auf der Straße namens "The Lost Book Shop". Seinem Namen entsprechend ist er sehr vintage. Der erste Stock ist eng, aber ordentlich, und nach dem Erklimmen einer Treppe gibt es einen plötzlich geräumigen zweiten Stock. Als Maugham-Fan liebe ich wirklich das Cover-Design und den Einband dieser Serie. Ich bereue es etwas, nur eine Tasche und keinen Koffer mitgebracht zu haben, da ich nicht viele Dinge tragen kann. Nach langer Überlegung wählte ich neben "The Razor's Edge" ein paar Bücher aus, die ich noch nicht gelesen habe.
 
-### Eat Well Today Too - 20231015
+### Heute auch gut gegessen - 20231015
 
 ![chiangmai_1014_2](https://image.pseudoyu.com/images/chiangmai_1014_2.jpg)
 
-I decided to go out more on the weekend. As a southerner, I really can't resist the temptation of seafood. I found a very local restaurant called "Maadae Slow Fish Kitchen" on TripAdvisor. The ingredients were very fresh, and the sauces were unique. After eating, I took a walk and went to a second-hand bookstore called "The Lost Book Shop" and bought some books by Maugham. In the evening, I went to another local restaurant called "Nun's Restaurant" and had curry noodles. After eating, there was a bit of a downpour, and while taking shelter from the rain in 7-11, I also ordered a pancake from a street food stall, which was a bit sweet but tasted good.
+Ich beschloss, am Wochenende mehr auszugehen. Als Südländer kann ich der Versuchung von Meeresfrüchten wirklich nicht widerstehen. Ich fand auf TripAdvisor ein sehr lokales Restaurant namens "Maadae Slow Fish Kitchen". Die Zutaten waren sehr frisch, und die Saucen waren einzigartig. Nach dem Essen machte ich einen Spaziergang und ging in einen Secondhand-Buchladen namens "The Lost Book Shop" und kaufte einige Bücher von Maugham. Am Abend ging ich in ein anderes lokales Restaurant namens "Nun's Restaurant" und aß Currynudeln. Nach dem Essen gab es einen kleinen Regenschauer, und während ich im 7-11 Schutz vor dem Regen suchte, bestellte ich auch einen Pfannkuchen von einem Straßenessen-Stand, der etwas süß war, aber gut schmeckte.
 
 ![chiangmai_1014_3](https://image.pseudoyu.com/images/chiangmai_1014_3.jpg)
 
-I guess it started from a Japanese drama mix I saw a long time ago called "Eat Well Today Too". Due to my living habits, I can't say I eat regularly, but I have a special sense of ritual towards good food. I will record and feel it.
+Ich denke, es begann mit einem japanischen Drama-Mix, den ich vor langer Zeit sah, genannt "Iss auch heute gut". Aufgrund meiner Lebensgewohnheiten kann ich nicht sagen, dass ich regelmäßig esse, aber ich habe ein besonderes Gefühl der Zeremonie für gutes Essen. Ich werde es aufzeichnen und fühlen.
 
 ![chiangmai_1014_4](https://image.pseudoyu.com/images/chiangmai_1014_4.jpg)
 
-"Whether in moments of health, illness, satisfaction, or loneliness, please have a good meal. Both body and mind will be healed." -- "Taberu Onna" (The Woman Who Eats)
+"Ob in Momenten der Gesundheit, Krankheit, Zufriedenheit oder Einsamkeit, bitte iss eine gute Mahlzeit. Sowohl Körper als auch Geist werden geheilt werden." -- "Taberu Onna" (Die Frau, die isst)
 
-### Recounting an English Workshop | Goodbye Chiang Mai - 20231016
+### Rückblick auf einen englischen Workshop | Auf Wiedersehen Chiang Mai - 20231016
 
 ![chiangmai_1016](https://image.pseudoyu.com/images/chiangmai_1016.jpg)
 
-I feel like I haven't spoken English for long stretches since graduating from Hong Kong. This time, to challenge myself (and get free accommodation), I applied to be a mentor at the muChiangmai event, mainly to host a two-hour Solidity workshop. But I was so busy last week that I only started preparing on Sunday night. After going out to eat, I came back and slept until one in the morning, got up to revise the PPT + write the demo until about six, slept for a while, then continued revising until the afternoon.
+Ich habe das Gefühl, dass ich seit meinem Abschluss in Hongkong nicht mehr lange Strecken Englisch gesprochen habe. Dieses Mal bewarb ich mich, um mich selbst herauszufordern (und eine kostenlose Unterkunft zu bekommen), als Mentor bei der muChiangmai-Veranstaltung, hauptsächlich um einen zweistündigen Solidity-Workshop zu leiten. Aber ich war letzte Woche so beschäftigt, dass ich erst am Sonntagabend anfing vorzubereiten. Nachdem ich ausgegangen war, um zu essen, kam ich zurück und schlief bis ein Uhr morgens, stand auf, um die PPT zu überarbeiten + das Demo zu schreiben bis etwa sechs Uhr, schlief eine Weile, dann überarbeitete ich weiter bis zum Nachmittag.
 
 ![chiangmai_1016_2](https://image.pseudoyu.com/images/chiangmai_1016_2.jpg)
 
-The workshop was in a small conference room, not many people but it was packed full, the atmosphere was good. I was still very nervous, feeling that my English was still a bit stumbling, but at least I didn't get stuck. I managed to cover everything I wanted to explain and express, so it counts as a small challenge. After it ended, I went to Chiang Mai University night market with some online neighbors, probably had my last meal in Chiang Mai this time, then hurriedly took a Bolt back to the hotel for a team meeting.
+Der Workshop fand in einem kleinen Konferenzraum statt, nicht viele Leute, aber er war voll gepackt, die Atmosphäre war gut. Ich war immer noch sehr nervös, hatte das Gefühl, dass mein Englisch immer noch ein bisschen stolperte, aber zumindest bin ich nicht stecken geblieben. Ich schaffte es, alles zu behandeln, was ich erklären und ausdrücken wollte, also zählt es als eine kleine Herausforderung. Nachdem es vorbei war, ging ich mit einigen Online-Nachbarn zum Nachtmarkt der Chiang Mai Universität, aß wahrscheinlich meine letzte Mahlzeit dieses Mal in Chiang Mai, dann nahm ich eilig einen Bolt zurück zum Hotel für ein Teammeeting.
 
-I have a flight at 6 am tomorrow morning, planning to go to the airport at night to catch up on the work and weekly review I missed during the day. Goodbye, Chiang Mai.
+Ich habe morgen früh um 6 Uhr einen Flug, plane, nachts zum Flughafen zu gehen, um die Arbeit und die wöchentliche Rückschau nachzuholen, die ich tagsüber verpasst habe. Auf Wiedersehen, Chiang Mai.
 
-## Hangzhou Life Snippets
+## Lebensschnipsel in Hangzhou
 
-### Reuniting with Old Friends
+### Wiedersehen mit alten Freunden
 
-Originally, I might have stayed longer in Chiang Mai, but Xiaoyu came back from Japan, only staying for a few days. The last time we met, the pandemic hadn't even started yet. Time really flies. We've known each other since high school in 2012, and now it's been over ten years of friendship. As we slowly grow up, we have fewer and fewer friends, but those who remain are all the more precious. Even after not seeing each other for years, we hardly feel any estrangement. We ate together, went home to see Nini, talked about many ideas, and also mentioned many small things from the past. It's really nice.
+Ursprünglich hätte ich vielleicht länger in Chiang Mai bleiben können, aber Xiaoyu kam aus Japan zurück und blieb nur für ein paar Tage. Das letzte Mal, als wir uns trafen, hatte die Pandemie noch nicht einmal begonnen. Die Zeit vergeht wirklich schnell. Wir kennen uns seit der Oberschule 2012, und jetzt sind es über zehn Jahre Freundschaft. Während wir langsam erwachsen werden, haben wir immer weniger Freunde, aber diejenigen, die bleiben, sind umso kostbarer. Selbst nachdem wir uns jahrelang nicht gesehen haben, fühlen wir kaum eine Entfremdung. Wir aßen zusammen, gingen nach Hause, um Nini zu sehen, sprachen über viele Ideen und erwähnten auch viele kleine Dinge aus der Vergangenheit. Es ist wirklich schön.
 
-### Classmate's Wedding
+### Hochzeit eines Klassenkameraden
 
-This is probably the second wedding I've attended, and also the second time I wasn't chosen as a groomsman due to my long/blue hair, haha. It was my high school deskmate, who has always been a steady and thorough person, and of course, arranged this major life event very meticulously. I took this opportunity to have dinner with my high school male classmates. Because there were very few boys in the liberal arts class, 8 boys and 40 girls, we instead formed a deeper friendship. Until the pandemic, we would gather twice a year after graduation. Even though we're now scattered and drifting, we still maintain some contact. After the wedding, we went to the next event.
+Dies ist wahrscheinlich die zweite Hochzeit, an der ich teilgenommen habe, und auch das zweite Mal, dass ich aufgrund meiner langen/blauen Haare nicht als Trauzeuge ausgewählt wurde, haha. Es war mein Sitznachbar aus der Oberschule, der schon immer eine stetige und gründliche Person war, und natürlich arrangierte er dieses große Lebensereignis sehr sorgfältig. Ich nutzte diese Gelegenheit, um mit meinen männlichen Klassenkameraden aus der Oberschule zu Abend zu essen. Weil es sehr wenige Jungen in der Geisteswissenschaftsklasse gab, 8 Jungen und 40 Mädchen, bildeten wir stattdessen eine tiefere Freundschaft. Bis zur Pandemie trafen wir uns nach dem Abschluss zweimal im Jahr. Auch wenn wir jetzt verstreut und umherziehend sind, halten wir immer noch einigen Kontakt aufrecht. Nach der Hochzeit gingen wir zur nächsten Veranstaltung.
 
-## Life Changes and Nini
+## Lebensveränderungen und Nini
 
-Some things happened in the family this week. My grandmother, who is already 80 years old, was hit by a car while walking in our hometown. She stayed in the ICU for eight days. Fortunately, her life wasn't in danger, but she broke more than a dozen ribs, and her lungs were also affected. According to the doctor, she might never be able to stand up again. I spent my childhood in my hometown and grew up around them. In the past two years, I've experienced my maternal grandmother's passing, as well as various major and minor accidents or illnesses of my grandparents. It seems I've reached this stage of life now, sad but helpless.
+Diese Woche passierten einige Dinge in der Familie. Meine Großmutter, die bereits 80 Jahre alt ist, wurde beim Spazierengehen in unserer Heimatstadt von einem Auto angefahren. Sie blieb acht Tage auf der Intensivstation. Glücklicherweise war ihr Leben nicht in Gefahr, aber sie brach mehr als ein Dutzend Rippen, und ihre Lungen waren auch betroffen. Laut dem Arzt könnte sie vielleicht nie wieder aufstehen. Ich verbrachte meine Kindheit in meiner Heimatstadt und wuchs in ihrer Umgebung auf. In den letzten zwei Jahren habe ich den Tod meiner Großmutter mütterlicherseits erlebt, sowie verschiedene größere und kleinere Unfälle oder Krankheiten meiner Großeltern. Es scheint, als hätte ich jetzt diese Lebensphase erreicht, traurig, aber hilflos.
 
-My parents and relatives have been traveling back and forth between Hangzhou and our hometown in Jiangsu, taking turns to care for her in the hospital and discussing future arrangements. Previously, because I was often traveling between two cities, Nini was cared for by my parents and my sister at home. But due to this incident, I didn't want to add to their worries, so I found a familiar pet transportation company and had Nini travel over 1,200 kilometers back to Beijing in a small car. It was just in time as the weather was turning cooler, and any later I would have been more worried about the journey.
+Meine Eltern und Verwandten sind zwischen Hangzhou und unserer Heimatstadt in Jiangsu hin und her gereist, um sich abwechselnd im Krankenhaus um sie zu kümmern und zukünftige Arrangements zu besprechen. Zuvor wurde Nini, weil ich oft zwischen zwei Städten pendelte, von meinen Eltern und meiner Schwester zu Hause betreut. Aber aufgrund dieses Vorfalls wollte ich ihre Sorgen nicht noch vergrößern, also fand ich eine vertraute Haustiertransportfirma und ließ Nini über 1.200 Kilometer in einem kleinen Auto zurück nach Peking reisen. Es war gerade rechtzeitig, als das Wetter kühler wurde, und später hätte ich mir mehr Sorgen um die Reise gemacht.
 
 ![two_cats_in_beijing](https://image.pseudoyu.com/images/two_cats_in_beijing.jpg)
 
-Everything went smoothly and arrived in Beijing. I went to pick her up and bring her home. Because she had stayed at my girlfriend's place for a while before, there wasn't much stress, and after a day or two of adjustment, she gradually became familiar with my girlfriend's little cat, Fanfan. I didn't expect to be able to live this intermittent life with two people and two cats.
+Alles verlief reibungslos und kam in Peking an. Ich ging, um sie abzuholen und nach Hause zu bringen. Weil sie vorher eine Weile bei meiner Freundin geblieben war, gab es nicht viel Stress, und nach ein oder zwei Tagen der Anpassung wurde sie allmählich mit der kleinen Katze meiner Freundin, Fanfan, vertraut. Ich hätte nicht erwartet, dieses intermittierende Leben mit zwei Menschen und zwei Katzen leben zu können.
 
-Later on, I'll be able to spend more time with Nini again, and I'll share more daily life photos.
+Später werde ich mehr Zeit mit Nini verbringen können, und ich werde mehr Fotos vom täglichen Leben teilen.
 
-## Life Adjustments and State of Mind
+## Lebensanpassungen und Geisteszustand
 
-Actually, from late September, I was somewhat dissatisfied with various aspects of myself, even to the point of feeling a bit dejected. I often felt that my work state wasn't good, whether in terms of work efficiency or focus. It took several conversations with my team leader before gradually getting back on track.
+Tatsächlich war ich ab Ende September mit verschiedenen Aspekten meiner selbst etwas unzufrieden, sogar bis zu dem Punkt, dass ich mich ein bisschen niedergeschlagen fühlte. Ich hatte oft das Gefühl, dass mein Arbeitszustand nicht gut war, weder in Bezug auf die Arbeitseffizienz noch auf die Konzentration. Es brauchte mehrere Gespräche mit meinem Teamleiter, bevor ich allmählich wieder auf Kurs kam.
 
-In terms of input, there was some stagnation. The list of books, articles, and movies I wanted to read and watch kept getting longer, but I often found it hard to regain that focused state I had before. Sometimes I would even space out for a long time. As for the weekly review, there was actually no shortage of content to write about, but every time I opened the document, I felt a bit anxious. It seemed I hadn't read much, my learning progress wasn't as good as I hoped, and the things I shared felt a bit superficial.
+In Bezug auf den Input gab es eine gewisse Stagnation. Die Liste der Bücher, Artikel und Filme, die ich lesen und anschauen wollte, wurde immer länger, aber ich fand es oft schwierig, diesen konzentrierten Zustand wiederzuerlangen, den ich früher hatte. Manchmal würde ich sogar für lange Zeit ins Leere starren. Was die wöchentliche Rückschau betrifft, gab es tatsächlich keinen Mangel an Inhalten zum Schreiben, aber jedes Mal, wenn ich das Dokument öffnete, fühlte ich mich ein bisschen ängstlich. Es schien, als hätte ich nicht viel gelesen, mein Lernfortschritt war nicht so gut wie erhofft, und die Dinge, die ich teilte, fühlten sich ein bisschen oberflächlich an.
 
-There were many, many negative emotions brought about by anxiety, depression, and insecurity. And I seem to be a person without much emotional outlet, unable to get release from momentary stimulation of the body and brain like sports or games. I could only force myself to continue reading some things, going round in circles. Going to Chiang Mai was more about giving myself an opportunity to adjust my life state rather than attending an event. Although relying on the environment seems to be a rather tricky option, it was indeed effective.
+Es gab viele, viele negative Emotionen, die durch Angst, Depression und Unsicherheit hervorgerufen wurden. Und ich scheine eine Person ohne viel emotionalen Auslass zu sein, unfähig, Erleichterung durch momentane Stimulation von Körper und Gehirn wie Sport oder Spiele zu bekommen. Ich konnte mich nur zwingen, weiterhin einige Dinge zu lesen, im Kreis zu gehen. Nach Chiang Mai zu gehen, war mehr eine Gelegenheit, mir selbst die Möglichkeit zu geben, meinen Lebenszustand anzupassen, als an einer Veranstaltung teilzunehmen. Obwohl es eine ziemlich heikle Option zu sein scheint, sich auf die Umgebung zu verlassen, war es in der Tat effektiv.
 
 ![daily_cook_1107](https://image.pseudoyu.com/images/daily_cook_1107.png)
 
-After coming back, I seem to have regained some motivation. I started going to the gym with my girlfriend twice a week (7 am on weekdays and afternoons on weekends) for personal training sessions. I can feel the improvement in mental state brought about by a healthy body. I also started cooking for myself regularly, finding that I quite enjoy the process of following cooking videos step by step. It seems to have become a special way of relieving stress.
+Nach meiner Rückkehr scheint es, als hätte ich etwas Motivation wiedererlangt. Ich begann, zweimal pro Woche mit meiner Freundin ins Fitnessstudio zu gehen (7 Uhr an Wochentagen und nachmittags an Wochenenden) für persönliche Trainingssitzungen. Ich kann die Verbesserung des geistigen Zustands spüren, die ein gesunder Körper mit sich bringt. Ich fing auch an, regelmäßig für mich selbst zu kochen, und stellte fest, dass ich den Prozess, Schritt für Schritt Kochvideos zu folgen, ziemlich genieße. Es scheint zu einer besonderen Art geworden zu sein, Stress abzubauen.
 
-Thanks to [Xiao](https://twitter.com/gxgexiao) for kindly providing Yangcheng Lake hairy crabs, it was a great extra meal!
+Danke an [Xiao](https://twitter.com/gxgexiao) für die freundliche Bereitstellung von Yangcheng-See-Krabben, es war eine großartige zusätzliche Mahlzeit!
 
 ### Input
 
-Although most interesting inputs are automatically synchronized on the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch auf dem Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen, um sie aufzulisten. Es fühlt sich mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- **Building a Second Brain**, continuing to read.
-- **Elon Musk**, an anticipated biography, just started browsing a little.
-- **Don Fernando**, looking forward to Maugham's sharp comments.
+- **Building a Second Brain**, lese ich weiter.
+- **Elon Musk**, eine erwartete Biografie, habe gerade angefangen, ein wenig darin zu blättern.
+- **Don Fernando**, freue mich auf Maughams scharfe Kommentare.
 
-#### Articles
+#### Artikel
 
-- [ChatGPT Application Development and Reflections](https://guangzhengli.com/blog/zh/gpt-embeddings/)
-- [GPT best practices - OpenAI API](https://platform.openai.com/docs/guides/gpt-best-practices)
-- [Notes on Opening Hong Kong Bank Accounts (Including Physical Banks and Virtual Banks)](https://www.owenyoung.com/blog/hongkong-bank-account/)
-- [Why Rust is the most admired language among developers - The GitHub Blog](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
-- [Complete Introduction to Heptabase - The Visual Learning Software Based on Cards and Whiteboards That Best Allows You to Enter Flow - Pin It!](https://pinchlime.com/heptabase-introduction/)
-- [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!) @ tonsky.me](https://tonsky.me/blog/unicode/)
-- [How to optimize garbage collection in Go](https://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/)
+- [ChatGPT-Anwendungsentwicklung und Reflexionen](https://guangzhengli.com/blog/zh/gpt-embeddings/)
+- [GPT Best Practices - OpenAI API](https://platform.openai.com/docs/guides/gpt-best-practices)
+- [Notizen zum Eröffnen von Hongkonger Bankkonten (einschließlich physischer Banken und virtueller Banken)](https://www.owenyoung.com/blog/hongkong-bank-account/)
+- [Warum Rust die am meisten bewunderte Sprache unter Entwicklern ist - Der GitHub Blog](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
+- [Vollständige Einführung in Heptabase - Die visuelle Lernsoftware basierend auf Karten und Whiteboards, die es Ihnen am besten ermöglicht, in den Flow einzutreten - Pin It!](https://pinchlime.com/heptabase-introduction/)
+- [Das absolute Minimum, das jeder Softwareentwickler 2023 über Unicode wissen muss (Immer noch keine Ausreden!) @ tonsky.me](https://tonsky.me/blog/unicode/)
+- [Wie man die Garbage Collection in Go optimiert](https://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/)
 - [Gap Year Wrapped - Timeline](https://strrl.dev/post/2023/gap-year-wrapped-timeline/)
-- [What is Congestion Control Algorithm, and What is ECN? – Yachen's Blog](https://yach.me/2023/10/14/ccn-and-ecn/)
-- [Goodbye Movie Drought: A Complete Guide to Watching Japanese Films - Sspai](https://sspai.com/post/83412)
-- [Coder Migrates to the Ancient City Wall: muChiangmai Memories - ivyheretochill](https://ivyheretochill.xlog.app/muchiangmai-memories)
-- [Yuval Noah Harari will release his new book, Homo Deus: A Brief History of Tomorrow, on September 8 | WIRED UK](https://www.wired.co.uk/article/yuval-noah-harari-dataism)
-- [(Translation) Basic Knowledge About Unicode That Every Software Developer Must Know in 2023 | The Gate to the New World](https://blog.xinshijiededa.men/unicode/)
-- [Why I Won't Use Next.js | Epic Web Dev by Kent C. Dodds](https://www.epicweb.dev/why-i-wont-use-nextjs)
-- [Writing a storage engine for Postgres: an in-memory Table Access Method | notes.eatonphil.com](https://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html)
-- [Open Source Projects Based on Hormones - EAimTY's Blog](https://www.eaimty.com/2023/opensource-project-based-on-hormone/)
+- [Was ist der Congestion Control Algorithm und was ist ECN? – Yachen's Blog](https://yach.me/2023/10/14/ccn-and-ecn/)
+- [Abschied von der Filmdürre: Ein vollständiger Leitfaden zum Anschauen japanischer Filme - Sspai](https://sspai.com/post/83412)
+- [Programmierer migriert zur alten Stadtmauer: muChiangmai-Erinnerungen - ivyheretochill](https://ivyheretochill.xlog.app/muchiangmai-memories)
+- [Yuval Noah Harari wird am 8. September sein neues Buch, Homo Deus: Eine kurze Geschichte von Morgen, veröffentlichen | WIRED UK](https://www.wired.co.uk/article/yuval-noah-harari-dataism)
+- [(Übersetzung) Grundlegendes Wissen über Unicode, das jeder Softwareentwickler 2023 wissen muss | Das Tor zur neuen Welt](https://blog.xinshijiededa.men/unicode/)
+- [Warum ich Next.js nicht verwenden werde | Epic Web Dev von Kent C. Dodds](https://www.epicweb.dev/why-i-wont-use-nextjs)
+- [Eine Speicher-Engine für Postgres schreiben: eine In-Memory Table Access Method | notes.eatonphil.com](https://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html)
+- [Open-Source-Projekte basierend auf Hormonen - EAimTY's Blog](https://www.eaimty.com/2023/opensource-project-based-on-hormone/)
 
 #### Videos
 
-- [iPhone First Image Test ｜ Watch the Sample Photos Before Deciding to Buy!](https://www.bilibili.com/video/BV1iK4y1w7m5)
-- [Subjective Comparison of 8 Types of Popular Display Devices, How Many Have You Used?](https://www.bilibili.com/video/BV1KF411S7X5)
-- [UK Travel VLOG | Edinburgh Christmas](https://www.bilibili.com/video/BV1DH4y1m7oJ)
-- [Got Scammed! Spent ¥3000 on a Black and White Handheld Console, and It's Hand-Cranked!](https://www.youtube.com/watch?v=1ING-LVW7wM)
-- [Infuse + Aliyun Drive Tutorial, Best Media Library for Apple Users](https://www.youtube.com/watch?v=5pAo-V0ymTU)
-- [Exclusive Interview with Duolingo Founder: From Tech Genius to Global #1 Language APP, He's Really Different~](https://www.youtube.com/watch?v=ejIixcznawg)
-- [Collected 20,000 Questionnaires! The Most Popular UP on the Entire Site is Actually..?](https://www.bilibili.com/video/BV17N411E7ry)
-- [Mark Zuckerberg on Threads, Elon Musk, AI, the Quest 3, and more](https://www.youtube.com/watch?v=9aCg7jH4S1w)
-- [Yunnan Travel vlog Part 1｜Not Just Beautiful Scenery, the Process of Chasing Beautiful Scenery is Equally Healing｜Travel Musings｜Journey, Snow Mountains, Forests, Lakes, Animals](https://www.bilibili.com/video/BV1f8411r7n3)
-- [What Exactly is the Most Important Thing in Life?!](https://www.bilibili.com/video/BV1Yu411M776)
-- [September Internet Hot Topics Identification](https://www.bilibili.com/video/BV1Rj411s7D4)
-- [Is This What You Imagine the End of the World to Be Like? ｜4K New Zealand Travel Photography](https://www.bilibili.com/video/BV1Dm4y1g74f)
-- [【Japanese Drama Mix/Healing】Eat Well Today Too](https://www.bilibili.com/video/BV1AE411a7Nw)
-- [study vlog #32 | Restarting Learning Plan｜Work is Never-ending, Remember Work-Life-Balance｜TEDTalk Small Sharing｜Reviewing Kafka](https://www.bilibili.com/video/BV1x841167gZ)
-- [When Your Partner is Jealous and Petty, Where Does the Problem Lie](https://www.bilibili.com/video/BV1Fu4y1s79N)
-- [【Exciting】Microsoft Acquires Activision Blizzard | Century Acquisition War](https://www.youtube.com/watch?v=WoPwVT9Nrdw)
-- [Met the Cat World Version of Myself](https://www.bilibili.com/video/BV168411r7by)
-- [study vlog #33 | Gradually Reconciling with Procrastination｜First Time Understanding My Own Biological Clock at This Age｜Hope for World Peace](https://www.bilibili.com/video/BV1jG41127kk)
-- [The Thousand-Year Grudge Between Jews, Arabs, and Christians](https://www.bilibili.com/video/BV1cM411R7rT)
-- [study vlog #34｜Female Programmer's Home Study Weekly Record｜Love Studying in Autumn｜Addicted to Watching TEDxTalks on Neuroscience｜Turns Out the Brain Changes Every Day, Hope It Changes Towards Being Smarter](https://www.bilibili.com/video/BV1yG411y7z8)
-- [Replacing Mirrorless Cameras? 4K Camera That Fits in Your Pocket｜DJI Pocket 3 First Review](https://www.bilibili.com/video/BV1tc411o7VB)
-- [study vlog #35 | Perhaps Not Completing Goals is Common｜Happy 1024 Programmer's Day｜TEDx How to Motivate Yourself to Change Behavior｜Solidity｜Research | Yamagata Rachel](https://www.bilibili.com/video/BV1bu4y1J7Wp)
-- [Introduction to libp2p - David Dias](https://www.youtube.com/watch?v=CRe_oDtfRLw)
-- [WebAssembly: A new development paradigm for the web](https://www.youtube.com/watch?v=RcHER-3gFXI)
-- [An introduction to WebAssembly](https://www.youtube.com/watch?v=3sU557ZKjUs)
-- [October Internet Hot Topics Identification | Fun Fact: New Year's Eve Has Never Been a Statutory Holiday](https://www.bilibili.com/video/BV1ec411d7Av)
-- [In God's Backyard, Yet Having to Lick the Plates Clean!? ｜Christchurch, New Zealand 4K](https://www.bilibili.com/video/BV1cN4y1r7YS)
-- [Side-scrolling Mario Can Still Evolve? Nintendo: This is What We Call Surprise! 【Just Play Games】](https://www.bilibili.com/video/BV1c94y1L75T)
-- [study vlog #36 | Learning Makes Me Happy, Recording Fills Me with Motivation｜A Week in Great State｜Using Fragmented Time to Memorize Vocabulary｜TEDxTalks: How to Communicate with the Brain/How to Be Mentally Strong](https://www.bilibili.com/video/BV19w411M7Ut)
-- [OpenAI DevDay, Opening Keynote](https://www.youtube.com/watch?v=U9mJuUkhUzk)
+- [iPhone Erster Bildtest｜Schauen Sie sich die Beispielfotos an, bevor Sie sich zum Kauf entschließen!](https://www.bilibili.com/video/BV1iK4y1w7m5)
+- [Subjektiver Vergleich von 8 Arten beliebter Anzeigegeräte, wie viele haben Sie benutzt?](https://www.bilibili.com/video/BV1KF411S7X5)
+- [UK Reise VLOG | Edinburgh Weihnachten](https://www.bilibili.com/video/BV1DH4y1m7oJ)
+- [Wurde betrogen! Gab ¥3000 für eine Schwarz-Weiß-Handheld-Konsole aus, und sie wird per Hand gekurbelt!](https://www.youtube.com/watch?v=1ING-LVW7wM)
+- [Infuse + Aliyun Drive Tutorial, beste Mediathek für Apple-Benutzer](https://www.youtube.com/watch?v=5pAo-V0ymTU)
+- [Exklusives Interview mit Duolingo-Gründer: Vom Tech-Genie zur globalen #1 Sprach-APP, er ist wirklich anders~](https://www.youtube.com/watch?v=ejIixcznawg)
+- [20.000 Fragebögen gesammelt! Der beliebteste UP auf der gesamten Seite ist tatsächlich..?](https://www.bilibili.com/video/BV17N411E7ry)
+- [Mark Zuckerberg über Threads, Elon Musk, KI, die Quest 3 und mehr](https://www.youtube.com/watch?v=9aCg7jH4S1w)
+- [Yunnan Reise-Vlog Teil 1｜Nicht nur schöne Landschaften, der Prozess der Verfolgung schöner Landschaften ist genauso heilsam｜Reisegedanken｜Reise, Schneeberge, Wälder, Seen, Tiere](https://www.bilibili.com/video/BV1f8411r7n3)
+- [Was genau ist das Wichtigste im Leben?!](https://www.bilibili.com/video/BV1Yu411M776)
+- [September Internet Hot Topics Identifikation](https://www.bilibili.com/video/BV1Rj411s7D4)
+- [Ist das, was Sie sich unter dem Ende der Welt vorstellen? ｜4K Neuseeland Reisefotografie](https://www.bilibili.com/video/BV1Dm4y1g74f)
+- [【Japanischer Drama-Mix/Heilung】Iss auch heute gut](https://www.bilibili.com/video/BV1AE411a7Nw)
+- [study vlog #32 | Lernplan neu starten｜Arbeit ist endlos, denken Sie an Work-Life-Balance｜TEDTalk kleines Teilen｜Kafka überprüfen](https://www.bilibili.com/video/BV1x841167gZ)
+- [Wenn Ihr Partner eifersüchtig und kleinlich ist, wo liegt das Problem](https://www.bilibili.com/video/BV1Fu4y1s79N)
+- [【Aufregend】Microsoft übernimmt Activision Blizzard | Jahrhundert-Übernahmekrieg](https://www.youtube.com/watch?v=WoPwVT9Nrdw)
+- [Traf die Katzenwelt-Version von mir selbst](https://www.bilibili.com/video/BV168411r7by)
+- [study vlog #33 | Allmählich mit Prokrastination versöhnen｜Zum ersten Mal in diesem Alter meinen eigenen biologischen Rhythmus verstehen｜Hoffnung auf Weltfrieden](https://www.bilibili.com/video/BV1jG41127kk)
+- [Der tausendjährige Groll zwischen Juden, Arabern und Christen](https://www.bilibili.com/video/BV1cM411R7rT)
+- [study vlog #34｜Wöchentliche Aufzeichnung des Heimstudiums einer Programmiererin｜Liebe es, im Herbst zu lernen｜Süchtig nach TEDxTalks über Neurowissenschaften｜Stellt sich heraus, das Gehirn verändert sich jeden Tag, hoffe, es verändert sich in Richtung Klüger-Werden](https://www.bilibili.com/video/BV1yG411y7z8)
+- [Spiegellose Kameras ersetzen? 4K-Kamera, die in Ihre Tasche passt｜DJI Pocket 3 Erste Rezension](https://www.bilibili.com/video/BV1tc411o7VB)
+- [study vlog #35 | Vielleicht ist es normal, Ziele nicht zu erreichen｜Froher 1024 Programmierertag｜TEDx Wie man sich selbst motiviert, Verhalten zu ändern｜Solidity｜Forschung | Yamagata Rachel](https://www.bilibili.com/video/BV1bu4y1J7Wp)
+- [Einführung in libp2p - David Dias](https://www.youtube.com/watch?v=CRe_oDtfRLw)
+- [WebAssembly: Ein neues Entwicklungsparadigma für das Web](https://www.youtube.com/watch?v=RcHER-3gFXI)
+- [Eine Einführung in WebAssembly](https://www.youtube.com/watch?v=3sU557ZKjUs)
+- [Oktober Internet Hot Topics Identifikation | Fun Fact: Silvester war nie ein gesetzlicher Feiertag](https://www.bilibili.com/video/BV1ec411d7Av)
+- [In Gottes Hinterhof, und doch die Teller sauber lecken müssen!? ｜Christchurch, Neuseeland 4K](https://www.bilibili.com/video/BV1cN4y1r7YS)
+- [Side-scrolling Mario kann sich immer noch weiterentwickeln? Nintendo: Das nennen wir Überraschung! 【Just Play Games】](https://www.bilibili.com/video/BV1c94y1L75T)
+- [study vlog #36 | Lernen macht mich glücklich, Aufzeichnen erfüllt mich mit Motivation｜Eine Woche in großartigem Zustand｜Fragmentierte Zeit zum Vokabellernen nutzen｜TEDxTalks: Wie man mit dem Gehirn kommuniziert/Wie man mental stark ist](https://www.bilibili.com/video/BV19w411M7Ut)
+- [OpenAI DevDay, Eröffnungs-Keynote](https://www.youtube.com/watch?v=U9mJuUkhUzk)
 
-#### TV Series
+#### Fernsehserien
 
-- **3-nen A-gumi: Ima kara Minna-san wa, Hitojichi Desu (3年A組 -今から皆さんは、人質です-)**, I came across this on the Netflix homepage and downloaded it to the mobile app to pass time during the journey. It starts with a bit of a high-IQ crime premise, but the subsequent logic feels very shaky, and it's really quite chuunibyou.
-- **Westworld Season 1**, pre-downloaded and watched the beginning on the plane.
+- **3-nen A-gumi: Ima kara Minna-san wa, Hitojichi Desu (3年A組 -今から皆さんは、人質です-)**, Ich bin auf der Netflix-Startseite darauf gestoßen und habe es in die mobile App heruntergeladen, um die Zeit während der Reise zu überbrücken. Es beginnt mit einer Art Hochintelligenz-Verbrechensprämisse, aber die nachfolgende Logik fühlt sich sehr wackelig an, und es ist wirklich ziemlich chuunibyou.
+- **Westworld Staffel 1**, vorher heruntergeladen und den Anfang im Flugzeug geschaut.
 
-#### Music
+#### Musik
 
-- [Sick Enough to Die (Feat. Mellow) by MC MONG](https://open.spotify.com/track/7v6Xw1GwTb1m9y7xyXwLhf)
+- [Sick Enough to Die (Feat. Mellow) von MC MONG](https://open.spotify.com/track/7v6Xw1GwTb1m9y7xyXwLhf)

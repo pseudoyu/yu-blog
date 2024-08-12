@@ -14,7 +14,7 @@ authors:
 
 I seem to have always had a tendency to view myself as a machine, often observing myself from an outsider's perspective, integrating various modules, and constantly tinkering and optimizing. When a certain behavioral pattern or habit I've built suddenly proves useful at a particular moment, I feel a sense of delight. Conversely, when external influences or my own state disrupt the system, I experience a profound discomfort from the breakdown of order.
 
-As an efficiency tool enthusiast, my personal knowledge management and information management can be said to be the most important part of myself. I actually had no intention of writing this article, as there are too many precedents and practices before me, and I'm only making minor adjustments and optimizations based on the work of others. I often lack the confidence to share, but this week I rebuilt and optimized my knowledge management system, and I'm very happy about it. I had an urge to document it, and although I initially intended to just mention it briefly in my weekly report, I found myself unable to stop writing. Thus, this article came into being.
+As an efficiency tool enthusiast, my personal knowledge management and information management can be said to be the most important part of myself. I actually had no intention of writing this article, as there are too many precedents and practices before me, and I'm only making minor adjustments and optimizations based on the work of others. I often lack the confidence to share, but this week I rebuilt and optimized my knowledge management system, and I'm very happy about it. I had an urge to document it, and although I initially intended to just mention it briefly in my weekly review, I found myself unable to stop writing. Thus, this article came into being.
 
 In fact, I've often mentioned information output in my weekly reports before, so this article will also cover some previous content and finally supplement the parts about information acquisition and knowledge management. It will serve as a comprehensive collection. Regarding the theoretical aspects, such as the "Feynman Learning Technique" and the "Luhmann's Zettelkasten Method," there are already many excellent introductory articles, so I won't spend space introducing them here. Instead, I will focus more on describing the software tools I use in practice, hoping it will be helpful to everyone.
 
@@ -167,7 +167,7 @@ The friends I met on Twitter have also brought me a lot of warmth.
 
 ![yu_blog_homepage](https://image.pseudoyu.com/images/yu_blog_homepage.png)
 
-My most important output platform is my personal blog "[Pseudoyu](https://www.pseudoyu.com/)". Currently, the weekly report is my main outlet, and occasionally there are also some themed or special blog posts about technology or productivity tools.
+My most important output platform is my personal blog "[Pseudoyu](https://www.pseudoyu.com/)". Currently, the weekly review is my main outlet, and occasionally there are also some themed or special blog posts about technology or productivity tools.
 
 ### Thematic Research
 

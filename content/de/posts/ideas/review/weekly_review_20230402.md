@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #36 - Gastroenteritis, Nini's Update, and New Journeys"
+title: "Wochenrückblick #36 - Gastroenteritis, Ninis Update und neue Wege"
 date: 2023-04-02T12:01:26+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "city", "travel", "work", "illness", "adjustment", "friendship", "work"]
@@ -10,101 +10,94 @@ authors:
 
 {{<audio src="audios/dont_stop_the_clocks.mp3" caption="'Don't Stop the Clocks - King Gnu'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `2023-03-25` to `2023-04-02`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `25.03.2023` bis zum `02.04.2023`.
 
-Never did I imagine that as a southerner who lived in Hangzhou for over a decade, I would suffer severe adaptation issues upon returning to live in Hangzhou.
+Nie hätte ich mir vorgestellt, dass ich als Südländer, der über ein Jahrzehnt in Hangzhou gelebt hat, bei meiner Rückkehr nach Hangzhou unter schweren Anpassungsproblemen leiden würde.
 
-In the previous post, I mentioned that Nini was a bit sick due to the bumpy journey and other factors. Fortunately, after a period of adjustment, we went for a detailed check-up yesterday, and there are no issues anymore. Some nutritional supplements were prescribed for recuperation.
+Im vorherigen Beitrag erwähnte ich, dass Nini aufgrund der holprigen Reise und anderer Faktoren etwas krank war. Glücklicherweise gingen wir nach einer Anpassungsphase gestern zu einer ausführlichen Untersuchung, und es gibt keine Probleme mehr. Einige Nahrungsergänzungsmittel wurden zur Erholung verschrieben.
 
-However, in the first week of settling in after moving and handling various settlement matters, my body started showing various reactions. Since I'm the type who rarely falls ill, I didn't pay much attention. When I finally relaxed, everything erupted at once.
+In der ersten Woche des Einlebens nach dem Umzug und der Erledigung verschiedener Anmeldungsangelegenheiten begann mein Körper jedoch, verschiedene Reaktionen zu zeigen. Da ich der Typ bin, der selten krank wird, schenkte ich dem keine große Beachtung. Als ich mich endlich entspannte, brach alles auf einmal aus.
 
-Other than that, I'm adapting to the new work mode and rhythm. Due to physical and mental fatigue, I didn't leave myself much buffer time, so my state in work and other arrangements hasn't been ideal. However, I'm in the process of self-adjustment.
+Abgesehen davon passe ich mich dem neuen Arbeitsmodus und -rhythmus an. Aufgrund der körperlichen und geistigen Erschöpfung ließ ich mir nicht viel Pufferzeit, sodass mein Zustand bei der Arbeit und anderen Verpflichtungen nicht ideal war. Ich befinde mich jedoch im Prozess der Selbstanpassung.
 
-One more sentimental note:
+Eine letzte sentimentale Anmerkung:
 
-> April without you is about to arrive. — "Your Lie in April"
+> Der April ohne dich steht vor der Tür. — "Your Lie in April"
 
-## Illness
+## Krankheit
 
-After leaving the boarding school life in high school, my increasingly irregular sleep and eating habits led me to have a both casual and somewhat fearful attitude towards health. During the busiest and most multi-threaded time in college, I even had the strange idea that "as long as I don't know my physical condition, I can continue to push myself with peace of mind." Therefore, I didn't have a physical examination for a long time.
+Nachdem ich das Internatsleben in der Oberschule verlassen hatte, führten meine zunehmend unregelmäßigen Schlaf- und Essgewohnheiten dazu, dass ich eine sowohl lässige als auch etwas ängstliche Einstellung zur Gesundheit entwickelte. In der geschäftigsten und vielschichtigsten Zeit im Studium hatte ich sogar die seltsame Vorstellung, dass "solange ich meinen körperlichen Zustand nicht kenne, ich mich mit ruhigem Gewissen weiter antreiben kann". Daher ließ ich mich lange Zeit nicht untersuchen.
 
-It wasn't until I took some time off at home that I started paying attention to it, getting a physical examination, taking care of dental issues, and addressing various big and small problems. Since then, I've been somewhat more careful with my health. Interestingly, I've always been the type to push my body but miraculously remain relatively healthy. Despite spending over ten hours a day staring at a computer screen, my eyesight hasn't deteriorated much. Without taking many precautions, I've dodged several waves of the pandemic and remained uninfected. This led to a false impression that I might not get sick.
+Erst als ich mir zu Hause eine Auszeit nahm, begann ich, darauf zu achten, mich untersuchen zu lassen, Zahnprobleme anzugehen und verschiedene große und kleine Probleme anzusprechen. Seitdem bin ich etwas vorsichtiger mit meiner Gesundheit. Interessanterweise war ich immer der Typ, der seinen Körper forderte, aber auf wundersame Weise relativ gesund blieb. Obwohl ich täglich über zehn Stunden auf einen Computerbildschirm starrte, hat sich meine Sehkraft nicht sehr verschlechtert. Ohne viele Vorsichtsmaßnahmen zu treffen, habe ich mehrere Wellen der Pandemie überstanden und blieb uninfiziert. Dies führte zu dem falschen Eindruck, dass ich möglicherweise nicht krank werden würde.
 
-Perhaps it was due to the intense social dining of the previous two weeks, or drinking with friends for two consecutive days on the first weekend back, or maybe drinking a glass of cold fresh milk late at night for some reason. I started feeling some gastrointestinal discomfort on Monday but didn't pay much attention to it. I neither went to the hospital nor took any medication, just endured it for two days. Finally, on Wednesday and Thursday, I faced the consequences. By the afternoon, I was in so much pain that I had to lie down curled up in a ball for slight relief. My habit of staying up late, waking up early, and not napping was forcibly corrected to a healthy schedule (it didn't hurt when I was asleep). I finally obediently ordered some medicine and started taking it on Thursday. It only began to improve slightly the next day. It wasn't until I went for a check-up today that I learned it was probably acute gastroenteritis, which I had dragged out until all indicators were normal.
+Vielleicht lag es an den intensiven sozialen Essen der vorherigen zwei Wochen, oder am Trinken mit Freunden an zwei aufeinanderfolgenden Tagen am ersten Wochenende nach meiner Rückkehr, oder vielleicht am Trinken eines Glases kalter frischer Milch spät in der Nacht aus irgendeinem Grund. Am Montag begann ich, einige Magen-Darm-Beschwerden zu spüren, schenkte dem aber keine Beachtung. Ich ging weder ins Krankenhaus noch nahm ich Medikamente, sondern ertrug es einfach zwei Tage lang. Schließlich musste ich am Mittwoch und Donnerstag die Konsequenzen tragen. Am Nachmittag hatte ich so starke Schmerzen, dass ich mich zusammengerollt hinlegen musste, um eine leichte Linderung zu erfahren. Meine Gewohnheit, spät ins Bett zu gehen, früh aufzustehen und nicht zu schlafen, wurde gewaltsam zu einem gesunden Zeitplan korrigiert (es tat nicht weh, wenn ich schlief). Schließlich bestellte ich gehorsam einige Medikamente und begann am Donnerstag, sie einzunehmen. Erst am nächsten Tag begann es sich leicht zu bessern. Erst als ich heute zur Untersuchung ging, erfuhr ich, dass es wahrscheinlich eine akute Gastroenteritis war, die ich so lange verschleppt hatte, bis alle Indikatoren normal waren.
 
-Although I didn't have to take sick leave in my first week of work, apart from completing some basic, not-too-difficult work tasks, I made no extra progress in other areas this week. I even felt a bit embarrassed to write this weekly review. It's only now, as I'm nearing recovery, that I truly feel how good health is. I'll be sure to have regular check-ups and take care of my body in the future, as it greatly affects various aspects of life.
+Obwohl ich in meiner ersten Arbeitswoche keinen Krankenurlaub nehmen musste, machte ich abgesehen von der Erledigung einiger grundlegender, nicht allzu schwieriger Arbeitsaufgaben, diese Woche keine zusätzlichen Fortschritte in anderen Bereichen. Ich fühlte mich sogar ein bisschen beschämt, diesen Wochenrückblick zu schreiben. Erst jetzt, da ich mich der Genesung nähere, spüre ich wirklich, wie gut Gesundheit ist. Ich werde in Zukunft sicher regelmäßige Untersuchungen durchführen und auf meinen Körper achten, da es verschiedene Aspekte des Lebens stark beeinflusst.
 
-## Work
+## Arbeit
 
-At work, since I was already familiar with some of the people and project situations, it was more about exploring on my own based on existing materials and code. I also familiarized myself with the development process through one or two small requirements. Going forward, I'll be able to choose interesting requirements to develop, which is a nice approach.
+Bei der Arbeit ging es, da ich bereits mit einigen Personen und Projektsituationen vertraut war, mehr darum, auf der Grundlage vorhandener Materialien und Codes selbstständig zu erkunden. Ich machte mich auch durch ein oder zwei kleine Anforderungen mit dem Entwicklungsprozess vertraut. In Zukunft werde ich interessante Anforderungen zur Entwicklung auswählen können, was ein schöner Ansatz ist.
 
-However, my planned schedule of thoroughly reading code and getting familiar with a new module was disrupted by my illness. Overall, I'm not too satisfied, feeling like I haven't quite returned to the state of focused coding. Fortunately, I've almost fully recovered by the weekend, so I'll need to catch up more next week.
+Allerdings wurde mein geplanter Zeitplan, den Code gründlich zu lesen und mich mit einem neuen Modul vertraut zu machen, durch meine Krankheit durcheinandergebracht. Insgesamt bin ich nicht allzu zufrieden und habe das Gefühl, noch nicht ganz in den Zustand des konzentrierten Codierens zurückgekehrt zu sein. Glücklicherweise habe ich mich zum Wochenende fast vollständig erholt, sodass ich nächste Woche mehr aufholen muss.
 
-Perhaps due to my previous remote work experience, I adapted quickly to the remote work mode. It's not a new experience, but I need to refine my task management system further.
+Vielleicht aufgrund meiner früheren Erfahrung mit Fernarbeit habe ich mich schnell an den Remote-Arbeitsmodus angepasst. Es ist keine neue Erfahrung, aber ich muss mein Aufgabenmanagementsystem noch weiter verfeinern.
 
-## Nini's Recent Situation
+## Ninis aktuelle Situation
 
-In the previous post, I mentioned that Nini was sick. After two weeks of treatment, she has finally recovered. To be sure, we still took her to a nearby veterinary hospital for a complete check-up. Everything is fine, and her spirit and appetite have returned to normal.
+Im vorherigen Beitrag erwähnte ich, dass Nini krank war. Nach zwei Wochen Behandlung hat sie sich endlich erholt. Um sicher zu gehen, brachten wir sie trotzdem in ein nahegelegenes Tierkrankenhaus für eine vollständige Untersuchung. Alles ist in Ordnung, und ihr Geist und Appetit sind wieder normal.
 
 ![nie_nie_in_new_home_01](https://image.pseudoyu.com/images/nie_nie_in_new_home_01.jpg)
 
-At first, Nini was a bit reserved and gloomy in the new home.
+Anfangs war Nini in der neuen Heimat etwas zurückhaltend und düster.
 
 ![nie_nie_in_new_home_02](https://image.pseudoyu.com/images/nie_nie_in_new_home_02.jpg)
 
-After getting familiar with the environment, she seems even more relaxed than when we were in Beijing. Now she even sleeps directly on my shoulder all night or lies on the blanket next to me. I feel she's adapted faster than I imagined, completing the transition from a northern cat to a southern kitty.
+Nachdem sie sich mit der Umgebung vertraut gemacht hat, scheint sie sogar entspannter zu sein als in Peking. Jetzt schläft sie sogar die ganze Nacht direkt auf meiner Schulter oder liegt auf der Decke neben mir. Ich habe das Gefühl, dass sie sich schneller angepasst hat als ich mir vorgestellt hatte und den Übergang von einer Nordkatze zu einem südlichen Kätzchen vollzogen hat.
 
-Until...
+Bis...
 
-A friend, who is going on a long trip soon, brought their kitten to my house to familiarize with the environment and for us to take care of. This way, even when I'm out, my family can help feed and clean up. I originally thought Nini would be very happy to have a playmate, but for some reason, they don't get along. The two cats are always intimidating each other, quarreling, and even fighting when they're together. This has been going on for two days.
+Ein Freund, der bald eine lange Reise antritt, brachte sein Kätzchen zu mir nach Hause, damit es sich mit der Umgebung vertraut machen kann und wir es betreuen können. So können auch meine Familienangehörigen helfen, es zu füttern und sauber zu machen, wenn ich nicht da bin. Ursprünglich dachte ich, Nini würde sich sehr freuen, einen Spielkameraden zu haben, aber aus irgendeinem Grund verstehen sie sich nicht. Die beiden Katzen schüchtern sich immer gegenseitig ein, streiten und kämpfen sogar, wenn sie zusammen sind. Das geht jetzt schon seit zwei Tagen so.
 
-At first, Nini, as the owner of the house, seemed to cower and lose her territory, often hiding in corners or lying quietly. But for some reason, starting tonight, they both started to attack each other, and they've been fighting until now.
+Anfangs schien Nini als Hausbesitzerin zu kauern und ihr Territorium zu verlieren, oft versteckte sie sich in Ecken oder lag ruhig da. Aber aus irgendeinem Grund begannen sie heute Abend beide, sich gegenseitig anzugreifen, und sie kämpfen bis jetzt.
 
 ![two_cats_fighting_01](https://image.pseudoyu.com/images/two_cats_fighting_01.png)
 
 ![two_cats_fighting_02](https://image.pseudoyu.com/images/two_cats_fighting_02.png)
 
-Currently, both owners are emotionally unmoved and even watching and betting on the fight. Actually, it's mainly because they haven't landed a single hit on each other even after fighting for so long, it's all just bluffing attacks. My inner thoughts are as follows:
+Derzeit sind beide Besitzer emotional unberührt und schauen dem Kampf sogar zu und wetten darauf. Tatsächlich liegt es hauptsächlich daran, dass sie auch nach so langem Kämpfen keinen einzigen Treffer gelandet haben, es sind alles nur Bluff-Angriffe. Meine inneren Gedanken sind wie folgt:
 
 ![two_cats_fighting_03](https://image.pseudoyu.com/images/two_cats_fighting_03.gif)
 
-I'll report on the new battle situation next week, or hopefully, they'll wake up as best friends.
+Ich werde nächste Woche über die neue Kampfsituation berichten, oder hoffentlich werden sie als beste Freunde aufwachen.
 
-## New Journey and Plans
+## Neue Reise und Pläne
 
 ![meet_with_xiao](https://image.pseudoyu.com/images/meet_with_xiao.png)
 
-This weekend, I met a new friend, [Xiao](https://twitter.com/gxgexiao), in Hangzhou. We had read each other's blogs before but never met in person, so we arranged a meal together. We talked about many things, from technology to life, from work to life philosophy, from ideals to reality, from emotions to freedom. It was quite amazing.
+Dieses Wochenende traf ich einen neuen Freund, [Xiao](https://twitter.com/gxgexiao), in Hangzhou. Wir hatten zuvor die Blogs des anderen gelesen, uns aber nie persönlich getroffen, also vereinbarten wir ein gemeinsames Essen. Wir sprachen über viele Dinge, von Technologie bis zum Leben, von der Arbeit bis zur Lebensphilosophie, von Idealen bis zur Realität, von Gefühlen bis zur Freiheit. Es war ziemlich erstaunlich.
 
-Another friend mentioned earlier that they want to make an effort to meet more interesting people this month. Having been introverted for many years, I've only recently realized the charm of this. Communicating with people of different experiences often brings new perspectives and ideas. Perhaps this is the value of seeking common ground while reserving differences.
+Ein anderer Freund erwähnte früher, dass er sich bemühen möchte, diesen Monat mehr interessante Menschen zu treffen. Nachdem ich viele Jahre lang introvertiert war, habe ich erst kürzlich den Charme davon erkannt. Die Kommunikation mit Menschen unterschiedlicher Erfahrungen bringt oft neue Perspektiven und Ideen. Vielleicht ist dies der Wert des Suchens nach Gemeinsamkeiten bei gleichzeitiger Bewahrung von Unterschieden.
 
-So starting this month, I also plan to go out more and meet more interesting people. It's part of my plans for this new phase. However, I still need to balance the time with remote work, which I'm still trying to figure out.
+Also plane ich ab diesem Monat auch, mehr auszugehen und mehr interessante Menschen zu treffen. Es ist Teil meiner Pläne für diese neue Phase. Allerdings muss ich die Zeit mit der Fernarbeit noch in Einklang bringen, was ich noch herausfinden muss.
 
-Over the next month, I'll be in Wuhan, Shanghai, Shenzhen, Hong Kong, Chengdu, and Xi'an in succession. The schedule is packed but I'm full of anticipation. If you're interested, we might meet by chance.
+Im nächsten Monat werde ich nacheinander in Wuhan, Shanghai, Shenzhen, Hongkong, Chengdu und Xi'an sein. Der Zeitplan ist vollgepackt, aber ich bin voller Vorfreude. Wenn Sie interessiert sind, treffen wir uns vielleicht zufällig.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auflisten. Es fühlt sich mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
-- [28 years old, I still want to live vigorously | Randy's Blog](https://lutaonan.com/blog/say-in-28/)
-- [How to collaborate efficiently in development: Some practices from Google](https://www.instapaper.com/read/1593056407)
+- [28 Jahre alt, ich möchte immer noch lebhaft leben | Randy's Blog](https://lutaonan.com/blog/say-in-28/)
+- [Wie man in der Entwicklung effizient zusammenarbeitet: Einige Praktiken von Google](https://www.instapaper.com/read/1593056407)
 
-#### Videos
+### Konsum
 
-Similarly, I've also recorded some interesting videos I've watched:
+In dieser Woche habe ich keine neuen Produkte erworben, aber ich habe ein paar interessante Dinge entdeckt:
 
-- [Selecting the top 10 from 10,000 songs, announcing the winners of the music contest!]
-- [【Turn ChatGPT into a smart speaker】Send text messages, emails, control programs, execute commands, arbitrary output, interactive demonstration AI assistant]
-- [The Legend of Zelda: Tears of the Kingdom – Mr. Aonuma Gameplay Demonstration]
-- [A stand-up comedy episode that went wild roasting literary giants]
-- [Intro to Foundry | The FASTEST Smart Contract Framework]
-- [She doesn't need me anymore! AI causes unemployment again?【All-new ZV-E1 Review】]
-- [To protect intangible cultural heritage, I smashed expensive ceramics into pieces]
-- [After sharing 9 years of diaries with ChatGPT, how absurd can it get?]
-- [I figured out how to take off Kong Yiji's long gown that he couldn't remove]
+- [Redragon K530 - Tastatur](https://item.jd.com/100016051345.html): Eine mechanische Bluetooth-Tastatur, die ich für die Arbeit unterwegs in Betracht ziehe.
+- [Ulanzi VL49 RGB-Videoleuchte](https://item.jd.com/10021643501487.html): Eine kleine RGB-Leuchte, die ich für Videoaufnahmen und Livestreams interessant finde.

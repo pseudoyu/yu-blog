@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #51 - Admiring Lawrence and Falling Ill"
+title: "Wochenrückblick #51 - Lawrence bewundern und krank werden"
 date: 2023-11-29T09:41:26+08:00
 draft: false
 tags: ["review", "life", "reading", "love", "ill"]
@@ -10,59 +10,59 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `2023-11-22` to `2023-11-29`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `2023-11-22` bis `2023-11-29`.
 
-This week, my senior and I were both confined at home recovering from influenza A, which significantly impacted our work and daily life. I finished recording the podcast I mentioned last time, chatting casually for over an hour. Despite running a fever for two days over the weekend, I struggled to go out on Sunday to attend Lawrence's offline event. After the fever subsided, I went to the hospital for a check-up just to be safe. There was nothing serious, but I still need to wait for a full recovery. Many interesting things happened as well.
+Diese Woche waren mein Vorgesetzter und ich beide zu Hause ans Bett gefesselt, um uns von der Influenza A zu erholen, was unsere Arbeit und unser tägliches Leben erheblich beeinträchtigte. Ich habe den Podcast aufgenommen, den ich letztes Mal erwähnt hatte, und wir plauderten ungezwungen über eine Stunde lang. Obwohl ich am Wochenende zwei Tage lang Fieber hatte, quälte ich mich am Sonntag hinaus, um Lawrences Offline-Veranstaltung zu besuchen. Nachdem das Fieber abgeklungen war, ging ich zur Sicherheit ins Krankenhaus für eine Untersuchung. Es war nichts Ernstes, aber ich muss immer noch auf eine vollständige Genesung warten. Es passierten auch viele interessante Dinge.
 
-## Lawrence the Deer
+## Lawrence der Hirsch
 
-A long time ago, I streamlined my input sources and reduced the time spent on various media platforms, cutting down my follows to less than 100. However, Bilibili remains an app I open daily, with "[Lawrence the Deer](https://space.bilibili.com/37029661)" being the primary reason.
+Vor langer Zeit habe ich meine Informationsquellen gestrafft und die Zeit auf verschiedenen Medienplattformen reduziert, wodurch ich meine Follows auf weniger als 100 gekürzt habe. Bilibili bleibt jedoch eine App, die ich täglich öffne, wobei "[Lawrence der Hirsch](https://space.bilibili.com/37029661)" der Hauptgrund dafür ist.
 
 ![meet_lawrence_1](https://image.pseudoyu.com/images/meet_lawrence_1.jpg)
 
-I started following him about three or four years ago. Back then, Lawrence often traveled in search of himself, leaving behind many memories in Japan. Perhaps it was due to some similar scenes, or his lonely yet intense love for this world, I always felt his lens and narration had a beauty reminiscent of Hirokazu Koreeda. Later, in a Q&A session, I heard that his favorite director is also Hirokazu Koreeda. Indeed.
+Ich begann ihm vor etwa drei oder vier Jahren zu folgen. Damals reiste Lawrence oft auf der Suche nach sich selbst und hinterließ viele Erinnerungen in Japan. Vielleicht lag es an einigen ähnlichen Szenen oder seiner einsamen, aber intensiven Liebe zu dieser Welt, dass ich in seiner Linse und Erzählung immer eine Schönheit fand, die an Hirokazu Koreeda erinnerte. Später erfuhr ich in einer Fragerunde, dass sein Lieblingsregisseur ebenfalls Hirokazu Koreeda ist. In der Tat.
 
 ![meet_lawrence_2](https://image.pseudoyu.com/images/meet_lawrence_2.jpg)
 
-Later, he met Ms. Mi.
+Später traf er Frau Mi.
 
-I watch each of their videos as soon as they're released. I've seen Ms. Mi's figure gradually appear in his lens, stories about him and his cat, dialogues with his ten-year-ago self, the ritual of year-end summaries, up until the recent proposal. It's hard for me to describe what kind of beauty exists between them. They both have their own lives and pursuits, progressing on their own trajectories, yet mutually attracted, rescuing each other, pulling each other out of loneliness.
+Ich schaue jedes ihrer Videos, sobald es veröffentlicht wird. Ich habe gesehen, wie Frau Mis Gestalt allmählich in seiner Linse erschien, Geschichten über ihn und seine Katze, Dialoge mit seinem zehn Jahre jüngeren Ich, das Ritual der Jahresend-Zusammenfassungen, bis hin zum kürzlichen Heiratsantrag. Es fällt mir schwer zu beschreiben, welche Art von Schönheit zwischen ihnen existiert. Sie haben beide ihr eigenes Leben und ihre eigenen Bestrebungen, schreiten auf ihren eigenen Bahnen voran, sind aber dennoch gegenseitig angezogen, retten einander und ziehen sich gegenseitig aus der Einsamkeit.
 
-At that time, I was also seeking my own path - "[A 23-year-old's Confession: In Pursuit of Meaning](https://www.pseudoyu.com/en/2020/06/06/yearly_review_23/)". Confused, at a loss, yet stubbornly pursuing the meaning of life itself. Later, I also experienced studying abroad for what I wanted to do, the pain of losing loved ones, the confusion of life changes, and so on. When I felt overwhelmed with sadness, I would repeatedly watch Lawrence's videos, finding that I could always find empathy in his narratives, which gave me strength. Later, I started keeping cats, recording these life moments through writing, saying some words to myself in year-end summaries, and capturing some life fragments with a camera after regaining the courage to live. Later, I often received feedback from readers who found resonance or drew strength from my writings. Suddenly, I realized this might also be a kind of passing on the torch, transmitting the encouragement I received to more people.
+Zu jener Zeit suchte ich auch meinen eigenen Weg - "[Das Geständnis eines 23-Jährigen: Auf der Suche nach Sinn](https://www.pseudoyu.com/en/2020/06/06/yearly_review_23/)". Verwirrt, ratlos und doch hartnäckig auf der Suche nach dem Sinn des Lebens selbst. Später erlebte ich auch das Auslandsstudium für das, was ich tun wollte, den Schmerz des Verlusts geliebter Menschen, die Verwirrung durch Lebensveränderungen und so weiter. Wenn ich mich von Traurigkeit überwältigt fühlte, sah ich mir wiederholt Lawrences Videos an und fand, dass ich in seinen Erzählungen immer Empathie finden konnte, die mir Kraft gab. Später begann ich, Katzen zu halten, diese Lebensmomente durch Schreiben festzuhalten, mir in Jahresend-Zusammenfassungen einige Worte zu sagen und einige Lebensfragmente mit einer Kamera einzufangen, nachdem ich den Mut zum Leben wiedergefunden hatte. Später erhielt ich oft Rückmeldungen von Lesern, die in meinen Schriften Resonanz fanden oder Kraft daraus schöpften. Plötzlich wurde mir klar, dass dies vielleicht auch eine Art Weitergabe der Fackel sein könnte, die Ermutigung, die ich erhalten hatte, an mehr Menschen weiterzugeben.
 
-This time, I was fortunate enough to get a ticket to Lawrence's sharing session at "Today At Apple". He talked a lot about his creation and life itself. I was familiar with all the memes and video details he mentioned, and that's when I realized that this had become a part of my life.
+Dieses Mal hatte ich das Glück, eine Karte für Lawrences Vortrag bei "Today At Apple" zu bekommen. Er sprach viel über sein Schaffen und das Leben selbst. Ich kannte alle Memes und Videodetails, die er erwähnte, und da wurde mir klar, dass dies zu einem Teil meines Lebens geworden war.
 
-He mentioned that [the next video](https://www.bilibili.com/video/BV1Gc411z7mu) would also be tearful yet joyous, and he used a muting technique similar to Oppenheimer. Little did I expect it to be a proposal!!! Congratulations!!!
+Er erwähnte, dass [das nächste Video](https://www.bilibili.com/video/BV1Gc411z7mu) auch tränenreich, aber freudig sein würde, und er verwendete eine Stummschaltungstechnik ähnlich wie in Oppenheimer. Ich hätte nicht erwartet, dass es ein Heiratsantrag sein würde!!! Herzlichen Glückwunsch!!!
 
-## Snapshots of This Week
+## Momentaufnahmen dieser Woche
 
-Indeed, I feel my physical condition has declined this year. In April, I had a rather severe acute gastroenteritis, and in May, I tested positive for COVID for the first time (though I recovered in two days). This week, I caught influenza A and had a fever for a few days, with considerable aftereffects still lingering. It's truly uncomfortable. I need to pay more attention to keeping warm in autumn and winter. Plans are falling behind more and more, which is troublesome.
+In der Tat fühle ich, dass meine körperliche Verfassung in diesem Jahr nachgelassen hat. Im April hatte ich eine ziemlich schwere akute Gastroenteritis, und im Mai wurde ich zum ersten Mal positiv auf COVID getestet (obwohl ich mich in zwei Tagen erholte). Diese Woche erkrankte ich an Influenza A und hatte ein paar Tage lang Fieber, mit erheblichen Nachwirkungen, die immer noch anhalten. Es ist wirklich unangenehm. Ich muss mehr darauf achten, mich im Herbst und Winter warm zu halten. Die Pläne geraten immer mehr in Rückstand, was problematisch ist.
 
-Also, because I've been cooped up at home for too long, I haven't done much extra, nor had much energy to cook. I hope everything gets back on track soon. This weekend, I'll go back to Hangzhou for a while first. I'll be able to see some colleagues and go to the long-missed "Crazy Thursday" at Liangzhu.
+Auch weil ich zu lange zu Hause eingesperrt war, habe ich nicht viel Zusätzliches gemacht und auch nicht viel Energie zum Kochen gehabt. Ich hoffe, alles kommt bald wieder in die Spur. Dieses Wochenende werde ich zuerst für eine Weile nach Hangzhou zurückkehren. Ich werde einige Kollegen sehen und zum lang vermissten "Verrückten Donnerstag" in Liangzhu gehen können.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter now.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen und auflisten. Es fühlt sich jetzt mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- [Up At the Villa](https://book.douban.com/subject/6764127/), a small book, sort of a "mystery novel" without much plot, with more dialogue and psychological descriptions, yet still quite engaging to read in one sitting. It tells a story of "desperate love". A young violinist regains hope for life due to Mary's "love" bestowed upon him, only to have it quickly shattered, leading to suicide; Edgar only loves the pure and flawless Mary in his memory and imagination; Rowley is a wealthy playboy, yet loves most purely, passionately, and recklessly; Mary is conflicted, clearly knowing her own heart, wavering due to wealth and status, yet insisting on confessing everything that happened to her completely before accepting Edgar's love. Behind love, there's quite a bit of utilitarianism, self-righteousness, and self-satisfaction. Perhaps only by screening these out can one truly feel the purity of love itself.
-- [Neurosis and Human Growth](https://book.douban.com/subject/26774193/), recommended by homura, reading a bit every night.
+- [Up At the Villa](https://book.douban.com/subject/6764127/), ein kleines Buch, eine Art "Kriminalroman" ohne viel Handlung, mit mehr Dialog und psychologischen Beschreibungen, dennoch recht fesselnd zum Lesen in einem Zug. Es erzählt eine Geschichte von "verzweifelter Liebe". Ein junger Geiger gewinnt durch Marys ihm geschenkte "Liebe" neue Hoffnung für das Leben, nur um sie schnell zerschmettert zu sehen, was zum Selbstmord führt; Edgar liebt nur die reine und makellose Mary in seiner Erinnerung und Vorstellung; Rowley ist ein wohlhabender Playboy, liebt aber am reinsten, leidenschaftlichsten und rücksichtslosesten; Mary ist hin- und hergerissen, kennt klar ihr eigenes Herz, schwankt aufgrund von Reichtum und Status, besteht aber darauf, alles, was geschehen ist, vollständig zu gestehen, bevor sie Edgars Liebe annimmt. Hinter der Liebe steckt eine Menge Utilitarismus, Selbstgerechtigkeit und Selbstzufriedenheit. Vielleicht kann man nur durch das Aussieben dieser Dinge die Reinheit der Liebe selbst wirklich spüren.
+- [Neurosis and Human Growth](https://book.douban.com/subject/26774193/), empfohlen von homura, lese jeden Abend ein bisschen.
 
-#### Articles
+#### Artikel
 
-- [Content Platforms Worth Continuous Reading in 2023 · Jinheng Goidea](https://justgoidea.com/posts/2023-063/)
+- [Lesenswerte Content-Plattformen im Jahr 2023 · Jinheng Goidea](https://justgoidea.com/posts/2023-063/)
 
 #### Videos
 
-- [vlog | A Day in the Life of a Female Programmer Working Remotely | Changes After a Year of Remote Work? What Does My Home Workstation Look Like](https://www.bilibili.com/video/BV1yw411P7AB)
-- [The Teacher Taught Me How to Date, I Treated Him to Douzhir to Show My Gratitude!](https://www.bilibili.com/video/BV1Vc4119756)
-- [I Proposed!!](https://www.bilibili.com/video/BV1Gc411z7mu)
+- [vlog | Ein Tag im Leben einer Programmiererin im Home Office | Veränderungen nach einem Jahr Remote-Arbeit? Wie sieht mein Home-Arbeitsplatz aus](https://www.bilibili.com/video/BV1yw411P7AB)
+- [Der Lehrer brachte mir bei, wie man datet, ich lud ihn zum Douzhir ein, um meine Dankbarkeit zu zeigen!](https://www.bilibili.com/video/BV1Vc4119756)
+- [Ich habe einen Heiratsantrag gemacht!!](https://www.bilibili.com/video/BV1Gc411z7mu)
 
 #### Anime
 
-- **Spy x Family Season 2**, Anya is the best!
+- **Spy x Family Staffel 2**, Anya ist die Beste!

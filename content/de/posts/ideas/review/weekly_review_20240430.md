@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #58 - A Year of Remote Work"
+title: "Wochenrückblick #58 - Ein Jahr Remote-Arbeit"
 date: 2024-04-30T16:30:00+08:00
 draft: false
 tags: ["review", "life", "city", "hangzhou", "career"]
@@ -10,57 +10,57 @@ authors:
 
 {{<audio src="audios/fix_you.mp3" caption="'Fix You - Coldplay'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240430](https://image.pseudoyu.com/images/weekly_review_20240430.png)
 
-This is a record and reflection of my life from `April 10, 2024` to `April 30, 2024`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 10. April 2024 bis zum 30. April 2024.
 
-It's already mid-April since returning from Bali, welcoming another major change in life - moving back to Hangzhou from Beijing once again and renting a new place. The rhythm of life has subtly shifted as a result. Coincidentally, it's been a year since I last moved back to Hangzhou, so I'd like to discuss my year of remote work in this piece.
+Es ist bereits Mitte April seit meiner Rückkehr aus Bali, und ich begrüße eine weitere große Veränderung in meinem Leben - den erneuten Umzug von Peking nach Hangzhou und die Anmietung einer neuen Wohnung. Der Rhythmus des Lebens hat sich dadurch subtil verändert. Zufälligerweise ist es ein Jahr her, seit ich zuletzt nach Hangzhou zurückgezogen bin, daher möchte ich in diesem Beitrag über mein Jahr der Fernarbeit sprechen.
 
-## A Year of Remote Work
+## Ein Jahr Remote-Arbeit
 
 ![sunset](https://image.pseudoyu.com/images/sunset.jpg)
 
-Last March, I experienced a job change, transitioning from commuting to an office to working remotely, and moved back to Hangzhou from Beijing, where I had lived for nearly two years.
+Im letzten März erlebte ich einen Jobwechsel, bei dem ich von der Arbeit im Büro zur Fernarbeit überging und von Peking, wo ich fast zwei Jahre gelebt hatte, zurück nach Hangzhou zog.
 
-At the time, I was eager to escape a busy yet meaningless job, and leaving Beijing was just a change of scenery. For me, although Hangzhou is my hometown, it was merely a temporary stop. I had left this city since high school, and ironically, only spent that half-year at home when the pandemic first broke out. Before that return, I hastily met with a few friends and colleagues to say goodbye. My parents drove to Beijing to bring back me, Nini, and all our belongings. Upon arriving in Hangzhou, we looked at just one or two apartments before deciding, and moved in the next day.
+Damals war ich begierig darauf, einem geschäftigen, aber sinnlosen Job zu entkommen, und der Wegzug aus Peking war nur ein Tapetenwechsel. Für mich war Hangzhou, obwohl es meine Heimatstadt ist, lediglich ein vorübergehender Aufenthalt. Ich hatte diese Stadt seit der Oberschule verlassen und ironischerweise nur jenes halbe Jahr zu Hause verbracht, als die Pandemie erstmals ausbrach. Vor dieser Rückkehr traf ich mich hastig mit einigen Freunden und Kollegen, um mich zu verabschieden. Meine Eltern fuhren nach Peking, um mich, Nini und all unsere Habseligkeiten zurückzubringen. Nach unserer Ankunft in Hangzhou schauten wir uns nur ein oder zwei Wohnungen an, bevor wir uns entschieden und am nächsten Tag einzogen.
 
-I didn't expect so much to happen in just a short year. I won't dwell on the trivial matters, but rather share more about my feelings.
+Ich hatte nicht erwartet, dass in nur einem kurzen Jahr so viel passieren würde. Ich werde nicht auf die Kleinigkeiten eingehen, sondern vielmehr meine Gefühle teilen.
 
-Actually, towards the end of my previous job, due to various factors like the pandemic and work modes, I already had some time when I didn't need to go to the office. However, because of endless meetings and colleagues' work hours, it merely saved me from the commute. It wasn't until I settled in Hangzhou after starting my new job that I truly experienced the freedom of remote work. During that time, I wandered through multiple cities like Wuhan, Shanghai, Shenzhen, Hong Kong, Chengdu, and Xi'an for an entire month, attending many events, often working late into the night to ensure complete work hours.
+Tatsächlich hatte ich gegen Ende meines vorherigen Jobs aufgrund verschiedener Faktoren wie der Pandemie und der Arbeitsweisen bereits einige Zeit, in der ich nicht ins Büro gehen musste. Allerdings ersparte mir das aufgrund endloser Besprechungen und der Arbeitszeiten der Kollegen lediglich den Arbeitsweg. Erst als ich mich nach Beginn meines neuen Jobs in Hangzhou niederließ, erlebte ich wirklich die Freiheit der Fernarbeit. In dieser Zeit wanderte ich einen ganzen Monat lang durch mehrere Städte wie Wuhan, Shanghai, Shenzhen, Hongkong, Chengdu und Xi'an, nahm an vielen Veranstaltungen teil und arbeitete oft bis spät in die Nacht, um die vollständige Arbeitszeit sicherzustellen.
 
-After just a month or two, the novelty of free travel had largely worn off, and I started to swing to the other extreme - staying at home and not going out. During this time, I spent a lot of time learning technologies I was interested in, writing blogs, reading books, and playing with Nini, thoroughly enjoying myself. But gradually, I discovered that although I'm an introvert who relies more on self-dialogue to gain energy, the sense of loneliness and inertia brought by long-term isolation quickly depleted the accumulated energy. Despite having more time, it became harder to utilize the time outside of work properly, and anxiety followed.
+Nach nur ein oder zwei Monaten hatte sich der Reiz des freien Reisens weitgehend abgenutzt, und ich begann, ins andere Extrem zu schwingen - zu Hause zu bleiben und nicht auszugehen. In dieser Zeit verbrachte ich viel Zeit damit, Technologien zu lernen, die mich interessierten, Blogs zu schreiben, Bücher zu lesen und mit Nini zu spielen, und genoss mich dabei gründlich. Aber allmählich entdeckte ich, dass, obwohl ich ein Introvertierter bin, der sich mehr auf Selbstgespräche verlässt, um Energie zu gewinnen, das Gefühl der Einsamkeit und Trägheit, das durch langfristige Isolation entsteht, die angesammelte Energie schnell aufzehrte. Trotz mehr Zeit wurde es schwieriger, die Zeit außerhalb der Arbeit angemessen zu nutzen, und Angst folgte.
 
-Then, as I entered into a relationship, the focus of life gradually shifted, and I no longer confined myself at home. I frequently traveled back and forth to Beijing, gaining more sense of real life beyond work. I would pick up and drop off my senior at work, stroll in the park on nice days, cook together at home, and watch interesting dramas or documentaries while eating. My work and life seemed to have achieved a certain balance due to remote work, appearing enviably beautiful.
+Als ich dann eine Beziehung einging, verlagerte sich der Fokus des Lebens allmählich, und ich beschränkte mich nicht mehr auf das Zuhause. Ich reiste häufig nach Peking und zurück und gewann mehr Gefühl für das reale Leben jenseits der Arbeit. Ich holte meine Seniorin von der Arbeit ab und brachte sie hin, spazierte an schönen Tagen im Park, kochte gemeinsam zu Hause und schaute beim Essen interessante Dramen oder Dokumentationen. Meine Arbeit und mein Leben schienen durch die Fernarbeit ein gewisses Gleichgewicht erreicht zu haben und wirkten beneidenswert schön.
 
-But this also had its problems. Just as many people bring work emotions into love or marriage causing conflicts, remote work makes it easier to bring life's inertia into work. However, while life always has its ups and downs, work, as a socialized activity of team collaboration, requires a more stable state and output. I often found myself in such a dilemma recently. There have been many changes in life in a short period, perhaps needing more time to adjust and reflect, while work has gradually become busier with project launches. I tried to do well on both fronts but fell into a vicious cycle of self-doubt.
+Aber auch das hatte seine Probleme. Genauso wie viele Menschen Arbeitsemotionen in die Liebe oder Ehe bringen und Konflikte verursachen, macht es die Fernarbeit leichter, die Trägheit des Lebens in die Arbeit zu bringen. Während das Leben jedoch immer seine Höhen und Tiefen hat, erfordert die Arbeit als sozialisierte Aktivität der Teamzusammenarbeit einen stabileren Zustand und Output. Ich fand mich in letzter Zeit oft in einem solchen Dilemma wieder. Es gab in kurzer Zeit viele Veränderungen im Leben, die vielleicht mehr Zeit zum Anpassen und Reflektieren benötigen, während die Arbeit mit Projekteinführungen allmählich geschäftiger wurde. Ich versuchte, auf beiden Fronten gut zu sein, verfiel aber in einen Teufelskreis des Selbstzweifels.
 
-To this day, I still haven't found a perfect solution or balance point, but I'm gradually beginning to face and acknowledge my limited energy. I'm willing to seek help for things I can't do well at work, and I also give myself moments to relax away from the computer after work or on weekends. Sometimes on Thursdays, I go to Crazy Thursday in Liangzhu to meet different people, and on weekdays, I arrange some undisturbed alone time with my senior, each of us reading, studying, or doing things we like.
+Bis heute habe ich noch keine perfekte Lösung oder einen Ausgleichspunkt gefunden, aber ich beginne allmählich, meine begrenzte Energie zu erkennen und anzuerkennen. Ich bin bereit, bei Dingen, die ich bei der Arbeit nicht gut machen kann, um Hilfe zu bitten, und ich gönne mir auch Momente der Entspannung weg vom Computer nach der Arbeit oder an Wochenenden. Manchmal gehe ich donnerstags zum Crazy Thursday in Liangzhu, um verschiedene Menschen zu treffen, und an Wochentagen plane ich ungestörte Alleinzeit mit meiner Seniorin, in der wir jeweils lesen, studieren oder Dinge tun, die wir mögen.
 
-I'm also gradually realizing the need to set boundaries for myself and life. Even without punching in or commuting for work, there needs to be a time to get up, dividing time into intervals to arrange tasks, and also needing a ritualistic signal for the end of a day's work, such as going home for a meal or going out to the supermarket.
+Ich erkenne auch allmählich die Notwendigkeit, Grenzen für mich selbst und das Leben zu setzen. Auch ohne Stempeluhr oder Pendeln zur Arbeit muss es eine Zeit zum Aufstehen geben, die Zeit muss in Intervalle eingeteilt werden, um Aufgaben zu planen, und es braucht auch ein rituelles Signal für das Ende eines Arbeitstages, wie nach Hause gehen zum Essen oder in den Supermarkt gehen.
 
-I'm still exploring the lifestyle changes brought by remote work and still adapting to this new rhythm of life. But this year has made me focus more on my inner self. Life and home are no longer the cold refuges for temporary rest after work as before, but an extension of myself, and also attempts to get closer to myself.
+Ich erkunde immer noch die Lebensstiländerungen, die die Fernarbeit mit sich bringt, und passe mich noch an diesen neuen Lebensrhythmus an. Aber dieses Jahr hat mich dazu gebracht, mich mehr auf mein inneres Selbst zu konzentrieren. Leben und Zuhause sind nicht mehr die kalten Zufluchtsorte für vorübergehende Ruhe nach der Arbeit wie früher, sondern eine Erweiterung meiner selbst und auch Versuche, mir selbst näher zu kommen.
 
-## Second Move
+## Zweiter Umzug
 
-A year later, I'm "moving" back to Hangzhou again. This time it's due to my senior's job transfer, and we'll be based in Hangzhou regularly afterwards. This move seems very different from before, more like moving a home from one place to another, welcoming a new life with a sense of ritual. We're decluttering many things we no longer need, trying to squeeze wine glasses or trinkets that once carried memories into some corner.
+Ein Jahr später "ziehe" ich wieder nach Hangzhou zurück. Diesmal liegt es an der Versetzung meiner Seniorin, und wir werden danach regelmäßig in Hangzhou stationiert sein. Dieser Umzug scheint sehr anders als zuvor, eher wie der Umzug eines Zuhauses von einem Ort zum anderen, der mit einem Gefühl der Ritualität ein neues Leben begrüßt. Wir entrümpeln viele Dinge, die wir nicht mehr brauchen, und versuchen, Weingläser oder Nippes, die einst Erinnerungen trugen, in irgendeine Ecke zu quetschen.
 
-I'm not really that concerned about the city itself and don't have much sense of belonging to cities. Even this move is just to a familiar place for me, and the process is similar to last year's. Yet I'm full of more expectations for this move and the life that follows. Perhaps I'm slowly understanding this line from The Little Prince:
+Ich bin nicht wirklich so besorgt um die Stadt selbst und habe nicht viel Zugehörigkeitsgefühl zu Städten. Selbst dieser Umzug ist für mich nur an einen vertrauten Ort, und der Prozess ähnelt dem des letzten Jahres. Dennoch bin ich voller Erwartungen für diesen Umzug und das darauf folgende Leben. Vielleicht verstehe ich langsam diese Zeile aus "Der kleine Prinz":
 
-> "It is the time you have wasted for your rose that makes your rose so important."
+> "Es ist die Zeit, die du für deine Rose verloren hast, die deine Rose so wichtig macht."
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auflisten. Es fühlt sich mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- [**Duku 2400**](https://book.douban.com/subject/36680227/), I've started subscribing to Duku, and the interview in the 0th issue is quite interesting.
+- [**Duku 2400**](https://book.douban.com/subject/36680227/), Ich habe begonnen, Duku zu abonnieren, und das Interview in der 0. Ausgabe ist ziemlich interessant.
 
-#### Collections
+#### Sammlungen
 
 - [GitHub - xyhp915/logseq-fenced-code-plus](https://github.com/xyhp915/logseq-fenced-code-plus)
 - [GitHub - supabase/index_advisor](https://github.com/supabase/index_advisor)
@@ -70,45 +70,45 @@ Although most interesting inputs are automatically synced in the "Yu's Life" Tel
 - [Electron](https://www.electronjs.org/)
 - [electron-vite | Next Generation Electron Build Tooling](https://electron-vite.org/)
 
-#### Articles
+#### Artikel
 
-- [A High School Student in a County Town, Trapped in Little Red Book's Parallel World - Huxiu](https://www.huxiu.com/article/2705104.html)
-- [How to Quickly Create an On-chain Content Sharing Community Based on Telegram Channel?](https://ddaocommunity.notion.site/Telegram-Channel-25f72489ba3c4a4db5d24ca7df720b13#5b041c8e4fff4e38a6411e7396be7703)
-- [We Live in Differences | Frost's Blog](https://frostming.com/2024/diversity/)
-- [Fake Self-hosting Enthusiast](https://blog.gujiakai.top/2024/04/fake-selfhost-lover)
-- [The Art of Living Without News](https://elizen.me/posts/2024/04/stop-reading-the-news/)
-- [Full Text of He Yizhi's Letter to American Judge: What Is a More Real Zhao Changpeng Like?](https://s.foresightnews.pro/article/detail/58768)
-- [Thoughts on Giving Myself a Second Graduation in Life](https://mp.weixin.qq.com/s/XzAjnC1_0Z9JtdrLi3IllA)
-- [Useful Personal Rules](https://chengweihu.com/rules/)
-- [The Best Way to Use SQLite in Electron](https://lutaonan.com/blog/electron-sqlite/)
-- [Inter-Process Communication](https://www.electronjs.org/docs/latest/tutorial/ipc)
-- [I'm giving up — on open source](https://nutjs.dev/blog/i-give-up)
+- [Ein Oberschüler in einer Kreisstadt, gefangen in Little Red Books paralleler Welt - Huxiu](https://www.huxiu.com/article/2705104.html)
+- [Wie erstellt man schnell eine On-Chain-Content-Sharing-Community basierend auf einem Telegram-Kanal?](https://ddaocommunity.notion.site/Telegram-Channel-25f72489ba3c4a4db5d24ca7df720b13#5b041c8e4fff4e38a6411e7396be7703)
+- [Wir leben in Unterschieden | Frosts Blog](https://frostming.com/2024/diversity/)
+- [Gefälschter Self-Hosting-Enthusiast](https://blog.gujiakai.top/2024/04/fake-selfhost-lover)
+- [Die Kunst, ohne Nachrichten zu leben](https://elizen.me/posts/2024/04/stop-reading-the-news/)
+- [Volltext von He Yizhis Brief an den amerikanischen Richter: Wie ist ein realerer Zhao Changpeng?](https://s.foresightnews.pro/article/detail/58768)
+- [Gedanken darüber, mir selbst eine zweite Graduierung im Leben zu geben](https://mp.weixin.qq.com/s/XzAjnC1_0Z9JtdrLi3IllA)
+- [Nützliche persönliche Regeln](https://chengweihu.com/rules/)
+- [Der beste Weg, SQLite in Electron zu verwenden](https://lutaonan.com/blog/electron-sqlite/)
+- [Interprozesskommunikation](https://www.electronjs.org/docs/latest/tutorial/ipc)
+- [Ich gebe auf — bei Open Source](https://nutjs.dev/blog/i-give-up)
 
 #### Videos
 
-- [【Hardware Science】What exactly is NAS? Do you need a NAS?](https://www.youtube.com/watch?v=BGMY3dn5V4U)
-- [From Novice to Expert, All You Need to Know About Network Knowledge in This Episode! Soft Router, Bridging, Port Forwarding, Bypass Router, Single-arm Router, IPv4, IPv6, DDNS](https://www.youtube.com/watch?v=8J0Up8B7YkU)
-- [vlog #51 | Daily Learning and Healing Fragments 📷 | Continuous English Learning | Learning OP Stack | Reading "The Fogg Behavior Model" | Spring and Sea in Zhuhai](https://www.bilibili.com/video/BV1uH4y1T7Bi)
-- [Node.js: The Documentary | An origin story](https://www.youtube.com/watch?v=LB8KwiiUGy0)
-- [How to Choose Your "Life Lens"? | SEL1625G](https://www.bilibili.com/video/BV1ym421x7Py)
-- [Hokkaido Solo Travel VLOG❄️ | A White Romance Belonging to Winter, Discovering a Different Sapporo~](https://www.bilibili.com/video/BV1FZ421t7cV)
-- [Is "Black Cat" the Most Suitable Portable Screen for Mac? JSAUX FlipGo Portable Dual Screen Review and Experience](https://www.youtube.com/watch?v=uIcUi_CF1jg)
-- [Solo Trip to Hokkaido | A Niche Journey Through Otaru & Hakodate~❄️](https://www.bilibili.com/video/BV1Z1421d7ky)
-- [VLOG #52 | Programmer's After-work Daily Learning Records | When Tired of Work, Go to the Woods to Read | Continuous English Learning | Learning OP Stack | "The Fogg Behavior Model" | Slow Life of Camping in the Woods](https://www.bilibili.com/video/BV17q421F7dA)
-- [Backend Developer Roadmap - Everything you need to know in 2023](https://www.youtube.com/watch?v=CWAi_2oLhYg)
-- [Curing Stubbornness! Challenging the World's Scariest Haunted House!](https://www.bilibili.com/video/BV1Zt421j7ft)
-- [vlog #53 | Programmer's After-work Daily Learning Records | No Matter How Busy Work Is, We Must Recharge Well | Learning Various DEBUG Tools | Almost Finished "The Fogg Behavior Model", This Book Is Great | Continuous English Learning](https://www.bilibili.com/video/BV1q1421X7bX)
+- [【Hardware Science】Was genau ist NAS? Brauchen Sie ein NAS?](https://www.youtube.com/watch?v=BGMY3dn5V4U)
+- [Vom Anfänger zum Experten, alles, was Sie über Netzwerkkenntnisse in dieser Episode wissen müssen! Soft Router, Bridging, Port Forwarding, Bypass Router, Single-Arm Router, IPv4, IPv6, DDNS](https://www.youtube.com/watch?v=8J0Up8B7YkU)
+- [vlog #51 | Tägliche Lern- und Heilungsfragmente 📷 | Kontinuierliches Englischlernen | Lernen von OP Stack | Lesen von "The Fogg Behavior Model" | Frühling und Meer in Zhuhai](https://www.bilibili.com/video/BV1uH4y1T7Bi)
+- [Node.js: The Documentary | Eine Entstehungsgeschichte](https://www.youtube.com/watch?v=LB8KwiiUGy0)
+- [Wie wählt man sein "Lebens-Objektiv"? | SEL1625G](https://www.bilibili.com/video/BV1ym421x7Py)
+- [Hokkaido Solo-Reise VLOG❄️ | Eine weiße Romanze, die dem Winter gehört, Entdeckung eines anderen Sapporo~](https://www.bilibili.com/video/BV1FZ421t7cV)
+- [Ist "Black Cat" der am besten geeignete tragbare Bildschirm für Mac? JSAUX FlipGo Tragbarer Doppelbildschirm Rezension und Erfahrung](https://www.youtube.com/watch?v=uIcUi_CF1jg)
+- [Alleinreise nach Hokkaido | Eine Nischenreise durch Otaru & Hakodate~❄️](https://www.bilibili.com/video/BV1Z1421d7ky)
+- [VLOG #52 | Tägliche Lernaufzeichnungen eines Programmierers nach der Arbeit | Wenn man der Arbeit müde ist, in den Wald zum Lesen gehen | Kontinuierliches Englischlernen | Lernen von OP Stack | "The Fogg Behavior Model" | Langsames Leben beim Camping im Wald](https://www.bilibili.com/video/BV17q421F7dA)
+- [Backend-Entwickler-Roadmap - Alles, was Sie 2023 wissen müssen](https://www.youtube.com/watch?v=CWAi_2oLhYg)
+- [Sturheit heilen! Herausforderung des gruseligsten Spukhauses der Welt!](https://www.bilibili.com/video/BV1Zt421j7ft)
+- [vlog #53 | Tägliche Lernaufzeichnungen eines Programmierers nach der Arbeit | Egal wie beschäftigt die Arbeit ist, wir müssen uns gut aufladen | Lernen verschiedener DEBUG-Tools | Fast fertig mit "The Fogg Behavior Model", dieses Buch ist großartig | Kontinuierliches Englischlernen](https://www.bilibili.com/video/BV1q1421X7bX)
 
 #### Podcasts
 
-- [EP56 The Story Behind Immersive Translation | Conversation with Founder Owen](https://hardhacker.com/podcasts/661d2dc748c40e2fb07c6b99)
+- [EP56 Die Geschichte hinter Immersive Translation | Gespräch mit Gründer Owen](https://hardhacker.com/podcasts/661d2dc748c40e2fb07c6b99)
 
-#### Movies
+#### Filme
 
-- [**Dune**](http://movie.douban.com/subject/3001114/), Poetic and philosophical settings, with a stunning world view of primitive religion + technological civilization + feudal imperial system. The protagonist's dreams and emotions, prophecies and fanatical superstitions intertwine to drive the plot, giving a sense of grand narrative that unfolds gradually.
-- [**Dune: Part Two**](http://movie.douban.com/subject/35575567/), I watched parts one and two consecutively, always expecting this part to present more of the world view settings and the core of the plot, but saw more of thrilling confrontations, tests of the protagonist, and war. It seems to focus more on personal changes and growth, but lacks some narrative. I plan to read the original novel to supplement.
+- [**Dune**](http://movie.douban.com/subject/3001114/), Poetische und philosophische Einstellungen, mit einer atemberaubenden Weltanschauung von primitiver Religion + technologischer Zivilisation + feudalem Herrschaftssystem. Die Träume und Emotionen des Protagonisten, Prophezeiungen und fanatischer Aberglaube verflechten sich, um die Handlung voranzutreiben und geben ein Gefühl einer großen Erzählung, die sich allmählich entfaltet.
+- [**Dune: Part Two**](http://movie.douban.com/subject/35575567/), Ich habe Teil eins und zwei hintereinander geschaut und erwartete immer, dass dieser Teil mehr von den Weltanschauungseinstellungen und dem Kern der Handlung präsentieren würde, sah aber mehr aufregende Konfrontationen, Prüfungen des Protagonisten und Krieg. Es scheint sich mehr auf persönliche Veränderungen und Wachstum zu konzentrieren, lässt aber etwas Erzählung vermissen. Ich plane, den Originalroman zu lesen, um dies zu ergänzen.
 
-#### TV Series
+#### TV-Serien
 
-- [**The Year Earth Changed**](http://movie.douban.com/subject/35417202/), An interesting perspective, showing that what human society considers as natural disasters like the pandemic might be insignificant or even beneficial for the entire Earth and other species when human intervention is reduced, peaceful and beautiful.
-- [**Spy in the Wild**](http://movie.douban.com/subject/21355794/), Viewing the daily life of penguins from their perspective as they migrate, forage, reproduce, and outsmart their predators. So cute!
+- [**The Year Earth Changed**](http://movie.douban.com/subject/35417202/), Eine interessante Perspektive, die zeigt, dass das, was die menschliche Gesellschaft als Naturkatastrophen wie die Pandemie betrachtet, für die gesamte Erde und andere Arten unbedeutend oder sogar vorteilhaft sein könnte, wenn menschliche Eingriffe reduziert werden, friedlich und schön.
+- [**Spy in the Wild**](http://movie.douban.com/subject/21355794/), Betrachtung des täglichen Lebens von Pinguinen aus ihrer Perspektive, während sie wandern, nach Nahrung suchen, sich fortpflanzen und ihre Räuber überlisten. So niedlich!

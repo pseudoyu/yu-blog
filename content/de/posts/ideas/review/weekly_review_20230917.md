@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #47 - Interview, Boxing and Work Status"
+title: "Wochenrückblick #47 - Interview, Boxen und Arbeitsstatus"
 date: 2023-09-17T18:42:36+08:00
 draft: false
 tags: ["review", "life", "love", "boxing", "work"]
@@ -10,70 +10,70 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from September 13 to September 17, 2023.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 13. bis 17. September 2023.
 
-On Monday, I went to see the long-awaited "Oppenheimer" - it had been a while since I last went to the cinema. Saturday was spent sketching at the Old Summer Palace, a fully immersive day. Sunday marked my first boxing class at a boxing gym, quite a novel experience. Midweek, I finally met Atlas and discussed various topics about work and life. My life routine is gradually returning to normal, though there are some issues with my work status that required adjustments. I made a guest appearance for an interview on polebug's channel, discussing many topics related to Web3 and contract development. There were many other interesting happenings as well.
+Am Montag sah ich den lang erwarteten Film "Oppenheimer" - es war eine Weile her, seit ich zuletzt im Kino war. Den Samstag verbrachte ich mit Zeichnen im Alten Sommerpalast, ein Tag voller Immersion. Am Sonntag nahm ich an meinem ersten Boxkurs in einem Boxstudio teil, eine ganz neue Erfahrung. Mitte der Woche traf ich mich endlich mit Atlas und diskutierte verschiedene Themen zu Arbeit und Leben. Meine Lebensroutine kehrt allmählich zur Normalität zurück, obwohl es einige Probleme mit meinem Arbeitsstatus gab, die Anpassungen erforderten. Ich hatte einen Gastauftritt für ein Interview auf polebugs Kanal, bei dem wir viele Themen im Zusammenhang mit Web3 und Vertragsentwicklung besprachen. Es gab auch viele andere interessante Ereignisse.
 
 ## Interview
 
-I had a chat on [polebug's](https://twitter.com/polebug) [Bilibili channel](https://space.bilibili.com/58078997) about my previous learning experiences and topics related to Web3 and smart contracts. Before I knew it, we had talked for nearly 30 minutes. It was an interesting conversational experience and also served as a small summary of some of my learning.
+Ich führte ein Gespräch auf [polebugs](https://twitter.com/polebug) [Bilibili-Kanal](https://space.bilibili.com/58078997) über meine bisherigen Lernerfahrungen und Themen im Zusammenhang mit Web3 und Smart Contracts. Ehe ich mich versah, hatten wir fast 30 Minuten geredet. Es war eine interessante Gesprächserfahrung und diente auch als kleine Zusammenfassung einiger meiner Lernerfahrungen.
 
-- [Chatting with a Web3 practitioner #4 | From English major to smart contract developer - pseudoyu 🐙 | Why choose to study blockchain at HKU | Sharing smart contract learning resources | Advice for those switching to computer science](https://www.bilibili.com/video/BV1wV411N7eQ)
+- [Gespräch mit einem Web3-Praktiker #4 | Vom Englisch-Studenten zum Smart-Contract-Entwickler - pseudoyu 🐙 | Warum das Blockchain-Studium an der HKU | Sharing von Lernressourcen für Smart Contracts | Ratschläge für diejenigen, die zur Informatik wechseln](https://www.bilibili.com/video/BV1wV411N7eQ)
 
-## Boxing
+## Boxen
 
-Long ago, I read about this sport in my senior's article "[Sports | What are some things you only know after learning boxing?](https://www.boyilu.com/boxing-beginner)". However, as a hardcore homebody, I couldn't even distinguish between Western boxing, Muay Thai, and Brazilian Jiu-Jitsu, let alone try them. It wasn't until recently when I wanted to find some group activities that I thought of starting with boxing. So, I made an appointment for a weekend afternoon, changed into sports attire, and headed to the boxing gym.
+Vor langer Zeit las ich über diesen Sport in einem Artikel meines Seniors "[Sport | Was erfährt man erst, nachdem man Boxen gelernt hat?](https://www.boyilu.com/boxing-beginner)". Als eingefleischter Stubenhocker konnte ich jedoch nicht einmal zwischen westlichem Boxen, Muay Thai und Brazilian Jiu-Jitsu unterscheiden, geschweige denn sie ausprobieren. Erst kürzlich, als ich nach Gruppenaktivitäten suchte, dachte ich daran, mit Boxen anzufangen. Also vereinbarte ich einen Termin für einen Samstagnachmittag, zog Sportkleidung an und machte mich auf den Weg zum Boxstudio.
 
-I had rollerbladed for many years before and skateboarded for a while, but had little exposure to other sports. I approached the class with some apprehension. As expected, I struggled with coordinating footwork and punches due to lack of experience with this type of sport. My coordination wasn't great either. I realized I might have been stuck in my own thought patterns for too long - at first, I almost wanted to make a mind map to lay out the sequence of various movements. I felt a bit discouraged when my body and mind weren't in sync, but after a bit of practice, I managed to keep up with the training rhythm.
+Ich war viele Jahre lang Inline-Skates gefahren und hatte eine Weile Skateboard gefahren, aber hatte wenig Erfahrung mit anderen Sportarten. Ich ging mit einiger Besorgnis in den Kurs. Wie erwartet hatte ich aufgrund mangelnder Erfahrung mit dieser Art von Sport Schwierigkeiten, Fußarbeit und Schläge zu koordinieren. Auch meine Koordination war nicht besonders gut. Mir wurde klar, dass ich vielleicht zu lange in meinen eigenen Denkmustern gefangen war - anfangs wollte ich fast eine Mindmap erstellen, um die Abfolge der verschiedenen Bewegungen darzustellen. Ich fühlte mich etwas entmutigt, als Körper und Geist nicht im Einklang waren, aber nach etwas Übung gelang es mir, mit dem Trainingsrhythmus Schritt zu halten.
 
-My senior even recorded a short video of me practicing punches, which I posted in my [channel](https://t.me/pseudoyulife/): <https://t.me/pseudoyulife/2360>
+Mein Senior nahm sogar ein kurzes Video von mir auf, wie ich Schläge übe, das ich in meinem [Kanal](https://t.me/pseudoyulife/) gepostet habe: <https://t.me/pseudoyulife/2360>
 
-Being able to experience the satisfaction of punching in the first lesson was very rewarding. Overall, it's an interesting and stress-relieving sport, and not as difficult as I had imagined. Many footwork and detailed movements still need more practice, and I want to continue training.
+Schon in der ersten Stunde die Befriedigung des Schlagens zu erleben, war sehr lohnend. Insgesamt ist es ein interessanter und stressabbauender Sport, und nicht so schwierig, wie ich es mir vorgestellt hatte. Viele Fußarbeit und detaillierte Bewegungen bedürfen noch mehr Übung, und ich möchte das Training fortsetzen.
 
-## Work Status Adjustment
+## Anpassung des Arbeitsstatus
 
-My life routine has been gradually returning to normal these past few weeks, which can be seen from the frequency of my weekly reviews. I've started reading books and watching movies again, finally took the first step towards exercise, and have been slowly participating in some outdoor activities on weekends. My emotions seem to be in a good state.
+Meine Lebensroutine ist in den letzten Wochen allmählich zur Normalität zurückgekehrt, was man an der Häufigkeit meiner wöchentlichen Rückblicke erkennen kann. Ich habe wieder angefangen, Bücher zu lesen und Filme zu schauen, habe endlich den ersten Schritt zum Sport gemacht und nehme langsam an einigen Outdoor-Aktivitäten an den Wochenenden teil. Meine Emotionen scheinen in einem guten Zustand zu sein.
 
-However, I've noticed some issues with my work status. It's not about the direction or content of the work, but rather that there are too many things I want to do, and I seem to want to explore them all. But my time and energy are ultimately limited, causing me to lose focus and affecting my efficiency. After talking with my team leader and colleagues, I've started making some adjustments.
+Allerdings habe ich einige Probleme mit meinem Arbeitsstatus bemerkt. Es geht nicht um die Richtung oder den Inhalt der Arbeit, sondern vielmehr darum, dass es zu viele Dinge gibt, die ich tun möchte, und ich scheine sie alle erkunden zu wollen. Aber meine Zeit und Energie sind letztendlich begrenzt, was dazu führt, dass ich den Fokus verliere und meine Effizienz beeinträchtigt wird. Nach Gesprächen mit meinem Teamleiter und Kollegen habe ich begonnen, einige Anpassungen vorzunehmen.
 
-It seems I've reached another cycle of self-adjustment.
+Es scheint, als hätte ich einen weiteren Zyklus der Selbstanpassung erreicht.
 
-## Personal Life Snapshots
+## Persönliche Lebensmomente
 
 ### Oppenheimer
 
-Because I subscribe to various streaming services both domestic and foreign, and generally don't follow trending topics, I rarely go to the cinema. After work on Monday, I went to see a movie for the first time in a while - the long-anticipated "Oppenheimer". The last memorable experience was the three-hour Batman film, equally long and equally enjoyable.
+Da ich verschiedene Streaming-Dienste im In- und Ausland abonniert habe und im Allgemeinen keine Trendthemen verfolge, gehe ich selten ins Kino. Nach der Arbeit am Montag ging ich zum ersten Mal seit langem ins Kino - um den lang erwarteten "Oppenheimer" zu sehen. Die letzte denkwürdige Erfahrung war der dreistündige Batman-Film, ebenso lang und ebenso genussvoll.
 
-Nolan's "Interstellar" and the Batman trilogy are among my favorite films. His pursuit of immersion and control of emotions is well-suited for more profound biographical, historical, and heroic themes. The protagonist is striking yet realistic, and the supporting characters each have their own story arcs. What impressed me most was the deliberately disjointed narrative, the interweaving of black-and-white and color images, and the long dialogues. As a biography, it's hard to expect a clear storyline and developmental rhythm, but the somewhat chaotic and complex imagery constitutes a very "Nolan-esque" editing style, which allowed me to catch several hidden plot twists and foreshadowing.
+Nolans "Interstellar" und die Batman-Trilogie gehören zu meinen Lieblingsfilmen. Sein Streben nach Immersion und Kontrolle der Emotionen eignet sich gut für tiefgründigere biografische, historische und heroische Themen. Der Protagonist ist auffällig und doch realistisch, und die Nebenfiguren haben jeweils ihre eigenen Handlungsbögen. Am meisten beeindruckte mich die bewusst unzusammenhängende Erzählweise, das Ineinandergreifen von Schwarz-Weiß- und Farbbildern und die langen Dialoge. Als Biografie ist es schwierig, eine klare Handlung und einen entwickelten Rhythmus zu erwarten, aber die etwas chaotische und komplexe Bildsprache bildet einen sehr "Nolan-esken" Schnitt, der es mir ermöglichte, mehrere versteckte Handlungswendungen und Vorahnungen zu erkennen.
 
-### Sketching at the Old Summer Palace
+### Zeichnen im Alten Sommerpalast
 
 ![boyi_yuanmingyuan_draw](https://image.pseudoyu.com/images/boyi_yuanmingyuan_draw.jpg)
 
-Another fun weekend activity was accompanying my senior to sketch at the Old Summer Palace on Saturday. It was my first time visiting the Old Summer Palace. Although I brought my camera, I didn't take many photos around. However, I did try out the newly purchased Sony ZV1 Mark II, which I intend to use for recording our life together. It's a very compact point-and-shoot camera, with improvements in focal length and usability compared to the ZV1 I used before. I set it to HLG3, consistent with my camera's parameters, so I can shoot some videos with it in the future. Perhaps I'll regularly record some vlogs or something similar.
+Eine weitere unterhaltsame Wochenendaktivität war die Begleitung meines Seniors zum Zeichnen im Alten Sommerpalast am Samstag. Es war mein erster Besuch im Alten Sommerpalast. Obwohl ich meine Kamera mitgebracht hatte, machte ich nicht viele Fotos in der Umgebung. Allerdings probierte ich die neu gekaufte Sony ZV1 Mark II aus, die ich für die Aufzeichnung unseres gemeinsamen Lebens verwenden möchte. Es ist eine sehr kompakte Kompaktkamera mit Verbesserungen in Brennweite und Benutzerfreundlichkeit im Vergleich zur ZV1, die ich zuvor verwendet hatte. Ich stellte sie auf HLG3 ein, konsistent mit den Parametern meiner Kamera, so dass ich in Zukunft einige Videos damit aufnehmen kann. Vielleicht werde ich regelmäßig einige Vlogs oder etwas Ähnliches aufnehmen.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
+Obwohl die meisten interessanten Inputs automatisch mit dem "Yu's Life" Telegram-Kanal synchronisiert werden, werde ich hier noch einige auflisten. Es fühlt sich so mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- **Building a Second Brain**, I'm continuing to read while building my own knowledge management system based on his theory.
-- **Elon Musk**, I'm quite looking forward to this biography, just started browsing through it a bit.
+- **Building a Second Brain**, ich lese weiter, während ich mein eigenes Wissensmanagement-System basierend auf seiner Theorie aufbaue.
+- **Elon Musk**, ich freue mich sehr auf diese Biografie, habe gerade erst angefangen, sie ein wenig durchzublättern.
 
-#### Articles
+#### Artikel
 
-- [WordPress blogs can now be followed in the fediverse, including Mastodon | TechCrunch](https://techcrunch.com/2023/09/14/wordpress-blogs-can-now-be-followed-in-the-fediverse-including-mastodon/)
+- [WordPress-Blogs können jetzt im Fediverse gefolgt werden, einschließlich Mastodon | TechCrunch](https://techcrunch.com/2023/09/14/wordpress-blogs-can-now-be-followed-in-the-fediverse-including-mastodon/)
 
 #### Videos
 
-- [How much does a YouTuber with 3.5 million followers spend each month? Reading comments after 5 years!](https://www.bilibili.com/video/BV1wj411y7pq)
-- [Chatting with a Web3 practitioner #4 | From English major to smart contract developer - pseudoyu 🐙 | Why choose to study blockchain at HKU | Sharing smart contract learning resources | Advice for those switching to computer science](https://www.bilibili.com/video/BV1wV411N7eQ)
+- [Wie viel gibt ein YouTuber mit 3,5 Millionen Followern jeden Monat aus? Kommentare nach 5 Jahren lesen!](https://www.bilibili.com/video/BV1wj411y7pq)
+- [Gespräch mit einem Web3-Praktiker #4 | Vom Englisch-Studenten zum Smart-Contract-Entwickler - pseudoyu 🐙 | Warum das Blockchain-Studium an der HKU | Sharing von Lernressourcen für Smart Contracts | Ratschläge für diejenigen, die zur Informatik wechseln](https://www.bilibili.com/video/BV1wV411N7eQ)
 
-#### Movies
+#### Filme
 
-- **Oppenheimer**, see the main text above.
+- **Oppenheimer**, siehe Haupttext oben.

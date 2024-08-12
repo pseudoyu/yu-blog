@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #63 - An Unpleasant Flower Ordering Experience, Merchants and Consumers, and the Increasingly AI-like Humans"
+title: "Wochenrückblick #63 - Eine unangenehme Blumenbestellerfahrung, Händler und Verbraucher sowie die zunehmend KI-ähnlichen Menschen"
 date: 2024-07-01T08:30:00+08:00
 draft: false
 tags: ["review", "life", "blog", "vps", "ai", "consumer"]
@@ -10,103 +10,103 @@ authors:
 
 {{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240701_new](https://image.pseudoyu.com/images/weekly_review_20240701_new.png)
 
-This piece records and reflects on my life from June 24 to June 30, 2024.
+Dieser Artikel dokumentiert und reflektiert mein Leben vom 24. Juni bis zum 30. Juni 2024.
 
-An unpleasant flower ordering and rights protection experience led me to ponder the relationship between merchants and consumers, as well as the phenomenon of humans becoming more AI-like while AI becomes increasingly human-like. On Friday, my server suddenly experienced a Kernel Panic and couldn't reboot. After various roundabout rescue attempts, I finally salvaged over a thousand images from the image bed, leaving me feeling quite shaken. I took the opportunity to tinker with a new image bed solution. Realizing it had been over two years since I last wrote a blog setup tutorial, and considering the many changes in both content and components, I decided to restart the series.
+Eine unangenehme Erfahrung mit einer Blumenbestellung und dem anschließenden Versuch, meine Rechte geltend zu machen, veranlasste mich, über die Beziehung zwischen Händlern und Verbrauchern nachzudenken, sowie über das Phänomen, dass Menschen zunehmend KI-ähnlich werden, während KI immer menschenähnlicher wird. Am Freitag erlebte mein Server plötzlich eine Kernel-Panik und konnte nicht neu gestartet werden. Nach verschiedenen umständlichen Rettungsversuchen gelang es mir schließlich, über tausend Bilder aus dem Bilderspeicher zu retten, was mich ziemlich erschütterte. Ich nutzte die Gelegenheit, um eine neue Lösung für den Bilderspeicher auszuprobieren. Als mir bewusst wurde, dass es schon über zwei Jahre her war, seit ich das letzte Mal ein Tutorial zum Blog-Setup geschrieben hatte, und angesichts der vielen Änderungen sowohl im Inhalt als auch in den Komponenten, beschloss ich, die Serie neu zu starten.
 
-## An Unpleasant Flower Ordering Experience
+## Eine unangenehme Blumenbestellerfahrung
 
 ![refund_flower](https://image.pseudoyu.com/images/refund_flower.jpg)
 
-A very unpleasant incident occurred over the weekend (which is still unresolved due to the merchant's refusal to collect the goods).
+Am Wochenende ereignete sich ein sehr unangenehmer Vorfall (der aufgrund der Weigerung des Händlers, die Ware zurückzunehmen, immer noch nicht gelöst ist).
 
-June 30th marked the one-year anniversary of my relationship with my senior. In the morning, I ordered a bouquet of flowers through the Ele.me delivery platform. What should have been a joyous occasion turned sour when the flowers arrived at my senior's place with an attached card that read "To my little Yu baby" along with some personal wishes. I had not requested any card to be included.
+Der 30. Juni markierte den ersten Jahrestag meiner Beziehung mit meiner Seniorin. Am Morgen bestellte ich einen Blumenstrauß über die Ele.me-Lieferplattform. Was ein freudiger Anlass hätte sein sollen, wurde bitter, als die Blumen bei meiner Seniorin ankamen und eine beigefügte Karte mit der Aufschrift "An mein kleines Yu-Baby" sowie einigen persönlichen Wünschen enthielten. Ich hatte keine Karte angefordert.
 
-It seemed the card had been mistakenly attached. Fortunately, I was present when the flowers were delivered, preventing any misunderstandings or conflicts. Although somewhat disappointed, I wasn't overly upset at the time and contacted the merchant for a return.
+Es schien, als sei die Karte versehentlich beigefügt worden. Glücklicherweise war ich anwesend, als die Blumen geliefert wurden, was Missverständnisse oder Konflikte verhinderte. Obwohl ich etwas enttäuscht war, war ich zu diesem Zeitpunkt nicht übermäßig aufgebracht und kontaktierte den Händler für eine Rückgabe.
 
-I explained the situation to the merchant, expressing my understanding that the florist might have attached the wrong card. However, since giving flowers is more about emotional value than the flowers themselves, I no longer wanted this bouquet that seemed "intended for someone else." The merchant's attitude, however, was quite rude.
+Ich erklärte dem Händler die Situation und zeigte Verständnis dafür, dass der Florist möglicherweise die falsche Karte beigefügt hatte. Da es beim Verschenken von Blumen jedoch mehr um den emotionalen Wert als um die Blumen selbst geht, wollte ich diesen Strauß, der "für jemand anderen bestimmt" schien, nicht mehr haben. Die Haltung des Händlers war jedoch ziemlich unhöflich.
 
-> "If it's the wrong card, just throw it away."
+> "Wenn es die falsche Karte ist, wirf sie einfach weg."
 >
-> "I didn't do anything wrong, why should I accept a return?"
+> "Ich habe nichts falsch gemacht, warum sollte ich eine Rückgabe akzeptieren?"
 >
-> "Well, you can contact customer service to protect your rights then."
+> "Nun, dann können Sie sich ja an den Kundendienst wenden, um Ihre Rechte zu schützen."
 
-I consider myself an emotionally stable person who generally treats those around me and the world with kindness. I've never troubled delivery personnel delayed by bad weather, nor have I ever demanded compensation or refunds from delivery drivers for spilled food. Yet, the merchant's attitude still angered me.
+Ich halte mich für einen emotional stabilen Menschen, der im Allgemeinen seine Mitmenschen und die Welt mit Freundlichkeit behandelt. Ich habe noch nie Lieferpersonal belästigt, das durch schlechtes Wetter aufgehalten wurde, noch habe ich jemals von Lieferfahrern Entschädigung oder Rückerstattung für verschüttetes Essen verlangt. Dennoch verärgerte mich die Haltung des Händlers.
 
-I can understand the florist's oversight and have no complaints about the flowers themselves. What I find lamentable is that the merchant, being in the "floral art" business, should understand that those who send flowers are not just sending flowers, but conveying sentiments or expressing emotions. Her attitude made me feel that these feelings were not respected.
+Ich kann das Versehen des Floristen verstehen und habe keine Beschwerden über die Blumen selbst. Was ich bedauerlich finde, ist, dass der Händler, der im Geschäft der "Blumenkunst" tätig ist, verstehen sollte, dass diejenigen, die Blumen verschicken, nicht nur Blumen verschicken, sondern Gefühle übermitteln oder Emotionen ausdrücken. Ihre Haltung ließ mich spüren, dass diese Gefühle nicht respektiert wurden.
 
-It seems that for this flower seller, flowers are just flowers, mass-produced artificial objects. The sender's nervousness, the recipient's shyness or surprise all seem irrelevant.
+Es scheint, dass für diese Blumenverkäuferin Blumen einfach nur Blumen sind, massenproduzierte künstliche Objekte. Die Nervosität des Absenders, die Schüchternheit oder Überraschung des Empfängers scheinen irrelevant zu sein.
 
-Of course, I understand that as a business, there are cost and revenue considerations. But this still pained the few remnants of idealism I still harbor. Without these emotional underpinnings, even the most beautiful floral art is nothing more than a pile of organic matter that will soon decay.
+Natürlich verstehe ich, dass es als Unternehmen Kosten- und Ertragsüberlegungen gibt. Aber das schmerzte dennoch die wenigen Überreste von Idealismus, die ich noch hege. Ohne diese emotionalen Grundlagen ist selbst die schönste Blumenkunst nichts weiter als ein Haufen organischer Materie, die bald verfallen wird.
 
-### Merchants and Consumers
+### Händler und Verbraucher
 
-So I contacted customer service, and after some communication, I learned why the merchant was so unafraid. It turns out that on the Ele.me platform, flowers are non-returnable items. I understand that the original intention might be because flowers are handmade perishable goods that cannot be resold after return.
+Also kontaktierte ich den Kundendienst, und nach einiger Kommunikation erfuhr ich, warum der Händler so furchtlos war. Es stellte sich heraus, dass auf der Ele.me-Plattform Blumen nicht zurückgegeben werden können. Ich verstehe, dass die ursprüngliche Absicht dahinter stehen könnte, dass Blumen handgefertigte verderbliche Waren sind, die nach einer Rückgabe nicht wiederverkauft werden können.
 
-This reminds me of the recent controversy about consumers abusing Pinduoduo's "refund only" mechanism to harm merchants. Isn't this experience also an example of merchants using platform rules to harm consumers?
+Das erinnert mich an die jüngste Kontroverse über Verbraucher, die den "Nur-Rückerstattungs"-Mechanismus von Pinduoduo missbrauchen, um Händlern zu schaden. Ist diese Erfahrung nicht auch ein Beispiel dafür, wie Händler Plattformregeln nutzen, um Verbrauchern zu schaden?
 
-### The AI-ification of Humans
+### Die KI-fizierung des Menschen
 
-This matter wasn't over yet, and my conversation with Ele.me's customer service left me even more speechless.
+Die Angelegenheit war noch nicht vorbei, und mein Gespräch mit dem Kundendienst von Ele.me ließ mich noch sprachloser zurück.
 
-> Me: (After describing the situation and the merchant's attitude problem in detail again) I want to request a return, but the merchant refused.
+> Ich: (Nachdem ich die Situation und das Verhaltensproblem des Händlers noch einmal ausführlich beschrieben hatte) Ich möchte eine Rückgabe beantragen, aber der Händler hat abgelehnt.
 >
-> Customer Service: So the flowers themselves are fine, right?
+> Kundendienst: Also sind die Blumen selbst in Ordnung, richtig?
 >
-> Me: ...If you put it that way, I suppose so, but I don't want them anymore.
+> Ich: ...Wenn Sie es so ausdrücken, nehme ich an, ja, aber ich möchte sie nicht mehr haben.
 >
-> Customer Service: According to our platform policy, we can't refund fresh flowers~
+> Kundendienst: Laut unserer Plattformrichtlinie können wir frische Blumen nicht erstatten~
 >
-> Me: But it came with a card for someone else. These aren't the flowers I wanted.
+> Ich: Aber es war eine Karte für jemand anderen dabei. Das sind nicht die Blumen, die ich wollte.
 >
-> Customer Service: How about I contact the merchant to send you a new card?
+> Kundendienst: Wie wäre es, wenn ich den Händler kontaktiere, damit er Ihnen eine neue Karte schickt?
 >
-> Me: ...
+> Ich: ...
 
-I'm still somewhat bemused by this conversation. People say that since ChatGPT came out, AI has become more and more human-like, and AGI might not be far off. But I feel that before that happens, humans are becoming more and more AI-like. It seems that for them, treating the person on the other end as a thinking, feeling human being has become a difficult task.
+Ich bin immer noch etwas verwirrt über dieses Gespräch. Man sagt, dass seit ChatGPT herauskam, KI immer menschenähnlicher geworden ist und AGI vielleicht nicht mehr weit entfernt ist. Aber ich habe das Gefühl, dass die Menschen, bevor das passiert, immer KI-ähnlicher werden. Es scheint, dass es für sie zu einer schwierigen Aufgabe geworden ist, das Gegenüber als einen denkenden, fühlenden Menschen zu behandeln.
 
-Sometimes I often wonder what's wrong with people these days. Those in the business of making fresh flowers don't treat flowers well, nor can they imagine the unpleasant emotions if they received flowers from their loved one with someone else's name on it. Those in the business of solving user problems don't listen properly to what users are saying, only knowing how to reply with templates.
+Manchmal frage ich mich oft, was mit den Menschen heutzutage los ist. Diejenigen, die im Geschäft mit frischen Blumen tätig sind, behandeln Blumen nicht gut und können sich auch nicht die unangenehmen Gefühle vorstellen, wenn sie Blumen von ihrem Liebsten mit dem Namen eines anderen darauf erhielten. Diejenigen, die sich mit der Lösung von Benutzerproblemen beschäftigen, hören nicht richtig zu, was die Benutzer sagen, und wissen nur, wie man mit Vorlagen antwortet.
 
 ![flower_from_beijing](https://image.pseudoyu.com/images/flower_from_beijing.png)
 
-I'm reminded of a florist I used to order from regularly when I was in Beijing. Because it was custom bouquets, they were much more expensive than those on the platform. But she would ask about my story and the emotions I wanted to express, remember our habit of putting flowers in vases, and could realize all sorts of little ideas I had about flowers. At the time, I was just impressed by the florist's attentiveness. Now I realize that speaking properly and doing one's job with care has become something to be coveted in today's society.
+Ich erinnere mich an eine Floristin, bei der ich regelmäßig bestellt habe, als ich in Peking war. Weil es sich um individuelle Sträuße handelte, waren sie viel teurer als die auf der Plattform. Aber sie fragte nach meiner Geschichte und den Gefühlen, die ich ausdrücken wollte, erinnerte sich an unsere Gewohnheit, Blumen in Vasen zu stellen, und konnte all die kleinen Ideen verwirklichen, die ich zu den Blumen hatte. Damals war ich einfach nur beeindruckt von der Aufmerksamkeit der Floristin. Jetzt wird mir klar, dass anständiges Sprechen und sorgfältiges Erledigen der eigenen Arbeit in der heutigen Gesellschaft zu etwas Begehrenswertem geworden ist.
 
-It was a small shop, with only the owner handling everything from sourcing, flower selection, arranging, to delivery. This shop I ordered from this time is considered a popular one in Hangzhou, often topping various platform rankings with over 9,000 sales. Bad money drives out good, it's truly sad.
+Es war ein kleiner Laden, in dem nur die Besitzerin alles von der Beschaffung über die Blumenauswahl und das Arrangement bis hin zur Lieferung handhabte. Dieser Laden, bei dem ich diesmal bestellt habe, gilt als beliebter Laden in Hangzhou, der oft die verschiedenen Plattform-Rankings mit über 9.000 Verkäufen anführt. Schlechtes Geld verdrängt gutes, es ist wirklich traurig.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
-### Bloggers
+### Blogger
 
-- [A programmer's transition to fintech for 4 years, like going to college again, not writing code anymore? | Age anxiety | Future plans | Imposter syndrome | Life updates](https://www.bilibili.com/video/BV19w4m1Y7o1)
+- [Der Übergang eines Programmierers in die Fintech-Branche für 4 Jahre, wie ein erneuter Besuch des Colleges, kein Code mehr schreiben? | Altersangst | Zukunftspläne | Hochstapler-Syndrom | Lebensupdates](https://www.bilibili.com/video/BV19w4m1Y7o1)
 
-The wandering senior is back!!! Four or five years ago, I used to watch his videos all the time, and even my life direction followed the blockchain path he said he regretted not choosing at the time. I always looked up to him as a goal.
+Der wandernde Senior ist zurück!!! Vor vier oder fünf Jahren habe ich seine Videos ständig geschaut, und sogar meine Lebensrichtung folgte dem Blockchain-Pfad, den er damals bedauerte, nicht gewählt zu haben. Ich habe ihn immer als Ziel bewundert.
 
-Later, he transitioned to fintech and went to Jane Street. These past few years, he's been constantly seeking new challenges and gradually stopped updating. Now that he's back, he talks about learning and growth, anxiety and imposter syndrome, all things that I, as someone slowly entering the workforce, have started to ponder. I still feel inspired!
+Später wechselte er in die Fintech-Branche und ging zu Jane Street. In den letzten Jahren hat er ständig neue Herausforderungen gesucht und nach und nach aufgehört zu aktualisieren. Jetzt, da er zurück ist, spricht er über Lernen und Wachstum, Ängste und das Hochstapler-Syndrom, alles Dinge, über die ich als jemand, der langsam ins Berufsleben eintritt, nachzudenken begonnen habe. Ich fühle mich immer noch inspiriert!
 
-~~Time to continue learning Rust.~~
+~~Zeit, weiter Rust zu lernen.~~
 
 ### Input
 
-Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
+Obwohl die meisten interessanten Inputs automatisch in den Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auflisten. Es fühlt sich so mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- [**Normal People**](https://book.douban.com/subject/34453257/), I really like this British TV series. The other day while reading other books, I suddenly thought of this one and decided to catch up on the original novel.
-- [**What My Bones Know**](https://book.douban.com/subject/35754687/), I read about half of it last year. These past few days, thinking about family and psychological healing issues, I've been reading about a chapter a day.
-- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), a gift from a reader. I've read the first two chapters.
+- [**Normal People**](https://book.douban.com/subject/34453257/), Ich mag diese britische TV-Serie wirklich. Neulich, während ich andere Bücher las, dachte ich plötzlich an dieses und beschloss, den Originalroman nachzuholen.
+- [**What My Bones Know**](https://book.douban.com/subject/35754687/), Ich habe letztes Jahr etwa die Hälfte davon gelesen. In den letzten Tagen, als ich über Familien- und psychologische Heilungsthemen nachdachte, habe ich etwa ein Kapitel pro Tag gelesen.
+- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), ein Geschenk von einem Leser. Ich habe die ersten zwei Kapitel gelesen.
 
-#### Articles
+#### Artikel
 
-- [Microfeatures I Love in Blogs and Personal Websites](https://danilafe.com/blog/blog_microfeatures/)
-- [The Lost Desire to Express](https://www.boyilu.com/lost-desire-to-express)
-- [A Universal Method for Displaying Native and Custom Menus in Electron and Web Environments](https://innei.in/posts/tech/a-universal-method-about-show-electron-native-and-web-custom-menus)
+- [Mikrofunktionen, die ich in Blogs und persönlichen Websites liebe](https://danilafe.com/blog/blog_microfeatures/)
+- [Der verlorene Wunsch, sich auszudrücken](https://www.boyilu.com/lost-desire-to-express)
+- [Eine universelle Methode zur Anzeige nativer und benutzerdefinierter Menüs in Electron- und Web-Umgebungen](https://innei.in/posts/tech/a-universal-method-about-show-electron-native-and-web-custom-menus)
 
 #### Videos
 
-- [A programmer's transition to fintech for 4 years, like going to college again, not writing code anymore? | Age anxiety | Future plans | Imposter syndrome | Life updates](https://www.bilibili.com/video/BV19w4m1Y7o1)
-- [vlog #62 | A female programmer's after-work study record | Starting SwiftUI | Thoughts on time management | Reading "The Courage to Be Disliked" | Daily English learning | Hong Kong team building 😁](https://www.bilibili.com/video/BV1nE421N77f)
+- [Der Übergang eines Programmierers in die Fintech-Branche für 4 Jahre, wie ein erneuter Besuch des Colleges, kein Code mehr schreiben? | Altersangst | Zukunftspläne | Hochstapler-Syndrom | Lebensupdates](https://www.bilibili.com/video/BV19w4m1Y7o1)
+- [vlog #62 | Aufzeichnung des Nach-der-Arbeit-Studiums einer Programmiererin | Beginn mit SwiftUI | Gedanken zum Zeitmanagement | Lesen von "Der Mut, unbeliebt zu sein" | Tägliches Englischlernen | Teambuilding in Hongkong 😁](https://www.bilibili.com/video/BV1nE421N77f)

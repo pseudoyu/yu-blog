@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #67 - Reshaping My Information Input System with Follow"
+title: "Wochenrückblick #67 - Neugestaltung meines Informationseingabesystems mit Follow"
 date: 2024-08-05T05:30:00+08:00
 draft: false
 tags: ["review", "life", "tools", "follow", "work", "painting", "programming"]
@@ -10,152 +10,154 @@ authors:
 
 {{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240805](https://image.pseudoyu.com/images/weekly_review_20240805.png)
 
-This piece is a record and reflection of my life from `2024-07-31` to `2024-08-04`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `31.07.2024` bis zum `04.08.2024`.
 
-The most delightful experience this week was trying out Follow, an application that excited me after a long while. I compared it with Readwise and decided to cancel my subscription. I also implemented a self-hosted Web Archive solution, and it felt great to eat my own dog food. I continued working on the wall mural with my senior, and there were many other interesting happenings.
+Die erfreulichste Erfahrung dieser Woche war das Ausprobieren von Follow, einer Anwendung, die mich nach langer Zeit wieder begeistert hat. Ich habe es mit Readwise verglichen und beschlossen, mein Abonnement zu kündigen. Außerdem habe ich eine selbst gehostete Web-Archive-Lösung implementiert, und es fühlte sich großartig an, mein eigenes Produkt zu nutzen. Ich arbeitete weiter mit meinem Senior an dem Wandgemälde, und es gab viele andere interessante Ereignisse.
 
-## Reshaping My Information Input System with Follow
+## Neugestaltung meines Informationseingabesystems mit Follow
 
-### My Information Input System
+### Mein Informationseingabesystem
 
-Long ago, I was a heavy information dependant. Whenever I came across good blogs or news sites, I would quickly add them to my RSS feed sources, grinning at the neatly categorized and tagged list. When I found good newsletters, I would immediately subscribe with my email. The first thing I did every morning was to clear the unread items in Reeder 4, which I was using at the time, and then browse through the newsletter emails one by one.
+Vor langer Zeit war ich stark informationsabhängig. Wann immer ich auf gute Blogs oder Nachrichtenseiten stieß, fügte ich sie schnell zu meinen RSS-Feed-Quellen hinzu und freute mich über die ordentlich kategorisierte und getaggte Liste. Wenn ich gute Newsletter fand, abonnierte ich sie sofort mit meiner E-Mail-Adresse. Das Erste, was ich jeden Morgen tat, war, die ungelesenen Einträge in Reeder 4, das ich damals benutzte, zu löschen und dann die Newsletter-E-Mails der Reihe nach durchzusehen.
 
-Initially, it seemed fine. I felt satisfied that I could read all the news and articles I cared about as soon as they were available. But gradually, it became overwhelming. I spent more and more time on it every morning, even forcing myself to digest articles I wasn't interested in. Rather than acquiring information, it became more of a craving for information and a compensation for information anxiety. The effect was there, of course - the information left traces in my brain, but the efficiency of digestion was not high.
+Anfangs schien es in Ordnung zu sein. Ich war zufrieden, dass ich alle Nachrichten und Artikel, die mich interessierten, lesen konnte, sobald sie verfügbar waren. Aber nach und nach wurde es überwältigend. Ich verbrachte jeden Morgen immer mehr Zeit damit, zwang mich sogar dazu, Artikel zu verdauen, die mich nicht interessierten. Anstatt Informationen zu erwerben, wurde es mehr zu einem Verlangen nach Informationen und einer Kompensation für Informationsangst. Die Wirkung war natürlich da - die Informationen hinterließen Spuren in meinem Gehirn, aber die Effizienz der Verdauung war nicht hoch.
 
-After reading the articles "Using Automated Workflows to Aggregate Information Intake and Output" and "Saying No to Newsletters", I made significant adjustments.
+Nachdem ich die Artikel "Using Automated Workflows to Aggregate Information Intake and Output" und "Saying No to Newsletters" gelesen hatte, nahm ich erhebliche Anpassungen vor.
 
-In terms of information sources, I unsubscribed from all WeChat official accounts and newsletters, and reduced my RSS feed sources to about 50. Most of the remaining input came from Twitter and other people's Telegram channels, which to some extent avoided information cocoons while keeping the input under control.
+In Bezug auf Informationsquellen meldete ich mich von allen WeChat-Offiziellen-Konten und Newslettern ab und reduzierte meine RSS-Feed-Quellen auf etwa 50. Der größte Teil der verbleibenden Eingaben kam von Twitter und den Telegram-Kanälen anderer Leute, was in gewissem Maße Informationskokonabildung vermied und gleichzeitig die Eingabe unter Kontrolle hielt.
 
-Moreover, by using n8n + telegram channel to build an automatic synchronization system for input and output sources, all my filtered information sources are automatically synced to my Telegram channel "Yu's Life", making it convenient for me to view and review. It also serves as a personal sharing channel. The pressure of being public also reversely motivates me to filter information sources more carefully.
+Darüber hinaus synchronisiere ich durch die Verwendung von n8n + Telegram-Kanal zum Aufbau eines automatischen Synchronisationssystems für Ein- und Ausgabequellen alle meine gefilterten Informationsquellen automatisch mit meinem Telegram-Kanal "Yu's Life", was es mir bequem macht, sie anzusehen und zu überprüfen. Es dient auch als persönlicher Sharing-Kanal. Der Druck der Öffentlichkeit motiviert mich auch umgekehrt dazu, Informationsquellen sorgfältiger zu filtern.
 
-However, this solution still has two problems:
+Diese Lösung hat jedoch immer noch zwei Probleme:
 
-1. It still hasn't solved the problem of my scattered information sources. I need to frequently switch between Twitter and various TG Channels, which is easy to distract and I might still miss some messages.
-2. I often use the channel as my bookmark to some extent. Sometimes a lot of information is very personal, and as the number of followers of the channel grows, I also have some psychological pressure, worrying about becoming information noise for others.
+1. Sie hat das Problem meiner verstreuten Informationsquellen noch nicht gelöst. Ich muss häufig zwischen Twitter und verschiedenen TG-Kanälen wechseln, was leicht ablenkt und dazu führen kann, dass ich einige Nachrichten verpasse.
+2. Ich benutze den Kanal oft in gewissem Maße als mein Lesezeichen. Manchmal sind viele Informationen sehr persönlich, und mit der wachsenden Zahl der Follower des Kanals habe ich auch einen gewissen psychologischen Druck und befürchte, für andere zu Informationsrauschen zu werden.
 
-The emergence of Follow just fills in this gap in my solution.
+Das Aufkommen von Follow füllt genau diese Lücke in meiner Lösung.
 
 ### Follow
 
-#### Introduction
+#### Einführung
 
 > Next generation information browser
 
-This is Follow's slogan. Before its release, I merely regarded it as an alternative to RSS readers. Although I was familiar with RSSHub and heavily used my self-deployed instance, I still couldn't imagine how much room for development there could be based on this ancient protocol, until after its release and a few days of intensive use, I gradually understood this concept.
+Dies ist Follows Slogan. Vor seiner Veröffentlichung betrachtete ich es lediglich als eine Alternative zu RSS-Readern. Obwohl ich mit RSSHub vertraut war und meine selbst bereitgestellte Instanz intensiv nutzte, konnte ich mir immer noch nicht vorstellen, wie viel Entwicklungsspielraum es basierend auf diesem alten Protokoll geben könnte, bis ich nach seiner Veröffentlichung und einigen Tagen intensiver Nutzung dieses Konzept allmählich verstand.
 
-In the current era where RSS has already declined, apart from independent blogs, which are in a similar situation and almost all still retain complete RSS support, most news, information, and various niche websites no longer provide it. RSSHub is then the perfect and almost the only solution, which can convert web information sources including but not limited to Twitter, TG Channel, Bilibili, and NetEase Music playlists into standard RSS format, allowing these information sources to be updated like subscribing to articles.
+In der heutigen Zeit, in der RSS bereits im Niedergang begriffen ist, behalten abgesehen von unabhängigen Blogs, die sich in einer ähnlichen Situation befinden und fast alle noch vollständige RSS-Unterstützung beibehalten, die meisten Nachrichten-, Informations- und verschiedene Nischenwebsites sie nicht mehr bei. RSSHub ist dann die perfekte und fast einzige Lösung, die Webinformationsquellen einschließlich, aber nicht beschränkt auf Twitter, TG Channel, Bilibili und NetEase Music-Playlisten in ein Standard-RSS-Format umwandeln kann, sodass diese Informationsquellen wie das Abonnieren von Artikeln aktualisiert werden können.
 
-However, RSSHub is still more of a middleware tool. Even with standardized RSS data, most readers can only process text display, and the handling of audio, video, and images basically stays at the level of treating them as a URL. Therefore, I mostly apply it in my n8n synchronization workflow as a notification, only retaining its title and link, still clicking the source link to jump to the corresponding webpage to view, which often feels a bit disjointed to use.
+RSSHub ist jedoch immer noch eher ein Middleware-Tool. Selbst mit standardisierten RSS-Daten können die meisten Reader nur Textanzeigen verarbeiten, und die Behandlung von Audio, Video und Bildern bleibt im Grunde genommen auf der Ebene, sie als URL zu behandeln. Daher wende ich es meist in meinem n8n-Synchronisations-Workflow als Benachrichtigung an, behalte nur seinen Titel und Link bei und klicke immer noch auf den Quelllink, um zur entsprechenden Webseite zu springen, um sie anzusehen, was sich oft etwas unzusammenhängend anfühlt.
 
-Follow's biggest feature is naturally the inheritance of RSSHub's "everything can be RSS" philosophy, providing presentation methods for various forms of content such as videos, pictures, blog audio, articles, social media, etc. at the application layer. It really feels like a leap from pure HTML to modern CSS effects after looking at it for a long time. Actually, achieving this step is not a very high technical barrier. Whether it's video iFrame, audio player, or image preview, there are relatively mature components available for use. But Follow is almost the only product that is still focusing on and doing well with this protocol. Sometimes, doing a little better is enough.
+Follows größtes Merkmal ist natürlich die Vererbung der "alles kann RSS sein" Philosophie von RSSHub, die auf der Anwendungsebene Präsentationsmethoden für verschiedene Inhaltsformen wie Videos, Bilder, Blog-Audio, Artikel, soziale Medien usw. bietet. Es fühlt sich wirklich wie ein Sprung von reinem HTML zu modernen CSS-Effekten an, nachdem man es lange Zeit betrachtet hat. Eigentlich ist es keine sehr hohe technische Hürde, diesen Schritt zu erreichen. Ob es sich um Video-iFrame, Audio-Player oder Bildvorschau handelt, es gibt relativ ausgereifte Komponenten zur Verwendung. Aber Follow ist fast das einzige Produkt, das sich immer noch auf dieses Protokoll konzentriert und es gut macht. Manchmal reicht es aus, etwas besser zu machen.
 
-#### Experience
+#### Erfahrung
 
 ![follow_homepage](https://image.pseudoyu.com/images/follow_homepage.png)
 
-As an information browser/reader, the most intuitive and core aspects are the interface and interaction. The combination of DIYGod + Shiyier early on raised my expectations to the fullest, but even the first beta version still amazed me with its completeness and experience. Before this, the most modern one should be Reeder 4, and Follow, even though it's Electron and not pure native, still maintains an extremely exquisite design and interaction.
+Als Informationsbrowser/Reader sind die intuitivsten und wichtigsten Aspekte die Benutzeroberfläche und Interaktion. Die Kombination von DIYGod + Shiyier setzte meine Erwartungen von Anfang an auf das Höchste, aber selbst die erste Beta-Version überraschte mich immer noch mit ihrer Vollständigkeit und Erfahrung. Davor sollte Reeder 4 das modernste gewesen sein, und Follow, obwohl es Electron und nicht rein nativ ist, behält immer noch ein äußerst exquisites Design und Interaktion bei.
 
-I've used multiple readers before, including NetNewsWire, Reeder 4, Miniflux, and Readwise Reader, but because the reading experience was often not as good as the original webpage, I mostly chose to jump to the link to view. However, Follow's pages and interactions themselves make me enjoy it. There's also an interesting recent reading history display, where you can see which visitors have read this article, and you can click into their homepage to see their subscriptions, combining social attributes and information source accumulation. I've discovered many personal blogs that I hadn't paid attention to before through this method.
+Ich habe zuvor mehrere Reader verwendet, darunter NetNewsWire, Reeder 4, Miniflux und Readwise Reader, aber weil die Leseerfahrung oft nicht so gut war wie die ursprüngliche Webseite, habe ich mich meist dafür entschieden, zum Link zu springen, um anzusehen. Die Seiten und Interaktionen von Follow selbst lassen mich es jedoch genießen. Es gibt auch eine interessante Anzeige der kürzlich gelesenen Geschichte, wo man sehen kann, welche Besucher diesen Artikel gelesen haben, und man kann in ihre Homepage klicken, um ihre Abonnements zu sehen, was soziale Attribute und Informationsquellen-Akkumulation kombiniert. Ich habe durch diese Methode viele persönliche Blogs entdeckt, auf die ich vorher nicht geachtet hatte.
 
-Moreover, due to Follow's deep integration with RSSHub, it can achieve direct subscription to social media by inputting twitter handle, Bilibili uid, and youtube channel name, without having to find the corresponding route in the documentation of the RSSHub website or set up your own instance, which is very user-friendly.
+Darüber hinaus kann Follow aufgrund seiner tiefen Integration mit RSSHub durch Eingabe von Twitter-Handle, Bilibili-uid und YouTube-Kanalnamen direkte Abonnements von sozialen Medien erreichen, ohne den entsprechenden Weg in der Dokumentation der RSSHub-Website finden oder eine eigene Instanz einrichten zu müssen, was sehr benutzerfreundlich ist.
 
 ![follow_pic](https://image.pseudoyu.com/images/follow_pic.png)
 
 ![follow_video](https://image.pseudoyu.com/images/follow_video.png)
 
-The direct display of videos and pictures is also a highlight. I've seen a user using some designers' Twitter as their source of design inspiration and aesthetic accumulation, which is also a very meaningful application scenario.
+Die direkte Anzeige von Videos und Bildern ist auch ein Highlight. Ich habe gesehen, wie ein Benutzer die Twitter-Accounts einiger Designer als Quelle für Designinspiration und ästhetische Akkumulation nutzt, was auch ein sehr sinnvolles Anwendungsszenario ist.
 
-Audio/podcasts can be played globally in Follow. For example, in the bottom left corner of the previous screenshots, I was playing an episode of "Beyond Code" simultaneously. This also solves the problem of me having to repeatedly switch between multiple podcast apps like Apple Podcast, Spotify, and Xiaoyuzhou.
+Audio/Podcasts können global in Follow abgespielt werden. Zum Beispiel spielte ich in der unteren linken Ecke der vorherigen Screenshots gleichzeitig eine Episode von "Beyond Code" ab. Dies löst auch das Problem, dass ich wiederholt zwischen mehreren Podcast-Apps wie Apple Podcast, Spotify und Xiaoyuzhou wechseln musste.
 
-You can also conveniently share your subscriptions: <https://web.follow.is/profile/pseudoyu>
+Sie können auch bequem Ihre Abonnements teilen: <https://web.follow.is/profile/pseudoyu>
 
-There are actually quite a few more designs, such as the Action module and Power tipping, but this article is not a software review but a personal experience, so I won't elaborate too much. You can experience it yourself when it opens up later, keeping some surprises. Next, I want to talk about the comparison with Readwise Reader that I'm currently using, and why I plan to switch to Follow.
+Es gibt tatsächlich noch einige weitere Designs, wie das Action-Modul und Power-Tipping, aber dieser Artikel ist keine Software-Rezension, sondern eine persönliche Erfahrung, daher werde ich nicht zu sehr ins Detail gehen. Sie können es selbst erleben, wenn es später geöffnet wird, und einige Überraschungen behalten. Als Nächstes möchte ich über den Vergleich mit Readwise Reader, den ich derzeit verwende, sprechen und warum ich plane, zu Follow zu wechseln.
 
 #### Readwise Reader -> Follow
 
 ![readwise_sub](https://image.pseudoyu.com/images/readwise_sub.png)
 
-I subscribed to Readwise Full membership around September last year. Although it offers a 50% discount for developing countries, it still costs nearly $50 a year. It's comprehensive, but the core functions I use are actually only three points:
+Ich habe etwa im September letzten Jahres die Readwise Full Mitgliedschaft abonniert. Obwohl es einen 50%igen Rabatt für Entwicklungsländer bietet, kostet es immer noch fast $50 pro Jahr. Es ist umfassend, aber die Kernfunktionen, die ich nutze, sind tatsächlich nur drei Punkte:
 
-1. RSS reader
-2. Read later, save articles and highlight annotations
-3. Daily Digest
+1. RSS-Reader
+2. Später lesen, Artikel speichern und Hervorhebungen annotieren
+3. Tägliche Zusammenfassung
 
-Among them, the first point is the most frequent, as a convenient reader to manage my article subscriptions, etc. It also has a mobile app for reading anytime. However, during use, I found that sometimes the display style and image loading are not very good, and the classification and shortcuts are a bit too complex. It mainly supports articles, which can obviously be completely replaced by Follow (waiting for a mobile app).
+Darunter ist der erste Punkt der häufigste, als bequemer Reader zur Verwaltung meiner Artikelabonnements usw. Es hat auch eine mobile App zum Lesen jederzeit. Während der Nutzung stellte ich jedoch fest, dass manchmal der Anzeigestil und das Laden von Bildern nicht sehr gut sind und die Klassifizierung und Verknüpfungen etwas zu komplex sind. Es unterstützt hauptsächlich Artikel, was offensichtlich vollständig durch Follow ersetzt werden kann (warte auf eine mobile App).
 
-I used to use highlight annotations quite often, using plugins to make some notes on some articles and save them to Readwise, then synchronize my articles to Telegram Channel through n8n. But it's actually a bit too dependent on the platform. When I really want to digest those highlighted notes and organize them into some formed ideas or articles, I need to go back to Readwise to view them. Even if I synchronize them to Logseq or Heptabase for organization, it's still not convenient. Especially now that I've switched to Apple Notes as my main and only note-taking tool, I found that directly excerpting/recording some ideas is the most efficient and more likely to generate value. Therefore, the highlighting feature gradually faded out of my note-taking flow.
+Ich habe früher ziemlich oft Hervorhebungsanmerkungen verwendet, mit Plugins einige Notizen zu einigen Artikeln gemacht und sie in Readwise gespeichert, dann meine Artikel durch n8n zum Telegram-Kanal synchronisiert. Aber es ist tatsächlich ein bisschen zu abhängig von der Plattform. Wenn ich diese hervorgehobenen Notizen wirklich verdauen und in einige geformte Ideen oder Artikel organisieren möchte, muss ich zu Readwise zurückkehren, um sie anzusehen. Selbst wenn ich sie zur Organisation mit Logseq oder Heptabase synchronisiere, ist es immer noch nicht bequem. Besonders jetzt, da ich zu Apple Notes als mein Haupt- und einziges Notizwerkzeug gewechselt bin, stellte ich fest, dass das direkte Exzerpieren/Aufzeichnen einiger Ideen am effizientesten ist und eher Wert generiert. Daher verschwand die Hervorhebungsfunktion allmählich aus meinem Notizworkflow.
 
 ![save_website](https://image.pseudoyu.com/images/save_website.jpg)
 
-As we all know, read later often evolves into never read later, so my current strategy is to almost never use read later, trying to read it right away as much as possible, with only a very few longer ones temporarily stored, and trying to clear the list on the same day. Now I use the unread mode as the default display in Follow, often browsing through it. When I come across an article that I'm interested in and have read through, I use the star function to save it in my favorites. When I've finished reading and gained something, I use a browser plugin I made + Cloudflare Worker api + n8n to save the article link and source HTML file to the D1 database, achieving Web Archive and automatically syncing to my Telegram Channel.
+Wie wir alle wissen, entwickelt sich "Später lesen" oft zu "Nie später lesen", also ist meine aktuelle Strategie, fast nie "Später lesen" zu verwenden und zu versuchen, es sofort zu lesen, soweit es möglich ist, mit nur sehr wenigen längeren Artikeln, die vorübergehend gespeichert werden, und zu versuchen, die Liste am selben Tag zu löschen. Jetzt verwende ich den ungelesenen Modus als Standardanzeige in Follow, oft durchstöbere ich es. Wenn ich auf einen Artikel stoße, der mich interessiert und den ich durchgelesen habe, verwende ich die Sternchen-Funktion, um ihn in meinen Favoriten zu speichern. Wenn ich fertig gelesen habe und etwas gewonnen habe, verwende ich ein von mir erstelltes Browser-Plugin + Cloudflare Worker API + n8n, um den Artikel-Link und die Quell-HTML-Datei in der D1-Datenbank zu speichern, wodurch ich Web-Archivierung erreiche und automatisch mit meinem Telegram-Kanal synchronisiere.
 
-The third point, Daily Digest, helps me review some of my notes or articles. This is useful but not high-frequency. I haven't researched in detail whether the Follow Action module can do some operations on multiple articles.
+Der dritte Punkt, die tägliche Zusammenfassung, hilft mir, einige meiner Notizen oder Artikel zu überprüfen. Dies ist nützlich, aber nicht hochfrequent. Ich habe nicht im Detail recherchiert, ob das Follow Action-Modul einige Operationen an mehreren Artikeln durchführen kann.
 
-Since my core needs can all be transferred to Follow, I decisively unsubscribed from Readwise. I can clearly feel that my information intake volume and quality have also significantly improved in these few days. A good software is actually not just an auxiliary tool, it has a more profound impact on thinking and habits.
+Da meine Kernbedürfnisse alle auf Follow übertragen werden können, habe ich mich entschlossen, Readwise abzubestellen. Ich kann deutlich spüren, dass sich mein Informationsaufnahmevolumen und die Qualität in diesen wenigen Tagen auch erheblich verbessert haben. Eine gute Software ist tatsächlich nicht nur ein Hilfsmittel, sie hat einen tiefgreifenderen Einfluss auf Denken und Gewohnheiten.
 
-## Personal Life Snippets
+## Persönliche Lebenssplitter
 
-### Electron Bug
+### Electron-Fehler
 
 ![talk_with_innei](https://image.pseudoyu.com/images/talk_with_innei.jpg)
 
-I just discovered that there's an issue with the Follow client update. Clicking "Click to restart" hides the window instead of quitting it. It's a familiar bug, I wrote exactly the same one when I was writing EpubKit 🤣 I reported it to Shiyier, it's like exchanging Electron illness experiences.
+Ich habe gerade entdeckt, dass es ein Problem mit der Follow-Client-Aktualisierung gibt.
 
-### macOS Desktop Decoration
+Das Klicken auf "Zum Neustart klicken" versteckt das Fenster, anstatt es zu beenden. Es ist ein vertrauter Fehler, ich habe genau den gleichen geschrieben, als ich EpubKit entwickelte 🤣 Ich habe es Shiyier gemeldet, es ist wie der Austausch von Electron-Krankheitserfahrungen.
+
+### macOS Desktop-Dekoration
 
 ![macos_widgets](https://image.pseudoyu.com/images/macos_widgets.png)
 
-This is my first attempt at macOS system desktop widgets. It's quite fresh, but I basically switch applications with Raycast shortcuts and hardly ever see the desktop...
+Dies ist mein erster Versuch mit macOS-System-Desktop-Widgets. Es ist ziemlich frisch, aber ich wechsle im Grunde genommen Anwendungen mit Raycast-Verknüpfungen und sehe den Desktop kaum jemals...
 
-### Garage Wall Painting
+### Garagenwandmalerei
 
 ![car_painting_week2](https://image.pseudoyu.com/images/car_painting_week2.jpg)
 
-Overall progress this week: 20%, it's already taking shape.
+Gesamtfortschritt diese Woche: 20%, es nimmt bereits Gestalt an.
 
-My progress this week: painted five or six bricks 🤣
+Mein Fortschritt diese Woche: fünf oder sechs Ziegel bemalt 🤣
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
-### Input
+### Eingabe
 
-Although most interesting inputs will be automatically synchronized in the "Yu's Life" Telegram channel, I still select a part to list here, feeling more like a newsletter. And I built a microblog - "daily.pseudoyu.com" using Telegram Channel messages as content source, which is more convenient to browse.
+Obwohl die meisten interessanten Eingaben automatisch im "Yu's Life" Telegram-Kanal synchronisiert werden, wähle ich immer noch einen Teil aus, um ihn hier aufzulisten, was sich mehr wie ein Newsletter anfühlt. Und ich habe einen Microblog - "daily.pseudoyu.com" unter Verwendung von Telegram-Kanalnachrichten als Inhaltsquelle erstellt, was bequemer zu durchsuchen ist.
 
-#### Collections
+#### Sammlungen
 
 - [pseudoyu | Follow](https://web.follow.is/profile/pseudoyu)
 - [DIYgod | Follow](https://web.follow.is/profile/DIYgod)
-- [n8n Chinese Tutorial | Simple and Easy-to-Understand Modern Magic](https://n8n.akashio.com/)
-- [Dengtab - Stay focused and reduce social media distractions while cultivating small habits.](https://dengtab.com/)
-- [SixD - SwiftUI & Interaction Design](https://www.haolunyang.com/sixd)
+- [n8n Chinesisches Tutorial | Einfach und leicht verständliche moderne Magie](https://n8n.akashio.com/)
+- [Dengtab - Bleiben Sie fokussiert und reduzieren Sie soziale Medien-Ablenkungen, während Sie kleine Gewohnheiten kultivieren.](https://dengtab.com/)
+- [SixD - SwiftUI & Interaktionsdesign](https://www.haolunyang.com/sixd)
 - [ccbikai/BroadcastChannel](https://github.com/ccbikai/BroadcastChannel)
 
 #### Podcasts
 
-- [Episode 10 | Flower Fruit Mountain Monkey King talks about career choices, how to establish oneself through sales, RV trips, and new life in the UK](https://www.listennotes.com/e/7f2efa4ad8394de79591a3ee2da6a5d1)
-- [Ep 48. Exclusive interview with Gao Tian: To be a good Bilibili up-caster, I became a Python core developer](https://www.listennotes.com/e/5e5454656bb146499bef687dcec00e65)
+- [Folge 10 | Affenkönig vom Blumen-Frucht-Berg spricht über Karriereentscheidungen, wie man sich durch Verkauf etabliert, Wohnmobilreisen und neues Leben in Großbritannien](https://www.listennotes.com/e/7f2efa4ad8394de79591a3ee2da6a5d1)
+- [Ep 48. Exklusives Interview mit Gao Tian: Um ein guter Bilibili-Uploader zu sein, wurde ich Python-Kernentwickler](https://www.listennotes.com/e/5e5454656bb146499bef687dcec00e65)
 
-#### Articles
+#### Artikel
 
-- [Fasting Record](https://blog.douchi.space/intermittent-fasting/#gsc.tab=0)
-- [Some Exploration on De-Cloudflare-ization of WebP Cloud Services](https://blog.webp.se/de-cloudflarize-zh/)
-- [P5r: Life Changed](https://jesor.me/2024/persona5r-life-changed/)
-- [Reflections amid Busyness: Life, Work and Entertainment - Quiet Forest](https://innei.in/notes/175)
-- [My Understanding of Cloud Native](https://gist.github.com/sljeff/cce768194a9e68d5279bfde861ff5f76)
-- [How Stripe Securely Collects Payments and Avoids Fraud and Card Testing](https://dmesg.app/stripe-fraud.html)
+- [Fastenaufzeichnung](https://blog.douchi.space/intermittent-fasting/#gsc.tab=0)
+- [Einige Erforschungen zur De-Cloudflare-isierung von WebP-Cloud-Diensten](https://blog.webp.se/de-cloudflarize-zh/)
+- [P5r: Das Leben hat sich verändert](https://jesor.me/2024/persona5r-life-changed/)
+- [Reflexionen inmitten der Geschäftigkeit: Leben, Arbeit und Unterhaltung - Ruhiger Wald](https://innei.in/notes/175)
+- [Mein Verständnis von Cloud Native](https://gist.github.com/sljeff/cce768194a9e68d5279bfde861ff5f76)
+- [Wie Stripe Zahlungen sicher sammelt und Betrug und Kartentests vermeidet](https://dmesg.app/stripe-fraud.html)
 
 #### Videos
 
-- [Taking a Break from School + Refusing Million-Yuan Annual Salary, Living is Not Just About Achieving Something](https://www.bilibili.com/video/BV1dx4y1x7mz)
-- [Learn with me - HTMX and HonoJS](https://www.youtube.com/watch?v=hMcE8E8JjXA)
-- [【He Tongxue】You Can Never Go Back to the Summer When You Were 19...](https://www.bilibili.com/video/BV15b42177rL)
-- [Becoming a Python Core Developer in 450 Days](https://www.bilibili.com/video/BV1of421972c)
-- [After 10 Years, 9 Million](https://www.bilibili.com/video/BV1jT42167Xb)
+- [Eine Auszeit von der Schule nehmen + Millionen-Yuan-Jahresgehalt ablehnen, Leben ist nicht nur etwas zu erreichen](https://www.bilibili.com/video/BV1dx4y1x7mz)
+- [Lerne mit mir - HTMX und HonoJS](https://www.youtube.com/watch?v=hMcE8E8JjXA)
+- [【He Tongxue】Du kannst nie wieder in den Sommer zurückkehren, als du 19 warst...](https://www.bilibili.com/video/BV15b42177rL)
+- [In 450 Tagen zum Python-Kernentwickler werden](https://www.bilibili.com/video/BV1of421972c)
+- [Nach 10 Jahren, 9 Millionen](https://www.bilibili.com/video/BV1jT42167Xb)
 
-#### Movies
+#### Filme
 
-- [**Drifting**](https://movie.douban.com/subject/35956190/), I really like the cinematography of the highway traffic jam scene at the end, life is nothing but stops and starts.
+- [**Drifting**](https://movie.douban.com/subject/35956190/), Ich mag wirklich die Kinematographie der Autobahnstau-Szene am Ende, das Leben ist nichts als Stopps und Starts.

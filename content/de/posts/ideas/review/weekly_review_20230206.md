@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #29 - Japanese Learning Experience, Steam Deck and Izakaya"
+title: "Wochenrückblick #29 - Japanisch lernen, Steam Deck und Izakaya"
 date: 2023-02-06T21:56:49+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "steam deck", "silent", "movie", "japanese", "mbti"]
@@ -10,152 +10,152 @@ authors:
 
 {{<audio src="audios/christmas_song_english_version.mp3" caption="'Christmas Song (English Cover) - Matt Cab'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from `2023-02-01` to `2023-02-06`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `01.02.2023` bis zum `06.02.2023`.
 
-It's the first week back at work. Since I had been doing some work during the Spring Festival, I wasn't unaccustomed to the work rhythm. However, I often couldn't freely do my own things, which suddenly made me feel pressed for time.
+Es ist die erste Woche zurück bei der Arbeit. Da ich während des Frühlingsfestes einige Arbeiten erledigt hatte, war ich nicht ungewohnt im Arbeitsrhythmus. Allerdings konnte ich oft nicht frei meine eigenen Dinge tun, was mich plötzlich unter Zeitdruck setzte.
 
-I started revisiting Japanese and was surprised to find that I still remembered a lot. Over the weekend, I watched some new dramas and went to the cinema for the first time in a year. I received the long-awaited Steam Deck and spent some time configuring it. On Monday, I started trying to feed Nie Nie chicken wings (which are said to be good for her coat), and she seems to have a good appetite and isn't picky. After half a year, I reorganized the kitchen and started cooking for myself, which has lasted for three days now. On Monday, I went out to eat the Okonomiyaki I had been craving. There were many other interesting things as well.
+Ich begann, Japanisch wieder aufzugreifen und war überrascht, wie viel ich noch wusste. Am Wochenende sah ich einige neue Dramen und ging zum ersten Mal seit einem Jahr ins Kino. Ich erhielt das lang ersehnte Steam Deck und verbrachte einige Zeit damit, es zu konfigurieren. Am Montag begann ich, Nie Nie Hühnerflügel zu füttern (von denen es heißt, sie seien gut für ihr Fell), und sie scheint einen guten Appetit zu haben und nicht wählerisch zu sein. Nach einem halben Jahr organisierte ich die Küche neu und begann, für mich selbst zu kochen, was nun schon drei Tage anhält. Am Montag ging ich raus, um das Okonomiyaki zu essen, nach dem ich mich gesehnt hatte. Es gab noch viele andere interessante Dinge.
 
-## Japanese Learning
+## Japanisch lernen
 
-Because I plan to go to Japan, I set a flag at the beginning of the year to revisit Japanese. The last time I studied was probably six or seven years ago. Fortunately, I haven't forgotten the fifty sounds and some basic grammar, so it didn't take too long to pick up. However, because I now have the pressure of taking a certification exam, I've started studying seriously again.
+Weil ich plane, nach Japan zu gehen, setzte ich mir zu Jahresbeginn das Ziel, Japanisch wieder aufzugreifen. Das letzte Mal, dass ich es studiert hatte, war wahrscheinlich vor sechs oder sieben Jahren. Glücklicherweise hatte ich die fünfzig Laute und einige grundlegende Grammatik nicht vergessen, sodass es nicht allzu lange dauerte, wieder einzusteigen. Da ich jetzt jedoch den Druck habe, eine Zertifizierungsprüfung abzulegen, habe ich wieder ernsthaft mit dem Lernen begonnen.
 
-### Course Resources
+### Kursressourcen
 
-Previously, I had been watching Mr. Ye's New Standard Japanese Elementary course on Hujiang Online School, which is a relatively classic textbook. There are official recorded courses on Bilibili:
+Zuvor hatte ich Herrn Yes Kurs für Neues Standard-Japanisch für Anfänger auf Hujiang Online School verfolgt, was ein relativ klassisches Lehrbuch ist. Es gibt offizielle aufgezeichnete Kurse auf Bilibili:
 
-- [【Japanese Course】Standard Japanese Elementary Intensive Lecture BY Adorable Mr. Ye](https://www.bilibili.com/video/BV1es41127PE/)
+- [【Japanischkurs】Standard-Japanisch für Anfänger Intensivvorlesung VON liebenswürdigem Herrn Ye](https://www.bilibili.com/video/BV1es41127PE/)
 
-Recently, I saw a Japanese learning [thread](https://twitter.com/yellow532486/status/1619895028201189377) by a blogger named [Yellow](https://twitter.com/yellow532486) on Twitter. They use "Minna no Nihongo" and also mentioned a companion YouTube tutorial by a Japanese teacher in Taiwan. It seems interesting, and I want to try it:
+Kürzlich sah ich einen [Thread](https://twitter.com/yellow532486/status/1619895028201189377) zum Japanisch lernen von einem Blogger namens [Yellow](https://twitter.com/yellow532486) auf Twitter. Sie verwenden "Minna no Nihongo" und erwähnten auch ein begleitendes YouTube-Tutorial von einer japanischen Lehrerin in Taiwan. Es scheint interessant zu sein, und ich möchte es ausprobieren:
 
-- [Deguchi Japanese - YouTube](https://www.youtube.com/@deguchi)
+- [Deguchi Japanisch - YouTube](https://www.youtube.com/@deguchi)
 
-### Supplementary Materials
+### Ergänzende Materialien
 
-Regarding vocabulary and grammar learning, I recalled listening to a podcast channel every day on my way to class when I was a freshman to memorize some grammar points. It was very effective (~~mainly because the voice was so pleasant to listen to~~):
+Bezüglich des Vokabel- und Grammatiklernens erinnerte ich mich daran, dass ich als Erstsemester jeden Tag auf dem Weg zum Unterricht einen Podcast-Kanal hörte, um einige Grammatikpunkte zu memorieren. Es war sehr effektiv (~~hauptsächlich weil die Stimme so angenehm zu hören war~~):
 
-- [《Myrcella's Japanese Corner》- Apple Podcasts](https://podcasts.apple.com/cn/podcast/myrcella%E7%9A%84%E6%97%A5%E8%AF%AD%E8%A7%92/id875790959)
+- [《Myrcellas japanische Ecke》- Apple Podcasts](https://podcasts.apple.com/cn/podcast/myrcella%E7%9A%84%E6%97%A5%E8%AF%AD%E8%A7%92/id875790959)
 
-Because I'm accustomed to the learning mode of books + courses, I didn't look for other auxiliary resources in the early stages. I plan to focus on laying a solid foundation first.
+Da ich an den Lernmodus mit Büchern + Kursen gewöhnt bin, habe ich in den frühen Stadien nicht nach anderen Hilfsmitteln gesucht. Ich plane, mich zunächst darauf zu konzentrieren, eine solide Grundlage zu schaffen.
 
-### Input Method
+### Eingabemethode
 
-After solving the learning material problem, the next issue was the input method. For iOS, I use the native input method, without any modifications.
+Nachdem ich das Problem des Lernmaterials gelöst hatte, war das nächste Problem die Eingabemethode. Für iOS verwende ich die native Eingabemethode ohne Modifikationen.
 
-For my daily macOS use, because I need double pinyin, I use the [Rime Input Method](https://rime.im/), and I've configured it to remove the system's native ABC input method following this article:
+Für meine tägliche macOS-Nutzung verwende ich die [Rime-Eingabemethode](https://rime.im/), da ich Doppel-Pinyin benötige, und ich habe sie so konfiguriert, dass die native ABC-Eingabemethode des Systems gemäß diesem Artikel entfernt wird:
 
-- [Mac Delete Native English ABC](https://ssnhd.com/2022/01/01/mac-inputdel/)
+- [Mac Entfernen der nativen englischen ABC-Eingabe](https://ssnhd.com/2022/01/01/mac-inputdel/)
 
-So I didn't want to add a new system native input method for Japanese. Instead, I found a Japanese tuning scheme suitable for Rime, which has been great so far:
+Also wollte ich keine neue systemeigene Eingabemethode für Japanisch hinzufügen. Stattdessen fand ich ein japanisches Abstimmungsschema, das für Rime geeignet ist, und es funktioniert bisher großartig:
 
-- [GitHub - gkovacs/rime-japanese: Japanese Input Method](https://github.com/gkovacs/rime-japanese)
+- [GitHub - gkovacs/rime-japanese: Japanische Eingabemethode](https://github.com/gkovacs/rime-japanese)
 
-The usage effect is as follows:
+Der Nutzungseffekt ist wie folgt:
 
 ![japanese_rime_input](https://image.pseudoyu.com/images/japanese_rime_input.png)
 
-However, there's a problem: after using double pinyin for a long time, sometimes when typing in romaji, I unconsciously type in double pinyin. I'm still struggling to adapt...
+Es gibt jedoch ein Problem: Nachdem ich Doppel-Pinyin lange Zeit benutzt habe, tippe ich manchmal unbewusst in Doppel-Pinyin, wenn ich in Romaji schreibe. Ich kämpfe immer noch damit, mich anzupassen...
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Steam Deck
 
-The happiest thing this week was receiving the Steam Deck sent by my dear friend. Although it had actually arrived in December, shipping to Hong Kong wasn't convenient, so I didn't get my hands on it until after the New Year. It's much bigger than I imagined, but not heavy, and the feel is super comfortable.
+Das Erfreulichste diese Woche war, dass ich das Steam Deck erhielt, das mir ein lieber Freund geschickt hatte. Obwohl es tatsächlich schon im Dezember angekommen war, war der Versand nach Hongkong nicht praktisch, sodass ich es erst nach Neujahr in die Hände bekam. Es ist viel größer als ich mir vorgestellt hatte, aber nicht schwer, und das Gefühl ist super komfortabel.
 
 ![yu_steam_deck_1](https://image.pseudoyu.com/images/yu_steam_deck_1.jpg)
 
 ![yu_steam_deck_2](https://image.pseudoyu.com/images/yu_steam_deck_2.jpg)
 
-Although I've bought many Switch games like a squirrel, I actually rarely play them. I've always found it difficult to truly relax through gaming as a form of entertainment. Ni has been urging me to play games for so many years, but to little effect. After switching to Mac, I even rarely opened Steam. This time, I finally have no excuse about not having the right device, haha. I plan to regularly experience some classic games in the future.
+Obwohl ich wie ein Eichhörnchen viele Switch-Spiele gekauft habe, spiele ich sie tatsächlich selten. Ich fand es schon immer schwierig, mich durch Spiele als Unterhaltungsform wirklich zu entspannen. Ni drängt mich seit so vielen Jahren, Spiele zu spielen, aber mit wenig Erfolg. Nachdem ich auf Mac umgestiegen war, öffnete ich sogar selten Steam. Diesmal habe ich endlich keine Ausrede mehr, dass ich nicht das richtige Gerät hätte, haha. Ich plane, in Zukunft regelmäßig einige klassische Spiele zu erleben.
 
-By the way, the exclusive skin that came with the Steam Deck is really cool.
+Übrigens, der exklusive Skin, der mit dem Steam Deck kam, ist wirklich cool.
 
 ![steam_deck_special_frame](https://image.pseudoyu.com/images/steam_deck_special_frame.png)
 
 ### Input
 
-#### Articles
+#### Artikel
 
-Although some interesting articles are automatically synced in my [Telegram channel](https://t.me/pseudoyulife), I'll still select a few to list here. It feels more like a newsletter this way.
+Obwohl einige interessante Artikel automatisch in meinem [Telegram-Kanal](https://t.me/pseudoyulife) synchronisiert werden, werde ich trotzdem einige auswählen, um sie hier aufzulisten. Es fühlt sich auf diese Weise mehr wie ein Newsletter an.
 
-- [2023-01 Online Reading Summary · Tianxianzi](https://tianxianzi.me/2023/01/30/good_article_2023_01/)
-- [Nostr Introduction | Gasolin](https://blog.gasolin.idv.tw/service/nostr-c4/)
-- [Let's Talk about nostr and Censorship | CoolShell](https://coolshell.cn/articles/22367.html)
-- [DApp Building Guide —— 02 Requirement Business Analysis - Caos](https://caos.xlog.app/dapp--02)
-- [Thoughts on Building an Image Hosting Service](https://easonyang.com/2021/01/30/create-a-image-server/)
-- [Video Game Economies](https://www.unswecosoc.com/interesting-articles/1501-2/)
-- [Learn In Public](https://www.swyx.io/learn-in-public)
-- [My Story as a Logseq Contributor | pengx17](https://pengx17.vercel.app/posts/my-logseq-contributions)
+- [2023-01 Online-Lesesammlung · Tianxianzi](https://tianxianzi.me/2023/01/30/good_article_2023_01/)
+- [Nostr-Einführung | Gasolin](https://blog.gasolin.idv.tw/service/nostr-c4/)
+- [Lass uns über nostr und Zensur sprechen | CoolShell](https://coolshell.cn/articles/22367.html)
+- [DApp-Bauanleitung —— 02 Anforderungsgeschäftsanalyse - Caos](https://caos.xlog.app/dapp--02)
+- [Gedanken zum Aufbau eines Bildhosting-Dienstes](https://easonyang.com/2021/01/30/create-a-image-server/)
+- [Videospiel-Ökonomien](https://www.unswecosoc.com/interesting-articles/1501-2/)
+- [Öffentlich lernen](https://www.swyx.io/learn-in-public)
+- [Meine Geschichte als Logseq-Mitwirkender | pengx17](https://pengx17.vercel.app/posts/my-logseq-contributions)
 
 #### Podcasts
 
-Because I had less commute time this week, I didn't listen to many podcasts. The one that left a deep impression was:
+Weil ich diese Woche weniger Pendelzeit hatte, hörte ich nicht viele Podcasts. Der, der einen tiefen Eindruck hinterließ, war:
 
-- [Ep.22 [CN]: The Rise and Fall of Solana: Many Coincidences and a Few Inevitabilities | HODLong](https://hodlong-hou-lang.simplecast.com/episodes/ep22-cn-solana-OtNe4Ybk?utm_source=listennotes.com&utm_campaign=Listen%20Notes&utm_medium=website)
+- [Ep.22 [CN]: Aufstieg und Fall von Solana: Viele Zufälle und einige Unvermeidlichkeiten | HODLong](https://hodlong-hou-lang.simplecast.com/episodes/ep22-cn-solana-OtNe4Ybk?utm_source=listennotes.com&utm_campaign=Listen%20Notes&utm_medium=website)
 
 #### Videos
 
-Similarly, I've also recorded some interesting videos I watched:
+Ebenso habe ich einige interessante Videos aufgezeichnet, die ich gesehen habe:
 
-- [Humanity Won't Thank Luo Ji](https://www.bilibili.com/video/BV1rT411o71x/)
-- [The Painful Life of Contractor Michelangelo](https://www.bilibili.com/video/BV1NT411Z7C9/)
-- [【Improve Aesthetics】10 Apps & Websites Privately Used by Directors! Recommended for Bookmarking](https://www.bilibili.com/video/BV1cG4y1X7AC/)
-- [If You Still Want to Quit Your Job and Pursue Your Dreams After Watching This Video](https://www.bilibili.com/video/BV1uG4y1U7jX/)
+- [Die Menschheit wird Luo Ji nicht danken](https://www.bilibili.com/video/BV1rT411o71x/)
+- [Das schmerzhafte Leben des Auftragnehmers Michelangelo](https://www.bilibili.com/video/BV1NT411Z7C9/)
+- [【Ästhetik verbessern】10 Apps & Websites, die Regisseure privat nutzen! Empfohlen zum Bookmarken](https://www.bilibili.com/video/BV1cG4y1X7AC/)
+- [Wenn Sie nach diesem Video immer noch Ihren Job kündigen und Ihre Träume verfolgen wollen](https://www.bilibili.com/video/BV1uG4y1U7jX/)
 
-#### Books
+#### Bücher
 
-- **Hard-Boiled Wonderland and the End of the World**, currently reading. It's been a long time since I've felt such anticipation from a novel. Perhaps it's because of the narrative style, or because I read a few short chapters each time during my journeys, which creates some discontinuity. I always want to know what will happen next, but I don't want to rush through and miss such beautiful writing. Also, the setting of "another space" reminds me of an old but equally interesting game, "Waste City Story".
+- **Hardboiled Wonderland und das Ende der Welt**, lese ich gerade. Es ist lange her, dass ich solche Vorfreude bei einem Roman gespürt habe. Vielleicht liegt es an der Erzählweise, oder weil ich jedes Mal während meiner Reisen ein paar kurze Kapitel lese, was eine gewisse Diskontinuität erzeugt. Ich möchte immer wissen, was als Nächstes passiert, aber ich will mich nicht durchhetzen und solch schönes Schreiben verpassen. Außerdem erinnert mich die Einstellung des "anderen Raums" an ein altes, aber ebenso interessantes Spiel, "Waste City Story".
 
-#### TV Series
+#### Fernsehserien
 
-- **The Last of Us**, I had heard about the game before, and recently a TV series was released. I watched the first two episodes, and it's not bad. I'll continue to follow it.
-- **The Three-Body Problem**, I started watching this series because I was disappointed with the animation. Surprisingly, it's quite good. I really like Yu Hewei. The pace of the series is a bit slow, and sometimes it's a bit hard to watch the Three-Body game parts, but overall it's worth following. I'm also looking forward to the Netflix version.
-- **The Knockout**, It seems that apart from the Fog Theater, I haven't followed many new dramas of this genre in recent years. But because of the many discussions, I took a look and was quite pleasantly surprised. Even though there are inevitably some politically correct compromises, it's still quite bold. Even the minor characters are well-developed, but the ending was a bit abstract. In this genre, I would still recommend "The Silent Truth" more.
+- **The Last of Us**, ich hatte vorher von dem Spiel gehört, und kürzlich wurde eine TV-Serie veröffentlicht. Ich habe die ersten beiden Episoden gesehen, und es ist nicht schlecht. Ich werde es weiter verfolgen.
+- **Die Trisolaris-Trilogie**, ich begann diese Serie zu sehen, weil ich von der Animation enttäuscht war. Überraschenderweise ist sie ziemlich gut. Ich mag Yu Hewei wirklich. Das Tempo der Serie ist etwas langsam, und manchmal ist es etwas schwer, die Drei-Körper-Spiel-Teile zu sehen, aber insgesamt ist es wert, es zu verfolgen. Ich freue mich auch auf die Netflix-Version.
+- **The Knockout**, Es scheint, dass ich abgesehen vom Nebel-Theater in den letzten Jahren nicht vielen neuen Dramen dieses Genres gefolgt bin. Aber wegen der vielen Diskussionen habe ich einen Blick darauf geworfen und war ziemlich positiv überrascht. Auch wenn es unvermeidlich einige politisch korrekte Kompromisse gibt, ist es immer noch ziemlich kühn. Selbst die Nebenfiguren sind gut entwickelt, aber das Ende war etwas abstrakt. In diesem Genre würde ich immer noch mehr "The Silent Truth" empfehlen.
 
-#### Movies
+#### Filme
 
-- **Deep Sea**, I had heard some not-so-good reviews, but maybe because it was the first movie I've seen in a theater in over half a year, there was some emotional bonus, and I thought it was quite good. A little girl's dream, a Spirited Away-like fairy tale world, slightly exaggerated performances, and fairly appropriate BGM (except for the "Little White Boat" which suddenly took me out of the movie to "The Bad Kids"). At least we can see that Chinese animated films are trying to explore smaller and more delicate perspectives to present, rather than just various myths and legends.
+- **Deep Sea**, Ich hatte einige nicht so gute Kritiken gehört, aber vielleicht, weil es der erste Film war, den ich seit über einem halben Jahr im Kino gesehen habe, gab es einen emotionalen Bonus, und ich fand ihn ziemlich gut. Der Traum eines kleinen Mädchens, eine märchenhafte Welt wie in "Chihiros Reise ins Zauberland", leicht übertriebene Darstellungen und ziemlich passende Hintergrundmusik (außer dem "Kleinen weißen Boot", das mich plötzlich aus dem Film in "The Bad Kids" brachte). Zumindest können wir sehen, dass chinesische Animationsfilme versuchen, kleinere und feinere Perspektiven zu erkunden, um sie zu präsentieren, anstatt nur verschiedene Mythen und Legenden.
 
-## Personal Life Snapshots
+## Persönliche Lebensmomente
 
-### Life
+### Leben
 
-This week felt like it passed magically. After the New Year, I took three days off. On the first day back at work, I came home early because I was worried about Nie Nie and bought a mobile camera. On the third day, I went home early because there was a fire in the building below our company. On the fourth day, because the project manager and tester went skiing and hot spring bathing together, I also worked from home. All in all, I only worked two days in the office, but I still completed my work.
+Diese Woche fühlte sich an, als wäre sie magisch vergangen. Nach dem Neujahr nahm ich drei Tage frei. Am ersten Tag zurück bei der Arbeit kam ich früh nach Hause, weil ich mir Sorgen um Nie Nie machte und kaufte eine mobile Kamera. Am dritten Tag ging ich früh nach Hause, weil es einen Brand im Gebäude unter unserem Unternehmen gab. Am vierten Tag, weil der Projektmanager und Tester zusammen Ski fahren und in die heiße Quelle gingen, arbeitete ich auch von zu Hause aus. Alles in allem arbeitete ich nur zwei Tage im Büro, erledigte aber trotzdem meine Arbeit.
 
-Although there were no casualties in the fire, it's still quite scary that it happened in the city center. However, at times like this, I found that everyone around me, from family to friends, has a bit of a comedian in them.
+Obwohl es bei dem Brand keine Verletzten gab, ist es immer noch ziemlich beängstigend, dass es im Stadtzentrum passierte. In solchen Momenten stellte ich jedoch fest, dass alle um mich herum, von Familie bis zu Freunden, ein bisschen Komiker in sich haben.
 
 ![thursday_fire_tweet](https://image.pseudoyu.com/images/thursday_fire_tweet.png)
 
-> Our company building caught fire🔥 at noon, there was smoke everywhere, and nine fire trucks came.
+> Unser Firmengebäude fing mittags Feuer🔥, überall war Rauch, und neun Feuerwehrautos kamen.
 >
-> Project manager sister: I risked my life to bring your computer down (remember to work overtime when you get back).
-> My family: It's good that the computer was brought down.
+> Projektmanager-Schwester: Ich habe mein Leben riskiert, um deinen Computer herunterzubringen (denk daran, Überstunden zu machen, wenn du zurückkommst).
+> Meine Familie: Es ist gut, dass der Computer heruntergebracht wurde.
 >
-> Is the computer my true self? 🙃
+> Ist der Computer mein wahres Ich? 🙃
 
-On the weekend, I had planned quite a bit of work, but because I was watching "The Knockout" and "The Three-Body Problem", my efficiency was high but the completion amount was not enough. I'll have to make up for a lot this week.
+Am Wochenende hatte ich ziemlich viel Arbeit geplant, aber weil ich "The Knockout" und "Die Trisolaris-Trilogie" schaute, war meine Effizienz zwar hoch, aber die Fertigstellungsmenge nicht ausreichend. Ich werde diese Woche viel nachholen müssen.
 
-On Sunday night, because a friend happened to be watching a movie near my house, they invited me to go together. We didn't choose the more popular "The Wandering Earth 2" or "Full River Red", but watched "Deep Sea". It wasn't until I entered the cinema that I realized it had been a long time since I had watched a movie offline. There is indeed some emotional bonus, and I will try to go watch more movies by myself in the future.
+Am Sonntagabend lud mich ein Freund, der zufällig in der Nähe meines Hauses einen Film sah, ein, gemeinsam ins Kino zu gehen. Wir wählten nicht die beliebteren Filme "Die wandernde Erde 2" oder "Full River Red", sondern sahen uns "Deep Sea" an. Erst als ich das Kino betrat, wurde mir klar, wie lange es her war, seit ich offline einen Film gesehen hatte. Es gibt tatsächlich einen emotionalen Bonus, und ich werde in Zukunft versuchen, öfter alleine ins Kino zu gehen.
 
-On Monday night, I went to eat the Okonomiyaki that I had been craving for several months.
+Am Montagabend ging ich das Okonomiyaki essen, nach dem ich mich seit mehreren Monaten gesehnt hatte.
 
 ![screenshot_from_silent](https://image.pseudoyu.com/images/screenshot_from_silent.jpg)
 
-Actually, the reason was that when watching "Silent Snow", I saw that they just love to eat various things, especially teppanyaki Okonomiyaki, which looks very appetizing. I had complained to a friend before:
+Eigentlich war der Grund, dass ich beim Anschauen von "Silent Snow" sah, dass sie einfach gerne verschiedene Dinge essen, besonders Teppanyaki Okonomiyaki, das sehr appetitlich aussieht. Ich hatte mich vorher bei einem Freund beschwert:
 
 ![some_thoughts_about_silent](https://image.pseudoyu.com/images/some_thoughts_about_silent.png)
 
-But because of my chosen worker physique, I hadn't caught COVID yet (until now), and I was afraid to go out before the New Year. Now I've become more relaxed and am eating, drinking, and having fun everywhere.
+Aber wegen meiner gewählten Arbeiter-Physis hatte ich noch kein COVID bekommen (bis jetzt), und ich hatte Angst, vor Neujahr auszugehen. Jetzt bin ich entspannter geworden und esse, trinke und habe überall Spaß.
 
 ![beer_and_monday](https://image.pseudoyu.com/images/beer_and_monday.png)
 
 > "Eh, Okonomiyaki?"
 >
-> Finally ate the Okonomiyaki that I had been craving for a long time because of a scene in a Japanese drama. Indeed, a worker's Monday and draft beer are a perfect match!
+> Endlich habe ich das Okonomiyaki gegessen, nach dem ich mich wegen einer Szene in einem japanischen Drama lange gesehnt hatte. In der Tat, der Montag eines Arbeiters und Fassbier sind ein perfektes Match!
 
-Thanks to senior Boyi for being my regular dining companion, saving me from the miserable moment of drinking two glasses of draft beer alone. My happy playtime in Beijing has increased again.
+Dank Senior Boyi, der mein regelmäßiger Essensbegleiter ist und mich vor dem elenden Moment bewahrt, alleine zwei Gläser Fassbier zu trinken. Meine glückliche Spielzeit in Peking hat sich wieder erhöht.
 
 ![osaka_yaki](https://image.pseudoyu.com/images/osaka_yaki.jpg)
 
@@ -163,17 +163,17 @@ Thanks to senior Boyi for being my regular dining companion, saving me from the 
 
 ### Nie Nie
 
-#### Through the Lens
+#### Durch die Linse
 
-Because I couldn't find Nie Nie in the camera and was worried, I later bought a mobile monitoring robot. While debugging, I accidentally took several photos that I think are so cute. With the camera later, I felt much more at ease.
+Weil ich Nie Nie in der Kamera nicht finden konnte und besorgt war, kaufte ich später einen mobilen Überwachungsroboter. Beim Debuggen machte ich versehentlich mehrere Fotos, die ich so süß finde. Mit der Kamera fühlte ich mich später viel beruhigter.
 
 ![nie_nie_in_ebo_01](https://image.pseudoyu.com/images/nie_nie_in_ebo_01.jpg)
 
 ![nie_nie_in_ebo_02](https://image.pseudoyu.com/images/nie_nie_in_ebo_02.jpg)
 
-#### On Nie Nie's MBTI
+#### Über Nie Nies MBTI
 
-This week, I had an interesting topic discussion with a friend. I was asked what personality I think Nie Nie has, a question I had never thought about but found very interesting.
+Diese Woche hatte ich eine interessante Themendiskussion mit einem Freund. Ich wurde gefragt, welche Persönlichkeit ich denke, dass Nie Nie hat, eine Frage, über die ich nie nachgedacht hatte, die ich aber sehr interessant fand.
 
 ![nie_nie_personality_01](https://image.pseudoyu.com/images/nie_nie_personality_01.png)
 
@@ -181,4 +181,4 @@ This week, I had an interesting topic discussion with a friend. I was asked what
 
 ![nie_nie_personality_03](https://image.pseudoyu.com/images/nie_nie_personality_03.png)
 
-This is quite an interesting proposition because cats can't take the test themselves, and the personality we see in them is often shaped by our observations from daily interactions and our own wishful thinking. To some extent, it's also a projection of our various concepts. It's a novel perspective. Actually, it's been a long time since I've had such a comfortable and interesting conversation with friends, and I cherish it.
+Dies ist eine ziemlich interessante Fragestellung, denn Katzen können den Test nicht selbst machen, und die Persönlichkeit, die wir in ihnen sehen, wird oft durch unsere Beobachtungen aus täglichen Interaktionen und unsere eigenen Wunschvorstellungen geprägt. In gewissem Maße ist es auch eine Projektion unserer verschiedenen Konzepte. Es ist eine neuartige Perspektive. Eigentlich ist es schon lange her, dass ich so ein angenehmes und interessantes Gespräch mit Freunden geführt habe, und ich schätze es sehr.

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #41 - Birthday Rituals, Time Management, and a Trip to Beijing"
+title: "Wochenrückblick #41 - Geburtstagsrituale, Zeitmanagement und eine Reise nach Peking"
 date: 2023-06-12T09:50:09+08:00
 draft: false
 tags: ["review", "life", "work", "beijing", "birthday", "time", "cat", "boyi"]
@@ -10,51 +10,51 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from May 30, 2023 to June 12, 2023.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 30. Mai 2023 bis zum 12. Juni 2023.
 
-On the first day of June, I told a friend, "I'm usually quite miserable every May, June will definitely be my lucky month." Whether it was a psychological effect or the power of will, these two weeks after entering June have seen improvements in various aspects. I managed to refactor some business code during work tasks, reducing many potential issues. STRRL and I attended Rokid's offline experience event, where I even met my idol developer, Tulading. Although I no longer care much about birthday rituals, a group of friends still remembered and prepared some small surprises. It seems that after my birthday, I started to gradually step out of my small world. I met with old high school friends whom I hadn't seen for seven or eight years, rekindling some emotions. Over the weekend, I made a flash trip to Beijing to attend Gopher China 2023, ate and played with senior Boyi, had dinner and chatted with Homura, and went to Noy's house to pet cats. There were many other interesting things too.
+Am ersten Tag des Juni sagte ich zu einem Freund: "Normalerweise geht es mir jeden Mai ziemlich schlecht, der Juni wird definitiv mein Glücksmonat sein." Ob es nun ein psychologischer Effekt oder die Kraft des Willens war, in diesen zwei Wochen nach dem Eintritt in den Juni gab es in verschiedenen Bereichen Verbesserungen. Bei Arbeitsaufgaben gelang es mir, einige Geschäftscode zu refaktorisieren und viele potenzielle Probleme zu reduzieren. STRRL und ich nahmen an Rokids Offline-Erlebnisevent teil, wo ich sogar meinen Idol-Entwickler Tulading traf. Obwohl ich mich nicht mehr viel um Geburtstagsrituale kümmere, erinnerte sich noch eine Gruppe von Freunden und bereitete einige kleine Überraschungen vor. Es scheint, dass ich nach meinem Geburtstag allmählich begann, aus meiner kleinen Welt herauszutreten. Ich traf mich mit alten Schulfreunden, die ich seit sieben oder acht Jahren nicht mehr gesehen hatte, und erweckte einige Gefühle wieder zum Leben. Am Wochenende machte ich eine Blitzreise nach Peking, um an der Gopher China 2023 teilzunehmen, aß und spielte mit Senior Boyi, hatte ein Abendessen und plauderte mit Homura und ging zu Noys Haus, um Katzen zu streicheln. Es gab noch viele andere interessante Dinge.
 
-## The Ritual of Birthdays
+## Das Ritual der Geburtstage
 
 ![comments_about_birthday](https://image.pseudoyu.com/images/comments_about_birthday.png)
 
-A few days ago, I received a comment from a reader friend, talking about the perception of birthdays and how attitudes towards things change after starting work. I can actually relate to this quite well. I used to care a lot about birthdays. I'm not sure if it was about the day itself or if I wanted to confirm my importance to those around me through this way. Every year as the time approached, I would start to look forward to it and often called up a large group of people to gather and celebrate.
+Vor ein paar Tagen erhielt ich einen Kommentar von einem befreundeten Leser, der über die Wahrnehmung von Geburtstagen und darüber sprach, wie sich die Einstellung zu Dingen nach Beginn der Arbeit ändert. Ich kann das eigentlich recht gut nachempfinden. Früher habe ich mich sehr um Geburtstage gekümmert. Ich bin mir nicht sicher, ob es um den Tag selbst ging oder ob ich auf diese Weise meine Wichtigkeit für die Menschen um mich herum bestätigen wollte. Jedes Jahr, wenn die Zeit näher rückte, begann ich, mich darauf zu freuen, und rief oft eine große Gruppe von Leuten zusammen, um zu feiern.
 
-As I gradually left my familiar life circle and rarely met with close friends, I no longer had this obsession. Fortunately, there are still some friends who remember and send blessings, giving me a sense of what a birthday feels like.
+Als ich allmählich meinen vertrauten Lebenskreis verließ und mich selten mit engen Freunden traf, hatte ich diese Besessenheit nicht mehr. Glücklicherweise gibt es immer noch einige Freunde, die sich erinnern und Glückwünsche senden und mir so ein Gefühl dafür geben, wie sich ein Geburtstag anfühlt.
 
-This year, perhaps because I made a promise to sort out my emotions and feelings on my birthday every year, I started browsing through my previous weekly reviews early and thinking about my thoughts and feelings over the past year. Only then did I realize that besides the increase in numbers, so many changes had occurred. Of course, some of these changes were positive, while others were not so satisfactory. But having this review naturally brings some expectations. I think the meaning and ritual of this year's birthday stems from this.
+Dieses Jahr, vielleicht weil ich versprochen hatte, an meinem Geburtstag jedes Jahr meine Emotionen und Gefühle zu ordnen, begann ich früh, meine früheren Wochenrückblicke durchzusehen und über meine Gedanken und Gefühle im vergangenen Jahr nachzudenken. Erst da wurde mir klar, dass neben der Zunahme der Zahlen so viele Veränderungen eingetreten waren. Natürlich waren einige dieser Veränderungen positiv, während andere nicht so zufriedenstellend waren. Aber diese Rückschau bringt natürlich einige Erwartungen mit sich. Ich denke, die Bedeutung und das Ritual dieses Jahresgeburtstags rühren daher.
 
-Self-reflection through writing has given me so much. As I replied to this friend's comment: "At least for myself, my way out of the quagmire is through words. The weekly review is, to some extent, my self-redemption."
+Die Selbstreflexion durch das Schreiben hat mir so viel gegeben. Wie ich in meiner Antwort auf den Kommentar dieses Freundes schrieb: "Zumindest für mich selbst ist mein Weg aus dem Sumpf durch Worte. Der Wochenrückblick ist in gewissem Maße meine Selbsterlösung."
 
-Additionally, I was surprised and grateful for the comments and blessings from many unfamiliar friends on the article "A 26-Year-Old's Confession: The Stone Pusher". It was very heartwarming. You all accompanied me through a meaningful day, and I hope we can continue to walk together.
+Zusätzlich war ich überrascht und dankbar für die Kommentare und Glückwünsche vieler unbekannter Freunde zu dem Artikel "Das Geständnis eines 26-Jährigen: Der Steinschlepper". Es war sehr herzerwärmend. Ihr alle habt mich durch einen bedeutungsvollen Tag begleitet, und ich hoffe, wir können weiterhin gemeinsam gehen.
 
-### Input, Output, and Time Management
+### Input, Output und Zeitmanagement
 
 ![time_management_comments](https://image.pseudoyu.com/images/time_management_comments.png)
 
-I received a comment on a somewhat distant weekly review about efficiency and time management. To be honest, answering this question now is a bit embarrassing. Last year, I was quite satisfied with the quality and quantity of my input and output, but there wasn't really any scientific method. Initially, I was just focused on investing all my time in self-improvement to escape from some things, so even when I was busy, I still managed to find a lot of time to do what I liked.
+Ich erhielt einen Kommentar zu einem etwas entfernten Wochenrückblick über Effizienz und Zeitmanagement. Um ehrlich zu sein, ist es jetzt ein bisschen peinlich, diese Frage zu beantworten. Letztes Jahr war ich mit der Qualität und Quantität meines Inputs und Outputs ziemlich zufrieden, aber es gab eigentlich keine wissenschaftliche Methode. Anfangs war ich einfach darauf konzentriert, meine ganze Zeit in Selbstverbesserung zu investieren, um einigen Dingen zu entkommen, so dass ich selbst wenn ich beschäftigt war, immer noch viel Zeit fand, das zu tun, was ich mochte.
 
-As I gradually immersed myself in some technical learning and interest exploration, I also started to have some output and positive feedback. If I skipped the weekly review for a week or two, I would receive quite a few reminders to update, which naturally gave me more motivation to keep going. I've always enjoyed the "Learn/Build in public" approach. Apart from blogs and tweets, my Telegram channel "Yu's Life" used for synchronization mostly syncs my likes, favorites, and forwards. In fact, just like how I never set my Moments to be visible only to certain groups, I don't distinguish between public/private accounts or lists at all, which means all my behaviors are completely transparent.
+Als ich mich allmählich in einige technische Lernprozesse und Interessenerkundungen vertiefte, begann ich auch, einige Outputs zu haben und positives Feedback zu erhalten. Wenn ich den Wochenrückblick eine oder zwei Wochen lang ausließ, erhielt ich ziemlich viele Erinnerungen, ihn zu aktualisieren, was mir natürlich mehr Motivation gab, weiterzumachen. Ich habe den Ansatz "Learn/Build in public" schon immer gemocht. Abgesehen von Blogs und Tweets synchronisiert mein zur Synchronisation verwendeter Telegram-Kanal "Yu's Life" hauptsächlich meine Likes, Favoriten und Weiterleitungen. Tatsächlich unterscheide ich, genau wie ich meine Moments nie so eingestellt habe, dass sie nur für bestimmte Gruppen sichtbar sind, überhaupt nicht zwischen öffentlichen/privaten Konten oder Listen, was bedeutet, dass all meine Verhaltensweisen völlig transparent sind.
 
-When I finish a day's work or have some free time, if I feel like I haven't had much extra input that day, I'll have a kind of motivation to read a few articles/tutorials saved in my "read later" list, open Kindle to read a half-finished book, or find a movie from my Douban list that I've been wanting to watch. Unknowingly, this has become a habit. I often browse through my channel as a way of organizing information, and when I see that my output has been sporadic, I feel a bit guilty.
+Wenn ich einen Arbeitstag beende oder etwas Freizeit habe und das Gefühl habe, dass ich an diesem Tag nicht viel zusätzlichen Input hatte, habe ich eine Art Motivation, ein paar in meiner "später lesen"-Liste gespeicherte Artikel/Tutorials zu lesen, Kindle zu öffnen, um ein halb fertiges Buch zu lesen oder einen Film aus meiner Douban-Liste zu finden, den ich schon lange sehen wollte. Unbewusst ist das zu einer Gewohnheit geworden. Ich durchsuche oft meinen Kanal als eine Art der Informationsorganisation, und wenn ich sehe, dass mein Output sporadisch war, fühle ich mich ein bisschen schuldig.
 
-So when there are no updates on my channel for several consecutive days, ~~it's probably because I'm slacking off~~.
+Wenn es also mehrere Tage hintereinander keine Updates auf meinem Kanal gibt, ~~liegt das wahrscheinlich daran, dass ich faul bin~~.
 
-As for time management, I can't say I have any good practices. I mainly use Logseq for basic task recording and Cron for schedule management (I only started using it frequently recently, and the menu bar schedule reminders are quite useful). I haven't deliberately used tools like the Pomodoro technique for strict management for a long time. I'm more used to arranging things according to my immersion state rather than according to fixed time blocks.
+Was das Zeitmanagement betrifft, kann ich nicht sagen, dass ich gute Praktiken habe. Ich benutze hauptsächlich Logseq für die grundlegende Aufgabenerfassung und Cron für die Terminplanung (ich habe erst kürzlich angefangen, es häufig zu benutzen, und die Terminplanungserinnerungen in der Menüleiste sind recht nützlich). Ich habe schon lange keine Tools wie die Pomodoro-Technik für ein strenges Management mehr bewusst eingesetzt. Ich bin es eher gewohnt, Dinge nach meinem Immersionszustand zu ordnen, anstatt nach festen Zeitblöcken.
 
-In terms of energy management, the only thing I can say is that I maintain a relatively low level of demand for eating, drinking, playing, and sleeping. Often, I'll just have one casual meal or some fruit in a day, and I don't really have any hobbies that kill time, so I have a bit more time. Of course, this doesn't mean all this time is spent meaningfully. There are often times when it's wasted, but I don't have any strict standards for myself, so I can maintain a relatively balanced state.
+In Bezug auf das Energiemanagement kann ich nur sagen, dass ich ein relativ niedriges Anspruchsniveau für Essen, Trinken, Spielen und Schlafen habe. Oft esse ich an einem Tag nur eine beiläufige Mahlzeit oder etwas Obst, und ich habe keine Hobbys, die Zeit töten, so dass ich etwas mehr Zeit habe. Das bedeutet natürlich nicht, dass diese ganze Zeit sinnvoll genutzt wird. Es gibt oft Zeiten, in denen sie verschwendet wird, aber ich habe keine strengen Standards für mich selbst, so dass ich einen relativ ausgewogenen Zustand aufrechterhalten kann.
 
-~~Don't learn from sleeping at five and waking up at eight~~. In the "Vanishing Sleep" part of my previous weekly review, I just reflected on this myself.
+~~Lernt nicht, um fünf Uhr schlafen zu gehen und um acht Uhr aufzuwachen~~. Im Teil "Verschwindender Schlaf" meines vorherigen Wochenrückblicks habe ich gerade selbst darüber nachgedacht.
 
-## Personal Life Snapshots
+## Persönliche Lebensmomentaufnahmen
 
-After going out to participate in the Open Source Summer event, I started to become interested in participating in these technology/science/digital events and became more willing to go out and meet some friends.
+Nachdem ich hinausgegangen war, um an der Open Source Summer-Veranstaltung teilzunehmen, begann ich mich dafür zu interessieren, an diesen Technologie-/Wissenschafts-/Digital-Events teilzunehmen und wurde williger, auszugehen und einige Freunde zu treffen.
 
 ![nienie_space_at_home](https://image.pseudoyu.com/images/nienie_space_at_home.jpg)
 
-I invited two friends who came to Hangzhou from Beijing to come to my home to play with Nini. I enthusiastically introduced them to some smart pet home products from Petkit. They were completely defenseless against these electronic toys, but I didn't have anything new to tinker with myself, so Nini became the "victim". Basically, we can track her every move in the app, even measuring her food intake down to the gram.
+Ich lud zwei Freunde, die aus Peking nach Hangzhou gekommen waren, ein, zu mir nach Hause zu kommen und mit Nini zu spielen. Ich stellte ihnen begeistert einige intelligente Haustierheimartikel von Petkit vor. Sie waren völlig schutzlos gegen diese elektronischen Spielzeuge, aber ich selbst hatte nichts Neues zum Basteln, also wurde Nini zum "Opfer". Im Grunde können wir in der App jede ihrer Bewegungen verfolgen und sogar ihre Nahrungsaufnahme bis auf das Gramm genau messen.
 
 ![nienie_big_eye](https://image.pseudoyu.com/images/nienie_big_eye.jpg)
 
@@ -62,37 +62,37 @@ I invited two friends who came to Hangzhou from Beijing to come to my home to pl
 
 ![nienie_in_bag](https://image.pseudoyu.com/images/nienie_in_bag.png)
 
-Nini was also called a toy cat/ornament by friends. She would just stay still wherever we put her in a corner, content to be petted or waiting for us to pose her for photos. She's too well-behaved.
+Nini wurde von Freunden auch als Spielzeugkatze/Zierde bezeichnet. Sie würde einfach still in einer Ecke bleiben, wo immer wir sie hinstellten, zufrieden damit, gestreichelt zu werden oder darauf zu warten, dass wir sie für Fotos positionieren. Sie ist zu wohlerzogen.
 
-This time when I went back to Beijing, I happily went to Noy's house to pet cats. Their cat is called "Tietie", a very small and cute Russian Blue. She's also very well-behaved and kept playing with the data cable I brought.
+Dieses Mal, als ich nach Peking zurückkehrte, ging ich glücklich zu Noys Haus, um Katzen zu streicheln. Ihre Katze heißt "Tietie", eine sehr kleine und niedliche Russisch Blau. Sie ist auch sehr wohlerzogen und spielte ständig mit dem Datenkabel, das ich mitgebracht hatte.
 
 ![tietie_of_noy](https://image.pseudoyu.com/images/tietie_of_noy.jpg)
 
 ![tietie_lay](https://image.pseudoyu.com/images/tietie_lay.jpg)
 
-A week of happily cuddling cats!!!
+Eine Woche glücklichen Katzenkuschelns!!!
 
-The main reason for this trip to Beijing was to attend the Gopher China 2023 conference. I've been in GoCN for two years now, and it was the first time meeting some team members and Asta Xie in person. During the event, I had a great chat about Serverless and GPT with a guy at an outdoor tent booth. Just as we were about to add each other on WeChat, we realized he was my Twitter friend "Carson Yang (MichelangeloYang)". We had even had some small exchanges on Telegram before. Indeed, Twitter friends are all big shots.
+Der Hauptgrund für diese Reise nach Peking war die Teilnahme an der Gopher China 2023 Konferenz. Ich bin seit zwei Jahren bei GoCN, und es war das erste Mal, dass ich einige Teammitglieder und Asta Xie persönlich traf. Während der Veranstaltung hatte ich einen tollen Plausch über Serverless und GPT mit einem Typen an einem Outdoor-Zeltstand. Gerade als wir dabei waren, uns gegenseitig auf WeChat hinzuzufügen, stellten wir fest, dass er mein Twitter-Freund "Carson Yang (MichelangeloYang)" war. Wir hatten sogar schon einige kleine Austausche auf Telegram gehabt. Tatsächlich sind Twitter-Freunde alles große Persönlichkeiten.
 
 ![lunch_with_homura](https://image.pseudoyu.com/images/lunch_with_homura.jpg)
 
-Although time was a bit rushed, I had a delicious buffet lunch with Homura at noon. We had a great chat!
+Obwohl die Zeit etwas knapp war, hatte ich mittags ein leckeres Buffet-Mittagessen mit Homura. Wir hatten einen tollen Plausch!
 
 ![candle_music](https://image.pseudoyu.com/images/candle_music.jpg)
 
-The rest of the time was mostly spent with senior Boyi showing me around. Because it was quite casual, I didn't take many photos. I did record a candlelight concert that left a deep impression on me. It had a great atmosphere.
+Die restliche Zeit verbrachte ich größtenteils damit, dass Senior Boyi mich herumführte. Weil es ziemlich locker war, habe ich nicht viele Fotos gemacht. Ich habe ein Kerzenlichtkonzert aufgenommen, das einen tiefen Eindruck bei mir hinterlassen hat. Es hatte eine tolle Atmosphäre.
 
 ![aniya_toy_from_boyi](https://image.pseudoyu.com/images/aniya_toy_from_boyi.jpg)
 
-And amazingly, senior Boyi has a superpower. She can always get what she wants from gashapon machines. I didn't believe it before, but she got the Anya I wanted on the first try (and then I kept happily clutching Anya's capsule toy, I think even the shop owner was amused).
+Und erstaunlicherweise hat Senior Boyi eine Superkraft. Sie kann immer das bekommen, was sie aus Gashapon-Maschinen will. Ich habe es vorher nicht geglaubt, aber sie hat die Anya, die ich wollte, beim ersten Versuch bekommen (und dann hielt ich glücklich Anyas Kapselspielzeug fest, ich glaube, sogar der Ladenbesitzer war amüsiert).
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen, um sie aufzulisten. Es fühlt sich mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
 - [How the Raycast API and extensions work - Raycast Blog](https://www.raycast.com/blog/how-raycast-api-extensions-work)
 - [ETHGlobal Autonomous Worlds Participation Experience Sharing - Moscle.dev](https://moscledev.xlog.app/ethglobal-autonomous-worlds-can-sai-xin-de-fen-xiang)
@@ -104,7 +104,7 @@ Although most interesting inputs are automatically synchronized in the "Yu's Lif
 
 #### Videos
 
-Here are some interesting videos I watched:
+Hier sind einige interessante Videos, die ich gesehen habe:
 
 - [NestJs Course for Beginners - Create a REST API](https://www.youtube.com/watch?v=GHTA143_b-s)
 - [How to make a Stablecoin | Foundry Full Course Excerpt](https://www.youtube.com/watch?v=8dRAd-Bzc_E)
@@ -118,5 +118,5 @@ Here are some interesting videos I watched:
 
 #### Anime
 
-- **Demon Slayer: Swordsmith Village Arc**, continuing to watch, I like it!
-- **Oshi no Ko**, the later plot and pacing are getting better and better, feeling like expectations are being raised higher and higher!
+- **Demon Slayer: Swordsmith Village Arc**, ich schaue es weiter, ich mag es!
+- **Oshi no Ko**, die spätere Handlung und das Tempo werden immer besser, es fühlt sich an, als würden die Erwartungen immer höher geschraubt!

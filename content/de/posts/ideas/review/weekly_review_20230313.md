@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #34 - Don't Stop the Clocks"
+title: "Wochenrückblick #34 - Haltet die Uhren nicht an"
 date: 2023-03-13T17:29:49+08:00
 draft: false
 tags: ["review", "life", "home", "time", "memory", "plan", "work", "future", "chatgpt"]
@@ -10,42 +10,42 @@ authors:
 
 {{<audio src="audios/dont_stop_the_clocks.mp3" caption="'Don't Stop the Clocks - King Gnu'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `2023-03-08` to `2023-03-13`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `08.03.2023` bis zum `13.03.2023`.
 
-This week was primarily focused on work handovers, which wasn't as busy as before, but the pressing time and impending tasks still brought considerable pressure. After all, I'm about to leave a city I've lived in for nearly two years. More time was spent on conversations and gatherings, which were rare moments of relaxation. Yet, it feels as if the constantly moving clock suddenly stopped these two weeks. I find myself quite interesting - when busy, I long for rest and relaxation, but when I can truly unburden myself, I feel somewhat at a loss.
+Diese Woche stand hauptsächlich im Zeichen der Arbeitsübergaben, was zwar nicht so geschäftig war wie zuvor, aber die drängenden Termine und bevorstehenden Aufgaben brachten dennoch erheblichen Druck mit sich. Schließlich stehe ich kurz davor, eine Stadt zu verlassen, in der ich fast zwei Jahre gelebt habe. Mehr Zeit wurde für Gespräche und Zusammenkünfte aufgewendet, die seltene Momente der Entspannung waren. Dennoch fühlt es sich an, als ob die sich ständig bewegende Uhr in diesen zwei Wochen plötzlich stehen geblieben wäre. Ich finde mich selbst recht interessant - wenn ich beschäftigt bin, sehne ich mich nach Ruhe und Entspannung, aber wenn ich mich wirklich entlasten kann, fühle ich mich irgendwie verloren.
 
-Just after writing the last piece, I didn't learn my lesson and experienced another blackout from drinking. However, it led to an interesting experience of my colleagues piecing together clues to find my home address, which turned out to be a false alarm. It's become a peculiar memory point. My glasses broke, but since my prescription isn't strong, I simply went without them for a few days. The slightly blurry world took some getting used to, but it was manageable. Xiaoyu called and shared a lot about her recent situation. I met some new and old friends, and my home even served as a cat cafe welcoming two groups of friends. There were many other interesting happenings as well.
+Kurz nach dem Verfassen des letzten Stücks habe ich nicht aus meinen Fehlern gelernt und erlebte einen weiteren Filmriss durch Alkoholkonsum. Dies führte jedoch zu einer interessanten Erfahrung, als meine Kollegen Hinweise zusammensetzten, um meine Heimatadresse zu finden, was sich als Fehlalarm herausstellte. Es ist zu einem eigentümlichen Erinnerungspunkt geworden. Meine Brille ging kaputt, aber da meine Sehstärke nicht so stark ist, ging ich einfach ein paar Tage ohne sie. Die leicht verschwommene Welt war gewöhnungsbedürftig, aber es war machbar. Xiaoyu rief an und erzählte viel über ihre jüngste Situation. Ich traf einige neue und alte Freunde, und mein Zuhause diente sogar als Katzencafé, das zwei Gruppen von Freunden willkommen hieß. Es gab auch viele andere interessante Ereignisse.
 
-## Don't Stop the Clocks
+## Haltet die Uhren nicht an
 
 ![steve-johnson-clock](https://image.pseudoyu.com/images/steve-johnson-clock.jpg)
 
-During the phone call with Xiaoyu, when I mentioned my potential plan to go to Japan for remote work and return to school to study photography - a subject I'm fond of - she suddenly remarked that since we met in high school, perhaps because of the many things I wanted to do or achieve, I've always been moving forward, never willing to stop.
+Während des Telefonats mit Xiaoyu, als ich meinen möglichen Plan erwähnte, nach Japan zu gehen, um remote zu arbeiten und zur Schule zurückzukehren, um Fotografie zu studieren - ein Fach, das ich mag - bemerkte sie plötzlich, dass ich, seit wir uns in der Oberschule kennengelernt hatten, vielleicht wegen der vielen Dinge, die ich tun oder erreichen wollte, immer vorwärts gegangen bin und nie bereit war anzuhalten.
 
-Reflecting on it, it's indeed true. Even during my so-called gap year after graduating from university in 2019, I was busy doing many things, saving up for tuition. It wasn't really due to any pressure; my family has always been supportive of my choices. It's just that around my sophomore or junior year, when I truly started to ponder what I wanted to do and who I wanted to become, I unconsciously found myself in a constant state of moving forward. I wanted to make decisions about my life freely and independently. Having experienced some denials and setbacks made me want to achieve even more, or perhaps made me less willing to lose. I've become so accustomed to this rhythm that I don't know how to stop.
+Wenn ich darüber nachdenke, stimmt das tatsächlich. Selbst während meines sogenannten Zwischenjahres nach meinem Universitätsabschluss 2019 war ich damit beschäftigt, viele Dinge zu tun und für das Studium zu sparen. Es lag nicht wirklich an irgendeinem Druck; meine Familie hat meine Entscheidungen immer unterstützt. Es ist nur so, dass ich mich irgendwann im zweiten oder dritten Studienjahr, als ich wirklich begann darüber nachzudenken, was ich tun und wer ich werden wollte, unbewusst in einem ständigen Zustand des Vorwärtsdrängens wiederfand. Ich wollte Entscheidungen über mein Leben frei und unabhängig treffen. Einige Ablehnungen und Rückschläge erlebt zu haben, ließ mich noch mehr erreichen wollen oder machte mich vielleicht weniger bereit zu verlieren. Ich habe mich so sehr an diesen Rhythmus gewöhnt, dass ich nicht weiß, wie ich aufhören soll.
 
-It reminds me of a song I often listen to, "Don't Stop the Clocks". Previously, my life seemed like a clock, only feeling meaningful when it was turning.
+Es erinnert mich an ein Lied, das ich oft höre, "Don't Stop the Clocks". Früher schien mein Leben wie eine Uhr zu sein, die sich nur sinnvoll anfühlte, wenn sie sich drehte.
 
-In my school days, I didn't think too much about it. With a not-so-strong foundation, I seemed to only strive continuously for better grades. During university, knowing it wasn't a major I liked, I actually had plenty of time but didn't spend much of it exploring directions. Instead, I was overly diligent in participating in various student organizations, pursuing what seemed to be the "optimal solution" in that environment. At most, I was in four clubs, with five or six meetings a week. Just as I was about to enter my senior year, when I could have slowed down, I started my own video studio business, returning to a busy state. Upon graduation, I realized I still wasn't willing to casually take up a job I didn't like, so I embarked on a gap year, preparing for graduate school applications. Even after receiving an offer early, I was always anxious. Before going to Hong Kong, I repeatedly told myself that it might be my last student life experience and that I should enjoy it fully, but I couldn't really do so. From January, when the second semester started, I constantly worried about internships and jobs. After starting work, being my first formal technical job, I never dared to slack off, seemingly trying to prove to others and myself that I could walk this path well.
+In meiner Schulzeit habe ich nicht viel darüber nachgedacht. Mit einer nicht allzu starken Grundlage schien ich nur kontinuierlich nach besseren Noten zu streben. Während der Universität, wissend, dass es kein Hauptfach war, das ich mochte, hatte ich eigentlich viel Zeit, verbrachte aber nicht viel davon damit, Richtungen zu erkunden. Stattdessen war ich übereifrig darin, an verschiedenen studentischen Organisationen teilzunehmen und verfolgte, was in diesem Umfeld die "optimale Lösung" zu sein schien. Ich war in bis zu vier Clubs gleichzeitig, mit fünf oder sechs Treffen pro Woche. Gerade als ich kurz davor war, in mein letztes Jahr einzutreten, als ich hätte verlangsamen können, gründete ich mein eigenes Videostudio-Geschäft und kehrte in einen geschäftigen Zustand zurück. Bei meinem Abschluss merkte ich, dass ich immer noch nicht bereit war, beiläufig einen Job anzunehmen, den ich nicht mochte, also begab ich mich in ein Zwischenjahr, um mich auf Bewerbungen für Graduiertenprogramme vorzubereiten. Selbst nachdem ich früh ein Angebot erhalten hatte, war ich immer ängstlich. Bevor ich nach Hongkong ging, sagte ich mir wiederholt, dass es vielleicht meine letzte Studentenleben-Erfahrung sein könnte und dass ich sie voll genießen sollte, aber ich konnte es nicht wirklich. Ab Januar, als das zweite Semester begann, machte ich mir ständig Sorgen um Praktika und Jobs. Nachdem ich zu arbeiten begonnen hatte, wagte ich es bei meinem ersten formellen technischen Job nie, nachzulassen, scheinbar versuchend, anderen und mir selbst zu beweisen, dass ich diesen Weg gut gehen konnte.
 
-In terms of results, all this progress seems to have been meaningful. It brought decent college entrance exam scores that allowed me to enter a good university environment, good undergraduate grades and resume that didn't constrain me when applying for graduate school, decent technical accumulation that gives me the opportunity to pursue directions I like, and many other things. But the cost, as Xiaoyu said, was "You always seem so tired." Indeed, it has been quite tiring. I don't want to say something cliché like it was all worth it; it's just a journey with gains and losses.
+In Bezug auf die Ergebnisse scheint all dieser Fortschritt sinnvoll gewesen zu sein. Er brachte anständige Aufnahmeprüfungsergebnisse, die es mir ermöglichten, in ein gutes Universitätsumfeld einzutreten, gute Noten und einen Lebenslauf im Grundstudium, die mich bei der Bewerbung für das Graduiertenstudium nicht einschränkten, eine anständige technische Anhäufung, die mir die Möglichkeit gibt, Richtungen zu verfolgen, die ich mag, und viele andere Dinge. Aber die Kosten waren, wie Xiaoyu sagte, "Du scheinst immer so müde zu sein." In der Tat war es ziemlich ermüdend. Ich möchte nicht etwas Klischeehaftes sagen wie, dass es alles wert war; es ist einfach eine Reise mit Gewinnen und Verlusten.
 
-Now, in this rare and precious gap week between two jobs, I'm finally willing to slow down my pace, to do and think about things without so much concern for gain or loss. I stay up late binge-watching shows, then stubbornly resist Nini's attempts to wake me up for breakfast the next morning. I turn my rental into a cat cafe, hosting two groups of visitors in one weekend. I open my Switch that hasn't been touched for months and spend an afternoon playing "It Takes Two" with a friend (it's really fun!).
+Jetzt, in dieser seltenen und kostbaren Lückenwoche zwischen zwei Jobs, bin ich endlich bereit, mein Tempo zu verlangsamen, Dinge zu tun und darüber nachzudenken, ohne so viel Sorge um Gewinn oder Verlust. Ich bleibe spät auf, um Serien zu schauen, und widerstehe dann stur Ninis Versuchen, mich am nächsten Morgen zum Frühstück zu wecken. Ich verwandle meine Mietwohnung in ein Katzencafé und empfange an einem Wochenende zwei Besuchergruppen. Ich öffne meine Switch, die seit Monaten nicht mehr berührt wurde, und verbringe einen Nachmittag damit, "It Takes Two" mit einem Freund zu spielen (es macht wirklich Spaß!).
 
 > 時計の針を進めて。
-> Let the clock's hands continue to move forward.
+> Lass die Zeiger der Uhr weiter vorwärts gehen.
 
-Even now, I still tell myself, "Don't Stop the Clocks," because there are still many interesting things in the future worth pursuing. However, I also often remind myself not to always look ahead, but to experience more of the people and things around me. They are the markings that make life flow and give it meaning. Every moment is worth cherishing, even the "wasted" ones.
+Auch jetzt sage ich mir noch "Haltet die Uhren nicht an", weil es in der Zukunft noch viele interessante Dinge gibt, die es wert sind, verfolgt zu werden. Allerdings erinnere ich mich auch oft daran, nicht immer nach vorne zu schauen, sondern mehr von den Menschen und Dingen um mich herum zu erleben. Sie sind die Markierungen, die das Leben fließen lassen und ihm Bedeutung geben. Jeder Moment ist es wert, geschätzt zu werden, selbst die "vergeudeten".
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auflisten. Es fühlt sich so mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
 - [Why Write?](https://fs.blog/why-write/)
 - [When Stablecoins Are Not Stable - Atlas](https://atlas-thinking.xlog.app/when-stablecoin-is-not-stable)
@@ -54,33 +54,33 @@ Although most interesting inputs are automatically synced in the "Yu's Life" Tel
 
 #### Videos
 
-Similarly, I've also recorded some interesting videos I've watched:
+Ähnlich habe ich auch einige interessante Videos aufgezeichnet, die ich gesehen habe:
 
 - [Web Development In 2023 - A Practical Guide](https://www.youtube.com/watch?v=u72H_zZzkcw)
 - [How Chaotic Can Traveling with Family Be?! 【Xishuangbanna Lazy Tour】](https://www.bilibili.com/video/BV1e24y1G7ri)
 - [Humans Have Only One Mission: To Move Towards Self | Demian 【Book Recommendation】](https://www.bilibili.com/video/BV1q24y1g7AJ)
 - [Will Odd People Like Us Have Friends?](https://www.bilibili.com/video/BV19g4y1t7gg)
 
-#### TV Series
+#### TV-Serien
 
-- **The Glory**, perhaps because I watch few Korean dramas, I found the production quite exquisite. Watching it all at once, the plot presentation felt complete but somewhat cliché. I quite like Joo Yeo-jeong's character design though. His love, which never crosses the line, seems quite fitting. Basically, I just wanted to watch their romance.
+- **The Glory**, vielleicht weil ich wenige koreanische Dramen schaue, fand ich die Produktion recht exquisit. Als ich es in einem Rutsch sah, fühlte sich die Handlungspräsentation vollständig, aber etwas klischeehaft an. Ich mag das Charakterdesign von Joo Yeo-jeong jedoch sehr. Seine Liebe, die nie die Grenze überschreitet, scheint ziemlich passend. Im Grunde wollte ich einfach ihre Romanze sehen.
 
-## Personal Life Snapshots
+## Persönliche Lebensmomente
 
 ![tweet_about_chatgpt_and_chunge](https://image.pseudoyu.com/images/tweet_about_chatgpt_and_chunge.png)
 
-> My middle school homeroom teacher wanted to demonstrate ChatGPT to his students, but access and login restrictions in China are quite problematic. After much effort, he finally adopted Vercel self-deployment + GPT-3.5 Turbo API
+> Mein Klassenlehrer aus der Mittelschule wollte ChatGPT seinen Schülern demonstrieren, aber Zugangs- und Login-Beschränkungen in China sind ziemlich problematisch. Nach viel Mühe hat er schließlich Vercel-Selbstbereitstellung + GPT-3.5 Turbo API adoptiert
 >
 > <https://github.com/ddiu8081/chatgpt-demo>
 >
-> And according to this tutorial, used Cloudflare Workers to configure an OpenAI proxy
+> Und nach diesem Tutorial verwendete er Cloudflare Workers, um einen OpenAI-Proxy zu konfigurieren
 >
 > <https://github.com/noobnooc/noobnooc/discussions/9>
 >
-> Finally got a good experience, feeling a bit happy.
+> Schließlich bekam er eine gute Erfahrung, fühle mich ein bisschen glücklich.
 
-My middle school homeroom teacher, Brother Chun, wanted to demonstrate ChatGPT to his students (or maybe he wanted to use ChatGPT to help with lesson preparation lazily), so I set up a service for direct access in the domestic network environment. It took half a morning, but when it was finally put to use, I felt quite happy.
+Mein Klassenlehrer aus der Mittelschule, Bruder Chun, wollte ChatGPT seinen Schülern demonstrieren (oder vielleicht wollte er ChatGPT benutzen, um faul bei der Unterrichtsvorbereitung zu helfen), also richtete ich einen Service für direkten Zugang in der inländischen Netzwerkumgebung ein. Es dauerte einen halben Vormittag, aber als es schließlich zum Einsatz kam, fühlte ich mich ziemlich glücklich.
 
-I used to be often jokingly called Doraemon, and recently I've gained a new title - being suspected of being a human ChatGPT. It seems I can always use strange ways to meet my friends' needs, which is quite interesting. I really enjoy it.
+Früher wurde ich oft scherzhaft Doraemon genannt, und kürzlich habe ich einen neuen Titel gewonnen - verdächtigt zu werden, ein menschliches ChatGPT zu sein. Es scheint, als könnte ich immer seltsame Wege finden, um die Bedürfnisse meiner Freunde zu erfüllen, was ziemlich interessant ist. Ich genieße es wirklich.
 
-Then, I hope everything goes well in the next week.
+Dann hoffe ich, dass in der nächsten Woche alles gut läuft.

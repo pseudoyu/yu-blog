@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #44 - The Silent Workers, xLog and Daily Life"
+title: "Wochenrückblick #44 - Die stillen Arbeiter, xLog und das tägliche Leben"
 date: 2023-08-15T10:01:24+08:00
 draft: false
 tags: ["review", "life", "romance", "love", "xlog", "time", "boyi", "n8n"]
@@ -10,132 +10,132 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `2023-07-11` to `2023-08-15`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `11.07.2023` bis zum `15.08.2023`.
 
-After nearly a month of stagnation, reopening the weekly review document felt somewhat unfamiliar. In truth, many themes I wanted to write about had accumulated, and there were many words I wished to say. Although my output has decreased, my desire to share has not diminished due to changes in my life state. Instead, it has spread into the quiet flow of daily life. As I gradually became accustomed to the new rhythm of life, I also began to adjust (and fill in) some of the plans I had made at the beginning of the year. Weekly reviews and blog posts have also resumed updating.
+Nach fast einem Monat Stagnation fühlte sich das Wiederöffnen des Wochenrückblick-Dokuments etwas ungewohnt an. In Wahrheit hatten sich viele Themen angesammelt, über die ich schreiben wollte, und es gab viele Worte, die ich sagen wollte. Obwohl meine Produktion zurückgegangen ist, hat mein Wunsch zu teilen aufgrund der Veränderungen in meinem Lebenszustand nicht nachgelassen. Stattdessen hat er sich in den stillen Fluss des täglichen Lebens verteilt. Als ich mich allmählich an den neuen Lebensrhythmus gewöhnte, begann ich auch, einige der Pläne, die ich zu Jahresbeginn gemacht hatte, anzupassen (und zu ergänzen). Wochenrückblicke und Blogbeiträge werden nun auch wieder aktualisiert.
 
-## The Silent Workers
+## Die stillen Arbeiter
 
 ![yixi_ticket](https://image.pseudoyu.com/images/yixi_ticket.jpg)
 
-One weekend, I went to listen to a Yixi lecture, which is somewhat like a localized version of TED. There were many interesting people there, including an adorable scholar who had lived in Russian forests for years to save endangered owls, an artist exploring the remnants of ancient temples in the folds of mountains and rivers, and an architect who makes his own books...
+An einem Wochenende hörte ich einen Yixi-Vortrag, der so etwas wie eine lokalisierte Version von TED ist. Es waren viele interessante Menschen dort, darunter ein liebenswürdiger Gelehrter, der jahrelang in russischen Wäldern gelebt hatte, um bedrohte Eulen zu retten, ein Künstler, der die Überreste alter Tempel in den Falten der Berge und Flüsse erforschte, und ein Architekt, der seine eigenen Bücher herstellt...
 
 ![yixi_speech](https://image.pseudoyu.com/images/yixi_speech.jpg)
 
-The one that left the deepest impression and that I liked the most was a psychologist named Wei Mingyi, who focuses on "seeking brevity". I bought her book on the spot and got it signed by the author, and I finished reading it quite intensively this week. I really like her self-description as an "apprentice of anthropology", delving deep into a group of workers who were expelled and confined by the glorious era of the Keelung Port in Taiwan, accompanying them, understanding their inner world and life perspective. The book doesn't actually dwell much on depicting hardships. They had their glorious times and experienced the decline of being abandoned by the era, still far from many truly impoverished groups.
+Den tiefsten Eindruck hinterließ eine Psychologin namens Wei Mingyi, die sich auf das "Streben nach Kürze" konzentriert. Ich kaufte ihr Buch sofort und ließ es von der Autorin signieren, und ich las es diese Woche recht intensiv zu Ende. Ich mag ihre Selbstbeschreibung als "Lehrling der Anthropologie" sehr, die tief in eine Gruppe von Arbeitern eintaucht, die von der glorreichen Ära des Hafens von Keelung in Taiwan vertrieben und eingesperrt wurden, sie begleitet und ihre innere Welt und Lebensperspektive versteht. Das Buch verweilt tatsächlich nicht viel bei der Schilderung von Härten. Sie hatten ihre glorreichen Zeiten und erlebten den Niedergang, von der Ära verlassen zu werden, immer noch weit entfernt von vielen wirklich verarmten Gruppen.
 
 ![book_with_sig](https://image.pseudoyu.com/images/book_with_sig.jpg)
 
-What's shocking is that this group of people seemed to be quickly forgotten in just a few years due to some changes in political and economic directions. It's as if that period of the "sleepless city" never belonged to them, yet they have to spend most of their lives making society accept them again. At the same time, they also have to re-recognize themselves. To the outside world, they seem to be a group of "useless" people who were abandoned for "not working hard enough". No one has ever seriously listened to their voices, and they have gradually learned to be silent.
+Schockierend ist, dass diese Gruppe von Menschen in nur wenigen Jahren aufgrund einiger Veränderungen in den politischen und wirtschaftlichen Richtungen schnell vergessen zu sein schien. Es ist, als hätte diese Periode der "schlaflosen Stadt" nie zu ihnen gehört, und doch müssen sie den größten Teil ihres Lebens damit verbringen, die Gesellschaft dazu zu bringen, sie wieder zu akzeptieren. Gleichzeitig müssen sie sich auch selbst neu erkennen. Für die Außenwelt scheinen sie eine Gruppe von "nutzlosen" Menschen zu sein, die aufgegeben wurden, weil sie "nicht hart genug gearbeitet" haben. Niemand hat je ernsthaft ihre Stimmen gehört, und sie haben allmählich gelernt, zu schweigen.
 
-History always decides what should be recorded according to its own (or some political) standards. They are the brushstrokes that have been overlooked, yet the true sense of history often lies beyond historical records, in those buried memories. Our current era is the same, with too many things that cannot be spoken of or discussed. Those are precisely the true voices of the era.
+Die Geschichte entscheidet immer nach ihren eigenen (oder einigen politischen) Maßstäben, was aufgezeichnet werden soll. Sie sind die Pinselstriche, die übersehen wurden, und doch liegt der wahre Sinn der Geschichte oft jenseits der historischen Aufzeichnungen, in jenen begrabenen Erinnerungen. Unsere gegenwärtige Ära ist genauso, mit zu vielen Dingen, die nicht ausgesprochen oder diskutiert werden können. Das sind genau die wahren Stimmen der Ära.
 
-The writing style reminds me of a Taiwanese film I watched before, "A Sun". Many dialogues, monologues, and long shots seem to present many traces of life as they are, probably a unique style of Taiwan, narrating slowly. I've become very interested in some Taiwanese lifestyles and era characteristics, and next I want to watch a drama I've wanted to see for a long time, "Workers".
+Der Schreibstil erinnert mich an einen taiwanesischen Film, den ich zuvor gesehen habe, "A Sun". Viele Dialoge, Monologe und lange Einstellungen scheinen viele Lebensspuren so zu präsentieren, wie sie sind, wahrscheinlich ein einzigartiger Stil Taiwans, der langsam erzählt. Ich habe mich sehr für einige taiwanesische Lebensstile und Epochenmerkmale interessiert, und als nächstes möchte ich ein Drama sehen, das ich schon lange sehen wollte, "Workers".
 
-I'm particularly interested in this point because during my junior and senior high school years, due to my father's work, I had the experience of living in employee dormitories with some of his apprentices. At that time, most of my roommate brothers hadn't finished or hadn't even started high school before coming to a strange city to struggle, hoping to learn a skill to seek a place in a foreign land.
+Ich interessiere mich besonders für diesen Punkt, weil ich während meiner Junior- und Senior-High-School-Jahre aufgrund der Arbeit meines Vaters die Erfahrung gemacht habe, in Mitarbeiterwohnheimen mit einigen seiner Lehrlinge zu leben. Zu dieser Zeit hatten die meisten meiner Mitbewohner-Brüder die High School noch nicht beendet oder noch nicht einmal begonnen, bevor sie in eine fremde Stadt kamen, um zu kämpfen, in der Hoffnung, eine Fähigkeit zu erlernen, um einen Platz in einem fremden Land zu suchen.
 
-In that era when smartphones and short videos were not yet popular, perhaps because the nights were too long, they always needed to find a place to kill time after work. I was also brought into their life circle a few times. Sometimes we would go to an indoor roller skating rink and play for hours, sometimes we would chat in a corner of a bustling square, and sometimes we would just watch Ultraman all night in the room using an old DVD player. I was very young at that time, and naturally, my interactions and communications with them were not deep. Later, with various changes, we no longer kept in touch.
+In jener Ära, als Smartphones und Kurzvideos noch nicht populär waren, vielleicht weil die Nächte zu lang waren, mussten sie immer einen Ort finden, um nach der Arbeit die Zeit totzuschlagen. Ich wurde auch ein paar Mal in ihren Lebenskreis gebracht. Manchmal gingen wir in eine Innen-Rollschuhbahn und spielten stundenlang, manchmal unterhielten wir uns in einer Ecke eines belebten Platzes, und manchmal sahen wir einfach die ganze Nacht Ultraman im Zimmer mit einem alten DVD-Player. Ich war damals sehr jung, und natürlich waren meine Interaktionen und Kommunikationen mit ihnen nicht tief. Später, mit verschiedenen Veränderungen, hielten wir keinen Kontakt mehr.
 
-Thinking about it now, more than ten years later, they were only eighteen or nineteen at that time, but seemed to have a maturity beyond their age. At such a young age, they needed to find their place in this bustling city, yet had to face a life of rushing around, loneliness, and a sense of alienation from society. Perhaps only the free time at night could make them truly feel something that belonged to them. Later, I inquired a bit about their lives afterward. Some went back to their hometowns, doing some small businesses; some continued to struggle in Hangzhou, changing from one place to another, seemingly still unable to achieve the life they wanted. Just as described in the book, they wouldn't blame this era, but rather attribute the unsatisfactory parts of life to themselves, and that's all.
+Wenn ich jetzt darüber nachdenke, mehr als zehn Jahre später, waren sie damals erst achtzehn oder neunzehn, schienen aber eine Reife zu haben, die über ihr Alter hinausging. In so jungen Jahren mussten sie ihren Platz in dieser geschäftigen Stadt finden und mussten doch einem Leben des Hin- und Hereilens, der Einsamkeit und einem Gefühl der Entfremdung von der Gesellschaft gegenüberstehen. Vielleicht konnte nur die freie Zeit in der Nacht sie wirklich etwas spüren lassen, das ihnen gehörte. Später erkundigte ich mich ein wenig über ihr Leben danach. Einige gingen in ihre Heimatstädte zurück und machten einige kleine Geschäfte; einige kämpften weiter in Hangzhou, wechselten von einem Ort zum anderen und schienen immer noch nicht das Leben erreichen zu können, das sie wollten. Genau wie im Buch beschrieben, würden sie diese Ära nicht beschuldigen, sondern eher die unbefriedigenden Teile des Lebens sich selbst zuschreiben, und das war's.
 
-## Personal Life Snapshot
+## Momentaufnahme des persönlichen Lebens
 
 ![boyi_universal](https://image.pseudoyu.com/images/boyi_universal.png)
 
-My sister is on summer vacation, so she came to Beijing to play. Together with my senior, we went to Universal Studios. Although it was a weekend during the summer vacation, it wasn't as crowded as imagined.
+Meine Schwester hat Sommerferien, also kam sie nach Peking, um zu spielen. Zusammen mit meinem Senior gingen wir zu den Universal Studios. Obwohl es ein Wochenende während der Sommerferien war, war es nicht so überfüllt wie man sich vorstellen könnte.
 
-We got to play all the popular projects. During the "Harry Potter and the Forbidden Journey" project, my glasses flew off and haven't been found yet, so I went to the optical city to get a new pair. I guess coming to the magical world, you have to leave something behind.
+Wir konnten alle beliebten Projekte spielen. Während des Projekts "Harry Potter and the Forbidden Journey" flogen meine Brille weg und wurden bisher nicht gefunden, also ging ich in die optische Stadt, um eine neue zu bekommen. Ich schätze, wenn man in die magische Welt kommt, muss man etwas zurücklassen.
 
-Other than that, it's just the quiet flow of daily life, slow but beautiful. We met with Liangliang and other teachers who came to Beijing for an inspection, and talked about quite a lot of past events; we would occasionally explore some street corner restaurants, and also go to Yonghegong to listen to folk music on weekday nights, finding a moment of rest in the hustle and bustle; I would also pick up and drop off my senior from work during remote work breaks, chatting with the security guard at the door during the waiting intervals...
+Ansonsten ist es nur der stille Fluss des täglichen Lebens, langsam, aber schön. Wir trafen uns mit Liangliang und anderen Lehrern, die für eine Inspektion nach Peking kamen, und sprachen über ziemlich viele vergangene Ereignisse; wir erkundeten gelegentlich einige Restaurants in Straßenecken und gingen auch zum Yonghegong, um an Wochenabenden Volksmusik zu hören und fanden einen Moment der Ruhe im Trubel; ich würde auch meine Seniorin von der Arbeit abholen und bringen während der Pausen bei der Fernarbeit, plauberte mit dem Sicherheitsmann an der Tür während der Wartezeiten...
 
-Perhaps it's because my mindset has changed, my living state and the way I view life have also changed a lot. It's hard to describe exactly, but generally, it's filled with more beauty and kindness.
+Vielleicht liegt es daran, dass sich meine Denkweise geändert hat, mein Lebenszustand und die Art, wie ich das Leben betrachte, haben sich auch sehr verändert. Es ist schwer genau zu beschreiben, aber im Allgemeinen ist es mit mehr Schönheit und Freundlichkeit gefüllt.
 
-It's been a long time since I showed Nini's daily life. Now her fur is getting thicker and heavier, maybe I'll take her for a bath and groom her fur next week.
+Es ist lange her, dass ich Ninis tägliches Leben gezeigt habe. Jetzt wird ihr Fell dicker und schwerer, vielleicht nehme ich sie nächste Woche zum Baden und Fellpflegen mit.
 
 ![nienie_2023_0816_01](https://image.pseudoyu.com/images/nienie_2023_0816_01.jpg)
 
 ![nienie_2023_0816_02](https://image.pseudoyu.com/images/nienie_2023_0816_02.jpg)
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### xLog
 
 ![yu_xlog_profile](https://image.pseudoyu.com/images/yu_xlog_profile.png)
 
-xLog is currently the main synchronization and backup platform for my own blog. Because I'm reluctant to part with the previous data statistics and accumulated Cusdis comments, I still haven't been able to migrate the entire thing over. After the latest launch of the "Portfolio" feature, coupled with xSync, xFeed, and xChar, it has become a good personal Profile page for me, and I'm becoming more and more dependent on it.
+xLog ist derzeit die Hauptsynchronisations- und Backup-Plattform für meinen eigenen Blog. Weil ich mich nur ungern von den bisherigen Datenstatistiken und angesammelten Cusdis-Kommentaren trenne, konnte ich immer noch nicht das Ganze migrieren. Nach der neuesten Einführung der "Portfolio"-Funktion, gekoppelt mit xSync, xFeed und xChar, ist es zu einer guten persönlichen Profilseite für mich geworden, und ich werde immer abhängiger davon.
 
-This is my portfolio page: [xlog.pseudoyu.com/portfolios](https://xlog.pseudoyu.com/portfolios)
+Dies ist meine Portfolio-Seite: [xlog.pseudoyu.com/portfolios](https://xlog.pseudoyu.com/portfolios)
 
 ![boyi_xlog](https://image.pseudoyu.com/images/boyi_xlog.png)
 
-My senior's blog had been using the Hashnode platform, which is also a simple and easy-to-use platform. But with the evolution of xLog's features and the freedom given to creators, I still migrated it over. Apart from claiming CSB Token, the onboarding experience is already very good, and things like binding domains and umami parsing are also very convenient. I recommend friends who want to have their own blog to give it a try.
+Der Blog meiner Seniorin hatte die Hashnode-Plattform verwendet, die auch eine einfache und benutzerfreundliche Plattform ist. Aber mit der Entwicklung der Funktionen von xLog und der Freiheit, die den Erstellern gegeben wird, habe ich ihn trotzdem migriert. Abgesehen vom Beanspruchen des CSB-Tokens ist die Onboarding-Erfahrung bereits sehr gut, und Dinge wie das Binden von Domains und Umami-Parsing sind auch sehr bequem. Ich empfehle Freunden, die ihren eigenen Blog haben möchten, es auszuprobieren.
 
-This is my senior's blog: [boyilu.com](https://www.boyilu.com)
+Dies ist der Blog meiner Seniorin: [boyilu.com](https://www.boyilu.com)
 
-During the migration and editing process, I read through everything again, and I still feel that text is the most comfortable and warmest way I can think of to understand and gradually get close to a person.
+Während des Migrations- und Bearbeitungsprozesses las ich alles noch einmal durch, und ich fühle immer noch, dass Text die angenehmste und wärmste Art ist, die ich mir vorstellen kann, um eine Person zu verstehen und ihr allmählich näher zu kommen.
 
-### Personal Information Flow Synchronization System
+### Persönliches Informationsfluss-Synchronisationssystem
 
-Due to Railway officially closing its Free Plan on August 1st, the n8n synchronization system was down for two days. After some research, I ended up running it on my own VPS using Docker (a BandwagonHOST ThePlan, 2c2g, coupled with NginxProxyManager for reverse proxy, running most of my services that require data persistence). I also updated the version while at it, and continued the synchronization.
+Da Railway am 1. August offiziell seinen Free Plan eingestellt hat, war das n8n-Synchronisationssystem zwei Tage lang außer Betrieb. Nach einigen Recherchen endete ich damit, es auf meinem eigenen VPS mit Docker laufen zu lassen (ein BandwagonHOST ThePlan, 2c2g, gekoppelt mit NginxProxyManager für Reverse Proxy, auf dem die meisten meiner Dienste laufen, die Datenpersistenz erfordern). Ich aktualisierte auch die Version dabei und setzte die Synchronisation fort.
 
-As of writing this weekly review, the Telegram channel has 536 subscribers, and gradually I've formed my own habit pattern of input and output. Although I've been using Twitter (now maybe we should call it X) less and less, it's also reached 2000+ followers, which is a small milestone.
+Zum Zeitpunkt des Schreibens dieses Wochenrückblicks hat der Telegram-Kanal 536 Abonnenten, und allmählich habe ich mein eigenes Gewohnheitsmuster von Input und Output geformt. Obwohl ich Twitter (jetzt sollten wir es vielleicht X nennen) immer weniger benutze, hat es auch 2000+ Follower erreicht, was ein kleiner Meilenstein ist.
 
 ### Open Source Budget
 
-In a previous weekly review "[Weekly Review #30 - Open Source Budget, Writing Intention, and Humility towards Technology](https://www.pseudoyu.com/en/2023/02/12/weekly_review_20230212/)", I mentioned this:
+In einem früheren Wochenrückblick "[Wochenrückblick #30 - Open Source Budget, Schreibabsicht und Demut gegenüber Technologie](https://www.pseudoyu.com/en/2023/02/12/weekly_review_20230212/)" erwähnte ich dies:
 
-> In Randy's article "[I Set Up a Monthly $20 Open Source Donation Budget for Myself](https://lutaonan.com/blog/my-oss-donation-budget/)", I saw his concept and attitude towards open source projects, which I found very interesting and inspired me to set up a similar open source budget for myself. The current setting is at least $20 (about 130 RMB) or equivalent value budget per month, flexibly choosing according to my daily use and tech stack. I will choose the following projects for donation:
+> In Randys Artikel "[Ich habe mir ein monatliches Open-Source-Spendenbudget von 20 $ eingerichtet](https://lutaonan.com/blog/my-oss-donation-budget/)" sah ich sein Konzept und seine Einstellung zu Open-Source-Projekten, was ich sehr interessant fand und mich inspirierte, ein ähnliches Open-Source-Budget für mich selbst einzurichten. Die aktuelle Einstellung liegt bei mindestens 20 $ (etwa 130 RMB) oder einem gleichwertigen Wertbudget pro Monat, flexibel wählbar nach meiner täglichen Nutzung und meinem Tech-Stack. Ich werde die folgenden Projekte für Spenden auswählen:
 >
-> - Independent bloggers and developers who have inspired me
-> - Projects that I often use when doing side projects and have solved very practical problems
-> - Some interesting open source tools and services that I use frequently
+> - Unabhängige Blogger und Entwickler, die mich inspiriert haben
+> - Projekte, die ich oft bei Nebenprojekten verwende und die sehr praktische Probleme gelöst haben
+> - Einige interessante Open-Source-Tools und -Dienste, die ich häufig nutze
 
-Previously, I had been regularly sponsoring [reorx](https://github.com/reorx) on GitHub Sponsor. This month, after Randy released [Cusdis Pro](https://blog.cusdis.com/announcing-cusdis-pro/) and [Notepal](https://notepal.randynamic.org/), I started sponsoring [Randy](https://lutaonan.com/).
+Zuvor hatte ich regelmäßig [reorx](https://github.com/reorx) auf GitHub Sponsor unterstützt. Diesen Monat, nachdem Randy [Cusdis Pro](https://blog.cusdis.com/announcing-cusdis-pro/) und [Notepal](https://notepal.randynamic.org/) veröffentlicht hatte, begann ich, [Randy](https://lutaonan.com/) zu unterstützen.
 
 ![sponsor_randy](https://image.pseudoyu.com/images/sponsor_randy.png)
 
-> 💖 I'm sponsoring @randyloop for his passion and dedication to open-source. His products, blogs and podcasts really bring inspiration to my growth as a programmer and life learner.
+> 💖 Ich unterstütze @randyloop für seine Leidenschaft und sein Engagement für Open Source. Seine Produkte, Blogs und Podcasts bringen wirklich Inspiration für mein Wachstum alsProgrammierer und Lebenslerner.
 
 ### Nuphy
 
 ![nuphy_keyboard](https://image.pseudoyu.com/images/nuphy_keyboard.png)
 
-I occasionally write some efficiency tool articles, and unexpectedly, I was contacted by Nuphy official to test the Nuphy Air60 keyboard. It's lightweight and has a high aesthetic value, I plan to carry it with me when I go out.
+Ich schreibe gelegentlich einige Artikel über Effizienzwerkzeuge, und unerwartet wurde ich von Nuphy offiziell kontaktiert, um die Nuphy Air60 Tastatur zu testen. Sie ist leicht und hat einen hohen ästhetischen Wert, ich plane, sie mitzunehmen, wenn ich ausgehe.
 
-### Others
+### Sonstiges
 
-I feel like many interesting things happened, but because they've accumulated to a monthly scale, it's hard to recall them all at once. I've started concentrating on learning Japanese, working on a tutorial set, and have many article topics I want to write about. I hope I can gradually fill these gaps in the future.
+Ich habe das Gefühl, dass viele interessante Dinge passiert sind, aber weil sie sich zu einem monatlichen Maßstab angehäuft haben, ist es schwer, sich an alle auf einmal zu erinnern. Ich habe begonnen, mich auf das Japanischlernen zu konzentrieren, arbeite an einem Tutorial-Set und habe viele Artikelthemen, über die ich schreiben möchte. Ich hoffe, ich kann diese Lücken in Zukunft nach und nach füllen.
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I'll still select some to list here. It feels more like a newsletter now.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "[Yu's Life](https://t.me/pseudoyulife)" synchronisiert werden, werde ich trotzdem einige auswählen, um sie hier aufzulisten. Es fühlt sich jetzt mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- **Hard-Boiled Wonderland and the End of the World**, the description is very beautiful, and the protagonist's perspective has a kind of detachment from the world that I really like. The ending is calm yet unexpected. But unfortunately, I read this book over several months, mostly on planes or high-speed trains. Coupled with the setting of two parallel world lines, there's a strong sense of discontinuity in the plot. Perhaps I'll have a chance to read it carefully again.
-- **The Silent Workers**, I have quite a few thoughts on this, which I wrote in the first part.
+- **Hardboiled Wonderland und das Ende der Welt**, die Beschreibung ist sehr schön, und die Perspektive des Protagonisten hat eine Art Losgelöstheit von der Welt, die ich wirklich mag. Das Ende ist ruhig, aber unerwartet. Leider habe ich dieses Buch über mehrere Monate gelesen, meist in Flugzeugen oder Hochgeschwindigkeitszügen. Gekoppelt mit der Einstellung von zwei parallelen Weltlinien gibt es ein starkes Gefühl der Diskontinuität in der Handlung. Vielleicht werde ich die Gelegenheit haben, es noch einmal sorgfältig zu lesen.
+- **Die stillen Arbeiter**, ich habe hierzu einige Gedanken, die ich im ersten Teil geschrieben habe.
 
-#### Articles
+#### Artikel
 
-[List of article titles omitted for brevity]
+[Liste der Artikeltitel aus Platzgründen weggelassen]
 
 #### Videos
 
-Here are some interesting videos I've watched:
+Hier sind einige interessante Videos, die ich gesehen habe:
 
-[List of video titles omitted for brevity]
+[Liste der Videotitel aus Platzgründen weggelassen]
 
 #### Podcasts
 
-[List of podcast titles omitted for brevity]
+[Liste der Podcast-Titel aus Platzgründen weggelassen]
 
-#### Music
+#### Musik
 
-[List of music titles omitted for brevity]
+[Liste der Musiktitel aus Platzgründen weggelassen]
 
-#### TV Series
+#### TV-Serien
 
-- **Tokyo Love Story**, re-watching.
-- **The Disguiser**, because I still quite like this group of people from Nirvana in Fire, I've marked it for a long time, and found a weekend to watch it intensively.
+- **Tokyo Love Story**, erneutes Ansehen.
+- **The Disguiser**, weil ich diese Gruppe von Menschen aus Nirvana in Fire immer noch ziemlich mag, habe ich es lange markiert und an einem Wochenende intensiv angesehen.

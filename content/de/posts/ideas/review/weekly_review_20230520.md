@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #39 - First COVID Infection, Past Emotions, and Rediscovered Desire to Share"
+title: "Wochenrückblick #39 - Erste COVID-Infektion, vergangene Emotionen und wiederentdeckter Wunsch zu teilen"
 date: 2023-05-20T23:15:43+08:00
 draft: false
 tags: ["review", "life", "work", "friend", "travel", "memory", "share", "writing", "raycast", "vscode"]
@@ -10,71 +10,71 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece records and reflects on my life from May 1, 2023 to May 20, 2023.
+Dieser Beitrag dokumentiert und reflektiert mein Leben vom 1. Mai 2023 bis zum 20. Mai 2023.
 
-As I type this first line, I realize it has been delayed for three weeks. Many interesting things happened during this period, but it seems my desire to share has been gradually fading. I only jotted down some fragmented thoughts in Logseq, and despite several attempts to organize them, I couldn't find the right approach. So I didn't force it. The stagnation lasted until last week when I was slowly recovering, but then I became busy with an upcoming project launch. It was postponed to this weekend, and before I knew it, here we are.
+Während ich diese erste Zeile tippe, wird mir bewusst, dass er sich um drei Wochen verzögert hat. In dieser Zeit ereigneten sich viele interessante Dinge, doch mein Wunsch zu teilen schien allmählich zu verblassen. Ich notierte lediglich einige fragmentarische Gedanken in Logseq, und trotz mehrerer Versuche, sie zu ordnen, fand ich keinen geeigneten Ansatz. Also zwang ich mich nicht dazu. Die Stagnation hielt an bis zur letzten Woche, als ich mich langsam erholte, doch dann wurde ich mit dem bevorstehenden Start eines Projekts beschäftigt. Es wurde auf dieses Wochenende verschoben, und ehe ich mich versah, sind wir nun hier.
 
-Strangely enough, after surviving three years of the pandemic as one of the rare uninfected people around me, I caught it in this wave. My fever reached 39.5°C over the weekend, and I initially thought it was just a minor cold. It wasn't until Monday, when I was almost recovered, that I thought to take an antigen test. Sure enough, it showed two lines. Overall, it was a mild case - I had a fever for a day, a sore throat that felt like swallowing knives for another day, and then gradually recovered. I suppose you could say I speed-ran COVID.
+Seltsamerweise habe ich mich, nachdem ich drei Jahre lang als einer der wenigen Nicht-Infizierten in meinem Umfeld die Pandemie überlebt hatte, in dieser Welle angesteckt. Mein Fieber erreichte am Wochenende 39,5°C, und anfangs dachte ich, es sei nur eine leichte Erkältung. Erst am Montag, als ich mich fast erholt hatte, kam ich auf die Idee, einen Antigentest zu machen. Und tatsächlich zeigte er zwei Striche. Insgesamt war es ein milder Verlauf - ich hatte einen Tag lang Fieber, einen weiteren Tag Halsschmerzen, die sich anfühlten, als würde ich Messer schlucken, und erholte mich dann allmählich. Man könnte sagen, ich habe COVID im Schnelldurchlauf durchgemacht.
 
-So this weekend marks a moment when everything seems to be improving. Most of the project requirements have been completed, giving me a brief respite. My COVID recovery serves as a wake-up call for my health. Pinch, post-neutering, has had its stitches removed and regained its lively nature. I've also started to resume my normal input and output frequency.
+Dieses Wochenende markiert also einen Moment, in dem sich alles zu bessern scheint. Die meisten Projektanforderungen wurden erfüllt, was mir eine kurze Verschnaufpause verschafft. Meine COVID-Genesung dient als Weckruf für meine Gesundheit. Pinch, nach seiner Kastration, hat seine Fäden entfernt bekommen und seine Lebendigkeit wiedererlangt. Ich habe auch begonnen, meine normale Frequenz von Input und Output wieder aufzunehmen.
 
-During the May Day holiday, I went to Chengdu to attend an event and met some friends. After a hurried trip, I went to Xi'an for a leisure tour and met a long-lost college roommate, finally fulfilling a years-old promise, though we were nearly stranded at the airport due to the return-to-work rush. There were many other interesting events as well.
+Während des Mai-Feiertags fuhr ich nach Chengdu, um an einer Veranstaltung teilzunehmen und einige Freunde zu treffen. Nach einer hastigen Reise begab ich mich nach Xi'an für einen Freizeitausflug und traf einen lang vermissten Mitbewohner aus dem College, wodurch ich endlich ein jahrelanges Versprechen einlöste, obwohl wir wegen des Rückreiseansturms fast am Flughafen gestrandet wären. Es gab noch viele andere interessante Ereignisse.
 
-## Old Friends and Past Emotions
+## Alte Freunde und vergangene Emotionen
 
-I have a roommate who, despite only being classmates for our freshman year (he later transferred majors), has stayed in touch with me to this day. As the number of people I can call friends dwindles, this connection becomes particularly precious. During college, we made a promise to meet in his hometown of Xining. Years have passed, I've moved through several cities, and he has settled in Xi'an for work. After years apart, I took the opportunity of the May Day holiday to visit Xi'an. It wasn't really a tourist trip, just drinking and chatting, just like old times.
+Ich habe einen Mitbewohner, der, obwohl wir nur im ersten Studienjahr Kommilitonen waren (er wechselte später den Studiengang), bis heute mit mir in Kontakt geblieben ist. Da die Zahl der Menschen, die ich Freunde nennen kann, schwindet, wird diese Verbindung besonders wertvoll. Während des Studiums versprachen wir uns, uns in seiner Heimatstadt Xining zu treffen. Jahre sind vergangen, ich bin durch mehrere Städte gezogen, und er hat sich in Xi'an niedergelassen, um zu arbeiten. Nach Jahren der Trennung nutzte ich die Gelegenheit des Mai-Feiertags, um Xi'an zu besuchen. Es war keine wirkliche Touristenreise, sondern einfach Trinken und Plaudern, wie in alten Zeiten.
 
-In my memory, he was unrestrained and cynical. Due to our frequent chats or phone calls, our long-awaited reunion still felt familiar. Beyond the mundane routine of work, he still persists in running, playing guitar, and reading. He still disdains and dissatisfies with worldly matters, yet lives along his own trajectory, with a newfound gentleness.
+In meiner Erinnerung war er ungezwungen und zynisch. Aufgrund unserer häufigen Chats oder Telefonate fühlte sich unser lang ersehntes Wiedersehen immer noch vertraut an. Jenseits der alltäglichen Arbeitsroutine verfolgt er weiterhin das Laufen, Gitarrespielen und Lesen. Er verachtet und missbilligt immer noch weltliche Angelegenheiten, lebt aber entlang seiner eigenen Bahn, mit einer neu gefundenen Sanftheit.
 
 ![meet_with_ledi](https://image.pseudoyu.com/images/meet_with_ledi.jpg)
 
-As it was my first visit to Xi'an, despite it being the May Day holiday, I still braved the crowds to briefly visit tourist attractions like the Big Wild Goose Pagoda. Back when I was still passionate about photography, I would always carry my camera and take many shots wherever I went. After the trip, I would edit and share the photos. But after several years of the pandemic, this enthusiasm has gradually faded. On trips in the past two years, even if I brought my camera on a whim, I often couldn't capture much. It seems that neither natural nor cultural landscapes can truly captivate me anymore. What remains are more often the casual group photos taken on the spur of the moment.
+Da es mein erster Besuch in Xi'an war, trotzte ich trotz des Mai-Feiertags den Menschenmassen, um kurz Sehenswürdigkeiten wie die Große Wildganspagode zu besuchen. Als ich noch leidenschaftlich fotografierte, trug ich immer meine Kamera bei mir und machte viele Aufnahmen, wo auch immer ich hinging. Nach der Reise würde ich die Fotos bearbeiten und teilen. Aber nach mehreren Jahren der Pandemie ist diese Begeisterung allmählich verblasst. Bei Reisen in den letzten zwei Jahren konnte ich, selbst wenn ich spontan meine Kamera mitnahm, oft nicht viel einfangen. Es scheint, dass weder Natur- noch Kulturlandschaften mich noch wirklich fesseln können. Was bleibt, sind häufiger die zufälligen Gruppenfotos, die im Moment aufgenommen wurden.
 
-## Rediscovered Desire to Share
+## Wiederentdeckter Wunsch zu teilen
 
 ![memories_in_t5](https://image.pseudoyu.com/images/memories_in_t5.png)
 
-My hard drive also contains numerous unorganized photo and video materials. Most of them have been rendered untimely by the passage of time, relegated to being fragments of memory scattered in some folder. I remember before my birthday in 2021, due to many events that had occurred, I shot some videos, intending to share and record those experiences as a video birthday summary. In the end, I never got around to organizing those materials, and later, I didn't even leave much in writing.
+Meine Festplatte enthält auch zahlreiche unorganisierte Foto- und Videomaterialien. Die meisten von ihnen sind durch den Lauf der Zeit unzeitgemäß geworden, zu Erinnerungsfragmenten degradiert, die in irgendeinem Ordner verstreut sind. Ich erinnere mich, dass ich vor meinem Geburtstag 2021 aufgrund vieler Ereignisse, die sich ereignet hatten, einige Videos aufnahm, mit der Absicht, diese Erfahrungen als Video-Geburtstagszusammenfassung zu teilen und aufzuzeichnen. Am Ende kam ich nie dazu, diese Materialien zu organisieren, und später hinterließ ich nicht einmal viel Schriftliches.
 
-It wasn't until 2022 that I started recording again. In the blink of an eye, a year has passed. Perhaps because it's a similar time of year, I've been having trouble sleeping lately, inevitably revisiting some traces of the past, or suddenly feeling wistful when a friend remarks, "It's been a whole year already." Recently, when I want to put pen to paper, I often worry about continuing to write about those somewhat depressing emotions. Although genuine, they feel powerless and leave me feeling exhausted.
+Erst 2022 begann ich wieder aufzuzeichnen. In einem Wimpernschlag ist ein Jahr vergangen. Vielleicht weil es eine ähnliche Jahreszeit ist, hatte ich in letzter Zeit Schlafprobleme, unvermeidlich einige Spuren der Vergangenheit wieder aufsuchend, oder plötzlich wehmütig werdend, wenn ein Freund bemerkt: "Es ist schon ein ganzes Jahr her." In letzter Zeit, wenn ich zur Feder greifen will, sorge ich mich oft darum, weiterhin über diese etwas deprimierenden Emotionen zu schreiben. Obwohl aufrichtig, fühlen sie sich kraftlos an und lassen mich erschöpft zurück.
 
-Upon careful reflection, I've made some changes this year, bringing me closer, more or less, to the person I want to become. As I wished, I've gained some freedom, both in work and daily life, bringing me closer to life itself. Although I still procrastinate at times, I've recorded many of my thoughts and insights, thinking more about self-reflection. I've learned some things I wanted to learn and explored and practiced more of my own ideas. I've also experienced some interesting things in the company of friends, not confining myself to my own world as I did last year.
+Bei genauer Überlegung habe ich dieses Jahr einige Veränderungen vorgenommen, die mich mehr oder weniger der Person näher bringen, die ich sein möchte. Wie ich es mir wünschte, habe ich etwas Freiheit gewonnen, sowohl in der Arbeit als auch im täglichen Leben, was mich dem Leben selbst näher bringt. Obwohl ich manchmal noch prokrastiniere, habe ich viele meiner Gedanken und Einsichten aufgezeichnet und mehr über Selbstreflexion nachgedacht. Ich habe einige Dinge gelernt, die ich lernen wollte, und mehr von meinen eigenen Ideen erkundet und praktiziert. Ich habe auch in Begleitung von Freunden einige interessante Dinge erlebt und mich nicht wie im letzten Jahr auf meine eigene Welt beschränkt.
 
-Everything seems to be slowly improving, and for things that can't be changed, I've resolved to move forward. This is how I console myself.
+Alles scheint sich langsam zu verbessern, und für Dinge, die nicht geändert werden können, habe ich mich entschlossen, vorwärts zu gehen. So tröste ich mich selbst.
 
-Fortunately, recent progress in both work and life has been quite good, with some positive signals. I've also gradually noticed the return of my desire to share and create. After a brief review, I realized there are many things I want to do and need to do. Many were set aside for various reasons, and now I'm starting to pick them up one by one.
+Glücklicherweise waren die jüngsten Fortschritte sowohl in der Arbeit als auch im Leben recht gut, mit einigen positiven Signalen. Ich habe auch allmählich die Rückkehr meines Wunsches zu teilen und zu schaffen bemerkt. Nach einer kurzen Überprüfung wurde mir klar, dass es viele Dinge gibt, die ich tun möchte und tun muss. Viele wurden aus verschiedenen Gründen beiseite gelegt, und jetzt beginne ich, sie nach und nach aufzugreifen.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### GitHub Copilot Chat
 
 ![github_copilot_chat_use](https://image.pseudoyu.com/images/github_copilot_chat_use.png)
 
-Recently, I've become highly dependent on AI-assisted programming, mostly using ChatGPT and the GitHub Copilot plugin. I've just been approved for the Copilot Chat internal beta, so I plan to switch and try it out.
+In letzter Zeit bin ich sehr abhängig von KI-unterstütztem Programmieren geworden, hauptsächlich mit ChatGPT und dem GitHub Copilot-Plugin. Ich wurde gerade für die interne Beta von Copilot Chat zugelassen, daher plane ich, umzusteigen und es auszuprobieren.
 
-It seems there might be some issues with the ChatGPT Plus billing. After it expires, I'll need to find another solution. I might try renewing it using US gift cards, which is quite a hassle.
+Es scheint, dass es einige Probleme mit der ChatGPT Plus-Abrechnung geben könnte. Nach Ablauf werde ich eine andere Lösung finden müssen. Ich könnte versuchen, es mit US-Geschenkkarten zu erneuern, was ziemlich umständlich ist.
 
 ### VS Code
 
 ![eva_vscode_theme](https://image.pseudoyu.com/images/eva_vscode_theme.png)
 
-Also, because I've been using VS Code (still holding out despite being looked down upon by the Jetbrains faction in the team), I discovered this [EVA theme](https://marketplace.visualstudio.com/items?itemName=RuDevIO.evangelion-theme) through a tweet by [DIYGod](https://twitter.com/DIYgod). It gives a strange coding power boost, making it feel like there are fewer bugs. Indeed, aesthetics are the primary productivity factor.
+Außerdem habe ich, da ich VS Code benutze (ich halte immer noch durch, obwohl ich von der Jetbrains-Fraktion im Team belächelt werde), dieses [EVA-Theme](https://marketplace.visualstudio.com/items?itemName=RuDevIO.evangelion-theme) durch einen Tweet von [DIYGod](https://twitter.com/DIYgod) entdeckt. Es gibt einen seltsamen Coding-Power-Boost und lässt es sich anfühlen, als gäbe es weniger Bugs. In der Tat ist Ästhetik der primäre Produktivitätsfaktor.
 
-For program launchers, I've been mixing the use of Alfred and Raycast. I use Alfred because I'm used to it and bought the Mega Supporter License, but I'm also envious of Raycast's plugin ecosystem.
+Für Programmstarter habe ich die Verwendung von Alfred und Raycast gemischt. Ich benutze Alfred, weil ich daran gewöhnt bin und die Mega Supporter Lizenz gekauft habe, aber ich bin auch neidisch auf das Plugin-Ökosystem von Raycast.
 
 ![raycast_vscode](https://image.pseudoyu.com/images/raycast_vscode.png)
 
 ![raycast_vscode_recent_project](https://image.pseudoyu.com/images/raycast_vscode_recent_project.png)
 
-Recently, I discovered that Raycast can configure many plugin functions to be called through global shortcuts. As I often need to open different VS Code projects, I configured the "Open with VS Code" and "Recent Projects" functions to `Option` + `.` and `Option` + `,` respectively, and I've become highly dependent on them.
+Kürzlich habe ich entdeckt, dass Raycast viele Plugin-Funktionen so konfigurieren kann, dass sie durch globale Shortcuts aufgerufen werden können. Da ich oft verschiedene VS Code-Projekte öffnen muss, habe ich die Funktionen "Mit VS Code öffnen" und "Kürzliche Projekte" auf `Option` + `.` bzw. `Option` + `,` konfiguriert, und ich bin sehr abhängig davon geworden.
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter now.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen und auflisten. Es fühlt sich jetzt mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
 - [Application-Specific Blockchains: The Past, Present, and Future](https://medium.com/1kxnetwork/application-specific-blockchains-9a36511c832)
 - [Building an AI-powered ChatBot using Vercel, OpenAI, and Postgres - Neon](https://neon.tech/blog/building-an-ai-powered-chatbot-using-vercel-openai-and-postgres)
@@ -87,7 +87,7 @@ Although most interesting inputs are automatically synchronized in the "Yu's Lif
 
 #### Videos
 
-Here are some interesting videos I've watched:
+Hier sind einige interessante Videos, die ich gesehen habe:
 
 - [We Made an AI Paimon That Can Talk, Free for Everyone to Play With!](https://www.youtube.com/watch?v=8gd_WtBPxaw)
 - [Next.js 13 Crash Course | App Directory, React Server Components & More](https://www.youtube.com/watch?v=Y6KDk5iyrYE)
@@ -101,14 +101,10 @@ Here are some interesting videos I've watched:
 
 #### Podcasts
 
-Here are some interesting podcasts I've listened to:
+Hier sind einige interessante Podcasts, die ich gehört habe:
 
 - [No.28 Talking with DIYGOD, the creator of xlog.app, about blockchain and blogging platforms, frontend learning, and life insights](https://www.listennotes.com/e/7035b7b7f57f4413b016526bd4a72b2f)
 
 #### Anime
 
-- **Demon Slayer: Swordsmith Village Arc**, it started to get exciting from the third episode, currently following
-- **My Love Story with Yamada-kun at Lv999**, it's indeed a tearjerker, currently following
-- **The Tatami Galaxy**, I had heard of it for a long time but watched it intermittently. In terms of presentation and style, it gives a sense of déjà vu reminiscent of the Monogatari series. An unsuccessful protagonist, a cyclical setting, an interpretation of unknown possibilities - even now it remains novel. I often think that I'm also trapped in a 4.5-tatami room, not knowing when I'll have the courage to break free.
-- **Uncle from Another World**, I forgot which month's anime it was, it felt like it had been on hiatus for a long time. After nearly half a year, I finally finished it these days. It's an entertaining daily life anime with an interesting setting, but the plot doesn't have many novel parts. I mostly watched it while doing other things.
-- **Chainsaw Man**, marking it as watched. It's a classic revisit, with high-quality animation.
+- **Demon Slayer: Swordsmith Village Arc**, es wurde ab der dritten Episode spannend, derzeit

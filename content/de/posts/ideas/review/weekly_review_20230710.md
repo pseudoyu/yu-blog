@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #43 - In the Mood for Love"
+title: "Wochenrückblick #43 - In der Stimmung für die Liebe"
 date: 2023-07-10T02:22:24+08:00
 draft: false
 tags: ["review", "life", "romance", "love", "run", "time", "boyi"]
@@ -10,109 +10,109 @@ authors:
 
 {{<audio src="audios/not_spring_love_or_cherry_blossoms.mp3" caption="'Not Spring, Love, or Cherry Blossoms' - HIGH4&IU" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from June 22 to July 10, 2023.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 22. Juni bis zum 10. Juli 2023.
 
-The past few weeks have been both long and fleeting, filled with numerous events and thoughts I've been eager to express. Yet, something in the depths of my heart has repeatedly held me back from putting pen to paper. It's as if everything isn't quite ready, and I find myself at a loss for words, wanting to tell a good story but unsure where to begin.
+Die vergangenen Wochen waren sowohl lang als auch flüchtig, gefüllt mit zahlreichen Ereignissen und Gedanken, die ich unbedingt ausdrücken wollte. Doch etwas in den Tiefen meines Herzens hat mich immer wieder davon abgehalten, zur Feder zu greifen. Es ist, als wäre alles noch nicht ganz bereit, und ich finde mich selbst ratlos wieder, möchte eine gute Geschichte erzählen, weiß aber nicht, wo ich beginnen soll.
 
-Tonight, in the depths of night, Spotify's Discover Weekly recommended HIGH4&IU's "[Not Spring, Love, or Cherry Blossoms](https://www.youtube.com/watch?v=-4ylBOzDEnU)". My emotions were gently touched, much like when I heard that line from Mayday's "Tenderness" - "*Walking in the wind, today's sunlight suddenly feels so gentle*".
+Heute Nacht, in den Tiefen der Nacht, empfahl mir Spotifys Discover Weekly HIGH4&IUs "[Not Spring, Love, or Cherry Blossoms](https://www.youtube.com/watch?v=-4ylBOzDEnU)". Meine Gefühle wurden sanft berührt, ähnlich wie als ich jene Zeile aus Maydays "Zärtlichkeit" hörte - "*Im Wind gehend, fühlt sich das heutige Sonnenlicht plötzlich so sanft an*".
 
-The season may not be fitting, and the lyrics may not be particularly relevant, but there are always a few songs that can deeply connect with one's emotions at certain moments. Even just the prelude can make my heart dance in rhythm. So I hastily opened the blank blog document I had prepared long ago, wrote down this title, and wanted to quietly write in this place that has carried so many of my experiences and emotions:
+Die Jahreszeit mag nicht passen, und der Liedtext mag nicht besonders relevant sein, aber es gibt immer ein paar Lieder, die in bestimmten Momenten tief mit den eigenen Gefühlen in Verbindung treten können. Schon das Vorspiel allein kann mein Herz im Rhythmus tanzen lassen. Also öffnete ich hastig das leere Blog-Dokument, das ich schon lange vorbereitet hatte, schrieb diesen Titel nieder und wollte an diesem Ort, der so viele meiner Erfahrungen und Emotionen getragen hat, leise schreiben:
 
-> "I'm in love."
+> "Ich bin verliebt."
 
-## In the Mood for Love
+## In der Stimmung für die Liebe
 
-As I mentioned in my previous post, "[Weekly Review #42 - Views on Relationships, Life State, and Self](https://www.pseudoyu.com/en/2023/06/21/weekly_review_20230621/)", I hardly feel fully prepared for a relationship. Many emotions may have eased but haven't yet settled, many aspects of my views on relationships, though recognized, still haven't been properly sorted out, and there are still many parts of myself that need to be understood and overcome.
+Wie ich in meinem vorherigen Beitrag "[Wochenrückblick #42 - Ansichten über Beziehungen, Lebenszustand und Selbst](https://www.pseudoyu.com/en/2023/06/21/weekly_review_20230621/)" erwähnte, fühle ich mich kaum vollständig bereit für eine Beziehung. Viele Emotionen mögen sich gelindert haben, aber haben sich noch nicht gesetzt, viele Aspekte meiner Ansichten über Beziehungen, obwohl erkannt, sind noch nicht richtig sortiert, und es gibt noch viele Teile von mir selbst, die verstanden und überwunden werden müssen.
 
-However, sometimes life is like the intersection and convergence of world lines in "Steins;Gate" - complex yet traceable.
+Doch manchmal ist das Leben wie die Kreuzung und Konvergenz von Weltlinien in "Steins;Gate" - komplex, aber nachvollziehbar.
 
-Mid-month, I went to Beijing to attend the Gopher China 2023 conference. As it was a stolen moment of leisure amidst busyness, I didn't arrange any special itinerary. I just thought that since I was back in Beijing, I'd stay a few extra days and chose a hotel near boyi's home. After-work life became much more fulfilling - we would go to the Japanese restaurant at the entrance for dinner and chat, walk several kilometers to listen to a concert, and occasionally go to a quiet bar for a drink and to draw.
+Mitte des Monats fuhr ich nach Peking, um an der Gopher China 2023 Konferenz teilzunehmen. Da es ein gestohlener Moment der Muße inmitten der Geschäftigkeit war, plante ich keinen besonderen Reiseplan. Ich dachte nur, dass ich, da ich schon in Peking war, ein paar Tage länger bleiben und ein Hotel in der Nähe von boyis Zuhause wählen würde. Das Leben nach der Arbeit wurde viel erfüllter - wir gingen zum japanischen Restaurant am Eingang zum Abendessen und zum Plaudern, liefen mehrere Kilometer, um einem Konzert zu lauschen, und gingen gelegentlich in eine ruhige Bar zum Trinken und Zeichnen.
 
-Perhaps because I had grown accustomed to and even longed for these few days of daily life, when the departure time was approaching and boyi said she suddenly had a work arrangement to go to Shanghai on a business trip, I almost without hesitation (even as if grasping at a lifeline) said:
+Vielleicht, weil ich mich an diese wenigen Tage des täglichen Lebens gewöhnt hatte und sie sogar herbeisehnte, sagte ich fast ohne zu zögern (sogar als ob ich nach einem Rettungsanker griffe), als die Abreisezeit näher rückte und boyi sagte, sie hätte plötzlich einen Arbeitsauftrag, nach Shanghai zu reisen:
 
-> "Then I'll go with you."
+> "Dann komme ich mit dir."
 
-I'm hardly one to believe in fatalism. After experiencing some things, it's hard to have faith in predestined fate. Perhaps without this choice, this sentence, the world line would have continued along its original trajectory. Perhaps it would converge again at some point in the future, perhaps not. Fortunately, it was so.
+Ich bin kaum jemand, der an Schicksalsgläubigkeit glaubt. Nach einigen Erfahrungen ist es schwer, an ein vorherbestimmtes Schicksal zu glauben. Vielleicht hätte sich ohne diese Wahl, diesen Satz, die Weltlinie entlang ihrer ursprünglichen Bahn fortgesetzt. Vielleicht wäre sie irgendwann in der Zukunft wieder konvergiert, vielleicht auch nicht. Glücklicherweise war es so.
 
-Although the trip to Shanghai was only two short days, changes were quietly taking place, and emotions were growing and spreading wildly in my heart. We walked and stopped on the Bund, guessing the words on the buildings across the river or on the cruise ships; we laughed in the sudden rain despite having umbrellas, like two people who never grew up.
+Obwohl die Reise nach Shanghai nur zwei kurze Tage dauerte, fanden leise Veränderungen statt, und Gefühle wuchsen und breiteten sich wild in meinem Herzen aus. Wir gingen und hielten am Bund, errieten die Worte auf den Gebäuden auf der anderen Flussseite oder auf den Kreuzfahrtschiffen; wir lachten im plötzlichen Regen trotz Regenschirmen, wie zwei Menschen, die nie erwachsen geworden sind.
 
-When we parted ways at Hongqiao, we both understood that we could no longer maintain that tacit understanding we had before. However, I became afraid, retreated, and evaded.
+Als wir uns am Hongqiao trennten, verstanden wir beide, dass wir jenes stillschweigende Einverständnis, das wir zuvor hatten, nicht mehr aufrechterhalten konnten. Jedoch wurde ich ängstlich, zog mich zurück und wich aus.
 
-> "Afraid of the emotions sprouting within me, fearing that my flawed self couldn't bear such a complex relationship, and also fearing that I might be insincere, indulging in momentary happiness."
+> "Ängstlich vor den in mir aufkeimenden Gefühlen, fürchtend, dass mein fehlerhaftes Selbst eine so komplexe Beziehung nicht tragen könnte, und auch fürchtend, dass ich vielleicht unaufrichtig sein könnte, mich in momentanem Glück suhlend."
 
-This is probably the most accurate description of my state at that time.
+Dies ist wahrscheinlich die genaueste Beschreibung meines Zustands zu jener Zeit.
 
 ![beautiful_cloud_in_beijing_boyi](https://image.pseudoyu.com/images/beautiful_cloud_in_beijing_boyi.png)
 
-The first week after returning, both sides cooled down, struggling and in pain. I talked with family and close friends until dawn, trying to shift my attention and no longer be moved by the existence far away, only to find it was in vain and self-deceptive. Every day seemed to be on the original life trajectory, but my heart was already in turmoil. I would be happy all night because boyi posted a beautiful cloud, and I would be sad all day because of a slightly polite tone.
+In der ersten Woche nach meiner Rückkehr kühlten beide Seiten ab, kämpften und litten. Ich sprach mit Familie und engen Freunden bis zum Morgengrauen, versuchte, meine Aufmerksamkeit zu verlagern und nicht mehr von der fernen Existenz bewegt zu werden, nur um festzustellen, dass es vergeblich und selbstbetrügerisch war. Jeden Tag schien ich auf der ursprünglichen Lebensbahn zu sein, aber mein Herz war bereits in Aufruhr. Ich war die ganze Nacht glücklich, weil boyi eine schöne Wolke gepostet hatte, und ich war den ganzen Tag traurig wegen eines leicht höflichen Tonfalls.
 
-So I secretly booked a ticket to Beijing, appeared at boyi's doorstep with flowers on the tail end of June, nervous, timid, yet expectant. Because I was too nervous to speak, I asked for whiskey to boost my courage (unknowingly drank almost half a bottle), and for fear that my half-drunk self hadn't properly confirmed my feelings, I sent that message "boyi, I like you" on WeChat right in front of her.
+Also buchte ich heimlich ein Ticket nach Peking, erschien Ende Juni mit Blumen an boyis Türschwelle, nervös, schüchtern und doch voller Erwartung. Weil ich zu nervös war, um zu sprechen, bat ich um Whiskey, um meinen Mut zu stärken (trank unwissentlich fast eine halbe Flasche), und aus Angst, dass mein halb betrunkenes Selbst meine Gefühle nicht richtig bestätigt hatte, schickte ich jene Nachricht "boyi, ich mag dich" auf WeChat direkt vor ihr.
 
-And then, I fell in love.
+Und dann verliebte ich mich.
 
-## Except for Spring, Love, and Cherry Blossoms
+## Außer Frühling, Liebe und Kirschblüten
 
-Love has once again become something without much reality for me. Amidst the happiness, I seem to have just begun to slowly think, what is it between us?
+Liebe ist wieder einmal zu etwas geworden, das für mich nicht viel Realität hat. Inmitten des Glücks scheine ich gerade erst langsam zu überlegen, was es zwischen uns ist.
 
-The emotions of liking need not be said much, the novelty and curiosity, though beautiful, are often hard to last long, so what's left?
+Über die Gefühle des Mögens muss nicht viel gesagt werden, die Neuheit und Neugier, obwohl schön, halten oft nicht lange an, also was bleibt?
 
-A montage video "[Nostalgic Montage | Do We, Drifting in the City, Gaze at the Same Sky?](https://www.bilibili.com/video/BV1Va4y1w7rh/)" reminded me of a line said by Rika in "Tokyo Love Story":
+Ein Montage-Video "[Nostalgische Montage | Betrachten wir, die wir in der Stadt treiben, den gleichen Himmel?](https://www.bilibili.com/video/BV1Va4y1w7rh/)" erinnerte mich an eine Zeile, die Rika in "Tokyo Love Story" sagte:
 
-> "There must be many people like me in the world, lonely and solitary. But we all gaze at the same sky."
+> "Es muss viele Menschen wie mich auf der Welt geben, einsam und allein. Aber wir alle betrachten den gleichen Himmel."
 
-I think this is probably my current thought.
+Ich denke, das ist wahrscheinlich mein aktueller Gedanke.
 
 ![weibo_about_boyi_when_we_meet_new](https://image.pseudoyu.com/images/weibo_about_boyi_when_we_meet_new.png)
 
-I recall a Weibo post I made when we had just met but had to say goodbye to her leaving. Although I'm not particularly good at expressing my emotions face-to-face with others, I clearly remember turning my head to hide my tears when touched by boyi's words on that rainy night, and these few sentences have stayed with me for many years. Perhaps at that moment, I felt a resonance - similarly drifting about, similarly pretending to be strong and indifferent, yet touched and at a loss by things so small they couldn't be smaller.
+Ich erinnere mich an einen Weibo-Beitrag, den ich machte, als wir uns gerade getroffen hatten, aber mich von ihr verabschieden musste, als sie ging. Obwohl ich nicht besonders gut darin bin, meine Gefühle von Angesicht zu Angesicht anderen gegenüber auszudrücken, erinnere ich mich deutlich daran, wie ich in jener regnerischen Nacht den Kopf drehte, um meine Tränen zu verbergen, als ich von boyis Worten berührt wurde, und diese wenigen Sätze haben mich viele Jahre lang begleitet. Vielleicht fühlte ich in jenem Moment eine Resonanz - ähnlich umhertreibend, ähnlich stark und gleichgültig tuend, doch berührt und ratlos von Dingen, die so klein waren, dass sie nicht kleiner sein konnten.
 
 ![tokyo_love_story_stars](https://image.pseudoyu.com/images/tokyo_love_story_stars.png)
 
-Everyone is an independent individual. I can hardly become, nor do I wish to make another person my star/spiritual support. **But perhaps, we can gaze at the same sky together, quietly holding each other's hands when our eyes are dazzled by the bustling crowds and spreading street lights.**
+Jeder ist ein unabhängiges Individuum. Ich kann kaum werden, noch wünsche ich mir, eine andere Person zu meinem Stern/meiner geistigen Stütze zu machen. **Aber vielleicht können wir gemeinsam den gleichen Himmel betrachten, leise die Hände des anderen haltend, wenn unsere Augen von den geschäftigen Menschenmengen und sich ausbreitenden Straßenlichtern geblendet werden.**
 
-## Personal Life Snippets
+## Persönliche Lebensschnipsel
 
 ![yu_running_records](https://image.pseudoyu.com/images/yu_running_records.png)
 
-The biggest change in my life these weeks is that I've started running every day. I'm using [yihong0618](https://twitter.com/yihong0618)'s "[GitHub - running_page](https://github.com/yihong0618/running_page)" and continuing to form the habit. I've also been getting up around 7 every day, and I really feel like the world is different.
+Die größte Veränderung in meinem Leben in diesen Wochen ist, dass ich angefangen habe, jeden Tag zu laufen. Ich benutze [yihong0618](https://twitter.com/yihong0618)s "[GitHub - running_page](https://github.com/yihong0618/running_page)" und arbeite weiter daran, die Gewohnheit zu formen. Ich stehe auch jeden Tag um etwa 7 Uhr auf, und ich fühle wirklich, dass die Welt anders ist.
 
-There are quite a few other things I want to talk about, but I'll leave that for later.
+Es gibt noch einige andere Dinge, über die ich sprechen möchte, aber das werde ich für später aufheben.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter this way.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen und auflisten. Es fühlt sich so mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- **Lu Xun's Miscellaneous Essays**, a book sent to me by reader & friend Junjie. I slowly peruse it after my morning run.
+- **Lu Xuns vermischte Essays**, ein Buch, das mir von Leser & Freund Junjie geschickt wurde. Ich lese es langsam nach meinem morgendlichen Lauf.
 
-#### Articles
+#### Artikel
 
-[The list of articles remains unchanged in the translation]
+[Die Liste der Artikel bleibt in der Übersetzung unverändert]
 
 #### Videos
 
-Here's a record of some interesting videos I've watched:
+Hier ist eine Aufzeichnung einiger interessanter Videos, die ich gesehen habe:
 
-[The list of videos remains unchanged in the translation]
+[Die Liste der Videos bleibt in der Übersetzung unverändert]
 
 #### Podcasts
 
-- [Episode 3 | English Learning Experience, Thai Meditation Experience - Beyond Code](https://www.listennotes.com/e/40b7406a881442e8bd6c1023f516d57c)
+- [Episode 3 | Englisch-Lernerfahrung, Thai-Meditationserfahrung - Beyond Code](https://www.listennotes.com/e/40b7406a881442e8bd6c1023f516d57c)
 
-#### Music
+#### Musik
 
-[The list of music remains unchanged in the translation]
+[Die Liste der Musik bleibt in der Übersetzung unverändert]
 
-#### TV Series
+#### TV-Serien
 
-- **Black Mirror Season 6**, disappointing. I had quite a few expectations before watching, the first episode felt a bit flat but still creative, didn't expect it to be the peak. It feels strangely commercial. In comparison, many plots from the first and second seasons still don't feel outdated or even forward-looking even after many years.
+- **Black Mirror Staffel 6**, enttäuschend. Ich hatte vor dem Anschauen ziemlich hohe Erwartungen, die erste Folge fühlte sich etwas flach an, war aber immer noch kreativ, hätte nicht erwartet, dass es der Höhepunkt sein würde. Es fühlt sich seltsam kommerziell an. Im Vergleich dazu fühlen sich viele Handlungen aus der ersten und zweiten Staffel selbst nach vielen Jahren noch nicht veraltet oder sogar zukunftsweisend an.
 
-#### Movies
+#### Filme
 
-- **A Man**, I actually wanted to write a review for this movie, but it seems I haven't watched it deeply enough. I'll rewatch it.
-- **Lost in the Stars**, it feels like the first movie I've watched in a theater in nearly a year. It's a bit hard to describe, the logic and rhythm feel a bit disconnected.
+- **A Man**, ich wollte eigentlich eine Rezension für diesen Film schreiben, aber es scheint, als hätte ich ihn nicht tief genug geschaut. Ich werde ihn noch einmal ansehen.
+- **Lost in the Stars**, es fühlt sich an wie der erste Film, den ich seit fast einem Jahr im Kino gesehen habe. Es ist etwas schwer zu beschreiben, die Logik und der Rhythmus fühlen sich etwas unzusammenhängend an.

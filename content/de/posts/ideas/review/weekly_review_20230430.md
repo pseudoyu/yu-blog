@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #38 - Foundry Contract Testing, Logseq Task Management, and Surge Ponte Remote Development"
+title: "Wochenrückblick #38 - Foundry Contract-Tests, Logseq Aufgabenverwaltung und Surge Ponte Remote-Entwicklung"
 date: 2023-04-30T00:10:03+08:00
 draft: false
 tags: ["review", "life", "work", "foundry", "solidity", "web3", "pkm", "surge", "surge ponte", "logseq"]
@@ -10,55 +10,55 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `2023-04-19` to `2023-04-30`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `2023-04-19` bis zum `2023-04-30`.
 
-In my previous weekly review, I mentioned a journey across multiple cities. After returning to Hangzhou, I gradually resumed my original life rhythm. I had much more time alone, with plenty of input, reflection, and interesting things to do. However, it seems that I had less time to organize and dialogue with myself, often only realizing the passage of time several days later. I consider myself someone who doesn't rely much on socializing and has strong adaptability, but upon reflection, I might have entrusted my life state too much to the virtual world, feeling an almost disconnected discomfort from reality.
+In meinem letzten Wochenrückblick erwähnte ich eine Reise durch mehrere Städte. Nach meiner Rückkehr nach Hangzhou nahm ich allmählich meinen ursprünglichen Lebensrhythmus wieder auf. Ich hatte viel mehr Zeit allein, mit reichlich Input, Reflexion und interessanten Dingen zu tun. Allerdings schien es, als hätte ich weniger Zeit, mich zu organisieren und mit mir selbst zu dialogisieren, oft bemerkte ich den Zeitablauf erst mehrere Tage später. Ich betrachte mich als jemanden, der nicht sehr auf soziale Kontakte angewiesen ist und eine starke Anpassungsfähigkeit besitzt, aber bei näherer Betrachtung könnte ich meinen Lebenszustand zu sehr der virtuellen Welt anvertraut haben und fühlte ein fast abgekoppeltes Unbehagen von der Realität.
 
-Now I'm on a late-night flight, having taken a short nap, my drowsiness gradually fading. So I decided to take out my laptop and write something. Perhaps due to the lack of internet and external distractions, my thoughts seem clearer.
+Jetzt bin ich in einem späten Nachtflug, habe ein kurzes Nickerchen gemacht und meine Schläfrigkeit verschwindet allmählich. Also beschloss ich, meinen Laptop herauszuholen und etwas zu schreiben. Vielleicht aufgrund des fehlenden Internets und äußerer Ablenkungen scheinen meine Gedanken klarer zu sein.
 
-## Work Atmosphere and Freedom
+## Arbeitsatmosphäre und Freiheit
 
-It's been over a month since I joined the new team. Perhaps because I was constantly on the move for the first two to three weeks, I often didn't have much sense of reality. Now I'm gradually adapting to the rhythm and getting on track. The atmosphere in my group is very good; even when working remotely, I don't feel a sense of alienation. A meeting often goes from work matters to what to eat for takeout and then to what Vlog camera to buy (Sony is the way to go). Even I, usually socially anxious, have gradually become more talkative in the group chat.
+Es ist über einen Monat her, seit ich dem neuen Team beigetreten bin. Vielleicht weil ich in den ersten zwei bis drei Wochen ständig unterwegs war, hatte ich oft nicht viel Realitätssinn. Jetzt passe ich mich allmählich dem Rhythmus an und komme in die Spur. Die Atmosphäre in meiner Gruppe ist sehr gut; selbst bei der Fernarbeit fühle ich keine Entfremdung. Ein Meeting geht oft von Arbeitsangelegenheiten zu der Frage über, was man zum Mitnehmen essen soll, und dann zu welche Vlog-Kamera man kaufen sollte (Sony ist der Weg). Sogar ich, normalerweise sozial ängstlich, bin allmählich gesprächiger im Gruppenchat geworden.
 
-Interestingly, due to intensive participation in the Shenzhen team building, Hong Kong Web3 Festival, and a wave of team building in Hangzhou, I've already met nearly 20 colleagues from the company, which is quite remarkable for a fully remote team. I was also lucky to catch the online annual meeting, meeting many interesting colleagues who only existed in Slack dialog boxes before (all kinds of talents). A performance could uncover a rapper, and even playing Tetris could make one feel the differences between people.
+Interessanterweise habe ich aufgrund der intensiven Teilnahme am Shenzhen Team-Building, dem Hong Kong Web3 Festival und einer Welle von Team-Building in Hangzhou bereits fast 20 Kollegen aus dem Unternehmen getroffen, was für ein vollständig remote arbeitendes Team recht bemerkenswert ist. Ich hatte auch das Glück, am Online-Jahrestreffen teilzunehmen und viele interessante Kollegen kennenzulernen, die zuvor nur in Slack-Dialogfeldern existierten (alle Arten von Talenten). Eine Performance konnte einen Rapper enthüllen, und selbst beim Tetris-Spielen konnte man die Unterschiede zwischen den Menschen spüren.
 
-After some communication, I made some adjustments to my work content. I can continue to do some smart contract development and chain-related research and exploration simultaneously, and also more deeply participate in the products I like (see who's not using [xLog](https://xlog.app/) and [xSync](https://xsync.app/) yet, specifically you can look at this article "Weekly Review #25 - Personal Information Output and Synchronization System Based on Crossbell"). Although it might require more balance in terms of workload and time, I'm still a bit happy to have this degree of freedom of choice.
+Nach einiger Kommunikation nahm ich einige Anpassungen an meinem Arbeitsinhalt vor. Ich kann weiterhin einige Smart-Contract-Entwicklungen und kettenbezogene Forschungen und Erkundungen gleichzeitig durchführen und auch tiefer an den Produkten teilnehmen, die ich mag (schauen Sie, wer [xLog](https://xlog.app/) und [xSync](https://xsync.app/) noch nicht benutzt, speziell können Sie sich diesen Artikel ansehen "Wochenrückblick #25 - Persönliches Informationsausgabe- und Synchronisationssystem basierend auf Crossbell"). Obwohl es möglicherweise mehr Balance in Bezug auf Arbeitsbelastung und Zeit erfordert, bin ich dennoch ein wenig glücklich, diesen Grad an Wahlfreiheit zu haben.
 
-## Foundry and Contract Testing
+## Foundry und Contract-Tests
 
-As I started to understand the projects of another group I joined for work, I quite obviously felt that although I had done some chain development and written contracts for half a year before, there was still quite a gap in complexity and development practices. I plan to supplement this area well, so this week I looked at a lot of contracts and research documents, planning to switch from Hardhat to Foundry.
+Als ich begann, die Projekte einer anderen Gruppe zu verstehen, der ich für die Arbeit beigetreten bin, spürte ich ziemlich deutlich, dass es trotz meiner halbjährigen Erfahrung in der Kettenentwicklung und dem Schreiben von Verträgen noch eine erhebliche Lücke in Komplexität und Entwicklungspraktiken gab. Ich plane, diesen Bereich gut zu ergänzen, also habe ich diese Woche viele Verträge und Forschungsdokumente angesehen und plane, von Hardhat zu Foundry zu wechseln.
 
-Actually, [Noy](https://twitter.com/Noy_eth) and some other friends had already frantically recommended the Foundry framework to me before, but because the previous project didn't have such high requirements for contract unit testing, and I had relied on writing many tool scripts in js, I had been using Hardhat all along. It wasn't until I really ran some projects and wrote some demo unit tests this time that I felt its huge advantages and instantly defected. The almost dusty Solidity contract development series is finally going to welcome a new update (~~I'm writing it, look at the picture if you don't believe me~~
+Tatsächlich hatten [Noy](https://twitter.com/Noy_eth) und einige andere Freunde mir schon vorher das Foundry-Framework frenetisch empfohlen, aber weil das vorherige Projekt keine so hohen Anforderungen an Contract-Unit-Tests hatte und ich mich darauf verlassen hatte, viele Tool-Skripte in js zu schreiben, hatte ich die ganze Zeit Hardhat benutzt. Erst als ich dieses Mal wirklich einige Projekte ausführte und einige Demo-Unit-Tests schrieb, spürte ich seine enormen Vorteile und wechselte sofort die Seiten. Die fast verstaubte Solidity-Vertragsentwicklungsserie wird endlich ein neues Update begrüßen (~~Ich schreibe es, schauen Sie auf das Bild, wenn Sie es nicht glauben~~
 
 ![foundry_framework_outline](https://image.pseudoyu.com/images/foundry_framework_outline.png)
 
-Actually, there are still very few enterprise-level practices for contracts at present. Also, because some of the contracts I will be doing later are open source, I plan to gradually record some experiences of pitfalls and best practices (the advantage of being full-time open source).
+Tatsächlich gibt es derzeit noch sehr wenige Unternehmenspraktiken für Verträge. Auch weil einige der Verträge, die ich später machen werde, Open Source sind, plane ich, allmählich einige Erfahrungen mit Fallstricken und Best Practices aufzuzeichnen (der Vorteil, vollzeitig Open Source zu sein).
 
-## Logseq and Task Management
+## Logseq und Aufgabenverwaltung
 
-As my personal arrangements and work tasks have become more numerous and complex, I have reactivated Logseq as my personal task management tool. I had actually been using Notion as my personal kanban board before, but always felt that the mental burden was too heavy when using it. My severe obsessive-compulsive disorder also constantly made me optimize those task categories and description information, which actually gave me a lot of pressure. I had also used more conventional applications like TickTick and Todoist, but similarly, I still needed to sort out various tasks and tags every day, and it wasn't very convenient to review.
+Da meine persönlichen Arrangements und Arbeitsaufgaben zahlreicher und komplexer geworden sind, habe ich Logseq als mein persönliches Aufgabenverwaltungstool reaktiviert. Ich hatte tatsächlich vorher Notion als mein persönliches Kanban-Board benutzt, fühlte aber immer, dass die mentale Belastung bei der Nutzung zu hoch war. Meine schwere Zwangsstörung ließ mich auch ständig diese Aufgabenkategorien und Beschreibungsinformationen optimieren, was mir tatsächlich viel Druck bereitete. Ich hatte auch konventionellere Anwendungen wie TickTick und Todoist benutzt, aber ähnlich musste ich immer noch täglich verschiedene Aufgaben und Tags sortieren, und es war nicht sehr bequem zu überprüfen.
 
-I later discovered the note-taking software Logseq. At first, I actually just treated it as a markdown note-taking software with blocks as the granularity, and also wanted to try out the concept of bidirectional links that always seemed to be mentioned. I got quite used to it, so I gradually migrated my Knowledge Base from Notion over. Later I also tinkered with using SimpRead to synchronize my web page annotations and such, but after a while, I still felt it was a bit troublesome so I abandoned it.
+Später entdeckte ich die Notiz-Software Logseq. Anfangs behandelte ich sie tatsächlich nur als eine Markdown-Notiz-Software mit Blöcken als Granularität und wollte auch das Konzept der bidirektionalen Links ausprobieren, die immer erwähnt zu werden schienen. Ich gewöhnte mich ziemlich daran, also migrierte ich allmählich meine Wissensdatenbank von Notion. Später bastelte ich auch daran, SimpRead zu verwenden, um meine Webannotationen und dergleichen zu synchronisieren, aber nach einer Weile fand ich es immer noch etwas umständlich, also gab ich es auf.
 
-Until I discovered this video by [Randy](https://twitter.com/randyloop), "How I Use Logseq to Manage My Life and Notes", he mentioned using Logseq's Daily Journal to make various notes and TODO management, so you don't need to form a plan first and then present it like with software such as Notion.
+Bis ich dieses Video von [Randy](https://twitter.com/randyloop) entdeckte, "How I Use Logseq to Manage My Life and Notes", erwähnte er die Verwendung von Logseqs Daily Journal, um verschiedene Notizen und TODO-Management zu machen, so dass man nicht erst einen Plan erstellen und dann präsentieren muss wie bei Software wie Notion.
 
 ![logseq_daily_journal](https://image.pseudoyu.com/images/logseq_daily_journal.png)
 
-Therefore, when you suddenly think of something you want to do, you don't need to create a new task separately in the kanban board or task management software, you just need to add an item in your Daily Journal like writing a note and use simple syntax like TODO, LATER to do simple task management.
+Wenn man also plötzlich an etwas denkt, das man tun möchte, muss man nicht separat eine neue Aufgabe im Kanban-Board oder der Aufgabenverwaltungssoftware erstellen, man muss nur ein Element in seinem Daily Journal hinzufügen, wie beim Schreiben einer Notiz, und einfache Syntax wie TODO, LATER verwenden, um einfaches Aufgabenmanagement durchzuführen.
 
-However, some tasks span multiple days, and our tasks will be scattered under the Journal of various dates, which is not very conducive to unified management. This is where another powerful feature of Logseq comes in - Query. This feature can be understood as a query with blocks as granularity (just like sql querying a record), filtering through some tags, syntax, and other internal logic to display the blocks we want.
+Allerdings erstrecken sich einige Aufgaben über mehrere Tage, und unsere Aufgaben werden unter den Journalen verschiedener Daten verstreut sein, was nicht sehr förderlich für eine einheitliche Verwaltung ist. Hier kommt eine weitere leistungsstarke Funktion von Logseq ins Spiel - Query. Diese Funktion kann als eine Abfrage mit Blöcken als Granularität verstanden werden (ähnlich wie SQL eine Aufzeichnung abfragt), die durch einige Tags, Syntax und andere interne Logik filtert, um die Blöcke anzuzeigen, die wir wollen.
 
-For this part, I referred to Randy's practice and created a Dashboard page that displays various query results. I mainly used the following Queries (the query statements are in parentheses, friends who need them can take them and modify them as needed):
+Für diesen Teil orientierte ich mich an Randys Praxis und erstellte eine Dashboard-Seite, die verschiedene Abfrageergebnisse anzeigt. Ich verwendete hauptsächlich die folgenden Abfragen (die Abfrageaussagen stehen in Klammern, Freunde, die sie benötigen, können sie nehmen und nach Bedarf modifizieren):
 
-1. In Progress (`{{query (todo now)}}`)
-2. Todo (`{{query (todo later)}}`)
-3. Writing Plan (`{{query (and (todo later) [[writing]] )}}`)
-4. Reading (`{{query (and (todo now) [[books]] )}}`)
-5. Read It Later (`{{query (and (todo later) [[books]])}}`)
+1. In Bearbeitung (`{{query (todo now)}}`)
+2. Zu erledigen (`{{query (todo later)}}`)
+3. Schreibplan (`{{query (and (todo later) [[writing]] )}}`)
+4. Lesen (`{{query (and (todo now) [[books]] )}}`)
+5. Später lesen (`{{query (and (todo later) [[books]])}}`)
 
-The presentation results are as follows:
+Die Präsentationsergebnisse sind wie folgt:
 
 ![logseq_dashboard_in_progress](https://image.pseudoyu.com/images/logseq_dashboard_in_progress.png)
 
@@ -66,78 +66,78 @@ The presentation results are as follows:
 
 ![logseq_dashboard_other_queries](https://image.pseudoyu.com/images/logseq_dashboard_other_queries.png)
 
-Because this is Randy's practice, I won't write a separate blog post to introduce it. I briefly introduced my own usage in the weekly review, those interested can watch his original video.
+Da dies Randys Praxis ist, werde ich keinen separaten Blogbeitrag schreiben, um sie vorzustellen. Ich habe kurz meine eigene Nutzung im Wochenrückblick vorgestellt, Interessierte können sich sein Originalvideo ansehen.
 
-## Surge Ponte and Remote Development
+## Surge Ponte und Remote-Entwicklung
 
-In terms of tinkering with networks, various hardware devices and systems, I belong to the category of being both unskilled and loving to play. I had explored some best practices for thin client development before, details can be seen in this article:
+Was das Basteln an Netzwerken, verschiedenen Hardwaregeräten und Systemen angeht, gehöre ich zur Kategorie derjenigen, die sowohl ungeschickt als auch spielfreudig sind. Ich hatte zuvor einige Best Practices für die Thin-Client-Entwicklung erkundet, Details können in diesem Artikel gesehen werden:
 
-- [Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
+- [Thin-Client-Entwicklungs-Workflow basierend auf frp Intranet-Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
 
-The most core and difficult point is how to access devices at home, such as servers, Mac hosts, etc., in an external network environment. In my previous solution, I used the frp tool for intranet penetration. Half a year has passed, it's very stable and is still the first recommended solution.
+Der wichtigste und schwierigste Punkt ist, wie man in einer externen Netzwerkumgebung auf Geräte zu Hause, wie Server, Mac-Hosts usw., zugreifen kann. In meiner vorherigen Lösung verwendete ich das frp-Tool für Intranet-Penetration. Ein halbes Jahr ist vergangen, es ist sehr stabil und ist immer noch die erste empfohlene Lösung.
 
-But when I saw this article "Surge Ponte Development Notes" posted by [Yachen Liu](https://twitter.com/Blankwonder), I was itching to tinker again.
+Aber als ich diesen Artikel "Surge Ponte Entwicklungsnotizen" von [Yachen Liu](https://twitter.com/Blankwonder) sah, juckte es mich wieder in den Fingern zu basteln.
 
-I was going to be out for a few days during the May Day holiday, and thinking that my daily development is done on the host at home, I also wanted to be able to access it when I'm out. Just because I hadn't configured the frp client after reinstalling the system, I thought I might as well try Surge Ponte directly.
+Ich würde während des Mai-Feiertags für ein paar Tage unterwegs sein, und da meine tägliche Entwicklung auf dem Host zu Hause erfolgt, wollte ich auch in der Lage sein, darauf zuzugreifen, wenn ich unterwegs bin. Gerade weil ich den frp-Client nach der Neuinstallation des Systems nicht konfiguriert hatte, dachte ich, ich könnte genauso gut direkt Surge Ponte ausprobieren.
 
-So I upgraded to Surge 5 and configured and tinkered with Surge Ponte the night before departure. After a bit of exploration, compared to frp or other similar solutions, I think Surge Ponte has absolute advantages in configuration ease of use and expansion gameplay.
+Also aktualisierte ich auf Surge 5 und konfigurierte und bastelte in der Nacht vor der Abreise an Surge Ponte. Nach etwas Erkundung denke ich, dass Surge Ponte im Vergleich zu frp oder anderen ähnlichen Lösungen absolute Vorteile in der Konfigurationsbenutzerfreundlichkeit und Erweiterungsspielbarkeit hat.
 
-The tinkering with Surge Ponte definitely deserves a detailed blog post, so I won't explain the principles and configuration details in this weekly review. I'll just briefly show the effects of some of the features I'm currently using.
+Das Basteln an Surge Ponte verdient definitiv einen detaillierten Blogbeitrag, also werde ich die Prinzipien und Konfigurationsdetails in diesem Wochenrückblick nicht erklären. Ich werde nur kurz die Effekte einiger Funktionen zeigen, die ich derzeit nutze.
 
-When I turned on the Surge Ponte function on both my 16-inch MBP and the Mac Studio at home (I'm using the NAT traversal via proxy mode, which only needs a line that supports UDP, such as a self-built proxy with the Trojan protocol), I could see them in the registered devices.
+Als ich die Surge Ponte-Funktion sowohl auf meinem 16-Zoll MBP als auch auf dem Mac Studio zu Hause aktivierte (ich verwende den NAT-Traversal-via-Proxy-Modus, der nur eine Leitung benötigt, die UDP unterstützt, wie einen selbst gebauten Proxy mit dem Trojan-Protokoll), konnte ich sie in den registrierten Geräten sehen.
 
 ![surge_ponte_config](https://image.pseudoyu.com/images/surge_ponte_config.png)
 
-At this point, when the device has enabled permission for remote login, you can directly remotely log in to the host like accessing a cloud service using a command like `ssh [username]@[surgepontename].sgponte`, so it also supports VS Code remote development and such.
+An diesem Punkt können Sie, wenn das Gerät die Erlaubnis für die Ferneinwahl aktiviert hat, direkt per Ferneinwahl auf den Host zugreifen, wie beim Zugriff auf einen Cloud-Dienst, mit einem Befehl wie `ssh [Benutzername]@[surgepontename].sgponte`, sodass es auch die VS Code Remote-Entwicklung und ähnliches unterstützt.
 
 ![surge_ponte_ssh](https://image.pseudoyu.com/images/surge_ponte_ssh.png)
 
-Of course, this point can also be easily achieved by frp and others, but a more powerful point is that some services we start on the home host can also be directly accessed through a URL like `[surgepontename].sgponte:[port]`. For example, after I remotely connected to the Mac Studio at home via ssh and started a local Next.js web service, which is accessed via `localhost:3000` during local development, now I can directly access it on my MBP via `http://yu-macstudio.sgponte:3000` (although frp can also map services out, it requires writing port mapping rules on the frp client side).
+Natürlich kann dieser Punkt auch leicht durch frp und andere erreicht werden, aber ein leistungsfähigerer Punkt ist, dass einige Dienste, die wir auf dem Host zu Hause starten, auch direkt über eine URL wie `[surgepontename].sgponte:[port]` zugegriffen werden können. Zum Beispiel, nachdem ich mich per ssh aus der Ferne mit dem Mac Studio zu Hause verbunden und einen lokalen Next.js-Webdienst gestartet habe, der während der lokalen Entwicklung über `localhost:3000` aufgerufen wird, kann ich jetzt direkt auf meinem MBP über `http://yu-macstudio.sgponte:3000` darauf zugreifen (obwohl frp auch Dienste nach außen abbilden kann, erfordert es das Schreiben von Port-Mapping-Regeln auf der frp-Client-Seite).
 
 ![surge_ponte_servies](https://image.pseudoyu.com/images/surge_ponte_servies.png)
 
-So theoretically, by directly remotely connecting to the host via VS Code to modify code files and using the `[surgepontename].sgponte:[port]` method, you can get a full version of the local debugging experience, taking into account both portability and performance (~~Alright, I'm selling my MBP for an Air~~
+Theoretisch können Sie also durch direktes Fernverbinden mit dem Host über VS Code, um Codedateien zu modifizieren, und durch Verwendung der `[surgepontename].sgponte:[port]`-Methode eine vollständige Version der lokalen Debugging-Erfahrung erhalten, die sowohl Portabilität als auch Leistung berücksichtigt (~~In Ordnung, ich verkaufe mein MBP für ein Air~~
 
-Another very practical scenario is that we often have some services that can only be accessed on the local network at home, such as soft router configuration, NAS, Raspberry Pi, etc. At this time, if using frp, each one needs to be configured separately, while Surge Ponte can directly achieve external access by setting DEVICE rules. For example, I can now directly use `http://router.asus.com` to access my home router configuration page from out of town, which is very convenient for remotely managing some resident services at home.
+Ein weiteres sehr praktisches Szenario ist, dass wir oft einige Dienste haben, auf die nur im lokalen Netzwerk zu Hause zugegriffen werden kann, wie z.B. Soft-Router-Konfiguration, NAS, Raspberry Pi usw. In diesem Fall müsste bei Verwendung von frp jeder einzelne separat konfiguriert werden, während Surge Ponte durch Festlegen von DEVICE-Regeln direkt externen Zugriff ermöglichen kann. Zum Beispiel kann ich jetzt direkt `http://router.asus.com` verwenden, um von unterwegs auf meine Router-Konfigurationsseite zu Hause zuzugreifen, was sehr praktisch für die Fernverwaltung einiger dauerhafter Dienste zu Hause ist.
 
 ![surge_ponte_router](https://image.pseudoyu.com/images/surge_ponte_router.png)
 
-There are many more interesting applications, such as directly accessing files on home host devices through the smb protocol, etc. The later blog posts will try to cover some interesting application scenarios, interested friends can follow (~~urge for updates~~) the blog posts.
+Es gibt noch viele weitere interessante Anwendungen, wie z.B. den direkten Zugriff auf Dateien auf Host-Geräten zu Hause über das smb-Protokoll usw. Die späteren Blogbeiträge werden versuchen, einige interessante Anwendungsszenarien abzudecken, interessierte Freunde können den Blogbeiträgen folgen (~~Drängen auf Updates~~).
 
-## Nie Nie's Recent Situation
+## Nie Nies jüngste Situation
 
 ![nie_nie_in_painting](https://image.pseudoyu.com/images/nie_nie_in_painting.jpg)
 
-Senior sister Bo Yi is painting an oil painting for Nie Nie!!! This is just a draft, more details will be added, but I can't help wanting to show it off, it's too beautiful!!!
+Ältere Schwester Bo Yi malt ein Ölgemälde für Nie Nie!!! Dies ist nur ein Entwurf, mehr Details werden hinzugefügt, aber ich kann nicht anders, als es zeigen zu wollen, es ist zu schön!!!
 
 ![nie_nie_and_new_toys_01](https://image.pseudoyu.com/images/nie_nie_and_new_toys_01.jpg)
 
 ![nie_nie_and_new_toys_02](https://image.pseudoyu.com/images/nie_nie_and_new_toys_02.jpg)
 
-New cat tree, starting vacation mode in advance!
+Neuer Katzenbaum, startet den Urlaubsmodus im Voraus!
 
-Planning to take her for neutering after May Day, still a bit nervous, hope everything goes well.
+Plane, sie nach dem Mai-Feiertag zur Kastration zu bringen, bin immer noch etwas nervös, hoffe, alles läuft gut.
 
-## Interesting Things and Objects
+## Interessante Dinge und Gegenstände
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I still select some to list here, feeling more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im "Yu's Life" Telegram-Kanal synchronisiert werden, wähle ich hier trotzdem einige aus, um sie aufzulisten, fühlt sich mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
-- [Warp+ Traffic Matching with Surge](https://pepcn.com/surge/warp-liu-liang-da-pei-surge)
-- [Application-Specific Blockchains: The Past, Present, and Future](https://medium.com/1kxnetwork/application-specific-blockchains-9a36511c832)
-- [AI is Here, What Skills Are Most Worth Learning?](https://mp.weixin.qq.com/s/ifldCMLTSb1Ir-qcyoa5rw)
+- [Warp+ Verkehrsabstimmung mit Surge](https://pepcn.com/surge/warp-liu-liang-da-pei-surge)
+- [Anwendungsspezifische Blockchains: Die Vergangenheit, Gegenwart und Zukunft](https://medium.com/1kxnetwork/application-specific-blockchains-9a36511c832)
+- [KI ist hier, welche Fähigkeiten sind am wertvollsten zu lernen?](https://mp.weixin.qq.com/s/ifldCMLTSb1Ir-qcyoa5rw)
 
 #### Videos
 
-Similarly, I also record some interesting videos I've watched:
+Ähnlich zeichne ich auch einige interessante Videos auf, die ich gesehen habe:
 
-- [How to Launch Your First Open Source Project](https://www.bilibili.com/video/BV1os4y1w78T)
-- [Got Scolded Again! Boyfriend's Disneyland Survival Guide](https://www.bilibili.com/video/BV1wm4y127dG)
+- [Wie man sein erstes Open-Source-Projekt startet](https://www.bilibili.com/video/BV1os4y1w78T)
+- [Wieder geschimpft worden! Überlebensguide des Freundes für Disneyland](https://www.bilibili.com/video/BV1wm4y127dG)
 
 #### Anime
 
-- **Demon Slayer: Swordsmith Village Arc**, super excited!!! Hope it doesn't disappoint
-- **Oshi no Ko**, seems to have quite high discussion, but reportedly a bit sad, watched a little bit of the beginning
+- **Demon Slayer: Swordsmith Village Arc**, super aufgeregt!!! Hoffe, es enttäuscht nicht
+- **Oshi no Ko**, scheint ziemlich hohe Diskussionen zu haben, aber angeblich etwas traurig, habe ein bisschen vom Anfang geschaut

@@ -54,7 +54,7 @@ The volcanic eruption permanently stopped time at this moment, without having to
 
 Something very magical happened on Sunday night.
 
-I was thinking of finishing the weekly report at night, but I was very tired after a whole day of working out and shopping. I thought about putting the computer by the bedside and waking up around three o'clock to write (~~but I didn't wake up in the end~~). I had a dream in the middle of the night, probably because for some reason my MacBook accidentally broke into two halves. The last moment in the dream was probably regretting not buying AppleCare. When I woke up startled, my hand grabbed the laptop that was about to slip from the pillow to the ground.
+I was thinking of finishing the weekly review at night, but I was very tired after a whole day of working out and shopping. I thought about putting the computer by the bedside and waking up around three o'clock to write (~~but I didn't wake up in the end~~). I had a dream in the middle of the night, probably because for some reason my MacBook accidentally broke into two halves. The last moment in the dream was probably regretting not buying AppleCare. When I woke up startled, my hand grabbed the laptop that was about to slip from the pillow to the ground.
 
 Perhaps I've become so in tune with my computer that it sensed the danger and sent me a dream to save it. It was a very magical dream. Adding to this week's release of OpenAI's GPTs and a series of new features, and having just watched PLUTO, an anime about humans and robots, I suddenly couldn't tell whether I was looking forward to or fearing this future.
 

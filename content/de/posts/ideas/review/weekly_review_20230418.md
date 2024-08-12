@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #37 - A Fortnight of Leisure (Wuhan | Hong Kong | Mayday)"
+title: "Wochenrückblick #37 - Zwei Wochen Muße (Wuhan | Hongkong | Mayday)"
 date: 2023-04-18T11:39:21+08:00
 draft: false
 tags: ["review", "life", "home", "city", "travel", "work", "wuhan", "hongkong", "mayday", "web3", "friend"]
@@ -10,63 +10,63 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece chronicles my life and reflections from April 3rd to April 18th, 2023.
+Dieser Beitrag zeichnet mein Leben und meine Reflexionen vom 3. bis 18. April 2023 auf.
 
-Perhaps due to my recent change in lifestyle, I had planned numerous engagements as early as March. From the beginning of April, I found myself wandering, experiencing a fortnight of leisure. This journey was akin to a homecoming - departing from Hangzhou where I was raised, to Wuhan, the first place I left home for an extended period, to visit my professor and old friends, and finally to Hong Kong, where I spent some remarkable years, to attend exhibitions and events.
+Vielleicht aufgrund meiner kürzlichen Lebensumstellung hatte ich bereits im März zahlreiche Verpflichtungen geplant. Seit Anfang April befand ich mich auf Wanderschaft und erlebte zwei Wochen der Muße. Diese Reise glich einer Heimkehr - von Hangzhou, wo ich aufwuchs, nach Wuhan, dem ersten Ort, an dem ich für längere Zeit von zu Hause weg war, um meinen Professor und alte Freunde zu besuchen, und schließlich nach Hongkong, wo ich einige bemerkenswerte Jahre verbrachte, um Ausstellungen und Veranstaltungen zu besuchen.
 
-It was hardly stolen moments of leisure amidst busyness, as I didn't take time off work. Several workdays were spent in hotel rooms near schools or in corners of convention centers, and most travels were hurried affairs. In truth, it doesn't feel like I accomplished much, yet it's only now that I've found a moment to gather my thoughts and experiences from these days.
+Es waren kaum gestohlene Momente der Muße inmitten der Geschäftigkeit, da ich keinen Urlaub nahm. Einige Arbeitstage verbrachte ich in Hotelzimmern in der Nähe von Schulen oder in Ecken von Kongresszentren, und die meisten Reisen waren eilige Angelegenheiten. Ehrlich gesagt, fühlt es sich nicht so an, als hätte ich viel erreicht, doch erst jetzt habe ich einen Moment gefunden, um meine Gedanken und Erfahrungen aus diesen Tagen zu sammeln.
 
-The half-month journey was interesting and worthwhile. I visited my long-unseen professor and attended a nostalgic "English Writing" class; strolled around campus with senior Boyi, marveling at how swiftly time passes; briefly stayed in Shanghai for a night, dining with Xiaoyu and celebrating senior's birthday in a modest way; transited through Shenzhen, meeting many colleagues who previously existed only in work chats - a grand "online friends meetup"; attended the Web3 Festival in Hong Kong, and while I didn't meet many interesting developers, I saw some intriguing projects and caught up with both old and new friends; revisited some memory spots at HKU, still beautiful and precious; met up with Zhan in Sheung Wan and the park after a long separation; attended an electrifying Mayday concert; and many other interesting happenings.
+Die zweiwöchige Reise war interessant und lohnenswert. Ich besuchte meinen lange nicht gesehenen Professor und nahm an einem nostalgischen "English Writing"-Kurs teil; schlenderte mit Senior Boyi über den Campus und staunte, wie schnell die Zeit vergeht; blieb kurz für eine Nacht in Shanghai, aß mit Xiaoyu zu Abend und feierte den Geburtstag eines Seniors auf bescheidene Weise; machte einen Zwischenstopp in Shenzhen und traf viele Kollegen, die zuvor nur in Arbeitschats existierten - ein großes "Online-Freunde-Treffen"; nahm am Web3 Festival in Hongkong teil, und obwohl ich nicht viele interessante Entwickler traf, sah ich einige faszinierende Projekte und traf mich mit alten und neuen Freunden; besuchte einige Erinnerungsorte an der HKU, die immer noch schön und wertvoll sind; traf mich nach langer Trennung mit Zhan in Sheung Wan und im Park; besuchte ein elektrisierendes Mayday-Konzert; und viele andere interessante Ereignisse.
 
-Now that I've returned to my usual routine, the frequency of weekly reviews and other inputs and outputs should return to normal (hopefully!).
+Jetzt, da ich zu meiner gewohnten Routine zurückgekehrt bin, sollte die Häufigkeit der Wochenrückblicke und anderer Inputs und Outputs wieder normal werden (hoffentlich!).
 
-## Wuhan Chronicles
+## Wuhan-Chroniken
 
-I actually returned to Wuhan in February, but due to circumstances, I didn't get to see Professor Liang. So, after a short month, I found myself back again. During my previous journey, I was anxious about interviews, but this time, with everything settled, I felt more at ease, even slowing my pace.
+Tatsächlich kehrte ich bereits im Februar nach Wuhan zurück, konnte aber aufgrund der Umstände Professor Liang nicht treffen. So fand ich mich nach einem kurzen Monat wieder dort. Während meiner vorherigen Reise war ich wegen Vorstellungsgesprächen beunruhigt, doch dieses Mal fühlte ich mich gelassener, da alles geregelt war, und verlangsamte sogar mein Tempo.
 
-The School of Foreign Languages has always held a peculiar place in my life and memories. For a time, due to career path limitations, I was particularly reluctant to mention it, seemingly regretting why I hadn't chosen a more "useful" major. There was also a period when others would express surprise at my transition from liberal arts to coding, and to be honest, I somewhat enjoyed this label at that stage. Now, having met many interesting people with unusual experiences and having settled into my career, my past education no longer hinders my professional life. I've gradually come to cherish the four years I spent at the School of Foreign Languages.
+Die Fakultät für Fremdsprachen hat schon immer einen besonderen Platz in meinem Leben und meinen Erinnerungen eingenommen. Eine Zeit lang war ich aufgrund der Einschränkungen des Karrierewegs besonders abgeneigt, sie zu erwähnen, und schien zu bereuen, warum ich kein "nützlicheres" Hauptfach gewählt hatte. Es gab auch eine Phase, in der andere überrascht waren über meinen Wechsel von Geisteswissenschaften zum Programmieren, und ehrlich gesagt genoss ich dieses Etikett in diesem Stadium ein wenig. Jetzt, da ich viele interessante Menschen mit ungewöhnlichen Erfahrungen getroffen habe und in meiner Karriere gefestigt bin, behindert meine frühere Ausbildung mein Berufsleben nicht mehr. Ich habe allmählich begonnen, die vier Jahre, die ich an der Fakultät für Fremdsprachen verbracht habe, zu schätzen.
 
-As my steps traced the many corners of the campus, observing the traces of various student organizations, classrooms, and studios I had been part of, I truly felt the passage of time. Some familiar events now need to be recalled in terms of five or seven years, and it's been a long time since I've seen some people. I'm still somewhat sentimental, often wanting to hold onto things despite knowing that forgetting is natural. I'm not sure if I'm attached to that period or if I envy the self that existed then - although inevitably worried, that self was full of curiosity to explore and confidence to change.
+Als meine Schritte die vielen Ecken des Campus nachzeichneten und ich die Spuren verschiedener studentischer Organisationen, Klassenräume und Studios beobachtete, denen ich angehört hatte, spürte ich wirklich den Lauf der Zeit. Einige vertraute Ereignisse müssen jetzt in Begriffen von fünf oder sieben Jahren erinnert werden, und es ist lange her, dass ich einige Menschen gesehen habe. Ich bin immer noch etwas sentimental und möchte oft an Dingen festhalten, obwohl ich weiß, dass Vergessen natürlich ist. Ich bin mir nicht sicher, ob ich an dieser Zeit hänge oder ob ich das Selbst beneide, das damals existierte - obwohl es unvermeidlich besorgt war, war dieses Selbst voller Neugier zu erkunden und Zuversicht, sich zu verändern.
 
 ![whut_english_writing](https://image.pseudoyu.com/images/whut_english_writing.jpg)
 
-Professor Liang is a particularly important figure in both my student career and life.
+Professor Liang ist eine besonders wichtige Figur sowohl in meiner studentischen Laufbahn als auch in meinem Leben.
 
-Academically, her teaching philosophy and methods truly made me feel the difference between University and High School, and completed the transformation of my learning mindset and attitude. On a personal level, she would support my explorations in various directions, entrust former students to look after me when I ventured alone to unfamiliar places, and gossip with me about all sorts of interesting things.
+Akademisch gesehen ließen mich ihre Lehrmethoden und -philosophie wirklich den Unterschied zwischen Universität und Gymnasium spüren und vervollständigten die Transformation meiner Lerneinstellung und -haltung. Auf persönlicher Ebene würde sie meine Erkundungen in verschiedene Richtungen unterstützen, ehemalige Studenten damit beauftragen, auf mich aufzupassen, wenn ich allein an unbekannte Orte reiste, und mit mir über allerlei interessante Dinge plaudern.
 
-She was also my main reason for returning to Wuhan this time. I arranged to sit in on a writing class during her teaching time, seemingly returning to that period. Back then, I was busy, rushing about various affairs, confused but never afraid. I shamefully admit that I skipped or didn't listen to many classes at that time, thinking they were of no use to me. Looking back now, I regret it quite a bit. English literature, American literature, poetry - these only began to attract me after graduation, but I no longer had the luxury of time to read and appreciate them carefully.
+Sie war auch mein Hauptgrund, dieses Mal nach Wuhan zurückzukehren. Ich vereinbarte, während ihrer Unterrichtszeit an einem Schreibkurs teilzunehmen, scheinbar in jene Zeit zurückkehrend. Damals war ich beschäftigt, eilte von einer Angelegenheit zur nächsten, verwirrt, aber nie ängstlich. Ich gebe beschämt zu, dass ich damals viele Kurse schwänzte oder ihnen nicht zuhörte, weil ich dachte, sie seien nutzlos für mich. Rückblickend bereue ich das ziemlich. Englische Literatur, amerikanische Literatur, Poesie - diese begannen mich erst nach dem Abschluss zu faszinieren, aber ich hatte nicht mehr den Luxus der Zeit, sie sorgfältig zu lesen und zu würdigen.
 
-## Hong Kong Chronicles
+## Hongkong-Chroniken
 
-Another major part of my itinerary was Hong Kong. Since leaving in 2021, I've always wanted to go back for a visit, but kept procrastinating. Add to that many changes in life, and the plan had gradually been shelted. This time, coinciding with the Web3 Festival in Hong Kong, I quickly decided to go.
+Ein weiterer wichtiger Teil meiner Reiseroute war Hongkong. Seit meinem Weggang im Jahr 2021 wollte ich immer wieder zu Besuch kommen, aber ich schob es immer wieder auf. Dazu kamen viele Veränderungen im Leben, und der Plan wurde allmählich zurückgestellt. Dieses Mal, da es mit dem Web3 Festival in Hongkong zusammenfiel, entschied ich mich schnell zu gehen.
 
-As soon as I settled in, I decided to take a stroll around HKU. This was a magical year, where various aspects of myself changed significantly. I, who had long ceased using Moments, gradually began to post some daily life updates. Looking back at the few posts I made then, it seems to have divided this period of life into several stages. Even though it's been nearly two years, the memories remain crystal clear.
+Sobald ich mich eingelebt hatte, beschloss ich, einen Spaziergang um die HKU zu machen. Dies war ein magisches Jahr, in dem sich verschiedene Aspekte meiner selbst erheblich veränderten. Ich, der ich lange aufgehört hatte, Moments zu nutzen, begann allmählich, einige Updates aus dem täglichen Leben zu posten. Wenn ich auf die wenigen Posts zurückblicke, die ich damals gemacht habe, scheint es, als hätten sie diesen Lebensabschnitt in mehrere Phasen unterteilt. Obwohl es fast zwei Jahre her ist, bleiben die Erinnerungen kristallklar.
 
-### First Arrival
+### Erste Ankunft
 
 ![just_went_to_hk_2020](https://image.pseudoyu.com/images/just_went_to_hk_2020.png)
 
-The early days in Hong Kong were filled with trepidation and anticipation, curious and eager to explore every aspect of this city. I would often walk along Victoria Harbour, stopping here and there, capturing the city's vitality; in my small room, I would cook, study, write, content in my solitude.
+Die ersten Tage in Hongkong waren voller Bangigkeit und Vorfreude, neugierig und begierig darauf, jeden Aspekt dieser Stadt zu erkunden. Ich würde oft am Victoria Harbour entlang spazieren, hier und da anhalten und die Lebendigkeit der Stadt einfangen; in meinem kleinen Zimmer würde ich kochen, studieren, schreiben, zufrieden in meiner Einsamkeit.
 
-To be honest, Hong Kong isn't exactly a warm city. Everyone always seems to be in a hurry, busy with their own lives and work, offering others polite but extremely restrained care. The cramped, confined spaces also make it difficult to feel truly comfortable.
+Um ehrlich zu sein, ist Hongkong keine besonders warme Stadt. Jeder scheint immer in Eile zu sein, beschäftigt mit seinem eigenen Leben und seiner Arbeit, und bietet anderen höfliche, aber äußerst zurückhaltende Fürsorge. Die beengten, eingeschränkten Räume machen es auch schwierig, sich wirklich wohl zu fühlen.
 
 ![note_from_hk_landlord](https://image.pseudoyu.com/images/note_from_hk_landlord.png)
 
-However, at that time, I seemed to still be a positive person, always finding interesting points in daily life, letting the light in life dispel the shadows. Particularly memorable was a note from the landlord, which I've kept for many years.
+Allerdings schien ich zu dieser Zeit noch ein positiver Mensch zu sein, der im täglichen Leben immer interessante Punkte fand und das Licht im Leben die Schatten vertreiben ließ. Besonders in Erinnerung geblieben ist mir eine Notiz vom Vermieter, die ich viele Jahre aufbewahrt habe.
 
-### Days of Splendor
+### Tage des Glanzes
 
 ![happy_life_in_hku](https://image.pseudoyu.com/images/happy_life_in_hku.png)
 
-After a short period of adjustment, I gradually began to enjoy my new life in Hong Kong, and went through a long period of happy times.
+Nach einer kurzen Eingewöhnungsphase begann ich allmählich, mein neues Leben in Hongkong zu genießen, und durchlebte eine lange Zeit glücklicher Momente.
 
-I marveled at the night views of the HKU campus, couldn't forget the delicious Korean barbecue in Causeway Bay, collected various merchandise at the HKU Starbucks, went to Central to eat Shake Shack and watch movies, would have a drink at Quinary Bar in Lan Kwai Fong, and after rushing to meet a deadline, would bring lots of snacks and drinks to Victoria Harbour to drink until sunrise.
+Ich staunte über die nächtlichen Aussichten des HKU-Campus, konnte das leckere koreanische Barbecue in Causeway Bay nicht vergessen, sammelte verschiedene Merchandise im HKU Starbucks, ging nach Central, um Shake Shack zu essen und Filme zu schauen, würde einen Drink in der Quinary Bar in Lan Kwai Fong trinken, und nachdem ich eine Deadline eingehalten hatte, würde ich viele Snacks und Getränke zum Victoria Harbour bringen, um bis zum Sonnenaufgang zu trinken.
 
-I often feel fortunate that I took a gap year before returning to campus, as it made me cherish this hard-earned pace and campus life more, becoming a special and beautiful experience in my life.
+Ich fühle mich oft glücklich, dass ich ein Gap Year eingelegt habe, bevor ich an den Campus zurückkehrte, da es mich dieses hart erarbeitete Tempo und Campusleben mehr schätzen ließ und zu einer besonderen und schönen Erfahrung in meinem Leben wurde.
 
-Particularly memorable is a dim sum restaurant called "Chau Kee" near the school, which I ate at many times. When I ate there again on this trip, it seemed I could taste the old Hong Kong flavor again.
+Besonders in Erinnerung geblieben ist mir ein Dim Sum Restaurant namens "Chau Kee" in der Nähe der Schule, in dem ich viele Male gegessen habe. Als ich auf dieser Reise wieder dort aß, schien es, als könnte ich den alten Hongkong-Geschmack wieder schmecken.
 
 ![zhouji_food_01](https://image.pseudoyu.com/images/zhouji_food_02.jpg)
 
@@ -74,47 +74,47 @@ Particularly memorable is a dim sum restaurant called "Chau Kee" near the school
 
 ![zhouji_food_03](https://image.pseudoyu.com/images/zhouji_food_01.jpg)
 
-### The Long Night Approaches
+### Die lange Nacht naht
 
-Of course, life always has its ups and downs.
+Natürlich hat das Leben immer seine Höhen und Tiefen.
 
-The happy times didn't last too long, and life tends to quietly crumble just when we think we've gotten on track.
+Die glücklichen Zeiten dauerten nicht allzu lange, und das Leben neigt dazu, still zu zerbröckeln, gerade wenn wir denken, wir hätten die Spur gefunden.
 
 ![struggle_in_hk](https://image.pseudoyu.com/images/struggle_in_hk.png)
 
-At the end of 2020, a four-year relationship ended. In early 2021, I lost my beloved grandmother, and in the middle of the year, I lost my cousin who grew up with me. At the same time, I experienced some other emotional and psychological dark moments. Life is always like this - when you think things are already bad, unexpected events tend to come one after another. During that time, I often thought of a saying:
+Ende 2020 endete eine vierjährige Beziehung. Anfang 2021 verlor ich meine geliebte Großmutter, und Mitte des Jahres verlor ich meinen Cousin, mit dem ich aufgewachsen war. Gleichzeitig erlebte ich einige andere emotionale und psychologische dunkle Momente. Das Leben ist immer so - wenn man denkt, die Dinge seien schon schlimm, neigen unerwartete Ereignisse dazu, eines nach dem anderen zu kommen. In dieser Zeit dachte ich oft an einen Spruch:
 
-> "You never know whether an accident or tomorrow will come first."
+> "Man weiß nie, ob ein Unfall oder das Morgen zuerst kommt."
 
-The days that followed are somewhat blurry in my memory, partly due to the heavy coursework and job-seeking pressure, and partly due to the negative impact of various emotions piling up. Looking back now, I still feel that I was very unlike myself during that time - fragile, sensitive, yet cold.
+Die folgenden Tage sind in meiner Erinnerung etwas verschwommen, teilweise aufgrund der schweren Kursarbeit und des Drucks der Jobsuche, und teilweise aufgrund der negativen Auswirkungen verschiedener sich aufstauender Emotionen. Rückblickend fühle ich immer noch, dass ich während dieser Zeit sehr unähnlich zu mir selbst war - zerbrechlich, sensibel und doch kalt.
 
-Therefore, the latter half of my time in Hong Kong passed very quickly and hazily. I didn't leave many videos or photos, and didn't post any updates for several months. Even now, as I try to recall, these memories are gradually fading. This has been something I've often regretted in the year and more since then.
+Daher verging die zweite Hälfte meiner Zeit in Hongkong sehr schnell und verschwommen. Ich hinterließ nicht viele Videos oder Fotos und postete monatelang keine Updates. Selbst jetzt, wenn ich versuche, mich zu erinnern, verblassen diese Erinnerungen allmählich. Das ist etwas, was ich im Jahr und mehr seitdem oft bereut habe.
 
-### Long-Awaited Reunion
+### Lang ersehnte Wiedervereinigung
 
 #### HKU
 
 ![hku_zhihua_gate](https://image.pseudoyu.com/images/hku_zhihua_gate.jpg)
 
-If I had to say what I remember most vividly from my entire Hong Kong period, it would be the early mornings at Chi Wah Learning Commons. I spent countless hours there, going back and forth between just two points. Every morning, to secure a seat, I would arrive early before Chi Wah opened. I often greeted the guard at the entrance with a "zousen" (good morning). Because I only said this one phrase, even halfway through the semester, he still thought I was a local.
+Wenn ich sagen müsste, woran ich mich aus meiner gesamten Hongkong-Zeit am lebhaftesten erinnere, wären es die frühen Morgen im Chi Wah Learning Commons. Ich verbrachte dort unzählige Stunden und bewegte mich ständig zwischen nur zwei Punkten hin und her. Jeden Morgen, um einen Platz zu sichern, würde ich früh ankommen, bevor Chi Wah öffnete. Ich begrüßte oft den Wachmann am Eingang mit einem "zousen" (Guten Morgen). Weil ich nur diesen einen Satz sagte, dachte er selbst nach der Hälfte des Semesters immer noch, ich sei ein Einheimischer.
 
 ![hku_starbucks](https://image.pseudoyu.com/images/hku_starbucks.jpg)
 
-The coffee shop in the school is also a place that carries many memory points. I would go there every morning or afternoon for a cup of coffee. When I went this time, I still took out my student card to enjoy the discount. Back then, I would often go crazy recharging my card for some Hong Kong-limited merchandise. It's a pity that I couldn't bring back some items like mugs when I finally left.
+Das Café in der Schule ist auch ein Ort, der viele Erinnerungspunkte trägt. Ich würde jeden Morgen oder Nachmittag für eine Tasse Kaffee dorthin gehen. Als ich dieses Mal ging, nahm ich immer noch meine Studentenkarte heraus, um den Rabatt zu genießen. Damals würde ich oft verrückt meine Karte aufladen, um einige auf Hongkong beschränkte Merchandise-Artikel zu erwerben. Es ist schade, dass ich beim endgültigen Verlassen keine Artikel wie Tassen mitnehmen konnte.
 
-I remember when I left Hong Kong, there was still some balance left on both my Octopus card and Starbucks card. But thinking that Hong Kong would be a place I would often miss and revisit, and that I would have opportunities to come back and play often, I just left them as they were. I didn't expect that the next time I came back would be almost two years later, and everything would no longer be the same. So, this time, as if fulfilling some kind of obsession, I cleared the balance on my Starbucks card. It was like a farewell, to that past time and memory.
+Ich erinnere mich, als ich Hongkong verließ, war sowohl auf meiner Octopus-Karte als auch auf meiner Starbucks-Karte noch ein Guthaben übrig. Aber in der Annahme, dass Hongkong ein Ort sein würde, den ich oft vermissen und wieder besuchen würde, und dass ich häufig Gelegenheiten haben würde, zurückzukommen und zu spielen, ließ ich sie einfach so. Ich hätte nicht erwartet, dass mein nächster Besuch fast zwei Jahre später sein würde und alles nicht mehr dasselbe sein würde. Also habe ich dieses Mal, als ob ich eine Art Obsession erfüllen würde, das Guthaben auf meiner Starbucks-Karte aufgebraucht. Es war wie ein Abschied von jener vergangenen Zeit und Erinnerung.
 
-#### Mayday, How I've Longed to See You
+#### Mayday, wie sehr ich mich danach gesehnt habe, dich zu sehen
 
-The main reason for returning to Hong Kong this time was actually a Mayday concert called "How I've Longed to See You". Their songs have had a special significance for both my emotions and life at various stages, accompanying me through several difficult periods. With the various restrictions of the three-year pandemic, such a live performance seemed particularly precious. Even until I arrived at the venue, it still felt unreal.
+Der Hauptgrund für meine Rückkehr nach Hongkong war eigentlich ein Mayday-Konzert mit dem Titel "Wie sehr ich mich danach gesehnt habe, dich zu sehen". Ihre Lieder haben in verschiedenen Phasen eine besondere Bedeutung für meine Gefühle und mein Leben gehabt und mich durch mehrere schwierige Perioden begleitet. Angesichts der verschiedenen Einschränkungen der dreijährigen Pandemie schien eine solche Live-Performance besonders kostbar. Selbst bis ich am Veranstaltungsort ankam, fühlte es sich noch unwirklich an.
 
-To be honest, I feel my state hasn't been very good during this period. I've been in a kind of indulgence after emotional accumulation, unable to settle down to do the things I want to do properly, but also not wanting to fall into a vicious cycle again. So I simply treated this half-month "journey" as a self-healing process. But the result wasn't as satisfying as I had hoped. I really enjoyed the time in Wuhan, but it was a kind of slowness of returning to the past, also like the comfort of a home, beautiful but brief. After leaving, I had to face the vast sea of life again.
+Um ehrlich zu sein, fühle ich, dass mein Zustand in dieser Zeit nicht sehr gut war. Ich befand mich in einer Art Schwelgerei nach emotionaler Ansammlung, unfähig, mich darauf zu konzentrieren, die Dinge, die ich tun möchte, richtig zu tun, aber auch nicht willens, wieder in einen Teufelskreis zu geraten. Also behandelte ich diese zweiwöchige "Reise" einfach als einen Prozess der Selbstheilung. Aber das Ergebnis war nicht so befriedigend, wie ich gehofft hatte. Ich genoss die Zeit in Wuhan wirklich, aber es war eine Art Langsamkeit der Rückkehr in die Vergangenheit, auch wie der Trost eines Zuhauses, schön, aber kurz. Nach dem Verlassen musste ich mich wieder dem weiten Meer des Lebens stellen.
 
-After a period of toil, I actually found that I couldn't really enjoy such "freedom", and it was hard to get any pure happiness from it. I even started to look forward to going home, returning to that state of focusing on my own world. Maybe it's because it's been so long since I've had such an outing that I realized I've actually been often avoiding such changes and insecurity in life. People always have their comfort zones.
+Nach einer Zeit der Mühsal stellte ich tatsächlich fest, dass ich solche "Freiheit" nicht wirklich genießen konnte und es schwer war, reine Freude daraus zu gewinnen. Ich begann sogar, mich darauf zu freuen, nach Hause zu gehen, in jenen Zustand zurückzukehren, in dem ich mich auf meine eigene Welt konzentriere. Vielleicht liegt es daran, dass es so lange her ist, seit ich einen solchen Ausflug hatte, dass ich erkannte, dass ich solche Veränderungen und Unsicherheit im Leben tatsächlich oft vermieden habe. Menschen haben immer ihre Komfortzonen.
 
-The end point of the journey was the Mayday concert. I brought a camera, but was told at the entrance that it couldn't be brought in and needed to be stored in a place far away. As I was running to make it in time, I suddenly felt that relaxation and happiness I had been seeking throughout this journey. During the several hours of the performance that followed, I was in this somewhat magical state, as if a curve was gradually rising from the bottom.
+Der Endpunkt der Reise war das Mayday-Konzert. Ich brachte eine Kamera mit, wurde aber am Eingang darüber informiert, dass sie nicht mitgebracht werden konnte und an einem weit entfernten Ort aufbewahrt werden musste. Als ich rannte, um es rechtzeitig zu schaffen, spürte ich plötzlich jene Entspannung und Glück, die ich während dieser ganzen Reise gesucht hatte. Während der mehreren Stunden der folgenden Aufführung befand ich mich in diesem etwas magischen Zustand, als ob eine Kurve allmählich vom Boden aufstieg.
 
-As I was waving the light stick and singing and jumping along with Mayday, I suddenly realized that life itself doesn't have that many answers. Many meanings are hidden in experiences and feelings. Sometimes what we need more is to let down our guard and immerse ourselves, to explore.
+Als ich den Leuchtstab schwenkte und mit Mayday sang und sprang, wurde mir plötzlich klar, dass das Leben selbst nicht so viele Antworten hat. Viele Bedeutungen sind in Erfahrungen und Gefühlen verborgen. Manchmal brauchen wir mehr, unsere Verteidigung fallen zu lassen und einzutauchen, zu erkunden.
 
 ![mayday_in_hk_01](https://image.pseudoyu.com/images/mayday_in_hk_01.jpg)
 
@@ -136,37 +136,37 @@ As I was waving the light stick and singing and jumping along with Mayday, I sud
 
 ![mayday_in_hk_10](https://image.pseudoyu.com/images/mayday_in_hk_10.jpg)
 
-It wasn't until I got home that I started to write down my experiences from these two weeks. In my weekly reviews, I always hope to express genuine feelings rather than just record some fragments and traces of life. Several times during the journey I wanted to start writing but it always felt a bit off, so I simply put it aside.
+Erst als ich nach Hause kam, begann ich, meine Erfahrungen aus diesen zwei Wochen aufzuschreiben. In meinen Wochenrückblicken hoffe ich immer, echte Gefühle auszudrücken, anstatt nur einige Fragmente und Spuren des Lebens aufzuzeichnen. Mehrmals während der Reise wollte ich mit dem Schreiben beginnen, aber es fühlte sich immer ein bisschen falsch an, also legte ich es einfach beiseite.
 
 #### Web3 Festival
 
-I also attended the Web3 Festival. After changing jobs, I felt a particularly strong desire to go out, to meet new people, and to use this opportunity to see more possibilities in this industry.
+Ich nahm auch am Web3 Festival teil. Nach dem Jobwechsel verspürte ich ein besonders starkes Verlangen, auszugehen, neue Menschen kennenzulernen und diese Gelegenheit zu nutzen, um mehr Möglichkeiten in dieser Branche zu sehen.
 
-I met many colleagues. Since we've always been working remotely, most of them were just "online friends". It was an interesting experience to have this opportunity to meet face-to-face. There were many projects on display, and I chatted with many teams. Truly interesting ones were few, and I didn't meet any new interesting developers, which was a bit disappointing.
+Ich traf viele Kollegen. Da wir immer remote gearbeitet haben, waren die meisten von ihnen nur "Online-Freunde". Es war eine interessante Erfahrung, diese Gelegenheit zu haben, sich von Angesicht zu Angesicht zu treffen. Es gab viele Projekte zu sehen, und ich unterhielt mich mit vielen Teams. Wirklich interessante waren wenige, und ich traf keine neuen interessanten Entwickler, was ein bisschen enttäuschend war.
 
-Interestingly, while wandering around the venue, I was called out to by a friend I never expected to see - a classmate from before we were divided into science and liberal arts streams, whom I hadn't been in touch with for about 10 years. He said I looked a bit familiar, so he checked my Moments and saw my blue hair, so he came to say hello. After chatting, I found out he was a former employee of our company's closest partner. What a curious coincidence.
+Interessanterweise wurde ich, während ich durch den Veranstaltungsort wanderte, von einem Freund angesprochen, den ich nie erwartet hätte zu sehen - ein Klassenkamerad aus der Zeit vor unserer Aufteilung in Naturwissenschaften und Geisteswissenschaften, mit dem ich etwa 10 Jahre lang nicht in Kontakt gewesen war. Er sagte, ich sähe ein bisschen vertraut aus, also überprüfte er meine Moments und sah meine blauen Haare, so kam er, um Hallo zu sagen. Nach dem Plaudern erfuhr ich, dass er ein ehemaliger Mitarbeiter des engsten Partners unseres Unternehmens war. Was für ein seltsamer Zufall.
 
-## Nie Nie's Recent Situation
+## Nie Nies jüngste Situation
 
 ![nie_nie_with_friend](https://image.pseudoyu.com/images/nie_nie_with_friend.jpg)
 
-It's been half a month since I've seen her, and I miss her very much. Fortunately, my family has taken good care of both kittens, and the two kittens (one being fostered for a colleague) have become good friends. Now that I'm back, I'll continue to update more about my daily life with Nie Nie.
+Es ist ein halber Monat vergangen, seit ich sie gesehen habe, und ich vermisse sie sehr. Glücklicherweise hat meine Familie sich gut um beide Kätzchen gekümmert, und die beiden Kätzchen (eines wird für einen Kollegen gepflegt) sind gute Freunde geworden. Jetzt, da ich zurück bin, werde ich weiterhin mehr über mein tägliches Leben mit Nie Nie berichten.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
-Coinciding with the release of a new title, I purchased the collector's editions of "Fire Emblem: Engage" and "Octopath Traveler II".
+Anlässlich der Veröffentlichung eines neuen Titels erwarb ich die Sammlereditionen von "Fire Emblem: Engage" und "Octopath Traveler II".
 
 ![octopath_2_collector_edition](https://image.pseudoyu.com/images/octopath_2_collector_edition.jpg)
 
 ![fire_emble_engage](https://image.pseudoyu.com/images/fire_emble_engage.jpg)
 
-As they were shipped from Japan, I had to wait for quite a while, but the merchandise is indeed exquisite. I've already put the Octopath Traveler bag to use on this trip - it's incredibly convenient.
+Da sie aus Japan verschickt wurden, musste ich ziemlich lange warten, aber die Merchandise-Artikel sind in der Tat exquisit. Ich habe die Octopath Traveler-Tasche bereits auf dieser Reise benutzt - sie ist unglaublich praktisch.
 
 ### Input
 
-Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
+Obwohl die meisten interessanten Inputs automatisch mit dem Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich trotzdem einige auswählen, um sie hier aufzulisten. So fühlt es sich mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
 - [BeyondStorage: why we failed](https://xuanwo.io/2023/01-beyond-storage-why-we-failed/)
 - [A programmer who doesn't want to be a writer can't write Redis | Programmer's Meow](https://catcoding.me/p/redis-antriez/)
@@ -177,7 +177,7 @@ Although most interesting inputs are automatically synced to the "Yu's Life" Tel
 
 #### Videos
 
-Similarly, I've also recorded some interesting videos I've watched:
+Ähnlich habe ich auch einige interessante Videos aufgezeichnet, die ich gesehen habe:
 
 - [I made a FULL-BODY keyboard!](https://www.youtube.com/watch?v=h376W93gQq4)
 - [What a coincidence, I like you too | Xishuangbanna travel photography](https://www.bilibili.com/video/BV1vv4y1J7vW)

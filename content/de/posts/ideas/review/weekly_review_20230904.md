@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #45 - Reading Notes, Knowledge Management, and Life in Two Cities"
+title: "Wochenrückblick #45 - Lesenotizen, Wissensmanagement und Leben in zwei Städten"
 date: 2023-09-04T00:58:36+08:00
 draft: false
 tags: ["review", "life", "logseq", "love", "heptabase", "readwise", "boyi", "pkm", "city"]
@@ -10,140 +10,140 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from August 16 to September 4, 2023.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 16. August bis 4. September 2023.
 
-Time has flown by, and two to three weeks have passed unnoticed. I comfort myself by saying that shifting each post forward by a week will soon restore the weekly updates. However, these weeks have not been idle. I've read some books, perused several articles that greatly impacted me, participated in some interesting activities, tinkered with many intriguing things, rebuilt my knowledge management system, and made orderly progress in both my main work and additional interests. There have been many interesting developments.
+Die Zeit ist wie im Flug vergangen, und zwei bis drei Wochen sind unbemerkt verstrichen. Ich tröste mich damit, dass eine wöchentliche Verschiebung jedes Beitrags bald die wöchentlichen Updates wiederherstellen wird. Diese Wochen waren jedoch nicht untätig. Ich habe einige Bücher gelesen, mehrere Artikel durchgesehen, die mich stark beeinflusst haben, an einigen interessanten Aktivitäten teilgenommen, mit vielen faszinierenden Dingen herumexperimentiert, mein Wissensmanagement-System neu aufgebaut und sowohl in meiner Hauptarbeit als auch bei zusätzlichen Interessen geordnete Fortschritte gemacht. Es gab viele interessante Entwicklungen.
 
-## Personal Information Acquisition and Knowledge Management System
+## Persönliches Informationserfassungs- und Wissensmanagement-System
 
-Since my post "Weekly Review #25 - Personal Information Output and Synchronization System Based on Crossbell (Reconstruction)", I've been quite satisfied with my information output synchronization system. It has been able to drive input through output, thereby increasing the process of information filtering and reflection. However, as mentioned in that post, I only streamlined and filtered information sources, coupled with a simple tag system and limited bidirectional links. I hadn't really done much digestion and reflection on the input information. When writing weekly reviews or articles, I often recalled based on titles. Due to the reflection I usually did while reading, it wasn't too strenuous.
+Seit meinem Beitrag "Wochenrückblick #25 - Persönliches Informationsausgabe- und Synchronisationssystem basierend auf Crossbell (Rekonstruktion)" bin ich mit meinem Informationsausgabe-Synchronisationssystem recht zufrieden. Es konnte durch Output den Input vorantreiben und dadurch den Prozess der Informationsfilterung und Reflexion verstärken. Wie in diesem Beitrag erwähnt, habe ich jedoch nur die Informationsquellen gestrafft und gefiltert, gekoppelt mit einem einfachen Tag-System und begrenzten bidirektionalen Links. Ich hatte nicht wirklich viel Verdauung und Reflexion über die eingehenden Informationen betrieben. Beim Schreiben von Wochenrückblicken oder Artikeln erinnerte ich mich oft nur anhand der Titel. Aufgrund der Reflexion, die ich normalerweise beim Lesen durchführte, war es nicht zu anstrengend.
 
-However, as I picked up many previously interesting directions and goals, the time and energy costs for processing and digesting this information have increased. Coincidentally, I saw that P.J. Wu had joined Heptabase, which led me to revisit his article "My Personal Knowledge Management System" from a few months ago, as well as Indigo's "Feynman Learning Method in Practice / INDIGO's Information Acquisition and Knowledge Output Methodology". This inspired me to reconstruct my knowledge management system, especially on the input side.
+Als ich jedoch viele zuvor interessante Richtungen und Ziele wieder aufnahm, stiegen die Zeit- und Energiekosten für die Verarbeitung und Verdauung dieser Informationen. Zufälligerweise sah ich, dass P.J. Wu Heptabase beigetreten war, was mich dazu brachte, seinen Artikel "Mein persönliches Wissensmanagement-System" von vor einigen Monaten sowie Indigos "Feynman-Lernmethode in der Praxis / INDIGOs Methodik zur Informationserfassung und Wissensausgabe" erneut zu besuchen. Dies inspirierte mich dazu, mein Wissensmanagement-System neu aufzubauen, insbesondere auf der Eingabeseite.
 
-The final result is very satisfying. I initially wanted to write some specific details here, but as I wrote, it became increasingly expansive. So I've separated it into another article, "Personal Information Acquisition and Knowledge Management System (Heptabase + Logseq + Readwise)".
+Das Endergebnis ist sehr zufriedenstellend. Ich wollte ursprünglich hier einige spezifische Details schreiben, aber während ich schrieb, wurde es immer umfangreicher. Daher habe ich es in einen anderen Artikel ausgegliedert: "Persönliches Informationserfassungs- und Wissensmanagement-System (Heptabase + Logseq + Readwise)".
 
-## The Meaning of Choice
+## Die Bedeutung der Wahl
 
-These days, I read an article by Justin Yan titled "Everyone Only Has 24 Hours a Day, I Hope My Choices Are Really My Choices". It mentions several times the concept of "exploring inward, finding what you want". This reminded me of the concept of "introspection and external seeking" that I had previously pondered:
+In diesen Tagen las ich einen Artikel von Justin Yan mit dem Titel "Jeder hat nur 24 Stunden am Tag, ich hoffe, meine Entscheidungen sind wirklich meine eigenen". Er erwähnt mehrmals das Konzept des "nach innen Erforschens, um herauszufinden, was man will". Dies erinnerte mich an das Konzept der "Introspektion und äußeren Suche", über das ich zuvor nachgedacht hatte:
 
-> As humans, our focus is often divided between internal and external aspects. Comparatively, external focus tends to dominate due to its stimulating nature and positive feedback, while internal focus is often easily overlooked.
+> Als Menschen ist unsere Aufmerksamkeit oft zwischen inneren und äußeren Aspekten geteilt. Vergleichsweise dominiert die äußere Konzentration aufgrund ihrer stimulierenden Natur und positiven Rückmeldung, während die innere Konzentration oft leicht übersehen wird.
 
-External seeking always seems to have some answers, while introspection has no endpoint. But internal seeking is always accompanied by self-analysis and harm, a behavior that is more contrary to self-protection instincts and human nature. I used to fear this and worry about never finding meaning and falling into an abyss. But now it seems that as long as one is still questioning and thinking, everything still has meaning. Conversely, losing one's inner core, losing the curiosity and drive to explore oneself, is what's truly frightening and unbearable.
+Die äußere Suche scheint immer einige Antworten zu haben, während die Introspektion kein Endpunkt hat. Aber die innere Suche wird immer von Selbstanalyse und Schaden begleitet, ein Verhalten, das mehr im Widerspruch zu Selbstschutzinstinkten und der menschlichen Natur steht. Ich fürchtete mich früher davor und sorgte mich, nie Sinn zu finden und in einen Abgrund zu fallen. Aber jetzt scheint es, dass solange man noch hinterfragt und nachdenkt, alles noch Bedeutung hat. Umgekehrt ist der Verlust des inneren Kerns, der Verlust der Neugier und des Antriebs, sich selbst zu erforschen, das, was wirklich erschreckend und unerträglich ist.
 
-> This way of peeping at other people's lives through the small holes of social networks easily magnifies others' real experiences.
+> Diese Art, das Leben anderer Menschen durch die kleinen Löcher sozialer Netzwerke zu beobachten, vergrößert leicht die realen Erfahrungen anderer.
 
-I also saw a description of magnifying others, which is very real. This isn't just true for networks. For a long time in university and afterwards, I tended to choose someone I admired at the time to catch up with, always feeling that they had what I desperately wanted. But after truly "surpassing" them, I realized it was all meaningless. What I was chasing was merely a magnified shadow. To fill this void, I had to choose again. Becoming someone else is ultimately a shortcut and laziness, and often takes you further away from who you truly want to become.
+Ich sah auch eine Beschreibung der Vergrößerung anderer, was sehr real ist. Das gilt nicht nur für Netzwerke. Lange Zeit an der Universität und danach neigte ich dazu, jemanden zu wählen, den ich zu dieser Zeit bewunderte, um aufzuholen, immer mit dem Gefühl, dass sie hatten, was ich verzweifelt wollte. Aber nachdem ich sie wirklich "übertroffen" hatte, erkannte ich, dass alles bedeutungslos war. Was ich jagte, war lediglich ein vergrößerter Schatten. Um diese Leere zu füllen, musste ich wieder wählen. Jemand anderes zu werden, ist letztendlich eine Abkürzung und Faulheit und bringt einen oft weiter weg von dem, wer man wirklich werden möchte.
 
-## Reading and Book Notes
+## Lesen und Buchnotizen
 
-This week, I started reading and writing more. The main book I'm reading is "Building a Second Brain" by Tiago Forte, and I've also read many articles. Actually, I didn't used to focus much on taking reading notes. I mostly relied on digesting information while reading, forming my own internal thoughts. The advantage of this method is that it makes me more focused when reading and increases absorption efficiency. However, I've been neglecting the review and internalization part. As time passes, it becomes less easy to remember. Now I use WeChat Reading + Notepal + Readwise to record my highlights and corresponding thoughts. At the same time, in Heptabase and Logseq, each book has a corresponding page for writing some more general or scattered related thoughts. Because it's a card mechanism, it's also convenient to retrieve and associate these note fragments.
+Diese Woche habe ich angefangen, mehr zu lesen und zu schreiben. Das Hauptbuch, das ich lese, ist "Building a Second Brain" von Tiago Forte, und ich habe auch viele Artikel gelesen. Tatsächlich habe ich mich früher nicht sehr auf das Machen von Lesenotizen konzentriert. Ich verließ mich meist darauf, Informationen während des Lesens zu verdauen und meine eigenen internen Gedanken zu bilden. Der Vorteil dieser Methode ist, dass sie mich beim Lesen fokussierter macht und die Aufnahmeeffizienz erhöht. Allerdings habe ich den Überprüfungs- und Verinnerlichungsteil vernachlässigt. Mit der Zeit wird es weniger leicht, sich zu erinnern. Jetzt benutze ich WeChat Reading + Notepal + Readwise, um meine Highlights und entsprechenden Gedanken aufzuzeichnen. Gleichzeitig hat in Heptabase und Logseq jedes Buch eine entsprechende Seite zum Schreiben einiger allgemeinerer oder verstreuter zugehöriger Gedanken. Da es sich um einen Kartenmechanismus handelt, ist es auch bequem, diese Notizfragmente abzurufen und zu verknüpfen.
 
-> "When you're preparing to learn new knowledge, you must stand in the position of the instructor, assuming you're going to explain this knowledge to others."
+> "Wenn du dich darauf vorbereitest, neues Wissen zu lernen, musst du dich in die Position des Lehrers versetzen, als würdest du dieses Wissen anderen erklären."
 
-> Learning to output encourages our brains to use the second mode more: "Forcibly establishing connections between different concepts is also a specialty of the brain."
+> Das Lernen zu produzieren, ermutigt unser Gehirn, den zweiten Modus mehr zu nutzen: "Das zwangsweise Herstellen von Verbindungen zwischen verschiedenen Konzepten ist auch eine Spezialität des Gehirns."
 
-I've been concentrating on reading about information acquisition and knowledge management, which has reinforced the concept of the Feynman learning method. This aligns closely with my approach of using output to drive input, which has indeed been a very useful method. It wasn't until after seeing the concept that I realized I was actually practicing this concept.
+Ich habe mich auf das Lesen über Informationserfassung und Wissensmanagement konzentriert, was das Konzept der Feynman-Lernmethode verstärkt hat. Dies stimmt eng mit meinem Ansatz überein, Output zu nutzen, um Input anzutreiben, was in der Tat eine sehr nützliche Methode war. Erst nachdem ich das Konzept gesehen hatte, erkannte ich, dass ich dieses Konzept tatsächlich praktizierte.
 
-In the current era, we've long since reached information overload. Logseq's bidirectional links, P.A.R.A. theory, and Heptabase's whiteboard are all trying to follow some of the brain's thinking logic to achieve this. My practice is to create scattered card information from different concepts and information points, accumulate enough to modularize and organize frameworks from these information points, and start creating articles when the framework is clear enough. In the process of creating articles, I also review this knowledge and the connections between them, not only for current memory but also for future recall. As a description of note-taking that I really like says:
+In der heutigen Zeit haben wir längst eine Informationsüberflutung erreicht. Logseqs bidirektionale Links, die P.A.R.A-Theorie und Heptabases Whiteboard versuchen alle, einiger der Denklogik des Gehirns zu folgen, um dies zu erreichen. Meine Praxis besteht darin, verstreute Karteninformationen aus verschiedenen Konzepten und Informationspunkten zu erstellen, genug anzusammeln, um aus diesen Informationspunkten zu modularisieren und Rahmenwerke zu organisieren, und mit der Erstellung von Artikeln zu beginnen, wenn der Rahmen klar genug ist. Im Prozess der Artikelerstellung überprüfe ich auch dieses Wissen und die Verbindungen zwischen ihnen, nicht nur für das aktuelle Gedächtnis, sondern auch für zukünftige Erinnerungen. Wie eine Beschreibung des Notizenmachens, die ich wirklich mag, sagt:
 
-> Note taking is building a relationship with a future version of yourself.
+> Notizen machen bedeutet, eine Beziehung zu einer zukünftigen Version von sich selbst aufzubauen.
 
-## Personal Life Snapshots
+## Persönliche Lebensschnappschüsse
 
 ![love_and_food_in_beijing](https://image.pseudoyu.com/images/love_and_food_in_beijing.jpg)
 
-I spent the Qixi Festival in Beijing. Due to being a bit busy, we didn't go out to eat. My girlfriend made a simple meal, adding a little ritual to life. Then I set up Apple TV + Surge tvOS client for her, so we can watch YouTube and Netflix directly on the TV. We were very happy!
+Ich verbrachte das Qixi-Fest in Peking. Da wir etwas beschäftigt waren, gingen wir nicht essen. Meine Freundin bereitete eine einfache Mahlzeit zu und fügte dem Leben ein wenig Ritual hinzu. Dann richtete ich Apple TV + Surge tvOS-Client für sie ein, damit wir YouTube und Netflix direkt auf dem Fernseher anschauen können. Wir waren sehr glücklich!
 
 ![hangzhou_rust_meetup](https://image.pseudoyu.com/images/hangzhou_rust_meetup.jpg)
 
-After staying for a week, I hurriedly returned to Hangzhou to attend a Rust event organized by a friend. I seem to have gotten a bit used to traveling back and forth to Beijing, and have started living a "tale of two cities" life. Emotionally, I've also relaxed a lot more, and am more willing to participate in various fun activities and try new things.
+Nach einem einwöchigen Aufenthalt kehrte ich eilig nach Hangzhou zurück, um an einer von einem Freund organisierten Rust-Veranstaltung teilzunehmen. Ich scheine mich ein wenig an das Hin- und Herreisen nach Peking gewöhnt zu haben und habe begonnen, ein "Leben in zwei Städten" zu führen. Emotional habe ich mich auch viel mehr entspannt und bin eher bereit, an verschiedenen unterhaltsamen Aktivitäten teilzunehmen und neue Dinge auszuprobieren.
 
-During the week, I went to Liangzhu for remote work with everyone. I met STRRL, Tuoding, Zhizi, and others. I regret a bit not renting a house there, it was too much fun!
+Während der Woche ging ich mit allen nach Liangzhu zum Arbeiten aus der Ferne. Ich traf STRRL, Tuoding, Zhizi und andere. Ich bereue ein bisschen, dort kein Haus gemietet zu haben, es war zu viel Spaß!
 
 ![love_charge_base](https://image.pseudoyu.com/images/love_charge_base.jpg)
 
-I received my girlfriend's Qixi gift only after arriving in Hangzhou, a super cool transparent power bank. I even brought it to show off (~~brag~~) to everyone when I went for remote work, haha. It felt like the childhood feeling of finally receiving a beloved toy.
+Ich erhielt das Qixi-Geschenk meiner Freundin erst nach der Ankunft in Hangzhou, eine super coole transparente Powerbank. Ich brachte sie sogar mit, um sie allen zu zeigen (~~anzugeben~~), als ich zur Fernarbeit ging, haha. Es fühlte sich an wie das Kindheitsgefühl, endlich ein geliebtes Spielzeug zu erhalten.
 
 ![nie_nie_hide_behind_chair](https://image.pseudoyu.com/images/nie_nie_hide_behind_chair.jpg)
 
 ![nie_nie_with_food](https://image.pseudoyu.com/images/nie_nie_with_food.jpg)
 
-My sister, who is currently on summer vacation, wanted to play with Nie Nie, so I didn't bring her home that early. After coming back, she's still very clingy. As I write this, I suddenly realized that Nie Nie has been with me for over 10 months now. Time flies so fast, she's already over a year old, shedding some of her childishness. But time also passes slowly; it seems like yesterday when she was hiding in the cabinet, afraid to come out when I first brought her home. The days we've spent together have been slow, quiet, and beautiful.
+Meine Schwester, die gerade Sommerferien hat, wollte mit Nie Nie spielen, also brachte ich sie nicht so früh nach Hause. Nach der Rückkehr ist sie immer noch sehr anhänglich. Während ich dies schreibe, wurde mir plötzlich bewusst, dass Nie Nie jetzt schon über 10 Monate bei mir ist. Die Zeit vergeht so schnell, sie ist bereits über ein Jahr alt und hat etwas von ihrer Kindlichkeit verloren. Aber die Zeit vergeht auch langsam; es scheint wie gestern, als sie sich im Schrank versteckte und Angst hatte herauszukommen, als ich sie zum ersten Mal nach Hause brachte. Die Tage, die wir zusammen verbracht haben, waren langsam, ruhig und schön.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### MuChiangMai
 
 ![muchiangmai_offer](https://image.pseudoyu.com/images/muchiangmai_offer.jpg)
 
-I applied to be a mentor for the MuChiangMai event. I can exchange teaching three workshop sessions for free accommodation! I'll probably go to Chiang Mai to be a digital nomad for a few weeks in October. While I'm looking forward to it, I'm still a bit nervous about teaching in all English. I need to prepare in advance, it's a new challenge.
+Ich habe mich als Mentor für die MuChiangMai-Veranstaltung beworben. Ich kann drei Workshop-Sitzungen unterrichten im Austausch für kostenlose Unterkunft! Ich werde wahrscheinlich im Oktober für ein paar Wochen als digitaler Nomade nach Chiang Mai gehen. Während ich mich darauf freue, bin ich immer noch etwas nervös, ganz auf Englisch zu unterrichten. Ich muss mich im Voraus vorbereiten, es ist eine neue Herausforderung.
 
-### Others
+### Andere
 
-### Input
+### Eingabe
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
+Obwohl die meisten interessanten Eingaben automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auflisten. Es fühlt sich mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- **Building a Second Brain**, I'm building my own knowledge management system based on his theory.
+- **Building a Second Brain**, Ich baue mein eigenes Wissensmanagement-System basierend auf seiner Theorie auf.
 
-#### Articles
+#### Artikel
 
-- [A Month Without Using Social Networks/Video Websites | Report · Tianxianzi](https://tianxianzi.me/2023/08/16/experiment_1/)
-- [Elegant Use of Cloudflare WARP to Address RSSHub Anti-Crawling Issues - DIYgod](https://diygod.cc/rsshub-with-warp)
-- [Positioning for the Cancun Upgrade, Which is the Better Choice Between OP and ARB? - Mint Ventures](https://research.mintventures.fund/2023/08/13/zh-op-vs-arb-which-is-the-better-inverstment-target-for-cancun-upgrade/)
-- [My Personal Website is My Social Network](https://www.robertmao.com/comments/blog/wo-de-ge-ren-zhan-dian-jiu-shi-wo-de-she-jiao-wang-luo)
-- [How the iMac saved Apple - The Verge](https://www.theverge.com/23830432/imac-twenty-five-years-ago-saved-apple)
-- [Black Myth: Wukong Hands-On Preview | IGN China](https://mp.weixin.qq.com/s/d9xVuvJ0Dos9T8cBbSOfog)
-- [Free Personal Domain Email Solution - Just lepture](https://lepture.com/zh/2023/free-email-provider)
-- [Heptabase Introduction - A Powerful Knowledge Management Tool Based on Cards - Pin It!](https://pinchlime.com/2022/02/27/heptabase-introduction/)
-- [My Personal Knowledge Management System - Pin It!](https://pinchlime.com/blog/my-personal-knowledge-management-system-2023/)
-- [The Sound of Apes Doesn't Stop on Both Banks, A Light Boat Has Already Passed Ten Thousand Mountains—My Quarter of Life - This Cute World](https://thiscute.world/posts/a-quarter-of-the-way-through-life/)
-- [25 | Homura's Blog](https://homura.live/2023/08/23/Life/25/index.html)
-- [How Do I Use Heptabase to Record Ideas and Inspirations? – Metaverse](https://hyuanverse.com/how-to-capture-ideas-with-heptabase/)
-- [How Heptabase's founder use Heptabase for learning, research, planning, and writing | Heptabase Public Wiki](https://wiki.heptabase.com/how-Heptabases-founder-use-Heptabase-for-learning)
-- [The 4 Levels of Personal Knowledge Management - Forte Labs](https://fortelabs.com/blog/the-4-levels-of-personal-knowledge-management/)
-- [Everything About TLS/SSL Certificates | Cowabunga!](https://www.kawabangga.com/posts/5330)
-- [Why note-taking apps don't make us smarter - The Verge](https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian)
-- [Making Machines Understand the World / Human Leap in the GPT Era · Translator's Preface](https://www.indigox.me/make-machine-understand-the-world/)
-- [Everyone Only Has 24 Hours a Day, I Hope My Choices Are Really My Choices | Justin's Words](https://justinyan.me/post/5790)
-- [Feynman Learning Method in Practice / INDIGO's Information Acquisition and Knowledge Output Methodology](https://www.indigox.me/feynman-technique-in-practice/)
+- [Ein Monat ohne Nutzung sozialer Netzwerke/Video-Websites | Bericht · Tianxianzi](https://tianxianzi.me/2023/08/16/experiment_1/)
+- [Elegante Nutzung von Cloudflare WARP zur Lösung von RSSHub Anti-Crawling-Problemen - DIYgod](https://diygod.cc/rsshub-with-warp)
+- [Positionierung für das Cancun-Upgrade, Welche ist die bessere Wahl zwischen OP und ARB? - Mint Ventures](https://research.mintventures.fund/2023/08/13/zh-op-vs-arb-which-is-the-better-inverstment-target-for-cancun-upgrade/)
+- [Meine persönliche Website ist mein soziales Netzwerk](https://www.robertmao.com/comments/blog/wo-de-ge-ren-zhan-dian-jiu-shi-wo-de-she-jiao-wang-luo)
+- [Wie der iMac Apple rettete - The Verge](https://www.theverge.com/23830432/imac-twenty-five-years-ago-saved-apple)
+- [Black Myth: Wukong Hands-On Vorschau | IGN China](https://mp.weixin.qq.com/s/d9xVuvJ0Dos9T8cBbSOfog)
+- [Kostenlose Lösung für persönliche Domain-E-Mail - Just lepture](https://lepture.com/zh/2023/free-email-provider)
+- [Heptabase Einführung - Ein leistungsstarkes Wissensmanagement-Tool basierend auf Karten - Pin It!](https://pinchlime.com/2022/02/27/heptabase-introduction/)
+- [Mein persönliches Wissensmanagement-System - Pin It!](https://pinchlime.com/blog/my-personal-knowledge-management-system-2023/)
+- [Der Klang der Affen verstummt nicht an beiden Ufern, Ein leichtes Boot hat bereits zehntausend Berge passiert—Mein Vierteljahrhundert - Diese niedliche Welt](https://thiscute.world/posts/a-quarter-of-the-way-through-life/)
+- [25 | Homuras Blog](https://homura.live/2023/08/23/Life/25/index.html)
+- [Wie nutze ich Heptabase, um Ideen und Inspirationen aufzuzeichnen? – Metaverse](https://hyuanverse.com/how-to-capture-ideas-with-heptabase/)
+- [Wie der Gründer von Heptabase Heptabase zum Lernen, Forschen, Planen und Schreiben nutzt | Heptabase Public Wiki](https://wiki.heptabase.com/how-Heptabases-founder-use-Heptabase-for-learning)
+- [Die 4 Ebenen des persönlichen Wissensmanagements - Forte Labs](https://fortelabs.com/blog/the-4-levels-of-personal-knowledge-management/)
+- [Alles über TLS/SSL-Zertifikate | Cowabunga!](https://www.kawabangga.com/posts/5330)
+- [Warum Notiz-Apps uns nicht klüger machen - The Verge](https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian)
+- [Maschinen das Verstehen der Welt beibringen / Der Sprung des Menschen im GPT-Zeitalter · Vorwort des Übersetzers](https://www.indigox.me/make-machine-understand-the-world/)
+- [Jeder hat nur 24 Stunden am Tag, ich hoffe, meine Entscheidungen sind wirklich meine eigenen | Justins Worte](https://justinyan.me/post/5790)
+- [Feynman-Lernmethode in der Praxis / INDIGOs Methodik zur Informationserfassung und Wissensausgabe](https://www.indigox.me/feynman-technique-in-practice/)
 
 #### Videos
 
-- [A Place Called Cat Island, Where There Will Be No More Cats | Midsummer Kansai](https://www.bilibili.com/video/BV1fh4y1Q7j8)
-- [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6)](https://www.youtube.com/watch?v=umepbfKp5rI)
-- [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (7 - 11)](https://www.youtube.com/watch?v=sas02qSFZ74)
-- [300 Days, 40,000 Kilometers Across China, The Drifting Camera Finally Came Back!](https://www.bilibili.com/video/BV1gF41117fN)
-- [Chat with Web3 Practitioners #1 | Current Status of Algorithm Development in Web3 Industry | What Businesses in Web3 Need Algorithms | Impact Brought by ChatGPT](https://www.bilibili.com/video/BV1T84y1Z7k2)
-- [To Complete Game Development, We Developed a Game? And Even Opened a Game Museum? — This is Gamker's Most Important Video to Date](https://www.bilibili.com/video/BV1Wr4y1R785)
-- [【2023】The Entrepreneurial Story of a Top 100 UP (2)](https://www.bilibili.com/video/BV17u411E7UK)
-- [Thirty Years of Russian Hackers](https://www.bilibili.com/video/BV1uu4y1X7FX)
-- [Portable and Good-looking Retro Camera Strikes Again, Backstabbing A7M4? | A7C2 First Review](https://www.bilibili.com/video/BV1A8411z79x)
-- [Conversation with Nolan! Director Personally Reveals 6 Secrets of "Oppenheimer"](https://www.bilibili.com/video/BV1o34y1K7n3)
-- [Chat About Black Myth: Wukong: Media's View on It](https://www.youtube.com/watch?v=Oc2S8Rs1_P8)
-- [People-pleasing Personality, Confrontational Personality, Solitary Personality, Which One Are You?](https://www.bilibili.com/video/BV1hu4y1C7hP)
-- [Ten Questions to Understand Business 【Learn to Quickly Investigate (Part 2)】](https://www.bilibili.com/video/BV14w411D7qk)
-- [Why Does "Baldur's Gate 3" Have to Be Turn-based? What's the Significance of Its Hot Sales? 【Just Play Games 2023】](https://www.bilibili.com/video/BV1Eu4y1y74i)
-- [Chat with Web3 Practitioners #3 | It's So Interesting to Chat with Experts | Come and See What Experts Look Like](https://www.bilibili.com/video/BV1oN4y1X73H)
+- [Ein Ort namens Katzeninsel, wo es keine Katzen mehr geben wird | Hochsommer Kansai](https://www.bilibili.com/video/BV1fh4y1Q7j8)
+- [Lerne Solidity, Blockchain-Entwicklung & Smart Contracts | Powered By AI - Vollständiger Kurs (0 - 6)](https://www.youtube.com/watch?v=umepbfKp5rI)
+- [Lerne Solidity, Blockchain-Entwicklung & Smart Contracts | Powered By AI - Vollständiger Kurs (7 - 11)](https://www.youtube.com/watch?v=sas02qSFZ74)
+- [300 Tage, 40.000 Kilometer quer durch China, Die treibende Kamera kam endlich zurück!](https://www.bilibili.com/video/BV1gF41117fN)
+- [Chat mit Web3-Praktikern #1 | Aktueller Status der Algorithmusentwicklung in der Web3-Branche | Welche Geschäfte in Web3 Algorithmen benötigen | Auswirkungen von ChatGPT](https://www.bilibili.com/video/BV1T84y1Z7k2)
+- [Um die Spielentwicklung abzuschließen, haben wir ein Spiel entwickelt? Und sogar ein Spielemuseum eröffnet? — Dies ist Gamkers bisher wichtigstes Video](https://www.bilibili.com/video/BV1Wr4y1R785)
+- [【2023】Die Gründergeschichte eines Top 100 UP (2)](https://www.bilibili.com/video/BV17u411E7UK)
+- [Dreißig Jahre russischer Hacker](https://www.bilibili.com/video/BV1uu4y1X7FX)
+- [Tragbare und gut aussehende Retro-Kamera schlägt wieder zu, hintergeht A7M4? | A7C2 Erste Rezension](https://www.bilibili.com/video/BV1A8411z79x)
+- [Gespräch mit Nolan! Regisseur enthüllt persönlich 6 Geheimnisse von "Oppenheimer"](https://www.bilibili.com/video/BV1o34y1K7n3)
+- [Chat über Black Myth: Wukong: Die Sicht der Medien darauf](https://www.youtube.com/watch?v=Oc2S8Rs1_P8)
+- [Gefallsüchtige Persönlichkeit, konfrontative Persönlichkeit, einsame Persönlichkeit, welche bist du?](https://www.bilibili.com/video/BV1hu4y1C7hP)
+- [Zehn Fragen zum Verständnis von Unternehmen 【Lerne schnell zu untersuchen (Teil 2)】](https://www.bilibili.com/video/BV14w411D7qk)
+- [Warum muss "Baldur's Gate 3" rundenbasiert sein? Was ist die Bedeutung seiner heißen Verkäufe? 【Spiele einfach 2023】](https://www.bilibili.com/video/BV1Eu4y1y74i)
+- [Chat mit Web3-Praktikern #3 | Es ist so interessant, mit Experten zu chatten | Komm und sieh, wie Experten aussehen](https://www.bilibili.com/video/BV1oN4y1X73H)
 
 #### Podcasts
 
-- [AI & Crypto](https://web3-with-a16z.simplecast.com/episodes/ai-crypto-centralization-decentralization)
+- [KI & Krypto](https://web3-with-a16z.simplecast.com/episodes/ai-crypto-centralization-decentralization)
 
 #### Anime
 
-- **Oshi no Ko**, supplementary tag. I watched it when it was airing as a new series, couldn't stop after two episodes. I really liked the pace and direction, and the whole emotion came up during the segment where love was imitated in the middle episode. Looking forward to the next season.
+- **Oshi no Ko**, ergänzendes Tag. Ich habe es gesehen, als es als neue Serie ausgestrahlt wurde, konnte nach zwei Episoden nicht mehr aufhören. Ich mochte das Tempo und die Richtung wirklich, und die ganze Emotion kam während des Segments auf, in dem in der mittleren Episode Liebe imitiert wurde. Ich freue mich auf die nächste Staffel.
 
-#### TV Series
+#### TV-Serien
 
-- **The Long Season**, supplementary tag. I watched this a long time ago. Chinese dramas often exceed my expectations. The plot rhythm and emotional tension were quite sufficient. I watched it in one go and still wanted more.
+- **Die lange Jahreszeit**, ergänzendes Tag. Ich habe dies vor langer Zeit gesehen. Chinesische Dramen übertreffen oft meine Erwartungen. Der Handlungsrhythmus und die emotionale Spannung waren ziemlich ausreichend. Ich habe es in einem Zug geschaut und wollte immer noch mehr.
 
-- **The Disguiser**, I occasionally come across some mixed cuts on Bilibili. Because I like the cast of Nirvana in Fire so much, I intended to play it as background music for a few weekends, but was deeply attracted by the plot. I actually quite like that era and this theme. It has a bit of the feeling of "The Invisible Guardian" that I played a long time ago, but obviously I still prefer the settings and personalities of Zhuang Xiaoman in the game and Yu Manli in the drama, so I felt quite heartbroken and regretful towards the end.
+- **Der Verkleidete**, ich stoße gelegentlich auf einige gemischte Schnitte auf Bilibili. Weil ich die Besetzung von Nirvana in Fire so sehr mag, beabsichtigte ich, es als Hintergrundmusik für ein paar Wochenenden zu spielen, wurde aber von der Handlung tief angezogen. Ich mag diese Ära und dieses Thema tatsächlich ziemlich. Es hat ein bisschen das Gefühl von "Der unsichtbare Wächter", das ich vor langer Zeit gespielt habe, aber offensichtlich bevorzuge ich immer noch die Einstellungen und Persönlichkeiten von Zhuang Xiaoman im Spiel und Yu Manli im Drama, also fühlte ich mich gegen Ende ziemlich gebrochen und bedauerlich.
 
-- **The World's #1 Web Celebrity**, I recently set up Netflix to watch directly on Apple TV. I randomly clicked on this popular show while tinkering and eating. The female lead's style and outfits are really nice, everything else is quite bad.
+- **Die Welt-Nummer-1-Web-Berühmtheit**, ich habe kürzlich Netflix eingerichtet, um direkt auf Apple TV zu schauen. Ich habe zufällig auf diese beliebte Show geklickt, während ich herumbastelte und aß. Der Stil und die Outfits der weiblichen Hauptdarstellerin sind wirklich schön, alles andere ist ziemlich schlecht.
 
-- **Inside Bill's Brain: Decoding Bill Gates**, I resumed my habit of watching documentaries during lunch. I randomly opened this, originally thinking it would talk about his glorious history and Microsoft empire. However, it talked a lot about poverty, charity, broken friendships, daily life. I was quite surprised to see this side. Overall, it's quite worth watching.
+- **Inside Bill's Brain: Decoding Bill Gates**, ich habe meine Gewohnheit wieder aufgenommen, Dokumentationen während des Mittagessens zu schauen. Ich öffnete dies zufällig und dachte ursprünglich, es würde von seiner glorreichen Geschichte und dem Microsoft-Imperium erzählen. Es sprach jedoch viel über Armut, Wohltätigkeit, zerbrochene Freundschaften, das tägliche Leben. Ich war ziemlich überrascht, diese Seite zu sehen. Insgesamt ist es ziemlich sehenswert.

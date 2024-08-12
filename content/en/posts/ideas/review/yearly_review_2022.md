@@ -170,7 +170,7 @@ Thank you to these friends for not minding me.
 
 ![yu_2022_review_tg](https://image.pseudoyu.com/images/yu_2022_review_tg.png)
 
-In a previous weekly review "Weekly Report #12 - Cyberspace, Self-Definition and Boundaries", I mentioned that I had set up my own Telegram channel to synchronize my various Twitter posts, comments, likes, etc. Originally, it was just an archive for me to find material for my weekly reports, but before I knew it, it had 251 subscribers. I've also received thanks from some of them for my channel. It seems that some things I did unintentionally have created some value for others. I'm surprised and will continue to persist in outputting.
+In a previous weekly review "Weekly Review #12 - Cyberspace, Self-Definition and Boundaries", I mentioned that I had set up my own Telegram channel to synchronize my various Twitter posts, comments, likes, etc. Originally, it was just an archive for me to find material for my weekly reports, but before I knew it, it had 251 subscribers. I've also received thanks from some of them for my channel. It seems that some things I did unintentionally have created some value for others. I'm surprised and will continue to persist in outputting.
 
 ### GitHub
 

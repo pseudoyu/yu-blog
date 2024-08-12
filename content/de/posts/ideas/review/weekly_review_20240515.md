@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #59 - Desert Journey, Family and Kin"
+title: "Wochenrückblick #59 - Wüstenreise, Familie und Verwandtschaft"
 date: 2024-05-15T16:30:00+08:00
 draft: false
 tags: ["review", "life", "city", "hangzhou", "love", "family", "desert", "inner-mongolia", "trip"]
@@ -10,91 +10,91 @@ authors:
 
 {{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240515](https://image.pseudoyu.com/images/weekly_review_20240515.png)
 
-This piece chronicles my life and reflections from May 1st to May 15th, 2024.
+Dieser Beitrag zeichnet mein Leben und meine Gedanken vom 1. bis 15. Mai 2024 auf.
 
-During the May Day holiday, I traveled to Inner Mongolia with my family. It wasn't until we set off that I realized this was the first time we had ventured on a distant journey together. Previously, our furthest excursion had been a drive to Shanghai Disneyland. It was quite a different experience. Thus, in this piece, I'd like to discuss family and kinship, as well as an unforgettable desert expedition.
+Während des Mai-Feiertags reiste ich mit meiner Familie in die Innere Mongolei. Erst bei der Abreise wurde mir bewusst, dass dies unsere erste gemeinsame Fernreise war. Zuvor war unser weitester Ausflug eine Fahrt zum Disneyland Shanghai gewesen. Es war eine ganz andere Erfahrung. Daher möchte ich in diesem Beitrag über Familie und Verwandtschaft sowie über eine unvergessliche Wüstenexpedition sprechen.
 
-## Family and Kin
+## Familie und Verwandtschaft
 
 ![family_photo](https://image.pseudoyu.com/images/family_photo.jpg)
 
-Truth be told, I've never been one to cling to home. I grew up in my hometown until I was seven or eight, then transferred to school in Hangzhou. Perhaps due to missing some childhood moments of togetherness, there was initially a sense of estrangement between my parents and me.
+Um ehrlich zu sein, war ich nie jemand, der sehr an seinem Zuhause hing. Ich wuchs in meiner Heimatstadt auf, bis ich sieben oder acht Jahre alt war, dann wechselte ich auf eine Schule in Hangzhou. Vielleicht aufgrund der verpassten Momente des Zusammenseins in der Kindheit gab es anfänglich ein Gefühl der Entfremdung zwischen meinen Eltern und mir.
 
-As a child, I was academically mediocre, inarticulate, and often loitered in arcades. While I may not have been a troubled youth, I was far from being the obedient and sensible child. My parents are the most honest and harmonious people I've ever known. From my earliest memories to now, I've never witnessed them quarrel, either as individuals or as a couple, and they seldom reproached me.
+Als Kind war ich in der Schule mittelmäßig, unbeholfen im Ausdruck und hing oft in Spielhallen herum. Auch wenn ich kein schwieriger Jugendlicher war, war ich weit davon entfernt, ein folgsames und vernünftiges Kind zu sein. Meine Eltern sind die ehrlichsten und harmonischsten Menschen, die ich je kennengelernt habe. Von meinen frühesten Erinnerungen bis heute habe ich sie nie streiten sehen, weder untereinander noch als Paar, und sie tadelten mich selten.
 
-Around the age of twelve or thirteen, I seemed to suddenly mature. I began to focus on my studies and no longer caused my parents worry. From minor decisions like which subject to tutor, to major life-altering choices like forgoing a guaranteed college admission or filling out college applications, I made all decisions on my own. I realized early on that one must bear the consequences of their choices. My parents gave me the respect and freedom I deserved, but to my younger self, it felt like a lack of involvement and companionship. I even envied classmates who were "overly cared for" by their parents.
+Im Alter von etwa zwölf oder dreizehn Jahren schien ich plötzlich erwachsen zu werden. Ich begann, mich auf meine Studien zu konzentrieren und bereitete meinen Eltern keine Sorgen mehr. Von kleinen Entscheidungen wie der Wahl des Nachhilfefachs bis hin zu großen, lebensverändernden Entscheidungen wie dem Verzicht auf eine garantierte Collegeaufnahme oder dem Ausfüllen von Collegebewerbungen traf ich alle Entscheidungen selbst. Mir wurde früh klar, dass man die Konsequenzen seiner Entscheidungen selbst tragen muss. Meine Eltern gaben mir den Respekt und die Freiheit, die ich verdiente, aber für mein jüngeres Ich fühlte es sich wie mangelnde Beteiligung und Begleitung an. Ich beneidete sogar Klassenkameraden, die von ihren Eltern "überfürsorglich" behandelt wurden.
 
-After the college entrance exam, I wished to leave the familiar Jiangsu-Zhejiang-Shanghai region and see more of the world. So I went to Wuhan. My life thereafter seemed to take on a nomadic quality, with many instances of moving houses or hurriedly departing for another city. Yet, I rarely felt homesick.
+Nach der Hochschulaufnahmeprüfung wollte ich die vertraute Region Jiangsu-Zhejiang-Shanghai verlassen und mehr von der Welt sehen. Also ging ich nach Wuhan. Mein Leben danach schien eine nomadische Qualität anzunehmen, mit vielen Umzügen oder überstürzten Abreisen in eine andere Stadt. Dennoch verspürte ich selten Heimweh.
 
-Of course, my relationship with my parents is good. Sometimes, when passing through Hangzhou on business trips, even if it's late at night, we'll chat in the living room for hours about my recent experiences and thoughts. I'm also close to my sister, who chatters endlessly about interesting happenings at school when she sees me, and calls me first to boast when her grades improve. My parents are very caring towards me, driving thousands of kilometers to bring me back to Hangzhou from Beijing, and bringing me meals when I'm holed up at home.
+Natürlich ist meine Beziehung zu meinen Eltern gut. Manchmal, wenn ich auf Geschäftsreisen durch Hangzhou komme, unterhalten wir uns selbst spät in der Nacht stundenlang im Wohnzimmer über meine jüngsten Erfahrungen und Gedanken. Ich stehe auch meiner Schwester nahe, die endlos über interessante Ereignisse in der Schule plaudert, wenn sie mich sieht, und mich als Erste anruft, um anzugeben, wenn sich ihre Noten verbessern. Meine Eltern kümmern sich sehr um mich, fahren tausende Kilometer, um mich von Peking nach Hangzhou zurückzubringen, und bringen mir Mahlzeiten, wenn ich zu Hause festsitze.
 
-Perhaps because I've grown accustomed to relying only on myself for so long, we interact more like friends. Thus, it's been difficult for me to draw strength from familial affection. But as I've grown over the years, I've come to understand the more precious things they've given me, and I've become more grateful for their "letting go" back then, which gave me more courage and confidence in facing life's vast ocean.
+Vielleicht weil ich mich so lange daran gewöhnt habe, mich nur auf mich selbst zu verlassen, interagieren wir eher wie Freunde. Daher fiel es mir schwer, Kraft aus der familiären Zuneigung zu schöpfen. Aber im Laufe der Jahre habe ich begonnen zu verstehen, welch wertvollere Dinge sie mir gegeben haben, und ich bin dankbarer für ihr damaliges "Loslassen", das mir mehr Mut und Selbstvertrauen gab, um mich dem weiten Ozean des Lebens zu stellen.
 
-## Desert Journey
+## Wüstenreise
 
-However, I'm slowly exploring modes of family interaction. It wasn't until the initial period of the pandemic when I was at home, and these past few months living in Hangzhou, that I experienced more moments that could be considered "family bonding". Last summer, we went to Shanghai Disneyland together to celebrate my sister's birthday, and occasionally on weekend nights, the whole family would go out for hotpot. These seemingly ordinary events were indeed rare in my family's past twenty-some years.
+Allerdings erforsche ich langsam Formen der familiären Interaktion. Erst in der Anfangsphase der Pandemie, als ich zu Hause war, und in den letzten Monaten, in denen ich in Hangzhou lebte, erlebte ich mehr Momente, die man als "familiäres Beisammensein" bezeichnen könnte. Letzten Sommer fuhren wir gemeinsam nach Shanghai Disneyland, um den Geburtstag meiner Schwester zu feiern, und gelegentlich ging die ganze Familie an Wochenendabenden zum Hotpot essen. Diese scheinbar gewöhnlichen Ereignisse waren in der Tat selten in den vergangenen zwanzig und mehr Jahren meiner Familie.
 
-My parents came to Hangzhou in their early years, settling down and establishing careers here. Their hard work provided us with good material conditions and a comfortable family environment, but they neglected their own lives. As a result, we hardly ever traveled far together from my childhood to now. Both my sister and I are self-content by nature, so we never complained about this, but we still lacked some family memories and hardly have any family photos.
+Meine Eltern kamen in jungen Jahren nach Hangzhou, ließen sich nieder und bauten hier ihre Karrieren auf. Ihre harte Arbeit verschaffte uns gute materielle Bedingungen und ein komfortables familiäres Umfeld, aber sie vernachlässigten ihr eigenes Leben. Infolgedessen unternahmen wir von meiner Kindheit bis heute kaum weite Reisen zusammen. Sowohl meine Schwester als auch ich sind von Natur aus genügsam, also beschwerten wir uns nie darüber, aber es fehlten uns dennoch einige Familienerinnerungen und wir haben kaum Familienfotos.
 
-Recently, due to certain circumstances, we had to go to Inner Mongolia. Having long yearned to see the vast grasslands and deserts, we decided to go to Ordos, Inner Mongolia as a family.
+Kürzlich mussten wir aufgrund bestimmter Umstände in die Innere Mongolei reisen. Da wir uns schon lange danach sehnten, die weiten Grasländer und Wüsten zu sehen, beschlossen wir, als Familie nach Ordos in der Inneren Mongolei zu fahren.
 
 ![desert_family_01](https://image.pseudoyu.com/images/desert_family_01.png)
 
 ![desert_family_02](https://image.pseudoyu.com/images/desert_family_02.png)
 
-Having grown up in Jiangsu and Zhejiang, and with my later life trajectory barely deviating from the southeast coast, this was actually my first time seeing a desert. It easily reminded me of the "Dune" movie I had just watched.
+Da ich in Jiangsu und Zhejiang aufgewachsen bin und mein späterer Lebensweg kaum von der südöstlichen Küste abwich, war dies tatsächlich mein erstes Mal, dass ich eine Wüste sah. Es erinnerte mich unweigerlich an den Film "Dune", den ich gerade gesehen hatte.
 
-What matters is not the scenery itself, but the people who accompany you through these landscapes and the memories that settle in your heart together.
+Was zählt, ist nicht die Landschaft selbst, sondern die Menschen, die dich durch diese Landschaften begleiten, und die Erinnerungen, die sich gemeinsam in deinem Herzen festsetzen.
 
-## Miscellaneous
+## Verschiedenes
 
 ![me_with_nienie](https://image.pseudoyu.com/images/me_with_nienie.jpg)
 
-Recently, due to work pressures and some personal life questions, I've been feeling mentally tense. One afternoon, after finishing work, I turned my head to find Nini had been by my side all along, gazing at me intently. I felt a sense of healing. As our time together grows longer, it seems I've become more dependent on her presence.
+In letzter Zeit fühle ich mich aufgrund von Arbeitsdruck und einigen persönlichen Lebensfragen mental angespannt. An einem Nachmittag, nach Beendigung der Arbeit, drehte ich den Kopf und stellte fest, dass Nini die ganze Zeit neben mir gewesen war und mich aufmerksam anstarrte. Ich spürte ein Gefühl der Heilung. Je länger unsere gemeinsame Zeit wird, desto abhängiger scheint es, dass ich von ihrer Anwesenheit geworden bin.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter this way.
+Obwohl die meisten interessanten Inputs automatisch mit dem Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier noch einige auflisten. So fühlt es sich mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
-- [**Viktor Frankl's Autobiography**](https://book.douban.com/subject/26677130/), I read the wrong book. I feel that late-life autobiographies inevitably carry a lot of ego. The one I wanted to read should be another one 🥲
-- [**Kafka on the Shore**](https://book.douban.com/subject/30144095/), continuing to catch up on Murakami's books.
+- [**Viktor Frankls Autobiographie**](https://book.douban.com/subject/26677130/), ich habe das falsche Buch gelesen. Ich habe das Gefühl, dass Autobiografien aus dem späten Leben unweigerlich viel Ego mit sich bringen. Das, was ich lesen wollte, sollte ein anderes sein 🥲
+- [**Kafka am Strand**](https://book.douban.com/subject/30144095/), ich hole weiterhin Murakamis Bücher nach.
 
-#### Collections
+#### Sammlungen
 
-- [EpubKit Selected E-books](https://books.epubkit.app/)
+- [EpubKit Ausgewählte E-Books](https://books.epubkit.app/)
 
-#### Articles
+#### Artikel
 
-- [A Year of Drifting in Hangzhou](https://quakewang.github.io/life/24_04-one_year/)
-- [The Evolution of My Reading Habits](https://blog.douchi.space/reading-habbits/)
-- [Setting Off Again](https://blog.codingnow.com/2024/05/farewell.html)
-- [Ollama Architecture Analysis | Inoki in the World](https://blog.inoki.cc/2024/04/16/Ollama-cn/)
-- [May Day Reflections | Goidea](https://justgoidea.com/posts/2024-015/)
-- [The First Year of Not Working](https://lutaonan.com/blog/a-year-off-work/)
-- [Your customers hate MVPs. Make a SLC instead.](https://longform.asmartbear.com/slc)
+- [Ein Jahr des Umhertreibens in Hangzhou](https://quakewang.github.io/life/24_04-one_year/)
+- [Die Entwicklung meiner Lesegewohnheiten](https://blog.douchi.space/reading-habbits/)
+- [Erneuter Aufbruch](https://blog.codingnow.com/2024/05/farewell.html)
+- [Ollama Architekturanalyse | Inoki in der Welt](https://blog.inoki.cc/2024/04/16/Ollama-cn/)
+- [Reflexionen zum Mai-Feiertag | Goidea](https://justgoidea.com/posts/2024-015/)
+- [Das erste Jahr ohne Arbeit](https://lutaonan.com/blog/a-year-off-work/)
+- [Ihre Kunden hassen MVPs. Machen Sie stattdessen ein SLC.](https://longform.asmartbear.com/slc)
 
 #### Videos
 
-- [Create a Desktop App With JavaScript & Electron](https://www.youtube.com/watch?v=ML743nrkMHw)
-- [Is it modeling or real footage? It can really deceive the human eye!](https://www.bilibili.com/video/BV1KE42157Qp)
-- [Two Leaps of Youth: "Black and White" and "Nothing Special"](https://www.bilibili.com/video/BV1jJ4m1J7ba)
-- [Never Take Your Wife to Northern Europe [Norway's Five Darkest Moments]](https://www.bilibili.com/video/BV1uC411E7jU)
-- [vlog #54 | A Female Programmer's After-Work Study Routine | Rainy Day at Home Charging | Digging into the EigenLayer Whitepaper | April Review | Continuous English Learning | Completion of "The Fogg Behavior Model"](https://www.bilibili.com/video/BV1Er421J7M8)
-- [Is the Vision Pro, with Such an Amateur Concept, Really an Apple Product? [Gamker]](https://www.bilibili.com/video/BV1uf421U7eT)
-- [Fanning the Flames for Friends Who Bravely Quit Their Jobs](https://www.bilibili.com/video/BV17T421Q7ej)
-- ["After 31 Years of Marriage, My Mom Wants to Divorce My Dad"](https://www.bilibili.com/video/BV1PZ42177eS)
-- [vlog #55 | A Female Programmer's After-Work Study Record | Enjoying Solitude | WorldCoin Whitepaper | Continuous English Learning | Learning Taiko | Finished Reading "Who Moved My Cheese"](https://www.bilibili.com/video/BV16H4y1g7GY)
-- [Introducing GPT-4o](https://www.youtube.com/watch?v=DQacCB9tDaw)
-- [An English Idiot in Norway, Northern Europe Will Punish Every Introvert](https://www.bilibili.com/video/BV1Ay411e7uD)
+- [Erstellen Sie eine Desktop-App mit JavaScript & Electron](https://www.youtube.com/watch?v=ML743nrkMHw)
+- [Ist es Modellierung oder echtes Filmmaterial? Es kann das menschliche Auge wirklich täuschen!](https://www.bilibili.com/video/BV1KE42157Qp)
+- [Zwei Sprünge der Jugend: "Schwarz und Weiß" und "Nichts Besonderes"](https://www.bilibili.com/video/BV1jJ4m1J7ba)
+- [Nehmen Sie Ihre Frau niemals mit nach Nordeuropa [Norwegens fünf dunkelste Momente]](https://www.bilibili.com/video/BV1uC411E7jU)
+- [vlog #54 | Die Lernroutine einer Programmiererin nach der Arbeit | Regnerischer Tag zu Hause beim Aufladen | Vertiefen in das EigenLayer Whitepaper | April-Rückblick | Kontinuierliches Englischlernen | Abschluss von "Das Fogg-Verhaltensmodell"](https://www.bilibili.com/video/BV1Er421J7M8)
+- [Ist die Vision Pro mit einem so amateurhaften Konzept wirklich ein Apple-Produkt? [Gamker]](https://www.bilibili.com/video/BV1uf421U7eT)
+- [Anfeuern für Freunde, die mutig ihren Job gekündigt haben](https://www.bilibili.com/video/BV17T421Q7ej)
+- ["Nach 31 Jahren Ehe möchte meine Mutter sich von meinem Vater scheiden lassen"](https://www.bilibili.com/video/BV1PZ42177eS)
+- [vlog #55 | Lernaufzeichnungen einer Programmiererin nach der Arbeit | Genießen der Einsamkeit | WorldCoin Whitepaper | Kontinuierliches Englischlernen | Taiko lernen | Fertiglesen von "Wer hat meinen Käse bewegt"](https://www.bilibili.com/video/BV16H4y1g7GY)
+- [Vorstellung von GPT-4o](https://www.youtube.com/watch?v=DQacCB9tDaw)
+- [Ein englischer Idiot in Norwegen, Nordeuropa wird jeden Introvertierten bestrafen](https://www.bilibili.com/video/BV1Ay411e7uD)
 
-#### TV Series
+#### TV-Serien
 
-- [**My Home is Empty**](http://movie.douban.com/subject/26689409/), decluttering.
+- [**Mein Zuhause ist leer**](http://movie.douban.com/subject/26689409/), Entrümpeln.

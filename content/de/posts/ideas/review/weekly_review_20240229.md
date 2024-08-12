@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #53 - Three Blank Months, Life Adrift, and Spring Festival"
+title: "Wochenrückblick #53 - Drei leere Monate, Leben im Drift und das Frühlingsfest"
 date: 2024-02-29T19:13:26+08:00
 draft: false
 tags: ["review", "life", "reading", "restart", "work", "love"]
@@ -10,204 +10,204 @@ authors:
 
 {{<audio src="audios/special_person.mp3" caption="'Special Person - Khalil Fong'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from December 4, 2023, to February 29, 2024.
+Dieser Text ist eine Aufzeichnung und Reflexion meines Lebens vom 4. Dezember 2023 bis zum 29. Februar 2024.
 
-Much has transpired over the past few months, across various dimensions of life, making it challenging to begin writing this weekly review, which was originally intended to document daily life and personal thoughts. It seemed that no single or even two issues could summarize everything, and at the same time, I couldn't bring myself to merely record a series of events without mentioning my feelings.
+In den letzten Monaten ist viel geschehen, in verschiedenen Lebensbereichen, was es schwierig machte, mit dem Schreiben dieses wöchentlichen Rückblicks zu beginnen, der ursprünglich dazu gedacht war, den Alltag und persönliche Gedanken zu dokumentieren. Es schien, als könnte kein einzelnes oder auch zwei Themen alles zusammenfassen, und gleichzeitig konnte ich mich nicht dazu bringen, lediglich eine Reihe von Ereignissen aufzuzeichnen, ohne meine Gefühle zu erwähnen.
 
-So, I gave myself a long holiday, so long that I found myself staring blankly at the document multiple times, wondering if I still had the ability to be a "weekly review" blogger.
+Also gönnte ich mir einen langen Urlaub, so lang, dass ich mich mehrmals dabei ertappte, wie ich leer auf das Dokument starrte und mich fragte, ob ich überhaupt noch die Fähigkeit besaß, ein "Wochenrückblick"-Blogger zu sein.
 
-I often say that my writing stems from my life, and when life is in disarray, I'm unable to convey my feelings. Yet, I'm also often too lazy to sort through and face the ups and downs that life brings. On many weekend nights, I convinced myself: "In January, definitely before the New Year, after the New Year, or maybe the Lantern Festival would be good too," until February 29th of this leap year, a day that actually has no special connection to me but somehow feels ceremonial, I finally mustered the courage to restart.
+Ich sage oft, dass mein Schreiben aus meinem Leben entsteht, und wenn das Leben in Unordnung ist, bin ich nicht in der Lage, meine Gefühle zu vermitteln. Doch bin ich auch oft zu faul, die Höhen und Tiefen, die das Leben mit sich bringt, zu sortieren und ihnen ins Auge zu blicken. An vielen Wochenendnächten überzeugte ich mich selbst: "Im Januar, definitiv vor dem Neuen Jahr, nach dem Neuen Jahr, oder vielleicht wäre das Laternenfest auch gut", bis zum 29. Februar dieses Schaltjahres, einem Tag, der eigentlich keine besondere Verbindung zu mir hat, aber irgendwie zeremoniell erscheint, fasste ich endlich den Mut, neu zu beginnen.
 
-In fact, I've never lacked the desire to share, only the courage to start anew.
+Tatsächlich hat es mir nie an dem Wunsch gefehlt, mich mitzuteilen, nur an dem Mut, neu anzufangen.
 
-## The "Blank" Three Months
+## Die "leeren" drei Monate
 
-After much hesitation, I decided to start by recounting the past three months, following the chronology of events and the changes in my state of mind.
+Nach langem Zögern beschloss ich, mit der Erzählung der vergangenen drei Monate zu beginnen, der Chronologie der Ereignisse und der Veränderungen meines Geisteszustandes folgend.
 
-In "Weekly Review #52 - Self-Deprecating Personality and Another Perspective on Relationships," I mentioned that my girlfriend and I are very different people. Of course, in that piece, I described more of the positive aspects of these differences. Little did I know that while differences in thinking and behavioral habits bring curiosity and mutual appreciation, one must also be prepared to bear the cost of disparities in personality and values.
+In "Wöchentlicher Rückblick #52 - Selbstabwertende Persönlichkeit und eine andere Perspektive auf Beziehungen" erwähnte ich, dass meine Freundin und ich sehr unterschiedliche Menschen sind. Natürlich beschrieb ich in diesem Stück mehr die positiven Aspekte dieser Unterschiede. Wenig ahnte ich, dass, während Unterschiede im Denken und in Verhaltensgewohnheiten Neugier und gegenseitige Wertschätzung bringen, man auch bereit sein muss, die Kosten für Unterschiede in Persönlichkeit und Werten zu tragen.
 
-Perhaps I had already realized this, but I allowed myself to indulge in the more concrete joys of life, while some cracks were quietly growing. Specific incidents can always be debated right and wrong in the moment or after emotions have settled, but inevitably, some feelings are lost in the process. I often think of myself as a lucky person, always receiving a lot of tolerance in relationships and other aspects of life. While jokingly saying "I don't deserve this," I had actually become accustomed to it. It wasn't until conflicts erupted that I realized there was no such thing as luck; the silence and tolerance were actually layers of armor brought by the love I received, which would eventually break.
+Vielleicht hatte ich das bereits erkannt, aber ich erlaubte mir, mich den konkreteren Freuden des Lebens hinzugeben, während einige Risse im Stillen wuchsen. Über spezifische Vorfälle kann man im Moment oder nach dem Abklingen der Emotionen immer streiten, aber unweigerlich gehen dabei einige Gefühle verloren. Ich denke oft, dass ich ein Glückspilz bin, der in Beziehungen und anderen Lebensbereichen immer viel Toleranz erfährt. Während ich scherzhaft sagte "Ich verdiene das nicht", hatte ich mich eigentlich daran gewöhnt. Erst als Konflikte ausbrachen, wurde mir klar, dass es so etwas wie Glück nicht gab; das Schweigen und die Toleranz waren tatsächlich Schichten von Rüstung, die durch die Liebe, die ich erhielt, entstanden waren und die schließlich zerbrechen würden.
 
-So, we experienced the end of a relationship, frank and sharp conversations, physical and psychological isolation, and learning to get along and love again. It seems that in just a few short months, we've traveled a long road, with mud and forks, but fortunately, we still have trust and love for each other, and we've decided to walk the path ahead hand in hand.
+So erlebten wir das Ende einer Beziehung, offene und scharfe Gespräche, physische und psychische Isolation und lernten, wieder miteinander auszukommen und zu lieben. Es scheint, als hätten wir in nur wenigen kurzen Monaten einen langen Weg zurückgelegt, mit Schlamm und Gabelungen, aber glücklicherweise haben wir immer noch Vertrauen und Liebe füreinander, und wir haben beschlossen, den Weg vor uns Hand in Hand zu gehen.
 
-## Life Adrift
+## Leben im Drift
 
-Rather than "adjusting my life state" as I often said for the past half year, these few months have been more about truly choosing the direction and focus of my life. I gave up my fixed residence in Hangzhou and began a true "semi-nomadic" life. While in Hangzhou, I often sought out homestays near Liangzhu to stay for a few days, participating in some activities at Yumiao Ji. Now, after the New Year, I've embarked on a drifting plan, following the high-speed rail route from Hangzhou to Beijing that I've taken countless times, experiencing the atmosphere of different cities one stop at a time.
+Statt "meinen Lebenszustand anzupassen", wie ich es oft für das letzte halbe Jahr sagte, ging es in diesen Monaten mehr darum, wirklich die Richtung und den Fokus meines Lebens zu wählen. Ich gab meinen festen Wohnsitz in Hangzhou auf und begann ein wahres "halbnomadisches" Leben. Während ich in Hangzhou war, suchte ich oft Homestays in der Nähe von Liangzhu auf, um dort ein paar Tage zu bleiben und an einigen Aktivitäten in Yumiao Ji teilzunehmen. Jetzt, nach dem Neuen Jahr, habe ich mich auf einen Driftplan begeben, der der Hochgeschwindigkeitsstrecke von Hangzhou nach Peking folgt, die ich unzählige Male genommen habe, und erlebe die Atmosphäre verschiedener Städte Station für Station.
 
 ![anhui_view](https://image.pseudoyu.com/images/anhui_view.jpg)
 
-Actually, this idea originated from a high-speed train ride from Hangzhou to Beijing. As I happened to look out the window, we passed by Bengbu in Anhui province, and I saw this stunning view. I suddenly realized that I had passed through this place dozens of times, had seen its name in many internet memes, yet never thought my life would have any intersection with it, and perhaps I might never set foot there in this lifetime.
+Eigentlich entstand diese Idee während einer Hochgeschwindigkeitszugfahrt von Hangzhou nach Peking. Als ich zufällig aus dem Fenster schaute, passierten wir Bengbu in der Provinz Anhui, und ich sah diese atemberaubende Aussicht. Plötzlich wurde mir klar, dass ich diesen Ort Dutzende Male passiert hatte, seinen Namen in vielen Internet-Memes gesehen hatte, aber nie gedacht hätte, dass mein Leben irgendeine Berührung damit haben würde, und vielleicht würde ich in diesem Leben nie einen Fuß dorthin setzen.
 
-It's not just places, but people too. Some friends live not far away, just an hour or two's journey, and we always say "I'll come visit you when I have the chance" in our chats, but it remains just words. This idea actually comes from people always believing too much in the promise of future days, only to regret when a certain moment arrives.
+Es sind nicht nur Orte, sondern auch Menschen. Einige Freunde leben nicht weit weg, nur eine oder zwei Stunden entfernt, und wir sagen immer "Ich komme dich besuchen, wenn ich die Gelegenheit habe" in unseren Chats, aber es bleiben nur Worte. Diese Idee kommt eigentlich daher, dass die Menschen zu sehr an das Versprechen zukünftiger Tage glauben, nur um es zu bereuen, wenn ein bestimmter Moment kommt.
 
 ![chat_with_maggie](https://image.pseudoyu.com/images/chat_with_maggie.jpg)
 
-Last Christmas Eve, my colleague Maggie passed away. In terms of frequency of communication, we certainly couldn't be called close friends, but it all started with a casual work chat where she read my Eight Characters (a form of fortune-telling), which opened up many personal topics. When we talked about relationships, she told me about the scoundrel she encountered in the financial industry; she happily told me she was going to be a lecturer at Baptist University next year and asked how my school taught web3 when I was studying in Hong Kong; she read through the interview between polebug and me, saying she used to be an English major too; she talked about her undercover experiences and journalistic ideals when she was doing in-depth financial reporting at Sina Finance; and much more.
+Letzten Heiligabend verstarb meine Kollegin Maggie. In Bezug auf die Häufigkeit der Kommunikation konnten wir sicherlich nicht als enge Freunde bezeichnet werden, aber alles begann mit einem beiläufigen Arbeitschat, in dem sie meine Acht Zeichen (eine Form der Wahrsagerei) las, was viele persönliche Themen eröffnete. Als wir über Beziehungen sprachen, erzählte sie mir von dem Schuft, dem sie in der Finanzbranche begegnet war; sie erzählte mir fröhlich, dass sie im nächsten Jahr Dozentin an der Baptist University werden würde und fragte, wie meine Schule Web3 unterrichtete, als ich in Hongkong studierte; sie las das Interview zwischen polebug und mir und sagte, sie sei früher auch Englisch-Studentin gewesen; sie sprach über ihre Undercover-Erfahrungen und journalistischen Ideale, als sie tiefgehende Finanzberichte bei Sina Finance machte; und vieles mehr.
 
-When I first heard the news, I was in a state of numbness, like what Camus described in "The Stranger," until later when I saw that she had posted on WeChat Moments on December 20th saying, "My Oura reminded me that I actually have a fever." Remembering that she had mentioned this when I asked about gifts, I went back to check the records, and all the emotions suddenly welled up. I finally felt the reality of the departure of a real friend who often brought laughter.
+Als ich zum ersten Mal von der Nachricht hörte, war ich in einem Zustand der Taubheit, wie Camus es in "Der Fremde" beschrieb, bis ich später sah, dass sie am 20. Dezember auf WeChat Moments gepostet hatte: "Mein Oura erinnerte mich daran, dass ich tatsächlich Fieber habe." Als ich mich daran erinnerte, dass sie dies erwähnt hatte, als ich nach Geschenken fragte, ging ich zurück, um die Aufzeichnungen zu überprüfen, und all die Emotionen kamen plötzlich hoch. Ich spürte endlich die Realität des Abschieds einer echten Freundin, die oft für Lachen gesorgt hatte.
 
-After experiencing this period, it seems the weight of life has changed somewhat.
+Nach dieser Zeit scheint sich das Gewicht des Lebens etwas verändert zu haben.
 
-I visited my high school buddy Jian Zi, who lives just three or four subway stops away in Beijing, we played badminton together a few times on weekends, and I invited him over for dinner; I met up with several college roommates in various cities, whom I had thought I might never see again after graduation, and we talked about all sorts of things from these years; I had dinner with high school friends during the Spring Festival, and after the New Year, I started drifting along the route "Hangzhou -> Shanghai -> Huzhou -> Nanjing -> ..." to see the people and sceneries along the way.
+Ich besuchte meinen Schulfreund Jian Zi, der nur drei oder vier U-Bahn-Stationen entfernt in Peking lebt, wir spielten ein paar Mal am Wochenende Badminton zusammen, und ich lud ihn zum Abendessen ein; ich traf mich mit mehreren College-Mitbewohnern in verschiedenen Städten, von denen ich dachte, ich würde sie nach dem Abschluss vielleicht nie wiedersehen, und wir sprachen über alle möglichen Dinge aus diesen Jahren; ich aß mit Schulfreunden während des Frühlingsfestes zu Abend, und nach dem Neuen Jahr begann ich, entlang der Route "Hangzhou -> Shanghai -> Huzhou -> Nanjing -> ..." zu driften, um die Menschen und Landschaften entlang des Weges zu sehen.
 
-## Spring Festival
+## Frühlingsfest
 
 ![neimeng_with_boyi](https://image.pseudoyu.com/images/neimeng_with_boyi.jpg)
 
-This year's Spring Festival was particularly lively. I spent half the time following my girlfriend to her hometown in Inner Mongolia, and the other half bringing her to Hangzhou to meet my family and friends. The journey was tiring and nerve-wracking, but also wonderful. Although I can't pinpoint exactly why, after this week, I seem to feel that the bond between us has become stronger, and our interactions seem to have gained a bit more ease.
+Das diesjährige Frühlingsfest war besonders lebhaft. Ich verbrachte die Hälfte der Zeit damit, meiner Freundin in ihre Heimat in der Inneren Mongolei zu folgen, und die andere Hälfte damit, sie nach Hangzhou zu bringen, um meine Familie und Freunde zu treffen. Die Reise war anstrengend und nervenaufreibend, aber auch wunderbar. Obwohl ich nicht genau sagen kann, warum, scheint es mir, dass nach dieser Woche die Bindung zwischen uns stärker geworden ist und unsere Interaktionen etwas mehr Leichtigkeit gewonnen haben.
 
-I've always believed that a person is composed of their personality, thoughts, and the environment of their growth experiences. While it's impossible to accompany someone through their past, visiting the people they cherish or simply walking the paths they've walked is like an exploratory journey to understand a person, bringing more trust and courage, which are also important components of love.
+Ich habe immer geglaubt, dass ein Mensch aus seiner Persönlichkeit, seinen Gedanken und der Umgebung seiner Wachstumserfahrungen besteht. Während es unmöglich ist, jemanden durch seine Vergangenheit zu begleiten, ist der Besuch der Menschen, die er schätzt, oder einfach das Gehen der Wege, die er gegangen ist, wie eine Erkundungsreise, um einen Menschen zu verstehen, die mehr Vertrauen und Mut bringt, die auch wichtige Bestandteile der Liebe sind.
 
 ![seal_from_boyi](https://image.pseudoyu.com/images/seal_from_boyi.jpg)
 
-During the Spring Festival, it happened to be Valentine's Day, and my girlfriend carved a seal with my name on it.
+Während des Frühlingsfestes war zufällig Valentinstag, und meine Freundin schnitt ein Siegel mit meinem Namen darauf.
 
-## Adjusting Learning State
+## Anpassung des Lernzustands
 
 ![duolingo_profile](https://image.pseudoyu.com/images/duolingo_profile.png)
 
-After a period of busy work and low mood in life, when I tried to fulfill my learning plans again, I always felt a bit powerless and distracted, always a bit out of sorts. Plus, I happened to see some interviews about Duolingo, so I thought I'd register and pick up German, my second foreign language that I hadn't touched for years (English majors are required to choose another language as a second foreign language). Fortunately, some basic knowledge and foundation were still there, and I found a lot of fun in it.
+Nach einer Zeit der geschäftigen Arbeit und der schlechten Stimmung im Leben fühlte ich mich immer ein bisschen kraftlos und abgelenkt, wenn ich versuchte, meine Lernpläne wieder zu erfüllen, immer ein bisschen durcheinander. Außerdem sah ich zufällig einige Interviews über Duolingo, also dachte ich, ich würde mich registrieren und Deutsch, meine zweite Fremdsprache, die ich jahrelang nicht angerührt hatte, wieder aufnehmen (Englisch-Studenten müssen eine weitere Sprache als zweite Fremdsprache wählen). Glücklicherweise waren einige Grundkenntnisse und Grundlagen noch vorhanden, und ich fand viel Spaß daran.
 
-After a while, I gradually became more able to settle down and spend a few hours learning something new. It's a kind of "self-cultivation" through language learning, I suppose. The leaderboard feature is also very insightful about human nature; I would spend some time during my lunch break to climb back up if I saw someone had surpassed my ranking.
+Nach einer Weile wurde ich allmählich besser in der Lage, mich zu sammeln und ein paar Stunden etwas Neues zu lernen. Es ist eine Art "Selbstkultivierung" durch Sprachenlernen, vermute ich. Die Ranglisten-Funktion ist auch sehr aufschlussreich über die menschliche Natur; ich würde in meiner Mittagspause etwas Zeit damit verbringen, wieder aufzusteigen, wenn ich sah, dass jemand meinen Rang übertroffen hatte.
 
-## Other Matters
+## Andere Angelegenheiten
 
-Actually, many things happened, but with such a long period, I don't know where to start.
+Eigentlich ist viel passiert, aber bei einem so langen Zeitraum weiß ich nicht, wo ich anfangen soll.
 
-Work has been very enjoyable these past few months. Towards the end of last year, our team's core project was [fully open-sourced](https://github.com/RSS3-Network/Node) and decentralized. The development path has gradually become clear with the white paper and various plans. We often have two to three-hour meetings discussing details, which I find enjoyable. Open-sourcing has also brought requirements for code quality and standards, leading to a lot of growth.
+Die Arbeit war in den letzten Monaten sehr angenehm. Gegen Ende des letzten Jahres wurde das Kernprojekt unseres Teams [vollständig open-source](https://github.com/RSS3-Network/Node) und dezentralisiert. Der Entwicklungspfad ist mit dem Whitepaper und verschiedenen Plänen allmählich klar geworden. Wir haben oft zwei- bis dreistündige Besprechungen, in denen wir Details diskutieren, was ich sehr genieße. Die Open-Source-Entwicklung hat auch Anforderungen an die Codequalität und -standards mit sich gebracht, was zu viel Wachstum geführt hat.
 
-I edited a life vlog - "Life Wandering Guide #01 | Sketching in the Old Summer Palace | Chaoyang Beer Festival | Trip to Inner Mongolia | Anniversary in Aranya", rediscovering the joy of video creation, which is another way of preserving and recording life.
+Ich habe einen Lebens-Vlog bearbeitet - "Lebens-Wanderführer #01 | Skizzieren im Alten Sommerpalast | Chaoyang Bierfestival | Reise in die Innere Mongolei | Jahrestag in Aranya", und dabei die Freude an der Videoproduktion wiederentdeckt, was eine weitere Möglichkeit ist, das Leben zu bewahren und aufzuzeichnen.
 
-Life restarts along with the weekly review. Thank you to the friends who continued to leave encouraging comments and show concern for me on my blog during this period. Let's keep moving forward together.
+Das Leben beginnt neu, zusammen mit dem wöchentlichen Rückblick. Danke an die Freunde, die in dieser Zeit weiterhin ermutigende Kommentare hinterlassen und Interesse an meinem Blog gezeigt haben. Lasst uns gemeinsam weiter vorwärts gehen.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I'll still select some to list here, making it feel more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen, um es mehr nach einem Newsletter aussehen zu lassen.
 
-#### Books
+#### Bücher
 
-- [**The Monk and the Philosopher**](https://book.douban.com/subject/2228297/), some thoughts on religion and philosophy, just started reading a bit after a conversation.
-- [**The Red and the Black**](https://book.douban.com/subject/35781152/), saw an interpretation from a video, the description of Julien's self-esteem and the arrogance it manifests left a deep impression, currently reading.
+- [**Der Mönch und der Philosoph**](https://book.douban.com/subject/2228297/), einige Gedanken über Religion und Philosophie, gerade erst angefangen zu lesen nach einem Gespräch.
+- [**Rot und Schwarz**](https://book.douban.com/subject/35781152/), sah eine Interpretation aus einem Video, die Beschreibung von Juliens Selbstwertgefühl und der Arroganz, die es manifestiert, hinterließ einen tiefen Eindruck, lese gerade.
 
 #### Podcasts
 
-- [Doing Colorful Work, Moving Colorful Bricks](https://www.xiaoyuzhoufm.com/episode/65bf3d81b6c9256aee8a92d8)
+- [Bunte Arbeit machen, bunte Steine bewegen](https://www.xiaoyuzhoufm.com/episode/65bf3d81b6c9256aee8a92d8)
 
-#### Articles
+#### Artikel
 
-- [Advice from a Brewing Professional](https://www.boyilu.com/advice-from-a-brewing-professional)
-- [Foreign Magazine | Older Woman-Younger Man Relationships: What Exactly Do Older Women See in Younger Men?](https://mp.weixin.qq.com/s/3pQN5GKw72rqnwnKXFdVCg)
-- [Day 155](https://www.boyilu.com/day-155)
-- [The Dilemma and Breakthrough of New Generation Frontend Development - Tw93](https://tw93.fun/2023-10-25/new-fe.html)
-- [2023 Year-End Summary: A Dialogue with Myself | Randy's Blog](https://lutaonan.com/blog/2023-summary/)
-- [How to Add a Heatmap to Your Hugo Blog](https://blog.douchi.space/hugo-blog-heatmap/#gsc.tab=0)
-- [9 years of Apple text editor solo dev](https://papereditor.app/dev)
-- [What Software License Should Enterprises Choose for Open Source?](https://www.tisonkun.org/2022/12/17/enterprise-choose-a-software-license/index.html)
-- [Technical Interpretation of Ethereum Inscription ETHS: Essentially Financial Speculation Rather Than Product Innovation](https://news.marsbit.co/20231215163247574629.html)
-- [Overview of generative AI animation techniques](https://diffusionpilot.blogspot.com/2023/09/overview-ai-animation.html)
-- [What We Got Right, What We Got Wrong](https://commandcenter.blogspot.com/2024/01/what-we-got-right-what-we-got-wrong.html)
-- [A Visual Guide to SSH Tunnels: Local and Remote Port Forwarding](https://iximiuz.com/en/posts/ssh-tunnels/)
-- [How to Elegantly Compile a Markdown Document](https://diygod.cc/unified-markdown)
-- [A Simple and Easy-to-Understand Telegram to xLog Shorts Bot Deployment Solution](https://niracler.com/nyaruko-deploy-for-xlog)
-- [A Complete Review of the Coaxing Simulator, It Went Viral, But It Made Me Quite Worried for a While](https://greatdk.com/1962.html)
-- [2023 Letter](https://danwang.co/2023-letter/)
-- [Understanding Containerization by Recreating Docker](https://itnext.io/linux-container-from-scratch-339c3ba0411d)
-- [Why SQL Hang for Exactly 940s? TCP and Async Rust!](https://xuanwo.io/2024/01-why-sql-hang-for-exactly-940s/)
-- [Twitter Launches DDoS Attack on Open Source Projects](https://diygod.cc/twitter-ddos)
-- [Twenty-four Years Old, A Year Full of Changes](https://www.zackwu.com/posts/2023-12-03-a-year-of-change/)
-- [What Exactly Do Programmers in the Financial Industry Do #57](https://letters.geekplux.com/57/)
-- [Implementing a High-Performance Arweave Bundle Parser](https://docs.rss3.io/docs/implementing-a-high-performance-arweave-bundle-parser)
-- [Not Everyone Can Dive into the Sea to Become a Bartender | LatePost Weekend](https://mp.weixin.qq.com/s/KbamZ7MIv2qQjkutJRaqjA)
-- [Warning of Account Suspension by Cloudflare](https://missuo.me/posts/cloudflare-1pb/)
-- [Apple Vision Pro review: magic, until it's not - The Verge](https://www.theverge.com/24054862/apple-vision-pro-review-vr-ar-headset-features-price)
-- [Goodbye Dystopia](https://mayo.rocks/2024/01/goodbye-dystopia/)
-- [Principles and Technical Details of Ordinal Inscription Protocol](https://captainz.xlog.app/Ordinal-ming-wen-xie-yi-de-yuan-li-yu-ji-shu-xi-jie-tao-lun-1md)
-- [Vision Pro User Experience](https://base.qaq.wiki/s/a507fb14-a269-4d3b-b6b4-aaf4c14ad460)
-- [The Scary Thing About Automating Deploys](https://slack.engineering/the-scary-thing-about-automating-deploys/)
-- [Introducing Sora: OpenAI's Groundbreaking Tool Transforms Text Into Instant Video Magic | by Alphatu](https://medium.com/@Alphatue/introducing-sora-openais-groundbreaking-tool-transforms-text-into-instant-video-magic-34563debd89f)
-- [Two Weeks Living with Pals](https://diygod.cc/palworld)
-- [My Connection with Books](https://read.lutaonan.com/preface)
-- [Nintendo sues Switch emulator Yuzu for 'facilitating piracy at a colossal scale' - The Verge](https://www.theverge.com/2024/2/27/24085075/nintendo-switch-emulator-yuzu-lawsuit)
+- [Ratschläge eines Brau-Profis](https://www.boyilu.com/advice-from-a-brewing-professional)
+- [Ausländisches Magazin | Beziehungen zwischen älteren Frauen und jüngeren Männern: Was genau sehen ältere Frauen in jüngeren Männern?](https://mp.weixin.qq.com/s/3pQN5GKw72rqnwnKXFdVCg)
+- [Tag 155](https://www.boyilu.com/day-155)
+- [Das Dilemma und der Durchbruch der Frontend-Entwicklung der neuen Generation - Tw93](https://tw93.fun/2023-10-25/new-fe.html)
+- [Jahresrückblick 2023: Ein Dialog mit mir selbst | Randys Blog](https://lutaonan.com/blog/2023-summary/)
+- [Wie man eine Heatmap zu seinem Hugo-Blog hinzufügt](https://blog.douchi.space/hugo-blog-heatmap/#gsc.tab=0)
+- [9 Jahre Apple-Texteditor-Entwicklung im Alleingang](https://papereditor.app/dev)
+- [Welche Softwarelizenz sollten Unternehmen für Open Source wählen?](https://www.tisonkun.org/2022/12/17/enterprise-choose-a-software-license/index.html)
+- [Technische Interpretation der Ethereum-Inschrift ETHS: Im Wesentlichen finanzielle Spekulation statt Produktinnovation](https://news.marsbit.co/20231215163247574629.html)
+- [Überblick über generative KI-Animationstechniken](https://diffusionpilot.blogspot.com/2023/09/overview-ai-animation.html)
+- [Was wir richtig gemacht haben, was wir falsch gemacht haben](https://commandcenter.blogspot.com/2024/01/what-we-got-right-what-we-got-wrong.html)
+- [Ein visueller Leitfaden zu SSH-Tunneln: Lokale und Remote-Port-Weiterleitung](https://iximiuz.com/en/posts/ssh-tunnels/)
+- [Wie man ein Markdown-Dokument elegant kompiliert](https://diygod.cc/unified-markdown)
+- [Eine einfache und leicht verständliche Telegram zu xLog Shorts Bot Deployment-Lösung](https://niracler.com/nyaruko-deploy-for-xlog)
+- [Eine vollständige Überprüfung des Locksimulators, Er wurde viral, aber er machte mich eine Weile ziemlich besorgt](https://greatdk.com/1962.html)
+- [Brief 2023](https://danwang.co/2023-letter/)
+- [Containerisierung verstehen, indem man Docker nachbaut](https://itnext.io/linux-container-from-scratch-339c3ba0411d)
+- [Warum SQL für genau 940s hängt? TCP und Async Rust!](https://xuanwo.io/2024/01-why-sql-hang-for-exactly-940s/)
+- [Twitter startet DDoS-Angriff auf Open-Source-Projekte](https://diygod.cc/twitter-ddos)
+- [Vierundzwanzig Jahre alt, Ein Jahr voller Veränderungen](https://www.zackwu.com/posts/2023-12-03-a-year-of-change/)
+- [Was genau machen Programmierer in der Finanzbranche #57](https://letters.geekplux.com/57/)
+- [Implementierung eines hochleistungsfähigen Arweave-Bundle-Parsers](https://docs.rss3.io/docs/implementing-a-high-performance-arweave-bundle-parser)
+- [Nicht jeder kann ins Meer tauchen, um Barkeeper zu werden | LatePost Wochenende](https://mp.weixin.qq.com/s/KbamZ7MIv2qQjkutJRaqjA)
+- [Warnung vor Kontosperrung durch Cloudflare](https://missuo.me/posts/cloudflare-1pb/)
+- [Apple Vision Pro Rezension: Magie, bis sie es nicht ist - The Verge](https://www.theverge.com/24054862/apple-vision-pro-review-vr-ar-headset-features-price)
+- [Auf Wiedersehen Dystopie](https://mayo.rocks/2024/01/goodbye-dystopia/)
+- [Prinzipien und technische Details des Ordinal-Inschriftenprotokolls](https://captainz.xlog.app/Ordinal-ming-wen-xie-yi-de-yuan-li-yu-ji-shu-xi-jie-tao-lun-1md)
+- [Vision Pro Benutzererfahrung](https://base.qaq.wiki/s/a507fb14-a269-4d3b-b6b4-aaf4c14ad460)
+- [Das Beängstigende an der Automatisierung von Deployments](https://slack.engineering/the-scary-thing-about-automating-deploys/)
+- [Vorstellung von Sora: OpenAIs bahnbrechendes Tool verwandelt Text in sofortige Videomagie | von Alphatu](https://medium.com/@Alphatue/introducing-sora-openais-groundbreaking-tool-transforms-text-into-instant-video-magic-34563debd89f)
+- [Zwei Wochen Leben mit Pals](https://diygod.cc/palworld)
+- [Meine Verbindung zu Büchern](https://read.lutaonan.com/preface)
+- [Nintendo verklagt Switch-Emulator Yuzu wegen "Erleichterung von Piraterie in kolossalem Ausmaß" - The Verge](https://www.theverge.com/2024/2/27/24085075/nintendo-switch-emulator-yuzu-lawsuit)
 
 #### Videos
 
-- [〖FEDAY〗My Big Frontend Worldview - Huang Xuan Hux](https://www.bilibili.com/video/BV1SC4y1c7ju)
-- [study vlog #39 | Maintaining Learning, Thinking, and Expectations for Life | Learning React🤯 | TEDTalks | Reading "Memories, Dreams, Reflections"](https://www.bilibili.com/video/BV1f94y1E7tD)
-- [Who Really Calls the Shots in a Company? | The Power Game Behind OpenAI](https://www.youtube.com/watch?v=2MJt1dTqbPk)
-- [Civil Affairs Bureau: Congratulations to both of you on becoming a legal couple!](https://www.bilibili.com/video/BV1UH4y1k7H5)
-- [study vlog#40 | Thanks GPT for Teaching Me Frontend🍻 | How I Stay Focused | What Do All the Things I've Completed Have in Common | Views on Work and Retirement | TEDxTalks](https://www.bilibili.com/video/BV1ww411t77B)
-- [study vlog #41 | Things Might Not Be as Hard as Imagined, Completion is More Important Than Perfection | Does Remote Work Cause Anxiety | TEDxTalks | Reading](https://www.bilibili.com/video/BV1C64y1V74Z)
-- [2023: A Year of Reinventing Myself in Remote Work | Because Nothing Big Happened, It's Very Short | Keep Working Hard Next Year Too | 2023](https://www.bilibili.com/video/BV13a4y167Us)
-- [After Getting Married, Are You No Longer Lonely?](https://www.bilibili.com/video/BV1U64y1p7QK)
-- ["The Red and the Black" A Sensitive Self-Esteem and Performative Arrogance Make You Feel Conflicted Inside](https://www.bilibili.com/video/BV1Dw411V7DF)
-- [Smart Contract Audits, Security, and DeFi FULL Course | Learn smart contract auditing](https://www.youtube.com/watch?v=pUWmJ86X_do)
-- [Ahh I Interviewed Makoto Shinkai!](https://www.bilibili.com/video/BV1jt4y1f7R2)
-- [✉️ Writing a Letter to Myself in 2024 | INFJ | Stay True to Your Original Aspirations](https://www.bilibili.com/video/BV1Re411U75P)
-- [【Year-End Confession】If I Wasn't So Good This Year, Would It Make You a Bit Happier?](https://www.bilibili.com/video/BV1BK41147Bq)
-- [Life Wandering Guide #01 | Sketching in the Old Summer Palace | Chaoyang Beer Festival | Trip to Inner Mongolia | Anniversary in Aranya](https://www.bilibili.com/video/BV19e411q7if)
-- [To Read Comments, I Grew to 1 Million Followers](https://www.bilibili.com/video/BV11i4y1q72H)
-- [The Girl Who Ran Away from Home and the Girl Who Sold Poems: They Say I'm a Prostitute, They Say I'm Begging](https://www.bilibili.com/video/BV1SQ4y1V7J3)
-- [vlog #43 | Digital Nomad Programmer's First Travel Stay | Qingdao Part 2](https://www.bilibili.com/video/BV1SQ4y157YM)
-- [Understanding the Federal Reserve in One Go | The World's Most Powerful Financial Institution](https://www.youtube.com/watch?v=iGz2uWl-kGc)
-- [10 New Animations! Monogatari Series OFF&MONSTER Season Animation Production Decided PV [Akiyuki Shinbo/SHAFT/NisiOisin]](https://www.bilibili.com/video/BV1eK411e7V3)
-- [【Senjougahara Hitagi】Romantic Words Under the Starry Sky](https://www.bilibili.com/video/BV1Mx411G76G)
-- [Heptabase Fundamentals 101: Sense-making with whiteboards](https://www.youtube.com/watch?v=HgvR2QkfwG0)
-- [Heptabase Fundamentals 102: Organizing topics with nested whiteboards and tab groups](https://www.youtube.com/watch?v=zlGRxZHlDgM)
-- [study vlog #44 | Programmer's Daily Learning Record After Work | New Year Begins, More Learning | Daily English Learning, Exercise, Thinking](https://www.bilibili.com/video/BV1EK411a7Hj)
-- [What Kind of Photos Can an 80,000 Yuan Camera Take? | Hasselblad 907X & CFV 100C First Review](https://www.bilibili.com/video/BV1bT4y1b7Nf)
-- [Pokemon Meets ARK... on the Steam Deck?! PALWORLD Performance Test](https://www.youtube.com/watch?v=L69c8Ta1Vb4)
-- [The Fear of a Middle-Aged Single Man Going Home for the New Year](https://www.bilibili.com/video/BV1uU421Z7Nh)
-- [Miracle or Plagiarism? Behind the Viral Success of "Palworld". 【Beyond Games】](https://www.bilibili.com/video/BV1FA4m1j7zF)
-- [What Did the Big Three Do in 2023? Annual Roast.](https://www.bilibili.com/video/BV1wC411r73d)
-- [study vlog #45 | A Stable Core is the Secret to My Continuous Learning | Programmer's Learning Routine After Work | TED | Experiencing Foreign Teacher Classes | Learning Smart Contracts | It's So Happy Waiting for My Mom to Feed Me at Home😄](https://www.bilibili.com/video/BV1e2421A7Zh)
-- [Is Expensive Equipment Always Better?](https://www.bilibili.com/video/BV1DC411z7FQ)
-- [Graduate Supervisors Are Bosses, But Students Are Not Protected by Labor Law | Popular Internet Topics in January](https://www.bilibili.com/video/BV1NA4m157tt)
-- [Valentine's Day 9.0 | To Hell with Love](https://www.bilibili.com/video/BV1Ep421d7hB)
-- [I Captured the World's Largest Bird Pooping | New Zealand](https://www.bilibili.com/video/BV1tu4m1N7rG)
-- [Taiwanese Team Breaks into Silicon Valley's Strongest Accelerator! How Did Heptabase Create a World-Class Note-taking Software? ft. Yu'an Zhan | EP054 | My Friend the Expert | Zhi Qi 77 Podcast](https://www.youtube.com/watch?v=BBPAc5Dy9EQ)
-- [Learning How to Date with My Girlfriend from a Married Vlogger!](https://www.bilibili.com/video/BV1Sv421k7pS)
-- [study vlog #46 | Learning is the Spice of This Monotonous Life | Fragmented Spring Festival Records | TEDTalks | Reading "One Hundred Years of Solitude"](https://www.bilibili.com/video/BV1w2421F7fa)
-- [How to learn German? Resources, methods, and study plan](https://www.youtube.com/watch?v=7jP9Aw88h2Y)
-- [【Vision Pro Review】After 10 Days of In-depth Experience, I Realized I Misunderstood Apple](https://www.youtube.com/watch?v=d818NNeOaHc)
-- [The Probability of Meeting Them is One in Six Billion! | Japan 4K Travel Photography](https://www.bilibili.com/video/BV1Rj421S7c4)
-- [study vlog #47 | Programmer's Daily Learning After Work | Obsessed with Quantum Communication Introduction | English Learning Routine | Elementary School Diary Book Reveal](https://www.bilibili.com/video/BV1aw4m1f7uq)
+- [〖FEDAY〗Meine große Frontend-Weltanschauung - Huang Xuan Hux](https://www.bilibili.com/video/BV1SC4y1c7ju)
+- [study vlog #39 | Lernen, Denken und Erwartungen an das Leben aufrechterhalten | React lernen🤯 | TEDTalks | Lesen von "Erinnerungen, Träume, Gedanken"](https://www.bilibili.com/video/BV1f94y1E7tD)
+- [Wer hat wirklich das Sagen in einem Unternehmen? | Das Machtspiel hinter OpenAI](https://www.youtube.com/watch?v=2MJt1dTqbPk)
+- [Standesamt: Herzlichen Glückwunsch euch beiden, dass ihr ein rechtmäßiges Paar geworden seid!](https://www.bilibili.com/video/BV1UH4y1k7H5)
+- [study vlog#40 | Danke GPT, dass du mir Frontend beigebracht hast🍻 | Wie ich fokussiert bleibe | Was haben all die Dinge, die ich abgeschlossen habe, gemeinsam | Ansichten über Arbeit und Ruhestand | TEDxTalks](https://www.bilibili.com/video/BV1ww411t77B)
+- [study vlog #41 | Dinge sind vielleicht nicht so schwer wie man denkt, Abschluss ist wichtiger als Perfektion | Verursacht Remote-Arbeit Angst | TEDxTalks | Lesen](https://www.bilibili.com/video/BV1C64y1V74Z)
+- [2023: Ein Jahr der Neuerfindung meiner selbst in der Remote-Arbeit | Weil nichts Großes passiert ist, ist es sehr kurz | Nächstes Jahr auch weiter hart arbeiten | 2023](https://www.bilibili.com/video/BV13a4y167Us)
+- [Nach der Heirat, bist du nicht mehr einsam?](https://www.bilibili.com/video/BV1U64y1p7QK)
+- ["Rot und Schwarz" Ein sensibles Selbstwertgefühl und eine performative Arroganz lassen dich dich innerlich zerrissen fühlen](https://www.bilibili.com/video/BV1Dw411V7DF)
+- [Smart Contract Audits, Sicherheit und DeFi VOLLSTÄNDIGER Kurs | Lerne Smart Contract Auditing](https://www.youtube.com/watch?v=pUWmJ86X_do)
+- [Ahh Ich habe Makoto Shinkai interviewt!](https://www.bilibili.com/video/BV1jt4y1f7R2)
+- [✉️ Einen Brief an mich selbst im Jahr 2024 schreiben | INFJ | Bleib deinen ursprünglichen Bestrebungen treu](https://www.bilibili.com/video/BV1Re411U75P)
+- [【Jahresend-Geständnis】Wenn ich dieses Jahr nicht so gut gewesen wäre, würde es dich dann ein bisschen glücklicher machen?](https://www.bilibili.com/video/BV1BK41147Bq)
+- [Lebens-Wanderführer #01 | Skizzieren im Alten Sommerpalast | Chaoyang Bierfestival | Reise in die Innere Mongolei | Jahrestag in Aranya](https://www.bilibili.com/video/BV19e411q7if)
+- [Um Kommentare zu lesen, wuchs ich auf 1 Million Follower](https://www.bilibili.com/video/BV11i4y1q72H)
+- [Das Mädchen, das von zu Hause weglief, und das Mädchen, das Gedichte verkaufte: Sie sagen, ich sei eine Prostituierte, sie sagen, ich würde betteln](https://www.bilibili.com/video/BV1SQ4y1V7J3)
+- [vlog #43 | Erster Reiseaufenthalt eines digitalen Nomaden-Programmierers | Qingdao Teil 2](https://www.bilibili.com/video/BV1SQ4y157YM)
+- [Die Federal Reserve auf einen Blick verstehen | Die mächtigste Finanzinstitution der Welt](https://www.youtube.com/watch?v=iGz2uWl-kGc)
+- [10 neue Animationen! Monogatari Series OFF&MONSTER Season Animationsproduktion entschieden PV [Akiyuki Shinbo/SHAFT/NisiOisin]](https://www.bilibili.com/video/BV1eK411e7V3)
+- [【Senjougahara Hitagi】Romantische Worte unter dem Sternenhimmel](https://www.bilibili.com/video/BV1Mx411G76G)
+- [Heptabase Grundlagen 101: Sinnstiftung mit Whiteboards](https://www.youtube.com/watch?v=HgvR2QkfwG0)
+- [Heptabase Grundlagen 102: Themen mit verschachtelten Whiteboards und Tab-Gruppen organisieren](https://www.youtube.com/watch?v=zlGRxZHlDgM)
+- [study vlog #44 | Tägliche Lernaufzeichnungen eines Programmierers nach der Arbeit | Neues Jahr beginnt, mehr Lernen | Tägliches Englischlernen, Bewegung, Nachdenken](https://www.bilibili.com/video/BV1EK411a7Hj)
+- [Was für Fotos kann eine 80.000 Yuan Kamera machen? | Hasselblad 907X & CFV 100C Erste Rezension](https://www.bilibili.com/video/BV1bT4y1b7Nf)
+- [Pokemon trifft ARK... auf dem Steam Deck?! PALWORLD Performance-Test](https://www.youtube.com/watch?v=L69c8Ta1Vb4)
+- [Die Angst eines alleinstehenden Mannes mittleren Alters, der zum Neuen Jahr nach Hause geht](https://www.bilibili.com/video/BV1uU421Z7Nh)
+- [Wunder oder Plagiat? Hinter dem viralen Erfolg von "Palworld". 【Jenseits von Spielen】](https://www.bilibili.com/video/BV1FA4m1j7zF)
+- [Was haben die großen Drei 2023 gemacht? Jährlicher Roast.](https://www.bilibili.com/video/BV1wC411r73d)
+- [study vlog #45 | Ein stabiler Kern ist das Geheimnis meines kontinuierlichen Lernens | Lernroutine eines Programmierers nach der Arbeit | TED | Erfahrungen mit ausländischen Lehrern | Smart Contracts lernen | Es ist so schön, zu Hause darauf zu warten, dass meine Mutter mich füttert😄](https://www.bilibili.com/video/BV1e2421A7Zh)
+- [Ist teure Ausrüstung immer besser?](https://www.bilibili.com/video/BV1DC411z7FQ)
+- [Doktorväter sind Chefs, aber Studenten sind nicht durch das Arbeitsrecht geschützt | Beliebte Internetthemen im Januar](https://www.bilibili.com/video/BV1NA4m157tt)
+- [Valentinstag 9.0 | Zur Hölle mit der Liebe](https://www.bilibili.com/video/BV1Ep421d7hB)
+- [Ich habe den größten Vogel der Welt beim Kacken eingefangen | Neuseeland](https://www.bilibili.com/video/BV1tu4m1N7rG)
+- [Taiwanesisches Team bricht in Silicon Valleys stärksten Accelerator ein! Wie hat Heptabase eine Weltklasse-Notizsoftware geschaffen? ft. Yu'an Zhan | EP054 | Mein Freund der Experte | Zhi Qi 77 Podcast](https://www.youtube.com/watch?v=BBPAc5Dy9EQ)
+- [Lernen, wie man mit meiner Freundin von einem verheirateten Vlogger ausgeht!](https://www.bilibili.com/video/BV1Sv421k7pS)
+- [study vlog #46 | Lernen ist die Würze dieses monotonen Lebens | Fragmentierte Aufzeichnungen vom Frühlingsfest | TEDTalks | Lesen von "Hundert Jahre Einsamkeit"](https://www.bilibili.com/video/BV1w2421F7fa)
+- [Wie lernt man Deutsch? Ressourcen, Methoden und Studienplan](https://www.youtube.com/watch?v=7jP9Aw88h2Y)
+- [【Vision Pro Rezension】Nach 10 Tagen eingehender Erfahrung erkannte ich, dass ich Apple missverstanden hatte](https://www.youtube.com/watch?v=d818NNeOaHc)
+- [Die Wahrscheinlichkeit, sie zu treffen, ist eins zu sechs Milliarden! | Japan 4K Reisefotografie](https://www.bilibili.com/video/BV1Rj421S7c4)
+- [study vlog #47 | Tägliches Lernen eines Programmierers nach der Arbeit | Besessen von Quantenkommunikations-Einführung | Englisch-Lernroutine | Enthüllung des Grundschul-Tagebuchs](https://www.bilibili.com/video/BV1aw4m1f7uq)
 
-#### Movies
+#### Filme
 
-- [**The Life of Tsutae and Torayo**](http://movie.douban.com/subject/26874505/), A documentary I had bookmarked long ago, about an elderly couple's twilight years. The grandfather was once an architect. What left a deep impression was that during filming, the grandfather passed away. In life, he only liked to use wooden spoons instead of metal ones for eating. Afterwards, in the grandmother's solitary life, she would always place a meal with a wooden spoon in front of his memorial photograph. A very plain yet warm narrative.
-- [**Someday or One Day**](http://movie.douban.com/subject/35208467/), The only thing to say might be that it fulfilled the regret of the drama version's ending. The rest, whether logic or pacing, fell far short.
-- [**Angry Sea**](http://movie.douban.com/subject/33456512/), The plot itself is a bit weak, with some seemingly deliberately created conflicts and somewhat affected "madness". However, the oppression, fear, morbid possessiveness, and impotent anger lingered long after the movie ended. The last time I had a similar feeling was after watching "A Sun".
-- [**Darkest Hour**](http://movie.douban.com/subject/26761416/), Timely transitions, tense music, and my favorite typewriter scenes immediately immersed me in that desperate moment. It also gave me my first impression of Churchill beyond the few brushstrokes in history books. Combined with "Dunkirk" which I had watched before, I could feel the sense of reality and weight in history.
-- [**1947 Boston**](http://movie.douban.com/subject/35712804/), Too much deliberately presented heroism coupled with a flat sense of rhythm, somewhat disappointing. However, the ending was unexpected, real and bold.
-- [**Nobody but You**](http://movie.douban.com/subject/35725869/), I originally wanted to watch it in the cinema before the New Year, but kept putting it off until the source was out. It's a standard comedy, but the theme is quite new. As I've started working myself, I could actually find some sense of reality in the humor.
-- [**The Past Lives of the Deluge**](http://movie.douban.com/subject/34963356/), My favorite movie I've watched recently. You could say there's almost no plot, but the visuals, dialogues, and psychological descriptions are all beautiful. It reminds me of a drama I liked before, "Normal People". Although his role wasn't big, Arthur is really a genuine and warm person, a very attractive character.
-- [**The Dreamers**](http://movie.douban.com/subject/1291856/), Supplementary tag. I watched it around my freshman year of college. Rebellious, passionate, indulgent, and free to the extreme, it formed my initial definition of "romance" when I was (still) young. The scene of running in the Louvre still leaves a deep impression on me.
+- [**Das Leben von Tsutae und Torayo**](http://movie.douban.com/subject/26874505/), Ein Dokumentarfilm, den ich schon lange vorgemerkt hatte, über die späten Jahre eines älteren Ehepaares. Der Großvater war einst Architekt. Was einen tiefen Eindruck hinterließ, war, dass der Großvater während der Dreharbeiten verstarb. Im Leben mochte er es nur, hölzerne Löffel statt metallener zum Essen zu benutzen. Danach würde die Großmutter in ihrem einsamen Leben immer eine Mahlzeit mit einem Holzlöffel vor sein Erinnerungsfoto stellen. Eine sehr schlichte, aber warmherzige Erzählung.
+- [**Irgendwann oder eines Tages**](http://movie.douban.com/subject/35208467/), Das Einzige, was man vielleicht sagen könnte, ist, dass es die Reue über das Ende der Dramaversion erfüllte. Der Rest, ob Logik oder Tempo, blieb weit zurück.
+- [**Zorniges Meer**](http://movie.douban.com/subject/33456512/), Die Handlung selbst ist etwas schwach, mit einigen scheinbar absichtlich geschaffenen Konflikten und etwas affektiertem "Wahnsinn". Jedoch hielten die Unterdrückung, Angst, krankhafte Besitzgier und ohnmächtige Wut lange nach dem Ende des Films an. Das letzte Mal, dass ich ein ähnliches Gefühl hatte, war nach dem Anschauen von "A Sun".
+- [**Die dunkelste Stunde**](http://movie.douban.com/subject/26761416/), Zeitgerechte Übergänge, spannungsgeladene Musik und meine Lieblingsszenen mit der Schreibmaschine versetzten mich sofort in diesen verzweifelten Moment. Es gab mir auch meinen ersten Eindruck von Churchill jenseits der wenigen Pinselstriche in Geschichtsbüchern. In Verbindung mit "Dunkirk", das ich zuvor gesehen hatte, konnte ich das Gefühl von Realität und Gewicht in der Geschichte spüren.
+- [**1947 Boston**](http://movie.douban.com/subject/35712804/), Zu viel absichtlich präsentiertes Heldentum gepaart mit einem flachen Rhythmusgefühl, etwas enttäuschend. Das Ende war jedoch unerwartet, real und kühn.
+- [**Niemand außer dir**](http://movie.douban.com/subject/35725869/), Ich wollte es ursprünglich vor dem Neuen Jahr im Kino sehen, aber ich schob es immer wieder auf, bis die Quelle draußen war. Es ist eine Standard-Komödie, aber das Thema ist ziemlich neu. Da ich selbst angefangen habe zu arbeiten, konnte ich in dem Humor tatsächlich etwas Realitätssinn finden.
+- [**Die früheren Leben der Sintflut**](http://movie.douban.com/subject/34963356/), Mein Lieblingsfilm, den ich in letzter Zeit gesehen habe. Man könnte sagen, es gibt fast keine Handlung, aber die Bilder, Dialoge und psychologischen Beschreibungen sind alle wunderschön. Es erinnert mich an ein Drama, das ich früher mochte, "Normal People". Obwohl seine Rolle nicht groß war, ist Arthur wirklich eine echte und warmherzige Person, eine sehr attraktive Figur.
+- [**Die Träumer**](http://movie.douban.com/subject/1291856/), Ergänzendes Tag. Ich habe es um mein erstes Studienjahr herum gesehen. Rebellisch, leidenschaftlich, zügellos und frei bis zum Äußersten, es formte meine anfängliche Definition von "Romantik", als ich (noch) jung war. Die Szene des Laufens im Louvre hinterlässt bei mir immer noch einen tiefen Eindruck.
 
-#### TV Series
+#### TV-Serien
 
-- [**Blossoms Shanghai**](http://movie.douban.com/subject/34874646/), I've always had high expectations for Hu Ge's dramas, and his temperament also fits Mr. Bao very well. Apart from the ending part which seems a bit hasty, it's one of the most impressive Chinese dramas I've watched this year. The set design and cinematography are truly beautiful!
-- [**Street Food**](http://movie.douban.com/subject/33394370/), Niche street food, always feel that Southeast Asian street food vendors have a sense of mission and belonging to their careers, and the food also has a soul.
-- [**Love in Flames of War**](http://movie.douban.com/subject/36155049/), I watched it intermittently because it was directed by a film editing vlogger I knew about, but maybe my expectations were too high, I found it mediocre after watching.
-- [**The Makanai: Cooking for the Maiko House**](http://movie.douban.com/subject/35727023/), Currently watching.
-- [**The Newsroom**](http://movie.douban.com/subject/36140095/), I've always been quite interested in news so I watched it when it was popular. The pace was quite eye-opening at first, but in the last few episodes, the vilification and redemption of the main characters lacked some driving force, as if it was hastily wrapped up.
-- [**Workers**](http://movie.douban.com/subject/33425914/), I had watched "Silent Workers" before and have always been fascinated by Taiwan's work culture. I was attracted by a B-site clip about Xiao Jie (although it mainly talked about his father's generation). Just a few small clips could make me feel his clarity, sincerity and kindness. When watching many plots, I couldn't help but feel anxious for the protagonists. "How did they get cheated again", "Why are they so stupid", including at the end, I was also annoyed that "good people don't get good results". But this is their instinctive choice when facing hardships, it's the way they live seriously. Even though they think about making money every day, they still make admirable choices in the face of righteousness and kindness.
-- [**A Time Called You**](http://movie.douban.com/subject/36156235/), A very fresh rebirth drama. Although the plot can be guessed from the beginning, the daily narrative and interspersed jokes are very dense. Although it can't be called an ensemble cast, the depiction of the main characters is also very full.
-- [**Westworld**](http://movie.douban.com/subject/2338055/), I've always looked forward to having a game close to "thinking" like Westworld. I guess the closest I can imagine is Minecraft with built-in GPT.
+- [**Blossoms Shanghai**](http://movie.douban.com/subject/34874646/), Ich hatte immer hohe Erwartungen an Hu Ges Dramen, und sein Temperament passt auch sehr gut zu Mr. Bao. Abgesehen vom Endteil, der etwas hastig erscheint, ist es eines der eindrucksvollsten chinesischen Dramen, die ich dieses Jahr gesehen habe. Das Setdesign und die Kameraführung sind wirklich wunderschön!
+- [**Street Food**](http://movie.douban.com/subject/33394370/), Nischenstraßenessen, ich habe immer das Gefühl, dass südostasiatische Straßenessensverkäufer ein Gefühl der Mission und Zugehörigkeit zu ihren Berufen haben, und das Essen hat auch eine Seele.
+- [**Liebe in Flammen des Krieges**](http://movie.douban.com/subject/36155049/), Ich habe es sporadisch geschaut, weil es von einem Filmschnitt-Vlogger inszeniert wurde, den ich kannte, aber vielleicht waren meine Erwartungen zu hoch, ich fand es mittelmäßig nach dem Anschauen.
+- [**The Makanai: Kochen für das Maiko-Haus**](http://movie.douban.com/subject/35727023/), Schaue es gerade.
+- [**The Newsroom**](http://movie.douban.com/subject/36140095/), Ich war schon immer ziemlich an Nachrichten interessiert, also habe ich es geschaut, als es populär war. Das Tempo war anfangs ziemlich augenöffnend, aber in den letzten Episoden fehlte der Verunglimpfung und Erlösung der Hauptfiguren etwas Antriebskraft, als ob es hastig abgeschlossen wurde.
+- [**Arbeiter**](http://movie.douban.com/subject/33425914/), Ich hatte zuvor "Stille Arbeiter" gesehen und war schon immer von Taiwans Arbeitskultur fasziniert. Ich wurde von einem B-Site-Clip über Xiao Jie angezogen (obwohl er hauptsächlich über die Generation seines Vaters sprach). Nur ein paar kleine Clips konnten mich seine Klarheit, Aufrichtigkeit und Freundlichkeit spüren lassen. Beim Anschauen vieler Handlungen konnte ich nicht anders, als mich für die Protagonisten zu ängstigen. "Wie wurden sie schon wieder betrogen", "Warum sind sie so dumm", einschließlich am Ende war ich auch genervt davon, dass "gute Menschen keine guten Ergebnisse bekommen". Aber das ist ihre instinktive Wahl, wenn sie Schwierigkeiten gegenüberstehen, es ist die Art, wie sie ernsthaft leben. Auch wenn sie jeden Tag ans Geldverdienen denken, treffen sie immer noch bewundernswerte Entscheidungen angesichts von Rechtschaffenheit und Freundlichkeit.
+- [**Eine Zeit namens Du**](http://movie.douban.com/subject/36156235/), Ein sehr frisches Wiedergeburtsdrama. Obwohl die Handlung von Anfang an erraten werden kann, sind die tägliche Erzählung und die eingestreuten Witze sehr dicht. Obwohl es nicht als Ensemble-Besetzung bezeichnet werden kann, ist die Darstellung der Hauptfiguren auch sehr vollständig.
+- [**Westworld**](http://movie.douban.com/subject/2338055/), Ich habe mich schon immer darauf gefreut, ein Spiel zu haben, das dem "Denken" wie in Westworld nahekommt. Ich schätze, das Nächste, was ich mir vorstellen kann, ist Minecraft mit eingebautem GPT.
 
 #### Anime
 
-- [**Bocchi the Rock!**](http://movie.douban.com/subject/35366293/), Maybe I started watching it after seeing some clips. It's indeed cute but not lonely at all, it's just an introverted person surrounded by love.
-- [**Spy x Family Season 2**](http://movie.douban.com/subject/36190888/), Anya is just too cute!
-- [**Jujutsu Kaisen**](http://movie.douban.com/subject/34895145/), The setting and plot development feel a bit like "Chainsaw Man", and the overall pacing is quite good!
+- [**Bocchi the Rock!**](http://movie.douban.com/subject/35366293/), Vielleicht habe ich angefangen, es zu schauen, nachdem ich einige Clips gesehen hatte. Es ist in der Tat niedlich, aber überhaupt nicht einsam, es ist nur eine introvertierte Person, umgeben von Liebe.
+- [**Spy x Family Staffel 2**](http://movie.douban.com/subject/36190888/), Anya ist einfach zu süß!
+- [**Jujutsu Kaisen**](http://movie.douban.com/subject/34895145/), Die Einstellung und Handlungsentwicklung fühlen sich ein bisschen wie "Chainsaw Man" an, und das Gesamttempo ist ziemlich gut!
 
-#### Music
+#### Musik
 
-- [**Jorge Regula**](https://open.spotify.com/track/7I9aSaUzI35w6NBfT5Mede) by The Moldy Peaches
-- [**Get Us Back Again**](https://open.spotify.com/track/6w3qVDCpwYcnwShKygTvvP) by dazeychain
-- [**Moments.**](https://open.spotify.com/track/1EAKh1MEglXvDEEqiNngnY) by 8Bite
-- [**ハッピーエンド**](https://open.spotify.com/track/4GqO80eGXA542oTvlYv4LS) by back number
-- [**Eyes Closed**](https://open.spotify.com/track/3p7XQpdt8Dr6oMXSvRZ9bg) by Ed Sheeran
+- [**Jorge Regula**](https://open.spotify.com/track/7I9aSaUzI35w6NBfT5Mede) von The Moldy Peaches
+- [**Get Us Back Again**](https://open.spotify.com/track/6w3qVDCpwYcnwShKygTvvP) von dazeychain
+- [**Moments.**](https://open.spotify.com/track/1EAKh1MEglXvDEEqiNngnY) von 8Bite
+- [**ハッピーエンド**](https://open.spotify.com/track/4GqO80eGXA542oTvlYv4LS) von back number
+- [**Eyes Closed**](https://open.spotify.com/track/3p7XQpdt8Dr6oMXSvRZ9bg) von Ed Sheeran

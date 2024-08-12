@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #49 - Burnt Keyboard, Pompeii Myth Exhibition, Health Adjustments and Magical Dreams"
+title: "Wochenrückblick #49 - Verbrannte Tastatur, Pompeji-Mythen-Ausstellung, Gesundheitsanpassungen und magische Träume"
 date: 2023-11-12T21:23:29+08:00
 draft: false
 tags: ["review", "life", "love", "chiangmai", "work", "cat"]
@@ -10,108 +10,108 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of life from `2023-11-08` to `2023-11-12`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion des Lebens vom `2023-11-08` bis zum `2023-11-12`.
 
-This week, I returned to a normal rhythm. Work-wise, the main task was discussing and designing solutions, without much coding involved. For another AI-related project, I wrote some backend API code related to smart contracts and call chains. Although I've written quite a few contracts, opportunities for non-demo projects that string together the entire process are still rare. In terms of exercise, I had two personal training sessions, and my condition was quite good. In terms of life, I cooked a few meals, and my senior created an online document to record recipes and menus. I can feel that my culinary skills seem to be improving. I sorted out some previously shot video materials, planning to edit a version, which would be a video version of the review. I rearranged my office environment in Beijing, making it much more comfortable. I went shopping and bought some seasonal clothes. There were many interesting things happening.
+Diese Woche kehrte ich zu einem normalen Rhythmus zurück. Beruflich bestand die Hauptaufgabe darin, Lösungen zu diskutieren und zu entwerfen, ohne viel Programmierung. Für ein weiteres KI-bezogenes Projekt schrieb ich einige Backend-API-Codes im Zusammenhang mit Smart Contracts und Aufrufketten. Obwohl ich schon recht viele Verträge geschrieben habe, sind Gelegenheiten für Nicht-Demo-Projekte, die den gesamten Prozess zusammenführen, immer noch selten. In Bezug auf Sport hatte ich zwei persönliche Trainingseinheiten, und meine Verfassung war recht gut. Im Alltag kochte ich einige Mahlzeiten, und mein Senior erstellte ein Online-Dokument, um Rezepte und Speisekarten aufzuzeichnen. Ich kann spüren, dass sich meine kulinarischen Fähigkeiten zu verbessern scheinen. Ich sortierte einige zuvor aufgenommene Videomaterialien, mit dem Plan, eine Version zu bearbeiten, die eine Videoversion des Rückblicks sein würde. Ich ordnete meine Büroumgebung in Peking neu, was sie viel komfortabler machte. Ich ging einkaufen und kaufte einige saisonale Kleidungsstücke. Es passierten viele interessante Dinge.
 
-## The Burnt Keyboard
+## Die verbrannte Tastatur
 
 ![hanwen_keyboard_burnt](https://image.pseudoyu.com/images/hanwen_keyboard_burnt.jpg)
 
-The most interesting (?) thing this week was probably when I was working overtime one night and suddenly smelled something burning. I shouted to my senior, "Something seems to be burning!" and continued writing. After a while, the burning smell seemed very close to me, and I shouted again, "It might be my computer or keyboard burning," and then continued writing. A bit later, the keyboard stopped responding. I picked it up and sniffed it, and there was a strong burning smell. It turned out that the keyboard really did burn.
+Das interessanteste (?) Ereignis dieser Woche war wahrscheinlich, als ich eines Nachts Überstunden machte und plötzlich etwas Verbranntes roch. Ich rief meinem Senior zu: "Irgendetwas scheint zu brennen!" und schrieb weiter. Nach einer Weile schien der Brandgeruch sehr nah bei mir zu sein, und ich rief erneut: "Es könnte mein Computer oder meine Tastatur sein, die brennt", und schrieb dann weiter. Kurz darauf reagierte die Tastatur nicht mehr. Ich hob sie auf und roch daran, und es gab einen starken Brandgeruch. Es stellte sich heraus, dass die Tastatur tatsächlich verbrannt war.
 
-At that moment, I didn't think much of it, but looking back, my reaction was quite funny. Perhaps I was debugging a bug and was in a focused state, so my reactions to the surroundings were like programmed outputs. I guess I'm the type of person whose first reaction to an earthquake would be to `git commit` + `git push`.
+In diesem Moment dachte ich nicht viel darüber nach, aber im Nachhinein betrachtet war meine Reaktion ziemlich lustig. Vielleicht war ich gerade dabei, einen Fehler zu beheben und befand mich in einem fokussierten Zustand, sodass meine Reaktionen auf die Umgebung wie programmierte Ausgaben waren. Ich vermute, ich bin der Typ Mensch, dessen erste Reaktion bei einem Erdbeben wäre, `git commit` + `git push` auszuführen.
 
 ![hanwen_chat_with_support](https://image.pseudoyu.com/images/hanwen_chat_with_support.jpg)
 
-I've been using this keyboard for almost a year. It's the Hanwen 75 from "【Self-made】I Made a Modular Mechanical Keyboard!【Soft Core】" designed by Zhi Hui Jun. The appearance and feel were quite nice. I contacted customer service, and they said it was probably a burnt cable and that I needed to contact after-sales for inspection. They said this was the first case they had encountered.
+Ich benutze diese Tastatur seit fast einem Jahr. Es ist die Hanwen 75 aus dem "【Selbstgemacht】Ich habe eine modulare mechanische Tastatur gebaut!【Soft Core】", entworfen von Zhi Hui Jun. Das Aussehen und das Gefühl waren recht angenehm. Ich kontaktierte den Kundendienst, und sie sagten, es sei wahrscheinlich ein verbranntes Kabel und dass ich mich für eine Inspektion an den Kundendienst wenden müsse. Sie sagten, dies sei der erste Fall, dem sie begegnet seien.
 
-~~I guess my coding skills have really improved, I even managed to burn the keyboard with my code.~~
+~~Ich vermute, meine Programmierfähigkeiten haben sich wirklich verbessert, ich habe es sogar geschafft, die Tastatur mit meinem Code zu verbrennen.~~
 
-My senior: "Do you want me to buy you insurance? Being a programmer is truly a high-risk occupation." 🤣
+Mein Senior: "Soll ich dir eine Versicherung kaufen? Programmierer zu sein ist wirklich ein Hochrisikoberuf." 🤣
 
-## The Myth of Pompeii
+## Der Mythos von Pompeji
 
 ![pompeii_01](https://image.pseudoyu.com/images/pompeii_01.jpg)
 
-My senior's company had some art exhibition benefits that could include family members. Thinking we shouldn't always stay at home on weekends, we chose to go to the National Library of China on Saturday to attend an exhibition called "The Myth of Pompeii — Treasures from the National Archaeological Museum of Naples, Italy". It included several sections: "Back to the Golden Age", "Love Myths in Ancient Greece and Rome", "The Joy of Life: Ancient Romans' Love for the Good Life", "The Concept of Beauty in Ancient Art", and "The Rebirth of Myths".
+Die Firma meines Seniors hatte einige Kunstausstellungsvorteile, die Familienmitglieder einschließen konnten. In dem Gedanken, dass wir nicht immer an Wochenenden zu Hause bleiben sollten, entschieden wir uns, am Samstag die Nationale Bibliothek von China zu besuchen, um eine Ausstellung mit dem Titel "Der Mythos von Pompeji — Schätze aus dem Nationalen Archäologischen Museum von Neapel, Italien" zu besuchen. Sie umfasste mehrere Abschnitte: "Zurück ins Goldene Zeitalter", "Liebesmythen im antiken Griechenland und Rom", "Die Freude am Leben: Die Liebe der alten Römer zum guten Leben", "Das Schönheitskonzept in der antiken Kunst" und "Die Wiedergeburt der Mythen".
 
 ![pompeii_02](https://image.pseudoyu.com/images/pompeii_02.jpg)
 
-Because it included a guided tour, we listened to fantastic Greek myths while looking at the ordinary yet not simple daily life of that era, creating a strange sense of harmony. I think compared to the ancient tomb groups in China that only royalty could enjoy, this suddenly disappeared city seems to better showcase the original face of a city, giving it a more authentic feel.
+Da eine Führung inbegriffen war, hörten wir fantastische griechische Mythen, während wir das gewöhnliche, aber nicht einfache tägliche Leben dieser Ära betrachteten, was ein seltsames Gefühl der Harmonie erzeugte. Ich denke, im Vergleich zu den alten Grabgruppen in China, die nur Königsfamilien genießen konnten, scheint diese plötzlich verschwundene Stadt das ursprüngliche Gesicht einer Stadt besser zu präsentieren, was ihr ein authentischeres Gefühl verleiht.
 
 ![pompeii_03](https://image.pseudoyu.com/images/pompeii_03.jpg)
 
-In our imagination, 2000 years ago seems like a distant era, but judging from the state of Pompeii, their pursuit of life far exceeds ours today. The gourmet food, paintings on tableware, various paintings and sculptures of the gods they believed in, and interestingly, the small city of Pompeii had more than twenty brothels and many murals depicting sexual love. Their openness to sex and desire was even far greater than today.
+In unserer Vorstellung scheint die Zeit vor 2000 Jahren wie eine ferne Ära, aber nach dem Zustand von Pompeji zu urteilen, übertraf ihr Streben nach Leben bei weitem das unsere heute. Das Gourmetessen, die Malereien auf Geschirr, verschiedene Gemälde und Skulpturen der Götter, an die sie glaubten, und interessanterweise hatte die kleine Stadt Pompeji mehr als zwanzig Bordelle und viele Wandmalereien, die sexuelle Liebe darstellten. Ihre Offenheit gegenüber Sex und Verlangen war sogar weit größer als heute.
 
 ![pompeii_06](https://image.pseudoyu.com/images/pompeii_06.jpg)
 
-The volcanic eruption permanently stopped time at this moment, without having to experience aging and slow death, which perhaps precisely fits their attitude towards life. Their daily life embodies "seize the day" and "the ultimate pursuit of beauty". Their longing and praise for love itself are also reflected in their artworks. I think besides religion, they also firmly believed in a good life and love itself.
+Der Vulkanausbruch hielt die Zeit in diesem Moment dauerhaft an, ohne Alterung und langsamen Tod erleben zu müssen, was vielleicht genau zu ihrer Einstellung zum Leben passt. Ihr tägliches Leben verkörpert "Carpe Diem" und "das ultimative Streben nach Schönheit". Ihre Sehnsucht und ihr Lob für die Liebe selbst spiegeln sich auch in ihren Kunstwerken wider. Ich denke, neben der Religion glaubten sie auch fest an ein gutes Leben und die Liebe selbst.
 
-## A Magical Dream
+## Ein magischer Traum
 
-Something very magical happened on Sunday night.
+Am Sonntagabend geschah etwas sehr Magisches.
 
-I was thinking of finishing the weekly report at night, but I was very tired after a whole day of working out and shopping. I thought about putting the computer by the bedside and waking up around three o'clock to write (~~but I didn't wake up in the end~~). I had a dream in the middle of the night, probably because for some reason my MacBook accidentally broke into two halves. The last moment in the dream was probably regretting not buying AppleCare. When I woke up startled, my hand grabbed the laptop that was about to slip from the pillow to the ground.
+Ich dachte daran, den Wochenbericht in der Nacht zu beenden, war aber nach einem ganzen Tag des Trainierens und Einkaufens sehr müde. Ich überlegte, den Computer neben das Bett zu stellen und gegen drei Uhr aufzuwachen, um zu schreiben (~~aber am Ende wachte ich nicht auf~~). Ich hatte mitten in der Nacht einen Traum, wahrscheinlich weil mein MacBook aus irgendeinem Grund versehentlich in zwei Hälften zerbrochen war. Der letzte Moment im Traum war wahrscheinlich, dass ich es bereute, kein AppleCare gekauft zu haben. Als ich erschrocken aufwachte, griff meine Hand nach dem Laptop, der gerade vom Kissen auf den Boden zu rutschen drohte.
 
-Perhaps I've become so in tune with my computer that it sensed the danger and sent me a dream to save it. It was a very magical dream. Adding to this week's release of OpenAI's GPTs and a series of new features, and having just watched PLUTO, an anime about humans and robots, I suddenly couldn't tell whether I was looking forward to or fearing this future.
+Vielleicht bin ich so sehr mit meinem Computer verbunden, dass er die Gefahr spürte und mir einen Traum schickte, um ihn zu retten. Es war ein sehr magischer Traum. Hinzu kamen die Veröffentlichung von OpenAIs GPTs und eine Reihe neuer Funktionen in dieser Woche, und nachdem ich gerade PLUTO gesehen hatte, einen Anime über Menschen und Roboter, konnte ich plötzlich nicht mehr unterscheiden, ob ich mich auf diese Zukunft freute oder sie fürchtete.
 
-## Health Adjustments
+## Gesundheitsanpassungen
 
 ### Fitness
 
-About a month ago, I started twice-weekly personal training sessions at the gym. Actually, I haven't been very concerned about my body for many years, and thanks to a fairly good constitution, I rarely even had minor illnesses. In high school and college, I would do some basic sit-ups and push-ups in the dorm, which could probably maintain good fitness and physique. However, as I grew older and my routine became increasingly uncontrollable due to some extra factors in work and life, I gradually started thinking about increasing the frequency and amount of exercise.
+Vor etwa einem Monat begann ich mit zweimal wöchentlichem Personal Training im Fitnessstudio. Tatsächlich habe ich mich viele Jahre lang nicht sehr um meinen Körper gekümmert, und dank einer ziemlich guten Konstitution hatte ich selten auch nur kleinere Krankheiten. In der Oberschule und im College machte ich einige grundlegende Sit-ups und Liegestütze im Wohnheim, was wahrscheinlich eine gute Fitness und Physis aufrechterhalten konnte. Als ich jedoch älter wurde und meine Routine aufgrund einiger zusätzlicher Faktoren in Arbeit und Leben zunehmend unkontrollierbar wurde, begann ich allmählich darüber nachzudenken, die Häufigkeit und den Umfang des Trainings zu erhöhen.
 
 ![yu_body_params](https://image.pseudoyu.com/images/yu_body_params.png)
 
 ![yu_body_param_2](https://image.pseudoyu.com/images/yu_body_param_2.png)
 
-After comprehensive consideration, I signed up for personal training at the gym, usually two sessions a week, from 7-8 am on Wednesday/Thursday and 2-3 pm on Sunday, basically covering all the points I want to exercise. Now I've had 7 sessions, and this is the body condition measured before the first session. I should measure again after one or two more sessions to see if there's any improvement.
+Nach umfassender Überlegung meldete ich mich für Personal Training im Fitnessstudio an, normalerweise zwei Einheiten pro Woche, von 7-8 Uhr am Mittwoch/Donnerstag und 14-15 Uhr am Sonntag, was im Grunde alle Punkte abdeckt, die ich trainieren möchte. Jetzt hatte ich 7 Einheiten, und dies ist der Körperzustand, der vor der ersten Einheit gemessen wurde. Ich sollte nach einer oder zwei weiteren Einheiten erneut messen, um zu sehen, ob es Verbesserungen gibt.
 
-Working out is really quite an interesting activity. The first two times were very novel, trying to do a little more in each item to break my own limits. After a few sessions, there would occasionally be times of weariness and poor condition. I would often glance at the clock on the wall during some difficult movements, thinking it was too long. Now that I can clearly see some results, I'm somewhat accustomed to and even looking forward to that feeling after exercise.
+Training ist wirklich eine ziemlich interessante Aktivität. Die ersten beiden Male waren sehr neuartig, ich versuchte, bei jedem Element ein wenig mehr zu machen, um meine eigenen Grenzen zu überschreiten. Nach ein paar Einheiten gab es gelegentlich Zeiten der Müdigkeit und schlechter Verfassung. Ich blickte oft während einiger schwieriger Bewegungen auf die Uhr an der Wand und dachte, es sei zu lang. Jetzt, da ich einige Ergebnisse deutlich sehen kann, bin ich etwas an dieses Gefühl nach dem Training gewöhnt und freue mich sogar darauf.
 
-### Diet
+### Ernährung
 
 ![food_weekly_review_20231113](https://image.pseudoyu.com/images/food_weekly_review_20231113.png)
 
-As my fitness and life rhythm have become more stable, I've started cooking more for myself. Although it takes a bit more time every day, I feel it's quite an interesting experience, and life seems to have become more concrete.
+Da mein Fitness- und Lebensrhythmus stabiler geworden ist, habe ich begonnen, mehr für mich selbst zu kochen. Obwohl es jeden Tag etwas mehr Zeit in Anspruch nimmt, finde ich es eine ziemlich interessante Erfahrung, und das Leben scheint konkreter geworden zu sein.
 
-## Interesting Things and Objects
+## Interessante Dinge und Gegenstände
 
-### Shopping and Couple Outfits
+### Einkaufen und Paaroutfits
 
-Beijing has actually entered winter, and the temperature has dropped sharply these days, but I haven't prepared any thick clothes yet. After working out on the weekend, I thought it was time for a seasonal change and should go buy some.
+Peking ist tatsächlich in den Winter eingetreten, und die Temperatur ist in diesen Tagen stark gesunken, aber ich hatte noch keine dicken Kleidungsstücke vorbereitet. Nach dem Training am Wochenende dachte ich, es sei Zeit für einen Saisonwechsel und ich sollte einkaufen gehen.
 
-So we went to the mall near home, and my senior and I shopped for a few hours. It wasn't until after we finished that I suddenly realized this was probably our first real shopping trip to buy clothes together. It's quite amazing, it seems like we've been together for a long time, but we can still discover many new things we haven't done. It's not related to how close the relationship is, maybe it's more about the mode of interaction. Neither of us deliberately tries to check off "x things that must be done", everything just happens naturally.
+Also gingen wir in das Einkaufszentrum in der Nähe unseres Zuhauses, und mein Senior und ich kauften ein paar Stunden lang ein. Erst als wir fertig waren, wurde mir plötzlich bewusst, dass dies wahrscheinlich unser erster echter gemeinsamer Einkaufsbummel zum Kleiderkauf war. Es ist ziemlich erstaunlich, es scheint, als wären wir schon lange zusammen, aber wir können immer noch viele neue Dinge entdecken, die wir noch nicht gemacht haben. Es hat nichts damit zu tun, wie eng die Beziehung ist, vielleicht geht es mehr um die Art der Interaktion. Keiner von uns versucht absichtlich, "x Dinge, die getan werden müssen" abzuhaken, alles passiert einfach natürlich.
 
-Then we went to support Cali's Zolplay Mall and bought a set of "[404 Not Found](https://shop.zolplay.cn/products/404-not-found-hoodie-y23)" couple hoodies. Looking forward to seeing them when they arrive.
+Dann gingen wir zur Unterstützung von Calis Zolplay Mall und kauften einen Satz "[404 Not Found](https://shop.zolplay.cn/products/404-not-found-hoodie-y23)" Paar-Hoodies. Ich freue mich darauf, sie zu sehen, wenn sie ankommen.
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I'll still select a part to list here, which feels more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "[Yu's Life](https://t.me/pseudoyulife)" synchronisiert werden, werde ich immer noch einen Teil hier auflisten, was sich mehr wie ein Newsletter anfühlt.
 
-#### Books
+#### Bücher
 
-- **Building a Second Brain**, currently reading.
-- **Elon Musk**, currently reading.
+- **Ein zweites Gehirn aufbauen**, derzeit am Lesen.
+- **Elon Musk**, derzeit am Lesen.
 
-#### Articles
+#### Artikel
 
-- [A Normal Weekend - Boyi](https://www.boyilu.com/a-normal-weekend)
-- [Implementing a High-Performance Arweave Bundle Parser](https://docs.rss3.io/docs/implementing-a-high-performance-arweave-bundle-parser)
+- [Ein normales Wochenende - Boyi](https://www.boyilu.com/a-normal-weekend)
+- [Implementierung eines hochleistungsfähigen Arweave Bundle Parsers](https://docs.rss3.io/docs/implementing-a-high-performance-arweave-bundle-parser)
 
 #### Videos
 
-- [Hit the Jackpot! Even Beginners Can Learn to Shoot Blockbusters with Drones 【Aerial Photography Tutorial】](https://www.bilibili.com/video/BV1GC4y1U7qU)
-- [For the First Time in My Life, I Sat Down to Talk with a Murderer](https://www.bilibili.com/video/BV12B4y1R7Fs)
-- [study vlog #37｜A Female Programmer's After-work Study Routine｜This Episode's Cat Content is Off the Charts｜Reading "A Brief History of Tomorrow" ｜TEDxTalks Co-reading: The Secret of Self-control/The Dilemma of Personality/Is Technology a Savior or a Killer](https://www.bilibili.com/video/BV1jC4y1E77p)
+- [Volltreffer! Selbst Anfänger können lernen, Blockbuster mit Drohnen zu drehen 【Luftaufnahme-Tutorial】](https://www.bilibili.com/video/BV1GC4y1U7qU)
+- [Zum ersten Mal in meinem Leben habe ich mich hingesetzt und mit einem Mörder gesprochen](https://www.bilibili.com/video/BV12B4y1R7Fs)
+- [study vlog #37｜Eine Programmiererinnen-Studienroutine nach der Arbeit｜Der Katzeninhalt dieser Episode ist außergewöhnlich｜Lesen von "Eine kurze Geschichte von Morgen" ｜TEDxTalks Mitlesen: Das Geheimnis der Selbstkontrolle/Das Dilemma der Persönlichkeit/Ist Technologie ein Retter oder ein Killer](https://www.bilibili.com/video/BV1jC4y1E77p)
 
 #### Anime
 
-- **PLUTO**, an interesting subject about the symbiotic relationship between robots and humans. I watched the first episode and thought it was pretty good.
+- **PLUTO**, ein interessantes Thema über die symbiotische Beziehung zwischen Robotern und Menschen. Ich habe die erste Folge gesehen und fand es ziemlich gut.
 
-#### TV Series
+#### Fernsehserien
 
-- **Prison Playbook**, by the same director as "Reply 1988". I watch it casually while eating. It's a different style, but also quite interesting.
+- **Prison Playbook**, vom gleichen Regisseur wie "Reply 1988". Ich schaue es beiläufig beim Essen. Es hat einen anderen Stil, ist aber auch recht interessant.

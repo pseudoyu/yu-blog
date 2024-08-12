@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #64 - Life Is Here (Stoner and Normal People)"
+title: "Wochenrückblick #64 - Das Leben ist hier (Stoner und Normal People)"
 date: 2024-07-10T08:30:00+08:00
 draft: false
 tags: ["review", "life", "blog", "book", "meaning", "work"]
@@ -10,81 +10,81 @@ authors:
 
 {{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240710](https://image.pseudoyu.com/images/weekly_review_20240710.png)
 
-This piece is a reflection on life from July 1st to July 9th, 2024.
+Dieser Beitrag ist eine Reflexion über das Leben vom 1. bis 9. Juli 2024.
 
-This week, I maintained an early rising routine for several days, dedicating time to reading and studying with high efficiency. However, establishing a regular pattern still requires time and adjustment. I'm also exploring how to enter and switch work modes more swiftly. I'm simultaneously reading several books: "Atlas Shrugged", "Normal People", and "What My Bones Know". A conversation with my senior about her current read, "Stoner", sparked some thoughts about various dimensions of life. Many other interesting events unfolded as well.
+Diese Woche hielt ich mehrere Tage lang eine Routine des frühen Aufstehens aufrecht und widmete Zeit dem Lesen und Studieren mit hoher Effizienz. Allerdings erfordert die Etablierung eines regelmäßigen Musters noch Zeit und Anpassung. Ich erkunde auch, wie ich schneller in den Arbeitsmodus gelangen und zwischen verschiedenen Modi wechseln kann. Gleichzeitig lese ich mehrere Bücher: "Atlas der Welt", "Normale Menschen" und "Was meine Knochen wissen". Ein Gespräch mit meiner Vorgesetzten über ihre aktuelle Lektüre, "Stoner", regte einige Gedanken über verschiedene Dimensionen des Lebens an. Viele andere interessante Ereignisse entfalteten sich ebenfalls.
 
-## Normal People and Stoner
+## Normale Menschen und Stoner
 
 ![normal_people](https://image.pseudoyu.com/images/normal_people.webp)
 
-"Normal People" is an English TV series I watched long ago, perhaps in 2020 or 2021. It left a deep impression on me. Recently, recalling it, I decided to read the original novel. Although much of the content revolves around love and school trivialities, I saw much of myself in the male protagonist - the timidity and insecurity rooted deep within, the obsession with life's perplexities yet unwillingness to be ordinary, and ultimately, the resignation to life as it is. "Stoner" was one of the books I chose from a recent lucky draw book blind box. I've read it twice before, and while the plot details have faded, there's a sense of renewed insight with each recollection. It uses plain strokes to outline life in its original form.
+"Normal People" ist eine englische TV-Serie, die ich vor langer Zeit gesehen habe, vielleicht 2020 oder 2021. Sie hinterließ einen tiefen Eindruck bei mir. Kürzlich erinnerte ich mich daran und beschloss, den Originalroman zu lesen. Obwohl sich vieles um Liebe und schulische Belanglosigkeiten dreht, sah ich viel von mir selbst im männlichen Protagonisten - die tief verwurzelte Schüchternheit und Unsicherheit, die Besessenheit von den Rätseln des Lebens, aber gleichzeitig die Unwilligkeit, gewöhnlich zu sein, und schließlich die Resignation gegenüber dem Leben, wie es ist. "Stoner" war eines der Bücher, die ich aus einer kürzlichen Glückszieher-Buchbox gewählt habe. Ich habe es schon zweimal zuvor gelesen, und obwohl die Details der Handlung verblasst sind, gibt es bei jeder Erinnerung daran ein Gefühl erneuerter Einsicht. Es verwendet schlichte Pinselstriche, um das Leben in seiner ursprünglichen Form zu umreißen.
 
-These two books, when connected, led me to reconsider some value propositions about self and life.
+Diese beiden Bücher, wenn man sie verbindet, veranlassten mich, einige Wertvorstellungen über das Selbst und das Leben zu überdenken.
 
-### Life Is Here
+### Das Leben ist hier
 
-Last night, my senior and I had a rare outing to a nearby Japanese restaurant. Our attire was quite amusing as we set out from our respective homes. She wore an elegant dress on top, paired with slippers; I wasn't much better, sporting a dress shirt with athletic shorts and slippers. As we sat at the counter waiting for our meal and chatting, there was a sense of half ceremony, half everyday life in our mismatched outfits, yet it didn't feel strange - just like life companions.
+Gestern Abend hatten meine Vorgesetzte und ich einen seltenen Ausflug zu einem nahegelegenen japanischen Restaurant. Unsere Kleidung war recht amüsant, als wir von unseren jeweiligen Häusern aufbrachen. Sie trug oben ein elegantes Kleid, kombiniert mit Hausschuhen; ich war nicht viel besser, mit einem Hemd zu Sportshorts und Hausschuhen. Als wir an der Theke saßen und auf unser Essen warteten und plauderten, gab es in unseren unpassenden Outfits ein Gefühl von halb Zeremonie, halb Alltag, und doch fühlte es sich nicht seltsam an - einfach wie Lebensgefährten.
 
-We often say "life is elsewhere", implying that life elsewhere always seems more attractive. But looking back, life right here has its own unique charm.
+Wir sagen oft "das Leben ist woanders", was impliziert, dass das Leben anderswo immer attraktiver erscheint. Aber im Rückblick hat das Leben genau hier seinen eigenen einzigartigen Charme.
 
-We talked about our current lives, feeling there isn't much to complain about. She's doing well in a job she neither particularly likes nor dislikes, while I'm content in my own field. The pace of life in Hangzhou is better than the bustle of Beijing; we often take walks or enjoy home-cooked meals. Yet we both seem to have expectations - she wants to paint, and I want to leave this comfort zone to start a new chapter of life in another country. But these expectations are masked by our satisfactory current state of life. It's harder to extricate ourselves, after all, decisions not driven by real needs are always more difficult, as if we bear the responsibility of disrupting the tranquility of life.
+Wir sprachen über unser aktuelles Leben und fanden, dass es nicht viel zu beklagen gibt. Sie macht sich gut in einem Job, den sie weder besonders mag noch hasst, während ich in meinem eigenen Bereich zufrieden bin. Das Lebenstempo in Hangzhou ist besser als die Hektik von Peking; wir machen oft Spaziergänge oder genießen selbstgekochte Mahlzeiten. Doch wir beide scheinen Erwartungen zu haben - sie möchte malen, und ich möchte diese Komfortzone verlassen, um in einem anderen Land ein neues Kapitel des Lebens zu beginnen. Aber diese Erwartungen werden durch unseren zufriedenstellenden aktuellen Lebenszustand maskiert. Es ist schwieriger, uns davon zu lösen, schließlich sind Entscheidungen, die nicht von echten Bedürfnissen getrieben werden, immer schwieriger, als ob wir die Verantwortung tragen würden, die Ruhe des Lebens zu stören.
 
-### The Illusory Meaning
+### Die illusorische Bedeutung
 
-During my college years and the first couple of years after graduation, I often had juniors asking for advice about switching to coding or making life choices. Even now, some friends who know me from technical tutorials or courses ask about learning Web3 and industry insights. I've always been cautious and sincere in responding to them, often thinking that if I had received some advice earlier, I might have avoided some detours. But I'm wary of my tone and stance, not wanting to become "preachy" due to survivor bias.
+Während meiner Studienzeit und in den ersten Jahren nach dem Abschluss fragten mich oft Jüngere um Rat bezüglich des Wechsels zum Programmieren oder bei Lebensentscheidungen. Selbst jetzt fragen mich einige Freunde, die mich aus technischen Tutorials oder Kursen kennen, nach dem Erlernen von Web3 und Brancheneinblicken. Ich bin immer vorsichtig und aufrichtig in meinen Antworten, oft denkend, dass ich, wenn ich früher einige Ratschläge erhalten hätte, einige Umwege hätte vermeiden können. Aber ich bin vorsichtig mit meinem Ton und meiner Haltung, da ich nicht aufgrund von Überlebensverzerrung "belehrend" werden möchte.
 
-So I often meticulously list out pros and cons and my own thoughts based on their individual situations, sending seven or eight consecutive messages, still worried I might have missed something. But in eight or nine out of ten cases, they would end up asking these few questions, as if everything I said was irrelevant and not the answer they wanted, with a sense of absurd revelation:
+Also liste ich oft akribisch Vor- und Nachteile auf und teile meine eigenen Gedanken basierend auf ihren individuellen Situationen, sende sieben oder acht aufeinanderfolgende Nachrichten und bin immer noch besorgt, etwas übersehen zu haben. Aber in acht oder neun von zehn Fällen würden sie am Ende diese wenigen Fragen stellen, als ob alles, was ich gesagt habe, irrelevant wäre und nicht die Antwort, die sie wollten, mit einem Gefühl absurder Offenbarung:
 
-> "Is computer science very lucrative? How can I successfully switch to coding?"
+> "Ist Informatik sehr lukrativ? Wie kann ich erfolgreich zum Programmieren wechseln?"
 >
-> "Are Web3 salaries really high?"
+> "Sind die Gehälter in Web3 wirklich hoch?"
 
-I used to like a quote from a long-ago admired but now inactive blog writer, which appeared at the end of each article. It roughly meant:
+Früher mochte ich ein Zitat von einem lange bewunderten, aber jetzt inaktiven Blogschreiber, das am Ende jedes Artikels erschien. Es bedeutete ungefähr:
 
-> "I tell you all the truths I know, so that you won't live this life well."
+> "Ich sage dir alle Wahrheiten, die ich kenne, damit du dieses Leben nicht gut lebst."
 
-Sometimes I wonder if it's precisely because I pursue illusory meaning too much, merely clinging to some principles, that I've made myself less happy. The more one knows, the harder it becomes to move forward. Life is but thirty thousand days; perhaps if we were content with external things, content with life itself, life would be more "relaxed".
+Manchmal frage ich mich, ob es genau deshalb ist, weil ich zu sehr nach illusorischer Bedeutung strebe, mich lediglich an einige Prinzipien klammere, dass ich mich selbst weniger glücklich gemacht habe. Je mehr man weiß, desto schwieriger wird es, vorwärts zu gehen. Das Leben besteht nur aus dreißigtausend Tagen; vielleicht wäre das Leben "entspannter", wenn wir mit äußeren Dingen zufrieden wären, zufrieden mit dem Leben selbst.
 
-So there was a long period of silence, no longer questioning myself and the world, enjoying the present, only to harvest more emptiness.
+So gab es eine lange Zeit des Schweigens, in der ich mich und die Welt nicht mehr hinterfragte, die Gegenwart genoss, nur um mehr Leere zu ernten.
 
-## Other Matters
+## Andere Angelegenheiten
 
-### Work State
+### Arbeitszustand
 
-Recently, I've been working on a somewhat troublesome requirement for about a week. Technically, there aren't any particularly difficult points - it's mainly about reading configurations from the blockchain and scheduling various service restarts (but not from the k8s or other deployment level, rather the program needs to handle it internally). Therefore, there are many details to consider in the chain, requiring focus and meticulousness.
+In letzter Zeit habe ich etwa eine Woche lang an einer etwas lästigen Anforderung gearbeitet. Technisch gesehen gibt es keine besonders schwierigen Punkte - es geht hauptsächlich darum, Konfigurationen von der Blockchain zu lesen und verschiedene Dienst-Neustarts zu planen (aber nicht auf der Ebene von k8s oder anderen Deployments, sondern das Programm muss es intern handhaben). Daher gibt es viele Details in der Kette zu berücksichtigen, die Fokus und Sorgfalt erfordern.
 
-This week, I also practiced getting up at 5 AM for immersive blog writing, reading, learning Rust, etc., gradually adjusting to work mode around 9 AM until evening. Because the efficiency of early rising is quite high, I found it actually difficult/slow to switch from a learning state to a fully focused work state. This is what Randy mentioned in last week's "Code Outside" anniversary live stream about "single-threading" and "context switching" - the inability to deeply think about and do two things simultaneously.
+Diese Woche habe ich auch geübt, um 5 Uhr morgens aufzustehen, um mich in das Schreiben von Blogs, Lesen, Rust-Lernen usw. zu vertiefen, und mich allmählich gegen 9 Uhr morgens bis zum Abend in den Arbeitsmodus einzustellen. Da die Effizienz des frühen Aufstehens recht hoch ist, fand ich es tatsächlich schwierig/langsam, von einem Lernzustand in einen voll konzentrierten Arbeitszustand zu wechseln. Das ist es, was Randy in der letzte Woche stattgefundenen Jubiläums-Livestream von "Code Outside" über "Single-Threading" und "Kontextwechsel" erwähnte - die Unfähigkeit, tief über zwei Dinge gleichzeitig nachzudenken und sie zu tun.
 
-I also recall last week when I went to work with my colleague Ares at a coffee shop in Liangzhu. Although we only chatted casually during work, not strongly related to the work content, it seemed to immediately draw us into a good work atmosphere. Sometimes it's not so easy to achieve this at home, which is probably one of the drawbacks of remote work.
+Ich erinnere mich auch an letzte Woche, als ich mit meinem Kollegen Ares in einem Café in Liangzhu zur Arbeit ging. Obwohl wir während der Arbeit nur beiläufig plauderten, nicht stark mit dem Arbeitsinhalt verbunden, schien es uns sofort in eine gute Arbeitsatmosphäre zu versetzen. Manchmal ist es zu Hause nicht so einfach, dies zu erreichen, was wahrscheinlich einer der Nachteile der Fernarbeit ist.
 
-### Daily Life
+### Alltägliches Leben
 
 ![mats_cat](https://image.pseudoyu.com/images/mats_cat.jpg)
 
-Recently, the doormat at home is this (The mental state of contemporary young people 🤣)
+Kürzlich ist die Fußmatte zu Hause diese (Der Geisteszustand der zeitgenössischen jungen Menschen 🤣)
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synchronized in the "Yu's Life" Telegram channel, I still select some to list here, feeling more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, wähle ich hier trotzdem einige aus, was sich mehr wie ein Newsletter anfühlt.
 
-#### Bookmarks
+#### Lesezeichen
 
 - [webp-sh/webp_server_go](https://github.com/webp-sh/webp_server_go)
 
-#### Books
+#### Bücher
 
-- [**Normal People**](https://book.douban.com/subject/34453257/), I really liked this English TV series, and these days while reading other books, I suddenly thought of this one and decided to read the original novel.
-- [**What My Bones Know**](https://book.douban.com/subject/35754687/), I read about half of it last year. These days, thinking about family and psychological healing issues, I'm reading about a chapter a day.
-- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), a gift from a reader, I've read the first two chapters.
+- [**Normal People**](https://book.douban.com/subject/34453257/), Ich mochte diese englische TV-Serie wirklich, und in diesen Tagen, während ich andere Bücher las, dachte ich plötzlich an dieses und beschloss, den Originalroman zu lesen.
+- [**What My Bones Know**](https://book.douban.com/subject/35754687/), Ich habe letztes Jahr etwa die Hälfte davon gelesen. In diesen Tagen, in denen ich über Familien- und psychologische Heilungsthemen nachdenke, lese ich etwa ein Kapitel pro Tag.
+- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), ein Geschenk von einem Leser, ich habe die ersten beiden Kapitel gelesen.
 
-#### Articles
+#### Artikel
 
 - [Xuanwo's VISION: Data Freedom](https://xuanwo.io/2024/04-xuanwo-vision/)
 
@@ -92,11 +92,11 @@ Although most interesting inputs are automatically synchronized in the "Yu's Lif
 
 - [Ep 47. Chatting with Yuchen about Cloudflare's new framework Pingora](https://www.listennotes.com/e/efc189e08c08408fb4ded5e34ac017f2)
 
-#### Movies
+#### Filme
 
-- [**The Swimmer**](http://movie.douban.com/subject/26656728/), I feel the Chinese translation of the title "Young Woman and the Sea" as "The Swimmer's Heart" is a bit too bland. After watching, "The Old Lady and the Sea" might be more fitting 🤣 The themes of sportsmanship, femininity, and inspiration aren't particularly novel, but the portrayal of the protagonist's growth and her support system is just right. The protagonist's mother and coach Abby are also impressive. My senior had previously signed up for the Hong Kong Victoria Harbour cross-harbour swim and is now preparing for the Qiantang River swim in Hangzhou. While the difficulty can't compare to the English Channel, watching this seems to have given me a better understanding of the obsession and charm involved.
+- [**The Swimmer**](http://movie.douban.com/subject/26656728/), Ich finde die chinesische Übersetzung des Titels "Young Woman and the Sea" als "The Swimmer's Heart" ein bisschen zu fade. Nach dem Anschauen könnte "The Old Lady and the Sea" passender sein 🤣 Die Themen Sportsgeist, Weiblichkeit und Inspiration sind nicht besonders neuartig, aber die Darstellung des Wachstums der Protagonistin und ihres Unterstützungssystems ist genau richtig. Die Mutter der Protagonistin und Trainerin Abby sind ebenfalls beeindruckend. Meine Vorgesetzte hatte sich zuvor für das Hong Kong Victoria Harbour Hafenüberquerungsschwimmen angemeldet und bereitet sich jetzt auf das Qiantang-Fluss-Schwimmen in Hangzhou vor. Obwohl der Schwierigkeitsgrad nicht mit dem Ärmelkanal vergleichbar ist, scheint mir das Anschauen dieses Films ein besseres Verständnis für die Besessenheit und den Charme vermittelt zu haben, die damit verbunden sind.
 
 #### Videos
 
-- [Has China's driving school developed to this extent? Japanese reporter shocked: The level of intelligence is beyond imagination](https://www.bilibili.com/video/BV1Vr421M77c)
-- [Becoming best friends with colleagues, am I crazy?!](https://www.bilibili.com/video/BV1i1421b7Mr)
+- [Hat sich Chinas Fahrschule so weit entwickelt? Japanischer Reporter schockiert: Das Niveau der Intelligenz übersteigt die Vorstellungskraft](https://www.bilibili.com/video/BV1Vr421M77c)
+- [Beste Freunde mit Kollegen werden, bin ich verrückt?!](https://www.bilibili.com/video/BV1i1421b7Mr)

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #57 - Life Elsewhere (Bali Trip)"
+title: "Wochenrückblick #57 - Das Leben anderswo (Bali-Reise)"
 date: 2024-04-10T16:30:00+08:00
 draft: false
 tags: ["review", "life", "travel", "bali", "romance"]
@@ -10,66 +10,66 @@ authors:
 
 {{<audio src="audios/fix_you.mp3" caption="'Fix You - Coldplay'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240410](https://image.pseudoyu.com/images/weekly_review_20240410.png)
 
-This piece is a record and reflection of my life from `2024-04-01` to `2024-04-10`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `01.04.2024` bis zum `10.04.2024`.
 
-As I put pen to paper, it's already late May. Unknowingly, two months have slipped by. It's not just the weekly review updates; the multitude of recent events seems to have made it difficult for me to extricate myself from my entire life. But without realizing it myself, this weekly review, a vessel for recording life, has already become a part of me. Often, I feel as if I've lost myself during this time without records, so I've decided to reclaim it.
+Während ich dies zu Papier bringe, ist es bereits Ende Mai. Ohne es zu bemerken, sind zwei Monate vergangen. Es sind nicht nur die wöchentlichen Rückblicke; die Fülle der jüngsten Ereignisse scheint es mir erschwert zu haben, mich aus meinem gesamten Leben zu lösen. Doch ohne es selbst zu bemerken, ist diese wöchentliche Rückschau, ein Gefäß zur Aufzeichnung des Lebens, bereits ein Teil von mir geworden. Oft fühle ich mich, als hätte ich mich selbst in dieser Zeit ohne Aufzeichnungen verloren, also habe ich beschlossen, es zurückzuerobern.
 
-Unlike the usual compilations, this time I'll record in chronological order. Although the long time span inevitably means some details will be lost, the process of reminiscing still allows me to grasp some essence. This is the first piece, and I'm striving to catch up.
+Anders als bei den üblichen Zusammenstellungen werde ich diesmal chronologisch aufzeichnen. Obwohl die lange Zeitspanne unvermeidlich dazu führt, dass einige Details verloren gehen, erlaubt mir der Prozess des Erinnerns dennoch, einige Essenz zu erfassen. Dies ist das erste Stück, und ich bemühe mich, aufzuholen.
 
-## Life Elsewhere
+## Das Leben anderswo
 
-The latter half of March was busy with early morning driving practice and consecutive theory and practical driving tests. Though exhausting, it ultimately bore fruit when I obtained my driver's license on April 3rd. In previous chapters, I've mentioned my lack of fondness for learning to drive, even feeling somewhat averse to it. But upon truly completing this task, I still felt an inexplicable sense of achievement. My subsequent travel in Hangzhou has indeed benefited from it.
+Die zweite Märzhälfte war geprägt von frühmorgendlichen Fahrübungen und aufeinanderfolgenden Theorie- und praktischen Fahrtests. Obwohl es erschöpfend war, trug es letztendlich Früchte, als ich am 3. April meinen Führerschein erhielt. In früheren Kapiteln habe ich erwähnt, dass ich keine besondere Vorliebe für das Fahren lernen hatte, es sogar etwas abgeneigt war. Aber als ich diese Aufgabe wirklich abgeschlossen hatte, verspürte ich dennoch ein unerklärliches Gefühl der Leistung. Meine anschließende Reise nach Hangzhou hat tatsächlich davon profitiert.
 
-Next came the Qingming Festival, which was also the long-planned trip to Bali.
+Als Nächstes kam das Qingming-Fest, das auch die lang geplante Reise nach Bali war.
 
-Milan Kundera has a book called "Life Is Elsewhere," and the title aptly describes my feelings at the time. I'm not particularly fond of travel, nor do I have any special obsession or yearning for blue skies, white clouds, islands, and beaches. It's just that when various pressures of life come one after another, life elsewhere seems to offer a breath of fresh air. It's both an escape and a pursuit.
+Milan Kundera hat ein Buch mit dem Titel "Das Leben ist anderswo", und der Titel beschreibt treffend meine damaligen Gefühle. Ich bin kein besonderer Freund des Reisens, noch habe ich eine spezielle Besessenheit oder Sehnsucht nach blauen Himmeln, weißen Wolken, Inseln und Stränden. Es ist nur so, dass, wenn verschiedene Drücke des Lebens nacheinander kommen, das Leben anderswo einen Atemzug frischer Luft zu bieten scheint. Es ist sowohl eine Flucht als auch ein Streben.
 
-### Vacation and Travel
+### Urlaub und Reisen
 
 ![bj_to_bali_airline](https://image.pseudoyu.com/images/bj_to_bali_airline.jpg)
 
-Flying from Beijing to Bali requires a transit in the Philippines, with a total flight time of nearly 10 hours. After finishing "The Red and the Black" on my Kindle, I slept for most of the journey. When I awoke, it was nearly dusk. Looking out the window, the sunset overlapped with the clouds, and my mood seemed to brighten along with it.
+Der Flug von Peking nach Bali erfordert einen Zwischenstopp auf den Philippinen, mit einer Gesamtflugzeit von fast 10 Stunden. Nachdem ich "Rot und Schwarz" auf meinem Kindle beendet hatte, schlief ich den größten Teil der Reise. Als ich aufwachte, war es fast Dämmerung. Beim Blick aus dem Fenster überlappte sich der Sonnenuntergang mit den Wolken, und meine Stimmung schien sich damit aufzuhellen.
 
 ![bali_blue_sky](https://image.pseudoyu.com/images/bali_blue_sky.jpg)
 
-Exhausted, we arrived at the hotel in the early hours of the morning. Initially, the stuffy air and ubiquitous mosquitoes didn't leave a good first impression. But all emotions dissipated when we stepped out the next morning to see the beach, picturesque as a painting. The first two days' itinerary mostly revolved around the beach and pool, typical vacation mode. But it wasn't until the second day, when I donned a local Balinese T-shirt and flip-flops, that my true journey began.
+Erschöpft kamen wir in den frühen Morgenstunden im Hotel an. Anfangs hinterließen die stickige Luft und die allgegenwärtigen Mücken keinen guten ersten Eindruck. Aber alle Emotionen verflüchtigten sich, als wir am nächsten Morgen hinaustraten und den Strand sahen, malerisch wie ein Gemälde. Die Reiseroute der ersten beiden Tage drehte sich hauptsächlich um Strand und Pool, typischer Urlaubsmodus. Aber erst am zweiten Tag, als ich ein lokales balinesisches T-Shirt und Flip-Flops anzog, begann meine wahre Reise.
 
-I once chatted with my senior about the difference between a vacation and travel. Like when we went to Qinhuangdao's Aranya for our anniversary, we cared more about being in an environment together; the important thing was a relaxed state of mind, regardless of the location. Subsequent trips to Beijing or Tangshan in Nanjing for hot springs were similar. Travel is different; the chosen place, food, culture, including the people you meet, are all important parts. I enjoy immersing myself and experiencing more; an unpalatable meal, the unpleasant exhaust from roadside motorcycles, or haggling with street vendors all become part of the memory.
+Ich unterhielt mich einmal mit meinem Senior über den Unterschied zwischen Urlaub und Reisen. Wie bei unserem Jubiläumsbesuch in Qinhuangdaos Aranya ging es uns mehr darum, gemeinsam in einer Umgebung zu sein; das Wichtige war ein entspannter Gemütszustand, unabhängig vom Ort. Nachfolgende Ausflüge nach Peking oder Tangshan in Nanjing für heiße Quellen waren ähnlich. Reisen ist anders; der gewählte Ort, das Essen, die Kultur, einschließlich der Menschen, denen man begegnet, sind alle wichtige Teile. Ich genieße es, mich einzutauchen und mehr zu erleben; eine ungenießbare Mahlzeit, der unangenehme Abgasgeruch von Motorrädern am Straßenrand oder das Feilschen mit Straßenhändlern werden alle Teil der Erinnerung.
 
-Strangely enough, having seen spectacular waterfalls, monkeys covering entire mountains, sacred temple rituals, and so much more, what left the deepest impression was a shopkeeper lying relaxed on the floor of a small store in Kuta near the end of our trip. He remained lying down as we browsed through hand bracelets, only sitting up perfunctorily to haggle when we were paying, before lying back down again.
+Seltsamerweise hat, obwohl ich spektakuläre Wasserfälle, Affen, die ganze Berge bedeckten, heilige Tempelrituale und so vieles mehr gesehen habe, den tiefsten Eindruck ein Ladenbesitzer hinterlassen, der entspannt auf dem Boden eines kleinen Geschäfts in Kuta gegen Ende unserer Reise lag. Er blieb liegen, während wir durch Handarmbänder stöberten, setzte sich nur pflichtbewusst zum Feilschen auf, als wir bezahlten, bevor er sich wieder hinlegte.
 
-It seems that since a certain moment in college, I've been busy with various things: academics, student organizations, work. It feels like I haven't had a truly empty moment since then. Of course, I've had moments of daydreaming, laziness, or binge-watching shows, but I'm referring to moments when I can truly think nothing.
+Es scheint, dass ich seit einem gewissen Moment im College mit verschiedenen Dingen beschäftigt war: Akademisches, studentische Organisationen, Arbeit. Es fühlt sich an, als hätte ich seitdem keinen wirklich leeren Moment mehr gehabt. Natürlich hatte ich Momente des Tagträumens, der Faulheit oder des Binge-Watchings von Serien, aber ich spreche von Momenten, in denen ich wirklich an nichts denken kann.
 
-Even knowing I won't use it, I always bring my laptop on trips. Like the various memes online, I've attended meetings, written code at friends' weddings, in amusement parks, restaurants, and even on roadside trash cans. It seems this is a lifestyle I acknowledge and even somewhat enjoy. But in Kuta, I seemed to see another way of life thousands of kilometers away in a foreign country. This life doesn't belong to me, nor is it where my heart lies, but I could feel the ease and comfort of "doing nothing."
+Selbst wenn ich weiß, dass ich es nicht benutzen werde, bringe ich meinen Laptop immer auf Reisen mit. Wie bei den verschiedenen Memes online habe ich an Meetings teilgenommen, Code auf Hochzeiten von Freunden, in Vergnügungsparks, Restaurants und sogar auf Mülleimern am Straßenrand geschrieben. Es scheint, dass dies ein Lebensstil ist, den ich anerkenne und sogar etwas genieße. Aber in Kuta schien ich eine andere Lebensweise tausende Kilometer entfernt in einem fremden Land zu sehen. Dieses Leben gehört nicht zu mir, noch ist es dort, wo mein Herz liegt, aber ich konnte die Leichtigkeit und den Komfort des "Nichtstuns" spüren.
 
-### Travel Snapshots
+### Reiseschnappschüsse
 
 ![bali_views](https://image.pseudoyu.com/images/bali_views.png)
 
 ![bali_snapshot](https://image.pseudoyu.com/images/bali_snapshot.png)
 
-The rest are some regular travel records. Bali's scenery is indeed beautiful, but the food is really average; we mostly ate buffets at the hotel. After recuperating for two days in Nusa Dua, we went to Kuta, where [I tried surfing for the first time](https://t.me/pseudoyulife/2849). Although it was just in shallow waters, I tumbled many times in the waves and swallowed a lot of seawater. But after an hour of practice, I could already ride a few small waves. We hired a local guide on Klook who took us to waterfalls and the holy spring temple, and we even had our glasses knocked off by monkeys in the monkey forest. Apart from surfing, it was a fairly standard trip. We took some videos, perhaps there's material for a second vlog.
+Der Rest sind einige reguläre Reiseaufzeichnungen. Die Landschaft Balis ist in der Tat wunderschön, aber das Essen ist wirklich durchschnittlich; wir aßen meist Buffets im Hotel. Nach zwei Tagen Erholung in Nusa Dua fuhren wir nach Kuta, wo [ich zum ersten Mal Surfen ausprobierte](https://t.me/pseudoyulife/2849). Obwohl es nur in flachem Wasser war, überschlug ich mich viele Male in den Wellen und schluckte viel Meerwasser. Aber nach einer Stunde Übung konnte ich bereits einige kleine Wellen reiten. Wir engagierten einen lokalen Führer auf Klook, der uns zu Wasserfällen und dem heiligen Quellentempel brachte, und wir ließen uns sogar von Affen im Affenwald die Brillen vom Gesicht schlagen. Abgesehen vom Surfen war es eine ziemlich standardmäßige Reise. Wir haben einige Videos aufgenommen, vielleicht gibt es Material für einen zweiten Vlog.
 
-## Interesting Things
+## Interessante Dinge
 
 ### Input
 
-Although most interesting inputs are automatically synced to the "Yu's Life" Telegram channel, I'll still select a few to list here. It feels more like a newsletter now.
+Obwohl die meisten interessanten Inputs automatisch in den Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich trotzdem einige auswählen, um sie hier aufzulisten. Es fühlt sich jetzt mehr wie ein Newsletter an.
 
-#### Books
+#### Bücher
 
 - [**A Philosophy of Software Design**](https://book.douban.com/subject/30218046/)
 
-#### Collections
+#### Sammlungen
 
 - [GitHub - heyform/heyform](https://github.com/heyform/heyform)
 - [Douban Book+](https://doubanbook.plus/)
 
-#### Articles
+#### Artikel
 
 - [While Everyone Is Distracted by Social Media, Successful People Double Down on an Underrated Skill](https://www.linkedin.com/pulse/while-everyone-distracted-social-media-successful-people-simmons-1e/)
 - [How Heptabase's Founder Use Heptabase for Learning, Research, Planning, and Writing](https://wiki.heptabase.com/how-Heptabases-founder-use-Heptabase-for-learning?lang=zh-Hant)

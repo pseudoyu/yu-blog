@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #66 - 10x Engineers, Technical Passion and Personal Toolkit"
+title: "Wochenrückblick #66 - 10x-Ingenieure, technische Leidenschaft und persönliche Werkzeuge"
 date: 2024-07-30T20:30:00+08:00
 draft: false
 tags: ["review", "life", "tools", "epubkit", "work", "painting", "programming"]
@@ -10,90 +10,90 @@ authors:
 
 {{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240730](https://image.pseudoyu.com/images/weekly_review_20240730.png)
 
-This piece records and reflects on my life from `2024-07-22` to `2024-07-30`.
+Dieser Beitrag dokumentiert und reflektiert mein Leben vom `22.07.2024` bis zum `30.07.2024`.
 
-After an exceptionally rich Adventure X week of activities, I've returned to the daily routine of coding with focused attention. I've been busy with work requirements; continuing to develop the API portion of EpubKit using Cloudflare Worker; refactoring the backend of a side project I started over a year ago but never fully realized using Go, and beginning to attempt writing an API server in Rust; created an Astro web project "[tools.pseudoyu.com](https://tools.pseudoyu.com/)" for my personal toolkit project "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)"; wrote a tutorial blog on Remark42 deployment, which was validated by a reader in the process of setting up a blog system; went with my family to a water park in Thousand Island Lake, feeling like I'm living quite a fulfilling life; tried watercolor painting and initiated a garage wall painting project; and many other interesting happenings.
+Nach einer außergewöhnlich erlebnisreichen Woche voller Adventure X-Aktivitäten bin ich zur täglichen Routine des fokussierten Programmierens zurückgekehrt. Ich war beschäftigt mit Arbeitsanforderungen; der Weiterentwicklung des API-Teils von EpubKit mit Cloudflare Worker; der Umstrukturierung des Backends eines Nebenprojekts, das ich vor über einem Jahr begonnen, aber nie vollständig realisiert hatte, unter Verwendung von Go; dem Versuch, einen API-Server in Rust zu schreiben; der Erstellung eines Astro-Webprojekts "[tools.pseudoyu.com](https://tools.pseudoyu.com/)" für mein persönliches Toolkit-Projekt "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)"; dem Verfassen eines Tutorial-Blogs zur Remark42-Bereitstellung, der von einem Leser im Prozess der Einrichtung eines Blogsystems validiert wurde; einem Ausflug mit meiner Familie in einen Wasserpark am Qiandao-See, wobei ich das Gefühl hatte, ein recht erfülltes Leben zu führen; dem Ausprobieren von Aquarellmalerei und dem Beginn eines Garagenwand-Malprojekts; und vielen anderen interessanten Ereignissen.
 
-## 10x Engineers
+## 10x-Ingenieure
 
 ![randy_10x](https://image.pseudoyu.com/images/randy_10x.png)
 
-Randy recently launched a project called "[Ask Hackers](https://askhackers.com/)", which is a search tool based on Hacker News Comments. It seems that from the inception of the idea to its launch and promotion, it only took about a day or two. This reminded me of the concept of a "10x engineer" - someone who can quickly develop and implement their ideas. I admire this ability.
+Randy hat kürzlich ein Projekt namens "[Ask Hackers](https://askhackers.com/)" gestartet, ein Suchwerkzeug basierend auf Hacker News-Kommentaren. Es scheint, dass von der Entstehung der Idee bis zur Umsetzung und Promotion nur etwa ein oder zwei Tage vergingen. Das erinnerte mich an das Konzept eines "10x-Ingenieurs" - jemand, der seine Ideen schnell entwickeln und umsetzen kann. Ich bewundere diese Fähigkeit.
 
-I've actually worked on quite a few projects, both professionally and personally, and I'm embarrassed to say that while I've touched on many tech stacks and can write a bit in each, I'm not particularly deep in any of them. My ability to quickly implement and iterate on a product is still quite poor. There seems to be a missing link between idea and demo/product for me. I've discussed this topic with Randy, and he thinks it's a matter of engineering experience. When he sees a certain effect on a website or app, he can generally guess how it's implemented and reproduce it, whereas I might still need to look at the source code or consult AI to barely manage it.
+Ich habe tatsächlich an ziemlich vielen Projekten gearbeitet, sowohl beruflich als auch privat, und ich muss beschämt zugeben, dass ich zwar viele Technologie-Stacks berührt habe und in jedem ein bisschen schreiben kann, aber in keinem besonders tief bin. Meine Fähigkeit, ein Produkt schnell umzusetzen und zu iterieren, ist immer noch recht schwach. Es scheint bei mir eine fehlende Verbindung zwischen Idee und Demo/Produkt zu geben. Ich habe dieses Thema mit Randy diskutiert, und er meint, es sei eine Frage der technischen Erfahrung. Wenn er einen bestimmten Effekt auf einer Website oder App sieht, kann er im Allgemeinen erraten, wie er implementiert wurde, und ihn reproduzieren, während ich vielleicht immer noch den Quellcode anschauen oder KI konsultieren müsste, um es gerade so zu bewältigen.
 
-## Technical Passion
+## Technische Leidenschaft
 
-Beyond this, I've found that passion and motivation also influence my behavior. Perhaps because I still haven't found my own product idea and direction, I always feel that when I was doing side projects before, I was merely "implementing" or doing technical exercises. What attracted me wasn't the product itself taking shape, but the learning and improvement of technical skills in the implementation process. This is fine for personal growth, but for a product, it seems to lack soul. It's like when I first met Randy and curiously asked him why he wasn't updating Cusdis anymore, which had quite a few stars and many self-deployed users including myself. As I recall, he said that besides economic factors, it was more because he no longer had the motivation to do it, and couldn't muster more enthusiasm for a product he wouldn't use or pay for himself.
+Darüber hinaus habe ich festgestellt, dass Leidenschaft und Motivation auch mein Verhalten beeinflussen. Vielleicht, weil ich meine eigene Produktidee und -richtung noch nicht gefunden habe, hatte ich immer das Gefühl, dass ich bei meinen früheren Nebenprojekten lediglich "implementierte" oder technische Übungen machte. Was mich anzog, war nicht die Gestaltung des Produkts selbst, sondern das Lernen und die Verbesserung technischer Fähigkeiten im Implementierungsprozess. Das ist in Ordnung für die persönliche Entwicklung, aber für ein Produkt scheint es an Seele zu mangeln. Es ist wie damals, als ich Randy zum ersten Mal traf und ihn neugierig fragte, warum er Cusdis nicht mehr aktualisierte, das doch recht viele Sterne hatte und von vielen selbst eingesetzt wurde, einschließlich mir. Soweit ich mich erinnere, sagte er, dass es neben wirtschaftlichen Faktoren mehr daran lag, dass er keine Motivation mehr dafür hatte und keine weitere Begeisterung für ein Produkt aufbringen konnte, das er selbst nicht nutzen oder für das er nicht zahlen würde.
 
-My own dilemma lies in this as well. It seems I still haven't found an idea that would excite me to the point of sleeplessness. On the contrary, when developing EpubKit together, as I've been a long-time user of e-books myself, approaching from the perspective of a user, I have more ideas and enthusiasm for product iteration, and it feels more fulfilling.
+Mein eigenes Dilemma liegt auch darin. Es scheint, als hätte ich noch keine Idee gefunden, die mich so begeistern würde, dass ich nicht schlafen könnte. Im Gegenteil, bei der gemeinsamen Entwicklung von EpubKit, da ich selbst seit langem E-Book-Nutzer bin, habe ich aus der Perspektive eines Nutzers mehr Ideen und Enthusiasmus für die Produktiteration, und es fühlt sich erfüllender an.
 
-One must be the first user of their own product.
+Man muss der erste Nutzer seines eigenen Produkts sein.
 
-## Personal Toolkit Project
+## Persönliches Toolkit-Projekt
 
 ![yu_tools_website](https://image.pseudoyu.com/images/yu_tools_website.png)
 
-I've always been a heavy tinkerer of various software and hardware. I spend a large amount of time selecting the most suitable tool for almost every niche need I have, even if the time spent researching far exceeds the time using the tool itself. I still enjoy it immensely. From college until now, countless people around me have asked questions like "Do you have any camera/keyboard/microphone/xxx recommendations?" or "I want to do xxx on my phone, are there any recommended apps?" So over two years ago, I had the idea to create a personal toolkit list - "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)".
+Ich war schon immer ein eifriger Tüftler verschiedener Software und Hardware. Ich verbringe viel Zeit damit, das am besten geeignete Werkzeug für fast jeden speziellen Bedarf auszuwählen, selbst wenn die Zeit für die Recherche die Nutzungszeit bei weitem übersteigt. Ich genieße es trotzdem immens. Seit dem College bis heute haben mich unzählige Menschen in meinem Umfeld Fragen gestellt wie "Hast du Empfehlungen für Kamera/Tastatur/Mikrofon/xxx?" oder "Ich möchte xxx auf meinem Handy machen, gibt es empfohlene Apps dafür?" Also hatte ich vor über zwei Jahren die Idee, eine persönliche Toolkit-Liste zu erstellen - "[GitHub - yu-tools](https://github.com/pseudoyu/yu-tools)".
 
-Initially, it was just a simple GitHub project with a `README.md` file. Later, I gradually added some categories and a brief description for each item. I updated it periodically over two years, and surprisingly, it became my most starred repo.
+Anfangs war es nur ein einfaches GitHub-Projekt mit einer `README.md`-Datei. Später fügte ich nach und nach einige Kategorien und eine kurze Beschreibung für jedes Element hinzu. Ich aktualisierte es über zwei Jahre hinweg periodisch, und überraschenderweise wurde es zu meinem Repo mit den meisten Sternen.
 
-I had previously seen a toolkit website made by a developer I really like, "[devaslife/Takuya Matsuyama](https://www.craftz.dog/)" - "[A curated list of the tech I use](https://uses.craftz.dog/)". He photographs each tool and adds his usage experience, which I found very valuable. So I spent an evening using Astro to create a website based on his template - "[tools.pseudoyu.com](https://tools.pseudoyu.com/)". It will focus more on software and services, and as the number of entries increases, I also want to add a conversational search function similar to "[Ask Hackers](https://askhackers.com/)".
+Ich hatte zuvor eine Toolkit-Website gesehen, die von einem Entwickler erstellt wurde, den ich sehr schätze, "[devaslife/Takuya Matsuyama](https://www.craftz.dog/)" - "[A curated list of the tech I use](https://uses.craftz.dog/)". Er fotografiert jedes Werkzeug und fügt seine Nutzungserfahrung hinzu, was ich sehr wertvoll fand. Also verbrachte ich einen Abend damit, mit Astro eine Website basierend auf seiner Vorlage zu erstellen - "[tools.pseudoyu.com](https://tools.pseudoyu.com/)". Sie wird sich mehr auf Software und Dienste konzentrieren, und mit zunehmender Anzahl von Einträgen möchte ich auch eine konversationelle Suchfunktion ähnlich wie "[Ask Hackers](https://askhackers.com/)" hinzufügen.
 
-Photographing, screenshotting, and introducing software and hardware is a big project, and it's continuously being updated. Those who are interested can keep an eye on it.
+Das Fotografieren, Screenshotten und Vorstellen von Software und Hardware ist ein großes Projekt und wird kontinuierlich aktualisiert. Wer interessiert ist, kann es im Auge behalten.
 
-## Personal Life Snippets
+## Persönliche Lebensschnipsel
 
-### Watercolor
+### Aquarell
 
 ![rust_painting](https://image.pseudoyu.com/images/rust_painting.jpg)
 
-One time after dinner, my family tried painting watercolors on fans together. It was a completely new experience. I chose the Rust little crab, and with a bit of guidance from my senior, I completed this work. I'm very happy!!!
+Einmal nach dem Abendessen versuchten wir uns gemeinsam als Familie an Aquarellmalerei auf Fächern. Es war eine völlig neue Erfahrung. Ich wählte die kleine Rust-Krabbe und vollendete mit etwas Anleitung meiner Seniorin dieses Werk. Ich bin sehr glücklich!!!
 
-### Garage Wall Painting
+### Garagenwandmalerei
 
 ![wall_painting](https://image.pseudoyu.com/images/wall_painting.jpg)
 
-Since generating the image I wanted to paint on the workshop wall using DALL-E, we finally found time to start work. Progress is at 30%, but due to a team meeting on Monday night, it was my senior and my sister who did the painting. Although I brought my camera, I didn't have time to record the complete process, which is a bit regrettable. Next time I'll take more photos of the process and details. Looking forward to the final effect.
+Seit der Generierung des Bildes, das ich auf die Werkstattwand malen wollte, mit DALL-E, fanden wir endlich Zeit, mit der Arbeit zu beginnen. Der Fortschritt liegt bei 30%, aber aufgrund eines Team-Meetings am Montagabend waren es meine Seniorin und meine Schwester, die malten. Obwohl ich meine Kamera mitgebracht hatte, hatte ich keine Zeit, den vollständigen Prozess aufzuzeichnen, was ein wenig bedauerlich ist. Nächstes Mal werde ich mehr Fotos vom Prozess und den Details machen. Ich freue mich auf den endgültigen Effekt.
 
 ### Nini
 
 ![nienie_on_desktop](https://image.pseudoyu.com/images/nienie_on_desktop.jpg)
 
-Recently, perhaps sensing my busyness, both kittens have become more clingy. Every time I write code, Nini quietly lies on the desk, occasionally stretching lazily or making a coquettish sound, relaxing and healing.
+In letzter Zeit, vielleicht meine Geschäftigkeit spürend, sind beide Kätzchen anhänglicher geworden. Jedes Mal, wenn ich programmiere, liegt Nini still auf dem Schreibtisch, streckt sich gelegentlich faul oder macht ein kokettes Geräusch, entspannend und heilend.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced to the "[Yu's Life](https://t.me/pseudoyulife)" Telegram channel, I'll still select a few to list here. It feels more like a newsletter now.
+Obwohl die meisten interessanten Inputs automatisch mit dem Telegram-Kanal "[Yu's Life](https://t.me/pseudoyulife)" synchronisiert werden, werde ich hier trotzdem einige auflisten. Es fühlt sich jetzt mehr wie ein Newsletter an.
 
-#### Collections
+#### Sammlungen
 
-- [Hono - Ultrafast web framework for the Edges](https://hono.dev/docs/)
+- [Hono - Ultraschnelles Web-Framework für die Edges](https://hono.dev/docs/)
 - [Ask Hackers](https://askhackers.com/)
 - [OpenMoji](https://openmoji.org/)
 - [Vercel AI SDK](https://sdk.vercel.ai/)
-- [Open Source Alternatives To Proprietary Software](https://www.opensourcealternative.to/)
+- [Open Source Alternativen zu proprietärer Software](https://www.opensourcealternative.to/)
 
-#### Books
+#### Bücher
 
-- [**Shape Up**](https://book.douban.com/subject/34945817/), written by the founder of Khan Academy about thoughts and practices on GPT and the future of education. It provides quite a few inspirations for daily use of LLMs. Besides becoming a tool like search engines, there's still much room for imagination.
+- [**Shape Up**](https://book.douban.com/subject/34945817/), geschrieben vom Gründer der Khan Academy über Gedanken und Praktiken zu GPT und die Zukunft der Bildung. Es bietet einige Inspirationen für den täglichen Gebrauch von LLMs. Neben der Entwicklung zu einem Werkzeug wie Suchmaschinen gibt es noch viel Raum für Fantasie.
 
-#### Articles
+#### Artikel
 
-- [Subscription-based Search Engine: Kagi](https://anotherdayu.com/2024/5837/)
-- [Build Your Free Blog Commenting System from Scratch (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+- [Abonnementbasierte Suchmaschine: Kagi](https://anotherdayu.com/2024/5837/)
+- [Erstellen Sie Ihr kostenloses Blog-Kommentarsystem von Grund auf (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
 
 #### Videos
 
-- [Encountered the Top Player Kid on the Street, He Wanted to Give Me Money on the Spot!?](https://www.bilibili.com/video/BV1J4421S7hA)
-- [You Have the Ability to Be Happy | Book Recommendation "Counselling for Toads"](https://www.bilibili.com/video/BV1s8vKegE66)
+- [Traf den Top-Spieler-Kid auf der Straße, er wollte mir auf der Stelle Geld geben!?](https://www.bilibili.com/video/BV1J4421S7hA)
+- [Du hast die Fähigkeit, glücklich zu sein | Buchempfehlung "Beratung für Kröten"](https://www.bilibili.com/video/BV1s8vKegE66)
 
-#### TV Series
+#### Fernsehserien
 
-- [**Go to the Windy Place**](http://movie.douban.com/subject/35662223/), watched while eating.
+- [**Geh an den windigen Ort**](http://movie.douban.com/subject/35662223/), beim Essen geschaut.

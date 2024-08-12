@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #28 - Mastodon, Hometown, and Hide-and-Seek Cat"
+title: "Wochenrückblick #28 - Mastodon, Heimatort und Versteckspiel-Katze"
 date: 2023-01-31T11:43:38+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "home", "fediverse", "mastodon"]
@@ -10,99 +10,99 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from `2023-01-23` to `2023-01-31`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `23.01.2023` bis zum `31.01.2023`.
 
-I spent most of this week in my hometown, making up for some regrets, simple yet precious. After returning to Hangzhou, I stayed an extra day to meet friends, then hurried back to Beijing from Hangzhou. Upon arriving home in Beijing, I immediately went to pick up Nini from my colleague's house after barely putting down my luggage. By the time everything was more or less settled, I was in a daze. After a quick wash, I planned to take a short nap and write a weekly review, but when I opened my eyes again, it was already 7 am. Plus, I had to commute to the office during the day, so I postponed writing until now.
+Den Großteil dieser Woche verbrachte ich in meiner Heimatstadt und holte einige Versäumnisse nach - einfach, aber wertvoll. Nach der Rückkehr nach Hangzhou blieb ich einen zusätzlichen Tag, um Freunde zu treffen, dann eilte ich von Hangzhou zurück nach Peking. Kaum hatte ich in Peking mein Gepäck abgestellt, ging ich sofort los, um Nini vom Haus meines Kollegen abzuholen. Als alles einigermaßen geregelt war, war ich wie benebelt. Nach einer schnellen Dusche plante ich, ein kurzes Nickerchen zu machen und einen Wochenrückblick zu schreiben, doch als ich die Augen wieder öffnete, war es bereits 7 Uhr morgens. Da ich tagsüber ins Büro pendeln musste, verschob ich das Schreiben auf jetzt.
 
-On my first day back, Nini immediately irritated me, adding some fright to my first day at work, but thinking about returning to this interesting daily life made me feel more at ease than reproachful (~~as if I dare~~). Then I quickly ordered a mobile camera, no wonder friends say I'm raising Nini like a daughter, always worrying about various things. There were many other interesting events as well.
+An meinem ersten Tag zurück reizte mich Nini sofort und versetzte mich an meinem ersten Arbeitstag in Schrecken, aber der Gedanke an die Rückkehr in diesen interessanten Alltag ließ mich eher gelassen als vorwurfsvoll fühlen (~~als ob ich es wagen würde~~). Dann bestellte ich schnell eine mobile Kamera - kein Wunder, dass Freunde sagen, ich würde Nini wie eine Tochter großziehen und mir ständig Sorgen um verschiedene Dinge machen. Es gab auch viele andere interessante Ereignisse.
 
-## Interesting Things
+## Interessante Dinge
 
 ### Mastodon
 
-I didn't write many blog posts this week, and I didn't finish several things I wanted to tinker with before the New Year, but I did research fediverse, which I found very interesting.
+Ich habe diese Woche nicht viele Blogbeiträge geschrieben und einige Dinge, die ich vor dem Neujahr basteln wollte, nicht fertiggestellt, aber ich habe das Fediverse erforscht, was ich sehr interessant fand.
 
 ![elk_zone_mastodon_yu](https://image.pseudoyu.com/images/elk_zone_mastodon_yu.png)
 
-I originally thought about posting some English content on Mastodon, but later decided to narrow my output platforms. I'll still post on Twitter and automatically sync to Mastodon via IFTTT, still aggregating on the Telegram channel and Crossbell chain. If you're interested, you can join me at [@pseudoyu@mas.to](https://mas.to/@pseudoyu) on the [mas.to](https://mas.to/) domain.
+Ursprünglich dachte ich darüber nach, einige englische Inhalte auf Mastodon zu veröffentlichen, entschied mich aber später dafür, meine Ausgabeplattformen einzuschränken. Ich werde weiterhin auf Twitter posten und automatisch über IFTTT mit Mastodon synchronisieren, wobei alles weiterhin im Telegram-Kanal und auf der Crossbell-Chain aggregiert wird. Wenn Sie interessiert sind, können Sie sich mir unter [@pseudoyu@mas.to](https://mas.to/@pseudoyu) auf der Domäne [mas.to](https://mas.to/) anschließen.
 
-There are several interesting articles about these topics that I read and learned a lot from:
+Es gibt mehrere interessante Artikel zu diesen Themen, die ich gelesen und aus denen ich viel gelernt habe:
 
-- [Discussing Mastodon, Fediverse, and ActivityPub - zu1k](https://zu1k.com/posts/tutorials/p2p/fediverse/)
-- [What is Mastodon and How to Play It](https://limboy.me/posts/mastodon/)
-- [A Fediverse Guide for Twitter Users | wzyboy's blog](https://wzyboy.im/post/1513.html)
-- [Decentralized Social Network Mastodon Research Report: Behind the Platform and Protocol Debate, Will It Be the Ultimate Winner? – Web3Caff Research](https://research.web3caff.com/zh/archives/6024)
-- [Setting up IFTTT to Sync Twitter to Mastodon. Preparation | by Pei-lun | Medium](https://medium.com/@PeiLun/%E8%A8%AD%E5%AE%9A-ifttt-%E5%90%8C%E6%AD%A5-twitter-%E5%88%B0-mastodon-1010ee3798bb)
+- [Diskussion über Mastodon, Fediverse und ActivityPub - zu1k](https://zu1k.com/posts/tutorials/p2p/fediverse/)
+- [Was ist Mastodon und wie spielt man es](https://limboy.me/posts/mastodon/)
+- [Ein Fediverse-Leitfaden für Twitter-Nutzer | wzyboy's blog](https://wzyboy.im/post/1513.html)
+- [Dezentrales soziales Netzwerk Mastodon Forschungsbericht: Hinter der Plattform- und Protokolldebatte, wird es der ultimative Gewinner sein? – Web3Caff Research](https://research.web3caff.com/zh/archives/6024)
+- [Einrichten von IFTTT zur Synchronisierung von Twitter mit Mastodon. Vorbereitung | von Pei-lun | Medium](https://medium.com/@PeiLun/%E8%A8%AD%E5%AE%9A-ifttt-%E5%90%8C%E6%AD%A5-twitter-%E5%88%B0-mastodon-1010ee3798bb)
 
 ### Crossbell
 
-Additionally, in the previous article ["Weekly Review #25 - Personal Information Output and Synchronization System Based on Crossbell (Refactoring)"](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/), I mentioned issues with syncing Twitter and Telegram historical messages to the chain. Subsequently, I received corresponding solutions from them:
+Zusätzlich erwähnte ich im vorherigen Artikel ["Wochenrückblick #25 - Persönliches Informationsausgabe- und Synchronisationssystem basierend auf Crossbell (Refaktorierung)"](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/) Probleme bei der Synchronisierung von Twitter- und Telegram-Verlaufsnachrichten mit der Blockchain. Daraufhin erhielt ich entsprechende Lösungen von ihnen:
 
-- [How to import tweets to Crossbell - Lemon 🍋](https://lc499.xlog.app/twitter-to-crossbell)
-- [How to import telegram messages to Crossbell - Lemon 🍋](https://lc499.xlog.app/telegram-to-crossbell)
+- [Wie man Tweets in Crossbell importiert - Lemon 🍋](https://lc499.xlog.app/twitter-to-crossbell)
+- [Wie man Telegram-Nachrichten in Crossbell importiert - Lemon 🍋](https://lc499.xlog.app/telegram-to-crossbell)
 
-While using it, I also reported a few bugs. After experiencing it more deeply, I'll organize and write a detailed article, as well as raise some issues. It's quite interesting.
+Während der Nutzung meldete ich auch einige Fehler. Nachdem ich es intensiver erlebt habe, werde ich einen detaillierten Artikel organisieren und schreiben sowie einige Probleme ansprechen. Es ist ziemlich interessant.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **What I Talk About When I Talk About Running**, Murakami's essays or collections are actually quite easy to read. His words carry some sharpness but also convey sincerity and a unique flavor, like a conversation, yet often buried within is a seemingly deliberate humor that makes one smile involuntarily. It took about three months to truly finish reading, as one of the few physical books at hand, it was more often picked up and flipped through when remembered. The first time I went to the cat shelter, although I was moved, I hadn't really made up my mind to take on such responsibility so quickly. But on the way, I casually flipped to a page that read, "At that time, we were living a very frugal, Spartan lifestyle. We had neither a TV nor a radio at home, not even an alarm clock. There was hardly any heating equipment, so on cold nights, we had to sleep tightly hugging the few cats we kept at home. The cats also tried hard to cuddle up to us." These few short sentences became the biggest motivation for me to bring a cat home at that moment. It also talks about many things, about hobbies, the purpose of writing, creative ideas and balance, all of which I've only begun to understand a little after slowly settling down over the past two months.
+- **Wovon ich rede, wenn ich vom Laufen rede**, Murakamis Essays oder Sammlungen sind eigentlich recht leicht zu lesen. Seine Worte tragen eine gewisse Schärfe, vermitteln aber auch Aufrichtigkeit und einen einzigartigen Geschmack, wie ein Gespräch, doch oft verbirgt sich darin ein scheinbar absichtlicher Humor, der einen unwillkürlich zum Lächeln bringt. Es dauerte etwa drei Monate, bis ich es wirklich zu Ende gelesen hatte, als eines der wenigen physischen Bücher zur Hand wurde es öfter aufgenommen und durchgeblättert, wenn ich mich daran erinnerte. Als ich das erste Mal zum Katzenschutzheim ging, war ich zwar bewegt, hatte mich aber nicht wirklich entschieden, so schnell eine solche Verantwortung zu übernehmen. Aber auf dem Weg schlug ich zufällig eine Seite auf, auf der stand: "Zu dieser Zeit lebten wir einen sehr sparsamen, spartanischen Lebensstil. Wir hatten weder einen Fernseher noch ein Radio zu Hause, nicht einmal einen Wecker. Es gab kaum Heizgeräte, so dass wir in kalten Nächten eng umschlungen mit den wenigen Katzen schlafen mussten, die wir zu Hause hielten. Die Katzen versuchten auch, sich eng an uns zu kuscheln." Diese wenigen kurzen Sätze wurden in diesem Moment zur größten Motivation für mich, eine Katze mit nach Hause zu nehmen. Es spricht auch über viele andere Dinge, über Hobbys, den Zweck des Schreibens, kreative Ideen und Balance, von denen ich erst begonnen habe, ein wenig zu verstehen, nachdem ich in den letzten zwei Monaten langsam zur Ruhe gekommen bin.
 
-- **Hard-Boiled Wonderland and the End of the World**, it's been a long time since I've felt such anticipation from a novel. Perhaps it's because of the narrative style, or because I read a few short chapters each time during journeys, making it somewhat discontinuous. I always want to know what will happen next, but I don't want to rush through and miss such beautiful writing. Also, this setting of "another space" reminds me of an old but equally interesting game called "Phantom City".
+- **Hardboiled Wonderland und das Ende der Welt**, es ist lange her, dass ich solche Vorfreude bei einem Roman verspürt habe. Vielleicht liegt es an der Erzählweise oder daran, dass ich jedes Mal während der Reisen ein paar kurze Kapitel las, was es etwas diskontinuierlich machte. Ich möchte immer wissen, was als Nächstes passiert, aber ich will nicht durchhetzen und solch schönes Schreiben verpassen. Außerdem erinnert mich diese Einstellung eines "anderen Raums" an ein altes, aber ebenso interessantes Spiel namens "Phantomstadt".
 
-#### TV Series
+#### Fernsehserien
 
-- **Silent Snow**, I really liked the first few episodes, with Spitz's songs, the personalities of each character, and the comfortable daily life. Perhaps because I empathized too much with the emotions of the second male lead, Sodo, a kind of gentleness and determination described by Iwai Shunji as "I love you, and it has nothing to do with you". Later, I became increasingly disappointed with the development of the plot, and even at the end, I couldn't really understand the basis of Aoba and Omoi's feelings. It was indeed beautiful, but somewhat straightforward and thin.
+- **Stiller Schnee**, ich mochte die ersten Folgen wirklich, mit Spitz' Liedern, den Persönlichkeiten jeder Figur und dem komfortablen Alltag. Vielleicht, weil ich zu sehr mit den Emotionen der zweiten männlichen Hauptfigur, Sodo, mitfühlte, einer Art Sanftmut und Entschlossenheit, die Iwai Shunji als "Ich liebe dich, und es hat nichts mit dir zu tun" beschreibt. Später wurde ich zunehmend enttäuscht von der Entwicklung der Handlung, und selbst am Ende konnte ich die Grundlage von Aobas und Omois Gefühlen nicht wirklich verstehen. Es war in der Tat schön, aber irgendwie geradlinig und dünn.
 
-- **The Three-Body Problem TV Series**, it has become a series that I continue to watch every day. The plot pace is a bit slow, but from what I've seen so far, I still have some expectations.
+- **Die Drei-Körper-Problem TV-Serie**, sie ist zu einer Serie geworden, die ich jeden Tag weiter schaue. Das Handlungstempo ist etwas langsam, aber von dem, was ich bisher gesehen habe, habe ich immer noch einige Erwartungen.
 
 #### Anime
 
-- **Bungo Stray Dogs**, I've been slowly catching up during the New Year. I find the setting of using writers and literary works as tasks and skills quite interesting, and I like the personality designs of many characters in the Detective Agency. However, I don't feel like I'll immediately want to watch the next season. Maybe I'll continue watching when I think of it later.
+- **Bungo Stray Dogs**, ich habe während des Neujahrs langsam aufgeholt. Ich finde das Setting, Schriftsteller und literarische Werke als Aufgaben und Fähigkeiten zu verwenden, recht interessant, und ich mag die Persönlichkeitsdesigns vieler Charaktere in der Detektivagentur. Allerdings habe ich nicht das Gefühl, dass ich sofort die nächste Staffel sehen möchte. Vielleicht werde ich weiterschauen, wenn ich später daran denke.
 
-## Personal Life Snapshots
+## Persönliche Lebensschnappschüsse
 
-### Life
+### Leben
 
-Following up on the description of home in last week's review, I spent nearly 10 days at my hometown this New Year, which is rare in recent years. There are fewer and fewer people in the hometown, and the whole atmosphere seems cold and less lively, but we can set off real fireworks, which is also a kind of special memory.
+Im Anschluss an die Beschreibung der Heimat im Rückblick der letzten Woche verbrachte ich dieses Neujahr fast 10 Tage in meiner Heimatstadt, was in den letzten Jahren selten war. Es gibt immer weniger Menschen in der Heimat, und die ganze Atmosphäre wirkt kalt und weniger lebendig, aber wir können echtes Feuerwerk zünden, was auch eine Art besondere Erinnerung ist.
 
-Because I left when I was young, even the memories of childhood playmates have long been blurred, let alone any childhood friends. So in these ten days, I visited my grandmother, accompanied my grandparents and other family members, which was indeed a rare leisure time.
+Da ich schon jung weggegangen bin, sind selbst die Erinnerungen an Kindheitskameraden längst verblasst, ganz zu schweigen von Kindheitsfreunden. So besuchte ich in diesen zehn Tagen meine Großmutter, begleitete meine Großeltern und andere Familienmitglieder, was in der Tat eine seltene Freizeit war.
 
-There was plenty of warmth, but the daily sub-zero temperatures made me can't help but miss the times with heating and Nini (~~gradually losing the backbone of a southerner and surrendering to central heating, it's too comfortable~~). But it's okay, I brought the old Intel MBP, which heats up just by running an IDE plus a few web pages.
+Es gab viel Wärme, aber die täglichen Temperaturen unter dem Gefrierpunkt ließen mich unwillkürlich die Zeiten mit Heizung und Nini vermissen (~~allmählich verliere ich das Rückgrat eines Südländers und ergebe mich der Zentralheizung, es ist zu komfortabel~~). Aber es ist okay, ich brachte das alte Intel MBP mit, das sich schon beim Ausführen einer IDE plus ein paar Webseiten aufheizt.
 
-I brought a camera this year, although I didn't take it out to shoot much because of cold hands, I did take many family photos. The elderly don't really like taking photos, but fortunately, we now have tools like smartphones that can record daily life at any time, so there's not too much regret. But I still miss the times when the whole family went to the photo studio, although it's already a memory from many years ago. This time I acted as the photographer, taking many photos for the whole family and each small family. Sony's autofocus and continuous shooting are really praiseworthy.
+Ich brachte dieses Jahr eine Kamera mit, obwohl ich sie wegen kalter Hände nicht viel zum Fotografieren herausholte, machte ich viele Familienfotos. Die Älteren mögen es nicht wirklich, fotografiert zu werden, aber zum Glück haben wir jetzt Werkzeuge wie Smartphones, die den Alltag jederzeit festhalten können, so dass es nicht zu viel Bedauern gibt. Aber ich vermisse immer noch die Zeiten, als die ganze Familie ins Fotostudio ging, obwohl es schon eine Erinnerung von vor vielen Jahren ist. Diesmal fungierte ich als Fotograf und machte viele Fotos für die ganze Familie und jede kleine Familie. Sonys Autofokus und Serienaufnahme sind wirklich lobenswert.
 
-When it came to my family's turn, my sister brought a dog as a "placeholder", saying I could photoshop myself in later. She has a bit of a comedian in her who only teases her brother. In the end, we did take a photo with the dog, four of us neatly arranged, without me, haha. I guess this is one of those "sounds ridiculous, but in my family, it seems quite normal" interesting things.
+Als meine Familie an der Reihe war, brachte meine Schwester einen Hund als "Platzhalter" mit und sagte, ich könnte mich später selbst hineinretuschieren. Sie hat etwas von einer Komikerin, die nur ihren Bruder neckt. Am Ende machten wir doch ein Foto mit dem Hund, vier von uns ordentlich aufgereiht, ohne mich, haha. Ich schätze, das ist eines dieser "klingt lächerlich, aber in meiner Familie scheint es ganz normal" interessanten Dinge.
 
-Of course, for the big family photo, we used a tripod and timed continuous shooting. I plan to edit and print some photos recently.
+Für das große Familienfoto verwendeten wir natürlich ein Stativ und zeitgesteuerte Serienaufnahmen. Ich plane, in nächster Zeit einige Fotos zu bearbeiten und zu drucken.
 
 ### Nini
 
 ![nie_nie_on_the_bed](https://image.pseudoyu.com/images/nie_nie_on_the_bed.jpg)
 
-This time I left Nini for nearly half a month. Although my colleague was very attentive and often sent me videos, I was still not completely at ease. The first thing I did after returning to Beijing was to go to my colleague's house. On the way back, I was constantly comforting her, fortunately, she hadn't forgotten me, still had some conscience. After returning home, there wasn't much sense of unfamiliarity, she immediately went to lie comfortably in her favorite corner, which is good.
+Diesmal ließ ich Nini fast einen halben Monat zurück. Obwohl mein Kollege sehr aufmerksam war und mir oft Videos schickte, war ich immer noch nicht ganz beruhigt. Das Erste, was ich nach meiner Rückkehr nach Peking tat, war, zum Haus meines Kollegen zu gehen. Auf dem Rückweg tröstete ich sie ständig, glücklicherweise hatte sie mich nicht vergessen, hatte immer noch etwas Gewissen. Nach der Rückkehr nach Hause gab es nicht viel Fremdheit, sie ging sofort in ihre Lieblingsecke und legte sich bequem hin, was gut ist.
 
-The next day, because I had some things to discuss with the project team, plus I hadn't been there for a long time, I tidied up and went to the company. I felt that after getting used to remote work, going back to the office to work was a bit uncomfortable. I felt like I arrived at the company at 10:30, exchanged greetings with colleagues I hadn't seen for a long time, just opened my computer for a while and was called to lunch, after eating it was time for a nap. I feel that when time is deliberately divided into "work and rest", it's easier to disrupt the rhythm. I might still prefer the mode of finishing work without eating or drinking, and then arranging my own things with the remaining time.
+Am nächsten Tag, weil ich einige Dinge mit dem Projektteam zu besprechen hatte, plus ich schon lange nicht mehr dort war, räumte ich auf und ging zur Firma. Ich hatte das Gefühl, dass es nach der Gewöhnung an die Fernarbeit etwas unangenehm war, wieder ins Büro zu gehen. Ich fühlte mich, als wäre ich um 10:30 Uhr in der Firma angekommen, tauschte Grüße mit Kollegen aus, die ich lange nicht gesehen hatte, öffnete gerade meinen Computer für eine Weile und wurde zum Mittagessen gerufen, nach dem Essen war es Zeit für ein Nickerchen. Ich habe das Gefühl, dass es leichter ist, den Rhythmus zu stören, wenn die Zeit absichtlich in "Arbeit und Ruhe" unterteilt wird. Ich bevorzuge vielleicht immer noch den Modus, die Arbeit ohne Essen oder Trinken zu erledigen und dann mit der verbleibenden Zeit meine eigenen Dinge zu arrangieren.
 
-There's also another thing that's both annoying and funny.
+Es gibt auch noch eine andere Sache, die sowohl ärgerlich als auch lustig ist.
 
 ![dispear_nie_nie](https://image.pseudoyu.com/images/dispear_nie_nie.png)
 
-> Going to the office for the first time in three months, I opened the camera during the lunch break and experienced ten minutes of not seeing the cat, turning on the microphone and calling for five minutes with no response, carefully recalling whether I had closed my doors and windows properly, extremely irritated and anxious, quickly asking for leave, rushing home all the way, and finally arriving home to find her hiding in the blind spot behind the chair, too lazy to poke her head out. I guess the number one reason I want to switch to a fully remote job next time is probably this troublesome Nini 🙃.
+> Zum ersten Mal seit drei Monaten ins Büro gegangen, öffnete ich in der Mittagspause die Kamera und erlebte zehn Minuten lang, dass ich die Katze nicht sah, schaltete das Mikrofon ein und rief fünf Minuten lang ohne Antwort, erinnerte mich sorgfältig daran, ob ich meine Türen und Fenster richtig geschlossen hatte, äußerst irritiert und ängstlich, bat schnell um Urlaub, eilte den ganzen Weg nach Hause, kam endlich zu Hause an und fand sie im toten Winkel hinter dem Stuhl versteckt, zu faul, um den Kopf herauszustrecken. Ich schätze, der Hauptgrund, warum ich beim nächsten Mal zu einem vollständig remote Arbeitsplatz wechseln möchte, ist wahrscheinlich diese lästige Nini 🙃.
 
-And there's a follow-up.
+Und es gibt eine Fortsetzung.
 
 ![dispear_nie_nie_2](https://image.pseudoyu.com/images/dispear_nie_nie_2.png)
 
-> Following up on the previous post. After coming back, I originally wanted to educate her properly, but she quickly jumped up and fell asleep on my legs. When she woke up, she had a confused look, so innocent that I couldn't bear to scold her. So I gave her the cold shoulder for an hour and let it go. Also, I ordered the ebo mobile camera recommended by [@mr_easonyang](https://twitter.com/mr_easonyang), thanks! I'll be more at ease when going out in the future!
+> Anknüpfend an den vorherigen Beitrag. Nach meiner Rückkehr wollte ich sie ursprünglich angemessen erziehen, aber sie sprang schnell auf und schlief auf meinen Beinen ein. Als sie aufwachte, hatte sie einen verwirrten Blick, so unschuldig, dass ich es nicht übers Herz brachte, sie zu schimpfen. Also gab ich ihr eine Stunde lang die kalte Schulter und ließ es gut sein. Außerdem bestellte ich die von [@mr_easonyang](https://twitter.com/mr_easonyang) empfohlene ebo mobile Kamera, danke! Ich werde in Zukunft beruhigter sein, wenn ich ausgehe!
 
-~~In the future, I can control the surveillance robot to tease the cat when slacking off.~~
+~~In Zukunft kann ich den Überwachungsroboter steuern, um die Katze zu necken, wenn ich faulenze.~~
 
-### Others
+### Sonstiges
 
-Two close friends have some conflicts that are difficult to reconcile at this stage. As a small group of three people who have been like family for many years, I can't help but feel a bit guilty about whether I've done too little in this situation.
+Zwei enge Freunde haben einige Konflikte, die in diesem Stadium schwer zu versöhnen sind. Als kleine Gruppe von drei Personen, die seit vielen Jahren wie eine Familie sind, kann ich nicht umhin, mich ein wenig schuldig zu fühlen, ob ich in dieser Situation zu wenig getan habe.
 
-I hope everything will be alright.
+Ich hoffe, alles wird gut.

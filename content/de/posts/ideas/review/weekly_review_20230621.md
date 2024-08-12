@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #42 - Views on Love, Life State and Self"
+title: "Wochenrückblick #42 - Ansichten über Liebe, Lebenszustand und Selbst"
 date: 2023-06-21T10:03:24+08:00
 draft: false
 tags: ["review", "life", "romance", "love", "run", "time", "cat", "boyi"]
@@ -10,69 +10,69 @@ authors:
 
 {{<audio src="audios/tenderness.mp3" caption="'Tenderness - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from `2023-06-13` to `2023-06-21`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `13.06.2023` bis zum `21.06.2023`.
 
-This week, I traveled to many places and experienced some emotional fluctuations. After returning, I was busy with various trivial matters, which is why I'm only now sitting down to write this weekly review.
+Diese Woche reiste ich an viele Orte und erlebte einige emotionale Schwankungen. Nach meiner Rückkehr war ich mit verschiedenen Kleinigkeiten beschäftigt, weshalb ich erst jetzt dazu komme, diesen Wochenrückblick zu schreiben.
 
-I went back to Beijing to visit my former company and met with my previous leaders. We discussed many topics including web3, AI, and various technical issues. I had dinner with old colleagues, drinking and chatting about different life trajectories and mindsets. I attended a Drink & Draw event, which was novel and pleasant. I went on another trip to Shanghai with Boyi, who happened to be on a business trip - a familiar yet precious experience. On Saturday, I participated in HZLUG and met many developers I've long admired on Twitter. There were many other interesting events.
+Ich kehrte nach Peking zurück, um mein ehemaliges Unternehmen zu besuchen und traf mich mit meinen früheren Vorgesetzten. Wir diskutierten viele Themen, darunter Web3, KI und verschiedene technische Fragen. Ich aß mit alten Kollegen zu Abend, trank und plauderte über unterschiedliche Lebenswege und Denkweisen. Ich nahm an einer Drink & Draw Veranstaltung teil, was neuartig und angenehm war. Ich unternahm eine weitere Reise nach Shanghai mit Boyi, der zufällig auf Geschäftsreise war - eine vertraute und dennoch kostbare Erfahrung. Am Samstag nahm ich an HZLUG teil und traf viele Entwickler, die ich schon lange auf Twitter bewundert hatte. Es gab viele weitere interessante Ereignisse.
 
-Also, I've changed the song to "Tenderness" by Mayday.
+Außerdem habe ich das Lied zu "Tenderness" von Mayday geändert.
 
-## Views on Love
+## Ansichten über Liebe
 
 ![wine_drink_and_draw](https://image.pseudoyu.com/images/wine_drink_and_draw.jpg)
 
-In fact, I often mentioned love in earlier weekly reviews. It was like a place for emotional catharsis. As my life focus gradually shifted, I went to the other extreme and stopped mentioning it altogether.
+Tatsächlich erwähnte ich die Liebe oft in früheren Wochenrückblicken. Es war wie ein Ort für emotionale Katharsis. Als sich mein Lebensfokus allmählich verlagerte, ging ich ins andere Extrem und hörte ganz auf, sie zu erwähnen.
 
-It wasn't until my birthday reflection, when I had to recall the darkest moment of the past year that I couldn't bypass, that I picked up some memories again. A few days ago, when talking with Ni, I began to realize that what I couldn't let go of was just the memory and the incomprehension and so-called hurt caused by what I thought was an abrupt ending, rather than a specific person or even a concrete relationship.
+Erst bei meiner Geburtstagsreflexion, als ich mich an den dunkelsten Moment des vergangenen Jahres erinnern musste, an dem ich nicht vorbeikam, griff ich wieder einige Erinnerungen auf. Vor ein paar Tagen, als ich mit Ni sprach, begann ich zu erkennen, dass das, woran ich nicht loslassen konnte, nur die Erinnerung und das Unverständnis und der sogenannte Schmerz waren, die durch das verursacht wurden, was ich für ein abruptes Ende hielt, und nicht eine bestimmte Person oder gar eine konkrete Beziehung.
 
-I knew that whether to move on or to reorganize my life, I needed to face these experiences and internalize them into my own views on love. But I chose to shelve it, even immersing myself in a state of self-deception, unwilling to face and think about it. I just told myself, "It's only been a year, no rush." Perhaps people ultimately love themselves more, preferring to instinctively protect themselves.
+Ich wusste, dass ich mich diesen Erfahrungen stellen und sie in meine eigenen Ansichten über die Liebe internalisieren musste, ob ich nun weitermachen oder mein Leben neu ordnen wollte. Aber ich entschied mich dafür, es beiseite zu legen und mich sogar in einen Zustand der Selbsttäuschung zu versetzen, unwillig, mich damit auseinanderzusetzen und darüber nachzudenken. Ich sagte mir einfach: "Es ist erst ein Jahr vergangen, keine Eile." Vielleicht lieben Menschen letztendlich sich selbst mehr und ziehen es instinktiv vor, sich selbst zu schützen.
 
-An unexpected conversation made me realize this self-deception, and I found that I was gradually losing the courage to face love. My thoughts on love were so tangled that I could hardly distinguish them. I was afraid of the emotions sprouting within me, fearing that my flawed self couldn't bear such a complex relationship, and also fearing that I might be insincere in my momentary happiness.
+Ein unerwartetes Gespräch ließ mich diese Selbsttäuschung erkennen, und ich stellte fest, dass ich allmählich den Mut verlor, mich der Liebe zu stellen. Meine Gedanken über die Liebe waren so verworren, dass ich sie kaum unterscheiden konnte. Ich fürchtete mich vor den in mir aufkeimenden Gefühlen, aus Angst, dass mein fehlerhaftes Selbst eine so komplexe Beziehung nicht ertragen könnte, und auch aus Angst, dass ich in meinem momentanen Glück unaufrichtig sein könnte.
 
-Perhaps what one needs to overcome at any stage is always the self. I probably really need some time to reorganize my views on love, to rediscover myself, and to start anew.
+Vielleicht ist das, was man in jeder Phase überwinden muss, immer das Selbst. Ich brauche wahrscheinlich wirklich etwas Zeit, um meine Ansichten über die Liebe neu zu ordnen, mich selbst wiederzuentdecken und neu anzufangen.
 
-## Life State
+## Lebenszustand
 
-My life state is similar. I originally thought that with the extra time from remote work, I could use it to adjust my daily routine, focus on health, or do more things I wanted to do. But many times, I still put my mind and time into work and some learning. It's not that I'm trying to outdo others, but it seems that I often have an indifferent attitude towards other aspects of my life, having a kind of detached observation of my own life.
+Mein Lebenszustand ist ähnlich. Ursprünglich dachte ich, dass ich mit der zusätzlichen Zeit durch die Fernarbeit meine tägliche Routine anpassen, mich auf die Gesundheit konzentrieren oder mehr Dinge tun könnte, die ich tun wollte. Aber oft investiere ich meine Gedanken und Zeit immer noch in Arbeit und Lernen. Es ist nicht so, dass ich versuche, andere zu übertreffen, aber es scheint, dass ich oft eine gleichgültige Haltung gegenüber anderen Aspekten meines Lebens habe, eine Art distanzierte Beobachtung meines eigenen Lebens.
 
 ![morning_scene_run](https://image.pseudoyu.com/images/morning_scene_run.jpg)
 
-As I want to get my life and everything around me back on track, I've started to follow a joke about "walking myself every day". I've begun to pay attention to sleep again, get up early for a run, and reorganize my reading list, reading a few pages after coming back from a run.
+Da ich mein Leben und alles um mich herum wieder in die richtige Bahn lenken möchte, habe ich begonnen, einem Scherz über "mich selbst jeden Tag spazieren führen" zu folgen. Ich habe wieder angefangen, auf den Schlaf zu achten, früh aufzustehen, um zu laufen, und meine Leseliste neu zu organisieren, um nach dem Laufen ein paar Seiten zu lesen.
 
-The next morning, walking to the ancient town district by the river, seeing the delicate sunlight sprinkling through the gaps in the branches onto the ground, I found an irrepressible desire to share after taking a photo. It seems I'm gradually regaining some long-unfamiliar expectations for life itself. Where the heart leads, the feet follow.
+Am nächsten Morgen, als ich zum alten Stadtviertel am Fluss ging und sah, wie das zarte Sonnenlicht durch die Lücken in den Ästen auf den Boden fiel, verspürte ich nach dem Fotografieren einen unbezähmbaren Wunsch zu teilen. Es scheint, als würde ich allmählich einige lang unvertraute Erwartungen an das Leben selbst zurückgewinnen. Wohin das Herz führt, folgen die Füße.
 
-## Personal Life Snapshots
+## Persönliche Lebensschnappschüsse
 
 ![pic_drink_and_draw](https://image.pseudoyu.com/images/pic_drink_and_draw.jpg)
 
 ![pic_boyi_drink_and_draw](https://image.pseudoyu.com/images/pic_boyi_drink_and_draw.jpg)
 
-I experienced a Drink & Draw event for the first time. Although I only did the "Drink" part at the scene, it was an interesting experience. On stage, models were creating various scenes, while below, many art enthusiasts were immersed in their work. Some captured the essence with just a few strokes, while others meticulously traced their own interpretations. I observed from the side, seeming to find some tranquility.
+Ich erlebte zum ersten Mal eine Drink & Draw Veranstaltung. Obwohl ich vor Ort nur den "Drink"-Teil machte, war es eine interessante Erfahrung. Auf der Bühne schufen Models verschiedene Szenen, während unten viele Kunstbegeisterte in ihre Arbeit vertieft waren. Einige erfassten das Wesentliche mit nur wenigen Strichen, während andere akribisch ihre eigenen Interpretationen nachzeichneten. Ich beobachtete von der Seite und schien eine gewisse Ruhe zu finden.
 
-I've been to Shanghai many times, so I didn't take many photos. But this time was a rare opportunity to explore leisurely without a tight schedule.
+Ich war schon oft in Shanghai, daher habe ich nicht viele Fotos gemacht. Aber diesmal war es eine seltene Gelegenheit, ohne engen Zeitplan gemütlich zu erkunden.
 
 ![rust_china_conf_2023](https://image.pseudoyu.com/images/rust_china_conf_2023.jpg)
 
-Invited by a friend, I hurried to Shanghai early Sunday morning to attend Rust China Conf 2023. As a Gopher infiltrating the event, I didn't understand most of it, but the peripherals were really nice. I feel like the clothes, bags, and totes I've received from events over these few months are enough for me to wear until next year.
+Auf Einladung eines Freundes eilte ich am frühen Sonntagmorgen nach Shanghai, um an der Rust China Conf 2023 teilzunehmen. Als ein Gopher, der sich in die Veranstaltung einschlich, verstand ich das meiste nicht, aber die Peripherie war wirklich schön. Ich habe das Gefühl, dass die Kleidung, Taschen und Tragetaschen, die ich in den letzten Monaten von Veranstaltungen erhalten habe, ausreichen, um sie bis zum nächsten Jahr zu tragen.
 
-I was also very happy to meet Teacher "Tiny Bear" from the Upchain community, introduced by a friend. When I first started learning about blockchain and smart contracts, I watched many tutorials on Upchain. I never thought I'd meet him and even help prepare a set of video tutorials on the Solidity Foundry framework. It feels a bit unreal, like breaking through a dimensional wall.
+Ich war auch sehr glücklich, Lehrer "Tiny Bear" aus der Upchain-Community zu treffen, der von einem Freund vorgestellt wurde. Als ich anfing, über Blockchain und Smart Contracts zu lernen, sah ich viele Tutorials auf Upchain. Ich hätte nie gedacht, dass ich ihn treffen und sogar bei der Vorbereitung eines Video-Tutorial-Sets über das Solidity Foundry Framework helfen würde. Es fühlt sich ein bisschen unwirklich an, wie das Durchbrechen einer dimensionalen Wand.
 
 ![cute_nie_nie](https://image.pseudoyu.com/images/cute_nie_nie.jpg)
 
 ![nie_nie_on_sofa](https://image.pseudoyu.com/images/nie_nie_on_sofa.jpg)
 
-And there's the cute Nie Nie!
+Und da ist die süße Nie Nie!
 
-## Interesting Things and Objects
+## Interessante Dinge und Gegenstände
 
 ### Input
 
-Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select some to list here. It feels more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im Telegram-Kanal "Yu's Life" synchronisiert werden, werde ich hier trotzdem einige auswählen. Es fühlt sich mehr wie ein Newsletter an.
 
-#### Articles
+#### Artikel
 
 - [Back to the Beginning of the Story: So What is Web3 - Atlas]
 - [Programming for AI: It's Time to Sit Down and Deal with Uncertainty | Lyrics Manager]
@@ -82,7 +82,7 @@ Although most interesting inputs are automatically synced in the "Yu's Life" Tel
 
 #### Videos
 
-Recording some interesting videos I've watched:
+Aufzeichnung einiger interessanter Videos, die ich gesehen habe:
 
 - [Self-rescue from a Depressing Life]
 
@@ -90,7 +90,7 @@ Recording some interesting videos I've watched:
 
 - [EP14 Hard Ground Interview: Talking to logseq Co-founder, Looking at Silicon Valley Tycoon's Legendary Investment]
 
-#### Music
+#### Musik
 
 - [A Small Love Song feat. Naho]
 - [Spring Thief by Yorushika]
@@ -98,9 +98,9 @@ Recording some interesting videos I've watched:
 
 #### Anime
 
-- **Demon Slayer: Swordsmith Village Arc**, Ah! Great, Nezuko! Everyone go watch it!
-- **Oshi no Ko**, continuing to follow!
+- **Demon Slayer: Swordsmith Village Arc**, Ah! Großartig, Nezuko! Alle sollten es ansehen!
+- **Oshi no Ko**, ich verfolge es weiterhin!
 
-#### TV Series
+#### TV-Serien
 
-- **Black Mirror Season 6**, the first episode is still very good, but it certainly lacks the shock of watching the first two seasons.
+- **Black Mirror Staffel 6**, die erste Folge ist immer noch sehr gut, aber es fehlt sicherlich der Schock beim Anschauen der ersten beiden Staffeln.

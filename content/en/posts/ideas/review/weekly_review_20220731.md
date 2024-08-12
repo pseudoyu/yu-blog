@@ -32,7 +32,7 @@ Sometimes, hours mysteriously pass by, and because I need to go to work the next
 
 As a result, productivity during after-work hours is hard to guarantee. Sometimes, I even force myself to do things. I resonate with a group member's description:
 
-> "I'm now learning with a focus on weekly reports. Every time I want to completely lie down, I think about what to do if I haven't written the weekly report, and then I sit up in shock as if rising from my deathbed."
+> "I'm now learning with a focus on weekly reports. Every time I want to completely lie down, I think about what to do if I haven't written the weekly review, and then I sit up in shock as if rising from my deathbed."
 
 Reflecting on the reasons for this state, I feel that I still find it difficult to get the improvement I want from work. Instead, it often consumes my spirit, and the time after work is not enough to recover, causing my productivity to be completely destroyed. Although there are indeed no task quantity regulations or external deadlines, I still often have some self-reproach. This is far from the ideal living state I pursue.
 
@@ -84,7 +84,7 @@ I didn't do much other technical learning this week. CSAPP, contract development
 1. **Arc**, a newly popular browser. I tried it out, and the experience is very different. Currently, I haven't found any major flaws, but it will still mostly serve as an auxiliary browser. After all, I'm too used to Safari.
 2. **Arctype**, a database management tool I saw in some recommendation article. The interface is very beautiful, and it can be divided into multiple workspaces. It also has a built-in visualization panel function. I haven't played with it in detail yet. Currently, my main tool is still TablePlus.
 
-After reading [STRRL](https://twitter.com/strrlthedev)'s weekly report last week, I also completely migrated my blog to Cloudflare Pages. The migration experience was very seamless, and the subsequent use feels great. At this point, my serverless blog system consists of:
+After reading [STRRL](https://twitter.com/strrlthedev)'s weekly review last week, I also completely migrated my blog to Cloudflare Pages. The migration experience was very seamless, and the subsequent use feels great. At this point, my serverless blog system consists of:
 
 - GitHub as the source file for the Hugo blog and running some GitHub Actions to automatically update the About page
 - Cloudflare Pages hosting the blog, and using the domain hosted on Cloudflare for resolution

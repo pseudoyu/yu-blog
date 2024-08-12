@@ -1,5 +1,5 @@
 ---
-title: "Weekly Report #24 - Love Actually"
+title: "Weekly Review #24 - Love Actually"
 date: 2022-12-27T01:59:29+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "christmas", "love", "romance", "mood"]
@@ -14,7 +14,7 @@ authors:
 
 This piece is a record and reflection of my life from December 20, 2022 to December 27, 2022.
 
-Unconsciously, this is already the 24th article, and the last weekly report of 2022. Sometimes there's this inexplicable sense of ceremony when meaningful events occur at rather round time points, which often makes one particularly happy.
+Unconsciously, this is already the 24th article, and the last weekly review of 2022. Sometimes there's this inexplicable sense of ceremony when meaningful events occur at rather round time points, which often makes one particularly happy.
 
 Sometimes the desire to share is just so wondrous. Although I had grown accustomed to closing my Moments entry for nearly four or five years and rarely posted anything related to personal emotions, in the past half year, I began to record my daily life through weekly reports and frequently share on Twitter and Instagram (although mostly cat-related, it's still the first step in recovering from social phobia). Sometimes change doesn't need too many reasons to occur, it's just about timing.
 

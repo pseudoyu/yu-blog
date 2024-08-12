@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #61 - A Good Friend's Wedding and Reflections on Marriage"
+title: "Wochenrückblick #61 - Die Hochzeit eines guten Freundes und Gedanken zur Ehe"
 date: 2024-06-16T16:30:00+08:00
 draft: false
 tags: ["review", "life", "marriage", "wedding", "pkm"]
@@ -10,100 +10,100 @@ authors:
 
 {{<audio src="audios/photograph.mp3" caption="'Photograph - Ed Sheeran'" >}}
 
-## Preface
+## Vorwort
 
 ![weekly_review_20240616](https://image.pseudoyu.com/images/weekly_review_20240616.png)
 
-This piece is a record and reflection of my life from June 7, 2024, to June 16, 2024.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 7. Juni 2024 bis zum 16. Juni 2024.
 
-## A Good Friend's Wedding
+## Die Hochzeit eines guten Freundes
 
-I returned to Beijing during the Dragon Boat Festival to attend a wedding - that of my dear high school friend, Jian.
+Ich kehrte während des Drachenbootfestes nach Peking zurück, um einer Hochzeit beizuwohnen - der meines lieben Schulfreundes Jian.
 
-In high school, I was in the liberal arts class with only eight boys. One of them had a sudden epiphany in the second year of high school, deciding to take a break from school to write books and revitalize Chinese literature, leaving only seven of us to accompany each other through the third year. Perhaps due to our small number, we developed a sense of camaraderie and mutual appreciation. After graduation, we maintained a frequency of two or three gatherings a year until the outbreak of the pandemic.
+In der Oberschule war ich in der geisteswissenschaftlichen Klasse mit nur acht Jungen. Einer von ihnen hatte im zweiten Jahr der Oberschule eine plötzliche Erleuchtung und beschloss, eine Auszeit von der Schule zu nehmen, um Bücher zu schreiben und die chinesische Literatur wiederzubeleben. So blieben nur noch sieben von uns übrig, die einander durch das dritte Jahr begleiteten. Vielleicht aufgrund unserer geringen Anzahl entwickelten wir ein Gefühl der Kameradschaft und gegenseitigen Wertschätzung. Nach dem Abschluss trafen wir uns zwei- bis dreimal im Jahr, bis der Ausbruch der Pandemie kam.
 
-Among us, three, including myself, were particularly close due to our similar wavelengths. We had a small group chat for daily casual conversations, and we would seize opportunities to meet for meals when traveling to Beijing, Shanghai, or Hangzhou for work. We also visited each other's homes, tasted each other's cooking, and met the people important to each of us.
+Unter uns waren drei, mich eingeschlossen, besonders eng verbunden aufgrund ähnlicher Wellenlängen. Wir hatten einen kleinen Gruppenchat für tägliche zwanglose Unterhaltungen und nutzten Gelegenheiten, um uns zu Mahlzeiten zu treffen, wenn wir für die Arbeit nach Peking, Shanghai oder Hangzhou reisten. Wir besuchten auch die Häuser der anderen, probierten die Kochkünste des jeweils anderen und lernten die Menschen kennen, die uns wichtig waren.
 
-Last year, another member of our trio was the first to get married. At that time, I wasn't quite "up to par" with my long blue hair and didn't get to be a groomsman, which left me with a tinge of regret. When Jian set the date for his wedding, he invited me early on to be his groomsman - the only one, in fact. The English term "best man" is quite an appealing title, and I was both surprised and honored.
+Letztes Jahr war ein anderes Mitglied unseres Trios der Erste, der heiratete. Damals war ich mit meinem langen blauen Haar nicht ganz "standesgemäß" und konnte kein Trauzeuge sein, was mich mit einem Hauch von Bedauern zurückließ. Als Jian den Termin für seine Hochzeit festlegte, lud er mich frühzeitig ein, sein Trauzeuge zu sein - der einzige, um genau zu sein. Der englische Begriff "best man" ist ein recht ansprechender Titel, und ich war sowohl überrascht als auch geehrt.
 
-In fact, beyond the obligatory duties at the wedding ceremony, I think inviting important people to witness a significant milestone in one's life is inherently romantic.
+Tatsächlich denke ich, dass es über die obligatorischen Pflichten bei der Hochzeitszeremonie hinaus von Natur aus romantisch ist, wichtige Menschen einzuladen, um einen bedeutenden Meilenstein im eigenen Leben zu bezeugen.
 
-I spent an afternoon trying on suits a few days before the wedding, only to discover that I couldn't quite pull off the look. In the end, I pieced together a casual suit from my usual men's clothing online store. It was the most formal outfit I've ever worn. I couldn't bring myself to cut my hair short, but I did trim it and styled it in a more grown-up manner.
+Ich verbrachte einen Nachmittag damit, ein paar Tage vor der Hochzeit Anzüge anzuprobieren, nur um festzustellen, dass ich den Look nicht ganz hinbekam. Am Ende stellte ich einen lässigen Anzug aus meinem üblichen Online-Shop für Herrenkleidung zusammen. Es war das förmlichste Outfit, das ich je getragen habe. Ich konnte mich nicht dazu durchringen, meine Haare kurz zu schneiden, aber ich stutzte sie und frisierte sie auf eine erwachsenere Art und Weise.
 
-It was a lawn wedding, something I've seen many times in movies but never attended in real life. It was full of ceremony yet intimate. Having been involved in the wedding preparations early on, I could better appreciate the details and thoughtfulness behind this perfect ceremony.
+Es war eine Hochzeit im Freien, etwas, das ich viele Male in Filmen gesehen, aber noch nie selbst erlebt hatte. Sie war voller Zeremonie und doch intim. Da ich schon früh in die Hochzeitsvorbereitungen einbezogen worden war, konnte ich die Details und die Sorgfalt hinter dieser perfekten Zeremonie besser würdigen.
 
-The bridesmaid on the bride's side was an extrovert, radiating with energy, while I was still lowering my head and silently rehearsing the order of hands for presenting the wedding rings just before going on stage. My introversion stood out in stark contrast. It was an interesting juxtaposition, and I'm looking forward to seeing the official photos later.
+Die Brautjungfer auf Seiten der Braut war eine Extrovertin, die vor Energie strahlte, während ich noch kurz vor dem Auftritt den Kopf senkte und still die Reihenfolge der Hände für die Übergabe der Eheringe probte. Meine Introvertiertheit stand in starkem Kontrast dazu. Es war ein interessanter Gegensatz, und ich freue mich darauf, später die offiziellen Fotos zu sehen.
 
-## Weddings and Marriage
+## Hochzeiten und Ehe
 
-As early as mid-May, I had accompanied them to discuss details with the wedding planning company. Looking at the lengthy and meticulous process charts, item lists, and layout diagrams, I was amazed at the complexity and expense of a wedding. When discussing the quote, we saw that two floral arches and some floral decorations on the seats added up to over 50,000 yuan. So much so that when my senior and I arrived at the wedding venue and saw the floral arches, we couldn't help but think of these numbers.
+Schon Mitte Mai hatte ich sie begleitet, um Details mit der Hochzeitsplanungsfirma zu besprechen. Als ich die langen und akribischen Prozessdiagramme, Artikellisten und Layoutpläne sah, war ich erstaunt über die Komplexität und die Kosten einer Hochzeit. Bei der Besprechung des Angebots sahen wir, dass zwei Blumenbögen und einige Blumendekorationen an den Sitzen sich auf über 50.000 Yuan summierten. So sehr, dass mein Senior und ich, als wir am Hochzeitsort ankamen und die Blumenbögen sahen, unwillkürlich an diese Zahlen denken mussten.
 
-Weddings are often labeled as "once in a lifetime" events, so it seems that no amount of effort or expense is too much for that moment of perfection. But I often wonder, when something originally emotional and romantic becomes an endless list of items in an Excel spreadsheet with precise numbers behind it, when every move of the bride and groom must be perfectly prescribed, who is this wedding really for?
+Hochzeiten werden oft als "einmalige" Ereignisse bezeichnet, sodass kein Aufwand und keine Kosten für diesen Moment der Perfektion zu groß erscheinen. Aber ich frage mich oft, wenn etwas ursprünglich Emotionales und Romantisches zu einer endlosen Liste von Positionen in einer Excel-Tabelle mit präzisen Zahlen dahinter wird, wenn jede Bewegung von Braut und Bräutigam perfekt vorgeschrieben sein muss, für wen ist diese Hochzeit dann wirklich?
 
-Perhaps because my senior and I are people who value experience over form, we might feel that planning and filming a documentary about marriage and love together, taking a "tour" to see important but long-unseen friends of both sides while wearing a veil and carrying blessings, or capturing some more authentic and precious promises in a church in a favorite country or city would be more memorable than the luxury of a wedding banquet.
+Vielleicht, weil mein Senior und ich Menschen sind, die Erfahrung über Form stellen, könnten wir das Gefühl haben, dass es einprägsamer wäre, gemeinsam einen Dokumentarfilm über Ehe und Liebe zu planen und zu drehen, eine "Tour" zu machen, um wichtige, aber lange nicht gesehene Freunde beider Seiten zu besuchen, während man einen Schleier trägt und Segen mitbringt, oder einige authentischere und kostbarere Versprechen in einer Kirche in einem Lieblingsland oder einer Lieblingsstadt festzuhalten, als der Luxus eines Hochzeitsbanketts.
 
-But standing beside the groom and witnessing the vows and emotions at the wedding, I felt that perhaps any way is fine, as long as it's with the right person.
+Aber als ich neben dem Bräutigam stand und die Gelübde und Emotionen bei der Hochzeit miterlebte, fühlte ich, dass vielleicht jede Art in Ordnung ist, solange es mit dem richtigen Menschen geschieht.
 
-## Other Matters
+## Andere Angelegenheiten
 
-### Blog Comments
+### Blog-Kommentare
 
 ![ququ_comments](https://image.pseudoyu.com/images/ququ_comments.jpg)
 
-When I discovered that QuQu, a respected figure who had been in my RSS reader subscription list since the early days, was reading my weekly review and even left a comment, I felt like I had successfully met an idol and broken through a dimensional wall 😭
+Als ich entdeckte, dass QuQu, eine respektierte Persönlichkeit, die seit den frühen Tagen in meiner RSS-Reader-Abonnementliste stand, meinen Wochenrückblick las und sogar einen Kommentar hinterließ, fühlte ich mich, als hätte ich erfolgreich ein Idol getroffen und eine dimensionale Wand durchbrochen 😭
 
-### Companionship of Readers
+### Begleitung der Leser
 
 ![atlas_book](https://image.pseudoyu.com/images/atlas_book.jpg)
 
-On my birthday, I initiated a lucky draw, selecting six readers who left comments. Three winners chose EpubKit memberships, two chose physical books, and one chose WeChat Reading.
+An meinem Geburtstag initiierte ich eine Verlosung und wählte sechs Leser aus, die Kommentare hinterlassen hatten. Drei Gewinner wählten EpubKit-Mitgliedschaften, zwei wählten physische Bücher und einer wählte WeChat Reading.
 
-Interestingly, one of the winning friends reciprocated by sending me a set of voluminous books. Last year, he commented on my birthday summary article "The Man Who Pushes Rocks," suggesting that perhaps Sisyphus should also shrug. Today, seeing "Atlas Shrugged" that he sent me, I felt a strange and warm sense of companionship and connection 🥰.
+Interessanterweise erwiderte einer der gewinnenden Freunde die Geste, indem er mir einen Satz umfangreicher Bücher schickte. Letztes Jahr kommentierte er meinen Geburtstagszusammenfassungsartikel "Der Mann, der Steine schiebt" und schlug vor, dass Sisyphos vielleicht auch mit den Schultern zucken sollte. Als ich heute "Atlas wirft die Welt ab" sah, das er mir geschickt hatte, verspürte ich ein seltsames und warmes Gefühl der Begleitung und Verbundenheit 🥰.
 
-### Changing Note-taking System
+### Wechsel des Notizensystems
 
 ![change_to_obsidian](https://image.pseudoyu.com/images/change_to_obsidian.jpg)
 
-I spent an afternoon organizing my notes today and realized that Logseq had, to some extent, changed my thinking habits. Although the Daily Notes method indeed reduced the mental burden of recording, it also made my thinking less continuous. My thoughts were all converted into bullet points, yet often couldn't be connected into a complete blog post, and much of what I had learned was gradually forgotten.
+Ich verbrachte heute einen Nachmittag damit, meine Notizen zu organisieren, und stellte fest, dass Logseq in gewissem Maße meine Denkgewohnheiten verändert hatte. Obwohl die Methode der täglichen Notizen tatsächlich die mentale Belastung des Aufzeichnens reduzierte, machte sie mein Denken auch weniger kontinuierlich. Meine Gedanken wurden alle in Aufzählungspunkte umgewandelt, konnten aber oft nicht zu einem vollständigen Blogbeitrag verbunden werden, und vieles von dem, was ich gelernt hatte, geriet allmählich in Vergessenheit.
 
-So I made up my mind to switch to Obsidian. I didn't install any plugins, but instead adopted a more primitive single-text mode of recording, using files starting with "20240615 + keyword" and noting tags at the beginning of each article. This actually allows me to organize things more systematically.
+Also fasste ich den Entschluss, zu Obsidian zu wechseln. Ich installierte keine Plugins, sondern adoptierte stattdessen einen primitiveren Einzeltext-Modus des Aufzeichnens, indem ich Dateien verwendete, die mit "20240615 + Schlüsselwort" beginnen und Tags am Anfang jedes Artikels notiere. Dies erlaubt es mir tatsächlich, Dinge systematischer zu organisieren.
 
-### Changing macOS Theme
+### Änderung des macOS-Themas
 
 ![dark_desktop](https://image.pseudoyu.com/images/dark_desktop.jpg)
 
-I discovered a [complete theme set](https://www.darkosicon.com/) of pure dark icons + wallpaper, which has a very immersive effect (except for the Finder icon which can't be changed and stands out). The practical effect is shown in the image.
+Ich entdeckte ein [vollständiges Themenset](https://www.darkosicon.com/) von reinen dunklen Icons + Hintergrund, das einen sehr immersiven Effekt hat (außer dem Finder-Icon, das nicht geändert werden kann und hervorsticht). Der praktische Effekt ist in dem Bild zu sehen.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
 ### Input
 
-Although most interesting inputs are automatically synced in the "Yu's Life" Telegram channel, I'll still select a few to list here, making it feel more like a newsletter.
+Obwohl die meisten interessanten Inputs automatisch im "Yu's Life" Telegram-Kanal synchronisiert werden, werde ich hier trotzdem einige auswählen, um sie aufzulisten, damit es sich mehr wie ein Newsletter anfühlt.
 
-#### Books
+#### Bücher
 
-- [**Insect Radical**](https://book.douban.com/subject/35171215/), I became curious after completing the study camp, and the insects mentioned inside seem more familiar now.
-- [**Atlas Shrugged**](https://book.douban.com/subject/33445309/), sent by a reader, I read a bit every morning.
+- [**Insektenradikal**](https://book.douban.com/subject/35171215/), ich wurde nach Abschluss des Studien-Camps neugierig, und die darin erwähnten Insekten erscheinen mir jetzt vertrauter.
+- [**Atlas wirft die Welt ab**](https://book.douban.com/subject/33445309/), von einem Leser geschickt, ich lese jeden Morgen ein bisschen.
 
-#### Collections
+#### Sammlungen
 
 - [GitHub - scalar/scalar](https://github.com/scalar/scalar)
 - [Up host polebug's channel](https://t.me/polebugisabug)
-- [Introduction to Generative AI 2024 Spring](https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php)
+- [Einführung in Generative KI 2024 Frühling](https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php)
 - [DarkOS Icon Pack](https://www.darkosicon.com/)
 
-#### Articles
+#### Artikel
 
-- [Let's Talk About E-ink Readers](https://imququ.com/post/ebook-reader.html)
-- [The Renaissance of SQLite](https://www.bmpi.dev/dev/renaissance-sqlite/)
-- [Managing My Motivation, as a Solo Dev](https://mbuffett.com/posts/maintaining-motivation/)
-- [A Decade in the Blink of an Eye](https://blog.inoki.cc/2024/06/08/My-10-years/)
-- [AI Reviving RSS?](https://mp.weixin.qq.com/s/aYFDP4fmGKc048uQ_noz9g)
+- [Lass uns über E-Ink-Reader sprechen](https://imququ.com/post/ebook-reader.html)
+- [Die Renaissance von SQLite](https://www.bmpi.dev/dev/renaissance-sqlite/)
+- [Meine Motivation als Solo-Entwickler managen](https://mbuffett.com/posts/maintaining-motivation/)
+- [Ein Jahrzehnt im Augenblick](https://blog.inoki.cc/2024/06/08/My-10-years/)
+- [KI wiederbelebt RSS?](https://mp.weixin.qq.com/s/aYFDP4fmGKc048uQ_noz9g)
 
 #### Videos
 
-- [vlog #58 | What can be done after work | A female programmer's after-work study record | Deceived by AltLayer | Thoughts on English thinking | Inspiration from reading "Time Poverty"](https://www.bilibili.com/video/BV1q1421y7MT)
-- [Tips from 17 years of travel experience, from student to newlywed](https://www.bilibili.com/video/BV1L7421d7dN)
-- [vlog #59 | Stealing time to study | A female programmer's after-work study routine | Learning Rust | May review | Long-term English learning | Reading "Time Poverty"](https://www.bilibili.com/video/BV1j7421d77x)
-- [When a rebellious middle-aged examinee gets this year's essay topic...](https://www.bilibili.com/video/BV1rT421e7bx)
-- [Lesson 3 Solidity Smart Contract Development](https://www.bilibili.com/video/BV1mS411P7Hm)
+- [vlog #58 | Was nach der Arbeit getan werden kann | Studienaufzeichnungen einer Programmiererin nach der Arbeit | Von AltLayer getäuscht | Gedanken zum englischen Denken | Inspiration aus der Lektüre von "Zeitarmut"](https://www.bilibili.com/video/BV1q1421y7MT)
+- [Tipps aus 17 Jahren Reiseerfahrung, vom Studenten zum Frischvermählten](https://www.bilibili.com/video/BV1L7421d7dN)
+- [vlog #59 | Zeit zum Lernen stehlen | Studienroutine einer Programmiererin nach der Arbeit | Rust lernen | Mai-Rückblick | Langfristiges Englischlernen | Lesen von "Zeitarmut"](https://www.bilibili.com/video/BV1j7421d77x)
+- [Wenn ein rebellischer Prüfling mittleren Alters das diesjährige Aufsatzthema bekommt...](https://www.bilibili.com/video/BV1rT421e7bx)
+- [Lektion 3 Solidity Smart Contract Entwicklung](https://www.bilibili.com/video/BV1mS411P7Hm)

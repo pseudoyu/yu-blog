@@ -1,5 +1,5 @@
 ---
-title: "Weekly Report #24 - Love Actually"
+title: "Wochenrückblick #24 - Tatsächlich... Liebe"
 date: 2022-12-27T01:59:29+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "christmas", "love", "romance", "mood"]
@@ -10,45 +10,45 @@ authors:
 
 {{<audio src="audios/christmas_song_english_version.mp3" caption="'Christmas Song (English Cover) - Matt Cab'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from December 20, 2022 to December 27, 2022.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 20. Dezember 2022 bis zum 27. Dezember 2022.
 
-Unconsciously, this is already the 24th article, and the last weekly report of 2022. Sometimes there's this inexplicable sense of ceremony when meaningful events occur at rather round time points, which often makes one particularly happy.
+Unbewusst ist dies bereits der 24. Artikel und der letzte Wochenrückblick des Jahres 2022. Manchmal gibt es dieses unerklärliche Gefühl der Feierlichkeit, wenn bedeutsame Ereignisse zu eher runden Zeitpunkten stattfinden, was einen oft besonders glücklich macht.
 
-Sometimes the desire to share is just so wondrous. Although I had grown accustomed to closing my Moments entry for nearly four or five years and rarely posted anything related to personal emotions, in the past half year, I began to record my daily life through weekly reports and frequently share on Twitter and Instagram (although mostly cat-related, it's still the first step in recovering from social phobia). Sometimes change doesn't need too many reasons to occur, it's just about timing.
+Manchmal ist der Wunsch zu teilen einfach so wunderbar. Obwohl ich mich fast vier oder fünf Jahre lang daran gewöhnt hatte, meinen Moments-Eintrag zu schließen und selten etwas über persönliche Gefühle zu posten, begann ich im letzten halben Jahr, mein tägliches Leben durch Wochenrückblicke aufzuzeichnen und häufig auf Twitter und Instagram zu teilen (obwohl es meist katzenbezogen war, ist es immer noch der erste Schritt zur Überwindung der sozialen Phobie). Manchmal braucht Veränderung nicht zu viele Gründe, um einzutreten, es geht einfach um den richtigen Zeitpunkt.
 
-This week I was still shuttling between learning and working, but perhaps due to severe lack of sleep in the previous few days (basically sleeping after 3 AM), efficiency wasn't very high. Most of the time was spent watching courses and debugging code, which also allowed me to slowly adjust my pace.
+Diese Woche pendelte ich immer noch zwischen Lernen und Arbeiten, aber vielleicht aufgrund des schweren Schlafmangels in den vorherigen Tagen (ich schlief grundsätzlich erst nach 3 Uhr morgens) war die Effizienz nicht sehr hoch. Die meiste Zeit verbrachte ich damit, Kurse zu schauen und Code zu debuggen, was mir auch erlaubte, mein Tempo langsam anzupassen.
 
-I spent my first Christmas at home with my cat. I received Christmas decorations for Nini sent by a friend but was too lazy to take photos on the day. I'll release them together with the year-end photos (still on the SD card). On that day, I also ordered Fat Brother's Crab Pot takeout, which I had been missing for quite a while, as a bit of a ritual. But perhaps due to long-term fasting and eating only one meal a day, my appetite has decreased severely, and I couldn't finish it even in two meals.
+Ich verbrachte mein erstes Weihnachtsfest zu Hause mit meiner Katze. Ich erhielt Weihnachtsschmuck für Nini, der von einem Freund geschickt wurde, war aber zu faul, am Tag selbst Fotos zu machen. Ich werde sie zusammen mit den Jahresendfotos veröffentlichen (sie sind noch auf der SD-Karte). An diesem Tag bestellte ich auch Fat Brother's Crab Pot zum Mitnehmen, nach dem ich mich schon lange gesehnt hatte, als eine Art Ritual. Aber vielleicht aufgrund des langfristigen Fastens und der Tatsache, dass ich nur eine Mahlzeit am Tag esse, hat mein Appetit stark abgenommen, und ich konnte es nicht einmal in zwei Mahlzeiten aufessen.
 
-A college classmate whom I hadn't contacted for a long time recently became a streamer on Bilibili. Suddenly, I felt my otaku attributes were awakened. I watched a few streams and was entrusted to be a righteous room manager and information teacher (?) in the fan group, which was quite interesting. By the way, I researched the recording tool and found a server to run a Docker service for automatic screen recording. It feels quite fun to be able to solve friends' problems with some familiar technologies.
+Ein Studienfreund, mit dem ich lange keinen Kontakt hatte, wurde kürzlich Streamer auf Bilibili. Plötzlich fühlte ich, wie meine Otaku-Attribute erwachten. Ich schaute ein paar Streams und wurde beauftragt, ein rechtschaffener Raummanager und Informationslehrer (?) in der Fangruppe zu sein, was ziemlich interessant war. Übrigens habe ich das Aufnahmewerkzeug recherchiert und einen Server gefunden, um einen Docker-Dienst für die automatische Bildschirmaufnahme zu betreiben. Es fühlt sich recht spaßig an, die Probleme von Freunden mit einigen vertrauten Technologien lösen zu können.
 
-Also, it's snowing on my blog.
+Außerdem schneit es auf meinem Blog.
 
-## Love Actually
+## Tatsächlich... Liebe
 
 ![loveactually](https://image.pseudoyu.com/images/loveactually.jpg)
 
-Although it's hard for me to contemplate how much longing and courage I still have for love, with the person I once thought I could spend the rest of my life with quietly leaving, traces of life being erased bit by bit, it's inevitable to doubt whether True Love exists when memories resurface. So on Christmas night, I revisited the classic "Love Actually", which is also an annual tradition.
+Obwohl es für mich schwierig ist zu ergründen, wie viel Sehnsucht und Mut ich noch für die Liebe habe, da die Person, von der ich einst dachte, ich könnte den Rest meines Lebens mit ihr verbringen, still gegangen ist und Spuren des Lebens Stück für Stück ausgelöscht werden, ist es unvermeidlich, an der Existenz der wahren Liebe zu zweifeln, wenn Erinnerungen wieder auftauchen. Also habe ich in der Weihnachtsnacht den Klassiker "Tatsächlich... Liebe" erneut angesehen, was auch eine jährliche Tradition ist.
 
-This is a movie that always makes me willing to continue believing in beauty no matter how painful a moment I'm in. This movie and Matt Cab's English cover of "Christmas Song" (theme song of the Japanese drama "From Five to Nine") always connect Christmas with beautiful love for me. It's not about specific emotions or experiences, just this beautiful atmosphere is enough to express all sentiments.
+Dies ist ein Film, der mich immer dazu bringt, weiterhin an die Schönheit zu glauben, egal in welch schmerzvollem Moment ich mich befinde. Dieser Film und Matt Cabs englische Coverversion von "Christmas Song" (Titelsong der japanischen Dramaserie "From Five to Nine") verbinden für mich Weihnachten immer mit schöner Liebe. Es geht nicht um spezifische Gefühle oder Erfahrungen, allein diese schöne Atmosphäre reicht aus, um alle Empfindungen auszudrücken.
 
 ![love_actually_you_are_perfect](https://image.pseudoyu.com/images/love_actually_you_are_perfect.jpg)
 
-My favorite is this couple. Although there's only love hidden in the heart, it's sincere and beautiful.
+Mein Favorit ist dieses Paar. Obwohl es nur Liebe ist, die im Herzen verborgen ist, ist sie aufrichtig und schön.
 
-"I love you, it has nothing to do with you."
+"Ich liebe dich, es hat nichts mit dir zu tun."
 
-It's quite rare (or perhaps childish) to retain so many fantasies at this age, but I always feel that the sentiment of liking is far above other factors. I still insist on this after all these experiences.
+Es ist ziemlich selten (oder vielleicht kindisch), in diesem Alter so viele Fantasien zu bewahren, aber ich habe immer das Gefühl, dass das Gefühl des Mögens weit über anderen Faktoren steht. Ich bestehe immer noch darauf, auch nach all diesen Erfahrungen.
 
-As I write, I can't help but feel some emotions. I don't want to talk too much, so I'll share some lyrics.
+Während ich schreibe, kann ich nicht umhin, einige Emotionen zu spüren. Ich möchte nicht zu viel darüber reden, also werde ich einige Liedtexte teilen.
 
-[Lyrics omitted to avoid copyright concerns]
+[Liedtext ausgelassen, um urheberrechtliche Bedenken zu vermeiden]
 
-## Daily Life with "Nini"
+## Alltag mit "Nini"
 
-The previous batch of photos and Christmas ones haven't been developed yet, so I'll just share some quiet daily moments.
+Die vorherige Charge Fotos und die Weihnachtsfotos sind noch nicht entwickelt, also werde ich nur einige ruhige Alltagsmomente teilen.
 
 {{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg">}}
 
@@ -62,21 +62,21 @@ The previous batch of photos and Christmas ones haven't been developed yet, so I
 
 {{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_27.jpg">}}
 
-## Others
+## Sonstiges
 
-This section will record some of my input and output, as well as other things I find interesting.
+Dieser Abschnitt wird einige meiner Inputs und Outputs sowie andere Dinge, die ich interessant finde, aufzeichnen.
 
 ### Output
 
-In last week's report, I wrote an article about how to learn, which is a summary and reflection of some of my experiences. I'm quite happy about it, and I also posted it on Sspai. I'll continue to work several jobs to earn cat food money, haha.
+Im Bericht der letzten Woche habe ich einen Artikel darüber geschrieben, wie man lernt, was eine Zusammenfassung und Reflexion einiger meiner Erfahrungen ist. Ich bin ziemlich zufrieden damit, und ich habe ihn auch auf Sspai gepostet. Ich werde weiterhin mehrere Jobs machen, um Geld für Katzenfutter zu verdienen, haha.
 
-Although I don't want to start setting various New Year's resolutions so early, I need to continue updating articles!
+Obwohl ich nicht so früh damit anfangen möchte, verschiedene Neujahrsvorsätze zu setzen, muss ich weiterhin Artikel aktualisieren!
 
 ### Input
 
 #### Anime
 
-- **Heaven Official's Blessing**, this one is quite interesting. I rarely watch Chinese animation and similar subjects, but my sister, who just started junior high school this year, began writing fan fiction for Heaven Official's Blessing. Although I've finished watching each episode, I haven't watched the animation yet. It's also interesting to understand my sister's preferences and the world she focuses on in this way.
-- **Death Note: Desu nôto**, the Death Note anime is unbeatable, but I just like it so much that I'll watch various derivative works even if I might be disappointed. But the series is surprisingly good, focusing a lot on Light's psychological portrayal and changes.
-- **Spy x Family**, I didn't follow part 2 when it started airing, and only caught up these days. Anya is the best!
-- **The Three-Body Problem**, the fourth episode was a bit confusing, stretching a plot that could be told in a few sentences into an entire episode.
+- **Heaven Official's Blessing**, dieser ist ziemlich interessant. Ich schaue selten chinesische Animationen und ähnliche Themen, aber meine Schwester, die gerade dieses Jahr mit der Mittelschule begonnen hat, fing an, Fanfiction für Heaven Official's Blessing zu schreiben. Obwohl ich jede Episode fertig gesehen habe, habe ich die Animation noch nicht geschaut. Es ist auch interessant, auf diese Weise die Vorlieben meiner Schwester und die Welt, auf die sie sich konzentriert, zu verstehen.
+- **Death Note: Desu nôto**, der Death Note Anime ist unschlagbar, aber ich mag es einfach so sehr, dass ich verschiedene abgeleitete Werke anschaue, auch wenn ich enttäuscht sein könnte. Aber die Serie ist überraschend gut und konzentriert sich viel auf Lights psychologische Darstellung und Veränderungen.
+- **Spy x Family**, ich habe Teil 2 nicht verfolgt, als er anfing zu laufen, und habe erst in diesen Tagen aufgeholt. Anya ist die Beste!
+- **The Three-Body Problem**, die vierte Episode war etwas verwirrend und dehnte eine Handlung, die in wenigen Sätzen erzählt werden konnte, zu einer ganzen Episode aus.

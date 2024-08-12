@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #26 - Blog, Custom Keyboard and New Server"
+title: "Wochenrückblick #26 - Blog, Custom Keyboard und neuer Server"
 date: 2023-01-15T19:57:33+08:00
 draft: false
 tags: ["review", "life", "home", "cat", "hugo", "pagefind", "open-source"]
@@ -10,114 +10,114 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from January 10, 2023 to January 15, 2023.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 10. Januar 2023 bis zum 15. Januar 2023.
 
-The holiday season is approaching, though I don't have much of a sense of ritual for the New Year. Last year, I spent over a week playing through "Pokémon Legends: Arceus" and revisiting "Fire Emblem: Three Houses". On New Year's Day, I made hot pot and had a video call with my family, and just like that, the year passed. However, since I've decided to go home this year, with arrangements for fostering Nini and various plans for the New Year, I haven't been able to relax much. I'm trying to finish many things in advance to free up some time to spend with my family.
+Die Ferienzeit naht, obwohl ich nicht viel Sinn für Rituale zum Neujahr habe. Letztes Jahr verbrachte ich über eine Woche damit, "Pokémon-Legenden: Arceus" durchzuspielen und "Fire Emblem: Three Houses" erneut zu besuchen. Am Neujahrstag bereitete ich Feuertopf zu und hatte einen Videoanruf mit meiner Familie, und so verging das Jahr. Da ich jedoch beschlossen habe, dieses Jahr nach Hause zu fahren, mit Vorkehrungen für die Betreuung von Nini und verschiedenen Plänen für das neue Jahr, konnte ich mich nicht wirklich entspannen. Ich versuche, viele Dinge im Voraus zu erledigen, um etwas Zeit freizumachen, die ich mit meiner Familie verbringen kann.
 
-Work-wise, I've had an average week. The recently launched requirements had a few minor issues in the details, forcing my leader and me to work overtime to address them. There's also a new feature that needs to be launched before the New Year, but testing isn't complete yet, with only two or three days left. The project I'm working on with friends has also encountered some problems. The friend originally responsible for the frontend had to leave, so I had to take over his part. The launch will be delayed, and I won't be able to truly relax during the New Year. It's quite an adjustment.
+Arbeitsmäßig hatte ich eine durchschnittliche Woche. Die kürzlich gestarteten Anforderungen hatten einige kleinere Probleme in den Details, was meinen Vorgesetzten und mich zwang, Überstunden zu machen, um sie zu beheben. Es gibt auch eine neue Funktion, die vor dem Neujahr eingeführt werden muss, aber die Tests sind noch nicht abgeschlossen, und es bleiben nur noch zwei oder drei Tage. Das Projekt, an dem ich mit Freunden arbeite, ist ebenfalls auf einige Probleme gestoßen. Der Freund, der ursprünglich für das Frontend verantwortlich war, musste ausscheiden, so dass ich seinen Teil übernehmen musste. Der Start wird sich verzögern, und ich werde mich während des Neujahrs nicht wirklich entspannen können. Es ist eine ziemliche Umstellung.
 
-Because Nini will be fostered at a colleague's house, I took her to the vet for a check-up today, just to be safe, and also had her nails trimmed. The doctor said she's very healthy, and the previous minor ailments have basically recovered. He also praised me for taking good care of her, which made me happy. However, thinking about the fostering still makes me reluctant and worried. I'll come back early after the New Year, after all, now that I have something to be concerned about.
+Da Nini im Haus eines Kollegen betreut wird, brachte ich sie heute zur Sicherheit zum Tierarzt für eine Untersuchung und ließ auch ihre Krallen schneiden. Der Arzt sagte, sie sei sehr gesund, und die früheren leichten Beschwerden seien im Grunde genommen abgeklungen. Er lobte mich auch dafür, dass ich mich gut um sie kümmere, was mich glücklich machte. Wenn ich jedoch an die Betreuung denke, macht mich das immer noch widerwillig und besorgt. Ich werde nach dem Neujahr früh zurückkommen, schließlich habe ich jetzt etwas, um das ich mich sorgen muss.
 
-I accepted a rather intriguing interview, received an incredibly cute keyboard, continued to optimize my blog a bit (~~just optimizing the theme instead of writing articles~~), and many other interesting things happened.
+Ich habe ein recht interessantes Interview angenommen, eine unglaublich süße Tastatur erhalten, meinen Blog weiter ein wenig optimiert (~~nur das Theme optimiert, anstatt Artikel zu schreiben~~), und viele andere interessante Dinge sind passiert.
 
-## Interesting Things and Objects
+## Interessante Dinge und Objekte
 
-### Blog Tinkering
+### Blog-Bastelei
 
-My current version of my personal blog has been running for nearly three years now. Previously, I had used solutions like setting up WordPress on my own server, but later, due to lack of stability and difficulties in data migration, I switched to the once-and-for-all solution of Hugo static blog + GitHub automatic deployment + Cloudflare hosting. For details, you can check out "[Why I'm Still Blogging in 2022](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)" and "[Deploy Your Blog Using Hugo and GitHub Action](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
+Die aktuelle Version meines persönlichen Blogs läuft nun schon seit fast drei Jahren. Früher hatte ich Lösungen wie die Einrichtung von WordPress auf meinem eigenen Server verwendet, aber später, aufgrund mangelnder Stabilität und Schwierigkeiten bei der Datenmigration, wechselte ich zur einmaligen Lösung des Hugo-statischen Blogs + GitHub-automatische Bereitstellung + Cloudflare-Hosting. Für Details können Sie "[Warum ich 2022 immer noch blogge](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)" und "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)" lesen.
 
-The reason I chose Hugo, apart from the somewhat inexplicable but not particularly useful sense of familiarity due to my main job being Go development, is primarily because of the theme I'm currently using, "[den](https://github.com/shaform/hugo-theme-den)". This is a theme written by a Taiwanese developer himself. At the time, he was considering switching from [Pelican](https://github.com/getpelican/pelican) to [Hugo](https://gohugo.io/) due to factors like build speed, but he liked his original theme, so he recreated it himself. You can read more about it in his post "[Migrating from Pelican and WordPress to Hugo](https://city.shaform.com/zh/2018/07/22/migrate-from-pelican-and-wordpress-to-hugo/)".
+Der Grund, warum ich mich für Hugo entschieden habe, abgesehen von dem etwas unerklärlichen, aber nicht besonders nützlichen Gefühl der Vertrautheit, da meine Hauptaufgabe die Go-Entwicklung ist, liegt vor allem an dem Theme, das ich derzeit verwende, "[den](https://github.com/shaform/hugo-theme-den)". Dies ist ein Theme, das von einem taiwanesischen Entwickler selbst geschrieben wurde. Damals überlegte er, aufgrund von Faktoren wie der Baugeschwindigkeit von [Pelican](https://github.com/getpelican/pelican) zu [Hugo](https://gohugo.io/) zu wechseln, aber er mochte sein ursprüngliches Theme, also hat er es selbst nachgebaut. Sie können mehr darüber in seinem Beitrag "[Migration von Pelican und WordPress zu Hugo](https://city.shaform.com/zh/2018/07/22/migrate-from-pelican-and-wordpress-to-hugo/)" lesen.
 
-I started following his blog for tech and personal thoughts output around 2018, and I can say that to a large extent, my later article style and thought patterns were greatly influenced by him. This theme, which carries a bit of the old internet style, perfectly matched my aesthetics, so after some tinkering, I set it up and have been using it until now.
+Ich begann seinem Blog um 2018 herum für technische und persönliche Gedankenoutputs zu folgen, und ich kann sagen, dass mein späterer Artikelstil und meine Denkmuster in großem Maße von ihm beeinflusst wurden. Dieses Theme, das ein wenig vom Stil des alten Internets trägt, passte perfekt zu meiner Ästhetik, also richtete ich es nach einigem Basteln ein und benutze es bis heute.
 
-Since it's primarily for personal use, although this theme is very aesthetically pleasing and minimalist, there are still some missing features. So over the three years of use, I've been constantly patching and modifying it according to my own needs. Last year, I also submitted PRs for my modifications to RSS Feeds, related articles, and friend links. Some of them were merged into the main branch after some communication, while a few are still pending (~~too lazy~~).
+Da es hauptsächlich für den persönlichen Gebrauch gedacht ist, fehlen trotz der sehr ästhetischen und minimalistischen Gestaltung dieses Themes immer noch einige Funktionen. So habe ich es in den drei Jahren der Nutzung ständig nach meinen eigenen Bedürfnissen geflickt und modifiziert. Letztes Jahr habe ich auch PRs für meine Modifikationen an RSS-Feeds, verwandten Artikeln und Freundeslinks eingereicht. Einige davon wurden nach einiger Kommunikation in den Hauptzweig aufgenommen, während einige noch ausstehen (~~zu faul~~).
 
-Recently, I discovered the [Pagefind](https://pagefind.app/) web search solution on [P.J. Wu's](https://twitter.com/WuPingJu) blog. After some research, I integrated it into my blog, and the effect is quite good.
+Kürzlich entdeckte ich die [Pagefind](https://pagefind.app/) Web-Suchlösung auf [P.J. Wus](https://twitter.com/WuPingJu) Blog. Nach einiger Recherche habe ich sie in meinen Blog integriert, und der Effekt ist recht gut.
 
 ![pagefind_and_hugo_2](https://image.pseudoyu.com/images/pagefind_and_hugo_2.png)
 
-It adopts the approach of pre-generating article index files instead of real-time retrieval, which makes it very fast and doesn't require additional backend services, making it very suitable for static blog deployment solutions. For an introduction to Pagefind and its usage, you can check out [P.J. Wu's](https://twitter.com/WuPingJu) article "[How to Add a Search Function to Zola-generated Static Websites via Pagefind](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)", although it's about integrating into the Zola blog framework and publishing through Netlify, the principle is similar. As for the integration method for Hugo, I'll write an article after I've tinkered with the configuration. You can preview it at [this address](https://www.pseudoyu.com/en/search), or click on "Search" in the navigation bar (I've added a back-to-top function, you can click to return directly).
+Sie verwendet den Ansatz der Vorgenerierung von Artikelindexdateien anstelle der Echtzeitabfrage, was sie sehr schnell macht und keine zusätzlichen Backend-Dienste erfordert, was sie sehr gut für statische Blog-Bereitstellungslösungen geeignet macht. Für eine Einführung in Pagefind und seine Verwendung können Sie [P.J. Wus](https://twitter.com/WuPingJu) Artikel "[Wie man eine Suchfunktion zu Zola-generierten statischen Websites über Pagefind hinzufügt](https://pinchlime.com/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind/)" lesen, obwohl es um die Integration in das Zola-Blog-Framework und die Veröffentlichung über Netlify geht, ist das Prinzip ähnlich. Was die Integrationsmethode für Hugo betrifft, werde ich einen Artikel schreiben, nachdem ich mit der Konfiguration gebastelt habe. Sie können es unter [dieser Adresse](https://www.pseudoyu.com/en/search) vorab ansehen, oder auf "Suche" in der Navigationsleiste klicken (ich habe eine Zurück-nach-oben-Funktion hinzugefügt, Sie können klicken, um direkt zurückzukehren).
 
-I integrated it into my original GitHub CI automatic publishing workflow, and the experience is seamless. I also integrated a search page UI through Hugo's shortcode method for use, which is very powerful. I'll also submit a PR to the theme repository to support this, to see if there's any demand in this area.
+Ich habe es in meinen ursprünglichen GitHub CI automatischen Veröffentlichungsworkflow integriert, und die Erfahrung ist nahtlos. Ich habe auch eine Suchseiten-UI über Hugos Shortcode-Methode zur Verwendung integriert, was sehr leistungsfähig ist. Ich werde auch einen PR an das Theme-Repository einreichen, um dies zu unterstützen, um zu sehen, ob es in diesem Bereich Nachfrage gibt.
 
-However, after using it, I found some issues with Chinese support. It can't segment words very well. For example, searching for "区块链" (blockchain) directly won't match, but changing it to "区块 链" (block chain), manually segmenting the words, will give the desired effect. I've noted the search method on the page, ~~it's not unusable after all~~. We'll see if there are better solutions in the future.
+Allerdings habe ich nach der Verwendung einige Probleme mit der chinesischen Unterstützung festgestellt. Es kann Wörter nicht sehr gut segmentieren. Zum Beispiel wird die direkte Suche nach "区块链" (Blockchain) nicht übereinstimmen, aber wenn man es zu "区块 链" (Block Kette) ändert und die Wörter manuell segmentiert, wird der gewünschte Effekt erzielt. Ich habe die Suchmethode auf der Seite notiert, ~~es ist schließlich nicht unbrauchbar~~. Wir werden sehen, ob es in Zukunft bessere Lösungen gibt.
 
 ![pagefind_and_hugo_1](https://image.pseudoyu.com/images/pagefind_and_hugo_1.png)
 
-Interestingly, my blog tinkering for this week was supposed to end here, but suddenly GitHub emailed me about a PR and comments. A stranger had forked my blog and made some style adjustments and modifications, adding some features. Later, he even sent me his improved CSS file for reference.
+Interessanterweise sollte meine Blog-Bastelei für diese Woche hier enden, aber plötzlich mailte mir GitHub über einen PR und Kommentare. Ein Fremder hatte meinen Blog geforkt und einige Stilanpassungen und Modifikationen vorgenommen, einige Funktionen hinzugefügt. Später schickte er mir sogar seine verbesserte CSS-Datei zur Referenz.
 
 ![github_blog_pr](https://image.pseudoyu.com/images/github_blog_pr.png)
 
-Originally, these were just some solutions for personal use, and I often found myself happily tinkering with the theme for an afternoon without writing a word. I didn't expect that some people would notice, appreciate, and adopt it, and even solve many of my problems in return. It feels quite wonderful, and I'm starting to feel the joy of open source or working in public. There are always some unexpected gains. So last night, I spent some time tinkering, fixing several style issues that had been problematic for a while but I hadn't fixed or paid attention to, and even added a back-to-top button effect. I was quite happy about it.
+Ursprünglich waren dies nur einige Lösungen für den persönlichen Gebrauch, und ich fand mich oft einen Nachmittag lang glücklich mit dem Theme bastelnd, ohne ein Wort zu schreiben. Ich hätte nicht erwartet, dass einige Menschen es bemerken, schätzen und übernehmen würden, und sogar viele meiner Probleme im Gegenzug lösen würden. Es fühlt sich ziemlich wunderbar an, und ich beginne, die Freude an Open Source oder öffentlichem Arbeiten zu spüren. Es gibt immer einige unerwartete Gewinne. Also verbrachte ich letzte Nacht einige Zeit mit Basteln, behob mehrere Stilprobleme, die schon eine Weile problematisch waren, aber ich hatte sie nicht behoben oder beachtet, und fügte sogar einen Zurück-nach-oben-Button-Effekt hinzu. Ich war ziemlich glücklich darüber.
 
 ### Server
 
-As mentioned in a previous weekly review, after figuring out how to set up reverse proxy for my server using [Nginx Proxy Manager](https://nginxproxymanager.com/), I launched several commonly used services and sites, such as the previously mentioned [zlib.pseudoyu.com](https://zlib.pseudoyu.com/) book search service. Because it received some attention and was included in some groups and channels, I wanted to continue maintaining it to ensure service stability and access speed. However, previously, these were all low-performance machines that were running at full capacity with just a few services. So, taking advantage of Bandwagon Host's launch of a new decent plan, I got a few machines: 2C2G + 40G hard drive + CN2GIA DC6 line, which is completely sufficient for long-term stable operation of some services.
+Wie in einem früheren Wochenrückblick erwähnt, habe ich, nachdem ich herausgefunden hatte, wie man einen Reverse-Proxy für meinen Server mit [Nginx Proxy Manager](https://nginxproxymanager.com/) einrichtet, mehrere häufig genutzte Dienste und Websites gestartet, wie den zuvor erwähnten [zlib.pseudoyu.com](https://zlib.pseudoyu.com/) Buchsuchdienst. Da er einige Aufmerksamkeit erhielt und in einige Gruppen und Kanäle aufgenommen wurde, wollte ich ihn weiterhin pflegen, um die Servicestabilität und Zugriffsgeschwindigkeit zu gewährleisten. Allerdings waren dies zuvor alles leistungsschwache Maschinen, die mit nur wenigen Diensten schon voll ausgelastet waren. Also habe ich mir, die Einführung eines neuen anständigen Plans von Bandwagon Host nutzend, ein paar Maschinen besorgt: 2C2G + 40G Festplatte + CN2GIA DC6 Leitung, was für den langfristigen stabilen Betrieb einiger Dienste völlig ausreichend ist.
 
 ![yu_services_vps](https://image.pseudoyu.com/images/yu_services_vps.png)
 
-I also had some other machines before, running some of my basic services, with some small applications set up for friends to use. This time, I organized everything well, migrating all services to one machine. Here, I have to praise Docker and docker-compose management methods - the data migration was so seamless. After migrating everything, it only took up about half of the resources, which is great.
+Ich hatte auch schon vorher einige andere Maschinen, auf denen einige meiner grundlegenden Dienste liefen, mit einigen kleinen Anwendungen, die für Freunde zum Gebrauch eingerichtet waren. Diesmal habe ich alles gut organisiert und alle Dienste auf eine Maschine migriert. Hier muss ich die Docker- und docker-compose-Verwaltungsmethoden loben - die Datenmigration war so nahtlos. Nachdem alles migriert war, nahm es nur etwa die Hälfte der Ressourcen in Anspruch, was großartig ist.
 
-Because I now have more machines (a happy problem), I also found an open-source monitoring service for management. It gives me a feeling of being a cyber capitalist, supervising these machines to work hard and not slack off.
+Da ich jetzt mehr Maschinen habe (ein glückliches Problem), habe ich auch einen Open-Source-Überwachungsdienst für die Verwaltung gefunden. Es gibt mir das Gefühl, ein Cyber-Kapitalist zu sein, der diese Maschinen beaufsichtigt, hart zu arbeiten und nicht faul zu sein.
 
 ![yu_server_status](https://image.pseudoyu.com/images/yu_server_status.png)
 
-### Desktop Setup and Keyboard
+### Desktop-Setup und Tastatur
 
-Perhaps because I don't play games, I'm not actually a hardcore keyboard enthusiast. I can hardly tell the difference between different switches and keycaps, and I've mostly used Mac's built-in scissor-switch keyboards before without feeling any discomfort.
+Vielleicht weil ich keine Spiele spiele, bin ich eigentlich kein hartgesottener Tastatur-Enthusiast. Ich kann kaum den Unterschied zwischen verschiedenen Schaltern und Tastenkappen erkennen, und ich habe bisher meistens die eingebauten Scherenschalter-Tastaturen von Mac verwendet, ohne Unbehagen zu empfinden.
 
-It was probably around the end of 2020 when she asked me if there was anything I'd always wanted but couldn't quite bring myself to buy. After thinking for a long time, I said HHKB. Actually, it was more out of curiosity than practical need, and the retro design of the old-style battery compartment was completely in line with my aesthetics.
+Es war wahrscheinlich gegen Ende 2020, als sie mich fragte, ob es etwas gäbe, das ich mir schon immer gewünscht, aber nie wirklich gekauft hätte. Nach langem Nachdenken sagte ich HHKB. Eigentlich war es mehr aus Neugier als aus praktischem Bedarf, und das retro Design des alten Batteriefachs entsprach völlig meiner Ästhetik.
 
-A few days later, I received it. It was the HHKB Professional Hybrid Type-S silent version, with an old IBM-style color scheme. The electrostatic capacitive feel, combined with its compact size, I really liked it. It also coordinated very well on the desktop.
+Einige Tage später erhielt ich sie. Es war die HHKB Professional Hybrid Type-S Silent-Version, mit einem alten IBM-artigen Farbschema. Das elektrostatische kapazitive Gefühl, kombiniert mit ihrer kompakten Größe, gefiel mir wirklich gut. Sie koordinierte auch sehr gut auf dem Desktop.
 
 ![keyboard_hhkb_type_s_1](https://image.pseudoyu.com/images/keyboard_hhkb_type_s_1.jpg)
 
-Every morning before starting to study and work, I always arrange my environment a bit, carefully placing the keyboard. This keyboard has accompanied me from Hong Kong to Beijing, and I even bring it every time I go out to a coffee shop. At first, it might have just been a habit, but gradually it became a kind of ritual. It seems to have added some joy to coding and writing.
+Jeden Morgen, bevor ich mit dem Lernen und Arbeiten beginne, ordne ich meine Umgebung ein wenig, platziere sorgfältig die Tastatur. Diese Tastatur hat mich von Hongkong nach Peking begleitet, und ich bringe sie sogar jedes Mal mit, wenn ich in ein Café gehe. Anfangs war es vielleicht nur eine Angewohnheit, aber nach und nach wurde es zu einer Art Ritual. Es scheint dem Codieren und Schreiben etwas Freude hinzugefügt zu haben.
 
 ![keyboard_hhkb_type_s_2](https://image.pseudoyu.com/images/keyboard_hhkb_type_s_2.jpg)
 
-After using it for over a year, because I really liked the feel of the electrostatic capacitive switches, I couldn't help but want to try the remaining few classics. So, also as a gift, I received a RealForce PFU limited edition 87-key keyboard. This one also looks very nice, with a metallic feel in low light environments. However, perhaps because I was used to the special key layout of the HHKB, suddenly switching to an 87-key layout often felt a bit uncomfortable. So it ended up being used more by her for gaming. Anyway, a keyboard can't save my clumsy gaming skills.
+Nachdem ich sie über ein Jahr lang benutzt hatte, wollte ich, weil ich das Gefühl der elektrostatischen kapazitiven Schalter wirklich mochte, die verbleibenden wenigen Klassiker ausprobieren. Also erhielt ich, ebenfalls als Geschenk, eine RealForce PFU Limited Edition 87-Tasten-Tastatur. Diese sieht auch sehr schön aus, mit einem metallischen Gefühl in Umgebungen mit wenig Licht. Allerdings fühlte ich mich, vielleicht weil ich an das spezielle Tastenlayout der HHKB gewöhnt war, beim plötzlichen Wechsel zu einem 87-Tasten-Layout oft etwas unwohl. So wurde sie letztendlich mehr von ihr zum Spielen benutzt. Wie auch immer, eine Tastatur kann meine unbeholfenen Gaming-Fähigkeiten nicht retten.
 
 ![realforce_pfu_87](https://image.pseudoyu.com/images/realforce_pfu_87.jpg)
 
-The RealForce was later left idle. And I really couldn't get used to large-sized keyboards anymore, so I sent it to Ni, who was in Australia. (Come to think of it, my first mechanical keyboard was also a gift from him, a Cherry, though I forgot which switch it had. I used it at home for almost a year when I was still using Windows, and it was quite nice.)
+Die RealForce blieb später unbenutzt. Und ich konnte mich wirklich nicht mehr an große Tastaturen gewöhnen, also schickte ich sie zu Ni, der in Australien war. (Wenn ich darüber nachdenke, war meine erste mechanische Tastatur auch ein Geschenk von ihm, eine Cherry, obwohl ich vergessen habe, welchen Schalter sie hatte. Ich benutzte sie fast ein Jahr lang zu Hause, als ich noch Windows benutzte, und sie war ziemlich nett.)
 
-Although HHKB and RealForce seem to be more well-known, in my personal experience, the most exquisitely crafted and best in terms of quality among the three classics of electrostatic capacitive keyboards is actually the Leopold FC660C that I acquired in the middle of last year. The color scheme and typing feel are more comfortable, truly making one enjoy the experience. It subsequently became the main keyboard for my home desktop.
+Obwohl HHKB und RealForce bekannter zu sein scheinen, ist meiner persönlichen Erfahrung nach die am exquisitesten gefertigte und qualitativ beste unter den drei Klassikern der elektrostatischen kapazitiven Tastaturen tatsächlich die Leopold FC660C, die ich Mitte letzten Jahres erworben habe. Das Farbschema und das Tippgefühl sind angenehmer, man genießt wirklich die Erfahrung. Sie wurde anschließend zur Haupttastatur für meinen Desktop zu Hause.
 
 ![keyboard_leopold_fc660c](https://image.pseudoyu.com/images/keyboard_leopold_fc660c.jpg)
 
-Actually, at this point, my keyboard usage needs were fully met, and I didn't have much energy to pursue the ultimate or play with customization. However, one late night, I came across "[【Self-made】I Made a Modular Mechanical Keyboard!【Soft Core】](https://www.bilibili.com/video/BV19V4y1J7Hx)" by Zhihui Jun, a keyboard redesigned and defined from circuit hardware to firmware code, all done by himself. Who could resist that?
+Eigentlich waren an diesem Punkt meine Tastaturnutzungsbedürfnisse vollständig erfüllt, und ich hatte nicht viel Energie, um das Ultimative zu verfolgen oder mit Anpassungen zu spielen. Eines späten Abends stieß ich jedoch auf "[【Selbstgemacht】Ich habe eine modulare mechanische Tastatur gemacht!【Soft Core】](https://www.bilibili.com/video/BV19V4y1J7Hx)" von Zhihui Jun, eine Tastatur, die von der Schaltungshardware bis zum Firmware-Code neu gestaltet und definiert wurde, alles von ihm selbst gemacht. Wer könnte dem widerstehen?
 
-During the National Day holiday, I happened to see that he had launched a co-branded keyboard with Bilibili. I ordered it without hesitation. Indeed, the pink color is very attractive. This is also my first custom keyboard in a sense.
+Während des Nationalfeiertags sah ich zufällig, dass er eine Co-Branding-Tastatur mit Bilibili auf den Markt gebracht hatte. Ich bestellte sie ohne zu zögern. In der Tat ist die rosa Farbe sehr attraktiv. Dies ist auch in gewissem Sinne meine erste Custom-Tastatur.
 
 ![keyboard_hello_word_75](https://image.pseudoyu.com/images/keyboard_hello_word_75.jpg)
 
-Then came several months of long waiting, and finally it arrived in my hands this week. I have to say, both the appearance and the feel are excellent. I quickly changed my desktop layout and happily typed away for a week. Maybe appearance is the primary productivity after all. I feel like my article and code output increased this week. Xiaoyu commented, "How come your whole persona changed just because of a new keyboard?"
+Dann kamen mehrere Monate des langen Wartens, und endlich kam sie diese Woche in meine Hände. Ich muss sagen, sowohl das Aussehen als auch das Gefühl sind ausgezeichnet. Ich änderte schnell mein Desktop-Layout und tippte eine Woche lang glücklich vor mich hin. Vielleicht ist das Aussehen doch die primäre Produktivität. Ich habe das Gefühl, dass mein Artikel- und Code-Output diese Woche zugenommen hat. Xiaoyu kommentierte: "Wie kommt es, dass sich deine ganze Persönlichkeit nur wegen einer neuen Tastatur geändert hat?"
 
 ![chat_with_xiaoyu_about_keyboard](https://image.pseudoyu.com/images/chat_with_xiaoyu_about_keyboard.png)
 
-I don't have a collection habit, nor do I want to pursue the ultimate feel or custom solutions. It's just that I've always had a great desire to tinker with things that I interact with daily, like desktop arrangements, computers, keyboards, and software tools. Even if it's just a few seconds of speed improvement or a little bit of mood enhancement, it's something worth doing for me.
+Ich habe keine Sammelgewohnheit, noch will ich das ultimative Gefühl oder kundenspezifische Lösungen verfolgen. Es ist nur so, dass ich schon immer ein großes Verlangen hatte, an Dingen herumzubasteln, mit denen ich täglich interagiere, wie Desktop-Anordnungen, Computern, Tastaturen und Software-Tools. Selbst wenn es nur ein paar Sekunden Geschwindigkeitsverbesserung oder ein bisschen Stimmungsaufhellung ist, ist es für mich etwas, das sich lohnt zu tun.
 
-## Personal Life Snapshots
+## Persönliche Lebensschnappschüsse
 
-### Learning
+### Lernen
 
-I didn't study Japanese... Failed the first week of check-ins!
+Ich habe kein Japanisch gelernt... Die erste Woche der Check-ins gescheitert!
 
 ### Output
 
-In terms of output, I translated an article for GoCN: "[Go 1.20 New Changes! Part One: Language Features](https://www.pseudoyu.com/en/2023/01/12/golang_120_language_changes/)"; after posting last week's review, I met quite a few new friends, and this week I also posted several tweets about blog setup; I have an article scheduled with Sspai, but I'm not sure when I'll write it.
+In Bezug auf den Output habe ich einen Artikel für GoCN übersetzt: "[Go 1.20 Neue Änderungen! Teil Eins: Sprachfunktionen](https://www.pseudoyu.com/en/2023/01/12/golang_120_language_changes/)"; nachdem ich den Rückblick der letzten Woche gepostet hatte, traf ich einige neue Freunde, und diese Woche habe ich auch mehrere Tweets über Blog-Setup gepostet; ich habe einen Artikel für Sspai geplant, aber ich weiß nicht, wann ich ihn schreiben werde.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **What I Talk About When I Talk About Running**, I started reading this book in October, but various things happened in between and I fell behind on my reading progress. Recently, I've been slowly reading it in my spare time. I really love Murakami's style of speaking, and I want to read all of his books.
+- **Wovon ich rede, wenn ich vom Laufen rede**, ich begann dieses Buch im Oktober zu lesen, aber verschiedene Dinge passierten dazwischen und ich fiel mit meinem Lesefortschritt zurück. In letzter Zeit lese ich es langsam in meiner Freizeit. Ich liebe Murakamis Sprechstil wirklich, und ich möchte all seine Bücher lesen.
 
 #### Anime
 
-- **Mob Psycho 100**, I watched it once a few years ago and thought the setting was interesting, but didn't really appreciate it in depth. Recently, I wanted to revisit it. The first season has a lot of origins, bonds, and changes of the main characters. While being a funny daily life anime, it also gives people a lot of ideas and thoughts. I binge-watched the second and third seasons. If the first season only described some bonds, the second and third seasons brought me too much emotion. The growth of characters, the changes in people around them, despite the setting of being espers, they constantly self-deny in daily life and self-accept under the influence of people around them. I like the side conversation scene between Mob and Reigen after the press conference the most, emotions are already unspoken.
-- **Bungo Stray Dogs**, I've heard about it for a long time, just started following it.
-- **The Three-Body Problem**, I guess the mentality of following the drama adaptation is to see what kind of psychedelic operation you can have.
+- **Mob Psycho 100**, ich habe es vor ein paar Jahren einmal gesehen und fand die Einstellung interessant, habe es aber nicht wirklich in der Tiefe gewürdigt. Kürzlich wollte ich es noch einmal sehen. Die erste Staffel hat viele Ursprünge, Bindungen und Veränderungen der Hauptcharaktere. Während es ein lustiger Alltagsanime ist, gibt er den Menschen auch viele Ideen und Gedanken. Ich habe die zweite und dritte Staffel am Stück geschaut. Wenn die erste Staffel nur einige Bindungen beschrieb, brachten mir die zweite und dritte Staffel zu viele Emotionen. Das Wachstum der Charaktere, die Veränderungen der Menschen um sie herum, trotz der Einstellung, Esper zu sein, verleugnen sie sich ständig im täglichen Leben und akzeptieren sich selbst unter dem Einfluss der Menschen um sie herum. Ich mag die Nebengesprächsszene zwischen Mob und Reigen nach der Pressekonferenz am meisten, Emotionen sind bereits unausgesprochen.
+- **Bungo Stray Dogs**, ich habe schon lange davon gehört, habe gerade erst angefangen, es zu verfolgen.
+- **Das Drei-Körper-Problem**, ich schätze, die Mentalität, der Dramaadaption zu folgen, ist zu sehen, welche Art von psychedelischer Operation man haben kann.
