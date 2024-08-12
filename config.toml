@@ -163,11 +163,6 @@ name = "Yu's GitHub"
 weight = 10
 identifier = "github"
 url = "https://github.com/pseudoyu"
-[[languages.en.menu.links]]
-name = "Yu's Services"
-weight = 20
-identifier = "services-status"
-url = "https://uptime.pseudoyu.com/status/services"
 
 [languages.zh]
 languageCode = "zh"
