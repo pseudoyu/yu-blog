@@ -10,7 +10,7 @@ authors:
 
 ## Vorwort
 
-Im vorherigen Artikel "[Grundlagen und Schlüsseltechnologien der Blockchain](https://www.pseudoyu.com/en/2021/02/12/blockchain_basic/)" habe ich die grundlegenden Kenntnisse und Schlüsseltechnologien der Blockchain umrissen. Da Bitcoin die typischste Anwendung der Blockchain ist, wird dieser Artikel die Kerntechnologien von Bitcoin interpretieren. Falls es Fehler oder Auslassungen gibt, diskutieren und korrigieren Sie diese bitte.
+Im vorherigen Artikel "[Grundlagen und Schlüsseltechnologien der Blockchain](https://www.pseudoyu.com/de/2021/02/12/blockchain_basic/)" habe ich die grundlegenden Kenntnisse und Schlüsseltechnologien der Blockchain umrissen. Da Bitcoin die typischste Anwendung der Blockchain ist, wird dieser Artikel die Kerntechnologien von Bitcoin interpretieren. Falls es Fehler oder Auslassungen gibt, diskutieren und korrigieren Sie diese bitte.
 
 ## Bitcoin-System
 

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #04 - Vacation, Family Bonds and Sense of Belonging in Cities"
+title: "Wochenrückblick #04 - Urlaub, Familienbande und Zugehörigkeitsgefühl in Städten"
 date: 2022-07-24T23:31:27+08:00
 draft: false
 tags: ["review", "life", "home", "city", "relationship", "belonging", "vacation"]
@@ -10,92 +10,82 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here, After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
 ![one_way_street_books](https://image.pseudoyu.com/images/one_way_street_books.jpg)
 
-This piece is a record and reflection of my life from `July 11, 2022` to `July 24, 2022`. As for the reason for the delay - **I was on vacation!!!**
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `11. Juli 2022` bis zum `24. Juli 2022`. Was den Grund für die Verzögerung angeht - **ich war im Urlaub!!!**
 
-## Vacation
+## Urlaub
 
-Including my internship, I've been working for over a year now, but because projects have been ongoing, I've had hardly any complete holidays except for the Spring Festival, and I've accumulated quite a few compensatory days off. Coinciding with the successful completion of the second project, I applied to my leader for leave - 7 working days + 2 weekends, giving me a long-lost feeling of summer vacation.
+Einschließlich meines Praktikums arbeite ich nun seit über einem Jahr, aber wegen laufender Projekte hatte ich kaum vollständige Urlaubstage, abgesehen vom Frühlingsfest, und ich hatte einige Ausgleichstage angesammelt. Zusammenfallend mit dem erfolgreichen Abschluss des zweiten Projekts beantragte ich bei meinem Vorgesetzten Urlaub - 7 Arbeitstage + 2 Wochenenden, was mir ein lang vermisstes Gefühl von Sommerferien bescherte.
 
-### My Family and I
+### Meine Familie und ich
 
-Although the pandemic occasionally flares up, I ultimately decided to return to Hangzhou, to return home. Since leaving home in mid-2020, every visit back has felt hurried. The last time was during the National Day holiday, and I only stayed for about 3 days. Excluding gatherings with relatives, the time actually spent with family probably doesn't even add up to a full day, just enough to briefly discuss my recent situation and thoughts before embarking on the return journey. This time, perhaps because quite a lot has happened to me in the past six months, I felt somewhat tired and just wanted to rest and adjust at home, while also wanting to spend more time with my family (mainly taking my sister out to play).
+Obwohl die Pandemie gelegentlich aufflammt, entschied ich mich letztendlich, nach Hangzhou zurückzukehren, nach Hause zu fahren. Seit ich Mitte 2020 das Elternhaus verlassen habe, fühlte sich jeder Besuch zu Hause eilig an. Das letzte Mal war während des Nationalfeiertags, und ich blieb nur etwa 3 Tage. Abzüglich der Treffen mit Verwandten summiert sich die tatsächlich mit der Familie verbrachte Zeit wahrscheinlich nicht einmal auf einen vollen Tag, gerade genug, um kurz meine jüngste Situation und Gedanken zu besprechen, bevor ich mich wieder auf den Rückweg machte. Diesmal, vielleicht weil in den letzten sechs Monaten recht viel mit mir passiert ist, fühlte ich mich etwas müde und wollte mich einfach zu Hause ausruhen und anpassen, während ich auch mehr Zeit mit meiner Familie verbringen wollte (hauptsächlich meine Schwester zum Spielen ausführen).
 
-I haven't really noticed my own growth that significantly, but at family dinner tables, I seem to have become the main force in leading toasts to various elders. When the younger generation gathers to play, it's now me making the arrangements. Even my sister, who always seemed so little in my memory, will be entering junior high school after this summer vacation. It's as if from some point on, time began to flow by more rapidly. In the midst of busy studies and work, there wasn't much awareness of this, and it's only when I return home to experience slowed-down time or occasionally recall bits and pieces deeply hidden in memory that I feel a twinge of sentiment.
+Ich habe mein eigenes Wachstum nicht wirklich so bedeutend wahrgenommen, aber an familiären Esstischen scheine ich zur Hauptkraft beim Anstoßen mit verschiedenen Älteren geworden zu sein. Wenn sich die jüngere Generation zum Spielen trifft, bin nun ich derjenige, der die Arrangements trifft. Selbst meine Schwester, die in meiner Erinnerung immer so klein erschien, wird nach diesen Sommerferien in die Mittelschule eintreten. Es ist, als ob ab einem bestimmten Punkt die Zeit begonnen hat, schneller zu verfließen. Inmitten des geschäftigen Studiums und der Arbeit gab es nicht viel Bewusstsein dafür, und es ist nur, wenn ich nach Hause zurückkehre, um verlangsamte Zeit zu erleben, oder gelegentlich tief verborgene Erinnerungsfetzen hervorhole, dass ich einen Hauch von Sentimentalität verspüre.
 
-### My Sister and I
+### Meine Schwester und ich
 
-I have a sister who is 13 years younger than me, which often makes my classmates and friends envious. This age difference isn't so great as to cause any arguments or conflicts, and as I've grown up, I've been able to take care of her more. During high school, because of living at school and preparing for the college entrance exam, I couldn't really be there for her much, and after college, I was even more scattered about, only having somewhat complete time together during winter and summer breaks. After starting work, we've spent even less time together, with only daily casual chats in WeChat groups and occasional phone calls. I don't know how she evaluates my role as a brother; I hope I'm doing an adequate job.
+Ich habe eine Schwester, die 13 Jahre jünger ist als ich, was oft den Neid meiner Klassenkameraden und Freunde weckt. Dieser Altersunterschied ist nicht so groß, dass er Streit oder Konflikte verursachen würde, und als ich älter wurde, konnte ich mich mehr um sie kümmern. Während der Oberschule konnte ich wegen des Internatslebens und der Vorbereitung auf die Hochschulaufnahmeprüfung nicht wirklich viel für sie da sein, und nach dem College war ich noch zerstreuter, hatte nur während der Winter- und Sommerferien einigermaßen vollständige Zeit mit ihr. Nachdem ich mit der Arbeit begonnen hatte, haben wir noch weniger Zeit miteinander verbracht, mit nur täglichen beiläufigen Chats in WeChat-Gruppen und gelegentlichen Telefonaten. Ich weiß nicht, wie sie meine Rolle als Bruder bewertet; ich hoffe, ich mache einen angemessenen Job.
 
-So this time when I came home, I took my sister to take some photos, stroll along the pedestrian street, do some handicrafts, visit the aquarium, and go to the One Way Street Bookstore to read together. Many of these things seem quite ordinary, but perhaps because I was too much of a homebody before and missed out, they were all quite novel experiences. Every time we finished an outing or playtime and walked home hand in hand, I could feel a kind of serene beauty in it.
+Also nahm ich meine Schwester dieses Mal, als ich nach Hause kam, mit, um einige Fotos zu machen, entlang der Fußgängerzone zu schlendern, Handarbeiten zu machen, das Aquarium zu besuchen und in den One Way Street Buchladen zu gehen, um gemeinsam zu lesen. Viele dieser Dinge scheinen recht gewöhnlich, aber vielleicht weil ich früher zu sehr ein Stubenhocker war und es verpasst hatte, waren sie alle recht neuartige Erfahrungen. Jedes Mal, wenn wir einen Ausflug oder eine Spielzeit beendet hatten und Hand in Hand nach Hause gingen, konnte ich eine Art heitere Schönheit darin spüren.
 
-This time I also brought my camera back, and tinkered with the newly bought DJI RS3 stabilizer (it's really good to use!!!), taking many photos and videos, which also serves to leave some memory fragments for her childhood that's drawing to a close.
+Diesmal brachte ich auch meine Kamera mit und bastelte mit dem neu gekauften DJI RS3 Stabilisator (er ist wirklich gut zu benutzen!!!), machte viele Fotos und Videos, was auch dazu dient, einige Erinnerungsfragmente für ihre sich dem Ende neigende Kindheit zu hinterlassen.
 
-### My Teacher and I
+### Mein Lehrer und ich
 
-Although it's been nearly ten years since graduating from junior high school, every winter and summer vacation or during breaks like this, I would meet up with my junior high homeroom teacher, Brother Chun, for meals and chats. However, in the past, Ni and Zhan would always be there too, but now they're all scattered overseas, and it might be quite difficult to gather together in the future. Perhaps because we meet quite frequently, even after so many years, it doesn't feel like there have been many changes between us. We talk like friends about everything from studies and work to relationships and thoughts, often losing track of time for four or five hours, and often marveling that we've known each other for 13 years now.
+Obwohl es fast zehn Jahre her ist, seit ich die Mittelschule abgeschlossen habe, würde ich mich in jeder Winter- und Sommerpause oder während Pausen wie dieser mit meinem Klassenlehrer aus der Mittelschule, Bruder Chun, zum Essen und Plaudern treffen. Allerdings waren in der Vergangenheit Ni und Zhan immer dabei, aber jetzt sind sie alle im Ausland verstreut, und es könnte in Zukunft recht schwierig sein, sich zusammenzufinden. Vielleicht weil wir uns recht häufig treffen, fühlt es sich selbst nach so vielen Jahren nicht so an, als hätte es viele Veränderungen zwischen uns gegeben. Wir reden wie Freunde über alles, von Studium und Arbeit bis hin zu Beziehungen und Gedanken, verlieren oft vier oder fünf Stunden lang das Zeitgefühl und staunen oft darüber, dass wir uns jetzt seit 13 Jahren kennen.
 
-## Sense of Belonging in Cities
+## Zugehörigkeitsgefühl in Städten
 
 ![dayuecheng](https://image.pseudoyu.com/images/dayuecheng.jpg)
 
-It's interesting to note that after graduating from high school, I went to Wuhan for university, and subsequently did internships of considerable duration in cities like Shanghai and Xiamen. Not long after, I went to Hong Kong for graduate studies, and soon after finishing, I went to Beijing for an internship and work. I've lived in quite a few cities, but in terms of both environment and emotional connection to the people in these cities, it's hard for me to claim that I belong to any particular place.
+Interessanterweise ging ich nach meinem Highschool-Abschluss nach Wuhan zum Studium und machte anschließend Praktika von beträchtlicher Dauer in Städten wie Shanghai und Xiamen. Nicht lange danach ging ich für das Masterstudium nach Hongkong, und kurz nach dessen Abschluss ging ich für ein Praktikum und zur Arbeit nach Peking. Ich habe in recht vielen Städten gelebt, aber sowohl in Bezug auf die Umgebung als auch auf die emotionale Verbindung zu den Menschen in diesen Städten fällt es mir schwer zu behaupten, dass ich zu einem bestimmten Ort gehöre.
 
-Hangzhou, where I've lived the longest, lacks my presence during the university years, and I have very few connections left with junior and senior high school classmates. Most of my closest friends have also left Hangzhou, mostly overseas. When I came back this time, I found that I couldn't even think of anyone to go out for a meal or drinks with, so I had to give up on that idea. After graduation, I returned to Wuhan a few times due to my student entrepreneurship at the time. After graduation, I only kept in touch with a few mentors, roommates, and the original group of four that I often played with, but they're all scattered in various places now, only able to meet once or twice when on business trips. Subsequently, due to the outbreak of the pandemic, I haven't been back for more than two years. The year in Hong Kong was full of a sense of urgency, and apart from romantic relationships, I didn't seem to have met many people, and the time spent together was brief, gradually losing touch after graduation. Ironically, in Beijing, because I originally had a few good friends, and also formed some good friendships with colleagues and work partners due to work projects.
+Hangzhou, wo ich am längsten gelebt habe, entbehrt meine Anwesenheit während der Universitätsjahre, und ich habe sehr wenige Verbindungen zu meinen ehemaligen Mittel- und Oberschulklassenkameraden. Die meisten meiner engsten Freunde haben Hangzhou ebenfalls verlassen, größtenteils ins Ausland. Als ich dieses Mal zurückkam, stellte ich fest, dass ich nicht einmal an jemanden denken konnte, mit dem ich essen oder trinken gehen könnte, also musste ich diese Idee aufgeben. Nach meinem Abschluss kehrte ich aufgrund meines damaligen studentischen Unternehmertums ein paar Mal nach Wuhan zurück. Nach dem Abschluss hielt ich nur mit einigen Mentoren, Mitbewohnern und der ursprünglichen Vierergruppe, mit der ich oft spielte, Kontakt, aber sie sind jetzt alle an verschiedenen Orten verstreut und können sich nur ein- oder zweimal bei Geschäftsreisen treffen. Anschließend bin ich aufgrund des Ausbruchs der Pandemie seit mehr als zwei Jahren nicht mehr zurückgekehrt. Das Jahr in Hongkong war voller Dringlichkeit, und abgesehen von romantischen Beziehungen schien ich nicht viele Menschen getroffen zu haben, und die gemeinsam verbrachte Zeit war kurz, nach dem Abschluss verlor sich der Kontakt allmählich. Ironischerweise habe ich in Peking, weil ich ursprünglich ein paar gute Freunde hatte und auch aufgrund von Arbeitsprojekten einige gute Freundschaften mit Kollegen und Arbeitspartnern geknüpft habe.
 
-I've always been quite a homebody, and I don't really have a strong perception of a city's climate or features. I also have pretty good adaptability to environments, so I've never considered the city as an important factor in my various decisions. However, after this trip back, many of my thoughts have changed.
+Ich war schon immer ziemlich ein Stubenhocker und habe keine besonders starke Wahrnehmung des Klimas oder der Merkmale einer Stadt. Ich habe auch eine ziemlich gute Anpassungsfähigkeit an Umgebungen, also habe ich die Stadt nie als wichtigen Faktor in meinen verschiedenen Entscheidungen betrachtet. Nach dieser Reise zurück haben sich jedoch viele meiner Gedanken geändert.
 
 ![xinfeng_food](https://image.pseudoyu.com/images/xinfeng_food.jpg)
 
-When I was alone in Beijing, although it wasn't particularly miserable, I always felt that every blade of grass and every tree lacked some kind of attachment, as if all these had nothing to do with me. But when I returned to Hangzhou, even just walking by the river, I could feel some familiarity. I would also visit the shops I used to frequent, or take a 30-minute bus ride to eat at Xinfeng Restaurant that I had been craving for a long time, or sit for several hours in the One Way Street Bookstore, reliving the leisurely times of spending entire afternoons in bookstores in the past.
+Als ich allein in Peking war, fühlte es sich zwar nicht besonders elend an, aber ich hatte immer das Gefühl, dass jeder Grashalm und jeder Baum eine Art Verbundenheit vermissen ließ, als hätten all diese Dinge nichts mit mir zu tun. Aber als ich nach Hangzhou zurückkehrte, konnte ich selbst beim Spaziergang am Fluss eine gewisse Vertrautheit spüren. Ich würde auch die Läden besuchen, die ich früher frequentiert hatte, oder eine 30-minütige Busfahrt unternehmen, um im Xinfeng Restaurant zu essen, nach dem ich mich lange gesehnt hatte, oder mehrere Stunden im One Way Street Buchladen sitzen und die gemütlichen Zeiten wieder aufleben lassen, in denen ich ganze Nachmittage in Buchläden verbracht hatte.
 
-This might be the warmth and sense of belonging that a city brings to people. As we grow older, we tend to care more about these things.
+Das könnte die Wärme und das Zugehörigkeitsgefühl sein, das eine Stadt den Menschen vermittelt. Mit zunehmendem Alter neigen wir dazu, uns mehr um diese Dinge zu kümmern.
 
-## Learning, Input, and Output
+## Lernen, Input und Output
 
-This section will record some interesting things I've encountered and the progress of my work and studies.
+Dieser Abschnitt wird einige interessante Dinge aufzeichnen, denen ich begegnet bin, und den Fortschritt meiner Arbeit und meines Studiums.
 
-### Technical Learning
+### Technisches Lernen
 
-The first week was mainly spent on wrapping up some project work and preparing for new projects. There wasn't much development work to do, but I bought some technical books, planning to delve into them properly after the vacation.
+Die erste Woche wurde hauptsächlich damit verbracht, einige Projektarbeiten abzuschließen und neue Projekte vorzubereiten. Es gab nicht viel Entwicklungsarbeit zu tun, aber ich kaufte einige technische Bücher und plante, mich nach dem Urlaub richtig in sie zu vertiefen.
 
-The technical books are mainly "**Writing a Compiler in Go**", "**Writing an Interpreter in Go**", "**The Road to Go Language Proficiency**", and a book I've been planning to read for a long time but never got around to, "**Refactoring: Improving the Design of Existing Code**". I feel that reading these books after having some project experience will be more profound.
+Die technischen Bücher sind hauptsächlich "**Writing a Compiler in Go**", "**Writing an Interpreter in Go**", "**The Road to Go Language Proficiency**" und ein Buch, das ich schon lange lesen wollte, aber nie dazu gekommen bin, "**Refactoring: Improving the Design of Existing Code**". Ich habe das Gefühl, dass das Lesen dieser Bücher nach einiger Projekterfahrung tiefgründiger sein wird.
 
-For non-technical books, I bought a set related to thinking, "**The Pyramid Principle**", for cultivating some thinking methods. I'll make some notes on all of these later.
+Für nicht-technische Bücher kaufte ich ein Set zum Thema Denken, "**The Pyramid Principle**", um einige Denkmethoden zu kultivieren. Ich werde später zu all diesen einige Notizen machen.
 
-Two days before the vacation, I participated in the technical sharing I mentioned before, mainly talking about some of my experiences and insights in learning blockchain. The overall feeling was good, and I'll rearrange the lecture notes into a blog post later. I originally wanted to organize it right after the talk, but the vacation was about to start. Although I brought my laptop, I basically didn't work or study, just purely relaxed.
+Zwei Tage vor dem Urlaub nahm ich an dem technischen Austausch teil, den ich zuvor erwähnt hatte, und sprach hauptsächlich über einige meiner Erfahrungen und Erkenntnisse beim Erlernen der Blockchain. Das Gesamtgefühl war gut, und ich werde die Vorlesungsnotizen später in einen Blogbeitrag umwandeln. Ich wollte es ursprünglich direkt nach dem Vortrag organisieren, aber der Urlaub stand kurz bevor. Obwohl ich meinen Laptop mitgebracht hatte, habe ich im Grunde nicht gearbeitet oder gelernt, sondern mich einfach rein entspannt.
 
 ### Input
 
-#### Books
+#### Bücher
 
-In terms of books, I'm continuing to read "The Stolen Bicycle". I should be able to finish it this week. Then I also plan to read several books that are more information-oriented:
+In Bezug auf Bücher lese ich weiterhin "Das gestohlene Fahrrad". Ich sollte es diese Woche beenden können. Dann plane ich auch, mehrere Bücher zu lesen, die eher informationsorientiert sind:
 
-- **Working in Public**, which talks about open-source software
-- **Tim Cook: The Genius Who Took Apple to the Next Level**, although I've heard it's mostly a compilation of reports and information, I'm very interested in Apple as a company but have always been unfamiliar with Tim, perhaps because Steve Jobs' halo is too strong, so I want to learn more about him
+- **Working in Public**, das über Open-Source-Software spricht
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, obwohl ich gehört habe, dass es größtenteils eine Zusammenstellung von Berichten und Informationen ist, interessiere ich mich sehr für Apple als Unternehmen, war aber immer mit Tim nicht vertraut, vielleicht weil Steve Jobs' Heiligenschein zu stark ist, also möchte ich mehr über ihn erfahren
 
-Apart from these, I saw a book at One Way Street Bookstore that I had read several years ago, "Stoner". I flipped through it and suddenly felt like revisiting it, feeling that I might gain new insights in terms of self-discovery.
+Abgesehen davon sah ich im One Way Street Buchladen ein Buch, das ich vor einigen Jahren gelesen hatte, "Stoner". Ich blätterte es durch und hatte plötzlich Lust, es wieder zu lesen, mit dem Gefühl, dass ich in Bezug auf Selbstentdeckung neue Erkenntnisse gewinnen könnte.
 
-#### TV Series
+#### TV-Serien
 
-1. **Normal People**, I had watched more than half of it before, but for some reason put it aside. Normal People tells the story of a male and female protagonist from the same town and some stories about their surroundings. I don't know if it's because the male lead is an English major or has the same fragile and sensitive qualities, but I feel like I've seen a lot of myself in him
-2. **Extraordinary Attorney Woo**, a Korean drama with a legal theme. I mainly watched it because I found the female lead's character setting quite cute from a brief introduction
-3. **The Bear**, a story about a chef returning to run a family restaurant. It's not long, with a very good pace. I watched it on the high-speed train on the way back
+1. **Normal People**, ich hatte zuvor mehr als die Hälfte davon gesehen, aber aus irgendeinem Grund beiseite gelegt. Normal People erzählt die Geschichte eines männlichen und weiblichen Protagonisten aus derselben Stadt und einige Geschichten über ihre Umgebung. Ich weiß nicht, ob es daran liegt, dass der männliche Hauptdarsteller Englisch studiert oder die gleichen zerbrechlichen und sensiblen Qualitäten hat, aber ich habe das Gefühl, viel von mir selbst in ihm gesehen zu haben
+2. **Extraordinary Attorney Woo**, ein koreanisches Drama mit rechtlichem Thema. Ich habe es hauptsächlich gesehen, weil ich die Charaktereinstellung der weiblichen Hauptdarstellerin aus einer kurzen Einführung recht niedlich fand
+3. **The Bear**, eine Geschichte über einen Koch, der zurückkehrt, um ein Familienrestaurant zu führen. Es ist nicht lang, mit einem sehr guten Tempo. Ich habe es im Hochgeschwindigkeitszug auf dem Rückweg gesehen
 
-#### Movies
+#### Filme
 
-1. **Newness**, which offers some reflections on emotions and social interactions in today's society, mainly talking about hook-up culture. However, I felt the expression and twists were strange, not recommended
-2. **The Gray Man**, an action movie that's quite popular recently. It's said to be Netflix's highest-budget film. Watching it gave me a bit of a John Wick feel
-
-#### Anime
-
-1. **Demon Slayer**, I really liked the first season, but hadn't followed up for a while. This time I caught up with the Mugen Train Arc and the Entertainment District Arc, really enjoyed them
-2. **Weathering with You**, I've wanted to watch it for a long time. I've seen many edited and remade versions, but never the original. Finally watched it, very Makoto Shinkai style
-3. **Summer Time Rendering**, still following it, the plot is getting more and more intense and unpredictable, very pleasantly surprised
-
-## Others
-
-In the end, I chose a gray-green color for my hair. It took two bleaching sessions and one dyeing session. I think it looks quite good, although it's a bit flamboyant, but very anime-like. Perhaps my delayed rebellious phase has finally arrived, and I can try more styles in the future.
+1. **Newness**, der einige Reflexionen über Emotionen und soziale Interaktionen in der heutigen Gesellschaft bietet, hauptsächlich über die Hook-up-Kultur spricht. Allerdings fand ich den Ausdruck und die Wendungen seltsam, nicht empfehlenswert
+2. **The Gray Man**, ein Actionfilm, der in letzter Zeit ziemlich

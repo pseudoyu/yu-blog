@@ -56,7 +56,7 @@ Ich hatte immer das Gefühl, dass das Aufzeichnen von Software und Hardware und 
 
 ### Persönliche Reflexion und Wachstum
 
-Nachdem ich verschiedene Stadien und Rollen in meinem Studium und meiner Arbeit durchlaufen hatte, stellte ich fest, dass ich in verschiedenen Stadien und Rollen völlig unterschiedliche Gedanken und Wachstum haben könnte, und manchmal kann der Rückblick sehr berührend sein. Daher richtete ich einen Abschnitt "[Gedanken](https://www.pseudoyu.com/en/category/ideas/)" ein, in dem ich jedes Jahr an meinem Geburtstag mein Wachstum festhalten und auch meine Gedanken zu bestimmten Zeitpunkten aufzeichnen würde. In Zukunft werde ich auch einige meiner Erkenntnisse in Form von Wochen-/Monatsberichten festhalten.
+Nachdem ich verschiedene Stadien und Rollen in meinem Studium und meiner Arbeit durchlaufen hatte, stellte ich fest, dass ich in verschiedenen Stadien und Rollen völlig unterschiedliche Gedanken und Wachstum haben könnte, und manchmal kann der Rückblick sehr berührend sein. Daher richtete ich einen Abschnitt "[Gedanken](https://www.pseudoyu.com/de/category/ideas/)" ein, in dem ich jedes Jahr an meinem Geburtstag mein Wachstum festhalten und auch meine Gedanken zu bestimmten Zeitpunkten aufzeichnen würde. In Zukunft werde ich auch einige meiner Erkenntnisse in Form von Wochen-/Monatsberichten festhalten.
 
 Ich glaube, dass mein zukünftiges Ich, selbst nach mehreren Monaten oder Jahren, meinen damaligen Gemütszustand aus diesen Bruchstücken von Aufzeichnungen finden kann. Wenn man allmählich die Gewohnheit entwickelt, das Leben aufzuzeichnen, erlaubt es einem auch, die Schönheit des Lebens zu beachten und zu fühlen, und Herausforderungen aus der Zukunft positiver zu begegnen.
 
@@ -110,13 +110,13 @@ Ich verwende Hugo, einen statischen Website-Generator, um meinen persönlichen B
 
 Darüber hinaus versioniere ich die Blog-Konfiguration und Quelldateien aller Artikel, gekoppelt mit GitHub Action für automatisierte Bereitstellung, die automatisch statische Websites generiert und zum GitHub Pages Blog-Veröffentlichungs-Repository pusht. Für das Setup-Tutorial verweise ich auf:
 
-- [Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisches Veröffentlichungssystem](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisches Veröffentlichungssystem](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 
 #### Blog-Kommentarsystem
 
 Ein vollständiger Blog braucht natürlich ein Kommentarsystem. Systeme wie WordPress haben ihre eigenen Kommentar-Plugins, während statische Blogs selbst mit Kommentarsystemen verbunden werden müssen. Anfänglich wählte ich das Drittanbieter-System Disqus, das einfach und leicht zu bedienen ist, aber mit vielen Anzeigen und Werbeaktionen einhergeht und nicht einfach genug ist. Daher wählte ich Randys Cusdis, ein Open-Source-Kommentarsystem, das sich auf Datenschutz konzentriert, und setzte es selbst durch Railway ein. Für das Setup-Tutorial verweise ich auf:
 
-- [Leichtgewichtige Open-Source-Kostenlose Blog-Kommentarsystem-Lösung (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Leichtgewichtige Open-Source-Kostenlose Blog-Kommentarsystem-Lösung (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 #### Blog-Datenstatistiksystem
 
@@ -134,7 +134,7 @@ Es gibt viele ähnliche Tools. Ich wählte [splitbee](https://splitbee.io/) und 
 
 Darüber hinaus wählte ich einen Open-Source-Dienst umami, der Google Analytics ersetzen kann, und setzte ihn durch Vercel und Heroku ein, um eine Echtzeit-Überwachung der Besucherdaten zu erreichen. Für das Setup-Tutorial verweise ich auf:
 
-- [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
 
 ## Schlussfolgerung
 
@@ -144,8 +144,8 @@ Es ist 2022, und ich blogge immer noch, und ich werde weiter durchhalten. Der Bl
 
 > 1. [Warum ich einen Blog schreibe](https://bytedance.feishu.cn/docs/doccn4sKBEWyyLPziLVyoaudpXd#)
 > 2. [Mein Pseudoyu Persönlicher Blog](https://www.pseudoyu.com)
-> 3. [Kostenlose Persönliche Blog-System-Setup- und Bereitstellungslösung (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-> 4. [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-> 5. [Leichtgewichtige Open-Source-Kostenlose Blog-Kommentarsystem-Lösung (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
-> 6. [Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisches Veröffentlichungssystem](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+> 3. [Kostenlose Persönliche Blog-System-Setup- und Bereitstellungslösung (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+> 4. [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+> 5. [Leichtgewichtige Open-Source-Kostenlose Blog-Kommentarsystem-Lösung (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+> 6. [Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisches Veröffentlichungssystem](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 > 7. [Blockchain-Leitfaden für Anfänger](https://www.pseudoyu.com/blockchain-guide/)

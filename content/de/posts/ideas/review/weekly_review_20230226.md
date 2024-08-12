@@ -36,7 +36,7 @@ Wuhan wird nicht meine zweite Heimat werden, aber es wird immer ein Rastplatz au
 
 ## Lang ersehnte Wiedersehen und fließende Emotionen
 
-In einem früheren Artikel, "[Wochenrückblick #09 - Der farblose Yu und sein Jahr der Pilgerreise](https://www.pseudoyu.com/en/2022/08/29/weekly_review_20220829/)", erwähnte ich eine Gruppe von Menschen:
+In einem früheren Artikel, "[Wochenrückblick #09 - Der farblose Yu und sein Jahr der Pilgerreise](https://www.pseudoyu.com/de/2022/08/29/weekly_review_20220829/)", erwähnte ich eine Gruppe von Menschen:
 
 ![four_people_relationship](https://image.pseudoyu.com/images/four_people_relationship.png)
 

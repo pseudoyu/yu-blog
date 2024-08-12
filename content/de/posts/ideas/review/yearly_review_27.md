@@ -36,11 +36,11 @@ Ich verachte auch die sogenannte Arbeitsplatzkultur. In meinem vorherigen Job w�
 
 Glücklicherweise kann alles, was ich anstrebe, überall in RSS3, in meinem aktuellen Team, gefunden werden.
 
-Kurz nach meinem Geburtstag letztes Jahr habe ich hier erfolgreich die Probezeit-Überprüfung bestanden. Wie in einem früheren Artikel "[Weekly Review #58 - Ein Jahr Fernarbeit](https://www.pseudoyu.com/en/2024/04/30/weekly_review_20230430/)" erwähnt, hatte die Arbeit selbst ihre geschäftigen und ruhigen Zeiten, mit Höhen und Tiefen. Ein Jahr ist unwissentlich vergangen, und ich freue mich darauf, gemeinsam weiterzukommen.
+Kurz nach meinem Geburtstag letztes Jahr habe ich hier erfolgreich die Probezeit-Überprüfung bestanden. Wie in einem früheren Artikel "[Weekly Review #58 - Ein Jahr Fernarbeit](https://www.pseudoyu.com/de/2024/04/30/weekly_review_20230430/)" erwähnt, hatte die Arbeit selbst ihre geschäftigen und ruhigen Zeiten, mit Höhen und Tiefen. Ein Jahr ist unwissentlich vergangen, und ich freue mich darauf, gemeinsam weiterzukommen.
 
 ## Der kleine Prinz und seine Rose
 
-Ebenfalls kurz nach meinem Geburtstag letztes Jahr verliebte ich mich (siehe "[Weekly Review #43 - In the Mood for Love](https://www.pseudoyu.com/en/2023/07/10/weekly_review_20230710/)"), und jetzt ist es ein Jahr her. Genau wie der kleine Prinz und seine Rose haben wir Zeit ineinander investiert und uns gegenseitig wichtiger gemacht.
+Ebenfalls kurz nach meinem Geburtstag letztes Jahr verliebte ich mich (siehe "[Weekly Review #43 - In the Mood for Love](https://www.pseudoyu.com/de/2023/07/10/weekly_review_20230710/)"), und jetzt ist es ein Jahr her. Genau wie der kleine Prinz und seine Rose haben wir Zeit ineinander investiert und uns gegenseitig wichtiger gemacht.
 
 ![rss3_huddle_share](https://image.pseudoyu.com/images/rss3_huddle_share.png)
 

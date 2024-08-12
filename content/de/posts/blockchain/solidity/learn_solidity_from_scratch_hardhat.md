@@ -14,9 +14,9 @@ authors:
 
 Nach den vorherigen Artikeln über Smart Contract Grundlagen, Web3.py und ethers.js haben wir die grundlegenden Kenntnisse zur direkten Interaktion mit Blockchain-Netzwerken durch Programme erworben. Für diejenigen, die damit nicht vertraut sind, können Sie folgende Artikel nachlesen:
 
-- [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-- [Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
-- [Solidity Smart Contract Entwicklung - Beherrschung von ethers.js](https://www.pseudoyu.com/en/2022/06/08/learn_solidity_from_scratch_ethersjs/)
+- [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)
+- [Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/de/2022/05/30/learn_solidity_from_scratch_web3py/)
+- [Solidity Smart Contract Entwicklung - Beherrschung von ethers.js](https://www.pseudoyu.com/de/2022/06/08/learn_solidity_from_scratch_ethersjs/)
 
 In realen komplexen Geschäftsszenarien verwenden wir jedoch oft weiter gekapselte Frameworks wie HardHat, Brownie, Truffle usw. HardHat ist am weitesten verbreitet und verfügt über die leistungsfähigsten Plugin-Erweiterungen. Diese Serie wird sich ab diesem Artikel auf die Verwendung und Best Practices des Hardhat-Frameworks konzentrieren, und dieser Artikel wird dessen Installation, Konfiguration und Verwendung anhand eines einfachen Beispiels abschließen.
 
@@ -505,6 +505,6 @@ Das oben Genannte ist meine grundlegende Konfiguration und Verwendung des Hardha
 > 1. [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 > 2. [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat)
 > 3. [Hardhat Offizielle Dokumentation](https://hardhat.org/getting-started)
-> 4. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-> 5. [Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
-> 6. [Solidity Smart Contract Entwicklung - Beherrschung von ethers.js](https://www.pseudoyu.com/en/2022/06/08/learn_solidity_from_scratch_ethersjs/)
+> 4. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)
+> 5. [Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/de/2022/05/30/learn_solidity_from_scratch_web3py/)
+> 6. [Solidity Smart Contract Entwicklung - Beherrschung von ethers.js](https://www.pseudoyu.com/de/2022/06/08/learn_solidity_from_scratch_ethersjs/)

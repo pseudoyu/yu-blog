@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #05 - Work, Sense of Time Control, and New Friends"
+title: "Wochenrückblick #05 - Arbeit, Zeitgefühl und neue Freunde"
 date: 2022-07-31T23:55:54+08:00
 draft: false
 tags: ["review", "life", "time", "balance", "work", "friendship"]
@@ -10,94 +10,96 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
 ![bg_computer_room_hellowork](https://image.pseudoyu.com/images/bg_computer_room_hellowork.jpg)
 
-This piece is a record and reflection of my life from July 25, 2022, to July 31, 2022, also the first week back to work after a vacation.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 25. Juli 2022 bis zum 31. Juli 2022, zugleich die erste Arbeitswoche nach einem Urlaub.
 
-After experiencing a rare "short summer break," I was immediately thrust into the tense preparation of a new project before I had time to adjust my state, which also prompted me to think more about the balance between work and life.
+Nach einer seltenen "kurzen Sommerpause" wurde ich unmittelbar in die angespannte Vorbereitung eines neuen Projekts geworfen, bevor ich Zeit hatte, meinen Zustand anzupassen. Dies regte mich auch dazu an, mehr über die Balance zwischen Arbeit und Leben nachzudenken.
 
-## Work and Sense of Time Control
+## Arbeit und Zeitgefühl
 
-As I mentioned in a previous article, it has been a year since I ended my student life and entered the workforce. Thanks to the training under extreme pressure from the first project, I have mostly mastered my work responsibilities. Even when faced with impromptu meetings or technical proposal explanations, I can handle them with relative ease.
+Wie ich in einem früheren Artikel erwähnte, ist es nun ein Jahr her, seit ich mein Studentenleben beendet und ins Berufsleben eingetreten bin. Dank der Ausbildung unter extremem Druck vom ersten Projekt habe ich meine Arbeitsaufgaben größtenteils gemeistert. Selbst wenn ich mit spontanen Besprechungen oder technischen Erläuterungen konfrontiert werde, kann ich diese relativ mühelos bewältigen.
 
-The greatest advantage of being trusted at work is having a good degree of freedom. As long as I can coordinate and arrange the progress of the entire task well and achieve a good result, there is no need to succumb to meaningless competition. The working hours are fairly normal, and the work pressure of most projects is not particularly high for long periods (mainly because it is B2B business, so we mostly rush to meet delivery milestones). I can also use the saved time to learn other things.
+Der größte Vorteil, bei der Arbeit vertrauenswürdig zu sein, ist ein gutes Maß an Freiheit. Solange ich den Fortschritt der gesamten Aufgabe gut koordinieren und ein gutes Ergebnis erzielen kann, besteht keine Notwendigkeit, sich einem sinnlosen Wettbewerb zu unterwerfen. Die Arbeitszeiten sind ziemlich normal, und der Arbeitsdruck der meisten Projekte ist nicht besonders hoch über längere Zeiträume (hauptsächlich, weil es sich um B2B-Geschäfte handelt, sodass wir meist auf Liefertermine hinarbeiten). Ich kann die eingesparte Zeit auch nutzen, um andere Dinge zu lernen.
 
-I originally thought this mode was quite good, but recently my state has slowly developed some problems. It feels as if my life is slowly being devoured.
+Ursprünglich dachte ich, dieser Modus sei recht gut, aber in letzter Zeit hat sich mein Zustand langsam problematisch entwickelt. Es fühlt sich an, als würde mein Leben langsam verschlungen werden.
 
-I haven't been able to control the leisure time after work as well as I had originally envisioned. As the days go by, I tend to engage in more mindless leisure activities after work, such as binge-watching dramas or scrolling through some micro-films on Bilibili (occasionally stumbling upon relationship-related content and starting to get emotional).
+Ich konnte die Freizeit nach der Arbeit nicht so gut kontrollieren, wie ich es mir ursprünglich vorgestellt hatte. Mit der Zeit neige ich dazu, mich nach der Arbeit mehr gedankenlosen Freizeitaktivitäten hinzugeben, wie zum Beispiel Serien zu bingen oder durch einige Kurzfilme auf Bilibili zu scrollen (gelegentlich stoße ich auf beziehungsbezogene Inhalte und werde emotional).
 
-Sometimes, hours mysteriously pass by, and because I need to go to work the next day, I have no choice but to take some melatonin and sleep. There are even days when I come back home close to 10 pm, thinking I'll lie down for a bit, only to open my eyes again and find it's already past 1 am. I get up and open my computer, but end up not doing much.
+Manchmal vergehen mysteriöserweise Stunden, und weil ich am nächsten Tag zur Arbeit muss, habe ich keine andere Wahl, als etwas Melatonin zu nehmen und zu schlafen. Es gibt sogar Tage, an denen ich erst gegen 22 Uhr nach Hause komme, denke, ich lege mich kurz hin, nur um die Augen wieder zu öffnen und festzustellen, dass es schon nach 1 Uhr ist. Ich stehe auf und öffne meinen Computer, ende aber damit, nicht viel zu tun.
 
-As a result, productivity during after-work hours is hard to guarantee. Sometimes, I even force myself to do things. I resonate with a group member's description:
+Infolgedessen ist die Produktivität während der Freizeit schwer zu gewährleisten. Manchmal zwinge ich mich sogar, Dinge zu tun. Ich kann mich mit der Beschreibung eines Gruppenmitglieds identifizieren:
 
-> "I'm now learning with a focus on weekly reports. Every time I want to completely lie down, I think about what to do if I haven't written the weekly report, and then I sit up in shock as if rising from my deathbed."
+> "Ich lerne jetzt mit Fokus auf wöchentliche Berichte. Jedes Mal, wenn ich mich komplett hinlegen möchte, denke ich darüber nach, was ich tun soll, wenn ich den Wochenbericht nicht geschrieben habe, und dann setze ich mich schockiert auf, als würde ich von den Toten auferstehen."
 
-Reflecting on the reasons for this state, I feel that I still find it difficult to get the improvement I want from work. Instead, it often consumes my spirit, and the time after work is not enough to recover, causing my productivity to be completely destroyed. Although there are indeed no task quantity regulations or external deadlines, I still often have some self-reproach. This is far from the ideal living state I pursue.
+Bei der Reflexion über die Gründe für diesen Zustand habe ich das Gefühl, dass es mir immer noch schwerfällt, die gewünschte Verbesserung aus der Arbeit zu ziehen. Stattdessen verzehrt sie oft meinen Geist, und die Zeit nach der Arbeit reicht nicht aus, um mich zu erholen, was meine Produktivität völlig zerstört. Obwohl es tatsächlich keine Aufgabenmengenregelungen oder externe Fristen gibt, habe ich oft einige Selbstvorwürfe. Dies ist weit entfernt von dem idealen Lebenszustand, den ich anstrebe.
 
-I seem to have heard this concept from a podcast: we all need to find the B-side hidden behind the A-side. If we take work projects as an A-side, the B-side is finding some points hidden within it. Whether it's innovation or some new technical attempts, they can give us more subjective willingness to complete them. If we take work itself as an A-side, then we need to think about how to fill the other side of this work that occupies most of our time. It can be learning and improvement, or it can be cultivating a simple hobby.
+Ich glaube, ich habe dieses Konzept in einem Podcast gehört: Wir alle müssen die B-Seite finden, die sich hinter der A-Seite verbirgt. Wenn wir Arbeitsprojekte als A-Seite betrachten, ist die B-Seite das Finden einiger darin verborgener Punkte. Ob es nun Innovation oder einige neue technische Versuche sind, sie können uns mehr subjektive Bereitschaft geben, sie zu vollenden. Wenn wir die Arbeit selbst als A-Seite betrachten, müssen wir darüber nachdenken, wie wir die andere Seite dieser Arbeit, die den größten Teil unserer Zeit einnimmt, füllen können. Es kann Lernen und Verbesserung sein, oder es kann die Pflege eines einfachen Hobbys sein.
 
-Of course, changing this state doesn't have a standard solution, and it has never been something that can be easily solved. But it needs to be slowly sorted out anyway. Currently, I'm thinking that my next job will consider more remote work models to better balance my rhythm. I've also been looking into some related information recently.
+Natürlich hat die Änderung dieses Zustands keine Standardlösung, und es war nie etwas, das leicht zu lösen war. Aber es muss trotzdem langsam sortiert werden. Derzeit denke ich darüber nach, dass mein nächster Job mehr Remote-Arbeitsmodelle in Betracht ziehen wird, um meinen Rhythmus besser auszubalancieren. Ich habe mich auch kürzlich nach einigen damit zusammenhängenden Informationen umgesehen.
 
-## New Friends
+## Neue Freunde
 
-The surprise this week was meeting several friends I've been following on Twitter for a long time. It started with a discussion about Cloudflare Pages with [STRRL](https://twitter.com/strrlthedev) and adding each other as friends. Later, I joined a small group and met big names like [Homura](https://twitter.com/RealAkemiHomura), [Manjusaka](https://twitter.com/Manjusaka_Lee), [Xinyi](https://twitter.com/_a_wing), and [Xuanwo](https://twitter.com/OnlyXuanwo). We occasionally have some daily exchanges about life and technology.
+Die Überraschung dieser Woche war, dass ich mehrere Freunde traf, denen ich schon lange auf Twitter folge. Es begann mit einer Diskussion über Cloudflare Pages mit [STRRL](https://twitter.com/strrlthedev) und dem gegenseitigen Hinzufügen als Freunde. Später trat ich einer kleinen Gruppe bei und traf große Namen wie [Homura](https://twitter.com/RealAkemiHomura), [Manjusaka](https://twitter.com/Manjusaka_Lee), [Xinyi](https://twitter.com/_a_wing) und [Xuanwo](https://twitter.com/OnlyXuanwo). Wir haben gelegentlich einige tägliche Austausche über Leben und Technologie.
 
-It seems that after graduation, I rarely actively socialize. I'm unwilling to participate in gatherings with strangers in real life, and I've closed my WeChat Moments entrance for four or five years. I don't know the current situation of my former classmates, making it even more difficult to have any opportunity for communication. I've been in a closed state for a long time. On the contrary, I've been rambling a lot on Twitter since May, and I'm often amazed by the interesting lives and depth of thought of many Twitter friends. But I've always been quietly watching, with very little direct interaction. This time, meeting so many new friends, I'm very happy and surprised. I hope to have more exchanges in the future. Everyone is very nice.
+Es scheint, dass ich nach dem Abschluss selten aktiv sozialisiere. Ich bin unwillig, an Treffen mit Fremden im realen Leben teilzunehmen, und ich habe meinen WeChat Moments-Eingang seit vier oder fünf Jahren geschlossen. Ich kenne die aktuelle Situation meiner ehemaligen Klassenkameraden nicht, was es noch schwieriger macht, irgendeine Gelegenheit zur Kommunikation zu haben. Ich bin schon lange in einem geschlossenen Zustand. Im Gegenteil, ich habe seit Mai viel auf Twitter gepostet und bin oft erstaunt von den interessanten Leben und der Gedankentiefe vieler Twitter-Freunde. Aber ich habe immer still zugeschaut, mit sehr wenig direkter Interaktion. Diesmal, so viele neue Freunde zu treffen, bin ich sehr glücklich und überrascht. Ich hoffe, in Zukunft mehr Austausch zu haben. Alle sind sehr nett.
 
-## Learning and Input
+## Lernen und Input
 
-This section will record some interesting things I've come across and the progress of my work and study.
+Dieser Abschnitt wird einige interessante Dinge aufzeichnen, auf die ich gestoßen bin, und den Fortschritt meiner Arbeit und meines Studiums.
 
-### Technical Learning
+### Technisches Lernen
 
-This week, I first joined a new project and did some environment setup, which involved quite a few Docker-related operations. However, because I've done similar things before, the overall process was quite smooth. Then, because it involves the Cosmos blockchain, I started reading "Blockchain Architecture and Implementation: Detailed Explanation of Cosmos" and made some notes. I'm reading it slowly.
+Diese Woche trat ich zunächst einem neuen Projekt bei und machte einige Umgebungseinstellungen, die ziemlich viele Docker-bezogene Operationen beinhalteten. Da ich jedoch ähnliche Dinge zuvor gemacht habe, war der gesamte Prozess ziemlich reibungslos. Dann, weil es die Cosmos-Blockchain betrifft, begann ich, "Blockchain-Architektur und -Implementierung: Detaillierte Erklärung von Cosmos" zu lesen und machte einige Notizen. Ich lese es langsam.
 
-But after a few days, I was assigned to the early preparation of another project. There was a lot of tedious work, and I worked overtime for several consecutive days, but the development progress was not much. I hope the project goes smoothly.
+Aber nach ein paar Tagen wurde ich der frühen Vorbereitung eines anderen Projekts zugeteilt. Es gab viel mühsame Arbeit, und ich machte mehrere Tage hintereinander Überstunden, aber der Entwicklungsfortschritt war nicht groß. Ich hoffe, das Projekt verläuft reibungslos.
 
-I didn't do much other technical learning this week. CSAPP, contract development, and the newly arrived Go language-related books all need to be pushed forward according to the schedule.
+Ich habe diese Woche nicht viel anderes technisches Lernen gemacht. CSAPP, Vertragsentwicklung und die neu eingetroffenen Go-sprachbezogenen Bücher müssen alle nach dem Zeitplan vorangetrieben werden.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **Tim Cook: The Genius Who Took Apple to the Next Level**, Although I heard it's mostly a compilation of reports and information, I'm very interested in Apple as a company but have always been unfamiliar with Tim. Perhaps Steve Jobs' halo is too strong, so I want to learn more about him.
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, Obwohl ich hörte, dass es meist eine Zusammenstellung von Berichten und Informationen ist, interessiere ich mich sehr für Apple als Unternehmen, war aber immer mit Tim nicht vertraut. Vielleicht ist Steve Jobs' Heiligenschein zu stark, also möchte ich mehr über ihn erfahren.
 
-#### TV Series
+#### Fernsehserien
 
-1. **The Most Hated Man on the Internet**, a new Netflix documentary. The mother in the event is strong, confident, and interesting. Compared to the previous documentary about the Nth Room case, it's less heavy and has more of a suspense rhythm. But after watching it late at night, I still feel helpless (or powerless). I just hope this world can have a little more kindness and humanity, even if it's just a little bit better.
-2. **Extraordinary Attorney Woo**, the female lead is still very cute, and the main couple is quite shippable.
+1. **The Most Hated Man on the Internet**, eine neue Netflix-Dokumentation. Die Mutter in dem Ereignis ist stark, selbstbewusst und interessant. Im Vergleich zur vorherigen Dokumentation über den Nth Room-Fall ist es weniger schwer und hat mehr einen Spannungsrhythmus. Aber nachdem ich es spät in der Nacht gesehen habe, fühle ich mich immer noch hilflos (oder machtlos). Ich hoffe einfach, dass diese Welt ein bisschen mehr Freundlichkeit und Menschlichkeit haben kann, auch wenn es nur ein bisschen besser ist.
 
-#### Movies
+2. **Extraordinary Attorney Woo**, die weibliche Hauptrolle ist immer noch sehr süß, und das Hauptpaar ist ziemlich shippable.
 
-- **Moon Man**, a standard comedy film for theaters. The music and atmosphere rendering are quite in place. As for the plot, it feels like a low-budget version of The Martian, and the ending is a bit too focused on core values.
+#### Filme
+
+- **Moon Man**, ein Standard-Komödienfilm für Kinos. Die Musik und Atmosphärengestaltung sind ziemlich gut. Was die Handlung betrifft, fühlt es sich wie eine Low-Budget-Version von The Martian an, und das Ende ist ein bisschen zu sehr auf Kernwerte fokussiert.
 
 #### Anime
 
-- **Summer Time Rendering**, an anime series I look forward to updating every week.
+- **Summer Time Rendering**, eine Animeserie, auf deren Aktualisierung ich mich jede Woche freue.
 
-## Tinkering Notes
+## Bastel-Notizen
 
-### Software Tinkering
+### Software-Bastelei
 
-1. **Arc**, a newly popular browser. I tried it out, and the experience is very different. Currently, I haven't found any major flaws, but it will still mostly serve as an auxiliary browser. After all, I'm too used to Safari.
-2. **Arctype**, a database management tool I saw in some recommendation article. The interface is very beautiful, and it can be divided into multiple workspaces. It also has a built-in visualization panel function. I haven't played with it in detail yet. Currently, my main tool is still TablePlus.
+1. **Arc**, ein neu populär gewordener Browser. Ich habe ihn ausprobiert, und die Erfahrung ist sehr anders. Derzeit habe ich keine größeren Mängel gefunden, aber er wird immer noch hauptsächlich als Hilfsbrowser dienen. Schließlich bin ich zu sehr an Safari gewöhnt.
 
-After reading [STRRL](https://twitter.com/strrlthedev)'s weekly report last week, I also completely migrated my blog to Cloudflare Pages. The migration experience was very seamless, and the subsequent use feels great. At this point, my serverless blog system consists of:
+2. **Arctype**, ein Datenbankverwaltungstool, das ich in einem Empfehlungsartikel gesehen habe. Die Oberfläche ist sehr schön, und es kann in mehrere Arbeitsbereiche unterteilt werden. Es hat auch eine eingebaute Visualisierungspanel-Funktion. Ich habe noch nicht im Detail damit gespielt. Derzeit ist mein Hauptwerkzeug immer noch TablePlus.
 
-- GitHub as the source file for the Hugo blog and running some GitHub Actions to automatically update the About page
-- Cloudflare Pages hosting the blog, and using the domain hosted on Cloudflare for resolution
-- Hosting the Cusdis comment system and Umami data statistics system on Railway and Vercel
+Nachdem ich [STRRL](https://twitter.com/strrlthedev)'s Wochenbericht letzte Woche gelesen hatte, habe ich auch meinen Blog komplett zu Cloudflare Pages migriert. Die Migrationserfahrung war sehr nahtlos, und die anschließende Nutzung fühlt sich großartig an. An diesem Punkt besteht mein serverloses Blogsystem aus:
 
-### Blog Related
+- GitHub als Quelldatei für den Hugo-Blog und Ausführung einiger GitHub Actions zur automatischen Aktualisierung der About-Seite
+- Cloudflare Pages hostet den Blog und verwendet die auf Cloudflare gehostete Domain zur Auflösung
+- Hosting des Cusdis-Kommentarsystems und des Umami-Datenstatistiksystems auf Railway und Vercel
 
-I didn't write many articles this week, but there were some small milestones in the data. First, Google searches reached 1000 clicks.
+### Blog-Bezogenes
+
+Ich habe diese Woche nicht viele Artikel geschrieben, aber es gab einige kleine Meilensteine in den Daten. Zunächst erreichten die Google-Suchen 1000 Klicks.
 
 ![blog_google_search_1k](https://image.pseudoyu.com/images/blog_google_search_1k.jpg)
 
-Then, for the first time, the monthly page views reached about 10,000, with over 3,000 visitors.
+Dann erreichten zum ersten Mal die monatlichen Seitenaufrufe etwa 10.000, mit über 3.000 Besuchern.
 
 ![blog_umami_10k](https://image.pseudoyu.com/images/blog_umami_10k.png)
 
-I need to continue to work hard and write more.
+Ich muss weiterhin hart arbeiten und mehr schreiben.

@@ -18,7 +18,7 @@ Daher suchte ich kontinuierlich nach Lösungen, die sowohl im In- als auch im Au
 
 Zwei Jahre sind vergangen, und viele Lösungen in diesem Artikel sind nun veraltet (obwohl sie immer noch nutzbar sind). Ich habe eine Reihe neuer Artikel aktualisiert, die meine neueste Blog-Lösung vom Juni 2024 detailliert beschreiben, die Ihnen als Referenz dienen können.
 
-- [Was sich 2024 in meinem Blog geändert hat](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)
+- [Was sich 2024 in meinem Blog geändert hat](https://www.pseudoyu.com/de/2024/06/29/what_changed_in_my_blog_2024/)
 
 ## Lösung
 
@@ -50,7 +50,7 @@ Wir können unsere eigene Domain durch Domainauflösung konfigurieren, wie meine
 
 **[2022-05-29 Update]**
 
-Zur einfacheren Verwaltung habe ich meine NameSilo-Domain später zu Cloudflare migriert. Sie können direkt auf Cloudflare kaufen. Das Tutorial ist in "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)" enthalten.
+Zur einfacheren Verwaltung habe ich meine NameSilo-Domain später zu Cloudflare migriert. Sie können direkt auf Cloudflare kaufen. Das Tutorial ist in "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)" enthalten.
 
 ### Besucheranalyse
 
@@ -64,7 +64,7 @@ Als kontinuierlich aktualisierte und betriebene Blog-Plattform sind wir natürli
 
 **[2022-05-21 Update]**
 
-Zusätzlich zu den oben genannten direkten Serviceplattformen habe ich auch einen Open-Source-Service [umami](https://umami.is) als Alternative zu [Google Analytics](https://analytics.google.com) bereitgestellt, um Besucherdaten in Echtzeit zu überwachen. Das Tutorial lautet: "[Bauen Sie ein kostenloses persönliches Blog-Datenanalysesystem von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)".
+Zusätzlich zu den oben genannten direkten Serviceplattformen habe ich auch einen Open-Source-Service [umami](https://umami.is) als Alternative zu [Google Analytics](https://analytics.google.com) bereitgestellt, um Besucherdaten in Echtzeit zu überwachen. Das Tutorial lautet: "[Bauen Sie ein kostenloses persönliches Blog-Datenanalysesystem von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)".
 
 **[2024-06-30 Update]**
 
@@ -78,7 +78,7 @@ Ein Blog-System benötigt natürlich ein Kommentarsystem. Während Plattformen w
 
 **[2022-05-24 Update]**
 
-Das Tutorial für die Bereitstellung von Cusdis auf der Railway-Plattform wurde aktualisiert: "[Kostenlose und leichtgewichtige Blog-Kommentarsystemlösung (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)".
+Das Tutorial für die Bereitstellung von Cusdis auf der Railway-Plattform wurde aktualisiert: "[Kostenlose und leichtgewichtige Blog-Kommentarsystemlösung (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)".
 
 **[2024-06-30 Update]**
 
@@ -100,11 +100,11 @@ Daher habe ich ein Blog-Quelldatei-Repository eingerichtet und einen automatisie
 
 **[2022-05-29 Update]**
 
-Das Tutorial für Hugo-Setup und GitHub Action-Konfiguration wurde aktualisiert: "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
+Das Tutorial für Hugo-Setup und GitHub Action-Konfiguration wurde aktualisiert: "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
 
 **[2024-06-30 Update]**
 
-Cloudflare Pages-Bereitstellungslösung hinzugefügt: "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
+Cloudflare Pages-Bereitstellungslösung hinzugefügt: "[Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)".
 
 Veröffentlichungsprozess
 
@@ -116,10 +116,10 @@ Das oben Genannte ist meine persönliche Blog-Lösung. Die anfängliche Einricht
 
 Die Kernteile der Tutorial-Reihe wurden abgeschlossen:
 
-- [Bauen Sie ein kostenloses persönliches Blog-Datenanalysesystem von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [Kostenlose und leichtgewichtige Blog-Kommentarsystemlösung (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
-- [Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Bauen Sie ein kostenloses persönliches Blog-Datenanalysesystem von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Kostenlose und leichtgewichtige Blog-Kommentarsystemlösung (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Stellen Sie Ihren Blog mit Hugo und GitHub Action bereit](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
 
 Wenn Sie keine statischen Blogs wie Hugo verwenden möchten, können Sie auch recht einfach einen Blog mit Ghost einrichten:
 
-- [Ghost 5.0 ist da, stellen Sie es mit einem Klick auf Digital Ocean bereit](https://www.pseudoyu.com/en/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/)
+- [Ghost 5.0 ist da, stellen Sie es mit einem Klick auf Digital Ocean bereit](https://www.pseudoyu.com/de/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/)

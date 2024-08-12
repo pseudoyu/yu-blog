@@ -70,7 +70,7 @@ Um Sicherheit und Stabilität zu gewährleisten, setzte ich gleichzeitig drei ve
 2. Surge Ponte
 3. Cloudflare Argo Tunnel
 
-Ich verwende die erste Lösung seit fast zwei Jahren, wie im Artikel "[Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)" beschrieben. Sie erfordert einen öffentlichen Netzwerkserver, ist aber einfach zu konfigurieren und stabil. Derzeit habe ich nur die Ports für ssh und Home Assistant beibehalten.
+Ich verwende die erste Lösung seit fast zwei Jahren, wie im Artikel "[Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/de/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)" beschrieben. Sie erfordert einen öffentlichen Netzwerkserver, ist aber einfach zu konfigurieren und stabil. Derzeit habe ich nur die Ports für ssh und Home Assistant beibehalten.
 
 Die zweite Lösung erreicht eine bequeme Intranet-Penetration zwischen macOS/iOS-Geräten durch die Surge-Software. Sie können ihre detaillierte Einführung in "[Surge Ponte Guide](https://kb.nssurge.com/surge-knowledge-base/guidelines/ponte)" sehen. Sie erfordert eine Proxy-Linie, die UDP unterstützt, ist aber ansonsten fast Plug-and-Play. Ich verwende sie, um auf Dateien auf dem Mac Studio zu Hause und einige lokale Dienste zuzugreifen und kann auch direkt von außen auf Heim-Intranet-Router zugreifen und diese konfigurieren, hauptsächlich für den persönlichen Gebrauch.
 

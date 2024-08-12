@@ -28,7 +28,7 @@ Obwohl es sich um ein Projekt in einem frühen Stadium handelt, bietet es bereit
 
 In meinem vorherigen Artikel "Aufbau eines kostenlosen persönlichen Blog-Analysesystems von Grund auf (umami + Vercel + Heroku)" verwendete ich [Vercel](http://vercel.com/) und [Heroku](https://www.heroku.com/) für die Einrichtung. Als jemand, der gerne bastelt, werden wir [Railway](https://railway.app/) verwenden, um dieses Kommentarsystem aufzubauen und bereitzustellen.
 
-Railway ähnelt Vercel, ist ebenfalls eine PaaS-Plattform, die die Bereitstellung von Projekten in mehreren Sprachen unterstützt. Für persönliche Projekte ist das monatliche Freikontingent von 5 $ mehr als ausreichend. Nach Tests kostet die Bereitstellung des vorherigen [umami Website-Analysesystems](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) zusammen mit einer PostgreSQL-Datenbankinstanz auf der Railway-Plattform etwa 0,7 $ pro Monat, was für den persönlichen Gebrauch völlig ausreicht.
+Railway ähnelt Vercel, ist ebenfalls eine PaaS-Plattform, die die Bereitstellung von Projekten in mehreren Sprachen unterstützt. Für persönliche Projekte ist das monatliche Freikontingent von 5 $ mehr als ausreichend. Nach Tests kostet die Bereitstellung des vorherigen [umami Website-Analysesystems](https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/) zusammen mit einer PostgreSQL-Datenbankinstanz auf der Railway-Plattform etwa 0,7 $ pro Monat, was für den persönlichen Gebrauch völlig ausreicht.
 
 ![railway_price](https://image.pseudoyu.com/images/railway_price.png)
 

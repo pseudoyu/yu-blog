@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #09 - Colorless Yu and His Year of Pilgrimage"
+title: "Wochenrückblick #09 - Der farblose Yu und sein Jahr der Pilgerreise"
 date: 2022-08-29T11:08:14+08:00
 draft: false
 tags: ["review", "life", "reading", "work", "bookstore", "career", "kindness", "charity", "personality", "friendship", "relationship"]
@@ -10,101 +10,101 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from August 22, 2022 to August 28, 2022.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 22. August 2022 bis zum 28. August 2022.
 
-This week, there were finally some changes at work. I entered another project that I'm very interested in and more challenging. I feel I can put to use some of the contract and underlying chain-related knowledge I learned while working from home. A colleague I was quite close to left the company mid-week. He joined a week before me, and the first interface I wrote at work was taught by him. Perhaps I'm not yet accustomed to farewells, and I feel somewhat sentimental.
+Diese Woche gab es endlich einige Veränderungen bei der Arbeit. Ich bin in ein anderes Projekt eingestiegen, das mich sehr interessiert und herausfordernder ist. Ich habe das Gefühl, dass ich einiges von dem Wissen über Verträge und zugrunde liegende Blockchain-Technologien, das ich während meiner Heimarbeit gelernt habe, anwenden kann. Ein Kollege, dem ich recht nahestand, verließ Mitte der Woche das Unternehmen. Er war eine Woche vor mir eingetreten, und die erste Schnittstelle, die ich bei der Arbeit schrieb, wurde von ihm unterrichtet. Vielleicht bin ich noch nicht an Abschiede gewöhnt und fühle mich etwas sentimental.
 
-On the weekend, I met up with Twitter friend [Homura](https://twitter.com/RealAkemiHomura). He's an interesting and cute boy. We chatted a lot and found many similar ideas and hobbies. It was a delightful experience. Perhaps because I didn't play online games or post much on social media before, I don't seem to be very good at making online friends. This is a small change recently (social phobia recovery therapy), and I've decided to go out more to take photos and enrich my life.
+Am Wochenende traf ich mich mit dem Twitter-Freund [Homura](https://twitter.com/RealAkemiHomura). Er ist ein interessanter und niedlicher Junge. Wir haben viel geplaudert und viele ähnliche Ideen und Hobbys gefunden. Es war eine angenehme Erfahrung. Vielleicht, weil ich früher keine Online-Spiele gespielt oder viel in sozialen Medien gepostet habe, scheine ich nicht sehr gut darin zu sein, Online-Freundschaften zu schließen. Das ist in letzter Zeit eine kleine Veränderung (Therapie zur Überwindung sozialer Phobien), und ich habe beschlossen, öfter auszugehen, um Fotos zu machen und mein Leben zu bereichern.
 
-Additionally, I read quite a few books and gradually got back on track in life. Coincidentally (or perhaps with some inclination), the two books I read this week and the drama I thought of all tell the stories and thoughts of ordinary people. This led to many reflections on being interesting, ordinary, and oneself.
+Außerdem habe ich recht viele Bücher gelesen und bin allmählich wieder in die Spur gekommen. Zufälligerweise (oder vielleicht mit einer gewissen Neigung) erzählen die beiden Bücher, die ich diese Woche gelesen habe, und das Drama, an das ich gedacht habe, die Geschichten und Gedanken gewöhnlicher Menschen. Dies führte zu vielen Reflexionen darüber, interessant, gewöhnlich und man selbst zu sein.
 
-Also, a tweet from [Manjusaka](https://twitter.com/Manjusaka_Lee) stirred up some memories and thoughts about charity and kindness.
+Außerdem hat ein Tweet von [Manjusaka](https://twitter.com/Manjusaka_Lee) einige Erinnerungen und Gedanken über Wohltätigkeit und Güte geweckt.
 
-## Colorless Yu and His Year of Pilgrimage
+## Der farblose Yu und sein Jahr der Pilgerreise
 
 ![no_color_people](https://image.pseudoyu.com/images/no_color_people.png)
 
-This title is derived from Haruki Murakami's "[Colorless Tsukuru Tazaki and His Years of Pilgrimage](https://book.douban.com/subject/25733470/)", a long and somewhat perplexing name. I came across this book when meeting Humura at a bookstore. I noticed he was reading Murakami's "[Kafka on the Shore](https://book.douban.com/subject/30144095/)", which suddenly reminded me that I wanted to catch up on Murakami's books.
+Dieser Titel leitet sich von Haruki Murakamis "[Die Ermordung des Commendatore](https://book.douban.com/subject/25733470/)" ab, ein langer und etwas verwirrender Name. Ich stieß auf dieses Buch, als ich Humura in einer Buchhandlung traf. Mir fiel auf, dass er Murakamis "[Kafka am Strand](https://book.douban.com/subject/30144095/)" las, was mich plötzlich daran erinnerte, dass ich Murakamis Bücher nachholen wollte.
 
-When I read "[1Q84](https://book.douban.com/subject/10529920/)" and "[Norwegian Wood](https://book.douban.com/subject/27200257/)" before, I quite liked his writing style. It feels plain yet has a narrative charm, interspersed with some imaginative metaphors. But my favorite is still his miscellaneous essays and notes. Many reflections in "[What I Talk About When I Talk About Running](https://book.douban.com/subject/3369600/)" are thought-provoking. After reading it, I was motivated to keep running for a whole winter break.
+Als ich zuvor "[1Q84](https://book.douban.com/subject/10529920/)" und "[Naokos Lächeln](https://book.douban.com/subject/27200257/)" las, mochte ich seinen Schreibstil recht gern. Er fühlt sich schlicht an, hat aber einen erzählerischen Charme, durchsetzt mit einigen fantasievollen Metaphern. Aber am liebsten sind mir immer noch seine vermischten Essays und Notizen. Viele Reflexionen in "[Wovon ich rede, wenn ich vom Laufen rede](https://book.douban.com/subject/3369600/)" sind zum Nachdenken anregend. Nachdem ich es gelesen hatte, war ich motiviert, einen ganzen Winter lang weiterzulaufen.
 
-The exterior of Wansheng Bookstore in Beijing is quite dilapidated. I had to check the map several times to find the entrance in an inconspicuous place nearby. Inside, bookshelves are everywhere. The arrangement isn't orderly but doesn't lack aesthetic appeal. Following a small corner entrance next to it, I turned a few corners before finding the literature section. "A hidden world" might be the best description. It's an interesting place that reminds me of many old bookstores in Hong Kong.
+Das Äußere des Wansheng Buchladens in Peking ist ziemlich heruntergekommen. Ich musste mehrmals auf die Karte schauen, um den Eingang an einem unauffälligen Ort in der Nähe zu finden. Drinnen stehen überall Bücherregale. Die Anordnung ist nicht ordentlich, aber es fehlt nicht an ästhetischem Reiz. Einem kleinen Eckeingang daneben folgend, bog ich ein paar Mal ab, bevor ich die Literaturabteilung fand. "Eine verborgene Welt" könnte die beste Beschreibung sein. Es ist ein interessanter Ort, der mich an viele alte Buchhandlungen in Hongkong erinnert.
 
-I immediately saw the shelf with Murakami's books and randomly chose "[Colorless Tsukuru Tazaki and His Years of Pilgrimage](https://book.douban.com/subject/25733470/)". I also picked up "[Novelist as a Vocation](https://book.douban.com/subject/26889236/)". After some hesitation, I decided to read the former first. The perplexing name aroused curiosity, and a novel seemed better for passing the afternoon. After reading a few pages, ah, it's the familiar flavor.
+Ich sah sofort das Regal mit Murakamis Büchern und wählte zufällig "[Die Ermordung des Commendatore](https://book.douban.com/subject/25733470/)". Ich nahm auch "[Beruf: Romancier](https://book.douban.com/subject/26889236/)" mit. Nach einigem Zögern beschloss ich, zuerst das erstere zu lesen. Der verwirrende Name weckte meine Neugier, und ein Roman schien besser geeignet, um den Nachmittag zu verbringen. Nach ein paar Seiten, ah, es ist der vertraute Geschmack.
 
-Although I read hastily and don't have the habit of taking notes when reading novels, I still remember a few interesting points. First is the interpretation and exploration of names. When his parents named him, they struggled between "Tsukuru" and "Sou", eventually choosing the former. They hoped he would only need to "make" rather than bearing the pressure of "creating". This already had a good meaning, but because the other four people in his small group and his subsequent close friend's names all coincidentally included color words: "red", "blue", "black", "white", "gray", it made him feel like he was a characterless existence, along with a colorless life.
+Obwohl ich hastig las und nicht die Angewohnheit habe, beim Lesen von Romanen Notizen zu machen, erinnere ich mich noch an ein paar interessante Punkte. Zuerst ist da die Interpretation und Erforschung von Namen. Als seine Eltern ihn benannten, schwankten sie zwischen "Tsukuru" und "Sou" und entschieden sich schließlich für ersteres. Sie hofften, er würde nur "machen" müssen, anstatt den Druck des "Erschaffens" zu tragen. Das hatte bereits eine gute Bedeutung, aber weil die anderen vier Personen in seiner kleinen Gruppe und sein späterer enger Freund zufällig alle Farbnamen hatten: "rot", "blau", "schwarz", "weiß", "grau", fühlte er sich wie eine charakterlose Existenz, zusammen mit einem farblosen Leben.
 
-Actually, complaints about one's own name are common. In "[Reply 1988](https://movie.douban.com/subject/26302614/)", Deok-sun also complained to her parents that her name lacked uniqueness, unlike her sister Bora. I once had similar thoughts. My name seemed short and unremarkable, and being a common surname, I often encountered people with the same name in school. Consequently, I often needed to make extra effort to leave more memorable impressions.
+Tatsächlich sind Klagen über den eigenen Namen häufig. In "[Reply 1988](https://movie.douban.com/subject/26302614/)" beklagte sich Deok-sun auch bei ihren Eltern, dass ihr Name keine Einzigartigkeit besaß, im Gegensatz zu ihrer Schwester Bora. Ich hatte einmal ähnliche Gedanken. Mein Name schien kurz und unremarkabel, und da es ein häufiger Nachname ist, traf ich in der Schule oft auf Personen mit dem gleichen Namen. Folglich musste ich oft zusätzliche Anstrengungen unternehmen, um einen einprägsameren Eindruck zu hinterlassen.
 
-Although I've reconciled with myself later, I still often feel that an interesting life is beyond my reach. I always envy others' interesting personalities and experiences, and even when I do well, I only feel like I'm fulfilling the duties of my ordinary life or that these achievements don't belong to me. There's a psychological condition called "impostor syndrome" that seems to aptly describe this point. I saw this mentioned in an article about engineering literacy:
+Obwohl ich mich später mit mir selbst versöhnt habe, habe ich immer noch oft das Gefühl, dass ein interessantes Leben außerhalb meiner Reichweite liegt. Ich beneide immer die interessanten Persönlichkeiten und Erfahrungen anderer, und selbst wenn ich gut bin, fühle ich mich nur, als würde ich die Pflichten meines gewöhnlichen Lebens erfüllen oder dass diese Errungenschaften nicht zu mir gehören. Es gibt eine psychologische Kondition namens "Hochstapler-Syndrom", die diesen Punkt treffend zu beschreiben scheint. Ich sah dies in einem Artikel über technische Kompetenz erwähnt:
 
 ![imposter_syndrone](https://image.pseudoyu.com/images/imposter_syndrone.jpg)
 
-As age and experiences accumulate, this tendency seems to intensify. The pursuit of being interesting has become an elusive obsession, but even when others comment that I'm a person with rich experiences or interesting, I'm always skeptical. Tsukuru Tazaki in the book seems to be in a similar state. He's actually doing the station construction work he's always been interested in, yet still feels he's missing something, attributing it to his lack of color.
+Mit zunehmendem Alter und wachsenden Erfahrungen scheint sich diese Tendenz zu verstärken. Das Streben danach, interessant zu sein, ist zu einer schwer fassbaren Besessenheit geworden, aber selbst wenn andere kommentieren, dass ich eine Person mit reichen Erfahrungen oder interessant bin, bin ich immer skeptisch. Tsukuru Tazaki im Buch scheint sich in einem ähnlichen Zustand zu befinden. Er macht eigentlich die Bahnhofsbauarbeit, für die er sich schon immer interessiert hat, hat aber trotzdem das Gefühl, dass ihm etwas fehlt, und schreibt es seinem Mangel an Farbe zu.
 
-People seem to have a tendency to form groups at various stages, and once dependent on a group, one inevitably suffers pressure and setbacks from relationships. In college, I once had such a group of four, two boys and two girls. We were inseparable, and when the counselor or classmates found someone missing, they would naturally ask the others.
+Menschen scheinen in verschiedenen Lebensphasen die Tendenz zu haben, Gruppen zu bilden, und wenn man erst einmal von einer Gruppe abhängig ist, leidet man unweigerlich unter dem Druck und den Rückschlägen von Beziehungen. Im Studium hatte ich einmal so eine Vierergruppe, zwei Jungen und zwei Mädchen. Wir waren unzertrennlich, und wenn der Berater oder die Kommilitonen jemanden vermissten, fragten sie natürlich die anderen.
 
-But after a while, I felt obvious pressure. The other three seemed to be more prominent figures, always the shining ones in the crowd, while I seemed to always lack presence. Yet internally, I didn't want to be the redundant one who was part of it out of habit. So I started deliberately avoiding and escaping, but of course, my clumsy performance couldn't hide it, and it was quickly noticed.
+Aber nach einer Weile spürte ich offensichtlichen Druck. Die anderen drei schienen prominentere Figuren zu sein, immer die Strahlenden in der Menge, während ich scheinbar immer Präsenz vermissen ließ. Doch innerlich wollte ich nicht derjenige sein, der aus Gewohnheit dabei war. Also begann ich, bewusst zu vermeiden und zu fliehen, aber natürlich konnte meine unbeholfene Darbietung es nicht verbergen, und es wurde schnell bemerkt.
 
-I can say I was luckier than Tsukuru Tazaki. I wasn't abandoned, and there were no misunderstandings. The other three cornered me at the entrance of the boys' dormitory one night, asking me to reveal my inner conflicts, and then resolved them one by one. Regarding the response to personality and presence, I might still think it was just comfort, but I felt that I was needed in this relationship and pattern, that my emotions were taken seriously by them, that our relationship was cherished. Even though we later had few opportunities for joint action due to cities and many reasons, we still maintain good contact, and they're the first people I think of when visiting any member's city.
+Ich kann sagen, dass ich glücklicher war als Tsukuru Tazaki. Ich wurde nicht verlassen, und es gab keine Missverständnisse. Die anderen drei stellten mich eines Nachts am Eingang des Jungenwohnheims zur Rede und baten mich, meine inneren Konflikte zu offenbaren, und lösten sie dann einen nach dem anderen. Was die Reaktion auf Persönlichkeit und Präsenz betrifft, könnte ich immer noch denken, dass es nur Trost war, aber ich spürte, dass ich in dieser Beziehung und diesem Muster gebraucht wurde, dass meine Gefühle von ihnen ernst genommen wurden, dass unsere Beziehung geschätzt wurde. Auch wenn wir später aufgrund von Städten und vielen Gründen wenig Gelegenheit zu gemeinsamen Aktionen hatten, pflegen wir immer noch guten Kontakt, und sie sind die ersten Menschen, an die ich denke, wenn ich die Stadt eines Mitglieds besuche.
 
-I'm currently in another three-person relationship, two close friends from junior high school. By definition, they might not count as childhood friends, but we're closer than that. Because we're separated in three places, I often think about the foundation, direction, and balance of this relationship. Although there will be some changes gradually, and there are many parts we need to face in the future, I'm gradually willing to work hard for it and explore more.
+Ich bin derzeit in einer anderen Dreierbeziehung, zwei enge Freunde aus der Mittelschule. Nach Definition zählen sie vielleicht nicht als Kindheitsfreunde, aber wir sind enger als das. Weil wir an drei Orten getrennt sind, denke ich oft über die Grundlage, Richtung und Balance dieser Beziehung nach. Obwohl es allmählich einige Veränderungen geben wird und es viele Teile gibt, denen wir uns in Zukunft stellen müssen, bin ich allmählich bereit, dafür hart zu arbeiten und mehr zu erkunden.
 
-"[Stoner](https://book.douban.com/subject/26425831/)" actually also describes a lot about the ordinariness of life and the perfection of personality. However, the topic is quite broad, and I might talk about it later along with "[Normal People](https://movie.douban.com/subject/33477335/)".
+"[Stoner](https://book.douban.com/subject/26425831/)" beschreibt eigentlich auch viel über die Gewöhnlichkeit des Lebens und die Vollkommenheit der Persönlichkeit. Das Thema ist jedoch recht breit gefächert, und ich könnte später zusammen mit "[Normal People](https://movie.douban.com/subject/33477335/)" darüber sprechen.
 
-## Kindness and Charity
+## Güte und Wohltätigkeit
 
-Last week, I saw a tweet from [Manjusaka](https://twitter.com/Manjusaka_Lee):
+Letzte Woche sah ich einen Tweet von [Manjusaka](https://twitter.com/Manjusaka_Lee):
 
-> A piece of good news to share with everyone
+> Eine gute Nachricht, die ich mit allen teilen möchte
 
-> A student from the Daliangshan area, whom my sister and I have been supporting together, has successfully been admitted to a decent public college in the eastern coastal area. It's considered the first step of stepping out. Although for many people, a college might not be worth mentioning, for children from Daliangshan, this step already requires too much effort
+> Ein Schüler aus der Daliangshan-Region, den meine Schwester und ich gemeinsam unterstützt haben, wurde erfolgreich an einer anständigen öffentlichen Hochschule im östlichen Küstengebiet zugelassen. Es gilt als der erste Schritt des Ausschreitens. Obwohl für viele Menschen eine Hochschule vielleicht nicht erwähnenswert ist, erfordert dieser Schritt für Kinder aus Daliangshan bereits zu viel Anstrengung
 
-> Welcome everyone to join in supporting students, after all
+> Ich lade alle ein, sich an der Unterstützung von Schülern zu beteiligen, schließlich
 
-> #Education is the best public welfare
+> #Bildung ist die beste Wohlfahrt
 
-Later, I learned about the "[One Village One School](http://www.one-school.org)" organization and plan to follow up and support a student one-on-one in the future.
+Später erfuhr ich von der Organisation "[One Village One School](http://www.one-school.org)" und plane, in Zukunft einen Schüler im Einzelunterricht zu unterstützen und zu begleiten.
 
-Actually, I find it hard to ascribe the noble meaning of "charity" to these actions of mine. I've had times when I used them as a boast or topic of conversation.
+Eigentlich fällt es mir schwer, diesen meinen Handlungen die edle Bedeutung von "Wohltätigkeit" zuzuschreiben. Ich hatte Zeiten, in denen ich sie als Prahlerei oder Gesprächsthema benutzte.
 
-The year I finished the college entrance exam, I went with close friends to a mountain village in Hunan for volunteer teaching. We participated in some activities, taught some classes, met a group of lovely children, and then hurriedly left. Later, when university started, there was a discussion about volunteer teaching in the class group. At that time, I talked about this experience (perhaps with some hidden pride, "Look! I've done such things"). A classmate's reply left a deep impression on me. I can't remember the exact words, but the gist was questioning whether I had ever thought about how these waves of volunteer teachers seemed to go with their own purposes to let those children see the outside world, give them more imagination and warmth, yet hurriedly leave, probably never to return to this place, their lives never to intersect again. Compared to this briefly transmitted so-called "knowledge", whether the benefits outweigh the harm.
+In dem Jahr, in dem ich die Hochschulaufnahmeprüfung abschloss, ging ich mit engen Freunden in ein Bergdorf in Hunan zum freiwilligen Unterricht. Wir nahmen an einigen Aktivitäten teil, unterrichteten einige Klassen, trafen eine Gruppe liebenswerter Kinder und verließen dann eilig den Ort. Später, als die Universität begann, gab es eine Diskussion über freiwilligen Unterricht in der Klassengruppe. Damals sprach ich über diese Erfahrung (vielleicht mit etwas verstecktem Stolz, "Seht her! Ich habe solche Dinge getan"). Die Antwort eines Klassenkameraden hinterließ einen tiefen Eindruck bei mir. Ich kann mich nicht mehr an die genauen Worte erinnern, aber der Kern war die Frage, ob ich je darüber nachgedacht hätte, wie diese Wellen von freiwilligen Lehrern mit ihren eigenen Absichten zu kommen schienen, um jenen Kindern die Außenwelt zu zeigen, ihnen mehr Fantasie und Wärme zu geben, doch eilig wieder abzureisen, wahrscheinlich nie wieder an diesen Ort zurückzukehren, ihre Leben sich nie wieder kreuzen würden. Ob im Vergleich zu diesem kurz übermittelten sogenannten "Wissen" die Vorteile die Nachteile überwiegen.
 
-I don't remember the subsequent discussions, but I imagine I must have said something like "I'll go see them again if I have the chance" with lingering attachment to those children. That was in 2015. Seven years have passed, and I've never been back. She was right.
+Ich erinnere mich nicht an die anschließenden Diskussionen, aber ich stelle mir vor, dass ich etwas gesagt haben muss wie "Ich werde sie wieder besuchen, wenn ich die Chance habe" mit anhaltender Zuneigung zu diesen Kindern. Das war 2015. Sieben Jahre sind vergangen, und ich bin nie zurückgekehrt. Sie hatte Recht.
 
-Afterwards, I became very cautious about such things and no longer dared to call it charity, fearing that I would do such self-satisfying things out of vanity. In my memory, I only gave a little more than usual when the department's volunteer teaching team called for donations to buy winter clothes.
+Danach wurde ich bei solchen Dingen sehr vorsichtig und wagte es nicht mehr, es Wohltätigkeit zu nennen, aus Angst, dass ich solche selbstzufriedenen Dinge aus Eitelkeit tun würde. In meiner Erinnerung gab ich nur etwas mehr als üblich, als das freiwillige Lehrerteam der Abteilung zu Spenden für den Kauf von Winterkleidung aufrief.
 
-This time, seeing Manjusaka's tweet, I felt genuinely happy and hope I can do more in this way too.
+Diesmal, als ich Manjusakas Tweet sah, fühlte ich mich aufrichtig glücklich und hoffe, dass ich auch auf diese Weise mehr tun kann.
 
-## Miscellaneous
+## Vermischtes
 
-This section will record my input and output, as well as other things I find interesting.
+In diesem Abschnitt werden meine Inputs und Outputs sowie andere Dinge, die ich interessant finde, festgehalten.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **Work, Consumerism and the New Poor**, whether in the era of work ethics or later consumerism, even with the addition of grandiose terms like ethics and morality, the poor have always been merely a symbol and never viewed as a group. The constantly changing rules and orders, or different attitudes, are just the ways each society chooses to prefer or allow at that stage. Even when value is given to the poor, it's nothing more than condescending charity.
-- **The Nine-Grid Writing Method**, a small book, concise and with an attractive writing style. Previously, I've always disliked such "how to read/write" books, but after starting to update my blog, I often feel the limitations of expression methods. It's very inspiring, especially in information collection and organization. In my practice, combined with Logseq's daily recording of various ideas, it can add a lot of ideas for writing.
-- **Stoner**, I read it hastily in high school, but rereading it recently gave me many new feelings. I don't know if it's because the setting is all about literature majors, but while reading, I was reminded of "Normal People", a popular drama from a couple of years ago. Perhaps an ordinary person's life is always so trivial and real, with studies, love, and marriage all full of a sense of brokenness, unable to change yet living earnestly. Recently, I've come to like more and more this plain life under simple strokes and the attitude towards life it conveys. Perhaps I'm getting old too (although it sounds a bit affected to say so).
-- **Colorless Tsukuru Tazaki and His Years of Pilgrimage**, a rare physical book I've read in one sitting recently. Murakami's words often have this magic, seemingly just describing some trivial matters and mental clutter, yet attracting people to explore the connections between various elements. This book is mainly about the breakdown of friendship and loss. I can't help but think of the three-person small group I'm in. Perhaps I, who have placed too much dependence, can no longer bear the cost of loss. It's just that as life and time pass, we have more to face.
+- **Arbeit, Konsum und die neuen Armen**, ob in der Ära der Arbeitsethik oder des späteren Konsumismus, selbst mit der Hinzufügung großartiger Begriffe wie Ethik und Moral wurden die Armen immer nur als Symbol betrachtet und nie als Gruppe gesehen. Die sich ständig ändernden Regeln und Ordnungen oder unterschiedlichen Einstellungen sind nur die Wege, die jede Gesellschaft in diesem Stadium zu bevorzugen oder zu erlauben wählt. Selbst wenn den Armen ein Wert beigemessen wird, ist es nichts anderes als herablassende Wohltätigkeit.
+- **Die Neun-Felder-Schreibmethode**, ein kleines Buch, prägnant und mit einem ansprechenden Schreibstil. Früher habe ich solche "Wie man liest/schreibt"-Bücher immer abgelehnt, aber nachdem ich angefangen habe, meinen Blog zu aktualisieren, spüre ich oft die Grenzen der Ausdrucksmethoden. Es ist sehr inspirierend, besonders bei der Informationssammlung und -organisation. In meiner Praxis, kombiniert mit Logseqs täglicher Aufzeichnung verschiedener Ideen, kann es viele Ideen für das Schreiben hinzufügen.
+- **Stoner**, ich las es in der Oberschule hastig, aber beim erneuten Lesen in letzter Zeit bekam ich viele neue Gefühle. Ich weiß nicht, ob es daran liegt, dass die Umgebung ganz auf Literaturstudenten ausgerichtet ist, aber beim Lesen wurde ich an "Normal People" erinnert, ein populäres Drama von vor ein paar Jahren. Vielleicht ist das Leben eines gewöhnlichen Menschen immer so trivial und real, mit Studium, Liebe und Ehe voller Gebrochenheit, unfähig sich zu ändern und doch ernsthaft lebend. In letzter Zeit mag ich immer mehr dieses schlichte Leben unter einfachen Strichen und die Lebenseinstellung, die es vermittelt. Vielleicht werde ich auch alt (obwohl es ein bisschen affektiert klingt, das zu sagen).
+- **Die Ermordung des Commendatore**, ein seltenes physisches Buch, das ich in letzter Zeit in einem Rutsch gelesen habe. Murakamis Worte haben oft diese Magie, scheinbar nur einige triviale Angelegenheiten und geistige Unordnung zu beschreiben, und doch ziehen sie Menschen an, die Verbindungen zwischen verschiedenen Elementen zu erforschen. Dieses Buch handelt hauptsächlich vom Zusammenbruch der Freundschaft und Verlust. Ich kann nicht umhin, an die Dreiergruppe zu denken, in der ich mich befinde. Vielleicht kann ich, der ich zu viel Abhängigkeit hineingelegt habe, die Kosten des Verlusts nicht mehr tragen. Es ist nur so, dass wir mit dem Vergehen von Leben und Zeit mehr zu bewältigen haben.
 
-#### TV Series
+#### TV-Serien
 
-- **Five Days at Memorial**, watched more than half, talking about some events during Hurricane Katrina in the US, inevitably reminds me of some things during the Wuhan epidemic
-- **House of the Dragon**, prequel to Game of Thrones, watched one episode so far, general impression is average
+- **Five Days at Memorial**, mehr als die Hälfte gesehen, es geht um einige Ereignisse während des Hurrikans Katrina in den USA, unvermeidlich erinnert es mich an einige Dinge während der Wuhan-Epidemie
+- **House of the Dragon**, Prequel zu Game of Thrones, bisher eine Episode gesehen, der allgemeine Eindruck ist durchschnittlich
 
-#### Movies
+#### Filme
 
-- **Return to Dust**, the first feeling reminds me of Nomadland, followed by To Live. The rain scene is both moving and heartbreaking, silently praying that hardships won't befall, yet to no avail. But in the two hours of quiet viewing, there doesn't seem to be much trace of exaggerating suffering in terms of viewing experience. Perhaps this is the true face of Chinese people's suffering itself, generation after generation repeating the same mistakes.
+- **Rückkehr in den Staub**, das erste Gefühl erinnert mich an Nomadland, gefolgt von Leben! Die Regenszene ist sowohl bewegend als auch herzzerreißend, still betend, dass Härten nicht eintreffen mögen, doch vergebens. Aber in den zwei Stunden ruhigen Zuschauens scheint es in Bezug auf das Seherlebnis nicht viele Spuren der Übertreibung des Leidens zu geben. Vielleicht ist dies das wahre Gesicht des Leidens der Chinesen selbst, Generation um Generation die gleichen Fehler wiederholend.
 
 #### Anime
 
-- **Summer Time Rendering**, even reluctant for it to end, rare to still be looking forward to subsequent developments after 20 episodes, hope it doesn't have a bad ending
+- **Summer Time Rendering**, sogar widerwillig, dass es zu Ende geht, selten, dass ich nach 20 Episoden immer noch auf die weiteren Entwicklungen gespannt bin, hoffe, es hat kein schlechtes Ende
 
-#### Games
+#### Spiele
 
-- **Octopath Traveler**, played a bit on weekday nights during leisure time, the high-definition pixel art experience is quite good
-- **Disco Elysium**, was sick this week, so didn't play
+- **Octopath Traveler**, an Wochentagabenden in der Freizeit ein bisschen gespielt, das hochauflösende Pixel-Art-Erlebnis ist recht gut
+- **Disco Elysium**, war diese Woche krank, also nicht gespielt

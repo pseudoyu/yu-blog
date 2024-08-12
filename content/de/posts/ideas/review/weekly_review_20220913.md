@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #11 - Moods, Travels and Serendipities"
+title: "Wochenrückblick #11 - Stimmungen, Reisen und glückliche Zufälle"
 date: 2022-09-13T12:53:53+08:00
 draft: false
 tags: ["review", "life", "work", "mood", "moment", "travel", "sea", "photography", "movie"]
@@ -10,97 +10,97 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `September 5, 2022` to `September 12, 2022`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `5. September 2022` bis zum `12. September 2022`.
 
-The past week was quite enriching, both during the workdays and the Mid-Autumn Festival holiday. Work gradually became busier but also more interesting; daily life saw some changes, no longer so dull and mundane; I've grown accustomed to pulling out my Kindle for a few pages even during short car rides of just a few dozen minutes, quickly becoming immersed; going out has become more frequent, even if it's just aimlessly walking the streets.
+Die vergangene Woche war sowohl während der Arbeitstage als auch während des Mittherbstfest-Feiertags recht erfüllend. Die Arbeit wurde allmählich geschäftiger, aber auch interessanter; das tägliche Leben erfuhr einige Veränderungen, es war nicht mehr so eintönig und alltäglich; ich habe mich daran gewöhnt, selbst bei kurzen Autofahrten von nur wenigen Dutzend Minuten meinen Kindle herauszuholen und ein paar Seiten zu lesen, schnell in die Lektüre versunken; Ausgehen ist häufiger geworden, selbst wenn es nur ein zielloses Schlendern durch die Straßen ist.
 
-Perhaps everything is getting better.
+Vielleicht wird alles besser.
 
-## Mood
+## Stimmung
 
 ![yu_mood_review_20220913](https://image.pseudoyu.com/images/yu_mood_review_20220913.png)
 
-Though I'm not usually talkative, I'm quite an emotional person overall. I can be saddened by sudden intrusive thoughts, lost in contemplation for a long time because of a movie's ending, and inexplicably delighted by small details in life.
+Obwohl ich normalerweise nicht gesprächig bin, bin ich insgesamt ein recht emotionaler Mensch. Ich kann durch plötzliche, aufdringliche Gedanken betrübt werden, lange Zeit in Betrachtung versunken sein wegen des Endes eines Films und unerklärlich erfreut sein über kleine Details im Leben.
 
-I'm not an optimistic person about life. Even now, I feel that misfortunes in life far outweigh the lucky moments, and when suffering, I often feel I deserve to bear these burdens. Over the past year or two, I've experienced many painful events - some were natural disasters or human tragedies, leaving regret and unwillingness; others were self-inflicted, causing self-reproach and remorse. Fortunately, I have a few close friends who, though not always by my side, often illuminate my darkest moments like winter sunshine with those comfortable times we shared in the past.
+Ich bin kein optimistischer Mensch, was das Leben angeht. Selbst jetzt habe ich das Gefühl, dass die Unglücke im Leben die glücklichen Momente bei weitem überwiegen, und wenn ich leide, habe ich oft das Gefühl, dass ich es verdiene, diese Lasten zu tragen. In den letzten ein oder zwei Jahren habe ich viele schmerzhafte Ereignisse erlebt - einige waren Naturkatastrophen oder menschliche Tragödien, die Bedauern und Unwillen hinterließen; andere waren selbst verschuldet und verursachten Selbstvorwürfe und Reue. Glücklicherweise habe ich ein paar enge Freunde, die, auch wenn sie nicht immer an meiner Seite sind, oft meine dunkelsten Momente wie Wintersonnenschein erhellen mit jenen angenehmen Zeiten, die wir in der Vergangenheit geteilt haben.
 
-But sometimes one needs to step out of their corner and walk in the sunshine.
+Aber manchmal muss man aus seiner Ecke heraustreten und im Sonnenschein spazieren gehen.
 
-> This morning I woke up a bit late. When I came out for work, the sky was already quite bright, though the temperature was still pleasant with a bit of wind. As I was listening to music (Mayday's "Tenderness"), I suddenly felt very, very good. It's been a long, long time since I felt so relaxed, this kind of joy from the bottom of my heart.
+> Heute Morgen bin ich etwas zu spät aufgewacht. Als ich zur Arbeit kam, war der Himmel schon recht hell, obwohl die Temperatur noch angenehm war mit etwas Wind. Als ich Musik hörte (Maydays "Tenderness"), fühlte ich mich plötzlich sehr, sehr gut. Es ist lange, lange her, dass ich mich so entspannt gefühlt habe, diese Art von Freude aus tiefstem Herzen.
 
-I'm very grateful to have such moments, even if it's just a fleeting emotion, it makes me feel that I've reconciled with certain parts of myself, along with the surrounding time and space.
+Ich bin sehr dankbar, solche Momente zu haben, auch wenn es nur eine flüchtige Emotion ist, sie lässt mich fühlen, dass ich mich mit bestimmten Teilen meiner selbst versöhnt habe, zusammen mit der umgebenden Zeit und dem Raum.
 
-## Travel
+## Reisen
 
-I wouldn't consider myself a travel enthusiast. In the past, I mostly spent my free time at home. The thought of planning various travel matters would dampen my enthusiasm by half, let alone having to endure the crowds and noise of popular tourist spots.
+Ich würde mich nicht als Reiseenthusiast bezeichnen. In der Vergangenheit verbrachte ich meine Freizeit meist zu Hause. Der Gedanke, verschiedene Reiseangelegenheiten zu planen, dämpfte meine Begeisterung um die Hälfte, ganz zu schweigen davon, die Menschenmassen und den Lärm beliebter Touristenorte ertragen zu müssen.
 
-After buying a camera, I started to have some thoughts of going out. I often carried my camera with me when I went out during internships and work, unknowingly walking through many cities and capturing many memories. Later, after watching "[Little Deer Lawrence](https://space.bilibili.com/37029661)"'s travel photography videos, I listed one item after another on my travel list, but never managed to fulfill them.
+Nachdem ich eine Kamera gekauft hatte, begann ich, einige Gedanken ans Ausgehen zu haben. Ich trug meine Kamera oft bei mir, wenn ich während der Praktika und der Arbeit ausging, und lief unbewusst durch viele Städte und fing viele Erinnerungen ein. Später, nachdem ich die Reisefotografie-Videos von "[Little Deer Lawrence](https://space.bilibili.com/37029661)" gesehen hatte, setzte ich ein Element nach dem anderen auf meine Reiseliste, schaffte es aber nie, sie zu erfüllen.
 
-I had plans to travel to Qingdao in August, but couldn't make it due to work and some trivial matters (probably more because of laziness), and then the epidemic started spreading to various places again, so it kept being postponed. So when I suddenly learned that I had to go on a business trip to Qingdao on the second day of the Mid-Autumn Festival, the joy even overshadowed the pressure of the sudden work task.
+Ich hatte Pläne, im August nach Qingdao zu reisen, konnte es aber aufgrund von Arbeit und einigen Kleinigkeiten (wahrscheinlich eher wegen Faulheit) nicht schaffen, und dann begann sich die Epidemie wieder an verschiedenen Orten auszubreiten, so dass es immer wieder verschoben wurde. Als ich dann plötzlich erfuhr, dass ich am zweiten Tag des Mittherbstfestes auf Dienstreise nach Qingdao musste, überwog die Freude sogar den Druck der plötzlichen Arbeitsaufgabe.
 
-I booked a ticket for early the next morning, catching up on sleep while watching the scenery along the way. Upon arrival, I was lucky to meet a local taxi driver. After chatting for a bit, I made a spontaneous decision to change my itinerary, asking him to take me on a tour around the seaside. We drove, stopping here and there, getting out to enjoy the sea breeze when we encountered nice scenery, and taking a few photos along the way.
+Ich buchte ein Ticket für den frühen nächsten Morgen und holte Schlaf nach, während ich die Landschaft entlang des Weges betrachtete. Bei der Ankunft hatte ich das Glück, einen ortskundigen Taxifahrer zu treffen. Nach einem kurzen Gespräch traf ich die spontane Entscheidung, meine Reiseroute zu ändern und bat ihn, mich auf eine Tour entlang der Küste mitzunehmen. Wir fuhren, hielten hier und da an, stiegen aus, um die Meeresbrise zu genießen, wenn wir auf schöne Landschaften trafen, und machten unterwegs ein paar Fotos.
 
-This one-hour journey seemed like a condensed version of a Qingdao tour. I didn't look at any travel guides, didn't rush between several scenic spots. Some scenery was missed, but there wasn't much regret; while some emotions were felt, they became a beautiful part of the memory, worth a smile even after a long time.
+Diese einstündige Reise schien wie eine kondensierte Version einer Qingdao-Tour. Ich sah mir keine Reiseführer an, hetzte nicht zwischen mehreren Sehenswürdigkeiten hin und her. Einige Landschaften wurden verpasst, aber es gab nicht viel Bedauern; während einige Emotionen empfunden wurden, wurden sie zu einem schönen Teil der Erinnerung, wert eines Lächelns selbst nach langer Zeit.
 
-Because I only brought a light 55mm F1.8 lens, and due to time constraints, I could only take distant shots, so the results of the hurried few shots were not very satisfying. But at least some memory points were left, and I managed to string together a theme "People by the Sea".
+Da ich nur ein leichtes 55mm F1.8 Objektiv mitgebracht hatte und aufgrund von Zeitbeschränkungen nur Fernaufnahmen machen konnte, waren die Ergebnisse der eiligen paar Aufnahmen nicht sehr zufriedenstellend. Aber zumindest wurden einige Erinnerungspunkte hinterlassen, und es gelang mir, ein Thema "Menschen am Meer" zusammenzustellen.
 
-{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_04.png" caption="A man">}}
-{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_01.png" caption="Shoes">}}
-{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_02.png" caption="A girl">}}
-{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_03.png" caption="Family">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_04.png" caption="Ein Mann">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_01.png" caption="Schuhe">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_02.png" caption="Ein Mädchen">}}
+{{< figure src="https://image.pseudoyu.com/images/people_with_the_sea_03.png" caption="Familie">}}
 
-## Serendipities
+## Glückliche Zufälle
 
-Actually, it was the same when I went to Thailand with my close friends before. Rather than the prosperity and bustle of Bangkok, we stayed longer in Chiang Mai, sometimes just walking on the streets looking for inconspicuous food, or exploring another side of the city following Pokémon Go activities.
+Eigentlich war es dasselbe, als ich zuvor mit meinen engen Freunden nach Thailand reiste. Anstatt des Wohlstands und der Geschäftigkeit Bangkoks blieben wir länger in Chiang Mai, manchmal einfach nur auf den Straßen spazierend und nach unauffälligem Essen suchend oder eine andere Seite der Stadt erkundend, den Pokémon Go-Aktivitäten folgend.
 
-I increasingly feel that for me, the focus of travel is no longer those "top ten", "must-visit" and "breathtaking" sceneries, but the emotions felt during the journey, and the time spent with companions. In this state of mind, all the unexpected encounters become even more beautiful.
+Ich spüre zunehmend, dass für mich der Fokus des Reisens nicht mehr jene "Top Ten", "Muss-Besuche" und "atemberaubenden" Landschaften sind, sondern die Emotionen, die während der Reise empfunden werden, und die Zeit, die mit Begleitern verbracht wird. In dieser Geisteshaltung werden all die unerwarteten Begegnungen noch schöner.
 
-I watched Little Deer's latest video - "[How Desperate is a Trip Without a Plan...](https://www.bilibili.com/video/BV1pe411g7om)". Maybe, the next stop will be Yunnan.
+Ich sah Little Deers neuestes Video - "[Wie verzweifelt ist eine Reise ohne Plan...](https://www.bilibili.com/video/BV1pe411g7om)". Vielleicht wird das nächste Ziel Yunnan sein.
 
-## Others
+## Sonstiges
 
-This section will record some of my inputs and outputs, as well as other things I find interesting.
+Dieser Abschnitt wird einige meiner Inputs und Outputs sowie andere Dinge, die ich interessant finde, aufzeichnen.
 
-### Work
+### Arbeit
 
-This week at work, I did some development involving chain interaction, which was quite interesting. Later, I also want to study more about on-chain data processing. I've also started to write some production-level smart contracts. There are quite a lot of work tasks, and I need to launch two new modules that I'm responsible for before National Day, so I need to work hard.
+Diese Woche bei der Arbeit habe ich einige Entwicklungen gemacht, die Chain-Interaktion beinhalten, was ziemlich interessant war. Später möchte ich auch mehr über On-Chain-Datenverarbeitung studieren. Ich habe auch begonnen, einige Smart Contracts auf Produktionsniveau zu schreiben. Es gibt ziemlich viele Arbeitsaufgaben, und ich muss vor dem Nationalfeiertag zwei neue Module starten, für die ich verantwortlich bin, also muss ich hart arbeiten.
 
 ### Blog
 
-Surprisingly, an article I wrote "[PostgreSQL Basics and Practice](https://www.pseudoyu.com/en/2022/09/05/database_postgres_basic/)" received a lot of attention and feedback. I will continue to write about work practice series in the future. Currently, I have completed:
+Überraschenderweise erhielt ein Artikel, den ich geschrieben habe, "[PostgreSQL Grundlagen und Praxis](https://www.pseudoyu.com/de/2022/09/05/database_postgres_basic/)", viel Aufmerksamkeit und Feedback. Ich werde in Zukunft weiterhin über Arbeitspraxis-Serien schreiben. Derzeit habe ich abgeschlossen:
 
-- [MySQL Basics and Practice](https://www.pseudoyu.com/en/2021/03/29/database_mysql_basic/)
-- [PostgreSQL Basics and Practice](https://www.pseudoyu.com/en/2022/09/05/database_postgres_basic/)
-- [Docker Basics and Practice](https://www.pseudoyu.com/en/2022/09/07/container_docker_basic/)
+- [MySQL Grundlagen und Praxis](https://www.pseudoyu.com/de/2021/03/29/database_mysql_basic/)
+- [PostgreSQL Grundlagen und Praxis](https://www.pseudoyu.com/de/2022/09/05/database_postgres_basic/)
+- [Docker Grundlagen und Praxis](https://www.pseudoyu.com/de/2022/09/07/container_docker_basic/)
 
-Other than that, I also caught a Go hot topic and translated an article for GoCN's first release:
+Außerdem habe ich auch ein heißes Go-Thema aufgegriffen und einen Artikel für GoCNs erste Veröffentlichung übersetzt:
 
-- [[Translation] New Go Vulnerability Management Tool: govulncheck](https://www.pseudoyu.com/en/2022/09/10/vulnerability_management_for_go/)
+- [[Übersetzung] Neues Go Vulnerability Management Tool: govulncheck](https://www.pseudoyu.com/de/2022/09/10/vulnerability_management_for_go/)
 
-There are still many themes I want to write about, I can't be lazy anymore in the future.
+Es gibt noch viele Themen, über die ich schreiben möchte, ich kann in Zukunft nicht mehr faul sein.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **Hackers and Painters**, which I'm reading on my commute. I originally thought it would be some practical content like soft skills, and I was reading it as a way to pass time on the journey, but surprisingly, many ideas are quite interesting, and the writing style is very comfortable. I've always felt that coding, painting, or writing are different forms of creation, all of which can make people feel the joy of creation, but few books can express this part so naturally.
-- **I'll Give You a Bullet**, currently reading
-- **The Details of the Rule of Law**, currently reading
+- **Hacker und Maler**, das ich auf meinem Arbeitsweg lese. Ich dachte ursprünglich, es würde einige praktische Inhalte wie Soft Skills enthalten, und ich las es als Möglichkeit, die Zeit auf der Reise zu überbrücken, aber überraschenderweise sind viele Ideen ziemlich interessant, und der Schreibstil ist sehr angenehm. Ich hatte immer das Gefühl, dass Programmieren, Malen oder Schreiben verschiedene Formen der Kreation sind, die alle das Gefühl der Freude an der Schöpfung vermitteln können, aber nur wenige Bücher können diesen Teil so natürlich ausdrücken.
+- **Ich gebe dir eine Kugel**, derzeit am Lesen
+- **Die Details der Rechtsstaatlichkeit**, derzeit am Lesen
 
-#### Movies
+#### Filme
 
-- **Blue Gate Crossing**, my deepest impression of Taiwanese films before should be "A Sun". Many dialogues, monologues, and long shots, many scenes are like trying to capture fragments of memory. I watched "Blue Gate Crossing" during the holiday. The texture of early youth films is really exquisite, interpreting "aesthetic", a description that was later overused. Chen Bolin's "In Time With You" influenced many parts of my youth, and even some ideas and qualities have deeply entered my personality itself. My impression of him is mostly steady and warm, the kind of person I want to become. In this film, I saw a similar but different him. One thing I like is that he always seriously and firmly repeats his words, whether it's self-introduction or angry questioning, as if confirming something with himself, but also with some timidity unique to youth. The last monologue is also very touching, I finally found the source of this sentence I liked before - "Although I can't see myself with my eyes closed, I can see you."
-- **I Am Not Madame Bovary**, another ensemble film, which happens to be my favorite narrative style recently. I don't know whether to blame it on the era or human nature, chaotic and ridiculous political correctness intertwines to influence the various directions of things. Politics, love, women, it encompasses too many themes, but doesn't make people feel the sense of detachment from the story. The comedy and humor parts never intended to cover up its tragic core from the beginning, so that by the end, although there's some sadness, there's more helplessness.
+- **Blue Gate Crossing**, mein tiefster Eindruck von taiwanesischen Filmen sollte vorher "A Sun" gewesen sein. Viele Dialoge, Monologe und lange Einstellungen, viele Szenen sind wie der Versuch, Fragmente von Erinnerungen einzufangen. Ich sah "Blue Gate Crossing" während des Urlaubs. Die Textur früher Jugendfilme ist wirklich exquisit und interpretiert "Ästhetik", eine Beschreibung, die später überbenutzt wurde. Chen Bolins "In Time With You" beeinflusste viele Teile meiner Jugend, und sogar einige Ideen und Qualitäten sind tief in meine Persönlichkeit selbst eingedrungen. Mein Eindruck von ihm ist meist stetig und warm, die Art von Person, die ich werden möchte. In diesem Film sah ich einen ähnlichen, aber anderen ihn. Eine Sache, die ich mag, ist, dass er immer ernsthaft und fest seine Worte wiederholt, sei es bei der Selbstvorstellung oder bei wütenden Fragen, als ob er etwas mit sich selbst bestätigt, aber auch mit etwas Schüchternheit, die der Jugend eigen ist. Der letzte Monolog ist auch sehr berührend, ich fand endlich die Quelle dieses Satzes, den ich vorher mochte - "Obwohl ich mich selbst mit geschlossenen Augen nicht sehen kann, kann ich dich sehen."
+- **Ich bin nicht Madame Bovary**, ein weiterer Ensemble-Film, der zufällig mein Lieblings-Erzählstil in letzter Zeit ist. Ich weiß nicht, ob man es der Ära oder der menschlichen Natur anlasten soll, chaotische und lächerliche politische Korrektheit verflicht sich, um die verschiedenen Richtungen der Dinge zu beeinflussen. Politik, Liebe, Frauen, es umfasst zu viele Themen, lässt einen aber nicht das Gefühl der Losgelöstheit von der Geschichte spüren. Die komischen und humorvollen Teile hatten nie die Absicht, seinen tragischen Kern von Anfang an zu verbergen, so dass am Ende zwar etwas Traurigkeit, aber mehr Hilflosigkeit bleibt.
 
 #### Anime
 
-- **Summer Time Rendering**, following
-- **My Stepmom's Daughter Is My Ex**, following
+- **Summer Time Rendering**, folge ich
+- **My Stepmom's Daughter Is My Ex**, folge ich
 
-### Photography
+### Fotografie
 
-Currently, I'm using Sony A7M3, mainly attracted by its video performance. I also bought a DJI stabilizer to shoot some videos, but then I can't take care of photography. I'm thinking about having another device for street photography when traveling later, and I'm a bit tempted by Fuji Xpro3, especially its optical viewfinder and film simulation, which are so ceremonial.
+Derzeit benutze ich Sony A7M3, hauptsächlich angezogen von ihrer Videoleistung. Ich kaufte auch einen DJI-Stabilisator, um einige Videos zu drehen, aber dann kann ich mich nicht um die Fotografie kümmern. Ich denke darüber nach, später ein weiteres Gerät für Straßenfotografie beim Reisen zu haben, und ich bin ein bisschen versucht von Fuji Xpro3, besonders seinem optischen Sucher und der Filmsimulation, die so zeremoniell sind.
 
-But I should go out more and take more photos before updating my equipment.
+Aber ich sollte öfter ausgehen und mehr Fotos machen, bevor ich meine Ausrüstung aktualisiere.

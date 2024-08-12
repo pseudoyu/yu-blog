@@ -231,10 +231,10 @@ emit rollbackEvent(_key, _value);
 
 ## Fazit
 
-Das oben Genannte ist eine Best Practice für meinen Zwei-Phasen-Commit-Vertrag. Für grundlegende Solidity-Syntax verweise ich auf "[Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)". Ich werde in Zukunft weiterhin üben und mehr Vertragsszenarien erklären, also bleiben Sie dran.
+Das oben Genannte ist eine Best Practice für meinen Zwei-Phasen-Commit-Vertrag. Für grundlegende Solidity-Syntax verweise ich auf "[Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)". Ich werde in Zukunft weiterhin üben und mehr Vertragsszenarien erklären, also bleiben Sie dran.
 
 ## Referenzen
 
 > 1. [TwoPhaseCommit.sol Vertragsquellcode](https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol)
-> 2. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+> 2. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)
 > 3. [Solidity Offizielle Dokumentation](https://docs.soliditylang.org/en/v0.8.15/)

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #18 - Companionship and Another Way of Life"
+title: "Wochenrückblick #18 - Gesellschaft und eine andere Art zu leben"
 date: 2022-11-08T13:04:41+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "relationship", "adjustment"]
@@ -10,66 +10,66 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `2022-11-01` to `2022-11-08`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `01.11.2022` bis zum `08.11.2022`.
 
-This week marked the first week of living with my cat. Due to the Double 11 shopping festival, I bought many cat facilities and food. With numerous deliveries arriving, I spent about half of my time working from home and receiving packages, which allowed for more bonding time. The cat is incredibly well-behaved. Over the weekend, I took her for a health check-up. Overall, she's healthy, though there are some concerning indicators regarding her eyes and digestive system. Medication was prescribed for treatment, and we'll go back for a follow-up next week.
+Diese Woche markierte die erste Woche des Zusammenlebens mit meiner Katze. Aufgrund des Double 11 Einkaufsfestivals kaufte ich viele Katzeneinrichtungen und Futter. Mit zahlreichen eintreffenden Lieferungen verbrachte ich etwa die Hälfte meiner Zeit damit, von zu Hause aus zu arbeiten und Pakete entgegenzunehmen, was mehr Zeit zum Bonden ermöglichte. Die Katze ist unglaublich wohlerzogen. Am Wochenende brachte ich sie zur Gesundheitsuntersuchung. Insgesamt ist sie gesund, obwohl es einige besorgniserregende Anzeichen bezüglich ihrer Augen und ihres Verdauungssystems gibt. Medikamente wurden zur Behandlung verschrieben, und wir werden nächste Woche zur Nachuntersuchung zurückkehren.
 
-Work-wise, I made good progress this week. Two projects are running concurrently, both with some advancements. I wrote a contract that was deployed to the production environment and created some practical scripts for common daily activities, significantly reducing repetitive and tedious tasks. I'm quite pleased with the outcome.
+Arbeitsmäßig machte ich diese Woche gute Fortschritte. Zwei Projekte laufen parallel, beide mit einigen Fortschritten. Ich schrieb einen Vertrag, der in der Produktionsumgebung eingesetzt wurde, und erstellte einige praktische Skripte für alltägliche Aktivitäten, was repetitive und mühsame Aufgaben erheblich reduzierte. Ich bin mit dem Ergebnis recht zufrieden.
 
-## Companionship
+## Gesellschaft
 
-This was the first full week spent with the cat. Concerned about her state when I'm away, I worked from home half the time. When at the office, I frequently monitored her through a camera (though most of the time, it was a non-static image of her napping on a chair, I could still watch for hours). There's an inexplicable sense of attachment.
+Dies war die erste volle Woche, die ich mit der Katze verbrachte. Besorgt um ihren Zustand in meiner Abwesenheit, arbeitete ich die Hälfte der Zeit von zu Hause aus. Wenn ich im Büro war, beobachtete ich sie häufig durch eine Kamera (obwohl es meist ein statisches Bild von ihr war, wie sie auf einem Stuhl schlummerte, konnte ich stundenlang zusehen). Es gibt ein unerklärliches Gefühl der Verbundenheit.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_1.jpg" caption="Cat On Bed">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_1.jpg" caption="Katze auf dem Bett">}}
 
-I often thought of myself as someone who could handle solitude well, not requiring much companionship. Exploring interesting things or reading books and watching movies seemed sufficient to fill most of my leisure time. But gradually, I realized I was in a state of emotional isolation. Negative emotions slowly accumulated, yet they didn't affect my normal life and work. Conversely, the joy derived from daily life or work couldn't offset my negative feelings. Over time, I could sometimes clearly sense my emotional state.
+Ich hielt mich oft für jemanden, der gut mit Einsamkeit umgehen konnte und nicht viel Gesellschaft brauchte. Interessante Dinge zu erforschen oder Bücher zu lesen und Filme zu schauen schienen ausreichend, um den Großteil meiner Freizeit zu füllen. Aber allmählich wurde mir klar, dass ich mich in einem Zustand emotionaler Isolation befand. Negative Emotionen sammelten sich langsam an, doch sie beeinträchtigten nicht mein normales Leben und meine Arbeit. Umgekehrt konnte die Freude aus dem Alltag oder der Arbeit meine negativen Gefühle nicht ausgleichen. Mit der Zeit konnte ich manchmal deutlich meinen emotionalen Zustand spüren.
 
-During this week of cohabitation with the cat, I could feel myself relying on this feeling. Holding the cat while in a meeting or watching her play nearby made time flow slowly and beautifully. I slowly realized how long it had been since I last experienced such a feeling.
+Während dieser Woche des Zusammenlebens mit der Katze konnte ich spüren, wie ich mich auf dieses Gefühl verließ. Die Katze während eines Meetings zu halten oder ihr beim Spielen in der Nähe zuzusehen, ließ die Zeit langsam und schön vergehen. Mir wurde langsam bewusst, wie lange es her war, seit ich zuletzt ein solches Gefühl erlebt hatte.
 
-The bond between humans and cats is truly magical. Despite the language barrier and difficulty in empathizing emotionally, there seems to be a subtle understanding. One entrusts their sense of being needed, while the other quietly accompanies. I also plan to pick up my camera again to capture more of my daily life and the cat's routines. It seems I have something to look forward to every day now.
+Die Bindung zwischen Menschen und Katzen ist wirklich magisch. Trotz der Sprachbarriere und der Schwierigkeit, emotional mitzufühlen, scheint es ein subtiles Verständnis zu geben. Der eine vertraut sein Gefühl des Gebrauchtwerdens an, während der andere still begleitet. Ich plane auch, meine Kamera wieder in die Hand zu nehmen, um mehr von meinem Alltag und den Routinen der Katze festzuhalten. Es scheint, als hätte ich jetzt jeden Tag etwas, worauf ich mich freuen kann.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_2.jpg" caption="Cat With Me">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_2.jpg" caption="Katze mit mir">}}
 
-## Another Way of Life
+## Eine andere Art zu leben
 
-This week, I had dinner with a senior schoolmate whom I met in Hong Kong and who is now also living in Beijing. We might only meet three or four times a year, but each time brings quite different insights. Perhaps it's because each time I gain a new perspective on another way of life that I imagine and anticipate.
+Diese Woche aß ich mit einer älteren Schulkameradin zu Abend, die ich in Hongkong kennengelernt hatte und die jetzt auch in Peking lebt. Wir treffen uns vielleicht nur drei- oder viermal im Jahr, aber jedes Mal bringt ganz unterschiedliche Erkenntnisse. Vielleicht liegt es daran, dass ich jedes Mal eine neue Perspektive auf eine andere Lebensweise gewinne, die ich mir vorstelle und erwarte.
 
-We are completely different people in terms of experiences and personalities. I have my own areas of focus, and I enjoy the work content itself and many things along this direction and field. It could be said that I'm fortunate in some ways, yet I often wonder what my life would be like if I hadn't taken this path.
+Wir sind in Bezug auf Erfahrungen und Persönlichkeiten völlig unterschiedliche Menschen. Ich habe meine eigenen Interessengebiete, und ich genieße den Arbeitsinhalt selbst und viele Dinge in diese Richtung und in diesem Bereich. Man könnte sagen, dass ich in mancher Hinsicht Glück habe, doch ich frage mich oft, wie mein Leben aussehen würde, wenn ich diesen Weg nicht eingeschlagen hätte.
 
-I was originally what you might call a "slash youth", often learning and experiencing new things. Sometimes it was for the joy of mastering something new, sometimes simply for the immersion in the learning process. Later, I fell into a deep state of confusion, struggling with whether to pursue depth or breadth in knowledge and experience. In the end, I chose a more specialized field, and to some extent, gave up other possibilities.
+Ursprünglich war ich das, was man einen "Slash-Jugendlichen" nennen könnte, der oft neue Dinge lernt und erlebt. Manchmal ging es um die Freude, etwas Neues zu meistern, manchmal einfach um das Eintauchen in den Lernprozess. Später geriet ich in einen Zustand tiefer Verwirrung und rang damit, ob ich Tiefe oder Breite in Wissen und Erfahrung anstreben sollte. Am Ende entschied ich mich für ein spezielleres Gebiet und gab in gewissem Maße andere Möglichkeiten auf.
 
-My senior, on the other hand, is someone who can do her job well while also separating work from personal pursuits. On weekends and during leisure time, she goes rock climbing, dancing, swimming, surfing, boxing, and most importantly, painting. She explores her various interests and hobbies to the fullest, not caring too much about gains and losses, not pondering too much on meaning, but simply enjoying the process while simultaneously enjoying self-completion.
+Meine Seniorin hingegen ist jemand, der ihre Arbeit gut machen und gleichzeitig Arbeit und persönliche Interessen trennen kann. An Wochenenden und in der Freizeit geht sie klettern, tanzen, schwimmen, surfen, boxt und vor allem malt sie. Sie erkundet ihre verschiedenen Interessen und Hobbys in vollem Umfang, kümmert sich nicht zu sehr um Gewinne und Verluste, grübelt nicht zu viel über den Sinn nach, sondern genießt einfach den Prozess und gleichzeitig die Selbstverwirklichung.
 
-Despite being at an enviable stage in her career and personal development, she enthusiastically told me about her plan to take a gap year next year to attend a one-year full-time program at an art academy to study painting. It's not for any career change or direction adjustment, but simply because she likes it. For a moment, I couldn't tell if I was envying her ability to pursue something she "simply likes" to such an extent, or her ability to find such a passion.
+Obwohl sie sich in einer beneidenswerten Phase ihrer Karriere und persönlichen Entwicklung befindet, erzählte sie mir begeistert von ihrem Plan, nächstes Jahr ein Sabbatjahr einzulegen, um ein einjähriges Vollzeitprogramm an einer Kunstakademie zu besuchen und Malerei zu studieren. Es geht nicht um einen Karrierewechsel oder eine Richtungsänderung, sondern einfach darum, dass sie es mag. Für einen Moment konnte ich nicht sagen, ob ich ihre Fähigkeit beneidete, etwas, das sie "einfach mag", in einem solchen Ausmaß zu verfolgen, oder ihre Fähigkeit, eine solche Leidenschaft zu finden.
 
-Perhaps I've also made some transitions at certain stages, whether in academics or career direction. It seems to require a certain kind of courage, but deep down I know I've already balanced the costs and gains. It seems I haven't done anything for my inner pursuit and pure liking for a long, long time. The life my senior is experiencing and practicing is the other kind of life I once aspired to, and it shows me the possibility of another way of living.
+Vielleicht habe ich auch in bestimmten Phasen einige Übergänge gemacht, sei es in der Akademie oder in der Karriererichtung. Es scheint eine gewisse Art von Mut zu erfordern, aber tief im Inneren weiß ich, dass ich die Kosten und Gewinne bereits abgewogen habe. Es scheint, als hätte ich schon lange, lange nichts mehr für mein inneres Streben und aus reiner Zuneigung getan. Das Leben, das meine Seniorin erlebt und praktiziert, ist die andere Art von Leben, nach der ich einst strebte, und es zeigt mir die Möglichkeit einer anderen Lebensweise.
 
-## Miscellaneous
+## Verschiedenes
 
-This section will record some of my inputs and outputs, as well as other things I find interesting.
+Dieser Abschnitt wird einige meiner Inputs und Outputs sowie andere Dinge, die ich interessant finde, festhalten.
 
 ### Input
 
-#### Books
+#### Bücher
 
-I received a comment from a reader named seyee:
+Ich erhielt einen Kommentar von einem Leser namens seyee:
 
-> I'm curious if you actually finish all these books (I don't mean to question you, it's just that as a working-class person, I find it amazing to read so many books in a week)
+> Ich bin neugierig, ob Sie tatsächlich all diese Bücher zu Ende lesen (ich möchte Sie nicht in Frage stellen, es ist nur so, dass ich als Arbeiter es erstaunlich finde, so viele Bücher in einer Woche zu lesen)
 
-Of course, it's impossible to read so many books in a week. I have a habit of reading multiple books in parallel, especially for non-fiction books. I might read certain chapters every day, choosing different books based on the time of day and my mood. On average, it takes about two weeks to finish a complete book. However, if I come across an interesting fiction book, I might finish it in an afternoon or evening, or in two or three commuting periods. Most of the books listed are either just finished this week or have had some chapters read.
+Natürlich ist es unmöglich, so viele Bücher in einer Woche zu lesen. Ich habe die Angewohnheit, mehrere Bücher parallel zu lesen, insbesondere bei Sachbüchern. Ich lese vielleicht jeden Tag bestimmte Kapitel und wähle je nach Tageszeit und Stimmung unterschiedliche Bücher aus. Im Durchschnitt dauert es etwa zwei Wochen, um ein komplettes Buch zu beenden. Wenn ich jedoch auf ein interessantes Belletristik-Buch stoße, könnte ich es an einem Nachmittag oder Abend oder in zwei oder drei Pendelphasen beenden. Die meisten der aufgelisteten Bücher sind entweder gerade diese Woche beendet worden oder es wurden einige Kapitel gelesen.
 
-{{< figure src="https://image.pseudoyu.com/images/reading_book_yizang.jpg" caption="Reading Book">}}
+{{< figure src="https://image.pseudoyu.com/images/reading_book_yizang.jpg" caption="Buch lesen">}}
 
-Regarding reading, I don't want to pressure or restrict myself with quantity or output. Instead, it serves more as an input channel and, to some extent, a means of relaxation (although I did feel emotional for several days after reading "The Stolen Bicycle"). I try to achieve a kind of emotional balance. It's also because of the pressure from work and various aspects that I take refuge in books, movies, and other media. It's more like my own pure land.
+In Bezug auf das Lesen möchte ich mich nicht mit Quantität oder Output unter Druck setzen oder einschränken. Stattdessen dient es mehr als Eingangskanal und in gewissem Maße als Mittel zur Entspannung (obwohl ich mich nach dem Lesen von "Das gestohlene Fahrrad" mehrere Tage lang emotional fühlte). Ich versuche, eine Art emotionales Gleichgewicht zu erreichen. Es liegt auch an dem Druck von der Arbeit und verschiedenen Aspekten, dass ich Zuflucht in Büchern, Filmen und anderen Medien suche. Es ist eher wie mein eigenes reines Land.
 
-- **My Profession is a Novelist**, currently reading.
-- **Common Sense**, currently reading.
-- **The Art of Self-Learning**, I don't particularly like books that focus on tools and techniques, like "How to Read a Book", but there are indeed many useful experiences to draw from. This book has been popular recently, so I've just started reading it, hoping to find some methodological references.
-- **What If?: Serious Scientific Answers to Absurd Hypothetical Questions**, I discovered it's by the author of those stick figure comics. It really addresses many questions I was curious about as a child.
+- **Mein Beruf ist Romanautor**, derzeit am Lesen.
+- **Gesunder Menschenverstand**, derzeit am Lesen.
+- **Die Kunst des Selbstlernens**, ich mag Bücher, die sich auf Werkzeuge und Techniken konzentrieren, wie "Wie man ein Buch liest", nicht besonders, aber es gibt in der Tat viele nützliche Erfahrungen, aus denen man lernen kann. Dieses Buch war kürzlich beliebt, also habe ich gerade begonnen, es zu lesen, in der Hoffnung, einige methodische Referenzen zu finden.
+- **Was wäre wenn?: Wirklich wissenschaftliche Antworten auf absurde hypothetische Fragen**, ich entdeckte, dass es vom Autor dieser Strichmännchen-Comics ist. Es behandelt wirklich viele Fragen, über die ich als Kind neugierig war.
 
-#### TV Series
+#### TV-Serien
 
-- **Hacking Google**, surprisingly good pacing. Although it doesn't delve into technical details, it clearly presents various links in the security chain. Very inspiring.
-- **Peripheral**, currently watching, but the pace seems to have slowed down from the third episode. However, I'll probably finish it.
+- **Hacking Google**, überraschend gutes Tempo. Obwohl es nicht in technische Details geht, präsentiert es klar verschiedene Verbindungen in der Sicherheitskette. Sehr inspirierend.
+- **Peripheral**, schaue ich derzeit, aber das Tempo scheint sich ab der dritten Episode verlangsamt zu haben. Trotzdem werde ich es wahrscheinlich zu Ende schauen.

@@ -364,8 +364,8 @@ Nach der obigen Konfiguration haben wir die lokale Hugo-Blog-Einrichtung und Ver
 
 Ein vollständiges Blogsystem erfordert auch einige Komponenten, wie Website-Datenstatistiken und Kommentarsysteme. Ich habe umfassende Serverless-Setup-Tutorials für diese beiden Kernbedürfnisse geschrieben, die Sie nach Ihren Anforderungen bereitstellen und konfigurieren können.
 
-- [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)]([https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/))
-- [Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)]([https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/))
+- [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)]([https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/))
+- [Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)]([https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/))
 
 ## Fazit
 
@@ -379,7 +379,7 @@ Ich habe auch viele interessante automatisierte persönliche Statistikfunktionen
 > 2. [GitHub Action](https://github.com/features/actions)
 > 3. [GitHub Pages](https://pages.github.com)
 > 4. [Cloudflare Offizielle Website](https://www.cloudflare.com)
-> 5. [Kostenlose Einrichtungs- und Bereitstellungslösung für ein persönliches Blogsystem (Hugo + GitHub Pages + Cusdis)]([https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/))
-> 6. [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)]([https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/))
-> 7. [Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)]([https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/))
+> 5. [Kostenlose Einrichtungs- und Bereitstellungslösung für ein persönliches Blogsystem (Hugo + GitHub Pages + Cusdis)]([https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/](https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/))
+> 6. [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)]([https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/))
+> 7. [Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)]([https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/))
 > 8. [Mein Pseudoyu Persönlicher Blog

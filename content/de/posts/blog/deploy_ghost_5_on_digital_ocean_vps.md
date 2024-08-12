@@ -154,6 +154,6 @@ Das oben Genannte ist meine Erfahrung mit der Verwendung der offiziell empfohlen
 
 > 1. [Ghost Offizielle Website](https://ghost.org)
 > 2. [Digital Ocean Offizielle Website](https://www.digitalocean.com)
-> 3. [Kostenlose Einrichtung und Bereitstellungslösung für persönliche Blogsysteme (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-> 4. [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-> 5. [Leichtgewichtige Open-Source-Lösung für kostenlose Blog-Kommentarsysteme (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+> 3. [Kostenlose Einrichtung und Bereitstellungslösung für persönliche Blogsysteme (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+> 4. [Aufbau eines kostenlosen persönlichen Blog-Datenstatistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+> 5. [Leichtgewichtige Open-Source-Lösung für kostenlose Blog-Kommentarsysteme (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)

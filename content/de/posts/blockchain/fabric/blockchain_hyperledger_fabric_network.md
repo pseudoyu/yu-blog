@@ -10,7 +10,7 @@ authors:
 
 ## Vorwort
 
-Im vorherigen Artikel "[Detaillierte Erklärung der Hyperledger Fabric Architektur](https://www.pseudoyu.com/en/2021/03/20/blockchain_hyperledger_fabric_structure/)" haben wir eine umfassende Interpretation und Analyse der Architektur und Funktionsprinzipien von Fabric gegeben. Als Blockchain-System auf Unternehmensebene stellt sich die Frage: Wie konstruiert es Netzwerke basierend auf komplexen Geschäftsanforderungen? Welche Sicherheitsprobleme existieren während des Betriebs und wie geht Fabric diese Probleme präventiv durch seine Mechanismen an?
+Im vorherigen Artikel "[Detaillierte Erklärung der Hyperledger Fabric Architektur](https://www.pseudoyu.com/de/2021/03/20/blockchain_hyperledger_fabric_structure/)" haben wir eine umfassende Interpretation und Analyse der Architektur und Funktionsprinzipien von Fabric gegeben. Als Blockchain-System auf Unternehmensebene stellt sich die Frage: Wie konstruiert es Netzwerke basierend auf komplexen Geschäftsanforderungen? Welche Sicherheitsprobleme existieren während des Betriebs und wie geht Fabric diese Probleme präventiv durch seine Mechanismen an?
 
 Dieser Artikel wird anhand von Beispielen veranschaulichen, wie ein vereinfachtes Fabric-Unternehmensnetzwerk aufgebaut ist, und sein Netzwerk- und Sicherheitssystem analysieren. Für Fehler oder Auslassungen bin ich offen für Diskussion und Korrektur.
 

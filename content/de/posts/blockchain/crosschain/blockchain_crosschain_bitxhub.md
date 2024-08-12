@@ -370,7 +370,7 @@ Dies geschieht beim Aufrufen des Cross-Chain-Vertrags. Im Wesentlichen setzt er 
 SetEvent(name string, payload []byte) error
 ```
 
-`SetEvent()` ist eine Schnittstelle unter dem `shim`-Paket, die hauptsächlich Name und Payload-Array übergibt. Für Details zu den Prinzipien und Details der Chaincode-Ereignisüberwachung, siehe <[Hyperledger Fabric Go SDK Ereignisanalyse](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)>.
+`SetEvent()` ist eine Schnittstelle unter dem `shim`-Paket, die hauptsächlich Name und Payload-Array übergibt. Für Details zu den Prinzipien und Details der Chaincode-Ereignisüberwachung, siehe <[Hyperledger Fabric Go SDK Ereignisanalyse](https://www.pseudoyu.com/de/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)>.
 
 ### Geschäftsvertrag
 
@@ -428,4 +428,4 @@ Das oben Genannte ist eine Analyse des Cross-Chain-Transaktionsprozesses und des
 > 3. [meshplus/pier-client-fabric](https://github.com/meshplus/pier-client-fabric)
 > 4. [Ten Questions about BitXHub: Discussing the Architecture Design of Cross-chain Platforms](https://tech.hyperchain.cn/bitxhub-design-thinking/)
 > 5. [Cross-chain Contract Writing Documentation](https://github.com/meshplus/bitxhub/wiki/跨链合约编写文档)
-> 6. [Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
+> 6. [Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/de/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)

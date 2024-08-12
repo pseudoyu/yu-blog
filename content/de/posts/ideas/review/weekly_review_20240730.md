@@ -87,7 +87,7 @@ Obwohl die meisten interessanten Inputs automatisch mit dem Telegram-Kanal "[Yu'
 #### Artikel
 
 - [Abonnementbasierte Suchmaschine: Kagi](https://anotherdayu.com/2024/5837/)
-- [Erstellen Sie Ihr kostenloses Blog-Kommentarsystem von Grund auf (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+- [Erstellen Sie Ihr kostenloses Blog-Kommentarsystem von Grund auf (Remark42 + fly.io)](https://www.pseudoyu.com/de/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
 
 #### Videos
 

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #16 - Pure Learning"
+title: "Wochenrückblick #16 - Reines Lernen"
 date: 2022-10-27T00:28:15+08:00
 draft: false
 tags: ["review", "life", "work", "study", "course", "book", "learn"]
@@ -10,62 +10,62 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from October 19 to October 27, 2022.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 19. bis 27. Oktober 2022.
 
-This week has been busy with work projects, with several consecutive days of overtime, but I've finally completed my part of the requirements. However, during the spare moments, I managed to go through introductory tutorials for several languages I've long wanted to learn, which was quite interesting. Additionally, the company arranged for me to give a technical presentation on smart contracts. I put effort into making a good PowerPoint presentation, and I must say, Apple's Keynote is truly excellent - the magic move and some built-in animation effects are incredibly smooth.
+Diese Woche war geprägt von arbeitsreichen Projekten, mit mehreren aufeinanderfolgenden Tagen mit Überstunden, aber ich habe schließlich meinen Teil der Anforderungen erfüllt. In den wenigen freien Momenten gelang es mir jedoch, einführende Tutorials für mehrere Sprachen durchzugehen, die ich schon lange lernen wollte, was recht interessant war. Zusätzlich hat das Unternehmen mich beauftragt, eine technische Präsentation über Smart Contracts zu halten. Ich habe mich bemüht, eine gute PowerPoint-Präsentation zu erstellen, und ich muss sagen, Apples Keynote ist wirklich hervorragend - die magische Bewegung und einige integrierte Animationseffekte sind unglaublich flüssig.
 
-I've also tinkered with several small websites and systems, making my starter page increasingly rich. Apart from that, due to some personal planning issues, I've decided to create bilingual versions of some of my previous projects and articles. In the future, I might write technical articles in English first and then translate them into Chinese (or vice versa?), except for weekly reviews. It feels like a lot of pressure, but I have to persist.
+Ich habe auch an mehreren kleinen Websites und Systemen gebastelt und meine Startseite zunehmend bereichert. Abgesehen davon habe ich aufgrund einiger persönlicher Planungsfragen beschlossen, zweisprachige Versionen einiger meiner früheren Projekte und Artikel zu erstellen. In Zukunft werde ich technische Artikel vielleicht zuerst auf Englisch schreiben und dann ins Chinesische übersetzen (oder umgekehrt?), mit Ausnahme der Wochenrückblicke. Es fühlt sich nach viel Druck an, aber ich muss durchhalten.
 
-## Pure Learning
+## Reines Lernen
 
-This week, I've been engrossed in learning many new technologies. I've looked into the basic syntax of Lua, which I've been curious about for a while - it seems useful for writing scripts and small games. I've also done some introductory learning of C++, mainly to delve deeper into language mechanisms; this time, learning it has made me appreciate the ingenuity of language design even more. I've also reinforced my understanding of Rust's basic syntax, which could be considered my second attempt at mastering it. Because I need to write some DApps, I'm also in the process of learning React and TypeScript.
+Diese Woche habe ich mich intensiv mit dem Erlernen vieler neuer Technologien beschäftigt. Ich habe mich mit der grundlegenden Syntax von Lua befasst, auf die ich schon lange neugierig war - es scheint nützlich für das Schreiben von Skripten und kleinen Spielen zu sein. Ich habe auch einige einführende Lerneinheiten in C++ absolviert, hauptsächlich um tiefer in Sprachmechanismen einzutauchen; dieses Mal hat mich das Erlernen die Genialität des Sprachdesigns noch mehr schätzen lassen. Ich habe auch mein Verständnis der grundlegenden Syntax von Rust verstärkt, was als mein zweiter Versuch betrachtet werden könnte, es zu meistern. Da ich einige DApps schreiben muss, bin ich auch dabei, React und TypeScript zu lernen.
 
-I continue to read those challenging books, like "Computer Systems: A Programmer's Perspective (CSAPP)" and the newly released "Computer Architecture: A Quantitative Approach (6th Edition)". Progress is a bit slow, but I'll take it step by step.
+Ich lese weiterhin diese anspruchsvollen Bücher wie "Computer Systems: A Programmer's Perspective (CSAPP)" und das neu erschienene "Computer Architecture: A Quantitative Approach (6. Auflage)". Der Fortschritt ist etwas langsam, aber ich werde es Schritt für Schritt angehen.
 
-In fact, learning these doesn't have such a strong purpose; most of them won't be used immediately at work (which is often the main reason why I sometimes find work a bit uninteresting). Without much practical application, I might often forget them, but the learning process itself is very interesting. I'm gradually becoming fond of the Crash Course format - spending a few hours unveiling the mystery behind some technical terms or mastering some peculiar skills, feeling a sense of pure learning joy.
+Tatsächlich hat das Erlernen dieser Dinge keinen so starken Zweck; die meisten davon werden nicht sofort bei der Arbeit eingesetzt (was oft der Hauptgrund ist, warum ich die Arbeit manchmal etwas uninteressant finde). Ohne viel praktische Anwendung vergesse ich sie vielleicht oft, aber der Lernprozess selbst ist sehr interessant. Ich gewöhne mich allmählich an das Crash-Course-Format - ein paar Stunden damit zu verbringen, das Geheimnis hinter einigen technischen Begriffen zu lüften oder einige besondere Fähigkeiten zu beherrschen, und dabei eine reine Lernfreude zu spüren.
 
-This seems to have been a long-standing habit. In university, I dabbled in learning several new foreign languages (of course, I gave up after a while; German as a second foreign language was somewhat mastered, but I don't know when I'll pick it up again - I regret not learning it properly), and learned the entire Adobe suite (many were a bit superfluous, but I did learn the useful ones quite well). Rather than the practical benefits a skill or a type of knowledge can bring, the motivation from exploration seems more important.
+Dies scheint eine langjährige Gewohnheit gewesen zu sein. An der Universität habe ich mich mit dem Erlernen mehrerer neuer Fremdsprachen beschäftigt (natürlich habe ich nach einer Weile aufgegeben; Deutsch als zweite Fremdsprache wurde einigermaßen beherrscht, aber ich weiß nicht, wann ich es wieder aufnehmen werde - ich bereue es, es nicht richtig gelernt zu haben), und ich habe die gesamte Adobe Suite gelernt (vieles war etwas überflüssig, aber die nützlichen Dinge habe ich recht gut gelernt). Eher als der praktische Nutzen, den eine Fähigkeit oder eine Art von Wissen bringen kann, scheint die Motivation aus der Erforschung wichtiger zu sein.
 
-Currently, I also want to create some interesting things. I hope I can always find joy in what I do.
+Derzeit möchte ich auch einige interessante Dinge erschaffen. Ich hoffe, ich kann immer Freude an dem finden, was ich tue.
 
-## Miscellaneous
+## Verschiedenes
 
-This section will record my inputs and outputs, as well as other things I find interesting.
+Dieser Abschnitt wird meine Inputs und Outputs sowie andere Dinge, die ich interessant finde, festhalten.
 
-### Twitter Statistics System
+### Twitter-Statistiksystem
 
-Following the "twiyou" project by Twitter friend [Ivory Mountain Liu Neng](https://twitter.com/disksing), I set up my own statistics system, which is quite interesting.
+Nach dem "twiyou"-Projekt des Twitter-Freundes [Ivory Mountain Liu Neng](https://twitter.com/disksing) habe ich mein eigenes Statistiksystem eingerichtet, was recht interessant ist.
 
 ![yu_twitter_monitor](https://image.pseudoyu.com/images/yu_twitter_monitor.png)
 
-### Blog System
+### Blogsystem
 
-Although I've often modified some theme settings before and even submitted PRs for the Hugo theme I use, I've never really delved into Hugo's template system. I've spent the past few days studying it thoroughly and plan to write some shortcodes for use. It's quite powerful.
+Obwohl ich zuvor oft einige Themeneinstellungen modifiziert und sogar PRs für das von mir verwendete Hugo-Theme eingereicht habe, habe ich mich nie wirklich mit Hugos Templatesystem befasst. Ich habe die letzten Tage damit verbracht, es gründlich zu studieren, und plane, einige Shortcodes zur Verwendung zu schreiben. Es ist ziemlich leistungsfähig.
 
-The article section has been idle for a long time. I've actually been keeping records in Logseq, but I haven't organized them meticulously. In the future, some content that may not be fully formed might be placed in the Notes module, which will be continuously updated.
+Der Artikelbereich lag lange Zeit brach. Ich habe tatsächlich in Logseq Aufzeichnungen geführt, aber ich habe sie nicht akribisch organisiert. In Zukunft werden einige Inhalte, die möglicherweise nicht vollständig ausgearbeitet sind, im Notizmodul platziert, das kontinuierlich aktualisiert wird.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **The Crowd: A Study of the Popular Mind**, currently revisiting.
-- **Programming in Lua, Fourth Edition**, learned a bit of Lua, feels like an interesting language.
-- **Computer Architecture: A Quantitative Approach (6th Edition)**
+- **Psychologie der Massen**, derzeit erneut gelesen.
+- **Programming in Lua, Fourth Edition**, ein bisschen Lua gelernt, fühlt sich wie eine interessante Sprache an.
+- **Computer Architecture: A Quantitative Approach (6. Auflage)**
 
-#### Movies
+#### Filme
 
-- **Au Revoir L'été**, the visuals are quite good, with several classic scenes often seen in mixes, but the plot and pacing are quite mediocre. I spent most of the time just enjoying the music, adding several songs to my playlist - they're great for video background music.
-- **Roma**, a movie with incredibly slow rhythm and visuals, like a personal memoir, with some subtle metaphors in the context of the time, much like us who are at a loss in the current era.
-- **Everything Everywhere All at Once**, it was incredibly popular a few months ago. I watched it tonight while working on my weekly review, and I was disappointed. It's a bit bewildering, with inexplicable emotional transitions and plot twists. It feels like it's trying to express too much and aims too high, but fails to support its core.
+- **Sayonara Kabukicho**, die Bilder sind recht gut, mit mehreren klassischen Szenen, die oft in Mixes zu sehen sind, aber die Handlung und das Tempo sind ziemlich mittelmäßig. Ich habe die meiste Zeit damit verbracht, einfach die Musik zu genießen und mehrere Lieder zu meiner Playlist hinzuzufügen - sie eignen sich hervorragend als Hintergrundmusik für Videos.
+- **Roma**, ein Film mit unglaublich langsamem Rhythmus und Bildern, wie ein persönliches Memoir, mit einigen subtilen Metaphern im Kontext der Zeit, ähnlich wie wir, die in der aktuellen Ära ratlos sind.
+- **Everything Everywhere All at Once**, er war vor einigen Monaten unglaublich beliebt. Ich habe ihn heute Abend während der Arbeit an meinem Wochenrückblick gesehen und war enttäuscht. Er ist ein bisschen verwirrend, mit unerklärlichen emotionalen Übergängen und Handlungswenden. Es fühlt sich an, als würde er versuchen, zu viel auszudrücken und zu hoch zu zielen, aber es gelingt ihm nicht, seinen Kern zu unterstützen.
 
-#### TV Series
+#### TV-Serien
 
-- **The Playlist**, stories are often similar, although it doesn't compare to "The Social Network" in my mind, but as an internet startup story, it's remarkably not solely focused on programmers, which is refreshing. I admire the tech geeks in "The Coder", but my favorite is still Martin - unrestrained, understanding that the business and real world are not just binary, and someone needs to bear the cost for its idealism. Also, many transition scenes in "The Lawyer" are stunning.
-- **House of the Dragon**, I'm not really a Game of Thrones enthusiast. I stopped watching around the fifth or sixth season when I heard it had a bad ending, but I did read most of the books. I followed this because it was quite popular a few months ago. I almost gave up several times in the first few episodes, but I watched it sporadically to the end. I feel that such a grand worldview might be better suited for books to lay the groundwork, as the TV series always feels a bit disjointed.
+- **The Playlist**, Geschichten sind oft ähnlich, obwohl es in meinem Kopf nicht mit "The Social Network" vergleichbar ist, aber als Internet-Startup-Geschichte ist es bemerkenswert nicht ausschließlich auf Programmierer fokussiert, was erfrischend ist. Ich bewundere die Tech-Geeks in "The Coder", aber mein Favorit ist immer noch Martin - ungezwungen, versteht, dass die Geschäfts- und reale Welt nicht nur binär sind, und jemand muss die Kosten für seinen Idealismus tragen. Außerdem sind viele Übergangsszenen in "The Lawyer" atemberaubend.
+- **House of the Dragon**, ich bin nicht wirklich ein Game of Thrones-Enthusiast. Ich hörte um die fünfte oder sechste Staffel auf zu schauen, als ich hörte, dass es ein schlechtes Ende hatte, aber ich las die meisten Bücher. Ich folgte diesem, weil es vor einigen Monaten ziemlich beliebt war. Ich gab in den ersten Episoden mehrmals fast auf, aber ich schaute es sporadisch bis zum Ende. Ich habe das Gefühl, dass eine so große Weltanschauung vielleicht besser für Bücher geeignet ist, um die Grundlage zu legen, da die TV-Serie sich immer ein bisschen unzusammenhängend anfühlt.
 
 #### Anime
 
-- **Maquia: When the Promised Flower Blooms**, also recommended by a friend, with a slightly fantastical setting of an ageless clan. Under the grand worldview, it tells the entire story from the perspective of the passage of time and the beginning and end of human relationships, offering a different viewpoint.
-- **Pantheon**, a colleague mentioned that this anime involves parallel computing, resource pools, deadlocks, and mutual exclusion locks, so I was curious to watch it. The first few episodes were very interesting, but it became somewhat abstract towards the end, making it tiring to watch. Perhaps it's because I watched it during lunch breaks and couldn't ponder it carefully, but overall it's still worth watching.
+- **Maquia - Eine unsterbliche Liebesgeschichte**, auch von einem Freund empfohlen, mit einer leicht fantastischen Einstellung eines alterslosen Clans. Unter der großen Weltanschauung erzählt es die gesamte Geschichte aus der Perspektive des Zeitablaufs und des Beginns und Endes menschlicher Beziehungen und bietet einen anderen Blickwinkel.
+- **Pantheon**, ein Kollege erwähnte, dass dieser Anime parallele Berechnung, Ressourcenpools, Deadlocks und gegenseitige Ausschlusssperren beinhaltet, also war ich neugierig, ihn zu sehen. Die ersten Folgen waren sehr interessant, aber gegen Ende wurde es etwas abstrakt, was es ermüdend machte, zuzuschauen. Vielleicht liegt es daran, dass ich ihn während der Mittagspausen geschaut habe und nicht sorgfältig darüber nachdenken konnte, aber insgesamt ist er immer noch sehenswert.

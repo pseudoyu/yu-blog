@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #07 - Learning, Certification and Career Pursuit"
+title: "Wochenrückblick #07 - Lernen, Zertifizierung und Karrierestreben"
 date: 2022-08-15T12:36:14+08:00
 draft: false
 tags: ["review", "life", "time", "certificate", "devops", "remote"]
@@ -10,82 +10,82 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from `2022-08-08` to `2022-08-15`. This week's work still revolved around preparing for an evaluation of the project, mainly focusing on explaining the proposal. Work hours were relatively normal, and I gradually regained a good life rhythm.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `08.08.2022` bis zum `15.08.2022`. Die Arbeit dieser Woche drehte sich immer noch um die Vorbereitung einer Projektbewertung, wobei der Schwerpunkt hauptsächlich auf der Erläuterung des Vorschlags lag. Die Arbeitszeiten waren relativ normal, und ich fand allmählich wieder zu einem guten Lebensrhythmus zurück.
 
-However, I felt that after getting used to staying at home after work, I lacked the motivation to go out. The planned skateboarding practice and night runs were put on hold. Compared to before, I did go out a few times - dinner gatherings on some weekday evenings, a trip to Nanluoguxiang on the weekend, and an evening stroll at Shichahai. I've always thought this place name was beautiful, and finally got to see it.
+Allerdings hatte ich das Gefühl, dass ich nach der Gewöhnung an das Zuhausebleiben nach der Arbeit die Motivation vermisste, auszugehen. Die geplanten Skateboard-Übungen und Nachtläufe wurden auf Eis gelegt. Im Vergleich zu früher ging ich ein paar Mal aus - Abendessen unter der Woche, ein Ausflug nach Nanluoguxiang am Wochenende und ein Abendspaziergang am Shichahai. Ich fand diesen Ortsnamen schon immer schön und konnte ihn endlich sehen.
 
-After last week's adjustment, I scheduled quite a few learning plans this week and decided to validate my learning by taking a certification exam, which is also a form of external motivation. Besides that, I chatted with a few friends about work adjustments, remote work, and career pursuits.
+Nach der Anpassung der letzten Woche habe ich für diese Woche einige Lernpläne aufgestellt und beschlossen, mein Lernen durch das Ablegen einer Zertifizierungsprüfung zu validieren, was auch eine Form der externen Motivation darstellt. Außerdem unterhielt ich mich mit einigen Freunden über Arbeitsanpassungen, Remote-Arbeit und Karrierebestrebungen.
 
-## Learning and Certification
+## Lernen und Zertifizierung
 
-In my previous two work projects, I frequently used Docker and Kubernetes, and I'm quite familiar with their basic commands and configuration file writing. However, I never had a systematic study of their architecture and technical details. Last week, I watched some explanations on the YouTube channel "[TechWorld with Nana](https://www.techworld-with-nana.com)", which filled in many knowledge gaps.
+In meinen beiden vorherigen Arbeitsprojekten habe ich häufig Docker und Kubernetes verwendet und bin mit ihren grundlegenden Befehlen und dem Schreiben von Konfigurationsdateien recht vertraut. Allerdings hatte ich nie ein systematisches Studium ihrer Architektur und technischen Details durchgeführt. Letzte Woche sah ich mir einige Erklärungen auf dem YouTube-Kanal "[TechWorld with Nana](https://www.techworld-with-nana.com)" an, die viele Wissenslücken füllten.
 
-But because Kubernetes involves so many components and operations, it's easy to forget if not used for a while, and it's not conducive to memory without hands-on practice. Moreover, I'm very interested in the DevOps field and often tinker with some automation tools and serverless applications. So I decided to study more systematically and take the Certified Kubernetes Application Developer (CKAD) certification, a certification project jointly developed by CNCF and the Linux Foundation. This project is mainly aimed at developers and covers many knowledge points:
+Da Kubernetes jedoch so viele Komponenten und Operationen beinhaltet, ist es leicht, sie zu vergessen, wenn man sie eine Weile nicht benutzt, und ohne praktische Übung ist es nicht förderlich für das Gedächtnis. Darüber hinaus interessiere ich mich sehr für den Bereich DevOps und beschäftige mich oft mit einigen Automatisierungstools und serverlosen Anwendungen. Deshalb beschloss ich, systematischer zu studieren und die Certified Kubernetes Application Developer (CKAD) Zertifizierung abzulegen, ein Zertifizierungsprojekt, das gemeinsam von CNCF und der Linux Foundation entwickelt wurde. Dieses Projekt richtet sich hauptsächlich an Entwickler und deckt viele Wissensbereiche ab:
 
 ![ckad_topics](https://image.pseudoyu.com/images/ckad_topics.png)
 
-What's special is that this certification exam ends with 19 hands-on practical questions, and you can also check the official Kubernetes documentation. There's nothing that needs to be memorized by rote, which is very suitable for testing learning outcomes. I bought the "[Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)" course on the Udemy platform, and I've been immersed in doing the Labs it comes with recently. Because it's an online environment, it's very convenient, reminiscent of the feeling of rushing to finish assignments before deadlines back in school.
+Das Besondere ist, dass diese Zertifizierungsprüfung mit 19 praktischen Fragen endet, und man kann auch die offizielle Kubernetes-Dokumentation einsehen. Es gibt nichts, was auswendig gelernt werden muss, was sehr gut geeignet ist, um Lernergebnisse zu testen. Ich kaufte den Kurs "[Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)" auf der Udemy-Plattform und war in letzter Zeit in die dazugehörigen Labs vertieft. Da es sich um eine Online-Umgebung handelt, ist es sehr bequem und erinnert an das Gefühl, Aufgaben vor Abgabefristen in der Schule zu erledigen.
 
-Actually, I seemed to have taken quite a few certifications in college. One that left a deep impression was an intermediate software qualification (Software Designer) certificate. Because it had a theoretical comprehensive exam in the morning and a practical exam in the afternoon, with a pass rate of less than 30%, I was very nervous when I first registered. I bought books and various materials early on, but I kept procrastinating until only half a month was left before I started urgent revision and practice questions, finally passing with a borderline score. Because I wasn't majoring in CS in college, the deepest experience from that exam was gaining a systematic understanding of software engineering, operating systems, computer organization principles, and various programming languages during the preparation process, which provided a lot of help for my later cross-disciplinary studies.
+Eigentlich schien ich in der Hochschule schon einige Zertifizierungen abgelegt zu haben. Eine, die einen tiefen Eindruck hinterließ, war ein mittleres Software-Qualifikationszertifikat (Software Designer). Da es am Morgen eine theoretische Gesamtprüfung und am Nachmittag eine praktische Prüfung gab, mit einer Bestehensquote von weniger als 30%, war ich bei der ersten Anmeldung sehr nervös. Ich kaufte frühzeitig Bücher und verschiedene Materialien, aber ich schob es immer wieder auf, bis nur noch ein halbes Monat übrig war, bevor ich mit der dringenden Wiederholung und Übungsfragen begann und schließlich mit einer Grenznote bestand. Da ich im Studium nicht Informatik studierte, war die tiefste Erfahrung aus dieser Prüfung, während des Vorbereitungsprozesses ein systematisches Verständnis von Software Engineering, Betriebssystemen, Computerprinzipien und verschiedenen Programmiersprachen zu gewinnen, was für meine späteren interdisziplinären Studien sehr hilfreich war.
 
-Later, because my undergraduate major was English, I also took TEM-4, TEM-8, IELTS, etc. I increasingly realized the importance of learning goals and plans for understanding a new field or mastering new knowledge. Similar to the previously mentioned mode of learning oriented towards weekly reviews or blogs, having an output standard makes the learning process more systematic and the thought process clearer. The most recent ones should be CKAD and Japanese N2. I can explore others further (though some certifications are really expensive).
+Später, da mein Hauptfach im Grundstudium Englisch war, legte ich auch TEM-4, TEM-8, IELTS usw. ab. Ich erkannte zunehmend die Bedeutung von Lernzielen und -plänen für das Verständnis eines neuen Gebiets oder die Beherrschung neuen Wissens. Ähnlich wie der zuvor erwähnte Lernmodus, der sich an wöchentlichen Rückblicken oder Blogs orientiert, macht ein Ausgabestandard den Lernprozess systematischer und den Denkprozess klarer. Die jüngsten sollten CKAD und Japanisch N2 sein. Ich kann andere weiter erkunden (obwohl einige Zertifizierungen wirklich teuer sind).
 
-## Work and State Adjustment
+## Arbeits- und Zustandsanpassung
 
-This week, I chatted with two friends about work-related matters. One is changing jobs and came to learn about some web3-related information. The other has been working in a web3 team for the past few months. I interviewed them about their thoughts on work, which I found very enviable and interesting:
+Diese Woche unterhielt ich mich mit zwei Freunden über arbeitsbezogene Angelegenheiten. Einer wechselt den Job und kam, um sich über einige web3-bezogene Informationen zu informieren. Der andere arbeitet seit einigen Monaten in einem web3-Team. Ich befragte sie zu ihren Gedanken über die Arbeit, die ich sehr beneidenswert und interessant fand:
 
-> "You can meet more passionate/interesting people"
+> "Man kann mehr leidenschaftliche/interessante Menschen treffen"
 
-> "I don't take naps anymore, I'm more willing to do my work well, it doesn't even feel like work"
+> "Ich mache keine Mittagsschläfchen mehr, ich bin eher bereit, meine Arbeit gut zu machen, es fühlt sich nicht einmal wie Arbeit an"
 
-> "It emphasizes initiative, while also being challenging"
+> "Es betont Initiative, ist aber auch herausfordernd"
 
-> "Fewer meetings, more freedom, sometimes I write code until one or two in the morning without realizing it, a long-lost feeling"
+> "Weniger Meetings, mehr Freiheit, manchmal schreibe ich bis ein oder zwei Uhr morgens Code, ohne es zu merken, ein lange vermisstes Gefühl"
 
-You can feel their passion and expectations between the lines. Besides being a tool for making a living, they have their own pursuits and ideas about the work atmosphere, mode, and content, which has greatly influenced my definition and standards for future work.
+Man kann zwischen den Zeilen ihre Leidenschaft und Erwartungen spüren. Neben einem Werkzeug zum Lebensunterhalt haben sie ihre eigenen Bestrebungen und Vorstellungen über die Arbeitsatmosphäre, den Modus und den Inhalt, was meine Definition und Standards für zukünftige Arbeit stark beeinflusst hat.
 
-My learning and work state have improved in the past few days, but sleep is still somewhat problematic. I often have intermittent dreams, mixed with many past memories, so real that it's hard to recover even after waking up. It's time to start booking for the physical examination, I want to complete it in August.
+Mein Lern- und Arbeitszustand hat sich in den letzten Tagen verbessert, aber der Schlaf ist immer noch etwas problematisch. Ich habe oft intermittierende Träume, vermischt mit vielen Erinnerungen aus der Vergangenheit, so real, dass es schwer ist, sich selbst nach dem Aufwachen zu erholen. Es ist Zeit, mit der Buchung der körperlichen Untersuchung zu beginnen, ich möchte sie im August abschließen.
 
-## Miscellaneous
+## Verschiedenes
 
-This section will record some of my input and output, as well as other things I find interesting.
+Dieser Abschnitt wird einige meiner Inputs und Outputs sowie andere Dinge aufzeichnen, die ich interessant finde.
 
-### Learning
+### Lernen
 
-As mentioned above, this week was mainly about learning DevOps and preparing for CKAD. At the same time, I did some learning and recording on automatic deployment and operation and maintenance tools such as GitLab CI/CD, GitHub Action, Ansible, etc., which are still being organized.
+Wie oben erwähnt, ging es diese Woche hauptsächlich um das Lernen von DevOps und die Vorbereitung auf CKAD. Gleichzeitig machte ich einige Lern- und Aufzeichnungsfortschritte bei automatischen Bereitstellungs- und Betriebswerkzeugen wie GitLab CI/CD, GitHub Action, Ansible usw., die noch organisiert werden.
 
-In addition, I picked up photo editing (Adobe Photoshop + Affinity Photo) and video editing (Final Cut Pro X + Davinci Resolve) skills again, and started to slowly re-plan some of my life records.
+Außerdem griff ich wieder auf Fähigkeiten in der Fotobearbeitung (Adobe Photoshop + Affinity Photo) und Videobearbeitung (Final Cut Pro X + Davinci Resolve) zurück und begann langsam, einige meiner Lebensaufzeichnungen neu zu planen.
 
-### Blog Related
+### Blog-Bezogenes
 
-After keeping my Sspai editor waiting for more than a month (and leaving messages on read), I finally had a pang of conscience and finished the draft of the previously commissioned article about Stablecoin and sent it over. After some revisions and additions based on feedback, it will be ready. I feel like a huge weight has been lifted off my chest.
+Nachdem ich meinen Sspai-Editor über einen Monat lang warten ließ (und Nachrichten gelesen ließ), hatte ich endlich ein schlechtes Gewissen und beendete den Entwurf des zuvor in Auftrag gegebenen Artikels über Stablecoin und sendete ihn ab. Nach einigen Überarbeitungen und Ergänzungen basierend auf dem Feedback wird er fertig sein. Ich fühle mich, als wäre mir eine große Last von den Schultern genommen worden.
 
-The article I wrote before, "[Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)", was finally published this week and included in the [member-exclusive](https://sspai.com/prime/story/thin-client-solution-with-frp) content, which is a small achievement.
+Der Artikel, den ich zuvor geschrieben hatte, "[Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/de/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)", wurde diese Woche endlich veröffentlicht und in den [mitgliederexklusiven](https://sspai.com/prime/story/thin-client-solution-with-frp) Inhalt aufgenommen, was eine kleine Errungenschaft ist.
 
-The remaining plan is to complete the following blog posts this week (maybe more notes on practice):
+Der verbleibende Plan ist, diese Woche die folgenden Blogbeiträge abzuschließen (vielleicht mehr Notizen zur Praxis):
 
-1. Cosmos Principles and Architecture
-2. Docker Basics and Practice
-3. Kubernetes Basics and Practice
+1. Cosmos Prinzipien und Architektur
+2. Docker Grundlagen und Praxis
+3. Kubernetes Grundlagen und Praxis
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **Tim Cook: The Genius Who Took Apple to the Next Level**, almost finished, feeling a deeper understanding of the philosophy behind Apple products
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, fast fertig, fühle ein tieferes Verständnis für die Philosophie hinter Apple-Produkten
 
-#### TV Series
+#### Fernsehserien
 
-- **Extraordinary Attorney Woo**, it's starting to get emotional, with some plot conflicts emerging, and the little whale is really cute
-- **Stone and Cocco: Is it Okay to File a Case Like This?**, a new Japanese drama, also in the legal genre. Actually, I'm not very impressed with the male lead's character setting, but because the female lead is Kasumi Arimura, there's a reason to watch
+- **Extraordinary Attorney Woo**, es wird langsam emotional, mit einigen aufkommenden Handlungskonflikten, und der kleine Wal ist wirklich süß
+- **Stone and Cocco: Is it Okay to File a Case Like This?**, eine neue japanische Serie, auch im juristischen Genre. Eigentlich bin ich von der Charaktereinstellung des männlichen Hauptdarstellers nicht sehr beeindruckt, aber weil die weibliche Hauptdarstellerin Kasumi Arimura ist, gibt es einen Grund zum Ansehen
 
-#### Movies
+#### Filme
 
-- **Decision to Leave**, the cinematography and overall rhythm are very comfortable. The description of crime and psychology occupies the vast majority, but there's a lack of presentation in plot development and mental changes. The fun part is finding various uses of Apple devices in it
+- **Decision to Leave**, die Kinematographie und der Gesamtrhythmus sind sehr angenehm. Die Beschreibung von Verbrechen und Psychologie nimmt den Großteil ein, aber es fehlt an Darstellung in der Handlungsentwicklung und den mentalen Veränderungen. Der lustige Teil ist, verschiedene Verwendungen von Apple-Geräten darin zu finden
 
 #### Anime
 
-- **Summer Time Rendering**, continuing to wait for the development of the later plot
-- **My Stepmom's Daughter is My Ex**, I quite like this kind of romance anime
+- **Summer Time Rendering**, warte weiterhin auf die Entwicklung der späteren Handlung
+- **My Stepmom's Daughter is My Ex**, ich mag diese Art von Romantik-Anime recht gern

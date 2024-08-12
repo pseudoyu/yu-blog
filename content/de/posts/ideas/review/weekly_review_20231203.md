@@ -38,7 +38,7 @@ Bis zu dem Tag, an dem meine Seniorin sagte: "Ich weiß nicht, ob es nur meine E
 
 In solchen Momenten kam es mir nicht in den Sinn, dieses Problem mit meiner Seniorin zu besprechen. Stattdessen rang ich mit mir selbst, bis alles zusammenbrach. Tatsächlich äußerte meine Seniorin während späterer Kommunikation, dass sie nur Fußspuren und Erinnerungen von uns beiden in einem anderen Land hinterlassen wollte, ohne viel Streben oder Besessenheit von Chiang Mai oder der Reise selbst. Ich hatte mir in meiner Vorstellung zu viel unsichtbaren Druck auferlegt.
 
-Natürlich ist dies das Leben, keine Geschichte. Verspätete Erkenntnisse führen nicht unbedingt zu einem glücklichen Ende für alle. Wie in "[Wochenrückblick #48 - Innere Mongolei-Reise, Chiang Mai Digital Nomad, Neugestarteter Wochenrückblick und Leben](https://www.pseudoyu.com/en/2023/11/07/weekly_review_20231107/)" zu sehen ist, kam unsere Reise nicht zustande. Ich fuhr allein nach Chiang Mai, und selbst jetzt bleibt "gemeinsam reisen" ein schwieriges Thema für uns, das wir nicht leicht besprechen können.
+Natürlich ist dies das Leben, keine Geschichte. Verspätete Erkenntnisse führen nicht unbedingt zu einem glücklichen Ende für alle. Wie in "[Wochenrückblick #48 - Innere Mongolei-Reise, Chiang Mai Digital Nomad, Neugestarteter Wochenrückblick und Leben](https://www.pseudoyu.com/de/2023/11/07/weekly_review_20231107/)" zu sehen ist, kam unsere Reise nicht zustande. Ich fuhr allein nach Chiang Mai, und selbst jetzt bleibt "gemeinsam reisen" ein schwieriges Thema für uns, das wir nicht leicht besprechen können.
 
 Vor ein paar Tagen, als wir einige frühere Gedanken diskutierten, schickte mir meine Seniorin ein Fragment ihres Tagebuchs von jenem Tag, das diese Passage enthielt:
 
@@ -66,7 +66,7 @@ Vielleicht weil dies mein Wochenrückblick ist, erzähle ich die meiste Zeit Ere
 >
 > -- 20230618
 
-Dies war die Woche, die ich in meinem Beitrag "[In the Mood for Love](https://www.pseudoyu.com/en/2023/07/10/weekly_review_20230710/)" erwähnte, über die Reise nach Shanghai und Peking. Zu dieser Zeit keimten meine Gefühle auf, doch ich fühlte mich unbeholfen und ratlos.
+Dies war die Woche, die ich in meinem Beitrag "[In the Mood for Love](https://www.pseudoyu.com/de/2023/07/10/weekly_review_20230710/)" erwähnte, über die Reise nach Shanghai und Peking. Zu dieser Zeit keimten meine Gefühle auf, doch ich fühlte mich unbeholfen und ratlos.
 
 ![yu_weekly_review_love](https://image.pseudoyu.com/images/yu_weekly_review_love.png)
 

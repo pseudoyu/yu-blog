@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #25 - Personal Information Output and Synchronization System Based on Crossbell (Refactored)"
+title: "Wochenrückblick #25 - Persönliches Informationsausgabe- und Synchronisationssystem basierend auf Crossbell (Refaktorisiert)"
 date: 2023-01-09T19:12:56+08:00
 draft: false
 tags: ["review", "life", "home", "mood", "miniflux", "rss", "information", "serverless", "pkm", "system", "xlog", "xsync", "crossbell"]
@@ -10,173 +10,173 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from January 1, 2023 to January 9, 2023.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 1. Januar 2023 bis zum 9. Januar 2023.
 
-This is the first weekly review of 2023. Although the New Year feels like it was just yesterday, the first week of January has already ended. Perhaps my psychological perception of time has become increasingly dull.
+Dies ist der erste Wochenrückblick des Jahres 2023. Obwohl sich das Neujahrsfest noch wie gestern anfühlt, ist die erste Januarwoche bereits vorüber. Vielleicht ist meine psychologische Zeitwahrnehmung zunehmend abgestumpft.
 
-During the New Year, I wrote a rather detailed annual summary, recounting the various events of the past year. After finishing, I realized the length had exceeded my expectations. Additionally, I hadn't yet clarified my thoughts on new year plans and expectations, so I skipped that part. Therefore, I'll take this opportunity in this first weekly review of the new year to set some modest goals. Some are small habit formations, while others are long-term plans full of uncertainties. I don't know if I'll be able to fulfill them all in the coming year, but listing them out will provide some motivation and serve as a form of self-monitoring.
+Während des Neujahrs verfasste ich eine recht detaillierte Jahresübersicht, in der ich die verschiedenen Ereignisse des vergangenen Jahres Revue passieren ließ. Nach der Fertigstellung bemerkte ich, dass die Länge meine Erwartungen übertroffen hatte. Zudem hatte ich meine Gedanken zu Neujahrsplänen und Erwartungen noch nicht geklärt, also ließ ich diesen Teil aus. Daher werde ich diese Gelegenheit im ersten Wochenrückblick des neuen Jahres nutzen, um einige bescheidene Ziele zu setzen. Einige sind kleine Gewohnheitsbildungen, andere sind langfristige Pläne voller Ungewissheiten. Ich weiß nicht, ob ich sie alle im kommenden Jahr erfüllen kann, aber sie aufzulisten wird eine gewisse Motivation bieten und als eine Form der Selbstüberwachung dienen.
 
-After staying at home for nearly two months, I finally decided to go out on the weekend to have dinner at a friend's house, enjoying a happy day (otherwise I felt like I had forgotten how to talk to people face-to-face). Although the photo success rate was questionable, I managed to edit the photos and publish two photography collections. I organized my various software and hardware services (an annual ritual, always feeling that I'll have more motivation to start anew after organizing). While organizing, I remembered some previous small projects and set up a website to run [IPFS version of ZLibrary](https://zlib.pseudoyu.com/), which unexpectedly garnered attention, scaring me into optimizing the server and network routes overnight. And many other interesting things happened.
+Nachdem ich fast zwei Monate zu Hause geblieben war, beschloss ich schließlich, am Wochenende auszugehen, um bei einem Freund zu Hause zu essen und einen schönen Tag zu verbringen (andernfalls hatte ich das Gefühl, vergessen zu haben, wie man von Angesicht zu Angesicht spricht). Obwohl die Erfolgsquote der Fotos fragwürdig war, gelang es mir, die Fotos zu bearbeiten und zwei Fotosammlungen zu veröffentlichen. Ich organisierte meine verschiedenen Software- und Hardware-Dienste (ein jährliches Ritual, immer mit dem Gefühl, dass ich nach dem Aufräumen mehr Motivation haben werde, neu zu beginnen). Beim Aufräumen erinnerte ich mich an einige frühere kleine Projekte und richtete eine Website ein, um die [IPFS-Version von ZLibrary](https://zlib.pseudoyu.com/) zu betreiben, was unerwartet Aufmerksamkeit erregte und mich über Nacht dazu brachte, den Server und die Netzwerkrouten zu optimieren. Und viele andere interessante Dinge passierten.
 
-## Personal Service Restructuring
+## Restrukturierung persönlicher Dienste
 
-### Service Management
+### Dienstverwaltung
 
-Like previous years, I started the year by organizing my various services. I discovered that I now have as many as 20, with half of them being serverless. My skill in utilizing free resources has greatly improved this year. For easier management, I set up a monitoring service using the open-source Uptime Kuma, binding it to a Telegram Bot for alerts, which gave me much more peace of mind.
+Wie in den Vorjahren begann ich das Jahr damit, meine verschiedenen Dienste zu organisieren. Ich entdeckte, dass ich mittlerweile bis zu 20 habe, wobei die Hälfte davon serverlos ist. Meine Fähigkeit, kostenlose Ressourcen zu nutzen, hat sich in diesem Jahr stark verbessert. Zur einfacheren Verwaltung richtete ich einen Überwachungsdienst mit dem Open-Source-Tool Uptime Kuma ein, verband ihn mit einem Telegram-Bot für Warnungen, was mir viel mehr Seelenfrieden gab.
 
 ![uptime_kuma_yu_services](https://image.pseudoyu.com/images/uptime_kuma_yu_services.png)
 
-Interestingly, I always found managing websites on servers troublesome. Every time I needed to migrate or change services, it was always a headache. So I hosted most of my services on Railway, Vercel, Supabase, and other Serverless platforms. Since most are personal services without high configuration requirements, as long as they're safe and stable, it's enough. I hadn't bothered with Nginx reverse proxy, https certificates, and such.
+Interessanterweise fand ich die Verwaltung von Websites auf Servern immer lästig. Jedes Mal, wenn ich Dienste migrieren oder ändern musste, war es immer ein Ärgernis. Also habe ich die meisten meiner Dienste auf Railway, Vercel, Supabase und anderen Serverless-Plattformen gehostet. Da die meisten persönliche Dienste ohne hohe Konfigurationsanforderungen sind, reicht es, solange sie sicher und stabil sind. Ich hatte mich nicht mit Nginx-Reverse-Proxy, https-Zertifikaten und dergleichen beschäftigt.
 
-As I mentioned before, I've been helping an anime-loving friend with Bilibili livestream management and technical support. I thought about using a free Oracle Japan machine specifically for livestream monitoring and automatic recording. Sometimes my friend also needs to be able to view and download directly, so naturally, a memorable domain name, access speed under domestic network conditions, download bandwidth, etc., all need to be considered. Serverless services were far from sufficient (and not very cost-effective), so I explored some solutions and chose [Nginx Proxy Manager](https://nginxproxymanager.com/), a convenient reverse proxy tool.
+Wie ich schon erwähnte, helfe ich einem anime-liebenden Freund bei der Verwaltung und technischen Unterstützung von Bilibili-Livestreams. Ich dachte darüber nach, eine kostenlose Oracle Japan-Maschine speziell für die Livestream-Überwachung und automatische Aufzeichnung zu verwenden. Manchmal muss mein Freund auch in der Lage sein, direkt anzusehen und herunterzuladen, also müssen natürlich ein einprägsamer Domainname, die Zugriffsgeschwindigkeit unter inländischen Netzwerkbedingungen, die Download-Bandbreite usw. berücksichtigt werden. Serverless-Dienste waren bei weitem nicht ausreichend (und nicht sehr kosteneffektiv), also erkundete ich einige Lösungen und wählte [Nginx Proxy Manager](https://nginxproxymanager.com/), ein praktisches Reverse-Proxy-Tool.
 
 ![npm_yu_dashboard](https://image.pseudoyu.com/images/npm_yu_dashboard.png)
 
-I deployed it on a BandwagonHost machine with a good network connection (CN2 GIA) to host my various services, ensuring a decent access experience. It can also directly issue https certificates for my `*.pseudoyu.com` subdomains through wildcard matching and automatic renewal, which is very convenient. Combined with the aforementioned monitoring, I've been using it for a week now, and it's quite comfortable.
+Ich habe es auf einer BandwagonHost-Maschine mit guter Netzwerkverbindung (CN2 GIA) bereitgestellt, um meine verschiedenen Dienste zu hosten und eine anständige Zugriffserfahrung zu gewährleisten. Es kann auch direkt https-Zertifikate für meine `*.pseudoyu.com`-Subdomains durch Wildcard-Matching und automatische Erneuerung ausstellen, was sehr praktisch ist. In Kombination mit der zuvor erwähnten Überwachung benutze ich es jetzt seit einer Woche, und es ist ziemlich komfortabel.
 
-The official documentation is clear and detailed, and with the user-friendly container service management method of docker-compose, it's quick to get started. However, I might still consider creating a tutorial later to provide reference for friends who want to host small services like blogs.
+Die offizielle Dokumentation ist klar und detailliert, und mit der benutzerfreundlichen Container-Dienstverwaltungsmethode von docker-compose ist es schnell zu beginnen. Allerdings könnte ich trotzdem in Erwägung ziehen, später ein Tutorial zu erstellen, um Freunden, die kleine Dienste wie Blogs hosten möchten, eine Referenz zu bieten.
 
-### RSS Input
+### RSS-Eingabe
 
-In 2022, I mostly focused on blog output and my Telegram channel, without putting much thought into input and synchronization across various platforms. This led to an accumulation of RSS subscriptions, and newsletters also became somewhat overwhelming. I wasn't able to properly filter my input information sources. So I deleted NetNewsWire, which I had been using for a long time, and set up a more lightweight Miniflux using Railway + Supabase as my main reader. I also filtered my RSS information sources, limiting them to 52, almost all personal blogs. I will continue to optimize and adjust in the future.
+Im Jahr 2022 konzentrierte ich mich hauptsächlich auf Blog-Ausgabe und meinen Telegram-Kanal, ohne viel über Eingabe und Synchronisation über verschiedene Plattformen nachzudenken. Dies führte zu einer Anhäufung von RSS-Abonnements, und Newsletter wurden auch etwas überwältigend. Ich war nicht in der Lage, meine Eingabe-Informationsquellen richtig zu filtern. Also löschte ich NetNewsWire, das ich lange Zeit benutzt hatte, und richtete ein leichtgewichtigeres Miniflux mit Railway + Supabase als meinen Hauptleser ein. Ich filterte auch meine RSS-Informationsquellen und beschränkte sie auf 52, fast ausschließlich persönliche Blogs. Ich werde in Zukunft weiter optimieren und anpassen.
 
 ![miniflux_yu_page](https://image.pseudoyu.com/images/miniflux_yu_page.png)
 
-Although Miniflux provides a decent reading experience, I actually prefer clicking into the original article. I always feel that for personal blogs, it's not just about the content; the website's style design, some related articles and themes are all integral parts of the blogger, which can bring a more complete reading enjoyment.
+Obwohl Miniflux eine anständige Leseerfahrung bietet, bevorzuge ich es tatsächlich, in den Originalartikel zu klicken. Ich habe immer das Gefühl, dass es bei persönlichen Blogs nicht nur um den Inhalt geht; der Stil-Design der Website, einige verwandte Artikel und Themen sind alle integrale Teile des Bloggers, die ein vollständigeres Lesevergnügen bringen können.
 
-For me, the RSS reader serves more as a first-step aggregation tool. Since Miniflux is a web-based service, it can't provide very timely notifications. As I heavily rely on Telegram every day, I set up my own Telegram notification based on [RSS to Telegram Bot](https://github.com/Rongronggg9/RSS-to-Telegram-Bot) to push updates from these information sources to me. When I see some interesting titles, I make a mental note and then go to Miniflux to read and check them all at once when I have free time.
+Für mich dient der RSS-Reader mehr als ein Aggregationstool erster Stufe. Da Miniflux ein webbasierter Dienst ist, kann er keine sehr zeitnahen Benachrichtigungen bereitstellen. Da ich mich jeden Tag stark auf Telegram verlasse, richtete ich meine eigene Telegram-Benachrichtigung basierend auf [RSS to Telegram Bot](https://github.com/Rongronggg9/RSS-to-Telegram-Bot) ein, um Updates von diesen Informationsquellen an mich zu pushen. Wenn ich einige interessante Titel sehe, mache ich mir eine geistige Notiz und gehe dann zu Miniflux, um sie alle auf einmal zu lesen und zu überprüfen, wenn ich freie Zeit habe.
 
 ![yu_rss_to_tg_bot](https://image.pseudoyu.com/images/yu_rss_to_tg_bot.png)
 
-This way, I'm less likely to miss articles I want to read, and it doesn't cause too much information buildup. This setup has been working very well so far. Incidentally, seeing various weekly reviews every weekend also has a significant prompting effect (~~I went out to play on Sunday, reasonably delayed the update~~).
+Auf diese Weise verpasse ich weniger wahrscheinlich Artikel, die ich lesen möchte, und es verursacht keine zu große Informationsanhäufung. Dieses Setup hat bisher sehr gut funktioniert. Übrigens hat das Sehen verschiedener Wochenrückblicke jedes Wochenende auch einen signifikanten Anreizeffekt (~~Ich ging am Sonntag spielen, verzögerte die Aktualisierung vernünftigerweise~~).
 
-### Telegram Output
+### Telegram-Ausgabe
 
-I also set up my own n8n synchronization service based on Railway + Supabase to synchronize my input from various platforms to my channel. For a detailed description, you can refer to this article "[\[Weekly Review #12 - Cyber Space, Self-Definition and Boundaries\](https://www.pseudoyu.com/en/2022/09/19/weekly_review_20220919/)".
+Ich habe auch meinen eigenen n8n-Synchronisationsdienst basierend auf Railway + Supabase eingerichtet, um meine Eingabe von verschiedenen Plattformen mit meinem Kanal zu synchronisieren. Für eine detaillierte Beschreibung können Sie sich auf diesen Artikel "[\[Wochenrückblick #12 - Cyber Space, Selbstdefinition und Grenzen\](https://www.pseudoyu.com/de/2022/09/19/weekly_review_20220919/)" beziehen.
 
-Previously, the platform was based on [Reorx's](https://github.com/reorx) solution with some of my own adjustments, but I hadn't added more information sources, and there were fewer domestic sources.
+Zuvor basierte die Plattform auf [Reorx's](https://github.com/reorx) Lösung mit einigen meiner eigenen Anpassungen, aber ich hatte keine weiteren Informationsquellen hinzugefügt, und es gab weniger inländische Quellen.
 
-Although I currently rarely share on various domestic platforms, it's still part of myself. Additionally, I added Sspai as a publishing channel for some of my work efficiency articles. So after my friend [Tujunjie](https://blog.tujunjie.com/) recommended the integration of RSSHub and n8n, I deployed a set of [RSSHub](https://github.com/DIYgod/RSSHub) services on my server to try it out. I immediately found it to be an impressive solution and quickly added synchronization support for NetEase Cloud Music, Weibo, Bilibili, and Sspai to my Telegram information flow channel, making the content more enriched.
+Obwohl ich derzeit selten auf verschiedenen inländischen Plattformen teile, ist es immer noch ein Teil von mir. Zusätzlich fügte ich Sspai als Veröffentlichungskanal für einige meiner Arbeitseffizienzartikel hinzu. Also, nachdem mein Freund [Tujunjie](https://blog.tujunjie.com/) die Integration von RSSHub und n8n empfohlen hatte, implementierte ich einen Satz [RSSHub](https://github.com/DIYgod/RSSHub)-Dienste auf meinem Server, um es auszuprobieren. Ich fand es sofort als eine beeindruckende Lösung und fügte schnell Synchronisationsunterstützung für NetEase Cloud Music, Weibo, Bilibili und Sspai zu meinem Telegram-Informationsflusskanal hinzu, was den Inhalt anreicherte.
 
-### Crossbell Synchronization
+### Crossbell-Synchronisation
 
-Although platforms like Twitter and Telegram are relatively large, they are still centralized products. With the recent various upheavals, I always feel uneasy about using Telegram as the final station for aggregating these information sources, especially when I often almost accidentally click to delete all messages when trying to delete a single message (strange user experience). Therefore, the synchronization and export of information is also a very important link.
+Obwohl Plattformen wie Twitter und Telegram relativ groß sind, sind sie immer noch zentralisierte Produkte. Mit den jüngsten verschiedenen Umwälzungen fühle ich mich immer unwohl dabei, Telegram als Endstation für die Aggregation dieser Informationsquellen zu verwenden, besonders wenn ich oft fast versehentlich auf Löschen aller Nachrichten klicke, wenn ich versuche, eine einzelne Nachricht zu löschen (seltsame Benutzererfahrung). Daher ist die Synchronisation und der Export von Informationen auch ein sehr wichtiger Aspekt.
 
-The Side Project I mentioned before is also doing something like this, but as a Web3 practitioner, I've naturally been eyeing blockchain-based solutions for a long time. In fact, my graduation project was a [ÐApp for data ownership protection based on Ethereum and IPFS](https://github.com/pseudoyu/uright), but that paper-thin Demo project naturally couldn't meet my various needs, and the code was written so messily that I had no desire to refactor it. So I started looking for on-chain solutions.
+Das Side Project, das ich zuvor erwähnte, macht auch so etwas, aber als Web3-Praktiker habe ich natürlich schon lange auf blockchain-basierte Lösungen geschielt. Tatsächlich war mein Abschlussprojekt eine [ÐApp zum Schutz des Dateneigentums basierend auf Ethereum und IPFS](https://github.com/pseudoyu/uright), aber dieses papierdünne Demo-Projekt konnte natürlich meine verschiedenen Bedürfnisse nicht erfüllen, und der Code war so chaotisch geschrieben, dass ich keine Lust hatte, ihn zu refaktorisieren. Also begann ich, nach On-Chain-Lösungen zu suchen.
 
-I had been following [Crossbell](https://crossbell.io/) for a long time, and by some strange coincidence, I got to know quite a few friends from [RSS3](https://rss3.io/). But my previous impression of Crossbell was still limited to the [CrossSync](https://crosssync.app/) browser plugin that [Diygod](https://diygod.me/) posted on Twitter, which was based on this chain. At that time, I opened the link on my phone, and it wasn't convenient to associate the wallet, so I put it aside.
+Ich hatte [Crossbell](https://crossbell.io/) schon lange verfolgt, und durch einen seltsamen Zufall lernte ich ziemlich viele Freunde von [RSS3](https://rss3.io/) kennen. Aber mein früherer Eindruck von Crossbell beschränkte sich noch auf das [CrossSync](https://crosssync.app/) Browser-Plugin, das [Diygod](https://diygod.me/) auf Twitter gepostet hatte, das auf dieser Kette basierte. Damals öffnete ich den Link auf meinem Handy, und es war nicht praktisch, die Wallet zu verknüpfen, also legte ich es beiseite.
 
-So I thought about visiting the official website, and to my surprise, I found that there were already several applications like [xLog](https://xlog.app/), [xSync](https://xsync.app/), [xChar](https://xchar.app/), [xFeed](https://crossbell.io/feed), etc. The xSync that I was most concerned about happened to support Telegram Channel, perfectly matching my needs.
+Also dachte ich daran, die offizielle Website zu besuchen, und zu meiner Überraschung fand ich, dass es bereits mehrere Anwendungen wie [xLog](https://xlog.app/), [xSync](https://xsync.app/), [xChar](https://xchar.app/), [xFeed](https://crossbell.io/feed) usw. gab. Das xSync, das mich am meisten interessierte, unterstützte zufällig den Telegram-Kanal und passte perfekt zu meinen Bedürfnissen.
 
-#### xLog Synchronous Blog Publishing
+#### xLog Synchrone Blog-Veröffentlichung
 
-So I started a series of configurations and decorations. First, I synchronized my personal reflection-related blog posts to xLog. The visual effect and experience are good, and it's very convenient to follow and comment based on the Crossbell address.
+Also begann ich eine Reihe von Konfigurationen und Dekorationen. Zuerst synchronisierte ich meine persönlichen reflektionsbezogenen Blogbeiträge zu xLog. Der visuelle Effekt und die Erfahrung sind gut, und es ist sehr praktisch, basierend auf der Crossbell-Adresse zu folgen und zu kommentieren.
 
-This is my xLog access address: [xlog.pseudoyu.com](https://xlog.pseudoyu.com/). Interested friends can also follow it. However, due to considerations of customization level, various historical article migration routing issues, changes in my various data statistics services, etc., it's still more of a synchronization distribution channel for now. I don't plan to completely migrate my blog over for the time being.
+Dies ist meine xLog-Zugangsadresse: [xlog.pseudoyu.com](https://xlog.pseudoyu.com/). Interessierte Freunde können ihr auch folgen. Aufgrund von Überlegungen zum Anpassungsniveau, verschiedenen historischen Artikel-Migrationsroutingproblemen, Änderungen in meinen verschiedenen Datenstatistikdiensten usw. ist es im Moment jedoch eher ein Synchronisations-Verteilungskanal. Ich plane vorerst nicht, meinen Blog vollständig zu migrieren.
 
 ![yu_xlog_homepage](https://image.pseudoyu.com/images/yu_xlog_homepage.png)
 
-The built-in [NFT showcase](https://xlog.pseudoyu.com/nft) is very nice, probably integrated with [Unidata](https://unidata.app/). I had wanted to integrate it into my Hugo blog before, but never got around to it (~~having a ready-made one made me even lazier~~).
+Die eingebaute [NFT-Vitrine](https://xlog.pseudoyu.com/nft) ist sehr schön, wahrscheinlich integriert mit [Unidata](https://unidata.app/). Ich wollte es vorher in meinen Hugo-Blog integrieren, bin aber nie dazu gekommen (~~einen fertigen zu haben, machte mich noch fauler~~).
 
 ![yu_xlog_nft](https://image.pseudoyu.com/images/yu_xlog_nft.png)
 
-#### xSync Automatic Synchronization of Telegram and Twitter
+#### xSync Automatische Synchronisation von Telegram und Twitter
 
-I was really excited when I saw that xSync could synchronize Telegram Channel data. It didn't require any modifications to make another backup and archive of my aggregated channel, and I quickly configured it. ~~I suddenly felt the urge to abandon my own Side Project~~.
+Ich war wirklich aufgeregt, als ich sah, dass xSync Telegram-Kanal-Daten synchronisieren konnte. Es erforderte keine Änderungen, um ein weiteres Backup und Archiv meines aggregierten Kanals zu erstellen, und ich konfigurierte es schnell. ~~Ich verspürte plötzlich den Drang, mein eigenes Side Project aufzugeben~~.
 
 ![yu_xsync_homepage](https://image.pseudoyu.com/images/yu_xsync_homepage.png)
 
-However, it's a bit regrettable that only part of the historical data was synchronized. There doesn't seem to be an option for manual backup synchronization of data from before the integration, and I don't know if there's a configuration item or future feature that can solve this. If any RSS3 friends know of a solution, please let me know. Thanks!
+Es ist jedoch etwas bedauerlich, dass nur ein Teil der historischen Daten synchronisiert wurde. Es scheint keine Option für manuelle Backup-Synchronisation von Daten vor der Integration zu geben, und ich weiß nicht, ob es ein Konfigurationselement oder zukünftiges Feature gibt, das dies lösen kann. Wenn irgendwelche RSS3-Freunde eine Lösung kennen, lasst es mich bitte wissen. Danke!
 
-After everything is configured, you can view all your messages through xChar. It's a perfect solution. This is my xCharacter personal homepage: [xchar.app/pseudoyu](https://xchar.app/pseudoyu), where you can also view my information flow.
+Nachdem alles konfiguriert ist, können Sie alle Ihre Nachrichten über xChar anzeigen. Es ist eine perfekte Lösung. Dies ist meine xCharacter persönliche Homepage: [xchar.app/pseudoyu](https://xchar.app/pseudoyu), wo Sie auch meinen Informationsfluss sehen können.
 
 ![yu_xchar_profile](https://image.pseudoyu.com/images/yu_xchar_profile.png)
 
-Another small anecdote is that when I saw that I needed to put `pseudoyu@crossbell` in the profile, I smiled. When I was doing my graduation project on copyright protection ÐApp, I used the Oraclize API in the Solidity contract to access off-chain data, which also grabbed the unique identifier from the YouTube description as proof of account ownership. It gave me a strange sense of familiarity, haha. I'll have a chance to study the code later.
+Eine weitere kleine Anekdote ist, dass ich lächelte, als ich sah, dass ich `pseudoyu@crossbell` in das Profil setzen musste. Als ich mein Abschlussprojekt zur Copyright-Schutz-ÐApp machte, verwendete ich die Oraclize-API im Solidity-Vertrag, um auf Off-Chain-Daten zuzugreifen, was auch den eindeutigen Identifikator aus der YouTube-Beschreibung als Beweis für den Kontobesitz erfasste. Es gab mir ein seltsames Gefühl der Vertrautheit, haha. Ich werde später die Gelegenheit haben, den Code zu studieren.
 
-This Crossbell-based information input and output solution can be said to have restructured my original personal management system. I hope to make some of my own attempts based on this system.
+Diese auf Crossbell basierende Lösung für Informationseingabe und -ausgabe kann gesagt haben, mein ursprüngliches persönliches Verwaltungssystem umstrukturiert zu haben. Ich hoffe, basierend auf diesem System einige eigene Versuche zu unternehmen.
 
-## New Year's Plans
+## Neujahrspläne
 
-It seems that listing some annual plans has become an unwritten habit every year, but in so many years of my past, there have been few that I've actually followed through and achieved. This year, I've added more public expression channels, which seems to give me more motivation to practice.
+Es scheint, dass das Auflisten einiger Jahrespläne jedes Jahr zu einer ungeschriebenen Gewohnheit geworden ist, aber in so vielen Jahren meiner Vergangenheit gab es nur wenige, die ich tatsächlich durchgehalten und erreicht habe. Dieses Jahr habe ich mehr öffentliche Ausdruckskanäle hinzugefügt, was mir anscheinend mehr Motivation zum Üben gibt.
 
-I previously read [Xuanwo's](https://xuanwo.io/) article "[2022-37: Public workflow based on Github](https://xuanwo.io/reports/2022-37/)", and after a bit of research on GitHub Projects, I found it to be simple yet sufficient. Although I usually do some basic GTD based on Logseq, it's still difficult to use as a kanban board. I'll try it this year, and also give myself some corresponding pressure.
+Ich las zuvor [Xuanwos](https://xuanwo.io/) Artikel "[2022-37: Öffentlicher Workflow basierend auf Github](https://xuanwo.io/reports/2022-37/)", und nach ein bisschen Recherche zu GitHub Projects fand ich es einfach, aber ausreichend. Obwohl ich normalerweise etwas grundlegendes GTD basierend auf Logseq mache, ist es immer noch schwierig, es als Kanban-Board zu verwenden. Ich werde es dieses Jahr versuchen und mir auch etwas entsprechenden Druck geben.
 
-It's hard to control the granularity of New Year's plans, so I'll just go with the flow. I won't write those big and empty ones anymore. It's more about some indicators. Some are ideas for free exploration, some are long-term goals, and some are short-term things to accomplish. I've adopted a checkbox format. Maybe I'll continue to add more as I think of them later. I'll come back to check and review when I complete them or during the year-end summary of the new year.
+Es ist schwer, die Granularität von Neujahrsplänen zu kontrollieren, also werde ich einfach mit dem Fluss gehen. Ich werde keine großen und leeren mehr schreiben. Es geht mehr um einige Indikatoren. Einige sind Ideen zur freien Erforschung, einige sind langfristige Ziele und einige sind kurzfristige Dinge, die es zu erreichen gilt. Ich habe ein Checkbox-Format verwendet. Vielleicht werde ich später mehr hinzufügen, wenn mir etwas einfällt. Ich werde zurückkommen, um zu überprüfen und zu überprüfen, wenn ich sie abschließe oder während der Jahresend-Zusammenfassung des neuen Jahres.
 
-- [ ] Take good care of Nini, protect her well
-- [ ] Go to Japan or return to Hong Kong for work / a remote job that I enjoy / a work mode with satisfactory freedom, choose one according to priority
-- [ ] Travel to at least 6 cities I've never been to, preferably meeting long-lost friends, though not many
-- [ ] Persist in writing weekly reviews, complete 48 pieces
-- [ ] Update at least 48 original blog posts besides weekly reviews, mainly technical
-- [ ] Go out to take more photos, update at least 12 pieces in the newly opened photography collection column (I've already rushed two kpi posts on New Year's Day), and study composition, color, and post-processing in depth
-- [ ] Contribute at least 12 translated articles to GoCN
-- [ ] Publish 10 articles on Sspai, earn money for cat food
-- [ ] Start being a Bilibili up and Youtuber, publish at least 10 videos, can't be too shallow
-- [ ] Persist in exercising/running at least four days a week (Ring Fit Adventure or Keep also counts), will also record check-ins in weekly reviews
-- [ ] Persist in practicing guitar, record at least 3 songs and publish them
-- [ ] Pick up skateboarding skills again, practice at least twice a week
-- [ ] Read at least 24 meaningful books, but can't gulp them down, need to publish my thoughts on platforms like Douban
-- [ ] Japanese N2 certificate, preparation for some future plans in Japan, will open a separate module in the weekly review to check in on learning progress, might cram for the July exam, ~~if not, try again in December~~
-- [ ] CKAD certificate, prepared halfway last year, but forgot to register and purchase the exam later, without pressure, I indeed became lazy
-- [ ] Contribute code to more open source projects, don't require quantity, but hope to have more meaningful submissions
-- [ ] Write a showcase website for my open source toolbox project "[Yu Tools](https://github.com/pseudoyu/yu-tools)", and write usage experiences for the software and hardware items in it (a big project), continuously optimize and iterate
-- [ ] Improve the open source guide project "[Blockchain Guide](https://guide.pseudoyu.com/)", cover more of the blockchain underlying and Web3-related project experiences and engineering experiences from work and study over the past year, shamefully, most of the articles were written when I was studying for my master's in Hong Kong
-- [ ] Successfully launch and continuously optimize the Side Project startup project I'm doing with friends
-- [ ] Explore more interesting technologies, continue to enjoy them
-- [ ] Meet more interesting people
-- [ ] Live on well
+- [ ] Gut auf Nini aufpassen, sie gut beschützen
+- [ ] Nach Japan gehen oder nach Hongkong zurückkehren für Arbeit / einen Remote-Job, den ich genieße / einen Arbeitsmodus mit zufriedenstellender Freiheit, je nach Priorität wählen
+- [ ] Reisen zu mindestens 6 Städten, in denen ich noch nie war, vorzugsweise lang vermisste Freunde treffen, wenn auch nicht viele
+- [ ] Ausdauer im Schreiben von Wochenrückblicken, 48 Stücke abschließen
+- [ ] Mindestens 48 originale Blogbeiträge neben den Wochenrückblicken aktualisieren, hauptsächlich technisch
+- [ ] Mehr nach draußen gehen, um Fotos zu machen, mindestens 12 Stücke in der neu eröffneten Fotografiesammlung aktualisieren (ich habe bereits zwei KPI-Beiträge an Neujahr gepostet) und Komposition, Farbe und Nachbearbeitung eingehend studieren
+- [ ] Mindestens 12 übersetzte Artikel zu GoCN beitragen
+- [ ] 10 Artikel auf Sspai veröffentlichen, Geld für Katzenfutter verdienen
+- [ ] Anfangen, ein Bilibili-Up und Youtuber zu sein, mindestens 10 Videos veröffentlichen, können nicht zu oberflächlich sein
+- [ ] Ausdauer im Trainieren/Laufen an mindestens vier Tagen pro Woche (Ring Fit Adventure oder Keep zählt auch), werde auch Check-ins in Wochenrückblicken aufzeichnen
+- [ ] Ausdauer im Gitarrenüben, mindestens 3 Lieder aufnehmen und veröffentlichen
+- [ ] Skateboard-Fähigkeiten wieder aufnehmen, mindestens zweimal pro Woche üben
+- [ ] Mindestens 24 bedeutungsvolle Bücher lesen, aber nicht herunterschlingen, muss meine Gedanken auf Plattformen wie Douban veröffentlichen
+- [ ] Japanisches N2-Zertifikat, Vorbereitung für einige zukünftige Pläne in Japan, werde ein separates Modul im Wochenrückblick öffnen, um den Lernfortschritt zu überprüfen, könnte für die Juli-Prüfung pauken, ~~wenn nicht, im Dezember erneut versuchen~~
+- [ ] CKAD-Zertifikat, letztes Jahr zur Hälfte vorbereitet, aber vergessen, mich später für die Prüfung anzumelden und zu kaufen, ohne Druck wurde ich tatsächlich faul
+- [ ] Code zu mehr Open-Source-Projekten beitragen, erfordere keine Menge, aber hoffe auf mehr bedeutungsvolle Einreichungen
+- [ ] Eine Showcase-Website für mein Open-Source-Toolbox-Projekt "[Yu Tools](https://github.com/pseudoyu/yu-tools)" schreiben und Nutzungserfahrungen für die Software- und Hardware-Artikel darin schreiben (ein großes Projekt), kontinuierlich optimieren und iterieren
+- [ ] Das Open-Source-Guide-Projekt "[Blockchain Guide](https://guide.pseudoyu.com/)" verbessern, mehr von den blockchain-zugrundeliegenden und Web3-bezogenen Projekterfahrungen und Ingenieurerfahrungen aus Arbeit und Studium des letzten Jahres abdecken, beschämenderweise wurden die meisten Artikel geschrieben, als ich für meinen Master in Hongkong studierte
+- [ ] Das Side Project-Startup-Projekt, das ich mit Freunden mache, erfolgreich starten und kontinuierlich optimieren
+- [ ] Mehr interessante Technologien erkunden, sie weiterhin genießen
+- [ ] Mehr interessante Menschen treffen
+- [ ] Gut weiterleben
 
-## Personal Life Snippets
+## Persönliche Lebensfragmente
 
-Since the severe epidemic in Beijing in November, I've been living at home for two months. Perhaps I have decent physical defense attributes (referring to sending the only bit of medicine I had on hand to a friend at the time, relying purely on not going out to isolate from the virus) and luck points (ordering takeout as usual every day, and even having property management come to my home to deal with a water leak for an afternoon), I've managed to remain negative until now, already in the final round.
+Seit der schweren Epidemie in Peking im November lebe ich seit zwei Monaten zu Hause. Vielleicht habe ich anständige körperliche Verteidigungsattribute (ich beziehe mich darauf, das einzige bisschen Medizin, das ich zur Hand hatte, einem Freund zu schicken, mich rein darauf verlassend, nicht auszugehen, um mich vor dem Virus zu isolieren) und Glückspunkte (jeden Tag wie gewohnt Essen bestellen und sogar Hausverwaltung für einen Nachmittag zu meinem Haus kommen lassen, um sich mit einem Wasserleck zu befassen), es ist mir gelungen, bis jetzt negativ zu bleiben, schon in der letzten Runde.
 
-But the consequence is that friends who have already recovered and turned negative are traveling everywhere, while I'm still fully armed just to take out the trash, let alone dare to travel far. So I spent these two months with my cat.
+Aber die Konsequenz ist, dass Freunde, die sich bereits erholt haben und negativ geworden sind, überall hinreisen, während ich immer noch voll bewaffnet bin, nur um den Müll rauszubringen, geschweige denn wage, weit zu reisen. Also verbrachte ich diese zwei Monate mit meiner Katze.
 
-Although I'm indeed staying at home, as the epidemic opened up, there seemed to be no end in sight. So my mindset became more relaxed. This weekend, I was invited (~~not really, just using the pretext of visiting with my cat~~) to go to senior Bo Yi's house for dinner. I breathed in the not-so-fresh air outside (~~after all, it's Beijing~~), and also ate home-cooked meals that I hadn't had in a long time. I lounged around all day, but felt content and happy.
+Obwohl ich tatsächlich zu Hause bleibe, schien es, als die Epidemie sich öffnete, kein Ende in Sicht. Also wurde meine Denkweise entspannter. An diesem Wochenende wurde ich eingeladen (~~nicht wirklich, nur unter dem Vorwand, mit meiner Katze zu Besuch zu kommen~~), zum Haus von Senior Bo Yi zum Abendessen zu gehen. Ich atmete die nicht so frische Luft draußen ein (~~immerhin ist es Peking~~) und aß auch selbstgekochte Mahlzeiten, die ich lange nicht mehr hatte. Ich faulenzte den ganzen Tag herum, fühlte mich aber zufrieden und glücklich.
 
 ![wonderful_meal_with_boyi](https://image.pseudoyu.com/images/wonderful_meal_with_boyi.jpg)
 
-I plan to return to Hangzhou on January 18th. Actually, in 2022, my time at home was not short compared to recent years. With various adjusted holidays and vacations, it added up to about a month before and after going home. It's just that the epidemic often recurred, and I didn't have the chance to return to my hometown. Two years ago in January, my grandmother passed away, and I was stuck in Hong Kong due to the epidemic and couldn't go home. Last Spring Festival, I was stranded in Beijing again due to a sudden outbreak. It's time to go back and see. As I grow older, I go to more and more places, but home seems to be getting farther and farther away.
+Ich plane, am 18. Januar nach Hangzhou zurückzukehren. Tatsächlich war meine Zeit zu Hause im Jahr 2022 im Vergleich zu den letzten Jahren nicht kurz. Mit verschiedenen angepassten Feiertagen und Urlauben summierte es sich auf etwa einen Monat vor und nach dem Nachhausegehen. Es ist nur so, dass die Epidemie oft wiederkehrte und ich keine Chance hatte, in meine Heimatstadt zurückzukehren. Vor zwei Jahren im Januar starb meine Großmutter, und ich steckte aufgrund der Epidemie in Hongkong fest und konnte nicht nach Hause gehen. Letztes Frühlingsfest war ich wieder in Peking gestrandet aufgrund eines plötzlichen Ausbruchs. Es ist Zeit, zurückzugehen und zu sehen. Je älter ich werde, desto mehr Orte besuche ich, aber die Heimat scheint immer weiter weg zu rücken.
 
-I've been hesitating about going home for a while, worried about any changes, but still want to go back and see. However, in this situation, I'm not comfortable leaving my cat with a pet hotel or unfamiliar people. Later, when I casually mentioned this during a meeting, I found a solution. I decided to have Nini stay at the home of my project's small leader. His daughter has been eyeing a cat for a long time. After settling this, I finally felt relieved.
+Ich habe eine Weile gezögert, nach Hause zu gehen, besorgt über mögliche Veränderungen, aber ich möchte trotzdem zurückgehen und sehen. In dieser Situation fühle ich mich jedoch nicht wohl dabei, meine Katze in einem Tierhotel oder bei unbekannten Personen zu lassen. Später, als ich dies beiläufig während eines Meetings erwähnte, fand ich eine Lösung. Ich beschloss, Nini im Haus des kleinen Leiters meines Projekts unterzubringen. Seine Tochter hat schon lange eine Katze im Auge. Nachdem dies geklärt war, fühlte ich mich endlich erleichtert.
 
-With all this trouble, I'm likely to get infected. Knowing this, senior Bo Yi gave me a luxurious anti-epidemic gift package, which was touching.
+Mit all diesen Schwierigkeiten werde ich mich wahrscheinlich infizieren. In dem Wissen gab mir Senior Bo Yi ein luxuriöses Anti-Epidemie-Geschenkpaket, was rührend war.
 
 ![medicines_from_boyi](https://image.pseudoyu.com/images/medicines_from_boyi.jpg)
 
-Then a while ago, when senior Bo Yi was at Lingyin Temple, she made a wish for me: "May 2023 allow you to do what you like and explore more hobbies as you wish." She also brought me a beautiful Buddhist bracelet. I unilaterally declare her the best senior in the world. I hope the new year will be good for her too.
+Dann vor einer Weile, als Senior Bo Yi im Lingyin-Tempel war, machte sie einen Wunsch für mich: "Möge 2023 dir erlauben, das zu tun, was du magst, und mehr Hobbys nach deinem Wunsch zu erkunden." Sie brachte mir auch ein schönes buddhistisches Armband mit. Ich erkläre sie einseitig zur besten Seniorin der Welt. Ich hoffe, das neue Jahr wird auch für sie gut sein.
 
-Suddenly I remembered that when I was in university, I wore a Buddhist bracelet from Lingyin Temple that Ni gave me for more than a year, until the string was almost worn out and the beads were about to fall off before I put it away. I strangely felt that I was indeed luckier that year. Sometimes maybe you just need some peace of mind.
+Plötzlich erinnerte ich mich daran, dass ich, als ich an der Universität war, mehr als ein Jahr lang ein buddhistisches Armband vom Lingyin-Tempel trug, das Ni mir gegeben hatte, bis die Schnur fast abgenutzt war und die Perlen kurz davor waren, abzufallen, bevor ich es wegpackte. Ich fühlte mich seltsamerweise tatsächlich in jenem Jahr glücklicher. Manchmal braucht man vielleicht einfach etwas Seelenfrieden.
 
-I will go back to fulfill the wish, a double wish.
+Ich werde zurückgehen, um den Wunsch zu erfüllen, einen doppelten Wunsch.
 
 ![wonderful_gift_with_boyi](https://image.pseudoyu.com/images/wonderful_gift_with_boyi.jpg)
 
-## Other
+## Sonstiges
 
-This section will record some of my inputs and outputs, as well as other things I find interesting.
+Dieser Abschnitt wird einige meiner Inputs und Outputs sowie andere Dinge, die ich interessant finde, aufzeichnen.
 
-This week, I watched two very touching videos on Bilibili. One is from my favorite Up主 "[Xiaolu Lawrence](https://space.bilibili.com/37029661)" titled "[This is my most hardworking year, but it made the company shrink by half | 2022 Year-end Summary](https://www.bilibili.com/video/BV1Mx4y1G7zW)". I had some thoughts:
+Diese Woche habe ich zwei sehr berührende Videos auf Bilibili gesehen. Eines ist von meinem Lieblings-Up主 "[Xiaolu Lawrence](https://space.bilibili.com/37029661)" mit dem Titel "[Dies ist mein fleißigstes Jahr, aber es ließ die Firma um die Hälfte schrumpfen | Jahresend-Zusammenfassung 2022](https://www.bilibili.com/video/BV1Mx4y1G7zW)". Ich hatte einige Gedanken:
 
-> I've been watching for several consecutive years, and always watch this reserved year-end summary column many, many times.
+> Ich schaue seit mehreren Jahren in Folge und sehe mir diese zurückhaltende Jahresend-Zusammenfassungsspalte immer wieder viele, viele Male an.
 
-> I've felt empathy when I was at the same stage, being moved by some videos; I've been happy for many, many days when Lu-ge replied to and encouraged my dynamic; More often, he accompanied me through one night after another, waking up to continue living with effort. Perhaps due to familiarity, the slight pause when first opening the new studio door, the choke when saying "because the support of family was once your confidence", the BGM of the bouquet, the bitter laugh when reviewing this year, all made my emotions fluctuate and tears fall.
+> Ich habe Mitgefühl empfunden, als ich in der gleichen Phase war, wurde von einigen Videos bewegt; ich war viele, viele Tage glücklich, als Lu-ge auf meine Dynamik antwortete und mich ermutigte; Öfter begleitete er mich durch eine Nacht nach der anderen, aufwachend, um mit Anstrengung weiterzuleben. Vielleicht aufgrund der Vertrautheit ließen mich die leichte Pause beim ersten Öffnen der neuen Studiotür, das Stocken beim Sagen "weil die Unterstützung der Familie einmal dein Vertrauen war", die BGM des Blumenstraußes, das bittere Lachen beim Rückblick auf dieses Jahr, alle meine Emotionen schwanken und Tränen fließen.
 
-> "It's not that you've changed as you've grown up, but that you've grown up, and the world has begun to reveal all its truths to you". Perhaps the often-described youthfulness and student air about me is just the overdraft of the luck I've experienced in the past, and the protection of those around me, allowing me to talk about myself again and again in my weekly reports, longing for beauty again and again. And in 2022, everything has returned to the starting point. Fortunately, I still retain the habit of "recording" and haven't lost the ability to "feel". Small, but precious.
+> "Es ist nicht so, dass du dich verändert hast, als du erwachsen wurdest, sondern dass du erwachsen geworden bist, und die Welt begonnen hat, dir all ihre Wahrheiten zu offenbaren". Vielleicht ist die oft beschriebene Jugendlichkeit und studentische Ausstrahlung über mich nur die Überziehung des Glücks, das ich in der Vergangenheit erlebt habe, und der Schutz derer um mich herum, der es mir erlaubt, in meinen Wochenberichten immer wieder über mich selbst zu sprechen, immer wieder nach Schönheit zu streben. Und im Jahr 2022 ist alles wieder zum Ausgangspunkt zurückgekehrt. Glücklicherweise behalte ich immer noch die Gewohnheit des "Aufzeichnens" bei und habe die Fähigkeit zu "fühlen" nicht verloren. Klein, aber wertvoll.
 
-> "This year, I've lost too much, too much. Any small death and collapse becomes unbearable". Yes, 2022 was just too difficult, indescribable. In the new year, I have to struggle to live alone.
+> "Dieses Jahr habe ich zu viel verloren, zu viel. Jeder kleine Tod und Zusammenbruch wird unerträglich". Ja, 2022 war einfach zu schwierig, unbeschreiblich. Im neuen Jahr muss ich mich anstrengen, allein zu leben.
 
-> Thank you, Lu-ge, for your companionship and the emotions you've brought over the past year. In the new year, let's keep going!
+> Danke, Lu-ge, für deine Begleitung und die Emotionen, die du im vergangenen Jahr gebracht hast. Im neuen Jahr lasst uns weitermachen!
 
-There's also a very sharp Up主 "[Lao Jiang Ju Kao Pu](https://space.bilibili.com/119801456)" with "[Say goodbye to the indescribable and unnecessary year - My New Year's Address](https://www.bilibili.com/video/BV17M411y7es)". My thoughts:
+Es gibt auch einen sehr scharfsinnigen Up主 "[Lao Jiang Ju Kao Pu](https://space.bilibili.com/119801456)" mit "[Verabschiede dich von dem unbeschreiblichen und unnötigen Jahr - Meine Neujahrsansprache](https://www.bilibili.com/video/BV17M411y7es)". Meine Gedanken:
 
-> I really like Lao Jiang's thinking and narrative style, plain, sincere but bold and not lacking in sharpness. It's the best New Year's address I've seen.
+> Ich mag Lao Jiangs Denkweise und Erzählstil wirklich, schlicht, aufrichtig, aber mutig und nicht ohne Schärfe. Es ist die beste Neujahrsansprache, die ich gesehen habe.
 
-> 2022 just passed like this, many things can't be said, many things are happening, many things will never happen again, indescribable is probably the best description.
+> 2022 ist einfach so vorbeigegangen, viele Dinge können nicht gesagt werden, viele Dinge passieren, viele Dinge werden nie wieder passieren, unbeschreiblich ist wahrscheinlich die beste Beschreibung.
 
-## Summary
+## Zusammenfassung
 
-The first week of 2023, this year is off to a pretty good start.
+Die erste Woche des Jahres 2023, dieses Jahr hat einen ziemlich guten Start hingelegt.

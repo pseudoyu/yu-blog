@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #21 - Life Picked Up Again"
+title: "Wochenrückblick #21 - Das Leben nahm wieder Fahrt auf"
 date: 2022-12-06T21:48:50+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "gocn", "balance", "telegram", "chatgpt"]
@@ -10,73 +10,73 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from `2022-11-28` to `2022-12-06`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `28.11.2022` bis zum `06.12.2022`.
 
-They say it takes 21 days to form a habit, yet by the 21st weekly review, I still haven't managed to update on schedule. Each week brings a creative excuse for the delay.
+Man sagt, es brauche 21 Tage, um eine Gewohnheit zu formen, doch selbst beim 21. Wochenrückblick habe ich es noch nicht geschafft, pünktlich zu aktualisieren. Jede Woche bringt eine kreative Ausrede für die Verzögerung mit sich.
 
-The past week wasn't particularly busy work-wise, with features developed for events successfully launched and entering the routine maintenance phase. However, my sleep patterns remained concerning, with bedtime still mostly after 3 AM. The project I mentioned earlier, undertaken with a junior, is well-prepared and gradually launching. It feels more like I'm busy with things I enjoy, so it's a happy burden. But with things piling up here and there, even someone accustomed to multitasking like myself often feels overwhelmed. Fortunately, my physical health seems fine.
+Die vergangene Woche war arbeitstechnisch nicht besonders geschäftig, mit erfolgreich gestarteten Features für Veranstaltungen, die nun in die routinemäßige Wartungsphase übergegangen sind. Allerdings blieb mein Schlafrhythmus besorgniserregend, wobei die Schlafenszeit meist immer noch nach 3 Uhr morgens lag. Das zuvor erwähnte Projekt, das ich mit einem Junior-Entwickler unternehme, ist gut vorbereitet und startet allmählich. Es fühlt sich eher so an, als wäre ich mit Dingen beschäftigt, die mir Freude bereiten, also ist es eine angenehme Last. Doch mit sich hier und da anhäufenden Aufgaben fühlt sich selbst jemand wie ich, der an Multitasking gewöhnt ist, oft überfordert. Glücklicherweise scheint meine körperliche Gesundheit in Ordnung zu sein.
 
-Still working remotely from home due to the pandemic (it's been exactly 15 days since I last went out), continuing to spend time with Nie Nie. In contrast to a previous weekly review theme "[Life and Self Put on Hold](https://www.pseudoyu.com/en/2022/10/09/weekly_review_20221009/)", my life seems to have been picked up again, filled with many bright moments.
+Ich arbeite aufgrund der Pandemie immer noch aus dem Home-Office (es sind genau 15 Tage vergangen, seit ich das letzte Mal draußen war) und verbringe weiterhin Zeit mit Nie Nie. Im Gegensatz zu einem früheren Wochenrückblick-Thema "[Leben und Selbst auf Eis gelegt](https://www.pseudoyu.com/de/2022/10/09/weekly_review_20221009/)", scheint mein Leben wieder an Fahrt aufgenommen zu haben, erfüllt von vielen hellen Momenten.
 
-## Life Picked Up Again
+## Das Leben nahm wieder Fahrt auf
 
-Even though I hadn't really noticed it myself, in the 40 days since bringing Nie Nie home, I've undergone many changes. Due to being busy with work recently, I hadn't been in touch with a friend for over a month. This time, I happened to help solve a computer issue, and we chatted briefly, resulting in the following conversation:
+Obwohl ich es selbst kaum bemerkt hatte, habe ich mich in den 40 Tagen seit Nie Nies Einzug stark verändert. Aufgrund der jüngsten Arbeitsbelastung hatte ich über einen Monat lang keinen Kontakt zu einem Freund. Diesmal ergab es sich, dass ich bei der Lösung eines Computerproblems half, und wir unterhielten uns kurz, was zu folgendem Gespräch führte:
 
 ![chat_with_jmadeinapril](https://image.pseudoyu.com/images/chat_with_jmadeinapril.png)
 
-Although it's not as dramatic as the melancholic temperament mentioned, I am generally not a particularly positive or sunny person. I have a sense of detachment from life and many things. It's not that I don't care or can't empathize, but I don't have such strong emotional investment. It's like a role-playing game where I'm playing myself. In conversations with others, I don't tend to reveal much of my inner self. Again, it's not due to distrust or deliberate concealment to create some persona, I'm just not accustomed to it.
+Obwohl es nicht so dramatisch ist wie das erwähnte melancholische Temperament, bin ich im Allgemeinen keine besonders positive oder sonnige Person. Ich habe eine gewisse Distanz zum Leben und zu vielen Dingen. Es ist nicht so, dass ich mich nicht kümmere oder nicht mitfühlen kann, aber ich investiere nicht so starke Emotionen. Es ist wie ein Rollenspiel, in dem ich mich selbst spiele. In Gesprächen mit anderen neige ich dazu, nicht viel von meinem inneren Selbst preiszugeben. Auch hier liegt es nicht an Misstrauen oder absichtlicher Verhüllung, um eine Persona zu erschaffen, ich bin es einfach nicht gewohnt.
 
-Now, even though I don't seem to have consciously changed anything, people can sense emotions even in casual conversations. It's a kind of satisfaction and fullness that gradually overflows from my words. Although the decision to adopt a cat again involved repeated consideration and weighing of options, I never imagined it would be something that would change me so much. Beyond being a pet and a roommate with responsibilities and concerns, she has become an inseparable part of my life.
+Jetzt, obwohl ich scheinbar nichts bewusst verändert habe, können Menschen selbst in beiläufigen Gesprächen Emotionen spüren. Es ist eine Art Zufriedenheit und Fülle, die allmählich aus meinen Worten überfließt. Obwohl die Entscheidung, erneut eine Katze zu adoptieren, wiederholte Überlegungen und Abwägungen erforderte, hätte ich mir nie vorgestellt, dass es etwas sein würde, das mich so sehr verändern würde. Über ein Haustier und einen Mitbewohner mit Verantwortung und Sorgen hinaus ist sie zu einem untrennbaren Teil meines Lebens geworden.
 
-While chatting with another close friend, I was asked:
+Während eines Gesprächs mit einem anderen engen Freund wurde ich gefragt:
 
-> "After getting Nie Nie, will you become more content with your current life and unwilling to make any changes?"
+> "Wirst du nach Nie Nies Ankunft zufriedener mit deinem jetzigen Leben sein und weniger bereit sein, Veränderungen vorzunehmen?"
 
-My perception is actually quite the opposite. Recently, I've been more frequently and proactively re-planning my life rhythm and future goals, including future work forms, locations, and content. It seems that for the previous me, as long as I was doing what I liked and was with people I cared about, it was satisfying enough, regardless of which city I was in or what kind of work I was doing. Other things didn't matter much. Now, I'm gradually finding a more comfortable state and mode of life in my solitude and "idle time" with Nie Nie. I'm also more concerned with the meaning of life itself. Life is not just an appendage to my hobbies and work, but a precious existence that deserves respect and exploration in its own right.
+Meine Wahrnehmung ist tatsächlich genau das Gegenteil. In letzter Zeit habe ich häufiger und proaktiver meinen Lebensrhythmus und zukünftige Ziele neu geplant, einschließlich zukünftiger Arbeitsformen, Orte und Inhalte. Es scheint, dass es für mein früheres Ich ausreichend befriedigend war, solange ich tat, was ich mochte, und mit Menschen zusammen war, die mir wichtig waren, unabhängig davon, in welcher Stadt ich mich befand oder welche Art von Arbeit ich verrichtete. Andere Dinge waren nicht so wichtig. Jetzt finde ich allmählich einen komfortableren Zustand und eine Lebensweise in meiner Einsamkeit und "Freizeit" mit Nie Nie. Ich beschäftige mich auch mehr mit dem Sinn des Lebens selbst. Das Leben ist nicht nur ein Anhängsel meiner Hobbys und Arbeit, sondern eine kostbare Existenz, die Respekt und Erforschung verdient.
 
-Although I don't want to sound too profound, Nie Nie seems like a sudden redemption appearing in the gloomy moments of my life. I've invested too many emotions and feelings in caring for her. So, I actually have more expectations for the future life we'll spend together. At the very least, I'll work harder to earn money for cat food and strive for more control over my time to provide more companionship.
+Obwohl ich nicht zu tiefgründig klingen möchte, scheint Nie Nie wie eine plötzliche Erlösung, die in den düsteren Momenten meines Lebens auftaucht. Ich habe zu viele Emotionen und Gefühle in ihre Fürsorge investiert. Daher habe ich tatsächlich mehr Erwartungen an das zukünftige Leben, das wir gemeinsam verbringen werden. Zumindest werde ich härter arbeiten, um Geld für Katzenfutter zu verdienen, und mich bemühen, mehr Kontrolle über meine Zeit zu haben, um mehr Gesellschaft zu leisten.
 
-## Daily Life with "Nie Nie"
+## Alltag mit "Nie Nie"
 
-I watched a documentary before, "The Secret Life of Cats", which interprets cats' behaviors and the thoughts behind them. Recently, I seem to have developed a similar tendency. In some interesting moments of life, I would take a photo and caption it with my interpretation of cat language. It's a very interesting experience, as if both cats and humans are trying to guess each other's thoughts.
+Ich habe vor einiger Zeit eine Dokumentation gesehen, "Das geheime Leben der Katzen", die das Verhalten von Katzen und die dahinterstehenden Gedanken interpretiert. In letzter Zeit scheine ich eine ähnliche Tendenz entwickelt zu haben. In einigen interessanten Momenten des Lebens würde ich ein Foto machen und es mit meiner Interpretation der Katzensprache beschriften. Es ist eine sehr interessante Erfahrung, als ob sowohl Katzen als auch Menschen versuchen würden, die Gedanken des anderen zu erraten.
 
-Because her eye secretions were quite heavy, I consulted a doctor who said it might be due to excessive protein intake. So I started changing her food and reducing some treats. On the first day, when she found that her meals weren't as lavish as before, she kept lying on my computer and looking at me with the expression in the picture below.
+Da ihre Augensekrete recht stark waren, konsultierte ich einen Arzt, der meinte, es könnte an einer übermäßigen Proteinaufnahme liegen. Also begann ich, ihr Futter zu ändern und einige Leckereien zu reduzieren. Am ersten Tag, als sie feststellte, dass ihre Mahlzeiten nicht mehr so üppig waren wie zuvor, lag sie ständig auf meinem Computer und schaute mich mit dem Ausdruck an, den man auf dem Bild unten sehen kann.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpg" caption="When I first came, I thought the food here was quite good? Don't tell me you can't afford to keep me anymore?" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_11.jpg" caption="Als ich zuerst kam, dachte ich, das Essen hier sei ziemlich gut? Sag mir nicht, du kannst es dir nicht mehr leisten, mich zu behalten?" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpg" caption="Stop working, look at me" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_12.jpg" caption="Hör auf zu arbeiten, schau mich an" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpg" caption="Your little darling wants to get your attention" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_13.jpg" caption="Dein kleiner Liebling möchte deine Aufmerksamkeit" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpg" caption="Tom and Jerry are for you humans to watch, I'm getting bored" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_14.jpg" caption="Tom und Jerry sind für euch Menschen zum Anschauen, ich langweile mich" >}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpg" caption="Don't work while I'm sleeping" >}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_15.jpg" caption="Arbeite nicht, während ich schlafe" >}}
 
-## Others
+## Sonstiges
 
-This section will record my input and output, as well as other things I find interesting.
+Dieser Abschnitt wird meinen Input und Output sowie andere Dinge, die ich interessant finde, festhalten.
 
 ### Output
 
-I realized it's been a long time since I wrote a proper technical blog. Actually, I've drafted and taken notes on many topics, but haven't organized them into articles yet. I need to speed up my output. However, recently I've been translating the "[Google Go Style Guide](https://gocn.github.io/styleguide/)" with my colleagues from GoCN. Along with the previously translated "[How To Code In Go](https://gocn.github.io/How-To-Code-in-Go/)", we've published online and PDF versions. Today, we even received a collaboration invitation from GeekTime (and incidentally, all team members can get a free column). It's quite a happy little achievement.
+Mir ist aufgefallen, dass es schon lange her ist, seit ich einen richtigen technischen Blogbeitrag geschrieben habe. Tatsächlich habe ich viele Themen entworfen und Notizen gemacht, sie aber noch nicht zu Artikeln ausgearbeitet. Ich muss meinen Output beschleunigen. Allerdings habe ich kürzlich mit meinen Kollegen von GoCN den "[Google Go Style Guide](https://gocn.github.io/styleguide/)" übersetzt. Zusammen mit dem zuvor übersetzten "[How To Code In Go](https://gocn.github.io/How-To-Code-in-Go/)" haben wir Online- und PDF-Versionen veröffentlicht. Heute erhielten wir sogar eine Einladung zur Zusammenarbeit von GeekTime (und nebenbei können alle Teammitglieder eine kostenlose Kolumne erhalten). Es ist eine recht erfreuliche kleine Errungenschaft.
 
 ![gocn_trans_book](https://image.pseudoyu.com/images/gocn_trans_book.png)
 
-Without realizing it, my Telegram channel "[Yu's Life](https://t.me/pseudoyulife)" just reached 200 subscribers. It's quite amazing actually. It's just a small channel that automatically synchronizes my input and output from various platforms, but it has slowly accumulated some followers. I often receive private messages or friend requests from readers on various platforms, saying that the channel has brought them some different perspectives and thoughts. I'm quite honored that a small idea at the time could produce such interesting results. I've had less input and output in the past few weeks due to being busy with work, but I hope to continue persevering.
+Ohne es zu bemerken, hat mein Telegram-Kanal "[Yu's Life](https://t.me/pseudoyulife)" gerade 200 Abonnenten erreicht. Es ist tatsächlich ziemlich erstaunlich. Es ist nur ein kleiner Kanal, der automatisch meinen Input und Output von verschiedenen Plattformen synchronisiert, aber er hat langsam einige Follower angesammelt. Ich erhalte oft Privatnachrichten oder Freundschaftsanfragen von Lesern auf verschiedenen Plattformen, die sagen, dass der Kanal ihnen einige andere Perspektiven und Gedanken gebracht hat. Ich fühle mich sehr geehrt, dass eine kleine Idee damals solch interessante Ergebnisse hervorbringen konnte. In den letzten Wochen hatte ich aufgrund der Arbeitsbelastung weniger Input und Output, aber ich hoffe, weiterhin durchzuhalten.
 
 ![yu_life_tg_subs_100](https://image.pseudoyu.com/images/yu_life_tg_subs_100.png)
 
-Another small hobby this week is teasing ChatGPT. The AI chatbots now are too powerful. While GitHub Copilot might be more helpful in writing some utility methods, ChatGPT can actually write out the entire program (and it correctly understood my intention despite my spelling errors). We might be out of jobs soon.
+Ein weiteres kleines Hobby dieser Woche ist es, ChatGPT zu necken. Die KI-Chatbots sind jetzt zu mächtig. Während GitHub Copilot beim Schreiben einiger Hilfsmethoden hilfreicher sein könnte, kann ChatGPT tatsächlich das gesamte Programm ausschreiben (und es hat meine Absicht trotz meiner Rechtschreibfehler richtig verstanden). Wir könnten bald arbeitslos sein.
 
 ![chatgpt_help_me_code_golang](https://image.pseudoyu.com/images/chatgpt_help_me_code_golang.png)
 
 ### Input
 
-#### TV Series
+#### Fernsehserien
 
-- **The Untamed**, recommended by a friend. I haven't watched much of this genre, so it was quite a pleasant surprise. I binge-watched it over a weekend. Most of the plot holds up to scrutiny, and the characters are all very likable. Xiao Xue Huan and Xi Jun are too cute!
-- **Periphery**, the first few episodes seemed a bit patchwork but the presentation was quite good. It got more chaotic as it went on, lacking both the thrill of something like Ready Player One and any real depth. It ended up being a bit of a flop in the end.
-- **Wednesday**, I forgot where I saw the recommendation. I finished it during work breaks. Apart from the initial setting being relatively novel, it became somewhat confusing later on. It was a bit disappointing, but I still finished it.
-- **Silence of Snow**, currently watching. It focuses on emotional rendering, so the subsequent pace is also slower. I just hope they stop torturing the second male lead.
+- **The Untamed**, von einem Freund empfohlen. Ich habe nicht viel von diesem Genre gesehen, also war es eine angenehme Überraschung. Ich habe es an einem Wochenende durchgeschaut. Der Großteil der Handlung hält einer Prüfung stand, und die Charaktere sind alle sehr liebenswert. Xiao Xue Huan und Xi Jun sind zu süß!
+- **Periphery**, die ersten Episoden schienen etwas zusammengestückelt, aber die Präsentation war recht gut. Es wurde chaotischer, je weiter es ging, und es fehlte sowohl der Nervenkitzel von etwas wie Ready Player One als auch jegliche echte Tiefe. Am Ende wurde es ein bisschen zu einem Flop.
+- **Wednesday**, ich habe vergessen, wo ich die Empfehlung gesehen habe. Ich habe es während der Arbeitspausen beendet. Abgesehen von der anfänglichen Einstellung, die relativ neuartig war, wurde es später etwas verwirrend. Es war ein bisschen enttäuschend, aber ich habe es trotzdem zu Ende geschaut.
+- **Silence of Snow**, schaue ich gerade. Es konzentriert sich auf emotionale Darstellung, daher ist das anschließende Tempo auch langsamer. Ich hoffe nur, sie hören auf, den zweiten männlichen Hauptdarsteller zu quälen.

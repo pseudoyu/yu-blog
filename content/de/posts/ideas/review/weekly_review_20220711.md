@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #03 - Health, Goals and the Rhythm of Life"
+title: "Wochenrückblick #03 - Gesundheit, Ziele und der Rhythmus des Lebens"
 date: 2022-07-11T08:30:20+08:00
 draft: false
 tags: ["review", "life", "work", "health", "growth", "friendship"]
@@ -10,117 +10,84 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-It seems that every time I start with the title, I try to set a theme for the past week. Sometimes it's not that easy to summarize, but I still persist in doing so. Perhaps this way, life will be like a series of chapters pieced together, and when looking back after a long time, it will feel like a fulfilling book.
+Es scheint, dass ich jedes Mal, wenn ich mit dem Titel beginne, versuche, ein Thema für die vergangene Woche zu setzen. Manchmal ist es nicht so einfach zusammenzufassen, aber ich bestehe trotzdem darauf, es zu tun. Vielleicht wird das Leben auf diese Weise wie eine Reihe von Kapiteln sein, die zusammengesetzt werden, und wenn man nach langer Zeit zurückblickt, wird es sich wie ein erfüllendes Buch anfühlen.
 
-This piece is a record and reflection of my life from `2022-07-04` to `2022-07-10`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `04.07.2022` bis zum `10.07.2022`.
 
-## Health
+## Gesundheit
 
-I'm not sure if it's due to work fatigue or some lingering mental effects, but recently I've felt that my health has been declining. It's not particularly serious, but I often feel a sense of weakness, sometimes even feeling as if my body isn't my own.
+Ich bin mir nicht sicher, ob es an der Arbeitsmüdigkeit oder an einigen anhaltenden mentalen Auswirkungen liegt, aber in letzter Zeit hatte ich das Gefühl, dass meine Gesundheit abgenommen hat. Es ist nicht besonders ernst, aber ich fühle oft eine Art Schwäche, manchmal sogar, als ob mein Körper nicht mein eigener wäre.
 
-It seems that for so many years, I haven't really paid much attention to my health. Although I've had medical check-ups, not exactly regularly but still done, there haven't been any major issues. Therefore, I didn't pay much attention. Sometimes I even felt a little proud that after so many years of staying up late, my eyesight and body hadn't been affected much. However, the recent symptoms have made me start to be more vigilant about changes in my body.
+Es scheint, dass ich so viele Jahre lang nicht wirklich auf meine Gesundheit geachtet habe. Obwohl ich medizinische Untersuchungen hatte, nicht gerade regelmäßig, aber dennoch durchgeführt, gab es keine größeren Probleme. Daher habe ich nicht viel darauf geachtet. Manchmal fühlte ich mich sogar ein wenig stolz darauf, dass nach so vielen Jahren des Spätaufbleibens meine Sehkraft und mein Körper nicht sehr beeinträchtigt wurden. Die jüngsten Symptome haben mich jedoch dazu gebracht, aufmerksamer auf Veränderungen in meinem Körper zu achten.
 
-The first thing that needs attention is diet. Because I've been practicing intermittent fasting (16+8), which means keeping 16 hours without food and concentrating the main two meals within the remaining 8 hours, I haven't eaten breakfast for a long time. Due to the regular schedule of going to the office on workdays, I can basically ensure lunch around 12 o'clock, occasionally having a light meal with colleagues after work or eating something at home. However, on weekends it's much harder to control, sometimes having only one meal a day or just fruits. This part also needs adjustment, and I need to pay attention to nutritional balance.
+Das Erste, was Aufmerksamkeit benötigt, ist die Ernährung. Da ich intermittierendes Fasten (16+8) praktiziere, was bedeutet, 16 Stunden ohne Nahrung zu bleiben und die beiden Hauptmahlzeiten innerhalb der verbleibenden 8 Stunden zu konzentrieren, habe ich schon lange kein Frühstück mehr gegessen. Aufgrund des regelmäßigen Büroalltags an Arbeitstagen kann ich das Mittagessen um 12 Uhr im Grunde sicherstellen, gelegentlich eine leichte Mahlzeit mit Kollegen nach der Arbeit oder etwas zu Hause essen. Am Wochenende ist es jedoch viel schwieriger zu kontrollieren, manchmal gibt es nur eine Mahlzeit am Tag oder nur Obst. Dieser Teil muss auch angepasst werden, und ich muss auf die Ausgewogenheit der Ernährung achten.
 
-Sleep has always been a known issue that's difficult to adjust. For the past two months, it's as if I've been deprived of sleep, falling asleep around 4 or 5 am every day, waking up after 8, then commuting and starting a day's work. Actually, my mental state hasn't been affected much, surprisingly, not even needing a nap. But there has been some invisible consumption. This week, I've intentionally adjusted to sleeping from around 2 am to 8 am, which feels a bit better.
+Der Schlaf war schon immer ein bekanntes Problem, das schwer anzupassen ist. In den letzten zwei Monaten war es, als ob ich schlafdepriviert gewesen wäre, jeden Tag gegen 4 oder 5 Uhr morgens einzuschlafen, nach 8 Uhr aufzuwachen, dann zu pendeln und einen Arbeitstag zu beginnen. Eigentlich wurde mein geistiger Zustand nicht sehr beeinträchtigt, überraschenderweise brauchte ich nicht einmal ein Nickerchen. Aber es gab einen unsichtbaren Verbrauch. Diese Woche habe ich absichtlich angepasst, von etwa 2 Uhr morgens bis 8 Uhr zu schlafen, was sich etwas besser anfühlt.
 
-I'm going to have a full-body check-up in July. To be honest, I'm quite worried about the results. It's like those two years of intense entrepreneurship during university when I didn't dare to go to the hospital for a check-up. It seems that without a definite index, I could continue to overdraw my health with peace of mind. Fortunately, everything was fine then, and I hope it will be the same this time.
+Ich werde im Juli einen kompletten Gesundheitscheck machen lassen. Ehrlich gesagt bin ich ziemlich besorgt über die Ergebnisse. Es ist wie in den zwei Jahren intensiver unternehmerischer Tätigkeit während des Studiums, als ich nicht wagte, ins Krankenhaus zu gehen, um mich untersuchen zu lassen. Es scheint, dass ich ohne einen bestimmten Index meine Gesundheit mit ruhigem Gewissen weiter überziehen konnte. Glücklicherweise war damals alles in Ordnung, und ich hoffe, dass es diesmal genauso sein wird.
 
-## Goals
+## Ziele
 
-More than two years ago, when I was restructuring my blog, I wrote these paragraphs on the "[About](https://www.pseudoyu.com/en/about/)" page:
+Vor mehr als zwei Jahren, als ich meinen Blog umstrukturierte, schrieb ich diese Absätze auf der "[Über mich](https://www.pseudoyu.com/de/about/)"-Seite:
 
-> **In terms of life**, I hope to continue to support each other with my current close friends, maintain the current relationship with my family that is both intimate and friendly, face life's challenges together with the people I care about, and also meet more interesting people.
-> **Professionally**, I hope to continue to make progress and be able to leave some traces in the open-source world.
-> **Economically**, I hope to be self-sufficient, able to support doing what I want to do, and explore a more diverse future life.
-> **Socially**, I hope to have the opportunity to participate in more charitable activities or other forms of good deeds, to bring some small changes to the world.
+> **In Bezug auf das Leben** hoffe ich, weiterhin meine derzeitigen engen Freunde zu unterstützen, die derzeitige Beziehung zu meiner Familie aufrechtzuerhalten, die sowohl intim als auch freundschaftlich ist, den Herausforderungen des Lebens gemeinsam mit den Menschen zu begegnen, die mir am Herzen liegen, und auch mehr interessante Menschen kennenzulernen.
+> **Beruflich** hoffe ich, weiterhin Fortschritte zu machen und in der Lage zu sein, einige Spuren in der Open-Source-Welt zu hinterlassen.
+> **Wirtschaftlich** hoffe ich, selbstständig zu sein, in der Lage zu sein, das zu unterstützen, was ich tun möchte, und eine vielfältigere Zukunft zu erkunden.
+> **Gesellschaftlich** hoffe ich, die Möglichkeit zu haben, an mehr karitativen Aktivitäten oder anderen Formen guter Taten teilzunehmen, um einige kleine Veränderungen in der Welt zu bewirken.
 
-Interestingly, perhaps because what I set at that time was not very specific, or because I haven't made much progress in this aspect, looking back at this point now, I don't have much to add. I just think more concretely about what kind of person I want to become.
+Interessanterweise, vielleicht weil das, was ich damals festgelegt habe, nicht sehr spezifisch war, oder weil ich in diesem Aspekt nicht viel Fortschritt gemacht habe, habe ich jetzt, wenn ich zurückblicke, nicht viel hinzuzufügen. Ich denke nur konkreter darüber nach, was für ein Mensch ich werden möchte.
 
-Overall, I want to be an interesting person, to live a life that's a bit different. And the difference I pursue, I hope, is not just relying on changes in work content or environment, but rather to find or try and explore what I want to do and perhaps happen to be good at doing. Even if I don't have the ability to do it full-time or wholeheartedly, I hope to find it and persist.
+Insgesamt möchte ich ein interessanter Mensch sein, ein Leben führen, das ein bisschen anders ist. Und der Unterschied, den ich anstrebe, beruht hoffentlich nicht nur auf Veränderungen im Arbeitsinhalt oder in der Umgebung, sondern darauf, zu finden oder zu versuchen und zu erforschen, was ich tun möchte und vielleicht zufällig gut darin bin. Selbst wenn ich nicht die Fähigkeit habe, es vollzeit oder von ganzem Herzen zu tun, hoffe ich, es zu finden und daran festzuhalten.
 
-Of course, I want to be more specific. This part will also be recorded in the weekly review from now on, as a record of continuous exploration. At least I should look at some of the lifestyles I aspire to, and break down what I need to change and pay for to achieve what I want to do.
+Natürlich möchte ich konkreter sein. Dieser Teil wird ab jetzt auch im wöchentlichen Rückblick festgehalten, als Aufzeichnung der kontinuierlichen Erforschung. Zumindest sollte ich mir einige der Lebensstile ansehen, nach denen ich strebe, und aufschlüsseln, was ich ändern und wofür ich bezahlen muss, um das zu erreichen, was ich tun möchte.
 
-## The Rhythm of Life
+## Der Rhythmus des Lebens
 
-This week, I went out to eat with two friends separately. This is probably the most face-to-face communication I've had in the past few months apart from colleagues, and they are also among the very few friends I can talk to in Beijing.
+Diese Woche habe ich mit zwei Freunden separat gegessen. Das ist wahrscheinlich der meiste persönliche Kontakt, den ich in den letzten Monaten außer mit Kollegen hatte, und sie gehören auch zu den sehr wenigen Freunden, mit denen ich in Peking reden kann.
 
-One of them is a senior from my undergraduate school, one year ahead of me. We've always maintained a relatively close contact, regularly chatting about recent situations. When I traveled to Guangzhou before, I also received a lot of care from her. But meeting or chatting is far from frequent. I don't know if it's because of the identity of "President -> Department Head" or "Senior -> Junior" from university times, it seems that we've never had very deep inner communication. On the contrary, after we all started working, we have a deeper understanding of each other's life states, and can be more empathetic, giving mutual care and support.
+Eine von ihnen ist eine Seniorin aus meiner Uni, ein Jahr über mir. Wir haben immer einen relativ engen Kontakt aufrechterhalten und regelmäßig über die jüngsten Situationen geplaudert. Als ich vorher nach Guangzhou reiste, erhielt ich auch viel Fürsorge von ihr. Aber Treffen oder Plaudern ist bei weitem nicht häufig. Ich weiß nicht, ob es an der Identität "Präsidentin -> Abteilungsleiterin" oder "Seniorin -> Junior" aus Universitätszeiten liegt, es scheint, dass wir nie sehr tiefe innere Kommunikation hatten. Im Gegenteil, nachdem wir alle angefangen haben zu arbeiten, haben wir ein tieferes Verständnis für die Lebenszustände des anderen und können einfühlsamer sein, gegenseitige Fürsorge und Unterstützung geben.
 
-The other is also a senior from my undergraduate school, but I met her through my tutor Liangliang after graduation. At that time, I was about to go to Hong Kong, and Liangliang said she had previously studied for her master's degree in Hong Kong and subsequently worked there, so we could exchange ideas and have someone to rely on. However, just a month after I arrived in Hong Kong, she left due to personal planning. Here were some of my thoughts at that time:
+Die andere ist auch eine Seniorin aus meiner Uni, aber ich habe sie nach dem Abschluss durch meinen Tutor Liangliang kennengelernt. Damals war ich kurz davor, nach Hongkong zu gehen, und Liangliang sagte, sie habe zuvor ihren Master in Hongkong gemacht und anschließend dort gearbeitet, so dass wir Ideen austauschen und jemanden zum Anlehnen haben könnten. Jedoch verließ sie nur einen Monat nach meiner Ankunft in Hongkong aufgrund persönlicher Planung. Hier waren einige meiner Gedanken zu dieser Zeit:
 
 ![some_thoughts_about_boyi](https://image.pseudoyu.com/images/some_thoughts_about_boyi.png)
 
-Unconsciously, it's been almost two years. I didn't expect that I would come to work in Beijing later, which is quite a coincidence. Her lifestyle and attitude have always been what I aspire to. Whether it was in Hong Kong before or now in Beijing, even though the work environment and rhythm are completely different, she can still learn violin, paint, go surfing, boxing, rock climbing, dancing, etc. on weekends or in her spare time.
+Unbewusst sind es fast zwei Jahre geworden. Ich hätte nicht erwartet, dass ich später nach Peking zum Arbeiten kommen würde, was ziemlich ein Zufall ist. Ihr Lebensstil und ihre Einstellung waren schon immer das, wonach ich strebe. Ob es vorher in Hongkong war oder jetzt in Peking, auch wenn die Arbeitsumgebung und der Rhythmus völlig anders sind, kann sie immer noch an Wochenenden oder in ihrer Freizeit Geige lernen, malen, surfen, boxen, klettern, tanzen usw.
 
-She said she hopes to do something at least meaningful to herself every weekend from now on. I feel that she has always been able to practice some of her ideas. I think it's not just a matter of execution, in this aspect I might not be bad, but I can clearly feel that she is able to clearly define the boundaries between her work, life and personal ideas. I call it the rhythm of life, and I hope I can do better in the future.
+Sie sagte, sie hoffe, von nun an jedes Wochenende etwas zu tun, das zumindest für sie selbst bedeutungsvoll ist. Ich habe das Gefühl, dass sie immer in der Lage war, einige ihrer Ideen umzusetzen. Ich denke, es ist nicht nur eine Frage der Ausführung, in diesem Aspekt bin ich vielleicht nicht schlecht, aber ich kann deutlich spüren, dass sie in der Lage ist, die Grenzen zwischen ihrer Arbeit, ihrem Leben und ihren persönlichen Ideen klar zu definieren. Ich nenne es den Rhythmus des Lebens, und ich hoffe, ich kann in Zukunft besser darin werden.
 
-An interesting episode was chatting with the owner and a group of friends at the Japanese restaurant. Maybe it was the Beijing accent and the bizarre experiences, the whole conversation was like a stand-up comedy. It was also the first time I felt that I was quite good at catching jokes. It was also a rare purely relaxing experience in the past few months.
+Eine interessante Episode war das Plaudern mit dem Besitzer und einer Gruppe von Freunden im japanischen Restaurant. Vielleicht lag es am Pekinger Akzent und den bizarren Erfahrungen, die ganze Unterhaltung war wie eine Stand-up-Comedy. Es war auch das erste Mal, dass ich das Gefühl hatte, ziemlich gut im Witze-Verstehen zu sein. Es war auch eine seltene, rein entspannende Erfahrung in den letzten Monaten.
 
-## Learning, Input and Output
+## Lernen, Input und Output
 
-This part will record some of the various audio-visual books I've seen, interesting things I've tinkered with, and some progress in work and study.
+Dieser Teil wird einige der verschiedenen audiovisuellen Bücher, die ich gesehen habe, interessante Dinge, mit denen ich herumgetüftelt habe, und einige Fortschritte in Arbeit und Studium festhalten.
 
-### Technical Learning
+### Technisches Lernen
 
-I have to admit that both my work output and my own learning progress during leisure time have fallen behind this week. This is mainly because the project has come to an end, most of the work tasks are to cooperate in completing some tests and document changes, as well as discussing some technical solutions, without any substantial development work; the rest is explaining our products and implementation solutions to new project clients of the company.
+Ich muss zugeben, dass sowohl meine Arbeitsleistung als auch mein eigener Lernfortschritt in der Freizeit diese Woche zurückgeblieben sind. Dies liegt hauptsächlich daran, dass das Projekt zu Ende gegangen ist, die meisten Arbeitsaufgaben darin bestehen, bei der Durchführung einiger Tests und Dokumentänderungen zu kooperieren, sowie einige technische Lösungen zu diskutieren, ohne substanzielle Entwicklungsarbeit; der Rest besteht darin, unsere Produkte und Implementierungslösungen neuen Projektkunden des Unternehmens zu erklären.
 
-Even so, there are still many trivial matters. I often get home after 9 o'clock, and haven't taken out a complete time to watch courses or read books. I need to make some adjustments next week, mainly focusing on contract development and CSAPP.
+Selbst so gibt es noch viele Kleinigkeiten. Ich komme oft erst nach 21 Uhr nach Hause und habe keine komplette Zeit genommen, um Kurse zu schauen oder Bücher zu lesen. Ich muss nächste Woche einige Anpassungen vornehmen, hauptsächlich konzentriert auf Vertragsent
 
-I was invited as a guest to participate in a technical sharing on July 14th, facing a quite famous community, about half an hour, with the theme "How web2 engineers can enter web3". It's also my first time participating in such a large-scale technical sharing, and I've just entered the industry not long ago, so I'm a bit nervous and need to prepare well.
+wicklung und CSAPP.
+
+Ich wurde als Gast eingeladen, am 14. Juli an einem technischen Austausch teilzunehmen, vor einer ziemlich bekannten Community, etwa eine halbe Stunde lang, mit dem Thema "Wie web2-Ingenieure in web3 einsteigen können". Es ist auch das erste Mal, dass ich an einem so großen technischen Austausch teilnehme, und ich bin erst seit kurzem in der Branche, also bin ich ein bisschen nervös und muss mich gut vorbereiten.
 
 ### Input
 
-#### Books
+#### Bücher
 
-In terms of books, this week I finished "Lolita" which I had been reading during my commute, and started reading "The Stolen Bicycle". I'm gradually getting used to reading books on crowded subways, accumulating slowly this way can allow me to read a lot.
+In Bezug auf Bücher habe ich diese Woche "Lolita" beendet, das ich während meines Pendelns gelesen hatte, und angefangen, "Das gestohlene Fahrrad" zu lesen. Ich gewöhne mich allmählich daran, in überfüllten U-Bahnen Bücher zu lesen, langsam auf diese Weise zu akkumulieren, kann mir erlauben, viel zu lesen.
 
-I saw this [thread](https://twitter.com/yihong0618/status/1507000968478871559?s=21&t=TfLr28X_8uLPyPPJCrzYeA) by [@yihong0618](https://twitter.com/yihong0618), and I also want to revisit many of Murakami's books. I remember reading "1Q84" with my classmates in high school, and was deeply impressed by its form of expression; during university, reading books like "What I Talk About When I Talk About Running" also gave me a lot of thoughts about life. Perhaps rereading some at this stage will bring a different experience.
+Ich sah diesen [Thread](https://twitter.com/yihong0618/status/1507000968478871559?s=21&t=TfLr28X_8uLPyPPJCrzYeA) von [@yihong0618](https://twitter.com/yihong0618), und ich möchte auch viele von Murakamis Büchern erneut lesen. Ich erinnere mich, dass ich in der Oberschule "1Q84" mit meinen Klassenkameraden las und von seiner Ausdrucksform tief beeindruckt war; während des Studiums gaben mir Bücher wie "Wovon ich rede, wenn ich vom Laufen rede" auch viele Gedanken über das Leben. Vielleicht wird das erneute Lesen einiger in dieser Phase eine andere Erfahrung bringen.
 
-#### TV Series
+#### TV-Serien
 
-1. **The Boys**, a novel anti-superhero theme, the quality of the three seasons has been consistently high, very worth recommending
-2. **Mr. Robot**, I watched the first few seasons a few years ago, but I rewatched it and followed the latest season. It's very exciting, and many places are also thought-provoking
-3. **High Score**, a documentary about the history of electronic games that I watched during meal breaks every day. It's not outstanding but it's a good popular science
+1. **The Boys**, ein neuartiges Anti-Superhelden-Thema, die Qualität der drei Staffeln war durchgehend hoch, sehr empfehlenswert
+2. **Mr. Robot**, ich habe die ersten Staffeln vor ein paar Jahren gesehen, aber ich habe es noch einmal geschaut und die neueste Staffel verfolgt. Es ist sehr spannend, und viele Stellen regen auch zum Nachdenken an
+3. **High Score**, eine Dokumentation über die Geschichte der elektronischen Spiele, die ich jeden Tag während der Essenspausen gesehen habe. Sie ist nicht herausragend, aber eine gute Populärwissenschaft
 
-#### Movies
+#### Filme
 
-1. **Blade Runner 2049**, some apocalyptic themes plus elements of love. Perhaps now that technology has developed to the present, looking at these themes again, there's less sense of surprise but more worry and even despair about the future
-2. **Her**, also with elements of technology and love, telling a story of falling in love with artificial intelligence. To be honest, there's quite a bit I can relate to. Perhaps I'm also too reliant on and addicted to technology, even ignoring the sense of reality in many people's emotional lives
-3. **Nomadland**, describing the living conditions of a group of homeless people in America. It can serve as another perspective, but the sense of deliberate rendering is too heavy to truly move
-4. **Roman Holiday**, a classic is a classic, Audrey Hepburn is truly beautiful
-5. **Groundhog Day**, I had seen a Groundhog Day-style short film made by a Japanese YouTuber before, and had always wanted to watch this. Finally caught up
-6. **Persian Lessons**, I remember missing it when it was re-released before, so I'm catching up. But it wasn't very surprising. Among similar war themes, I might still prefer "Life Is Beautiful"
-7. **The Wind Rises**, also a war theme. I was recommended it in high school but never watched it. Finally caught up, and I quite like it
-
-#### Anime
-
-1. **Kaguya-sama: Love Is War Season 3**, a romantic comedy, I really like it. Every season has been quite amazing, and the ending was really sweet
-2. **SPY×FAMILY**, also leaning towards comedy. The first few episodes were quite surprising, but later it became a bit too exaggerated. Some character settings are also not very consistent, but overall it's very joyful
-3. **Summer Time Rendering**, the most surprising new anime. The worldview and sense of rhythm are both amazing. It's also a half-year series, will continue to follow
-4. **My Stepmom's Daughter Is My Ex**, it feels like my second dimension attribute suddenly awakened, and I started to follow some anime again. The name is weird but after watching one episode, it's not bad
-
-### Output
-
-This week I still wrote two articles that I'm quite satisfied with:
-
-1. [Thin Client Development Workflow Based on frp Intranet Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
-2. [Warp, iTerm2 or Alacritty? My Terminal Tinkering Notes](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
-
-The surprise is that the first one was selected for the member's selection of Sspai, which is also unlocking a new achievement; the latter has just been completed and sent to the editor, waiting for feedback; but the blockchain-related article that was commissioned much earlier, I haven't started yet, maybe it should also be put on the agenda.
-
-Gradually, I've developed my own style of writing such articles, writing logic, and have some of my own writing rhythm and fixed frequency. I will continue to accumulate some topics I want to write about in the future.
-
-## Habits, Interests and Changes
-
-There's no progress in cultivating habits and interests this week. Later, at least Ring Fit Adventure should have a fixed frequency to start, and some things I want to learn should also begin. I need to overcome the sense of weariness towards life.
-
-Then I want to dye my hair, currently considering granny gray or flaxen green, haven't chosen yet.
-
-## Others
-
-The most noteworthy thing is that my 6th-grade sister has started writing a web novel series, which is about immortal cultivation. She stays up an hour late every night to type for an hour on her iPad, has persisted for about a week with daily updates, published on a web novel platform, and has received quite a lot of reads and exposure. Many people are urging for updates, and we often compete with each other now, frequently asking each other if we're writing articles.
-
-Next week I plan to start taking compensatory leave to accompany my parents and family. The last time I went back was during the National Day holiday last year. I also want to find an opportunity to travel, but the pandemic has really brought many variables.
+1. **Blade Runner 2049**, einige apokalyptische Themen plus Elemente der Liebe. Vielleicht jetzt, da sich die Technologie bis zur Gegenwart entwickelt hat, gibt es beim Betrachten dieser Themen weniger Überraschung, aber mehr Sorge und sogar Verzweiflung über die Zukunft
+2. **Her**, auch mit Elementen von Technologie und Liebe, erzählt eine Geschichte vom Verlieben in künstliche Intelligenz. Ehrlich gesagt, gibt es ziemlich viel, womit ich mich identifizieren kann. Vielleicht bin ich auch zu abhängig und süchtig

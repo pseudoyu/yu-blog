@@ -54,7 +54,7 @@ Diese Art von Erfahrung ist recht interessant. Der Versuch, an Open Source teilz
 
 Wenn Sie interessiert sind, können Sie [Cusdis](https://cusdis.co) ausprobieren. Ich habe auch schon einmal einen Artikel über die Bereitstellung geschrieben, auf den Sie sich beziehen können:
 
-- [Leichtgewichtige Open-Source-Lösung für kostenlose Blog-Kommentarsysteme (Cusdis + Railway) · Pseudoyu](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Leichtgewichtige Open-Source-Lösung für kostenlose Blog-Kommentarsysteme (Cusdis + Railway) · Pseudoyu](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 ## ChatGPT
 

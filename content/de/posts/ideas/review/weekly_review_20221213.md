@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #22 - Involution and Anxiety"
+title: "Wochenrückblick #22 - Involution und Angst"
 date: 2022-12-13T22:24:02+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "balance", "home", "front-end"]
@@ -10,60 +10,60 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from `2022-12-07` to `2022-12-13`.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom `07.12.2022` bis zum `13.12.2022`.
 
-It's been about 20 cumulative days since I last stepped out of my home. Given the current workload of multiple concurrent projects and the almost-cleared negative status, I haven't planned to return to the office yet. I'm even considering staying at home until before the new year. The self-quarantine life is quite pleasant.
+Es sind etwa 20 Tage vergangen, seit ich zuletzt mein Zuhause verlassen habe. Angesichts der aktuellen Arbeitsbelastung mit mehreren parallelen Projekten und des fast bereinigten negativen Status habe ich noch nicht geplant, ins Büro zurückzukehren. Ich erwäge sogar, bis kurz vor Neujahr zu Hause zu bleiben. Das Leben in Selbstquarantäne ist recht angenehm.
 
-The busy work and side projects have blurred the line between weekends and workdays. However, years of ingrained habits still give me the illusion that "weekends are my own time, isn't it a waste to just sleep?" Plus, without the pressure of morning meetings, I've been staying up later. Nevertheless, I've done quite a few interesting things, explored some topics I've always wanted to learn and applied them to projects, and even made some demo toys. I've been in a rather happy state throughout.
+Die geschäftige Arbeit und Nebenprojekte haben die Grenze zwischen Wochenenden und Arbeitstagen verwischt. Dennoch geben mir jahrelang eingeübte Gewohnheiten immer noch die Illusion, dass "Wochenenden meine eigene Zeit sind, ist es nicht Verschwendung, einfach zu schlafen?" Zudem habe ich ohne den Druck morgendlicher Besprechungen länger aufbleiben können. Nichtsdestotrotz habe ich einige interessante Dinge getan, Themen erkundet, die ich schon immer lernen wollte, und sie in Projekten angewendet, und sogar einige Demo-Spielereien erstellt. Ich war die ganze Zeit über in einem recht glücklichen Zustand.
 
-In other moments, I watched the Netherlands match with a close friend in Australia via voice call (though they lost), and learned that I'll receive a delightful gift (although it'll be delivered to Hong Kong, and I can't get it for now). A friend of mine, influenced by me, has also started writing weekly reviews, and we're urging each other to update (though I've procrastinated for a few days again). My cat now understands her name, and a simple "Nie Nie, come here" can summon her from any corner of the house, just like a Pokémon. And many other interesting things.
+In anderen Momenten habe ich das Spiel der Niederlande mit einem engen Freund in Australien per Sprachanruf verfolgt (obwohl sie verloren haben) und erfahren, dass ich ein erfreuliches Geschenk erhalten werde (auch wenn es nach Hongkong geliefert wird und ich es vorerst nicht bekommen kann). Ein Freund von mir hat, von mir beeinflusst, ebenfalls begonnen, Wochenrückblicke zu schreiben, und wir drängen einander zur Aktualisierung (obwohl ich wieder einige Tage aufgeschoben habe). Meine Katze versteht jetzt ihren Namen, und ein einfaches "Nie Nie, komm her" kann sie aus jeder Ecke des Hauses herbeirufen, ganz wie ein Pokémon. Und viele andere interessante Dinge.
 
-## Involution and Anxiety
+## Involution und Angst
 
-In the latest learning record video by [polebug](https://space.bilibili.com/58078997), I saw a discussion about involution and anxiety. Personally, I'm not very fond of the word "involution". Calling oneself "involuted" seems to carry a sense of superiority and self-satisfaction. Hearing others evaluate it this way reminds me of the peculiar feeling I had as a child when teachers would say, "This child isn't smart, but he's always hardworking and deserves encouragement."
+Im neuesten Lernaufzeichnungsvideo von [polebug](https://space.bilibili.com/58078997) sah ich eine Diskussion über Involution und Angst. Persönlich mag ich das Wort "Involution" nicht besonders. Sich selbst als "involviert" zu bezeichnen, scheint einen Hauch von Überlegenheit und Selbstzufriedenheit zu tragen. Wenn ich andere es so bewerten höre, erinnert es mich an das seltsame Gefühl, das ich als Kind hatte, wenn Lehrer sagten: "Dieses Kind ist nicht intelligent, aber es ist immer fleißig und verdient Ermutigung."
 
-"Involution" seems to go hand in hand with the pervasive sense of anxiety nowadays, stemming from work project pressures, confusion about one's direction or dissatisfaction with the pace of improvement, and the so-called peer pressure. We tend to place ourselves on the negative side of our current stage, often influenced by certain arguments to deny ourselves, and then squeeze our free time through various forms of self-satisfying efforts, often ending up physically and mentally exhausted.
+"Involution" scheint Hand in Hand zu gehen mit dem allgegenwärtigen Gefühl der Angst heutzutage, das von Projektdruck bei der Arbeit, Verwirrung über die eigene Richtung oder Unzufriedenheit mit dem Verbesserungstempo und dem sogenannten Gruppendruck herrührt. Wir neigen dazu, uns selbst auf die negative Seite unserer aktuellen Phase zu stellen, oft beeinflusst von bestimmten Argumenten, uns selbst zu verleugnen, und dann unsere Freizeit durch verschiedene Formen selbstzufriedenstellender Bemühungen zu verdichten, was oft in körperlicher und geistiger Erschöpfung endet.
 
-I prefer the description of "[TIL](https://knowyourmeme.com/memes/today-i-learned-til)" that's more commonly mentioned abroad. Today I Learned - beyond completing basic or repetitive work duties, what have you learned? It could be reading some leisure books or reference books, learning a new technology or summarizing previous experiences into writing, starting a new project or optimizing existing ones. As long as it's within the realm of curiosity and thirst for knowledge, it can be called a "TIL".
+Ich bevorzuge die Beschreibung von "[TIL](https://knowyourmeme.com/memes/today-i-learned-til)", die im Ausland häufiger erwähnt wird. Today I Learned - was hast du über die Erfüllung grundlegender oder sich wiederholender Arbeitspflichten hinaus gelernt? Es könnte das Lesen einiger Freizeitbücher oder Nachschlagewerke sein, das Erlernen einer neuen Technologie oder das Zusammenfassen früherer Erfahrungen in Schriftform, das Beginnen eines neuen Projekts oder die Optimierung bestehender. Solange es im Bereich der Neugier und des Wissensdursts liegt, kann es als "TIL" bezeichnet werden.
 
-Learning and exploration itself is an interesting thing, and it doesn't necessarily have to be directly related to results or benefits. Although it might sound a bit cliché, my limited experience has always led me to believe in a kind of "uselessness is useful" mindset. Often, things done out of interest, curiosity, or other pure purposes in the past bring surprises at some stage in the future. What we need to do is often just follow our hearts and wait quietly.
+Lernen und Erkundung an sich ist eine interessante Sache, und es muss nicht unbedingt direkt mit Ergebnissen oder Vorteilen verbunden sein. Obwohl es etwas klischeehaft klingen mag, hat mich meine begrenzte Erfahrung immer an eine Art "Nutzlosigkeit ist nützlich"-Denkweise glauben lassen. Oft bringen Dinge, die in der Vergangenheit aus Interesse, Neugier oder anderen reinen Zwecken getan wurden, in irgendeiner Phase der Zukunft Überraschungen. Was wir oft tun müssen, ist einfach unserem Herzen zu folgen und still zu warten.
 
-## Daily Life with "Nie Nie"
+## Alltag mit "Nie Nie"
 
-This week has been another stay-at-home life together. I can gradually feel the trust and emotional dependency being built (and she's also become much more unrestrained). She would quietly sleep in front of the keyboard amid the noisy voices and keyboard clicks while I'm busy in various meetings. When I haven't paid attention to her for a long time, she would circle around my feet, craving for a hug. She would watch the World Cup with me, focusing on the movements on the field. She would parkour into my blanket before sleep, and even step on my face to "wake" me up when I'm reluctant to get out of bed to change her food.
+Diese Woche war ein weiteres Zuhause-Leben zusammen. Ich kann allmählich spüren, wie sich Vertrauen und emotionale Abhängigkeit aufbauen (und sie ist auch viel ungezwungener geworden). Sie würde inmitten der lauten Stimmen und Tastaturklicks während meiner verschiedenen Meetings leise vor der Tastatur schlafen. Wenn ich ihr lange keine Aufmerksamkeit geschenkt habe, würde sie um meine Füße kreisen und nach einer Umarmung verlangen. Sie würde mit mir die Weltmeisterschaft schauen und sich auf die Bewegungen auf dem Feld konzentrieren. Sie würde vor dem Schlafengehen in meine Decke parkourieren und sogar auf mein Gesicht treten, um mich "aufzuwecken", wenn ich zögere, aufzustehen, um ihr Futter zu wechseln.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_18.jpg" caption="Fun fact: cat hair falling into the router can cause network congestion (bad joke)">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_18.jpg" caption="Fun Fact: Katzenhaar, das in den Router fällt, kann Netzwerkstaus verursachen (schlechter Witz)">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_17.jpg" caption="If you won't play with me, I'll use the cat teaser to tease myself">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_17.jpg" caption="Wenn du nicht mit mir spielst, werde ich mich selbst mit dem Katzenspielzeug necken">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_19.jpg" caption="Netherlands, can you do it or not? Should I step in?">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_19.jpg" caption="Niederlande, könnt ihr es oder nicht? Soll ich eingreifen?">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_20.jpg" caption="Stop working, be my pillow">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_20.jpg" caption="Hör auf zu arbeiten, sei mein Kissen">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg" caption="Stop working, be my footrest">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_22.jpg" caption="Hör auf zu arbeiten, sei meine Fußstütze">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_21.jpg" caption="Stop working, I need a hug">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_21.jpg" caption="Hör auf zu arbeiten, ich brauche eine Umarmung">}}
 
-## Other
+## Sonstiges
 
-This section will record my input and output, as well as other things I find interesting.
+Dieser Abschnitt wird meine Inputs und Outputs sowie andere Dinge, die ich interessant finde, festhalten.
 
-### Technology
+### Technologie
 
-Due to the needs of a side project, I properly studied React this week, following some courses I had previously bought on Udemy. I feel that front-end development is quite interesting now. When I was in college, I earned some extra money by writing websites. I remember at that time, I was cobbling together HTML, CSS, and JavaScript on my own. I think I used jQuery to get elements or something. I remember using ThinkPHP then, and there was some MVC framework. Even the WeChat mini-program I made later feels like a relic of the past now.
+Aufgrund der Anforderungen eines Nebenprojekts habe ich diese Woche React ordentlich studiert und einige Kurse verfolgt, die ich zuvor auf Udemy gekauft hatte. Ich finde, dass Front-End-Entwicklung jetzt recht interessant ist. Als ich im College war, verdiente ich etwas Extrageld mit dem Schreiben von Websites. Ich erinnere mich, dass ich damals HTML, CSS und JavaScript selbst zusammenbastelte. Ich glaube, ich benutzte jQuery, um Elemente zu bekommen oder so. Ich erinnere mich, dass ich damals ThinkPHP verwendete, und es gab irgendein MVC-Framework. Sogar das WeChat-Mini-Programm, das ich später gemacht habe, fühlt sich jetzt wie ein Relikt der Vergangenheit an.
 
-Because I haven't written front-end for a long time and don't have much technological baggage, I used JavaScript + React + TailWind CSS + daisyUI to cobble together a demo practice project "GitHub Finder" for finding GitHub users and repos. I feel that there are now many more tool chains and libraries for writing front-end. I barely wrote any CSS for the entire project, and the mobile responsiveness is pretty good too. It's quite comfortable.
+Da ich lange Zeit kein Front-End mehr geschrieben habe und nicht viel technologisches Gepäck mitbringe, habe ich JavaScript + React + TailWind CSS + daisyUI verwendet, um ein Demo-Übungsprojekt "GitHub Finder" zum Finden von GitHub-Benutzern und -Repositories zusammenzubasteln. Ich habe das Gefühl, dass es jetzt viel mehr Werkzeugketten und Bibliotheken für das Schreiben von Front-End gibt. Ich habe für das gesamte Projekt kaum CSS geschrieben, und die mobile Reaktionsfähigkeit ist auch ziemlich gut. Es ist recht komfortabel.
 
-However, the project I need to use later requires TypeScript + Next.js + TailWind CSS, so this demo is just for building a foundation.
+Allerdings erfordert das Projekt, das ich später verwenden muss, TypeScript + Next.js + TailWind CSS, sodass diese Demo nur zum Aufbau einer Grundlage dient.
 
-Interestingly, after writing a lot of JavaScript these two weeks, the other day when I was screen sharing with a small leader in my work to modify Go code, I instinctively used `.length` to get the length of an array. It took me a while to realize after it reported an error. I could feel the confusion from the other side of the screen, as if I had forgotten how to write Go after just a few days away from it, haha.
+Interessanterweise habe ich, nachdem ich in diesen zwei Wochen viel JavaScript geschrieben hatte, neulich, als ich mit einem kleinen Leiter in meiner Arbeit Go-Code per Bildschirmfreigabe modifizierte, instinktiv `.length` verwendet, um die Länge eines Arrays zu erhalten. Es dauerte eine Weile, bis ich es realisierte, nachdem es einen Fehler gemeldet hatte. Ich konnte die Verwirrung von der anderen Seite des Bildschirms spüren, als ob ich nach nur wenigen Tagen weg davon vergessen hätte, wie man Go schreibt, haha.
 
-I feel like I'm getting closer and closer to being able to cobble together some interesting little tools. I'm happy about that.
+Ich habe das Gefühl, dass ich dem Zusammenbasteln einiger interessanter kleiner Tools immer näher komme. Darüber freue ich mich.
 
 ### Input
 
 #### Anime
 
-- **The Three-Body Problem**, I had been looking forward to the animated version of The Three-Body Problem for a while. Two episodes have been released. I personally have read about half of the original novel, but I'm not a big fan and don't have much "faith" in it. Overall, I think it's pretty good. The visuals and pacing are decent.
+- **Die Drei Sonnen**, ich hatte mich schon eine Weile auf die animierte Version von Die Drei Sonnen gefreut. Zwei Folgen wurden veröffentlicht. Ich persönlich habe etwa die Hälfte des Originalromans gelesen, bin aber kein großer Fan und habe nicht viel "Glauben" daran. Insgesamt finde ich es ziemlich gut. Die Visuals und das Tempo sind anständig.

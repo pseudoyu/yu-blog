@@ -12,7 +12,7 @@ authors:
 
 ## Vorwort
 
-Nach einem Jahr blockchain-bezogener Studien an der HKU entwickelte ich ein Interesse am Bereich der verteilten Speicherung. Mein Abschlussprojekt stand ebenfalls in Verbindung mit IPFS, wie in "[Uright - Blockchain Music Copyright Management ÐApp](https://www.pseudoyu.com/en/2021/05/10/uright_case_study/)" detailliert beschrieben. Nach meiner Rückkehr aufs Festland hatte ich die Gelegenheit, mit Dr. Sun Ye vom CNFS Protocol Lab zusammenzuarbeiten, um dieses Paper "Forschung zur Cloud-Computing-Verarbeitung und Optimierung verteilter Computer (Blockchain-Netzwerkspeicherung und Optimierung basierend auf CNFS)" zu verfassen, was mein Verständnis von verteilter Netzwerkspeicherung und -berechnung vertiefte. Ich dokumentiere diese Erfahrung hier.
+Nach einem Jahr blockchain-bezogener Studien an der HKU entwickelte ich ein Interesse am Bereich der verteilten Speicherung. Mein Abschlussprojekt stand ebenfalls in Verbindung mit IPFS, wie in "[Uright - Blockchain Music Copyright Management ÐApp](https://www.pseudoyu.com/de/2021/05/10/uright_case_study/)" detailliert beschrieben. Nach meiner Rückkehr aufs Festland hatte ich die Gelegenheit, mit Dr. Sun Ye vom CNFS Protocol Lab zusammenzuarbeiten, um dieses Paper "Forschung zur Cloud-Computing-Verarbeitung und Optimierung verteilter Computer (Blockchain-Netzwerkspeicherung und Optimierung basierend auf CNFS)" zu verfassen, was mein Verständnis von verteilter Netzwerkspeicherung und -berechnung vertiefte. Ich dokumentiere diese Erfahrung hier.
 
 Dieses Paper wurde in die ICCEA (2021 International Conference on Electronic, Electrical and Computer) aufgenommen.
 

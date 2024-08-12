@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #17 - Him and His Cat"
+title: "Wochenrückblick #17 - Er und seine Katze"
 date: 2022-10-31T10:46:08+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "relationship", "adjustment"]
@@ -10,96 +10,96 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from October 28 to October 31, 2022.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 28. Oktober bis zum 31. Oktober 2022.
 
-As the previous weekly review was updated quite late, this period seems particularly brief in its time span. However, it holds special significance due to a major change that entered my life.
+Da der vorherige Wochenrückblick recht spät aktualisiert wurde, erscheint dieser Zeitraum in seiner Spanne besonders kurz. Dennoch ist er von besonderer Bedeutung aufgrund einer großen Veränderung, die in mein Leben trat.
 
-After a three-day journey to cat shelters from Friday to Sunday, filled with indecision, I brought home a silver point (silver shaded colorpoint? I just realized there are so many varieties) kitten that caught my eye. The name is yet to be decided, but I've once again embarked on a life with a feline companion.
+Nach einer dreitägigen Reise zu Katzenauffangstationen von Freitag bis Sonntag, voller Unentschlossenheit, brachte ich ein silberfarbenes (silberschattiertes Colorpoint? Mir wurde gerade bewusst, wie viele Varianten es gibt) Kätzchen nach Hause, das mir ins Auge fiel. Der Name steht noch nicht fest, aber ich habe mich erneut auf ein Leben mit einem felinen Gefährten eingelassen.
 
-## Him and His Cat
+## Er und seine Katze
 
-This title is inspired by an anime called "She and Her Cat," which contains a quote that left a deep impression on me:
+Dieser Titel ist inspiriert von einem Anime namens "Sie und ihre Katze", der ein Zitat enthält, das mich tief beeindruckt hat:
 
-> I've been searching for traces of her, and the reason I search for her is precisely because she is searching for me too. — "She and Her Cat"
+> Ich bin auf der Suche nach ihren Spuren, und der Grund, warum ich nach ihr suche, ist genau der, dass sie auch nach mir sucht. — "Sie und ihre Katze"
 
-I've always been fond of cats. Back in 2016, seeing a cafe owner's adorable Ragdoll cat sparked thoughts of owning one myself. But it seems that before my previous relationship, I had never truly considered the idea of having a cat, or rather, living a life accompanied by a feline friend. Perhaps the enthusiasm and patience for cats were there, but I always felt unprepared to take responsibility for a new life companion. My own life often seemed in disarray, so how could I presume to be responsible for another being's entire existence? I once came across a simple yet poignant saying:
+Ich mochte schon immer Katzen. Als ich 2016 die entzückende Ragdoll-Katze eines Cafébesitzers sah, kam mir der Gedanke, selbst eine zu besitzen. Aber es scheint, dass ich vor meiner vorherigen Beziehung nie wirklich in Betracht gezogen hatte, eine Katze zu besitzen, oder besser gesagt, ein Leben in Begleitung eines felinen Freundes zu führen. Vielleicht waren die Begeisterung und Geduld für Katzen vorhanden, aber ich fühlte mich immer unvorbereitet, die Verantwortung für einen neuen Lebensgefährten zu übernehmen. Mein eigenes Leben erschien oft chaotisch, wie konnte ich also davon ausgehen, für die gesamte Existenz eines anderen Wesens verantwortlich zu sein? Ich stieß einmal auf einen einfachen, aber eindringlichen Spruch:
 
-> A cat may only be a small part of your life, but you are its entire world.
+> Eine Katze mag nur ein kleiner Teil deines Lebens sein, aber du bist ihre ganze Welt.
 
-After settling into a stable work and life in Beijing, the idea of "getting a cat" seemed to happen naturally. I spent a weekend visiting several cat shelters and quickly decided on a kitten that caught my eye, whom I named Xiao Shu. Like first-time parents, I felt curious yet nervous about every aspect of this new companion.
+Nachdem ich mich in Peking in ein stabiles Arbeits- und Privatleben eingefunden hatte, schien die Idee, "eine Katze zu bekommen", ganz natürlich zu entstehen. Ich verbrachte ein Wochenende damit, mehrere Katzenauffangstationen zu besuchen, und entschied mich schnell für ein Kätzchen, das mir ins Auge fiel und dem ich den Namen Xiao Shu gab. Wie Eltern beim ersten Kind fühlte ich mich neugierig, aber auch nervös in Bezug auf jeden Aspekt dieses neuen Gefährten.
 
 ![pity_and_ideas_in_hk](https://image.pseudoyu.com/images/pity_and_ideas_in_hk.png)
 
-As days passed, it seemed to become an ordinary part of life, but in truth, it was far from a given. There was a time when I viewed the everyday as routine, believing that I and everything around me had changed, only to realize it was more self-satisfaction than anything else.
+Mit der Zeit schien es zu einem gewöhnlichen Teil des Lebens zu werden, aber in Wahrheit war es alles andere als selbstverständlich. Es gab eine Zeit, in der ich das Alltägliche als Routine betrachtete und glaubte, dass ich und alles um mich herum sich verändert hätten, nur um zu erkennen, dass es mehr Selbstzufriedenheit als alles andere war.
 
-I must admit, shamefully, that during my previous not-so-brief experience of cat ownership, I was more focused on enjoying the role. I looked forward to companionship when busy and tired, sought comfort when in pain or depression, and found an outlet for joy and excitement. But when it came to the finer details of caring for a cat, I didn't pay much attention. Even now, I'd struggle to accurately name Xiao Shu's favorite brand of cat food or canned food. I could hardly be called a competent caretaker.
+Ich muss beschämt zugeben, dass ich während meiner vorherigen, nicht gerade kurzen Erfahrung als Katzenbesitzer mehr darauf fokussiert war, die Rolle zu genießen. Ich freute mich auf Gesellschaft, wenn ich beschäftigt und müde war, suchte Trost in Schmerz oder Depression und fand ein Ventil für Freude und Aufregung. Aber wenn es um die feineren Details der Katzenpflege ging, habe ich nicht viel Aufmerksamkeit darauf verwendet. Selbst jetzt würde ich Schwierigkeiten haben, Xiao Shus Lieblingsmarke für Katzenfutter oder Dosenfutter genau zu benennen. Ich konnte kaum als kompetenter Betreuer bezeichnet werden.
 
-What happened afterwards came about naturally, as I mentioned in a previous post, "Weekly Review #08 - Career Musings, 404 Not Found, and Cats":
+Was danach geschah, ergab sich natürlich, wie ich in einem früheren Beitrag, "Wochenrückblick #08 - Karriereüberlegungen, 404 Not Found und Katzen", erwähnte:
 
-> To be honest, I hadn't considered getting a cat before being with her. I suppose I felt that someone who couldn't even take care of themselves had no right to be responsible for another living being. But when we actually had a new family member, I gradually discovered that I enjoyed this sense of dependence and being depended upon. It seemed to give life many new goals.
+> Um ehrlich zu sein, hatte ich vor der Beziehung mit ihr nicht daran gedacht, eine Katze zu bekommen. Ich nahm wohl an, dass jemand, der sich nicht einmal um sich selbst kümmern konnte, kein Recht hatte, für ein anderes Lebewesen verantwortlich zu sein. Aber als wir tatsächlich ein neues Familienmitglied hatten, entdeckte ich nach und nach, dass ich dieses Gefühl der Abhängigkeit und des Gebrauchtwerdens genoss. Es schien dem Leben viele neue Ziele zu geben.
 
-> After she left, Xiao Shu was taken away too. Though I often jokingly tell friends that I've lost "both human and cat," I know deep down that my care wasn't as good as hers, so this choice was understandable. Still, every recollection of the past brings double the sadness.
+> Nachdem sie gegangen war, wurde auch Xiao Shu weggebracht. Obwohl ich Freunden oft scherzhaft sage, dass ich "sowohl Mensch als auch Katze" verloren habe, weiß ich tief im Inneren, dass meine Fürsorge nicht so gut war wie ihre, daher war diese Entscheidung verständlich. Dennoch bringt jede Erinnerung an die Vergangenheit doppelte Traurigkeit mit sich.
 
-> After watching the documentary "The Secret Life of Cats" last night, I gained more insight into many of the thoughts and interaction details of cats that I had previously overlooked. It vaguely sparked the idea of maybe getting another cat myself. But this feels like a betrayal to Xiao Shu, and I still haven't mentally prepared myself to properly care for a new member. Welcoming a new member when I'm the one in need can hardly be called a responsible choice for either of us.
+> Nachdem ich gestern Abend die Dokumentation "Das geheime Leben der Katzen" gesehen hatte, gewann ich mehr Einblick in viele der Gedanken und Interaktionsdetails von Katzen, die ich zuvor übersehen hatte. Es weckte vage die Idee, vielleicht selbst wieder eine Katze zu bekommen. Aber das fühlt sich wie ein Verrat an Xiao Shu an, und ich habe mich mental noch nicht darauf vorbereitet, mich angemessen um ein neues Mitglied zu kümmern. Ein neues Mitglied willkommen zu heißen, wenn ich derjenige bin, der Hilfe braucht, kann kaum als verantwortungsvolle Wahl für einen von uns bezeichnet werden.
 
-> Perhaps someday in the future.
+> Vielleicht irgendwann in der Zukunft.
 
-That "someday in the future" I mentioned has arrived.
+Dieses "irgendwann in der Zukunft", von dem ich sprach, ist nun gekommen.
 
-> Objects in the distance appear small and blurry, while things nearby are very clear. Memories are the same—distant past is vague, recent events are remembered in detail. It should be this way. But lately, I've been able to recall past events with clarity. — "She and Her Cat"
+> Objekte in der Ferne erscheinen klein und verschwommen, während Dinge in der Nähe sehr klar sind. Erinnerungen sind genauso - die ferne Vergangenheit ist vage, jüngste Ereignisse werden detailliert erinnert. So sollte es sein. Aber in letzter Zeit konnte ich mich an vergangene Ereignisse mit Klarheit erinnern. — "Sie und ihre Katze"
 
-I originally thought this day would be far off, that it would only come when I could truly accept the past, when I could sincerely say "let it go" and face things calmly. But it's not like that. The more I try to forget, the clearer the memories become.
+Ich dachte ursprünglich, dieser Tag läge in weiter Ferne, dass er erst kommen würde, wenn ich die Vergangenheit wirklich akzeptieren könnte, wenn ich aufrichtig "loslassen" sagen und den Dingen gelassen begegnen könnte. Aber so ist es nicht. Je mehr ich versuche zu vergessen, desto klarer werden die Erinnerungen.
 
-I often receive comfort or wishes to "cherish the present," but for me, this is a rather tricky phrase. All past experiences have shaped who I am now; both the past and present are equally worthy of cherishing. I don't want to discard a complete version of myself just to escape negative emotions. I suppose I'll continue living with this mindset.
+Ich erhalte oft Trost oder Wünsche, "die Gegenwart zu schätzen", aber für mich ist das ein ziemlich kniffliger Ausdruck. Alle vergangenen Erfahrungen haben mich zu dem gemacht, was ich jetzt bin; sowohl die Vergangenheit als auch die Gegenwart sind gleichermaßen wert, geschätzt zu werden. Ich möchte keine vollständige Version meiner selbst wegwerfen, nur um negativen Emotionen zu entkommen. Ich nehme an, ich werde weiterhin mit dieser Einstellung leben.
 
-Psychologically, it's hard to say if I'm truly prepared—prepared in all senses. My thoughts are a jumble. But I feel I should be ready to accept a new life companion again, or rather, I need this kind of mutual companionship. As I mentioned in "Weekly Review #14 - Shelved Life and Self":
+Psychologisch ist es schwer zu sagen, ob ich wirklich vorbereitet bin - in jeder Hinsicht vorbereitet. Meine Gedanken sind ein Durcheinander. Aber ich fühle, dass ich bereit sein sollte, wieder einen neuen Lebensgefährten zu akzeptieren, oder besser gesagt, ich brauche diese Art von gegenseitiger Begleitung. Wie ich in "Wochenrückblick #14 - Abgelegtes Leben und Selbst" erwähnte:
 
-> October 10th marks the day we first brought Xiao Shu home. The hours spent lying on the couch, trying to lure her out with cat food, are still vivid in my mind. The joy of her first time in my arms is unforgettable. As this date approaches, I only feel increasingly sad.
+> Der 10. Oktober markiert den Tag, an dem wir Xiao Shu zum ersten Mal nach Hause brachten. Die Stunden, die wir auf der Couch verbrachten und versuchten, sie mit Katzenfutter anzulocken, sind noch lebhaft in meiner Erinnerung. Die Freude, als sie zum ersten Mal in meinen Armen lag, ist unvergesslich. Je näher dieses Datum rückt, desto trauriger fühle ich mich nur.
 
-> Raising a cat is probably something that requires a lot of effort to do well. I originally thought we were taking care of the cat, giving her a comfortable living environment. Now I realize, it's I who needs her. I'll probably consider getting another cat sooner. When I can return to Beijing, I'll visit the previous cat shelter and see if I can add some anticipation and warmth to my life.
+> Eine Katze großzuziehen, ist wahrscheinlich etwas, das viel Mühe erfordert, um es gut zu machen. Ich dachte ursprünglich, wir würden uns um die Katze kümmern, ihr eine komfortable Lebensumgebung geben. Jetzt erkenne ich, dass ich es bin, der sie braucht. Ich werde wahrscheinlich früher in Betracht ziehen, eine weitere Katze zu bekommen. Wenn ich nach Peking zurückkehren kann, werde ich die vorherige Katzenauffangstation besuchen und sehen, ob ich etwas Vorfreude und Wärme in mein Leben bringen kann.
 
-At this point, I'm quite grateful to myself for setting the goal of writing weekly reviews. It allowed me to record these thoughts and the self-reflection behind them. Perhaps it's because of these words that I've been able to find some answers to my questions.
+An diesem Punkt bin ich mir selbst ziemlich dankbar, dass ich mir das Ziel gesetzt habe, wöchentliche Rückblicke zu schreiben. Es erlaubte mir, diese Gedanken und die dahinterstehende Selbstreflexion festzuhalten. Vielleicht ist es wegen dieser Worte, dass ich einige Antworten auf meine Fragen finden konnte.
 
-Although the journey of wanting to raise another cat has been ongoing for a while, the final decision seemed more like a sudden impulse. After work on Friday, I went to a pre-booked cat shelter not far from the office. I originally intended to choose a Ragdoll similar to Xiao Shu, but was drawn to a small silver tabby. Perhaps it was her blue, crystal-clear eyes, or how she quietly and gently curled up on my leg as soon as she arrived.
+Obwohl der Wunsch, eine weitere Katze großzuziehen, schon eine Weile anhielt, schien die endgültige Entscheidung eher wie ein plötzlicher Impuls. Nach der Arbeit am Freitag ging ich zu einer vorab gebuchten Katzenauffangstation nicht weit vom Büro entfernt. Ursprünglich wollte ich eine Ragdoll ähnlich wie Xiao Shu wählen, wurde aber von einer kleinen silbernen Tigerkatze angezogen. Vielleicht waren es ihre blauen, kristallklaren Augen oder wie sie sich ruhig und sanft auf meinem Bein zusammenrollte, sobald sie ankam.
 
-Due to upcoming business trip plans, I was hesitant, thinking I might only be able to bring her home at the end of December. I feared missing crucial bonding stages and worried about the discomfort the journey and new environment might cause her. It seems that in moments like these, I start to consider many things.
+Aufgrund bevorstehender Geschäftsreisepläne zögerte ich und dachte, ich könnte sie vielleicht erst Ende Dezember nach Hause bringen. Ich fürchtete, wichtige Bindungsphasen zu verpassen und machte mir Sorgen über das Unbehagen, das die Reise und die neue Umgebung ihr bereiten könnten. Es scheint, dass ich in solchen Momenten anfange, viele Dinge zu bedenken.
 
-Over the weekend, I still went to the originally planned cat shelter in Changping to look at Ragdolls. Because of the long journey, I started reading Murakami's "Novelist as a Vocation" on the way.
+Am Wochenende ging ich trotzdem zum ursprünglich geplanten Katzenheim in Changping, um mir Ragdolls anzuschauen. Wegen der langen Reise begann ich auf dem Weg, Murakamis "Beruf des Schriftstellers" zu lesen.
 
 ![life_about_cat_cunshang](https://image.pseudoyu.com/images/life_about_cat_cunshang.jpg)
 
-He talked about his experiences right after graduation, which suddenly struck a chord with me. I realized it had been a long time since I felt this warm and hopeful feeling. Apparently, I needed companionship more than I had imagined.
+Er sprach über seine Erfahrungen direkt nach dem Abschluss, was plötzlich eine Saite in mir zum Klingen brachte. Ich erkannte, dass es lange her war, seit ich dieses warme und hoffnungsvolle Gefühl gespürt hatte. Offenbar brauchte ich mehr Gesellschaft, als ich mir vorgestellt hatte.
 
-After inquiring about the rules for inter-provincial pet transportation and communicating with my company, I decided to bring her home immediately, resuming a life with a cat. It's quite strange, really. Although nothing seems to have changed much, on the taxi ride home, as I chatted casually with the driver and occasionally glanced at the cat in her carrier, I suddenly felt that life was flowing again. The unfamiliar Beijing outside the window remained the same, but my heart felt a sense of belonging.
+Nachdem ich mich über die Regeln für den interproviniziellen Haustiertransport erkundigt und mit meinem Unternehmen kommuniziert hatte, beschloss ich, sie sofort nach Hause zu bringen und das Leben mit einer Katze wieder aufzunehmen. Es ist ziemlich seltsam, wirklich. Obwohl sich scheinbar nicht viel verändert hat, fühlte ich plötzlich auf der Taxifahrt nach Hause, als ich mich beiläufig mit dem Fahrer unterhielt und gelegentlich einen Blick auf die Katze in ihrem Transportkorb warf, dass das Leben wieder floss. Das unbekannte Peking außerhalb des Fensters blieb gleich, aber mein Herz verspürte ein Gefühl der Zugehörigkeit.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_01.jpg" caption="My Cute Cat">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cute_cat_01.jpg" caption="Meine süße Katze">}}
 
-## Miscellaneous
+## Verschiedenes
 
-This section will record my inputs and outputs, as well as other things I find interesting.
+Dieser Abschnitt wird meine Inputs und Outputs sowie andere Dinge, die ich interessant finde, festhalten.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **Novelist as a Vocation**, currently reading. Murakami's writing is truly fascinating, a blend of reality and self-mockery.
-- **Computer Architecture: A Quantitative Approach (6th Edition)**, currently reading. It's a bit hard to digest.
-- **Programming in Lua, Fourth Edition**, finished the video course, now consolidating through the book.
-- **Common Sense**, still reading. As expected, not finishing it in one go during the trip has led to procrastination.
-- **The Crowd: A Study of the Popular Mind**, just revisited. The deepest impression is how easily one can become less intelligent or ignore the errors in one's behavior when entering a group. Even if not directly causing harm, it's easy to become an accomplice who releases malice with a "safety in numbers" mentality. Some parts are quite referential, but there's also a strong personal bias. Whether malicious groups deserve to be saved is also worth pondering.
-- **Five Kinds of Time**, curious to read after it was mentioned in Xiao Lu's video. I consider myself part of the group that pursues time management, knowledge management, etc., yet I still couldn't gain much benefit from this book. The theoretical explanations are too anecdotal, making it difficult to understand the experiences and thought processes behind these insights. The dialogic reasoning method of Adler in "The Courage to Be Disliked" would be much better in this aspect. As for the methodology part, the elaborate "garden model" is hard to relate to.
+- **Beruf des Schriftstellers**, derzeit am Lesen. Murakamis Schreibstil ist wirklich faszinierend, eine Mischung aus Realität und Selbstironie.
+- **Rechnerarchitektur: Ein quantitativer Ansatz (6. Auflage)**, derzeit am Lesen. Es ist etwas schwer zu verdauen.
+- **Programmieren in Lua, Vierte Auflage**, den Videokurs abgeschlossen, jetzt Konsolidierung durch das Buch.
+- **Gesunder Menschenverstand**, immer noch am Lesen. Wie erwartet, hat das Nicht-Beenden in einem Zug während der Reise zu Aufschub geführt.
+- **Die Psychologie der Massen**, gerade wieder besucht. Der tiefste Eindruck ist, wie leicht man weniger intelligent werden oder die Fehler im eigenen Verhalten ignorieren kann, wenn man in eine Gruppe eintritt. Selbst wenn man nicht direkt Schaden anrichtet, ist es leicht, zu einem Komplizen zu werden, der mit einer "Sicherheit in der Masse"-Mentalität Bosheit freisetzt. Einige Teile sind ziemlich referenziell, aber es gibt auch eine starke persönliche Voreingenommenheit. Ob böswillige Gruppen es verdienen, gerettet zu werden, ist auch überlegenswert.
+- **Fünf Arten von Zeit**, neugierig zu lesen, nachdem es in Xiao Lus Video erwähnt wurde. Ich betrachte mich selbst als Teil der Gruppe, die Zeitmanagement, Wissensmanagement usw. verfolgt, dennoch konnte ich nicht viel Nutzen aus diesem Buch ziehen. Die theoretischen Erklärungen sind zu anekdotisch, was es schwierig macht, die Erfahrungen und Denkprozesse hinter diesen Einsichten zu verstehen. Die dialogische Argumentationsmethode von Adler in "Der Mut, unbeliebt zu sein" wäre in dieser Hinsicht viel besser. Was den methodischen Teil betrifft, so ist das ausführliche "Gartenmodell" schwer nachzuvollziehen.
 
-#### TV Series
+#### TV-Serien
 
-- **Silent Snow**, watched the fourth episode and suddenly felt very sad. Although it was expected, I still feel sorry for Sodou (maybe because I relate strongly).
-- **The Peripheral**, currently following.
+- **Stiller Schnee**, habe die vierte Episode gesehen und fühlte mich plötzlich sehr traurig. Obwohl es zu erwarten war, tut mir Sodou leid (vielleicht weil ich mich stark mit ihm identifiziere).
+- **The Peripheral**, verfolge ich derzeit.
 
 #### Anime
 
-- **She and Her Cat**, a very short yet touching short film. Rewatched it because of the weekly review title, and it resonates especially strongly with me as someone who just adopted a cat. A cat may only be a small part of your life, but you are its entire world. Raising a cat is probably something that requires a lot of effort to do well. I originally thought we were taking care of the cat, giving her a comfortable living environment. Now I realize, it's I who needs her.
+- **Sie und ihre Katze**, ein sehr kurzer, aber berührender Kurzfilm. Ich habe ihn wegen des Titels des Wochenrückblicks erneut angesehen, und er resoniert besonders stark mit mir als jemandem, der gerade eine Katze adoptiert hat. Eine Katze mag nur ein kleiner Teil deines Lebens sein, aber du bist ihre ganze Welt. Eine Katze großzuziehen, ist wahrscheinlich etwas, das viel Mühe erfordert, um es gut zu machen. Ich dachte ursprünglich, wir würden uns um die Katze kümmern, ihr eine komfortable Lebensumgebung geben. Jetzt erkenne ich, dass ich es bin, der sie braucht.
 
-#### Games
+#### Spiele
 
-- **Persona 5 Royal**, long-awaited and finally available on Switch. I've only played the tutorial part, but the art style, soundtrack, and gameplay design are all stunning. Sometimes it's enjoyable just to have it playing in the background while doing other things. Wonder when I'll be able to fully experience it.
+- **Persona 5 Royal**, lang erwartet und endlich auf Switch verfügbar. Ich habe bisher nur den Tutorial-Teil gespielt, aber der Kunststil, der Soundtrack und das Gameplay-Design sind alle atemberaubend. Manchmal ist es einfach angenehm, es im Hintergrund laufen zu lassen, während man andere Dinge tut. Ich frage mich, wann ich in der Lage sein werde, es vollständig zu erleben.

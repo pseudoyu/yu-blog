@@ -10,7 +10,7 @@ authors:
 
 ## Vorwort
 
-In unserem vorherigen Artikel "[Prinzipien der verteilten Dateispeicherung mit IPFS](https://www.pseudoyu.com/en/2021/03/25/blockchain_ipfs_structure/)" haben wir detailliert die Konzepte, Funktionen, Arbeitsprinzipien und IPNS des IPFS-Systems vorgestellt. Wie richten wir nun einen IPFS-Knoten lokal ein?
+In unserem vorherigen Artikel "[Prinzipien der verteilten Dateispeicherung mit IPFS](https://www.pseudoyu.com/de/2021/03/25/blockchain_ipfs_structure/)" haben wir detailliert die Konzepte, Funktionen, Arbeitsprinzipien und IPNS des IPFS-Systems vorgestellt. Wie richten wir nun einen IPFS-Knoten lokal ein?
 
 Dieser Beitrag demonstriert die Einrichtung eines IPFS-Knotens (Kommandozeilenversion) auf dem `macOS 11.2.3`-System und führt praktische Operationen zum Hochladen, Herunterladen, zur Netzwerksynchronisation, `pin`, `GC`, `IPNS` usw. durch, um das Verständnis der IPFS-Arbeitsprinzipien zu vertiefen.
 

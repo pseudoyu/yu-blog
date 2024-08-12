@@ -12,7 +12,7 @@ authors:
 
 ## Topic 1 Introduction to E-Commerce Technology
 
-**Discussion Topic #1: [Puma Goes Omni](https://www.pseudoyu.com/en/2020/09/08/puma-goes-omni-case-study/)**
+**Discussion Topic #1: [Puma Goes Omni](https://www.pseudoyu.com/de/2020/09/08/puma-goes-omni-case-study/)**
 1. What is the purpose of Puma's content management systems?
 2. Why did Puma build a single centralized website rather than continue with multiple websites serving different countries and regions? [**choosen**]
 3. What social media sites does Puma use, and what do they contribute to Puma's marketing effort?

@@ -10,7 +10,7 @@ authors:
 
 ## Vorwort
 
-In meinem Artikel "[Was hat sich in meinem Blog 2024 geändert](https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/)" habe ich das von mir aufgebaute Blog-System unter Verwendung von Serverless-Plattformen und einigen Open-Source-Projekten vorgestellt. Ich habe auch diese Reihe von Tutorials begonnen, um den gesamten Prozess der Einrichtung und Bereitstellung zu dokumentieren.
+In meinem Artikel "[Was hat sich in meinem Blog 2024 geändert](https://www.pseudoyu.com/de/2024/06/29/what_changed_in_my_blog_2024/)" habe ich das von mir aufgebaute Blog-System unter Verwendung von Serverless-Plattformen und einigen Open-Source-Projekten vorgestellt. Ich habe auch diese Reihe von Tutorials begonnen, um den gesamten Prozess der Einrichtung und Bereitstellung zu dokumentieren.
 
 Dieser Artikel konzentriert sich auf die Lösung des Analysesystems.
 
@@ -34,7 +34,7 @@ Nachdem ich splitbee aufgegeben hatte, integrierte ich lange Zeit keine zusätzl
 
 Später, nachdem ich das Konzept von SEO kennengelernt hatte, fügte ich [Google Search Console](https://search.google.com/search-console/about) als eine weitere Analysedimension hinzu. Dies sind derzeit die Daten, die ich für mein Blog-Schreiben am sinnvollsten finde. Sie zeigen hauptsächlich die Suchbegriffe, die Benutzer verwenden, um meine Blog-Seite in Suchmaschinen zu erreichen, und die Seitenpfade, über die sie von den Suchergebnissen aus in meinen Blog gelangen.
 
-Wie Sie sehen können, brachte mir ein Artikel mit dem Titel "[Warp, iTerm2 oder Alacritty? Meine Terminal-Tüftel-Notizen](https://www.pseudoyu.com/en/category/tools/)" viele Besucher, während Themen über Blog-Einrichtung und Smart-Contract-Entwicklung ebenfalls die ersten Eindrücke meines Blogs für die meisten natürlichen Benutzer sind, die von Suchmaschinen kommen.
+Wie Sie sehen können, brachte mir ein Artikel mit dem Titel "[Warp, iTerm2 oder Alacritty? Meine Terminal-Tüftel-Notizen](https://www.pseudoyu.com/de/category/tools/)" viele Besucher, während Themen über Blog-Einrichtung und Smart-Contract-Entwicklung ebenfalls die ersten Eindrücke meines Blogs für die meisten natürlichen Benutzer sind, die von Suchmaschinen kommen.
 
 ### Umami + Supabase + Netlify
 

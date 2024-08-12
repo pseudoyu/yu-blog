@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #20 - The Loss of Desire to Consume"
+title: "Wochenrückblick #20 - Der Verlust des Konsumverlangens"
 date: 2022-11-27T21:08:00+08:00
 draft: false
 tags: ["review", "life", "work", "cat", "sleep", "balance", "career", "consume", "shopping"]
@@ -10,62 +10,62 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from November 18 to November 27, 2022.
+Dieses Stück ist eine Aufzeichnung und Reflexion meines Lebens vom 18. bis 27. November 2022.
 
-The weekend has arrived, and for once, I had no concentrated development work. I slept soundly, caught up on some missed episodes in the afternoon, and finally began writing my weekly review. It seems I've been delaying it for a few days each week, sneakily erasing a week's worth of reviews. We're back to Sunday, and a new cycle begins.
+Das Wochenende ist gekommen, und zum ersten Mal hatte ich keine konzentrierte Entwicklungsarbeit. Ich schlief tief und fest, holte am Nachmittag einige verpasste Folgen nach und begann schließlich, meinen Wochenrückblick zu schreiben. Es scheint, als hätte ich ihn jede Woche um ein paar Tage verschoben und heimlich eine Woche Rückblick ausgelöscht. Wir sind wieder beim Sonntag, und ein neuer Zyklus beginnt.
 
-This week has been a devilish schedule. I normally sleep at three or four in the morning and wake up at eight or nine. On two or three days, I didn't sleep until after six in the morning, followed by a full day's work. This cycle repeated itself. However, with my cat's companionship, it wasn't too unbearable. Being at home continuously even fostered a sense of mutual dependence.
+Diese Woche war ein teuflischer Zeitplan. Normalerweise schlafe ich um drei oder vier Uhr morgens ein und wache um acht oder neun auf. An zwei oder drei Tagen schlief ich erst nach sechs Uhr morgens ein, gefolgt von einem vollen Arbeitstag. Dieser Zyklus wiederholte sich. Mit der Gesellschaft meiner Katze war es jedoch nicht allzu unerträglich. Der ständige Aufenthalt zu Hause förderte sogar ein Gefühl gegenseitiger Abhängigkeit.
 
-Perhaps due to my workaholic and laid-back lifestyle, and coincidentally helping the cool senior I mentioned before to list one of her artworks as an NFT, I took my cat to her place to experience a "WeWork + cat cafe" setup. I also enjoyed two meals there. It was one of the few leisurely moments this week, and once again, I marveled at the vast difference between our lifestyles and quality of life. But each has its own joys.
+Vielleicht aufgrund meines arbeitsbesessenen und entspannten Lebensstils und zufällig, weil ich der coolen Seniorin, die ich zuvor erwähnt hatte, dabei half, eines ihrer Kunstwerke als NFT zu listen, nahm ich meine Katze mit zu ihr, um eine "WeWork + Katzencafé"-Atmosphäre zu erleben. Ich genoss dort auch zwei Mahlzeiten. Es war einer der wenigen entspannten Momente dieser Woche, und wieder einmal staunte ich über den enormen Unterschied zwischen unseren Lebensstilen und unserer Lebensqualität. Aber jeder hat seine eigenen Freuden.
 
-As for the cat, it's truly ungrateful. It wasn't shy at all, easily won over by good food and fun things. It curiously explored everywhere and was reluctant to leave. All my efforts wasted. I'll definitely strive to improve our living environment in the future (the realization of a humble cat servant).
+Was die Katze betrifft, so ist sie wirklich undankbar. Sie war überhaupt nicht schüchtern, ließ sich leicht von gutem Essen und lustigen Dingen gewinnen. Sie erkundete neugierig überall und wollte nicht gehen. All meine Bemühungen waren umsonst. Ich werde definitiv danach streben, unsere Wohnumgebung in Zukunft zu verbessern (die Erkenntnis eines demütigen Katzendieners).
 
-## The Loss of Desire to Consume
+## Der Verlust des Konsumverlangens
 
-I used to be someone with a strong desire to consume, more like a repressed retaliatory consumption. Due to family education methods, I never had regular pocket money as a student, nor rewards for good grades (of course, there were no criticisms or punishments for poor performance either, which was fair). Instead, if I needed something, I would tell my parents, and they would buy it directly. It might have been a good model, but it was difficult to propose extra or unnecessary consumption to family members.
+Ich war früher jemand mit einem starken Verlangen zu konsumieren, eher wie ein unterdrückter vergeltender Konsum. Aufgrund der familiären Erziehungsmethoden hatte ich als Schüler nie regelmäßiges Taschengeld oder Belohnungen für gute Noten (natürlich gab es auch keine Kritik oder Bestrafung für schlechte Leistungen, was fair war). Stattdessen würde ich meinen Eltern sagen, wenn ich etwas brauchte, und sie würden es direkt kaufen. Es mag ein gutes Modell gewesen sein, aber es war schwierig, Familienmitgliedern zusätzlichen oder unnötigen Konsum vorzuschlagen.
 
-I still vividly remember (or perhaps I'm still hung up on) a gift I waited half a year for in primary school. I had always thought it would be a GBA SP (the flip-top, backlit GBA handheld, as I always wanted to play Pokemon), but when I received it, it was a remote-controlled helicopter. I was very disappointed at the time. Thinking about it now, it wasn't bad; it gave me some foundation when I later learned about drones.
+Ich erinnere mich noch lebhaft (oder vielleicht hänge ich immer noch daran) an ein Geschenk, auf das ich in der Grundschule ein halbes Jahr gewartet hatte. Ich hatte immer gedacht, es würde ein GBA SP sein (der aufklappbare, hintergrundbeleuchtete GBA-Handheld, da ich immer Pokemon spielen wollte), aber als ich es erhielt, war es ein ferngesteuerter Hubschrauber. Ich war damals sehr enttäuscht. Wenn ich jetzt darüber nachdenke, war es nicht schlecht; es gab mir eine gewisse Grundlage, als ich später etwas über Drohnen lernte.
 
-However, because I couldn't immediately get what I wanted at the time, there was always a suppression of the desire to consume. When I became financially independent in my junior year, I could freely dispose of my own earnings, so I successively bought many things, especially various electronic/digital products. Some weren't really necessities or things I truly wanted; I just enjoyed the feeling of being able to own them freely. I even developed a habit of collecting various packaging boxes (which are still neatly stacked on top of my bookshelf).
+Weil ich jedoch nicht sofort bekommen konnte, was ich wollte, gab es immer eine Unterdrückung des Konsumverlangens. Als ich in meinem dritten Studienjahr finanziell unabhängig wurde, konnte ich frei über meine eigenen Einnahmen verfügen, also kaufte ich nacheinander viele Dinge, besonders verschiedene elektronische/digitale Produkte. Einige waren keine wirklichen Notwendigkeiten oder Dinge, die ich wirklich wollte; ich genoss einfach das Gefühl, sie frei besitzen zu können. Ich entwickelte sogar die Angewohnheit, verschiedene Verpackungsschachteln zu sammeln (die immer noch ordentlich auf meinem Bücherregal gestapelt sind).
 
-After starting work, this tendency intensified. After all, I'm in a profession that deals with software and hardware daily. Combined with my love for tinkering with various tools and applications, once I had a certain financial capacity, I started supporting genuine versions. I've always had significant expenses on electronic devices and software, and I even maintain a relatively popular project called "Personal Toolbox - pseudoyu/yu-tools", which is continuously updated. At the same time, I often buy interesting Switch games, although many haven't even been opened yet, and I've lost much of the mindset to slowly savor them.
+Nach Beginn der Arbeit verstärkte sich diese Tendenz. Schließlich bin ich in einem Beruf tätig, der täglich mit Software und Hardware zu tun hat. In Kombination mit meiner Vorliebe, mit verschiedenen Werkzeugen und Anwendungen herumzubasteln, begann ich, sobald ich eine gewisse finanzielle Kapazität hatte, Originalversionen zu unterstützen. Ich hatte schon immer erhebliche Ausgaben für elektronische Geräte und Software, und ich pflege sogar ein relativ beliebtes Projekt namens "Personal Toolbox - pseudoyu/yu-tools", das kontinuierlich aktualisiert wird. Gleichzeitig kaufe ich oft interessante Switch-Spiele, obwohl viele noch nicht einmal geöffnet wurden und ich viel von der Einstellung verloren habe, sie langsam zu genießen.
 
-I seem to be someone who doesn't hesitate to spend on hobbies and things I like. Compared to these, my daily diet and living arrangements are rather perfunctory. But I feel that in the past six months, my desire to consume has been gradually diminishing. I no longer seem to have that enthusiasm to eagerly await hardware product releases for days, watching reviews and waiting for delivery. Although I often complain that my 16-inch Intel laptop was betrayed by Apple, I don't care so much about the so-called M series and the numbers behind it anymore. It's more like a habit to look at the released parameters and benchmarks, see what improvements have been made, and then say to myself, "Oh, okay, maybe next generation."
+Ich scheine jemand zu sein, der nicht zögert, für Hobbys und Dinge, die ich mag, Geld auszugeben. Im Vergleich dazu sind meine tägliche Ernährung und Wohnverhältnisse eher oberflächlich. Aber ich habe das Gefühl, dass in den letzten sechs Monaten mein Verlangen zu konsumieren allmählich abgenommen hat. Ich scheine nicht mehr diese Begeisterung zu haben, tagelang sehnsüchtig auf Hardware-Produktveröffentlichungen zu warten, Rezensionen zu sehen und auf die Lieferung zu warten. Obwohl ich oft klage, dass mein 16-Zoll-Intel-Laptop von Apple verraten wurde, kümmere ich mich nicht mehr so sehr um die sogenannte M-Serie und die Zahlen dahinter. Es ist eher wie eine Gewohnheit, die veröffentlichten Parameter und Benchmarks anzuschauen, zu sehen, welche Verbesserungen vorgenommen wurden, und dann zu mir selbst zu sagen: "Oh, okay, vielleicht nächste Generation."
 
-I participated in the Double Eleven shopping festival recently. Since I had just brought the cat home, I bought many related supplies and received packages for several consecutive days. However, when everything was settled and I thought about buying something for myself, I seemed to fall into a kind of blank state. It felt like I didn't lack anything and didn't want anything, so I gave up in the end. Recently, it's also been Black Friday. Like previous years, I opened some tweets and articles to see what software and digital products were on sale. After looking for quite a while, I only ended up buying two courses related to my recent work and a personal subscription to the note-taking software Craft. Most subscriptions are about to expire, but I don't feel much about it. Maybe I'll buy a physical examination package on Double Twelve.
+Ich nahm kürzlich am Double Eleven Einkaufsfestival teil. Da ich gerade die Katze nach Hause gebracht hatte, kaufte ich viele damit verbundene Vorräte und erhielt mehrere Tage hintereinander Pakete. Als jedoch alles erledigt war und ich darüber nachdachte, etwas für mich selbst zu kaufen, schien ich in eine Art leeren Zustand zu verfallen. Es fühlte sich an, als würde mir nichts fehlen und ich nichts wollen, also gab ich am Ende auf. Kürzlich war auch Black Friday. Wie in den Vorjahren öffnete ich einige Tweets und Artikel, um zu sehen, welche Software und digitale Produkte im Angebot waren. Nach längerem Suchen endete ich nur damit, zwei Kurse zu kaufen, die mit meiner aktuellen Arbeit zusammenhängen, und ein persönliches Abonnement für die Notiz-Software Craft. Die meisten Abonnements laufen bald aus, aber ich empfinde nicht viel dabei. Vielleicht kaufe ich am Double Twelve ein Paket für eine körperliche Untersuchung.
 
-It's hard to say whether the decrease in material desire is a good thing or a bad thing. Perhaps it's because I no longer need too many tangible, touchable things to fill my inner needs, and I'm slowly turning to some parts that can be internalized. Maybe it's because I've entrusted many of my needs to my cat and some dependent relationships, and I don't have as much energy as before to focus on some momentary satisfactions. Or perhaps in the increasingly saturated work and daily life, I've gradually lost some curiosity and motivation to explore.
+Es ist schwer zu sagen, ob die Abnahme des materiellen Verlangens eine gute oder schlechte Sache ist. Vielleicht liegt es daran, dass ich nicht mehr so viele greifbare, berührbare Dinge brauche, um meine inneren Bedürfnisse zu erfüllen, und ich mich langsam einigen Teilen zuwende, die verinnerlicht werden können. Vielleicht liegt es daran, dass ich viele meiner Bedürfnisse meiner Katze und einigen abhängigen Beziehungen anvertraut habe und nicht mehr so viel Energie wie früher habe, mich auf einige momentane Befriedigungen zu konzentrieren. Oder vielleicht habe ich im zunehmend gesättigten Arbeits- und Alltagsleben allmählich etwas Neugier und Motivation verloren, zu erkunden.
 
-## Daily Life with "Nie Nie"
+## Alltag mit "Nie Nie"
 
-This week was so busy that I didn't read any books, and only caught up on one drama over the weekend. I didn't manage anything else, but I did make time to take Nie Nie for a check-up. There are still some concerning minor issues, and we're continuing with medication treatment. I hope it can always be healthy. I get incredibly worried even about the slightest problems.
+Diese Woche war so beschäftigt, dass ich keine Bücher las und nur am Wochenende eine Serie nachholte. Ich schaffte sonst nichts, aber ich nahm mir die Zeit, Nie Nie zur Untersuchung zu bringen. Es gibt immer noch einige besorgniserregende kleine Probleme, und wir setzen die medikamentöse Behandlung fort. Ich hoffe, sie kann immer gesund sein. Ich mache mir unglaubliche Sorgen selbst um die kleinsten Probleme.
 
-Because I've been working from home, I've had much more time to spend together. There have been many great moments worth recording. I feel like posting several daily updates, like someone obsessed with showing off their child. So I plan to open a small section in the weekly review to record these moments daily. Later, I also want to make something like photo albums to document these precious times.
+Weil ich von zu Hause aus gearbeitet habe, hatte ich viel mehr Zeit, zusammen zu sein. Es gab viele großartige Momente, die es wert sind, festgehalten zu werden. Ich fühle mich, als würde ich mehrere tägliche Updates posten, wie jemand, der besessen davon ist, mit seinem Kind anzugeben. Also plane ich, einen kleinen Abschnitt im Wochenrückblick zu öffnen, um diese Momente täglich festzuhalten. Später möchte ich auch etwas wie Fotoalben machen, um diese kostbaren Zeiten zu dokumentieren.
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_04.jpg" caption="Come on, help me with the meeting">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_04.jpg" caption="Komm schon, hilf mir bei der Besprechung">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_05.jpg" caption="Elegant posture">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_05.jpg" caption="Elegante Haltung">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_06.jpg" caption="Little cutie hiding in the blanket">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_06.jpg" caption="Kleine Süße versteckt sich in der Decke">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_07.jpg" caption="Is this wireless charger for me to charge?">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_07.jpg" caption="Ist dieses kabellose Ladegerät zum Aufladen für mich?">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_08.jpg" caption="Do you want to reason or do you want me?">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_08.jpg" caption="Willst du argumentieren oder willst du mich?">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_09.jpg" caption="Sleeping Nie Nie">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_09.jpg" caption="Schlafende Nie Nie">}}
 
-{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_10.jpg" caption="San Dun Ban and cat for life extension">}}
+{{< figure src="https://image.pseudoyu.com/images/my_cat_nie_nie_10.jpg" caption="San Dun Ban und Katze für Lebensverlängerung">}}
 
-## Other
+## Sonstiges
 
-This section will record my input and output, as well as other things I find interesting.
+In diesem Abschnitt werde ich meinen Input und Output sowie andere Dinge, die ich interessant finde, festhalten.
 
 ### Input
 
-#### TV Series
+#### TV-Serien
 
-- **First Love**: The taxi driver setting reminds me of previously watched "I Remember a Little", "Drive My Car", and an anime "The Magical Taxi". I think this is truly a profession that can see all aspects of human life. I've been looking forward to this for quite a while. The development around music, the presentation style of interweaving memories and the present, and Hikari Mitsushima are all attractive points. There were several scene transitions that amazed me. However, in terms of plot, it's hard to say it stands out. But now I'm increasingly unable to bear cruelty, so I think this sweet story is quite good. After all, looking at "The Quiet Snow" playing next door, I feel sorry for the second male and female leads every day. As I get older, I guess I'm more suited to sweet love stories. Overall, it's quite worth watching.
-- **The Quiet Snow**: Currently watching. It's really heartbreaking. I've always been able to empathize more with the second male lead, but he's getting hurt.
-- **Peripheral**: Currently watching.
+- **First Love**: Die Taxifahrer-Einstellung erinnert mich an die zuvor gesehenen "I Remember a Little", "Drive My Car" und einen Anime "The Magical Taxi". Ich denke, dies ist wirklich ein Beruf, der alle Aspekte des menschlichen Lebens sehen kann. Ich habe mich schon eine Weile darauf gefreut. Die Entwicklung rund um die Musik, der Präsentationsstil der Verflechtung von Erinnerungen und Gegenwart und Hikari Mitsushima sind alles attraktive Punkte. Es gab mehrere Szenenübergänge, die mich verblüfften. Was die Handlung betrifft, ist es jedoch schwer zu sagen, dass sie hervorsticht. Aber jetzt kann ich zunehmend Grausamkeit nicht ertragen, daher denke ich, dass diese süße Geschichte recht gut ist. Wenn ich mir nebenan "The Quiet Snow" ansehe, tut mir der zweite männliche und weibliche Hauptdarsteller jeden Tag leid. Mit zunehmendem Alter bin ich wohl eher für süße Liebesgeschichten geeignet. Insgesamt ist es recht sehenswert.
+- **The Quiet Snow**: Derzeit am Anschauen. Es ist wirklich herzzerreißend. Ich konnte mich schon immer besser in den zweiten männlichen Hauptdarsteller hineinversetzen, aber er wird verletzt.
+- **Peripheral**: Derzeit am Anschauen.

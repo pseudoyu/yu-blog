@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #15 - Introspection and External Seeking"
+title: "Wochenrückblick #15 - Introspektion und Suche nach Außen"
 date: 2022-10-18T17:38:39+08:00
 draft: false
 tags: ["review", "life", "work", "self", "personality", "ego", "relationship", "friend", "writing", "sharing"]
@@ -10,73 +10,73 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record and reflection of my life from October 10, 2022 to October 18, 2022.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 10. Oktober 2022 bis zum 18. Oktober 2022.
 
-Due to the pandemic, I had been staying at home in Hangzhou. As the weather turned cooler and I hadn't brought many clothes, I bought a ticket back to Beijing as soon as my health code turned green. I returned to Beijing on Friday. In just half a month, my home had become quite messy, so I spent almost the entire weekend cleaning and organizing.
+Aufgrund der Pandemie war ich in Hangzhou zu Hause geblieben. Als das Wetter kühler wurde und ich nicht viele Kleidungsstücke mitgebracht hatte, kaufte ich, sobald mein Gesundheitscode grün wurde, ein Ticket zurück nach Peking. Am Freitag kehrte ich nach Peking zurück. In nur zwei Wochen war meine Wohnung ziemlich unordentlich geworden, also verbrachte ich fast das ganze Wochenende damit, zu putzen und aufzuräumen.
 
-Two projects have started to overlap, and my work efficiency at home hasn't been very high. It's been a while since I've properly learned something new, so I've reorganized my study plan and schedule.
+Zwei Projekte haben begonnen sich zu überschneiden, und meine Arbeitseffizienz zu Hause war nicht besonders hoch. Es ist schon eine Weile her, dass ich richtig etwas Neues gelernt habe, also habe ich meinen Studienplan und Zeitplan neu organisiert.
 
-On a positive note, I finally managed to stick to morning runs for a few days, seeing the long-missed scenery of Hangzhou. However, I clearly felt that my physical fitness has declined. As autumn and winter approach, I might focus more on indoor exercises.
+Positiv zu vermerken ist, dass ich es endlich geschafft habe, ein paar Tage lang konsequent morgens zu joggen und die lang vermisste Landschaft von Hangzhou zu sehen. Allerdings habe ich deutlich gespürt, dass meine körperliche Fitness nachgelassen hat. Mit dem Herannahen von Herbst und Winter werde ich mich möglicherweise mehr auf Indoor-Übungen konzentrieren.
 
-## A Memorable Conversation
+## Ein denkwürdiges Gespräch
 
-A friend I met in a university club, whom I've always called my disciple, has completed his first novel and started a book recommendation channel on Bilibili. It feels like a serendipitous occurrence. I remember discussing writing such a work long ago, like a seedling hidden in memory, and now the first seed has begun to sprout. As a witness to this, I'm genuinely happy. As the "master," I find that some things I've always wanted to do (like starting a Bilibili channel) have been continuously postponed. I should work harder too.
+Ein Freund, den ich in einem Universitätsclub kennengelernt habe und den ich immer meinen Schüler genannt habe, hat seinen ersten Roman fertiggestellt und einen Buchempfehlungskanal auf Bilibili gestartet. Es fühlt sich wie eine glückliche Fügung an. Ich erinnere mich, dass wir vor langer Zeit über das Schreiben eines solchen Werkes gesprochen hatten, wie ein Sämling, der in der Erinnerung verborgen war, und nun hat der erste Samen zu keimen begonnen. Als Zeuge dessen bin ich aufrichtig glücklich. Als "Meister" stelle ich fest, dass einige Dinge, die ich schon immer tun wollte (wie einen Bilibili-Kanal zu starten), ständig aufgeschoben wurden. Ich sollte auch härter arbeiten.
 
-I've always cherished this kind of communication that isn't based on daily interactions. Although we haven't been in touch for nearly two years, I still discovered many similarities in our ideas and characteristics. It's like a magnetic field or tacit understanding. Interactions based on personality traits rather than daily routines or other purposeful communications are more likely to endure. It seems that all it takes is a thought, a "By the way, I suddenly thought of..." or an unprompted "Shall we have a call?" after several months to open up the conversation. It's a very pleasant relationship dynamic.
+Ich habe diese Art der Kommunikation, die nicht auf täglichen Interaktionen basiert, immer geschätzt. Obwohl wir fast zwei Jahre lang nicht in Kontakt waren, habe ich immer noch viele Ähnlichkeiten in unseren Ideen und Eigenschaften entdeckt. Es ist wie ein Magnetfeld oder ein stillschweigendes Einverständnis. Interaktionen, die auf Persönlichkeitsmerkmalen basieren und nicht auf täglichen Routinen oder anderen zweckgebundenen Kommunikationen, haben eher die Tendenz, Bestand zu haben. Es scheint, dass alles, was es braucht, ein Gedanke ist, ein "Übrigens, mir fiel plötzlich ein..." oder ein spontanes "Sollen wir telefonieren?" nach mehreren Monaten, um das Gespräch zu eröffnen. Es ist eine sehr angenehme Beziehungsdynamik.
 
-### Gender and Communication
+### Geschlecht und Kommunikation
 
-Initially, we discussed the issue of gender and communication. It was mentioned that it seems quite common for men to find it difficult to completely focus on content produced by women. It's as if they're particularly sensitive to photos, work, and emotional status, often overlooking viewpoint-based output, as if gender creates a barrier to equal communication.
+Zunächst diskutierten wir über das Thema Geschlecht und Kommunikation. Es wurde erwähnt, dass es recht häufig vorkommt, dass Männer Schwierigkeiten haben, sich vollständig auf von Frauen produzierte Inhalte zu konzentrieren. Es ist, als wären sie besonders sensibel für Fotos, Arbeit und emotionalen Status und übersehen oft standpunktbasierte Äußerungen, als ob das Geschlecht eine Barriere für gleichberechtigte Kommunikation schafft.
 
-This is an interesting phenomenon that seems to naturally exist in relationships between different genders. Due to some innate differences in the level of sensitivity, men are more likely to be the ones ignoring women's viewpoint expressions. Admittedly, I'm not a particularly noble person either, and I can't help but be influenced by appearance or what we call charm in forming initial impressions. However, once a relationship enters the realm of friendship, I tend to ignore these factors in pursuit of more authentic and equal communication. Especially as I've gradually become less dependent on social interactions, I've come to cherish these opportunities for communication even more, and such sincerity often receives similar responses.
+Dies ist ein interessantes Phänomen, das in Beziehungen zwischen verschiedenen Geschlechtern natürlich zu existieren scheint. Aufgrund einiger angeborener Unterschiede im Grad der Sensibilität sind Männer eher diejenigen, die die Standpunktäußerungen von Frauen ignorieren. Zugegebenermaßen bin ich auch keine besonders edle Person und kann mich nicht davon abhalten, bei der Bildung erster Eindrücke vom Aussehen oder dem, was wir Charme nennen, beeinflusst zu werden. Sobald jedoch eine Beziehung in den Bereich der Freundschaft eintritt, neige ich dazu, diese Faktoren zu ignorieren, um eine authentischere und gleichberechtigtere Kommunikation zu verfolgen. Besonders da ich allmählich weniger von sozialen Interaktionen abhängig geworden bin, schätze ich diese Kommunikationsmöglichkeiten noch mehr, und solche Aufrichtigkeit erhält oft ähnliche Reaktionen.
 
-### Creation and the Desire to Share
+### Kreation und der Wunsch zu teilen
 
-We also discussed the relationship between creation and sharing. In a sense, both my blog and my friend's book are forms of creation, and they are also carriers of our desire to share.
+Wir diskutierten auch über die Beziehung zwischen Kreation und Teilen. In gewissem Sinne sind sowohl mein Blog als auch das Buch meines Freundes Formen der Kreation und zugleich Träger unseres Wunsches zu teilen.
 
-Writing, producing content, expressing ideas, or gradually realizing previously buried thoughts are manifestations of the desire to share. It's not about telling others that we're writing something seemingly impressive out of vanity, but rather about wanting to express ourselves sincerely, or hoping that our works, which we've put our heart and soul into, will be taken seriously or receive some feedback.
+Schreiben, Inhalte produzieren, Ideen ausdrücken oder allmählich zuvor begrabene Gedanken realisieren sind Manifestationen des Wunsches zu teilen. Es geht nicht darum, anderen aus Eitelkeit zu erzählen, dass wir etwas scheinbar Beeindruckendes schreiben, sondern vielmehr darum, uns aufrichtig auszudrücken oder zu hoffen, dass unsere Werke, in die wir Herz und Seele gesteckt haben, ernst genommen werden oder ein gewisses Feedback erhalten.
 
-My friend's analogy was apt: it's like shouting into a valley, hoping to hear an echo.
+Die Analogie meines Freundes war treffend: Es ist, als würde man in ein Tal rufen und hoffen, ein Echo zu hören.
 
-### Introspection and External Seeking
+### Introspektion und Suche nach Außen
 
-What left a deep impression on me was the concept of "introspection and external seeking." As humans, our focus is often divided into internal and external aspects. Comparatively, external focus tends to dominate due to its more stimulating nature and positive feedback, while internal focus is often easily overlooked.
+Was einen tiefen Eindruck bei mir hinterließ, war das Konzept der "Introspektion und Suche nach Außen". Als Menschen ist unser Fokus oft in interne und externe Aspekte unterteilt. Vergleichsweise dominiert der externe Fokus oft aufgrund seiner stimulierenderen Natur und des positiven Feedbacks, während der interne Fokus leicht übersehen wird.
 
-It seems that from a certain stage, we begin to fear and be wary of our own changes. We worry about one day no longer being able to absorb books and movies, or having empty thoughts after experiencing them - how unimaginable and unacceptable that would be. At the same time, we seem to worry about ceasing to change, for how many interesting life stages would we miss then?
+Es scheint, dass wir ab einem bestimmten Stadium beginnen, unsere eigenen Veränderungen zu fürchten und ihnen gegenüber misstrauisch zu sein. Wir sorgen uns darum, eines Tages nicht mehr in der Lage zu sein, Bücher und Filme zu absorbieren, oder nach deren Erfahrung leere Gedanken zu haben - wie unvorstellbar und inakzeptabel das wäre. Gleichzeitig scheinen wir uns davor zu fürchten, aufzuhören uns zu verändern, denn wie viele interessante Lebensphasen würden wir dann verpassen?
 
-Upon reflection, I realized that I'm actually afraid of losing the ability to introspect. External seeking always seems to have some answers, while introspection has no endpoint. If we lose our inner core, lose the curiosity and drive to explore ourselves, that would be the most fearful and unbearable thing.
+Bei näherer Betrachtung wurde mir klar, dass ich eigentlich Angst davor habe, die Fähigkeit zur Introspektion zu verlieren. Die Suche nach Außen scheint immer einige Antworten zu haben, während die Introspektion keinen Endpunkt hat. Wenn wir unseren inneren Kern verlieren, die Neugier und den Antrieb verlieren, uns selbst zu erforschen, wäre das das Furchterregendste und Unerträglichste.
 
-## Miscellaneous
+## Verschiedenes
 
-This section will record my inputs and outputs, as well as other things I find interesting.
+Dieser Abschnitt wird meine Inputs und Outputs sowie andere Dinge, die ich interessant finde, aufzeichnen.
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **The Art of Fiction** by Somerset Maugham, an addition to the list. I first read it several years ago and have reread it several times since. It can be said to have reignited my passion for literary classics.
-- **Common Sense** by Li Ao, a collection of political commentaries. I must say, some of the political views from so many years ago are quite interesting when viewed in the current Chinese environment.
-- **The Crowd: A Study of the Popular Mind**, which I read in my freshman year. Revisiting it on the journey, it feels quite different, especially as one can feel individual characteristics gradually being erased in the present day.
+- **The Art of Fiction** von Somerset Maugham, eine Ergänzung zur Liste. Ich habe es vor einigen Jahren zum ersten Mal gelesen und seitdem mehrmals wieder gelesen. Man kann sagen, es hat meine Leidenschaft für literarische Klassiker neu entfacht.
+- **Common Sense** von Li Ao, eine Sammlung politischer Kommentare. Ich muss sagen, einige der politischen Ansichten von vor so vielen Jahren sind im aktuellen chinesischen Umfeld recht interessant zu betrachten.
+- **The Crowd: A Study of the Popular Mind**, das ich in meinem ersten Studienjahr gelesen habe. Beim erneuten Lesen auf der Reise fühlt es sich ganz anders an, besonders da man in der heutigen Zeit spüren kann, wie individuelle Eigenschaften allmählich ausradiert werden.
 
-#### Movies
+#### Filme
 
-- **Fall**, I was on edge throughout the entire movie, and it was quite a different experience. The last time I felt this way was probably during "The Walk." Although I'm not afraid of roller coasters and such activities in daily life, I don't deliberately seek thrills either, so it's probably hard for me to understand this kind of experience. I'm a bit curious though. I've been thinking about going hiking recently, maybe I could try bungee jumping and skydiving later.
+- **Fall**, ich war während des gesamten Films angespannt, und es war eine ganz andere Erfahrung. Das letzte Mal, dass ich mich so gefühlt habe, war wahrscheinlich bei "The Walk". Obwohl ich im täglichen Leben keine Angst vor Achterbahnen und solchen Aktivitäten habe, suche ich auch nicht bewusst nach Nervenkitzel, daher ist es für mich wahrscheinlich schwer, diese Art von Erfahrung zu verstehen. Ich bin aber etwas neugierig. Ich habe in letzter Zeit darüber nachgedacht, wandern zu gehen, vielleicht könnte ich später Bungeejumping und Fallschirmspringen ausprobieren.
 
-#### TV Series
+#### TV-Serien
 
-- **The Terminal List**, the setup in the first episode felt a bit tiring and depressing, but the pacing became very tight afterwards. PTSD and revenge elements are common in series now, but there were still many surprises. I looked it up and found out it's directed by the same person who did Person of Interest, which explains the familiar feeling.
-- **Ishiko and Haneo: You Can't Sue for This**, I watched this drama because of a meme of Kasumi Arimura. The style is nice, but the plot and cases are just okay. Maybe it was originally intended more as a reflection of social conditions and for educational purposes. Also, why does it feel like there are more and more good new legal dramas recently?
-- **Empresses in the Palace**, I watched it over the weekend at home. I wasn't interested in the theme before, and among historical dramas, I've always liked "Nirvana in Fire". However, after finishing it, I found many different points of attraction. The pacing of the series and the acting skills at that time were quite exceptional.
-- **Silent Snow**, a new Japanese drama I'm following. It's very beautiful.
+- **The Terminal List**, der Aufbau in der ersten Episode fühlte sich etwas ermüdend und deprimierend an, aber danach wurde das Tempo sehr straff. PTSD- und Rache-Elemente sind in Serien jetzt üblich, aber es gab immer noch viele Überraschungen. Ich habe nachgeschaut und herausgefunden, dass es vom gleichen Regisseur wie Person of Interest stammt, was das vertraute Gefühl erklärt.
+- **Ishiko and Haneo: You Can't Sue for This**, ich habe dieses Drama wegen eines Memes von Kasumi Arimura geschaut. Der Stil ist schön, aber die Handlung und die Fälle sind nur okay. Vielleicht war es ursprünglich eher als Reflexion über gesellschaftliche Zustände und zu Bildungszwecken gedacht. Außerdem, warum fühlt es sich so an, als gäbe es in letzter Zeit immer mehr gute neue Rechtsdramen?
+- **Empresses in the Palace**, ich habe es am Wochenende zu Hause geschaut. Ich war vorher nicht an dem Thema interessiert, und unter den historischen Dramen mochte ich immer "Nirvana in Fire". Nach dem Anschauen fand ich jedoch viele verschiedene Anziehungspunkte. Das Tempo der Serie und die schauspielerischen Fähigkeiten zu dieser Zeit waren ziemlich außergewöhnlich.
+- **Silent Snow**, ein neues japanisches Drama, dem ich folge. Es ist sehr schön.
 
 #### Anime
 
-- **Wolf Children**, I suddenly came across this anime movie that I had bookmarked since high school while browsing my "want to watch" list on Douban, so I opened it and finished it. I really like the art style, especially the detailed depiction of natural scenery. Although the ending is fairly good in terms of plot, it still feels a bit depressing. I really like the personalities of the characters.
-- **Chainsaw Man**, it was quite famous when I was in high school, but I didn't watch anime at that time. I'm catching up now, and the first episode is quite good.
-- **Pantheon**, I heard from a colleague that to watch this anime, you need to understand deadlocks, mutex locks, and parallel computing. That piqued my interest, so I started following it. The setting seems quite interesting.
+- **Wolf Children**, ich bin plötzlich auf diesen Anime-Film gestoßen, den ich seit der Oberschule auf meiner "Möchte ich sehen"-Liste auf Douban hatte, also habe ich ihn geöffnet und zu Ende geschaut. Ich mag den Kunststil wirklich, besonders die detaillierte Darstellung der Naturlandschaften. Obwohl das Ende in Bezug auf die Handlung ziemlich gut ist, fühlt es sich immer noch ein bisschen deprimierend an. Ich mag die Persönlichkeiten der Charaktere wirklich sehr.
+- **Chainsaw Man**, er war ziemlich berühmt, als ich in der Oberschule war, aber ich habe damals keine Anime geschaut. Ich hole es jetzt nach, und die erste Episode ist recht gut.
+- **Pantheon**, ich habe von einem Kollegen gehört, dass man, um diesen Anime zu schauen, Deadlocks, Mutex-Locks und paralleles Computing verstehen muss. Das hat mein Interesse geweckt, also habe ich angefangen, ihm zu folgen. Die Prämisse scheint ziemlich interessant zu sein.
 
-#### Games
+#### Spiele
 
-- **Fire Emblem: The Blazing Blade**, I've played more than half of it, but I'm getting a bit tired. It's quite brain-intensive. I'll finish it when I have more free time in the next wave.
+- **Fire Emblem: The Blazing Blade**, ich habe mehr als die Hälfte davon gespielt, aber ich werde langsam müde. Es ist ziemlich gehirnintensiv. Ich werde es beenden, wenn ich in der nächsten Welle mehr Freizeit habe.

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #14 - Suspended Life and Self"
+title: "Wochenrückblick #14 - Suspendiertes Leben und Selbst"
 date: 2022-10-09T09:51:31+08:00
 draft: false
 tags: ["review", "life", "work", "movie", "book", "holiday", "school", "memory", "game", "cat", "ego"]
@@ -10,82 +10,82 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This piece is a record and reflection of my life from `September 27, 2022` to `October 9, 2022`.
+Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom `27. September 2022` bis zum `9. Oktober 2022`.
 
-This is a weekly review spanning quite a long period. The reason being that I took leave early on the morning of September 29 and returned to Hangzhou, followed by the National Day holiday, making it a small extended vacation. That week was mainly occupied with overtime work and the journey home, so I decided to merge it into one article.
+Dies ist ein Wochenrückblick, der einen recht langen Zeitraum umfasst. Der Grund dafür ist, dass ich am frühen Morgen des 29. September Urlaub nahm und nach Hangzhou zurückkehrte, gefolgt vom Nationalfeiertag, was zu einem kleinen verlängerten Urlaub führte. Diese Woche war hauptsächlich mit Überstunden und der Heimreise ausgefüllt, weshalb ich beschloss, sie in einem Artikel zusammenzufassen.
 
-I continued to be busy with the launch of the project at hand, and due to the pre-holiday adjustment, it was somewhat rushed. Although there was still much to adjust during the holiday that required overtime, the functionality was completed. Therefore, the week and more at home was somewhat relaxing. I spent time with family, met some friends, changed my hair color (to blue-gray), and also reorganized my suspended life.
+Ich war weiterhin mit dem Start des aktuellen Projekts beschäftigt, und aufgrund der Anpassungen vor den Feiertagen war es etwas hektisch. Obwohl es während der Feiertage noch einiges zu justieren gab, was Überstunden erforderte, wurde die Funktionalität abgeschlossen. Daher war die Woche und mehr zu Hause etwas entspannend. Ich verbrachte Zeit mit der Familie, traf einige Freunde, änderte meine Haarfarbe (zu Blaugrau) und reorganisierte auch mein suspendiertes Leben.
 
-## Suspended Life and Self
+## Suspendiertes Leben und Selbst
 
-Nearly half a year has passed since the mid-year changes in my life. I always thought I was experiencing inevitable forgetting, but the increasingly frequent dreams lately seem to mockingly remind me that it was merely suspended, never truly past.
+Fast ein halbes Jahr ist seit den Veränderungen in meinem Leben zur Jahresmitte vergangen. Ich dachte immer, ich würde unvermeidliches Vergessen erleben, aber die in letzter Zeit immer häufiger werdenden Träume scheinen mich spöttisch daran zu erinnern, dass es lediglich suspendiert war, nie wirklich vergangen.
 
-I didn't used to dream much before. Although I couldn't say I was without worries, my generally positive disposition also meant that troubles didn't significantly affect my life. However, lately, some real memories and scenarios have been reappearing through dreams, so real that every morning I feel somewhat bewildered, needing increasingly longer times to dispel these low spirits, or allowing them to grow and spread into the corners of my life.
+Früher träumte ich nicht viel. Obwohl ich nicht sagen konnte, dass ich ohne Sorgen war, bedeutete meine generell positive Einstellung auch, dass Probleme mein Leben nicht wesentlich beeinflussten. In letzter Zeit jedoch tauchen einige reale Erinnerungen und Szenarien durch Träume wieder auf, so real, dass ich mich jeden Morgen etwas verwirrt fühle und zunehmend längere Zeit brauche, um diese niedergeschlagene Stimmung zu vertreiben, oder sie wachsen und sich in die Ecken meines Lebens ausbreiten lasse.
 
-Counting back, I suppose I haven't been completely dejected over the past half year. Work has been completed quite well, the blog I picked up again has gained some recognition and has a considerable number of visits; although I often slack off, I've managed to keep up with the weekly reviews; my Twitter account, an outlet for my desire to share, has also accumulated some followers, making me a small tech+daily life blogger, and my channel for random thoughts is slowly filling with rich content. Meanwhile, I've also read many books, watched movies, anime, and TV series that I had previously marked, and while I can't say my thoughts have changed much, I have been cultivating a habit of thinking.
+Wenn ich zurückrechne, nehme ich an, dass ich im letzten halben Jahr nicht völlig niedergeschlagen war. Die Arbeit wurde recht gut erledigt, der Blog, den ich wieder aufgenommen habe, hat einige Anerkennung gewonnen und hat eine beträchtliche Anzahl von Besuchen; obwohl ich oft nachlässig bin, habe ich es geschafft, die wöchentlichen Rückblicke beizubehalten; mein Twitter-Account, ein Ventil für meinen Wunsch zu teilen, hat auch einige Follower angesammelt, was mich zu einem kleinen Tech+Alltags-Blogger macht, und mein Kanal für zufällige Gedanken füllt sich langsam mit reichhaltigem Inhalt. Währenddessen habe ich auch viele Bücher gelesen, Filme, Anime und Fernsehserien geschaut, die ich zuvor markiert hatte, und während ich nicht sagen kann, dass sich meine Gedanken stark verändert haben, habe ich eine Denkgewohnheit kultiviert.
 
-It seems everything is on a good trend, but I always vaguely feel that something is missing.
+Es scheint, als sei alles auf einem guten Weg, aber ich habe immer das vage Gefühl, dass etwas fehlt.
 
-I seem to always protect myself in a way that avoids falling into an extremely bad state. When I'm feeling low and depressed in some aspects, I would force myself to invest energy in others, as if seeking some balance and decency in certain aspects. It's like observing my own life from an objective perspective, too calmly filling the gaps in life, while the meaning of life itself has been suspended, seemingly losing its importance and significance.
+Ich scheine mich immer auf eine Weise zu schützen, die vermeidet, in einen extrem schlechten Zustand zu geraten. Wenn ich mich in manchen Aspekten niedergeschlagen und deprimiert fühle, würde ich mich zwingen, Energie in andere zu investieren, als ob ich eine Art Gleichgewicht und Anstand in bestimmten Aspekten suchen würde. Es ist, als würde ich mein eigenes Leben aus einer objektiven Perspektive beobachten, zu ruhig die Lücken im Leben füllen, während die Bedeutung des Lebens selbst suspendiert wurde, scheinbar ihre Wichtigkeit und Bedeutung verloren hat.
 
-A few years ago, I wrote an article titled "[A Confession at 23: To Pursue Meaning](https://www.pseudoyu.com/en/2020/06/06/yearly_review_23/)", which was quite a significant opening piece for this blog. Looking back at the words from that time, although I didn't arrive at any profound truths after stating some somewhat self-righteous insights and experiences, there was still some arrogance in seeking self and determination in constructing self.
+Vor einigen Jahren schrieb ich einen Artikel mit dem Titel "[Ein Geständnis mit 23: Auf der Suche nach Sinn](https://www.pseudoyu.com/de/2020/06/06/yearly_review_23/)", der ein recht bedeutendes Eröffnungsstück für diesen Blog war. Wenn ich auf die Worte von damals zurückblicke, obwohl ich nach der Darlegung einiger etwas selbstgerechter Einsichten und Erfahrungen nicht zu tiefgründigen Wahrheiten gelangte, gab es noch eine gewisse Arroganz in der Suche nach dem Selbst und Entschlossenheit in der Konstruktion des Selbst.
 
-However, now I seem to have suspended the matter of self along with the lack of meaning in life. It seems that as long as I can keep myself busy, everything is fine. The weekly review is a channel for self-reflection, but it can only address the current state and mood, and it's difficult to touch the depths of self.
+Jetzt jedoch scheine ich die Angelegenheit des Selbst zusammen mit dem Mangel an Bedeutung im Leben suspendiert zu haben. Es scheint, dass solange ich mich beschäftigt halten kann, alles in Ordnung ist. Der wöchentliche Rückblick ist ein Kanal zur Selbstreflexion, aber er kann nur den aktuellen Zustand und die Stimmung ansprechen, und es ist schwierig, die Tiefen des Selbst zu berühren.
 
-Being able to see obvious decline but powerless to remedy it, this sense of powerlessness is not subjective self-numbness and indulgence, but a kind of suffocation and despair like drowning in the sea. Unable to save oneself, even harder to expect help from others, unable to see a lighthouse, only able to survive relying on occasional driftwood. I don't want to always leave behind some negative words, but during this holiday, I allowed myself to be swallowed by the whirlpool of emotions, almost unable to feel the passage of time.
+Den offensichtlichen Niedergang zu sehen, aber machtlos zu sein, ihn zu beheben, dieses Gefühl der Machtlosigkeit ist keine subjektive Selbstbetäubung und Nachgiebigkeit, sondern eine Art Erstickung und Verzweiflung wie das Ertrinken im Meer. Unfähig, sich selbst zu retten, noch schwieriger, Hilfe von anderen zu erwarten, unfähig, einen Leuchtturm zu sehen, nur in der Lage zu überleben, indem man sich auf gelegentliches Treibholz verlässt. Ich möchte nicht immer einige negative Worte hinterlassen, aber während dieses Urlaubs erlaubte ich mir, vom Strudel der Emotionen verschlungen zu werden, fast unfähig, den Lauf der Zeit zu spüren.
 
-October 10 marks the day I first brought Little Potato home. The hours spent lying on the sofa trying to lure her out with cat food are still vivid in my mind, and the joy of her first time in my arms is unforgettable. As this date approaches, I only feel increasingly sad.
+Der 10. Oktober markiert den Tag, an dem ich Klein Kartoffel zum ersten Mal nach Hause brachte. Die Stunden, die ich auf dem Sofa verbrachte und versuchte, sie mit Katzenfutter anzulocken, sind noch lebhaft in meiner Erinnerung, und die Freude, als sie zum ersten Mal in meinen Armen war, ist unvergesslich. Je näher dieses Datum rückt, desto trauriger fühle ich mich nur.
 
-Raising a cat is probably something that requires a lot of effort to do well. Originally, I thought more that we were taking care of the cat, giving her a comfortable living environment, but now I realize that it's me who needs her. I'll probably consider getting another cat sooner. After I can return to Beijing, I'll go to the previous cat shelter to have a look, to add some anticipation and warmth to my life.
+Eine Katze aufzuziehen, ist wahrscheinlich etwas, das viel Mühe erfordert, um es gut zu machen. Ursprünglich dachte ich mehr, dass wir uns um die Katze kümmern, ihr eine komfortable Lebensumgebung geben, aber jetzt erkenne ich, dass ich es bin, der sie braucht. Ich werde wahrscheinlich früher in Erwägung ziehen, eine weitere Katze zu bekommen. Nachdem ich nach Peking zurückkehren kann, werde ich zum vorherigen Katzenschutzheim gehen, um einen Blick zu werfen, um meinem Leben etwas Vorfreude und Wärme hinzuzufügen.
 
-## Others
+## Sonstiges
 
-This section will record my input and output, as well as other things I find interesting.
+Dieser Abschnitt wird meine Inputs und Outputs sowie andere Dinge, die ich interessant finde, aufzeichnen.
 
-### Device
+### Gerät
 
 ![rg351v_game_console](https://image.pseudoyu.com/images/rg351v_game_console.jpg)
 
-Every year or two, I would revisit classic GBA games using phone emulators, but playing with virtual buttons always lacks that childhood feeling. I got a new toy from [@Ehco1996](https://twitter.com/Ehco1996), unlocking a new world of open-source handheld consoles!
+Alle ein oder zwei Jahre würde ich klassische GBA-Spiele mit Handy-Emulatoren erneut besuchen, aber das Spielen mit virtuellen Tasten vermittelt immer dieses Kindheitsgefühl. Ich habe ein neues Spielzeug von [@Ehco1996](https://twitter.com/Ehco1996) bekommen und eine neue Welt der Open-Source-Handhelds entdeckt!
 
-Quickly revisiting Pokémon and Fire Emblem series (although I've already completed them many times), happy!
+Schnell die Pokémon- und Fire Emblem-Serien wieder besucht (obwohl ich sie schon viele Male durchgespielt habe), glücklich!
 
 ### Input
 
-#### Books
+#### Bücher
 
-- **"Send You a Bullet"**, this is the most enjoyable book I've read in the past two years. Because it's a collection of essays and notes, I can read a few pieces during commutes without feeling disjointed. I really like Liu Yu's style of speaking, with life essays interspersed with some political and cultural reflections. Several times I almost laughed out loud on the subway. I never knew words could present a person's way of life and the appearance of their world so concretely and authentically. Moreover, this kind of authenticity in writing and self-mockery is the state I aspire to. I hope that years later, when I look at my own writings, I can have this kind of pleasant surprise to some extent.
+- **"Sende dir eine Kugel"**, dies ist das unterhaltsamste Buch, das ich in den letzten zwei Jahren gelesen habe. Da es sich um eine Sammlung von Essays und Notizen handelt, kann ich während der Pendlerzeit ein paar Stücke lesen, ohne mich zusammenhanglos zu fühlen. Ich mag Liu Yus Sprechstil wirklich, mit Lebensessays, die mit einigen politischen und kulturellen Reflexionen durchsetzt sind. Mehrmals hätte ich auf der U-Bahn fast laut gelacht. Ich wusste nie, dass Worte die Lebensweise und das Erscheinungsbild der Welt einer Person so konkret und authentisch präsentieren könnten. Darüber hinaus ist diese Art von Authentizität im Schreiben und Selbstironie der Zustand, nach dem ich strebe. Ich hoffe, dass ich Jahre später, wenn ich meine eigenen Schriften betrachte, in gewissem Maße diese Art von angenehmer Überraschung haben kann.
 
-- **"Siddhartha"**, a very short book that I finished during a two-hour flight. Perhaps because I was physically isolated from external disturbances, it felt strangely peaceful. It talks about Indian religious philosophy, a pursuit of the pure and peaceful parts of human self. I heard a friend say they had gone through a stage where everything felt meaningless, closed off and painful. I often feel the same, which suddenly reminded me of Siddhartha. A complete person needs to experience Siddhartha's entire life, from rebelling against everything in the world and rejecting mediocrity, to self-discipline, suppressing desires, self-avoidance and comfort, then to beginning to know, learn and overturn oneself, self-contradiction, and finally to still following oneself, but being able to understand and sympathize with people and their ways of life. For me, the most profound point is that it warns from the perspective of a complete lifetime that life cannot find self by following rules or imitating and following others. Only through constant thinking and seeking can one truly understand oneself and life. It doesn't mean that everything must be experienced firsthand, but at least one should explore and experience rather than just take. I strongly recommend watching the analysis video by the treasure Bilibili uploader "Naive and Sentimental Novelist".
+- **"Siddhartha"**, ein sehr kurzes Buch, das ich während eines zweistündigen Fluges beendet habe. Vielleicht weil ich physisch von äußeren Störungen isoliert war, fühlte es sich seltsam friedlich an. Es spricht über indische Religionsphilosophie, ein Streben nach den reinen und friedlichen Teilen des menschlichen Selbst. Ich hörte einen Freund sagen, er habe eine Phase durchgemacht, in der sich alles bedeutungslos, verschlossen und schmerzhaft anfühlte. Ich fühle oft dasselbe, was mich plötzlich an Siddhartha erinnerte. Ein vollständiger Mensch muss Siddharthas gesamtes Leben erfahren, von der Rebellion gegen alles in der Welt und der Ablehnung der Mittelmäßigkeit, über Selbstdisziplin, Unterdrückung von Begierden, Selbstvermeidung und Komfort, dann zum Beginnen zu wissen, zu lernen und sich selbst zu überwinden, Selbstwiderspruch, und schließlich noch immer sich selbst zu folgen, aber in der Lage zu sein, Menschen und ihre Lebensweisen zu verstehen und mit ihnen zu sympathisieren. Für mich ist der tiefgründigste Punkt, dass es aus der Perspektive eines vollständigen Lebens warnt, dass das Leben das Selbst nicht finden kann, indem man Regeln folgt oder andere imitiert und ihnen folgt. Nur durch ständiges Denken und Suchen kann man sich selbst und das Leben wirklich verstehen. Es bedeutet nicht, dass alles aus erster Hand erlebt werden muss, aber zumindest sollte man erforschen und erfahren, anstatt nur zu nehmen. Ich empfehle dringend, das Analysevideo des Schatz-Bilibili-Uploaders "Naiver und sentimentaler Romanautor" anzuschauen.
 
-- **"Less Than One"**, I found it while organizing my bookshelf at home and discovered I had read it a few years ago, but my memory was a bit blurry. I'm marking it here and will reread it when I have time. I really loved physical books back then.
+- **"Weniger als eins"**, ich fand es, während ich mein Bücherregal zu Hause ordnete und entdeckte, dass ich es vor ein paar Jahren gelesen hatte, aber meine Erinnerung war etwas verschwommen. Ich markiere es hier und werde es wieder lesen, wenn ich Zeit habe. Ich liebte damals wirklich physische Bücher.
 
-#### Movies
+#### Filme
 
-- **"Bullet Train"**, it gave me a sense of déjà vu of "Lock, Stock and Two Smoking Barrels". The scene transitions and neon light narration settings were quite impressive, but the ending and background explanation felt a bit rushed.
+- **"Bullet Train"**, es gab mir ein Déjà-vu-Gefühl von "Bube, Dame, König, grAs". Die Szenenübergänge und Neonlicht-Erzähleinstellungen waren ziemlich beeindruckend, aber das Ende und die Hintergrunderklärung fühlten sich etwas überstürzt an.
 
-- **"Manchester by the Sea"**, it might not be a suitable movie to watch when I'm already feeling low, but I still watched it quietly to the end. Regret, emotions, family affection, the loneliness of a person - I can't say I empathize completely, but I did try to understand.
+- **"Manchester by the Sea"**, es mag kein geeigneter Film sein, wenn ich mich bereits niedergeschlagen fühle, aber ich habe ihn trotzdem still bis zum Ende geschaut. Reue, Emotionen, Familienliebe, die Einsamkeit einer Person - ich kann nicht sagen, dass ich vollständig mitfühle, aber ich habe versucht zu verstehen.
 
-- **"Shin Ultraman"**, I didn't expect to still be able to watch an Ultraman movie, it still has that familiar feeling.
+- **"Shin Ultraman"**, ich hätte nicht erwartet, noch einen Ultraman-Film sehen zu können, es hat immer noch dieses vertraute Gefühl.
 
-#### TV Series
+#### TV-Serien
 
-- **"The Terminal List"**, saw a recommendation, just started watching.
+- **"The Terminal List"**, sah eine Empfehlung, habe gerade angefangen zu schauen.
 
-- **"Kieta Hatsukoi"**, it's already finished, but I haven't watched it all yet. I saw Takegi's edits recently, so I thought I'd watch the rest.
+- **"Kieta Hatsukoi"**, es ist bereits zu Ende, aber ich habe es noch nicht ganz gesehen. Ich sah kürzlich Takegis Bearbeitungen, also dachte ich, ich würde den Rest anschauen.
 
-- **"House of the Dragon Season 1"**, watched until the middle and thought it was okay, so I might as well finish it.
+- **"House of the Dragon Staffel 1"**, habe bis zur Mitte geschaut und fand es okay, also könnte ich es auch zu Ende schauen.
 
-- **"Rick and Morty Season 6"**, maybe because I watched the previous seasons too quickly, following this season slowly allows me to discover more details.
+- **"Rick and Morty Staffel 6"**, vielleicht weil ich die vorherigen Staffeln zu schnell geschaut habe, erlaubt mir das langsame Verfolgen dieser Staffel, mehr Details zu entdecken.
 
 #### Anime
 
-- **"Summer Time Rendering"**, it has accompanied me through these six months. The setting, pacing, and plot are all very comfortable. I'm satisfied with the ending. After all, who doesn't love sweet romance?
+- **"Summer Time Rendering"**, es hat mich durch diese sechs Monate begleitet. Die Einstellung, das Tempo und die Handlung sind alle sehr angenehm. Ich bin mit dem Ende zufrieden. Immerhin, wer liebt nicht süße Romantik?
 
-- **"My Stepmom's Daughter Is My Ex"**, setting aside the premise, it's more like a daily life romance anime in the middle and later stages. It's quite sweet.
+- **"My Stepmom's Daughter Is My Ex"**, abgesehen von der Prämisse ist es in den mittleren und späteren Phasen eher wie ein Alltagsromanzen-Anime. Es ist ziemlich süß.
 
-#### Games
+#### Spiele
 
-- **"Fire Emblem: The Blazing Blade"**, I recently bought an open-source handheld console on Xianyu, allowing me to catch up on the Fire Emblem series that I've been longing for. I was too young at the time and couldn't fully appreciate the joy of tactical strategy games, which is somewhat regrettable.
+- **"Fire Emblem: The Blazing Blade"**, ich habe kürzlich eine Open-Source-Handheld-Konsole auf Xianyu gekauft, die es mir ermöglicht, die Fire Emblem-Serie nachzuholen, nach der ich mich gesehnt habe. Ich war damals zu jung und konnte die Freude an taktischen Strategiespielen nicht vollständig schätzen, was etwas bedauerlich ist.

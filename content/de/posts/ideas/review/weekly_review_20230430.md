@@ -72,7 +72,7 @@ Da dies Randys Praxis ist, werde ich keinen separaten Blogbeitrag schreiben, um 
 
 Was das Basteln an Netzwerken, verschiedenen Hardwaregeräten und Systemen angeht, gehöre ich zur Kategorie derjenigen, die sowohl ungeschickt als auch spielfreudig sind. Ich hatte zuvor einige Best Practices für die Thin-Client-Entwicklung erkundet, Details können in diesem Artikel gesehen werden:
 
-- [Thin-Client-Entwicklungs-Workflow basierend auf frp Intranet-Penetration](https://www.pseudoyu.com/en/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
+- [Thin-Client-Entwicklungs-Workflow basierend auf frp Intranet-Penetration](https://www.pseudoyu.com/de/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)
 
 Der wichtigste und schwierigste Punkt ist, wie man in einer externen Netzwerkumgebung auf Geräte zu Hause, wie Server, Mac-Hosts usw., zugreifen kann. In meiner vorherigen Lösung verwendete ich das frp-Tool für Intranet-Penetration. Ein halbes Jahr ist vergangen, es ist sehr stabil und ist immer noch die erste empfohlene Lösung.
 

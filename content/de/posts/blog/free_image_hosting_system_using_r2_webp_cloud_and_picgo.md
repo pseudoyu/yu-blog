@@ -18,7 +18,7 @@ Dieser Artikel befasst sich mit der Lösung für das Bildhosting-System.
 
 Ich habe ein neues Tutorial geschrieben, das Datenschutz und Urheberrechtsschutz für das Bildhosting-System implementiert, was als zusätzliches Kapitel betrachtet werden kann.
 
-- [Füge Datenschutz und Urheberrechtsschutz zu deinem Bildhosting mit WebP Cloud und Cloudflare WAF hinzu](https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
+- [Füge Datenschutz und Urheberrechtsschutz zu deinem Bildhosting mit WebP Cloud und Cloudflare WAF hinzu](https://www.pseudoyu.com/de/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
 
 ## Iterationen der Bildhosting-Lösung
 

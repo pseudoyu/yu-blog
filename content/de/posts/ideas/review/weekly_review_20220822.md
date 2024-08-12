@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #08 - Career Musings, 404 Not Found, and Cats"
+title: "Wochenrückblick #08 - Karrieregedanken, 404 Not Found und Katzen"
 date: 2022-08-22T10:22:14+08:00
 draft: false
 tags: ["review", "life", "reading", "romance", "love", "emotion", "cat", "career"]
@@ -10,106 +10,106 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
-This is a record of and reflection on my life from August 16 to August 21, 2022. Work remained relatively relaxed this week, allowing for more time to converse and dine with colleagues midweek. With limited time at home, the overall pace was leisurely. The atmosphere of July and August felt reminiscent of summer vacations past, unburdened by any sense of guilt. Nevertheless, I managed to read some books and establish a more regular reading routine in terms of time, frequency, and approach.
+Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 16. bis 21. August 2022. Die Arbeit blieb diese Woche relativ entspannt, was mehr Zeit für Gespräche und gemeinsame Mahlzeiten mit Kollegen unter der Woche ermöglichte. Mit begrenzter Zeit zu Hause war das Gesamttempo gemächlich. Die Atmosphäre des Juli und August fühlte sich an wie Sommerferien vergangener Zeiten, unbelastet von jeglichem Schuldgefühl. Dennoch gelang es mir, einige Bücher zu lesen und eine regelmäßigere Leseroutine in Bezug auf Zeit, Häufigkeit und Herangehensweise zu etablieren.
 
-Midweek, I experienced some disheartening events in my emotional life (perhaps it can no longer be called a relationship, but rather memories). After a few days of adjustment, I've recovered somewhat. I'm concerned about my state of mind and have been seriously contemplating whether I should (again) adopt a cat.
+Mitte der Woche erlebte ich einige entmutigende Ereignisse in meinem Gefühlsleben (vielleicht kann man es nicht mehr Beziehung nennen, sondern eher Erinnerungen). Nach ein paar Tagen der Anpassung habe ich mich einigermaßen erholt. Ich mache mir Sorgen um meinen Gemütszustand und überlege ernsthaft, ob ich (wieder) eine Katze adoptieren sollte.
 
-## Career Musings
+## Karrieregedanken
 
-Last week, I listened to the episode "[65. Kernel Panic × Fengyanfengyu: What would we do if we weren't programmers?](https://pan.icu/65)" and found it quite thought-provoking. Unlike the guests, my journey into programming was more of a serendipitous occurrence. In my relatively short life thus far, I've experienced several turning points, like different world lines, and I often wonder if another version of myself in a parallel universe is happier or equally perplexed.
+Letzte Woche hörte ich die Folge "[65. Kernel Panic × Fengyanfengyu: Was würden wir tun, wenn wir keine Programmierer wären?](https://pan.icu/65)" und fand sie sehr anregend. Anders als die Gäste war mein Weg in die Programmierung eher eine zufällige Begebenheit. In meinem bisher relativ kurzen Leben habe ich mehrere Wendepunkte erlebt, wie verschiedene Weltlinien, und ich frage mich oft, ob eine andere Version von mir in einem parallelen Universum glücklicher oder ebenso verwirrt ist.
 
-In truth, I've never harbored grand ambitions. As a child, I never dreamed of becoming "X scientist." More realistically, I once considered becoming a teacher, but after spending several years with an unkind elementary school homeroom teacher, I lost much of my enthusiasm. It's not that I think teaching is a poor profession; I simply feared becoming that kind of adult.
+In Wahrheit hatte ich nie große Ambitionen. Als Kind träumte ich nie davon, "X-Wissenschaftler" zu werden. Realistischer betrachtet dachte ich einmal daran, Lehrer zu werden, aber nachdem ich mehrere Jahre mit einem unfreundlichen Grundschulklassenlehrer verbracht hatte, verlor ich viel von meinem Enthusiasmus. Es liegt nicht daran, dass ich den Lehrerberuf für schlecht halte; ich fürchtete einfach, diese Art von Erwachsener zu werden.
 
-In high school, as I read and wrote more, I entertained dreams of becoming an independent writer or journalist. Perhaps there was a touch of naive righteousness and heroism, but overall, I had no grandiose or noble ideas like "revitalizing Chinese literature" or "exposing social ills." I simply thought how wonderful it would be to combine my hobby of reading and writing with my profession.
+In der Oberschule, als ich mehr las und schrieb, träumte ich davon, ein unabhängiger Schriftsteller oder Journalist zu werden. Vielleicht gab es einen Hauch von naiver Rechtschaffenheit und Heldentum, aber insgesamt hatte ich keine großartigen oder edlen Ideen wie "die chinesische Literatur wiederzubeleben" oder "soziale Missstände aufzudecken". Ich dachte einfach, wie wunderbar es wäre, mein Hobby des Lesens und Schreibens mit meinem Beruf zu verbinden.
 
-After the college entrance exam, I participated in an international volunteer teaching program where I met real international journalists, which further shaped my imagination of future careers. However, as I grew older, I gradually realized that I lacked the imagination to become a writer and the courage to be a journalist. This is perhaps the price of growing up - no longer being able to loudly proclaim one's so-called "ideals" and having to acknowledge and face one's limitations.
+Nach der Hochschulaufnahmeprüfung nahm ich an einem internationalen Freiwilligenunterrichtsprogramm teil, wo ich echte internationale Journalisten traf, was meine Vorstellung von zukünftigen Karrieren weiter prägte. Als ich jedoch älter wurde, erkannte ich allmählich, dass mir die Fantasie fehlte, um Schriftsteller zu werden, und der Mut, Journalist zu sein. Dies ist vielleicht der Preis des Erwachsenwerdens - nicht mehr laut die sogenannten "Ideale" verkünden zu können und die eigenen Grenzen anerkennen und ihnen ins Auge sehen zu müssen.
 
-Being assigned to the English major was fortunate in a way, as it didn't make me feel like I was wasting time during my period of uncertainty about the future. In my first two years of university, I didn't think much about the future. Instead, I spent my free time learning various software like Photoshop and Premiere, actively participating in various student organizations, and being the "tech geek" in the liberal arts college.
+Dem Englisch-Studiengang zugeteilt zu werden, war in gewisser Weise ein Glücksfall, da es mich nicht das Gefühl gab, Zeit zu verschwenden während meiner Ungewissheit über die Zukunft. In meinen ersten beiden Studienjahren dachte ich nicht viel über die Zukunft nach. Stattdessen verbrachte ich meine Freizeit damit, verschiedene Software wie Photoshop und Premiere zu lernen, aktiv an verschiedenen studentischen Organisationen teilzunehmen und der "Tech-Geek" der geisteswissenschaftlichen Fakultät zu sein.
 
-The logic behind most software isn't complex; it's a matter of practice makes perfect. Gradually, an idea formed: rather than just "using" software, wouldn't "creating" it be more interesting? So I started learning to code with Python. I took many detours, experiencing months of only being able to do homework exercises without creating complete projects. It's only now, after much exploration, that I've barely scratched the surface.
+Die Logik hinter den meisten Softwareprogrammen ist nicht kompliziert; es ist eine Frage der Übung. Allmählich formte sich eine Idee: Wäre es nicht interessanter, Software zu "erschaffen", anstatt sie nur zu "benutzen"? Also begann ich, mit Python programmieren zu lernen. Ich machte viele Umwege und erlebte Monate, in denen ich nur Hausaufgabenübungen machen konnte, ohne vollständige Projekte zu erstellen. Erst jetzt, nach vielen Erkundungen, habe ich kaum an der Oberfläche gekratzt.
 
-At that time, I didn't consider it as a career goal; I simply thought I was doing something interesting and cool. In my junior year, on a whim, I started learning photography. I bought a Sony A7M3 mirrorless camera (which I still use today) and began documenting landscapes and human interest stories while on business trips during my internship.
+Damals betrachtete ich es nicht als Karriereziel; ich dachte einfach, ich würde etwas Interessantes und Cooles machen. In meinem dritten Studienjahr begann ich auf einer Laune hin, Fotografie zu lernen. Ich kaufte eine spiegellose Sony A7M3 Kamera (die ich heute noch benutze) und begann, Landschaften und menschliche Geschichten während meiner Geschäftsreisen im Praktikum zu dokumentieren.
 
-The mentor who taught me photography was a deep journalist and documentary director. He didn't teach me basic composition principles or how to adjust parameters. Instead, he subtly conveyed that even for a simple photograph, one must conceive a theme in mind when shooting, like telling a subtle story. All composition, tone, or effects should serve this story. This perspective continues to influence me.
+Der Mentor, der mich Fotografie lehrte, war ein tiefgründiger Journalist und Dokumentarfilmregisseur. Er brachte mir nicht die grundlegenden Kompositionsprinzipien oder wie man Parameter einstellt bei. Stattdessen vermittelte er subtil, dass man selbst für ein einfaches Foto beim Fotografieren ein Thema im Kopf haben muss, wie das Erzählen einer subtilen Geschichte. Alle Kompositionen, Töne oder Effekte sollten dieser Geschichte dienen. Diese Perspektive beeinflusst mich bis heute.
 
-After my internship, I returned to school and opened my own video studio, taking on promotional video and online course production and editing projects. Starting from lighting, scene setting, green screen, and so on, I experienced various aspects of the industry with a minimal workflow. I did consider making it my profession, but ultimately felt it lacked sufficient interest, so I abandoned the idea.
+Nach meinem Praktikum kehrte ich zur Schule zurück und eröffnete mein eigenes Videostudio, übernahm Projekte für Werbevideos und die Produktion und Bearbeitung von Online-Kursen. Angefangen bei Beleuchtung, Szenenaufbau, Greenscreen und so weiter, erlebte ich verschiedene Aspekte der Branche mit einem minimalen Workflow. Ich zog in Betracht, es zu meinem Beruf zu machen, fühlte aber letztendlich, dass es nicht genug Interesse weckte, also verwarf ich die Idee.
 
-As graduation approached, I consistently considered becoming a product manager. I learned about and experienced some related work, but still felt my interest lay in "creating" and the satisfaction of truly completing something, rather than designing and outlining blueprints (while still feeling I lacked sufficient creativity). So I didn't pursue that path either.
+Als der Abschluss näher rückte, dachte ich konsequent darüber nach, Produktmanager zu werden. Ich lernte über einige damit verbundene Arbeiten und sammelte Erfahrungen, fühlte aber immer noch, dass mein Interesse im "Erschaffen" und der Befriedigung lag, wirklich etwas zu vollenden, anstatt Blaupausen zu entwerfen und zu skizzieren (während ich immer noch das Gefühl hatte, nicht genügend Kreativität zu besitzen). Also verfolgte ich diesen Weg auch nicht weiter.
 
-Finally, I went abroad to study in a different field and returned to become a fairly competent programmer. This is my current career path. Although there are many aspects I've glossed over, I've genuinely experienced confusion, struggle, dejection, and various other emotions at each stage. Being able to reach this point involves both luck and the rewards of effort, which I deeply cherish. I can't be certain I'll always be a programmer, but it will likely always be related to coding in some way, as it's the most interesting thing I've done so far, with endless room for exploration. The story continues, and who doesn't want to experience a more diverse and interesting lifestyle?
+Schließlich ging ich ins Ausland, um in einem anderen Bereich zu studieren, und kehrte zurück, um ein ziemlich kompetenter Programmierer zu werden. Dies ist mein aktueller Karriereweg. Obwohl ich viele Aspekte nur angerissen habe, habe ich in jeder Phase wirklich Verwirrung, Kampf, Niedergeschlagenheit und verschiedene andere Emotionen erlebt. An diesem Punkt angelangt zu sein, beinhaltet sowohl Glück als auch die Belohnungen der Anstrengung, was ich zutiefst schätze. Ich kann nicht sicher sein, dass ich immer Programmierer sein werde, aber es wird wahrscheinlich immer in irgendeiner Weise mit Programmieren zu tun haben, da es das Interessanteste ist, was ich bisher gemacht habe, mit endlosen Erkundungsmöglichkeiten. Die Geschichte geht weiter, und wer möchte nicht einen vielfältigeren und interessanteren Lebensstil erleben?
 
 ## 404 Not Found
 
 ![dino](https://image.pseudoyu.com/images/dino.gif)
 
-This might be a somewhat cryptic title.
+Dies könnte ein etwas kryptischer Titel sein.
 
-On websites, if content no longer exists, a "404 Not Found" page is usually displayed to notify visitors. I've always found this quite cool. I once chose a 404 icon style for the bag I carry my power bank in, and for a while, I added Google's little dinosaur animation to my introduction page (Google Chrome browser has an offline jumping game when there's a problem accessing a website, giving visitors some entertainment while they wait).
+Auf Websites wird normalerweise eine "404 Not Found"-Seite angezeigt, um Besucher zu benachrichtigen, wenn Inhalte nicht mehr existieren. Ich fand das schon immer ziemlich cool. Ich wählte einmal einen 404-Icon-Stil für die Tasche, in der ich meine Powerbank trage, und eine Zeit lang fügte ich die kleine Dinosaurier-Animation von Google zu meiner Einführungsseite hinzu (Google Chrome-Browser hat ein Offline-Springspiel, wenn es ein Problem beim Zugriff auf eine Website gibt, um den Besuchern während des Wartens etwas Unterhaltung zu bieten).
 
-I've always considered myself a person with a high error tolerance, able to face small mistakes and mishaps calmly or even jokingly, often proud of this attitude. Until my relationship became 404 Not Found.
+Ich habe mich immer für einen Menschen mit hoher Fehlertoleranz gehalten, der kleinen Fehlern und Missgeschicken ruhig oder sogar scherzhaft begegnen kann, oft stolz auf diese Einstellung. Bis meine Beziehung 404 Not Found wurde.
 
 ![misty_blog_404_not_found](https://image.pseudoyu.com/images/misty_blog_404_not_found.png)
 
-In truth, I wasn't blind to the signs of being cleared out or disassociated, and I was gradually accepting some realities as time passed. But when the 404 prompt appeared before my eyes, I discovered the pain was much stronger than I had imagined, tearing open the facade of strength I had been maintaining for so many days.
+In Wahrheit war ich nicht blind für die Anzeichen des Aussortiertwerdens oder der Loslösung, und ich akzeptierte allmählich einige Realitäten, während die Zeit verging. Aber als die 404-Aufforderung vor meinen Augen erschien, entdeckte ich, dass der Schmerz viel stärker war als ich mir vorgestellt hatte und die Fassade der Stärke zerriss, die ich so viele Tage aufrechterhalten hatte.
 
-I've always been more optimistic about relationships compared to other aspects of life. Now I have to acknowledge the inherent tragic nature of relationships. The former sweetness has become a thorny cage constraining me now. Not touching it means not getting hurt, but it also means losing the courage to step forward.
+Ich war immer optimistischer in Bezug auf Beziehungen im Vergleich zu anderen Aspekten des Lebens. Jetzt muss ich die inhärente tragische Natur von Beziehungen anerkennen. Die frühere Süße ist nun zu einem dornigen Käfig geworden, der mich einschränkt. Sie nicht zu berühren bedeutet, nicht verletzt zu werden, aber es bedeutet auch, den Mut zu verlieren, vorwärts zu gehen.
 
-## Cats
+## Katzen
 
 ![my_cat_xiao_shu](https://image.pseudoyu.com/images/my_cat_xiao_shu.jpg)
 
-To be honest, before being with her, I had never thought about keeping a cat. I probably felt that someone who couldn't even take care of themselves had no right to be responsible for another living being. But when we actually had a new family member, I gradually discovered that I enjoyed this dependence and being depended upon, and life seemed to have many more goals.
+Um ehrlich zu sein, hatte ich vor dem Zusammensein mit ihr nie daran gedacht, eine Katze zu halten. Ich fühlte wahrscheinlich, dass jemand, der sich nicht einmal um sich selbst kümmern konnte, kein Recht hatte, für ein anderes Lebewesen verantwortlich zu sein. Aber als wir tatsächlich ein neues Familienmitglied hatten, entdeckte ich allmählich, dass ich diese Abhängigkeit und das Abhängigsein genoss, und das Leben schien viele weitere Ziele zu haben.
 
-After she left, Xiao Shu was taken away too. Although I often jokingly tell friends that I've lost "both person and cat," I know that my care wasn't as good as hers before, so this choice is understandable. It's just that every time I recall the past, I feel twice as sad.
+Nachdem sie gegangen war, wurde auch Xiao Shu weggebracht. Obwohl ich Freunden oft scherzhaft sage, dass ich "sowohl Person als auch Katze" verloren habe, weiß ich, dass meine Fürsorge vorher nicht so gut war wie ihre, also ist diese Wahl verständlich. Es ist nur so, dass ich mich jedes Mal, wenn ich mich an die Vergangenheit erinnere, doppelt so traurig fühle.
 
-After watching the documentary "[The Secret World of Cats](http://movie.douban.com/subject/36033619/)" last night, I learned more about many thoughts and interaction details of cats that I had previously overlooked. It vaguely sparked the idea of whether I should raise a cat again. However, this feels like a betrayal to Xiao Shu, and I'm still not mentally prepared to properly care for a new member. Welcoming a new member when I'm in need is hardly a responsible choice for either the cat or myself.
+Nachdem ich gestern Abend die Dokumentation "[Die geheime Welt der Katzen](http://movie.douban.com/subject/36033619/)" gesehen hatte, lernte ich mehr über viele Gedanken und Interaktionsdetails von Katzen, die ich zuvor übersehen hatte. Es weckte vage die Idee, ob ich wieder eine Katze halten sollte. Dies fühlt sich jedoch wie ein Verrat an Xiao Shu an, und ich bin mental noch nicht darauf vorbereitet, mich angemessen um ein neues Mitglied zu kümmern. Ein neues Mitglied willkommen zu heißen, wenn ich selbst bedürftig bin, ist kaum eine verantwortungsvolle Wahl, weder für die Katze noch für mich selbst.
 
-Perhaps someday in the future.
+Vielleicht irgendwann in der Zukunft.
 
-## Miscellaneous
+## Verschiedenes
 
-This section will record some of my inputs, outputs, and other things I find interesting.
+Dieser Abschnitt wird einige meiner Inputs, Outputs und andere Dinge aufzeichnen, die ich interessant finde.
 
-### Learning
+### Lernen
 
-This week, I continued to follow the plan and watch some learning course materials. I finally caught up with the smart contract courses (32 hours, so long!). However, because I'm already familiar with contracts, and there's a lot of repetitive code, I rarely followed along and wrote directly. I plan to analyze the project source code this week, so the amount of code in these two weeks has been pitifully small. I'm almost becoming a Markdown engineer.
+Diese Woche folgte ich weiterhin dem Plan und sah mir einige Lernkursmaterialien an. Ich holte endlich die Smart-Contract-Kurse auf (32 Stunden, so lang!). Da ich jedoch bereits mit Verträgen vertraut bin und es viel sich wiederholenden Code gibt, bin ich selten direkt mitgegangen und habe geschrieben. Ich plane, diese Woche den Projektquellcode zu analysieren, daher war die Menge an Code in diesen zwei Wochen bedauerlicherweise gering. Ich werde fast zu einem Markdown-Ingenieur.
 
-### Blog Related
+### Blog-Bezogenes
 
-The previous article I wrote about Stablecoin still needs some modifications, but I haven't made the changes yet due to my state in the latter half of the period. I need to adjust and improve it in the next few days. This week, I'll continue to complete the following blog posts (which I've been procrastinating on for a long time):
+Der vorherige Artikel, den ich über Stablecoin geschrieben habe, benötigt noch einige Änderungen, aber aufgrund meines Zustands in der zweiten Hälfte des Zeitraums habe ich die Änderungen noch nicht vorgenommen. Ich muss ihn in den nächsten Tagen anpassen und verbessern. Diese Woche werde ich weiterhin die folgenden Blogbeiträge vervollständigen (mit denen ich schon lange im Rückstand bin):
 
-1. Cosmos Principles and Architecture
-2. Docker Basics and Practice
-3. k8s Basics and Practice
+1. Cosmos-Prinzipien und -Architektur
+2. Docker-Grundlagen und -Praxis
+3. k8s-Grundlagen und -Praxis
 
 ### Input
 
-#### Books
+#### Bücher
 
-This week, I dug out my long-forgotten Kindle Oasis 2, cleaned up the account and book categories, leaving only "To Read," "Reading," and "Read" categories, basically synchronized with Douban. This way, I can read for about 50 minutes during my commute every day, and sometimes a bit at home. It's more immersive and easier on the eyes than reading e-books on my phone.
+Diese Woche grub ich meinen lang vergessenen Kindle Oasis 2 aus, räumte das Konto und die Buchkategorien auf und ließ nur die Kategorien "Zu lesen", "Lese gerade" und "Gelesen" übrig, im Grunde synchronisiert mit Douban. Auf diese Weise kann ich während meines Arbeitswegs jeden Tag etwa 50 Minuten lesen und manchmal ein bisschen zu Hause. Es ist immersiver und augenschonender als E-Books auf meinem Handy zu lesen.
 
-- **Tim Cook: The Genius Who Took Apple to the Next Level**, finished reading. The book is ordinary, feeling more like a pile of information, but it did help me understand more about post-Jobs Apple and the values it practices.
-- **Work, Consumerism and the New Poor**, an interesting book. I've read two chapters, and it's quite inspiring for my recent thoughts on work status.
-- **The Grid Writing Method**, [a small book recommended by Randy](https://lutaonan.com/blog/read-grid-writing-method/), I'll read it this week.
+- **Tim Cook: The Genius Who Took Apple to the Next Level**, Lektüre abgeschlossen. Das Buch ist gewöhnlich und fühlt sich eher wie ein Haufen Informationen an, aber es half mir, mehr über das post-Jobs Apple und die Werte, die es praktiziert, zu verstehen.
+- **Work, Consumerism and the New Poor**, ein interessantes Buch. Ich habe zwei Kapitel gelesen, und es ist ziemlich inspirierend für meine jüngsten Gedanken zum Arbeitsstatus.
+- **The Grid Writing Method**, [ein kleines Buch, empfohlen von Randy](https://lutaonan.com/blog/read-grid-writing-method/), ich werde es diese Woche lesen.
 
-#### TV Series
+#### Fernsehserien
 
-- **Extraordinary Attorney Woo**, I initially started watching this drama after seeing a clip and finding the female lead cute, but surprisingly, I've been following it weekly to the end. An autistic lawyer is quite a new perspective, and commendably, it doesn't just focus on the female lead's fortune but also includes cases related to other autistic individuals. The main plot isn't extensive, but the relationship between the male and female leads is refreshingly natural.
+- **Extraordinary Attorney Woo**, Ich begann ursprünglich, dieses Drama zu schauen, nachdem ich einen Clip gesehen und die weibliche Hauptfigur niedlich gefunden hatte, aber überraschenderweise bin ich ihm wöchentlich bis zum Ende gefolgt. Eine autistische Anwältin ist eine recht neue Perspektive, und lobenswerterweise konzentriert es sich nicht nur auf das Glück der weiblichen Hauptfigur, sondern enthält auch Fälle im Zusammenhang mit anderen autistischen Personen. Die Haupthandlung ist nicht umfangreich, aber die Beziehung zwischen dem männlichen und weiblichen Protagonisten ist erfrischend natürlich.
 
-#### Movies
+#### Filme
 
-- **Small Remembrance**, Although I'm not yet at the stage where I can calmly watch romance movies, I did immerse myself in this one. I could see some scenes and appearances similar to those described in "A Bouquet," but with less deliberate emphasis on fate and sentimentality, and more of the past and present entanglements fused into words and gestures. Additionally, the late-night Japanese street scenes completely fulfilled all my fantasies about beautiful fate. I want to go there.
-- **The Secret World of Cats**, I gained some understanding of cats' thoughts and could feel the pain of having owned a cat and then being separated from it. I'm considering adopting a cat again after I adjust a bit (there's always some inexplicable feeling of betrayal).
+- **Small Remembrance**, Obwohl ich noch nicht in der Phase bin, in der ich Liebesfilme gelassen anschauen kann, tauchte ich in diesen ein. Ich konnte einige Szenen und Erscheinungen sehen, die denen in "A Bouquet" ähnelten, aber mit weniger bewusster Betonung auf Schicksal und Sentimentalität, und mehr von den Verstrickungen von Vergangenheit und Gegenwart, die in Worte und Gesten eingeflossen sind. Zusätzlich erfüllten die nächtlichen japanischen Straßenszenen vollständig all meine Fantasien über schöne Schicksalsfügungen. Ich möchte dorthin gehen.
+- **The Secret World of Cats**, Ich gewann einiges Verständnis für die Gedanken von Katzen und konnte den Schmerz spüren, eine Katze besessen zu haben und dann von ihr getrennt worden zu sein. Ich überlege, wieder eine Katze zu adoptieren, nachdem ich mich ein bisschen angepasst habe (es gibt immer ein unerklärliches Gefühl des Verrats).
 
 #### Anime
 
-- **Arcane: League of Legends**, I wanted to watch it when it first came out but only caught up now. It's the pinnacle of animation I've seen in recent years in terms of visuals, plot, pacing, and soundtrack. Although I don't play League of Legends and might miss some emotional connections to the characters and storylines, I could still see a great story and a matching grand worldview. Looking forward to the next season.
-- **Summer Time Rendering**, It's getting more and more exciting.
+- **Arcane: League of Legends**, Ich wollte es sehen, als es zuerst herauskam, aber holte es erst jetzt nach. Es ist der Höhepunkt der Animation, die ich in den letzten Jahren in Bezug auf Visuals, Plot, Tempo und Soundtrack gesehen habe. Obwohl ich League of Legends nicht spiele und vielleicht einige emotionale Verbindungen zu den Charakteren und Handlungssträngen verpasse, konnte ich dennoch eine großartige Geschichte und eine passende große Weltanschauung sehen. Ich freue mich auf die nächste Staffel.
+- **Summer Time Rendering**, Es wird immer spannender.
 
-#### Games
+#### Spiele
 
-I suddenly discovered that Douban also has a feature to record games. I modified my n8n automation script and added the function of synchronizing game records. In the future, I also want to add some relaxing elements to my daily life.
+Ich entdeckte plötzlich, dass Douban auch eine Funktion hat, um Spiele aufzuzeichnen. Ich modifizierte mein n8n-Automatisierungsskript und fügte die Funktion hinzu, Spielaufzeichnungen zu synchronisieren. In Zukunft möchte ich auch einige entspannende Elemente in meinen Alltag einbauen.
 
-- **Disco Elysium**, It's a famous literary game from the past two years, created by several writers. I played a bit on Steam before, but the record wasn't saved. Recently, I bought the Switch cartridge version to play properly and also as a collection. I've played for about two or three hours and am attracted by the art style and the thoughts behind it. I'll play slowly and might write something about it.
+- **Disco Elysium**, Es ist ein berühmtes literarisches Spiel aus den letzten zwei Jahren, das von mehreren Schriftstellern geschaffen wurde. Ich habe vorher ein bisschen auf Steam gespielt, aber der Fortschritt wurde nicht gespeichert. Kürzlich kaufte ich die Switch-Cartridge-Version, um es richtig zu spielen und auch als Sammlung. Ich habe etwa zwei oder drei Stunden gespielt und bin vom Kunststil und den dahinterstehenden Gedanken angezogen. Ich werde langsam spielen und vielleicht etwas darüber schreiben.

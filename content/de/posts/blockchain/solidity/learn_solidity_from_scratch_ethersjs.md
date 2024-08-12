@@ -12,7 +12,7 @@ authors:
 
 ## Vorwort
 
-Im vorherigen Artikel "[Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)" haben wir die grundlegende Syntax von Solidity kennengelernt und verstanden, dass wir mit Frameworks wie [Brownie](https://github.com/eth-brownie/brownie) und [HardHat](https://github.com/NomicFoundation/hardhat) debuggen können. In einem weiteren Artikel "[Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)" haben wir auch direkt mit unserem lokalen Ganache-Node mittels Web3.py interagiert.
+Im vorherigen Artikel "[Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)" haben wir die grundlegende Syntax von Solidity kennengelernt und verstanden, dass wir mit Frameworks wie [Brownie](https://github.com/eth-brownie/brownie) und [HardHat](https://github.com/NomicFoundation/hardhat) debuggen können. In einem weiteren Artikel "[Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/de/2022/05/30/learn_solidity_from_scratch_web3py/)" haben wir auch direkt mit unserem lokalen Ganache-Node mittels Web3.py interagiert.
 
 Ursprünglich hatte ich geplant, aufgrund meiner größeren Vertrautheit mit Python, das Brownie-Framework für die weitere Entwicklung zu verwenden. Nach einiger Recherche stellte ich jedoch fest, dass in der Branche überwiegend das HardHat-Framework verwendet wird, das auch mehr Erweiterungen bietet. Zudem wurde das Solidity-Tutorial, dem ich folge, auf eine [Javascript-Version](https://www.youtube.com/watch?v=gyMwXuJrbJQ) aktualisiert, weshalb ich beschloss, es zu erlernen.
 
@@ -265,8 +265,8 @@ Dies sind die Schritte zur Interaktion mit dem Rinkeby-Testnetzwerk von Alchemy 
 
 ## Referenzen
 
-> 1. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
-> 2. [Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/en/2022/05/30/learn_solidity_from_scratch_web3py/)
+> 1. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)
+> 2. [Solidity Smart Contract Entwicklung - Beherrschung von Web3.py](https://www.pseudoyu.com/de/2022/05/30/learn_solidity_from_scratch_web3py/)
 > 3. [Solidity, Blockchain und Smart Contract - Javascript-Version](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 > 4. [ethers.js Projektrepository](https://github.com/ethers-io/ethers.js/)
 > 5. [ethers.js Offizielle Dokumentation](https://docs.ethers.io/)

@@ -124,6 +124,6 @@ Dieser Artikel ist der erste in der Cosmos- und Tendermint-Konsens-Serie und ste
 1. > "Blockchain-Architektur und -Implementierung: Cosmos erklärt - Wen Long/Jia Yin"
 2. > [Cosmos: The Internet of Blockchains](https://cosmos.network/)
 3. > [Whitepaper - Resources - Cosmos Network](https://v1.cosmos.network/resources/whitepaper)
-4. > [Distributed Systems and Blockchain Consensus Mechanisms · Pseudoyu](https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/)
+4. > [Distributed Systems and Blockchain Consensus Mechanisms · Pseudoyu](https://www.pseudoyu.com/de/2021/09/08/blockchain_consensus/)
 5. > [Exploring Cosmos: Tendermint](https://tech.hyperchain.cn/cosmos-5/)
 6. > [Exploring Cosmos: Cosmos SDK](https://tech.hyperchain.cn/cosmos-4/)

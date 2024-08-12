@@ -1,5 +1,5 @@
 ---
-title: "Weekly Review #02 - Work, Anxiety and Growth"
+title: "Wochenrückblick #02 - Arbeit, Ängste und Wachstum"
 date: 2022-07-03T12:54:39+08:00
 draft: false
 tags: ["review", "life", "work", "responsibility", "growth"]
@@ -10,79 +10,79 @@ authors:
 
 {{<audio src="audios/here_after_us.mp3" caption="'Here After Us - Mayday'" >}}
 
-## Preface
+## Vorwort
 
 ![raspberry_pi](https://image.pseudoyu.com/images/raspberry_pi.jpg)
 
-It's been a full year since I started working in Beijing after my internship.
+Ein ganzes Jahr ist vergangen, seit ich nach meinem Praktikum in Peking zu arbeiten begonnen habe.
 
-I've always been a person with an inexplicable sense of ritual. At this juncture, I frequently reflect on my thoughts, gains, anxieties, and regrets from this past year. I often wonder, on this day a year ago, what would that nervous yet expectant version of myself have hoped to gain from the year ahead?
+Ich war schon immer ein Mensch mit einem unerklärlichen Sinn für Rituale. An diesem Wendepunkt reflektiere ich häufig über meine Gedanken, Errungenschaften, Ängste und Bedauern aus diesem vergangenen Jahr. Ich frage mich oft, was sich jene nervöse, aber erwartungsvolle Version meiner selbst vor einem Jahr von dem bevorstehenden Jahr erhofft hätte.
 
-So, in this piece, let's discuss work, anxiety, and growth.
+Lasst uns also in diesem Beitrag über Arbeit, Ängste und Wachstum sprechen.
 
-## On Work
+## Über die Arbeit
 
-### Starting the Job
+### Der Berufseinstieg
 
-I wasn't particularly diligent in my job search, perhaps because even in Beijing, there weren't many blockchain companies to choose from. While quarantining in a hotel in Shenzhen after returning from Hong Kong, I only participated in about five or six interviews, though some left quite an impression.
+Ich war bei meiner Jobsuche nicht besonders fleißig, vielleicht weil es selbst in Peking nicht viele Blockchain-Unternehmen zur Auswahl gab. Während meiner Quarantäne in einem Hotel in Shenzhen nach meiner Rückkehr aus Hongkong nahm ich nur an etwa fünf oder sechs Vorstellungsgesprächen teil, obwohl einige davon durchaus einen bleibenden Eindruck hinterließen.
 
-One company had no conventional process. The first round involved sharing my screen with an American interviewer, spending two hours writing, testing, and deploying an ERC20 Token smart contract. The second round required writing a system-level scheduled task using a Shell script. Another company asked many questions about EVM low-level optimization and how to avoid infinite loops in contracts.
+Ein Unternehmen hatte keinen konventionellen Prozess. In der ersten Runde teilte ich meinen Bildschirm mit einem amerikanischen Interviewer und verbrachte zwei Stunden damit, einen ERC20 Token Smart Contract zu schreiben, zu testen und zu deployen. Die zweite Runde erforderte das Schreiben einer systemweiten geplanten Aufgabe mit einem Shell-Skript. Ein anderes Unternehmen stellte viele Fragen zur EVM-Low-Level-Optimierung und wie man unendliche Schleifen in Verträgen vermeidet.
 
-The company I ultimately chose had two technical leaders jointly conducting the interview. One asked questions related to Go language, while the other inquired about Hyperledger Fabric and Ethereum (I later learned he was a former developer from the IBM Fabric team). We also discussed many topics related to future development directions, lasting nearly an hour and a half, followed by a half-hour algorithm test.
+Das Unternehmen, für das ich mich letztendlich entschied, hatte zwei technische Leiter, die das Interview gemeinsam durchführten. Einer stellte Fragen zur Go-Sprache, während der andere nach Hyperledger Fabric und Ethereum fragte (ich erfuhr später, dass er ein ehemaliger Entwickler aus dem IBM Fabric-Team war). Wir diskutierten auch viele Themen im Zusammenhang mit zukünftigen Entwicklungsrichtungen, was fast eineinhalb Stunden dauerte, gefolgt von einem halbstündigen Algorithmustest.
 
-I genuinely enjoy and cherish opportunities to gain new engineering knowledge from interviews or to communicate relatively equally with interviewers. It allows me to learn quickly or at least gain some clarity on directions.
+Ich genieße und schätze wirklich die Möglichkeiten, bei Vorstellungsgesprächen neues technisches Wissen zu gewinnen oder mich relativ gleichberechtigt mit den Interviewern auszutauschen. Es ermöglicht mir, schnell zu lernen oder zumindest etwas Klarheit über Richtungen zu gewinnen.
 
-After arriving in Beijing, I attended an HR interview and officially joined as an intern, thus beginning my first formal technical internship.
+Nach meiner Ankunft in Peking nahm ich an einem HR-Interview teil und trat offiziell als Praktikant bei, womit mein erstes formelles technisches Praktikum begann.
 
-### Internship
+### Das Praktikum
 
-Upon first encountering a technical position, the initial trepidation outweighed the novelty. I lacked confidence in transitioning from theoretical knowledge in school to practical enterprise engineering. I had only studied Go language for a few months to prepare for interviews and had never even participated in writing a production application.
+Bei der ersten Begegnung mit einer technischen Position überwog die anfängliche Beklommenheit die Neuheit. Es fehlte mir an Selbstvertrauen, vom theoretischen Wissen aus der Schule zur praktischen Unternehmenstechnik überzugehen. Ich hatte die Go-Sprache nur wenige Monate lang für die Vorbereitung auf Vorstellungsgespräche studiert und noch nie an der Erstellung einer Produktionsanwendung teilgenommen.
 
-As a newcomer to the CRUD realm, I started by writing business interfaces under the guidance of our leader, Brother Cheng, to familiarize myself with the work. We mainly developed a BaaS platform, writing seven interfaces over two weeks, repeatedly testing and optimizing complex SQL queries. I also fully experienced the git commit standards, code review, and code merging processes. It was quite an enjoyable process, seeing my code running in production projects and quickly applying various learned knowledge in work to get real-time feedback, as well as a team working together towards a common goal and milestone.
+Als Neuling in der CRUD-Welt begann ich unter der Anleitung unseres Leiters, Bruder Cheng, damit, Geschäftsschnittstellen zu schreiben, um mich mit der Arbeit vertraut zu machen. Wir entwickelten hauptsächlich eine BaaS-Plattform und schrieben in zwei Wochen sieben Schnittstellen, wobei wir komplexe SQL-Abfragen wiederholt testeten und optimierten. Ich erlebte auch vollständig die git-Commit-Standards, Code-Reviews und Code-Merge-Prozesse. Es war ein recht angenehmer Prozess, meinen Code in Produktionsprojekten laufen zu sehen und verschiedene erlernte Kenntnisse schnell in der Arbeit anzuwenden, um Echtzeit-Feedback zu erhalten, sowie ein Team, das gemeinsam auf ein gemeinsames Ziel und einen Meilenstein hinarbeitet.
 
-After completing the main development work for this project, I wanted to do some chain-related development. So I applied to participate in another group's project on optimizing the performance of a self-developed chain smart contract execution engine. However, unfamiliar with Java, I could only attempt to write some tests while studying and researching the theory. This was the blog post I recorded at the time, "Ethereum MPT (Merkle Patricia Tries) Explained in Detail". It was during this period that I realized how quickly those dry algorithm principles from LeetCode would actually be put to use.
+Nachdem ich die Hauptentwicklungsarbeit für dieses Projekt abgeschlossen hatte, wollte ich etwas Chain-bezogene Entwicklung machen. Also bewarb ich mich um die Teilnahme an einem Projekt einer anderen Gruppe zur Optimierung der Leistung einer selbst entwickelten Chain-Smart-Contract-Ausführungs-Engine. Da ich jedoch mit Java nicht vertraut war, konnte ich nur versuchen, einige Tests zu schreiben, während ich die Theorie studierte und erforschte. Dies war der Blogbeitrag, den ich zu dieser Zeit aufzeichnete: "Ethereum MPT (Merkle Patricia Tries) Explained in Detail". In dieser Zeit wurde mir klar, wie schnell diese trockenen Algorithmenprinzipien von LeetCode tatsächlich zum Einsatz kommen würden.
 
-Perhaps due to being an intern, the work pace wasn't very fast, leaving plenty of time to explore interesting fields or technologies. I wrote the following blog posts to record my learnings:
+Vielleicht aufgrund meines Praktikantenstatus war das Arbeitstempo nicht sehr hoch, was viel Zeit ließ, interessante Bereiche oder Technologien zu erkunden. Ich schrieb die folgenden Blogbeiträge, um meine Erkenntnisse festzuhalten:
 
-1. [Introduction and Architecture of Blockchain-as-a-Service (BaaS) Platform](https://www.pseudoyu.com/en/2021/09/07/blockchain_baas_platform/)
-2. [Distributed Systems and Blockchain Consensus Mechanisms](https://www.pseudoyu.com/en/2021/09/08/blockchain_consensus/)
-3. [Cross-Chain Technology Principles and Practice](https://www.pseudoyu.com/en/2021/09/06/blockchain_crosschain/)
-4. [Source Code Analysis of BitXHub Cross-Chain Plugin (Fabric)](https://www.pseudoyu.com/en/2021/09/09/blockchain_crosschain_bitxhub/)
+1. [Introduction and Architecture of Blockchain-as-a-Service (BaaS) Platform](https://www.pseudoyu.com/de/2021/09/07/blockchain_baas_platform/)
+2. [Distributed Systems and Blockchain Consensus Mechanisms](https://www.pseudoyu.com/de/2021/09/08/blockchain_consensus/)
+3. [Cross-Chain Technology Principles and Practice](https://www.pseudoyu.com/de/2021/09/06/blockchain_crosschain/)
+4. [Source Code Analysis of BitXHub Cross-Chain Plugin (Fabric)](https://www.pseudoyu.com/de/2021/09/09/blockchain_crosschain_bitxhub/)
 
-Interestingly, because the company didn't have an internal content publishing platform, I often submitted articles to our competitors' blockchain technology blog platforms during this period and received learning feedback from their core technical personnel. I benefited greatly in the cross-chain area, which also made me feel the openness of technology.
+Interessanterweise reichte ich, da das Unternehmen keine interne Plattform zur Veröffentlichung von Inhalten hatte, in dieser Zeit oft Artikel bei den Blockchain-Technologie-Blog-Plattformen unserer Konkurrenten ein und erhielt Lernfeedback von deren technischem Kernpersonal. Ich profitierte stark im Bereich Cross-Chain, was mich auch die Offenheit der Technologie spüren ließ.
 
-At this point, I hadn't decided whether to stay, and I had some contact with other desirable companies. However, soon after, I participated in another cross-chain project with another leader, Brother Tao. As I interacted with him more, I saw the enthusiasm and infinite possibilities of a technologist. We both loved tinkering with various novel tools and technologies, often sharing with each other. Knowing that I often felt anxious about lacking sufficient engineering experience and ability, he involved me in various project practices, sometimes even leading me in pair programming on weekends.
+Zu diesem Zeitpunkt hatte ich mich noch nicht entschieden, ob ich bleiben sollte, und ich hatte einigen Kontakt zu anderen wünschenswerten Unternehmen. Kurz darauf nahm ich jedoch an einem anderen Cross-Chain-Projekt mit einem anderen Leiter, Bruder Tao, teil. Je mehr ich mit ihm interagierte, desto mehr sah ich die Begeisterung und die unendlichen Möglichkeiten eines Technologen. Wir beide liebten es, mit verschiedenen neuartigen Werkzeugen und Technologien zu tüfteln und tauschten uns oft darüber aus. In dem Wissen, dass ich mich oft ängstlich fühlte, nicht genügend technische Erfahrung und Fähigkeiten zu haben, bezog er mich in verschiedene Projektpraktiken ein, manchmal führte er mich sogar am Wochenende beim Pair Programming an.
 
-He is a core developer of [Hyperledger Cello](https://github.com/hyperledger/cello) and encouraged me to participate in open source. A sentence he said at the time still remains vivid in my memory. The gist was that as a technologist, besides completing one work task after another, one always needs to have several labels in their technical career, such as "core contributor to a certain open source project" and so on. I also need to continuously strive to find my own labels. This point deeply influenced me, and in subsequent work and study, I began to continuously pay attention to and slowly participate in the open source community.
+Er ist ein Kernentwickler von [Hyperledger Cello](https://github.com/hyperledger/cello) und ermutigte mich, an Open Source teilzunehmen. Ein Satz, den er damals sagte, ist mir noch lebhaft in Erinnerung. Der Kern war, dass man als Technologe neben dem Abschließen einer Arbeitsaufgabe nach der anderen immer mehrere Etiketten in seiner technischen Karriere haben muss, wie zum Beispiel "Kernbeitragender zu einem bestimmten Open-Source-Projekt" und so weiter. Ich muss auch kontinuierlich danach streben, meine eigenen Etiketten zu finden. Dieser Punkt beeinflusste mich tief, und in der anschließenden Arbeit und im Studium begann ich, die Open-Source-Gemeinschaft kontinuierlich zu beachten und langsam daran teilzunehmen.
 
-An irreplaceable leader became a more significant factor influencing my choice, so without much hesitation, I stayed.
+Ein unersetzlicher Leiter wurde zu einem bedeutenderen Faktor, der meine Wahl beeinflusste, so dass ich ohne viel Zögern blieb.
 
-### Work
+### Die Arbeit
 
-Soon after, I participated in what was strictly my first complete project, which also occupied most of my first year of work - a underlying cross-chain project.
+Kurz darauf nahm ich an dem teil, was streng genommen mein erstes vollständiges Projekt war, das auch den größten Teil meines ersten Arbeitsjahres einnahm - ein grundlegendes Cross-Chain-Projekt.
 
-Perhaps due to my previous after-hours study and understanding of cross-chain, I inexplicably became the project leader just as I transitioned from intern to probationary employee. I participated in technical solution discussions, early system design, underlying chain development and modification, development process standardization, use of DevOps environments, explanations and demonstrations, as well as project delivery-related documentation and communication work. This brought pressure and anxiety I had never anticipated at the start of my work, but it also brought about my rapid growth.
+Vielleicht aufgrund meines vorherigen Studiums und Verständnisses von Cross-Chain nach der Arbeitszeit wurde ich unerklärlich zum Projektleiter, gerade als ich vom Praktikanten zum Probezeitmitarbeiter überging. Ich nahm an technischen Lösungsdiskussionen, früher Systemgestaltung, Entwicklung und Modifikation der zugrunde liegenden Chain, Standardisierung des Entwicklungsprozesses, Nutzung von DevOps-Umgebungen, Erklärungen und Demonstrationen sowie projektbezogener Dokumentation und Kommunikationsarbeit teil. Dies brachte Druck und Ängste mit sich, die ich zu Beginn meiner Arbeit nie erwartet hätte, aber es führte auch zu meinem schnellen Wachstum.
 
-Daytime meetings could last half a day, leaving only evenings to concentrate on writing code. Staying up late or even all night became the norm to meet project milestones. Technical difficulties could stall progress for days, yet I had to juggle other development task schedules simultaneously. Accompanying this were many emotional suppressions and loss of control over life rhythms.
+Tagsüber konnten Besprechungen einen halben Tag dauern, so dass nur die Abende blieben, um sich auf das Schreiben von Code zu konzentrieren. Spät aufbleiben oder sogar die ganze Nacht durcharbeiten wurde zur Norm, um Projektmeilensteine zu erreichen. Technische Schwierigkeiten konnten den Fortschritt tagelang aufhalten, dennoch musste ich gleichzeitig andere Entwicklungsaufgaben jonglieren. Damit einher gingen viele emotionale Unterdrückungen und der Verlust der Kontrolle über die Lebensrhythmen.
 
-But when I truly completed the final delivery of this project with the team, that sense of joy and achievement was unprecedented. This might have special significance for me. From my undergraduate English major to studying abroad and switching to computer science, I often felt frustrated during many course studies and questioned more than once whether I could continue on this path. Although the process of this project was bumpy, we ultimately succeeded, which gave me tremendous confidence.
+Aber als ich mit dem Team wirklich die endgültige Auslieferung dieses Projekts abschloss, war dieses Gefühl der Freude und Erfüllung beispiellos. Dies könnte für mich eine besondere Bedeutung haben. Von meinem Englischstudium im Grundstudium über das Auslandsstudium bis hin zum Wechsel zur Informatik fühlte ich mich während vieler Kursstudien oft frustriert und hinterfragte mehr als einmal, ob ich diesen Weg weitergehen könnte. Obwohl der Prozess dieses Projekts holprig war, gelang es uns letztendlich, was mir enormes Selbstvertrauen gab.
 
-### Interactions
+### Interaktionen
 
-It's worth mentioning the mode of interaction between people after starting work. I seem to have never shed that student air about me, always communicating in a rather direct and candid manner whether facing leaders, colleagues, or project partners. When my life experienced some changes in May, team members took on more work responsibilities to allow me time to adjust. A client leader from a recently completed project would call me for three to four hours to comfort me. And a leader from another ongoing project was helping me apply for a business trip to ease my mood a bit. Work isn't actually as dull as those anxiety-inducing articles describe. I've always felt that regardless of the environment or occasion, relationships and interactions are mutual. Treating others sincerely can indeed equally gain some trust and sincerity in return.
+Erwähnenswert ist die Art der Interaktion zwischen Menschen nach Beginn der Arbeit. Ich scheine nie diese studentische Ausstrahlung abgelegt zu haben und kommuniziere immer recht direkt und offen, ob ich nun Führungskräften, Kollegen oder Projektpartnern gegenüberstehe. Als mein Leben im Mai einige Veränderungen erfuhr, übernahmen Teammitglieder mehr Arbeitsverantwortung, um mir Zeit zur Anpassung zu geben. Ein Kundenleiter aus einem kürzlich abgeschlossenen Projekt rief mich drei bis vier Stunden lang an, um mich zu trösten. Und ein Leiter aus einem anderen laufenden Projekt half mir, eine Dienstreise zu beantragen, um meine Stimmung ein wenig zu erleichtern. Arbeit ist tatsächlich nicht so trostlos, wie diese angsteinflößenden Artikel es beschreiben. Ich hatte immer das Gefühl, dass unabhängig von der Umgebung oder Gelegenheit Beziehungen und Interaktionen gegenseitig sind. Andere aufrichtig zu behandeln, kann in der Tat gleichermaßen etwas Vertrauen und Aufrichtigkeit zurückgewinnen.
 
-### Gains, Challenges, and Changes
+### Errungenschaften, Herausforderungen und Veränderungen
 
 ![dev_guide](https://image.pseudoyu.com/images/dev_guide.png)
 
-A year has passed, and the second project is about to end. I've learned a lot from this year and wanted to leave something for the department in my own way, so I decided to write a technical guide. In addition to development specifications, it also includes some of my learning records about blockchain over the past few years, as well as some practical records learned from work. These are all things I had hoped to learn when I first entered this job, and I hope to tell new members about them.
+Ein Jahr ist vergangen, und das zweite Projekt steht kurz vor dem Ende. Ich habe in diesem Jahr viel gelernt und wollte der Abteilung auf meine eigene Art etwas hinterlassen, also beschloss ich, einen technischen Leitfaden zu schreiben. Neben Entwicklungsspezifikationen enthält er auch einige meiner Lernaufzeichnungen über Blockchain aus den letzten Jahren sowie einige praktische Aufzeichnungen, die ich aus der Arbeit gelernt habe. Dies sind alles Dinge, die ich zu lernen gehofft hatte, als ich diese Arbeit antrat, und ich hoffe, neuen Mitgliedern davon erzählen zu können.
 
 ![dev_guide_content](https://image.pseudoyu.com/images/dev_guide_content.png)
 
-Although only a year has passed in my work, with much room for improvement and growth in technology and experience, I've become somewhat confused about direction. I want to delve into underlying blockchain technology, polish the company's or personal products, and participate more in open source construction. But work often leaves me exhausted by project delivery deadlines, making it difficult to have complete time for learning and research. This is a challenge I need to overcome and adjust in my future career.
+Obwohl erst ein Jahr in meiner Arbeit vergangen ist, mit viel Raum für Verbesserung und Wachstum in Technologie und Erfahrung, bin ich etwas verwirrt über die Richtung geworden. Ich möchte mich in die zugrunde liegende Blockchain-Technologie vertiefen, die Produkte des Unternehmens oder persönliche Produkte verfeinern und mehr an der Open-Source-Konstruktion teilnehmen. Aber die Arbeit lässt mich oft durch Projekt-Lieferfristen erschöpft zurück, was es schwierig macht, vollständige Zeit zum Lernen und Forschen zu haben. Dies ist eine Herausforderung, die ich in meiner zukünftigen Karriere überwinden und anpassen muss.
 
-Fortunately, another leader, Brother Kai, pays great attention to open source and underlying technology. Our occasional exchanges have pointed out some directions for me. There's still much to learn and improve upon; the road of technology is long, with great responsibility and a long way to go.
+Glücklicherweise legt ein anderer Leiter, Bruder Kai, großen Wert auf Open Source und zugrunde liegende Technologie. Unser gelegentlicher Austausch hat mir einige Richtungen aufgezeigt. Es gibt noch viel zu lernen und zu verbessern; der Weg der Technologie ist lang, mit großer Verantwortung und einem langen Weg vor uns.
 
-## Conclusion
+## Schlussfolgerung
 
-The above is my summary of work at this point in time. I'm gradually enjoying organizing and recording my life, work, and state of mind in this way. I hope that when I look back on this year I'm experiencing in the next year, I'll see more changes and growth in myself. Let's encourage each other.
+Das oben Genannte ist meine Zusammenfassung der Arbeit zu diesem Zeitpunkt. Ich genieße es zunehmend, mein Leben, meine Arbeit und meinen Gemütszustand auf diese Weise zu organisieren und aufzuzeichnen. Ich hoffe, dass ich, wenn ich im nächsten Jahr auf dieses Jahr, das ich gerade erlebe, zurückblicke, mehr Veränderungen und Wachstum in mir selbst sehen werde. Lasst uns einander ermutigen.

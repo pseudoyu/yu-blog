@@ -122,7 +122,7 @@ Hier sind einige Podcasts, die ich gehört habe:
 
 #### Blog
 
-- [Cosmos Blockchain Architecture and Tendermint Consensus Mechanism · Pseudoyu](https://www.pseudoyu.com/en/2023/02/10/cosmos_introduction_and_explaination/)
+- [Cosmos Blockchain Architecture and Tendermint Consensus Mechanism · Pseudoyu](https://www.pseudoyu.com/de/2023/02/10/cosmos_introduction_and_explaination/)
 
 ## Persönliche Lebensaufnahmen
 

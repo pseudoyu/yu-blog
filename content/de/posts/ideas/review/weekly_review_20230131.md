@@ -38,7 +38,7 @@ Es gibt mehrere interessante Artikel zu diesen Themen, die ich gelesen und aus d
 
 ### Crossbell
 
-Zusätzlich erwähnte ich im vorherigen Artikel ["Wochenrückblick #25 - Persönliches Informationsausgabe- und Synchronisationssystem basierend auf Crossbell (Refaktorierung)"](https://www.pseudoyu.com/en/2023/01/09/weekly_review_20230109/) Probleme bei der Synchronisierung von Twitter- und Telegram-Verlaufsnachrichten mit der Blockchain. Daraufhin erhielt ich entsprechende Lösungen von ihnen:
+Zusätzlich erwähnte ich im vorherigen Artikel ["Wochenrückblick #25 - Persönliches Informationsausgabe- und Synchronisationssystem basierend auf Crossbell (Refaktorierung)"](https://www.pseudoyu.com/de/2023/01/09/weekly_review_20230109/) Probleme bei der Synchronisierung von Twitter- und Telegram-Verlaufsnachrichten mit der Blockchain. Daraufhin erhielt ich entsprechende Lösungen von ihnen:
 
 - [Wie man Tweets in Crossbell importiert - Lemon 🍋](https://lc499.xlog.app/twitter-to-crossbell)
 - [Wie man Telegram-Nachrichten in Crossbell importiert - Lemon 🍋](https://lc499.xlog.app/telegram-to-crossbell)

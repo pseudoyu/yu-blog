@@ -84,7 +84,7 @@ Zum Zeitpunkt des Schreibens dieses Wochenrückblicks hat der Telegram-Kanal 536
 
 ### Open Source Budget
 
-In einem früheren Wochenrückblick "[Wochenrückblick #30 - Open Source Budget, Schreibabsicht und Demut gegenüber Technologie](https://www.pseudoyu.com/en/2023/02/12/weekly_review_20230212/)" erwähnte ich dies:
+In einem früheren Wochenrückblick "[Wochenrückblick #30 - Open Source Budget, Schreibabsicht und Demut gegenüber Technologie](https://www.pseudoyu.com/de/2023/02/12/weekly_review_20230212/)" erwähnte ich dies:
 
 > In Randys Artikel "[Ich habe mir ein monatliches Open-Source-Spendenbudget von 20 $ eingerichtet](https://lutaonan.com/blog/my-oss-donation-budget/)" sah ich sein Konzept und seine Einstellung zu Open-Source-Projekten, was ich sehr interessant fand und mich inspirierte, ein ähnliches Open-Source-Budget für mich selbst einzurichten. Die aktuelle Einstellung liegt bei mindestens 20 $ (etwa 130 RMB) oder einem gleichwertigen Wertbudget pro Monat, flexibel wählbar nach meiner täglichen Nutzung und meinem Tech-Stack. Ich werde die folgenden Projekte für Spenden auswählen:
 >

@@ -61,7 +61,7 @@ Mein Hauptfokus liegt auf der Cross-Chain-Adapter-Schnittstelle. Der Adapter, de
 
 Bei spezifischen Implementierungen, wie in einem Fabric-Netzwerk, ruft die Sub-Chain den Cross-Chain-Geschäftsvertrag auf, der wiederum einheitlich einen Adapter-Vertrag aufruft. Innerhalb dieses Adapter-Vertrags implementieren wir die Eingabe von Transaktionsinformationen. Durch den Ereignismechanismus von Fabric erreichen wir die Überwachung von Cross-Chain-Verträgen (d.h. die Implementierung der `SetEvent`-Methode im Vertrag und die Registrierung entsprechender Ereignisse im Adapter).
 
-Für Details zur Fabric-Ereignisüberwachung und -implementierung siehe "[Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)".
+Für Details zur Fabric-Ereignisüberwachung und -implementierung siehe "[Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/de/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)".
 
 ### Funktionale Erweiterung
 
@@ -81,6 +81,6 @@ Das oben Genannte fasst die Konzepte und praktische Implementierung der Cross-Ch
 > 2. [A Brief Study of Cross-Chain: From Principles to Technology](https://zhuanlan.zhihu.com/p/92667917)
 > 3. [Cross-Chain Technology Platform BitXHub](https://github.com/gocn/opentalk/tree/main/PhaseTen_BitXHub)
 > 4. [Blockchain Cross-Chain Technology: Hash Time Locks](https://yuanxuxu.com/2020/08/05/区块链跨链技术之哈希时间锁/)
-> 5. [Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/en/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
+> 5. [Hyperledger Fabric Go SDK Event Analysis](https://www.pseudoyu.com/de/2021/09/01/blockchain_hyperledger_fabric_gosdk_event/)
 > 6. [BitXHub Document](https://meshplus.github.io/bitxhub/bitxhub/introduction/summary/)
 > 7. [Ten Questions about BitXHub: Discussing the Architectural Design of Cross-Chain Platforms](https://tech.hyperchain.cn/bitxhub-design-thinking/)

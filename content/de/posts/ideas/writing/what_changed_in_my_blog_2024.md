@@ -10,7 +10,7 @@ authors:
 
 ## Vorwort
 
-Vor zwei Jahren, in dem Beitrag ["Es ist 2022, lass uns darüber sprechen, warum ich immer noch blogge"](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/), erörterte ich die Ursprünge, Absichten und den Aufbau meines Blogs.
+Vor zwei Jahren, in dem Beitrag ["Es ist 2022, lass uns darüber sprechen, warum ich immer noch blogge"](https://www.pseudoyu.com/de/2022/06/12/why_i_still_write_blog_in_2022/), erörterte ich die Ursprünge, Absichten und den Aufbau meines Blogs.
 
 Mehr als zwei Jahre sind vergangen. Die ursprüngliche Intention bleibt bestehen, und das Schreiben hat sich fortgesetzt, obwohl ich die geplanten wöchentlichen Aktualisierungen nicht erreicht habe. Dennoch habe ich eine beachtliche Menge an schriftlichen Werken angesammelt.
 
@@ -50,11 +50,11 @@ Ich habe auch mit Randy darüber gesprochen, dass ich etwas für unabhängiges B
 
 Dies sind einige Artikel, die ich vor zwei Jahren über Blog-Setup geschrieben habe:
 
-- [Es ist 2022, lass uns darüber sprechen, warum ich immer noch blogge](https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/)
-- [Kostenlose Einrichtung und Bereitstellungslösung für persönliche Blogs (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-- [Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisierungssystem](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
-- [Bauen Sie von Grund auf ein kostenloses persönliches Blog-Datenanalysesystem (umami + Vercel + Heroku)](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Es ist 2022, lass uns darüber sprechen, warum ich immer noch blogge](https://www.pseudoyu.com/de/2022/06/12/why_i_still_write_blog_in_2022/)
+- [Kostenlose Einrichtung und Bereitstellungslösung für persönliche Blogs (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+- [Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisierungssystem](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Bauen Sie von Grund auf ein kostenloses persönliches Blog-Datenanalysesystem (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 Diese drehten sich hauptsächlich um meine Aufzeichnungen über die Verwendung von Hugo, einem statischen Website-Generator (SSG), um einen persönlichen Blog und einige periphere Dienste aufzubauen. Ich habe auch gesehen, dass viele Leute mich kontaktiert haben und sagten, dass sie erfolgreich ihre eigenen Blogs nach dieser Reihe von Tutorials haben. Ich freue mich sehr, einen kleinen Beitrag zum Bloggen zu leisten, einer Kreationsform, die etwas zurückgegangen ist.
 
@@ -78,7 +78,7 @@ Der folgende Text wird die aktuelle Lösung vorstellen, und Links zu der aktuali
 
 Ich verwende [Hugo](https://gohugo.io/), diesen statischen Website-Generator, um meinen persönlichen Blog zu erstellen, wobei ich ein ziemlich retro-anmutendes Theme "hugo-theme-den" verwende und modifiziere.
 
-Der allgemeine Prozess kann in dem Artikel ["Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisierungssystem"](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/) und dem Repository ["GitHub - yu-blog"](https://github.com/pseudoyu/yu-blog) nachgelesen werden.
+Der allgemeine Prozess kann in dem Artikel ["Hugo + GitHub Action, Bauen Sie Ihr Blog-Automatisierungssystem"](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/) und dem Repository ["GitHub - yu-blog"](https://github.com/pseudoyu/yu-blog) nachgelesen werden.
 
 Ich habe einige GitHub Actions automatisierte Operationen hinzugefügt, um die About-Seite täglich zu aktualisieren, und weil Websites, die auf GitHub Pages gehostet wurden, von innerhalb Chinas fast unzugänglich wurden, bin ich zu Cloudflare Pages migriert, das kostenlos ist und eine viel bessere Erfahrung bietet. Es gab nicht viele andere Änderungen.
 
@@ -90,7 +90,7 @@ Aber als ich mich beruhigte und darüber nachdachte, habe ich auf meiner aktuell
 
 Von der Entstehung des Blogs bis April oder Mai dieses Jahres hatte ich [Cusdis](https://cusdis.com/) drei Jahre lang konsequent verwendet.
 
-Bis heute ist es immer noch eine sehr empfehlenswerte Lösung - leichtgewichtig, einfach selbst zu deployen und mit einem einfachen und attraktiven Stil. Für Einrichtungsanweisungen siehe ["Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)"](https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/).
+Bis heute ist es immer noch eine sehr empfehlenswerte Lösung - leichtgewichtig, einfach selbst zu deployen und mit einem einfachen und attraktiven Stil. Für Einrichtungsanweisungen siehe ["Leichtgewichtige Open-Source kostenlose Blog-Kommentarsystemlösung (Cusdis + Railway)"](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/).
 
 Angesichts der Tatsache, dass Railway seinen Free Plan seit August letzten Jahres eingestellt hat, können Sie, wenn Sie es immer noch komplett kostenlos nutzen möchten, Vercel/Netlify/Zeabur verwenden, um das Hauptprojekt kostenlos zu deployen, und eine kostenlose PostgreSQL-Datenbankinstanz auf [Supabase](https://supabase.com) deployen, wobei Sie den Link als Umgebungsvariable in den Cusdis-Service übergeben. Der Rest des Prozesses ist weitgehend ähnlich.
 
@@ -104,11 +104,11 @@ Allein in Bezug auf die Konfigurationsoptionen ist es deutlich reichhaltiger als
 
 Für Details zur Einrichtung des Kommentarsystems siehe diesen Beitrag:
 
-- [Bauen Sie Ihr kostenloses Blog-Kommentarsystem von Grund auf (Remark42 + fly.io)](https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+- [Bauen Sie Ihr kostenloses Blog-Kommentarsystem von Grund auf (Remark42 + fly.io)](https://www.pseudoyu.com/de/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
 
 ### Datenstatistiksystem
 
-Ich habe zuvor Umami selbst bereitgestellt (siehe das Tutorial ["Bauen Sie von Grund auf ein kostenloses persönliches Blog-Datenanalysesystem (umami + Vercel + Heroku)"](https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)), aber später, aufgrund der Einstellung des kostenlosen Plans von Heroku, habe ich herumgetüftelt und mich entschieden, den Dienst auf Netlify bereitzustellen + eine PostgreSQL-Datenbankinstanz auf Supabase zu deployen. Der Rest des Prozesses bleibt anwendbar.
+Ich habe zuvor Umami selbst bereitgestellt (siehe das Tutorial ["Bauen Sie von Grund auf ein kostenloses persönliches Blog-Datenanalysesystem (umami + Vercel + Heroku)"](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)), aber später, aufgrund der Einstellung des kostenlosen Plans von Heroku, habe ich herumgetüftelt und mich entschieden, den Dienst auf Netlify bereitzustellen + eine PostgreSQL-Datenbankinstanz auf Supabase zu deployen. Der Rest des Prozesses bleibt anwendbar.
 
 ![yu_goatcounter_preview](https://image.pseudoyu.com/images/yu_goatcounter_preview.png)
 
@@ -118,13 +118,13 @@ Allerdings konnte ich einerseits, weil ich es ziemlich früh bereitgestellt hatt
 
 Zusätzlich verwende ich immer noch [Google Console](https://search.google.com/search-console), um meine Besucherinformationen und Suchgewichtung zu analysieren und zu statistisieren.
 
-Diese Ergebnisse sind recht informativ. Ich stellte fest, dass ein Artikel, der Terminals vergleicht ["Warp, iTerm2 oder Alacritty? Meine Terminal-Tüftelnotizen"](https://www.pseudoyu.com/en/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/) mir kontinuierlich Besucher durch Suchmaschinen bringt. Die anderen beliebten Artikel sind die Serie über persönliche Blogs und Setup.
+Diese Ergebnisse sind recht informativ. Ich stellte fest, dass ein Artikel, der Terminals vergleicht ["Warp, iTerm2 oder Alacritty? Meine Terminal-Tüftelnotizen"](https://www.pseudoyu.com/de/2022/07/10/my_config_and_beautify_solution_of_macos_terminal/) mir kontinuierlich Besucher durch Suchmaschinen bringt. Die anderen beliebten Artikel sind die Serie über persönliche Blogs und Setup.
 
 **[2024-08-06 Update]**
 
 Für Details zur Einrichtung des Website-Datenstatistiksystems siehe diesen Beitrag:
 
-- [Einrichten eines Website-Statistiksystems mit GoatCounter und Zeabur](https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
+- [Einrichten eines Website-Statistiksystems mit GoatCounter und Zeabur](https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
 
 ### Bildhosting-System
 
@@ -148,13 +148,13 @@ Auf dem Desktop kann ich fast mit einem Klick über den PicGo-Client hochladen u
 
 Für das Bildhosting-Setup-Tutorial siehe diesen Beitrag:
 
-- [Bauen Sie Ihr kostenloses Bildhosting-System von Grund auf (Cloudflare R2 + WebP Cloud + PicGo)](https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
+- [Bauen Sie Ihr kostenloses Bildhosting-System von Grund auf (Cloudflare R2 + WebP Cloud + PicGo)](https://www.pseudoyu.com/de/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
 
 **[2024-07-02 Update]**
 
 Ich habe ein neues Tutorial zur Implementierung von Datenschutz und Urheberrechtsschutz für Bildhosting geschrieben, das als Bonuskapitel betrachtet werden kann.
 
-- [Hinzufügen von Datenschutz und Urheberrechtsschutz zu Ihrem Bildhosting mit WebP und Cloudflare WAF](https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
+- [Hinzufügen von Datenschutz und Urheberrechtsschutz zu Ihrem Bildhosting mit WebP und Cloudflare WAF](https://www.pseudoyu.com/de/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
 
 ### Inhaltssuche
 

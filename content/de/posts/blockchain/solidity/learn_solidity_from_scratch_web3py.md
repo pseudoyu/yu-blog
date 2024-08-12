@@ -12,7 +12,7 @@ authors:
 
 ## Vorwort
 
-Im vorherigen Artikel "[Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)" haben wir die grundlegende Syntax von Solidity kennengelernt und verstanden, dass wir mit Frameworks wie [Brownie](https://github.com/eth-brownie/brownie) und [HardHat](https://github.com/NomicFoundation/hardhat) debuggen können. Bevor wir jedoch diese vorgefertigten Frameworks verwenden, können wir mit Web3.py direkt mit unserem lokalen Ganache-Node interagieren, um die Prinzipien besser zu verstehen und eine solide Grundlage für unsere spätere Verwendung von Frameworks zu schaffen.
+Im vorherigen Artikel "[Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)" haben wir die grundlegende Syntax von Solidity kennengelernt und verstanden, dass wir mit Frameworks wie [Brownie](https://github.com/eth-brownie/brownie) und [HardHat](https://github.com/NomicFoundation/hardhat) debuggen können. Bevor wir jedoch diese vorgefertigten Frameworks verwenden, können wir mit Web3.py direkt mit unserem lokalen Ganache-Node interagieren, um die Prinzipien besser zu verstehen und eine solide Grundlage für unsere spätere Verwendung von Frameworks zu schaffen.
 
 In diesem Artikel wird Web3.py als Beispiel verwendet, um die grundlegende Vertragskompilierung, Bereitstellung im lokalen Ganache-Netzwerk und Interaktion mit Verträgen zu implementieren.
 
@@ -288,6 +288,6 @@ Dies sind die Schritte zur Interaktion mit dem lokalen Ganache-Testnetzwerk unte
 
 ## Referenzen
 
-> 1. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/en/2022/05/25/learn_solidity_from_scratch_basic/)
+> 1. [Solidity Smart Contract Entwicklung - Grundlagen](https://www.pseudoyu.com/de/2022/05/25/learn_solidity_from_scratch_basic/)
 > 2. [ethereum/web3.py](https://github.com/ethereum/web3.py)
 > 3. [Solidity, Blockchain und Smart Contract - Anfänger bis Experte Vollständiger Kurs | Python Edition](https://github.com/smartcontractkit/full-blockchain-solidity-course-py)

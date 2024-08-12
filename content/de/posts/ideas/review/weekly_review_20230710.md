@@ -24,7 +24,7 @@ Die Jahreszeit mag nicht passen, und der Liedtext mag nicht besonders relevant s
 
 ## In der Stimmung für die Liebe
 
-Wie ich in meinem vorherigen Beitrag "[Wochenrückblick #42 - Ansichten über Beziehungen, Lebenszustand und Selbst](https://www.pseudoyu.com/en/2023/06/21/weekly_review_20230621/)" erwähnte, fühle ich mich kaum vollständig bereit für eine Beziehung. Viele Emotionen mögen sich gelindert haben, aber haben sich noch nicht gesetzt, viele Aspekte meiner Ansichten über Beziehungen, obwohl erkannt, sind noch nicht richtig sortiert, und es gibt noch viele Teile von mir selbst, die verstanden und überwunden werden müssen.
+Wie ich in meinem vorherigen Beitrag "[Wochenrückblick #42 - Ansichten über Beziehungen, Lebenszustand und Selbst](https://www.pseudoyu.com/de/2023/06/21/weekly_review_20230621/)" erwähnte, fühle ich mich kaum vollständig bereit für eine Beziehung. Viele Emotionen mögen sich gelindert haben, aber haben sich noch nicht gesetzt, viele Aspekte meiner Ansichten über Beziehungen, obwohl erkannt, sind noch nicht richtig sortiert, und es gibt noch viele Teile von mir selbst, die verstanden und überwunden werden müssen.
 
 Doch manchmal ist das Leben wie die Kreuzung und Konvergenz von Weltlinien in "Steins;Gate" - komplex, aber nachvollziehbar.
 
