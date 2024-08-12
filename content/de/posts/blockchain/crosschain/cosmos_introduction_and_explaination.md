@@ -10,8 +10,6 @@ authors:
 
 ## Vorwort
 
-![cosmos_introduction_and_explaination_photo](https://image.pseudoyu.com/images/cosmos_introduction_and_explaination_photo.png)
-
 In meiner Arbeit bin ich hauptsächlich an der architektonischen Gestaltung und Implementierung von Cross-Chain-Projekten beteiligt. Da die bestehende Lösung unseres Unternehmens auf der Cosmos-Blockchain basiert, habe ich über ein Jahr lang an einigen grundlegenden Kettenentwicklungsmodifikationen mit dem Cosmos SDK gearbeitet. Dies hat mir ein gewisses Verständnis für dessen technische Umsetzung vermittelt. Aufgrund des engen Entwicklungsplans hatte ich jedoch nie die Gelegenheit, ein systematisches Verständnis der architektonischen Gestaltung von Cosmos und des Tendermint-Konsensmechanismus zu erlangen.
 
 Nach Abschluss des Projekts fand ich endlich die Zeit, "Blockchain-Architektur und -Implementierung: Cosmos erklärt" zu lesen. Dieser Artikel stellt mein eigenes Verständnis und meine Zusammenfassung von Cosmos und Tendermint dar.

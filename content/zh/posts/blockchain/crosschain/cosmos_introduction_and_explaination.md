@@ -10,8 +10,6 @@ authors:
 
 ## 前言
 
-![cosmos_introduction_and_explaination_photo](https://image.pseudoyu.com/images/cosmos_introduction_and_explaination_photo.png)
-
 工作中我主要参与的是跨链项目的方案架构设计与实现，因为公司既有方案是基于 Cosmos 区块链的，我在一年多的项目中基于 Cosmos SDK 作了一些底层链开发改造，对其技术实现有了一些了解，但由于开发周期比较赶，一直没能对 Cosmos 的架构设计与 Tendermint 共识机制有一个系统的了解。
 
 项目结束后，终于得闲读了一下《区块链架构与实现：Cosmos 详解》，本文则是我自己对 Cosmos、Tendermint 的理解和总结。
