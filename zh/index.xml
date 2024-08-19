@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 18 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #68 - 关于写博客这件事与我生活的色彩</title><link>https://www.pseudoyu.com/zh/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-08-05 到 2024-08-11 这周生活的记录与思考。 从 TG Channel 里回顾了一下这周，发现一整周都围绕着搭博客和写博客这</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 19 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #69 - AI Coding 体验与学习的源动力</title><link>https://www.pseudoyu.com/zh/2024/08/19/weekly_review_20240819/</link><pubDate>Mon, 19 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/19/weekly_review_20240819/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-08-12 到 2024-08-18 这周生活的记录与思考。 从 VS Code 转向 Cursor 写代码，聊聊 AI 加持下的编程体验；和学姐在一起 400</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240819.png" alt="weekly_review_20240819"></p>
+<p>本篇是对 <code>2024-08-12</code> 到 <code>2024-08-18</code> 这周生活的记录与思考。</p>
+<p>从 VS Code 转向 Cursor 写代码，聊聊 AI 加持下的编程体验；和学姐在一起 400 天；某天和学姐有了关于过去经历和兴趣爱好的一次深夜长谈，引发了我对自己的学习源动力思考；还有很多有意思的事。</p>
+<h2 id="ai-加持下的编程体验">AI 加持下的编程体验</h2>
+<p><img src="https://image.pseudoyu.com/images/cursor_screenshot.jpg" alt="cursor_screenshot"></p>
+<p>这两周高强度使用了 Cursor，一个基于 VS Code 的 AI IDE，效果很惊叹。</p>
+<p>我其实算是 GitHub Copilot 的非常非常早期的内测用户，直到现在也还在用；而在 ChatGPT、Perplexity、Devv.ai 和 Claude 出现后也都是高强度的付费用户，思维上已经很习惯使用 AI 来帮我写代码了，但是更多还是补全部分逻辑和调试 Bug，没办法做到项目级的辅助。</p>
+<p>而在 Cursor 把整个项目作为上下文、提问时可以 @ 其他文件或代码、并且使用 Claude 3.5 Sonnet 模型之后，体验感和可用性已经和我想象的形态越来越近了。</p>
+<p><img src="https://image.pseudoyu.com/images/web3insights_demo.png" alt="web3insights_demo"></p>
+<p>实践上，在试用 Pro 的 15 天中，解决了我工作中的 Go 的一些 Bug 修复和新增 Tests；改进了 Electron 应用的一个更新提示界面和功能；从零开始帮助我写了一个 rust 的后端 CRUD api 包括完整的 Dockerfile 和 GitHub Action 部分；帮助我完成了一个 Remix 项目的数据可视化部分以及很多个界面的调整，精确到各个页面之间的交互和布局；以及顺便还帮我学了一些 SwiftUI。</p>
+<p>我大概已经有 50% 以上的代码是在 AI 辅助甚至直接 AI 生成的了，而我更多的时间都是「CMD + K」（Cursor 的代码生成按钮）的对话框中跟 AI 沟通需求，在梳理 prompts（大部分就是按照对话自然语言来表述），聊或是等待代码生成的时候反而有了更多时间去思考代码架构、逻辑、更合适的第三方库等。</p>
+<p>其实让 AI 了解我的需求的时候，自己也在反复思考其合理性，反而能产出功能和代码质量都更优的代码，至于语法和代码风格方面，我常常直接去研读和学习 AI 的实现，比起从零开始去读一个开源项目要好上手得多。</p>
+<p>而我需要做的，就是设计和创造。</p>
+<p>正如 Randy 在 <a href="https://lutaonan.com/blog/code-artists/">「代码艺术家」不会被 AI 取代</a> 一文中所引用的：</p>
+<blockquote>
+<p>I realize the reason I like building is not just because I’m a builder.</p>
+<p>我意识到我一直喜欢创造点东西的原因不只是因为我就是个创造者.</p>
+<p>It’s because software products are how I express my creativity.</p>
+<p>而是因为写软件产品是我表达我的创意的一种方式</p>
+<p>It’s like a poem to a poet, a song to a songwriter, a painting to a painter…</p>
+<p>就像诗人的诗，歌手的歌，画家的画</p>
+<p>Software is my art form, my medium of expression.</p>
+<p>软件是属于我的一种艺术形式，是我表达（创造力）的媒介。</p>
+</blockquote>
+<h2 id="ethshenzhen-hackathon">ETHShenzhen Hackathon</h2>
+<p><img src="https://image.pseudoyu.com/images/web3insights_ethshenzhen_demo.jpg" alt="web3insights_ethshenzhen_demo"></p>
+<p>上文提到的项目是我周末在深圳参加的活动，其实算是自己正经作为选手参加的第一个 Hackathon 活动，通宵两晚写完了 Demo，在现场写了基础的演讲大纲和几张简略的 PPT，最后完成了 Demo 演讲，比想象的还是要累不少，周日才睡上一个好觉。</p>
+<h2 id="学习的源动力">学习的源动力</h2>
+<p>有一天晚上从给我妹妹选滑板开启了话题，和学姐夜谈到了过去的一些经历，以及自己的各种兴趣爱好。</p>
+<p>我的奇奇怪怪的技能树和兴趣爱好其实不算少。学生时期大大小小的运动至少都接触过，大部分也还算上手；轮滑自小学开始到大家参加轮滑社坚持了接近十年；小时候也用那种扭扭的滑板四处刷街；跟着我表哥一起去游泳馆玩，自然地学会了游泳；大学后玩了摄影、学了剪辑，在全校飞无人机，也成立了工作室从各种灯光布景都研究了下；做过审计的实习、甚至因为创业开公司而自己把注册公司、财务报税、开发票、企业清缴汇算申报以及注销流程在没有中介和财务的帮助下自己操作了近两年；工作中也是对各种编程语言框架都很好奇，算是经常尝鲜。</p>
+<p>我似乎一直有这样野路子学习的倾向，以及在学到了恰好足够满足我当时的需要时就戛然而止，并没有更多的欲望去深耕其中。例如，我算是喜欢摄影，甚至在做摄影和视频相关工作室创业的时候也有过把它作为自己事业的念头，但那么多年其实我似乎并没有真正地从构图、光影、色彩、修图这些去系统学过，视频拍摄剪辑也没有从戏剧理论、导演思维这一块打基础，只是在需要用的某个技巧或是功能的时候再去快速学习，够用但也仅仅是够用。</p>
+<p>我认真剖析了自己的内心，发现了很有意思的现象，还会追溯到小时候甚至是童年。</p>
+<p>我很小的时候转学来到杭州，其实花了很多时间来让自己讲话不带乡音、以及花了好几年成绩才慢慢达到中上，也经历过一些带着歧视或是不公，内心积累了不少自卑的部分。而随着初中遇到了很好的老师，生活和学业才慢慢走上正轨。</p>
+<p>这时候其实多了另一种评价，<strong>“你做到 xxx 一定很努力吧”</strong>。</p>
+<p>我并不是否认“努力”的重要性，只是常常被那么说，总觉得有些挫败，似乎连我自己都觉得，我就是不如别人，只是很努力，所以比别人取得了更多的收获，陷入 Impostor syndrome (冒名顶替综合征) 的自我恶性循环。</p>
+<p>于是我慢慢开始不那么“努力”，似乎在向他人和自己证明，我能“轻易”做到这些事，渐渐地，也享受其中。</p>
+<p>带给我快乐的并不是学到的知识或运用它实现什么，而是“学习一个新东西”和“我能够很快学会它”这样的心理正反馈。这带给了我一些好处，如长期这样乱点技能树积攒的信心让我面对新事物或许多看似遥远的目标时不会那么畏惧 ——</p>
+<blockquote>
+<p>“过去的我做到那么多了，现在的我一定也能”。</p>
+</blockquote>
+<p>但也让我有时候并没办法沉下心做好一件事，或者把某项真正喜欢的事做到最好，有广度而缺深度，感觉也是一种 trade off，慢慢也开始有一些改变。</p>
+<h2 id="个人生活剪影">个人生活剪影</h2>
+<h3 id="400-天纪念日">400 天纪念日</h3>
+<p><img src="https://image.pseudoyu.com/images/love_record_400.jpg" alt="love_record_400"></p>
+<p>和学姐 400 天了。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。并且把 Telegram Channel 消息作为内容源搭建了一个微博客 —— 「<a href="https://daily.pseudoyu.com/">daily.pseudoyu.com</a>」，可以更方便浏览了。</p>
+<h4 id="收藏">收藏</h4>
+<ul>
+<li><a href="https://github.com/lokalise/i18n-ally">GitHub - lokalise/i18n-ally: 🌍 All in one i18n extension for VS Code</a></li>
+<li><a href="https://github.com/electric-capital/crypto-ecosystems">electric-capital/crypto-ecosystems</a></li>
+<li><a href="https://github.com/omarespejel/starknet-star-tracker">omarespejel/starknet-star-tracker</a></li>
+</ul>
+<h4 id="播客">播客</h4>
+<ul>
+<li><a href="https://www.listennotes.com/e/e1a391614f16491fb6999b162524f5dd">第 11 集 | Owen 聊沉浸式翻译的起源、裸辞三年的经历、做穷人也能用的产品、大亚湾的生活</a></li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://darmau.co/zh/article/firewood-will-be-offline">原积薪项目将于近日下线</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1Ti421a7dv">【IGN】10 分，《黑神话：悟空》评测：踏平坎坷成大道</a></li>
+<li><a href="https://www.bilibili.com/video/BV1XW42197H8">去了一趟瑞士，我的精神状态崩溃了</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Kf421i7r4">vlog #69 | 程序员下班的学习记录｜注意力流向哪里，哪里就有能量｜在读《诊疗椅上的谎言》与《巴菲特致股东的信》｜日常英语学习｜日记本写完啦 🎉</a></li>
+</ul>
+]]></content:encoded></item><item><title>周报 #68 - 关于写博客这件事与我生活的色彩</title><link>https://www.pseudoyu.com/zh/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-08-05 到 2024-08-11 这周生活的记录与思考。 从 TG Channel 里回顾了一下这周，发现一整周都围绕着搭博客和写博客这</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -9578,247 +9654,6 @@
 <li><a href="https://www.pseudoyu.com/zh/2022/05/25/learn_solidity_from_scratch_basic/">Solidity 智能合约开发 - 基础</a></li>
 <li><a href="https://github.com/ethereum/web3.py">ethereum/web3.py</a></li>
 <li><a href="https://github.com/smartcontractkit/full-blockchain-solidity-course-py">Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>Hugo + GitHub Action，搭建你的博客自动发布系统</title><link>https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/</link><pubDate>Sun, 29 May 2022 20:39:29 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/</guid><description>《后来的我们 - 五月天》 前言 在之前的一篇《免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）》中，我提到了自己通过 Hugo 这个静态</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p>在之前的一篇《<a href="https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a>》中，我提到了自己通过 <a href="https://gohugo.io">Hugo</a> 这个静态网站生成器来真正搭建我的个人博客，并在 Hugo 开源社区中 <a href="https://github.com/shaform/hugo-theme-den">hugo-theme-den</a> 这个主题基础上进行了一些个人定制化改造和配置，满足了自己的需求。</p>
-<p>我的方案主要分为以下几个核心部分：</p>
-<ol>
-<li>个人博客源仓库，对博客配置及所有文章 <code>.md</code> 源文件进行版本管理，配合 GitHub Action 进行自动化部署，自动生成静态站点推送到 GitHub Pages 博客发布仓库。</li>
-<li>（可选）GitHub Pages 博客发布仓库，以 <code>username.github.io</code> 形式命名的仓库，使用 GitHub Pages 实现网站部署，可以通过配置域名 CNAME 解析使用自定义域名。</li>
-<li>（可选）Cloudflare 账户与 Cloudflare Pages 项目，</li>
-<li>Hugo 主题仓库，fork 喜欢的主题，并对自己的个人定制化改造配置进行版本管理，通过 <code>git submodule</code> 的方式链接到个人博客源仓库。</li>
-<li>其他组件源仓库，如 <a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">umami 网站数据统计</a>及 <a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">Cusdis 网站评论系统</a>等。</li>
-</ol>
-<p>下文会对搭建、本地测试、自动化部署维护等过程进行详细讲解，希望对大家所有帮助。</p>
-<h2 id="使用-hugo-搭建博客">使用 Hugo 搭建博客</h2>
-<p><img src="https://image.pseudoyu.com/images/hugo_website.png" alt="hugo_website"></p>
-<p><a href="https://gohugo.io">Hugo</a> 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自动生成静态站点文件，支持丰富的主题配置，也可以通过 js 嵌入像是评论系统等插件，高度定制化。除了 Hugo 外， 还有 Gatsby、Jekyll、Hexo、Ghost 等选择，实现和使用都差不多，可以根据自己的偏好进行选择。</p>
-<h3 id="安装-hugo">安装 Hugo</h3>
-<p>我使用的是 macOS，所以使用官方推荐的 homebrew 方式进行 hugo 程序的安装，其他系统也类似。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install hugo
-</span></span></code></pre></div><p>完成后，使用以下命令进行验证：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo version
-</span></span></code></pre></div><h3 id="创建-hugo-网站">创建 Hugo 网站</h3>
-<p>通过上述命令安装 hugo 程序后，就可以通过 <code>hugo new site</code> 命令进行网站创建、配置与本地调试了。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site blog-test
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_new_site.png" alt="hugo_new_site"></p>
-<h3 id="配置主题">配置主题</h3>
-<p>当通过上文命令创建我们的站点后，需要进行主题配置，Hugo 社区有了很丰富的主题，可以通过官网 <a href="https://themes.gohugo.io">Themes</a> 菜单选择自己喜欢的风格，查看预览效果，选择后可以进入主题项目仓库，一般都会有很详细的安装及配置说明。下面我就以我目前在使用的 <a href="https://github.com/shaform/hugo-theme-den">hugo-theme-den</a> 这个主题为例，演示一下配置流程。</p>
-<h4 id="关联主题仓库">关联主题仓库</h4>
-<p>我们可以将主题仓库直接 <code>git clone</code> 下来进行使用，但这种方式有一些弊端，当之后自己对主题进行修改后，可能会与原主题产生一些冲突，不方便版本管理与后续更新。我采用的是将原主题仓库 <code>fork</code> 到自己的账户，并使用 <code>git submodule</code> 方式进行仓库链接，这样后续可以对主题的修改进行单独维护。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> blog-test/
-</span></span><span class="line"><span class="cl">git init
-</span></span><span class="line"><span class="cl">git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-den
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_init_theme.png" alt="hugo_init_theme"></p>
-<h4 id="更新主题">更新主题</h4>
-<p>如果是 clone 了其他人的博客项目进行修改，则需要用以下命令进行初始化：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule update --init --recursive
-</span></span></code></pre></div><p>如果需要同步主题仓库的最新修改，需要运行以下命令：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule update --remote
-</span></span></code></pre></div><h4 id="初始化主题配置及发布">初始化主题配置及发布</h4>
-<p>每个主题一般都会提供一些实例配置与初始页面，开始使用主题时可以将其 <code>exampleSite/</code> 目录下的文件复制到站点目录下，在此基础上进行调整配置。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp -rf themes/hugo-theme-den/exampleSite/* ./
-</span></span></code></pre></div><p>初始化主题基础配置后，我们可以在 <code>config.toml</code> 文件中进行站点细节配置，具体配置项参考各主题说明文档。</p>
-<p><img src="https://image.pseudoyu.com/images/hugo_theme_config.png" alt="hugo_theme_config"></p>
-<p>完成后，可以通过 <code>hugo new</code> 命令发布新文章。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts/blog-test.md
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_new_post.png" alt="hugo_new_post"></p>
-<h4 id="本地调试站点">本地调试站点</h4>
-<p>Hugo 会生成静态网页，我们在本地编辑调试时可以通过 <code>hugo server</code> 命令进行本地实时调试预览，无须每次都重新生成。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_server.png" alt="hugo_server"></p>
-<p>运行服务后，我们可以通过浏览器 <code>http://localhost:1313</code> 地址访问我们的本地预览网页。</p>
-<p><img src="https://image.pseudoyu.com/images/hugo_server_preview.png" alt="hugo_server_preview"></p>
-<h3 id="购买域名">购买域名</h3>
-<p>作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 <a href="https://www.cloudflare.com">Cloudflare</a>、<a href="https://www.namesilo.com">NameSilo</a>、<a href="https://www.godaddy.com">GoDaddy</a> 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。</p>
-<p>首先我们需要注册一个 Cloudflare 账户，登录后选择左侧边栏的“注册域”，并搜索自己想注册的域名。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain.png" alt="cloudflare_register_domain"></p>
-<p>选择了心仪的域名后，点击并选择购买时限并填写个人信息。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain_choose.png" alt="cloudflare_register_domain_choose"></p>
-<p>选择付款方式，建议可以选择自动续订，以免忘记续费。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain_payment.png" alt="cloudflare_register_domain_payment"></p>
-<p>类型选择 Personal 即可，并点击完成购买。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_done.png" alt="cloudflare_register_done"></p>
-<p>等待 Cloudflare 处理后即可查看信息。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_domain.jpg" alt="cloudflare_domain"></p>
-<h3 id="cloudflare-pages-发布博客推荐">Cloudflare Pages 发布博客（推荐）</h3>
-<p><strong>[2024-06-30 更新]</strong></p>
-<h4 id="cloudflare-pages-介绍">Cloudflare Pages 介绍</h4>
-<p>GitHub Pages 已经是一个免费且强大的静态网站托管平台了，且可以和 GitHub 代码仓库无缝对接，但国内的访问速度不是很理想，又由于我的域名本身托管在 Cloudflare，于是我尝试了 Cloudflare Pages，这是 Cloudflare 推出的静态网站托管服务，完全免费（至少我至今没有超过免费额度），且可以直接连接 GitHub 代码仓库，可以实现和 GitHub Pages 一样的自动化部署功能并且提供更优的访问线路，是目前更好的解决方案。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_pages_create.png" alt="cloudflare_pages_create"></p>
-<h4 id="创建-cloudflare-pages-项目">创建 Cloudflare Pages 项目</h4>
-<p>首先我们需要注册 Cloudflare 账号，并且在左侧选择「Worker 和 Pages」菜单，点击创建项目。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_pages_with_git.png" alt="cloudflare_pages_with_git"></p>
-<p>下一步会有两个选项，一个是直接把静态文件上传，还有一个是连接 git，第一种通常是适用于一些单页面或者非常低频更新从而不需要 GitHub 托管代码的项目，如一些单 html 页面的网站等；而连接 git 则能够更好地针对我们每一次的博客提交自动构建新的网页，也是我们采用的方式。</p>
-<h4 id="构建-hugo">构建 Hugo</h4>
-<p><img src="https://image.pseudoyu.com/images/yu_blog_test_build_hugo_cloudflare_pages.png" alt="yu_blog_test_build_hugo_cloudflare_pages"></p>
-<p>由于 Cloudflare Pages 提供了几乎市面上所有常用的网站构建工具，如 Next.js、Astro、Hugo 等，我们可以选择两种方式来进行部署：</p>
-<ol>
-<li>直接使用 Cloudflare Pages 提供的构建工具，直接根据仓库代码生成静态网页并部署上线</li>
-<li>以与上文 GitHub Pages 类似的方式生成静态网页的仓库或分支，通过 Cloudflare Page 直接进行部署上线</li>
-</ol>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_build_site_hugo_in_progress.png" alt="cloudflare_build_site_hugo_in_progress"></p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_pages_build_done.png" alt="cloudflare_pages_build_done"></p>
-<p>第一种方式可以大大简化我们的部署流程，因此我们要做的只有将上文所创建的博客源仓库（如我的仓库为 <a href="https://github.com/pseudoyu/yu-blog">pseudoyu/yu-blog</a>）进行链接，每次提交就会自动构建并部署，只需要等待几十秒即可完成，而无须像 GitHub Pages 那样自己写各种构建 GitHub Actions 命令，很方便，也是最为推荐的方式。</p>
-<p>而第二种方式其实跟 GitHub Pages 的方式类似，比较适用于对于构建过程有一些特殊需求的网站，如我在构建我的个人博客网站时同时在 GitHub Actions 执行了一些 Python 在自动更新我的 About 页面，这些复杂操作就无法直接使用 Cloudflare Pages 提供的构建工具，因此我选择了第二种方式。</p>
-<p>可以在自己的博客源仓库中直接使用如下简化版的 GitHub Actions:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">push</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c"># Runs everyday at 8:00 AM</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0 0 * * *&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">build</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">steps</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="l">// Other steps you want to add</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">github_token</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.GITHUB_TOKEN }}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">publish_dir</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">publish_branch</span><span class="p">:</span><span class="w"> </span><span class="l">cf-pages</span><span class="w">
-</span></span></span></code></pre></div><p><code>on</code> 表示 GitHub Action 触发条件，我设置了 <code>push</code>、<code>workflow_dispatch</code> 和 <code>schedule</code> 三个条件：</p>
-<ul>
-<li><code>push</code>，当这个项目仓库发生推送动作后，执行 GitHub Action</li>
-<li><code>workflow_dispatch</code>，可以在 GitHub 项目仓库的 Action 工具栏进行手动调用</li>
-<li><code>schedule</code>，定时执行 GitHub Action，如我的设置为北京时间每天早上执行，主要是使用一些自动化统计 CI 来自动更新我博客的关于页面，如本周编码时间，影音记录等，如果你不需要定时功能，可以删除这个条件</li>
-</ul>
-<p><code>jobs</code> 表示 GitHub Action 中的任务，我们设置了一个 <code>build</code> 任务，<code>runs-on</code> 表示 GitHub Action 运行环境，我们选择了 <code>ubuntu-latest</code>。我们的 <code>build</code> 任务包含了 <code>Checkout</code>、<code>Setup Hugo</code>、<code>Build Web</code> 和 <code>Deploy Web</code> 四个主要步骤，其中 <code>run</code> 是执行的命令，<code>uses</code> 是 GitHub Action 中的一个插件，我们使用了 <code>peaceiris/actions-hugo@v2</code> 和 <code>peaceiris/actions-gh-pages@v3</code> 这两个插件。其中 <code>Checkout</code> 步骤中 <code>with</code> 中配置 <code>submodules</code> 值为 <code>true</code> 可以同步博客源仓库的子模块，即我们的主题模块。</p>
-<p>以上 GitHub Actions 会将博客生成的静态文件推送到 <code>cf-pages</code> 分支，因为我们在 Cloudflare Pages 中选择该分支进行部署即可，因为如我们需要添加一些额外的步骤，可以在构建之前添加一些自定义的步骤，很灵活，具体应用可以看「<a href="https://github.com/pseudoyu/yu-blog/blob/master/.github/workflows/deploy.yml">GitHub - yu-blog/.github/workflows/deploy.yml</a>」示例。</p>
-<h4 id="配置自定义域名">配置自定义域名</h4>
-<p><img src="https://image.pseudoyu.com/images/custom_domain_yu_blog.png" alt="custom_domain_yu_blog"></p>
-<p>自定义域名也非常简单，直接在导航栏中选中自定义域，并添加想要绑定的域名。</p>
-<p><img src="https://image.pseudoyu.com/images/cf_pages_custom_domain_dns.png" alt="cf_pages_custom_domain_dns"></p>
-<p>如果是在 Cloudflare 中注册/托管的域名，可以直接选择「激活域」，会自动添加 DNS 解析，如果是其他平台的域名，则手动添加 CNAME 解析即可。</p>
-<p><img src="https://image.pseudoyu.com/images/custom_domain_wait_dns.png" alt="custom_domain_wait_dns"></p>
-<p>配置 DNS 完成后，等待生效即可。</p>
-<h3 id="github-pages-发布博客">GitHub Pages 发布博客</h3>
-<h4 id="创建仓库">创建仓库</h4>
-<p>GitHub Pages 项目需要符合 <code>username.github.io</code> 的特殊命名格式，仓库建立完成后，可以在设置中配置自己注册的自定义域名来指向 GitHub Pages 生成的网址。此外，需要将博客站点配置文件 <code>config.toml</code> 中的 <code>baseURL</code> 改为自己的自定义域名，格式为 <code>&quot;https://www.pseudoyu.com/&quot;</code>，这样博客站点才能正常访问 GitHub Pages 生成的网站服务。</p>
-<p><img src="https://image.pseudoyu.com/images/github_pages_repo.png" alt="github_pages_repo"></p>
-<h4 id="域名解析">域名解析</h4>
-<p>按照上文步骤注册好后，需要在域名托管商进行 DNS 解析，在这里我们需要选择 CNAME，指向我们的 GitHub Pages 网址。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_cname_config.png" alt="cloudflare_cname_config"></p>
-<p>因为 CNAME 解析没办法设置 root 域名，即只能设置 <code>www.pseudoyu.com</code> 或其他子域名，而不是 <code>pseudoyu.com</code>，因此，我们可以通过 Cloudflare 上自定义规则设置域名重定向，具体配置如下，仅需将我的域名替换成自己的域名即可。即使你是通过 NameSilo 注册的域名，也可以通过 Cloudflare 来添加站点以实现功能，或者其他托管平台也有类似的功能，按照说明配置即可。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_cname_rule_config.png" alt="cloudflare_cname_rule_config"></p>
-<p>完成上述准备工作后，我们现在已经可以通过自定义域名来访问我们的 GitHub Pages 页面了，目前因为项目仓库是空的，访问后会报 <code>404</code> 页面。</p>
-<p>我们希望 Hugo 生成的静态网站能通过 GitHub Pages 服务进行托管，而无需自己维护服务，更稳定、安全，因此我们需要上传 Hugo 生成的静态网页文件至 GitHub Page 项目仓库。</p>
-<h4 id="手动发布">手动发布</h4>
-<p>当我们编辑博客内容并通过 <code>hugo server</code> 本地调试后，就可以通过 <code>hugo</code> 命令生成静态网页文件了。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public/
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_gen_pages.png" alt="hugo_gen_pages"></p>
-<p>Hugo 默认会将生成的静态网页文件存放在 <code>public/</code> 目录下，我们可以通过将 <code>public/</code> 目录初始化为 git 仓库并关联我们的 <code>pseudoyu/pseudoyu.github.io</code> 远程仓库来推送我们的网页静态文件。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
-</span></span><span class="line"><span class="cl">git remote add origin git@github.com:pseudoyu/pseudoyu.github.io
-</span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;add test&#34;</span>
-</span></span></code></pre></div><p><img src="https://image.pseudoyu.com/images/hugo_public_init.png" alt="hugo_public_init"></p>
-<p>核对文件修改后，即可通过 <code>git push origin master</code> 推送到 GitHub Pages 仓库，稍等几分钟即可通过我们的自定义域名来访问我们的博客站点了，和我们 <code>hugo server</code> 本地调试完全一致。</p>
-<h4 id="自动发布">自动发布</h4>
-<p>通过上述命令我们可以手动发布我们的静态文件，但还是有以下弊端：</p>
-<ol>
-<li>发布步骤还是比较繁琐，本地调试后还需要切换到 <code>public/</code> 目录进行上传</li>
-<li>无法对博客 <code>.md</code> 源文件进行备份与版本管理</li>
-</ol>
-<p>因此，我们需要简单顺滑的方式来进行博客发布，首先我们初始化博客源文件的仓库，如我的仓库为 <a href="https://github.com/pseudoyu/yu-blog">pseudoyu/yu-blog</a>。</p>
-<p>因为我们的博客基于 GitHub 与 GitHub Pages，可以通过官方提供的 GitHub Action 进行 CI 自动发布，下面我会进行详细讲解。GitHub Action 是一个持续集成和持续交付(CI/CD) 平台，可用于自动执行构建、测试和部署管道，目前已经有很多开发好的工作流，可以通过简单的配置即可直接使用。</p>
-<p>配置在仓库目录 <code>.github/workflows</code> 下，以 <code>.yml</code> 为后缀。我的 GitHub Action 配置为 <a href="https://github.com/pseudoyu/yu-blog/blob/master/.github/workflows/deploy.yml">pseudoyu/yu-blog deploy.yml</a>，自动发布示例配置如下：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">push</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c"># Runs everyday at 8:00 AM</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0 0 * * *&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">build</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">steps</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PERSONAL_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.PERSONAL_TOKEN }}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">pseudoyu/pseudoyu.github.io</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.event.head_commit.message }}</span><span class="w">
-</span></span></span></code></pre></div><p>首先需要将上述 <code>deploy.yml</code> 中的 <code>EXTERNAL_REPOSITORY</code> 改为自己的 GitHub Pages 仓库，如我的设置为 <code>pseudoyu/pseudoyu.github.io</code>。</p>
-<p>因为我们需要从博客仓库推送到外部 GitHub Pages 仓库，需要特定权限，要在 GitHub 账户下 <code>Setting - Developer setting - Personal access tokens</code> 下创建一个 Token。</p>
-<p><img src="https://image.pseudoyu.com/images/github_psersonal_access_token.png" alt="github_psersonal_access_token"></p>
-<p>权限需要开启 <code>repo</code> 与 <code>workflow</code>。</p>
-<p><img src="https://image.pseudoyu.com/images/yu_blog_personal_token.png" alt="yu_blog_personal_token"></p>
-<p>配置后复制生成的 Token（注：只会出现一次），然后在我们博客源仓库的 <code>Settings - Secrets - Actions</code> 中添加 <code>PERSONAL_TOKEN</code> 环境变量为刚才的 Token，这样 GitHub Action 就可以获取到 Token 了。</p>
-<p>完成上述配置后，推送代码至仓库，即可触发 GitHub Action，自动生成博客页面并推送至 GitHub Pages 仓库。</p>
-<p><img src="https://image.pseudoyu.com/images/yu_blog_ci.png" alt="yu_blog_ci"></p>
-<p>而 GitHub Pages 仓库更新后，又会自动触发官方页面部署 CI，实现我们的网站发布。</p>
-<p><img src="https://image.pseudoyu.com/images/page_build_ci.png" alt="page_build_ci"></p>
-<p>经过上述配置，我们已经实现了 Hugo 博客本地搭建及版本管理、GitHub Pages 部署网站发布，Hugp 主题管理及更新等功能，实现了完整的系统。现在每当我们本地通过熟悉的 Markdown 语法完成博客内容编辑后，只需要推送代码，等待几分钟，即可通过我们的自定义域名访问更新后的网站。</p>
-<h3 id="组件拓展">组件拓展</h3>
-<p>一个完整的博客系统还需要一些组件，如网站数据统计、评论系统等，我针对这两个核心需求也写了完整的 Serverless 搭建教程，可根据需求进行部署配置。</p>
-<ul>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
-</ul>
-<h2 id="总结">总结</h2>
-<p>以上就是我通过 Hugo 与 GitHub Action 实现的免费博客自动部署系统，我自己的实现仓库在 <a href="https://github.com/pseudoyu/yu-blog">pseudoyu/yu-blog</a> 仓库中，我定制化的主题仓库在 <a href="https://github.com/pseudoyu/hugo-theme-den">pseudoyu/hugo-theme-den</a> 中。</p>
-<p>我使用 GitHub Action 还实现了很多好玩的自动化个人统计功能，自动更新我的<a href="https://github.com/pseudoyu">GitHub Profile</a>，项目仓库为 <a href="https://github.com/pseudoyu/pseudoyu">pseudoyu/pseudoyu</a>，可以进入 <code>.github/workflows</code> 中自行探索。这些系统还在不断完善中，欢迎大家参与贡献与交流。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://gohugo.io">Hugo 官网</a></li>
-<li><a href="https://github.com/features/actions">GitHub Action</a></li>
-<li><a href="https://pages.github.com">GitHub Pages</a></li>
-<li><a href="https://www.cloudflare.com">Cloudflare 官网</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
-<li><a href="https://www.pseudoyu.com">我的 Pseudoyu 个人博客</a></li>
-<li><a href="https://github.com/pseudoyu">我的 GitHub Profile</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
