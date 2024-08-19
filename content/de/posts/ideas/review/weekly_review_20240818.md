@@ -66,21 +66,21 @@ Von Anfang an, als ich kaum wusste, wie man Vercel Deploy benutzt, bis jetzt, wo
 
 > Im Vergleich zu vor zwei Jahren haben sich der Veröffentlichungsprozess und das Erscheinungsbild kaum verändert, aber die Komponenten und Inhalte sind schon ganz anders.
 
-- [2024 ist da, was hat sich in meinem Blog geändert](https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/)
-- [Setze dein kostenloses Blog-Kommentarsystem von Grund auf auf (Remark42 + fly.io)](https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
-- [Aufbau eines Website-Statistiksystems mit GoatCounter und Zeabur](https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
-- [Setze dein kostenloses Bildspeichersystem von Grund auf auf (Cloudflare R2 + WebP Cloud + PicGo)](https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
-- [Verwendung von WebP und Cloudflare WAF zum Hinzufügen von Datenschutz und Urheberrechtsschutz für deinen Bildspeicher](https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
+- [2024 ist da, was hat sich in meinem Blog geändert](https://www.pseudoyu.com/de/2024/06/29/what_changed_in_my_blog_2024/)
+- [Setze dein kostenloses Blog-Kommentarsystem von Grund auf auf (Remark42 + fly.io)](https://www.pseudoyu.com/de/2024/07/22/free_commenting_system_using_remark42_and_flyio/)
+- [Aufbau eines Website-Statistiksystems mit GoatCounter und Zeabur](https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
+- [Setze dein kostenloses Bildspeichersystem von Grund auf auf (Cloudflare R2 + WebP Cloud + PicGo)](https://www.pseudoyu.com/de/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/)
+- [Verwendung von WebP und Cloudflare WAF zum Hinzufügen von Datenschutz und Urheberrechtsschutz für deinen Bildspeicher](https://www.pseudoyu.com/de/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/)
 
 ### Version 2022
 
 > Abgesehen von einigen Änderungen bei den Plattformen, von denen viele keinen kostenlosen Plan mehr anbieten, sind die Prozesse im Grunde immer noch anwendbar.
 
-- [Es ist 2022, lass uns darüber reden, warum ich immer noch blogge](https://www.pseudoyu.com/zh/2022/06/12/why_i_still_write_blog_in_2022/)
-- [Kostenlose Lösung für den Aufbau und die Bereitstellung eines persönlichen Blogsystems (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
-- [Hugo + GitHub Action, baue dein automatisches Blog-Veröffentlichungssystem](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
-- [Aufbau eines kostenlosen persönlichen Blog-Statistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
-- [Leichtgewichtige Open-Source-Lösung für ein kostenloses Blog-Kommentarsystem (Cusdis + Railway)](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
+- [Es ist 2022, lass uns darüber reden, warum ich immer noch blogge](https://www.pseudoyu.com/de/2022/06/12/why_i_still_write_blog_in_2022/)
+- [Kostenlose Lösung für den Aufbau und die Bereitstellung eines persönlichen Blogsystems (Hugo + GitHub Pages + Cusdis)](https://www.pseudoyu.com/de/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/)
+- [Hugo + GitHub Action, baue dein automatisches Blog-Veröffentlichungssystem](https://www.pseudoyu.com/de/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
+- [Aufbau eines kostenlosen persönlichen Blog-Statistiksystems von Grund auf (umami + Vercel + Heroku)](https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/)
+- [Leichtgewichtige Open-Source-Lösung für ein kostenloses Blog-Kommentarsystem (Cusdis + Railway)](https://www.pseudoyu.com/de/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/)
 
 Ich frage mich, was ich beim nächsten Update dieser Serie machen und worüber ich nachdenken werde.
 
@@ -124,7 +124,7 @@ Obwohl die meisten interessanten Eingänge automatisch im Telegram-Kanal "Yu's L
 #### Artikel
 
 - [Von der Abneigung gegen das Schreiben bis zur Freude am Teilen: Meine Reise mit dem Bloggen](https://innei.in/notes/176)
-- [Aufbau eines Website-Statistiksystems mit GoatCounter und Zeabur](https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
+- [Aufbau eines Website-Statistiksystems mit GoatCounter und Zeabur](https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/)
 - [Generierst du immer noch manuell Miniaturbilder für Geräte mit unterschiedlichen Auflösungen? WebP Cloud Services führt die Funktion Adaptive Resize ein](https://blog.webp.se/adaptive-resize-zh/)
 - [Wochennotiz #4 ｜ Erkenntnisse zum Sprachenlernen](https://atlas.xlog.app/thoughts-of-learning-language)
 - ["Code-Künstler" werden nicht durch KI ersetzt](https://lutaonan.com/blog/code-artists/)
