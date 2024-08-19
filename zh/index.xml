@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 06 Aug 2024 19:00:42 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 GoatCounter 与 Zeabur 搭建网站数据统计系统</title><link>https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 18 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #68 - 关于写博客这件事与我生活的色彩</title><link>https://www.pseudoyu.com/zh/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-08-05 到 2024-08-11 这周生活的记录与思考。 从 TG Channel 里回顾了一下这周，发现一整周都围绕着搭博客和写博客这</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240811.png" alt="weekly_review_20240811"></p>
+<p>本篇是对 <code>2024-08-05</code> 到 <code>2024-08-11</code> 这周生活的记录与思考。</p>
+<p>从 TG Channel 里回顾了一下这周，发现一整周都围绕着搭博客和写博客这两件事，有了一些思考与分享欲，大部分内容都发过，算是一个整理了。</p>
+<h2 id="写博客的-roi">写博客的 ROI</h2>
+<p><img src="https://image.pseudoyu.com/images/blog_roi_x_discussion.jpg" alt="blog_roi_x_discussion"></p>
+<p>前几天在推特上看到了关于写博客的一些讨论，又看到 Innei 的这篇「<a href="https://innei.in/notes/176">从讨厌写作到乐于分享：我与写博客的心路历程</a>」，很有意思，于是趁机仔细回顾了一下整个写博客的历程与收获。</p>
+<p>最后得出一个个人的结论是，我也觉得写博客是一件成本不低、周期长但 ROI 非常高的事。</p>
+<p>如果按照广义的发自本心的写作来说，从高中左右就开始写散文、公众号、博客等等，持续了接近 10 年了，真正直接从为自己写的文字赚到的收入大概只有少数派发的六七篇上了首页的文章共计 3000 元左右稿费和一位读者坚持了一年多了依然还在每个月给我 GitHub Sponsor 的 5 刀赞助。</p>
+<p>一开始就有心理预期，脱离了公司的薪酬外，不管是做产品还是写文字，哪怕让用户/读者为你付一美元都是一件并不容易做到的事，但就像 Randy 在 Notepal 的一篇文章里说的，「有人愿意购买」的意义远比数目的大小更大。</p>
+<p>写博客也带来了非常多潜在的意义和回报。我去年来现在的公司面试时，一位当时的面试官现在的同事就有说，全组在面试前都有看过我的周报，对我的性格、技术力和学习能力等已经有了一些初步的了解了；在社交媒体上，也通过文字让我和许多我非常崇拜的人有了更多更深度的交流甚至是合作；在许多线下活动做了简单自我介绍后，也常常能听到一句“哦，我看过你周报，很喜欢”。</p>
+<p>这些都是并不以此为目的但在长期的坚持中收获的惊喜。</p>
+<p>而不论是写博客还是其他形式的创作，似乎都有着相似的路径。起初新鲜而动力十足；逐渐在漫长的周期中消磨信心，看到别的好的文章/作品感受到的不是美好而是压力 —— “为什么我写不出来”；慢慢沉淀回归自我，恣意、快乐，享受其中。</p>
+<h2 id="我生活的色彩">我生活的色彩</h2>
+<p><img src="https://image.pseudoyu.com/images/colored_camera.jpeg" alt="colored_camera"></p>
+<p>想起来在刚写周报的时候由于读了村上的一本小说而写的「<a href="https://www.pseudoyu.com/zh/2022/08/29/weekly_review_20220829/">周报 #09 - 没有色彩的 Yu 和他的巡礼之年</a>」，里面我这样写道：</p>
+<blockquote>
+<p>多崎作所在的小群体中其他四人以及后续结交的挚友的名字都巧合地包含了颜色词：“赤”、“青”、“黑”、“白”、“灰”，让他感觉自己就像是一个没有个性的存在，连带着没有色彩的人生。</p>
+<p>其实关于自己名字的埋怨常常有，『<a href="https://movie.douban.com/subject/26302614/">请回答 1988</a>』里德善也有向父母埋怨自己的名字毫无特色，不如姐姐宝拉。我也曾有过这样的想法，似乎自己的名字简短而没有特色，再加上也是几个大姓之一，常常在一个学校遇到不少同名的人，与之相伴的就是自己常常也需要额外努力才能留下更多记忆点。</p>
+<p>虽然后续也和自己和解了，但似乎还总是感觉自己的生活与有趣已经无缘了。总是羡慕别人的有趣个性和经历，也常常在即使自己做得不错时也只是觉得在履行自己平凡人生的职责或是这些都并不属于自己。</p>
+</blockquote>
+<p>就这样平凡的我常常也会犹疑，自己的生活“流水账”是否有这样的价值呈现在所有人的面前，直到最近恰好在 B 站上看到这样一个视频 —— 「<a href="https://www.bilibili.com/video/BV1ipiFeyEfy">什么是好看的色彩?拍视频五年,我调色成了什么样</a>」，是讲调色相关的，里面的一句话却深深打动了我：</p>
+<blockquote>
+<p>当我第一次把镜头对向自己的时候，我才发现拍得可以那么惬意，没有压力。这时我才发现，我以前羡慕的不是那个画面，而是背后浪漫热烈的生活，这是我爱折腾的意义，我想让你看到我眼里的世界，而我屏幕里最好看的颜色，就是我生活的底色。</p>
+</blockquote>
+<p>这是对我现在写周报时的心境最恰如其分的形容。</p>
+<h2 id="博客搭建系列">博客搭建系列</h2>
+<p>博客搭建系列终于更新完了！前后加起来也有 10 篇之多，自己也算是入围博客装修赛道的了。</p>
+<p>从一开始 Vercel 部署都不太会用，到现在市面上的 Serverless 几乎都玩过一圈了，很有意思的体验，一切都按照想法运作的体验真的很美妙，搭博客和写博客确实各有乐趣。</p>
+<h2 id="搭建教程">搭建教程</h2>
+<h3 id="2024-版">2024 版</h3>
+<blockquote>
+<p>比起两年前其实发布流程与外观几乎没什么变化，但组件和内容却已经很不一样了。</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/">从零开始搭建你的免费博客评论系统（Remark42 + fly.io）</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">使用 GoatCounter 与 Zeabur 搭建网站数据统计系统</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">使用 WebP 与 Cloudflare WAF 为你的图床添加隐私和版权保护</a></li>
+</ul>
+<h3 id="2022-版">2022 版</h3>
+<blockquote>
+<p>除了平台有些变化，很多不再提供 Free Plan 外，流程基本都依然适用的。</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2022/06/12/why_i_still_write_blog_in_2022/">2022 年了，聊聊我为什么还在写博客</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
+</ul>
+<p>不知道下一次更新这个系列的时候，自己会在做些什么，又在想些什么呢。</p>
+<h2 id="多语言支持">多语言支持</h2>
+<p><img src="https://image.pseudoyu.com/images/en_version_blog.png" alt="en_version_blog"></p>
+<p>其实我的博客一直是有双语的功能选项的（导航栏可以全站切换/文章中也可以直接点击对应语言切换），只是一直很偷懒所以只是把中文文档复制过去，今天早上通过 Claude 的 Projects 功能把现存所有文章都翻译了。</p>
+<p>新建了一个 Blog Translation 的 Project，输入一个全局 Instruction，之后就把 Hugo 的 markdown 源文件丢进去就可以了。</p>
+<p>模型使用的是 Claude 3.5 Sonnet，为了节省上下文，我每篇文章开了一个新的对话，发现一百三十多篇文章都翻译完了居然还没触发 Claude Pro 的 usage limit（在 9:40 am 的时候提醒了一下 10 am 前只剩 10 条，之后再也没有出现过），有点良心。</p>
+<p>因为我今天的目的主要是完成所有文章的转换和粗校，后续内容上的还是会人工去校对一下，所以用的 Prompt 比较简单，不过返回格式的可用性和翻译质量都超乎想象。</p>
+<blockquote>
+<p>You will receive a Chinese blog post in Markdown format (.md) using the Hugo template. Translate the content into English, adhering to the following guidelines:</p>
+<ol>
+<li>Use a literary tone for posts in the &ldquo;Idea&rdquo; category; otherwise, employ a professional tone.</li>
+<li>Maintain consistent terminology, especially for structural elements like &ldquo;preface&rdquo; and &ldquo;conclusion&rdquo;.</li>
+<li>Preserve all Markdown formatting and metadata, including Hugo properties, links, audio, images, and other elements.</li>
+<li>Translate only the blog content itself.</li>
+<li>Return the result in Markdown format for easy copying.</li>
+<li>Do not add any introductory statements, explanations, or additional content to the blog.</li>
+<li>Provide only the raw translated Markdown content in your response.</li>
+</ol>
+</blockquote>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。并且把 Telegram Channel 消息作为内容源搭建了一个微博客 —— 「<a href="https://daily.pseudoyu.com/">daily.pseudoyu.com</a>」，可以更方便浏览了。</p>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/26362836/"><strong>献给阿尔吉侬的花束</strong></a>，很久之前读过，重温一下。</li>
+</ul>
+<h4 id="播客">播客</h4>
+<ul>
+<li><a href="https://www.listennotes.com/e/7f2efa4ad8394de79591a3ee2da6a5d1">第 10 集 | 花果山大圣聊职业选择、如何靠销售立足、房车之旅、以及英国的新生活</a></li>
+<li><a href="https://www.listennotes.com/e/5e5454656bb146499bef687dcec00e65">Ep 48. 专访高天：为了当好 B 站 up 主，我成为了 Python 核心开发者</a></li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://innei.in/notes/176">从讨厌写作到乐于分享：我与写博客的心路历程</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">使用 GoatCounter 与 Zeabur 搭建网站数据统计系统</a></li>
+<li><a href="https://blog.webp.se/adaptive-resize-zh/">还在为了不同分辨率的设备手动生成小图？WebP Cloud Services 上线 Adaptive Resize 功能</a></li>
+<li><a href="https://atlas.xlog.app/thoughts-of-learning-language">周记#4 ｜ 语言学习心得</a></li>
+<li><a href="https://lutaonan.com/blog/code-artists/">「代码艺术家」不会被 AI 取代</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1uf421B7ow">我在秒速五厘米的电车前，向十年前喜欢的同学求婚了</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ipiFeyEfy">什么是好看的色彩?拍视频五年,我调色成了什么样</a></li>
+<li><a href="https://www.bilibili.com/video/BV1yw4m1r713">你的下一个宝可梦，何必是宝可梦？—《真女神转生 5 复仇》【就知道玩游戏】</a></li>
+<li><a href="https://www.bilibili.com/video/BV1e4421Z7Qo">vlog #68｜程序员下班后的学习记录｜写写代码充充电的日常｜《献给阿尔吉侬的花束》大虐｜在读《巴菲特致股东的信》｜日常英语学习｜TED｜在家失眠中😪</a></li>
+</ul>
+<h4 id="电影">电影</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/1293749/"><strong>生活多美好</strong></a>，久违的看到流泪的片子。跟《土拨鼠之日》一样，看完会重拾一些对生活的热情与周遭 relationship 的思考；也不需要多么精致的画面或是置景，演员的眼神似乎都是亮的，透着灵性，这大概也是老电影的魅力。</li>
+</ul>
+]]></content:encoded></item><item><title>使用 GoatCounter 与 Zeabur 搭建网站数据统计系统</title><link>https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>前言 在「2024 年了，我的博客有了什么变化」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>在「<a href="https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/">2024 年了，我的博客有了什么变化</a>」一文中，我介绍了自己使用 Serverless 平台和一些开源项目搭建的博客系统，也开启了这个系列教程来记录搭建和部署全过程。</p>
 <p>本篇是关于统计系统的解决方案。</p>
 <h2 id="统计系统方案">统计系统方案</h2>
@@ -7316,7 +7425,6 @@
 <p>人在各个阶段似乎总是会有抱团的倾向，而一旦依赖于一个群体又不免遭受来自关系的压力与挫折。大学时我曾有这样一个四人小团体，两男两女，总是形影不离，到辅导员或是同学发现缺人都会很自然地询问其余的人。</p>
 <p>但我在一段时间后感受到了明显的压力，剩下三位似乎是更风云一点的人物，总是在人群中耀眼的那一个，而我却似乎总是缺乏存在感，而内心又不想成为这样出于习惯而依附其中的多余之人。于是我开始刻意回避和逃离，当然，表现拙劣的我并不懂如何隐藏，很快就被察觉。</p>
 <p>可以说比起多崎作我是幸运的，没有被抛弃，也没有什么误会，另外三位在一个夜晚把我堵在男生宿舍楼下让我讲出心结，并逐一进行排解，关于个性和存在感的回应我可能依旧觉得是安慰，但有感受到自己有被这段关系和模式所需要，自己的情绪有被他们所认真看待，我们的关系有被珍惜。即使后续因为城市和很多原因已经少有共同行动的机会了，但是依然有着不错的联系，以及到了任一成员所在的城市所首先会想到的人。</p>
-<p>目前也处于另一段三人的关系中，两位初中挚友，可能就定义上来说算不上发小但亲近更甚。因为分开于三地，常常也会思考这段关系的立足点、走向以及平衡，尽管慢慢会有一些变化，也有不少未来需要面对的部分，但也逐渐愿意为之努力和探索更多。</p>
 <p>『<a href="https://book.douban.com/subject/26425831/">斯通纳</a>』其实也描述了许多关于生活的平凡与人格的完善这一块，不过话题比较庞大，可能以后会结合着『<a href="https://movie.douban.com/subject/33477335/">Normal People</a>』一起讲讲。</p>
 <h2 id="善意与慈善">善意与慈善</h2>
 <p>上周看到 <a href="https://twitter.com/Manjusaka_Lee">Manjusaka</a> 发的一条推文：</p>
@@ -9711,103 +9819,6 @@
 <li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
 <li><a href="https://www.pseudoyu.com">我的 Pseudoyu 个人博客</a></li>
 <li><a href="https://github.com/pseudoyu">我的 GitHub Profile</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>Ghost 5.0 来了，使用 Digital Ocean 一键部署吧</title><link>https://www.pseudoyu.com/zh/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/</link><pubDate>Sun, 29 May 2022 14:21:12 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/05/29/deploy_ghost_5_on_digital_ocean_vps/</guid><description>《后来的我们 - 五月天》 前言 我是一个静态博客与 Serverless 支持者，自己的个人博客与一些知识库项目也都是通过 hugo 生成并托管在 GitHub Pages 上的。这种方式很方便进行版本</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p>我是一个静态博客与 Serverless 支持者，自己的<a href="https://www.pseudoyu.com">个人博客</a>与一些<a href="https://www.pseudoyu.com/blockchain-guide">知识库项目</a>也都是通过 <a href="https://gohugo.io">hugo</a> 生成并托管在 <a href="https://pages.github.com">GitHub Pages</a> 上的。这种方式很方便进行版本管理与部署维护，但对于非技术的人来说，通过命令行 git 操作的方式也有些过于 geek，牵扯到多人协作等场景也不太方便。</p>
-<p>上周有个前同事（非技术）让我帮忙搭建一个门户网站，主要展示一下公司信息、发布一些资讯、专题、工具等，出于易用性等考虑，也刚好看到 <a href="https://ghost.org">Ghost</a> 官方发布了 5.0 版本，支持了很多强大的功能，如邮件订阅、数据分析等，且可以自部署，所以考虑了这个方案，下文记录一下安装与部署流程。</p>
-<h2 id="ghost-50">Ghost 5.0</h2>
-<p><img src="https://image.pseudoyu.com/images/ghost_5_intro.jpg" alt="ghost_5_intro"></p>
-<p>Ghost 是一个非常老派的博客工具，自 2013 年原型发布以来已经经过了 9 年的发展完善，于最近刚推出 5.0 版本，很适合个人、独立发布平台等。5.0 版本中，有以下特性更新：</p>
-<ul>
-<li>支持更强大的订阅功能，如订阅分级等</li>
-<li>支持多个邮件订阅，修改设计更加方便</li>
-<li>支持发布优惠活动，也有更强大的用户分析面板</li>
-<li>原生支持视频、博客、GIF、电商产品、NFT 等</li>
-<li>发布更多新主题</li>
-<li>优化性能 20%+</li>
-<li>&hellip;</li>
-</ul>
-<p>Ghost 官方支持多种部署方式，如 Ghost(Pro) 托管、Docker 镜像、服务器安装等，而因为 Ghost 生成环境依赖 Ubuntu，Node，MySQL 等环境，如果需要自己单独搭建会比较麻烦，且维护成本也较高。经过一番调研，根据官方文档的安装说明，Digital Ocean 是 Ghost 的官方云托管合作伙伴，提供了一键部署安装的方式，简单便捷。</p>
-<h2 id="安装部署说明">安装部署说明</h2>
-<h3 id="域名购买">域名购买</h3>
-<p>作为一个对外发布的网站，我们需要购买一个域名并配置解析，指向我们网站所在的服务器，才能让外界以比较方便的方式访问。域名购买平台很多，我用过的有 <a href="https://www.cloudflare.com">Cloudflare</a>、<a href="https://www.namesilo.com">NameSilo</a>、<a href="https://www.godaddy.com">GoDaddy</a> 等，我最后常用的还是 Cloudflare，因为其同时还提供了 CDN、网站数据分析、定制规则等强大功能。</p>
-<p>首先我们需要注册一个 Cloudflare 账户，完成并登录后，选择左侧边栏的“注册域”，并搜索自己想注册的域名。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain.png" alt="cloudflare_register_domain"></p>
-<p>选择了心仪的域名后，点击并选择购买时限并填写个人信息。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain_choose.png" alt="cloudflare_register_domain_choose"></p>
-<p>选择付款方式，建议可以选择自动续订，以免忘记续费。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_domain_payment.png" alt="cloudflare_register_domain_payment"></p>
-<p>类型选择 Personal 即可，并点击完成购买。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_register_done.png" alt="cloudflare_register_done"></p>
-<p>等待 Cloudflare 处理后即可查看信息。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_domain.jpg" alt="cloudflare_domain"></p>
-<h3 id="digital-ocean-ssh-配置">Digital Ocean ssh 配置</h3>
-<p>因为我们后续需要访问 Digital Ocean 的主机，我们需要先注册一个帐号，并配置我们的 ssh key，以便免密登录。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_add_key.png" alt="digital_ocean_add_key"></p>
-<p>输入我们的 ssh key，点击添加即可。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_ssh_config.png" alt="digital_ocean_ssh_config"></p>
-<h3 id="一键创建-ghost-droplet">一键创建 Ghost Droplet</h3>
-<p>如上文所述，Ghost 提供了在 Digital Ocean 上一键创建 Droplet 的支持，我们可以访问<a href="https://ghost.org/docs/install/">安装说明文档</a>，点击 Digital Ocean 图标进行跳转。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_use_digital_ocean.png" alt="ghost_use_digital_ocean"></p>
-<p>我们也可以在 Digital Ocean 镜像市场中搜索选择，点击右上角创建。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_market_ghost.png" alt="digital_ocean_market_ghost"></p>
-<p>根据官方说明，选择 5 美元/月套餐配置已经足够，后续有更高需求也可以一键扩容（注：如先选择了高配置，无法进行降级）。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_ghost_config.png" alt="digital_ocean_ghost_config"></p>
-<p>选择主机实例地区，我选择的是美国区域，可以根据需求自己选择，并选择上文操作添加到 ssh 配置，方便之后进行访问。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_ghost_region.png" alt="digital_ocean_ghost_region"></p>
-<p>完成配置选择后，我们选择数量、名称并点击 Create Droplet 即可。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_ghost_create.png" alt="digital_ocean_ghost_create"></p>
-<p>等待 Digital Ocean 准备主机，约几分钟就可以完成。</p>
-<p><img src="https://image.pseudoyu.com/images/digital_ocean_ghost_done_hide.jpg" alt="digital_ocean_ghost_done_hide"></p>
-<h3 id="配置域名解析">配置域名解析</h3>
-<p>因为 Ghost 需要进行 https 配置，且出于方便用户进行访问等考虑，我们需要对新创建的服务器进行 DNS 解析。</p>
-<p>登录 Cloudflare，选择我们刚注册的域名，选择左侧 DNS 标签栏，配置 A 解析（一般需要配置 root 解析与 www 解析），其他域名托管网站操作也大同小异。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_dns_config.jpg" alt="cloudflare_dns_config"></p>
-<h3 id="域名-ssltls-配置可选">域名 SSL/TLS 配置（可选）</h3>
-<p>如果使用 Cloudflare 进行托管，可以选择配置 SSL/TLS 加密模式为完全，可以更加保障安全性。</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_ssl_config.png" alt="cloudflare_ssl_config"></p>
-<h3 id="一键安装-ghost-服务">一键安装 Ghost 服务</h3>
-<p>完成域名解析后，我们可通过 Digital Ocean 控制台或其他终端工具连接到主机，进行一键安装。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_one_key_install.jpg" alt="ghost_one_key_install"></p>
-<p>Enter 后脚本会自动开始安装服务及各项依赖。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_start_install.png" alt="ghost_start_install"></p>
-<p>安装是命令行交互式，我们仅需要输入两个自定义配置：</p>
-<ul>
-<li>Enter your blog URL</li>
-<li>Enter your email(For SSL Certificate)</li>
-</ul>
-<p>这两个地方输入自己的域名与邮箱，等待安装完成即可。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_install_config.jpg" alt="ghost_install_config"></p>
-<h3 id="访问网站">访问网站</h3>
-<p>等待脚本执行完成后，我们就可以访问 Ghost 网站了。</p>
-<ul>
-<li>https://<code>{your domain}</code>/ghost，后台管理界面</li>
-<li>https://<code>{your domain}</code>，网站地址</li>
-</ul>
-<p>第一次登录会需要注册一个管理员帐号，注册完成后登录即可。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_login.png" alt="ghost_login"></p>
-<p>登录后即可看到非常美观的 Ghost 后台管理页面。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_dashboard.png" alt="ghost_dashboard"></p>
-<p>Ghost 提供了非常多可定制化配置选项，可以根据自己网站的需求进行调整。</p>
-<p><img src="https://image.pseudoyu.com/images/ghost_setting.png" alt="ghost_setting"></p>
-<h2 id="总结">总结</h2>
-<p>以上就是我使用 Ghost 官方推荐的 Digital Ocean 托管方式部署自己的 Ghost 网站，Ghost 升级 5.0 后已经能满足大部分网站的需求，且对商业化、数据处理有了更好的支持，对于个人博客和小团队来说都是比较好的选择，希望对大家有所帮助。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://ghost.org">Ghost 官网</a></li>
-<li><a href="https://www.digitalocean.com">Digital Ocean 官网</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">免费的个人博客系统搭建及部署解决方案（Hugo + GitHub Pages + Cusdis）</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">从零开始搭建一个免费的个人博客数据统计系统（umami + Vercel + Heroku）</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>

@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/de/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Tue, 06 Aug 2024 19:00:42 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Aufbau eines Website-Analysesystems mit GoatCounter und Zeabur</title><link>https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>Vorwort In meinem Artikel &amp;ldquo;Was hat sich in meinem Blog 2024 geändert&amp;rdquo; habe ich das von mir aufgebaute Blog-System unter Verwendung von Serverless-Plattformen und einigen Open-Source-Projekten vorgestellt. Ich habe auch diese Reihe von Tutorials begonnen, um den gesamten Prozess der Einrichtung und Bereitstellung zu dokumentieren.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/de/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sun, 18 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Wöchentliche Rückschau #68 - Über das Bloggen und die Farben meines Lebens</title><link>https://www.pseudoyu.com/de/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/de/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 Vorwort Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 05.08.2024 bis zum 11.08.2024.
+Als ich diese Woche in meinem TG-Kanal Revue passieren ließ, entdeckte ich, dass sich die ganze Woche um das Aufsetzen und Schreiben von Blogs drehte. Ich hatte einige Gedanken und den Wunsch, diese zu teilen. Der Großteil des Inhalts wurde bereits veröffentlicht, dies ist also eine Art Zusammenfassung.
+Der ROI des Bloggens Vor ein paar Tagen sah ich auf Twitter einige Diskussionen über das Bloggen und las dann Inneis Artikel &amp;ldquo;Von der Abneigung gegen das Schreiben bis zur Freude am Teilen: Meine Reise mit dem Bloggen&amp;rdquo;.</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="vorwort">Vorwort</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240811.png" alt="weekly_review_20240811"></p>
+<p>Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom <code>05.08.2024</code> bis zum <code>11.08.2024</code>.</p>
+<p>Als ich diese Woche in meinem TG-Kanal Revue passieren ließ, entdeckte ich, dass sich die ganze Woche um das Aufsetzen und Schreiben von Blogs drehte. Ich hatte einige Gedanken und den Wunsch, diese zu teilen. Der Großteil des Inhalts wurde bereits veröffentlicht, dies ist also eine Art Zusammenfassung.</p>
+<h2 id="der-roi-des-bloggens">Der ROI des Bloggens</h2>
+<p><img src="https://image.pseudoyu.com/images/blog_roi_x_discussion.jpg" alt="blog_roi_x_discussion"></p>
+<p>Vor ein paar Tagen sah ich auf Twitter einige Diskussionen über das Bloggen und las dann Inneis Artikel &ldquo;Von der Abneigung gegen das Schreiben bis zur Freude am Teilen: Meine Reise mit dem Bloggen&rdquo;. Das war sehr interessant, also nutzte ich die Gelegenheit, um meine eigene Reise und die Vorteile des Bloggens sorgfältig zu überdenken.</p>
+<p>Meine persönliche Schlussfolgerung ist, dass ich auch glaube, dass Bloggen eine Aktivität mit hohen Kosten und einem langen Zeithorizont ist, aber mit einem sehr hohen ROI.</p>
+<p>Wenn man das Schreiben im weiteren Sinne betrachtet, das von Herzen kommt, habe ich seit der Oberstufe Essays, öffentliche Konten und Blogs geschrieben, insgesamt fast 10 Jahre lang. Der direkte Verdienst aus meinen Schriften beläuft sich wahrscheinlich nur auf etwa 3.000 Yuan an Honoraren für sechs oder sieben Artikel, die es auf die Titelseite von Shao Shu Pai geschafft haben, und eine 5-Dollar-Spende pro Monat von einem Leser, der mich seit über einem Jahr auf GitHub sponsert.</p>
+<p>Von Anfang an hatte ich die Erwartung, dass es, abgesehen vom Gehalt eines Unternehmens, keine leichte Aufgabe ist, einen Benutzer oder Leser dazu zu bringen, auch nur einen Dollar für ein Produkt oder einen Text zu bezahlen. Aber wie Randy in einem Artikel auf Notepal sagte, ist die Bedeutung von &ldquo;jemand ist bereit zu kaufen&rdquo; viel größer als die Höhe des Betrags.</p>
+<p>Das Bloggen hat auch viele potenzielle Bedeutungen und Belohnungen mit sich gebracht. Als ich letztes Jahr zum Vorstellungsgespräch in meiner jetzigen Firma kam, sagte ein Interviewer, der jetzt mein Kollege ist, dass die ganze Gruppe vor dem Gespräch meine wöchentlichen Berichte gelesen hatte und bereits ein vorläufiges Verständnis meiner Persönlichkeit, technischen Fähigkeiten und Lernfähigkeit hatte. In sozialen Medien habe ich durch meine Texte auch tiefere Gespräche und sogar Zusammenarbeit mit vielen Menschen erreicht, die ich sehr bewundere. Bei vielen Offline-Veranstaltungen höre ich nach einer kurzen Selbstvorstellung oft den Satz &ldquo;Oh, ich habe deine wöchentlichen Berichte gelesen, ich mag sie sehr&rdquo;.</p>
+<p>Dies sind alles Überraschungen, die ich nicht beabsichtigt hatte, aber durch langes Durchhalten gewonnen habe.</p>
+<p>Ob es nun um das Bloggen oder andere Formen des kreativen Schaffens geht, es scheint einen ähnlichen Weg zu geben. Am Anfang ist man voller Frische und Motivation; allmählich verliert man in der langen Phase das Selbstvertrauen, und wenn man andere gute Artikel oder Werke sieht, empfindet man nicht Schönheit, sondern Druck - &ldquo;Warum kann ich das nicht schreiben?&rdquo;; langsam setzt man sich und kehrt zu sich selbst zurück, wird ungezwungen, glücklich und genießt den Prozess.</p>
+<h2 id="die-farben-meines-lebens">Die Farben meines Lebens</h2>
+<p><img src="https://image.pseudoyu.com/images/colored_camera.jpeg" alt="colored_camera"></p>
+<p>Ich erinnere mich, dass ich zu Beginn meiner wöchentlichen Berichte, inspiriert durch einen Roman von Murakami, &ldquo;Wöchentliche Rückschau #09 - Der farblose Yu und sein Pilgerjahr&rdquo; schrieb. Darin schrieb ich:</p>
+<blockquote>
+<p>In der kleinen Gruppe, zu der Tazaki gehörte, enthielten die Namen der anderen vier Personen sowie der späteren engen Freunde zufällig Farbwörter: &ldquo;Rot&rdquo;, &ldquo;Blau&rdquo;, &ldquo;Schwarz&rdquo;, &ldquo;Weiß&rdquo;, &ldquo;Grau&rdquo;, was ihn das Gefühl gab, selbst eine charakterlose Existenz zu sein, verbunden mit einem farblosen Leben.</p>
+<p>Tatsächlich gibt es oft Klagen über den eigenen Namen. In &ldquo;Antwort 1988&rdquo; beschwert sich Deok-sun auch bei ihren Eltern, dass ihr Name keine Besonderheit hat, nicht wie ihre Schwester Paula. Ich hatte auch solche Gedanken, es schien, als wäre mein Name kurz und charakterlos, zudem einer der häufigsten Familiennamen, so dass ich oft in einer Schule auf viele Namensvettern traf, begleitet von der Tatsache, dass ich oft zusätzliche Anstrengungen unternehmen musste, um mehr Erinnerungspunkte zu hinterlassen.</p>
+<p>Obwohl ich mich später mit mir selbst versöhnt habe, schien es mir immer noch, als hätte mein Leben nichts Interessantes mehr zu bieten. Ich bewunderte immer die interessanten Persönlichkeiten und Erfahrungen anderer und dachte oft, selbst wenn ich etwas gut machte, dass ich nur meine Pflicht in einem gewöhnlichen Leben erfüllte oder dass diese Dinge nicht wirklich zu mir gehörten.</p>
+</blockquote>
+<p>So zweifelte ich als gewöhnlicher Mensch oft daran, ob mein &ldquo;alltägliches&rdquo; Leben es wert war, allen präsentiert zu werden, bis ich kürzlich zufällig dieses Video auf Bilibili sah - &ldquo;Was sind schöne Farben? Wie hat sich meine Farbkorrektur nach fünf Jahren Videodreh entwickelt&rdquo;. Es geht um Farbkorrektur, aber ein Satz darin hat mich tief berührt:</p>
+<blockquote>
+<p>Als ich zum ersten Mal die Kamera auf mich selbst richtete, entdeckte ich, dass das Filmen so entspannt sein konnte, ohne Druck. Da erkannte ich, dass ich früher nicht das Bild bewundert hatte, sondern das romantische und leidenschaftliche Leben dahinter. Das ist der Sinn meiner Leidenschaft fürs Tüfteln. Ich möchte, dass du die Welt durch meine Augen siehst, und die schönste Farbe auf meinem Bildschirm ist die Grundfarbe meines Lebens.</p>
+</blockquote>
+<p>Das beschreibt am treffendsten meine Stimmung, wenn ich jetzt meine wöchentlichen Berichte schreibe.</p>
+<h2 id="blog-aufbau-serie">Blog-Aufbau-Serie</h2>
+<p>Die Blog-Aufbau-Serie ist endlich abgeschlossen! Insgesamt sind es 10 Artikel geworden, und ich habe mich selbst in die Reihe der Blog-Dekorateure eingereiht.</p>
+<p>Von Anfang an, als ich kaum wusste, wie man Vercel Deploy benutzt, bis jetzt, wo ich fast alle Serverless-Lösungen auf dem Markt ausprobiert habe, war es eine sehr interessante Erfahrung. Es ist wirklich wunderbar, wenn alles nach den eigenen Vorstellungen funktioniert. Das Aufsetzen eines Blogs und das Bloggen selbst haben definitiv jeweils ihren eigenen Reiz.</p>
+<h2 id="anleitungen-zum-aufsetzen">Anleitungen zum Aufsetzen</h2>
+<h3 id="version-2024">Version 2024</h3>
+<blockquote>
+<p>Im Vergleich zu vor zwei Jahren haben sich der Veröffentlichungsprozess und das Erscheinungsbild kaum verändert, aber die Komponenten und Inhalte sind schon ganz anders.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2024/06/29/what_changed_in_my_blog_2024/">2024 ist da, was hat sich in meinem Blog geändert</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/22/free_commenting_system_using_remark42_and_flyio/">Setze dein kostenloses Blog-Kommentarsystem von Grund auf auf (Remark42 + fly.io)</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">Aufbau eines Website-Statistiksystems mit GoatCounter und Zeabur</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">Setze dein kostenloses Bildspeichersystem von Grund auf auf (Cloudflare R2 + WebP Cloud + PicGo)</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">Verwendung von WebP und Cloudflare WAF zum Hinzufügen von Datenschutz und Urheberrechtsschutz für deinen Bildspeicher</a></li>
+</ul>
+<h3 id="version-2022">Version 2022</h3>
+<blockquote>
+<p>Abgesehen von einigen Änderungen bei den Plattformen, von denen viele keinen kostenlosen Plan mehr anbieten, sind die Prozesse im Grunde immer noch anwendbar.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pseudoyu.com/zh/2022/06/12/why_i_still_write_blog_in_2022/">Es ist 2022, lass uns darüber reden, warum ich immer noch blogge</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">Kostenlose Lösung für den Aufbau und die Bereitstellung eines persönlichen Blogsystems (Hugo + GitHub Pages + Cusdis)</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action, baue dein automatisches Blog-Veröffentlichungssystem</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">Aufbau eines kostenlosen persönlichen Blog-Statistiksystems von Grund auf (umami + Vercel + Heroku)</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">Leichtgewichtige Open-Source-Lösung für ein kostenloses Blog-Kommentarsystem (Cusdis + Railway)</a></li>
+</ul>
+<p>Ich frage mich, was ich beim nächsten Update dieser Serie machen und worüber ich nachdenken werde.</p>
+<h2 id="mehrsprachige-unterstützung">Mehrsprachige Unterstützung</h2>
+<p><img src="https://image.pseudoyu.com/images/en_version_blog.png" alt="en_version_blog"></p>
+<p>Eigentlich hatte mein Blog schon immer eine zweisprachige Funktion (man kann in der Navigationsleiste die ganze Website umschalten / im Artikel direkt auf die entsprechende Sprache klicken), aber ich war immer zu faul, so dass ich einfach das chinesische Dokument kopiert habe. Heute Morgen habe ich mit der Projektfunktion von Claude alle bestehenden Artikel übersetzt.</p>
+<p>Ich habe ein neues Projekt &ldquo;Blog Translation&rdquo; erstellt, eine globale Anweisung eingegeben und dann einfach die Hugo Markdown-Quelldateien hineingeworfen.</p>
+<p>Das verwendete Modell ist Claude 3.5 Sonnet. Um den Kontext zu sparen, habe ich für jeden Artikel eine neue Konversation begonnen und festgestellt, dass ich, nachdem ich über hundertdreißig Artikel übersetzt hatte, immer noch nicht das Usage Limit von Claude Pro erreicht hatte (um 9:40 Uhr wurde ich daran erinnert, dass vor 10 Uhr nur noch 10 Nachrichten übrig waren, danach ist es nie wieder aufgetaucht), was ziemlich großzügig ist.</p>
+<p>Da mein Hauptziel heute die Umwandlung und grobe Überprüfung aller Artikel war und ich den Inhalt später noch manuell überprüfen werde, habe ich einen relativ einfachen Prompt verwendet. Die Verwendbarkeit des Rückgabeformats und die Übersetzungsqualität haben meine Erwartungen jedoch übertroffen.</p>
+<blockquote>
+<p>You will receive a Chinese blog post in Markdown format (.md) using the Hugo template. Translate the content into English, adhering to the following guidelines:</p>
+<ol>
+<li>Use a literary tone for posts in the &ldquo;Idea&rdquo; category; otherwise, employ a professional tone.</li>
+<li>Maintain consistent terminology, especially for structural elements like &ldquo;preface&rdquo; and &ldquo;conclusion&rdquo;.</li>
+<li>Preserve all Markdown formatting and metadata, including Hugo properties, links, audio, images, and other elements.</li>
+<li>Translate only the blog content itself.</li>
+<li>Return the result in Markdown format for easy copying.</li>
+<li>Do not add any introductory statements, explanations, or additional content to the blog.</li>
+<li>Provide only the raw translated Markdown content in your response.</li>
+</ol>
+</blockquote>
+<h2 id="interessante-dinge-und-gegenstände">Interessante Dinge und Gegenstände</h2>
+<h3 id="eingänge">Eingänge</h3>
+<p>Obwohl die meisten interessanten Eingänge automatisch im Telegram-Kanal &ldquo;Yu&rsquo;s Life&rdquo; synchronisiert werden, wähle ich hier noch einige aus. Es fühlt sich mehr wie ein Newsletter an. Außerdem habe ich mit den Telegram-Channel-Nachrichten als Inhaltsquelle einen Mikroblog aufgebaut - &ldquo;daily.pseudoyu.com&rdquo;, der jetzt einfacher zu durchsuchen ist.</p>
+<h4 id="bücher">Bücher</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/26362836/"><strong>Blumen für Algernon</strong></a>, habe es vor langer Zeit gelesen, jetzt lese ich es noch einmal.</li>
+</ul>
+<h4 id="podcasts">Podcasts</h4>
+<ul>
+<li><a href="https://www.listennotes.com/e/7f2efa4ad8394de79591a3ee2da6a5d1">Folge 10 | Der große Heilige vom Blumenfruchtberg spricht über Berufswahl, wie man sich im Verkauf behauptet, Wohnmobilreisen und das neue Leben in Großbritannien</a></li>
+<li><a href="https://www.listennotes.com/e/5e5454656bb146499bef687dcec00e65">Ep 48. Exklusives Interview mit Gao Tian: Um ein guter B-Station-Up-Betreiber zu sein, wurde ich ein Python-Kernentwickler</a></li>
+</ul>
+<h4 id="artikel">Artikel</h4>
+<ul>
+<li><a href="https://innei.in/notes/176">Von der Abneigung gegen das Schreiben bis zur Freude am Teilen: Meine Reise mit dem Bloggen</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">Aufbau eines Website-Statistiksystems mit GoatCounter und Zeabur</a></li>
+<li><a href="https://blog.webp.se/adaptive-resize-zh/">Generierst du immer noch manuell Miniaturbilder für Geräte mit unterschiedlichen Auflösungen? WebP Cloud Services führt die Funktion Adaptive Resize ein</a></li>
+<li><a href="https://atlas.xlog.app/thoughts-of-learning-language">Wochennotiz #4 ｜ Erkenntnisse zum Sprachenlernen</a></li>
+<li><a href="https://lutaonan.com/blog/code-artists/">&ldquo;Code-Künstler&rdquo; werden nicht durch KI ersetzt</a></li>
+</ul>
+<h4 id="videos">Videos</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1uf421B7ow">Ich habe vor der Straßenbahn aus &ldquo;5 Zentimeter pro Sekunde&rdquo; meiner Mitschülerin, in die ich vor zehn Jahren verliebt war, einen Heiratsantrag gemacht</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ipiFeyEfy">Was sind schöne Farben? Wie hat sich meine Farbkorrektur nach fünf Jahren Videodreh entwickelt</a></li>
+<li><a href="https://www.bilibili.com/video/BV1yw4m1r713">Dein nächstes Pokémon muss kein Pokémon sein? - &ldquo;Shin Megami Tensei V: Vengeance&rdquo; [Ich weiß nur, wie man Spiele spielt]</a></li>
+<li><a href="https://www.bilibili.com/video/BV1e4421Z7Qo">vlog #68｜Aufzeichnung des Lernens eines Programmierers nach der Arbeit｜Alltag mit Codewriting und Aufladen｜&quot;Blumen für Algernon&quot; ist sehr berührend｜Lese gerade &ldquo;Die Briefe von Warren Buffett an die Aktionäre&quot;｜Tägliches Englischlernen｜TED｜Schlaflosigkeit zu Hause 😪</a></li>
+</ul>
+<h4 id="filme">Filme</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/1293749/"><strong>Ist das Leben nicht schön</strong></a>, seit langem wieder ein Film, bei dem ich bis zu Tränen gerührt war. Ähnlich wie &ldquo;Und täglich grüßt das Murmeltier&rdquo; gewinnt man nach dem Anschauen etwas Begeisterung für das Leben und Gedanken über die Beziehungen in der Umgebung zurück. Es braucht keine besonders ausgefeilten Bilder oder Kulissen, die Blicke der Schauspieler scheinen alle hell zu sein, voller Geist, das ist wohl auch der Charme alter Filme.</li>
+</ul>
+]]></content:encoded></item><item><title>Aufbau eines Website-Analysesystems mit GoatCounter und Zeabur</title><link>https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/de/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>Vorwort In meinem Artikel &amp;ldquo;Was hat sich in meinem Blog 2024 geändert&amp;rdquo; habe ich das von mir aufgebaute Blog-System unter Verwendung von Serverless-Plattformen und einigen Open-Source-Projekten vorgestellt. Ich habe auch diese Reihe von Tutorials begonnen, um den gesamten Prozess der Einrichtung und Bereitstellung zu dokumentieren.
 Dieser Artikel konzentriert sich auf die Lösung des Analysesystems.
 Lösung für das Analysesystem Im Vergleich zum Blog selbst und dem Kommentarsystem hatte ich lange Zeit kein Augenmerk auf ein Analysesystem gelegt (hauptsächlich, weil es damals nicht viele Leser gab).</description><content:encoded><![CDATA[<h2 id="vorwort">Vorwort</h2>
 <p>In meinem Artikel &ldquo;<a href="https://www.pseudoyu.com/de/2024/06/29/what_changed_in_my_blog_2024/">Was hat sich in meinem Blog 2024 geändert</a>&rdquo; habe ich das von mir aufgebaute Blog-System unter Verwendung von Serverless-Plattformen und einigen Open-Source-Projekten vorgestellt. Ich habe auch diese Reihe von Tutorials begonnen, um den gesamten Prozess der Einrichtung und Bereitstellung zu dokumentieren.</p>
@@ -9938,99 +10049,6 @@ Dieser Artikel konzentriert sich auf die Lösung für das Blog-Kommentarsystem. 
 <li><a href="https://mover.io/">mover.io Offizielle Website</a></li>
 <li><a href="https://its.hku.hk/kb/ways-on-reducing-storage-on-google-drive-google-photos-and-gmail/#b-transfer-google-drive">Google Drive übertragen
 (HKU Connect Google Drive &gt; HKU Microsoft OneDrive)</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>Aufbau eines kostenlosen persönlichen Blog-Analysesystems von Grund auf (umami + Vercel + Heroku)</title><link>https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/</link><pubDate>Sat, 21 May 2022 16:56:47 +0800</pubDate><guid>https://www.pseudoyu.com/de/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/</guid><description>&amp;#39;Here After Us - Mayday&amp;#39; Vorwort Zuvor hatte ich einen Artikel mit dem Titel &amp;ldquo;Kostenlose Einrichtung und Bereitstellungslösung für persönliche Blogsysteme (Hugo + GitHub Pages + Cusdis)&amp;rdquo; verfasst, in dem ich mein mit Serverless und einigen Open-Source-Projekten erstelltes Blogsystem detailliert beschrieb. Ich begann auch eine Serie, um den Einrichtungsprozess zu dokumentieren.
-Vor einigen Tagen stieß ich auf einen Artikel von Reorx mit dem Titel &amp;ldquo;Deploy umami for Personal Website Analytics&amp;rdquo;.</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>&#39;Here After Us - Mayday&#39;</figcaption></i>
-</figure>
-<h2 id="vorwort">Vorwort</h2>
-<p><img src="https://image.pseudoyu.com/images/umami_dashboard_white.png" alt="umami_dashboard_white"></p>
-<p>Zuvor hatte ich einen Artikel mit dem Titel &ldquo;Kostenlose Einrichtung und Bereitstellungslösung für persönliche Blogsysteme (Hugo + GitHub Pages + Cusdis)&rdquo; verfasst, in dem ich mein mit Serverless und einigen Open-Source-Projekten erstelltes Blogsystem detailliert beschrieb. Ich begann auch eine Serie, um den Einrichtungsprozess zu dokumentieren.</p>
-<p>Vor einigen Tagen stieß ich auf einen Artikel von <a href="https://reorx.com">Reorx</a> mit dem Titel &ldquo;Deploy umami for Personal Website Analytics&rdquo;. Er stellte das <a href="https://umami.is">umami</a> Projekt vor und demonstrierte dessen serverlose Bereitstellung mit <a href="https://railway.app">Railway</a>.</p>
-<p>Da ich jedoch zuvor den kostenlosen Postgres-Datenbankdienst von <a href="https://www.heroku.com/">Heroku</a> genutzt und mit <a href="http://vercel.com/">Vercel</a> bei der Einrichtung von <a href="https://cusdis.com">Cusdis</a> bereitgestellt hatte, wollte ich diese Plattformen auch für umami weiterhin nutzen, um die Einrichtungs- und Wartungskosten zu reduzieren.</p>
-<p>Der folgende Text wird den spezifischen Einrichtungs- und Bereitstellungsprozess dokumentieren. Dank der offiziellen Ein-Klick-Bereitstellungsmethode verlief der gesamte Einrichtungsprozess sehr reibungslos.</p>
-<p><strong>[2024-06-30 Aktualisierung]</strong></p>
-<p>Später, als Heroku seinen kostenlosen Plan einstellte, können Sie, wenn Sie es weiterhin vollständig kostenlos nutzen möchten, Vercel/Netlify/Zeabur für die kostenlose Bereitstellung des Hauptprojekts + Supabase für die Bereitstellung von PostgreSQL-Datenbankinstanzen verwenden. Übergeben Sie den Link als Umgebungsvariable an den Umami-Dienst. Der Rest des Prozesses bleibt anwendbar.</p>
-<h2 id="einrichtungs--und-bereitstellungsanleitung">Einrichtungs- und Bereitstellungsanleitung</h2>
-<h3 id="erstellung-einer-postgres-datenbank-mit-heroku">Erstellung einer Postgres-Datenbank mit Heroku</h3>
-<h4 id="erstellung-der-postgres-datenbank">Erstellung der Postgres-Datenbank</h4>
-<p>Registrieren Sie sich zunächst für ein Heroku-Konto. Nach erfolgreicher Anmeldung klicken Sie auf den Button in der oberen rechten Ecke, um eine neue Anwendung zu erstellen.</p>
-<p><img src="https://image.pseudoyu.com/images/cretae_app_in_heroku_1.png" alt="cretae_app_in_heroku_1"></p>
-<p>Geben Sie den Instanznamen ein und wählen Sie die Region nach Belieben. Ich habe die Vereinigten Staaten ausgewählt. Klicken Sie auf Erstellen.</p>
-<p><img src="https://image.pseudoyu.com/images/cretae_app_in_heroku_2.png" alt="cretae_app_in_heroku_2"></p>
-<p>Suchen Sie nach der Erstellung im Abschnitt Adds-on des Resources-Tabs nach der Postgres-Datenbank und wählen Sie diese aus.</p>
-<p><img src="https://image.pseudoyu.com/images/add_heroku_postgres.png" alt="add_heroku_postgres"></p>
-<p>Wählen Sie den kostenlosen Plan. Die Postgres-Datenbank in Heroku ist kostenlos und kann kontinuierlich genutzt werden, wodurch Einrichtungs- und Wartungskosten entfallen.</p>
-<p><img src="https://image.pseudoyu.com/images/heroku_postgres_plan.png" alt="heroku_postgres_plan"></p>
-<p>Überprüfen Sie nach der Erstellung die <code>DATABASE_URL</code> in den Einstellungen, die später für die Bereitstellung verwendet wird.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_data_url.jpg" alt="postgres_data_url"></p>
-<p>Klicken Sie auf das neu hinzugefügte Postgres-Add-on, um mit den Einstellungen fortzufahren.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_addon_details.png" alt="postgres_addon_details"></p>
-<p>Wählen Sie in den Einstellungen &ldquo;View Credentials&rdquo; und notieren Sie die Konfigurationsparameter.</p>
-<p><img src="https://image.pseudoyu.com/images/heroku_credentials.png" alt="heroku_credentials"></p>
-<p><img src="https://image.pseudoyu.com/images/postgres_settings.jpg" alt="postgres_settings"></p>
-<h4 id="initialisierung-der-postgres-datenbank">Initialisierung der Postgres-Datenbank</h4>
-<p>Da eine Datenbankinitialisierung erforderlich ist, habe ich das Datenbankverwaltungstool DataGrip für die Verbindung verwendet, was recht praktisch ist. Sie können auch über die Heroku CLI verbinden und konfigurieren.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_config.jpg" alt="postgres_config"></p>
-<p>Umami muss mit dem offiziellen <a href="https://github.com/mikecao/umami/blob/master/sql/schema.postgresql.sql">umami/sql/schema.postgresql.sql</a> Skript initialisiert werden.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_init_script.png" alt="postgres_init_script"></p>
-<p>Nach der Ausführung wird die Datenbank fünf Tabellen mit initialisierten Daten enthalten, und Sie können mit den nachfolgenden Bereitstellungsarbeiten fortfahren.</p>
-<h3 id="ein-klick-bereitstellung-des-umami-dienstes-mit-vercel">Ein-Klick-Bereitstellung des umami-Dienstes mit Vercel</h3>
-<h4 id="bereitstellung-des-umami-dienstes">Bereitstellung des umami-Dienstes</h4>
-<p>Nach der Erstellung der Datenbankinstanz können Sie den umami-Dienst mit einem Klick über Vercel bereitstellen.</p>
-<p>Besuchen Sie das <a href="https://umami.is/docs/running-on-vercel">Running on Vercel</a> Modul in der <a href="https://umami.is">offiziellen umami-Dokumentation</a> für Bedienungsanweisungen und das Ein-Klick-Bereitstellungsskript.</p>
-<p><img src="https://image.pseudoyu.com/images/running_on_vercel.png" alt="running_on_vercel"></p>
-<p>Nach dem Klick auf den Ein-Klick-Bereitstellungsbutton werden Sie zur Ein-Klick-Bereitstellungsseite von Vercel weitergeleitet, um ein Github-Repository für umami zu erstellen.</p>
-<p><img src="https://image.pseudoyu.com/images/vercel_create_umami_repo.png" alt="vercel_create_umami_repo"></p>
-<p>Als Nächstes müssen Sie den <code>DATABASE_URL</code>-Parameteradresse eingeben, die Sie bei der Bereitstellung der Heroku Postgres-Instanz zuvor notiert haben, und Sie müssen eine benutzerdefinierte Zeichenfolge <code>HASH_SLAT</code> eingeben.</p>
-<p><img src="https://image.pseudoyu.com/images/vercel_config_umami.png" alt="vercel_config_umami"></p>
-<p>Klicken Sie auf Bereitstellen, um die Bereitstellung zu starten. Sie wird in wenigen Minuten abgeschlossen sein.</p>
-<p><img src="https://image.pseudoyu.com/images/vercel_deploy.png" alt="vercel_deploy"></p>
-<p><img src="https://image.pseudoyu.com/images/vecel_deploy_done.png" alt="vecel_deploy_done"></p>
-<h4 id="zugriff-auf-den-umami-dienst">Zugriff auf den umami-Dienst</h4>
-<p>Nach der Bereitstellung klicken Sie auf Dashboard oder die zugewiesene Vercel-Domain, um auf den Dienst zuzugreifen. Sie sehen die umami-Anmeldeoberfläche.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_login.png" alt="umami_login"></p>
-<p>Für die erste Anmeldung geben Sie den Standardbenutzernamen <code>admin</code> und das Standardpasswort <code>umami</code> ein. Nach erfolgreicher Anmeldung werden Sie zur umami-Verwaltungsseite weitergeleitet. Sie können auf das Avatar in der oberen rechten Ecke klicken, um Ihr Passwort zu ändern.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_change_password.png" alt="umami_change_password"></p>
-<h4 id="konfiguration-der-persönlichen-website-für-den-umami-dienst">Konfiguration der persönlichen Website für den umami-Dienst</h4>
-<p>Nachdem Sie die grundlegende Kontokonfiguration abgeschlossen haben, klicken Sie in der Seitenleiste auf den Tab Websites und dann auf Website hinzufügen.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_add_website_1.png" alt="umami_add_website_1"></p>
-<p>Füllen Sie die grundlegenden Website-Informationen aus. Wenn Sie den Share-Link aktivieren, wird eine öffentlich zugängliche URL generiert. Ich habe sie als Lesezeichen auf dem Startbildschirm meines iPads hinzugefügt, was auch hervorragend als Daten-Dashboard funktioniert.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_add_website_2.png" alt="umami_add_website_2"></p>
-<h4 id="konfiguration-des-umami-skripts-für-die-persönliche-blog-website">Konfiguration des umami-Skripts für die persönliche Blog-Website</h4>
-<p>Nach der Erstellung der Website erhalten Sie das umami-Skript.</p>
-<p><img src="https://image.pseudoyu.com/images/get_umami_script.jpg" alt="get_umami_script"></p>
-<p>Fügen Sie nach dem Erhalt das umami-Skript zu Ihrer persönlichen Website hinzu. Ich verwende den statischen Blog Hugo und füge es innerhalb des <code>&lt;head&gt;</code>-Tags im Theme hinzu.</p>
-<p><img src="https://image.pseudoyu.com/images/set_umami_script.jpg" alt="set_umami_script"></p>
-<p>Nach der Konfiguration und Bereitstellung können Sie mit der Verfolgung der Website-Daten beginnen.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_dashboard_white.png" alt="umami_dashboard_white"></p>
-<h4 id="konfiguration-eines-benutzerdefinierten-skriptnamens">Konfiguration eines benutzerdefinierten Skriptnamens</h4>
-<p>Die Verwendung des offiziellen Skriptnamens <code>umami.js</code> könnte von einigen Filterregeln blockiert werden. Daher können wir den Skriptnamen anpassen, um eine genauere Verfolgung der Website-Daten zu erreichen.</p>
-<p>Die offizielle Seite bietet auch eine bequeme Änderungsmethode. Sie können die Umgebungsvariable <code>TRACKER_SCRIPT_NAME</code> im bereits in Vercel bereitgestellten umami-Dienst hinzufügen und sie auf einen benutzerdefinierten Namen konfigurieren.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_script_environment_varible.png" alt="umami_script_environment_varible"></p>
-<p>Stellen Sie nach der Konfiguration erneut bereit und ändern Sie dann den Skriptnamen in Ihrem persönlichen Website-Skript.</p>
-<p><img src="https://image.pseudoyu.com/images/change_umami_script.jpg" alt="change_umami_script"></p>
-<h4 id="konfiguration-einer-benutzerdefinierten-domain">Konfiguration einer benutzerdefinierten Domain</h4>
-<p>Wenn Sie die von Vercel bereitgestellte <code>vercel.app</code>-Domain nicht verwenden möchten, können Sie in Vercel eine benutzerdefinierte Domain hinzufügen. Folgen Sie dem offiziellen Vercel-Leitfaden, um <code>CNAME</code> usw. für Ihren Domain-Anbieter zu konfigurieren.</p>
-<p><img src="https://image.pseudoyu.com/images/set_custom_domain.png" alt="set_custom_domain"></p>
-<p>Ich verwende beispielsweise eine bei <a href="https://www.cloudflare.com">Cloudflare</a> gehostete Domain, daher muss ich zuerst eine Domain-Auflösung hinzufügen.</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_canme_config.png" alt="cloudflare_canme_config"></p>
-<p>Gemäß den offiziellen Anweisungen muss Cloudflare auch eine Seitenregel hinzufügen. Nach der Konfiguration können Sie die benutzerdefinierte Domain-Konfiguration abschließen.</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_page_rule.png" alt="cloudflare_page_rule"></p>
-<h2 id="fazit">Fazit</h2>
-<p>Dies ist der vollständige Prozess zum Hinzufügen des umami-Website-Statistikdienstes zu unserer Website. Nach der Konfiguration erfordert er keine anschließende Wartung und ermöglicht eine bequeme Verfolgung der Website-Daten über das Dashboard. Dies ist eines meiner Blog-Einrichtungs- und Bereitstellungs-Serien-Tutorials. Bitte bleiben Sie dran, und ich hoffe, es kann allen als Referenz dienen.</p>
-<h2 id="referenzen">Referenzen</h2>
-<blockquote>
-<ol>
-<li><a href="https://umami.is">umami</a></li>
-<li><a href="https://reorx.com/blog/deploy-umami-for-personal-website/">Deploy umami for Personal Website Analytics</a></li>
-<li><a href="http://vercel.com">Vercel Official Website</a></li>
-<li><a href="https://www.heroku.com">Heroku Official Website</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>

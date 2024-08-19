@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 06 Aug 2024 19:00:42 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up a Website Analytics System with GoatCounter and Zeabur</title><link>https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>Preface In my article &amp;ldquo;What Changed in My Blog in 2024&amp;rdquo;, I introduced the blog system I built using Serverless platforms and some open-source projects. I also started this series of tutorials to document the entire process of setup and deployment.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/en/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 18 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Review #68 - On Blogging and the Colors of My Life</title><link>https://www.pseudoyu.com/en/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 Preface This piece is a record and reflection of my life from 2024-08-05 to 2024-08-11.
+Looking back at this week through my TG Channel, I realized that the entire week revolved around setting up and writing blogs. I&amp;rsquo;ve had some thoughts and the desire to share, most of which I&amp;rsquo;ve already posted. This is more of a compilation.
+The ROI of Blogging A few days ago, I saw some discussions about blogging on Twitter, and then I read Innei&amp;rsquo;s article &amp;ldquo;From Disliking Writing to Enjoying Sharing: My Journey with Blogging&amp;rdquo;.</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="preface">Preface</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240811.png" alt="weekly_review_20240811"></p>
+<p>This piece is a record and reflection of my life from <code>2024-08-05</code> to <code>2024-08-11</code>.</p>
+<p>Looking back at this week through my TG Channel, I realized that the entire week revolved around setting up and writing blogs. I&rsquo;ve had some thoughts and the desire to share, most of which I&rsquo;ve already posted. This is more of a compilation.</p>
+<h2 id="the-roi-of-blogging">The ROI of Blogging</h2>
+<p><img src="https://image.pseudoyu.com/images/blog_roi_x_discussion.jpg" alt="blog_roi_x_discussion"></p>
+<p>A few days ago, I saw some discussions about blogging on Twitter, and then I read Innei&rsquo;s article &ldquo;From Disliking Writing to Enjoying Sharing: My Journey with Blogging&rdquo;. It was quite interesting, so I took the opportunity to carefully review my entire blogging journey and gains.</p>
+<p>My personal conclusion is that I also feel blogging is a high-cost, long-term endeavor, but with a very high ROI.</p>
+<p>If we consider writing from the heart in a broad sense, I&rsquo;ve been writing essays, public accounts, and blogs since high school, continuing for nearly 10 years. The direct income I&rsquo;ve earned from my writing is probably only about 3000 yuan in royalties from six or seven articles that made it to the homepage of Sspai, and a $5 monthly GitHub Sponsor donation from a reader who has persisted for over a year.</p>
+<p>I had psychological expectations from the start. Apart from company salaries, whether it&rsquo;s creating products or writing, it&rsquo;s not easy to get users/readers to pay even a dollar for you. But as Randy said in an article on Notepal, the significance of &ldquo;someone willing to pay&rdquo; is far greater than the size of the amount.</p>
+<p>Blogging has also brought many potential meanings and returns. When I interviewed for my current company last year, a colleague who was an interviewer at the time said that the entire team had read my weekly reviews before the interview and already had a preliminary understanding of my personality, technical skills, and learning ability. On social media, I&rsquo;ve also had more and deeper exchanges and even collaborations with many people I greatly admire through my writing. At many offline events, after a simple self-introduction, I often hear &ldquo;Oh, I&rsquo;ve read your weekly reviews, I really like them.&rdquo;</p>
+<p>These are surprises harvested in long-term persistence, not for this purpose.</p>
+<p>Whether it&rsquo;s blogging or other forms of creation, they all seem to follow a similar path. Initially fresh and motivated; gradually losing confidence in the long cycle, seeing other good articles/works and feeling pressure rather than beauty - &ldquo;Why can&rsquo;t I write like that&rdquo;; slowly settling back to oneself, being free, happy, and enjoying it.</p>
+<h2 id="the-colors-of-my-life">The Colors of My Life</h2>
+<p><img src="https://image.pseudoyu.com/images/colored_camera.jpeg" alt="colored_camera"></p>
+<p>I remember when I first started writing weekly reviews, I wrote &ldquo;Weekly Review #09 - The Colorless Yu and His Year of Pilgrimage&rdquo; after reading a Murakami novel. In it, I wrote:</p>
+<blockquote>
+<p>In the small group that Tsukuru belonged to, the names of the other four members and the close friend he later met all coincidentally included color words: &ldquo;red&rdquo;, &ldquo;blue&rdquo;, &ldquo;black&rdquo;, &ldquo;white&rdquo;, &ldquo;gray&rdquo;, making him feel like he was a characterless existence, along with a colorless life.</p>
+<p>Actually, complaints about one&rsquo;s own name are common. In &ldquo;Reply 1988&rdquo;, Deok-sun also complained to her parents that her name had no character, unlike her sister Bora. I once had such thoughts too, feeling that my name was short and unremarkable, and being one of the common surnames, I often encountered many people with the same name in a school. Accompanying this was the feeling that I often needed to make extra effort to leave more memorable impressions.</p>
+<p>Although I later reconciled with myself, I still often felt that my life was incompatible with being interesting. I always envied others&rsquo; interesting personalities and experiences, and even when I did well, I only felt like I was fulfilling the duties of my ordinary life or that these achievements didn&rsquo;t belong to me.</p>
+</blockquote>
+<p>Just like that, ordinary me often hesitates, wondering if my &ldquo;diary-like&rdquo; life is worth presenting to everyone, until recently when I happened to see a video on Bilibili - &ldquo;What is Good Color? After Five Years of Filming, What Has My Color Grading Become&rdquo;. It&rsquo;s about color grading, but a sentence in it deeply moved me:</p>
+<blockquote>
+<p>When I first turned the camera on myself, I discovered that filming could be so comfortable, without pressure. It was then that I realized what I had envied before was not that image, but the romantic and passionate life behind it. This is the meaning of my love for tinkering, I want to show you the world through my eyes, and the most beautiful color in my screen is the background color of my life.</p>
+</blockquote>
+<p>This is the most apt description of my current state of mind when writing weekly reviews.</p>
+<h2 id="blog-setup-series">Blog Setup Series</h2>
+<p>The blog setup series is finally complete! Altogether, there are as many as 10 articles, and I can consider myself to have entered the blog decoration arena.</p>
+<p>From not knowing how to use Vercel deployment at the beginning, to now having played with almost all the Serverless options on the market, it&rsquo;s been a very interesting experience. The feeling of everything working according to your ideas is truly wonderful, and setting up a blog and writing a blog indeed each have their own joys.</p>
+<h2 id="setup-tutorials">Setup Tutorials</h2>
+<h3 id="2024-version">2024 Version</h3>
+<blockquote>
+<p>Compared to two years ago, the publishing process and appearance have hardly changed, but the components and content are already quite different.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/">What Changed in My Blog in 2024</a></li>
+<li><a href="https://www.pseudoyu.com/en/2024/07/22/free_commenting_system_using_remark42_and_flyio/">Build Your Free Blog Comment System from Scratch (Remark42 + fly.io)</a></li>
+<li><a href="https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">Set Up a Website Statistics System Using GoatCounter and Zeabur</a></li>
+<li><a href="https://www.pseudoyu.com/en/2024/06/30/free_image_hosting_system_using_r2_webp_cloud_and_picgo/">Build Your Free Image Hosting System from Scratch (Cloudflare R2 + WebP Cloud + PicGo)</a></li>
+<li><a href="https://www.pseudoyu.com/en/2024/07/02/protect_your_image_using_webp_and_cloudflare_waf/">Add Privacy and Copyright Protection to Your Image Hosting Using WebP and Cloudflare WAF</a></li>
+</ul>
+<h3 id="2022-version">2022 Version</h3>
+<blockquote>
+<p>Except for some changes in platforms, many no longer provide Free Plans, but the process is still basically applicable.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pseudoyu.com/en/2022/06/12/why_i_still_write_blog_in_2022/">It&rsquo;s 2022, Let&rsquo;s Talk About Why I&rsquo;m Still Blogging</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/03/24/free_blog_deploy_using_hugo_and_cusdis/">Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action, Build Your Blog Automatic Publishing System</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/">Build a Free Personal Blog Data Analysis System from Scratch (umami + Vercel + Heroku)</a></li>
+<li><a href="https://www.pseudoyu.com/en/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">Lightweight Open Source Free Blog Comment System Solution (Cusdis + Railway)</a></li>
+</ul>
+<p>I wonder what I&rsquo;ll be doing and thinking about the next time I update this series.</p>
+<h2 id="multilingual-support">Multilingual Support</h2>
+<p><img src="https://image.pseudoyu.com/images/en_version_blog.png" alt="en_version_blog"></p>
+<p>Actually, my blog has always had bilingual functionality options (you can switch the entire site in the navigation bar / directly click the corresponding language to switch in articles), but I&rsquo;ve always been lazy so I just copied the Chinese documents over. This morning, I translated all existing articles through Claude&rsquo;s Projects feature.</p>
+<p>I created a new Blog Translation Project, input a global Instruction, and then just threw in the Hugo markdown source files.</p>
+<p>The model used is Claude 3.5 Sonnet. To save context, I opened a new conversation for each article. I found that after translating over 130 articles, it still hadn&rsquo;t triggered Claude Pro&rsquo;s usage limit (at 9:40 am it reminded me that only 10 messages were left before 10 am, and it never appeared again after that), which seems quite conscientious.</p>
+<p>Because my main goal today was to complete the conversion and rough proofreading of all articles, and I will still manually proofread the content later, I used a relatively simple Prompt. However, the usability of the returned format and the quality of the translation were beyond imagination.</p>
+<blockquote>
+<p>You will receive a Chinese blog post in Markdown format (.md) using the Hugo template. Translate the content into English, adhering to the following guidelines:</p>
+<ol>
+<li>Use a literary tone for posts in the &ldquo;Idea&rdquo; category; otherwise, employ a professional tone.</li>
+<li>Maintain consistent terminology, especially for structural elements like &ldquo;preface&rdquo; and &ldquo;conclusion&rdquo;.</li>
+<li>Preserve all Markdown formatting and metadata, including Hugo properties, links, audio, images, and other elements.</li>
+<li>Translate only the blog content itself.</li>
+<li>Return the result in Markdown format for easy copying.</li>
+<li>Do not add any introductory statements, explanations, or additional content to the blog.</li>
+<li>Provide only the raw translated Markdown content in your response.</li>
+</ol>
+</blockquote>
+<h2 id="interesting-things-and-objects">Interesting Things and Objects</h2>
+<h3 id="input">Input</h3>
+<p>Although most interesting inputs are automatically synchronized in the &ldquo;Yu&rsquo;s Life&rdquo; Telegram channel, I&rsquo;ll still select some to list here, which feels more like a newsletter. And I&rsquo;ve built a microblog - &ldquo;daily.pseudoyu.com&rdquo; using Telegram Channel messages as content source, which is more convenient to browse.</p>
+<h4 id="books">Books</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/26362836/"><strong>Flowers for Algernon</strong></a>, read it a long time ago, revisiting it now.</li>
+</ul>
+<h4 id="podcasts">Podcasts</h4>
+<ul>
+<li><a href="https://www.listennotes.com/e/7f2efa4ad8394de79591a3ee2da6a5d1">Episode 10 | Huaguoshan Dasheng talks about career choices, how to establish oneself through sales, RV trips, and new life in the UK</a></li>
+<li><a href="https://www.listennotes.com/e/5e5454656bb146499bef687dcec00e65">Ep 48. Special interview with Gao Tian: To be a good Bilibili up-loader, I became a Python core developer</a></li>
+</ul>
+<h4 id="articles">Articles</h4>
+<ul>
+<li><a href="https://innei.in/notes/176">From Disliking Writing to Enjoying Sharing: My Journey with Blogging</a></li>
+<li><a href="https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/">Set Up a Website Statistics System Using GoatCounter and Zeabur</a></li>
+<li><a href="https://blog.webp.se/adaptive-resize-zh/">Still Manually Generating Thumbnails for Different Resolution Devices? WebP Cloud Services Launches Adaptive Resize Feature</a></li>
+<li><a href="https://atlas.xlog.app/thoughts-of-learning-language">Weekly #4 ｜ Thoughts on Language Learning</a></li>
+<li><a href="https://lutaonan.com/blog/code-artists/">&ldquo;Code Artists&rdquo; Won&rsquo;t Be Replaced by AI</a></li>
+</ul>
+<h4 id="videos">Videos</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1uf421B7ow">I Proposed to My Classmate I Liked Ten Years Ago in Front of the Train from &ldquo;5 Centimeters Per Second&rdquo;</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ipiFeyEfy">What is Good Color? After Five Years of Filming, What Has My Color Grading Become</a></li>
+<li><a href="https://www.bilibili.com/video/BV1yw4m1r713">Your Next Pokémon, Why Must It Be Pokémon? —&ldquo;Shin Megami Tensei V: Vengeance&rdquo; [Just Playing Games]</a></li>
+<li><a href="https://www.bilibili.com/video/BV1e4421Z7Qo">vlog #68｜A Programmer&rsquo;s After-Work Study Record｜Daily Life of Coding and Recharging｜&quot;Flowers for Algernon&quot; is Heartbreaking｜Reading &ldquo;The Essays of Warren Buffett&quot;｜Daily English Learning｜TED｜Insomnia at Home😪</a></li>
+</ul>
+<h4 id="movies">Movies</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/1293749/"><strong>It&rsquo;s a Wonderful Life</strong></a>, a film that made me cry after a long time. Like &ldquo;Groundhog Day&rdquo;, it makes you regain some enthusiasm for life and reflection on surrounding relationships after watching; it doesn&rsquo;t need very exquisite images or settings, the actors&rsquo; eyes seem to be bright, showing spirit, which is probably the charm of old movies.</li>
+</ul>
+]]></content:encoded></item><item><title>Setting up a Website Analytics System with GoatCounter and Zeabur</title><link>https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</link><pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate><guid>https://www.pseudoyu.com/en/2024/08/06/deploy_web_statistics_system_using_goatcounter_and_zeabur/</guid><description>Preface In my article &amp;ldquo;What Changed in My Blog in 2024&amp;rdquo;, I introduced the blog system I built using Serverless platforms and some open-source projects. I also started this series of tutorials to document the entire process of setup and deployment.
 This article focuses on the analytics system solution.
 Analytics System Solution Compared to the blog itself and the commenting system, I hadn&amp;rsquo;t paid much attention to an analytics system for a long time (mainly because there weren&amp;rsquo;t many readers back then).</description><content:encoded><![CDATA[<h2 id="preface">Preface</h2>
 <p>In my article &ldquo;<a href="https://www.pseudoyu.com/en/2024/06/29/what_changed_in_my_blog_2024/">What Changed in My Blog in 2024</a>&rdquo;, I introduced the blog system I built using Serverless platforms and some open-source projects. I also started this series of tutorials to document the entire process of setup and deployment.</p>
@@ -6926,7 +7037,6 @@ This week, there were finally some changes at work. I entered another project th
 <p>People seem to have a tendency to form groups at various stages, and once dependent on a group, one inevitably suffers pressure and setbacks from relationships. In college, I once had such a group of four, two boys and two girls. We were inseparable, and when the counselor or classmates found someone missing, they would naturally ask the others.</p>
 <p>But after a while, I felt obvious pressure. The other three seemed to be more prominent figures, always the shining ones in the crowd, while I seemed to always lack presence. Yet internally, I didn&rsquo;t want to be the redundant one who was part of it out of habit. So I started deliberately avoiding and escaping, but of course, my clumsy performance couldn&rsquo;t hide it, and it was quickly noticed.</p>
 <p>I can say I was luckier than Tsukuru Tazaki. I wasn&rsquo;t abandoned, and there were no misunderstandings. The other three cornered me at the entrance of the boys&rsquo; dormitory one night, asking me to reveal my inner conflicts, and then resolved them one by one. Regarding the response to personality and presence, I might still think it was just comfort, but I felt that I was needed in this relationship and pattern, that my emotions were taken seriously by them, that our relationship was cherished. Even though we later had few opportunities for joint action due to cities and many reasons, we still maintain good contact, and they&rsquo;re the first people I think of when visiting any member&rsquo;s city.</p>
-<p>I&rsquo;m currently in another three-person relationship, two close friends from junior high school. By definition, they might not count as childhood friends, but we&rsquo;re closer than that. Because we&rsquo;re separated in three places, I often think about the foundation, direction, and balance of this relationship. Although there will be some changes gradually, and there are many parts we need to face in the future, I&rsquo;m gradually willing to work hard for it and explore more.</p>
 <p>&ldquo;<a href="https://book.douban.com/subject/26425831/">Stoner</a>&rdquo; actually also describes a lot about the ordinariness of life and the perfection of personality. However, the topic is quite broad, and I might talk about it later along with &ldquo;<a href="https://movie.douban.com/subject/33477335/">Normal People</a>&rdquo;.</p>
 <h2 id="kindness-and-charity">Kindness and Charity</h2>
 <p>Last week, I saw a tweet from <a href="https://twitter.com/Manjusaka_Lee">Manjusaka</a>:</p>
@@ -10018,99 +10128,6 @@ This article focuses on the blog comment system solution. The earliest comment s
 <li><a href="https://mover.io/">mover.io Official Website</a></li>
 <li><a href="https://its.hku.hk/kb/ways-on-reducing-storage-on-google-drive-google-photos-and-gmail/#b-transfer-google-drive">Transfer Google Drive
 (HKU Connect Google Drive &gt; HKU Microsoft OneDrive)</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>Building a Free Personal Blog Analytics System from Scratch (umami + Vercel + Heroku)</title><link>https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/</link><pubDate>Sat, 21 May 2022 16:56:47 +0800</pubDate><guid>https://www.pseudoyu.com/en/2022/05/21/free_blog_analysis_using_umami_vercel_and_heroku/</guid><description>&amp;#39;Here After Us - Mayday&amp;#39; Preface Previously, I wrote an article titled &amp;ldquo;Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)&amp;rdquo;, detailing my blog system built using Serverless and some open-source projects. I also started a series to document the setup process.
-A few days ago, I came across an article by Reorx titled &amp;ldquo;Deploy umami for Personal Website Analytics&amp;rdquo;. He introduced the umami project and demonstrated its serverless deployment using Railway.</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>&#39;Here After Us - Mayday&#39;</figcaption></i>
-</figure>
-<h2 id="preface">Preface</h2>
-<p><img src="https://image.pseudoyu.com/images/umami_dashboard_white.png" alt="umami_dashboard_white"></p>
-<p>Previously, I wrote an article titled &ldquo;Free Personal Blog System Setup and Deployment Solution (Hugo + GitHub Pages + Cusdis)&rdquo;, detailing my blog system built using Serverless and some open-source projects. I also started a series to document the setup process.</p>
-<p>A few days ago, I came across an article by <a href="https://reorx.com">Reorx</a> titled &ldquo;Deploy umami for Personal Website Analytics&rdquo;. He introduced the <a href="https://umami.is">umami</a> project and demonstrated its serverless deployment using <a href="https://railway.app">Railway</a>.</p>
-<p>However, since I had previously used <a href="https://www.heroku.com/">Heroku</a>&rsquo;s free Postgres database service and deployed with <a href="http://vercel.com/">Vercel</a> when setting up <a href="https://cusdis.com">Cusdis</a>, I wanted to continue using these platforms for umami to reduce setup and maintenance costs.</p>
-<p>The following text will record the specific setup and deployment process. Thanks to the official one-click deployment method, the entire setup process was very smooth.</p>
-<p><strong>[2024-06-30 Update]</strong></p>
-<p>Later, as Heroku discontinued its free plan, if you still want to use it completely free, you can use Vercel/Netlify/Zeabur for free deployment of the main project + Supabase for deploying PostgreSQL database instances. Pass the link as an environment variable to the Umami service. The rest of the process remains applicable.</p>
-<h2 id="setup-and-deployment-instructions">Setup and Deployment Instructions</h2>
-<h3 id="creating-a-postgres-database-with-heroku">Creating a Postgres Database with Heroku</h3>
-<h4 id="creating-the-postgres-database">Creating the Postgres Database</h4>
-<p>First, register for a Heroku account. After logging in successfully, click the button in the upper right corner to create a new application.</p>
-<p><img src="https://image.pseudoyu.com/images/cretae_app_in_heroku_1.png" alt="cretae_app_in_heroku_1"></p>
-<p>Enter the instance name, and choose the region as you prefer. I selected United States. Click create.</p>
-<p><img src="https://image.pseudoyu.com/images/cretae_app_in_heroku_2.png" alt="cretae_app_in_heroku_2"></p>
-<p>After creation, search and select the Postgres database in the Adds-on section of the Resources Tab.</p>
-<p><img src="https://image.pseudoyu.com/images/add_heroku_postgres.png" alt="add_heroku_postgres"></p>
-<p>Choose the Free Plan. The Postgres database in Heroku is free and can be used continuously, eliminating setup and maintenance costs.</p>
-<p><img src="https://image.pseudoyu.com/images/heroku_postgres_plan.png" alt="heroku_postgres_plan"></p>
-<p>After creation, check the <code>DATABASE_URL</code> in Settings, which will be used later for deployment.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_data_url.jpg" alt="postgres_data_url"></p>
-<p>Click on the newly added Postgres add-on to proceed with settings.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_addon_details.png" alt="postgres_addon_details"></p>
-<p>Once inside, select View Credentials in the Settings page and record the configuration parameters.</p>
-<p><img src="https://image.pseudoyu.com/images/heroku_credentials.png" alt="heroku_credentials"></p>
-<p><img src="https://image.pseudoyu.com/images/postgres_settings.jpg" alt="postgres_settings"></p>
-<h4 id="initializing-the-postgres-database">Initializing the Postgres Database</h4>
-<p>As database initialization is required, I used the DataGrip database management tool for connection, which is quite convenient. You can also connect and configure through the Heroku CLI.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_config.jpg" alt="postgres_config"></p>
-<p>Umami needs to be initialized using the official <a href="https://github.com/mikecao/umami/blob/master/sql/schema.postgresql.sql">umami/sql/schema.postgresql.sql</a> script.</p>
-<p><img src="https://image.pseudoyu.com/images/postgres_init_script.png" alt="postgres_init_script"></p>
-<p>After execution, the database will have five tables with initialized data, and you can proceed with subsequent deployment work.</p>
-<h3 id="one-click-deployment-of-umami-service-using-vercel">One-Click Deployment of umami Service Using Vercel</h3>
-<h4 id="deploying-the-umami-service">Deploying the umami Service</h4>
-<p>After creating the database instance, you can deploy the umami service with one click through Vercel.</p>
-<p>Visit the <a href="https://umami.is/docs/running-on-vercel">Running on Vercel</a> module in the <a href="https://umami.is">umami official documentation</a> for operation instructions and one-click deployment script.</p>
-<p><img src="https://image.pseudoyu.com/images/running_on_vercel.png" alt="running_on_vercel"></p>
-<p>After clicking the one-click deployment button, you will be redirected to Vercel&rsquo;s one-click deployment page to create a Github repository for umami.</p>
-<p><img src="https://image.pseudoyu.com/images/vercel_create_umami_repo.png" alt="vercel_create_umami_repo"></p>
-<p>Next, you need to enter the <code>DATABASE_URL</code> parameter address recorded when deploying the Heroku Postgres instance earlier, and you need to fill in a custom string <code>HASH_SLAT</code>.</p>
-<p><img src="https://image.pseudoyu.com/images/vercel_config_umami.png" alt="vercel_config_umami"></p>
-<p>Click Deploy to start deployment. It will be completed in a few minutes.</p>
-<p><img src="https://image.pseudoyu.com/images/vercel_deploy.png" alt="vercel_deploy"></p>
-<p><img src="https://image.pseudoyu.com/images/vecel_deploy_done.png" alt="vecel_deploy_done"></p>
-<h4 id="accessing-the-umami-service">Accessing the umami Service</h4>
-<p>After deployment, click Dashboard or the assigned Vercel domain to access the service. You will see the umami login interface.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_login.png" alt="umami_login"></p>
-<p>For the first login, enter the default username <code>admin</code> and default password <code>umami</code>. After successful login, you will be redirected to the umami management page. You can click on the avatar in the upper right corner to change your password.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_change_password.png" alt="umami_change_password"></p>
-<h4 id="configuring-personal-website-to-umami-service">Configuring Personal Website to umami Service</h4>
-<p>After completing the basic account configuration, click on the Websites tab in the sidebar, then click Add Website.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_add_website_1.png" alt="umami_add_website_1"></p>
-<p>Fill in the basic website information. If you check the share link, it will generate a publicly accessible URL. I added it as a bookmark on my iPad&rsquo;s home screen, which also works great as a data dashboard.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_add_website_2.png" alt="umami_add_website_2"></p>
-<h4 id="configuring-umami-script-to-personal-blog-website">Configuring umami Script to Personal Blog Website</h4>
-<p>After creating the website, obtain the umami script.</p>
-<p><img src="https://image.pseudoyu.com/images/get_umami_script.jpg" alt="get_umami_script"></p>
-<p>Once obtained, add the umami script to your personal website. I use the static blog Hugo, adding it within the <code>&lt;head&gt;</code> tag in the theme.</p>
-<p><img src="https://image.pseudoyu.com/images/set_umami_script.jpg" alt="set_umami_script"></p>
-<p>After configuration and deployment, you can start tracking website data.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_dashboard_white.png" alt="umami_dashboard_white"></p>
-<h4 id="configuring-custom-script-name">Configuring Custom Script Name</h4>
-<p>Using the official <code>umami.js</code> script name might be blocked by some filtering rules. Therefore, we can customize the script name to achieve more accurate website data tracking.</p>
-<p>The official also provides a convenient modification method. You can add the <code>TRACKER_SCRIPT_NAME</code> environment variable in the umami service already deployed in Vercel, configuring it to a custom name.</p>
-<p><img src="https://image.pseudoyu.com/images/umami_script_environment_varible.png" alt="umami_script_environment_varible"></p>
-<p>After configuration, redeploy, and then change the script name in your personal website script.</p>
-<p><img src="https://image.pseudoyu.com/images/change_umami_script.jpg" alt="change_umami_script"></p>
-<h4 id="configuring-custom-domain">Configuring Custom Domain</h4>
-<p>If you don&rsquo;t want to use the <code>vercel.app</code> domain provided by Vercel, you can add a custom domain in Vercel. Follow the official Vercel guide to configure <code>CNAME</code> etc. for your domain provider.</p>
-<p><img src="https://image.pseudoyu.com/images/set_custom_domain.png" alt="set_custom_domain"></p>
-<p>For example, I use a domain hosted by <a href="https://www.cloudflare.com">Cloudflare</a>, so I need to add domain resolution first.</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_canme_config.png" alt="cloudflare_canme_config"></p>
-<p>According to the official instructions, Cloudflare also needs to add a page rule. After configuration, you can complete the custom domain configuration.</p>
-<p><img src="https://image.pseudoyu.com/images/cloudflare_page_rule.png" alt="cloudflare_page_rule"></p>
-<h2 id="conclusion">Conclusion</h2>
-<p>The above is the complete process of adding the umami website statistics service to our website. Once configured, it requires no subsequent maintenance and allows for convenient website data tracking through the dashboard. This is one of my blog setup and deployment series tutorials. Please stay tuned, and I hope it can be of reference to everyone.</p>
-<h2 id="references">References</h2>
-<blockquote>
-<ol>
-<li><a href="https://umami.is">umami</a></li>
-<li><a href="https://reorx.com/blog/deploy-umami-for-personal-website/">Deploy umami for Personal Website Analytics</a></li>
-<li><a href="http://vercel.com">Vercel Official Website</a></li>
-<li><a href="https://www.heroku.com">Heroku Official Website</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
