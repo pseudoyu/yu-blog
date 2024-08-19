@@ -50,8 +50,6 @@ But after a while, I felt obvious pressure. The other three seemed to be more pr
 
 I can say I was luckier than Tsukuru Tazaki. I wasn't abandoned, and there were no misunderstandings. The other three cornered me at the entrance of the boys' dormitory one night, asking me to reveal my inner conflicts, and then resolved them one by one. Regarding the response to personality and presence, I might still think it was just comfort, but I felt that I was needed in this relationship and pattern, that my emotions were taken seriously by them, that our relationship was cherished. Even though we later had few opportunities for joint action due to cities and many reasons, we still maintain good contact, and they're the first people I think of when visiting any member's city.
 
-I'm currently in another three-person relationship, two close friends from junior high school. By definition, they might not count as childhood friends, but we're closer than that. Because we're separated in three places, I often think about the foundation, direction, and balance of this relationship. Although there will be some changes gradually, and there are many parts we need to face in the future, I'm gradually willing to work hard for it and explore more.
-
 "[Stoner](https://book.douban.com/subject/26425831/)" actually also describes a lot about the ordinariness of life and the perfection of personality. However, the topic is quite broad, and I might talk about it later along with "[Normal People](https://movie.douban.com/subject/33477335/)".
 
 ## Kindness and Charity
