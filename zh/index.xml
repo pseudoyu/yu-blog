@@ -133,7 +133,7 @@
 <li><a href="https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/">轻量级开源免费博客评论系统解决方案 （Cusdis + Railway）</a></li>
 </ul>
 <p>不知道下一次更新这个系列的时候，自己会在做些什么，又在想些什么呢。</p>
-<h2 id="多语言支持">多语言支持</h2>
+<h3 id="多语言支持">多语言支持</h3>
 <p><img src="https://image.pseudoyu.com/images/en_version_blog.png" alt="en_version_blog"></p>
 <p>其实我的博客一直是有双语的功能选项的（导航栏可以全站切换/文章中也可以直接点击对应语言切换），只是一直很偷懒所以只是把中文文档复制过去，今天早上通过 Claude 的 Projects 功能把现存所有文章都翻译了。</p>
 <p>新建了一个 Blog Translation 的 Project，输入一个全局 Instruction，之后就把 Hugo 的 markdown 源文件丢进去就可以了。</p>
