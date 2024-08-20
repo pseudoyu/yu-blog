@@ -82,7 +82,7 @@ authors:
 
 不知道下一次更新这个系列的时候，自己会在做些什么，又在想些什么呢。
 
-## 多语言支持
+### 多语言支持
 
 ![en_version_blog](https://image.pseudoyu.com/images/en_version_blog.png)
 
