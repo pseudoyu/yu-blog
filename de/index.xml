@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/de/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sun, 18 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Wöchentliche Rückschau #68 - Über das Bloggen und die Farben meines Lebens</title><link>https://www.pseudoyu.com/de/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/de/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 Vorwort Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 05.08.2024 bis zum 11.08.2024.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/de/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Mon, 19 Aug 2024 05:30:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Wöchentliche Rückschau #69 - KI-gestütztes Programmieren und die Quelle der Lernmotivation</title><link>https://www.pseudoyu.com/de/2024/08/19/weekly_review_20240819/</link><pubDate>Mon, 19 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/de/2024/08/19/weekly_review_20240819/</guid><description>《Photograph - Ed Sheeran》 Vorwort Dies ist eine Aufzeichnung und Reflexion meines Lebens vom 12.08.2024 bis zum 18.08.2024.
+Ich habe den Wechsel von VS Code zu Cursor vollzogen und möchte über meine Erfahrungen mit KI-unterstütztem Programmieren berichten. Außerdem feiere ich 400 Tage Beziehung mit meiner Kommilitonin. Ein spätnächtliches Gespräch mit ihr über vergangene Erfahrungen und Hobbys regte mich zum Nachdenken über meine eigene Lernmotivation an. Es gab noch viele weitere interessante Ereignisse.</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="vorwort">Vorwort</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20240819.png" alt="weekly_review_20240819"></p>
+<p>Dies ist eine Aufzeichnung und Reflexion meines Lebens vom <code>12.08.2024</code> bis zum <code>18.08.2024</code>.</p>
+<p>Ich habe den Wechsel von VS Code zu Cursor vollzogen und möchte über meine Erfahrungen mit KI-unterstütztem Programmieren berichten. Außerdem feiere ich 400 Tage Beziehung mit meiner Kommilitonin. Ein spätnächtliches Gespräch mit ihr über vergangene Erfahrungen und Hobbys regte mich zum Nachdenken über meine eigene Lernmotivation an. Es gab noch viele weitere interessante Ereignisse.</p>
+<h2 id="erfahrungen-mit-ki-unterstütztem-programmieren">Erfahrungen mit KI-unterstütztem Programmieren</h2>
+<p><img src="https://image.pseudoyu.com/images/cursor_screenshot.jpg" alt="cursor_screenshot"></p>
+<p>In den letzten zwei Wochen habe ich intensiv Cursor genutzt, eine KI-gestützte IDE basierend auf VS Code, und die Ergebnisse sind beeindruckend.</p>
+<p>Ich gehöre zu den sehr frühen Testern von GitHub Copilot und nutze es bis heute. Seit dem Aufkommen von ChatGPT, Perplexity, Devv.ai und Claude bin ich ein intensiver zahlender Nutzer dieser Dienste. Mein Denken hat sich bereits daran gewöhnt, KI zur Unterstützung beim Programmieren einzusetzen, aber bisher beschränkte sich das hauptsächlich auf das Vervollständigen von Logik und Debugging. Eine projektweite Unterstützung war nicht möglich.</p>
+<p>Mit Cursor, das den gesamten Projektkontext einbezieht, die Möglichkeit bietet, andere Dateien oder Code zu referenzieren und das Claude 3.5 Sonnet Modell nutzt, kommen wir meiner Vorstellung von KI-unterstütztem Programmieren immer näher.</p>
+<p><img src="https://image.pseudoyu.com/images/web3insights_demo.png" alt="web3insights_demo"></p>
+<p>In der 15-tägigen Testphase der Pro-Version konnte ich einige Go-Bugs in meiner Arbeit beheben und neue Tests hinzufügen. Ich verbesserte die Update-Benachrichtigungen und -Funktionen einer Electron-Anwendung. Von Grund auf half mir die KI beim Erstellen einer Rust-Backend-CRUD-API einschließlich eines vollständigen Dockerfiles und GitHub Actions. Sie unterstützte mich bei der Datenvisualisierung und zahlreichen Interface-Anpassungen eines Remix-Projekts, bis hin zu präzisen Interaktionen und Layouts zwischen den Seiten. Nebenbei half sie mir sogar, etwas SwiftUI zu lernen.</p>
+<p>Schätzungsweise stammen bereits über 50% meines Codes aus KI-Unterstützung oder direkter KI-Generierung. Den Großteil meiner Zeit verbringe ich damit, im Dialogfenster von Cursor (Tastenkürzel &ldquo;CMD + K&rdquo; für die Codegenerierung) meine Anforderungen mit der KI zu besprechen. Beim Formulieren der Prompts (meist in natürlicher Gesprächssprache) und während ich auf die Codegenerierung warte, habe ich mehr Zeit, über Codearchitektur, Logik und geeignetere Drittbibliotheken nachzudenken.</p>
+<p>Indem ich der KI meine Bedürfnisse erkläre, hinterfrage ich auch deren Sinnhaftigkeit. Dies führt oft zu qualitativ hochwertigeren Funktionen und besserem Code. Was Syntax und Stilfragen betrifft, studiere und lerne ich oft direkt von den KI-Implementierungen - ein Ansatz, der sich als zugänglicher erweist als das Studium eines Open-Source-Projekts von Grund auf.</p>
+<p>Meine Aufgabe besteht nun hauptsächlich im Entwerfen und Erschaffen.</p>
+<p>Wie Randy in seinem Artikel <a href="https://lutaonan.com/blog/code-artists/">&ldquo;Codekünstler&rdquo; werden nicht von KI ersetzt</a> zitiert:</p>
+<blockquote>
+<p>I realize the reason I like building is not just because I&rsquo;m a builder.</p>
+<p>Ich erkenne, dass ich nicht nur deshalb gerne erschaffe, weil ich ein Erschaffer bin.</p>
+<p>It&rsquo;s because software products are how I express my creativity.</p>
+<p>Vielmehr sind Softwareprodukte mein Weg, meine Kreativität auszudrücken.</p>
+<p>It&rsquo;s like a poem to a poet, a song to a songwriter, a painting to a painter…</p>
+<p>Es ist wie ein Gedicht für einen Dichter, ein Lied für einen Songwriter, ein Gemälde für einen Maler&hellip;</p>
+<p>Software is my art form, my medium of expression.</p>
+<p>Software ist meine Kunstform, mein Ausdrucksmedium.</p>
+</blockquote>
+<h2 id="ethshenzhen-hackathon">ETHShenzhen Hackathon</h2>
+<p><img src="https://image.pseudoyu.com/images/web3insights_ethshenzhen_demo.jpg" alt="web3insights_ethshenzhen_demo"></p>
+<p>Das oben erwähnte Projekt entstand während meiner Teilnahme an einer Veranstaltung in Shenzhen am Wochenende. Es war mein erstes ernsthaftes Hackathon als Teilnehmer. In zwei durchwachten Nächten erstellte ich die Demo, verfasste vor Ort einen grundlegenden Vortragsentwurf und einige einfache PowerPoint-Folien. Schließlich hielt ich die Demo-Präsentation. Es war anstrengender als erwartet, und erst am Sonntag konnte ich richtig ausschlafen.</p>
+<h2 id="die-quelle-der-lernmotivation">Die Quelle der Lernmotivation</h2>
+<p>An einem Abend entspann sich aus der Suche nach einem Skateboard für meine Schwester ein langes Gespräch mit meiner Kommilitonin über vergangene Erfahrungen und verschiedene Interessen.</p>
+<p>Mein seltsamer Fähigkeitenbaum und meine vielfältigen Interessen sind nicht gerade wenige. In meiner Schulzeit habe ich die verschiedensten Sportarten ausprobiert und die meisten davon recht gut gemeistert. Als Kind bin ich oft mit einem Twister-Skateboard durch die Straßen gefahren. Vom Grundschulalter bis zur Universität war ich fast zehn Jahre lang Mitglied im Rollschuhverein. Mit meinem Cousin ging ich ins Schwimmbad und lernte ganz natürlich das Schwimmen. An der Universität beschäftigte ich mich mit Fotografie und Videobearbeitung, flog Drohnen auf dem Campus und gründete sogar ein Studio, in dem ich mich mit allen Aspekten von Beleuchtung und Bühnenbild auseinandersetzte. Ich absolvierte ein Praktikum in der Wirtschaftsprüfung und managte aufgrund meiner Startup-Erfahrung selbstständig die Unternehmensgründung, Buchhaltung, Steuererklärung, Rechnungsstellung, Jahresabschlüsse und sogar die Auflösung - all das ohne die Hilfe von Vermittlern oder Buchhaltern über fast zwei Jahre hinweg. In meiner beruflichen Laufbahn bin ich stets neugierig auf verschiedene Programmiersprachen und Frameworks und probiere gerne Neues aus.</p>
+<p>Es scheint, als hätte ich schon immer eine Neigung zum autodidaktischen Lernen gehabt, wobei ich oft aufhöre, sobald ich gerade genug gelernt habe, um meine momentanen Bedürfnisse zu erfüllen, ohne den Wunsch, tiefer in die Materie einzudringen. Zum Beispiel mag ich die Fotografie und hatte sogar während meiner Zeit im Fotografie- und Videostudio-Startup die Idee, sie zu meinem Beruf zu machen. Aber in all den Jahren habe ich nie wirklich systematisch Komposition, Licht und Schatten, Farbe oder Bildbearbeitung studiert. Auch bei der Videoproduktion und -bearbeitung habe ich mich nie mit Theatertheorie oder Regiekonzepten befasst. Stattdessen lerne ich schnell die benötigten Techniken oder Funktionen, wenn ich sie brauche - ausreichend, aber eben nur ausreichend.</p>
+<p>Bei der genauen Analyse meiner inneren Beweggründe entdeckte ich interessante Muster, die bis in meine Kindheit und sogar früher zurückreichen.</p>
+<p>Als ich als kleines Kind nach Hangzhou zog, brauchte ich viel Zeit, um meinen Akzent abzulegen und meine schulischen Leistungen auf ein überdurchschnittliches Niveau zu bringen. Ich erlebte auch Diskriminierung und Ungerechtigkeit, was zu einem gewissen Gefühl der Minderwertigkeit führte. Erst in der Mittelschule, als ich auf gute Lehrer traf, kamen mein Leben und meine schulische Laufbahn allmählich in geordnete Bahnen.</p>
+<p>Zu dieser Zeit hörte ich oft eine neue Art von Kommentar: <strong>&ldquo;Du musst sehr hart gearbeitet haben, um das zu erreichen&rdquo;</strong>.</p>
+<p>Ich leugne keineswegs die Wichtigkeit von harter Arbeit, aber ständig so etwas zu hören, fühlte sich irgendwie entmutigend an. Es schien, als würde selbst ich glauben, dass ich anderen unterlegen sei und nur durch extreme Anstrengung mehr erreicht hätte. Ich geriet in einen Teufelskreis des Hochstapler-Syndroms.</p>
+<p>Also begann ich langsam, weniger &ldquo;hart zu arbeiten&rdquo;. Es war, als wollte ich anderen und mir selbst beweisen, dass ich diese Dinge &ldquo;mühelos&rdquo; erreichen konnte. Mit der Zeit fand ich sogar Gefallen daran.</p>
+<p>Was mich glücklich machte, war oft nicht das erlernte Wissen oder dessen Anwendung, sondern das psychologische Feedback von &ldquo;etwas Neues lernen&rdquo; und &ldquo;ich kann es schnell lernen&rdquo;. Das brachte einige Vorteile mit sich, wie das über die Zeit angesammelte Selbstvertrauen, das mich neue Dinge oder scheinbar unerreichbare Ziele weniger fürchten lässt -</p>
+<blockquote>
+<p>&ldquo;Wenn ich in der Vergangenheit so viel erreicht habe, kann ich es jetzt sicher auch.&rdquo;</p>
+</blockquote>
+<p>Aber es führte auch dazu, dass ich manchmal nicht die Ruhe finde, eine Sache wirklich gut zu machen oder etwas, das ich wirklich mag, zur Perfektion zu bringen. Ich habe Breite, aber es fehlt an Tiefe. Es fühlt sich wie ein Trade-off an, aber langsam beginne ich, daran etwas zu ändern.</p>
+<h2 id="persönliche-lebensmomente">Persönliche Lebensmomente</h2>
+<h3 id="400-tage-jubiläum">400-Tage-Jubiläum</h3>
+<p><img src="https://image.pseudoyu.com/images/love_record_400.jpg" alt="love_record_400"></p>
+<p>400 Tage mit meiner Kommilitonin.</p>
+<h2 id="interessante-dinge-und-gegenstände">Interessante Dinge und Gegenstände</h2>
+<h3 id="input">Input</h3>
+<p>Obwohl die meisten interessanten Inputs automatisch in meinem Telegram-Kanal <a href="https://t.me/pseudoyulife">&ldquo;Yu&rsquo;s Life&rdquo;</a> synchronisiert werden, möchte ich hier eine Auswahl präsentieren. Es fühlt sich mehr wie ein Newsletter an. Außerdem habe ich einen Mikroblog <a href="https://daily.pseudoyu.com/">&ldquo;daily.pseudoyu.com&rdquo;</a> eingerichtet, der die Telegram-Channel-Nachrichten als Inhaltsquelle nutzt, was das Durchstöbern erleichtert.</p>
+<h4 id="favoriten">Favoriten</h4>
+<ul>
+<li><a href="https://github.com/lokalise/i18n-ally">GitHub - lokalise/i18n-ally: 🌍 All in one i18n extension for VS Code</a></li>
+<li><a href="https://github.com/electric-capital/crypto-ecosystems">electric-capital/crypto-ecosystems</a></li>
+<li><a href="https://github.com/omarespejel/starknet-star-tracker">omarespejel/starknet-star-tracker</a></li>
+</ul>
+<h4 id="podcasts">Podcasts</h4>
+<ul>
+<li><a href="https://www.listennotes.com/e/e1a391614f16491fb6999b162524f5dd">Folge 11 | Owen spricht über die Ursprünge der immersiven Übersetzung, seine dreijährige Erfahrung ohne festen Job, die Entwicklung von Produkten für weniger Wohlhabende und das Leben in Daya Bay</a></li>
+</ul>
+<h4 id="artikel">Artikel</h4>
+<ul>
+<li><a href="https://darmau.co/zh/article/firewood-will-be-offline">Das ursprüngliche Gehaltsakkumulationsprojekt wird in Kürze eingestellt</a></li>
+</ul>
+<h4 id="videos">Videos</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1Ti421a7dv">【IGN】10 Punkte, Bewertung von &ldquo;Black Myth: Wukong&rdquo;: Den Weg der Widrigkeiten ebnen</a></li>
+<li><a href="https://www.bilibili.com/video/BV1XW42197H8">Eine Reise in die Schweiz hat meinen Geisteszustand erschüttert</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Kf421i7r4">vlog #69 | Lernaufzeichnungen eines Programmierers nach Feierabend | Wohin die Aufmerksamkeit fließt, dort ist Energie | Lese gerade &ldquo;Lügen auf der Therapiecouch&rdquo; und &ldquo;Briefe von Warren Buffett an die Aktionäre&rdquo; | Tägliches Englischlernen | Tagebuch ist fertig 🎉</a></li>
+</ul>
+]]></content:encoded></item><item><title>Wöchentliche Rückschau #68 - Über das Bloggen und die Farben meines Lebens</title><link>https://www.pseudoyu.com/de/2024/08/18/weekly_review_20240818/</link><pubDate>Sun, 18 Aug 2024 05:30:00 +0800</pubDate><guid>https://www.pseudoyu.com/de/2024/08/18/weekly_review_20240818/</guid><description>《Photograph - Ed Sheeran》 Vorwort Dieser Beitrag ist eine Aufzeichnung und Reflexion meines Lebens vom 05.08.2024 bis zum 11.08.2024.
 Als ich diese Woche in meinem TG-Kanal Revue passieren ließ, entdeckte ich, dass sich die ganze Woche um das Aufsetzen und Schreiben von Blogs drehte. Ich hatte einige Gedanken und den Wunsch, diese zu teilen. Der Großteil des Inhalts wurde bereits veröffentlicht, dies ist also eine Art Zusammenfassung.
 Der ROI des Bloggens Vor ein paar Tagen sah ich auf Twitter einige Diskussionen über das Bloggen und las dann Inneis Artikel &amp;ldquo;Von der Abneigung gegen das Schreiben bis zur Freude am Teilen: Meine Reise mit dem Bloggen&amp;rdquo;.</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
@@ -9999,56 +10076,6 @@ Dieser Artikel konzentriert sich auf die Lösung für das Blog-Kommentarsystem. 
 <li><a href="https://cusdis.com">Offizielle Website des Cusdis-Projekts</a></li>
 <li><a href="https://railway.app">Offizielle Website von Railway</a></li>
 <li><a href="https://reorx.com/blog/deploy-umami-for-personal-website/">Bereitstellung von umami zur Erfassung persönlicher Website-Statistiken</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>Nahtlose Migration von Cloud Drive-Dateien zu OneDrive mit dem mover.io-Service</title><link>https://www.pseudoyu.com/de/2022/05/22/migrate_your_files_to_onedrive_using_mover_io/</link><pubDate>Sun, 22 May 2022 13:06:12 +0800</pubDate><guid>https://www.pseudoyu.com/de/2022/05/22/migrate_your_files_to_onedrive_using_mover_io/</guid><description>《Here, After Us - Mayday》 Vorwort Kürzlich informierte die Schule per E-Mail darüber, dass sie den E-Mail-Dienst von Google zu Microsoft wechseln würde und der bisher unbegrenzte Google Drive-Speicher eingestellt und durch 5TB OneDrive-Speicher ersetzt werden würde. Ich hatte den Dateidienst von Google Drive genutzt, um Dateien über meine mehreren Geräte hinweg zu synchronisieren und zu sichern, wobei sich fast 300 GB an Daten angesammelt hatten. Aufgrund der langsamen Download-Geschwindigkeiten von Google Drive in Festlandchina, die einen Proxy erfordern, entschied ich mich für den offiziell empfohlenen mover.</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《Here, After Us - Mayday》</figcaption></i>
-</figure>
-<h2 id="vorwort">Vorwort</h2>
-<p>Kürzlich informierte die Schule per E-Mail darüber, dass sie den E-Mail-Dienst von Google zu Microsoft wechseln würde und der bisher unbegrenzte Google Drive-Speicher eingestellt und durch 5TB OneDrive-Speicher ersetzt werden würde. Ich hatte den Dateidienst von Google Drive genutzt, um Dateien über meine mehreren Geräte hinweg zu synchronisieren und zu sichern, wobei sich fast 300 GB an Daten angesammelt hatten. Aufgrund der langsamen Download-Geschwindigkeiten von Google Drive in Festlandchina, die einen Proxy erfordern, entschied ich mich für den offiziell empfohlenen <a href="https://mover.io">mover.io</a>-Service, um eine Cloud-Migration durchzuführen und so das lokale Herunterladen und erneute Hochladen von Dateien zu vermeiden. Hier dokumentiere ich den Migrationsprozess.</p>
-<h2 id="moverio-service">mover.io-Service</h2>
-<p><img src="https://image.pseudoyu.com/images/mover_io.png" alt="mover_io"></p>
-<p>Der mover.io-Service ist ein von Microsoft bereitgestelltes Cloud-Speicher-Migrationstool. Es unterstützt die Migration von Dateien verschiedener Cloud-Service-Anbieter zu Microsoft OneDrive, einschließlich Google Drive, Dropbox, Box und anderen. Es bietet Migrationsdienste für Organisationen, Schulen und Einzelpersonen gleichermaßen.</p>
-<p>Für Einzelnutzer verwenden wir den Transfer-Assistenten, um die Migration durchzuführen.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_transfer_wizard.png" alt="mover_transfer_wizard"></p>
-<h2 id="migrationsprozess">Migrationsprozess</h2>
-<h3 id="registrierenanmelden-eines-moverio-kontos">Registrieren/Anmelden eines mover.io-Kontos</h3>
-<p>Zunächst müssen wir ein mover.io-Konto registrieren und uns anmelden. Sie können die Microsoft-Autorisierung zur Anmeldung nutzen oder Ihr bestehendes mover.io-Konto verwenden.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_io_login.png" alt="mover_io_login"></p>
-<h3 id="autorisierung-der-migrations-datenquelle">Autorisierung der Migrations-Datenquelle</h3>
-<p>Nach erfolgreicher Anmeldung bietet die Oberfläche klare Bedienungsanweisungen. Folgen Sie einfach den Schritten.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_transfer_wizard_setting.png" alt="mover_transfer_wizard_setting"></p>
-<h4 id="migrationsquelle-auswählen">Migrationsquelle auswählen</h4>
-<p>Klicken Sie auf die Schaltfläche &ldquo;Neue Verbindung autorisieren&rdquo;, wählen Sie Google Drive (Einzelbenutzer), wählen Sie das Google-Konto aus, das die zu migrierenden Dateien enthält, und autorisieren Sie.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_source_google.png" alt="mover_source_google"></p>
-<p>Nach der Autorisierung erscheint eine Liste aller zu migrierenden Dateien.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_source_done.png" alt="mover_source_done"></p>
-<h4 id="migrationsziel-auswählen">Migrationsziel auswählen</h4>
-<p>Klicken Sie auf die Schaltfläche &ldquo;Neue Verbindung autorisieren&rdquo;, wählen Sie OneDrive for Business (Einzelbenutzer), wählen Sie diese Datenquelle und autorisieren Sie. Derzeit unterstützt die Ziel-Datenquelle nur Microsoft-Familienprodukte wie OneDrive und SharePoint.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_choose_dest.png" alt="mover_choose_dest"></p>
-<p><img src="https://image.pseudoyu.com/images/mover_dest_onedrive.png" alt="mover_dest_onedrive"></p>
-<p>Nach der Autorisierung erscheint eine Dateiliste des Migrations-Ziel-Cloud-Speichers.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_dest_onedrive_done.png" alt="mover_dest_onedrive_done"></p>
-<h3 id="daten-migrieren">Daten migrieren</h3>
-<p>Sobald sowohl die Quell- als auch die Ziel-Datenquellen eingerichtet sind, können Sie &ldquo;Kopieren starten&rdquo; auswählen, um den Migrationsprozess zu beginnen.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_start_copy.png" alt="mover_start_copy"></p>
-<h3 id="warten-auf-den-abschluss-der-migration">Warten auf den Abschluss der Migration</h3>
-<p>Nach Abschluss der obigen Vorgänge beginnt der Migrationsprozess. Sie müssen nur warten, bis er abgeschlossen ist. Sie können den Fortschritt über den Migrationsmanager nach der Anmeldung überprüfen.</p>
-<p><img src="https://image.pseudoyu.com/images/mover_wait_migration_done.png" alt="mover_wait_migration_done"></p>
-<p>Aufgrund von Unterschieden in den Quelldateigrößen variieren die Migrationszeiten für jeden Einzelnen. Basierend auf Tests ist die Migrationsgeschwindigkeitsreferenz wie folgt:</p>
-<p><img src="https://image.pseudoyu.com/images/mover_migration_speed.png" alt="mover_migration_speed"></p>
-<h2 id="fazit">Fazit</h2>
-<p>Das Obige beschreibt den Prozess, den ich verwendet habe, um alle Google Drive-Dateien mit dem mover.io-Service zu OneDrive zu migrieren. Ich hoffe, dass sich dies für alle als hilfreich erweist.</p>
-<h2 id="referenzen">Referenzen</h2>
-<blockquote>
-<ol>
-<li><a href="https://mover.io/">mover.io Offizielle Website</a></li>
-<li><a href="https://its.hku.hk/kb/ways-on-reducing-storage-on-google-drive-google-photos-and-gmail/#b-transfer-google-drive">Google Drive übertragen
-(HKU Connect Google Drive &gt; HKU Microsoft OneDrive)</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
