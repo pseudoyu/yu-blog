@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/1416898/' target='_blank'>想看鲸鱼马戏团</a> - 2024-08-31
 * <a href='http://movie.douban.com/subject/36934908/' target='_blank'>想看因果报应</a> - 2024-08-26
 * <a href='https://book.douban.com/subject/35594496/' target='_blank'>最近在读福格行为模型</a> - 2024-08-26
 * <a href='http://movie.douban.com/subject/1293749/' target='_blank'>看过生活多美好</a> - 2024-08-11
 * <a href='https://book.douban.com/subject/26362836/' target='_blank'>最近在读献给阿尔吉侬的花束</a> - 2024-08-08
-* <a href='http://movie.douban.com/subject/35956190/' target='_blank'>看过走走停停</a> - 2024-08-04
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
