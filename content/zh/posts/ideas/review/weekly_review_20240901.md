@@ -2,7 +2,7 @@
 title: "周报 #70 - 消失的附近，Burnout 与 Boreout"
 date: 2024-09-01T23:30:00+08:00
 draft: false
-tags: ["review", "life", "writing", "ai", "cursor", "principle"]
+tags: ["review", "life", "work", "relationship", "community"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
