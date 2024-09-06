@@ -38,22 +38,22 @@ Ich hoffe, ich kann mehr Inputs wie neues Wissen und Ideen aufnehmen und mehr ku
 ### 🎧 Aktuelle Eindrücke
 
 <!-- douban starts -->
+* <a href='http://www.douban.com/game/35284509/' target='_blank'>想玩九十六号公路 Road 96</a> - 2024-09-05
+* <a href='http://movie.douban.com/subject/34909341/' target='_blank'>想看小丑2：双重妄想</a> - 2024-09-05
+* <a href='http://www.douban.com/game/34970580/' target='_blank'>最近在玩湖 Lake</a> - 2024-09-05
 * <a href='https://book.douban.com/subject/36487115/' target='_blank'>想读Feel-Good Productivity</a> - 2024-09-04
 * <a href='http://movie.douban.com/subject/35716626/' target='_blank'>想看告别1988</a> - 2024-09-01
-* <a href='https://book.douban.com/subject/3578470/' target='_blank'>想读德米安</a> - 2024-09-01
-* <a href='http://movie.douban.com/subject/1416898/' target='_blank'>想看鲸鱼马戏团</a> - 2024-08-31
-* <a href='http://movie.douban.com/subject/36934908/' target='_blank'>想看因果报应</a> - 2024-08-26
 <!-- douban ends -->
 
 ### 👨🏻‍💻 Diese Woche programmiere ich mit
 <!-- code_time starts -->
 
 ```text
-Go         14 hrs 39 mins ██████████▍░░░░░░░░░░  49.7%
-Markdown   4 hrs 53 mins  ███▍░░░░░░░░░░░░░░░░░  16.6%
-YAML       4 hrs 20 mins  ███░░░░░░░░░░░░░░░░░░  14.7%
-JSON       1 hr 22 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.7%
-Image (... 57 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.3%
+Go         15 hrs 53 mins ███████████▉░░░░░░░░░  56.7%
+Markdown   4 hrs 21 mins  ███▎░░░░░░░░░░░░░░░░░  15.6%
+YAML       4 hrs 3 mins   ███░░░░░░░░░░░░░░░░░░  14.5%
+Other      1 hr 13 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.4%
+JSON       40 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.4%
 ```
 
 <!-- code_time ends -->
