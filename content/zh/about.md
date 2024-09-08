@@ -39,22 +39,22 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/35520588/' target='_blank'>想读Rust for Rustaceans: Idiomatic Programming for Experienced Developers</a> - 2024-09-07
+* <a href='https://book.douban.com/subject/35290878/' target='_blank'>想读精通Rust（第2版）</a> - 2024-09-07
+* <a href='https://book.douban.com/subject/36059499/' target='_blank'>想读Rust实战</a> - 2024-09-07
+* <a href='https://book.douban.com/subject/36547630/' target='_blank'>最近在读Rust程序设计（第2版）</a> - 2024-09-07
 * <a href='http://www.douban.com/game/35284509/' target='_blank'>想玩九十六号公路 Road 96</a> - 2024-09-05
-* <a href='http://movie.douban.com/subject/34909341/' target='_blank'>想看小丑2：双重妄想</a> - 2024-09-05
-* <a href='http://www.douban.com/game/34970580/' target='_blank'>最近在玩湖 Lake</a> - 2024-09-05
-* <a href='https://book.douban.com/subject/36487115/' target='_blank'>想读Feel-Good Productivity</a> - 2024-09-04
-* <a href='http://movie.douban.com/subject/35716626/' target='_blank'>想看告别1988</a> - 2024-09-01
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
 <!-- code_time starts -->
 
 ```text
-Go         17 hrs 41 mins █████████████░░░░░░░░  61.9%
-Markdown   4 hrs 21 mins  ███▏░░░░░░░░░░░░░░░░░  15.3%
-YAML       3 hrs 28 mins  ██▌░░░░░░░░░░░░░░░░░░  12.2%
-Other      1 hr 8 mins    ▊░░░░░░░░░░░░░░░░░░░░   4.0%
-JSON       31 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.9%
+Go         17 hrs 8 mins  █████████████░░░░░░░░  62.0%
+Markdown   4 hrs 7 mins   ███▏░░░░░░░░░░░░░░░░░  14.9%
+YAML       3 hrs 17 mins  ██▍░░░░░░░░░░░░░░░░░░  11.9%
+Other      52 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.2%
+JSON       35 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.2%
 ```
 
 <!-- code_time ends -->
