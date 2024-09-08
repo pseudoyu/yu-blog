@@ -12,7 +12,7 @@ authors:
 
 ## 前言
 
-![weekly_review_20240903](https://image.pseudoyu.com/images/weekly_review_20240903.png)
+![weekly_review_20240908](https://image.pseudoyu.com/images/weekly_review_20240908.png)
 
 本篇是对 `2024-09-03` 到 `2024-09-08` 这周生活的记录与思考。
 
