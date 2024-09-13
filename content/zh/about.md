@@ -50,11 +50,11 @@ rss_ignore: true
 <!-- code_time starts -->
 
 ```text
-Go         12 hrs 50 mins ██████████▋░░░░░░░░░░  50.9%
-YAML       3 hrs 33 mins  ██▉░░░░░░░░░░░░░░░░░░  14.1%
-Rust       3 hrs          ██▌░░░░░░░░░░░░░░░░░░  11.9%
-Other      1 hr 52 mins   █▌░░░░░░░░░░░░░░░░░░░   7.5%
-Markdown   1 hr 47 mins   █▍░░░░░░░░░░░░░░░░░░░   7.1%
+Go         14 hrs 30 mins ███████████▋░░░░░░░░░  55.8%
+YAML       3 hrs 17 mins  ██▋░░░░░░░░░░░░░░░░░░  12.6%
+Rust       3 hrs          ██▍░░░░░░░░░░░░░░░░░░  11.6%
+Markdown   1 hr 49 mins   █▍░░░░░░░░░░░░░░░░░░░   7.0%
+Other      1 hr 24 mins   █▏░░░░░░░░░░░░░░░░░░░   5.4%
 ```
 
 <!-- code_time ends -->
@@ -62,6 +62,7 @@ Markdown   1 hr 47 mins   █▍░░░░░░░░░░░░░░░░
 ### 💻 最近发布项目
 
 <!-- recent_releases starts -->
+* <a href=https://github.com/RSS3-Network/Protocol-Go/releases/tag/v0.5.8 target='_blank'>Protocol-Go v0.5.8</a>
 * <a href=https://github.com/djyde/icondog/releases/tag/v0.0.1 target='_blank'>icondog 0.0.1</a>
 * <a href=https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0 target='_blank'>blockchain-guide 区块链入门指南</a>
 * <a href=https://github.com/pseudoyu/yu-tools/releases/tag/v0.1 target='_blank'>yu-tools 个人工具箱</a>
@@ -71,5 +72,4 @@ Markdown   1 hr 47 mins   █▍░░░░░░░░░░░░░░░░
 * <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food 微信小程序：吃什么呀</a>
 * <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
 * <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
-* <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>yu-blockchain 从零实现一个区块链</a>
 <!-- recent_releases ends -->
