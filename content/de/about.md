@@ -49,11 +49,11 @@ Ich hoffe, ich kann mehr Inputs wie neues Wissen und Ideen aufnehmen und mehr ku
 <!-- code_time starts -->
 
 ```text
-Go         12 hrs 18 mins █████████▊░░░░░░░░░░░  46.9%
-TypeScript 7 hrs 52 mins  ██████▎░░░░░░░░░░░░░░  30.0%
-YAML       2 hrs          █▌░░░░░░░░░░░░░░░░░░░   7.7%
-Other      1 hr 21 mins   █░░░░░░░░░░░░░░░░░░░░   5.1%
-Rust       45 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.9%
+Go         12 hrs 9 mins  ██████████░░░░░░░░░░░  48.1%
+TypeScript 7 hrs 52 mins  ██████▌░░░░░░░░░░░░░░  31.2%
+YAML       1 hr 43 mins   █▍░░░░░░░░░░░░░░░░░░░   6.8%
+JSON       47 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.1%
+Rust       45 mins        ▌░░░░░░░░░░░░░░░░░░░░   3.0%
 ```
 
 <!-- code_time ends -->
