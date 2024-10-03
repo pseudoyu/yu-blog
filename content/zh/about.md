@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/26415434/' target='_blank'>想看雷普利</a> - 2024-10-03
 * <a href='https://book.douban.com/subject/36852931/' target='_blank'>最近在读身后无遗物</a> - 2024-09-27
 * <a href='https://book.douban.com/subject/35520588/' target='_blank'>想读Rust for Rustaceans: Idiomatic Programming for Experienced Developers</a> - 2024-09-07
 * <a href='https://book.douban.com/subject/35290878/' target='_blank'>想读精通Rust（第2版）</a> - 2024-09-07
 * <a href='https://book.douban.com/subject/36059499/' target='_blank'>想读Rust实战</a> - 2024-09-07
-* <a href='https://book.douban.com/subject/36547630/' target='_blank'>最近在读Rust程序设计（第2版）</a> - 2024-09-07
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
