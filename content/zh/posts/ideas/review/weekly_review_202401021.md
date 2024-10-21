@@ -1,8 +1,8 @@
 ---
 title: "周报 #74 - 清迈异闻录"
-date: 2024-09-18T03:00:00+08:00
-draft: true
-tags: ["review", "life", "painting", "follow", "vacation", "coding", "movie"]
+date: 2024-10-21T08:20:00+08:00
+draft: false
+tags: ["review", "life", "chiangmai", "travel", "vacation"]
 categories: ["Ideas"]
 authors:
 - "pseudoyu"
@@ -12,19 +12,23 @@ authors:
 
 ## 前言
 
-![weekly_review_20240918](https://image.pseudoyu.com/images/weekly_review_20240918.png)
+![weekly_review_20241021](https://image.pseudoyu.com/images/weekly_review_20241021.png)
 
 本篇是对 `2024-09-29` 到 `2024-10-13` 这周生活的记录与思考。
 
-这两周去了清迈参加 invisible Garden 的活动，去当 Solidity 课程的讲师；学姐也请了一些假，凑上了一次为时半月的旅途。这些年在清迈呆过了大概加起来也有一个多月，心情却总是有所不同，发生和体验了很多有意思的事。
+这两周去了清迈参加 invisible Garden 的活动，去当 Solidity 课程的讲师；学姐也请了一些假，凑上了一次为时半月的旅途。这些年在清迈呆过了大概加起来也有一个多月，心情却总是有所不同。
 
-虽然期间一直没更新周报，但在自己的 [Telegram Channel](https://t.me/pseudoyulife) 中还是保留了比较完整的记录，所以这篇也算是总集篇了，还有几篇过去一个月想写的主题会慢慢补上。
+这次整个期间一直没更新周报，但在自己的 [Telegram Channel](https://t.me/pseudoyulife) 中还是保留了比较完整的记录，所以这篇也算是总集篇了，这篇偏记事，感受和思考可能后续会再谈一下，包括旅行中的相处。发生和体验了很多有意思的事。
 
 ## 清迈生活
 
 ### 00. 初来乍到
 
+![meal_at_chiangmai](https://image.pseudoyu.com/images/meal_at_chiangmai.jpg)
+
 9.29 傍晚刚到清迈，经接机的热情司机大叔提醒去逛了周日夜市（清迈最大的夜市了，来了好几次总是错过），这次没计划倒是不期而遇了，很热闹。
+
+![work_at_chiangmai](https://image.pseudoyu.com/images/work_at_chiangmai.jpg)
 
 夜市买了一套喜欢的 local 服装和拖鞋，开启 10 月 Thai-style 旅居生活。
 
@@ -34,9 +38,15 @@ authors:
 
 在 Invisible Garden 当 mentor 上了三节课（两次主讲，一次辅助另一个 mentor Daniel 答疑），接下来的一周应该还会密集上三四节。
 
+![daniel_class_chiangmai](https://image.pseudoyu.com/images/daniel_class_chiangmai.jpg)
+
 上一次英文授课还是去年，muChiangMai 活动，但这次时间更久，内容也更深入，虽然多少还是有点磕绊，在第三节课的时候感觉已经比较游刃有余了，见到了很多有趣的开发者，也跟 Daniel 交流合作得很惬意，算是这次最大的收获了。
 
+![paint_daniel_yu](https://image.pseudoyu.com/images/paint_daniel_yu.jpg)
+
 在清迈 Invisible Garden 上完第一节课后和另一个 mentor Daniel 在交流后续课程安排的时候被学姐画下来了 增加了有趣的记忆点 🥰。
+
+![meet_with_vitalik](https://image.pseudoyu.com/images/meet_with_vitalik.jpg)
 
 还很运气地在一次讲课后下楼刚好遇到了 V 神，在学姐的鼓励下去找他聊了一会儿，还给他买了一杯咖啡，比想象得更有亲和力，还鼓励我 keep programming，感觉现在再写合约都有加持了 🔥
 
@@ -60,6 +70,8 @@ authors:
 
 ### 03. Meditation
 
+![meditation_at_chiangmai](https://image.pseudoyu.com/images/meditation_at_chiangmai.jpg)
+
 去了两个寺庙练习打坐冥想，算是瑜伽的一种结合，不过很可惜没有足够的时间体验一个更长期完整的禅修（主要还是得断网 10 天+，以及目前的心境也不算适合），看到有一些线上课程有教如何冥想，打算先慢慢练习开始。
 
 但隐隐觉得未来有这样机会的时候会是一些人生比较重要的节点吧。
@@ -68,9 +80,17 @@ authors:
 
 ### 04. A Chiang Mai Couple
 
+![chiangmai_couple_meal](https://image.pseudoyu.com/images/chiangmai_couple_meal.jpg)
+
+> 经典的一人做一两个菜的聚餐环节。
+
 去学姐 7 年前在清迈旅行时认识的朋友家里作客 2 次，很有意思的一对 couple，大概 30 出头，15 年在清迈 gap year 做义工的时候觉得很喜欢，就留下来了，做民宿生意，一晃已经近十年了，起起伏伏，又经历过了疫情后的几乎从零开始，现在渐渐步入正轨。
 
 男生热情而有责任感，承担了大部分的民宿生意琐碎的部分，为了生计当过中文老师、美术私教，还去考了潜水证和打了几年泰拳比赛；女生一开始自己一个人收拾民宿，洗床单刷马桶，到现在学会了泰语，还开了公司管理着很多泰国的清洁阿姨，坚毅而有力量。
+
+![chiangmai_couple_1](https://image.pseudoyu.com/images/chiangmai_couple_1.jpg)
+
+![chiangmai_couple_2](https://image.pseudoyu.com/images/chiangmai_couple_2.jpg)
 
 看着他们挂满的自己画的画，一整面墙的木工用品，羡慕之余开始想，可能这才是真正的生活。
 
@@ -86,6 +106,8 @@ authors:
 带了这样观察的视角又在清迈生活了一周后，在用 Bolt 打车时遇到过两个事。周末的早上打车去瑜伽，有一位司机说正在送上一位乘客，大概两三分钟后到，等了十几分钟后我只是在平台的软件发了一句问他”where are you? I’m late“，他直接取消了订单；还有另外一次是我吃完饭提前打车，但是结账时候耽误了一点，我就跟司机说了一下情况让他稍等一会儿，结果他连续发了好几段话骂我，然后取消了订单 🤡。
 
 可能他们并不想在工作上给自己任何压力，急单能不接就不接，反正又不是接不到了；工作中有让自己不开心了就也按照自己的心情来；对面有一家送煤气的据说是常年挂着招工的招牌，因为员工总是做一阵子，想不做第二天直接不来了。
+
+![music_taxi_chiangmai](https://image.pseudoyu.com/images/music_taxi_chiangmai.jpg)
 
 当然不良的感受是极少数，大部分时间还是能感受到他们的善意，遇到了一个泰国司机，听到我们在讲中文后在 YouTube 上找了杰伦的歌单放给我们听。
 
