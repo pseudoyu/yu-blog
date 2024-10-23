@@ -1,6 +1,6 @@
 ---
-title: "周报 #75 - 回答 Dayu 的 9 个问题"
-date: 2024-10-23T08:20:00+08:00
+title: "周报 #75 - 回答 Dayu 关于独立博客的 9 个问题"
+date: 2024-10-23T23:20:00+08:00
 draft: false
 tags: ["review", "life", "thought", "blog"]
 categories: ["Ideas"]
