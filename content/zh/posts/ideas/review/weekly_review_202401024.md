@@ -1,5 +1,5 @@
 ---
-title: "周报 #76 - 关于 Audlting 的思考"
+title: "周报 #76 - 关于 Adulting 的思考"
 date: 2024-10-24T02:52:00+08:00
 draft: false
 tags: ["review", "life", "chiangmai", "travel", "vacation"]
@@ -16,7 +16,7 @@ authors:
 
 本篇是对 `2024-09-19` 到 `2024-09-28` 这周生活的记录与思考。
 
-## Audlting
+## Adulting
 
 最近在一个喜欢的博主的[频道](https://t.me/tianxianzi)看到这样一段描述：
 
@@ -28,7 +28,7 @@ authors:
 
 ![yu_sunrise](https://image.pseudoyu.com/images/yu_sunrise.jpg)
 
-心里的某一块似乎一下子被击中了，想到了最近刚听说的一个词「Adulting」，印象里是博主学会了车窗被路上飞来的小石子砸坏是可以走保险之类的这样一个冷知识，称之为 「Audlting 技巧」，很喜欢这个形容 —— **“正在学会成为一个大人”**。
+心里的某一块似乎一下子被击中了，想到了最近刚听说的一个词「Adulting」，印象里是博主学会了车窗被路上飞来的小石子砸坏是可以走保险之类的这样一个冷知识，称之为 「Adulting 技巧」，很喜欢这个形容 —— **“正在学会成为一个大人”**。
 
 随着自己年岁渐长，即使没有刻意去比较，其实比起学生和孩童时期变化已然很大了。
 
