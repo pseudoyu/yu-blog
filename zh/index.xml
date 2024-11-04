@@ -47,7 +47,7 @@
 <p><img src="https://image.pseudoyu.com/images/follow_choose_view.png" alt="follow_choose_view"></p>
 <p>这些信息源形态各异，但却又刚好符合了 Follow 中的「视图（View）」这一概念。Follow 中除了按照标签和域名分组外，还可以在 Feed 层面设置视图，我上述的这些信息源就可以分别归到文章、社交媒体、图片、视频、音频和通知这几类视图中。</p>
 <p><img src="https://image.pseudoyu.com/images/follow_picture_view.png" alt="follow_picture_view"></p>
-<p>比如图片就会有画廊和瀑布流的呈现、社交媒体视图就更像是一条条动态博文，像是 Bilibili 视频和播客则可以直接点击播放，而音频/播客则可以全局播放，甚至带进度条或是时间线跳转等功能，这也解决了我需要在 Apple Podcast、Spotify 和小宇宙等多个播客应用之间反复横跳的问题。</p>
+<p>比如图片就会有画廊和瀑布流的呈现、社交媒体视图就更像是一条条动态博文，视频可以直接点击播放，而音频/播客则可以全局播放，甚至带进度条或是时间线跳转等功能，这也解决了我需要在 Apple Podcast、Spotify 和小宇宙等多个播客应用之间反复横跳的问题。</p>
 <p><img src="https://image.pseudoyu.com/images/follow_inbox.png" alt="follow_inbox"></p>
 <p>而对于那些只提供 newsletter 的博主/网站，Follow 提供了内置 Inbox 收件箱功能，可以使用对应的邮箱地址来收取 newsletter 并自动将邮件内容转为 Feed 内容，又减少了需要从成堆的邮件里找文章的繁琐，也保障了统一的阅读体验。</p>
 <h3 id="打破-rss-孤岛">打破 RSS 孤岛</h3>
