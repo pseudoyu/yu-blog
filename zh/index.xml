@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 04 Nov 2024 08:42:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #78 - NAS、Chromebook 与 Zeabur 折腾小记</title><link>https://www.pseudoyu.com/zh/2024/11/04/weekly_review_202401104/</link><pubDate>Mon, 04 Nov 2024 08:42:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/04/weekly_review_202401104/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-10-29 到 2024-11-03 这周生活的记录与思考。 最近不知怎的又久违地开始折腾开发环境和设备了。 在 Ares 的技术支</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 04 Nov 2024 15:20:39 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>Follow —— 信息获取的另一种形态</title><link>https://www.pseudoyu.com/zh/2024/11/04/follow_information_acquisition_revolution/</link><pubDate>Mon, 04 Nov 2024 15:20:39 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/04/follow_information_acquisition_revolution/</guid><description>前言 我在三个月前作为第一批用户体验到了 Follow 这一产品，很兴奋，使用了一周后就写了一篇文章「周报 #67 - 使用 follow 重塑我的信息输入系统」分享了对 Follow 的一些想</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/follow_artitle_pic.png" alt="follow_artitle_pic"></p>
+<p>我在三个月前作为第一批用户体验到了 <a href="https://follow.is/">Follow</a> 这一产品，很兴奋，使用了一周后就写了一篇文章「<a href="https://www.pseudoyu.com/zh/2024/08/05/weekly_review_20240805/">周报 #67 - 使用 follow 重塑我的信息输入系统</a>」分享了对 Follow 的一些想法。</p>
+<p>而现在三个月过去了，Follow 本身迎来了许多更新，正式开启了 beta 测试；其在我日常信息输入和输出系统中也已经不仅仅是一个 RSS 阅读器 alternative，而是彻底改变了我的信息获取形态。</p>
+<p>因此想再写一篇文章更系统性地分享一下我对 Follow 的看法，以及我是如何使用它的。</p>
+<h2 id="rss---followone-more-thing">RSS -&gt; Follow：One more thing</h2>
+<h3 id="rss-协议互联网的活化石">RSS 协议：互联网的活化石</h3>
+<p>在讲 Follow 之前，我想先介绍一下与之密切相关的 RSS 协议。</p>
+<p>RSS (Really Simple Syndication) 是一种能够将网站内容转换为标准数据格式，最早版本诞生于 1999 年，几乎可以算得上是互联网活化石了。</p>
+<p>简而言之，它制定了一个包含了 <code>title</code>、<code>link</code>、<code>description</code>、<code>author</code> 与 <code>pubDate</code> 等核心字段的协议标准，采纳并实现了这一标准的网站则可以输出统一的格式以供一些阅读器或代码进行解析，例如可以通过 <a href="https://sspai.com/feed">https://sspai.com/feed</a> 这一链接来获取网站的最新更新；而支持 RSS 阅读器就像是一本自带目录的刊物，里面收录着来自不同网站和作者的内容，方便我们进行阅读。</p>
+<p>但随着移动互联网的发展、社交媒体和音视频等媒体形式的兴起以及网站出于对平台用户流量的保护，支持 RSS 协议的网站越来越少，这一概念也有些式微，慢慢淡出了普通用户的视野，成为了一些爱好者和极客的玩具。</p>
+<p>直到 <a href="https://github.com/DIYgod/RSSHub">RSSHub</a> 这一项目的出现。</p>
+<h3 id="rsshub万物皆可-rss">RSSHub：万物皆可 RSS</h3>
+<p><img src="https://image.pseudoyu.com/images/rsshub_homepage.png" alt="rsshub_homepage"></p>
+<p>RSSHub 是由「<a href="https://github.com/DIYgod">DIYgod</a>」发起的一个开源项目，其初衷是“万物皆可 RSS”，通过社区贡献，将 Bilibili 视频、网易云音乐、小宇宙播客、即刻用户动态等图片、音视频、社交媒体网站甚至是 App 中的信息转为标准的 RSS 格式。</p>
+<p>借助 RSSHub，我们可以把自己习惯性会打开的社交媒体或是关注的各种平台账号都转换为「订阅」这一简单的行为，即可自动获取更新并阅读，减少了算法推荐与信息的干扰，提取信息的效率也会更高。</p>
+<p>然而，RSSHub 终究还是更中间层一点的工具，即使有了标准的 RSS 数据，大部分阅读器依然只能处理文本显示，对于音视频图片的处理基本上只停留在当作一个 url 这一程度，依然需要点击源链接跳转到对应的网页查看，使用起来常常有些割裂。</p>
+<p>直到 Follow 的出现。</p>
+<h3 id="rsshub---follow新一代信息浏览器">RSSHub -&gt; Follow：新一代信息浏览器</h3>
+<p><img src="https://image.pseudoyu.com/images/follow_og.jpg" alt="follow_og"></p>
+<p>其实就软件的本质而言，Follow 并没有改变或是拓展 RSS 协议本身，而是通过对 RSS 信息内容媒介呈现方式的改变、浏览体验的优化及与 RSSHub 的深度集成，更面向用户层去解决信息获取与浏览的问题。</p>
+<p>确实有一种看久了 pure html 突然飞跃到加了现代化 css 效果的感觉。其实技术层面做到这一步算不上有太高的壁垒，不论是视频 iFrame、音频播放器或是图片预览都有比较成熟的组件可以使用，但 follow 几乎是唯一一个依然在针对这一协议做且做好这一步的产品。</p>
+<p>有时候，做好一点就足够了。</p>
+<h2 id="信息获取的另一种形态">信息获取的另一种形态</h2>
+<p>软件/应用层面的 Follow 给我带来了很好的体验，但不止于此，其更深的影响是对我获取信息的流程与方式潜移默化的改变。</p>
+<h3 id="信息困境">信息困境</h3>
+<p>不知道从什么时候起，其实能很明显感受到自己对网络世界信息的依赖。可能有别于游戏瘾或是经常被诟病的短视频算法鸦片，我的这种依赖并不是机械性地刷刷刷，而是一种对于信息获取的渴求，甚至内化为了一种生活方式。</p>
+<p>而我每天从起床开始就会被来自各个平台的信息流所裹挟，依赖于网络世界其实最难免的是与社交媒体与算法的抗争，一方面是要避免自己被过载的贩卖焦虑的信息或是熟人社交圈的“Peer Pressure”所困扰，另一方面也需要警惕算法所构造的信息茧房。</p>
+<p>实话说这一点挺难做到，即使自己多少算是具备一些克制和过滤信息的能力并有意识在这样做，但依然难以避免被其所扰乱思绪或是引导。</p>
+<p>我最后采取了一种简单的方式 —— 关闭微信朋友圈入口与大部分软件通知提醒，并且把用于信息获取的平台（如 B 站、即刻等）的关注数量控制在 100 以内，如果新增则筛选优化之前的关注，减少无关内容的干扰。</p>
+<p>行之有效，但由于依然需要使用多个平台/App，每当我打开 B 站常常还是会被一些有趣的内容吸引，而 Twitter 这样的平台又多少带了一些社交属性，自己又没有屏蔽或是关键词过滤的习惯，依然难以避免信息噪声。</p>
+<h3 id="self-custodial-feeds">Self-custodial Feeds</h3>
+<p>Follow 的出现让我看到了另一种新的形态 —— “Self-custodial Feeds”，即可以自己掌控的信息源。</p>
+<p>首先就是厘清我对于 Feeds（信息源）维度的定义与标准。对于我来说，我的信息源由以下组成：</p>
+<ul>
+<li>我会几乎每篇都全文阅读的独立博客</li>
+<li>每期必看的一些 B 站、YouTube 博主</li>
+<li>感兴趣的播客频道</li>
+<li>会更多分享思考与新事物的个人社交媒体频道与账号</li>
+<li>想要日常积累的绘画或是设计素材</li>
+<li>与工作和爱好密切相关的软件/开源项目/编程语言/框架更新</li>
+<li>某些只提供 newsletter 的博主/网站</li>
+<li>&hellip;</li>
+</ul>
+<p>我会尽量避免关注那些像是「v2ex 最热主题」或是热搜类的信息源，并不是对这些资讯不感兴趣，而是减少自己的信息消化的压力；并且慢慢也发现其实也不会错过什么，真正自己会感兴趣的话题也已经在我关注的人的社交媒体分享或博文中了。</p>
+<p>也可以说这是自己打造的另一座“信息茧房”，但随着对这些信息源的不断迭代与剔除，最终会慢慢建立一个贴合自己信息获取频率与消化能力的“数字花园”。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_choose_view.png" alt="follow_choose_view"></p>
+<p>这些信息源形态各异，但却又刚好符合了 Follow 中的「视图（View）」这一概念。Follow 中除了按照标签和域名分组外，还可以在 Feed 层面设置视图，我上述的这些信息源就可以分别归到文章、社交媒体、图片、视频、音频和通知这几类视图中。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_picture_view.png" alt="follow_picture_view"></p>
+<p>比如图片视频就会有画廊和瀑布流的呈现、社交媒体视图就更像是一条条动态博文，像是 Bilibili 视频和播客则可以直接点击播放，而音频/播客则可以全局播放，甚至带进度条或是时间线跳转等功能，这也解决了我需要在 Apple Podcast、Spotify 和小宇宙等多个播客应用之间反复横跳的问题。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_inbox.png" alt="follow_inbox"></p>
+<p>而对于那些只提供 newsletter 的博主/网站，Follow 提供了内置 Inbox 收件箱功能，可以使用对应的邮箱地址来收取 newsletter 并自动将邮件内容转为 Feed 内容，又减少了需要从成堆的邮件里找文章的繁琐，也保障了统一的阅读体验。</p>
+<h3 id="打破-rss-孤岛">打破 RSS 孤岛</h3>
+<p>RSS 与 RSSHub 的结合确实让信息获取与阅读变得更加简单，但脱离了平台的那些“关注”、“阅读量” 、“点赞”等特性却也容易让这一个个 RSS 信息源成为孤岛。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_discover_feed.png" alt="follow_discover_feed"></p>
+<p>Follow 将每一个 RSS 订阅源作为一个单元，记录下了这个订阅源的关注与阅读数据，当另外的人通过名称或是链接在搜索时，能看到有哪些人「Follow」了这一信息源（如这个页面 <a href="https://app.follow.is/share/feeds/41215011978385440">https://app.follow.is/share/feeds/41215011978385440</a>），便于检索的同时，也天然形成了对其内容质量与价值的一种背书。</p>
+<p>「Follow/Subscribe」这一行为在社交媒体平台已经几乎成为了标配，但这一概念用于重新建立这些 RSS 孤岛之间的联系却显得尤为巧妙，甚至更进一步，使其变得更为紧密与开放。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_view_feature.png" alt="follow_view_feature"></p>
+<p>而在某个 Feed 的文章页面中，我们还可以看到有哪些人阅读过这篇文章，点进那一个个头像又能够看到 Ta 们所订阅的其他 Feeds。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_tip_boost.png" alt="follow_tip_boost"></p>
+<p>同时，Follow 也提供了打赏（Tip）与助力（Boost）的功能让读者可以通过自己的方式支持创作者，创作者只需要通过一个所有权认证即可收取奖励，形成一种正向的循环。</p>
+<p>创作者与读者之间仿佛多了一条细微的橙色细线，感知并不明显，不会形成什么社交压力或是被窥探的不适，但却温暖而坚韧地存在着。</p>
+<h3 id="分享信息源">分享信息源</h3>
+<p><img src="https://image.pseudoyu.com/images/follow_user_sub.png" alt="follow_user_sub"></p>
+<p>有时我们也会想看看他人尤其是同温层的人在关注些什么以丰富自己的信息源，但常常每个人关注点可能分布在不同的网站，而 Follow 提供了用户 Profile 页面可以直接关注，并且也支持直接关注用户的订阅列表，可以很方便地看到 Ta 们关注了哪些信息源以及后续新增加了哪些。</p>
+<p>对于有些想要创建自己的「数字花园」的用户来说，也可以创建付费 Lists，感兴趣的用户则可以通过支付一定费用来订阅，形成一种新的信息分享与获取的形态，即不仅仅信息源本身有价值，筛选过滤出高质量的信息源也同样值得付费。</p>
+<h3 id="action-特性">Action 特性</h3>
+<p>Follow 还提供了一些自动化规则，例如可以将非中文内容自动翻译并使用 AI 进行摘要总结，对正文沉浸式翻译等，根据这些规则提升我们的信息处理效率。</p>
+<p><img src="https://image.pseudoyu.com/images/follow_actions.png" alt="follow_actions"></p>
+<p>我用的最多的一个 Action 是对个人博客的内容进行摘要并向我推送通知，并且开启阅读模式（可以自动去抓取一些不提供全文输出的 RSS 源），这样我能够不错过我所关注博主的更新。</p>
+<h2 id="总结">总结</h2>
+<p>Follow 的出现并不只是优化了阅读体验，而是让我对信息源整理这一起点有了更深的思考，慢慢建构起了自己信息获取的新形态，如果将自己关注的订阅源视作一颗颗种子的话，那 Follow 则是这些种子发芽成长的沃土，呵护着自己的「数字花园」。</p>
+<p>另外 Follow 目前刚开启公测，可以直接访问 <a href="https://follow.is/">https://follow.is/</a> 体验。公测账户有一些限制，需要邀请码才能解锁完整版功能，可以评论留言，我会发放一些邀请码。</p>
+]]></content:encoded></item><item><title>周报 #78 - NAS、Chromebook 与 Zeabur 折腾小记</title><link>https://www.pseudoyu.com/zh/2024/11/04/weekly_review_202401104/</link><pubDate>Mon, 04 Nov 2024 08:42:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/04/weekly_review_202401104/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-10-29 到 2024-11-03 这周生活的记录与思考。 最近不知怎的又久违地开始折腾开发环境和设备了。 在 Ares 的技术支</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -3401,7 +3474,6 @@
 <li><strong>假面女郎</strong>，也是在奈飞上随手打开的，剧情一般，整体节奏也算不上紧凑。</li>
 </ul>
 ]]></content:encoded></item><item><title>个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）</title><link>https://www.pseudoyu.com/zh/2023/09/05/my_personal_pkm_input_output_system/</link><pubDate>Tue, 05 Sep 2023 02:38:39 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2023/09/05/my_personal_pkm_input_output_system/</guid><description>前言 我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p><img src="https://image.pseudoyu.com/images/yu_blog_my_pkm_system.png" alt="yu_blog_my_pkm_system"></p>
 <p>我似乎一直有一种把自己作为一个机器来看待的倾向，常常会以置身事外的视角来观察自己，集成各个模组，并不断折腾和优化。当自己搭建的某种行为模式或是习惯在某个时刻突然发挥了作用就会有一种欣喜感，而当受到外界或是自身状态影响而停止运转时则会有一种秩序感被打破的重度不适。</p>
 <p>作为一个效率工具控，我的个人知识管理与信息管理则可以说是自己最重要的一部分。其实本没有想要写这篇文章，有太多的先例实践在前，而自己也只是一种前人基础上的微调优化，常常没有什么信心去分享，而这周重新搭建和优化了一下自己的知识管理系统，很开心，有一种想要记录下来的冲动，本来只是想在周报里稍稍提及，却发现越写越收不住，于是就有了这篇文章。</p>
 <p>其实之前对于信息输出在周报中时常有提及，所以本文也会覆盖一些之前的内容，并且终于补上了信息获取和知识管理的部分，就作为一个总集篇了。其中，理论的部分，如“费曼学习法”、“卢曼卡片盒笔记法”已经有很多很好的介绍文章，不再花篇幅介绍了，而更多的是阐述我使用的软件工具实践，希望能够对大家有所帮助。</p>
@@ -8918,53 +8990,4 @@
 <li><a href="https://teahour.fm/95">Teahour #95 - 用 Chromebook 做开发是什么样的体验？</a></li>
 </ol>
 </blockquote>
-]]></content:encoded></item><item><title>周报 #02 - 工作、焦虑与成长</title><link>https://www.pseudoyu.com/zh/2022/07/03/weekly_review_20220703/</link><pubDate>Sun, 03 Jul 2022 12:54:39 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/07/03/weekly_review_20220703/</guid><description>《后来的我们 - 五月天》 前言 从实习开始，来到北京开始工作已经满一周年了。 自己一直是一个有着莫名仪式感的人，在这个节点也会频繁回顾这一年的所思所</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p><img src="https://image.pseudoyu.com/images/raspberry_pi.jpg" alt="raspberry_pi"></p>
-<p>从实习开始，来到北京开始工作已经满一周年了。</p>
-<p>自己一直是一个有着莫名仪式感的人，在这个节点也会频繁回顾这一年的所思所想与所得，当然，也包括那些焦虑与遗憾。我常常想，一年前的今天，那个带着紧张与期待的自己，会想从未来这一年得到些什么？</p>
-<p>于是，本篇就来聊聊工作、焦虑与成长。</p>
-<h2 id="关于工作">关于工作</h2>
-<h3 id="入职">入职</h3>
-<p>自己其实并不是一个很认真对待求职这件事的人，大概也因为即使是北京，可选的区块链公司也并不多，从香港回深圳隔离的酒店里一共也只参加了大概五六场面试，不过有些印象还比较深。</p>
-<p>其中一家没有什么常规流程，第一轮就与一位美国的面试官共享屏幕，两个小时完成一个 ERC20 Token 智能合约的编写、测试与发布，而第二轮则也是通过 Shell 脚本完成一个系统级定时任务的编写；另一家则是问了许多关于 EVM 底层优化及如何避免合约中的无限循环相关的问题。</p>
-<p>而最终选择的这家则是由两个技术 leader 共同参与的，一位问了一些 Go 语言相关问题，而另一位则问了许多 Hyperledger Fabric 与 Ethereum 相关的问题（后来知道他是之前 IBM Fabric 团队的开发者），后来还聊了许多和之后发展方向有关的事，一共大概持续了近一个半小时外加一场半小时的算法笔试。</p>
-<p>我其实挺享受并珍惜这种能够从面试中获得一些从未接触过的工程相关知识，或是能与面试官相对平等沟通的机会的，也会让自己在其中快速学习，或至少能稍明确一些方向。</p>
-<p>到了北京后又参加了一场 HR 面后就正式作为实习生入职了，就这样开始了自己的第一份正式技术实习。</p>
-<h3 id="实习">实习</h3>
-<p>初接触技术岗，前期的忐忑多于新奇，对于从学校的理论走向企业工程实践这一部分自己并没有太多信心，Go 语言也只是应对面试学了几个月的大概，甚至也没有参与编写过一个用于生产的应用。</p>
-<p>作为一个刚入行的 CRUD Boy，最开始也是 leader 成哥带着我从写业务接口开始熟悉的。主要是一个 BaaS 平台的研发，七个接口写了两周，有的复杂 sql 反复测试优化；也完整体验了 git 提交规范、Code Review 和代码合并流程。其实还是一个挺有乐趣的过程，自己写的代码运行在生产项目中，自己所学的各种知识能够很快应用在工作中获取一些实时的反馈，以及一个团队共同为了一个目标和节点向前推进。</p>
-<p>这个项目的主要开发工作完成后，我想去做一些链相关的开发，于是申请了参与另一个组的自研链智能合约执行引擎性能优化项目，不过因为并不熟悉 java，只能边对理论做一些学习研究边尝试写一些测试，这是当时做的博文记录，『<a href="https://www.pseudoyu.com/zh/2021/08/16/blockchain_ethereum_mpt/">Ethereum MPT（Merkle Patricia Tries）详解</a>』，也是这段时间经历才意识到原来刷 LeetCode 时那些枯燥的算法原理真的会那么快用上。</p>
-<p>可能因为是实习，工作节奏并不是很快，还有很多时间可以自己对感兴趣的领域或技术进行了解，写了如下博文进行记录：</p>
-<ol>
-<li><a href="https://www.pseudoyu.com/zh/2021/09/07/blockchain_baas_platform/">区块链服务平台（BaaS）简介及架构</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2021/09/08/blockchain_consensus/">分布式系统与区块链共识机制</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2021/09/06/blockchain_crosschain/">跨链技术原理与实战</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2021/09/09/blockchain_crosschain_bitxhub/">BitXHub 跨链插件（Fabric）源码解读</a></li>
-</ol>
-<p>很有意思的是，因为公司内部并没有一个内容发布平台，我这段时间常常给我们友商的区块链技术博客平台投稿并且获取他们技术核心人员的一些学习反馈，在跨链这一块受益良多，也让我感觉到技术的开放性。</p>
-<p>其实这个时候还没决定是否要留下来，也与其他心仪的一些公司有一些联系。不过紧接着，跟着另一个 leader 涛哥参与了另一个跨链项目，随着和他接触越来越多，我看到了一个技术人的热忱与无限可能性。我们同样爱折腾各种新奇的工具和技术，时常互相分享；他知道我时常焦虑于缺乏足够的工程经验和能力，于是让我参与到各个项目实战，有时在周末还会带着我 Pair Programming。</p>
-<p>他是 <a href="https://github.com/hyperledger/cello">Hyperledger Cello</a> 的核心开发者，会鼓励我参与开源，当时说过的一句话我依然记忆犹新，大意是，作为一个技术人，除了完成自己一项项工作任务外，总需要在自己的技术生涯中有几个标签，比如“某某开源项目核心贡献者”等等，我也需要不断努力去找到自己的标签。这一点对我影响很深，在后续的工作学习中，我也开始持续关注开源社区并且慢慢参与其中。</p>
-<p>一个可遇不可求的 leader 在影响我选择的因素中占据了更大的比重，所以其实没有太多犹豫，我留下了。</p>
-<h3 id="工作">工作</h3>
-<p>紧接着就参与了我严格意义上的第一个完整的、也几乎贯穿了我工作第一年大部分时光的项目，是一个底层跨链项目。</p>
-<p>大概是得益之前工作之余对跨链的学习了解，我在刚实习转试用之际就莫名地担任了项目负责人，参与技术方案探讨、前期系统设计、底层链部分的开发改造、开发流程的规范化、Devops 环境的使用、讲解演示以及项目交付相关的文档与沟通相关工作。这带来了工作之初我未曾设想的压力和焦虑，同时，也带来了我的快速成长。</p>
-<p>白天的各种会议一开就是大半天，几乎只有晚上才能沉下心写几行代码；为了赶一个个项目节点，熬夜甚至通宵都已经成为了常态；遇到许多技术难点可能一卡就是几天，却也不得不同时兼顾其他部分的开发任务进度；与之相伴的还有很多很多情绪的压抑与生活节奏的失控。</p>
-<p>但当自己真正和团队一起完成了这个项目的最终交付时，那种喜悦感与成就感也是从未体验到的，可能这对于我的意义尤其特别，从本科的英语专业、到去留学转至计算机，在很多课程学习中常常有受挫的时候，期间也不止一次质疑过自己能否在这条路走下去。而这个项目虽然过程磕磕绊绊，我们终究还是做到了，这也给了我莫大的信心。</p>
-<h3 id="相处">相处</h3>
-<p>值得一提的是工作之后人与人的相处模式，我似乎一直没有褪去身上那一份学生气，不论是面对 leader、同事还是项目合作伙伴，似乎都是以一种比较直接与坦诚的方式进行交流的。在五月自己的生活经历了一些变故时，团队的小伙伴承担了更多工作职责让我可以自己有所调整；刚结束的项目的一个客户负责人会打电话给我聊三四个小时安慰我；而另一个在建项目的负责人也在帮我申请能否去出差以稍缓一下心情。工作其实也并没有那些贩卖焦虑的推文描述的那般沉闷，我也始终觉得不论处于什么环境或是场合，关系与相处都是互相的，真诚相待其实也能够同样收获一些信任与真心。</p>
-<h3 id="收获困境与改变">收获、困境与改变</h3>
-<p><img src="https://image.pseudoyu.com/images/dev_guide.png" alt="dev_guide"></p>
-<p>一年过去了，第二个项目也即将结束了，我从这一年里学到了很多，也想以自己的方式为部门留下些什么，于是决定写了一份技术指南。除了开发规范外，还包括了这几年我对区块链的一些学习记录，以及一些从工作中学到的实战记录，这些都是我刚步入这份工作时希望能学到的，也希望能够告诉新加入的成员。</p>
-<p><img src="https://image.pseudoyu.com/images/dev_guide_content.png" alt="dev_guide_content"></p>
-<p>尽管工作才过去了一年，技术与经验上还有很多想提升与成长的，但对于方向却多少有了一些迷茫。想钻研一下区块链底层技术，打磨公司或个人的产品，以及更多参与到开源建设中，但工作之中也常常疲于一个个项目交付时间节点，很难有完整的时间学习研究，这也是后续的工作生涯中我需要克服与调整的难题。</p>
-<p>所幸另一个 leader 楷哥很关注开源和技术底层这一部分，偶尔的交流也都为我指明了一些方向，还有很多需要去学习提升的，技术之路漫漫，任重而道远。</p>
-<h2 id="总结">总结</h2>
-<p>以上就是我在现在这个时间节点对于工作的一些总结，现在也渐渐享受于以这样的方式梳理、记录自己的生活、工作与心境，也希望在下一年回望正在经历的这一年时，能够看到自己更多改变与成长，共勉。</p>
 ]]></content:encoded></item></channel></rss>
