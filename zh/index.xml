@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 30 Oct 2024 08:42:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #77 - 一间只属于自己的房间（对亲密关系的思考）</title><link>https://www.pseudoyu.com/zh/2024/10/30/weekly_review_202401030/</link><pubDate>Wed, 30 Oct 2024 08:42:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/10/30/weekly_review_202401030/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-10-21 到 2024-10-28 这周生活的记录与思考。 前两天读到了「第三夏尔 | Third Shire」写的一篇「从亲密关系</description><content:encoded><![CDATA[<figure >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 04 Nov 2024 08:42:00 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>周报 #78 - NAS、Chromebook 与 Zeabur 折腾小记</title><link>https://www.pseudoyu.com/zh/2024/11/04/weekly_review_202401104/</link><pubDate>Mon, 04 Nov 2024 08:42:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/04/weekly_review_202401104/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-10-29 到 2024-11-03 这周生活的记录与思考。 最近不知怎的又久违地开始折腾开发环境和设备了。 在 Ares 的技术支</description><content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/photograph.mp3" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《Photograph - Ed Sheeran》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img src="https://image.pseudoyu.com/images/weekly_review_20241104.png" alt="weekly_review_20241104"></p>
+<p>本篇是对 <code>2024-10-29</code> 到 <code>2024-11-03</code> 这周生活的记录与思考。</p>
+<p>最近不知怎的又久违地开始折腾开发环境和设备了。</p>
+<p>在 Ares 的技术支持下终于拥有了心心念的 NAS；把闲置已久的 Chromebook 重新装了一下并刷了 Arch Linux，甚至还把 MBP 刷了一个 Asahi Linux（不过作为主力机还是不行，先卸载了，打算回家把家里的台式机刷了）；Zeabur 支持了 Dedicated Server 之后我也把 RSSHub 等比较消耗资源的服务迁移到了 Hetzner 的 CAX-31 Arm 主机上；还有很多有意思的事。</p>
+<h2 id="nas">NAS</h2>
+<p><img src="https://image.pseudoyu.com/images/my_nas_omv.png" alt="my_nas_omv"></p>
+<p>其实好久之前就对 NAS 很感兴趣，但其实自己看番剧和剧集都是直接在流媒体平台上或者 Infuse 连网盘，对于家庭存储的需求并不那么高，所以一直没下定决心入手。</p>
+<p>再加上自己有个 Mac Studio，平时也都是长期开机的，配合上公网 ip 和 Cloudflare Argo Tunnel，其实也已经满足了绝大多数的家用服务需求了。不过由于系统架构的限制等，我在配置 HomeAssistant 的时候网络配置总是有一些奇怪的问题。</p>
+<p>有一次跟 Ares 聊到 NAS 的时候，他提到有个自己组好的 NAS 可以出给我（他自己已经迭代了），很是心动，于是找了一个周末来我家里配置完成了，有了技术支持自己少走了无数弯路，一切都完美 work 了。</p>
+<p>四盘位（8T 存储外加 8T 的备份），任意热插拔掉两个盘位依然可以正常运作，把之前网盘里的一些照片和影响资料迁移了过来；用的是 <a href="https://www.openmediavault.org/">openmediavault</a> 这一界面有些古老但是完全够用的系统；使用 Portainer 管理了一些 Docker 服务，16G 内存也基本够用。</p>
+<h2 id="chromebook-与-arch-linux">Chromebook 与 Arch Linux</h2>
+<p><img src="https://image.pseudoyu.com/images/yu_chromebook_setup.png" alt="yu_chromebook_setup"></p>
+<p>两年多前在重温 Teahour 的这期「<a href="https://teahour.fm/95">#95 - 用 Chromebook 做开发是什么样的体验？</a>」时对瘦客户端开发模式很是着迷，自己还写了一篇「<a href="https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/">基于 frp 内网穿透的瘦客户端开发工作流」来实践</a>」，顺便也种草了 Chromebook 这一国内并不流行的设备，入了一台 2019 款的 Google Pixbook Go（产品线很快就被 Google 砍掉了，所以倒是有点纪念意义的最后一代）。</p>
+<p>但其实因为后来远程办公以及依赖了很多 macOS 专属的软件，这台设备的利用率一直很低，最近在清迈看另一个 mentor 把自己的 Chromebook 刷了 <a href="https://pop.system76.com/">Pop!_OS</a>，很酷，于是想着回来折腾一下。</p>
+<p><img src="https://image.pseudoyu.com/images/btw_i_use_arch.png" alt="btw_i_use_arch"></p>
+<p>本来也是想彻底刷成其他 Linux 发行版的，升级了一下发现 ChromeOS 的 UI 和各类交互很舒服，折腾了一下把内置的 Debian 系统换成了 Arch 也很足够我对于 Linux 的需求，不那么“正统”但够用，折腾了一天，达到了很惊喜的体验，用了几个跨平台的方案保障体验几乎是一致的了。</p>
+<ol>
+<li><strong>1Password</strong>。前段时间才从 Elpass 换成 1P，浏览器插件、多平台和强大的自动填充让我后悔没早点换了；再加上能够用 ssh agent 功能来进行 git 签名等，再也不用维护多套 gpg keys 了。</li>
+<li><strong>x-cmd</strong>。朋友前司的产品，最开始只是想支持体验一下，发现确实满足我的需求，只需要很少的几个命令和配置就能实现一个多设备完全一样的开发环境，也使用 x-cmd 管理了我的 Go, Node.js 等开发环境，很省心。</li>
+<li><strong>fydeRhythm</strong>。我现在完全投入双拼，在搜索的时候发现了这一开源项目，作为一个 Chrome 插件安装到 ChromeOS 系统中，也能够在终端和各类应用中原生使用，几乎免配置；Linux 上我使用 fcitx-rime 配置，不过折腾了好久才搞定。</li>
+<li><strong>Cursor</strong>。有打包好的 AUR 包可以很方便在 ChromeOS 上一键安装，加上导入配置的功能，改了几个快捷键后完美还原体验。</li>
+<li><strong>Chrome</strong>。考虑为了一致体验从 Arc 切换回 Chrome 了，像是 Telegram、Slack、Discord、Follow 这些工作中用到的直接都使用网页版了。</li>
+<li><strong>Onedrive</strong>。因为没有了 iCloud，刚好利用上我的 Microsoft 365 带的 1T Onedrive 存储，用于文件传输和同步。</li>
+<li><strong>Google Play Store</strong>。Chromebook 很大的一个优势就是可以直接使用 Android 应用，还提供了一些优化，像是 Clash、HBO Max 这些应用都可以作为应用直接打开了。</li>
+</ol>
+<p><img src="https://image.pseudoyu.com/images/yu_chromebook__cursor.jpg" alt="yu_chromebook__cursor"></p>
+<p>我其实有很多高性能设备，例如日常在用的 M2 Max 的 MacBook Pro，由于性能和续航达到了一个很不错的平衡，导致我即使出门在外也随时都能打开来进入工作状态，甚至爬山和散步都会背着，有时候其实并不能很放松地出门或是陪伴身边的人，但我又有“电脑分离焦虑症”，不在手边的时候总是担心有什么紧急事务要处理而焦躁不安。</p>
+<p>这台 Chromebook 算是一个完美的方案，同时有满血版的 Chrome、Arch 和 Android 系统，性能不强、轻便好看，所有依赖浏览器的工作都完全能胜任，真的要调试工作项目的代码稍微有点卡但也能用，在缓解我焦虑的同时，每次有需求后也多了一步掂量一下，是不是真的紧急到我即使需要更费力地调试也要当下完成，绝大多数情况下我也都会选择等到家了换上主力设备了再处理。</p>
+<p>这一点很有意思，其实设备性能已经过剩到并不会制约自己的效率，反而是需要刻意的约束来让我的目光更多转向周遭。</p>
+<h2 id="zeabur-服务器">Zeabur 服务器</h2>
+<p>我算是 Serverless 平台的重度玩家和 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 的早期用户了，现在自己的很多服务依然部署在 Cloudflare Pages/Workers、<a href="https://fly.io/">fly.io</a> 和 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 平台上；同时之前也是各种 vps 的折腾爱好者，有好几台搬瓦工的传家宝，再加上前两年有点上头，又新添置了几台，导致利用率很低。</p>
+<p><img src="https://image.pseudoyu.com/images/zeabur_dedicated_servers.png" alt="zeabur_dedicated_servers"></p>
+<p>最近正好 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 支持了 Dedicated Server，利用 k3s 外加一些 monitor 服务能够在平台上直接使用自己的服务器进行部署，而关联 GitHub Repo、镜像 build、拉取等高消耗任务则是通过 Zeabur 来进行（目前都是免费的，不知道后面会不会按量计费），不占用服务器本身的资源。</p>
+<p>于是把我的 RSSHub 和 Node 节点等一系列服务直接迁移过来了，终于把月账单又控制在 Developer Plan 的 5 刀以内了。</p>
+<p>Zeabur 的模板也比较强大，我现在在维护 <a href="https://zeabur.com/templates/X46PTP?referralCode=pseudoyu">RSSHub 的 Zeabur 模板</a>，可以无须域名等额外配置，一键在 Zeabur 上部署自己的实例；顺便还把之前自己用的 <a href="https://zeabur.com/templates/IXQJVF?referralCode=pseudoyu">n8n</a>、<a href="https://zeabur.com/templates/P0N8GA?referralCode=pseudoyu">Remark42</a>、<a href="https://zeabur.com/templates/VN803S?referralCode=pseudoyu">GoatCounter</a> 等服务都做了模板，欢迎大家直接部署使用。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。并且把 Telegram Channel 消息作为内容源搭建了一个微博客 —— 「<a href="https://daily.pseudoyu.com/">daily.pseudoyu.com</a>」，可以更方便浏览了。</p>
+<h4 id="书籍">书籍</h4>
+<ul>
+<li><a href="https://book.douban.com/subject/35534519/"><strong>素食者</strong></a>，因为诺奖才了解到的作者，周末得闲才开始读，不长，只有三个篇章。看第一章的时候我正在吃饭（幸好是素食），作者把很多模糊的负面的感受描述得非常具体，以至于我有点反胃，很久都没缓过来，很难得有这样的感受了；后面的剧情走向略有点抽象，但确实加起来四种不同视角却相互关联的方式很奇妙。</li>
+<li><a href="https://book.douban.com/subject/26362836/"><strong>献给阿尔吉侬的花束</strong></a>，最开始的错字报告到后来智商跃升后对这个世界和身边人态度的变化的不解，到后来对自己作为一个“人”过去和现在的探索，再到最后的一切回到原点和结束。他用了几个月的时间快速经历和理解作为“人”的一生，很多人几十年甚至终其一生也没办法回头去接纳过去和真实的自己，无关智慧，只是重新拥有了思考这一能力的他就像是失明的人重新见到光一样珍惜。</li>
+<li><a href="https://book.douban.com/subject/35781152/"><strong>红与黑</strong></a>，从一个视频看到的讲解，关于于连的自尊和因此表现出来的傲慢的描述印象很深，有一种底层市民向上的野心，但由此产生的矛盾、自尊受挫后的疯狂和极端的转换描写得很具体。</li>
+<li><a href="https://book.douban.com/subject/37016658/"><strong>小城与不确定性的墙</strong></a>，读了前几章，感觉跟「世界尽头和冷酷仙境」的设定好相似。</li>
+</ul>
+<h4 id="文章">文章</h4>
+<ul>
+<li><a href="https://thirdshire.com/relationship/">从亲密关系中学到的</a></li>
+<li><a href="https://blog.nevinpjohn.in/posts/threads-api-public-authentication/">Threads API - How to authenticate, retrieve tokens</a></li>
+<li><a href="https://xuanwo.io/2020/05-go-error-handling/">(我的) Golang 错误处理最佳实践</a></li>
+<li><a href="https://blog.kalan.dev/posts/zeabur-review">Zeabur 使用心得分享</a></li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1xdSoYiEd8">新手如何从0开始拍出一条有趣的VLOG？｜拍摄&amp;剪辑的小技巧分享～</a></li>
+<li><a href="https://www.bilibili.com/video/BV1L31MYqESz">诺奖韩江【素食者】男性视角下的女性丢失了什么</a></li>
+<li><a href="https://www.bilibili.com/video/BV1BWSrYGEMs">作为中间派：聊聊杨笠与性别</a></li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li><a href="http://movie.douban.com/subject/35604181/"><strong>企鹅人</strong></a>，太精彩了。</li>
+</ul>
+]]></content:encoded></item><item><title>周报 #77 - 一间只属于自己的房间（对亲密关系的思考）</title><link>https://www.pseudoyu.com/zh/2024/10/30/weekly_review_202401030/</link><pubDate>Wed, 30 Oct 2024 08:42:00 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/10/30/weekly_review_202401030/</guid><description>《Photograph - Ed Sheeran》 前言 本篇是对 2024-10-21 到 2024-10-28 这周生活的记录与思考。 前两天读到了「第三夏尔 | Third Shire」写的一篇「从亲密关系</description><content:encoded><![CDATA[<figure >
     <audio controls preload="metadata">
         
         <source src="/audios/photograph.mp3" type="audio/mpeg">
@@ -8897,166 +8967,4 @@
 <p>所幸另一个 leader 楷哥很关注开源和技术底层这一部分，偶尔的交流也都为我指明了一些方向，还有很多需要去学习提升的，技术之路漫漫，任重而道远。</p>
 <h2 id="总结">总结</h2>
 <p>以上就是我在现在这个时间节点对于工作的一些总结，现在也渐渐享受于以这样的方式梳理、记录自己的生活、工作与心境，也希望在下一年回望正在经历的这一年时，能够看到自己更多改变与成长，共勉。</p>
-]]></content:encoded></item><item><title>通过状态锁在 Solidity 智能合约中实现两阶段提交</title><link>https://www.pseudoyu.com/zh/2022/07/01/two_phase_commit_contract_practice_in_solidity/</link><pubDate>Fri, 01 Jul 2022 10:54:57 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/07/01/two_phase_commit_contract_practice_in_solidity/</guid><description>《后来的我们 - 五月天》 前言 在一些牵扯到多个系统或合约交互的智能合约应用场景中，尤其是一些资产/数据准确性较为敏感的业务中，我们需要保证在整个</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p>在一些牵扯到多个系统或合约交互的智能合约应用场景中，尤其是一些资产/数据准确性较为敏感的业务中，我们需要保证在整个业务流程中数据的原子性。因此，我们需要在合约层面实现类似多阶段提交的机制，即将合约中的状态更改过程分解为预提交和正式提交两个阶段。</p>
-<p>本文通过状态锁的机制实现了一个最小化的两阶段提交模型，完整合约代码参见 <a href="https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol">TwoPhaseCommit.sol</a>，下文将对本合约核心逻辑进行讲解，并尽量遵循风格指南与最佳实践。</p>
-<blockquote>
-<p>注：本合约因初始场景主要考虑的是联盟链中的业务用途，未对 Gas fee 等进行特定优化，仅供学习参考。</p>
-</blockquote>
-<h2 id="合约逻辑">合约逻辑</h2>
-<h3 id="合约结构">合约结构</h3>
-<p>两阶段提交场景包含以下方法：</p>
-<ol>
-<li>set: 两阶段 - 预提交</li>
-<li>commit: 两阶段 - 正式提交</li>
-<li>rollback: 两阶段 - 回滚</li>
-</ol>
-<p>因 Solidity 语言对于字符串长度判断/比较等有一些限制，为了提升合约代码的可读性，本合约提供了部分辅助方法，主要包含以下方法：</p>
-<ol>
-<li>isValidKey: 检查 key 是否合法</li>
-<li>isValidValue: 检查 value 是否合法</li>
-<li>isEqualString: 比较两个字符串是否相等</li>
-</ol>
-<h3 id="两阶段提交核心逻辑">两阶段提交核心逻辑</h3>
-<p>在两阶段提交场景中，本合约提供了一套简易的 <code>set</code>, <code>commit</code>, <code>rollback</code> 方法实现，实现了将合约调用传入的 key-value 键值对存储到链上。我们通过状态锁的机制来实现跨链交易的原子性。我们定义了如下数据结构：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">enum</span> <span class="nc">State</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">UNLOCKED</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="n">LOCKED</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Payload</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">State</span> <span class="n">state</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="nb">value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="n">lockValue</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>其中，<code>State</code> 为枚举类型，记录了链上 key 值的锁定状态，而 <code>Payload</code> 结构则会对锁定状态、当前值与正在锁定的值进行存储，并通过如下 <code>mapping</code> 结构与 key 进行绑定：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">mapping</span> <span class="p">(</span><span class="kt">string</span> <span class="o">=&gt;</span> <span class="n">Payload</span><span class="p">)</span> <span class="n">keyToPayload</span><span class="p">;</span>
-</span></span></code></pre></div><p>因此，我们可以根据 <code>keyToPaylaod</code> 对合约调用中的每一个 key 进行状态跟踪，并在下述 <code>set</code>, <code>commit</code>, <code>rollback</code> 方法中对 key 的状态进行检查，进行一些异常处理。</p>
-<h4 id="set">set()</h4>
-<p>在 <code>set()</code> 方法中，我们会检查 key 的状态，如为 <code>State.LOCKED</code>，则不会进行存储并抛出异常：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">==</span> <span class="n">State</span><span class="p">.</span><span class="n">LOCKED</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsLocked</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>如为 <code>State.UNLOCKED</code>，则会将合约调用传入的值存储至 lockValue 中，并将其状态设置为 <code>LOCKED</code>，等待后续 <code>commit</code> 或 <code>rollback</code> 进行解锁。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">=</span> <span class="n">State</span><span class="p">.</span><span class="n">LOCKED</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">lockValue</span> <span class="o">=</span> <span class="n">_value</span><span class="p">;</span>
-</span></span></code></pre></div><h4 id="commit">commit()</h4>
-<p>在 <code>commit()</code> 方法中，我们会检查 key 的状态，如为 <code>State.UNLOCKED</code>，则不会对该 key 进行操作，并抛出异常：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">==</span> <span class="n">State</span><span class="p">.</span><span class="n">UNLOCKED</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsNotLocked</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>如为 <code>State.LOCKED</code>，我们检查合约调用传入的值是否与 lockValue 相等，如不相等，则抛出异常：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isEqualString</span><span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">lockValue</span><span class="p">,</span> <span class="n">_value</span><span class="p">))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsInconsistent</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>如值相等，则会将该 key 所对应的 value 存储上链，将 key 的状态设置为 <code>UNLOCKED</code>，更新当前值 <code>value</code>，同时将 <code>lockValue</code> 置空：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">store</span><span class="p">[</span><span class="n">_key</span><span class="p">]</span> <span class="o">=</span> <span class="n">_value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">=</span> <span class="n">State</span><span class="p">.</span><span class="n">UNLOCKED</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="nb">value</span> <span class="o">=</span> <span class="n">_value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">lockValue</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
-</span></span></code></pre></div><h4 id="rollback">rollback()</h4>
-<p>在 <code>rollback()</code> 方法中，我们会检查 key 的状态，如为 <code>State.UNLOCKED</code>，则不会对该 key 进行操作，并抛出异常：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">==</span> <span class="n">State</span><span class="p">.</span><span class="n">UNLOCKED</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsNotLocked</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>如为 <code>State.LOCKED</code>，我们检查合约调用传入的值是否与 lockValue 相等，如不相等，则抛出异常：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isEqualString</span><span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">lockValue</span><span class="p">,</span> <span class="n">_value</span><span class="p">))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsInconsistent</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>如值相等，则会将该 key 所对应的 value 存储上链，将 key 的状态设置为 <code>UNLOCKED</code>，并将 <code>lockValue</code> 置空：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">=</span> <span class="n">State</span><span class="p">.</span><span class="n">UNLOCKED</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">lockValue</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
-</span></span></code></pre></div><h3 id="错误处理逻辑">错误处理逻辑</h3>
-<p>在合约执行异常场景中，我们会抛出错误并进行回滚。为了更好地提升错误消息的可读性并方便上层应用人员进行错误捕获与处理，我们采用了错误类型定义的方式，定义了各类异常场景，因为我在错误命名中已经包含了大部分信息，所以未定义错误类型额外参数值，可以根据需求自行定制。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">error</span> <span class="n">TwoPhaseCommit__DataKeyIsNull</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">error</span> <span class="n">TwoPhaseCommit__DataValueIsNull</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">error</span> <span class="n">TwoPhaseCommit__DataIsNotExist</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">error</span> <span class="n">TwoPhaseCommit__DataIsLocked</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">error</span> <span class="n">TwoPhaseCommit__DataIsNotLocked</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">error</span> <span class="n">TwoPhaseCommit__DataIsInconsistent</span><span class="p">();</span>
-</span></span></code></pre></div><p>在具体合约逻辑中，我们通过 <code>revert</code> 方法抛出异常，如：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isValidKey</span><span class="p">(</span><span class="kt">bytes</span><span class="p">(</span><span class="n">_key</span><span class="p">)))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataKeyIsNull</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isValidValue</span><span class="p">(</span><span class="kt">bytes</span><span class="p">(</span><span class="n">_value</span><span class="p">)))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataValueIsNull</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">state</span> <span class="o">==</span> <span class="n">State</span><span class="p">.</span><span class="n">UNLOCKED</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsNotLocked</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isEqualString</span><span class="p">(</span><span class="n">keyToPayload</span><span class="p">[</span><span class="n">_key</span><span class="p">].</span><span class="n">lockValue</span><span class="p">,</span> <span class="n">_value</span><span class="p">))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsInconsistent</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="通用参数校验">通用参数校验</h3>
-<p>我们会对传入参数进行一些合法性校验，为了提供拓展性，我们通过 <code>isValidKey()</code> 与 <code>isValidValue()</code> 方法对 key 与 value 进行独立校验：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="cm">/**
-</span></span></span><span class="line"><span class="cl"><span class="cm"> * @notice 数据键格式校验
-</span></span></span><span class="line"><span class="cl"><span class="cm"> * @param _key 数据 - 键
-</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">isValidKey</span><span class="p">(</span><span class="kt">bytes</span> <span class="k">memory</span> <span class="n">_key</span><span class="p">)</span> <span class="k">private</span> <span class="k">pure</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">bytes</span> <span class="k">memory</span> <span class="n">key</span> <span class="o">=</span> <span class="n">_key</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">key</span><span class="p">.</span><span class="n">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="cm">/**
-</span></span></span><span class="line"><span class="cl"><span class="cm"> * @notice 数据值格式校验
-</span></span></span><span class="line"><span class="cl"><span class="cm"> * @param _value 数据 - 值
-</span></span></span><span class="line"><span class="cl"><span class="cm"> */</span>
-</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nf">isValidValue</span><span class="p">(</span><span class="kt">bytes</span> <span class="k">memory</span> <span class="n">_value</span><span class="p">)</span> <span class="k">private</span> <span class="k">pure</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">bytes</span> <span class="k">memory</span> <span class="nb">value</span> <span class="o">=</span> <span class="n">_value</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nb">value</span><span class="p">.</span><span class="n">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>本合约只进行了非空校验，可根据业务需要自行定制业务逻辑，在需要校验的地方调用即可，如：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isValidKey</span><span class="p">(</span><span class="kt">bytes</span><span class="p">(</span><span class="n">_key</span><span class="p">)))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataKeyIsNull</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isValidValue</span><span class="p">(</span><span class="kt">bytes</span><span class="p">(</span><span class="n">_value</span><span class="p">)))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataValueIsNull</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isValidValue</span><span class="p">(</span><span class="kt">bytes</span><span class="p">(</span><span class="n">store</span><span class="p">[</span><span class="n">_key</span><span class="p">])))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">revert</span> <span class="n">TwoPhaseCommit__DataIsNotExist</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="事件机制">事件机制</h3>
-<p>此外，我们定义了核心方法对应的 event，并为事件设置了 indexed 以方便上层应用进行监听和处理。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">setEvent</span><span class="p">(</span><span class="kt">string</span> <span class="k">indexed</span> <span class="n">key</span><span class="p">,</span> <span class="kt">string</span> <span class="k">indexed</span> <span class="nb">value</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">getEvent</span><span class="p">(</span><span class="kt">string</span> <span class="k">indexed</span> <span class="n">key</span><span class="p">,</span> <span class="kt">string</span> <span class="k">indexed</span> <span class="nb">value</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">commitEvent</span><span class="p">(</span><span class="kt">string</span> <span class="k">indexed</span> <span class="n">key</span><span class="p">,</span> <span class="kt">string</span> <span class="k">indexed</span> <span class="nb">value</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="kd">event</span> <span class="nc">rollbackEvent</span><span class="p">(</span><span class="kt">string</span> <span class="k">indexed</span> <span class="n">key</span><span class="p">,</span> <span class="kt">string</span> <span class="k">indexed</span> <span class="nb">value</span><span class="p">);</span>
-</span></span></code></pre></div><p>在合约方法中通过 <code>emit()</code> 方法抛出 event，如：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-solidity" data-lang="solidity"><span class="line"><span class="cl"><span class="n">emit</span> <span class="n">setEvent</span><span class="p">(</span><span class="n">_key</span><span class="p">,</span> <span class="n">_value</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">emit</span> <span class="n">getEvent</span><span class="p">(</span><span class="n">_key</span><span class="p">,</span> <span class="n">_value</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">emit</span> <span class="n">commitEvent</span><span class="p">(</span><span class="n">_key</span><span class="p">,</span> <span class="n">_value</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">emit</span> <span class="n">rollbackEvent</span><span class="p">(</span><span class="n">_key</span><span class="p">,</span> <span class="n">_value</span><span class="p">);</span>
-</span></span></code></pre></div><h2 id="总结">总结</h2>
-<p>以上就是我两阶段提交合约的一个最佳实践，关于 Solidity 基础语法可参看『<a href="https://www.pseudoyu.com/zh/2022/05/25/learn_solidity_from_scratch_basic/">Solidity 智能合约开发 - 基础</a>』，后续我还会对更多合约场景进行实践与讲解，敬请关注。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://github.com/pseudoyu/learn-solidity/blob/master/practice/two_phase_commit/TwoPhaseCommit.sol">TwoPhaseCommit.sol 合约源码</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/25/learn_solidity_from_scratch_basic/">Solidity 智能合约开发 - 基础</a></li>
-<li><a href="https://docs.soliditylang.org/en/v0.8.15/">Solidity 官方文档</a></li>
-</ol>
-</blockquote>
 ]]></content:encoded></item></channel></rss>
