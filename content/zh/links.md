@@ -41,6 +41,7 @@ rss_ignore: true
 {{< friend name="1xdali's SPACE²⁰²⁴" url="https://turkeys-rest-n5a.craft.me/blog" logo="https://res.craft.do/userprofile/3ebf6a21-726e-e6f8-1395-9b43d4b87e9c/profileimage/BA1F6BC3-A2E4-45EB-9001-07C4FDFC0B78_3/cREjxarQYpzJiOr4y8jav0gK7jv1j0vqG08QdxIphKIz" word="🧑‍🎨 生活艺术家" >}}
 {{< friend name="Rene Wang 的个人网站" url="https://rene.wang" logo="https://avatars.githubusercontent.com/u/52880665?s=80&u=db4333e440306a141437e56e272cc75eb233f7db&v=4" word="知识产出和一些随笔" >}}
 {{< friend name="第三夏尔" url="https://thirdshire.com" logo="https://thirdshire.com/blackcat_avatar.jpg" word="认真生活，积极摸鱼" >}}
+{{< friend name="cosの博客" url="https://ysx.cosine.ren/" logo="https://ysx.cosine.ren/img/avatar.jpg" word="WA的一声就哭了" >}}
 
 </div>
 </div>
@@ -56,4 +57,4 @@ rss_ignore: true
 > - **名称:** Pseudoyu
 > - **地址:** <https://www.pseudoyu.com>
 > - **头像:** <https://www.pseudoyu.com/images/author.webp>
-> - **描述:** 区块链开发工程师，喜欢探索新技术
+> - **描述:** Blockchain | Programming | Photography | Boyi
