@@ -36,7 +36,7 @@ rss_ignore: true
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://image.pseudoyu.com/images/lzzmm_avatar.jpg" word="Tag für Tag, es muss Fortschritt geben" >}}
 {{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar_new.png" word="Java-Entwickler" >}}
 {{< friend name="果汁的博客" url="https://jusu.me/" logo="https://image.pseudoyu.com/images/jusu_avatar.jpg" word="Eine sehr langweilige Person`)" >}}
-{{< friend name="Mitcher" url="https://www.huang-zifeng.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word="20 Jahre alt, ein Student" >}}
+{{< friend name="Kowyo" url="https://kowyo.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word="当下将至的旅程" >}}
 {{< friend name="码砖猿" url="https://codebrickape.lhzzs.top/" logo="https://codebrickape.lhzzs.top/images/author.png" word="Bleib hungrig. Bleib töricht." >}}
 {{< friend name="1xdali's SPACE²⁰²⁴" url="https://turkeys-rest-n5a.craft.me/blog" logo="https://res.craft.do/userprofile/3ebf6a21-726e-e6f8-1395-9b43d4b87e9c/profileimage/BA1F6BC3-A2E4-45EB-9001-07C4FDFC0B78_3/cREjxarQYpzJiOr4y8jav0gK7jv1j0vqG08QdxIphKIz" word="🧑‍🎨 Lebenskünstler" >}}
 {{< friend name="Rene Wang 的个人网站" url="https://rene.wang" logo="https://avatars.githubusercontent.com/u/52880665?s=80&u=db4333e440306a141437e56e272cc75eb233f7db&v=4" word="知识产出和一些随笔" >}}
