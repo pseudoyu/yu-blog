@@ -13,7 +13,7 @@
 <h3 id="rsshub万物皆可-rss">RSSHub：万物皆可 RSS</h3>
 <p><img src="https://image.pseudoyu.com/images/rsshub_homepage.png" alt="rsshub_homepage"></p>
 <p>RSSHub 是由「<a href="https://github.com/DIYgod">DIYgod</a>」发起的一个开源项目，其初衷是“万物皆可 RSS”，通过社区贡献，将 Bilibili 视频、网易云音乐、小宇宙播客、即刻用户动态等图片、音视频、社交媒体网站甚至是 App 中的信息转为标准的 RSS 格式。</p>
-<p>借助 RSSHub，我们可以把自己习惯性会打开的社交媒体或是关注的各种平台账号都转换为「订阅」这一简单的行为，即可自动获取更新并阅读，减少了算法推荐与信息的干扰，提取信息的效率也会更高。</p>
+<p>借助 RSSHub，我们可以把自己习惯性会打开的社交媒体或是关注的各种平台账号都转换为「订阅」这一简单的行为，即可自动获取更新，减少了算法推荐与信息的干扰，提取信息的效率也会更高。</p>
 <p>然而，RSSHub 终究还是更中间层一点的工具，即使有了标准的 RSS 数据，大部分阅读器依然只能处理文本显示，对于音视频图片的处理基本上只停留在当作一个 url 这一程度，依然需要点击源链接跳转到对应的网页查看，使用起来常常有些割裂。</p>
 <p>直到 Follow 的出现。</p>
 <h3 id="rsshub---follow新一代信息浏览器">RSSHub -&gt; Follow：新一代信息浏览器</h3>
