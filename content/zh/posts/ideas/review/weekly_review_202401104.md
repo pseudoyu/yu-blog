@@ -36,7 +36,7 @@ authors:
 
 ![yu_chromebook_setup](https://image.pseudoyu.com/images/yu_chromebook_setup.png)
 
-两年多前在重温 Teahour 的这期「[#95 - 用 Chromebook 做开发是什么样的体验？](https://teahour.fm/95)」时对瘦客户端开发模式很是着迷，自己还写了一篇「[基于 frp 内网穿透的瘦客户端开发工作流」来实践](https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)」，顺便也种草了 Chromebook 这一国内并不流行的设备，入了一台 2019 款的 Google Pixbook Go（产品线很快就被 Google 砍掉了，所以倒是有点纪念意义的最后一代）。
+两年多前在重温 Teahour 的这期「[#95 - 用 Chromebook 做开发是什么样的体验？](https://teahour.fm/95)」时对瘦客户端开发模式很是着迷，自己还写了一篇「[基于 frp 内网穿透的瘦客户端开发工作流](https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/)」来实践，顺便也种草了 Chromebook 这一国内并不流行的设备，入了一台 2019 款的 Google Pixbook Go（产品线很快就被 Google 砍掉了，所以倒是有点纪念意义的最后一代）。
 
 但其实因为后来远程办公以及依赖了很多 macOS 专属的软件，这台设备的利用率一直很低，最近在清迈看另一个 mentor 把自己的 Chromebook 刷了 [Pop!_OS](https://pop.system76.com/)，很酷，于是想着回来折腾一下。
 
@@ -70,7 +70,7 @@ authors:
 
 于是把我的 RSSHub 和 Node 节点等一系列服务直接迁移过来了，终于把月账单又控制在 Developer Plan 的 5 刀以内了。
 
-Zeabur 的模板也比较强大，我现在在维护 [RSSHub 的 Zeabur 模板](https://zeabur.com/templates/X46PTP?referralCode=pseudoyu)，可以无须域名等额外配置，一键在 Zeabur 上部署自己的实例；顺便还把之前自己用的 [n8n](https://zeabur.com/templates/IXQJVF?referralCode=pseudoyu)、[Remark42](https://zeabur.com/templates/P0N8GA?referralCode=pseudoyu)、[GoatCounter](https://zeabur.com/templates/VN803S?referralCode=pseudoyu) 等服务都做了模板，欢迎大家直接部署使用。
+Zeabur 的模板也比较强大，我现在在维护 [RSSHub 的 Zeabur 模板](https://zeabur.com/templates/X46PTP?referralCode=pseudoyu)，可以无须域名等额外配置，一键部署自己的实例；顺便还把之前自己用的 [n8n](https://zeabur.com/templates/IXQJVF?referralCode=pseudoyu)、[Remark42](https://zeabur.com/templates/P0N8GA?referralCode=pseudoyu)、[GoatCounter](https://zeabur.com/templates/VN803S?referralCode=pseudoyu) 等服务都做了模板，欢迎大家直接部署使用。
 
 ## 有趣的事与物
 
