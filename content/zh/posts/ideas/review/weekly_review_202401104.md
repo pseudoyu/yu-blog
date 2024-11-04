@@ -28,9 +28,9 @@ authors:
 
 再加上自己有个 Mac Studio，平时也都是长期开机的，配合上公网 ip 和 Cloudflare Argo Tunnel，其实也已经满足了绝大多数的家用服务需求了。不过由于系统架构的限制等，我在配置 HomeAssistant 的时候网络配置总是有一些奇怪的问题。
 
-有一次跟 Ares 聊到 NAS 的时候，他提到有个自己组好的 NAS 可以出给我（他自己已经迭代了），很是心动，于是找了一个周末来我家里配置完成了，有了技术支持自己少走了无数弯路，一切都完美 work 了。
+有一次跟 Ares 聊的时候，他提到有个自己组好的 NAS 可以出给我（他自己已经迭代了），很是心动，于是找了一个周末来我家里配置完成了，有了技术支持自己少走了无数弯路，一切都完美 work 了。
 
-四盘位（8T 存储外加 8T 的备份），任意热插拔掉两个盘位依然可以正常运作，把之前网盘里的一些照片和影响资料迁移了过来；用的是 [openmediavault](https://www.openmediavault.org/) 这一界面有些古老但是完全够用的系统；使用 Portainer 管理了一些 Docker 服务，16G 内存也基本够用。
+四盘位（8T 存储外加 8T 的备份），任意热插拔掉两个盘位依然可以正常运作，把之前网盘里的一些照片和影像资料迁移了过来；用的是 [openmediavault](https://www.openmediavault.org/) 这一界面有些古老但是完全够用的系统；使用 Portainer 管理了一些 Docker 服务，16G 内存也基本够用。
 
 ## Chromebook 与 Arch Linux
 
