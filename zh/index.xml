@@ -18,7 +18,7 @@
 <p>四盘位（8T 存储外加 8T 的备份），任意热插拔掉两个盘位依然可以正常运作，把之前网盘里的一些照片和影响资料迁移了过来；用的是 <a href="https://www.openmediavault.org/">openmediavault</a> 这一界面有些古老但是完全够用的系统；使用 Portainer 管理了一些 Docker 服务，16G 内存也基本够用。</p>
 <h2 id="chromebook-与-arch-linux">Chromebook 与 Arch Linux</h2>
 <p><img src="https://image.pseudoyu.com/images/yu_chromebook_setup.png" alt="yu_chromebook_setup"></p>
-<p>两年多前在重温 Teahour 的这期「<a href="https://teahour.fm/95">#95 - 用 Chromebook 做开发是什么样的体验？</a>」时对瘦客户端开发模式很是着迷，自己还写了一篇「<a href="https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/">基于 frp 内网穿透的瘦客户端开发工作流</a>)」来实践，顺便也种草了 Chromebook 这一国内并不流行的设备，入了一台 2019 款的 Google Pixbook Go（产品线很快就被 Google 砍掉了，所以倒是有点纪念意义的最后一代）。</p>
+<p>两年多前在重温 Teahour 的这期「<a href="https://teahour.fm/95">#95 - 用 Chromebook 做开发是什么样的体验？</a>」时对瘦客户端开发模式很是着迷，自己还写了一篇「<a href="https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/">基于 frp 内网穿透的瘦客户端开发工作流</a>」来实践，顺便也种草了 Chromebook 这一国内并不流行的设备，入了一台 2019 款的 Google Pixbook Go（产品线很快就被 Google 砍掉了，所以倒是有点纪念意义的最后一代）。</p>
 <p>但其实因为后来远程办公以及依赖了很多 macOS 专属的软件，这台设备的利用率一直很低，最近在清迈看另一个 mentor 把自己的 Chromebook 刷了 <a href="https://pop.system76.com/">Pop!_OS</a>，很酷，于是想着回来折腾一下。</p>
 <p><img src="https://image.pseudoyu.com/images/btw_i_use_arch.png" alt="btw_i_use_arch"></p>
 <p>本来也是想彻底刷成其他 Linux 发行版的，升级了一下发现 ChromeOS 的 UI 和各类交互很舒服，折腾了一下把内置的 Debian 系统换成了 Arch 也很足够我对于 Linux 的需求，不那么“正统”但够用，折腾了一天，达到了很惊喜的体验，用了几个跨平台的方案保障体验几乎是一致的了。</p>
