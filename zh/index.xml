@@ -40,7 +40,7 @@
 <p><img src="https://image.pseudoyu.com/images/zeabur_dedicated_servers.png" alt="zeabur_dedicated_servers"></p>
 <p>最近正好 <a href="https://zeabur.com?referralCode=pseudoyu">Zeabur</a> 支持了 Dedicated Server，利用 k3s 外加一些 monitor 服务能够在平台上直接使用自己的服务器进行部署，而关联 GitHub Repo、镜像 build、拉取等高消耗任务则是通过 Zeabur 来进行（目前都是免费的，不知道后面会不会按量计费），不占用服务器本身的资源。</p>
 <p>于是把我的 RSSHub 和 Node 节点等一系列服务直接迁移过来了，终于把月账单又控制在 Developer Plan 的 5 刀以内了。</p>
-<p>Zeabur 的模板也比较强大，我现在在维护 <a href="https://zeabur.com/templates/X46PTP?referralCode=pseudoyu">RSSHub 的 Zeabur 模板</a>，可以无须域名等额外配置，一键在 Zeabur 上部署自己的实例；顺便还把之前自己用的 <a href="https://zeabur.com/templates/IXQJVF?referralCode=pseudoyu">n8n</a>、<a href="https://zeabur.com/templates/P0N8GA?referralCode=pseudoyu">Remark42</a>、<a href="https://zeabur.com/templates/VN803S?referralCode=pseudoyu">GoatCounter</a> 等服务都做了模板，欢迎大家直接部署使用。</p>
+<p>Zeabur 的模板也比较强大，我现在在维护 <a href="https://zeabur.com/templates/X46PTP?referralCode=pseudoyu">RSSHub 的 Zeabur 模板</a>，可以无须域名等额外配置，一键部署自己的实例；顺便还把之前自己用的 <a href="https://zeabur.com/templates/IXQJVF?referralCode=pseudoyu">n8n</a>、<a href="https://zeabur.com/templates/P0N8GA?referralCode=pseudoyu">Remark42</a>、<a href="https://zeabur.com/templates/VN803S?referralCode=pseudoyu">GoatCounter</a> 等服务都做了模板，欢迎大家直接部署使用。</p>
 <h2 id="有趣的事与物">有趣的事与物</h2>
 <h3 id="输入">输入</h3>
 <p>虽然大部分有意思的输入会在 「<a href="https://t.me/pseudoyulife">Yu&rsquo;s Life</a>」 Telegram 频道里自动同步，不过还是挑选一部分在这里列举一下，感觉更像一个 newsletter 了。并且把 Telegram Channel 消息作为内容源搭建了一个微博客 —— 「<a href="https://daily.pseudoyu.com/">daily.pseudoyu.com</a>」，可以更方便浏览了。</p>
