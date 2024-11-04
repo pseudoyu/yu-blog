@@ -7,7 +7,7 @@
 <h3 id="rss-协议互联网的活化石">RSS 协议：互联网的活化石</h3>
 <p>在讲 Follow 之前，我想先介绍一下与之密切相关的 RSS 协议。</p>
 <p>RSS (Really Simple Syndication) 是一种能够将网站内容转换为标准数据格式，最早版本诞生于 1999 年，几乎可以算得上是互联网活化石了。</p>
-<p>简而言之，它制定了一个包含了 <code>title</code>、<code>link</code>、<code>description</code>、<code>author</code> 与 <code>pubDate</code> 等核心字段的协议标准，采纳并实现了这一标准的网站则可以输出统一的格式以供一些阅读器或代码进行解析，例如可以通过 <a href="https://sspai.com/feed">https://sspai.com/feed</a> 这一链接来获取网站的最新更新；而支持 RSS 阅读器就像是一本自带目录的刊物，里面收录着来自不同网站和作者的内容，方便我们进行阅读。</p>
+<p>简而言之，它制定了一个包含了 <code>title</code>、<code>link</code>、<code>description</code>、<code>author</code> 与 <code>pubDate</code> 等核心字段的协议标准，采纳并实现了这一标准的网站则可以输出统一的格式以供一些阅读器或代码进行解析，例如可以通过 <a href="https://sspai.com/feed">https://sspai.com/feed</a> 这一链接来获取网站的最新更新；而支持 RSS 的阅读器就像是一本自带目录的刊物，里面收录着来自不同网站和作者的内容，方便我们进行阅读。</p>
 <p>但随着移动互联网的发展、社交媒体和音视频等媒体形式的兴起以及网站出于对平台用户流量的保护，支持 RSS 协议的网站越来越少，这一概念也有些式微，慢慢淡出了普通用户的视野，成为了一些爱好者和极客的玩具。</p>
 <p>直到 <a href="https://github.com/DIYgod/RSSHub">RSSHub</a> 这一项目的出现。</p>
 <h3 id="rsshub万物皆可-rss">RSSHub：万物皆可 RSS</h3>
