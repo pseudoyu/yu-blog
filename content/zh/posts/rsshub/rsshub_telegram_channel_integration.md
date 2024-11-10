@@ -12,7 +12,7 @@ authors:
 
 最近在参与 [Follow](https://follow.is/) 以及 [RSSHub](https://github.com/DIYgod/RSSHub) 这两个开源项目的一些开发维护工作，因为牵扯到与很多订阅源的“斗智斗勇”，有一些很有意思的开发实践，于是开了这个新坑系列记录下来。
 
-本篇是这几周使用使用 Telegram 官方 API 与 MTProxy 来实现对 TG 频道更新的开发实践与完整配置部署教程。
+本篇是这几周使用 Telegram 官方 API 与 MTProxy 来实现对 TG 频道更新的开发实践与完整配置部署教程。
 
 ## RSSHub
 
