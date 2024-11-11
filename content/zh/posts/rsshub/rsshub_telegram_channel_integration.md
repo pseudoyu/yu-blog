@@ -2,7 +2,7 @@
 title: "RSSHub 开发实践 #01：Telegram 频道 RSS 订阅实现与部署方案"
 date: 2024-11-09T12:46:16+08:00
 draft: true
-tags: ["RSSHub", "Telegram", "API", "MTProxy", "proxy", "network", "tools"]
+tags: ["rsshub", "telegram", "api", "mtproxy", "proxy", "network", "tools"]
 categories: ["Programming"]
 authors:
 - "pseudoyu"
