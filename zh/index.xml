@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 04 Nov 2024 15:20:39 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>Follow —— 信息获取的另一种形态</title><link>https://www.pseudoyu.com/zh/2024/11/04/follow_information_acquisition_revolution/</link><pubDate>Mon, 04 Nov 2024 15:20:39 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/04/follow_information_acquisition_revolution/</guid><description>前言 我在三个月前作为第一批用户体验到了 Follow 这一产品，很兴奋，使用了一周后就写了一篇文章「周报 #67 - 使用 follow 重塑我的信息输入系统」分享了对 Follow 的一些想</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pseudoyu</title><link>https://www.pseudoyu.com/zh/</link><description>Recent content on Pseudoyu</description><follow_challenge><feedId>41215011978385440</feedId><userId>41229460898486272</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 18 Nov 2024 17:30:16 +0800</lastBuildDate><atom:link href="https://www.pseudoyu.com/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>RSSHub 开发实践 #01：Telegram 频道 RSS 订阅实现与部署方案</title><link>https://www.pseudoyu.com/zh/2024/11/18/rsshub_telegram_channel_integration/</link><pubDate>Mon, 18 Nov 2024 17:30:16 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/18/rsshub_telegram_channel_integration/</guid><description>前言 最近在参与 Follow 以及 RSSHub 这两个开源项目的一些开发维护工作，因为牵扯到与很多订阅源的“斗智斗勇”，有一些很有意思的开发实践，于是开了这个新坑系列</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>最近在参与 <a href="https://follow.is/">Follow</a> 以及 <a href="https://github.com/DIYgod/RSSHub">RSSHub</a> 这两个开源项目的一些开发维护工作，因为牵扯到与很多订阅源的“斗智斗勇”，有一些很有意思的开发实践，于是开了这个新坑系列记录下来。</p>
+<p>本篇是这几周使用 Telegram 官方 API 与 MTProxy 来实现对 TG 频道更新的开发实践与完整配置部署教程。</p>
+<h2 id="follow--rsshub">Follow &amp; RSSHub</h2>
+<p><img src="https://image.pseudoyu.com/images/follow_telegram_channel.png" alt="follow_telegram_channel"></p>
+<p>Follow 中提供了一种便捷的订阅信息源的方式，例如用户可以输入对应的 Telegram 频道名称来订阅某个频道的更新，这样就无须跳转到各个频道里去逐个查看，这一部分特性依赖的是背后 RSSHub 的实现。</p>
+<p><img src="https://image.pseudoyu.com/images/rsshub_homepage.png" alt="rsshub_homepage"></p>
+<p>RSS (Really Simple Syndication) 是一个古早的信息聚合标准，它通过统一的数据格式，让用户能够便捷地订阅和获取网站更新。然而，随着社交媒体和移动互联网的兴起，原生支持 RSS 的网站正在减少。</p>
+<p>而 RSSHub 秉持着&quot;万物皆可 RSS&quot;的理念，通过开源社区的力量将包括 Telegram、YouTube、播客在内的众多现代内容平台转换为标准的 RSS 格式，让用户能够重新掌控自己的信息获取方式，远离算法推荐的干扰。</p>
+<p>RSSHub 中现在包含了上千个平台，针对不同平台和类别也都有着包括但不限于网页爬虫、官方接口、逆向 API 调用等多种处理方式，能够涵盖绝大多数我们日常使用到的信息源，也非常适合作为对平台的一些加密算法和反爬机制学习的实践，例如下文所要介绍的 Telegram 频道 RSS 订阅的实现。</p>
+<h2 id="rsshub-telegram-集成与部署">RSSHub Telegram 集成与部署</h2>
+<h3 id="telegram-网页预览">Telegram 网页预览</h3>
+<p><img src="https://image.pseudoyu.com/images/yu_channel_online_preview.png" alt="yu_channel_online_preview"></p>
+<p>由于 Telegram 提供了频道的网页预览功能，例如可以通过 <a href="https://t.me/s/pseudoyulife">t.me/s/pseudoyulife</a> 这一链接直接查看我自己频道的更新，因此 RSSHub 很早之前就实现了通过抓取网页上的内容并转换为 RSS 格式的方式集成了对 Telegram 频道更新的订阅。</p>
+<p><img src="https://image.pseudoyu.com/images/telegram_channel_reorx_preview.png" alt="telegram_channel_reorx_preview"></p>
+<p>然而后来许多用户反馈说部分频道抓不到，去测试了一下，发现 Telegram 用一种黑盒的机制来限制了部分频道的网页预览功能，例如我一直在订阅的「<a href="https://t.me/s/reorx_share">Reorx’s Forge</a>」以及「<a href="https://t.me/s/NewlearnerChannel">Newlearnerの自留地</a>」等频道，当使用 <code>/s</code> 来访问页面时会被强制重定向，提示需要打开客户端来查看内容，因此对于这类频道我们没办法直接抓取到内容并转化为 RSS。</p>
+<h3 id="telegram-apis">Telegram APIs</h3>
+<p>为了解决这一问题， 我又去查了 Telegram 的官方文档，发现他们将 API 分为以下几种：</p>
+<ul>
+<li><a href="https://core.telegram.org/api#bot-api">Bot API</a></li>
+<li><a href="https://core.telegram.org/api#tdlib-build-your-own-telegram">TDLib</a></li>
+<li><a href="https://core.telegram.org/api#gateway-api">Gateway API</a></li>
+<li><a href="https://core.telegram.org/api#telegram-api">Telegram API</a></li>
+</ul>
+<p>其中 Telegram API 中的有一个 <a href="https://core.telegram.org/method/channels.getMessages">channels.getMessages</a> 方法可以返回某个频道的消息，可以满足我们的需求，具体的实现逻辑在 RSSHub 代码仓库 —— <a href="https://github.com/DIYgod/RSSHub/blob/master/lib/routes/telegram/channel.ts">lib/routes/telegram/channel.ts</a> 和 <a href="https://github.com/DIYgod/RSSHub/tree/master/lib/routes/telegram/tglib">lib/routes/telegram/tglib</a> 这两部分，有兴趣的朋友可以看一下代码。</p>
+<h4 id="创建-telegram-app">创建 Telegram App</h4>
+<p><img src="https://image.pseudoyu.com/images/manage_telegram_application.png" alt="manage_telegram_application"></p>
+<p>使用 Telegram API 需要访问 <a href="https://my.telegram.org/">telegram core</a>，通过手机号登录。</p>
+<p><img src="https://image.pseudoyu.com/images/api_development_config.png" alt="api_development_config"></p>
+<p>点击 API development tools 模块，创建一个 Telegram Application（详见「<a href="https://core.telegram.org/api/obtaining_api_id">Creating your Telegram Application</a>」）。</p>
+<p><img src="https://image.pseudoyu.com/images/telegram_api_id_hash.png" alt="telegram_api_id_hash"></p>
+<p>在 App configuration 模块，我们能够获取到 <code>api_id</code>、<code>api_hash</code> 两个参数，记录下值，后续会用到。</p>
+<h4 id="获取-telegram-session">获取 Telegram Session</h4>
+<p>使用 Telegram API 新建一个 client 的流程比较严格，需要通过 SMS 验证手机号登录，在代码中交互获取使用并不现实，因为我们需要预先创建 client 并且获取其 session，后续直接通过 session 来使用 api。</p>
+<p><img src="https://image.pseudoyu.com/images/get_telegram_session.png" alt="get_telegram_session"></p>
+<p>拉取脚本「<a href="https://github.com/pseudoyu/telegram-api-scripts">pseudoyu/telegram-api-scripts</a>」后，先运行 <code>npm i</code> 或 <code>pnpm i</code> 安装依赖，然后运行 <code>npm run start</code> 或 <code>node index.js</code>，按照提示输入 <code>api_id</code> 和 <code>api_hash</code> 和手机号（需要和申请 Telegram App 时的手机号一致），通过短信或 Telegram App 获取验证码后即可在命令行输出获取 session。</p>
+<p>需要注意的是，由于我们后续需要在 RSSHub 服务中使用这个 session，尽量在 RSSHub 服务部署的同一服务器上运行脚本获取 session，这样能避免 Telegram 对于 IP、设备的一些限制。</p>
+<blockquote>
+<p>注：如果 RSSHub 是使用的 Serverless 平台或其他方式，则也可以通过额外配置 MTProxy 的方式来保持 IP 一致，后文会详细说明。</p>
+</blockquote>
+<h4 id="可选-使用-mtproxy-保持-ip-一致">（可选） 使用 MTProxy 保持 IP 一致</h4>
+<p>之前在 Follow 的 RSSHub 实例上添加了 Telegram API 相关逻辑和配置后，过一会儿就会报一个 <code>AuthKeyDuplicatedError</code> 错误，查看了一下很多开发者也遇到过 —— 「<a href="https://github.com/LonamiWebs/Telethon/issues/1488">AuthKeyDuplicatedError Eror problem #1488</a>」，猜测是由于我们的 RSSHub 实例是 k8s 集群部署的，会从不同的机器调用 Telegram API，因而受到了一些限制。</p>
+<p>于是又开始找针对这一情况的解决方案，发现 Telegram 提供了一种叫 MTProxy 的专属代理协议，可以通过部署一个 MTProxy Server 来代理所有的 API 请求，这样能够保障不同机器发送的请求都来自同一个 IP。</p>
+<p>找到了「<a href="https://github.com/Dofamin/MTProxy-Docker">Dofamin/MTProxy-Docker</a>」这个项目，拉取仓库后，新建一个 <code>.env</code> 文件，添加这一环境变量（默认的官方代码已经不怎么维护，这个版本添加了一些补丁）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">MTPROTO_REPO_URL=https://github.com/GetPageSpeed/MTProxy
+</span></span></code></pre></div><p><code>SECRET</code> 也可以选择自定义的值，<code>IP</code> 不填写则会自动通过 <code>curl ifconfig.co</code> 获取本机 IP，其他环境变量可以查看仓库的 <code>README.md</code> 文件自行修改。</p>
+<p>配置完成后，运行 <code>docker compose up -d</code> 启动，代理服务则运行在 <code>&lt;IP&gt;:8443</code> 上。</p>
+<blockquote>
+<p>注：如果 RSSHub 是通过 Docker、Docker Compose 等方式单实例进行部署，且能够保障在同一台部署机器上运行脚本获取 Session，则可以跳过这个代理步骤。</p>
+</blockquote>
+<h3 id="rsshub-部署">RSSHub 部署</h3>
+<p>经过了上述的服务部署，我们获取了以下信息：</p>
+<ul>
+<li>Telegram API 的 <code>api_id</code> 和 <code>api_hash</code></li>
+<li>Telegram 的 <code>session</code> 字符串</li>
+<li>MTProxy 的 <code>SECRET</code>、<code>IP</code>、<code>PORT</code></li>
+</ul>
+<p>这时可以开始部署/更新我们的 RSSHub 实例了，具体可以根据<a href="https://docs.rsshub.app/deploy/">文档</a>选择不同的方式，例如 Docker、Docker Compose、Serverless 等。</p>
+<p>推荐通过 Docker Compose 的方式来部署，比较便于维护，需要在 <code>docker-compose.yml</code> 中添加如下变量：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_API_ID=&lt;Telegram API ID&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_API_HASH=&lt;Telegram API Hash&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_SECRET=&lt;MTProxy SECRET&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_SESSION=&lt;Telegram Session&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_HOST=&lt;MTProxy IP，如 123.123.123.123&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_PORT=8443</span><span class="w">
+</span></span></span></code></pre></div><p>我是通过自己维护的<a href="https://zeabur.com/templates/X46PTP?referralCode=pseudoyu">模板</a>部署在 Zeabur 平台上的，可视化部署，比较易用，只需要在部署完成后在 <code>Variables</code> 模块中添加以下变量并重启服务即可生效：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">TELEGRAM_API_ID=&lt;Telegram API ID&gt;
+</span></span><span class="line"><span class="cl">TELEGRAM_API_HASH=&lt;Telegram API Hash&gt;
+</span></span><span class="line"><span class="cl">TELEGRAM_PROXY_SECRET=&lt;MTProxy SECRET&gt;
+</span></span><span class="line"><span class="cl">TELEGRAM_SESSION=&lt;Telegram Session&gt;
+</span></span><span class="line"><span class="cl">TELEGRAM_PROXY_HOST=&lt;MTProxy IP，如 123.123.123.123&gt;
+</span></span><span class="line"><span class="cl">TELEGRAM_PROXY_PORT=8443
+</span></span></code></pre></div><h4 id="测试">测试</h4>
+<p><img src="https://image.pseudoyu.com/images/yu_rsshub_homepage.png" alt="yu_rsshub_homepage"></p>
+<p>经过上述步骤后，我们拥有了自己添加了 Telegram 相关配置的 RSSHub 实例，访问主页显示如上页面即部署成功，可以通过 <code>&lt;RSSHub URL&gt;/telegram/channel/&lt;Channel Name&gt;</code> 来订阅 Telegram 频道。</p>
+<p>例如可以通过我的公开实例 <a href="https://rsshub.pseudoyu.com/telegram/channel/NewlearnerChannel">https://rsshub.pseudoyu.com/telegram/channel/NewlearnerChannel</a> 来订阅「<a href="https://t.me/s/NewlearnerChannel">Newlearnerの自留地</a>」频道。</p>
+<h2 id="总结">总结</h2>
+<p>本篇记录了通过 Telegram API 在 RSSHub 中实现对部分受限制频道的更新订阅的开发实践与部署方案，受限于平台，方案可能会在未来某个时刻失效，我们也会持续研究更稳定的解决方案，使用中有任何问题可以留言或在 RSSHub 仓库中提 Issue 反馈/交流。</p>
+]]></content:encoded></item><item><title>Follow —— 信息获取的另一种形态</title><link>https://www.pseudoyu.com/zh/2024/11/04/follow_information_acquisition_revolution/</link><pubDate>Mon, 04 Nov 2024 15:20:39 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2024/11/04/follow_information_acquisition_revolution/</guid><description>前言 我在三个月前作为第一批用户体验到了 Follow 这一产品，很兴奋，使用了一周后就写了一篇文章「周报 #67 - 使用 follow 重塑我的信息输入系统」分享了对 Follow 的一些想</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p><img src="https://image.pseudoyu.com/images/follow_artitle_pic.png" alt="follow_artitle_pic"></p>
 <p>我在三个月前作为第一批用户体验到了 <a href="https://follow.is/">Follow</a> 这一产品，很兴奋，使用了一周后就写了一篇文章「<a href="https://www.pseudoyu.com/zh/2024/08/05/weekly_review_20240805/">周报 #67 - 使用 follow 重塑我的信息输入系统</a>」分享了对 Follow 的一些想法。</p>
 <p>而现在三个月过去了，Follow 本身迎来了许多更新，正式开启了 beta 测试；其在我日常信息输入和输出系统中也已经不仅仅是一个 RSS 阅读器 alternative，而是彻底改变了我的信息获取形态。</p>
@@ -8808,186 +8887,6 @@
 <li><a href="https://neovim.io">Neovim 官网</a></li>
 <li><a href="https://github.com/tmux/tmux">GitHub - tmux/tmux</a></li>
 <li><a href="https://www.joshmedeski.com/posts/macos-keyboard-shortcuts-for-tmux">macOS Keyboard Shortcuts for tmux</a></li>
-</ol>
-</blockquote>
-]]></content:encoded></item><item><title>基于 frp 内网穿透的瘦客户端开发工作流</title><link>https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/</link><pubDate>Tue, 05 Jul 2022 10:00:16 +0800</pubDate><guid>https://www.pseudoyu.com/zh/2022/07/05/access_your_local_devices_using_reverse_proxy_tool_frp/</guid><description>《后来的我们 - 五月天》 前言 在之前的『GitHub - 个人工具箱』项目中，我提到家里放置了一台长期开机的 Mac Studio 和一个装了 Ubuntu 系统的 Raspberry Pi 3b+ 微型树莓派设</description><content:encoded><![CDATA[<figure >
-    <audio controls preload="metadata">
-        
-        <source src="/audios/here_after_us.mp3" type="audio/mpeg">
-    </audio>
-    <i><figcaption>《后来的我们 - 五月天》</figcaption></i>
-</figure>
-<h2 id="前言">前言</h2>
-<p><img src="https://image.pseudoyu.com/images/leopold_fc660c.jpg" alt="leopold_fc660c"></p>
-<p>在之前的『<a href="https://github.com/pseudoyu/yu-tools">GitHub - 个人工具箱</a>』项目中，我提到家里放置了一台长期开机的 Mac Studio 和一个装了 Ubuntu 系统的 Raspberry Pi 3b+ 微型树莓派设备，在家时我通常是将 Mac Studio 连接显示器进行操作或通过 Chromebook 终端 SSH 连接访问。</p>
-<p>结束居家办公后，需要每天往返于公司与家里。因为不想每天背着电脑通勤，我将之前的 16 寸 MacBook Pro 主力开发机（真的很重）留在了公司用于工作项目开发使用。虽然可以通过 GitHub 与 GitLab 同步代码，以及通过 OneDrive 与 iCloud 同步文件，每天总还是觉得是在维护两套桌面开发环境，有些配置环境的变更需要双倍的工作量，带来了很大的心智负担。</p>
-<p>此外，家里的 M1 Max 芯片机器性能远好于老 Intel MacBook Pro 笔记本，于是，我开始琢磨公网远程访问家庭设备的方案，并实践一种瘦客户端工作流，本文是对这套工作流的一个记录与总结。</p>
-<h2 id="瘦客户端thin-client工作流">瘦客户端（thin client）工作流</h2>
-<p>被『<a href="https://teahour.fm">Teahour</a>』Podcast 的这期『<a href="https://teahour.fm/95">#95 - 用 Chromebook 做开发是什么样的体验？</a>』种草，第一次了解到了瘦客户端（thin client）开发这种模式。</p>
-<h3 id="基本概念">基本概念</h3>
-<p>瘦客户端开发是一种日渐流行的开发模式，它的主要理念是自己所使用的开发输入设备（如笔记本、平板电脑等）上并不安装各种开发环境，而是通过终端、VS Code Remote 或 Jetbrains Client 等客户端程序作为入口来连接自己的远程主机或服务器。这种方式有如下好处：</p>
-<ol>
-<li>可以最大程度简化自己的开发环境，只需要一个终端和一个浏览器即可完成大部分开发工作，可以降低设备成本，甚至使用 Chromebook 或 iPad 即可完成日常开发工作</li>
-<li>减少办公场所的限制，可以携带便携设备在咖啡厅或其他场合自由使用，比起本机运行各种开发环境，这种方式也拥有更久的续航</li>
-<li>不论从哪个设备上进行开发访问，都能确保自己的开发环境与进度保持一致，降低环境同步与维护成本</li>
-<li>往往我们的开发环境为 macOS 或 Window 操作系统，有时本地开发环境会与实际项目运行环境存在一定差异，而在 Linux 系统进行远程开发可以有效降低这种差异，提高开发效率</li>
-<li>我们可以将大多数的成本集中在一台性能较为强劲的设备，满足长期开发需求</li>
-<li>在有临时的开发需求时，我们可以随开随停一些云服务器，节约成本并提升开发效率</li>
-<li>像 Deep Learning 等领域需要使用 GPU 等特定设备进行运算，无法在本地机器进行开发</li>
-</ol>
-<h3 id="我的瘦客户端工作流">我的瘦客户端工作流</h3>
-<p><img src="https://image.pseudoyu.com/images/thin_client_structure.png" alt="thin_client_structure"></p>
-<p>为了降低成本，我的瘦客户端工作流主要基于我自己所搭建的一套内网穿透方案（下文会详细讲述方案原理及搭建方法），在公网中从各个 Client 访问家里性能较强的主机与 Server，完成主要开发工作。</p>
-<p>我目前 Client 端的主要设备为：</p>
-<ol>
-<li>16 寸 MacBook Pro，长期放在公司，作为工作机使用，主要用于浏览网页、文档以及通过 iTerm2 终端工具连接到各个远程主机或 Server 进行开发工作，并通过 Git 管理代码与项目</li>
-<li>Google Pixelbook Go，主要是在咖啡店、家中沙发或其他地方进行一些技术学习、博客撰写或个人项目开发</li>
-</ol>
-<p>而我的 Server 端分以下几类：</p>
-<ol>
-<li>Mac Studio 主机，连接电源长期开机，是我的主力 Server，通过内网穿透供客户端从公网连接访问，在家办公或学习时连接显示器与键鼠也可以作为客户端连接其他服务器主机</li>
-<li>Raspberry Pi，装了 Ubuntu 系统作为主要服务运行与调试环境，主要运行一些服务，通过内网穿透供客户端从公网连接访问</li>
-<li>个人阿里云 ECS、腾讯云轻量级服务器或其他公司提供的项目开发环境，主要用于一些项目服务的运行与调试，如链环境等</li>
-<li>GitHub Codespaces，参加了内测，GitHub 为个人项目提供多达 10 个项目的运行环境，我主要用于 Solidity、Rust 或前端学习项目的开发，这样可以保障在不同机器甚至浏览器连接时保持一致的环境，不需要自己重新配置搭建，不过出于安全性考虑我不会运行工作项目或一些涉及个人敏感信息的项目</li>
-</ol>
-<h3 id="我的瘦客户端开发工作体验">我的瘦客户端开发工作体验</h3>
-<p>瘦客户端并不仅仅是一种工具技巧上的优化，其初衷本就是一种工作模式的“极简主义”。践行了几个月这样的开发模式，能明显感觉到自己用于开发环境调试与维护的时间减少了，而将更多的注意力放在代码与服务本身，“即开即用”与“随开随停”两种模式的无缝切换也让自己可以时刻切换工作状态与项目，极大减少了环境冷启动、配置等时间成本。</p>
-<p>虽然我对软硬件有着自己的使用体验追求，但并不是一个方方面面都追求极致的人，而是遵循着一种“Just Enough”的理念，满足我的当下使用需求即可。例如网络环境方面，我家中就是普通的 100M 宽带网络环境，也并未在带宽与路由器上有刻意折腾。整体体验下来，不管是打字输入还是获取实时显示，操作过程中的网络延迟几乎可以忽略不计（我的主要使用场景为使用 macOS 系统下的 VS Code Remote 或 iTerm2 终端工具，通过 SSH 连接至远程主机或服务器进行开发，以及偶尔使用 Termius 的 SFTP 功能进行文件传输，可供参考），也几乎没有因网络环境而断连的情况。</p>
-<p>我仅在配置树莓派时使用过 VNC 进行远程桌面控制，并未进行其他高度依赖于图形界面的操作，网络延迟尚可接受但并不是很建议。</p>
-<h2 id="网络远程访问需求分析">网络远程访问需求分析</h2>
-<p><img src="https://image.pseudoyu.com/images/raspberry_pi.jpg" alt="raspberry_pi"></p>
-<p>关于异地网络访问的方案与原理，少数派的这篇『<a href="https://sspai.com/prime/story/remote-lan-access-guide-01">异地网络远程访问指北</a>』中已经对各个方案进行了详细的叙述与评估，我仅仅按照个人需求从方案易用性、费用等维度进行考虑，大家可自行阅读选取适合的方案。</p>
-<p>首先，我整理了一下网络条件与需求。</p>
-<p>网络条件：</p>
-<ol>
-<li>租房随便办的短期宽带，没有提供公网 ip，申请估计也很麻烦</li>
-<li>家庭无线路由器好像也是小米一个普通的，没有怎么折腾</li>
-<li>因为工作和个人开发需要，在阿里云和腾讯云都有服务器长期续费，有公网 ip</li>
-</ol>
-<p>远程连接需求：</p>
-<ol>
-<li>通过公网 SSH 访问 Mac Studio 主机，并能够在有需求的时候开放特定端口</li>
-<li>通过公网 SSH 访问树莓派，并能够在有需求的时候开放特定端口</li>
-<li>要求连接稳定快速，且尽量复用已有软件与服务，避免额外开支</li>
-<li>易于拓展新设备（如购入新的树莓派）与配置新端口映射（开放新的服务）</li>
-<li>因为家里的网络完全由 Surge 作为软路由托管，已经进行了关闭 DHCP 等配置，因此尽量不要在光猫与路由器层作配置</li>
-<li>能够对家庭网络环境连接情况与树莓派 Server 资源情况进行实时监控</li>
-</ol>
-<h2 id="frp-内网穿透方案">frp 内网穿透方案</h2>
-<p>经过一番调研，我选择了开源项目『<a href="https://github.com/fatedier/frp">GitHub - fatedier/frp</a>』，根据其官方文档描述：</p>
-<blockquote>
-<p>frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。通过在具有公网 IP 的节点上部署 frp 服务端，可以轻松地将内网服务穿透到公网，同时提供诸多专业的功能特性。</p>
-</blockquote>
-<p>这完美满足了我的需求，我仅仅需要复用自己购置的具有公网 ip 的阿里云服务器作为中转服务器，部署 frp 服务端，暴露对应端口，在需要从公网访问的家庭设备中部署 frp 客户端并进行端口映射，即可实现内网穿透。</p>
-<h3 id="方案架构">方案架构</h3>
-<p><img src="https://image.pseudoyu.com/images/frp_structure.png" alt="frp_structure"></p>
-<p>首先，我在自己有公网 ip 的服务器上部署了 frp 服务端并暴露了对应的端口。</p>
-<p>我家中的内网环境下主要有两台长期连接电源开机的设备，一台 Mac Studio 主机，一台装了 Ubuntu 操作系统的树莓派 Server，主要通过网线/Wifi 连接至无线路由器。我在两台机器分别按照官方说明安装了运行了 frp 客户端，通过配置连接至 frp 服务端，并对 SSH 等需要开启的服务端口映射（如将树莓派的 SSH 服务端口 22 映射到阿里云服务器的 6002）。值得一提的是，因为 frp 客户端会主动发送请求服务端，因此即使更换了网络环境也无需重新配置，仅需要保证其网络环境能访问到安装了 frp 服务端的中转服务器即可。</p>
-<p>此时，我的阿里云中转服务器已经可以将我们的内网环境与服务暴露在公网环境中了。当我在公司时，就可以使用笔记本、平板或手机通过阿里云服务器的公网+对应服务的端口进行访问了，如通过终端远程 SSH 连接至 Mac Studio 进行开发工作。</p>
-<p>同时，我们会想对家里的网络环境以及两台主机的状态进行实时监控，以便于维护。我使用了 Surge macOS 端作为软路由托管了家中所有设备的网络，并使用了 Surge iOS 端的云通知功能，对家庭的网络状态进行实时监控。此外，我使用了 ServerCat 软件对家中的树莓派 Server 进行资源监控，甚至可以精确到温度等，与云服务器体验无异。</p>
-<p><img src="https://image.pseudoyu.com/images/servercat_monitor_raspberry_pi.png" alt="servercat_monitor_raspberry_pi"></p>
-<p>frp 的配置比较简单，按照官方文档进行配置即可，我的配置流程如下。</p>
-<h3 id="frp-服务端配置">frp 服务端配置</h3>
-<p>我的阿里云装了 CentOS 操作系统，其他 Linux 发行版也大同小异。</p>
-<h4 id="服务安装与配置">服务安装与配置</h4>
-<p>首先登录阿里云服务器的终端，通过以下命令安装下载 frp 程序（注意，需要根据自己的操作系统从『<a href="https://github.com/fatedier/frp">GitHub - fatedier/frp</a>』项目的 <a href="https://github.com/fatedier/frp/releases">releases</a> 页面下载自己操作系统对应的版本、解压并进入目录。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/fatedier/frp/releases/download/v0.43.0/frp_0.43.0_linux_amd64.tar.gz
-</span></span><span class="line"><span class="cl">tar -zxvf frp_0.43.0_linux_amd64.tar.gz
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> frp_0.43.0_linux_amd64/
-</span></span></code></pre></div><p>其中的 <code>frps</code> 与 <code>frps.ini</code> 是我们需要关注的文件。<code>frps</code> 即服务端程序，而 <code>frps.ini</code> 则为对应的配置文件。我们使用 <code>vi frps.ini</code> 编辑配置文件：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">[common]
-</span></span><span class="line"><span class="cl">bind_port = 7000
-</span></span><span class="line"><span class="cl">dashboard_port = 7002
-</span></span><span class="line"><span class="cl">token = password
-</span></span><span class="line"><span class="cl">dashboard_user = admin
-</span></span><span class="line"><span class="cl">dashboard_pwd = 123456
-</span></span><span class="line"><span class="cl">vhost_http_port = 8080
-</span></span></code></pre></div><p>因为我想通过控制台可视化我们的 frp 服务的运行状况，因此同时还配置了 dashboard 相关参数，可以根据自己的需要进行选择，保存或记住本配置，后续使用 frp 客户端连接服务端时需要与之对应。保存配置后即可通过 <code>./frps -c frps.ini</code> 启动服务端。</p>
-<p>当然，我们需要配置其开启自启与后台运行，以免每次重启服务器都需要重新配置。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">vi /lib/systemd/system/frps.service
-</span></span></code></pre></div><p>添加如下内容并保存，注意需要将 <code>frps</code> 与 <code>frps.ini</code> 的路径改为自己的实际路径。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">[Unit]
-</span></span><span class="line"><span class="cl">Description=frps service
-</span></span><span class="line"><span class="cl">After=network.target syslog.target
-</span></span><span class="line"><span class="cl">Wants=network.target
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">[Service]
-</span></span><span class="line"><span class="cl">Type=simple
-</span></span><span class="line"><span class="cl">ExecStart=/path/to/frps -c /path/to/frps.ini
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">[Install]
-</span></span><span class="line"><span class="cl">WantedBy=multi-user.target
-</span></span></code></pre></div><h4 id="服务启动与开机自启配置">服务启动与开机自启配置</h4>
-<p>完成配置后，即可通过 <code>systemctl start frps</code> 启动服务端。</p>
-<p>我们在命令行键入以下命令配置服务开机自启：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl <span class="nb">enable</span> frps
-</span></span></code></pre></div><p>至此，我们的服务端配置完毕。</p>
-<h3 id="frp-客户端配置">frp 客户端配置</h3>
-<h4 id="服务安装与配置-1">服务安装与配置</h4>
-<p>frp 客户端配置和服务端配置类似，通过 <code>wget</code> 命令下载对应版本的 frp 程序，解压并进入目录。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/fatedier/frp/releases/download/v0.43.0/frp_0.43.0_linux_amd64.tar.gz
-</span></span><span class="line"><span class="cl">tar -zxvf frp_0.43.0_linux_amd64.tar.gz
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> frp_0.43.0_linux_amd64/
-</span></span></code></pre></div><p>其中的 <code>frpc</code> 与 <code>frpc.ini</code> 是我们需要关注的文件。<code>frpc</code> 即客户端程序，而 <code>frpc.ini</code> 则为对应的配置文件。我们使用 <code>vi frpc.ini</code> 编辑配置文件：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">[common]
-</span></span><span class="line"><span class="cl">server_addr = 114.114.114.114
-</span></span><span class="line"><span class="cl">server_port = 7000
-</span></span><span class="line"><span class="cl">token = password
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">[pi]
-</span></span><span class="line"><span class="cl">type = tcp
-</span></span><span class="line"><span class="cl">local_ip = 127.0.0.1
-</span></span><span class="line"><span class="cl">local_port = 22
-</span></span><span class="line"><span class="cl">remote_port = 6001
-</span></span></code></pre></div><p>此处的 <code>server_addr</code> 和 <code>server_port</code> 需填写实际的中转服务器的公网 ip 与端口，<code>token</code> 需填写之前配置的 token；下面为自己的需要连接的服务配置端口映射，<code>local_ip</code> 与 <code>local_port</code> 需填写客户端的本地 ip 与端口，如需要开启 SSH 服务则为 <code>127.0.0.1</code> 与 <code>22</code>，而最后的 <code>remote_port</code> 则为该端口在中转服务器中的端口映射。</p>
-<h4 id="服务启动与开机自启配置-1">服务启动与开机自启配置</h4>
-<h5 id="ubuntu">Ubuntu</h5>
-<p>在树莓派的 Ubuntu 系统中，我们通过 <code>vi /etc/systemd/system/frpc.service</code> 新建或编辑 fprc 服务配置文件，添加如下内容并保存，同样，需要将 <code>fprc</code> 与 <code>fprc.ini</code> 修改为自己的实际路径。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">[Unit]
-</span></span><span class="line"><span class="cl">Description=frpc daemon
-</span></span><span class="line"><span class="cl">After=syslog.target  network.target
-</span></span><span class="line"><span class="cl">Wants=network.target
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">[Service]
-</span></span><span class="line"><span class="cl">Type=simple
-</span></span><span class="line"><span class="cl">ExecStart=/path/to/frpc -c /path/to/frpc.ini
-</span></span><span class="line"><span class="cl">Restart= always
-</span></span><span class="line"><span class="cl">RestartSec=1min
-</span></span><span class="line"><span class="cl">ExecStop=/usr/bin/killall frpc
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">[Install]
-</span></span><span class="line"><span class="cl">WantedBy=multi-user.target
-</span></span></code></pre></div><p>完成配置后，通过 <code>sudo systemctl enable frpc.service</code> 开启服务自启，通过 <code>sudo systemctl start frpc.service</code> 启动客户端服务。</p>
-<h5 id="macos">macOS</h5>
-<p>而在 macOS 系统中，我们则通过 <code>vi ~/Library/LaunchAgents/frpc.plist</code> 编辑 plist 来添加服务自启，同样需要将 <code>fprc</code> 与 <code>fprc.ini</code> 修改为自己的实际路径。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
-</span></span><span class="line"><span class="cl">&lt;!DOCTYPE plist PUBLIC -//Apple Computer//DTD PLIST 1.0//EN
-</span></span><span class="line"><span class="cl">http://www.apple.com/DTDs/PropertyList-1.0.dtd &gt;
-</span></span><span class="line"><span class="cl">&lt;plist version=&#34;1.0&#34;&gt;
-</span></span><span class="line"><span class="cl">&lt;dict&gt;
-</span></span><span class="line"><span class="cl">&lt;key&gt;Label&lt;/key&gt;
-</span></span><span class="line"><span class="cl">&lt;string&gt;frpc&lt;/string&gt;
-</span></span><span class="line"><span class="cl">&lt;key&gt;ProgramArguments&lt;/key&gt;
-</span></span><span class="line"><span class="cl">&lt;array&gt;
-</span></span><span class="line"><span class="cl">&lt;string&gt;/path/to/frpc&lt;/string&gt;
-</span></span><span class="line"><span class="cl">&lt;string&gt;-c&lt;/string&gt;
-</span></span><span class="line"><span class="cl">&lt;string&gt;/path/to/frpc.ini&lt;/string&gt;
-</span></span><span class="line"><span class="cl">&lt;/array&gt;
-</span></span><span class="line"><span class="cl">&lt;key&gt;KeepAlive&lt;/key&gt;
-</span></span><span class="line"><span class="cl">&lt;true/&gt;
-</span></span><span class="line"><span class="cl">&lt;key&gt;RunAtLoad&lt;/key&gt;
-</span></span><span class="line"><span class="cl">&lt;true/&gt;
-</span></span><span class="line"><span class="cl">&lt;/dict&gt;
-</span></span><span class="line"><span class="cl">&lt;/plist&gt;
-</span></span></code></pre></div><p>至此，我们就可以在公网环境下通过中转服务器的对应端口了解到我们的内网服务了，且不论是服务端还是客户端，服务都会开机自启。我们可以通过 <code>&lt;公网 ip&gt;</code> + 刚在服务端配置的 <code>dashboard_port</code> 端口访问 frp 控制台，查看各服务流量情况。</p>
-<p><img src="https://image.pseudoyu.com/images/frp_dashboard.png" alt="frp_dashboard"></p>
-<h2 id="总结">总结</h2>
-<p>以上就是我对公网远程访问家庭设备与瘦客户端工作流的实践与总结，这带来了一种很有趣的、有别于传统模式的开发体验，有兴趣的同学可以自行尝试。希望本文对你有所帮助。</p>
-<h2 id="参考资料">参考资料</h2>
-<blockquote>
-<ol>
-<li><a href="https://github.com/fatedier/frp">GitHub - fatedier/frp</a></li>
-<li><a href="https://teahour.fm/95">Teahour #95 - 用 Chromebook 做开发是什么样的体验？</a></li>
 </ol>
 </blockquote>
 ]]></content:encoded></item></channel></rss>
