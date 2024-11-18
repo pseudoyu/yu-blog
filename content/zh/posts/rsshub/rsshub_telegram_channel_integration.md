@@ -18,7 +18,7 @@ authors:
 
 ![follow_telegram_channel](https://image.pseudoyu.com/images/follow_telegram_channel.png)
 
-Follow 中提供了一种便捷的订阅信息源的方式，例如用户可以输入对应的 Telegram 频道名称来订阅某个频道的更新，这样就无须跳转到各个频道里去逐个查看，这一部分特性依赖的是背后 RSSHub 的实现。
+Follow 中提供了一种便捷的订阅信息源的方式，例如用户可以输入对应的 Telegram 频道名称（如 `pseudoyulife`）来订阅某个频道的更新，这样就无须跳转到各个频道里去逐个查看，这一部分特性依赖的是背后 RSSHub 的实现。
 
 ![rsshub_homepage](https://image.pseudoyu.com/images/rsshub_homepage.png)
 
@@ -34,7 +34,7 @@ RSSHub 中现在包含了上千个平台，针对不同平台和类别也都有�
 
 ![yu_channel_online_preview](https://image.pseudoyu.com/images/yu_channel_online_preview.png)
 
-由于 Telegram 提供了频道的网页预览功能，例如可以通过 [t.me/s/pseudoyulife](https://t.me/s/pseudoyulife) 这一链接直接查看我自己频道的更新，因此 RSSHub 很早之前就实现了通过抓取网页上的内容并转换为 RSS 格式的方式集成了对 Telegram 频道更新的订阅。
+Telegram 提供了频道的网页预览功能，例如可以通过 [t.me/s/pseudoyulife](https://t.me/s/pseudoyulife) 这一链接直接查看我频道的更新，因此 RSSHub 很早之前就实现了通过抓取网页上的内容并转换为 RSS 格式的方式集成了对 Telegram 频道更新的订阅。
 
 ![telegram_channel_reorx_preview](https://image.pseudoyu.com/images/telegram_channel_reorx_preview.png)
 
@@ -67,7 +67,7 @@ RSSHub 中现在包含了上千个平台，针对不同平台和类别也都有�
 
 #### 获取 Telegram Session
 
-使用 Telegram API 新建一个 client 的流程比较严格，需要通过 SMS 验证手机号登录，在代码中交互获取使用并不现实，因为我们需要预先创建 client 并且获取其 session，后续直接通过 session 来使用 api。
+使用 Telegram API 新建一个 client 的流程比较严格，需要通过 SMS 验证手机号登录，在代码中交互获取使用并不现实，因此我们需要预先创建 client 并且获取其 session，后续直接通过 session 来使用 api。
 
 ![get_telegram_session](https://image.pseudoyu.com/images/get_telegram_session.png)
 
@@ -81,15 +81,15 @@ RSSHub 中现在包含了上千个平台，针对不同平台和类别也都有�
 
 之前在 Follow 的 RSSHub 实例上添加了 Telegram API 相关逻辑和配置后，过一会儿就会报一个 `AuthKeyDuplicatedError` 错误，查看了一下很多开发者也遇到过 —— 「[AuthKeyDuplicatedError Eror problem #1488](https://github.com/LonamiWebs/Telethon/issues/1488)」，猜测是由于我们的 RSSHub 实例是 k8s 集群部署的，会从不同的机器调用 Telegram API，因而受到了一些限制。
 
-于是又开始找针对这一情况的解决方案，发现 Telegram 提供了一种叫 MTProxy 的专属代理协议，可以通过部署一个 MTProxy Server 来代理所有的 API 请求，这样能够保障不同机器发送的请求都来自同一个 IP。
+于是又开始找针对这一情况的解决方案，发现 Telegram 提供了一种叫 MTProxy 的专属代理协议，可以通过部署一个 MTProxy Server 来代理所有的 API 请求，这样能够确保不同机器发送的请求都来自同一个 IP。
 
-找到了「[Dofamin/MTProxy-Docker](https://github.com/Dofamin/MTProxy-Docker)」这个项目，拉取仓库后，新建一个 `.env` 文件，添加这一环境变量（默认的官方代码已经不怎么维护，这个版本添加了一些补丁）：
+找到了「[Dofamin/MTProxy-Docker](https://github.com/Dofamin/MTProxy-Docker)」这个项目，拉取仓库后，新建一个 `.env` 文件，添加 `MTPROTO_REPO_URL` 这一环境变量（默认的官方代码已经不怎么维护，这个版本添加了一些补丁）：
 
 ```plaintext
 MTPROTO_REPO_URL=https://github.com/GetPageSpeed/MTProxy
 ```
 
-`SECRET` 也可以选择自定义的值，`IP` 不填写则会自动通过 `curl ifconfig.co` 获取本机 IP，其他环境变量可以查看仓库的 `README.md` 文件自行修改。
+`SECRET` 默认值为 `ec4dd80983dbf12d6b354cf7bcfe9a48`，也可以选择自定义的值；`IP` 不填写则会自动通过 `curl ifconfig.co` 获取本机 IP；其他环境变量可以查看仓库的 `README.md` 文件自行修改。
 
 配置完成后，运行 `docker compose up -d` 启动，代理服务则运行在 `<IP>:8443` 上。
 
