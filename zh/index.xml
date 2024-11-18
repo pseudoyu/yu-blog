@@ -56,21 +56,21 @@
 <li>MTProxy 的 <code>SECRET</code>、<code>IP</code>、<code>PORT</code></li>
 </ul>
 <p>这时可以开始部署/更新我们的 RSSHub 实例了，具体可以根据<a href="https://docs.rsshub.app/deploy/">文档</a>选择不同的方式，例如 Docker、Docker Compose、Serverless 等。</p>
-<p>推荐通过 Docker Compose 的方式来部署，比较便于维护，需要在 <code>docker-compose.yml</code> 中添加如下变量：</p>
+<p>推荐通过 Docker Compose 的方式来部署，比较便于维护，需要在 <code>docker-compose.yml</code> 的 RSSHub 服务中添加如下变量：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">environment</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_API_ID=&lt;Telegram API ID&gt;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_API_HASH=&lt;Telegram API Hash&gt;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_SECRET=&lt;MTProxy SECRET&gt;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_SESSION=&lt;Telegram Session&gt;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_HOST=&lt;MTProxy IP，如 123.123.123.123&gt;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_PORT=8443</span><span class="w">
-</span></span></span></code></pre></div><p>我是通过自己维护的<a href="https://zeabur.com/templates/X46PTP?referralCode=pseudoyu">模板</a>部署在 Zeabur 平台上的，可视化部署，比较易用，只需要在部署完成后在 <code>Variables</code> 模块中添加以下变量并重启服务即可生效：</p>
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">TELEGRAM_PROXY_SECRET=&lt;MTProxy SECRET&gt;</span><span class="w">
+</span></span></span></code></pre></div><p>我是通过自己维护的<a href="https://zeabur.com/templates/X46PTP?referralCode=pseudoyu">模板</a>部署在 Zeabur 平台上的，可视化部署，比较易用，只需要在部署完成后在 RSSHub 服务的 <code>Variables</code> 模块中添加以下变量并重启服务即可生效：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">TELEGRAM_API_ID=&lt;Telegram API ID&gt;
 </span></span><span class="line"><span class="cl">TELEGRAM_API_HASH=&lt;Telegram API Hash&gt;
-</span></span><span class="line"><span class="cl">TELEGRAM_PROXY_SECRET=&lt;MTProxy SECRET&gt;
 </span></span><span class="line"><span class="cl">TELEGRAM_SESSION=&lt;Telegram Session&gt;
 </span></span><span class="line"><span class="cl">TELEGRAM_PROXY_HOST=&lt;MTProxy IP，如 123.123.123.123&gt;
 </span></span><span class="line"><span class="cl">TELEGRAM_PROXY_PORT=8443
+</span></span><span class="line"><span class="cl">TELEGRAM_PROXY_SECRET=&lt;MTProxy SECRET&gt;
 </span></span></code></pre></div><h4 id="测试">测试</h4>
 <p><img src="https://image.pseudoyu.com/images/yu_rsshub_homepage.png" alt="yu_rsshub_homepage"></p>
 <p>经过上述步骤后，我们拥有了自己添加了 Telegram 相关配置的 RSSHub 实例，访问主页显示如上页面即部署成功，可以通过 <code>&lt;RSSHub URL&gt;/telegram/channel/&lt;Channel Name&gt;</code> 来订阅 Telegram 频道。</p>
