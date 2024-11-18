@@ -105,27 +105,27 @@ MTPROTO_REPO_URL=https://github.com/GetPageSpeed/MTProxy
 
 这时可以开始部署/更新我们的 RSSHub 实例了，具体可以根据[文档](https://docs.rsshub.app/deploy/)选择不同的方式，例如 Docker、Docker Compose、Serverless 等。
 
-推荐通过 Docker Compose 的方式来部署，比较便于维护，需要在 `docker-compose.yml` 中添加如下变量：
+推荐通过 Docker Compose 的方式来部署，比较便于维护，需要在 `docker-compose.yml` 的 RSSHub 服务中添加如下变量：
 
 ```yaml
 environment:
   - TELEGRAM_API_ID=<Telegram API ID>
   - TELEGRAM_API_HASH=<Telegram API Hash>
-  - TELEGRAM_PROXY_SECRET=<MTProxy SECRET>
   - TELEGRAM_SESSION=<Telegram Session>
   - TELEGRAM_PROXY_HOST=<MTProxy IP，如 123.123.123.123>
   - TELEGRAM_PROXY_PORT=8443
+  - TELEGRAM_PROXY_SECRET=<MTProxy SECRET>
 ```
 
-我是通过自己维护的[模板](https://zeabur.com/templates/X46PTP?referralCode=pseudoyu)部署在 Zeabur 平台上的，可视化部署，比较易用，只需要在部署完成后在 `Variables` 模块中添加以下变量并重启服务即可生效：
+我是通过自己维护的[模板](https://zeabur.com/templates/X46PTP?referralCode=pseudoyu)部署在 Zeabur 平台上的，可视化部署，比较易用，只需要在部署完成后在 RSSHub 服务的 `Variables` 模块中添加以下变量并重启服务即可生效：
 
 ```plaintext
 TELEGRAM_API_ID=<Telegram API ID>
 TELEGRAM_API_HASH=<Telegram API Hash>
-TELEGRAM_PROXY_SECRET=<MTProxy SECRET>
 TELEGRAM_SESSION=<Telegram Session>
 TELEGRAM_PROXY_HOST=<MTProxy IP，如 123.123.123.123>
 TELEGRAM_PROXY_PORT=8443
+TELEGRAM_PROXY_SECRET=<MTProxy SECRET>
 ```
 
 #### 测试
