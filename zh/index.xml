@@ -17,7 +17,7 @@
 <p>这一周多也思考了很多，关于未来要去哪个国家或是城市、关于感情、关于自己的性格中缺陷的部分以及想成为什么样的自己。似乎都是很大且并没有明确答案的事，但似乎开始了条分缕析的探索后一切也都更加明朗了起来，做了一些决定。</p>
 <h3 id="又见-vitalik">又见 Vitalik</h3>
 <p><img src="https://image.pseudoyu.com/images/meet_with_vitalik.png" alt="meet_with_vitalik"></p>
-<p>月初借着 OpenBuild 的机会跟 vitalik 一起吃饭、近距离闲聊的（好幸运一个月内见到了两次！），听到了他创办 Bitcoin Magazine、Dropout、在柏林 Bitcoin Kiez 和自由主义者们一起生活、萌生 Ethereum 想法等很多有意思的事，了解到了他作为“v 神”这一符号背后更真实的一面；还聊了一些关于开源的想法。</p>
+<p>月初借着 OpenBuild 的机会跟 vitalik 一起吃饭、近距离闲聊（好幸运一个月内见到了两次！），听到了他创办 Bitcoin Magazine、Dropout、在柏林 Bitcoin Kiez 和自由主义者们一起生活、萌生 Ethereum 想法等很多有意思的事，了解到了他作为“v 神”这一符号背后更真实的一面；还聊了一些关于开源的想法。</p>
 <p>很有趣的是问他在高密度参加完曼谷 Devcon 各种活动之后会做什么，他说想找个没人找得到他的地方自己待一阵子。</p>
 <p>人总还是需要独处来恢复能量的，v“神”也不例外。</p>
 <h2 id="曼谷之行">曼谷之行</h2>
@@ -54,7 +54,7 @@
 <p>还上了<a href="https://t.me/NewlearnerChannel/13663">自留地频道</a>！！！有一种上电视的感觉。</p>
 <h3 id="懒猫微服">懒猫微服</h3>
 <p><img src="https://image.pseudoyu.com/images/lazy_cat_pic.png" alt="lazy_cat_pic"></p>
-<p>收到了懒猫团队送的懒猫微服，体积、外观和质感是真的好，研究了瞎开发者文档，打包上架了 RSSHub 应用，整体体验还不错，尤其是内置外网穿透这一点，少了很多折腾。</p>
+<p>收到了懒猫团队送的懒猫微服，体积、外观和质感是真的好，研究了下开发者文档，打包上架了 RSSHub 应用，整体体验还不错，尤其是内置外网穿透这一点，少了很多折腾。</p>
 <p>因为家里已经有了一个 NAS 通过 Cloudflare Argo Tunnel 暴露了一些服务出去，大部分公共服务我也是通过 dedicated server 部署在 Zeabur 上，所以目前其实没有找到特别好的能够融入我工作流的强依赖的应用场景，用得比较多的反而是开发者模式连上懒猫微服再 ssh 到 NAS 上操作，省得用 DDNS 了&hellip;</p>
 <p>还在继续探索，会再搬几个应用过来，后续深度体验后或许会在博客里详细测评一下~</p>
 <h3 id="招聘">招聘</h3>
