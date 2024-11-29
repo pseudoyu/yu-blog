@@ -34,7 +34,7 @@ authors:
 
 ![meet_with_vitalik](https://image.pseudoyu.com/images/meet_with_vitalik.png)
 
-月初借着 OpenBuild 的机会跟 vitalik 一起吃饭、近距离闲聊的（好幸运一个月内见到了两次！），听到了他创办 Bitcoin Magazine、Dropout、在柏林 Bitcoin Kiez 和自由主义者们一起生活、萌生 Ethereum 想法等很多有意思的事，了解到了他作为“v 神”这一符号背后更真实的一面；还聊了一些关于开源的想法。
+月初借着 OpenBuild 的机会跟 vitalik 一起吃饭、近距离闲聊（好幸运一个月内见到了两次！），听到了他创办 Bitcoin Magazine、Dropout、在柏林 Bitcoin Kiez 和自由主义者们一起生活、萌生 Ethereum 想法等很多有意思的事，了解到了他作为“v 神”这一符号背后更真实的一面；还聊了一些关于开源的想法。
 
 很有趣的是问他在高密度参加完曼谷 Devcon 各种活动之后会做什么，他说想找个没人找得到他的地方自己待一阵子。
 
@@ -104,7 +104,7 @@ Follow 从一开始的爆火和快速增长，到慢慢有了一些来自用户�
 
 ![lazy_cat_pic](https://image.pseudoyu.com/images/lazy_cat_pic.png)
 
-收到了懒猫团队送的懒猫微服，体积、外观和质感是真的好，研究了瞎开发者文档，打包上架了 RSSHub 应用，整体体验还不错，尤其是内置外网穿透这一点，少了很多折腾。
+收到了懒猫团队送的懒猫微服，体积、外观和质感是真的好，研究了下开发者文档，打包上架了 RSSHub 应用，整体体验还不错，尤其是内置外网穿透这一点，少了很多折腾。
 
 因为家里已经有了一个 NAS 通过 Cloudflare Argo Tunnel 暴露了一些服务出去，大部分公共服务我也是通过 dedicated server 部署在 Zeabur 上，所以目前其实没有找到特别好的能够融入我工作流的强依赖的应用场景，用得比较多的反而是开发者模式连上懒猫微服再 ssh 到 NAS 上操作，省得用 DDNS 了...
 
