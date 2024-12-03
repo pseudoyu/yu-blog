@@ -1,7 +1,7 @@
 ---
 title: "求婚誓言 | 爱的本质是被看见"
-date: 2024-12-03T20:00:00+08:00
-draft: true
+date: 2024-12-03T21:43:00+08:00
+draft: false
 tags: ["review", "love", "romance", "marriage", "proposal", "promise"]
 categories: ["Ideas"]
 authors:
