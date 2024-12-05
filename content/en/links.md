@@ -12,7 +12,7 @@ rss_ignore: true
 <div class="friend-list-div" >
 
 {{< friend name="Boyi" url="https://www.boyilu.com" logo="https://image.pseudoyu.com/images/avatar_boyi.png" word="EXPECTO PATRONUM" >}}
-{{< friend name="Airing" url="https://me.ursb.me" logo="https://image.pseudoyu.com/images/airing_avatar.jpg" word="Airing's Blog" >}}
+{{< friend name="Airing" url="https://blog.ursb.me/" logo="https://image.pseudoyu.com/images/airing_avatar.jpg" word="Airing's Blog" >}}
 {{< friend name="zzhack" url="https://www.zzhack.fun/" logo="https://image.pseudoyu.com/images/zzhack_avatar.png" word="Mist's Blog" >}}
 {{< friend name="Kiro" url="https://kiro.cc" logo="https://image.pseudoyu.com/images/kiro_avatar.jpg" word="Salad taste like sad." >}}
 {{< friend name="STRRL" url="https://strrl.dev" logo="https://image.pseudoyu.com/images/strrl_logo.jpg" word="STRRL's Blog" >}}
