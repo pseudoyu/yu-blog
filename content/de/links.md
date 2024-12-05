@@ -21,11 +21,9 @@ rss_ignore: true
 {{< friend name="Manjusaka" url="https://www.manjusaka.blog" logo="https://image.pseudoyu.com/images/manjusaka_avatar.jpg" word="Manjusaka's Blog" >}}
 {{< friend name="新一" url="https://a-wing.top" logo="https://image.pseudoyu.com/images/xinyi_avatar.jpg" word="新一's Blog" >}}
 {{< friend name="仕麟" url="https://edward40.com" logo="https://image.pseudoyu.com/images/edward40_avatar.jpg" word="Große Männer werden nicht groß geboren, sie wachsen zur Größe heran." >}}
-{{< friend name="ServerCat" url="https://servercat.app" logo="https://image.pseudoyu.com/images/servercat_logo.png" word="iOS/macOS SSH-Client" >}}
 {{< friend name="Tony Ding" url="https://blog.tonyding.net" logo="https://image.pseudoyu.com/images/tonyding_avatar.png" word="Tony Ding's Blog" >}}
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://image.pseudoyu.com/images/logo.jpg" word="Jahrhunderte der Pracht vergehen in einem Augenblick, wer ist nicht ein Durchreisender; der tausendjährige Mond bläst ein kaltes Horn, die Blume ist der wahre Hausherr." >}}
 {{< friend name="Zhou Blog" url="https://www.zhouzhoukl.com" logo="https://image.pseudoyu.com/images/zhouzhou_avatar.jpg" word="⚒️Erschaffe interessante Produkte | 👾Spaßvogel" >}}
-{{< friend name="Victoryang00" url="https://victoryang00.cn/wordpress/" logo="https://image.pseudoyu.com/images/VICTORYANG00_avatar.png" word="Ein Tech-Nerd mit finanziellem Verstand" >}}
 {{< friend name="梦墨不会做梦💤" url="https://dreamo.ink" logo="https://image.pseudoyu.com/images/dreamink_avatar.png" word="Mögest du Gutes tun und nicht Böses." >}}
 {{< friend name="锤子博客" url="https://liujiding.com" logo="https://image.pseudoyu.com/images/liujiding_avatar.jpg" word="Entdecke die Schönheit von Technologie und Geisteswissenschaften" >}}
 {{< friend name="啊呜喵" url="https://blog.awumiao.cn/" logo="https://image.pseudoyu.com/images/awumiao_avatar.png" word="Was man nicht vergisst, wird eine Antwort finden" >}}
@@ -35,7 +33,6 @@ rss_ignore: true
 {{< friend name="涂俊杰 JunJie" url="https://blog.tujunjie.com/" logo="https://image.pseudoyu.com/images/tujunjie_avatar.png" word="Praktiker der Zeitaufzeichnung" >}}
 {{< friend name="炸毛的秘密基地" url="https://lzzmm.github.io/" logo="https://image.pseudoyu.com/images/lzzmm_avatar.jpg" word="Tag für Tag, es muss Fortschritt geben" >}}
 {{< friend name="chensoul" url="https://blog.chensoul.com" logo="https://image.pseudoyu.com/images/chensoul_avatar_new.png" word="Java-Entwickler" >}}
-{{< friend name="果汁的博客" url="https://jusu.me/" logo="https://image.pseudoyu.com/images/jusu_avatar.jpg" word="Eine sehr langweilige Person`)" >}}
 {{< friend name="Kowyo" url="https://kowyo.com/" logo="https://image.pseudoyu.com/images/mitcher_avatar.png" word="当下将至的旅程" >}}
 {{< friend name="码砖猿" url="https://codebrickape.lhzzs.top/" logo="https://codebrickape.lhzzs.top/images/author.png" word="Bleib hungrig. Bleib töricht." >}}
 {{< friend name="1xdali's SPACE²⁰²⁴" url="https://turkeys-rest-n5a.craft.me/blog" logo="https://res.craft.do/userprofile/3ebf6a21-726e-e6f8-1395-9b43d4b87e9c/profileimage/BA1F6BC3-A2E4-45EB-9001-07C4FDFC0B78_3/cREjxarQYpzJiOr4y8jav0gK7jv1j0vqG08QdxIphKIz" word="🧑‍🎨 Lebenskünstler" >}}
