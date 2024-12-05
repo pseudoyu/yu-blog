@@ -42,6 +42,7 @@ rss_ignore: true
 {{< friend name="Rene Wang 的个人网站" url="https://rene.wang" logo="https://avatars.githubusercontent.com/u/52880665?s=80&u=db4333e440306a141437e56e272cc75eb233f7db&v=4" word="知识产出和一些随笔" >}}
 {{< friend name="第三夏尔" url="https://thirdshire.com" logo="https://thirdshire.com/blackcat_avatar.jpg" word="认真生活，积极摸鱼" >}}
 {{< friend name="cosの博客" url="https://ysx.cosine.ren/" logo="https://ysx.cosine.ren/img/avatar.jpg" word="WA的一声就哭了" >}}
+{{< friend name="Another dayu" url="https://anotherdayu.com/" logo="https://anotherdayu.com/wp-content/uploads/2022/06/cropped-photo_2022-06-16-10.08.51.jpeg" word="Seize the day, gather ye rosebuds while ye may." >}}
 
 </div>
 </div>
