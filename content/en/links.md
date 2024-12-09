@@ -40,6 +40,7 @@ rss_ignore: true
 {{< friend name="第三夏尔" url="https://thirdshire.com" logo="https://thirdshire.com/blackcat_avatar.jpg" word="认真生活，积极摸鱼" >}}
 {{< friend name="cosの博客" url="https://ysx.cosine.ren/" logo="https://ysx.cosine.ren/img/avatar.jpg" word="WA的一声就哭了" >}}
 {{< friend name="Another dayu" url="https://anotherdayu.com/" logo="https://anotherdayu.com/wp-content/uploads/2022/06/cropped-photo_2022-06-16-10.08.51.jpeg" word="Seize the day, gather ye rosebuds while ye may." >}}
+{{< friend name="UsubeniFantasy" url="https://ssshooter.com" logo="https://ssshooter.com/logo.png" word="Write like you're running out of time." >}}
 
 </div>
 </div>
