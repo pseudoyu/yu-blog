@@ -38,11 +38,7 @@ Ich hoffe, ich kann mehr Inputs wie neues Wissen und Ideen aufnehmen und mehr ku
 ### 🎧 Aktuelle Eindrücke
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/36048997/' target='_blank'>最近在读自学大全</a> - 2024-12-10
-* <a href='https://book.douban.com/subject/35594496/' target='_blank'>读过福格行为模型</a> - 2024-12-10
-* <a href='https://book.douban.com/subject/25844039/' target='_blank'>读过創作者的日常生活</a> - 2024-12-10
-* <a href='http://movie.douban.com/subject/27047873/' target='_blank'>想看宝石之国</a> - 2024-12-09
-* <a href='https://book.douban.com/subject/30246907/' target='_blank'>想读怦然心动的人生整理魔法</a> - 2024-12-09
+
 <!-- douban ends -->
 
 ### 👨🏻‍💻 Diese Woche programmiere ich mit
