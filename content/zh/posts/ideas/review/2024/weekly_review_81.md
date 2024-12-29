@@ -54,7 +54,7 @@ authors:
 
 ![marriage_cert_nienie_fanfan](https://image.pseudoyu.com/images/marriage_cert_nienie_fanfan.png)
 
-慢慢其实也在经历完整的人生。熬过过外婆病痛离世的至暗时刻后甚至又遇到了跟我一起长大的表哥的意外身故，半年内失去了太多；一天天看到父母明显老去的面容，自己的身体和状态也开始出现了大大小小的问题；遇到心爱的人，养了两只猫、恋爱、求婚与结婚。
+慢慢其实也在经历完整的人生。熬过外婆病痛离世的至暗时刻后甚至又遇到了跟我一起长大的表哥的意外身故，半年内失去了太多；一天天看到父母明显老去的面容，自己的身体和状态也开始出现了大大小小的问题；遇到心爱的人，养了两只猫、恋爱、求婚与结婚。
 
 人总是无法去对抗时间的，想到这一点就总是有些伤感，但忆及过往时也只是会羡慕一下过去明媚的那个少年，然后继续在当下认真生活，有点像是在用现在的努力去救赎未来的自己。
 
@@ -96,7 +96,7 @@ authors:
 #### 文章
 
 - [2024 年数字工具箱](https://justgoidea.com/posts/2024-028/)
-- [浅度剖析B站的新 -352 风控策略](https://im.salty.fish/index.php/archives/revengr-bilibili-352.html)
+- [浅度剖析 B 站的新 -352 风控策略](https://im.salty.fish/index.php/archives/revengr-bilibili-352.html)
 - [透過 Zeabur Template 打造 Remark42 評論系統：完整部署與設定指南](https://www.vinny987.xyz/blog/2024/building-remark42-with-zeabur-template-a-complete-guide-to-deployment-and-configuration/)
 - [现代 DeFi: Uniswap V3](https://blog.wssh.trade/posts/uniswap-v3/)
 - [懒猫微服使用体验](https://base.qaq.wiki/s/2882ab70-94c3-4cb2-ba0a-fccec8cd8473)
@@ -111,10 +111,10 @@ authors:
 #### 视频
 
 - [我们仍未放弃缝补你，世界｜《你想活出怎样的人生》](https://www.bilibili.com/video/BV1Ptq8YoEyw)
-- [做自媒体，花100万装修别人的房子，值得么？小宁子工作室 Room Tour](https://www.youtube.com/watch?v=zv8iSfaKM-c)
+- [做自媒体，花 100 万装修别人的房子，值得么？小宁子工作室 Room Tour](https://www.youtube.com/watch?v=zv8iSfaKM-c)
 - [vlog #84｜程序员下班后的学习记录｜冬天宅家学习超快乐｜React 上手中｜读完《吸引力法则》啦撒花 🎉｜保持学习与思考｜什么才是成功的人生｜TED](https://www.bilibili.com/video/BV1KeqoYqEBL)
 - [AI prompt engineering: A deep dive](https://www.youtube.com/watch?v=T9aRN5JkmL8)
-- [一张车票，就能重返18岁！你愿意吗？](https://www.bilibili.com/video/BV1cVkzYdE9V)
+- [一张车票，就能重返 18 岁！你愿意吗？](https://www.bilibili.com/video/BV1cVkzYdE9V)
 - [混剪｜“我长大后，一定成为不了心目中的大人。”](https://www.bilibili.com/video/BV1GoC5YVE37)
-- [vlog #85｜做24年度复盘的晚间学习记录｜一起给25年的自己写一封信 🎉｜开坑「哲学导论」和《荒原狼》｜仍然在为时间管理 APP 努力｜保持输入与输出](https://www.bilibili.com/video/BV19oCNYHEhH)
-- [热度破记录！什么相机120万人想买？富士X100VI上手](https://www.bilibili.com/video/BV1s1421Q78u)
+- [vlog #85｜做 24 年度复盘的晚间学习记录｜一起给 25 年的自己写一封信 🎉｜开坑「哲学导论」和《荒原狼》｜仍然在为时间管理 APP 努力｜保持输入与输出](https://www.bilibili.com/video/BV19oCNYHEhH)
+- [热度破记录！什么相机 120 万人想买？富士 X100VI 上手](https://www.bilibili.com/video/BV1s1421Q78u)
