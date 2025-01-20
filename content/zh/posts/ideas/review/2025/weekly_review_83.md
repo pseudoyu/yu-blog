@@ -78,7 +78,7 @@ Asus 的路由器可玩性很高，刷了梅林固件，安装了 Clash 应用�
 
 Zeabur 貌似最近计费方式有了一些变化，感觉费用明显上涨，在没新增服务的情况下这个月超了 Developer Plan 5 美元额度不少，所以把一些消耗资源或是流量请求很大的都迁移走了，只保留了一些低消耗但对稳定性要求比较高的服务，例如博客访问统计系统这些。[fly.io](https://fly.io) 因为还有免费额度，上面只跑了我博客的 Remark42 统计服务，也迁移到了最便宜的 IAD 区域，挂载了 3GB 的 Volume，基本上能控制在免费额度之下，持续观察中。
 
-由于之前有个比赛奖品之一是一年期的 AWS 一万多美元的 Credits，所以在机器上使用 Coolify 进行管理，把大部分的自用服务/开发环境放在了一台 8c32g 香港机房的机器上，可以直接使用现成的 Docker Compose 文件进行表述，也可以使用 Webhook 联动 GitHub 触发，基本上满足了我的需求，可玩性和定制化程度都要比 Zeabur 使用 k3s 的方案要高不少，数据库类的应用还很方便直接使用 S3 进行备份，等 AWS Credits 到期后可能也会迁移到 OVH 或者 Hetzner 独服上。
+由于之前有个比赛奖品之一是一年期的 AWS 一万多美元的 Credits，所以在机器上使用 Coolify 进行管理，把大部分的自用服务/开发环境放在了一台 8c32g 香港机房的机器上，可以直接使用现成的 Docker Compose 文件进行部署，也可以使用 Webhook 联动 GitHub 触发，基本上满足了我的需求，可玩性和定制化程度都要比 Zeabur 使用 k3s 的方案要高不少，数据库类的应用还很方便直接使用 S3 进行备份，等 AWS Credits 到期后可能也会迁移到 OVH 或者 Hetzner 独服上。
 
 ### 软件应用
 
@@ -86,7 +86,7 @@ Zeabur 貌似最近计费方式有了一些变化，感觉费用明显上涨，�
 
 我是一个对软件工具很挑剔的人，不过从今年开始也开始主要降低手机上各类 App 的使用，电脑上也尽量简化了工作量和干扰，开始更多体验和支持一些独立开发者的项目，其他的软件工具等最近在 「[GitHub - pseudoyu/yu-tools](https://github.com/pseudoyu/yu-tools)」会再更新一下，这里主要讲一下 AI 工作的使用。
 
-目前最高频使用也是依赖的是 Cursor Pro（年付了），日常使用它的补全、CMD+K 以及 Compose 模式进行工作和各类项目，都依赖的 Claude 3.5 Sonnet 模型，已经能协助我完成大部分的工作。另一个年付的是 [STRRL](https://x.com/strrlthedev) 开发的 [Haye AI](https://haye.ai) 项目，日常绑定了一个 CMD+E 快捷键来优化我的一些英文写作，也很偶尔地用它的对话框功能。
+目前最高频使用也是依赖的是 Cursor Pro（年付了），日常使用它的补全、CMD+K 以及 Composer（Agent）模式进行工作和各类项目，都依赖的 Claude 3.5 Sonnet 模型，已经能协助我完成大部分的工作。另一个年付的是 [STRRL](https://x.com/strrlthedev) 开发的 [Haye AI](https://haye.ai) 项目，日常绑定了一个 CMD+E 快捷键来优化我的一些英文写作，也很偶尔地用它的对话框功能。
 
 GitHub 一直给我续着 Copilot，我使用 [ChatWise](https://chatwise.app) 项目来绑定使用 Claude 3.5 Sonnet 模型来进行一些小的编程类问题的 Chat，也绑定了我在 [NekoAPI](https://nekoapi.com) 和 [burn.hair](https://burn.hair) 上的 API Key 来使用 GPT-4o，ChatWise 还绑定了 [Tavily](https://tavily.com) 的 API Key 来启用 Web Search 功能，可以代替 Perplexity 来使用；另外就是在 Kagi Search 的三个月试用中，作为一个搜索引擎其实倒是没有什么体验上的感知，不过还是有明显地减少我对 AI 生成内容的依赖，其实整体得到的信息质量是有提升的，但是 Kagi Summary 等功能几乎不太用。
 
