@@ -39,11 +39,11 @@
 <p><img src="https://image.pseudoyu.com/images/yu_serveices_2025_01.png" alt="yu_serveices_2025_01"></p>
 <p>我的大部分静态网站类服务都在 Cloudflare、Vercel 和 Zeabur 上，而容器类服务则是分布在各种 VPS、独立服务器、NAS 和各种 serverless 平台上，最近整理的时候也作了一大波迁移。</p>
 <p>Zeabur 貌似最近计费方式有了一些变化，感觉费用明显上涨，在没新增服务的情况下这个月超了 Developer Plan 5 美元额度不少，所以把一些消耗资源或是流量请求很大的都迁移走了，只保留了一些低消耗但对稳定性要求比较高的服务，例如博客访问统计系统这些。<a href="https://fly.io">fly.io</a> 因为还有免费额度，上面只跑了我博客的 Remark42 统计服务，也迁移到了最便宜的 IAD 区域，挂载了 3GB 的 Volume，基本上能控制在免费额度之下，持续观察中。</p>
-<p>由于之前有个比赛奖品之一是一年期的 AWS 一万多美元的 Credits，所以在机器上使用 Coolify 进行管理，把大部分的自用服务/开发环境放在了一台 8c32g 香港机房的机器上，可以直接使用现成的 Docker Compose 文件进行表述，也可以使用 Webhook 联动 GitHub 触发，基本上满足了我的需求，可玩性和定制化程度都要比 Zeabur 使用 k3s 的方案要高不少，数据库类的应用还很方便直接使用 S3 进行备份，等 AWS Credits 到期后可能也会迁移到 OVH 或者 Hetzner 独服上。</p>
+<p>由于之前有个比赛奖品之一是一年期的 AWS 一万多美元的 Credits，所以在机器上使用 Coolify 进行管理，把大部分的自用服务/开发环境放在了一台 8c32g 香港机房的机器上，可以直接使用现成的 Docker Compose 文件进行部署，也可以使用 Webhook 联动 GitHub 触发，基本上满足了我的需求，可玩性和定制化程度都要比 Zeabur 使用 k3s 的方案要高不少，数据库类的应用还很方便直接使用 S3 进行备份，等 AWS Credits 到期后可能也会迁移到 OVH 或者 Hetzner 独服上。</p>
 <h3 id="软件应用">软件应用</h3>
 <p><img src="https://image.pseudoyu.com/images/yu_app_screen.jpeg" alt="yu_app_screen"></p>
 <p>我是一个对软件工具很挑剔的人，不过从今年开始也开始主要降低手机上各类 App 的使用，电脑上也尽量简化了工作量和干扰，开始更多体验和支持一些独立开发者的项目，其他的软件工具等最近在 「<a href="https://github.com/pseudoyu/yu-tools">GitHub - pseudoyu/yu-tools</a>」会再更新一下，这里主要讲一下 AI 工作的使用。</p>
-<p>目前最高频使用也是依赖的是 Cursor Pro（年付了），日常使用它的补全、CMD+K 以及 Compose 模式进行工作和各类项目，都依赖的 Claude 3.5 Sonnet 模型，已经能协助我完成大部分的工作。另一个年付的是 <a href="https://x.com/strrlthedev">STRRL</a> 开发的 <a href="https://haye.ai">Haye AI</a> 项目，日常绑定了一个 CMD+E 快捷键来优化我的一些英文写作，也很偶尔地用它的对话框功能。</p>
+<p>目前最高频使用也是依赖的是 Cursor Pro（年付了），日常使用它的补全、CMD+K 以及 Composer（Agent）模式进行工作和各类项目，都依赖的 Claude 3.5 Sonnet 模型，已经能协助我完成大部分的工作。另一个年付的是 <a href="https://x.com/strrlthedev">STRRL</a> 开发的 <a href="https://haye.ai">Haye AI</a> 项目，日常绑定了一个 CMD+E 快捷键来优化我的一些英文写作，也很偶尔地用它的对话框功能。</p>
 <p>GitHub 一直给我续着 Copilot，我使用 <a href="https://chatwise.app">ChatWise</a> 项目来绑定使用 Claude 3.5 Sonnet 模型来进行一些小的编程类问题的 Chat，也绑定了我在 <a href="https://nekoapi.com">NekoAPI</a> 和 <a href="https://burn.hair">burn.hair</a> 上的 API Key 来使用 GPT-4o，ChatWise 还绑定了 <a href="https://tavily.com">Tavily</a> 的 API Key 来启用 Web Search 功能，可以代替 Perplexity 来使用；另外就是在 Kagi Search 的三个月试用中，作为一个搜索引擎其实倒是没有什么体验上的感知，不过还是有明显地减少我对 AI 生成内容的依赖，其实整体得到的信息质量是有提升的，但是 Kagi Summary 等功能几乎不太用。</p>
 <h2 id="有趣的事与物">有趣的事与物</h2>
 <h3 id="输入">输入</h3>
