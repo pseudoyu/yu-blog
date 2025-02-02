@@ -39,11 +39,7 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/36245596/' target='_blank'>在看我的阿勒泰</a> - 2025-01-23
-* <a href='http://movie.douban.com/subject/35662223/' target='_blank'>看过去有风的地方</a> - 2025-01-10
-* <a href='http://www.douban.com/game/35110438/' target='_blank'>最近在玩双人成行 It Takes Two</a> - 2025-01-10
-* <a href='http://movie.douban.com/subject/35656342/' target='_blank'>看过鱿鱼游戏 第二季</a> - 2025-01-06
-* <a href='https://book.douban.com/subject/34802764/' target='_blank'>最近在读加缪手记</a> - 2025-01-06
+
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
