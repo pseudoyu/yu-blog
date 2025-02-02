@@ -1,5 +1,5 @@
 ---
-title: "周报 #85 - 京华烟云 Moments in Peking"
+title: "周报 #85 - 京华烟云 Moment in Peking"
 date: 2025-02-03T03:56:00+08:00
 draft: false
 tags: ["review", "life", "beijing"]
@@ -16,9 +16,9 @@ authors:
 
 本篇是对 `2025-01-20` 到 `2025-01-26` 这周生活的记录与思考。
 
-一直很喜欢 Moments 这个词，林语堂的「京华烟云」的英文译名就是 Moments in Peking，似乎把在一个城市生活过的痕迹和点滴具象化了，所以也借用一下这一名称。
+一直很喜欢 Moment 这个词，林语堂的「京华烟云」的英文译名就是 Moment in Peking，似乎把在一个城市生活过的痕迹和点滴具象化了，所以也借用一下这一名称。
 
-## Moments in Peking
+## Moment in Peking
 
 去年年中的时候和学姐一起暂离了北京，在杭州生活至今。
 
