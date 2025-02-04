@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/36245596/' target='_blank'>在看我的阿勒泰</a> - 2025-01-23
-* <a href='http://movie.douban.com/subject/35662223/' target='_blank'>看过去有风的地方</a> - 2025-01-10
-* <a href='http://www.douban.com/game/35110438/' target='_blank'>最近在玩双人成行 It Takes Two</a> - 2025-01-10
-* <a href='http://movie.douban.com/subject/35656342/' target='_blank'>看过鱿鱼游戏 第二季</a> - 2025-01-06
-* <a href='https://book.douban.com/subject/34802764/' target='_blank'>最近在读加缪手记</a> - 2025-01-06
+* <a href='https://book.douban.com/subject/35506252/' target='_blank'>最近在读岩田先生</a> - 2025-02-04
+* <a href='http://movie.douban.com/subject/10571509/' target='_blank'>看过如父如子</a> - 2025-02-04
+* <a href='http://movie.douban.com/subject/35597581/' target='_blank'>看过瑞克和莫蒂 第六季</a> - 2025-02-04
+* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>看过葬送的芙莉莲</a> - 2025-02-04
+* <a href='http://movie.douban.com/subject/35669844/' target='_blank'>看过英雄联盟：双城之战 第二季</a> - 2025-02-03
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
