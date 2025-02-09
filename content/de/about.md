@@ -38,11 +38,7 @@ Ich hoffe, ich kann mehr Inputs wie neues Wissen und Ideen aufnehmen und mehr ku
 ### 🎧 Aktuelle Eindrücke
 
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/35506252/' target='_blank'>读过岩田先生</a> - 2025-02-04
-* <a href='http://movie.douban.com/subject/25848328/' target='_blank'>看过最后生还者 第一季</a> - 2025-02-04
-* <a href='http://movie.douban.com/subject/10571509/' target='_blank'>看过如父如子</a> - 2025-02-04
-* <a href='http://movie.douban.com/subject/35597581/' target='_blank'>看过瑞克和莫蒂 第六季</a> - 2025-02-04
-* <a href='http://movie.douban.com/subject/36093351/' target='_blank'>看过葬送的芙莉莲</a> - 2025-02-04
+
 <!-- douban ends -->
 
 ### 👨🏻‍💻 Diese Woche programmiere ich mit
