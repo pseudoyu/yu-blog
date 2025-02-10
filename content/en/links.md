@@ -42,6 +42,7 @@ rss_ignore: true
 {{< friend name="Another dayu" url="https://anotherdayu.com/" logo="https://anotherdayu.com/wp-content/uploads/2022/06/cropped-photo_2022-06-16-10.08.51.jpeg" word="Seize the day, gather ye rosebuds while ye may." >}}
 {{< friend name="UsubeniFantasy" url="https://ssshooter.com" logo="https://ssshooter.com/logo.png" word="Write like you're running out of time." >}}
 {{< friend name="王嘉祥" url="https://blog.jiaxiang.wang/" logo="https://blog.jiaxiang.wang/img/logo.webp" word="专注于科技、音乐等领域跨界创新，分享经验与见解" >}}
+{{< friend name="Eric's Blog" url="https://wsdjeg.net/" logo="https://wsdjeg.net/images/me.png" word="时光荏苒，岁月如梭" >}}
 </div>
 </div>
 
