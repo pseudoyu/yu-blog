@@ -39,11 +39,11 @@ rss_ignore: true
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/6874403/' target='_blank'>想看再次出发之纽约遇见你</a> - 2025-02-14
-* <a href='http://movie.douban.com/subject/35376457/' target='_blank'>想看爱情神话</a> - 2025-02-14
-* <a href='https://book.douban.com/subject/35506252/' target='_blank'>读过岩田先生</a> - 2025-02-04
-* <a href='http://movie.douban.com/subject/25848328/' target='_blank'>看过最后生还者 第一季</a> - 2025-02-04
-* <a href='http://movie.douban.com/subject/10571509/' target='_blank'>看过如父如子</a> - 2025-02-04
+* <a href='http://movie.douban.com/subject/35376457/' target='_blank'>看过爱情神话</a> - 2025-03-02
+* <a href='http://movie.douban.com/subject/36154853/' target='_blank'>看过好东西</a> - 2025-03-02
+* <a href='http://movie.douban.com/subject/36245596/' target='_blank'>看过我的阿勒泰</a> - 2025-03-02
+* <a href='https://book.douban.com/subject/25858068/' target='_blank'>最近在读100个基本</a> - 2025-03-02
+* <a href='http://movie.douban.com/subject/35783948/' target='_blank'>在看人生切割术 第二季</a> - 2025-03-02
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
