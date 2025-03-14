@@ -1,71 +1,71 @@
 name: deploy
 
 on:
-    push:
-    workflow_dispatch:
-    schedule:
-        # Runs everyday at 8:00 AM
-        - cron: '0 0 * * *'
+  push:
+  workflow_dispatch:
+  schedule:
+    # Runs everyday at 8:00 AM
+    - cron: "0 0 * * *"
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v2
-              with:
-                  submodules: true
-                  fetch-depth: 0
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
 
-            - name: Set up Python
-              uses: actions/setup-python@v2
-              with:
-                  python-version: 3.8
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
 
-            - uses: actions/cache@v2
-              name: Configure pip caching
-              with:
-                  path: ~/.cache/pip
-                  key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-                  restore-keys: |
-                      ${{ runner.os }}-pip-
+      - uses: actions/cache@v4
+        name: Configure pip caching
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
-            - name: Install Python dependencies
-              run: |
-                  python -m pip install -r requirements.txt
+      - name: Install Python dependencies
+        run: |
+          python -m pip install -r requirements.txt
 
-            - name: Update About Page
-              env:
-                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-              run: |-
-                  python build_about.py
-                  cat content/zh/about.md
+      - name: Update About Page
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |-
+          python build_about.py
+          cat content/zh/about.md
 
-            - name: Commit and push if changed
-              run: |-
-                  git diff
-                  git config --global user.email "action@github.com"
-                  git config --global user.name "GitHub Action"
-                  git add -A
-                  git commit -m "ci: update about page (automatically)" || exit 0
-                  git push
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          git commit -m "ci: update about page (automatically)" || exit 0
+          git push
 
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
-              with:
-                  hugo-version: 0.105.0
-                  extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 0.105.0
+          extended: true
 
-            - name: Build Web
-              run: hugo --gc --minify
+      - name: Build Web
+        run: hugo --gc --minify
 
-            - name: Run Pagefind
-              run: npm_config_yes=true npx pagefind --source "public"
+      - name: Run Pagefind
+        run: npm_config_yes=true npx pagefind --source "public"
 
-            - name: Deploy Web
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-                  PUBLISH_BRANCH: cf-pages
-                  PUBLISH_DIR: ./public
-                  commit_message: ${{ github.event.head_commit.message }}
+      - name: Deploy Web
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: cf-pages
+          PUBLISH_DIR: ./public
+          commit_message: ${{ github.event.head_commit.message }}
