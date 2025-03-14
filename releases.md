@@ -3,7 +3,7 @@
 All <!-- release_count starts -->20<!-- release_count ends --> of my released projects, ordered by the date of their most recent release.
 
 <!-- recent_releases starts -->
-* **[Web3Insights](https://github.com/pseudoyu/Web3Insights)**: [v0.1.0](https://github.com/pseudoyu/Web3Insights/releases/tag/v0.1.0)
+* **[Web3Insights](https://github.com/Web3Insights/Web3Insights)**: [v0.1.0](https://github.com/Web3Insights/Web3Insights/releases/tag/v0.1.0)
 <br>A comprehensive metric system for evaluating Web3 Ecosystems, Communities and Repos.
 * **[Protocol-Go](https://github.com/RSS3-Network/Protocol-Go)**: [v0.5.8](https://github.com/RSS3-Network/Protocol-Go/releases/tag/v0.5.8)
 <br>The Go Implementation of RSS3 Protocol.

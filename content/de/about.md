@@ -38,11 +38,11 @@ Ich hoffe, ich kann mehr Inputs wie neues Wissen und Ideen aufnehmen und mehr ku
 ### 🎧 Aktuelle Eindrücke
 
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/34990839/' target='_blank'>最近在读地下室手记</a> - 2025-03-13
+* <a href='http://movie.douban.com/subject/36990427/' target='_blank'>想看热点</a> - 2025-03-04
 * <a href='http://movie.douban.com/subject/35376457/' target='_blank'>看过爱情神话</a> - 2025-03-02
 * <a href='http://movie.douban.com/subject/36154853/' target='_blank'>看过好东西</a> - 2025-03-02
 * <a href='http://movie.douban.com/subject/36245596/' target='_blank'>看过我的阿勒泰</a> - 2025-03-02
-* <a href='https://book.douban.com/subject/25858068/' target='_blank'>最近在读100个基本</a> - 2025-03-02
-* <a href='http://movie.douban.com/subject/35783948/' target='_blank'>在看人生切割术 第二季</a> - 2025-03-02
 <!-- douban ends -->
 
 ### 👨🏻‍💻 Diese Woche programmiere ich mit
@@ -61,7 +61,7 @@ Other      50 mins        ▋░░░░░░░░░░░░░░░░░
 ### 💻 Aktuelle Veröffentlichungen
 
 <!-- recent_releases starts -->
-* <a href=https://github.com/pseudoyu/Web3Insights/releases/tag/v0.1.0 target='_blank'>Web3Insights v0.1.0</a>
+* <a href=https://github.com/Web3Insights/Web3Insights/releases/tag/v0.1.0 target='_blank'>Web3Insights v0.1.0</a>
 * <a href=https://github.com/RSS3-Network/Protocol-Go/releases/tag/v0.5.8 target='_blank'>Protocol-Go v0.5.8</a>
 * <a href=https://github.com/djyde/icondog/releases/tag/v0.0.1 target='_blank'>icondog 0.0.1</a>
 * <a href=https://github.com/pseudoyu/blockchain-guide/releases/tag/v0.1.0 target='_blank'>blockchain-guide 区块链入门指南</a>
